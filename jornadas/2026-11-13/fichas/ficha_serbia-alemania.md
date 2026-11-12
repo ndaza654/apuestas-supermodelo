@@ -209,7 +209,7 @@ Muestra: local 7, visitante 7, directos 1. Esperado: local 3.5, visitante 5.64, 
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
+- Felix Nmecha — entradas: 1+ @1.19 · col +1.6 · 5 de 5 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos
 

@@ -3,6 +3,7 @@
 
 Entradas:  betano/<clave>.json   (recoleccion/betano.py: {meta, betano})
            flashscore/<clave>.json (recoleccion/flashscore_extraer.js: contexto del partido)  [opcional]
+           jugadores/<clave>.json (historial por jugador de la alineación probable, de Flashscore)  [opcional]
            notas/<clave>.json    (lectura de la situación hecha por Claude: importancia, motivación, rotación… ver NOTAS_EJEMPLO)  [opcional]
 Salida:    entradas/<clave>.json
 Lo que falta se deja VACÍO y se declara en ficha.dudas / ficha.faltan; nunca se rellena con supuestos.
@@ -101,7 +102,28 @@ def jugadores_de(lu, betano, hora_lectura=''):
     return out, sin_casar
 
 
-def armar(b, fs=None, notas=None):
+def hist_de(jug, betano):
+    """Historial por jugador de Flashscore (jugadores/<clave>.json) → ficha.jugadores_hist con los nombres de Betano.
+    Cada aparición: [mid, fecha, min, remates, al_arco, goles, asist, amarillas, rojas, faltas, entradas] (la más reciente primero).
+    Solo cuenta lo jugado dentro de los últimos 7 partidos oficiales del equipo; el resto no se inventa."""
+    out, sin = {}, []
+    nombres = sorted({j['jugador'] for j in betano.get('jugadores', [])})
+    for fs_n, d in (jug or {}).items():
+        cas = [n for n in nombres if coincide(fs_n, n)]
+        if len(cas) != 1:
+            if d.get('p'):
+                sin.append(fs_n)
+            continue
+        partidos = []
+        for a in d['p']:
+            mid, fecha, mn, sh, sot, g, asi, am, ro, fa, en = a
+            partidos.append({'fecha': fecha, 'mid': mid, 'min': mn, 'remates': sh, 'al_arco': sot, 'goles': g, 'asist': asi,
+                             'tarjeta': (am or 0) + (ro or 0), 'faltas': fa, 'entradas': en})
+        out[cas[0]] = {'pos': d.get('pos'), 'partidos': partidos}
+    return out, sin
+
+
+def armar(b, fs=None, notas=None, jug=None):
     meta, bet = b['meta'], b['betano']
     notas = notas or {}
     ini = dt.datetime.fromisoformat(meta['inicio_utc'].replace('Z', '+00:00')) - dt.timedelta(hours=5)     # hora de Bogotá
@@ -123,7 +145,12 @@ def armar(b, fs=None, notas=None):
         faltan.append('estadísticas de los últimos partidos (sin Flashscore)')
     if not notas:
         faltan.append('lectura de la situación (importancia, motivación, rotación, tabla)')
-    if not notas.get('jugadores_hist'):
+    if not ficha['jugadores_hist'] and jug:
+        ficha['jugadores_hist'], sin_h = hist_de(jug, bet)
+        ficha['fuentes'] = ficha['fuentes'] + ['Flashscore (estadísticas de jugadores de los últimos 7 partidos de cada selección; solo jugadores de la alineación probable)']
+        if sin_h:
+            dudas.append('Historial: sin casar con Betano → ' + ', '.join(sin_h))
+    if not ficha['jugadores_hist']:
         faltan.append('historial por jugador (remates, tiros al arco): sin él los mercados de jugadores no se pueden filtrar')
     ficha['faltan'] = faltan
     jugadores = notas.get('jugadores', [])
@@ -155,7 +182,7 @@ def main(argv):
         b = cargar('betano', k)
         if not b:
             print(f'{k}: sin betano/{k}.json'); continue
-        e = armar(b, cargar('flashscore', k), cargar('notas', k))
+        e = armar(b, cargar('flashscore', k), cargar('notas', k), cargar('jugadores', k))
         json.dump(e, open(os.path.join(base, 'entradas', k + '.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=0)
         print(f"{k:34s} forma={len(e['ficha']['forma']['local'])}/{len(e['ficha']['forma']['visitante'])} h2h={len(e['ficha'].get('h2h', []))} faltan={len(e['ficha']['faltan'])}")
     return 0

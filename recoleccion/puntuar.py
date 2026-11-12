@@ -56,6 +56,10 @@ def puntuar_datos(e, F):
         det.append('Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco')
     n_j = len({j['jugador'] for j in bet.get('jugadores', [])})
     js = [j for j in F['jugadores'] if j['stat'] in ('remates', 'al_arco')]
+    if any(j.get('titular') is not None for j in F['jugadores']):      # hay alineación: solo cuentan los del XI probable (regla 1)
+        xi = {j['jugador'] for j in F['jugadores'] if (j.get('titular') or 0) >= 0.6}
+        js = [j for j in js if j['jugador'] in xi]
+        n_j = len(xi)
     if n_j and js:
         con_hist = sum(1 for j in js if j['partidos_muestra'] >= 5) / len(js)
         con_xi = sum(1 for j in js if (j.get('titular') or 0) >= 0.6) / len(js)

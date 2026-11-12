@@ -39,4 +39,12 @@ lu = {'tipo': 'Alineaciones probables', 'probables': {'L': [{'n': 'Malen D.'}], 
 bet = {'jugadores': [{'jugador': 'Donyell Malen', 'lado': 'local'}, {'jugador': 'Vangelis Pavlidis', 'lado': 'visitante'}, {'jugador': 'Cody Gakpo', 'lado': 'local'}]}
 jj, sin = A.jugadores_de(lu, bet, '12-nov 13:00')
 check({j['nombre'] for j in jj if not j.get('fuera')} == {'Donyell Malen', 'Vangelis Pavlidis'} and any(j['nombre'] == 'Cody Gakpo' and j.get('fuera') for j in jj) and not sin, 'la alineación probable marca titulares y bajas')
+
+# --- historial por jugador (Flashscore) y baja que contradice el XI ---
+lu2 = {'tipo': 'Alineaciones probables', 'probables': {'L': [{'n': 'Malen D.'}, {'n': 'Gakpo C.'}], 'V': []}, 'bajas': {'L': [{'n': 'Gakpo C.', 'motivo': 'Lesión'}], 'V': []}}
+jj2, _ = A.jugadores_de(lu2, bet, '')
+check(len([j for j in jj2 if j['nombre'] == 'Cody Gakpo']) == 1 and next(j for j in jj2 if j['nombre'] == 'Cody Gakpo').get('fuera') and next(j for j in jj2 if j['nombre'] == 'Cody Gakpo').get('conflicto_xi'), 'si un jugador sale en el XI y en bajas, manda la baja')
+hist, sin_h = A.hist_de({'Malen D.': {'pos': 'Extremo', 'p': [['m1', '2026-10-01', 72, 2, 0, 0, 0, 1, 0, 3, 1]]}, 'Nadie X.': {'pos': None, 'p': [['m2', '2026-10-01', 90, 0, 0, 0, 0, 0, 0, 0, 0]]}}, bet)
+pp = hist['Donyell Malen']['partidos'][0]
+check(pp['min'] == 72 and pp['remates'] == 2 and pp['tarjeta'] == 1 and pp['faltas'] == 3 and sin_h == ['Nadie X.'], 'el historial de Flashscore pasa a ficha.jugadores_hist con nombres de Betano')
 print(f'\n{ok} pruebas de recolección superadas')

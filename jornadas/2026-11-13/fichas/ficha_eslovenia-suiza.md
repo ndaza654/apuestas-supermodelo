@@ -71,7 +71,7 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 2.29, visitante 5.36,
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
+- Dan Ndoye — anota_o_asiste: Sí @1.98 · 5 de 7 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos
 
@@ -79,4 +79,4 @@ _Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'alta', 'rotacion': False, 'necesita_ganar': True, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'alta', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Alineación probable: sin casar con Betano → Gnezda Cerin A.']
+- Dudas: ['Historial: sin casar con Betano → Gnezda Cerin A.', 'Alineación probable: sin casar con Betano → Gnezda Cerin A.']

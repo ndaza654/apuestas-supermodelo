@@ -161,4 +161,4 @@ _Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'alta', 'rotacion': False, 'necesita_ganar': True, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'baja', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Alineación probable: sin casar con Betano → Gannon-Doak B.', 'Luis Binks: Flashscore lo lista en el XI probable y también como baja; se toma como baja']
+- Dudas: ['Historial: sin casar con Betano → Gannon-Doak B.', 'Alineación probable: sin casar con Betano → Gannon-Doak B.', 'Luis Binks: Flashscore lo lista en el XI probable y también como baja; se toma como baja']

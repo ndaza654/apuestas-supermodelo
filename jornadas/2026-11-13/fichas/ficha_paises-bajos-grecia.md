@@ -209,7 +209,10 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 5.64, visitante 4.71,
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
+- Denzel Dumfries — remates: 1+ @1.27 · col +0.6 · 5 de 7 (titular 0.90)
+- Konstantinos Karetsas — remates: 1+ @1.2 · col +1.1 · 5 de 7 (titular 0.90)
+- Konstantinos Mavropanos — remates: 1+ @1.4 · col +1.0 · 5 de 5 (titular 0.90)
+- Konstantinos Tsimikas — entradas: 1+ @1.12 · col +0.9 · 6 de 7 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos
 
