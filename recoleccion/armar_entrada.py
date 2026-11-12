@@ -94,7 +94,10 @@ def jugadores_de(lu, betano, hora_lectura=''):
         for p in lu.get('bajas', {}).get(lado_fs, []):
             cas = [n for n, ld in nombres if coincide(p['n'], n)]
             for n in cas[:1]:
-                out.append({'nombre': n, 'lado': lado, 'titular': 0.0, 'minutos': 0, 'fuera': True, 'fuente': fuente + ' · baja: ' + (p.get('motivo') or '')})
+                choque = [j for j in out if j['nombre'] == n and not j.get('fuera')]
+                out[:] = [j for j in out if j not in choque]          # la baja manda sobre el XI probable
+                out.append({'nombre': n, 'lado': lado, 'titular': 0.0, 'minutos': 0, 'fuera': True, 'conflicto_xi': bool(choque),
+                            'fuente': fuente + ' · baja: ' + (p.get('motivo') or '') + (' · figura también en el XI probable (Flashscore se contradice)' if choque else '')})
     return out, sin_casar
 
 
@@ -128,6 +131,9 @@ def armar(b, fs=None, notas=None):
         jugadores, sin = jugadores_de(fs['lineups'], bet, fs.get('lineups_leidas', ''))
         if sin:
             dudas.append('Alineación probable: sin casar con Betano → ' + ', '.join(sin))
+        for j in jugadores:
+            if j.get('conflicto_xi'):
+                dudas.append(f"{j['nombre']}: Flashscore lo lista en el XI probable y también como baja; se toma como baja")
         if jugadores:
             ficha['fuentes'] = ficha['fuentes'] + ['Flashscore (alineaciones probables y bajas)']
     if not jugadores and bet.get('jugadores'):

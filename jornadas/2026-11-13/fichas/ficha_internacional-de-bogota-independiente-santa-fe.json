@@ -1,0 +1,1663 @@
+{
+ "encuentro": "Internacional de Bogota - Independiente Santa Fe",
+ "liga": "Colombia Categoría Primera A",
+ "fecha": "2026-11-13 20:30",
+ "cuotas_leidas": "Cuotas de Betano leídas 2026-11-12T17:32:29.196Z · 75 mercados",
+ "regla": {
+  "muestra": "últimos 7 de cada equipo (cualquier sede) + directos",
+  "cumple": "5 de 7 (n mínimo 5)",
+  "colchon": "informativo: esperado − línea"
+ },
+ "corners": {
+  "mercado": "corners",
+  "titulo": "Córners",
+  "n_local": 7,
+  "n_visitante": 7,
+  "n_directos": 7,
+  "esperado": {
+   "local": 4.29,
+   "visitante": 6.43,
+   "total": 10.71
+  },
+  "promedios": {
+   "local_a_favor": 4.86,
+   "local_en_contra": 8.14,
+   "visitante_a_favor": 4.71,
+   "visitante_en_contra": 3.71
+  },
+  "series": {
+   "local": [
+    [
+     3.0,
+     10.0
+    ],
+    [
+     11.0,
+     7.0
+    ],
+    [
+     5.0,
+     11.0
+    ],
+    [
+     2.0,
+     7.0
+    ],
+    [
+     3.0,
+     6.0
+    ],
+    [
+     3.0,
+     10.0
+    ],
+    [
+     7.0,
+     6.0
+    ]
+   ],
+   "visitante": [
+    [
+     3.0,
+     3.0
+    ],
+    [
+     6.0,
+     2.0
+    ],
+    [
+     9.0,
+     6.0
+    ],
+    [
+     3.0,
+     1.0
+    ],
+    [
+     4.0,
+     3.0
+    ],
+    [
+     5.0,
+     4.0
+    ],
+    [
+     3.0,
+     7.0
+    ]
+   ],
+   "directos": [
+    [
+     1.0,
+     4.0
+    ],
+    [
+     4.0,
+     6.0
+    ],
+    [
+     3.0,
+     7.0
+    ],
+    [
+     6.0,
+     7.0
+    ],
+    [
+     7.0,
+     4.0
+    ],
+    [
+     5.0,
+     4.0
+    ],
+    [
+     1.0,
+     6.0
+    ]
+   ]
+  },
+  "lineas": [
+   {
+    "ambito": "1T",
+    "linea": 4.5,
+    "mas": {
+     "cuota": 1.72
+    },
+    "menos": {
+     "cuota": 2.05
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "local",
+    "linea": 4.5,
+    "esperado": 4.29,
+    "mas": {
+     "cuota": 1.8,
+     "colchon": -0.21,
+     "reg_local": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 7,
+      "txt": "2 de 7",
+      "cumple": false
+     },
+     "directos": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 10.5,
+    "esperado": 10.71,
+    "mas": {
+     "cuota": 2.02,
+     "colchon": 0.21,
+     "reg_local": {
+      "x": 5,
+      "n": 7,
+      "txt": "5 de 7",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 1,
+      "n": 7,
+      "txt": "1 de 7",
+      "cumple": false
+     },
+     "directos": {
+      "x": 2,
+      "n": 7,
+      "txt": "2 de 7",
+      "cumple": false
+     },
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.75,
+     "colchon": -0.21,
+     "reg_local": {
+      "x": 2,
+      "n": 7,
+      "txt": "2 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 6,
+      "n": 7,
+      "txt": "6 de 7",
+      "cumple": true
+     },
+     "directos": {
+      "x": 5,
+      "n": 7,
+      "txt": "5 de 7",
+      "cumple": true
+     },
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "visitante",
+    "linea": 5.5,
+    "esperado": 6.43,
+    "mas": {
+     "cuota": 1.95,
+     "colchon": 0.93,
+     "reg_local": {
+      "x": 7,
+      "n": 7,
+      "txt": "7 de 7",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 7,
+      "txt": "2 de 7",
+      "cumple": false
+     },
+     "directos": {
+      "x": 4,
+      "n": 7,
+      "txt": "4 de 7",
+      "cumple": false
+     },
+     "cumple": false
+    }
+   }
+  ]
+ },
+ "partido": {
+  "faltas": {
+   "mercado": "faltas",
+   "titulo": "Faltas",
+   "n_local": 5,
+   "n_visitante": 6,
+   "n_directos": 7,
+   "esperado": {
+    "local": 11.17,
+    "visitante": 11.07,
+    "total": 22.23
+   },
+   "promedios": {
+    "local_a_favor": 10.0,
+    "local_en_contra": 11.8,
+    "visitante_a_favor": 10.33,
+    "visitante_en_contra": 12.33
+   },
+   "series": {
+    "local": [
+     [
+      14.0,
+      11.0
+     ],
+     [
+      5.0,
+      10.0
+     ],
+     [
+      15.0,
+      15.0
+     ],
+     [
+      9.0,
+      10.0
+     ],
+     [
+      7.0,
+      13.0
+     ]
+    ],
+    "visitante": [
+     [
+      7.0,
+      10.0
+     ],
+     [
+      15.0,
+      20.0
+     ],
+     [
+      11.0,
+      11.0
+     ],
+     [
+      8.0,
+      9.0
+     ],
+     [
+      11.0,
+      14.0
+     ],
+     [
+      10.0,
+      10.0
+     ]
+    ],
+    "directos": [
+     [
+      8.0,
+      5.0
+     ],
+     [
+      12.0,
+      10.0
+     ],
+     [
+      11.0,
+      7.0
+     ],
+     [
+      12.0,
+      15.0
+     ],
+     [
+      10.0,
+      17.0
+     ],
+     [
+      11.0,
+      10.0
+     ],
+     [
+      14.0,
+      12.0
+     ]
+    ]
+   },
+   "lineas": []
+  },
+  "fueras": {
+   "mercado": "fueras",
+   "titulo": "Fueras de juego",
+   "n_local": 5,
+   "n_visitante": 6,
+   "n_directos": 7,
+   "esperado": {
+    "local": 1.98,
+    "visitante": 1.57,
+    "total": 3.55
+   },
+   "promedios": {
+    "local_a_favor": 1.8,
+    "local_en_contra": 1.8,
+    "visitante_a_favor": 1.33,
+    "visitante_en_contra": 2.17
+   },
+   "series": {
+    "local": [
+     [
+      5.0,
+      1.0
+     ],
+     [
+      0.0,
+      2.0
+     ],
+     [
+      2.0,
+      1.0
+     ],
+     [
+      2.0,
+      3.0
+     ],
+     [
+      0.0,
+      2.0
+     ]
+    ],
+    "visitante": [
+     [
+      1.0,
+      2.0
+     ],
+     [
+      0.0,
+      2.0
+     ],
+     [
+      3.0,
+      4.0
+     ],
+     [
+      0.0,
+      3.0
+     ],
+     [
+      2.0,
+      0.0
+     ],
+     [
+      2.0,
+      2.0
+     ]
+    ],
+    "directos": [
+     [
+      1.0,
+      1.0
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      2.0,
+      5.0
+     ],
+     [
+      2.0,
+      0.0
+     ],
+     [
+      4.0,
+      0.0
+     ],
+     [
+      3.0,
+      2.0
+     ],
+     [
+      1.0,
+      2.0
+     ]
+    ]
+   },
+   "lineas": []
+  },
+  "saques_banda": {
+   "mercado": "saques_banda",
+   "titulo": "Saques de banda",
+   "n_local": 5,
+   "n_visitante": 6,
+   "n_directos": 7,
+   "esperado": {
+    "local": 18.72,
+    "visitante": 16.18,
+    "total": 34.9
+   },
+   "promedios": {
+    "local_a_favor": 19.6,
+    "local_en_contra": 16.2,
+    "visitante_a_favor": 16.17,
+    "visitante_en_contra": 17.83
+   },
+   "series": {
+    "local": [
+     [
+      21.0,
+      12.0
+     ],
+     [
+      15.0,
+      10.0
+     ],
+     [
+      19.0,
+      19.0
+     ],
+     [
+      23.0,
+      19.0
+     ],
+     [
+      20.0,
+      21.0
+     ]
+    ],
+    "visitante": [
+     [
+      21.0,
+      15.0
+     ],
+     [
+      15.0,
+      16.0
+     ],
+     [
+      13.0,
+      21.0
+     ],
+     [
+      13.0,
+      17.0
+     ],
+     [
+      20.0,
+      14.0
+     ],
+     [
+      15.0,
+      24.0
+     ]
+    ],
+    "directos": [
+     [
+      15.0,
+      23.0
+     ],
+     [
+      7.0,
+      27.0
+     ],
+     [
+      20.0,
+      23.0
+     ],
+     [
+      22.0,
+      30.0
+     ],
+     [
+      32.0,
+      22.0
+     ],
+     [
+      25.0,
+      21.0
+     ],
+     [
+      28.0,
+      26.0
+     ]
+    ]
+   },
+   "lineas": []
+  },
+  "saques_meta": {
+   "mercado": "saques_meta",
+   "titulo": "Saques de meta",
+   "n_local": 5,
+   "n_visitante": 6,
+   "n_directos": 0,
+   "esperado": {
+    "local": 10.75,
+    "visitante": 7.13,
+    "total": 17.88
+   },
+   "promedios": {
+    "local_a_favor": 12.0,
+    "local_en_contra": 5.6,
+    "visitante_a_favor": 8.67,
+    "visitante_en_contra": 9.5
+   },
+   "series": {
+    "local": [
+     [
+      7.0,
+      7.0
+     ],
+     [
+      15.0,
+      10.0
+     ],
+     [
+      9.0,
+      2.0
+     ],
+     [
+      17.0,
+      5.0
+     ],
+     [
+      12.0,
+      4.0
+     ]
+    ],
+    "visitante": [
+     [
+      7.0,
+      10.0
+     ],
+     [
+      5.0,
+      10.0
+     ],
+     [
+      7.0,
+      8.0
+     ],
+     [
+      11.0,
+      11.0
+     ],
+     [
+      16.0,
+      10.0
+     ],
+     [
+      6.0,
+      8.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "remates": {
+   "mercado": "remates",
+   "titulo": "Remates",
+   "n_local": 7,
+   "n_visitante": 7,
+   "n_directos": 7,
+   "esperado": {
+    "local": 11.07,
+    "visitante": 14.43,
+    "total": 25.5
+   },
+   "promedios": {
+    "local_a_favor": 10.43,
+    "local_en_contra": 15.0,
+    "visitante_a_favor": 13.86,
+    "visitante_en_contra": 11.71
+   },
+   "series": {
+    "local": [
+     [
+      6.0,
+      12.0
+     ],
+     [
+      12.0,
+      10.0
+     ],
+     [
+      15.0,
+      19.0
+     ],
+     [
+      4.0,
+      12.0
+     ],
+     [
+      7.0,
+      21.0
+     ],
+     [
+      11.0,
+      12.0
+     ],
+     [
+      18.0,
+      19.0
+     ]
+    ],
+    "visitante": [
+     [
+      17.0,
+      10.0
+     ],
+     [
+      15.0,
+      9.0
+     ],
+     [
+      10.0,
+      14.0
+     ],
+     [
+      6.0,
+      6.0
+     ],
+     [
+      19.0,
+      11.0
+     ],
+     [
+      17.0,
+      16.0
+     ],
+     [
+      13.0,
+      16.0
+     ]
+    ],
+    "directos": [
+     [
+      18.0,
+      14.0
+     ],
+     [
+      6.0,
+      20.0
+     ],
+     [
+      14.0,
+      13.0
+     ],
+     [
+      9.0,
+      14.0
+     ],
+     [
+      14.0,
+      11.0
+     ],
+     [
+      11.0,
+      16.0
+     ],
+     [
+      10.0,
+      17.0
+     ]
+    ]
+   },
+   "lineas": []
+  },
+  "al_arco": {
+   "mercado": "al_arco",
+   "titulo": "Tiros al arco",
+   "n_local": 7,
+   "n_visitante": 7,
+   "n_directos": 7,
+   "esperado": {
+    "local": 4.0,
+    "visitante": 5.14,
+    "total": 9.14
+   },
+   "promedios": {
+    "local_a_favor": 3.86,
+    "local_en_contra": 5.0,
+    "visitante_a_favor": 5.29,
+    "visitante_en_contra": 4.14
+   },
+   "series": {
+    "local": [
+     [
+      2.0,
+      3.0
+     ],
+     [
+      5.0,
+      4.0
+     ],
+     [
+      7.0,
+      7.0
+     ],
+     [
+      1.0,
+      5.0
+     ],
+     [
+      2.0,
+      3.0
+     ],
+     [
+      6.0,
+      9.0
+     ],
+     [
+      4.0,
+      4.0
+     ]
+    ],
+    "visitante": [
+     [
+      8.0,
+      2.0
+     ],
+     [
+      6.0,
+      3.0
+     ],
+     [
+      5.0,
+      6.0
+     ],
+     [
+      1.0,
+      2.0
+     ],
+     [
+      6.0,
+      4.0
+     ],
+     [
+      7.0,
+      2.0
+     ],
+     [
+      4.0,
+      10.0
+     ]
+    ],
+    "directos": [
+     [
+      4.0,
+      7.0
+     ],
+     [
+      3.0,
+      5.0
+     ],
+     [
+      5.0,
+      5.0
+     ],
+     [
+      2.0,
+      3.0
+     ],
+     [
+      2.0,
+      7.0
+     ],
+     [
+      4.0,
+      6.0
+     ],
+     [
+      3.0,
+      3.0
+     ]
+    ]
+   },
+   "lineas": []
+  }
+ },
+ "jugadores": [
+  {
+   "jugador": "Hugo Rodallega",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 1.88,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Fabricio Sanguinetti",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 2.57,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Franco Fagundez",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 2.57,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Omar Fernandez",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 2.8,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Diego Duarte",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 2.85,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Yojan Garces",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 3.2,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Maximiliano Lovera",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 3.2,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Alexis Zapata",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 3.2,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Facundo Bone",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 3.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Hather Cuesta",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 3.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Emilio Gutierrez",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 3.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Cristian Dajome",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 3.85,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Jáder Obrian",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 4.05,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Luis Palacios",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 4.05,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Andres Amaya",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 4.4,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Emerson Rodriguez",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 4.4,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Yilmar Velasquez",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 4.4,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Cristhian Portocarrero",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 4.4,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Sebastián Girado",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 4.8,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Johan Caballero",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 4.8,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Bayron Caicedo",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 4.8,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Deivid Castro",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 4.8,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Fabian Chaverra",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 4.8,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Ewil Murillo",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 5.1,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Jhojan Torres",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 6.1,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Kilian Toscano",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 6.1,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Ruben Manjarres",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 6.3,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Mateo Santamaria",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 6.7,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Dewar Victoria",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 6.7,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Joan Castro",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 6.7,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Ronaldo Julio",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 6.7,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Dani Torres",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 6.8,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Dannovi Quinonez",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 7.4,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Larry Vasquez",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 7.4,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Miguel Pernia",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 7.4,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Jhon Jaider Palomeque Calvo",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.0,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Daniel Rodas",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Jeison Angulo",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Christian Mafla",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Emmanuel Olivera",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Helibelton Palacios",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Mateo Puerta",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Jhojan Zúñiga",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Miguel Amaya",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 10.0,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Carlos Vivas",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 10.0,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Yulian Gomez",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 10.0,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Juan Quintero",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 11.5,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Iván Scarpeta",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 11.5,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Victor Moreno",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 11.5,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Agustin Irazoque",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 14.0,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  }
+ ],
+ "contexto": {
+  "arbitro": "Villa Zapata J. A.",
+  "clima": null,
+  "derbi": false,
+  "importancia": "baja",
+  "local": {
+   "estilo": [],
+   "motivacion": "baja",
+   "rotacion": false,
+   "necesita_ganar": false,
+   "perfil_corners": {}
+  },
+  "visitante": {
+   "estilo": [],
+   "motivacion": "normal",
+   "rotacion": false,
+   "necesita_ganar": false,
+   "perfil_corners": {}
+  },
+  "bajas": [],
+  "dudas": [
+   "Última fecha (19) de la Liga BetPlay 2026-II: Santa Fe ya clasificado (5.º, 31 pts) y Inter de Bogotá fuera de los ocho (13.º, 20 pts; el 8.º tiene 27): posible rotación de Santa Fe, sin confirmar. No se leyó la tabla del descenso, que podría darle motivo a Inter."
+  ],
+  "fuentes": [
+   "Publimetro 9-nov-2026, tabla Liga BetPlay 2026-II con 18 fechas (los ocho van a cuadrangulares)",
+   "Descanso: Inter jugó la Copa Colombia el 10-nov (Flashscore); Santa Fe el 8-nov.",
+   "Flashscore (últimos partidos, estadísticas y H2H)"
+  ]
+ }
+}
