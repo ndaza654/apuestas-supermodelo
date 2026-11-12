@@ -67,6 +67,70 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 9.21, visitante 14.0,
 ### Tiros al arco
 Muestra: local 7, visitante 7, directos 3. Esperado: local 2.29, visitante 5.36, **total 7.64** (local 2.43 a favor / 4.29 en contra; visitante 6.43 / 2.14).
 
+## Goles y tarjetas (para los agentes de goles-resultado y tarjetas; no entran en el ranking)
+
+### Goles
+_Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T._
+Muestra: local 7, visitante 7, directos 3. Esperado: local 0.71, visitante 1.5, **total 2.21** (local 0.86 a favor / 0.86 en contra; visitante 2.14 / 0.57).
+
+**total**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 0.5 | @1.09 · col +1.7 · L 5 de 7 · V 7 de 7 · D 2 de 3 ✓ | @7.6 · col -1.7 · L 2 de 7 · V 0 de 7 · D 1 de 3 |
+| 1.5 | @1.4 · col +0.7 · L 5 de 7 · V 6 de 7 · D 2 de 3 ✓ | @2.95 · col -0.7 · L 2 de 7 · V 1 de 7 · D 1 de 3 |
+| 1.75 | @1.5 · col +0.5 · L 2 de 7 · V 5 de 7 · D 2 de 3 | @2.65 · col -0.5 · L 2 de 7 · V 1 de 7 · D 1 de 3 |
+| 2.0 | @1.67 · col +0.2 · L 2 de 7 · V 5 de 7 · D 2 de 3 | @2.27 · col -0.2 · L 2 de 7 · V 1 de 7 · D 1 de 3 |
+| 2.25 | @1.93 · col -0.0 · L 2 de 7 · V 5 de 7 · D 2 de 3 | @1.91 · col +0.0 · L 2 de 7 · V 1 de 7 · D 1 de 3 |
+| 2.5 | @2.18 · col -0.3 · L 2 de 7 · V 5 de 7 · D 2 de 3 | @1.7 · col +0.3 · L 5 de 7 · V 2 de 7 · D 1 de 3 |
+| 2.75 | @2.57 · col -0.5 · L 0 de 7 · V 1 de 7 · D 0 de 3 | @1.53 · col +0.5 · L 5 de 7 · V 2 de 7 · D 1 de 3 |
+| 3.0 | @3.25 · col -0.8 · L 0 de 7 · V 1 de 7 · D 0 de 3 | @1.36 · col +0.8 · L 5 de 7 · V 2 de 7 · D 1 de 3 |
+| 3.5 | @3.9 · col -1.3 · L 0 de 7 · V 1 de 7 · D 0 de 3 | @1.26 · col +1.3 · L 7 de 7 · V 6 de 7 · D 3 de 3 ✓ |
+| 4.5 | @7.5 · col -2.3 · L 0 de 7 · V 0 de 7 · D 0 de 3 | @1.09 · col +2.3 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ |
+| 5.5 | @13.0 · col -3.3 · L 0 de 7 · V 0 de 7 · D 0 de 3 | @1.03 · col +3.3 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ |
+
+**local**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 0.5 | @1.72 · col +0.2 · L 4 de 7 · V 2 de 7 · D 1 de 3 | @2.05 · col -0.2 · L 3 de 7 · V 5 de 7 · D 2 de 3 |
+| 1.5 | @4.35 · col -0.8 · L 2 de 7 · V 1 de 7 · D 0 de 3 | @1.19 · col +0.8 · L 5 de 7 · V 6 de 7 · D 3 de 3 ✓ |
+| 2.5 | @9.75 · col -1.8 · L 0 de 7 · V 1 de 7 · D 0 de 3 | @1.03 · col +1.8 · L 7 de 7 · V 6 de 7 · D 3 de 3 ✓ |
+
+**visitante**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 0.5 | @1.2 · col +1.0 · L 4 de 7 · V 7 de 7 · D 2 de 3 | @4.2 · col -1.0 · L 3 de 7 · V 0 de 7 · D 1 de 3 |
+| 1.5 | @1.93 · col +0.0 · L 2 de 7 · V 5 de 7 · D 2 de 3 | @1.82 · col +0.0 · L 5 de 7 · V 2 de 7 · D 1 de 3 |
+| 2.5 | @3.8 · col -1.0 · L 0 de 7 · V 3 de 7 · D 1 de 3 | @1.24 · col +1.0 · L 7 de 7 · V 4 de 7 · D 2 de 3 |
+| 3.5 | @7.5 · col -2.0 · L 0 de 7 · V 0 de 7 · D 0 de 3 | @1.07 · col +2.0 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ |
+
+### Tarjetas (solo amarillas)
+_Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._
+Muestra: local 7, visitante 7, directos 3. Esperado: local 2.86, visitante 1.21, **total 4.07** (local 2.86 a favor / 1.29 en contra; visitante 1.14 / 2.86).
+
+**total**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 3.5 | @1.72 · col +0.6 · L 4 de 7 · V 4 de 7 · D 1 de 3 | @2.05 · col -0.6 · L 3 de 7 · V 3 de 7 · D 2 de 3 |
+
+**local**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 0.5 | @1.67 · col +2.4 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ | @2.12 · col -2.4 · L 0 de 7 · V 0 de 7 · D 0 de 3 |
+| 1.5 | @2.12 · col +1.4 · L 4 de 7 · V 6 de 7 · D 2 de 3 | @1.67 · col -1.4 · L 3 de 7 · V 1 de 7 · D 1 de 3 |
+| 2.5 | @2.27 · col +0.4 · L 4 de 7 · V 4 de 7 · D 1 de 3 | @1.6 · col -0.4 · L 3 de 7 · V 3 de 7 · D 2 de 3 |
+
+**visitante**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 0.5 | @2.02 · col +0.7 · L 6 de 7 · V 3 de 7 · D 1 de 3 | @1.75 · col -0.7 · L 1 de 7 · V 4 de 7 · D 2 de 3 |
+| 1.5 | @1.85 · col -0.3 · L 3 de 7 · V 2 de 7 · D 0 de 3 | @1.9 · col +0.3 · L 4 de 7 · V 5 de 7 · D 3 de 3 |
+
 ## Jugadores (solo líneas que cumplen la regularidad; el JSON trae todas)
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)

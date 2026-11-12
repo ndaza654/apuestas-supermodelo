@@ -15,10 +15,13 @@ El usuario decide y apuesta; tú entregas probabilidad, cuota, regularidad y lí
 ## Etapa 2 — Análisis (no necesita navegador; puede correr en la nube de madrugada)
 1. `python3 recoleccion/correr_jornada.py jornadas/<día>` → entradas, fichas, informes del modelo, `ranking.md`.
    Si no hay `betano/*.json`, dice que la etapa 1 no dejó nada y termina: no se inventa.
-2. Lanzar los agentes `corners`, `partido` y `jugadores` con las fichas de los partidos apto/reserva.
+2. Lanzar los agentes `corners`, `partido`, `jugadores`, `goles-resultado` y `tarjetas` con las fichas de los partidos apto/reserva (cada uno escribe su detalle en `jornadas/<día>/agentes/` y devuelve un resumen corto); después `combinadas` con lo que cumplió. `goles-resultado` y `tarjetas` no entran en el ranking de aptos: léelos con las alertas del modelo a la vista.
 3. Escribir `jornadas/<día>/informe_final.md` (español, hora de Bogotá): abre con **«Enfoque de mercados»**; por partido y mercado, las líneas que cumplen (≥5 de 7 en ambos equipos) con cuota, esperado, colchón y «X de 7»; luego lo que no cumple, resumido; y los límites (datos que faltaron, partidos no aptos y por qué).
 4. Verificar: `python3 pruebas/test_ficha.py`, cifras contra la ficha. Commit y push del resultado.
 
 ## Puntuación de contexto (`recoleccion/puntuar.py`)
 Siempre las dos juntas: **datos** (por familia de mercado que Betano ofrece) y **situación**. Apto = datos ≥ 60 y situación ≥ 45 por mercado; reserva = datos suficientes pero situación sin leer; no apto = el resto. Nada se descarta en silencio.
 Límites conocidos: sin historial por jugador ni alineación probable, el mercado de jugadores no es apto; las estadísticas del árbitro (B-Soccer) no están recolectadas; sin estadística por tiempo no hay ficha de 1T/2T.
+
+## Etapa 3 — Calificación (día siguiente)
+El usuario/Claude recoge los resultados reales desde el PC (Flashscore), los sube a `jornadas/<día>/resultados/<clave>.json` y el agente `calificacion` aplica `registrar-resultados`. Sin resultados no califica: no estima.

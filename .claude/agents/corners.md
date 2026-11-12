@@ -14,3 +14,4 @@ Criterios, en este orden (cada uno con dato, referencia, n, fuente y cumple/no c
 5. **Cuota:** informar p·cuota−1; no decide.
 
 Reglas: no excluyas ninguna línea de Betano por su colchón; muestra todas las que Betano ofrece. Las líneas de 1T/2T no tienen estadística por tiempo: dilo. Entrega: tabla por línea (Más/Menos, cuota, esperado, colchón, L/V/D «X de n», cumple) y 2–3 líneas de lectura. Sé honesto con los límites de la muestra.
+El detalle largo va a `jornadas/<fecha>/agentes/<partido>_corners.md`; al chat devuelve solo el resumen (las líneas que cumplen y los límites).

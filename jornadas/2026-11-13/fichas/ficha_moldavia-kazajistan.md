@@ -60,6 +60,63 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 13.36, visitante 15.3
 ### Tiros al arco
 Muestra: local 7, visitante 7, directos 3. Esperado: local 4.36, visitante 4.14, **total 8.5** (local 3.43 a favor / 5.14 en contra; visitante 3.14 / 5.29).
 
+## Goles y tarjetas (para los agentes de goles-resultado y tarjetas; no entran en el ranking)
+
+### Goles
+_Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T._
+Muestra: local 7, visitante 7, directos 3. Esperado: local 0.93, visitante 1.71, **total 2.64** (local 0.71 a favor / 2.14 en contra; visitante 1.29 / 1.14).
+
+**total**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 0.5 | @1.11 · col +2.1 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ | @6.0 · col -2.1 · L 0 de 7 · V 0 de 7 · D 0 de 3 |
+| 1.5 | @1.47 · col +1.1 · L 7 de 7 · V 6 de 7 · D 3 de 3 ✓ | @2.55 · col -1.1 · L 0 de 7 · V 1 de 7 · D 0 de 3 |
+| 1.75 | @1.62 · col +0.9 · L 3 de 7 · V 3 de 7 · D 2 de 3 | @2.25 · col -0.9 · L 0 de 7 · V 1 de 7 · D 0 de 3 |
+| 2.0 | @1.83 · col +0.6 · L 3 de 7 · V 3 de 7 · D 2 de 3 | @1.93 · col -0.6 · L 0 de 7 · V 1 de 7 · D 0 de 3 |
+| 2.25 | @2.12 · col +0.4 · L 3 de 7 · V 3 de 7 · D 2 de 3 | @1.7 · col -0.4 · L 0 de 7 · V 1 de 7 · D 0 de 3 |
+| 2.5 | @2.4 · col +0.1 · L 3 de 7 · V 3 de 7 · D 2 de 3 | @1.53 · col -0.1 · L 4 de 7 · V 4 de 7 · D 1 de 3 |
+| 3.5 | @4.35 · col -0.9 · L 2 de 7 · V 1 de 7 · D 0 de 3 | @1.19 · col +0.9 · L 5 de 7 · V 6 de 7 · D 3 de 3 ✓ |
+| 4.5 | @7.8 · col -1.9 · L 1 de 7 · V 0 de 7 · D 0 de 3 | @1.06 · col +1.9 · L 6 de 7 · V 7 de 7 · D 3 de 3 ✓ |
+
+**local**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 0.5 | @1.4 · col +0.4 · L 4 de 7 · V 5 de 7 · D 3 de 3 | @2.8 · col -0.4 · L 3 de 7 · V 2 de 7 · D 0 de 3 |
+| 1.5 | @2.85 · col -0.6 · L 1 de 7 · V 3 de 7 · D 1 de 3 | @1.39 · col +0.6 · L 6 de 7 · V 4 de 7 · D 2 de 3 |
+| 2.5 | @6.6 · col -1.6 · L 0 de 7 · V 0 de 7 · D 0 de 3 | @1.09 · col +1.6 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ |
+
+**visitante**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 0.5 | @1.45 · col +1.2 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ | @2.65 · col -1.2 · L 0 de 7 · V 0 de 7 · D 0 de 3 |
+| 1.5 | @3.0 · col +0.2 · L 4 de 7 · V 2 de 7 · D 1 de 3 | @1.36 · col -0.2 · L 3 de 7 · V 5 de 7 · D 2 de 3 |
+| 2.5 | @6.9 · col -0.8 · L 2 de 7 · V 0 de 7 · D 0 de 3 | @1.08 · col +0.8 · L 5 de 7 · V 7 de 7 · D 3 de 3 ✓ |
+
+### Tarjetas (solo amarillas)
+_Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._
+Muestra: local 7, visitante 7, directos 3. Esperado: local 1.71, visitante 2.29, **total 4.0** (local 1.86 a favor / 1.29 en contra; visitante 3.29 / 1.57).
+
+**total**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 4.5 | @1.9 · col -0.5 · L 2 de 7 · V 3 de 7 · D 1 de 3 | @1.85 · col +0.5 · L 5 de 7 · V 4 de 7 · D 2 de 3 |
+
+**local**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 1.5 | @1.53 · col +0.2 · L 4 de 7 · V 3 de 7 · D 1 de 3 | @2.4 · col -0.2 · L 3 de 7 · V 4 de 7 · D 2 de 3 |
+
+**visitante**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 2.5 | @1.93 · col -0.2 · L 0 de 7 · V 4 de 7 · D 1 de 3 | @1.8 · col +0.2 · L 7 de 7 · V 3 de 7 · D 2 de 3 |
+
 ## Jugadores (solo líneas que cumplen la regularidad; el JSON trae todas)
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)

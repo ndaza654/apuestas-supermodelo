@@ -29,7 +29,13 @@ MERCADOS = {
     'saques_meta':  ('gk',  'Saques de meta'),
     'remates':      ('sh',  'Remates'),
     'al_arco':      ('sot', 'Tiros al arco'),
+    'goles':        ('g',   'Goles'),
+    'tarjetas':     ('y',   'Tarjetas (solo amarillas)'),
 }
+# avisos que viajan con la ficha (límites honestos de la fuente)
+NOTAS = {'tarjetas': 'Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. '
+                     'Tómalo con cuidado en líneas ajustadas.',
+         'goles': 'Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T.'}
 GRUPOS = {'corners': ['corners'],
           'partido': ['faltas', 'fueras', 'saques_banda', 'saques_meta', 'remates', 'al_arco']}
 
@@ -77,10 +83,15 @@ def serie_h2h(h2h, clave):
     return out
 
 def cuenta(valores, linea, lado):
-    """Veces que se cumplió la línea. Más: valor > línea; Menos: valor < línea. (Las líneas enteras con empate no cuentan para ninguno.)"""
+    """Veces que la línea se cumplió POR COMPLETO. Más: valor > línea; Menos: valor < línea (las líneas enteras con empate no cuentan).
+    Líneas asiáticas (.25 / .75): son dos medias líneas; cuenta solo la victoria completa (Más: valor > línea+0.25; Menos: valor < línea−0.25).
+    Con valor justo en medio hay media ganancia o media pérdida: no se cuenta como cumplida."""
+    cuarto = round(linea * 4) % 2 == 1
     if lado == 'mas':
-        return sum(1 for v in valores if v > linea)
-    return sum(1 for v in valores if v < linea)
+        lim = linea + 0.25 if cuarto else linea
+        return sum(1 for v in valores if v > lim)
+    lim = linea - 0.25 if cuarto else linea
+    return sum(1 for v in valores if v < lim)
 
 def reg(x, n):
     return {'x': x, 'n': n, 'txt': f'{x} de {n}', 'cumple': (n >= MIN_N and x >= CUMPLE)}
@@ -94,6 +105,8 @@ def ficha_estadistica(e, mercado):
     sh = serie_h2h(F.get('h2h'), clave)
     lineas = [l for l in (e.get('betano') or {}).get('lineas', []) if l.get('mercado') == mercado]
     res = {'mercado': mercado, 'titulo': titulo, 'n_local': len(sl), 'n_visitante': len(sv), 'n_directos': len(sh)}
+    if mercado in NOTAS:
+        res['nota'] = NOTAS[mercado]
     if len(sl) < 1 or len(sv) < 1:
         res['aviso'] = 'sin estadísticas suficientes en los últimos partidos'
         res['lineas'] = []
@@ -196,6 +209,8 @@ def construir(e):
                       'colchon': 'informativo: esperado − línea'},
             'corners': ficha_estadistica(e, 'corners'),
             'partido': {m: ficha_estadistica(e, m) for m in GRUPOS['partido']},
+            'goles': ficha_estadistica(e, 'goles'),
+            'tarjetas': ficha_estadistica(e, 'tarjetas'),
             'jugadores': ficha_jugadores(e),
             'contexto': contexto(e)}
 
@@ -213,6 +228,8 @@ def _celda(c):
 
 def md_estadistica(r):
     L = [f"### {r['titulo']}"]
+    if r.get('nota'):
+        L.append(f"_{r['nota']}_")
     if r.get('aviso'):
         return '\n'.join(L + [f"_{r['aviso']}_", ''])
     es, pr = r['esperado'], r['promedios']
@@ -277,6 +294,8 @@ def markdown(F):
          md_resumen(F), '## Córners', '', md_estadistica(F['corners']), '## Estadísticas del partido', '']
     for m in GRUPOS['partido']:
         L.append(md_estadistica(F['partido'][m]))
+    L += ['## Goles y tarjetas (para los agentes de goles-resultado y tarjetas; no entran en el ranking)', '',
+          md_estadistica(F['goles']), md_estadistica(F['tarjetas'])]
     L.append(md_jugadores(F['jugadores']))
     c = F['contexto']
     L += ['## Contexto para juzgar los criterios no numéricos', '', f"- Árbitro: {c['arbitro']}; derbi: {c['derbi']}; importancia: {c['importancia']}; clima: {c['clima']}",
