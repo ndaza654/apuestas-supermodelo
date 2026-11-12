@@ -21,6 +21,7 @@ Responder siempre en **español**; horas en **Bogotá (UTC−5)**.
 - Cada criterio lleva dato, referencia, n, fuente y cumple/no cumple. Honestidad: los criterios vienen de tipsters y medios sin resultados verificados; sin estadística por tiempo no hay ficha de 1T/2T; sin `ficha.h2h` no hay directos.
 
 ## Cómo se corre
+- Dependencias: `pip install -r requirements.txt` (numpy, scipy; sin scipy el modelo falla).
 - Modelo: `python3 -m supermodelo <entrada.json>`  ·  pruebas: `python3 pruebas/test_modelo.py`, `python3 pruebas/test_ficha.py` y `python3 pruebas/test_betano.py` y `python3 pruebas/test_recoleccion.py`
 - Ficha por mercado: `python3 recoleccion/ficha.py <entrada.json> [carpeta_salida]`
 - Flujo de un partido: ver `.claude/skills/analizar-partido/SKILL.md`. Resultados y calificación: `.claude/skills/registrar-resultados/SKILL.md`.
