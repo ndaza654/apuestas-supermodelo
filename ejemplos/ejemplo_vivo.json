@@ -1,0 +1,79 @@
+{
+ "_nota": "EJEMPLO de estado en vivo (inventado). Dar siempre goles_1t si el partido va en el 2.º tiempo.",
+ "estado": {
+  "mitad": 2,
+  "minuto": 60,
+  "goles": [
+   0,
+   0
+  ],
+  "goles_1t": [
+   0,
+   0
+  ],
+  "corners": [
+   5,
+   2
+  ],
+  "corners_1t": [
+   3,
+   1
+  ],
+  "remates": [
+   12,
+   4
+  ],
+  "al_arco": [
+   4,
+   1
+  ],
+  "faltas": [
+   8,
+   10
+  ],
+  "amarillas": [
+   1,
+   2
+  ],
+  "rojas": [
+   0,
+   0
+  ],
+  "rojas_directas": [
+   0,
+   0
+  ],
+  "amarillas_1t": [
+   0,
+   1
+  ]
+ },
+ "betano_vivo": {
+  "lineas": [
+   {
+    "mercado": "goles",
+    "ambito": "total",
+    "linea": 0.5,
+    "mas": 1.4,
+    "menos": 2.75
+   },
+   {
+    "mercado": "corners",
+    "ambito": "total",
+    "linea": 10.5,
+    "mas": 1.85,
+    "menos": 1.85
+   }
+  ],
+  "unicos": [
+   {
+    "mercado": "resultado",
+    "opciones": {
+     "1": 2.6,
+     "X": 2.2,
+     "2": 5.0
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,58 @@
+{
+  "_nota": "EJEMPLO DE FORMATO. Equipos y cuotas ilustrativos, no son cuotas reales de Betano.",
+  "local": "Local FC", "visitante": "Visitante SC", "liga": "Liga de ejemplo", "fecha": "2026-11-15 15:00",
+  "objetivos": {"local": {"c": 5.6, "sh": 14.8, "sot": 5.0, "f": 11.5, "y": 2.0, "g": 1.55},
+                "visitante": {"c": 3.9, "sh": 10.2, "sot": 3.3, "f": 13.0, "y": 2.4, "g": 0.95}},
+  "ficha": {
+    "derbi": false, "importancia": "alta",
+    "arbitro": {"nombre": "Árbitro X", "tarjetas_por_partido": 5.6, "partidos": 11, "media_liga": 4.7},
+    "clima": {"lluvia": "fuerte", "viento_fuerte": false, "temperatura": 12},
+    "local": {"estilo": ["posesion", "centros"], "marcador": "normal", "bajas_ataque": 0, "bajas_defensa": 1,
+              "rotacion": false, "motivacion": "alta", "necesita_ganar": true},
+    "visitante": {"estilo": ["bloque_bajo", "contragolpe"], "marcador": "se_encierra", "bajas_ataque": 1,
+                  "bajas_defensa": 0, "rotacion": false, "motivacion": "normal"}
+  },
+  "jugadores": [{"nombre": "Delantero Local", "lado": "local", "titular": 0.95, "minutos": 85},
+                {"nombre": "Volante Visitante", "lado": "visitante", "titular": 0.8, "minutos": 78}],
+  "betano": {
+    "unicos": [
+      {"mercado": "resultado", "opciones": {"1": 1.85, "X": 3.60, "2": 4.40}},
+      {"mercado": "ambos", "opciones": {"si": 1.95, "no": 1.80}},
+      {"mercado": "mas_que", "stat": "corners", "opciones": {"local": 1.45, "empate": 9.0, "visitante": 3.10}},
+      {"mercado": "mas_que", "stat": "tarjetas", "opciones": {"local": 2.30, "empate": 4.40, "visitante": 2.05}},
+      {"mercado": "ambos_n_tarjetas", "n": 2, "opciones": {"si": 2.40, "no": 1.53}}
+    ],
+    "lineas": [
+      {"mercado": "goles", "ambito": "total", "linea": 1.5, "mas": 1.30, "menos": 3.40},
+      {"mercado": "goles", "ambito": "total", "linea": 2.5, "mas": 1.95, "menos": 1.85},
+      {"mercado": "goles", "ambito": "total", "linea": 3.5, "mas": 3.40, "menos": 1.30},
+      {"mercado": "goles", "ambito": "local", "linea": 1.5, "mas": 2.10, "menos": 1.70},
+      {"mercado": "goles", "ambito": "visitante", "linea": 0.5, "mas": 1.55, "menos": 2.35},
+      {"mercado": "goles", "ambito": "1T", "linea": 0.5, "mas": 1.40, "menos": 2.85},
+      {"mercado": "corners", "ambito": "total", "linea": 8.5, "mas": 1.62, "menos": 2.20},
+      {"mercado": "corners", "ambito": "total", "linea": 9.5, "mas": 1.95, "menos": 1.80},
+      {"mercado": "corners", "ambito": "total", "linea": 10.5, "mas": 2.45, "menos": 1.52},
+      {"mercado": "corners", "ambito": "local", "linea": 5.5, "mas": 1.80, "menos": 1.95},
+      {"mercado": "corners", "ambito": "visitante", "linea": 3.5, "mas": 1.85, "menos": 1.90},
+      {"mercado": "tarjetas", "ambito": "total", "linea": 3.5, "mas": 1.50, "menos": 2.50},
+      {"mercado": "tarjetas", "ambito": "total", "linea": 4.5, "mas": 2.05, "menos": 1.72},
+      {"mercado": "tarjetas", "ambito": "visitante", "linea": 2.5, "mas": 2.20, "menos": 1.62},
+      {"mercado": "faltas", "ambito": "total", "linea": 24.5, "mas": 1.85, "menos": 1.90},
+      {"mercado": "faltas", "ambito": "visitante", "linea": 12.5, "mas": 1.80, "menos": 1.95},
+      {"mercado": "remates", "ambito": "total", "linea": 24.5, "mas": 1.80, "menos": 1.95},
+      {"mercado": "remates", "ambito": "local", "linea": 14.5, "mas": 1.85, "menos": 1.90},
+      {"mercado": "remates", "ambito": "visitante", "linea": 10.5, "mas": 1.95, "menos": 1.80},
+      {"mercado": "al_arco", "ambito": "total", "linea": 8.5, "mas": 1.95, "menos": 1.80},
+      {"mercado": "al_arco", "ambito": "local", "linea": 4.5, "mas": 1.72, "menos": 2.05},
+      {"mercado": "fueras", "ambito": "total", "linea": 3.5, "mas": 2.05, "menos": 1.72}
+    ],
+    "jugadores": [
+      {"jugador": "Delantero Local", "lado": "local", "stat": "remates", "escalera": {"1": 1.20, "2": 1.62, "3": 2.55, "4": 4.20}},
+      {"jugador": "Delantero Local", "lado": "local", "stat": "al_arco", "escalera": {"1": 1.55, "2": 3.00}},
+      {"jugador": "Delantero Local", "lado": "local", "stat": "anota_o_asiste", "cuota": 1.95},
+      {"jugador": "Portero Visitante", "lado": "visitante", "stat": "atajadas", "escalera": {"2": 1.45, "3": 2.10, "4": 3.40}},
+      {"jugador": "Volante Visitante", "lado": "visitante", "stat": "entradas", "escalera": {"1": 1.25, "2": 1.85, "3": 3.10}},
+      {"jugador": "Volante Visitante", "lado": "visitante", "stat": "tarjeta", "cuota": 3.80}
+    ]
+  }
+}

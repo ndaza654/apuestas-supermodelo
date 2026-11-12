@@ -1,0 +1,112 @@
+{
+ "local": "Junior",
+ "visitante": "Cúcuta",
+ "liga": "Colombia Primera A - Clausura",
+ "fecha": "2026-11-09 19:00",
+ "betano": {
+  "unicos": [
+   {
+    "mercado": "resultado",
+    "opciones": {
+     "1": 1.78,
+     "X": 3.95,
+     "2": 4.3
+    }
+   },
+   {
+    "mercado": "ambos",
+    "opciones": {
+     "si": 1.7,
+     "no": 2.05
+    }
+   }
+  ],
+  "lineas": [
+   {
+    "mercado": "goles",
+    "ambito": "total",
+    "linea": 0.5,
+    "mas": 1.05,
+    "menos": 8.75
+   },
+   {
+    "mercado": "goles",
+    "ambito": "total",
+    "linea": 1.5,
+    "mas": 1.24,
+    "menos": 3.8
+   },
+   {
+    "mercado": "goles",
+    "ambito": "total",
+    "linea": 2.5,
+    "mas": 1.72,
+    "menos": 2.05
+   },
+   {
+    "mercado": "goles",
+    "ambito": "total",
+    "linea": 3.5,
+    "mas": 2.72,
+    "menos": 1.42
+   },
+   {
+    "mercado": "goles",
+    "ambito": "total",
+    "linea": 4.5,
+    "mas": 4.7,
+    "menos": 1.17
+   },
+   {
+    "mercado": "corners",
+    "ambito": "total",
+    "linea": 8.5,
+    "mas": 1.55,
+    "menos": 2.35
+   },
+   {
+    "mercado": "corners",
+    "ambito": "total",
+    "linea": 9.5,
+    "mas": 1.93,
+    "menos": 1.82
+   },
+   {
+    "mercado": "corners",
+    "ambito": "total",
+    "linea": 10.5,
+    "mas": 2.55,
+    "menos": 1.47
+   },
+   {
+    "mercado": "tarjetas",
+    "ambito": "total",
+    "linea": 5.5,
+    "mas": 1.7,
+    "menos": 2.07
+   }
+  ]
+ },
+ "ficha": {
+  "derbi": false,
+  "importancia": "normal",
+  "local": {
+   "estilo": [],
+   "marcador": "normal",
+   "bajas_ataque": 0,
+   "bajas_defensa": 0,
+   "rotacion": false,
+   "motivacion": "baja",
+   "necesita_ganar": false
+  },
+  "visitante": {
+   "estilo": [],
+   "marcador": "normal",
+   "bajas_ataque": 0,
+   "bajas_defensa": 0,
+   "rotacion": false,
+   "motivacion": "alta",
+   "necesita_ganar": true
+  }
+ }
+}

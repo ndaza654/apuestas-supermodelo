@@ -1,0 +1,127 @@
+{
+ "descripcion": "Líneas sugeridas por los informes del 4 al 8-nov-2026 (cuota > 1) calificadas con las estadísticas finales de Flashscore. Se actualiza con registro.informe().",
+ "familia_lado": {
+  "al_arco|menos": {
+   "n": 4,
+   "aciertos": 3,
+   "implicita": 0.542
+  },
+  "al_arco|mas": {
+   "n": 5,
+   "aciertos": 3,
+   "implicita": 0.545
+  },
+  "corners|menos": {
+   "n": 10,
+   "aciertos": 5,
+   "implicita": 0.394
+  },
+  "corners|mas": {
+   "n": 15,
+   "aciertos": 6,
+   "implicita": 0.491
+  },
+  "faltas|menos": {
+   "n": 6,
+   "aciertos": 4,
+   "implicita": 0.557
+  },
+  "faltas|mas": {
+   "n": 1,
+   "aciertos": 0,
+   "implicita": 0.775
+  },
+  "fueras|menos": {
+   "n": 5,
+   "aciertos": 4,
+   "implicita": 0.512
+  },
+  "fueras|mas": {
+   "n": 2,
+   "aciertos": 1,
+   "implicita": 0.507
+  },
+  "goles|menos": {
+   "n": 6,
+   "aciertos": 2,
+   "implicita": 0.531
+  },
+  "goles|mas": {
+   "n": 15,
+   "aciertos": 7,
+   "implicita": 0.491
+  },
+  "jugador|mas": {
+   "n": 4,
+   "aciertos": 2,
+   "implicita": 0.309
+  },
+  "remates|menos": {
+   "n": 7,
+   "aciertos": 3,
+   "implicita": 0.45
+  },
+  "remates|mas": {
+   "n": 7,
+   "aciertos": 2,
+   "implicita": 0.505
+  },
+  "saques_meta|menos": {
+   "n": 2,
+   "aciertos": 1,
+   "implicita": 0.489
+  },
+  "tarjetas|menos": {
+   "n": 20,
+   "aciertos": 11,
+   "implicita": 0.552
+  },
+  "tarjetas|mas": {
+   "n": 9,
+   "aciertos": 6,
+   "implicita": 0.469
+  }
+ },
+ "rol_equipo": {
+  "volumen_menos_equipo_que_gano": {
+   "n": 9,
+   "aciertos": 1,
+   "detalle": "Menos remates/al arco/córners de un equipo que terminó ganando"
+  },
+  "volumen_mas_equipo_que_perdio": {
+   "n": 11,
+   "aciertos": 2,
+   "detalle": "Más remates/al arco/córners de un equipo que terminó perdiendo"
+  },
+  "volumen_mas_equipo_que_gano": {
+   "n": 5,
+   "aciertos": 3
+  },
+  "volumen_menos_equipo_que_perdio": {
+   "n": 2,
+   "aciertos": 1
+  }
+ },
+ "pais": {
+  "ITALIA": {
+   "n": 14,
+   "aciertos": 4,
+   "implicita": 0.5
+  },
+  "MÉXICO": {
+   "n": 24,
+   "aciertos": 10,
+   "implicita": 0.43
+  },
+  "ESPAÑA": {
+   "n": 12,
+   "aciertos": 9,
+   "implicita": 0.53
+  },
+  "COLOMBIA": {
+   "n": 10,
+   "aciertos": 5,
+   "implicita": 0.52
+  }
+ }
+}

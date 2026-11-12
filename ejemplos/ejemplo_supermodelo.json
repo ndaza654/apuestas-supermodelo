@@ -1,0 +1,1396 @@
+{
+ "_nota": "EJEMPLO DE FORMATO del supermodelo. Equipos y cuotas ilustrativos, NO son cuotas reales de Betano.",
+ "local": "Local FC",
+ "visitante": "Visitante SC",
+ "liga": "Inglaterra · Premier League",
+ "fecha": "2026-11-15 15:00",
+ "objetivos": {
+  "local": {
+   "c": 5.6,
+   "sh": 14.8,
+   "sot": 5.0,
+   "f": 11.5,
+   "y": 2.0,
+   "g": 1.55
+  },
+  "visitante": {
+   "c": 3.9,
+   "sh": 10.2,
+   "sot": 3.3,
+   "f": 13.0,
+   "y": 2.4,
+   "g": 0.95
+  }
+ },
+ "ficha": {
+  "derbi": false,
+  "importancia": "alta",
+  "arbitro": {
+   "nombre": "Árbitro X",
+   "amarillas_por_partido": 4.4,
+   "rojas_por_partido": 0.15,
+   "partidos": 11
+  },
+  "clima": {
+   "lluvia": "fuerte",
+   "viento_fuerte": false,
+   "temperatura": 12
+  },
+  "info_tardia": [
+   {
+    "tipo": "clima",
+    "hecho": "lluvia fuerte confirmada a la hora del partido",
+    "horas": 3
+   }
+  ],
+  "bajas": [
+   {
+    "jugador": "Central titular",
+    "lado": "local",
+    "posicion": "defensa",
+    "reemplazo": "suplente",
+    "confirmada": true,
+    "horas_desde_noticia": 40
+   },
+   {
+    "jugador": "Goleador visitante",
+    "lado": "visitante",
+    "posicion": "delantero",
+    "peso": 0.3,
+    "reemplazo": "suplente",
+    "confirmada": true,
+    "horas_desde_noticia": 2
+   }
+  ],
+  "rachas": {
+   "local": {
+    "btts_seguidos": 2,
+    "victorias_seguidas": 1
+   },
+   "visitante": {
+    "btts_seguidos": 0,
+    "victorias_seguidas": 0
+   }
+  },
+  "h2h_empates_ult5": 1,
+  "ultimo_tabla": null,
+  "consenso_publico": {
+   "lado": "local",
+   "pct": 74,
+   "fuente": "app Sharpods"
+  },
+  "local": {
+   "estilo": [
+    "posesion",
+    "centros"
+   ],
+   "marcador": "normal",
+   "rotacion": false,
+   "motivacion": "alta",
+   "necesita_ganar": true,
+   "perfil_corners": {
+    "centros_pj": 22,
+    "centros_media_liga": 17.7
+   },
+   "dias_descanso": 3,
+   "xg_menos_goles": 0.4
+  },
+  "visitante": {
+   "estilo": [
+    "bloque_bajo",
+    "contragolpe"
+   ],
+   "marcador": "se_encierra",
+   "rotacion": false,
+   "motivacion": "normal",
+   "viaje_largo": true
+  },
+  "jugadores": [
+   {
+    "nombre": "Delantero Local",
+    "lado": "local",
+    "titular": 0.95,
+    "minutos": 85,
+    "popular": true
+   },
+   {
+    "nombre": "Volante Visitante",
+    "lado": "visitante",
+    "titular": 0.8,
+    "minutos": 78
+   }
+  ],
+  "frescos": [],
+  "fuentes": [
+   "(ejemplo) previa de Flashscore",
+   "(ejemplo) StatsHub árbitros"
+  ],
+  "dudas": [
+   "(ejemplo) el reemplazo del goleador visitante no está confirmado"
+  ]
+ },
+ "betano": {
+  "unicos": [
+   {
+    "mercado": "resultado",
+    "opciones": {
+     "1": 1.85,
+     "X": 3.6,
+     "2": 4.4
+    }
+   },
+   {
+    "mercado": "ambos",
+    "opciones": {
+     "si": 1.95,
+     "no": 1.8
+    }
+   },
+   {
+    "mercado": "mas_que",
+    "stat": "corners",
+    "opciones": {
+     "local": 1.45,
+     "empate": 9.0,
+     "visitante": 3.1
+    }
+   },
+   {
+    "mercado": "mas_que",
+    "stat": "tarjetas",
+    "opciones": {
+     "local": 2.3,
+     "empate": 4.4,
+     "visitante": 2.05
+    }
+   },
+   {
+    "mercado": "ambos_n_tarjetas",
+    "n": 2,
+    "opciones": {
+     "si": 2.4,
+     "no": 1.53
+    }
+   }
+  ],
+  "lineas": [
+   {
+    "mercado": "goles",
+    "ambito": "total",
+    "linea": 1.5,
+    "mas": 1.3,
+    "menos": 3.4
+   },
+   {
+    "mercado": "goles",
+    "ambito": "total",
+    "linea": 2.5,
+    "mas": 1.95,
+    "menos": 1.85
+   },
+   {
+    "mercado": "goles",
+    "ambito": "total",
+    "linea": 3.5,
+    "mas": 3.4,
+    "menos": 1.3
+   },
+   {
+    "mercado": "goles",
+    "ambito": "local",
+    "linea": 1.5,
+    "mas": 2.1,
+    "menos": 1.7
+   },
+   {
+    "mercado": "goles",
+    "ambito": "visitante",
+    "linea": 0.5,
+    "mas": 1.55,
+    "menos": 2.35
+   },
+   {
+    "mercado": "goles",
+    "ambito": "1T",
+    "linea": 0.5,
+    "mas": 1.4,
+    "menos": 2.85
+   },
+   {
+    "mercado": "corners",
+    "ambito": "total",
+    "linea": 8.5,
+    "mas": 1.62,
+    "menos": 2.2
+   },
+   {
+    "mercado": "corners",
+    "ambito": "total",
+    "linea": 9.5,
+    "mas": 1.95,
+    "menos": 1.8
+   },
+   {
+    "mercado": "corners",
+    "ambito": "total",
+    "linea": 10.5,
+    "mas": 2.45,
+    "menos": 1.52
+   },
+   {
+    "mercado": "corners",
+    "ambito": "local",
+    "linea": 5.5,
+    "mas": 1.8,
+    "menos": 1.95
+   },
+   {
+    "mercado": "corners",
+    "ambito": "visitante",
+    "linea": 3.5,
+    "mas": 1.85,
+    "menos": 1.9
+   },
+   {
+    "mercado": "tarjetas",
+    "ambito": "total",
+    "linea": 3.5,
+    "mas": 1.5,
+    "menos": 2.5
+   },
+   {
+    "mercado": "tarjetas",
+    "ambito": "total",
+    "linea": 4.5,
+    "mas": 2.05,
+    "menos": 1.72
+   },
+   {
+    "mercado": "tarjetas",
+    "ambito": "visitante",
+    "linea": 2.5,
+    "mas": 2.2,
+    "menos": 1.62
+   },
+   {
+    "mercado": "faltas",
+    "ambito": "total",
+    "linea": 24.5,
+    "mas": 1.85,
+    "menos": 1.9
+   },
+   {
+    "mercado": "faltas",
+    "ambito": "visitante",
+    "linea": 12.5,
+    "mas": 1.8,
+    "menos": 1.95
+   },
+   {
+    "mercado": "remates",
+    "ambito": "total",
+    "linea": 24.5,
+    "mas": 1.8,
+    "menos": 1.95
+   },
+   {
+    "mercado": "remates",
+    "ambito": "local",
+    "linea": 14.5,
+    "mas": 1.85,
+    "menos": 1.9
+   },
+   {
+    "mercado": "remates",
+    "ambito": "visitante",
+    "linea": 10.5,
+    "mas": 1.95,
+    "menos": 1.8
+   },
+   {
+    "mercado": "al_arco",
+    "ambito": "total",
+    "linea": 8.5,
+    "mas": 1.95,
+    "menos": 1.8
+   },
+   {
+    "mercado": "al_arco",
+    "ambito": "local",
+    "linea": 4.5,
+    "mas": 1.72,
+    "menos": 2.05
+   },
+   {
+    "mercado": "fueras",
+    "ambito": "total",
+    "linea": 3.5,
+    "mas": 2.05,
+    "menos": 1.72
+   },
+   {
+    "mercado": "goles",
+    "ambito": "1T",
+    "linea": 1.5,
+    "mas": 3.1,
+    "menos": 1.36
+   },
+   {
+    "mercado": "tarjetas",
+    "ambito": "1T",
+    "linea": 1.5,
+    "mas": 2.3,
+    "menos": 1.6
+   }
+  ],
+  "jugadores": [
+   {
+    "jugador": "Delantero Local",
+    "lado": "local",
+    "stat": "remates",
+    "escalera": {
+     "1": 1.2,
+     "2": 1.62,
+     "3": 2.55,
+     "4": 4.2
+    }
+   },
+   {
+    "jugador": "Delantero Local",
+    "lado": "local",
+    "stat": "al_arco",
+    "escalera": {
+     "1": 1.55,
+     "2": 3.0
+    }
+   },
+   {
+    "jugador": "Delantero Local",
+    "lado": "local",
+    "stat": "anota_o_asiste",
+    "cuota": 1.95
+   },
+   {
+    "jugador": "Portero Visitante",
+    "lado": "visitante",
+    "stat": "atajadas",
+    "escalera": {
+     "2": 1.45,
+     "3": 2.1,
+     "4": 3.4
+    }
+   },
+   {
+    "jugador": "Volante Visitante",
+    "lado": "visitante",
+    "stat": "entradas",
+    "escalera": {
+     "1": 1.25,
+     "2": 1.85,
+     "3": 3.1
+    }
+   },
+   {
+    "jugador": "Volante Visitante",
+    "lado": "visitante",
+    "stat": "tarjeta",
+    "cuota": 3.8
+   }
+  ]
+ },
+ "combos": [
+  {
+   "nombre": "Local gana + Más 2.5 + córners Más 9.5",
+   "cuota": 4.1,
+   "patas": [
+    "Gana Local FC",
+    "Goles Más 2.5",
+    "Córners Más 9.5"
+   ]
+  },
+  {
+   "nombre": "Local gana + al arco local Más 4.5",
+   "cuota": 2.45,
+   "patas": [
+    "Gana Local FC",
+    "Tiros al arco Local FC Más 4.5"
+   ]
+  }
+ ],
+ "forma": {
+  "local": [
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      1,
+      0
+     ],
+     "c": [
+      3,
+      1
+     ],
+     "sh": [
+      23,
+      14
+     ],
+     "sot": [
+      6,
+      3
+     ],
+     "f": [
+      12,
+      13
+     ],
+     "y": [
+      4,
+      1
+     ],
+     "off": [
+      3,
+      1
+     ]
+    }
+   },
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      1,
+      1
+     ],
+     "c": [
+      12,
+      6
+     ],
+     "sh": [
+      16,
+      8
+     ],
+     "sot": [
+      4,
+      4
+     ],
+     "f": [
+      9,
+      17
+     ],
+     "y": [
+      1,
+      1
+     ],
+     "off": [
+      2,
+      0
+     ]
+    }
+   },
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      1,
+      2
+     ],
+     "c": [
+      6,
+      3
+     ],
+     "sh": [
+      11,
+      9
+     ],
+     "sot": [
+      4,
+      2
+     ],
+     "f": [
+      9,
+      16
+     ],
+     "y": [
+      3,
+      3
+     ],
+     "off": [
+      1,
+      3
+     ]
+    }
+   },
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      1,
+      0
+     ],
+     "c": [
+      7,
+      1
+     ],
+     "sh": [
+      14,
+      11
+     ],
+     "sot": [
+      5,
+      3
+     ],
+     "f": [
+      17,
+      8
+     ],
+     "y": [
+      4,
+      1
+     ],
+     "off": [
+      2,
+      0
+     ]
+    }
+   },
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      1,
+      1
+     ],
+     "c": [
+      5,
+      3
+     ],
+     "sh": [
+      13,
+      10
+     ],
+     "sot": [
+      7,
+      2
+     ],
+     "f": [
+      7,
+      6
+     ],
+     "y": [
+      0,
+      2
+     ],
+     "off": [
+      2,
+      0
+     ]
+    }
+   },
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      1,
+      1
+     ],
+     "c": [
+      7,
+      6
+     ],
+     "sh": [
+      9,
+      13
+     ],
+     "sot": [
+      2,
+      4
+     ],
+     "f": [
+      7,
+      17
+     ],
+     "y": [
+      2,
+      1
+     ],
+     "off": [
+      3,
+      0
+     ]
+    }
+   },
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      1,
+      0
+     ],
+     "c": [
+      5,
+      5
+     ],
+     "sh": [
+      9,
+      10
+     ],
+     "sot": [
+      3,
+      4
+     ],
+     "f": [
+      18,
+      15
+     ],
+     "y": [
+      2,
+      1
+     ],
+     "off": [
+      1,
+      1
+     ]
+    }
+   },
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      0,
+      1
+     ],
+     "c": [
+      6,
+      4
+     ],
+     "sh": [
+      10,
+      11
+     ],
+     "sot": [
+      5,
+      2
+     ],
+     "f": [
+      15,
+      11
+     ],
+     "y": [
+      2,
+      7
+     ],
+     "off": [
+      0,
+      1
+     ]
+    }
+   },
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      2,
+      0
+     ],
+     "c": [
+      5,
+      9
+     ],
+     "sh": [
+      8,
+      14
+     ],
+     "sot": [
+      3,
+      6
+     ],
+     "f": [
+      14,
+      13
+     ],
+     "y": [
+      0,
+      1
+     ],
+     "off": [
+      3,
+      1
+     ]
+    }
+   },
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      1,
+      1
+     ],
+     "c": [
+      4,
+      11
+     ],
+     "sh": [
+      10,
+      8
+     ],
+     "sot": [
+      2,
+      3
+     ],
+     "f": [
+      10,
+      17
+     ],
+     "y": [
+      3,
+      0
+     ],
+     "off": [
+      0,
+      2
+     ]
+    }
+   },
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      1,
+      1
+     ],
+     "c": [
+      5,
+      3
+     ],
+     "sh": [
+      10,
+      18
+     ],
+     "sot": [
+      4,
+      8
+     ],
+     "f": [
+      12,
+      13
+     ],
+     "y": [
+      2,
+      4
+     ],
+     "off": [
+      2,
+      0
+     ]
+    }
+   },
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      1,
+      2
+     ],
+     "c": [
+      1,
+      6
+     ],
+     "sh": [
+      6,
+      19
+     ],
+     "sot": [
+      2,
+      3
+     ],
+     "f": [
+      15,
+      11
+     ],
+     "y": [
+      1,
+      1
+     ],
+     "off": [
+      0,
+      3
+     ]
+    }
+   }
+  ],
+  "visitante": [
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      0,
+      1
+     ],
+     "c": [
+      7,
+      7
+     ],
+     "sh": [
+      20,
+      12
+     ],
+     "sot": [
+      1,
+      2
+     ],
+     "f": [
+      12,
+      14
+     ],
+     "y": [
+      0,
+      3
+     ],
+     "off": [
+      1,
+      0
+     ]
+    }
+   },
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      1,
+      0
+     ],
+     "c": [
+      6,
+      3
+     ],
+     "sh": [
+      13,
+      18
+     ],
+     "sot": [
+      7,
+      6
+     ],
+     "f": [
+      15,
+      12
+     ],
+     "y": [
+      2,
+      3
+     ],
+     "off": [
+      3,
+      2
+     ]
+    }
+   },
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      1,
+      1
+     ],
+     "c": [
+      7,
+      6
+     ],
+     "sh": [
+      10,
+      21
+     ],
+     "sot": [
+      4,
+      1
+     ],
+     "f": [
+      9,
+      8
+     ],
+     "y": [
+      2,
+      2
+     ],
+     "off": [
+      2,
+      0
+     ]
+    }
+   },
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      2,
+      2
+     ],
+     "c": [
+      3,
+      2
+     ],
+     "sh": [
+      9,
+      14
+     ],
+     "sot": [
+      4,
+      9
+     ],
+     "f": [
+      10,
+      18
+     ],
+     "y": [
+      4,
+      2
+     ],
+     "off": [
+      1,
+      0
+     ]
+    }
+   },
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      0,
+      1
+     ],
+     "c": [
+      2,
+      3
+     ],
+     "sh": [
+      4,
+      18
+     ],
+     "sot": [
+      7,
+      7
+     ],
+     "f": [
+      10,
+      7
+     ],
+     "y": [
+      3,
+      1
+     ],
+     "off": [
+      1,
+      4
+     ]
+    }
+   },
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      3,
+      1
+     ],
+     "c": [
+      2,
+      11
+     ],
+     "sh": [
+      9,
+      15
+     ],
+     "sot": [
+      1,
+      4
+     ],
+     "f": [
+      6,
+      20
+     ],
+     "y": [
+      2,
+      1
+     ],
+     "off": [
+      2,
+      1
+     ]
+    }
+   },
+   {
+    "v": "A",
+    "stats": {
+     "g": [
+      2,
+      3
+     ],
+     "c": [
+      2,
+      8
+     ],
+     "sh": [
+      4,
+      19
+     ],
+     "sot": [
+      2,
+      2
+     ],
+     "f": [
+      14,
+      8
+     ],
+     "y": [
+      2,
+      2
+     ],
+     "off": [
+      5,
+      0
+     ]
+    }
+   },
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      1,
+      2
+     ],
+     "c": [
+      6,
+      3
+     ],
+     "sh": [
+      14,
+      4
+     ],
+     "sot": [
+      1,
+      2
+     ],
+     "f": [
+      12,
+      15
+     ],
+     "y": [
+      0,
+      0
+     ],
+     "off": [
+      2,
+      2
+     ]
+    }
+   },
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      2,
+      2
+     ],
+     "c": [
+      6,
+      8
+     ],
+     "sh": [
+      12,
+      9
+     ],
+     "sot": [
+      8,
+      4
+     ],
+     "f": [
+      10,
+      12
+     ],
+     "y": [
+      1,
+      4
+     ],
+     "off": [
+      1,
+      4
+     ]
+    }
+   },
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      4,
+      0
+     ],
+     "c": [
+      7,
+      1
+     ],
+     "sh": [
+      18,
+      8
+     ],
+     "sot": [
+      2,
+      6
+     ],
+     "f": [
+      14,
+      14
+     ],
+     "y": [
+      1,
+      1
+     ],
+     "off": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      0,
+      1
+     ],
+     "c": [
+      8,
+      5
+     ],
+     "sh": [
+      18,
+      15
+     ],
+     "sot": [
+      4,
+      5
+     ],
+     "f": [
+      15,
+      9
+     ],
+     "y": [
+      3,
+      1
+     ],
+     "off": [
+      2,
+      0
+     ]
+    }
+   },
+   {
+    "v": "H",
+    "stats": {
+     "g": [
+      5,
+      0
+     ],
+     "c": [
+      5,
+      4
+     ],
+     "sh": [
+      14,
+      8
+     ],
+     "sot": [
+      4,
+      3
+     ],
+     "f": [
+      9,
+      10
+     ],
+     "y": [
+      1,
+      3
+     ],
+     "off": [
+      2,
+      1
+     ]
+    }
+   }
+  ]
+ },
+ "jugadores_hist": {
+  "Delantero Local": {
+   "pos": "Delantero",
+   "partidos": [
+    {
+     "min": 90,
+     "remates": 3,
+     "al_arco": 2,
+     "entradas": 0,
+     "faltas": 1,
+     "goles": 1
+    },
+    {
+     "min": 85,
+     "remates": 2,
+     "al_arco": 1,
+     "entradas": 1,
+     "faltas": 2,
+     "goles": 0
+    },
+    {
+     "min": 90,
+     "remates": 4,
+     "al_arco": 2,
+     "entradas": 0,
+     "faltas": 0,
+     "goles": 1
+    },
+    {
+     "min": 70,
+     "remates": 1,
+     "al_arco": 0,
+     "entradas": 0,
+     "faltas": 1,
+     "goles": 0
+    },
+    {
+     "min": 90,
+     "remates": 2,
+     "al_arco": 1,
+     "entradas": 1,
+     "faltas": 2,
+     "goles": 0
+    },
+    {
+     "min": 88,
+     "remates": 3,
+     "al_arco": 1,
+     "entradas": 0,
+     "faltas": 1,
+     "goles": 1
+    },
+    {
+     "min": 60,
+     "remates": 1,
+     "al_arco": 1,
+     "entradas": 0,
+     "faltas": 0,
+     "goles": 0
+    },
+    {
+     "min": 90,
+     "remates": 2,
+     "al_arco": 0,
+     "entradas": 1,
+     "faltas": 1,
+     "goles": 0
+    }
+   ]
+  },
+  "Portero Visitante": {
+   "pos": "Portero",
+   "partidos": [
+    {
+     "min": 90,
+     "atajadas": 2
+    },
+    {
+     "min": 90,
+     "atajadas": 4
+    },
+    {
+     "min": 90,
+     "atajadas": 1
+    },
+    {
+     "min": 90,
+     "atajadas": 3
+    },
+    {
+     "min": 90,
+     "atajadas": 5
+    },
+    {
+     "min": 90,
+     "atajadas": 2
+    },
+    {
+     "min": 90,
+     "atajadas": 3
+    },
+    {
+     "min": 90,
+     "atajadas": 4
+    }
+   ]
+  },
+  "Volante Visitante": {
+   "pos": "Mediocampista",
+   "partidos": [
+    {
+     "min": 90,
+     "remates": 1,
+     "al_arco": 0,
+     "entradas": 3,
+     "faltas": 2,
+     "goles": 0,
+     "tarjeta": 1
+    },
+    {
+     "min": 85,
+     "remates": 0,
+     "al_arco": 0,
+     "entradas": 2,
+     "faltas": 1,
+     "goles": 0,
+     "tarjeta": 0
+    },
+    {
+     "min": 90,
+     "remates": 2,
+     "al_arco": 1,
+     "entradas": 4,
+     "faltas": 3,
+     "goles": 0,
+     "tarjeta": 0
+    },
+    {
+     "min": 75,
+     "remates": 1,
+     "al_arco": 0,
+     "entradas": 2,
+     "faltas": 2,
+     "goles": 0,
+     "tarjeta": 1
+    },
+    {
+     "min": 90,
+     "remates": 1,
+     "al_arco": 0,
+     "entradas": 3,
+     "faltas": 1,
+     "goles": 0,
+     "tarjeta": 1
+    },
+    {
+     "min": 90,
+     "remates": 0,
+     "al_arco": 0,
+     "entradas": 1,
+     "faltas": 2,
+     "goles": 0,
+     "tarjeta": 1
+    },
+    {
+     "min": 80,
+     "remates": 1,
+     "al_arco": 0,
+     "entradas": 2,
+     "faltas": 1,
+     "goles": 0,
+     "tarjeta": 0
+    }
+   ]
+  }
+ },
+ "estadio": "Estadio ilustrativo",
+ "cuotas_leidas": "Cuotas ilustrativas (no son de Betano)"
+}

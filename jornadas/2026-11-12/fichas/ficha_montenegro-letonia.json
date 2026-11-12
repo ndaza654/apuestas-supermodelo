@@ -1,0 +1,921 @@
+{
+ "encuentro": "Montenegro - Letonia",
+ "liga": "UEFA Liga de Naciones C · Grupo 2 · jornada 5",
+ "fecha": "2026-11-12 14:45",
+ "cuotas_leidas": "Cuotas de Betano leídas el 12-nov 00:05 (Bogotá) · 164 mercados en la página",
+ "regla": {
+  "muestra": "últimos 7 de cada equipo (cualquier sede) + directos",
+  "cumple": "5 de 7 (n mínimo 5)",
+  "colchon": "informativo: esperado − línea"
+ },
+ "corners": {
+  "mercado": "corners",
+  "titulo": "Córners",
+  "n_local": 6,
+  "n_visitante": 7,
+  "n_directos": 0,
+  "esperado": {
+   "local": 5.17,
+   "visitante": 3.67,
+   "total": 8.83
+  },
+  "promedios": {
+   "local_a_favor": 5.33,
+   "local_en_contra": 2.33,
+   "visitante_a_favor": 5.0,
+   "visitante_en_contra": 5.0
+  },
+  "series": {
+   "local": [
+    [
+     4.0,
+     2.0
+    ],
+    [
+     2.0,
+     5.0
+    ],
+    [
+     4.0,
+     2.0
+    ],
+    [
+     8.0,
+     1.0
+    ],
+    [
+     5.0,
+     3.0
+    ],
+    [
+     9.0,
+     1.0
+    ]
+   ],
+   "visitante": [
+    [
+     3.0,
+     7.0
+    ],
+    [
+     5.0,
+     2.0
+    ],
+    [
+     4.0,
+     11.0
+    ],
+    [
+     2.0,
+     10.0
+    ],
+    [
+     6.0,
+     1.0
+    ],
+    [
+     9.0,
+     3.0
+    ],
+    [
+     6.0,
+     1.0
+    ]
+   ],
+   "directos": []
+  },
+  "lineas": [
+   {
+    "ambito": "1T",
+    "linea": 3.5,
+    "mas": {
+     "cuota": 1.4
+    },
+    "menos": {
+     "cuota": 2.82
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 4.5,
+    "mas": {
+     "cuota": 1.87
+    },
+    "menos": {
+     "cuota": 1.87
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 5.5,
+    "mas": {
+     "cuota": 2.77
+    },
+    "menos": {
+     "cuota": 1.42
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "2T",
+    "linea": 3.5,
+    "mas": {
+     "cuota": 1.34
+    },
+    "menos": {
+     "cuota": 3.1
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "2T",
+    "linea": 4.5,
+    "mas": {
+     "cuota": 1.75
+    },
+    "menos": {
+     "cuota": 2.0
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "2T",
+    "linea": 5.5,
+    "mas": {
+     "cuota": 2.5
+    },
+    "menos": {
+     "cuota": 1.5
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "local",
+    "linea": 6.5,
+    "esperado": 5.17,
+    "mas": {
+     "cuota": 1.9,
+     "colchon": -1.33,
+     "reg_local": {
+      "x": 2,
+      "n": 6,
+      "txt": "2 de 6",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 7.5,
+    "esperado": 8.83,
+    "mas": {
+     "cuota": 1.31,
+     "colchon": 1.33,
+     "reg_local": {
+      "x": 3,
+      "n": 6,
+      "txt": "3 de 6",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 7,
+      "txt": "4 de 7",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 3.25,
+     "colchon": -1.33,
+     "reg_local": {
+      "x": 3,
+      "n": 6,
+      "txt": "3 de 6",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 8.5,
+    "esperado": 8.83,
+    "mas": {
+     "cuota": 1.57,
+     "colchon": 0.33,
+     "reg_local": {
+      "x": 2,
+      "n": 6,
+      "txt": "2 de 6",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 7,
+      "txt": "4 de 7",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.32,
+     "colchon": -0.33,
+     "reg_local": {
+      "x": 4,
+      "n": 6,
+      "txt": "4 de 6",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 9.5,
+    "esperado": 8.83,
+    "mas": {
+     "cuota": 1.95,
+     "colchon": -0.67,
+     "reg_local": {
+      "x": 1,
+      "n": 6,
+      "txt": "1 de 6",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 7,
+      "txt": "4 de 7",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.8,
+     "colchon": 0.67,
+     "reg_local": {
+      "x": 5,
+      "n": 6,
+      "txt": "5 de 6",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 10.5,
+    "esperado": 8.83,
+    "mas": {
+     "cuota": 2.55,
+     "colchon": -1.67,
+     "reg_local": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.47,
+     "colchon": 1.67,
+     "reg_local": {
+      "x": 6,
+      "n": 6,
+      "txt": "6 de 6",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 7,
+      "txt": "4 de 7",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 11.5,
+    "esperado": 8.83,
+    "mas": {
+     "cuota": 3.5,
+     "colchon": -2.67,
+     "reg_local": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.28,
+     "colchon": 2.67,
+     "reg_local": {
+      "x": 6,
+      "n": 6,
+      "txt": "6 de 6",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 7,
+      "txt": "4 de 7",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "visitante",
+    "linea": 2.5,
+    "esperado": 3.67,
+    "mas": {
+     "cuota": 1.72,
+     "colchon": 1.17,
+     "reg_local": {
+      "x": 2,
+      "n": 6,
+      "txt": "2 de 6",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 6,
+      "n": 7,
+      "txt": "6 de 7",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": false
+    }
+   }
+  ]
+ },
+ "partido": {
+  "faltas": {
+   "mercado": "faltas",
+   "titulo": "Faltas",
+   "n_local": 6,
+   "n_visitante": 7,
+   "n_directos": 0,
+   "esperado": {
+    "local": 11.48,
+    "visitante": 10.67,
+    "total": 22.14
+   },
+   "promedios": {
+    "local_a_favor": 12.67,
+    "local_en_contra": 11.33,
+    "visitante_a_favor": 10.0,
+    "visitante_en_contra": 10.29
+   },
+   "series": {
+    "local": [
+     [
+      15.0,
+      11.0
+     ],
+     [
+      7.0,
+      10.0
+     ],
+     [
+      16.0,
+      10.0
+     ],
+     [
+      7.0,
+      7.0
+     ],
+     [
+      17.0,
+      16.0
+     ],
+     [
+      14.0,
+      14.0
+     ]
+    ],
+    "visitante": [
+     [
+      8.0,
+      10.0
+     ],
+     [
+      10.0,
+      7.0
+     ],
+     [
+      16.0,
+      12.0
+     ],
+     [
+      9.0,
+      10.0
+     ],
+     [
+      4.0,
+      6.0
+     ],
+     [
+      13.0,
+      15.0
+     ],
+     [
+      10.0,
+      12.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "fueras": {
+   "mercado": "fueras",
+   "titulo": "Fueras de juego",
+   "n_local": 5,
+   "n_visitante": 7,
+   "n_directos": 0,
+   "esperado": {
+    "local": 1.09,
+    "visitante": 1.26,
+    "total": 2.34
+   },
+   "promedios": {
+    "local_a_favor": 1.6,
+    "local_en_contra": 0.8,
+    "visitante_a_favor": 1.71,
+    "visitante_en_contra": 0.57
+   },
+   "series": {
+    "local": [
+     [
+      1.0,
+      1.0
+     ],
+     [
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      2.0
+     ],
+     [
+      2.0,
+      0.0
+     ],
+     [
+      3.0,
+      1.0
+     ]
+    ],
+    "visitante": [
+     [
+      1.0,
+      2.0
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      3.0,
+      0.0
+     ],
+     [
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      0.0
+     ],
+     [
+      6.0,
+      0.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "saques_banda": {
+   "mercado": "saques_banda",
+   "titulo": "Saques de banda",
+   "n_local": 6,
+   "n_visitante": 7,
+   "n_directos": 0,
+   "esperado": {
+    "local": 20.43,
+    "visitante": 19.12,
+    "total": 39.55
+   },
+   "promedios": {
+    "local_a_favor": 20.0,
+    "local_en_contra": 20.67,
+    "visitante_a_favor": 17.57,
+    "visitante_en_contra": 20.86
+   },
+   "series": {
+    "local": [
+     [
+      24.0,
+      20.0
+     ],
+     [
+      18.0,
+      27.0
+     ],
+     [
+      20.0,
+      18.0
+     ],
+     [
+      22.0,
+      20.0
+     ],
+     [
+      11.0,
+      15.0
+     ],
+     [
+      25.0,
+      24.0
+     ]
+    ],
+    "visitante": [
+     [
+      6.0,
+      20.0
+     ],
+     [
+      27.0,
+      18.0
+     ],
+     [
+      13.0,
+      26.0
+     ],
+     [
+      21.0,
+      25.0
+     ],
+     [
+      9.0,
+      8.0
+     ],
+     [
+      25.0,
+      23.0
+     ],
+     [
+      22.0,
+      26.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "saques_meta": {
+   "mercado": "saques_meta",
+   "titulo": "Saques de meta",
+   "n_local": 6,
+   "n_visitante": 7,
+   "n_directos": 0,
+   "esperado": {
+    "local": 7.23,
+    "visitante": 9.33,
+    "total": 16.56
+   },
+   "promedios": {
+    "local_a_favor": 6.17,
+    "local_en_contra": 9.67,
+    "visitante_a_favor": 9.0,
+    "visitante_en_contra": 8.29
+   },
+   "series": {
+    "local": [
+     [
+      9.0,
+      7.0
+     ],
+     [
+      4.0,
+      7.0
+     ],
+     [
+      6.0,
+      10.0
+     ],
+     [
+      4.0,
+      15.0
+     ],
+     [
+      11.0,
+      9.0
+     ],
+     [
+      3.0,
+      10.0
+     ]
+    ],
+    "visitante": [
+     [
+      14.0,
+      10.0
+     ],
+     [
+      7.0,
+      4.0
+     ],
+     [
+      15.0,
+      5.0
+     ],
+     [
+      10.0,
+      6.0
+     ],
+     [
+      9.0,
+      11.0
+     ],
+     [
+      4.0,
+      10.0
+     ],
+     [
+      4.0,
+      12.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "remates": {
+   "mercado": "remates",
+   "titulo": "Remates",
+   "n_local": 6,
+   "n_visitante": 7,
+   "n_directos": 0,
+   "esperado": {
+    "local": 13.25,
+    "visitante": 10.31,
+    "total": 23.56
+   },
+   "promedios": {
+    "local_a_favor": 14.5,
+    "local_en_contra": 10.33,
+    "visitante_a_favor": 10.29,
+    "visitante_en_contra": 12.0
+   },
+   "series": {
+    "local": [
+     [
+      8.0,
+      9.0
+     ],
+     [
+      14.0,
+      14.0
+     ],
+     [
+      12.0,
+      9.0
+     ],
+     [
+      19.0,
+      11.0
+     ],
+     [
+      12.0,
+      17.0
+     ],
+     [
+      22.0,
+      2.0
+     ]
+    ],
+    "visitante": [
+     [
+      12.0,
+      19.0
+     ],
+     [
+      14.0,
+      14.0
+     ],
+     [
+      8.0,
+      18.0
+     ],
+     [
+      5.0,
+      14.0
+     ],
+     [
+      7.0,
+      8.0
+     ],
+     [
+      14.0,
+      6.0
+     ],
+     [
+      12.0,
+      5.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "al_arco": {
+   "mercado": "al_arco",
+   "titulo": "Tiros al arco",
+   "n_local": 6,
+   "n_visitante": 7,
+   "n_directos": 0,
+   "esperado": {
+    "local": 4.67,
+    "visitante": 2.6,
+    "total": 7.26
+   },
+   "promedios": {
+    "local_a_favor": 5.33,
+    "local_en_contra": 3.33,
+    "visitante_a_favor": 1.86,
+    "visitante_en_contra": 4.0
+   },
+   "series": {
+    "local": [
+     [
+      5.0,
+      2.0
+     ],
+     [
+      6.0,
+      2.0
+     ],
+     [
+      4.0,
+      4.0
+     ],
+     [
+      4.0,
+      4.0
+     ],
+     [
+      5.0,
+      7.0
+     ],
+     [
+      8.0,
+      1.0
+     ]
+    ],
+    "visitante": [
+     [
+      1.0,
+      7.0
+     ],
+     [
+      2.0,
+      6.0
+     ],
+     [
+      0.0,
+      5.0
+     ],
+     [
+      1.0,
+      4.0
+     ],
+     [
+      2.0,
+      3.0
+     ],
+     [
+      5.0,
+      2.0
+     ],
+     [
+      2.0,
+      1.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  }
+ },
+ "jugadores": [],
+ "contexto": {
+  "arbitro": "Jérôme Brisard (France)",
+  "clima": {
+   "lluvia": "fuerte",
+   "viento_fuerte": false,
+   "temperatura": 16.9,
+   "lluvia_mm_h": 4.0,
+   "viento_kmh": 19.5,
+   "rafagas_kmh": 46.4,
+   "humedad": 91,
+   "fuente": "open-meteo (pronóstico leído 12-nov 00:35)"
+  },
+  "derbi": false,
+  "importancia": "normal",
+  "local": {
+   "estilo": [],
+   "motivacion": "normal",
+   "rotacion": false,
+   "necesita_ganar": false,
+   "perfil_corners": {
+    "centros_pj": 22.83,
+    "centros_media_liga": 18.42,
+    "territorio_pct": null
+   }
+  },
+  "visitante": {
+   "estilo": [],
+   "motivacion": "normal",
+   "rotacion": false,
+   "necesita_ganar": false,
+   "perfil_corners": {
+    "centros_pj": 19.29,
+    "centros_media_liga": 18.42,
+    "territorio_pct": null
+   }
+  },
+  "bajas": [],
+  "dudas": [
+   "Once de Montenegro: Sofascore pone a Rubežić, Vujačić, Marušić, Vuković y Hakšabanović; Sports Mole a Đurić, Savić, Gašević, Janković y Jovetić."
+  ],
+  "fuentes": [
+   "Betano.co (API de la página del partido, todas las pestañas)",
+   "Sofascore (API: evento, alineación probable, bajas, forma con estadísticas, árbitro, tabla)",
+   "open-meteo.com (clima)",
+   "https://www.sportsmole.co.uk/football/montenegro/uefa-nations-league/preview/montenegro-vs-latvia-prediction-team-news-lineups_608846.html"
+  ]
+ }
+}

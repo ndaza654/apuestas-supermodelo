@@ -1,0 +1,218 @@
+{
+ "partido": "Local FC - Visitante SC",
+ "estado": {
+  "mitad": 2,
+  "minuto": 60,
+  "goles": [
+   0,
+   0
+  ],
+  "goles_1t": [
+   0,
+   0
+  ],
+  "corners": [
+   5,
+   2
+  ],
+  "corners_1t": [
+   3,
+   1
+  ],
+  "remates": [
+   12,
+   4
+  ],
+  "al_arco": [
+   4,
+   1
+  ],
+  "faltas": [
+   8,
+   10
+  ],
+  "amarillas": [
+   1,
+   2
+  ],
+  "rojas": [
+   0,
+   0
+  ],
+  "rojas_directas": [
+   0,
+   0
+  ],
+  "amarillas_1t": [
+   0,
+   1
+  ]
+ },
+ "resumen": {
+  "minuto": 60,
+  "mitad": 2,
+  "marcador": "0-0",
+  "goles_restantes_esperados": 0.95,
+  "corners_restantes_esperados": 4.61,
+  "p_final": {
+   "1": 0.367,
+   "X": 0.477,
+   "2": 0.156
+  },
+  "medias_finales": [
+   {
+    "mercado": "Goles",
+    "final": 0.9,
+    "jugado": 0,
+    "restante": 0.9
+   },
+   {
+    "mercado": "Córners",
+    "final": 11.6,
+    "jugado": 7,
+    "restante": 4.6
+   },
+   {
+    "mercado": "Remates",
+    "final": 26.5,
+    "jugado": 16,
+    "restante": 10.5
+   },
+   {
+    "mercado": "Tiros al arco",
+    "final": 8.5,
+    "jugado": 5,
+    "restante": 3.5
+   },
+   {
+    "mercado": "Faltas",
+    "final": 28.4,
+    "jugado": 18,
+    "restante": 10.4
+   }
+  ]
+ },
+ "avisos": [],
+ "lineas": [
+  {
+   "seleccion": "Córners Más 10.5",
+   "sel": {
+    "mercado": "corners",
+    "ambito": "total",
+    "linea": 10.5,
+    "lado": "mas"
+   },
+   "cuota": 1.85,
+   "p_simulacion": 0.664,
+   "p_mercado": 0.5,
+   "p": 0.582,
+   "ev": 0.0767,
+   "cuota_justa": 1.72,
+   "cuota_minima": 1.78,
+   "p_previa": 0.5023,
+   "plan_previo": "en el previo: Contexto a favor (+12 pts) · Valor · ⚠ Revisar: el contexto mueve 12 pts sin un hecho fresco que toque este mercado (¿la ficha repite lo que ya está en el precio?) (50 %)"
+  },
+  {
+   "seleccion": "Empate",
+   "sel": {
+    "mercado": "resultado",
+    "lado": "X"
+   },
+   "cuota": 2.2,
+   "p_simulacion": 0.4773,
+   "p_mercado": 0.4411,
+   "p": 0.4592,
+   "ev": 0.0102,
+   "cuota_justa": 2.18,
+   "cuota_minima": 2.28,
+   "p_previa": 0.2543,
+   "plan_previo": "en el previo: Cara (25 %)"
+  },
+  {
+   "seleccion": "Goles Menos 0.5",
+   "sel": {
+    "mercado": "goles",
+    "ambito": "total",
+    "linea": 0.5,
+    "lado": "menos"
+   },
+   "cuota": 2.75,
+   "p_simulacion": 0.3941,
+   "p_mercado": 0.3173,
+   "p": 0.3557,
+   "ev": -0.0218,
+   "cuota_justa": 2.81,
+   "cuota_minima": 2.98,
+   "p_previa": null,
+   "plan_previo": null
+  },
+  {
+   "seleccion": "Gana Local FC",
+   "sel": {
+    "mercado": "resultado",
+    "lado": "1"
+   },
+   "cuota": 2.6,
+   "p_simulacion": 0.367,
+   "p_mercado": 0.3708,
+   "p": 0.3689,
+   "ev": -0.0408,
+   "cuota_justa": 2.71,
+   "cuota_minima": 2.87,
+   "p_previa": 0.5549,
+   "plan_previo": "en el previo: Justa (55 %)"
+  },
+  {
+   "seleccion": "Goles Más 0.5",
+   "sel": {
+    "mercado": "goles",
+    "ambito": "total",
+    "linea": 0.5,
+    "lado": "mas"
+   },
+   "cuota": 1.4,
+   "p_simulacion": 0.6059,
+   "p_mercado": 0.6827,
+   "p": 0.6443,
+   "ev": -0.098,
+   "cuota_justa": 1.55,
+   "cuota_minima": 1.6,
+   "p_previa": null,
+   "plan_previo": null
+  },
+  {
+   "seleccion": "Gana Visitante SC",
+   "sel": {
+    "mercado": "resultado",
+    "lado": "2"
+   },
+   "cuota": 5.0,
+   "p_simulacion": 0.1557,
+   "p_mercado": 0.1881,
+   "p": 0.1719,
+   "ev": -0.1405,
+   "cuota_justa": 5.82,
+   "cuota_minima": 6.58,
+   "p_previa": 0.1908,
+   "plan_previo": "en el previo: Cara (19 %)"
+  },
+  {
+   "seleccion": "Córners Menos 10.5",
+   "sel": {
+    "mercado": "corners",
+    "ambito": "total",
+    "linea": 10.5,
+    "lado": "menos"
+   },
+   "cuota": 1.85,
+   "p_simulacion": 0.3361,
+   "p_mercado": 0.5,
+   "p": 0.418,
+   "ev": -0.2267,
+   "cuota_justa": 2.39,
+   "cuota_minima": 2.51,
+   "p_previa": 0.4977,
+   "plan_previo": "en el previo: Contexto en contra (-12 pts) · cuota por debajo de la justa · ⚠ Revisar: el contexto mueve 12 pts sin un hecho fresco que toque este mercado (¿la ficha repite lo que ya está en el precio?) (50 %)"
+  }
+ ]
+}

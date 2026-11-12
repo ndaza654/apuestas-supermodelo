@@ -1,0 +1,291 @@
+{
+ "sistemas": [
+  {
+   "sistema": "Referencia: Más 2.5 en todos",
+   "n": 107273,
+   "acierto": 0.4991,
+   "implicita": 0.4979,
+   "roi": -0.0584,
+   "ic95": 0.0058,
+   "roi_cuota_max": -0.0188,
+   "roi_desde_2019": -0.0544,
+   "n_desde_2019": 52852
+  },
+  {
+   "sistema": "Referencia: Menos 2.5 en todos (¿sesgo del público al Más? Sharpods)",
+   "n": 107273,
+   "acierto": 0.5009,
+   "implicita": 0.5021,
+   "roi": -0.0623,
+   "ic95": 0.0058,
+   "roi_cuota_max": -0.0211,
+   "roi_desde_2019": -0.0619,
+   "n_desde_2019": 52852
+  },
+  {
+   "sistema": "IA #400: local ≤1,50 → Más 2.5 (sin el filtro 1T, no está en datos)",
+   "n": 11239,
+   "acierto": 0.6131,
+   "implicita": 0.6068,
+   "roi": -0.0341,
+   "ic95": 0.0145,
+   "roi_cuota_max": -0.0001,
+   "roi_desde_2019": -0.024,
+   "n_desde_2019": 5436
+  },
+  {
+   "sistema": "IA #453: local ≤1,50 y empate ≥4,10 → Más 2.5",
+   "n": 10604,
+   "acierto": 0.6194,
+   "implicita": 0.6139,
+   "roi": -0.0349,
+   "ic95": 0.0147,
+   "roi_cuota_max": -0.0015,
+   "roi_desde_2019": -0.0276,
+   "n_desde_2019": 5266
+  },
+  {
+   "sistema": "IA #5/#14: empate ≥3,60 → Más 2.5",
+   "n": 42643,
+   "acierto": 0.5675,
+   "implicita": 0.5628,
+   "roi": -0.0403,
+   "ic95": 0.0081,
+   "roi_cuota_max": -0.0045,
+   "roi_desde_2019": -0.0309,
+   "n_desde_2019": 20897
+  },
+  {
+   "sistema": "IA #5: empate 2,90–3,20 → Menos 2.5",
+   "n": 18423,
+   "acierto": 0.5989,
+   "implicita": 0.5951,
+   "roi": -0.0392,
+   "ic95": 0.0114,
+   "roi_cuota_max": -0.003,
+   "roi_desde_2019": -0.0359,
+   "n_desde_2019": 8891
+  },
+  {
+   "sistema": "IA #26: ambos ≥2,00 (parejo) → Menos 2.5",
+   "n": 58298,
+   "acierto": 0.5337,
+   "implicita": 0.5326,
+   "roi": -0.0523,
+   "ic95": 0.0073,
+   "roi_cuota_max": -0.0127,
+   "roi_desde_2019": -0.0499,
+   "n_desde_2019": 27887
+  },
+  {
+   "sistema": "IA #45: Bundesliga, empate 3,60–4,33, ambos ≥2,00 → Empate",
+   "n": 534,
+   "acierto": 0.2734,
+   "implicita": 0.2534,
+   "roi": 0.0149,
+   "ic95": 0.1405,
+   "roi_cuota_max": 0.059,
+   "roi_desde_2019": -0.0067,
+   "n_desde_2019": 420
+  },
+  {
+   "sistema": "IA #45 completo: + ≥2 empates en los últimos 5 H2H → Empate",
+   "n": 175,
+   "acierto": 0.3029,
+   "implicita": 0.2536,
+   "roi": 0.127,
+   "ic95": 0.2543,
+   "roi_cuota_max": 0.1768,
+   "roi_desde_2019": 0.1328,
+   "n_desde_2019": 138
+  },
+  {
+   "sistema": "IA #420: empate ≤3,40, ambos ≥2,00, nadie con 2 victorias seguidas → Empate (todas las ligas)",
+   "n": 48947,
+   "acierto": 0.2986,
+   "implicita": 0.2925,
+   "roi": -0.0498,
+   "ic95": 0.0129,
+   "roi_cuota_max": -0.0015,
+   "roi_desde_2019": -0.047,
+   "n_desde_2019": 21658
+  },
+  {
+   "sistema": "IA #420 en Argentina/Brasil → Empate",
+   "n": 4205,
+   "acierto": 0.3127,
+   "implicita": 0.3048,
+   "roi": -0.0469,
+   "ic95": 0.0428,
+   "roi_cuota_max": 0.0113,
+   "roi_desde_2019": -0.0313,
+   "n_desde_2019": 1974
+  },
+  {
+   "sistema": "Referencia: Empate en todos",
+   "n": 160258,
+   "acierto": 0.2629,
+   "implicita": 0.258,
+   "roi": -0.0671,
+   "ic95": 0.0078,
+   "roi_cuota_max": -0.0131,
+   "roi_desde_2019": -0.0602,
+   "n_desde_2019": 76074
+  },
+  {
+   "sistema": "IA #414: favorito local siempre",
+   "n": 113419,
+   "acierto": 0.5132,
+   "implicita": 0.5164,
+   "roi": -0.048,
+   "ic95": 0.0056,
+   "roi_cuota_max": -0.0043,
+   "roi_desde_2019": -0.0494,
+   "n_desde_2019": 52158
+  },
+  {
+   "sistema": "IA #414: favorito visitante siempre",
+   "n": 46839,
+   "acierto": 0.4731,
+   "implicita": 0.4731,
+   "roi": -0.0443,
+   "ic95": 0.0095,
+   "roi_cuota_max": 0.0025,
+   "roi_desde_2019": -0.0438,
+   "n_desde_2019": 23916
+  },
+  {
+   "sistema": "Favorito local 1.00–1.30",
+   "n": 6333,
+   "acierto": 0.8277,
+   "implicita": 0.8152,
+   "roi": -0.0038,
+   "ic95": 0.0113,
+   "roi_cuota_max": 0.0288,
+   "roi_desde_2019": -0.0118,
+   "n_desde_2019": 2924
+  },
+  {
+   "sistema": "Favorito local 1.30–1.60",
+   "n": 17936,
+   "acierto": 0.6596,
+   "implicita": 0.6624,
+   "roi": -0.0335,
+   "ic95": 0.0102,
+   "roi_cuota_max": 0.005,
+   "roi_desde_2019": -0.0243,
+   "n_desde_2019": 8283
+  },
+  {
+   "sistema": "Favorito local 1.60–2.00",
+   "n": 37729,
+   "acierto": 0.5325,
+   "implicita": 0.5328,
+   "roi": -0.038,
+   "ic95": 0.0091,
+   "roi_cuota_max": 0.005,
+   "roi_desde_2019": -0.0447,
+   "n_desde_2019": 16915
+  },
+  {
+   "sistema": "No favorito visitante 3.0–5.0",
+   "n": 64065,
+   "acierto": 0.24,
+   "implicita": 0.2467,
+   "roi": -0.1048,
+   "ic95": 0.0125,
+   "roi_cuota_max": -0.0355,
+   "roi_desde_2019": -0.1135,
+   "n_desde_2019": 29499
+  },
+  {
+   "sistema": "No favorito visitante 5.0–8.0",
+   "n": 20783,
+   "acierto": 0.1466,
+   "implicita": 0.1449,
+   "roi": -0.1155,
+   "ic95": 0.0293,
+   "roi_cuota_max": -0.0133,
+   "roi_desde_2019": -0.1388,
+   "n_desde_2019": 9262
+  },
+  {
+   "sistema": "No favorito visitante 8.0–50.0",
+   "n": 9231,
+   "acierto": 0.0663,
+   "implicita": 0.0712,
+   "roi": -0.2875,
+   "ic95": 0.057,
+   "roi_cuota_max": -0.1495,
+   "roi_desde_2019": -0.3011,
+   "n_desde_2019": 4104
+  },
+  {
+   "sistema": "Jeke: contra el último (último de visita → gana el local)",
+   "n": 5178,
+   "acierto": 0.5769,
+   "implicita": 0.587,
+   "roi": -0.0541,
+   "ic95": 0.0234,
+   "roi_cuota_max": -0.017,
+   "roi_desde_2019": -0.0663,
+   "n_desde_2019": 2394
+  },
+  {
+   "sistema": "Jeke: contra el último (último de local → gana el visitante)",
+   "n": 5478,
+   "acierto": 0.4279,
+   "implicita": 0.4277,
+   "roi": -0.0468,
+   "ic95": 0.0319,
+   "roi_cuota_max": -0.0,
+   "roi_desde_2019": -0.0504,
+   "n_desde_2019": 2499
+  },
+  {
+   "sistema": "A favor del último de local",
+   "n": 5478,
+   "acierto": 0.3138,
+   "implicita": 0.3087,
+   "roi": -0.0418,
+   "ic95": 0.0433,
+   "roi_cuota_max": 0.02,
+   "roi_desde_2019": -0.0927,
+   "n_desde_2019": 2499
+  }
+ ],
+ "ambos": [
+  {
+   "sistema": "IA #429: empate ≥3,90, visitante ≤2,00, local con 2 BTTS seguidos → Ambos Sí",
+   "n": 1314,
+   "acierto": 0.5548,
+   "estimada_mercado": 0.5548,
+   "dif_pts": 0.0,
+   "ic95_pts": 2.69
+  },
+  {
+   "sistema": "IA #429 sin la racha",
+   "n": 4451,
+   "acierto": 0.5282,
+   "estimada_mercado": 0.5397,
+   "dif_pts": -1.15,
+   "ic95_pts": 1.47
+  },
+  {
+   "sistema": "Local con 2 Ambos Sí seguidos (racha sola)",
+   "n": 20933,
+   "acierto": 0.5359,
+   "estimada_mercado": 0.5357,
+   "dif_pts": 0.02,
+   "ic95_pts": 0.68
+  },
+  {
+   "sistema": "IA #16 (parcial): Más 2.5 ≤1,80 → Ambos Sí",
+   "n": 27602,
+   "acierto": 0.5604,
+   "estimada_mercado": 0.5652,
+   "dif_pts": -0.47,
+   "ic95_pts": 0.59
+  }
+ ]
+}
