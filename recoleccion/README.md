@@ -3,19 +3,27 @@
 El shell de la nube no llega a Betano ni a Sofascore; se recolecta con el **navegador integrado** (pestaña ya con sesión) y se guarda JSON en `jornadas/AAAA-MM-DD/`.
 Después `ficha.py` y el modelo trabajan sin red.
 
-## Betano  (verificado en vivo 12-nov-2026)
-1. Abrir `https://www.betano.co/sport/futbol/proximos-partidos-hoy/` y listar partidos:
-   `[...document.querySelectorAll('a[href*="/cuotas-de-partido/"]')].map(a=>a.getAttribute('href'))`
-   → `/cuotas-de-partido/<slug>/<id>/`
-2. Todos los mercados de un partido, desde una pestaña de betano.co (devuelve 200 y JSON con `data`):
-   ```js
-   const r = await fetch(`/api/cuotas-de-partido/${slug}/${id}/?bt=12&req=s,stnf,c,mb`); const j = await r.json();
-   ```
-3. Guardar el JSON crudo en `raw/` y convertirlo con la lógica de `jornadas/2026-11-12/_scripts_legacy/parse_betano.py` (referencia).
-   Códigos de mercado: córners `CNOU`, córners por equipo `XOF2/YOF2`, tiros al arco `X002/X133/X134`, remates `4159–4161`,
-   faltas `4629/X135/X136`, fueras `X013/X131/X132`, saques de meta `X328/4165/4166`, saques de banda `X128/4167/4168`,
-   jugadores `PALS/PLST/PLTA/1000679/1000678/PALA/1000115/PTRC/1000661/PSCR/PTS2/X006`, parejas `1001133–1001137`.
-   Primero se lee qué mercados trae el partido; solo se analiza lo que Betano ofrece.
+## Betano  (extractor verificado en vivo el 12-nov-2026)
+Dos piezas: `betano_extraer.js` (corre en la pestaña de betano.co y devuelve un texto compacto) y `betano.py` (texto → JSON del modelo).
+1. Abrir `https://www.betano.co/sport/futbol/proximos-partidos-hoy/` (hay que desplazarse para que carguen todos) y cargar `betano_extraer.js`
+   en la pestaña (el navegador integrado ejecuta el archivo con `javascript_tool`).
+2. `listarPartidos()` → `[{slug,id}]` de los partidos de la página. Para cada uno: `await extraerBetano(slug, id)` → texto compacto.
+   Usa `fetch('/api/cuotas-de-partido/<slug>/<id>/?bt=12&req=s,stnf,c,mb')` (solo lectura, ~580 mercados por partido).
+3. Guardar el texto en `jornadas/AAAA-MM-DD/raw/bet_<slug>.txt` y convertir: `python3 recoleccion/betano.py jornadas/AAAA-MM-DD/raw`
+   → `jornadas/AAAA-MM-DD/betano/<slug>.json` (bloque `betano` de la entrada). Pruebas: `python3 pruebas/test_betano.py`.
+Qué extrae: líneas Más/Menos de goles, córners, tarjetas, tiros al arco, remates, faltas, fueras, saques de meta y de banda (total, local, visitante, 1T, 2T;
+y asiáticos de goles); 1X2, doble oportunidad, ambos marcan, descanso/final, hándicaps; jugadores (anota, anota o asiste, tarjeta, asistencias, remates, tiros al arco,
+entradas, faltas, atajadas) y las parejas «cualquiera de los jugadores…». Se descartan las líneas con un lado < 1.03 (sin información).
+Primero se lee qué ofrece Betano en ese partido; solo se analiza lo que existe (partidos con pocos mercados salen con pocas líneas, sin inventar).
+Códigos de mercado de la API (por si Betano cambia nombres): córners `CNOU`, por equipo `XOF2/YOF2`, tiros al arco `X002/X133/X134`, remates `4159–4161`, faltas `4629/X135/X136`,
+fueras `X013/X131/X132`, saques de meta `X328/4165/4166`, de banda `X128/4167/4168`, jugadores `PALS/PLST/PLTA/1000679/PALA/1000115/PTRC/1000661/PSCR`, parejas `1001133–1001137`.
+
+## Flashscore  (verificado cargando en el navegador integrado, 12-nov-2026)
+Fuente preferida por el usuario para el contexto: «está todo». La página previa de un partido (`flashscore.co/partido/futbol/<local>/<visitante>/?mid=<id>`) trae
+árbitro, estadio, forma, enfrentamientos directos (H2H), clasificación, cuotas 1X2/Más-Menos/ambos/hándicap y una previa escrita; la pestaña de estadísticas
+(`.../resumen/estadisticas/?mid=<id>`) trae las estadísticas de partidos terminados. La lista del día son los enlaces `a[href*="/partido/"]` de la portada.
+Pendiente: el recolector de «últimos 7 de cada equipo» y directos con estadísticas (córners, remates, faltas, fueras, saques) → `ficha.forma` / `ficha.h2h`.
+No hay estadísticas de árbitro en Flashscore: se completan con la fuente que indique el usuario (B-Soccer; falta la dirección exacta).
 
 ## Sofascore  (⚠ NO verificado hoy)
 Endpoints usados en la sesión del 12-nov desde una pestaña de sofascore.com: `event/<id>`, `event/<id>/lineups` (probables),
