@@ -87,6 +87,24 @@ Ida de semifinal de la Liguilla de Expansión. Muestra 7+7, **7 directos** (abar
 
 ---
 
+## Combinadas del mismo partido (agente `combinadas`)
+Patas que cumplen (≥5 de 7 en ambos), de mercados distintos, evaluadas con `python3 -m supermodelo --combos`. **La «cuota total» es el producto de las individuales y es un techo**, no la cuota real del cupón de Betano; la «cuota mínima» (1.03/p) es la referencia del modelo, no una exigencia de Betano. No se verificó que el builder de Betano admita estas combinaciones. En goles y resultado el modelo copia el mercado (no es segunda opinión). Se excluyeron las tarjetas con aviso, «Más 0.5 de equipo» y «Ambos 1+», y no hay patas de jugadores. Los builders del informe del modelo se descartaron porque todos llevan alguna pata que no cumple.
+
+| Partido | Combinada | Cuota techo | p | Cuota mínima | EV al techo | Stress (−5 pts/pata) |
+|---|---|---|---|---|---|---|
+| Estudiantes (E1) | Córners total Más 6.5 @1.24 + tiros al arco total Más 6.5 @1.30 + tarjetas total Menos 8.5 @1.24 | 2.00 | 50 % | 2.07 | −0.4 % | 46 % |
+| Estudiantes (E6) | Córners total Más 6.5 + tiros al arco total Menos 10.5 @1.27 | 1.57 | 59 % | 1.75 | −7.7 % | 55 % |
+| Estudiantes (E11) | Córners Rivadavia Más 2.5 @1.29 + Estudiantes o empate @1.31 | 1.69 | 57 % | 1.80 | −3.0 % | n/d |
+| Curazao–Panamá (C8) | Córners total Menos 10.5 @1.30 + hándicap Curazao +2 @1.26 | 1.64 | 56 % | 1.84 | −8.4 % | 52 % |
+| Morelia–Leones (M2) | Menos 3.5 goles @1.30 + No hay empate @1.25 | 1.62 | 56 % | 1.84 | −9.1 % | 52 % |
+
+- **Ninguna tiene EV positivo.** E1 es la única que roza el techo de precio (cuota justa 2.01 contra techo 2.00) y comparte la pata «córners Más 6.5» con E6 (no son combinadas independientes). Su pata más frágil es tiros al arco Más 6.5.
+- **Rotación de Estudiantes:** es un escenario del agente (−10 pts en las patas que dependen del once), no una estimación del modelo. E1 bajaría a ~38 % (cuota justa ~2.67 frente a techo 2.00), E6 a ~51 % y E11 a ~50 %.
+- **E11 contiene una pata no verificada** («Estudiantes o empate»): depende de si Betano liquida a 90 minutos o con prórroga y penales.
+- **C8 y M2** tienen correlación ~1.0 entre patas y margen acumulado de 6 % y 11 %. El colchón de Menos 3.5 en Morelia es solo +0.36.
+- **Morelia M6** (Más 1.5 goles + Leones marcan, cuota 2.06, EV +6.2 %) tiene patas casi redundantes (si Leones marca, hay 2 o más goles en ~89 % de los casos): ese EV es un artefacto del producto y no se recomienda.
+- Curazao–Panamá no tiene tarjetas utilizables (las que cumplen están excluidas por la advertencia 3); alternativas del agente: córners Menos 10.5 + Más 1.5 goles @1.39 (cuota 1.81, p 52 %).
+
 ## Lo que no cumple, resumido
 - **Córners:** nada en Morelia; en Curazao–Panamá todo salvo el total Menos 10.5; en Estudiantes, el centro del mercado y los «Más» altos.
 - **Remates/tiros al arco (solo Estudiantes):** las líneas de dos o más escalones de Rivadavia/Estudiantes fuera de las listadas; cualquier línea por debajo de 5 de 7 en un equipo.
