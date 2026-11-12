@@ -47,4 +47,10 @@ check(len([j for j in jj2 if j['nombre'] == 'Cody Gakpo']) == 1 and next(j for j
 hist, sin_h = A.hist_de({'Malen D.': {'pos': 'Extremo', 'p': [['m1', '2026-10-01', 72, 2, 0, 0, 0, 1, 0, 3, 1]]}, 'Nadie X.': {'pos': None, 'p': [['m2', '2026-10-01', 90, 0, 0, 0, 0, 0, 0, 0, 0]]}}, bet)
 pp = hist['Donyell Malen']['partidos'][0]
 check(pp['min'] == 72 and pp['remates'] == 2 and pp['tarjeta'] == 1 and pp['faltas'] == 3 and sin_h == ['Nadie X.'], 'el historial de Flashscore pasa a ficha.jugadores_hist con nombres de Betano')
+
+# --- el puntaje de jugadores cuenta todas las líneas (no solo remates/tiros al arco) ---
+for clave, minimo in (('eslovenia-suiza', 1), ('serbia-alemania', 1)):
+    ej = json.load(open(os.path.join(RAIZ, 'jornadas', '2026-11-13', 'entradas', clave + '.json'), encoding='utf8'))
+    rj = PU.evaluar(ej)
+    check(rj['mercados']['jugadores']['estado'] != 'no ofrece' and rj['mercados']['jugadores']['cumplen'] >= minimo, f'{clave}: los jugadores con línea de anota/asiste/tarjeta/entradas/faltas cuentan en el puntaje')
 print(f'\n{ok} pruebas de recolección superadas')

@@ -21,7 +21,7 @@
    "jugadores": {
     "datos": 85,
     "estado": "apto",
-    "cumplen": 3
+    "cumplen": 4
    }
   },
   "familias_datos": {
@@ -48,7 +48,7 @@
    "Saques de banda": 2,
    "Tiros al arco": 3
   },
-  "jugadores_que_cumplen": 3,
+  "jugadores_que_cumplen": 4,
   "probabilidades_1x2": {
    "1": 0.6042784204743747,
    "X": 0.22322755768112196,
@@ -77,7 +77,7 @@
    "jugadores": {
     "datos": 70,
     "estado": "apto",
-    "cumplen": 0
+    "cumplen": 1
    }
   },
   "familias_datos": {
@@ -89,7 +89,7 @@
   "detalle_datos": [
    "Córners: 27 líneas, muestra de 7 al 100% → 100",
    "Partido: 6/6 familias ofrecidas, muestra al 93% → 95",
-   "Jugadores: 22 con línea, 40% con ≥5 partidos de historial, 100% titulares probables → 70",
+   "Jugadores: 22 con línea, 39% con ≥5 partidos de historial, 100% titulares probables → 70",
    "Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)"
   ],
   "detalle_situacion": [
@@ -105,7 +105,7 @@
    "Remates": 1,
    "Tiros al arco": 3
   },
-  "jugadores_que_cumplen": 0,
+  "jugadores_que_cumplen": 1,
   "probabilidades_1x2": {
    "1": 0.10298436112818414,
    "X": 0.16424230007512125,
@@ -170,10 +170,65 @@
   }
  },
  {
+  "partido": "Eslovenia - Suiza",
+  "liga": "UEFA Liga de Naciones",
+  "fecha": "2026-11-13 14:45",
+  "datos": 96,
+  "situacion": 77,
+  "estado": "apto",
+  "apto": true,
+  "mercados": {
+   "córners": {
+    "datos": 100,
+    "estado": "apto",
+    "cumplen": 3
+   },
+   "partido": {
+    "datos": null,
+    "estado": "no ofrece",
+    "cumplen": 0
+   },
+   "jugadores": {
+    "datos": 83,
+    "estado": "apto",
+    "cumplen": 1
+   }
+  },
+  "familias_datos": {
+   "córners": 100,
+   "jugadores": 83
+  },
+  "motivos": [
+   "partido: Betano no lo ofrece"
+  ],
+  "detalle_datos": [
+   "Córners: 15 líneas, muestra de 7 al 100% → 100",
+   "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
+   "Jugadores: 21 con línea, 67% con ≥5 partidos de historial, 100% titulares probables → 83",
+   "Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)"
+  ],
+  "detalle_situacion": [
+   "+15 importancia alta",
+   "+10 un equipo necesita ganar",
+   "+8 motivación alta",
+   "-6 2 duda(s) abierta(s) en la ficha"
+  ],
+  "lineas_que_cumplen": 3,
+  "por_mercado": {
+   "Córners": 3
+  },
+  "jugadores_que_cumplen": 1,
+  "probabilidades_1x2": {
+   "1": 0.17616580310880828,
+   "X": 0.26424870466321243,
+   "2": 0.5595854922279793
+  }
+ },
+ {
   "partido": "Moldavia - Kazajistán",
   "liga": "UEFA Liga de Naciones",
   "fecha": "2026-11-13 12:00",
-  "datos": 100,
+  "datos": 63,
   "situacion": 88,
   "estado": "apto",
   "apto": true,
@@ -189,22 +244,23 @@
     "cumplen": 0
    },
    "jugadores": {
-    "datos": null,
-    "estado": "no ofrece",
+    "datos": 20,
+    "estado": "no apto",
     "cumplen": 0
    }
   },
   "familias_datos": {
-   "córners": 96
+   "córners": 96,
+   "jugadores": 20
   },
   "motivos": [
    "partido: Betano no lo ofrece",
-   "jugadores: Betano no lo ofrece"
+   "jugadores: datos 20 < 60"
   ],
   "detalle_datos": [
    "Córners: 7 líneas, muestra de 7 al 100% → 96",
    "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
-   "Jugadores: sin escaleras de remates/tiros al arco",
+   "Jugadores: 46 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20",
    "Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)"
   ],
   "detalle_situacion": [
@@ -225,65 +281,10 @@
   }
  },
  {
-  "partido": "Eslovenia - Suiza",
-  "liga": "UEFA Liga de Naciones",
-  "fecha": "2026-11-13 14:45",
-  "datos": 100,
-  "situacion": 77,
-  "estado": "apto",
-  "apto": true,
-  "mercados": {
-   "córners": {
-    "datos": 100,
-    "estado": "apto",
-    "cumplen": 3
-   },
-   "partido": {
-    "datos": null,
-    "estado": "no ofrece",
-    "cumplen": 0
-   },
-   "jugadores": {
-    "datos": null,
-    "estado": "no ofrece",
-    "cumplen": 0
-   }
-  },
-  "familias_datos": {
-   "córners": 100
-  },
-  "motivos": [
-   "partido: Betano no lo ofrece",
-   "jugadores: Betano no lo ofrece"
-  ],
-  "detalle_datos": [
-   "Córners: 15 líneas, muestra de 7 al 100% → 100",
-   "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
-   "Jugadores: sin escaleras de remates/tiros al arco",
-   "Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)"
-  ],
-  "detalle_situacion": [
-   "+15 importancia alta",
-   "+10 un equipo necesita ganar",
-   "+8 motivación alta",
-   "-6 2 duda(s) abierta(s) en la ficha"
-  ],
-  "lineas_que_cumplen": 3,
-  "por_mercado": {
-   "Córners": 3
-  },
-  "jugadores_que_cumplen": 0,
-  "probabilidades_1x2": {
-   "1": 0.17616580310880828,
-   "X": 0.26424870466321243,
-   "2": 0.5595854922279793
-  }
- },
- {
   "partido": "Bulgaria - Islandia",
   "liga": "UEFA Liga de Naciones",
   "fecha": "2026-11-13 14:45",
-  "datos": 96,
+  "datos": 58,
   "situacion": 83,
   "estado": "apto",
   "apto": true,
@@ -299,22 +300,23 @@
     "cumplen": 0
    },
    "jugadores": {
-    "datos": null,
-    "estado": "no ofrece",
+    "datos": 20,
+    "estado": "no apto",
     "cumplen": 0
    }
   },
   "familias_datos": {
-   "córners": 96
+   "córners": 96,
+   "jugadores": 20
   },
   "motivos": [
    "partido: Betano no lo ofrece",
-   "jugadores: Betano no lo ofrece"
+   "jugadores: datos 20 < 60"
   ],
   "detalle_datos": [
    "Córners: 7 líneas, muestra de 7 al 100% → 96",
    "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
-   "Jugadores: sin escaleras de remates/tiros al arco",
+   "Jugadores: 47 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20",
    "Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)"
   ],
   "detalle_situacion": [
@@ -337,7 +339,7 @@
   "partido": "Luxemburgo - Estonia",
   "liga": "UEFA Liga de Naciones",
   "fecha": "2026-11-13 14:45",
-  "datos": 96,
+  "datos": 58,
   "situacion": 88,
   "estado": "apto",
   "apto": true,
@@ -353,22 +355,23 @@
     "cumplen": 0
    },
    "jugadores": {
-    "datos": null,
-    "estado": "no ofrece",
+    "datos": 20,
+    "estado": "no apto",
     "cumplen": 0
    }
   },
   "familias_datos": {
-   "córners": 96
+   "córners": 96,
+   "jugadores": 20
   },
   "motivos": [
    "partido: Betano no lo ofrece",
-   "jugadores: Betano no lo ofrece"
+   "jugadores: datos 20 < 60"
   ],
   "detalle_datos": [
    "Córners: 7 líneas, muestra de 7 al 100% → 96",
    "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
-   "Jugadores: sin escaleras de remates/tiros al arco",
+   "Jugadores: 49 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20",
    "Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)"
   ],
   "detalle_situacion": [
@@ -392,7 +395,7 @@
   "partido": "Eslovaquia - Islas Feroé",
   "liga": "UEFA Liga de Naciones",
   "fecha": "2026-11-13 14:45",
-  "datos": 96,
+  "datos": 58,
   "situacion": 78,
   "estado": "apto",
   "apto": true,
@@ -408,22 +411,23 @@
     "cumplen": 0
    },
    "jugadores": {
-    "datos": null,
-    "estado": "no ofrece",
+    "datos": 20,
+    "estado": "no apto",
     "cumplen": 0
    }
   },
   "familias_datos": {
-   "córners": 96
+   "córners": 96,
+   "jugadores": 20
   },
   "motivos": [
    "partido: Betano no lo ofrece",
-   "jugadores: Betano no lo ofrece"
+   "jugadores: datos 20 < 60"
   ],
   "detalle_datos": [
    "Córners: 7 líneas, muestra de 7 al 100% → 96",
    "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
-   "Jugadores: sin escaleras de remates/tiros al arco",
+   "Jugadores: 43 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20",
    "Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)"
   ],
   "detalle_situacion": [
@@ -446,7 +450,7 @@
   "partido": "Liechtenstein - Azerbaiyán",
   "liga": "UEFA Liga de Naciones",
   "fecha": "2026-11-13 14:45",
-  "datos": 89,
+  "datos": 54,
   "situacion": 93,
   "estado": "apto",
   "apto": true,
@@ -462,22 +466,23 @@
     "cumplen": 0
    },
    "jugadores": {
-    "datos": null,
-    "estado": "no ofrece",
+    "datos": 20,
+    "estado": "no apto",
     "cumplen": 0
    }
   },
   "familias_datos": {
-   "córners": 89
+   "córners": 89,
+   "jugadores": 20
   },
   "motivos": [
    "partido: Betano no lo ofrece",
-   "jugadores: Betano no lo ofrece"
+   "jugadores: datos 20 < 60"
   ],
   "detalle_datos": [
    "Córners: 5 líneas, muestra de 7 al 100% → 89",
    "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
-   "Jugadores: sin escaleras de remates/tiros al arco",
+   "Jugadores: 53 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20",
    "Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)"
   ],
   "detalle_situacion": [
@@ -501,7 +506,7 @@
   "partido": "Andorra - Gibraltar",
   "liga": "UEFA Liga de Naciones",
   "fecha": "2026-11-13 14:45",
-  "datos": 96,
+  "datos": 58,
   "situacion": 83,
   "estado": "apto",
   "apto": true,
@@ -517,22 +522,23 @@
     "cumplen": 0
    },
    "jugadores": {
-    "datos": null,
-    "estado": "no ofrece",
+    "datos": 20,
+    "estado": "no apto",
     "cumplen": 0
    }
   },
   "familias_datos": {
-   "córners": 96
+   "córners": 96,
+   "jugadores": 20
   },
   "motivos": [
    "partido: Betano no lo ofrece",
-   "jugadores: Betano no lo ofrece"
+   "jugadores: datos 20 < 60"
   ],
   "detalle_datos": [
    "Córners: 7 líneas, muestra de 7 al 100% → 96",
    "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
-   "Jugadores: sin escaleras de remates/tiros al arco",
+   "Jugadores: 42 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20",
    "Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)"
   ],
   "detalle_situacion": [
@@ -553,7 +559,7 @@
   "partido": "Internacional de Bogota - Independiente Santa Fe",
   "liga": "Colombia Categoría Primera A",
   "fecha": "2026-11-13 20:30",
-  "datos": 86,
+  "datos": 56,
   "situacion": 12,
   "estado": "no apto",
   "apto": false,
@@ -569,23 +575,24 @@
     "cumplen": 0
    },
    "jugadores": {
-    "datos": null,
-    "estado": "no ofrece",
+    "datos": 20,
+    "estado": "no apto",
     "cumplen": 0
    }
   },
   "familias_datos": {
-   "córners": 81
+   "córners": 81,
+   "jugadores": 20
   },
   "motivos": [
    "situación 12 < 45",
    "partido: Betano no lo ofrece",
-   "jugadores: Betano no lo ofrece"
+   "jugadores: datos 20 < 60"
   ],
   "detalle_datos": [
    "Córners: 3 líneas, muestra de 7 al 100% → 81",
    "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
-   "Jugadores: sin escaleras de remates/tiros al arco",
+   "Jugadores: 50 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20",
    "Árbitro con promedio: 0 (sin dato); directos con estadística: 7 (+5)"
   ],
   "detalle_situacion": [

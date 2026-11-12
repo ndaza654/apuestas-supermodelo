@@ -55,7 +55,7 @@ def puntuar_datos(e, F):
     else:
         det.append('Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco')
     n_j = len({j['jugador'] for j in bet.get('jugadores', [])})
-    js = [j for j in F['jugadores'] if j['stat'] in ('remates', 'al_arco')]
+    js = list(F['jugadores'])      # todas las líneas de jugadores (remates, tiros al arco, entradas, faltas, atajadas, anota/asiste/tarjeta)
     if any(j.get('titular') is not None for j in F['jugadores']):      # hay alineación: solo cuentan los del XI probable (regla 1)
         xi = {j['jugador'] for j in F['jugadores'] if (j.get('titular') or 0) >= 0.6}
         js = [j for j in js if j['jugador'] in xi]
@@ -66,7 +66,7 @@ def puntuar_datos(e, F):
         fam['jugadores'] = round(100 * (0.5 * con_hist + 0.3 * con_xi + 0.2 * min(1, n_j / 20)))
         det.append(f"Jugadores: {n_j} con línea, {con_hist:.0%} con ≥5 partidos de historial, {con_xi:.0%} titulares probables → {fam['jugadores']}")
     else:
-        det.append('Jugadores: Betano no ofrece líneas de jugadores' if not n_j else 'Jugadores: sin escaleras de remates/tiros al arco')
+        det.append('Jugadores: Betano no ofrece líneas de jugadores' if not n_j else 'Jugadores: Betano no trae líneas de jugadores con ficha')
     base = sum(fam.values()) / len(fam) if fam else 0
     a = (e.get('ficha') or {}).get('arbitro') or {}
     extra_a = 5 if (a.get('tarjetas_por_partido') and (a.get('partidos') or 0) >= 5) else 0
@@ -134,7 +134,9 @@ def evaluar(e):
     por_mercado = {}
     for t, amb, lado, h, q, col, rl, rv in filas:
         por_mercado[t] = por_mercado.get(t, 0) + 1
-    jug_ok = [j for j in F['jugadores'] if j['stat'] in ('remates', 'al_arco') and any(x['reg']['cumple'] for x in j.get('escalones', []))]
+    def _cumple(j):      # escalones (remates, al arco, entradas, faltas, atajadas) o línea única sí/no (anota, asiste, tarjeta…)
+        return any(x['reg']['cumple'] for x in j.get('escalones', [])) or bool((j.get('reg') or {}).get('cumple'))
+    jug_ok = [j for j in F['jugadores'] if _cumple(j)]
     cumplen = {'córners': por_mercado.get('Córners', 0), 'partido': sum(v for k, v in por_mercado.items() if k != 'Córners'), 'jugadores': len(jug_ok)}
     mercados = {f: {'datos': fam.get(f), 'estado': estado_de(fam.get(f), s, sin_leer), 'cumplen': cumplen[f]} for f in ('córners', 'partido', 'jugadores')}
     orden = {'apto': 3, 'reserva': 2, 'no apto': 1, 'no ofrece': 0}
