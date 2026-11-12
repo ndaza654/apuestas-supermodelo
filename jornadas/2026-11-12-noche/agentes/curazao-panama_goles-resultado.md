@@ -109,7 +109,7 @@ Verificación propia de los conteos de la ficha en TODAS las líneas de total (i
 
 ## Resultado, doble oportunidad, ambos marcan, hándicap, descanso/final
 
-Regularidad derivada de las series de la ficha (marcadores de los últimos 7/7; no es un campo de la ficha). Evento medido en el partido de cada equipo en su propio papel: L = el equipo local de este partido, V = el visitante (ej. «Gana Curazao»: L ganó X de 7; V perdió X de 7). Directos orientados [local, visitante] según la ficha (n=1).
+Regularidad derivada de las series de la ficha (marcadores de los últimos 7/7; no es un campo de la ficha). Evento medido en el partido de cada equipo en su propio papel: L = el equipo local de este partido, V = el visitante (ej. «Gana Curazao»: L ganó X de 7; V perdió X de 7). Directos orientados [local, visitante] según la ficha (n=1). «Descanso o final» (`HOFR`) se muestra con el nombre que le da el informe; la regla exacta del mercado no está documentada en el repo.
 
 | Selección | Cuota | L | V | Directos | Cumple | p | p mkt | EV |
 |---|---|---|---|---|---|---|---|---|
@@ -165,7 +165,7 @@ Regularidad derivada de las series de la ficha (marcadores de los últimos 7/7; 
 | Hándicap Curazao +0.75 (asiática: devuelve 13%) | 1.62 | 5 de 7 | 4 de 7 | 0 de 1 | no | 61% | 60% | -1.9% |
 | Hándicap Panamá -0.75 (asiática: devuelve 13%) | 2.37 | 2 de 7 | 1 de 7 | 0 de 1 | no | 40% | 40% | -5.3% |
 
-Empate no apuesta (Betano `DNOB`; el informe no lo trae como línea; probabilidad derivada por mí de p_resultado excluyendo el empate y de la implícita del 1X2): Curazao 2.67, Panamá 1.44. Modelo: Curazao 33.0% / Panamá 67.0%; mercado (1X2 sin margen): 34.2% / 65.8%. EV con p del modelo: Curazao -12.0%, Panamá -3.5% (el empate devuelve la apuesta; el EV así calculado supone devolución de 1; es una aproximación). Regularidad = la de «Gana …» más arriba (victoria completa).
+Empate no apuesta (Betano `DNOB`; el informe no lo trae como línea; probabilidad derivada por mí de p_resultado excluyendo el empate y de la implícita del 1X2): Curazao 2.67, Panamá 1.44. Modelo: Curazao 33.0% / Panamá 67.0%; mercado (1X2 sin margen): 34.2% / 65.8%. EV con p del modelo (EV = p_victoria·cuota + p_empate·1 − 1): Curazao -8.6%, Panamá -2.5%. Regularidad = la de «Gana …» más arriba (victoria completa).
 
 
 ### Directos y muestra
@@ -192,6 +192,6 @@ Líneas que cumplen pero con cuota < 1.20 (4): Goles visitante Menos 3.5 @1.05, 
 - Muestra mezclada (Mundial / Nations League / Kirin Cup) y rivales de nivel muy desigual: 6-1 y 1-7 de Curazao dominan el promedio. Un directo (n=1).
 - Sin alineaciones, sin árbitro (Penso M. sin estadística), 39 días sin partido oficial para ambos (descanso).
 - Alertas del informe (5, de 18 a 31 pts) caen en tarjetas y 2 líneas de córners; goles/resultado no llevan marca, pero sus probabilidades salen de lambdas de Betano, o sea iguales al mercado por construcción: no son señal propia.
-- Sin goles por tiempo: 1T/2T, descanso/final y 1X2 por tiempos solo tienen modelo y mercado. Betano no indica si la ida de cuartos se liquida solo a 90′ (en la ida no hay prórroga por regla del torneo, pero la regla del mercado no está en el repo).
+- Sin goles por tiempo: 1T/2T, descanso/final y 1X2 por tiempos solo tienen modelo y mercado. Betano no indica si la ida de cuartos se liquida solo a 90′ (la regla del mercado no está en el repo; no se verificó).
 - n = 7+7: 5 de 7 es umbral de muestra pequeña.
 

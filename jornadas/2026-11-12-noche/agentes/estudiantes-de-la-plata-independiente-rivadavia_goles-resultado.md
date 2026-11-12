@@ -105,7 +105,7 @@ Verificación propia de los conteos de la ficha en TODAS las líneas de total (i
 
 ## Resultado, doble oportunidad, ambos marcan, hándicap, descanso/final
 
-Regularidad derivada de las series de la ficha (marcadores de los últimos 7/7; no es un campo de la ficha). Evento medido en el partido de cada equipo en su propio papel: L = el equipo local de este partido, V = el visitante (ej. «Gana Estudiantes de La Plata»: L ganó X de 7; V perdió X de 7). Directos orientados [local, visitante] según la ficha (n=3).
+Regularidad derivada de las series de la ficha (marcadores de los últimos 7/7; no es un campo de la ficha). Evento medido en el partido de cada equipo en su propio papel: L = el equipo local de este partido, V = el visitante (ej. «Gana Estudiantes de La Plata»: L ganó X de 7; V perdió X de 7). Directos orientados [local, visitante] según la ficha (n=3). «Descanso o final» (`HOFR`) se muestra con el nombre que le da el informe; la regla exacta del mercado no está documentada en el repo.
 
 | Selección | Cuota | L | V | Directos | Cumple | p | p mkt | EV |
 |---|---|---|---|---|---|---|---|---|
@@ -161,7 +161,7 @@ Regularidad derivada de las series de la ficha (marcadores de los últimos 7/7; 
 | Hándicap Estudiantes de La Plata +0.25 (asiática: devuelve 17%) | 1.42 | 1 de 7 | 2 de 7 | 1 de 3 | no | 70% | 69% | -0.9% |
 | Hándicap Independiente Rivadavia -0.25 (asiática: devuelve 17%) | 2.95 | 2 de 7 | 2 de 7 | 0 de 3 | no | 31% | 32% | -8.7% |
 
-Empate no apuesta (Betano `DNOB`; el informe no lo trae como línea; probabilidad derivada por mí de p_resultado excluyendo el empate y de la implícita del 1X2): Estudiantes de La Plata 1.6, Independiente Rivadavia 2.27. Modelo: Estudiantes de La Plata 61.6% / Independiente Rivadavia 38.4%; mercado (1X2 sin margen): 59.5% / 40.5%. EV con p del modelo: Estudiantes de La Plata -1.5%, Independiente Rivadavia -12.8% (el empate devuelve la apuesta; el EV así calculado supone devolución de 1; es una aproximación). Regularidad = la de «Gana …» más arriba (victoria completa).
+Empate no apuesta (Betano `DNOB`; el informe no lo trae como línea; probabilidad derivada por mí de p_resultado excluyendo el empate y de la implícita del 1X2): Estudiantes de La Plata 1.6, Independiente Rivadavia 2.27. Modelo: Estudiantes de La Plata 61.6% / Independiente Rivadavia 38.4%; mercado (1X2 sin margen): 59.5% / 40.5%. EV con p del modelo (EV = p_victoria·cuota + p_empate·1 − 1): Estudiantes de La Plata -1.1%, Independiente Rivadavia -8.5%. Regularidad = la de «Gana …» más arriba (victoria completa).
 
 
 ### Verificación de la liquidación (final única, Córdoba, cancha neutra)

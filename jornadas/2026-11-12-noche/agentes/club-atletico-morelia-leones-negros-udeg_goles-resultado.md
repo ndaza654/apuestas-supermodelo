@@ -83,7 +83,7 @@ Verificación propia de los conteos de la ficha en TODAS las líneas de total (i
 
 ## Resultado, doble oportunidad, ambos marcan, hándicap, descanso/final
 
-Regularidad derivada de las series de la ficha (marcadores de los últimos 7/7; no es un campo de la ficha). Evento medido en el partido de cada equipo en su propio papel: L = el equipo local de este partido, V = el visitante (ej. «Gana Club Atletico Morelia»: L ganó X de 7; V perdió X de 7). Directos orientados [local, visitante] según la ficha (n=7).
+Regularidad derivada de las series de la ficha (marcadores de los últimos 7/7; no es un campo de la ficha). Evento medido en el partido de cada equipo en su propio papel: L = el equipo local de este partido, V = el visitante (ej. «Gana Club Atletico Morelia»: L ganó X de 7; V perdió X de 7). Directos orientados [local, visitante] según la ficha (n=7). «Descanso o final» (`HOFR`) se muestra con el nombre que le da el informe; la regla exacta del mercado no está documentada en el repo.
 
 | Selección | Cuota | L | V | Directos | Cumple | p | p mkt | EV |
 |---|---|---|---|---|---|---|---|---|
@@ -118,7 +118,7 @@ Regularidad derivada de las series de la ficha (marcadores de los últimos 7/7; 
 | Hándicap Club Atletico Morelia -0.5 | 1.67 | 3 de 7 | 2 de 7 | 2 de 7 | no | 57% | 56% | -5.0% |
 | Hándicap Leones Negros UdeG +0.5 | 2.07 | 4 de 7 | 5 de 7 | 5 de 7 | no | 43% | 44% | -10.8% |
 
-Empate no apuesta (Betano `DNOB`; el informe no lo trae como línea; probabilidad derivada por mí de p_resultado excluyendo el empate y de la implícita del 1X2): Club Atletico Morelia 1.27, Leones Negros UdeG 3.3. Modelo: Club Atletico Morelia 76.5% / Leones Negros UdeG 23.5%; mercado (1X2 sin margen): 73.2% / 26.8%. EV con p del modelo: Club Atletico Morelia -2.8%, Leones Negros UdeG -22.6% (el empate devuelve la apuesta; el EV así calculado supone devolución de 1; es una aproximación). Regularidad = la de «Gana …» más arriba (victoria completa).
+Empate no apuesta (Betano `DNOB`; el informe no lo trae como línea; probabilidad derivada por mí de p_resultado excluyendo el empate y de la implícita del 1X2): Club Atletico Morelia 1.27, Leones Negros UdeG 3.3. Modelo: Club Atletico Morelia 76.5% / Leones Negros UdeG 23.5%; mercado (1X2 sin margen): 73.2% / 26.8%. EV con p del modelo (EV = p_victoria·cuota + p_empate·1 − 1): Club Atletico Morelia -2.0%, Leones Negros UdeG -16.8%. Regularidad = la de «Gana …» más arriba (victoria completa).
 
 
 ### Directos y muestra
@@ -144,5 +144,5 @@ Líneas que cumplen pero con cuota < 1.20 (2): Goles Más 0.5 @1.06, Goles Menos
 - Sin alineaciones ni estadísticas de árbitro. Casi sin mercados fuera de goles/resultado.
 - n = 7+7; 7 directos en 5 años (plantillas muy distintas, valor orientativo).
 - Informe sin alertas (0), pero goles/resultado salen de lambdas de Betano: coinciden con el mercado por construcción, no son segunda opinión.
-- Sin goles por tiempo: 1T/2T, descanso/final y 1X2 de tiempos solo tienen modelo y mercado. Ida de semifinal: la regla de liquidación del mercado (90′) no está en el repo, aunque en la ida no hay prórroga.
+- Sin goles por tiempo: 1T/2T, descanso/final y 1X2 de tiempos solo tienen modelo y mercado. Ida de semifinal: la regla de liquidación del mercado (90′) no está en el repo.
 
