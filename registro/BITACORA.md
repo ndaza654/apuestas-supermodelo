@@ -1,6 +1,6 @@
 # Bitácora de análisis y métodos · 4 al 13 de noviembre de 2026
 
-Qué se entregó cada día, con qué modelo y qué criterios, qué se midió y qué límites tiene. Hecha el 12-nov a partir de los documentos del proyecto y del repo. Es la versión legible de `registro/metodos.csv`; las líneas sugeridas del 11 y 12 de noviembre están en `registro/historial_lineas.csv` (50 líneas, con cuota, probabilidad y EV; resultado y apuesta vacíos).
+Qué se entregó cada día, con qué modelo y qué criterios, qué se midió y qué límites tiene. Hecha el 12-nov a partir de los documentos del proyecto y del repo. Es la versión legible de `registro/metodos.csv`; las líneas del 9, 11 y 12 de noviembre están en `registro/historial_lineas.csv` (323 líneas con cuota, probabilidad y EV; las del 9 y 11 ya tienen resultado real, las del 12 se califican esta noche; la columna de apuesta está vacía).
 
 ## 2026-11-04 a 2026-11-08 · Modelo viejo (v1→v2), antes del supermodelo
 
@@ -53,6 +53,6 @@ Qué se entregó cada día, con qué modelo y qué criterios, qué se midió y q
 ## Lo que falta para cerrar el ciclo
 
 - **Qué apostó el usuario:** ningún documento lo registra (el balance del 9-nov ya lo decía). Las columnas `apostada`, `stake` y `resultado` de `historial_lineas.csv` y `lineas.csv` esperan ese dato.
-- **Resultados reales** de los partidos del 11 y 12-nov (y de la jornada del 13-nov): se recogen de Flashscore con el navegador del PC y se califican con el agente `calificacion`.
-- **Líneas del 4 al 9-nov:** solo existen como cifras agregadas (hoja de cálculo del balance y artefactos); no hay tabla línea por línea en el repo.
+- **Resultados reales:** los del 11-nov ya están (6 de 12 líneas cumplidas, `jornadas/2026-11-11/resultados/`). Faltan los del 12-nov (esta noche) y los de la jornada del 13-nov; se recogen de Flashscore con el navegador del PC.
+- **Líneas del 4 al 8-nov:** solo existen como cifras agregadas y en la hoja Balance_lineas_sugeridas_4-8_nov_2026.xlsx (hoja «Líneas», 151 líneas). Esa hoja no está en el repo ni en el proyecto: hay que subirla para pasarla al historial. Las del 9-nov sí se recuperaron (273 líneas, del apéndice del balance).
 - **Lectura honesta hasta hoy:** en todas las pruebas el modelo quedó igual al mercado, y ninguna regla de tipsters o de ficha tiene todavía resultados propios que la respalden.
