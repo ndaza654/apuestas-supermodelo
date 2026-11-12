@@ -3,14 +3,15 @@
 Fuente de cifras: `fichas/ficha_paises-bajos-grecia.json` (clave `jugadores`), `entradas/paises-bajos-grecia.json` (jugadores, betano.parejas, ficha.jugadores_hist). Cuotas Betano: Cuotas de Betano leídas 2026-11-12T17:32:21.538Z · 592 mercados. Alineación: Flashscore «Alineaciones probables», leída 2026-11-12 ~13:00 Bogotá (fuentes_xi 1/1; titular 0.9 = probable, 80 min esperados).
 
 ## Enfoque de mercados
-Betano ofrece escaleras de remates, tiros al arco, entradas, faltas (y atajadas de los dos porteros), más anota / asiste / anota o asiste / tarjeta y 100+ parejas «cualquiera de…». Pesa el bloque de jugadores de ataque y laterales (remates 1+), porque el partido es el choque directo por la cima del grupo (Grecia 8, P. Bajos 8; ambos motivación alta, ninguno 'necesita ganar'). Las parejas de goleadores dependen del total de goles del partido.
+Betano ofrece escaleras de remates, tiros al arco, entradas, faltas (y atajadas de los dos porteros), más anota / asiste / anota o asiste / tarjeta y parejas «cualquiera de…». Pesa el bloque de jugadores de ataque y laterales (remates 1+), porque el partido es el choque directo por la cima del grupo (Grecia 8, P. Bajos 8; ambos motivación alta, ninguno «necesita ganar»). Las parejas de goleadores dependen del total de goles del partido.
 
 Reglas: cumple = ≥ 5 de ≤ 7 partidos jugados, n mínimo 5; esperado = tasa por 90 × 80/90; colchón = esperado − (k − 0.5), solo informativo (no se excluye ningún escalón); EV = p·cuota − 1 no manda.
 
 ## Alineación, bajas y datos faltantes
 - Países Bajos (titular 0.9, 11 en el XI casados con Betano): Bart Verbruggen, Denzel Dumfries, Jurrien Timber, Jan Paul van Hecke, Micky van de Ven, Joey Veerman, Quinten Timber, Tijjani Reijnders, Crysencio Summerville, Donyell Malen, Cody Gakpo
 - Grecia (titular 0.9, 11 en el XI casados con Betano): Konstantinos Tzolakis, Georgios Vagiannidis, Konstantinos Mavropanos, Panagiotis Retsos, Konstantinos Tsimikas, Konstantinos Karetsas, Dimitris Kourbelis, Athanasios Androutsos, Christos Tzolis, Vangelis Pavlidis, Anastasios Douvikas
-- Jugadores con línea en Betano que NO están en el XI probable o son baja (26): se dejan fuera por la regla 1. Alexandros Kyziridis, Anastasios Bakasetas, Andrews Tetteh, Charalampos Kostoulas, Christos Mandas, Dimitrios Giannoulis, Fotis Ioannidis, Frenkie de Jong, Giorgos Masouras, Gjivai Zechiel, Guus Til, Ian Maatsen, Ilias Koutsoupias, Justin Kluivert, Konstantinos Koulierakis, Lazaros Rota, Lutsharel Geertruida, Mark Flekken, Mexx Meerdink, Nectarios Triantis, Noa Lang, Odisseas Vlachodimos, Pantelis Chatzidiakos, Robin Roefs, Ruben van Bommel, Teun Koopmeiners
+- Jugadores con línea en Betano que NO están en el XI probable o son baja (26): fuera por la regla 1. Alexandros Kyziridis, Anastasios Bakasetas, Andrews Tetteh, Charalampos Kostoulas, Christos Mandas, Dimitrios Giannoulis, Fotis Ioannidis, Frenkie de Jong, Giorgos Masouras, Gjivai Zechiel, Guus Til, Ian Maatsen, Ilias Koutsoupias, Justin Kluivert, Konstantinos Koulierakis, Lazaros Rota, Lutsharel Geertruida, Mark Flekken, Mexx Meerdink, Nectarios Triantis, Noa Lang, Odisseas Vlachodimos, Pantelis Chatzidiakos, Robin Roefs, Ruben van Bommel, Teun Koopmeiners
+- Titulares probables con n < 5 partidos de muestra (no evaluables, nunca cumplen): Anastasios Douvikas (2), Athanasios Androutsos (4), Donyell Malen (2), Georgios Vagiannidis (3), Joey Veerman (4), Jurrien Timber (2), Konstantinos Tzolakis (4).
 
 ## Líneas que CUMPLEN (≥ 5 de ≤ 7, n ≥ 5), titulares probables
 | Jugador | Equipo | Mercado | Escalón | Cuota | Esperado | Colchón | Regularidad | Titular |
@@ -20,7 +21,7 @@ Reglas: cumple = ≥ 5 de ≤ 7 partidos jugados, n mínimo 5; esperado = tasa p
 | Konstantinos Mavropanos | Grecia | Remates | 1+ | 1.4 | 1.46 | +0.96 | 5 de 5 | 0.9 |
 | Konstantinos Tsimikas | Grecia | Entradas | 1+ | 1.12 | 1.4 | +0.90 | 6 de 7 | 0.9 |
 
-## Casi (4 de n con n ≥ 5): se muestra, NO cumple
+## Casi (4 de n con n ≥ 5; en escaleras solo cuota ≥ 1.20): se muestra, NO cumple
 | Jugador | Mercado | Escalón | Cuota | Esperado | Colchón | Regularidad |
 |---|---|---|---|---|---|---|
 | Tijjani Reijnders | Tiros al arco | 1+ | 1.42 | 1.18 | +0.68 | 4 de 6 |
@@ -247,75 +248,90 @@ Escaleras: `k+ @cuota (colchón; X de n)` con ✓ si cumple. Sí/no: `@cuota (X 
 - Tarjeta: @5.8 (1 de 4)
 
 ## Parejas «cualquiera de los jugadores…»
-Método (explícito): para cada jugador, p_hist = X/n de su regularidad (anota → goles ≥ 1; anota o asiste → goles+asistencias ≥ 1; tarjeta → ≥ 1 tarjeta) sobre los partidos jugados de la muestra; p_mkt = 1/cuota del sí/no individual de Betano (incluye margen → sobrestima).
-- **Mismo equipo**: la unión se cuenta directamente en los partidos del equipo de la muestra (X de n = partidos en que al menos uno de los dos cumplió; n = partidos en que al menos uno jugó). Así queda recogida la dependencia por el equipo. Como contraste: independencia 1−(1−p1)(1−p2) = techo; el piso es max(p1,p2).
-- **Equipos distintos**: sin partidos en común; p_unión = 1−(1−p1)(1−p2) (independencia). Hay dependencia positiva débil (partido abierto) y negativa débil (un equipo que domina limita al otro); se declara y no se corrige.
-- Cumple (adaptación, no hay criterio oficial para parejas): ≥ 5 de ≤ 7 en el conteo conjunto (mismo equipo) o p_unión_hist ≥ 5/7 = 0.714 con ambos n ≥ 5 (equipos distintos). EV = p·cuota − 1 con p = p_unión_hist, solo informativo.
-- Una pareja con un jugador fuera del XI o baja se marca «sin alineación» y no se evalúa.
+Método (explícito): p_hist = X/n de cada jugador (anota → goles ≥ 1; anota o asiste → goles+asistencias ≥ 1; tarjeta → ≥ 1 tarjeta) sobre sus partidos jugados de la muestra; p_mkt = 1/cuota del sí/no individual de Betano (con margen → sobrestima).
+- **Mismo equipo**: la unión se cuenta directamente en los partidos del equipo de la muestra (X de n = partidos en que al menos uno de los dos cumplió; n = partidos en que al menos uno jugó), lo que recoge la dependencia por el equipo (mismo partido, mismos goles del equipo). Como contraste: independencia 1−(1−p1)(1−p2) = techo (la dependencia positiva lo sobrestima); piso = max(p1,p2).
+- **Equipos distintos**: no hay partidos conjuntos; p_unión = 1−(1−p1)(1−p2) (independencia). Hay dependencia positiva débil (partido abierto) y negativa débil (el dominio de un equipo limita al otro); se declara y no se corrige. Los X/n individuales suelen tener n pequeño.
+- Cumple (adaptación; no hay criterio oficial para parejas): solo se juzga ≥ 5 de ≤ 7 en el conteo conjunto de parejas del MISMO equipo (n ≥ 5 en cada individual). Equipos distintos: p_unión como información, sin etiqueta de cumple. EV = p_unión_hist·cuota − 1, solo informativo. Pareja con algún individual de n < 5 → no evaluable. Jugador fuera del XI o baja → «sin alineación».
 
 ### Anota (pareja)
 
-| Pareja | Cuota | Prob. implícita | Equipos | Individuales hist. (X/n · X/n) | Individuales mercado (cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso max | p_unión usada | EV | Cumple |
+| Pareja | Cuota | Prob. implícita | Equipos | Indiv. hist. (X/n · X/n) | Indiv. mercado (p_unión indep.; cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso | p_unión usada | EV | Cumple / estado |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Donyell Malen / Cody Gakpo | 1.42 | 0.70 | — | — | — | — | — | — | 0.60 | — | historial insuficiente (n 2/5 < 5) |
-| Donyell Malen / Vangelis Pavlidis | 1.62 | 0.62 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 2/6 < 5) |
-| Donyell Malen / Anastasios Douvikas | 1.62 | 0.62 | — | — | — | — | — | — | 0.50 | — | historial insuficiente (n 2/2 < 5) |
-| Donyell Malen / Christos Tzolis | 1.65 | 0.61 | — | — | — | — | — | — | 0.50 | — | historial insuficiente (n 2/6 < 5) |
-| Cody Gakpo / Vangelis Pavlidis | 1.7 | 0.59 | distintos | 3/5 · 0/6 | 0.61 (2.22·3.5) | — | 0.60 | 0.60 | 0.60 | +0.02 | no |
-| Cody Gakpo / Anastasios Douvikas | 1.7 | 0.59 | — | — | — | — | — | — | 0.80 | — | historial insuficiente (n 5/2 < 5) |
-| Cody Gakpo / Christos Tzolis | 1.72 | 0.58 | distintos | 3/5 · 3/6 | 0.60 (2.22·3.75) | — | 0.80 | 0.60 | 0.80 | +0.38 | sí |
+| Donyell Malen / Cody Gakpo | 1.42 | 0.70 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/5 < 5) |
+| Donyell Malen / Vangelis Pavlidis | 1.62 | 0.62 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/6 < 5) |
+| Donyell Malen / Anastasios Douvikas | 1.62 | 0.62 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/2 < 5) |
+| Donyell Malen / Christos Tzolis | 1.65 | 0.61 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/6 < 5) |
+| Cody Gakpo / Vangelis Pavlidis | 1.7 | 0.59 | distintos | 3/5 · 0/6 | 0.61 (2.22·3.5) | — | 0.60 | 0.60 | 0.60 | +0.02 | n/a (equipos distintos: solo informativo) |
+| Cody Gakpo / Anastasios Douvikas | 1.7 | 0.59 | — | — | — | — | — | — | — | — | historial insuficiente (n 5/2 < 5) |
+| Cody Gakpo / Christos Tzolis | 1.72 | 0.58 | distintos | 3/5 · 3/6 | 0.60 (2.22·3.75) | — | 0.80 | 0.60 | 0.80 | +0.38 | n/a (equipos distintos: solo informativo) |
 | Crysencio Summerville / Tijjani Reijnders | 1.83 | 0.55 | mismo | 1/7 · 1/6 | 0.56 (2.65·3.4) | 2 de 7 | 0.29 | 0.17 | 0.29 | -0.48 | no |
-| Crysencio Summerville / Konstantinos Karetsas | 2.02 | 0.50 | distintos | 1/7 · 1/7 | 0.51 (2.65·4.85) | — | 0.27 | 0.14 | 0.27 | -0.46 | no |
-| Vangelis Pavlidis / Anastasios Douvikas | 2.12 | 0.47 | — | — | — | — | — | — | 0.50 | — | historial insuficiente (n 6/2 < 5) |
+| Crysencio Summerville / Konstantinos Karetsas | 2.02 | 0.50 | distintos | 1/7 · 1/7 | 0.51 (2.65·4.85) | — | 0.27 | 0.14 | 0.27 | -0.46 | n/a (equipos distintos: solo informativo) |
+| Vangelis Pavlidis / Anastasios Douvikas | 2.12 | 0.47 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/2 < 5) |
 | Vangelis Pavlidis / Christos Tzolis | 2.18 | 0.46 | mismo | 0/6 · 3/6 | 0.48 (3.5·3.75) | 3 de 7 | 0.50 | 0.50 | 0.43 | -0.07 | no |
-| Anastasios Douvikas / Christos Tzolis | 2.18 | 0.46 | — | — | — | — | — | — | 0.75 | — | historial insuficiente (n 2/6 < 5) |
-| Crysencio Summerville / Athanasios Androutsos | 2.22 | 0.45 | — | — | — | — | — | — | 0.14 | — | historial insuficiente (n 7/4 < 5) |
-| Crysencio Summerville / Dimitris Kourbelis | 2.22 | 0.45 | distintos | 1/7 · 1/7 | 0.46 (2.65·7.5) | — | 0.27 | 0.14 | 0.27 | -0.41 | no |
-| Konstantinos Karetsas / Tijjani Reijnders | 2.35 | 0.43 | distintos | 1/7 · 1/6 | 0.44 (4.85·3.4) | — | 0.29 | 0.17 | 0.29 | -0.33 | no |
-| Tijjani Reijnders / Athanasios Androutsos | 2.67 | 0.37 | — | — | — | — | — | — | 0.17 | — | historial insuficiente (n 6/4 < 5) |
-| Tijjani Reijnders / Dimitris Kourbelis | 2.67 | 0.37 | distintos | 1/6 · 1/7 | 0.39 (3.4·7.5) | — | 0.29 | 0.17 | 0.29 | -0.24 | no |
-| Konstantinos Karetsas / Athanasios Androutsos | 3.35 | 0.30 | — | — | — | — | — | — | 0.14 | — | historial insuficiente (n 7/4 < 5) |
+| Anastasios Douvikas / Christos Tzolis | 2.18 | 0.46 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/6 < 5) |
+| Crysencio Summerville / Athanasios Androutsos | 2.22 | 0.45 | — | — | — | — | — | — | — | — | historial insuficiente (n 7/4 < 5) |
+| Crysencio Summerville / Dimitris Kourbelis | 2.22 | 0.45 | distintos | 1/7 · 1/7 | 0.46 (2.65·7.5) | — | 0.27 | 0.14 | 0.27 | -0.41 | n/a (equipos distintos: solo informativo) |
+| Konstantinos Karetsas / Tijjani Reijnders | 2.35 | 0.43 | distintos | 1/7 · 1/6 | 0.44 (4.85·3.4) | — | 0.29 | 0.17 | 0.29 | -0.33 | n/a (equipos distintos: solo informativo) |
+| Tijjani Reijnders / Athanasios Androutsos | 2.67 | 0.37 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/4 < 5) |
+| Tijjani Reijnders / Dimitris Kourbelis | 2.67 | 0.37 | distintos | 1/6 · 1/7 | 0.39 (3.4·7.5) | — | 0.29 | 0.17 | 0.29 | -0.24 | n/a (equipos distintos: solo informativo) |
+| Konstantinos Karetsas / Athanasios Androutsos | 3.35 | 0.30 | — | — | — | — | — | — | — | — | historial insuficiente (n 7/4 < 5) |
 | Konstantinos Karetsas / Dimitris Kourbelis | 3.35 | 0.30 | mismo | 1/7 · 1/7 | 0.31 (4.85·7.5) | 2 de 7 | 0.27 | 0.14 | 0.29 | -0.04 | no |
-| Athanasios Androutsos / Dimitris Kourbelis | 4.3 | 0.23 | — | — | — | — | — | — | 0.14 | — | historial insuficiente (n 4/7 < 5) |
+| Athanasios Androutsos / Dimitris Kourbelis | 4.3 | 0.23 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/7 < 5) |
+
+### Asiste (pareja)
+
+| Pareja | Cuota | Prob. implícita | Equipos | Indiv. hist. (X/n · X/n) | Indiv. mercado (p_unión indep.; cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso | p_unión usada | EV | Cumple / estado |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Crysencio Summerville / Denzel Dumfries | 2.37 | 0.42 | mismo | 2/7 · 1/7 | — | 2 de 7 | 0.39 | 0.29 | 0.29 | -0.32 | no |
+| Crysencio Summerville / Tijjani Reijnders | 2.47 | 0.40 | mismo | 2/7 · 2/6 | — | 4 de 7 | 0.52 | 0.33 | 0.57 | +0.41 | no |
+| Crysencio Summerville / Joey Veerman | 2.5 | 0.40 | — | — | — | — | — | — | — | — | historial insuficiente (n 7/4 < 5) |
+| Denzel Dumfries / Tijjani Reijnders | 2.55 | 0.39 | mismo | 1/7 · 2/6 | — | 3 de 7 | 0.43 | 0.33 | 0.43 | +0.09 | no |
+| Denzel Dumfries / Joey Veerman | 2.57 | 0.39 | — | — | — | — | — | — | — | — | historial insuficiente (n 7/4 < 5) |
+| Tijjani Reijnders / Joey Veerman | 2.7 | 0.37 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/4 < 5) |
+| Cody Gakpo / Donyell Malen | 3.15 | 0.32 | — | — | — | — | — | — | — | — | historial insuficiente (n 5/2 < 5) |
+| Cody Gakpo / Quinten Timber | 3.4 | 0.29 | mismo | 1/5 · 0/5 | — | 1 de 7 | 0.20 | 0.20 | 0.14 | -0.51 | no |
+| Cody Gakpo / Vangelis Pavlidis | 3.5 | 0.29 | distintos | 1/5 · 1/6 | — | — | 0.33 | 0.20 | 0.33 | +0.17 | n/a (equipos distintos: solo informativo) |
+| Donyell Malen / Quinten Timber | 3.5 | 0.29 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/5 < 5) |
+| Donyell Malen / Vangelis Pavlidis | 3.6 | 0.28 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/6 < 5) |
+| Quinten Timber / Vangelis Pavlidis | 3.95 | 0.25 | distintos | 0/5 · 1/6 | — | — | 0.17 | 0.17 | 0.17 | -0.34 | n/a (equipos distintos: solo informativo) |
 
 ### Anota o asiste (pareja)
 
-| Pareja | Cuota | Prob. implícita | Equipos | Individuales hist. (X/n · X/n) | Individuales mercado (cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso max | p_unión usada | EV | Cumple |
+| Pareja | Cuota | Prob. implícita | Equipos | Indiv. hist. (X/n · X/n) | Indiv. mercado (p_unión indep.; cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso | p_unión usada | EV | Cumple / estado |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Donyell Malen / Cody Gakpo | 1.33 | 0.75 | — | — | — | — | — | — | 0.60 | — | historial insuficiente (n 2/5 < 5) |
-| Crysencio Summerville / Donyell Malen | 1.36 | 0.74 | — | — | — | — | — | — | 0.29 | — | historial insuficiente (n 7/2 < 5) |
+| Donyell Malen / Cody Gakpo | 1.33 | 0.75 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/5 < 5) |
+| Crysencio Summerville / Donyell Malen | 1.36 | 0.74 | — | — | — | — | — | — | — | — | historial insuficiente (n 7/2 < 5) |
 | Crysencio Summerville / Cody Gakpo | 1.37 | 0.73 | mismo | 2/7 · 3/5 | 0.78 (1.91·1.85) | 3 de 7 | 0.71 | 0.60 | 0.43 | -0.41 | no |
-| Donyell Malen / Vangelis Pavlidis | 1.4 | 0.71 | — | — | — | — | — | — | 0.17 | — | historial insuficiente (n 2/6 < 5) |
-| Cody Gakpo / Vangelis Pavlidis | 1.44 | 0.69 | distintos | 3/5 · 1/6 | 0.71 (1.85·2.7) | — | 0.67 | 0.60 | 0.67 | -0.04 | no |
-| Crysencio Summerville / Vangelis Pavlidis | 1.45 | 0.69 | distintos | 2/7 · 1/6 | 0.70 (1.91·2.7) | — | 0.40 | 0.29 | 0.40 | -0.41 | no |
-| Tijjani Reijnders / Anastasios Douvikas | 1.65 | 0.61 | — | — | — | — | — | — | 0.75 | — | historial insuficiente (n 6/2 < 5) |
-| Tijjani Reijnders / Christos Tzolis | 1.67 | 0.60 | distintos | 3/6 · 3/6 | 0.62 (2.3·3.1) | — | 0.75 | 0.50 | 0.75 | +0.25 | sí |
+| Donyell Malen / Vangelis Pavlidis | 1.4 | 0.71 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/6 < 5) |
+| Cody Gakpo / Vangelis Pavlidis | 1.44 | 0.69 | distintos | 3/5 · 1/6 | 0.71 (1.85·2.7) | — | 0.67 | 0.60 | 0.67 | -0.04 | n/a (equipos distintos: solo informativo) |
+| Crysencio Summerville / Vangelis Pavlidis | 1.45 | 0.69 | distintos | 2/7 · 1/6 | 0.70 (1.91·2.7) | — | 0.40 | 0.29 | 0.40 | -0.41 | n/a (equipos distintos: solo informativo) |
+| Tijjani Reijnders / Anastasios Douvikas | 1.65 | 0.61 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/2 < 5) |
+| Tijjani Reijnders / Christos Tzolis | 1.67 | 0.60 | distintos | 3/6 · 3/6 | 0.62 (2.3·3.1) | — | 0.75 | 0.50 | 0.75 | +0.25 | n/a (equipos distintos: solo informativo) |
 | Tijjani Reijnders / Denzel Dumfries | 1.7 | 0.59 | mismo | 3/6 · 1/7 | 0.64 (2.3·2.72) | 4 de 7 | 0.57 | 0.50 | 0.57 | -0.03 | no |
-| Anastasios Douvikas / Denzel Dumfries | 1.78 | 0.56 | — | — | — | — | — | — | 0.57 | — | historial insuficiente (n 2/7 < 5) |
-| Christos Tzolis / Denzel Dumfries | 1.8 | 0.56 | distintos | 3/6 · 1/7 | 0.57 (3.1·2.72) | — | 0.57 | 0.50 | 0.57 | +0.03 | no |
-| Anastasios Douvikas / Christos Tzolis | 2.02 | 0.50 | — | — | — | — | — | — | 0.75 | — | historial insuficiente (n 2/6 < 5) |
+| Anastasios Douvikas / Denzel Dumfries | 1.78 | 0.56 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/7 < 5) |
+| Christos Tzolis / Denzel Dumfries | 1.8 | 0.56 | distintos | 3/6 · 1/7 | 0.57 (3.1·2.72) | — | 0.57 | 0.50 | 0.57 | +0.03 | n/a (equipos distintos: solo informativo) |
+| Anastasios Douvikas / Christos Tzolis | 2.02 | 0.50 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/6 < 5) |
 
 ### Tarjeta (pareja)
 
-| Pareja | Cuota | Prob. implícita | Equipos | Individuales hist. (X/n · X/n) | Individuales mercado (cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso max | p_unión usada | EV | Cumple |
+| Pareja | Cuota | Prob. implícita | Equipos | Indiv. hist. (X/n · X/n) | Indiv. mercado (p_unión indep.; cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso | p_unión usada | EV | Cumple / estado |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Dimitris Kourbelis / Panagiotis Retsos | 1.52 | 0.66 | mismo | 1/7 · 2/6 | 0.68 (2.2·2.45) | 2 de 7 | 0.43 | 0.33 | 0.29 | -0.57 | no |
-| Dimitris Kourbelis / Jan Paul van Hecke | 1.6 | 0.62 | distintos | 1/7 · 1/5 | 0.64 (2.2·2.95) | — | 0.31 | 0.20 | 0.31 | -0.50 | no |
-| Dimitris Kourbelis / Denzel Dumfries | 1.67 | 0.60 | distintos | 1/7 · 0/7 | 0.61 (2.2·3.5) | — | 0.14 | 0.14 | 0.14 | -0.76 | no |
-| Jan Paul van Hecke / Panagiotis Retsos | 1.7 | 0.59 | distintos | 1/5 · 2/6 | 0.61 (2.95·2.45) | — | 0.47 | 0.33 | 0.47 | -0.21 | no |
-| Panagiotis Retsos / Denzel Dumfries | 1.78 | 0.56 | distintos | 2/6 · 0/7 | 0.58 (2.45·3.5) | — | 0.33 | 0.33 | 0.33 | -0.41 | no |
-| Crysencio Summerville / Konstantinos Mavropanos | 1.87 | 0.53 | distintos | 0/7 · 0/5 | 0.55 (3.5·2.7) | — | 0.00 | 0.00 | 0.00 | -1.00 | no |
-| Micky van de Ven / Konstantinos Mavropanos | 1.87 | 0.53 | distintos | 0/6 · 0/5 | 0.55 (3.5·2.7) | — | 0.00 | 0.00 | 0.00 | -1.00 | no |
+| Dimitris Kourbelis / Jan Paul van Hecke | 1.6 | 0.62 | distintos | 1/7 · 1/5 | 0.64 (2.2·2.95) | — | 0.31 | 0.20 | 0.31 | -0.50 | n/a (equipos distintos: solo informativo) |
+| Dimitris Kourbelis / Denzel Dumfries | 1.67 | 0.60 | distintos | 1/7 · 0/7 | 0.61 (2.2·3.5) | — | 0.14 | 0.14 | 0.14 | -0.76 | n/a (equipos distintos: solo informativo) |
+| Jan Paul van Hecke / Panagiotis Retsos | 1.7 | 0.59 | distintos | 1/5 · 2/6 | 0.61 (2.95·2.45) | — | 0.47 | 0.33 | 0.47 | -0.21 | n/a (equipos distintos: solo informativo) |
+| Panagiotis Retsos / Denzel Dumfries | 1.78 | 0.56 | distintos | 2/6 · 0/7 | 0.58 (2.45·3.5) | — | 0.33 | 0.33 | 0.33 | -0.41 | n/a (equipos distintos: solo informativo) |
+| Crysencio Summerville / Konstantinos Mavropanos | 1.87 | 0.53 | distintos | 0/7 · 0/5 | 0.55 (3.5·2.7) | — | 0.00 | 0.00 | 0.00 | -1.00 | n/a (equipos distintos: solo informativo) |
+| Micky van de Ven / Konstantinos Mavropanos | 1.87 | 0.53 | distintos | 0/6 · 0/5 | 0.55 (3.5·2.7) | — | 0.00 | 0.00 | 0.00 | -1.00 | n/a (equipos distintos: solo informativo) |
 | Jan Paul van Hecke / Denzel Dumfries | 1.95 | 0.51 | mismo | 1/5 · 0/7 | 0.53 (2.95·3.5) | 1 de 7 | 0.20 | 0.20 | 0.14 | -0.72 | no |
-| Konstantinos Mavropanos / Joey Veerman | 2.0 | 0.50 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 5/4 < 5) |
+| Konstantinos Mavropanos / Joey Veerman | 2.0 | 0.50 | — | — | — | — | — | — | — | — | historial insuficiente (n 5/4 < 5) |
 | Crysencio Summerville / Micky van de Ven | 2.12 | 0.47 | mismo | 0/7 · 0/6 | 0.49 (3.5·3.5) | 0 de 7 | 0.00 | 0.00 | 0.00 | -1.00 | no |
-| Crysencio Summerville / Joey Veerman | 2.3 | 0.43 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 7/4 < 5) |
-| Micky van de Ven / Joey Veerman | 2.3 | 0.43 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 6/4 < 5) |
+| Crysencio Summerville / Joey Veerman | 2.3 | 0.43 | — | — | — | — | — | — | — | — | historial insuficiente (n 7/4 < 5) |
+| Micky van de Ven / Joey Veerman | 2.3 | 0.43 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/4 < 5) |
 
 ## Límites
 - Muestra de jugadores = últimos 7 partidos oficiales de la selección (Flashscore); un jugador con pocos partidos jugados en esa ventana (n < 5) no es evaluable.
 - Entradas: Betano ofrece el total de entradas; Flashscore solo trae «entradas ganadas». La serie histórica queda por debajo de lo que contaría Betano → el esperado y la regularidad de entradas son una cota baja; tómalos con cuidado.
-- Esperado con 80 minutos fijos para todos los titulares probables (titular 0.9). No hay confirmación de XI: es alineación probable de Flashscore leída ~13:00 del 12-nov; puede cambiar.
-- Las cuotas son las leídas el 12-nov ~12:32 Bogotá; pueden moverse.
-- Los criterios (≥ 5 de 7, tasa por 90) vienen de tipsters/medios sin resultados verificados.
-- Meerdink y otros con línea en Betano que no están en el XI probable quedan fuera.
+- Esperado con 80 minutos fijos para todos los titulares probables (titular 0.9). No hay XI confirmado: es alineación probable de Flashscore leída ~13:00 del 12-nov; puede cambiar.
+- Cuotas leídas el 12-nov ~12:32 Bogotá; pueden moverse.
+- Los criterios (≥ 5 de 7, tasa por 90) vienen de tipsters/medios sin resultados verificados; X de n con n pequeño es ruido.

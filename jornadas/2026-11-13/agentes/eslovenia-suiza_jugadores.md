@@ -12,14 +12,15 @@ Reglas: cumple = ≥ 5 de ≤ 7 partidos jugados, n mínimo 5; esperado = tasa p
 - Suiza (titular 0.9, 11 en el XI casados con Betano): Gregor Kobel, Zachary Athekame, Nico Elvedi, Manuel Akanji, Ricardo Rodríguez, Remo Freuler, Ardon Jashari, Michel Aebischer, Johan Manzambi, Dan Ndoye, Breel Embolo
 - Duda anotada: Historial: sin casar con Betano → Gnezda Cerin A.
 - Duda anotada: Alineación probable: sin casar con Betano → Gnezda Cerin A.
-- Jugadores con línea en Betano que NO están en el XI probable o son baja (33): se dejan fuera por la regla 1. Adam Čerin, Adrian Bajrami, Alvyn Sanches, Andraž Šporar, Benjamin Verbič, Cedric Itten, David Zec, Denis Zakaria, Djibril Sow, Eray Cömert, Erik Janza, Fabian Rieder, Granit Xhaka, Igor Vekić, Isaac Schmidt, Jure Balkovec, Marvin Keller, Matevz Vidovsek, Nik Prelec, Sandi Lovrić, Sascha Britschgi, Srdjan Kuzmic, Tamar Svetlin, Timi Max Elšnik, Tjas Begic, Tomi Horvat, Vincent Sierro, Winsley Boteli, Yvon Mvogo, Zan Luk Leban, Zan Zaletel, Zeki Amdouni, Žan Celar
+- Jugadores con línea en Betano que NO están en el XI probable o son baja (33): fuera por la regla 1. Adam Čerin, Adrian Bajrami, Alvyn Sanches, Andraž Šporar, Benjamin Verbič, Cedric Itten, David Zec, Denis Zakaria, Djibril Sow, Eray Cömert, Erik Janza, Fabian Rieder, Granit Xhaka, Igor Vekić, Isaac Schmidt, Jure Balkovec, Marvin Keller, Matevz Vidovsek, Nik Prelec, Sandi Lovrić, Sascha Britschgi, Srdjan Kuzmic, Tamar Svetlin, Timi Max Elšnik, Tjas Begic, Tomi Horvat, Vincent Sierro, Winsley Boteli, Yvon Mvogo, Zan Luk Leban, Zan Zaletel, Zeki Amdouni, Žan Celar
+- Titulares probables con n < 5 partidos de muestra (no evaluables, nunca cumplen): Aljosa Matko (4), Breel Embolo (3), Jost Urbancic (0), Mark Zabukovnik (4), Michel Aebischer (4), Zachary Athekame (4).
 
 ## Líneas que CUMPLEN (≥ 5 de ≤ 7, n ≥ 5), titulares probables
 | Jugador | Equipo | Mercado | Escalón | Cuota | Esperado | Colchón | Regularidad | Titular |
 |---|---|---|---|---|---|---|---|---|
 | Dan Ndoye | Suiza | Anota o asiste | sí | 1.98 | — | — | 5 de 7 | 0.9 |
 
-## Casi (4 de n con n ≥ 5): se muestra, NO cumple
+## Casi (4 de n con n ≥ 5; en escaleras solo cuota ≥ 1.20): se muestra, NO cumple
 | Jugador | Mercado | Escalón | Cuota | Esperado | Colchón | Regularidad |
 |---|---|---|---|---|---|---|
 | Dan Ndoye | Anota | sí | 3.0 | — | — | 4 de 7 |
@@ -147,7 +148,7 @@ Betano no ofrece parejas en este partido (betano.parejas vacío).
 ## Límites
 - Muestra de jugadores = últimos 7 partidos oficiales de la selección (Flashscore); un jugador con pocos partidos jugados en esa ventana (n < 5) no es evaluable.
 - Entradas: Betano ofrece el total de entradas; Flashscore solo trae «entradas ganadas». La serie histórica queda por debajo de lo que contaría Betano → el esperado y la regularidad de entradas son una cota baja; tómalos con cuidado.
-- Esperado con 80 minutos fijos para todos los titulares probables (titular 0.9). No hay confirmación de XI: es alineación probable de Flashscore leída ~13:00 del 12-nov; puede cambiar.
-- Las cuotas son las leídas el 12-nov ~12:32 Bogotá; pueden moverse.
-- Los criterios (≥ 5 de 7, tasa por 90) vienen de tipsters/medios sin resultados verificados.
-- Gnezda Cerin no casa con Betano (sin historial, sin análisis); Urbancic está en el XI y tiene línea pero no jugó en la ventana de 7 partidos → sin historial.
+- Esperado con 80 minutos fijos para todos los titulares probables (titular 0.9). No hay XI confirmado: es alineación probable de Flashscore leída ~13:00 del 12-nov; puede cambiar.
+- Cuotas leídas el 12-nov ~12:32 Bogotá; pueden moverse.
+- Los criterios (≥ 5 de 7, tasa por 90) vienen de tipsters/medios sin resultados verificados; X de n con n pequeño es ruido.
+- Gnezda Cerin no casa con Betano (sin historial, sin análisis); Urbancic está en el XI y tiene línea pero no jugó en la ventana → sin historial.

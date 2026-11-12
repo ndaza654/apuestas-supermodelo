@@ -11,14 +11,15 @@ Reglas: cumple = ≥ 5 de ≤ 7 partidos jugados, n mínimo 5; esperado = tasa p
 - Serbia (titular 0.9, 11 en el XI casados con Betano): Vanja Milinković-Savić, Kosta Nedeljkovic, Nikola Milenković, Srđan Babić, Strahinja Erakovic, Aleksa Terzic, Andrija Živković, Dušan Tadić, Sergej Milinković-Savić, Luka Jović, Mihajlo Cvetkovic
 - Alemania (titular 0.9, 11 en el XI casados con Betano): Marc-André ter Stegen, Philipp Treu, Jonathan Tah, Nico Schlotterbeck, Nathaniel Brown, Aleksandar Pavlović, Joshua Kimmich, Lennart Karl, Felix Nmecha, Florian Wirtz, Kai Havertz
 - Bajas (Flashscore, titular 0.0 → sus líneas se excluyen): Saša Lukić (local; Tarjetas amarillas); Nemanja Maksimović (local; Tarjetas amarillas); Strahinja Pavlović (local; Lesión); Aleksandar Stankovic (local; Lesión - muscular); Waldemar Anton (visitante; Lesión - muscular)
-- Jugadores con línea en Betano que NO están en el XI probable o son baja (31): se dejan fuera por la regla 1. Aleksandar Mitrović, Aleksandar Stankovic, Alexander Nubel, Brajan Gruda, Derry Scherhant, Dragan Rosic, Dušan Vlahović, Filip Kostić, Filip Stankovic, Finn Jeltsch, Jonas Urbig, Lazar Samardzic, Malick Thiaw, Maximilian Mittelstädt, Nemanja Maksimović, Niclas Füllkrug, Nikola Simic, Petar Sukacev, Said El Mala, Saša Lukić, Stefan Dzodic, Stefan Gudelj, Strahinja Pavlović, Tom Bischof, Vanja Dragojevic, Vasilije Kostov, Vladimir Lucic, Wael Mohya, Waldemar Anton, Younes Ebnoutalib, Đorđe Petrović
+- Jugadores con línea en Betano que NO están en el XI probable o son baja (31): fuera por la regla 1. Aleksandar Mitrović, Aleksandar Stankovic, Alexander Nubel, Brajan Gruda, Derry Scherhant, Dragan Rosic, Dušan Vlahović, Filip Kostić, Filip Stankovic, Finn Jeltsch, Jonas Urbig, Lazar Samardzic, Malick Thiaw, Maximilian Mittelstädt, Nemanja Maksimović, Niclas Füllkrug, Nikola Simic, Petar Sukacev, Said El Mala, Saša Lukić, Stefan Dzodic, Stefan Gudelj, Strahinja Pavlović, Tom Bischof, Vanja Dragojevic, Vasilije Kostov, Vladimir Lucic, Wael Mohya, Waldemar Anton, Younes Ebnoutalib, Đorđe Petrović
+- Titulares probables con n < 5 partidos de muestra (no evaluables, nunca cumplen): Aleksa Terzic (4), Dušan Tadić (4), Kai Havertz (4), Kosta Nedeljkovic (3), Lennart Karl (1), Marc-André ter Stegen (1), Mihajlo Cvetkovic (4), Nathaniel Brown (4), Nico Schlotterbeck (2), Nikola Milenković (2), Philipp Treu (3), Sergej Milinković-Savić (2), Srđan Babić (3), Vanja Milinković-Savić (3).
 
 ## Líneas que CUMPLEN (≥ 5 de ≤ 7, n ≥ 5), titulares probables
 | Jugador | Equipo | Mercado | Escalón | Cuota | Esperado | Colchón | Regularidad | Titular |
 |---|---|---|---|---|---|---|---|---|
 | Felix Nmecha | Alemania | Entradas | 1+ | 1.19 | 2.07 | +1.57 | 5 de 5 | 0.9 |
 
-## Casi (4 de n con n ≥ 5): se muestra, NO cumple
+## Casi (4 de n con n ≥ 5; en escaleras solo cuota ≥ 1.20): se muestra, NO cumple
 | Jugador | Mercado | Escalón | Cuota | Esperado | Colchón | Regularidad |
 |---|---|---|---|---|---|---|
 | Felix Nmecha | Faltas | 1+ | 1.52 | 1.15 | +0.65 | 4 de 5 |
@@ -237,75 +238,91 @@ Escaleras: `k+ @cuota (colchón; X de n)` con ✓ si cumple. Sí/no: `@cuota (X 
 - Tarjeta: @8.0 (0 de 1)
 
 ## Parejas «cualquiera de los jugadores…»
-Método (explícito): para cada jugador, p_hist = X/n de su regularidad (anota → goles ≥ 1; anota o asiste → goles+asistencias ≥ 1; tarjeta → ≥ 1 tarjeta) sobre los partidos jugados de la muestra; p_mkt = 1/cuota del sí/no individual de Betano (incluye margen → sobrestima).
-- **Mismo equipo**: la unión se cuenta directamente en los partidos del equipo de la muestra (X de n = partidos en que al menos uno de los dos cumplió; n = partidos en que al menos uno jugó). Así queda recogida la dependencia por el equipo. Como contraste: independencia 1−(1−p1)(1−p2) = techo; el piso es max(p1,p2).
-- **Equipos distintos**: sin partidos en común; p_unión = 1−(1−p1)(1−p2) (independencia). Hay dependencia positiva débil (partido abierto) y negativa débil (un equipo que domina limita al otro); se declara y no se corrige.
-- Cumple (adaptación, no hay criterio oficial para parejas): ≥ 5 de ≤ 7 en el conteo conjunto (mismo equipo) o p_unión_hist ≥ 5/7 = 0.714 con ambos n ≥ 5 (equipos distintos). EV = p·cuota − 1 con p = p_unión_hist, solo informativo.
-- Una pareja con un jugador fuera del XI o baja se marca «sin alineación» y no se evalúa.
+Método (explícito): p_hist = X/n de cada jugador (anota → goles ≥ 1; anota o asiste → goles+asistencias ≥ 1; tarjeta → ≥ 1 tarjeta) sobre sus partidos jugados de la muestra; p_mkt = 1/cuota del sí/no individual de Betano (con margen → sobrestima).
+- **Mismo equipo**: la unión se cuenta directamente en los partidos del equipo de la muestra (X de n = partidos en que al menos uno de los dos cumplió; n = partidos en que al menos uno jugó), lo que recoge la dependencia por el equipo (mismo partido, mismos goles del equipo). Como contraste: independencia 1−(1−p1)(1−p2) = techo (la dependencia positiva lo sobrestima); piso = max(p1,p2).
+- **Equipos distintos**: no hay partidos conjuntos; p_unión = 1−(1−p1)(1−p2) (independencia). Hay dependencia positiva débil (partido abierto) y negativa débil (el dominio de un equipo limita al otro); se declara y no se corrige. Los X/n individuales suelen tener n pequeño.
+- Cumple (adaptación; no hay criterio oficial para parejas): solo se juzga ≥ 5 de ≤ 7 en el conteo conjunto de parejas del MISMO equipo (n ≥ 5 en cada individual). Equipos distintos: p_unión como información, sin etiqueta de cumple. EV = p_unión_hist·cuota − 1, solo informativo. Pareja con algún individual de n < 5 → no evaluable. Jugador fuera del XI o baja → «sin alineación».
 
 ### Anota (pareja)
 
-| Pareja | Cuota | Prob. implícita | Equipos | Individuales hist. (X/n · X/n) | Individuales mercado (cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso max | p_unión usada | EV | Cumple |
+| Pareja | Cuota | Prob. implícita | Equipos | Indiv. hist. (X/n · X/n) | Indiv. mercado (p_unión indep.; cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso | p_unión usada | EV | Cumple / estado |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Kai Havertz / Florian Wirtz | 1.29 | 0.78 | — | — | — | — | — | — | 0.38 | — | historial insuficiente (n 4/6 < 5) |
-| Kai Havertz / Luka Jović | 1.5 | 0.67 | — | — | — | — | — | — | 0.38 | — | historial insuficiente (n 4/6 < 5) |
-| Kai Havertz / Dušan Tadić | 1.5 | 0.67 | — | — | — | — | — | — | 0.25 | — | historial insuficiente (n 4/4 < 5) |
-| Kai Havertz / Mihajlo Cvetkovic | 1.5 | 0.67 | — | — | — | — | — | — | 0.44 | — | historial insuficiente (n 4/4 < 5) |
-| Luka Jović / Florian Wirtz | 1.7 | 0.59 | distintos | 1/6 · 1/6 | 0.60 (4.3·2.07) | — | 0.31 | 0.17 | 0.31 | -0.48 | no |
-| Lennart Karl / Felix Nmecha | 1.7 | 0.59 | — | — | — | — | — | — | 0.20 | — | historial insuficiente (n 1/5 < 5) |
-| Dušan Tadić / Florian Wirtz | 1.72 | 0.58 | — | — | — | — | — | — | 0.17 | — | historial insuficiente (n 4/6 < 5) |
-| Mihajlo Cvetkovic / Florian Wirtz | 1.72 | 0.58 | — | — | — | — | — | — | 0.38 | — | historial insuficiente (n 4/6 < 5) |
-| Lennart Karl / Nathaniel Brown | 1.75 | 0.57 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 1/4 < 5) |
-| Lennart Karl / Andrija Živković | 1.93 | 0.52 | — | — | — | — | — | — | 0.17 | — | historial insuficiente (n 1/6 < 5) |
-| Lennart Karl / Sergej Milinković-Savić | 1.93 | 0.52 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 1/2 < 5) |
-| Felix Nmecha / Nathaniel Brown | 2.15 | 0.47 | — | — | — | — | — | — | 0.20 | — | historial insuficiente (n 5/4 < 5) |
-| Andrija Živković / Felix Nmecha | 2.5 | 0.40 | distintos | 1/6 · 1/5 | 0.41 (6.1·3.35) | — | 0.33 | 0.20 | 0.33 | -0.17 | no |
-| Sergej Milinković-Savić / Felix Nmecha | 2.5 | 0.40 | — | — | — | — | — | — | 0.20 | — | historial insuficiente (n 2/5 < 5) |
-| Luka Jović / Dušan Tadić | 2.62 | 0.38 | — | — | — | — | — | — | 0.17 | — | historial insuficiente (n 6/4 < 5) |
-| Luka Jović / Mihajlo Cvetkovic | 2.62 | 0.38 | — | — | — | — | — | — | 0.38 | — | historial insuficiente (n 6/4 < 5) |
-| Dušan Tadić / Mihajlo Cvetkovic | 2.72 | 0.37 | — | — | — | — | — | — | 0.25 | — | historial insuficiente (n 4/4 < 5) |
-| Andrija Živković / Nathaniel Brown | 2.75 | 0.36 | — | — | — | — | — | — | 0.17 | — | historial insuficiente (n 6/4 < 5) |
-| Sergej Milinković-Savić / Nathaniel Brown | 2.75 | 0.36 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 2/4 < 5) |
-| Andrija Živković / Sergej Milinković-Savić | 3.55 | 0.28 | — | — | — | — | — | — | 0.17 | — | historial insuficiente (n 6/2 < 5) |
+| Kai Havertz / Florian Wirtz | 1.29 | 0.78 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/6 < 5) |
+| Kai Havertz / Luka Jović | 1.5 | 0.67 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/6 < 5) |
+| Kai Havertz / Dušan Tadić | 1.5 | 0.67 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/4 < 5) |
+| Kai Havertz / Mihajlo Cvetkovic | 1.5 | 0.67 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/4 < 5) |
+| Luka Jović / Florian Wirtz | 1.7 | 0.59 | distintos | 1/6 · 1/6 | 0.60 (4.3·2.07) | — | 0.31 | 0.17 | 0.31 | -0.48 | n/a (equipos distintos: solo informativo) |
+| Lennart Karl / Felix Nmecha | 1.7 | 0.59 | — | — | — | — | — | — | — | — | historial insuficiente (n 1/5 < 5) |
+| Dušan Tadić / Florian Wirtz | 1.72 | 0.58 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/6 < 5) |
+| Mihajlo Cvetkovic / Florian Wirtz | 1.72 | 0.58 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/6 < 5) |
+| Lennart Karl / Nathaniel Brown | 1.75 | 0.57 | — | — | — | — | — | — | — | — | historial insuficiente (n 1/4 < 5) |
+| Lennart Karl / Andrija Živković | 1.93 | 0.52 | — | — | — | — | — | — | — | — | historial insuficiente (n 1/6 < 5) |
+| Lennart Karl / Sergej Milinković-Savić | 1.93 | 0.52 | — | — | — | — | — | — | — | — | historial insuficiente (n 1/2 < 5) |
+| Felix Nmecha / Nathaniel Brown | 2.15 | 0.47 | — | — | — | — | — | — | — | — | historial insuficiente (n 5/4 < 5) |
+| Andrija Živković / Felix Nmecha | 2.5 | 0.40 | distintos | 1/6 · 1/5 | 0.41 (6.1·3.35) | — | 0.33 | 0.20 | 0.33 | -0.17 | n/a (equipos distintos: solo informativo) |
+| Sergej Milinković-Savić / Felix Nmecha | 2.5 | 0.40 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/5 < 5) |
+| Luka Jović / Dušan Tadić | 2.62 | 0.38 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/4 < 5) |
+| Luka Jović / Mihajlo Cvetkovic | 2.62 | 0.38 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/4 < 5) |
+| Dušan Tadić / Mihajlo Cvetkovic | 2.72 | 0.37 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/4 < 5) |
+| Andrija Živković / Nathaniel Brown | 2.75 | 0.36 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/4 < 5) |
+| Sergej Milinković-Savić / Nathaniel Brown | 2.75 | 0.36 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/4 < 5) |
+| Andrija Živković / Sergej Milinković-Savić | 3.55 | 0.28 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/2 < 5) |
+
+### Asiste (pareja)
+
+| Pareja | Cuota | Prob. implícita | Equipos | Indiv. hist. (X/n · X/n) | Indiv. mercado (p_unión indep.; cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso | p_unión usada | EV | Cumple / estado |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Florian Wirtz / Lennart Karl | 1.82 | 0.55 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/1 < 5) |
+| Florian Wirtz / Kai Havertz | 2.02 | 0.50 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/4 < 5) |
+| Florian Wirtz / Andrija Živković | 2.07 | 0.48 | distintos | 2/6 · 1/6 | — | — | 0.44 | 0.33 | 0.44 | -0.08 | n/a (equipos distintos: solo informativo) |
+| Lennart Karl / Kai Havertz | 2.07 | 0.48 | — | — | — | — | — | — | — | — | historial insuficiente (n 1/4 < 5) |
+| Lennart Karl / Andrija Živković | 2.15 | 0.47 | — | — | — | — | — | — | — | — | historial insuficiente (n 1/6 < 5) |
+| Kai Havertz / Andrija Živković | 2.47 | 0.40 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/6 < 5) |
+| Aleksa Terzic / Felix Nmecha | 3.2 | 0.31 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/5 < 5) |
+| Aleksa Terzic / Dušan Tadić | 3.25 | 0.31 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/4 < 5) |
+| Aleksa Terzic / Nathaniel Brown | 3.25 | 0.31 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/4 < 5) |
+| Felix Nmecha / Dušan Tadić | 3.25 | 0.31 | — | — | — | — | — | — | — | — | historial insuficiente (n 5/4 < 5) |
+| Felix Nmecha / Nathaniel Brown | 3.3 | 0.30 | — | — | — | — | — | — | — | — | historial insuficiente (n 5/4 < 5) |
+| Dušan Tadić / Nathaniel Brown | 3.35 | 0.30 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/4 < 5) |
 
 ### Anota o asiste (pareja)
 
-| Pareja | Cuota | Prob. implícita | Equipos | Individuales hist. (X/n · X/n) | Individuales mercado (cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso max | p_unión usada | EV | Cumple |
+| Pareja | Cuota | Prob. implícita | Equipos | Indiv. hist. (X/n · X/n) | Indiv. mercado (p_unión indep.; cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso | p_unión usada | EV | Cumple / estado |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Florian Wirtz / Kai Havertz | 1.19 | 0.84 | — | — | — | — | — | — | 0.62 | — | historial insuficiente (n 6/4 < 5) |
-| Kai Havertz / Lennart Karl | 1.21 | 0.83 | — | — | — | — | — | — | 0.25 | — | historial insuficiente (n 4/1 < 5) |
-| Florian Wirtz / Lennart Karl | 1.23 | 0.81 | — | — | — | — | — | — | 0.50 | — | historial insuficiente (n 6/1 < 5) |
-| Kai Havertz / Dušan Tadić | 1.29 | 0.78 | — | — | — | — | — | — | 0.44 | — | historial insuficiente (n 4/4 < 5) |
-| Florian Wirtz / Dušan Tadić | 1.32 | 0.76 | — | — | — | — | — | — | 0.62 | — | historial insuficiente (n 6/4 < 5) |
-| Lennart Karl / Dušan Tadić | 1.38 | 0.72 | — | — | — | — | — | — | 0.25 | — | historial insuficiente (n 1/4 < 5) |
-| Andrija Živković / Felix Nmecha | 1.67 | 0.60 | distintos | 2/6 · 2/5 | 0.61 (2.95·2.45) | — | 0.60 | 0.40 | 0.60 | +0.00 | no |
-| Luka Jović / Felix Nmecha | 1.78 | 0.56 | distintos | 1/6 · 2/5 | 0.57 (3.55·2.45) | — | 0.50 | 0.40 | 0.50 | -0.11 | no |
-| Mihajlo Cvetkovic / Felix Nmecha | 1.8 | 0.56 | — | — | — | — | — | — | 0.55 | — | historial insuficiente (n 4/5 < 5) |
+| Florian Wirtz / Kai Havertz | 1.19 | 0.84 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/4 < 5) |
+| Kai Havertz / Lennart Karl | 1.21 | 0.83 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/1 < 5) |
+| Florian Wirtz / Lennart Karl | 1.23 | 0.81 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/1 < 5) |
+| Kai Havertz / Dušan Tadić | 1.29 | 0.78 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/4 < 5) |
+| Florian Wirtz / Dušan Tadić | 1.32 | 0.76 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/4 < 5) |
+| Lennart Karl / Dušan Tadić | 1.38 | 0.72 | — | — | — | — | — | — | — | — | historial insuficiente (n 1/4 < 5) |
+| Andrija Živković / Felix Nmecha | 1.67 | 0.60 | distintos | 2/6 · 2/5 | 0.61 (2.95·2.45) | — | 0.60 | 0.40 | 0.60 | +0.00 | n/a (equipos distintos: solo informativo) |
+| Luka Jović / Felix Nmecha | 1.78 | 0.56 | distintos | 1/6 · 2/5 | 0.57 (3.55·2.45) | — | 0.50 | 0.40 | 0.50 | -0.11 | n/a (equipos distintos: solo informativo) |
+| Mihajlo Cvetkovic / Felix Nmecha | 1.8 | 0.56 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/5 < 5) |
 | Andrija Živković / Luka Jović | 2.27 | 0.44 | mismo | 2/6 · 1/6 | 0.53 (2.95·3.55) | 3 de 6 | 0.44 | 0.33 | 0.50 | +0.14 | no |
-| Andrija Živković / Mihajlo Cvetkovic | 2.3 | 0.43 | — | — | — | — | — | — | 0.50 | — | historial insuficiente (n 6/4 < 5) |
-| Luka Jović / Mihajlo Cvetkovic | 2.35 | 0.43 | — | — | — | — | — | — | 0.38 | — | historial insuficiente (n 6/4 < 5) |
+| Andrija Živković / Mihajlo Cvetkovic | 2.3 | 0.43 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/4 < 5) |
+| Luka Jović / Mihajlo Cvetkovic | 2.35 | 0.43 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/4 < 5) |
 
 ### Tarjeta (pareja)
 
-| Pareja | Cuota | Prob. implícita | Equipos | Individuales hist. (X/n · X/n) | Individuales mercado (cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso max | p_unión usada | EV | Cumple |
+| Pareja | Cuota | Prob. implícita | Equipos | Indiv. hist. (X/n · X/n) | Indiv. mercado (p_unión indep.; cuotas) | Unión conjunta (mismo eq.) | Unión indep. hist. (techo) | Piso | p_unión usada | EV | Cumple / estado |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Andrija Živković / Sergej Milinković-Savić | 1.95 | 0.51 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 6/2 < 5) |
-| Srđan Babić / Aleksa Terzic | 1.95 | 0.51 | — | — | — | — | — | — | 0.25 | — | historial insuficiente (n 3/4 < 5) |
-| Nico Schlotterbeck / Andrija Živković | 2.02 | 0.50 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 2/6 < 5) |
-| Nico Schlotterbeck / Sergej Milinković-Savić | 2.02 | 0.50 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 2/2 < 5) |
-| Aleksandar Pavlović / Andrija Živković | 2.02 | 0.50 | distintos | 1/5 · 0/6 | 0.52 (3.45·3.15) | — | 0.20 | 0.20 | 0.20 | -0.60 | no |
-| Aleksandar Pavlović / Sergej Milinković-Savić | 2.02 | 0.50 | — | — | — | — | — | — | 0.20 | — | historial insuficiente (n 5/2 < 5) |
-| Srđan Babić / Nikola Milenković | 2.02 | 0.50 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 3/2 < 5) |
-| Aleksa Terzic / Nikola Milenković | 2.05 | 0.49 | — | — | — | — | — | — | 0.25 | — | historial insuficiente (n 4/2 < 5) |
-| Nico Schlotterbeck / Aleksandar Pavlović | 2.1 | 0.48 | — | — | — | — | — | — | 0.20 | — | historial insuficiente (n 2/5 < 5) |
-| Srđan Babić / Joshua Kimmich | 2.18 | 0.46 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 3/5 < 5) |
-| Aleksa Terzic / Joshua Kimmich | 2.2 | 0.45 | — | — | — | — | — | — | 0.25 | — | historial insuficiente (n 4/5 < 5) |
-| Joshua Kimmich / Nikola Milenković | 2.3 | 0.43 | — | — | — | — | — | — | 0.00 | — | historial insuficiente (n 5/2 < 5) |
+| Andrija Živković / Sergej Milinković-Savić | 1.95 | 0.51 | — | — | — | — | — | — | — | — | historial insuficiente (n 6/2 < 5) |
+| Srđan Babić / Aleksa Terzic | 1.95 | 0.51 | — | — | — | — | — | — | — | — | historial insuficiente (n 3/4 < 5) |
+| Nico Schlotterbeck / Andrija Živković | 2.02 | 0.50 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/6 < 5) |
+| Nico Schlotterbeck / Sergej Milinković-Savić | 2.02 | 0.50 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/2 < 5) |
+| Aleksandar Pavlović / Andrija Živković | 2.02 | 0.50 | distintos | 1/5 · 0/6 | 0.52 (3.45·3.15) | — | 0.20 | 0.20 | 0.20 | -0.60 | n/a (equipos distintos: solo informativo) |
+| Aleksandar Pavlović / Sergej Milinković-Savić | 2.02 | 0.50 | — | — | — | — | — | — | — | — | historial insuficiente (n 5/2 < 5) |
+| Srđan Babić / Nikola Milenković | 2.02 | 0.50 | — | — | — | — | — | — | — | — | historial insuficiente (n 3/2 < 5) |
+| Aleksa Terzic / Nikola Milenković | 2.05 | 0.49 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/2 < 5) |
+| Nico Schlotterbeck / Aleksandar Pavlović | 2.1 | 0.48 | — | — | — | — | — | — | — | — | historial insuficiente (n 2/5 < 5) |
+| Srđan Babić / Joshua Kimmich | 2.18 | 0.46 | — | — | — | — | — | — | — | — | historial insuficiente (n 3/5 < 5) |
+| Aleksa Terzic / Joshua Kimmich | 2.2 | 0.45 | — | — | — | — | — | — | — | — | historial insuficiente (n 4/5 < 5) |
+| Joshua Kimmich / Nikola Milenković | 2.3 | 0.43 | — | — | — | — | — | — | — | — | historial insuficiente (n 5/2 < 5) |
 
 ## Límites
 - Muestra de jugadores = últimos 7 partidos oficiales de la selección (Flashscore); un jugador con pocos partidos jugados en esa ventana (n < 5) no es evaluable.
 - Entradas: Betano ofrece el total de entradas; Flashscore solo trae «entradas ganadas». La serie histórica queda por debajo de lo que contaría Betano → el esperado y la regularidad de entradas son una cota baja; tómalos con cuidado.
-- Esperado con 80 minutos fijos para todos los titulares probables (titular 0.9). No hay confirmación de XI: es alineación probable de Flashscore leída ~13:00 del 12-nov; puede cambiar.
-- Las cuotas son las leídas el 12-nov ~12:32 Bogotá; pueden moverse.
-- Los criterios (≥ 5 de 7, tasa por 90) vienen de tipsters/medios sin resultados verificados.
-- Bajas filtradas (titular 0.0): Lukić y Maksimović (tarjetas/sanción), S. Pavlović y Stankovic (lesión) en Serbia; Anton (lesión) en Alemania.
+- Esperado con 80 minutos fijos para todos los titulares probables (titular 0.9). No hay XI confirmado: es alineación probable de Flashscore leída ~13:00 del 12-nov; puede cambiar.
+- Cuotas leídas el 12-nov ~12:32 Bogotá; pueden moverse.
+- Los criterios (≥ 5 de 7, tasa por 90) vienen de tipsters/medios sin resultados verificados; X de n con n pequeño es ruido.
+- Bajas filtradas (titular 0.0): Lukić y Maksimović (tarjetas), S. Pavlović y Stankovic (lesión) en Serbia; Anton (lesión) en Alemania.

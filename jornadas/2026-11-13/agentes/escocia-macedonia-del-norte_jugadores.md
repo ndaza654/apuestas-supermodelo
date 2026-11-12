@@ -14,12 +14,13 @@ Reglas: cumple = ≥ 5 de ≤ 7 partidos jugados, n mínimo 5; esperado = tasa p
 - Duda anotada: Historial: sin casar con Betano → Gannon-Doak B.
 - Duda anotada: Alineación probable: sin casar con Betano → Gannon-Doak B.
 - Duda anotada: Luis Binks: Flashscore lo lista en el XI probable y también como baja; se toma como baja
-- Jugadores con línea en Betano que NO están en el XI probable o son baja (34): se dejan fuera por la regla 1. Aaron Hickey, Anes Meliqi, Azer Omeragikj, Ben Doak, Boban Nikolov, Ché Adams, Damjan Siskovski, Darko Churlinov, Darko Dodev, Davor Taleski, Dimitar Mitrovski, Ezgjan Alioski, Findlay Curtis, Georgije Jankulov, Hristijan Maleski, Imran Fetai, James Penrice, Jon McCracken, Josh McPake, Kieron Bowie, Kristi Montgomery, Liam Kelly, Ljupcho Doriev, Luis Binks, Luka Stankovski, Luke Graham, Marko Gjorgjievski, Nathan Patterson, Nikola Serafimov, Robbie Ure, Ryan Christie, Scott Bain, Stefan Despotovski, Stephen Welsh
+- Jugadores con línea en Betano que NO están en el XI probable o son baja (34): fuera por la regla 1. Aaron Hickey, Anes Meliqi, Azer Omeragikj, Ben Doak, Boban Nikolov, Ché Adams, Damjan Siskovski, Darko Churlinov, Darko Dodev, Davor Taleski, Dimitar Mitrovski, Ezgjan Alioski, Findlay Curtis, Georgije Jankulov, Hristijan Maleski, Imran Fetai, James Penrice, Jon McCracken, Josh McPake, Kieron Bowie, Kristi Montgomery, Liam Kelly, Ljupcho Doriev, Luis Binks, Luka Stankovski, Luke Graham, Marko Gjorgjievski, Nathan Patterson, Nikola Serafimov, Robbie Ure, Ryan Christie, Scott Bain, Stefan Despotovski, Stephen Welsh
+- Titulares probables con n < 5 partidos de muestra (no evaluables, nunca cumplen): Agon Elezi (4), Billy Gilmour (4), Bojan Ilievski (4), Jani Atanasov (4), Kieran Tierney (2), Mario Mladenovski (2), Matej Gashtarov (4), Oliver McBurnie (4), Scott McTominay (3), Sebastian Herrera (3).
 
 ## Líneas que CUMPLEN (≥ 5 de ≤ 7, n ≥ 5), titulares probables
 Ninguna.
 
-## Casi (4 de n con n ≥ 5): se muestra, NO cumple
+## Casi (4 de n con n ≥ 5; en escaleras solo cuota ≥ 1.20): se muestra, NO cumple
 Ninguna.
 
 ## Detalle completo por jugador (titulares probables)
@@ -182,7 +183,7 @@ Betano no ofrece parejas en este partido (betano.parejas vacío).
 ## Límites
 - Muestra de jugadores = últimos 7 partidos oficiales de la selección (Flashscore); un jugador con pocos partidos jugados en esa ventana (n < 5) no es evaluable.
 - Entradas: Betano ofrece el total de entradas; Flashscore solo trae «entradas ganadas». La serie histórica queda por debajo de lo que contaría Betano → el esperado y la regularidad de entradas son una cota baja; tómalos con cuidado.
-- Esperado con 80 minutos fijos para todos los titulares probables (titular 0.9). No hay confirmación de XI: es alineación probable de Flashscore leída ~13:00 del 12-nov; puede cambiar.
-- Las cuotas son las leídas el 12-nov ~12:32 Bogotá; pueden moverse.
-- Los criterios (≥ 5 de 7, tasa por 90) vienen de tipsters/medios sin resultados verificados.
-- Binks: Flashscore lo trae a la vez en el XI y en bajas (conflicto en `dudas`); se toma como baja, sus líneas no se evalúan. Gannon-Doak no casa con ningún nombre de Betano ni del historial: sin historial, sin análisis.
+- Esperado con 80 minutos fijos para todos los titulares probables (titular 0.9). No hay XI confirmado: es alineación probable de Flashscore leída ~13:00 del 12-nov; puede cambiar.
+- Cuotas leídas el 12-nov ~12:32 Bogotá; pueden moverse.
+- Los criterios (≥ 5 de 7, tasa por 90) vienen de tipsters/medios sin resultados verificados; X de n con n pequeño es ruido.
+- Binks: Flashscore lo trae a la vez en el XI y en bajas (conflicto en `dudas`); se toma como baja y sus líneas no se evalúan. Gannon-Doak no casa con ningún nombre de Betano ni del historial: sin historial, sin análisis.
