@@ -74,4 +74,8 @@ n = 1 directo(s) (Flashscore, `ficha.tarjetas.series.directos`, [local, visitant
 - visitante Menos 2.5 @2.27 · colchón +0.63 · L 7 de 7 · V 5 de 6
 
 ## Lectura
-(ver resumen del chat; cifras arriba copiadas/recalculadas de la ficha y verificadas contra `ficha.tarjetas.lineas`)
+Esperado total 4.5 frente a la única línea de total (5.5): Menos 5.5 @2.0 cumple (L 5/7, V 5/6, colchón +1.0) pero el visitante tiene n=6 y las rojas harían subir los puntos reales; Menos 2.5 de Gibraltar @2.27 cumple (7/7 y 5/6). Local Andorra recibe mucho (6 de 7 con ≥3), por eso Más 2.5 local no cumple por el lado de Gibraltar (2/6).
+Directos: n=1, no concluyente. Ambos ≥1 Sí @1.08 cumple pero la cuota es < 1.20; ambos ≥2 Sí @1.44 queda en 4/6 de Gibraltar (no cumple).
+Contexto: ambos necesitan ganar, importancia alta; no hay base para ajustar.
+
+_Cifras recalculadas desde las series de la ficha y verificadas contra `ficha.tarjetas.lineas` (coinciden las X de n y los cumple). EV = p·cuota−1 informativo._

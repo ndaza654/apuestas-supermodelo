@@ -99,4 +99,7 @@ n = 1 directo(s) (Flashscore, `ficha.tarjetas.series.directos`, [local, visitant
 - (cumple pero cuota < 1.20, no listada) local Menos 3.5 @1.16
 
 ## Lectura
-(ver resumen del chat; cifras arriba copiadas/recalculadas de la ficha y verificadas contra `ficha.tarjetas.lineas`)
+Esperado total 3.51: sin línea de total que cumpla con cuota ≥1.20 (Más 1.5 @1.16 y Menos 5.5 @1.18 cumplen pero con cuota baja). Cumplen: Más 0.5 local (Serbia) @1.75 (6/7 y 6/6), Más 0.5 visitante (Alemania) @1.25 (5/7 y 5/6), Menos 2.5 visitante @1.2 (6/7 y 5/6) y Ambos ≥1 Sí @1.38. Ambos necesitan ganar (importancia alta).
+EV aprox: Más 0.5 Serbia es el más alto; Menos 2.5 Alemania queda ~0 con la cuota mínima. Alemania con n=6 y directos n=1. Línea de Alemania Más 0.5 es ajustada (5/7 y 5/6).
+
+_Cifras recalculadas desde las series de la ficha y verificadas contra `ficha.tarjetas.lineas` (coinciden las X de n y los cumple). EV = p·cuota−1 informativo._

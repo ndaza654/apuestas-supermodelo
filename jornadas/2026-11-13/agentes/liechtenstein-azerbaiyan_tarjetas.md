@@ -64,4 +64,7 @@ n = 1 directo(s) (Flashscore, `ficha.tarjetas.series.directos`, [local, visitant
 - Ninguna.
 
 ## Lectura
-(ver resumen del chat; cifras arriba copiadas/recalculadas de la ficha y verificadas contra `ficha.tarjetas.lineas`)
+Ninguna línea cumple: el esperado total 4.21 queda pegado a la línea 4.5 (colchón +0.29 para Menos, regularidad 4/7 y 4/7). Local Menos 2.5 @1.91 (5/7 pero 4/7 de Azerbaiyán), visitante Menos 2.5 @1.55 (5/7 pero 3/7). Betano no ofrece «ambos con N tarjetas» aquí.
+Liechtenstein necesita ganar, Azerbaiyán motivación alta. Directos n=1.
+
+_Cifras recalculadas desde las series de la ficha y verificadas contra `ficha.tarjetas.lineas` (coinciden las X de n y los cumple). EV = p·cuota−1 informativo._

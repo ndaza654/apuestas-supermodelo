@@ -80,4 +80,7 @@ n = 3 directo(s) (Flashscore, `ficha.tarjetas.series.directos`, [local, visitant
 - Más tarjetas que: 1 (local más) @1.82 (L 5 de 7, V 5 de 7)
 
 ## Lectura
-(ver resumen del chat; cifras arriba copiadas/recalculadas de la ficha y verificadas contra `ficha.tarjetas.lineas`)
+Esperado total 4.07 vs 3.5 (Más col +0.57 pero L 4/7, V 4/7, no cumple). Cumplen: Más 0.5 local (Eslovenia) @1.67 (7/7 y 7/7, 3/3 en directos) y «más tarjetas que» local @1.82 (5/7 y 5/7; directos 3/3). El esperado local 2.86 vs visitante 1.21 respalda a Eslovenia como más tarjeteada.
+Directos: n=3, lo que alcanza para mencionarlos pero no para concluir. Ambos ≥1 Sí @1.29 no cumple por Suiza (3/7). Eslovenia necesita ganar.
+
+_Cifras recalculadas desde las series de la ficha y verificadas contra `ficha.tarjetas.lineas` (coinciden las X de n y los cumple). EV = p·cuota−1 informativo._

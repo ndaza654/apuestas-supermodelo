@@ -73,4 +73,7 @@ n = 1 directo(s) (Flashscore, `ficha.tarjetas.series.directos`, [local, visitant
 - visitante Menos 2.5 @1.85 · colchón +0.86 · L 7 de 7 · V 6 de 7
 
 ## Lectura
-(ver resumen del chat; cifras arriba copiadas/recalculadas de la ficha y verificadas contra `ficha.tarjetas.lineas`)
+Esperado total 3.93 vs línea 5.5: Menos 5.5 @1.75 con colchón +1.57 pero Islandia queda en 4/7 (no cumple, a pesar de que 6/7 de Bulgaria). Solo cumple Menos 2.5 de Islandia @1.85 (7/7 y 6/7). Ambos ≥1 Sí @1.11 cumple pero la cuota < 1.20.
+Bulgaria necesita ganar; Islandia no. Árbitro sin estadísticas. Directos n=1.
+
+_Cifras recalculadas desde las series de la ficha y verificadas contra `ficha.tarjetas.lineas` (coinciden las X de n y los cumple). EV = p·cuota−1 informativo._

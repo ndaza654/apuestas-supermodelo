@@ -74,4 +74,7 @@ n = 1 directo(s) (Flashscore, `ficha.tarjetas.series.directos`, [local, visitant
 - Ambos ≥1 tarjetas Sí @1.23 (L 7 de 7, V 7 de 7)
 
 ## Lectura
-(ver resumen del chat; cifras arriba copiadas/recalculadas de la ficha y verificadas contra `ficha.tarjetas.lineas`)
+Esperado total 4.07 vs línea 4.5: Menos 4.5 @1.88 cumple justo (5/7 y 5/7, colchón +0.43), línea ajustada y las rojas no contadas pueden subirla. Ambos ≥1 Sí @1.23 cumple (7/7 y 7/7, cuota apenas sobre el mínimo). «Más tarjetas que» visitante @1.47 no cumple por el lado local (4/7).
+Contexto: Escocia necesita ganar, motivación del visitante baja; 3 dudas de alineación en la ficha (no afectan a tarjetas de equipo). Directos n=1.
+
+_Cifras recalculadas desde las series de la ficha y verificadas contra `ficha.tarjetas.lineas` (coinciden las X de n y los cumple). EV = p·cuota−1 informativo._

@@ -1,9 +1,9 @@
 # Goles y resultado · Escocia - Macedonia del Norte · UEFA Liga de Naciones · 2026-11-13 14:45 (Bogotá)
 
-Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-11-12T17:32:28.294Z · 270 mercados. Todas las cifras salen de `fichas/ficha_escocia-macedonia-del-norte.json` (clave `goles`, `contexto`), `informes/escocia-macedonia-del-norte_resultado.json` y `betano/escocia-macedonia-del-norte.json`; nada de memoria. Horas en Bogotá.
+Agente goles-resultado. Cuotas de Betano leídas 2026-11-12T17:32:28.294Z · 270 mercados (UTC; 17:32 UTC = 12:32 Bogotá). Todas las cifras salen de `fichas/ficha_escocia-macedonia-del-norte.json` (clave `goles`, `contexto`), `informes/escocia-macedonia-del-norte_resultado.json` y `betano/escocia-macedonia-del-norte.json`; nada de memoria. Horas en Bogotá.
 
 ## Enfoque de mercados
-- Betano ofrece en este partido goles totales (10 líneas), de Escocia (6), de Macedonia del Norte (2), 1T (8) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 10 mercados de hándicap. Ambos marcan 1T/2T y total exacto no aparecen.
+- Betano ofrece en este partido goles totales (10 líneas), de Escocia (6), de Macedonia del Norte (2), 1T (8) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 10 mercados de hándicap.
 - Pesan: goles totales y por equipo (con regularidad 7+7 en la ficha) y 1X2/ambos/htft (solo modelo + mercado, sin regularidad). 1T/2T de goles: solo modelo + mercado (sin estadística por tiempo no hay ficha).
 - Directos: `ficha.h2h` = None (la ficha no trae esa clave); los directos de `goles.series.directos` son n = 1 (informativos, nunca llegan a n ≥ 5).
 
@@ -26,6 +26,8 @@ Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-1
 | visitante | 0.45 | 0.46 | 0.47 | 0.67 | 0.0–1.0 |
 | 1T | 1.36 | 1.38 | 1.31 | 1.14 | 0.0–3.0 |
 | 2T | 1.57 | 1.56 | 1.64 | 1.22 | 0.0–3.0 |
+
+Esperado de la ficha (historial) vs media implícita de Betano: total 2.64 vs 2.95; Escocia 1.86 vs 2.48; Macedonia del Norte 0.79 vs 0.47. Cuando difieren mucho, el colchón (basado en el historial) y las cuotas cuentan historias distintas.
 
 ## Contexto (solo matiz; tal como está en la ficha)
 - Importancia: normal. Escocia: motivación alta, necesita ganar True, rotación False. Macedonia del Norte: motivación baja, necesita ganar False, rotación False. Bajas: ninguna anotada. Dudas: ['Historial: sin casar con Betano → Gannon-Doak B.', 'Alineación probable: sin casar con Betano → Gannon-Doak B.', 'Luis Binks: Flashscore lo lista en el XI probable y también como baja; se toma como baja'].

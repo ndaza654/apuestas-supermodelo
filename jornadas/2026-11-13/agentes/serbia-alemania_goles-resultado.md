@@ -1,9 +1,9 @@
 # Goles y resultado · Serbia - Alemania · UEFA Liga de Naciones · 2026-11-13 14:45 (Bogotá)
 
-Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-11-12T17:32:20.227Z · 601 mercados. Todas las cifras salen de `fichas/ficha_serbia-alemania.json` (clave `goles`, `contexto`), `informes/serbia-alemania_resultado.json` y `betano/serbia-alemania.json`; nada de memoria. Horas en Bogotá.
+Agente goles-resultado. Cuotas de Betano leídas 2026-11-12T17:32:20.227Z · 601 mercados (UTC; 17:32 UTC = 12:32 Bogotá). Todas las cifras salen de `fichas/ficha_serbia-alemania.json` (clave `goles`, `contexto`), `informes/serbia-alemania_resultado.json` y `betano/serbia-alemania.json`; nada de memoria. Horas en Bogotá.
 
 ## Enfoque de mercados
-- Betano ofrece en este partido goles totales (11 líneas), de Serbia (3), de Alemania (6), 1T (8) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 12 mercados de hándicap. Ambos marcan 1T/2T y total exacto no aparecen.
+- Betano ofrece en este partido goles totales (11 líneas), de Serbia (3), de Alemania (6), 1T (8) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 12 mercados de hándicap.
 - Pesan: goles totales y por equipo (con regularidad 7+7 en la ficha) y 1X2/ambos/htft (solo modelo + mercado, sin regularidad). 1T/2T de goles: solo modelo + mercado (sin estadística por tiempo no hay ficha).
 - Directos: `ficha.h2h` = None (la ficha no trae esa clave); los directos de `goles.series.directos` son n = 1 (informativos, nunca llegan a n ≥ 5).
 
@@ -24,6 +24,8 @@ Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-1
 | visitante | 2.62 | 2.65 | 2.64 | 1.51 | 1.0–5.0 |
 | 1T | 1.58 | 1.61 | 1.56 | 1.25 | 0.0–3.0 |
 | 2T | 1.88 | 1.89 | 1.97 | 1.35 | 0.0–4.0 |
+
+Esperado de la ficha (historial) vs media implícita de Betano: total 2.43 vs 3.51; Serbia 1.07 vs 0.86; Alemania 1.36 vs 2.64. Cuando difieren mucho, el colchón (basado en el historial) y las cuotas cuentan historias distintas.
 
 ## Contexto (solo matiz; tal como está en la ficha)
 - Importancia: alta. Serbia: motivación alta, necesita ganar True, rotación False. Alemania: motivación alta, necesita ganar True, rotación False. Bajas: ninguna anotada. Dudas: ninguna.

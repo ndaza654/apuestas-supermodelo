@@ -73,4 +73,7 @@ n = 1 directo(s) (Flashscore, `ficha.tarjetas.series.directos`, [local, visitant
 - Ninguna.
 
 ## Lectura
-(ver resumen del chat; cifras arriba copiadas/recalculadas de la ficha y verificadas contra `ficha.tarjetas.lineas`)
+Ninguna línea cumple. El esperado total (5.64) es el más alto de la jornada y queda justo sobre la línea 5.5 (Más col +0.14; L 4/7 y V 2/7). La serie de Estonia incluye un 4 a favor / 10 en contra, que infla la media de lo que concede. Ambos ≥1 Sí @1.09 cumple (6/7 y 6/7) pero cuota < 1.20.
+Línea ajustada: el recuento real con rojas puede diferir. Directos n=1.
+
+_Cifras recalculadas desde las series de la ficha y verificadas contra `ficha.tarjetas.lineas` (coinciden las X de n y los cumple). EV = p·cuota−1 informativo._

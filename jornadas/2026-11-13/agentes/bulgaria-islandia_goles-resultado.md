@@ -1,9 +1,9 @@
 # Goles y resultado · Bulgaria - Islandia · UEFA Liga de Naciones · 2026-11-13 14:45 (Bogotá)
 
-Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-11-12T17:32:23.792Z · 212 mercados. Todas las cifras salen de `fichas/ficha_bulgaria-islandia.json` (clave `goles`, `contexto`), `informes/bulgaria-islandia_resultado.json` y `betano/bulgaria-islandia.json`; nada de memoria. Horas en Bogotá.
+Agente goles-resultado. Cuotas de Betano leídas 2026-11-12T17:32:23.792Z · 212 mercados (UTC; 17:32 UTC = 12:32 Bogotá). Todas las cifras salen de `fichas/ficha_bulgaria-islandia.json` (clave `goles`, `contexto`), `informes/bulgaria-islandia_resultado.json` y `betano/bulgaria-islandia.json`; nada de memoria. Horas en Bogotá.
 
 ## Enfoque de mercados
-- Betano ofrece en este partido goles totales (10 líneas), de Bulgaria (3), de Islandia (4), 1T (6) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 10 mercados de hándicap. Ambos marcan 1T/2T y total exacto no aparecen.
+- Betano ofrece en este partido goles totales (10 líneas), de Bulgaria (3), de Islandia (4), 1T (6) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 10 mercados de hándicap.
 - Pesan: goles totales y por equipo (con regularidad 7+7 en la ficha) y 1X2/ambos/htft (solo modelo + mercado, sin regularidad). 1T/2T de goles: solo modelo + mercado (sin estadística por tiempo no hay ficha).
 - Directos: `ficha.h2h` = None (la ficha no trae esa clave); los directos de `goles.series.directos` son n = 1 (informativos, nunca llegan a n ≥ 5).
 
@@ -23,6 +23,8 @@ Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-1
 | visitante | 1.53 | 1.55 | 1.56 | 1.18 | 0.0–3.0 |
 | 1T | 1.08 | 1.12 | 1.12 | 1.04 | 0.0–2.0 |
 | 2T | 1.35 | 1.37 | 1.37 | 1.16 | 0.0–3.0 |
+
+Esperado de la ficha (historial) vs media implícita de Betano: total 2.86 vs 2.48; Bulgaria 1.5 vs 0.92; Islandia 1.36 vs 1.56. Cuando difieren mucho, el colchón (basado en el historial) y las cuotas cuentan historias distintas.
 
 ## Contexto (solo matiz; tal como está en la ficha)
 - Importancia: alta. Bulgaria: motivación alta, necesita ganar True, rotación False. Islandia: motivación alta, necesita ganar False, rotación False. Bajas: ninguna anotada. Dudas: ninguna.

@@ -73,4 +73,7 @@ n = 3 directo(s) (Flashscore, `ficha.tarjetas.series.directos`, [local, visitant
 - Ninguna.
 
 ## Lectura
-(ver resumen del chat; cifras arriba copiadas/recalculadas de la ficha y verificadas contra `ficha.tarjetas.lineas`)
+Ninguna línea cumple con cuota ≥1.20. Esperado total 4.0 vs 4.5: Menos @1.85 con L 5/7 pero V 4/7. Visitante Menos 2.5: Moldavia concede ≤2 en 7/7 pero Kazajistán a favor solo 3/7. Ambos ≥1 Sí @1.19 cumple (5/7 y 7/7) pero cuota < 1.20. Directos n=3 sin conclusión.
+Ambos necesitan ganar, importancia alta. Partido a las 12:00 Bogotá.
+
+_Cifras recalculadas desde las series de la ficha y verificadas contra `ficha.tarjetas.lineas` (coinciden las X de n y los cumple). EV = p·cuota−1 informativo._

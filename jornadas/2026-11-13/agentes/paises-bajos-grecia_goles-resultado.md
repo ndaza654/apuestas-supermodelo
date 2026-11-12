@@ -1,9 +1,9 @@
 # Goles y resultado · Países Bajos - Grecia · UEFA Liga de Naciones · 2026-11-13 14:45 (Bogotá)
 
-Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-11-12T17:32:21.538Z · 592 mercados. Todas las cifras salen de `fichas/ficha_paises-bajos-grecia.json` (clave `goles`, `contexto`), `informes/paises-bajos-grecia_resultado.json` y `betano/paises-bajos-grecia.json`; nada de memoria. Horas en Bogotá.
+Agente goles-resultado. Cuotas de Betano leídas 2026-11-12T17:32:21.538Z · 592 mercados (UTC; 17:32 UTC = 12:32 Bogotá). Todas las cifras salen de `fichas/ficha_paises-bajos-grecia.json` (clave `goles`, `contexto`), `informes/paises-bajos-grecia_resultado.json` y `betano/paises-bajos-grecia.json`; nada de memoria. Horas en Bogotá.
 
 ## Enfoque de mercados
-- Betano ofrece en este partido goles totales (12 líneas), de Países Bajos (5), de Grecia (3), 1T (8) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 12 mercados de hándicap. Ambos marcan 1T/2T y total exacto no aparecen.
+- Betano ofrece en este partido goles totales (12 líneas), de Países Bajos (5), de Grecia (3), 1T (8) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 12 mercados de hándicap.
 - Pesan: goles totales y por equipo (con regularidad 7+7 en la ficha) y 1X2/ambos/htft (solo modelo + mercado, sin regularidad). 1T/2T de goles: solo modelo + mercado (sin estadística por tiempo no hay ficha).
 - Directos: `ficha.h2h` = None (la ficha no trae esa clave); los directos de `goles.series.directos` son n = 3 (informativos, nunca llegan a n ≥ 5).
 
@@ -23,6 +23,8 @@ Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-1
 | visitante | 1.0 | 1.0 | 1.01 | 0.98 | 0.0–2.0 |
 | 1T | 1.36 | 1.41 | 1.32 | 1.16 | 0.0–3.0 |
 | 2T | 1.66 | 1.69 | 1.76 | 1.29 | 0.0–3.0 |
+
+Esperado de la ficha (historial) vs media implícita de Betano: total 3.0 vs 3.07; Países Bajos 1.71 vs 2.06; Grecia 1.29 vs 1.01. Cuando difieren mucho, el colchón (basado en el historial) y las cuotas cuentan historias distintas.
 
 ## Contexto (solo matiz; tal como está en la ficha)
 - Importancia: alta. Países Bajos: motivación alta, necesita ganar False, rotación False. Grecia: motivación alta, necesita ganar False, rotación False. Bajas: ninguna anotada. Dudas: ninguna.

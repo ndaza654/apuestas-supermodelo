@@ -1,9 +1,9 @@
 # Goles y resultado · Liechtenstein - Azerbaiyán · UEFA Liga de Naciones · 2026-11-13 14:45 (Bogotá)
 
-Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-11-12T17:32:31.482Z · 114 mercados. Todas las cifras salen de `fichas/ficha_liechtenstein-azerbaiyan.json` (clave `goles`, `contexto`), `informes/liechtenstein-azerbaiyan_resultado.json` y `betano/liechtenstein-azerbaiyan.json`; nada de memoria. Horas en Bogotá.
+Agente goles-resultado. Cuotas de Betano leídas 2026-11-12T17:32:31.482Z · 114 mercados (UTC; 17:32 UTC = 12:32 Bogotá). Todas las cifras salen de `fichas/ficha_liechtenstein-azerbaiyan.json` (clave `goles`, `contexto`), `informes/liechtenstein-azerbaiyan_resultado.json` y `betano/liechtenstein-azerbaiyan.json`; nada de memoria. Horas en Bogotá.
 
 ## Enfoque de mercados
-- Betano ofrece en este partido goles totales (9 líneas), de Liechtenstein (2), de Azerbaiyán (5), 1T (6) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 8 mercados de hándicap. Ambos marcan 1T/2T y total exacto no aparecen.
+- Betano ofrece en este partido goles totales (9 líneas), de Liechtenstein (2), de Azerbaiyán (5), 1T (6) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 8 mercados de hándicap.
 - Pesan: goles totales y por equipo (con regularidad 7+7 en la ficha) y 1X2/ambos/htft (solo modelo + mercado, sin regularidad). 1T/2T de goles: solo modelo + mercado (sin estadística por tiempo no hay ficha).
 - Directos: `ficha.h2h` = None (la ficha no trae esa clave); los directos de `goles.series.directos` son n = 1 (informativos, nunca llegan a n ≥ 5).
 
@@ -26,6 +26,8 @@ Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-1
 | visitante | 1.95 | 2.03 | 2.0 | 1.34 | 0.0–4.0 |
 | 1T | 1.08 | 1.14 | 1.06 | 1.03 | 0.0–2.0 |
 | 2T | 1.28 | 1.31 | 1.37 | 1.12 | 0.0–3.0 |
+
+Esperado de la ficha (historial) vs media implícita de Betano: total 2.79 vs 2.42; Liechtenstein 0.71 vs 0.41; Azerbaiyán 2.07 vs 2.0. Cuando difieren mucho, el colchón (basado en el historial) y las cuotas cuentan historias distintas.
 
 ## Contexto (solo matiz; tal como está en la ficha)
 - Importancia: alta. Liechtenstein: motivación normal, necesita ganar True, rotación False. Azerbaiyán: motivación alta, necesita ganar False, rotación False. Bajas: ninguna anotada. Dudas: ninguna.

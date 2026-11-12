@@ -1,9 +1,9 @@
 # Goles y resultado · Eslovenia - Suiza · UEFA Liga de Naciones · 2026-11-13 14:45 (Bogotá)
 
-Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-11-12T17:32:27.194Z · 240 mercados. Todas las cifras salen de `fichas/ficha_eslovenia-suiza.json` (clave `goles`, `contexto`), `informes/eslovenia-suiza_resultado.json` y `betano/eslovenia-suiza.json`; nada de memoria. Horas en Bogotá.
+Agente goles-resultado. Cuotas de Betano leídas 2026-11-12T17:32:27.194Z · 240 mercados (UTC; 17:32 UTC = 12:32 Bogotá). Todas las cifras salen de `fichas/ficha_eslovenia-suiza.json` (clave `goles`, `contexto`), `informes/eslovenia-suiza_resultado.json` y `betano/eslovenia-suiza.json`; nada de memoria. Horas en Bogotá.
 
 ## Enfoque de mercados
-- Betano ofrece en este partido goles totales (11 líneas), de Eslovenia (3), de Suiza (4), 1T (6) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 11 mercados de hándicap. Ambos marcan 1T/2T y total exacto no aparecen.
+- Betano ofrece en este partido goles totales (11 líneas), de Eslovenia (3), de Suiza (4), 1T (6) y 2T (3); además 1X2, doble oportunidad (1X, X2, 12), resultado 1T y 2T, descanso o final (`htft_o`, 3 opciones), descanso/final (`htft`, 9 combinaciones), ambos marcan y 11 mercados de hándicap.
 - Pesan: goles totales y por equipo (con regularidad 7+7 en la ficha) y 1X2/ambos/htft (solo modelo + mercado, sin regularidad). 1T/2T de goles: solo modelo + mercado (sin estadística por tiempo no hay ficha).
 - Directos: `ficha.h2h` = None (la ficha no trae esa clave); los directos de `goles.series.directos` son n = 3 (informativos, nunca llegan a n ≥ 5).
 
@@ -30,6 +30,8 @@ Agente goles-resultado. Cuotas Betano leídas el Cuotas de Betano leídas 2026-1
 | visitante | 1.57 | 1.63 | 1.62 | 1.19 | 0.0–3.0 |
 | 1T | 1.04 | 1.09 | 1.03 | 1.01 | 0.0–2.0 |
 | 2T | 1.29 | 1.33 | 1.38 | 1.13 | 0.0–3.0 |
+
+Esperado de la ficha (historial) vs media implícita de Betano: total 2.21 vs 2.41; Eslovenia 0.71 vs 0.79; Suiza 1.5 vs 1.62. Cuando difieren mucho, el colchón (basado en el historial) y las cuotas cuentan historias distintas.
 
 ## Contexto (solo matiz; tal como está en la ficha)
 - Importancia: alta. Eslovenia: motivación alta, necesita ganar True, rotación False. Suiza: motivación alta, necesita ganar False, rotación False. Bajas: ninguna anotada. Dudas: ['Historial: sin casar con Betano → Gnezda Cerin A.', 'Alineación probable: sin casar con Betano → Gnezda Cerin A.'].

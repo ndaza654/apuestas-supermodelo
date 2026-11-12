@@ -97,4 +97,7 @@ n = 3 directo(s) (Flashscore, `ficha.tarjetas.series.directos`, [local, visitant
 - visitante Menos 3.5 @1.39 · colchón +1.21 · L 5 de 6 · V 5 de 7
 
 ## Lectura
-(ver resumen del chat; cifras arriba copiadas/recalculadas de la ficha y verificadas contra `ficha.tarjetas.lineas`)
+Esperado total 3.49: cumplen Menos 5.5 @1.45 y Menos 6.5 @1.24 (colchones grandes, +2.0/+3.0; V 5/7 y 6/7), Menos 2.5 local @1.37, Menos 3.5 visitante @1.39 y Más 0.5 visitante @1.5 (6/6 y 7/7, 3/3 en directos). Países Bajos local tiene n=6 (un partido menos en la ficha). El perfil es Grecia recibe más (esperado 2.29 vs 1.2).
+Líneas cortas como Más 2.5 @1.19 no cumplen (L 3/6). Cuidado: Menos 5.5/6.5 son las que más sufren si hubo rojas no contadas. Ninguno figura como «necesita ganar», pero importancia y motivación altas (choque por la cima del grupo), sin derbi. Directos n=3 (totales 2, 6, 6).
+
+_Cifras recalculadas desde las series de la ficha y verificadas contra `ficha.tarjetas.lineas` (coinciden las X de n y los cumple). EV = p·cuota−1 informativo._

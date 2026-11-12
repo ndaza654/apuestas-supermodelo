@@ -73,4 +73,7 @@ n = 1 directo(s) (Flashscore, `ficha.tarjetas.series.directos`, [local, visitant
 - Más tarjetas que: 2 (visitante más) @1.57 (L 5 de 7, V 6 de 7)
 
 ## Lectura
-(ver resumen del chat; cifras arriba copiadas/recalculadas de la ficha y verificadas contra `ficha.tarjetas.lineas`)
+Esperado total 3.07 vs línea 3.5: Menos 3.5 @2.2 queda en L 4/7 (no cumple) pese a V 6/7. Por equipo, ninguna línea cumple. Cumple «más tarjetas que» visitante (Feroe) @1.57 (L 5/7, V 6/7); es de baja confianza porque la serie del local muestra pocas tarjetas propias (0 amarillas en 3 de 7) y la dependencia entre equipos no está modelada.
+Eslovaquia no necesita ganar según el contexto; Feroe sí. Directos n=1.
+
+_Cifras recalculadas desde las series de la ficha y verificadas contra `ficha.tarjetas.lineas` (coinciden las X de n y los cumple). EV = p·cuota−1 informativo._
