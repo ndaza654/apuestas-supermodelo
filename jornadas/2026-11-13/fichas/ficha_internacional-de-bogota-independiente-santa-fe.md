@@ -51,6 +51,39 @@ Muestra: local 7, visitante 7, directos 7. Esperado: local 11.07, visitante 14.4
 ### Tiros al arco
 Muestra: local 7, visitante 7, directos 7. Esperado: local 4.0, visitante 5.14, **total 9.14** (local 3.86 a favor / 5.0 en contra; visitante 5.29 / 4.14).
 
+## Goles y tarjetas (para los agentes de goles-resultado y tarjetas; no entran en el ranking)
+
+### Goles
+_Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T._
+Muestra: local 7, visitante 7, directos 7. Esperado: local 1.5, visitante 1.36, **total 2.86** (local 1.86 a favor / 1.43 en contra; visitante 1.29 / 1.14).
+
+**total**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 1.5 | @1.24 · col +1.4 · L 6 de 7 · V 5 de 7 · D 5 de 7 ✓ | @3.5 · col -1.4 · L 1 de 7 · V 2 de 7 · D 2 de 7 |
+| 2.5 | @1.72 · col +0.4 · L 6 de 7 · V 3 de 7 · D 3 de 7 | @1.95 · col -0.4 · L 1 de 7 · V 4 de 7 · D 4 de 7 |
+| 2.75 | @1.93 · col +0.1 · L 3 de 7 · V 1 de 7 · D 1 de 7 | @1.78 · col -0.1 · L 1 de 7 · V 4 de 7 · D 4 de 7 |
+| 3.5 | @2.72 · col -0.6 · L 3 de 7 · V 1 de 7 · D 1 de 7 | @1.39 · col +0.6 · L 4 de 7 · V 6 de 7 · D 6 de 7 |
+| 4.5 | @4.55 · col -1.6 · L 1 de 7 · V 1 de 7 · D 0 de 7 | @1.15 · col +1.6 · L 6 de 7 · V 6 de 7 · D 7 de 7 ✓ |
+| 5.5 | @7.1 · col -2.6 · L 0 de 7 · V 0 de 7 · D 0 de 7 | @1.05 · col +2.6 · L 7 de 7 · V 7 de 7 · D 7 de 7 ✓ |
+
+**local**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 1.5 | @2.55 · col +0.0 · L 4 de 7 · V 2 de 7 · D 1 de 7 | @1.45 · col +0.0 · L 3 de 7 · V 5 de 7 · D 6 de 7 |
+
+**visitante**
+
+| Línea | Más | Menos |
+|---|---|---|
+| 1.5 | @1.93 · col -0.1 · L 3 de 7 · V 3 de 7 · D 4 de 7 | @1.78 · col +0.1 · L 4 de 7 · V 4 de 7 · D 3 de 7 |
+
+### Tarjetas (solo amarillas)
+_Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._
+Muestra: local 7, visitante 7, directos 7. Esperado: local 2.79, visitante 2.64, **total 5.43** (local 3.43 a favor / 3.14 en contra; visitante 2.14 / 2.14).
+
 ## Jugadores (solo líneas que cumplen la regularidad; el JSON trae todas)
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)

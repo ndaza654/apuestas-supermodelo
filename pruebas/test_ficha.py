@@ -68,4 +68,17 @@ check([s['reg']['x'] for s in rem['escalones']] == [5, 5, 0] and rem['escalones'
 check([j for j in J if j['stat'] == 'anota'][0]['reg']['x'] == 5, 'anota: veces que marcó en los últimos partidos')
 check(rem['titular'] == 0.9, 'el nombre abreviado de Betano se une al jugador del historial y a su titularidad')
 
+# --- goles y tarjetas (agentes goles-resultado y tarjetas) y líneas asiáticas ---
+v = [1, 2, 3, 2, 4]
+check((FI.cuenta(v, 2.25, 'mas'), FI.cuenta(v, 2.25, 'menos'), FI.cuenta(v, 2.75, 'mas'), FI.cuenta(v, 2.75, 'menos')) == (2, 1, 1, 3),
+      'línea asiática (.25/.75): solo cuenta la victoria completa; el punto medio es media ganancia/pérdida y no cumple')
+check((FI.cuenta(v, 2.0, 'mas'), FI.cuenta(v, 2.0, 'menos'), FI.cuenta(v, 2.5, 'mas')) == (2, 1, 2), 'línea entera: el empate no cuenta; .5 sin cambios')
+eg = {'local': 'A', 'visitante': 'B', 'liga': 'X', 'fecha': '2026-01-01',
+      'ficha': {'forma': {'local': [{'stats': {'g': [2, 1], 'y': [2, 3]}}] * 7, 'visitante': [{'stats': {'g': [1, 1], 'y': [1, 2]}}] * 7}},
+      'betano': {'lineas': [{'mercado': 'goles', 'ambito': 'total', 'linea': 2.5, 'mas': 1.8, 'menos': 2.0},
+                            {'mercado': 'tarjetas', 'ambito': 'total', 'linea': 3.5, 'mas': 1.9, 'menos': 1.9}], 'jugadores': []}}
+Fg = FI.construir(eg)
+check(Fg['goles']['esperado']['total'] == 2.5 and Fg['goles']['lineas'][0]['mas']['reg_local']['x'] == 7, 'la ficha trae goles (serie g)')
+check('amarillas' in Fg['tarjetas']['nota'] and Fg['tarjetas']['esperado']['total'] == 4.0, 'tarjetas: usa amarillas y avisa que Betano cuenta puntos (rojas no vienen en la fuente)')
+
 print(f'\n{ok} pruebas de la ficha superadas')

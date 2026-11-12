@@ -11,7 +11,7 @@ import os, sys, json, glob, shutil, subprocess
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(AQUI)
 sys.path.insert(0, AQUI)
-import armar_entrada as A, ficha as FI, puntuar as PU
+import armar_entrada as A, ficha as FI, puntuar as PU, registrar_jornada as RJ
 
 
 def main(argv):
@@ -44,6 +44,8 @@ def main(argv):
             print(f"{k:34s} modelo {'OK' if r.returncode == 0 else 'ERROR: ' + r.stderr[-200:]}")
         else:
             print(f"{k:34s} {orden.get(nombre)}: sin informe del modelo (ver ranking.md)")
+    n, prev = RJ.registrar(base)                                     # registro/lineas.csv: todas las líneas, ficha + modelo
+    print(f'registro/lineas.csv: {n} líneas de esta jornada (+{prev} de otras)')
     return 0
 
 

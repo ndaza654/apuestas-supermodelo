@@ -19,3 +19,8 @@
 - Con el historial, los mercados de jugadores de Países Bajos–Grecia, Serbia–Alemania y Escocia–Macedonia pasaron a «apto» (datos 85/70/73). En el puntaje de jugadores solo cuentan los del XI probable (regla 1).
 - Límite: Betano «entradas» es total de entradas; Flashscore da «entradas ganadas». El historial de entradas puede quedar por debajo. Tómalo con cuidado.
 - Todo se calculó con lo que hay en el repo; lo que falta está dicho arriba y en cada ficha.
+
+## Actualización 12-nov ~16:30 Bogotá
+- `informe_final.md` regenerado con los 7 agentes (córners, partido, jugadores, goles-resultado, tarjetas, combinadas); detalle de cada agente en `agentes/`.
+- `puntuar.py` corregido (jugadores cuentan todas las líneas). La ficha trae goles y tarjetas (no entran al ranking).
+- Las alertas del modelo caen en córners/tarjetas/saques/«más … que», no en goles ni resultado.
