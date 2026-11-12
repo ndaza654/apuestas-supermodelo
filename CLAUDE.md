@@ -35,6 +35,7 @@ Goles y tarjetas salen en la ficha (`goles`, `tarjetas`) pero **no entran en el 
 - Flujo de un partido: ver `.claude/skills/analizar-partido/SKILL.md`. Resultados y calificación: `.claude/skills/registrar-resultados/SKILL.md`.
 - Recolección desde el navegador de su computador: Betano (`recoleccion/betano_extraer.js` + `betano.py`, verificado), contexto en Flashscore (preferida por el usuario) o Sofascore (hoy da 403), árbitro en B-Soccer. Detalle: `recoleccion/README.md`.
 - **Dos etapas:** (1) recolección con el navegador del PC, sube los datos al repo; (2) análisis sin navegador: `python3 recoleccion/correr_jornada.py jornadas/AAAA-MM-DD` (corre solo con lo que hay en el repo; si falta, lo dice y no inventa).
+- **Registro de líneas (la «base de datos»):** `registro/lineas.csv` (separador `;`, abre en Excel/Sheets). `correr_jornada.py` agrega TODAS las líneas de Betano de la jornada, cumplan o no, con la lectura de la ficha (X de 7, esperado, colchón, cumple) y la del modelo (p, p_mercado, EV, alerta) en la misma fila; correr de nuevo la jornada reemplaza sus filas. Las columnas `apostada`, `stake`, `resultado` y `cuota_cierre` las llena `calificacion` (y el usuario si apostó). No hay otra base de datos.
 - Una jornada vive en `jornadas/AAAA-MM-DD/` (entradas, fichas, informes, picks). `_scripts_legacy/` es solo referencia: tiene rutas absolutas viejas y no se ejecuta.
 
 ## Calidad

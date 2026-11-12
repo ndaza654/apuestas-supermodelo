@@ -53,4 +53,19 @@ for clave, minimo in (('eslovenia-suiza', 1), ('serbia-alemania', 1)):
     ej = json.load(open(os.path.join(RAIZ, 'jornadas', '2026-11-13', 'entradas', clave + '.json'), encoding='utf8'))
     rj = PU.evaluar(ej)
     check(rj['mercados']['jugadores']['estado'] != 'no ofrece' and rj['mercados']['jugadores']['cumplen'] >= minimo, f'{clave}: los jugadores con línea de anota/asiste/tarjeta/entradas/faltas cuentan en el puntaje')
+# --- registro de líneas (ficha + modelo en la misma fila) ---
+import tempfile, csv as _csv
+import registrar_jornada as RJ
+_jor = os.path.join(RAIZ, 'jornadas', '2026-11-13')
+_tmp = os.path.join(tempfile.mkdtemp(), 'lineas.csv')
+n1, _ = RJ.registrar(_jor, _tmp)
+n2, prev2 = RJ.registrar(_jor, _tmp)
+check(n1 == n2 and prev2 == 0 and n1 > 1000, 'registrar dos veces la misma jornada reemplaza sus filas (no duplica)')
+_R = list(_csv.DictReader(open(_tmp, encoding='utf-8-sig'), delimiter=';'))
+_f = [r for r in _R if r['partido'] == 'Países Bajos - Grecia' and r['mercado'] == 'corners' and r['ambito'] == 'total' and r['linea'] == '6.5' and r['lado'] == 'Más'][0]
+check(_f['cumple_ficha'] == 'sí' and _f['reg_local'] == '7 de 7' and _f['p_modelo'] != '' and _f['cuota'] == '1.2', 'cada fila trae la lectura de la ficha y la del modelo a la vez')
+check(all(r['cumple_ficha'] == '' for r in _R if r['ambito'] in ('1T', '2T') and not r['mercado'].startswith('jugador')), 'las líneas 1T/2T no llevan «cumple» (sin estadística por tiempo)')
+check(all(r['resultado'] == '' and r['apostada'] == '' for r in _R), 'las columnas de resultado quedan vacías para el agente de calificación')
+check(any(r['cumple_ficha'] == 'sin alineación' for r in _R if r['mercado'].startswith('jugador')), 'jugadores sin alineación quedan marcados, no como «no cumple»')
+
 print(f'\n{ok} pruebas de recolección superadas')
