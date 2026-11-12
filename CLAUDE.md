@@ -21,10 +21,11 @@ Responder siempre en **español**; horas en **Bogotá (UTC−5)**.
 - Cada criterio lleva dato, referencia, n, fuente y cumple/no cumple. Honestidad: los criterios vienen de tipsters y medios sin resultados verificados; sin estadística por tiempo no hay ficha de 1T/2T; sin `ficha.h2h` no hay directos.
 
 ## Cómo se corre
-- Modelo: `python3 -m supermodelo <entrada.json>`  ·  pruebas: `python3 pruebas/test_modelo.py`, `python3 pruebas/test_ficha.py` y `python3 pruebas/test_betano.py`
+- Modelo: `python3 -m supermodelo <entrada.json>`  ·  pruebas: `python3 pruebas/test_modelo.py`, `python3 pruebas/test_ficha.py` y `python3 pruebas/test_betano.py` y `python3 pruebas/test_recoleccion.py`
 - Ficha por mercado: `python3 recoleccion/ficha.py <entrada.json> [carpeta_salida]`
 - Flujo de un partido: ver `.claude/skills/analizar-partido/SKILL.md`. Resultados y calificación: `.claude/skills/registrar-resultados/SKILL.md`.
 - Recolección desde el navegador de su computador: Betano (`recoleccion/betano_extraer.js` + `betano.py`, verificado), contexto en Flashscore (preferida por el usuario) o Sofascore (hoy da 403), árbitro en B-Soccer. Detalle: `recoleccion/README.md`.
+- **Dos etapas:** (1) recolección con el navegador del PC, sube los datos al repo; (2) análisis sin navegador: `python3 recoleccion/correr_jornada.py jornadas/AAAA-MM-DD` (corre solo con lo que hay en el repo; si falta, lo dice y no inventa).
 - Una jornada vive en `jornadas/AAAA-MM-DD/` (entradas, fichas, informes, picks). `_scripts_legacy/` es solo referencia: tiene rutas absolutas viejas y no se ejecuta.
 
 ## Calidad

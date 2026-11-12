@@ -18,12 +18,17 @@ Primero se lee qué ofrece Betano en ese partido; solo se analiza lo que existe 
 Códigos de mercado de la API (por si Betano cambia nombres): córners `CNOU`, por equipo `XOF2/YOF2`, tiros al arco `X002/X133/X134`, remates `4159–4161`, faltas `4629/X135/X136`,
 fueras `X013/X131/X132`, saques de meta `X328/4165/4166`, de banda `X128/4167/4168`, jugadores `PALS/PLST/PLTA/1000679/PALA/1000115/PTRC/1000661/PSCR`, parejas `1001133–1001137`.
 
-## Flashscore  (verificado cargando en el navegador integrado, 12-nov-2026)
-Fuente preferida por el usuario para el contexto: «está todo». La página previa de un partido (`flashscore.co/partido/futbol/<local>/<visitante>/?mid=<id>`) trae
-árbitro, estadio, forma, enfrentamientos directos (H2H), clasificación, cuotas 1X2/Más-Menos/ambos/hándicap y una previa escrita; la pestaña de estadísticas
-(`.../resumen/estadisticas/?mid=<id>`) trae las estadísticas de partidos terminados. La lista del día son los enlaces `a[href*="/partido/"]` de la portada.
-Pendiente: el recolector de «últimos 7 de cada equipo» y directos con estadísticas (córners, remates, faltas, fueras, saques) → `ficha.forma` / `ficha.h2h`.
-No hay estadísticas de árbitro en Flashscore: se completan con la fuente que indique el usuario (B-Soccer; falta la dirección exacta).
+## Flashscore  (verificado en vivo el 12-nov-2026; fuente principal de contexto)
+Dos piezas: `flashscore_extraer.js` (en la pestaña de flashscore.co) y `armar_entrada.py` (lo une con Betano). Usa el servidor de datos de la propia página
+(`global.flashscore.ninja/2/x/feed/…` con la cabecera `x-fsign` que la web ya manda), solo lectura y con pausa de 120 ms entre llamadas (~10 s por partido).
+- Lista del día (incluye mañana): `f_1_<día 0|1>_-5_en_1` → `mid`, hora, liga, local, visitante (nombres en inglés).
+- Contexto de un partido: `df_hh_1_<mid>` (últimos de cada equipo + directos) → por cada partido terminado `df_st_1_<id>` (córners, remates, tiros al arco, faltas, fueras,
+  saques de banda y de meta, amarillas/rojas, xG; total y por tiempo) y `df_sui_1_<mid>` (árbitro anunciado, estadio).
+- Probado con Colombia (Pasto–Junior) y con la Liga de Naciones (Italia–Francia): 7 + 7 + 7 partidos con estadísticas; coincide con la fuente anterior (Sofascore) en córners,
+  remates, faltas, fueras, saques y tarjetas de los mismos partidos. Algunos partidos viejos no traen saques de meta: la ficha muestra el n real.
+- Emparejar con Betano: misma hora de inicio + nombres (Betano en español, Flashscore en inglés).
+- No hay (todavía): historial por jugador (remates/tiros al arco por partido), alineaciones probables, estadísticas del árbitro (B-Soccer).
+- Uso:  `const ctx = await extraerFlashscore(mid)` → guardar como `jornadas/<día>/flashscore/<clave>.json`.
 
 ## Sofascore  (⚠ NO verificado hoy)
 Endpoints usados en la sesión del 12-nov desde una pestaña de sofascore.com: `event/<id>`, `event/<id>/lineups` (probables),
