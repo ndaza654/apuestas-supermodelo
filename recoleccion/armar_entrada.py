@@ -9,7 +9,9 @@ Lo que falta se deja VACÍO y se declara en ficha.dudas / ficha.faltan; nunca se
 
 Uso:  python3 recoleccion/armar_entrada.py jornadas/2026-11-13 [clave ...]
 """
-import json, os, sys, glob, datetime as dt
+import json, os, sys, glob, re, unicodedata, datetime as dt
+
+H2H_ANOS = 5          # los directos más viejos que esto no cuentan (cambiar aquí si se quiere otra ventana)
 
 NOTAS_EJEMPLO = {'importancia': 'alta|normal|baja', 'derbi': False, 'eliminatoria': None,
                  'local': {'motivacion': 'normal|alta|baja', 'rotacion': False, 'necesita_ganar': False, 'estilo': []},
@@ -39,13 +41,61 @@ def forma_de(partidos):
     return out
 
 
-def h2h_de(directos):
+def h2h_de(directos, hoy=None, anos=H2H_ANOS):
+    """Directos con estadística; si se da `hoy` (AAAA-MM-DD) se descartan los de más de `anos` años."""
     out = []
+    corte = None
+    if hoy and anos:
+        y, m, d = map(int, hoy[:10].split('-'))
+        corte = f'{y - anos:04d}-{m:02d}-{d:02d}'
     for d in directos:
         fecha, g, st = (d['fecha'], d['g'], d.get('stats', {})) if isinstance(d, dict) else d[:3]
+        if corte and fecha < corte:
+            continue
         if st:                                                    # solo los directos con alguna estadística sirven a la ficha
             out.append({'fecha': fecha, 'stats': {k: list(x) for k, x in st.items()} | {'g': list(g)}})
     return out
+
+
+def _norm(x):
+    x = unicodedata.normalize('NFD', x or '')
+    return re.sub(r'[^a-z0-9 ]+', ' ', ''.join(c for c in x if unicodedata.category(c) != 'Mn').lower().replace('đ', 'd').replace('ł', 'l')).split()
+
+
+def coincide(nombre_flashscore, nombre_betano):
+    """«Verbruggen B.» ≈ «Bart Verbruggen»; «van Hecke J. P.» ≈ «Jan Paul van Hecke» (apellido al final y misma inicial)."""
+    t = _norm(nombre_flashscore)
+    iniciales = []
+    while t and len(t[-1]) == 1:
+        iniciales.insert(0, t.pop())
+    b = _norm(nombre_betano)
+    if not t or not b:
+        return False
+    if b[-len(t):] != t:
+        return False
+    resto = b[:-len(t)]
+    return not iniciales or (bool(resto) and resto[0][0] == iniciales[0])
+
+
+def jugadores_de(lu, betano, hora_lectura=''):
+    """Alineación probable de Flashscore → `jugadores` del modelo (solo titulares anunciados y bajas; el resto no se inventa)."""
+    out, sin_casar = [], []
+    if not lu or not lu.get('probables'):
+        return out, sin_casar
+    nombres = {(j['jugador'], j.get('lado')) for j in betano.get('jugadores', [])}
+    fuente = f"Flashscore «{lu.get('tipo') or 'alineaciones probables'}»" + (f' leída {hora_lectura}' if hora_lectura else '')
+    for lado_fs, lado in (('L', 'local'), ('V', 'visitante')):
+        for p in lu['probables'].get(lado_fs, []):
+            cas = [n for n, ld in nombres if coincide(p['n'], n) and (ld in (lado, lado[0].upper(), None))]
+            if cas:
+                out.append({'nombre': cas[0], 'lado': lado, 'titular': 0.9, 'minutos': 80, 'fuentes_xi': '1/1', 'fuente': fuente})
+            else:
+                sin_casar.append(p['n'])
+        for p in lu.get('bajas', {}).get(lado_fs, []):
+            cas = [n for n, ld in nombres if coincide(p['n'], n)]
+            for n in cas[:1]:
+                out.append({'nombre': n, 'lado': lado, 'titular': 0.0, 'minutos': 0, 'fuera': True, 'fuente': fuente + ' · baja: ' + (p.get('motivo') or '')})
+    return out, sin_casar
 
 
 def armar(b, fs=None, notas=None):
@@ -58,7 +108,7 @@ def armar(b, fs=None, notas=None):
              'bajas': notas.get('bajas', []), 'dudas': dudas, 'fuentes': notas.get('fuentes', []), 'jugadores_hist': notas.get('jugadores_hist', {})}
     if fs:
         ficha['forma'] = {'local': forma_de(fs['forma']['local']), 'visitante': forma_de(fs['forma']['visitante'])}
-        ficha['h2h'] = h2h_de(fs.get('h2h', []))
+        ficha['h2h'] = h2h_de(fs.get('h2h', []), ini.strftime('%Y-%m-%d'))
         ficha['arbitro'] = {'nombre': fs.get('arbitro') or '', 'pais': fs.get('arbitro_pais'), 'tarjetas_por_partido': None, 'partidos': None,
                             'nota': 'Nombre anunciado por Flashscore; las estadísticas del árbitro (B-Soccer) no están recolectadas.'}
         ficha['fuentes'] = ficha['fuentes'] + ['Flashscore (últimos partidos, estadísticas y H2H)']
@@ -74,6 +124,12 @@ def armar(b, fs=None, notas=None):
         faltan.append('historial por jugador (remates, tiros al arco): sin él los mercados de jugadores no se pueden filtrar')
     ficha['faltan'] = faltan
     jugadores = notas.get('jugadores', [])
+    if not jugadores and fs and fs.get('lineups'):
+        jugadores, sin = jugadores_de(fs['lineups'], bet, fs.get('lineups_leidas', ''))
+        if sin:
+            dudas.append('Alineación probable: sin casar con Betano → ' + ', '.join(sin))
+        if jugadores:
+            ficha['fuentes'] = ficha['fuentes'] + ['Flashscore (alineaciones probables y bajas)']
     if not jugadores and bet.get('jugadores'):
         faltan.append('alineación probable (titularidad de cada jugador)')
     return {'local': meta['local'], 'visitante': meta['visitante'], 'liga': f"{meta['region']} {meta['liga']}",

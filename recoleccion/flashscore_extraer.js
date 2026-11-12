@@ -58,7 +58,7 @@ const fsFecha = ts => new Date(Number(ts) * 1000).toISOString().slice(0, 10);
 const fsOficial = r => !/friend|amistos/i.test(r.KF || '') && /^\d+:\d+$/.test(r.KL || '') && Number(r.KC) * 1000 < Date.now();
 
 async function extraerFlashscore(mid, opciones = {}) {
-  const N = opciones.n || 7, pausa = opciones.pausa == null ? 120 : opciones.pausa, avisos = [];
+  const N = opciones.n || 7, h2hAnos = opciones.h2hAnos == null ? 5 : opciones.h2hAnos, pausa = opciones.pausa == null ? 120 : opciones.pausa, avisos = [];
   const hh = (await fsGet('df_hh_1_' + mid)).split('~').map(fsRec).filter(r => Object.keys(r).length);
   // primer grupo («Overall»): últimos del local, últimos del visitante, directos
   const secs = []; let cur = null, grupos = 0;
@@ -102,7 +102,8 @@ async function extraerFlashscore(mid, opciones = {}) {
   const fl = await forma(sLocal, local), fv = await forma(sVis, visitante);
   const directos = [];
   if (sH2H) {
-    const filas = sH2H.filas.filter(fsOficial).sort((a, b) => Number(b.KC) - Number(a.KC)).slice(0, N);
+    const corte = h2hAnos ? Date.now() / 1000 - h2hAnos * 365.25 * 86400 : 0;     // los directos más viejos no se cuentan
+    const filas = sH2H.filas.filter(fsOficial).filter(r => Number(r.KC) >= corte).sort((a, b) => Number(b.KC) - Number(a.KC)).slice(0, N);
     for (const r of filas) {
       const hLocal = fsLimpio(r.KJ).toLowerCase() === local.toLowerCase();       // ¿el local de aquel partido es el local de hoy?
       const [gh, ga] = r.KL.split(':').map(Number);
