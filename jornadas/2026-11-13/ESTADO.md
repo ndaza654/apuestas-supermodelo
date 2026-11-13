@@ -24,3 +24,8 @@
 - `informe_final.md` regenerado con los 7 agentes (córners, partido, jugadores, goles-resultado, tarjetas, combinadas); detalle de cada agente en `agentes/`.
 - `puntuar.py` corregido (jugadores cuentan todas las líneas). La ficha trae goles y tarjetas (no entran al ranking).
 - Las alertas del modelo caen en córners/tarjetas/saques/«más … que», no en goles ni resultado.
+
+## Actualización 13-nov ~12:45 Bogotá — súper análisis Serbia–Alemania (Boss Builder)
+- Releídos Betano (12:04, hash verificado; copia anterior en `raw/previos/`) y alineaciones/bajas de Flashscore (12:07, «probables»). Corregido el lector: «Serbia tarjetas 1T 0.5» se colaba como línea de partido (`betano_extraer.js`, `raw/bet_serbia-alemania.txt`).
+- Precios reales del Bet Builder leídos en la página (sin apostar). Resultado y todas las pruebas: `boss_builder_serbia-alemania.md`.
+- Pendiente antes del pitazo: alineaciones oficiales (~13:45) y reconfirmar el total ≥ 5 en el cupón. Las demás partidos de la jornada siguen con las cuotas del 12-nov.

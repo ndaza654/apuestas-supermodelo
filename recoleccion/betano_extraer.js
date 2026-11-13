@@ -51,6 +51,7 @@ async function extraerBetano(slug, id) {
     const ini = n.startsWith(nl) ? 'local' : n.startsWith(nv) ? 'visitante' : null;
     const fin = n.endsWith(nl) || n.endsWith(nv);
     if (fin && periodo) return null;                                    // «Goles en Primer Tiempo Italia»: no se usa
+    if (ini && periodo) return null;   // «Serbia … Primer/Segundo Tiempo»: no es la línea del equipo a partido completo (13-nov: Serbia tarjetas 1T 0.5 se colaba como 0.5 de partido)
     return { mercado: stat, ambito: ini || periodo || 'total' };
   }
   const lineas = new Map();                                             // clave mercado|ambito → Map(linea → {mas,menos})

@@ -65,3 +65,9 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Resultados reales de los 9 partidos del 12-nov (Flashscore, `jornadas/2026-11-12/resultados/`). De las 38 líneas de `picks.json`: 24 cumplieron, 9 fallaron y 5 fueron asiáticas con pago parcial (media ganada/perdida, no cuentan como acierto ni fallo). Sobre las 33 completas: 73 % (p media del modelo 69 %). Por tipo: alta 7/8, valor 4/7, extra 13/18. Senegal–Sudán (4-1) tumbó 3 de 3 líneas de goles Menos.
 - Boletos del usuario 9–12 nov (13; Betano, solo lectura): en `registro/libro_apuestas.xlsx`, hoja «Boletos 9-12». Dinero real 153.875 apostado, 91.375 cobrado, neto −62.500; 2 de 11 ganados. Sumado a 4–8 nov: neto +12.125 en 59 boletos con dinero real.
 - 16 líneas del historial fueron patas exactas de un boleto suyo (columna `apostada` = Sí); solo 4 cumplieron. El resto de sus patas (atajadas, tiros al arco, anota o asiste) no está en el análisis de líneas.
+
+## 13-nov · Serbia–Alemania con Boss Builder (+25 %; 3 patas ≥ 1,50; total ≥ 5)
+- Entregado: `jornadas/2026-11-13/boss_builder_serbia-alemania.md`. Mejor trío con precio real ≥ 5: Goles Menos 3.5 + Córners Más 9.5 + Ambos marcan No = 5,00 (p modelo ≈ 19–21 %). Se leyeron ~20 precios del Bet Builder en la página; precio × p del modelo ≈ 1,0 (0,76–1,05): el builder no regala ventaja salvo el bono.
+- Hallazgo: con «total ≥ 5» el techo de probabilidad es ≈ 20 %; cualquier trío más probable paga menos de 5.
+- Error del lector corregido: líneas por equipo de otros periodos («Serbia tarjetas 1T 0.5») se mezclaban con las de partido completo. Jornadas previas (11 y 12-nov) pueden tener líneas mal puestas; releer si se reutilizan.
+- Se midió: nada todavía; resultado del partido se califica mañana (la apuesta la decide el usuario).
