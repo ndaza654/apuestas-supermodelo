@@ -7,7 +7,7 @@ Condiciones del usuario: promoción Boss Builder (+25 %), **mínimo 3 patas, cad
 ## Enfoque de mercados
 - **Pesan:** goles totales (Menos 3.5), córners totales (Más 8.5 / 9.5) y «Ambos marcan». Son los únicos mercados con regularidad de 5 de 7 en ambos equipos **y** que Betano deja entrar en el Bet Builder.
 - **Contexto:** Serbia es última del grupo (0 pts, 4 derrotas seguidas) y Alemania (5 pts) necesita ganar, sin Musiala, Gnabry ni Anton. Favorito claro (1X2 de Alemania ≈ 1,26; modelo 79 %). El modelo espera un partido de pocos goles de Serbia (≈ 0,8) y muchos tiros/córners de Alemania (≈ 6,8 córners suyos).
-- **Poco útil aquí:** los mercados de jugadores (las alineaciones aún son «probables» y el builder no mezcla bien las cuotas de jugador), faltas/remates/saques (no entran en el Bet Builder) y tarjetas (árbitro sin promedio).
+- **Poco útil aquí:** los mercados de jugadores (las alineaciones aún son «probables»). **Corrección 13-nov 13:00: el Bet Builder sí admite mercados de jugadores (tiros, tiros al arco, faltas, entradas, parejas) y todas las tarjetas; ver `jugadores_tarjetas_serbia-alemania.md`.**
 
 ## La respuesta corta
 | | Combinación | Precio real del Bet Builder | Probabilidad (modelo) |
