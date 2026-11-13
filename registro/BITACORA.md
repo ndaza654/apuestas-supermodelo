@@ -71,3 +71,11 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Hallazgo: con «total ≥ 5» el techo de probabilidad es ≈ 20 %; cualquier trío más probable paga menos de 5.
 - Error del lector corregido: líneas por equipo de otros periodos («Serbia tarjetas 1T 0.5») se mezclaban con las de partido completo. Jornadas previas (11 y 12-nov) pueden tener líneas mal puestas; releer si se reutilizan.
 - Se midió: nada todavía; resultado del partido se califica mañana (la apuesta la decide el usuario).
+
+## 13-nov · tres informes completos por probabilidad (Países Bajos–Grecia, Escocia–Macedonia del Norte, Eslovenia–Suiza)
+- Entregado: `jornadas/2026-11-13/informes_completos/<partido>.md` (generados por `recoleccion/informe_completo.py`; enfoque escrito a mano en `notas/`). Cada uno abre con «Enfoque de mercados» y cubre resultado/goles, córners, estadísticas de partido, tarjetas, jugadores (+ atajadas), parejas y tríos con patas ≥ 1,50, ordenado por probabilidad, no por valor contra la cuota.
+- Datos: Betano releído 13:06 Bogotá; alineaciones predichas y últimos 7 de cada jugador, equipo y árbitro desde Sofascore (13:06–13:19, `confirmed:false`), comparadas con las probables de Flashscore del 12-nov (diferencias listadas en cada informe). Jugadores sin historial en Sofascore no se analizan.
+- Método de jugadores (cambia respecto a Serbia–Alemania): mezcla Poisson (tasa/90 × minutos) + X de 7 + 1/cuota con pesos 35/35/30 en volumen y 25/15/60 en eventos raros (goles, asistencias, tarjeta), porque con 7 partidos los raros se inflaban frente al mercado. Ajuste favorito/no favorito supuesto, sin calibrar.
+- Tarjetas: Poisson con esperado de equipos de Sofascore mezclado 65/35 con el promedio del árbitro; discrepa del modelo en varias líneas (confianza baja, se muestran ambas).
+- Corrección: las etiquetas «leído ~13:25–13:35» de los json de Sofascore eran anteriores a la hora real; quedaron como «entre 13:06 y 13:19».
+- Se midió: nada todavía; se califica con los resultados del 14-nov.

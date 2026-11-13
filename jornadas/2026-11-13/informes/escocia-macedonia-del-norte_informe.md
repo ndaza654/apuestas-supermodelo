@@ -1,14 +1,12 @@
 # Escocia - Macedonia del Norte
 UEFA Liga de Naciones · 2026-11-13 14:45
 
-**Tipo de partido:** Favorito claro · abierto · normal · **Favorito:** Escocia · primer gol: local 84 %, visitante 12 %, nadie 4 % · gol del favorito antes del 35′: 56 %
+**Tipo de partido:** Favorito claro · abierto · normal · **Favorito:** Escocia · primer gol: local 83 %, visitante 13 %, nadie 4 % · gol del favorito antes del 35′: 57 %
 
 ## ⚠ Alertas (revisar antes de usar las líneas marcadas)
-- Revisar: la simulación sin contexto se aleja 31 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
-- Revisar: la simulación sin contexto se aleja 34 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
-- Revisar: la simulación sin contexto se aleja 37 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
-- Revisar: la simulación sin contexto se aleja 41 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
-- Revisar: la simulación sin contexto se aleja 48 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
+- Revisar: la simulación sin contexto se aleja 33 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
+- Revisar: la simulación sin contexto se aleja 39 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
+- Revisar: la simulación sin contexto se aleja 46 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
 
 ## Enfoque de mercados (qué mercados le quedan bien al contexto)
 Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de Escocia, Goles de Escocia (Más), Remates / tiros al arco de Escocia, Tarjetas (Menos), Faltas (Menos). Poco favorecidos: Ambos marcan.
@@ -30,10 +28,10 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 ## Guiones del partido (solo para medir qué línea aguanta; el enfoque de arriba es lo que orienta)
 | Guion | Probabilidad |
 |---|---|
-| Favorito golpea temprano y gana | 33 % |
-| Partido abierto (ambos marcan y 3+ goles) | 25 % |
-| Favorito gana en partido trabado | 20 % |
-| Expulsión antes del 70′ | 10 % |
+| Favorito golpea temprano y gana | 32 % |
+| Partido abierto (ambos marcan y 3+ goles) | 28 % |
+| Favorito gana en partido trabado | 18 % |
+| Expulsión antes del 70′ | 11 % |
 | Empate | 8 % |
 | Sorpresa: gana el no favorito | 3 % |
 
@@ -46,84 +44,85 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 ## Medias esperadas (con contexto)
 | | Goles | Remates | Al arco | Córners | Faltas | Tarjetas |
 |---|---|---|---|---|---|---|
-| local | 2.47 | 21.1 | 6.9 | 4.9 | 12.5 | 1.7 |
-| visitante | 0.45 | 6.8 | 1.9 | 4.6 | 12.5 | 2.8 |
+| local | 2.62 | 20.9 | 6.7 | 4.8 | 12.5 | 1.6 |
+| visitante | 0.51 | 6.7 | 2.0 | 4.5 | 12.5 | 2.9 |
 
 ## Media esperada por mercado (modelo con contexto; entre paréntesis lo que espera Betano; rango del 80 % de los partidos simulados)
 | Mercado | Total | Local | Visitante | 1.er tiempo | 2.º tiempo |
 |---|---|---|---|---|---|
-| Goles | 2.9 (3.0) · 1–5 | 2.5 (2.5) · 1–4 | 0.5 (0.5) · 0–1 | 1.4 (1.3) · 0–3 | 1.6 (1.6) · 0–3 |
-| Córners | 9.5 (9.5) · 6–14 | 4.9 · 2–8 | 4.6 · 2–8 | 4.3 (4.8) · 2–7 | 5.2 (5.0) · 2–8 |
-| Tarjetas (amarilla 1, roja 2) | 4.6 (4.8) · 2–8 | 1.7 (1.7) · 0–4 | 2.8 (3.1) · 1–5 | 1.6 (1.7) · 0–3 | 2.9 · 1–6 |
-| Remates | 27.9 (27.6) · 20–36 | 21.0 (20.6) · 14–29 | 6.9 (7.1) · 3–11 | 12.8 · 8–18 | 15.0 · 10–21 |
-| Tiros al arco | 8.8 (8.7) · 5–13 | 6.9 (6.9) · 3–11 | 1.9 (1.9) · 0–4 | 4.1 · 2–7 | 4.7 · 2–8 |
-| Faltas | 24.9 (25.3) · 19–32 | 12.4 (12.2) · 8–17 | 12.5 (13.0) · 8–17 | 11.2 · 7–16 | 13.7 · 9–19 |
-| Fueras de lugar | 3.0 (3.0) · 1–5 | 1.7 (1.8) · 0–4 | 1.2 (1.2) · 0–3 | 1.3 · 0–3 | 1.7 · 0–3 |
-| Saques de meta | 15.9 · 10–23 | 8.0 · 4–13 | 7.9 · 4–13 | 7.1 · 3–11 | 8.8 · 5–13 |
+| Goles | 3.1 (3.2) · 1–5 | 2.6 (2.6) · 1–5 | 0.5 (0.5) · 0–1 | 1.4 (1.4) · 0–3 | 1.7 (1.8) · 0–3 |
+| Córners | 9.4 (9.4) · 5–14 | 4.8 · 2–8 | 4.5 · 2–8 | 4.2 (4.7) · 2–7 | 5.1 (4.9) · 2–8 |
+| Tarjetas (amarilla 1, roja 2) | 4.5 (4.7) · 2–8 | 1.6 (1.6) · 0–3 | 2.9 (3.1) · 1–5 | 1.6 (1.6) · 0–3 | 2.9 · 1–5 |
+| Remates | 27.6 (27.2) · 20–36 | 20.9 (20.4) · 14–29 | 6.7 (7.0) · 3–11 | 12.7 · 8–18 | 14.8 · 9–21 |
+| Tiros al arco | 8.6 (8.6) · 5–13 | 6.6 (6.7) · 3–10 | 1.9 (2.0) · 0–4 | 4.0 · 2–7 | 4.6 · 2–8 |
+| Faltas | 25.1 (25.3) · 19–32 | 12.5 (12.2) · 8–17 | 12.6 (13.0) · 8–17 | 11.3 · 7–16 | 13.8 · 9–19 |
+| Fueras de lugar | 3.0 (3.0) · 1–5 | 1.5 (1.5) · 0–3 | 1.5 (1.5) · 0–3 | 1.3 · 0–3 | 1.7 · 0–3 |
+| Saques de meta | 16.0 · 10–23 | 8.0 · 4–13 | 8.0 · 4–13 | 7.1 · 3–11 | 8.8 · 5–13 |
 | Saques de banda | 39.9 · 29–52 | 20.0 · 12–28 | 19.9 · 12–28 | 17.8 · 12–25 | 22.1 · 15–30 |
-| Atajadas del portero | — | 1.4 · 0–3 | 4.4 · 2–8 | — | — |
+| Atajadas del portero | — | 1.4 · 0–3 | 4.0 · 1–7 | — | — |
 
 ## Lectura por mercado (la línea que mejor encaja con este partido en cada mercado)
 | Mercado | Línea | Cuota | Prob. | Robustez | Brilla si… | La mata si… | Etiqueta |
 |---|---|---|---|---|---|---|---|
-| Goles | Goles 2.º tiempo Menos 2.5 | 1.26 | 78 % | (lo define el marcador) | Empate (100 %) | Partido abierto (ambos marcan y 3+ goles) (57 %) | Alta probabilidad |
-| Ambos marcan | Ambos marcan: No | 1.45 | 66 % | (lo define el marcador) | Favorito golpea temprano y gana (100 %) | Partido abierto (ambos marcan y 3+ goles) (0 %) | Alta probabilidad |
-| Resultado y hándicap | 2.º tiempo: Escocia | 1.45 | 66 % | (lo define el marcador) | Favorito gana en partido trabado (91 %) | Sorpresa: gana el no favorito (4 %) | Alta probabilidad · ★ enfoque a favor |
-| Córners | Córners 1.er tiempo Más 0.5 | 1.42 | 83 % | 83 % | Empate (83 %) | Sorpresa: gana el no favorito (83 %) | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 31 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
-| Tarjetas | Ambos 2+ tarjetas: No | 1.67 | 57 % | 56 % | Favorito golpea temprano y gana (65 %) | Expulsión antes del 70′ (34 %) | Justa |
-| Faltas | Faltas Menos 25.5 | 1.78 | 56 % | 56 % | Sorpresa: gana el no favorito (57 %) | Expulsión antes del 70′ (51 %) | Justa · ★ enfoque a favor |
-| Remates | Remates Más 25.5 | 1.50 | 64 % | 58 % | Partido abierto (ambos marcan y 3+ goles) (74 %) | Favorito golpea temprano y gana (58 %) | Justa |
-| Tiros al arco | Tiros al arco Escocia Más 5.5 | 1.42 | 67 % | 62 % | Partido abierto (ambos marcan y 3+ goles) (78 %) | Sorpresa: gana el no favorito (36 %) | Alta probabilidad |
-| Fueras de lugar | Fueras de lugar Macedonia del Norte Menos 1.5 | 1.45 | 66 % | 64 % | Sorpresa: gana el no favorito (70 %) | Favorito golpea temprano y gana (64 %) | Alta probabilidad |
-| Jugadores | Sebastian Herrera anota o asiste | 11.50 | 9 % | 0 % | Sorpresa: gana el no favorito (31 %) | Favorito golpea temprano y gana (0 %) | Justa |
-| Quién saca más | Más corners: Macedonia del Norte | 9.25 | 22 % | 20 % | Favorito golpea temprano y gana (24 %) | Sorpresa: gana el no favorito (17 %) | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 41 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
+| Goles | Goles 2.º tiempo Menos 2.5 | 1.33 | 75 % | (lo define el marcador) | Empate (100 %) | Partido abierto (ambos marcan y 3+ goles) (56 %) | Alta probabilidad |
+| Ambos marcan | Ambos marcan: No | 1.55 | 63 % | (lo define el marcador) | Favorito golpea temprano y gana (100 %) | Partido abierto (ambos marcan y 3+ goles) (0 %) | Justa |
+| Resultado y hándicap | 2.º tiempo: Escocia | 1.42 | 67 % | (lo define el marcador) | Favorito gana en partido trabado (91 %) | Sorpresa: gana el no favorito (4 %) | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
+| Córners | Córners 1.er tiempo Más 0.5 | 1.47 | 82 % | 82 % | Favorito golpea temprano y gana (82 %) | Expulsión antes del 70′ (81 %) | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 33 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
+| Tarjetas | Ambos 1+ tarjetas: Sí | 1.27 | 76 % | 71 % | Expulsión antes del 70′ (86 %) | Favorito golpea temprano y gana (71 %) | Alta probabilidad |
+| Faltas | Faltas Menos 25.5 | 1.78 | 55 % | 55 % | Favorito golpea temprano y gana (57 %) | Expulsión antes del 70′ (48 %) | Justa · ★ enfoque a favor |
+| Remates | Remates Macedonia del Norte Menos 7.5 | 1.55 | 64 % | 53 % | Favorito gana en partido trabado (73 %) | Sorpresa: gana el no favorito (53 %) | Justa |
+| Tiros al arco | Tiros al arco Escocia Menos 7.5 | 1.47 | 65 % | 57 % | Sorpresa: gana el no favorito (89 %) | Partido abierto (ambos marcan y 3+ goles) (57 %) | Justa |
+| Fueras de lugar | Fueras de lugar Macedonia del Norte Menos 1.5 | 1.65 | 58 % | 56 % | Expulsión antes del 70′ (62 %) | Favorito golpea temprano y gana (56 %) | Justa |
+| Jugadores | Stefan Despotovski anota o asiste | 13.00 | 8 % | 0 % | Sorpresa: gana el no favorito (24 %) | Favorito golpea temprano y gana (0 %) | Justa |
+| Quién saca más | Más corners: Macedonia del Norte | 9.75 | 22 % | 20 % | Favorito golpea temprano y gana (25 %) | Sorpresa: gana el no favorito (16 %) | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 39 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 
 ## Alta probabilidad y robustas (aguantan en los guiones principales)
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Córners 1.er tiempo Más 0.5 | 1.42 | 83 % | 67 % | 83 % | +0 pts | +18 % | 83 % | +1.8 | 1.24 | Sorpresa: gana el no favorito | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 31 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
-| Goles 2.º tiempo Menos 2.5 | 1.26 | 78 % | 77 % | 78 % | +0 pts | -1 % | 78 % | +0.8 | 1.31 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Goles Escocia Menos 3.5 | 1.27 | 78 % | 76 % | 77 % | +1 pts | -2 % | 78 % | +0.7 | 1.33 | Favorito golpea temprano y gana | Alta probabilidad |
-| Córners Menos 11.5 | 1.28 | 75 % | 76 % | 75 % | +1 pts | -4 % | 74 % | +0.6 | 1.37 | Empate | Alta probabilidad |
-| Goles 1.er tiempo Más 0.5 | 1.32 | 74 % | 73 % | 74 % | -1 pts | -2 % | 74 % | +0.8 | 1.39 | Favorito gana en partido trabado | Alta probabilidad · ★ enfoque a favor |
-| Córners 2.º tiempo Más 3.5 | 1.35 | 73 % | 71 % | 73 % | -0 pts | -1 % | 71 % | +0.7 | 1.41 | Expulsión antes del 70′ | Alta probabilidad |
-| Goles Escocia Más 1.5 | 1.36 | 73 % | 71 % | 72 % | +1 pts | -1 % | 72 % | +0.7 | 1.42 | Empate | Alta probabilidad · ★ enfoque a favor |
-| Córners Más 7.5 | 1.31 | 72 % | 74 % | 73 % | -1 pts | -5 % | 70 % | +0.6 | 1.42 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
-| Tiros al arco Macedonia del Norte Menos 2.5 | 1.34 | 72 % | 72 % | 71 % | +0 pts | -4 % | 52 % | +0.4 | 1.44 | Sorpresa: gana el no favorito | Alta probabilidad |
-| Córners 1.er tiempo Menos 5.5 | 1.42 | 71 % | 67 % | 70 % | +1 pts | +1 % | 70 % | +0.6 | 1.45 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Goles 1.er tiempo Menos 1.75 | 1.37 | 70 % | 71 % | 70 % | +1 pts | -3 % | 70 % | +0.3 | 1.46 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 12 % |
-| Kieron Bowie remates 4+ | 1.27 | 69 % | 70 % | 68 % | +1 pts | -13 % | 67 % | — | 1.50 | Empate | Alta probabilidad · cuota por debajo de la justa |
-| Goles 1.er tiempo Más 0.75 | 1.44 | 68 % | 67 % | 69 % | -1 pts | -2 % | 68 % | +0.5 | 1.51 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 18 % · ★ enfoque a favor |
-| Elmin Rastoder remates 1+ | 1.30 | 67 % | 69 % | 68 % | -1 pts | -12 % | 64 % | — | 1.53 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
-| Tiros al arco Escocia Más 5.5 | 1.42 | 67 % | 68 % | 67 % | +0 pts | -5 % | 62 % | +0.5 | 1.54 | Sorpresa: gana el no favorito | Alta probabilidad |
-| Jani Atanasov remates 1+ | 1.30 | 67 % | 69 % | 69 % | -2 pts | -13 % | 64 % | — | 1.54 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
-| Ché Adams tiros al arco 1+ | 1.31 | 67 % | 68 % | 67 % | +0 pts | -12 % | 66 % | — | 1.54 | Empate | Alta probabilidad · cuota por debajo de la justa |
-| Goles Menos 3.5 | 1.45 | 67 % | 66 % | 66 % | +1 pts | -3 % | 67 % | +0.3 | 1.54 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Scott McTominay tiros al arco 1+ | 1.34 | 67 % | 67 % | 66 % | +0 pts | -11 % | 65 % | — | 1.55 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
-| 2.º tiempo: Escocia | 1.45 | 66 % | 66 % | 65 % | +1 pts | -4 % | 66 % | — | 1.56 | Sorpresa: gana el no favorito | Alta probabilidad · ★ enfoque a favor |
-| Remates Macedonia del Norte Más 5.5 | 1.38 | 66 % | 70 % | 69 % | -3 pts | -9 % | 58 % | +0.5 | 1.56 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
-| Ambos marcan: No | 1.45 | 66 % | 66 % | 65 % | +1 pts | -4 % | 66 % | — | 1.57 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Fueras de lugar Macedonia del Norte Menos 1.5 | 1.45 | 66 % | 66 % | 66 % | -1 pts | -5 % | 64 % | +0.2 | 1.57 | Favorito golpea temprano y gana | Alta probabilidad |
-| Hándicap Macedonia del Norte +3 | 1.50 | 65 % | 65 % | 64 % | +1 pts | -2 % | 65 % | — | 1.58 | Favorito golpea temprano y gana | Alta probabilidad · ★ enfoque a favor |
-| Marko Gjorgjievski remates 1+ | 1.32 | 65 % | 68 % | 66 % | -1 pts | -14 % | 62 % | — | 1.59 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| Córners 1.er tiempo Más 0.5 | 1.47 | 82 % | 65 % | 82 % | +0 pts | +20 % | 82 % | +1.8 | 1.26 | Expulsión antes del 70′ | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 33 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
+| Ambos 1+ tarjetas: Sí | 1.27 | 76 % | 76 % | 77 % | -0 pts | -3 % | 71 % | — | 1.35 | Favorito golpea temprano y gana | Alta probabilidad |
+| Córners Menos 11.5 | 1.26 | 76 % | 77 % | 77 % | -1 pts | -4 % | 74 % | +0.7 | 1.36 | Empate | Alta probabilidad |
+| Goles 2.º tiempo Menos 2.5 | 1.33 | 75 % | 73 % | 74 % | +1 pts | +0 % | 75 % | +0.7 | 1.37 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Goles Escocia Menos 3.5 | 1.32 | 75 % | 73 % | 74 % | +1 pts | -1 % | 75 % | +0.6 | 1.38 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Goles 1.er tiempo Más 0.5 | 1.30 | 75 % | 74 % | 76 % | -1 pts | -3 % | 75 % | +0.8 | 1.38 | Favorito gana en partido trabado | Alta probabilidad · ★ enfoque a favor |
+| Goles Escocia Más 1.5 | 1.31 | 74 % | 74 % | 75 % | -1 pts | -3 % | 74 % | +0.7 | 1.39 | Empate | Alta probabilidad · ★ enfoque a favor |
+| Córners 2.º tiempo Más 3.5 | 1.37 | 73 % | 70 % | 71 % | +1 pts | -0 % | 70 % | +0.7 | 1.42 | Expulsión antes del 70′ | Alta probabilidad |
+| Córners Más 7.5 | 1.34 | 72 % | 72 % | 70 % | +1 pts | -4 % | 70 % | +0.6 | 1.44 | Expulsión antes del 70′ | Alta probabilidad |
+| Córners 1.er tiempo Menos 5.5 | 1.40 | 71 % | 69 % | 72 % | -0 pts | -0 % | 70 % | +0.6 | 1.45 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Oliver McBurnie tiros al arco 1+ | 1.26 | 71 % | 71 % | 70 % | +1 pts | -11 % | 69 % | — | 1.46 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
+| Ryan Christie tiros al arco 1+ | 1.25 | 70 % | 71 % | 70 % | +0 pts | -13 % | 68 % | — | 1.47 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
+| Goles 1.er tiempo Más 0.75 | 1.40 | 70 % | 69 % | 71 % | -1 pts | -2 % | 70 % | +0.6 | 1.48 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 17 % · ★ enfoque a favor |
+| Scott McTominay tiros al arco 1+ | 1.28 | 69 % | 70 % | 69 % | +0 pts | -11 % | 68 % | — | 1.48 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
+| Azer Omeragikj remates 1+ | 1.25 | 69 % | 71 % | 70 % | -1 pts | -13 % | 65 % | — | 1.49 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
+| Goles 1.er tiempo Menos 1.75 | 1.40 | 69 % | 69 % | 67 % | +1 pts | -4 % | 69 % | +0.3 | 1.50 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 13 % |
+| Kieron Bowie remates 4+ | 1.28 | 69 % | 70 % | 67 % | +1 pts | -12 % | 66 % | — | 1.50 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
+| Elmin Rastoder remates 1+ | 1.31 | 67 % | 68 % | 68 % | -1 pts | -12 % | 64 % | — | 1.54 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| 2.º tiempo: Escocia | 1.42 | 67 % | 67 % | 67 % | +0 pts | -5 % | 67 % | — | 1.54 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
+| Jani Atanasov remates 1+ | 1.31 | 67 % | 68 % | 68 % | -1 pts | -13 % | 64 % | — | 1.54 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| Ché Adams tiros al arco 1+ | 1.32 | 66 % | 68 % | 66 % | +0 pts | -13 % | 64 % | — | 1.56 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
+| Córners Menos 10.5 | 1.44 | 66 % | 67 % | 66 % | -0 pts | -5 % | 63 % | +0.3 | 1.56 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · cuota por debajo de la justa |
+| Remates Menos 29.5 | 1.42 | 66 % | 68 % | 66 % | -1 pts | -7 % | 55 % | +0.3 | 1.57 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · cuota por debajo de la justa |
+| Marko Gjorgjievski remates 1+ | 1.33 | 65 % | 67 % | 66 % | -1 pts | -13 % | 62 % | — | 1.58 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
 
 ## Donde el contexto mueve la línea a tu favor
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| Tarjetas Macedonia del Norte Menos 2.5 | 2.25 | 47 % | 41 % | 40 % | +7 pts | +5 % | 45 % | -0.2 | 2.23 | Expulsión antes del 70′ | Contexto a favor (+7 pts) · Valor · ★ enfoque a favor |
 | Faltas Macedonia del Norte Menos 12.5 | 2.02 | 52 % | 46 % | 46 % | +6 pts | +5 % | 52 % | -0.0 | 2.00 | Expulsión antes del 70′ | Contexto a favor (+6 pts) · Valor · ★ enfoque a favor |
-| Tarjetas Macedonia del Norte Menos 2.5 | 2.20 | 46 % | 42 % | 42 % | +4 pts | +2 % | 48 % | -0.2 | 2.25 | Expulsión antes del 70′ | Contexto a favor (+4 pts) · ★ enfoque a favor |
+| Tarjetas Menos 4.5 | 1.83 | 55 % | 51 % | 51 % | +4 pts | +1 % | 56 % | +0.0 | 1.88 | Expulsión antes del 70′ | Contexto a favor (+4 pts) · ★ enfoque a favor |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Más corners: Macedonia del Norte | 9.25 | 22 % | 4 % | 25 % | -2 pts | +104 % | 20 % | — | 4.98 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 41 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
-| Córners Macedonia del Norte Más 2.5 | 2.15 | 61 % | 43 % | 62 % | -2 pts | +30 % | 60 % | +0.8 | 1.70 | Expulsión antes del 70′ | Valor · ⚠ Revisar: la simulación sin contexto se aleja 37 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
-| Córners 1.er tiempo Más 0.5 | 1.42 | 83 % | 67 % | 83 % | +0 pts | +18 % | 83 % | +1.8 | 1.24 | Sorpresa: gana el no favorito | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 31 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
+| Más corners: Macedonia del Norte | 9.75 | 22 % | 4 % | 24 % | -2 pts | +114 % | 20 % | — | 5.01 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 39 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
+| Córners Macedonia del Norte Más 2.5 | 2.30 | 59 % | 41 % | 60 % | -1 pts | +35 % | 58 % | +0.8 | 1.76 | Sorpresa: gana el no favorito | Valor · ⚠ Revisar: la simulación sin contexto se aleja 39 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Córners 1.er tiempo Más 0.5 | 1.47 | 82 % | 65 % | 82 % | +0 pts | +20 % | 82 % | +1.8 | 1.26 | Expulsión antes del 70′ | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 33 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
+| Tarjetas Macedonia del Norte Menos 2.5 | 2.25 | 47 % | 41 % | 40 % | +7 pts | +5 % | 45 % | -0.2 | 2.23 | Expulsión antes del 70′ | Contexto a favor (+7 pts) · Valor · ★ enfoque a favor |
 | Faltas Macedonia del Norte Menos 12.5 | 2.02 | 52 % | 46 % | 46 % | +6 pts | +5 % | 52 % | -0.0 | 2.00 | Expulsión antes del 70′ | Contexto a favor (+6 pts) · Valor · ★ enfoque a favor |
 
-Kelly ¼ (dato informativo, no una orden de stake): Más corners: Macedonia del Norte 3.2 % de la banca; Córners Macedonia del Norte Más 2.5 6.6 % de la banca; Córners 1.er tiempo Más 0.5 10.7 % de la banca; Faltas Macedonia del Norte Menos 12.5 1.3 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+Kelly ¼ (dato informativo, no una orden de stake): Más corners: Macedonia del Norte 3.3 % de la banca; Córners Macedonia del Norte Más 2.5 6.8 % de la banca; Córners 1.er tiempo Más 0.5 10.7 % de la banca; Tarjetas Macedonia del Norte Menos 2.5 1.1 % de la banca; Faltas Macedonia del Norte Menos 12.5 1.2 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
 
 ## Sistemas de tipsters que este partido cumple (solo para medir, no para decidir)
 | Sistema | Regla | Selección que propone | Historial con cuotas reales |
@@ -134,14 +133,15 @@ Kelly ¼ (dato informativo, no una orden de stake): Más corners: Macedonia del 
 ## Builders del mismo guion
 | Patas | Prob. ajustada | Prob. simulación | Si una pata está 5 pts peor | Cuota justa | Cuota mínima en Betano | Correlación | Margen acumulado | Guion común | Robustez |
 |---|---|---|---|---|---|---|---|---|---|
-| Gana Escocia + Descanso o final: Escocia + 1.er tiempo: Escocia | 57 % | 61 % | 52 % | 1.77 | 1.82 | 1.28 | 14 % | Favorito golpea temprano y gana | 29 % |
-| Goles Escocia Más 0.5 + Descanso o final: Escocia + 1.er tiempo: Escocia | 59 % | 64 % | 55 % | 1.68 | 1.73 | 1.21 | 14 % | Favorito golpea temprano y gana | 29 % |
-| Gana Escocia + Goles Macedonia del Norte Menos 1.5 + Córners Menos 11.5 | 61 % | 61 % | 57 % | 1.63 | 1.68 | 1.05 | 6 % | Favorito golpea temprano y gana | 59 % |
-| Hándicap Macedonia del Norte +5 + Goles 2.º tiempo Menos 2.5 + Ambos 1+ tarjetas: Sí | 61 % | 62 % | 57 % | 1.65 | 1.70 | 1.06 | 7 % | Empate | 44 % |
-| Hándicap Macedonia del Norte +5 + Tiros al arco Macedonia del Norte Más 0.5 + Ambos 1+ tarjetas: Sí | 62 % | 62 % | 58 % | 1.61 | 1.66 | 1.02 | 7 % | Sorpresa: gana el no favorito | 49 % |
-| Remates Macedonia del Norte Menos 7.5 + Goles Macedonia del Norte Menos 1.5 | 60 % | 59 % | 55 % | 1.67 | 1.72 | 1.03 | 6 % | Favorito gana en partido trabado | 43 % |
-| Tiros al arco Macedonia del Norte Más 0.5 + Córners Menos 11.5 | 62 % | 61 % | 58 % | 1.61 | 1.66 | 0.99 | 6 % | Sorpresa: gana el no favorito | 55 % |
-| Remates Macedonia del Norte Menos 7.5 + Goles 1.er tiempo Menos 3.5 | 61 % | 60 % | 56 % | 1.65 | 1.70 | 1.01 | 6 % | Favorito gana en partido trabado | 46 % |
+| Gana Escocia + Descanso o final: Escocia + 1.er tiempo: Escocia | 56 % | 61 % | 52 % | 1.78 | 1.84 | 1.27 | 13 % | Favorito golpea temprano y gana | 28 % |
+| Goles Escocia Más 0.5 + Descanso o final: Escocia + 1.er tiempo: Escocia | 59 % | 64 % | 54 % | 1.69 | 1.74 | 1.2 | 13 % | Favorito golpea temprano y gana | 28 % |
+| Goles Macedonia del Norte Menos 1.5 + Ambos marcan: No | 62 % | 62 % | 57 % | 1.60 | 1.65 | 1.09 | 7 % | Favorito golpea temprano y gana | 0 % |
+| Gana Escocia + Goles Macedonia del Norte Menos 1.5 + Ambos marcan: No | 57 % | 57 % | 52 % | 1.76 | 1.81 | 1.18 | 8 % | Favorito golpea temprano y gana | 0 % |
+| Córners 2.º tiempo Más 3.5 + Tiros al arco Macedonia del Norte Más 0.5 | 62 % | 63 % | 58 % | 1.60 | 1.65 | 1.01 | 6 % | Partido abierto (ambos marcan y 3+ goles) | 54 % |
+| Goles 1.er tiempo Menos 3.5 + Ambos 1+ tarjetas: Sí + Tiros al arco Macedonia del Norte Más 0.5 | 62 % | 62 % | 58 % | 1.61 | 1.65 | 1.01 | 7 % | Sorpresa: gana el no favorito | 52 % |
+| Remates Macedonia del Norte Menos 7.5 + Goles 1.er tiempo Menos 3.5 | 62 % | 61 % | 57 % | 1.62 | 1.67 | 1.01 | 6 % | Favorito gana en partido trabado | 47 % |
+| Córners 1.er tiempo Más 0.5 + Goles 2.º tiempo Menos 2.5 | 62 % | 76 % | 58 % | 1.62 | 1.67 | 1.0 | 7 % | Empate | 45 % |
+| ↳ Revisar: la simulación sin contexto se aleja 33 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |  |  |  |  |  |  |  |  |  |
 
 Prob. ajustada: la conjunta de la simulación llevando cada pata a su probabilidad de decisión y corrigiendo la dependencia entre patas que se midió con 62 000 partidos (p. ej. «gana el favorito + sus córners Más» se estorban más de lo que creía el simulador). Margen acumulado: lo que la casa cobra por pata, multiplicado.
 

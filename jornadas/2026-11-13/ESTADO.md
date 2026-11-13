@@ -29,3 +29,7 @@
 - Releídos Betano (12:04, hash verificado; copia anterior en `raw/previos/`) y alineaciones/bajas de Flashscore (12:07, «probables»). Corregido el lector: «Serbia tarjetas 1T 0.5» se colaba como línea de partido (`betano_extraer.js`, `raw/bet_serbia-alemania.txt`).
 - Precios reales del Bet Builder leídos en la página (sin apostar). Resultado y todas las pruebas: `boss_builder_serbia-alemania.md`.
 - Pendiente antes del pitazo: alineaciones oficiales (~13:45) y reconfirmar el total ≥ 5 en el cupón. Las demás partidos de la jornada siguen con las cuotas del 12-nov.
+
+## Actualización 13-nov ~13:25 Bogotá — informes completos de Países Bajos–Grecia, Escocia–Macedonia y Eslovenia–Suiza
+- Betano releído 13:06 (raw en `raw/`, anteriores en `raw/previos/*_12nov.txt`); Sofascore (alineación predicha, últimos 7 por jugador, equipos, árbitro) en `jugadores/*_sofascore.json`; fichas, modelo, ranking y `registro/lineas.csv` regenerados.
+- Informes: `informes_completos/*.md`. Pendiente: alineaciones oficiales (~13:45) y releer cuotas antes de apostar. Eslovenia–Suiza: Betano solo ofrece goles, córners, tarjetas y anota/anota o asiste/asiste/tarjeta de jugador.

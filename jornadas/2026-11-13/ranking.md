@@ -4,7 +4,7 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 
 | # | Partido | Situación | Estado | Córners (datos · cumplen) | Partido (datos · cumplen) | Jugadores (datos · cumplen) | Motivo |
 |---|---|---|---|---|---|---|---|
-| 1 | Países Bajos - Grecia | 83 | apto | apto (100 · 4) | apto (95 · 6) | apto (85 · 4) |  |
+| 1 | Países Bajos - Grecia | 83 | apto | apto (100 · 3) | apto (95 · 4) | apto (85 · 4) |  |
 | 2 | Serbia - Alemania | 93 | apto | apto (100 · 5) | apto (95 · 5) | apto (67 · 1) |  |
 | 3 | Escocia - Macedonia del Norte | 54 | apto | apto (96 · 1) | apto (90 · 8) | apto (73 · 0) |  |
 | 4 | Eslovenia - Suiza | 77 | apto | apto (100 · 3) | no lo ofrece | apto (83 · 1) | partido: Betano no lo ofrece |
@@ -17,11 +17,11 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 | 11 | Internacional de Bogota - Independiente Santa Fe | 12 | no apto | no apto (81 · 0) | no lo ofrece | no apto (20 · 0) | situación 12 < 45; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
 
 ## Países Bajos - Grecia (UEFA Liga de Naciones)
-Datos 98 · Situación 83 · por mercado: {'Córners': 4, 'Fueras de juego': 1, 'Saques de banda': 2, 'Tiros al arco': 3}
+Datos 98 · Situación 83 · por mercado: {'Córners': 3, 'Fueras de juego': 1, 'Saques de banda': 1, 'Tiros al arco': 2}
 
-**Datos:** Córners: 26 líneas, muestra de 7 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 93% → 95 | Jugadores: 22 con línea, 70% con ≥5 partidos de historial, 100% titulares probables → 85 | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
+**Datos:** Córners: 27 líneas, muestra de 7 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 93% → 95 | Jugadores: 22 con línea, 70% con ≥5 partidos de historial, 100% titulares probables → 85 | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
 
-**Situación:** +15 importancia alta; +8 motivación alta; +10 favorito claro (60%, según cuotas)
+**Situación:** +15 importancia alta; +8 motivación alta; +10 favorito claro (61%, según cuotas)
 
 ## Serbia - Alemania (UEFA Liga de Naciones)
 Datos 87 · Situación 93 · por mercado: {'Córners': 5, 'Faltas': 1, 'Remates': 1, 'Tiros al arco': 3}
