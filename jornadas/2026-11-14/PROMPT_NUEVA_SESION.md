@@ -1,7 +1,7 @@
 # Prompt para continuar la recolección del 14-nov (copiar y pegar en una sesión nueva)
 
 Continúa el proyecto de apuestas de fútbol en Betano.co. Repo: github.com/ndaza654/apuestas-supermodelo, rama `recoleccion/2026-11-14`.
-Lee primero CLAUDE.md, recoleccion/README.md y jornadas/2026-11-14/lista/partidos.md.
+Lee primero CLAUDE.md, recoleccion/README.md y jornadas/2026-11-14/ESTADO.md. Si ESTADO.md y la sección «Estado» de abajo no coinciden, manda ESTADO.md (es más reciente: ya hay Betano 21/21, Flashscore 21/21, alineaciones 16/21, clima y pipeline corrido).
 
 ## Reglas
 - Español siempre; horas en Bogotá (UTC−5). Yo decido y apuesto; tú analizas y recolectas, nunca apuestas.
