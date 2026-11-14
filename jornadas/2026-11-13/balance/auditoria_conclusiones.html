@@ -1,0 +1,43 @@
+<h2>Qué aprendimos y qué voy a cambiar en las combinadas</h2>
+<p class="mut small">Base: 336 sugerencias mías del 4 al 13-nov calificadas con resultados reales (equipo: Flashscore; jugador: Sofascore). Son pocas observaciones, muy dependientes entre sí (varias patas del mismo partido y mismo día): sirven como pista, no como ley. Lo que no se pudo calificar está en «Límites» al final.</p>
+
+<h3>1. Lo que dicen los números</h3>
+<ul>
+<li><b>Sencillas: 200 de 283 (71 %) contra una p media dicha de 75 %.</b> Bien calibradas, algo optimistas (4 pts). Las de cuota &lt; 1,50 se dan 78 % pero, a la cuota real, ponerle 1 u a cada una pierde (–13,6 u en 201): con cuota baja el 78 % no alcanza para pagar el 22 % que falla. Las de 1,50–1,99 se dieron solo 53 % (32 de 60): ahí mi p estaba claramente alta.</li>
+<li><b>Combinadas del mismo partido: 9 de 29 (31 %) contra 47 % dicho.</b> Las del informe final del 13-nov dije 59 % de media y salieron <b>3 de 12 (25 %)</b>: estaba muy sobreconfiado. La causa: las armé con patas que parecen independientes pero no lo son («córners Más» + «pocos goles»/«Menos goles») y las traté casi como si multiplicaran bien.</li>
+<li><b>Combinadas entre partidos: 3 de 12 (25 %) contra 19 % dicho</b> (casi todas de cuota alta; aquí la p sí estaba baja y acerté la dirección).</li>
+<li><b>Por nº de patas:</b> 2 patas 7 de 21 (33 %) con p dicha 55 %; 3 patas 5 de 21 (24 %) con p 23 %; 5–6 patas 0 de 3. Las combinadas de 2 patas son donde más me equivoqué: las vendí como «seguras» y eran moneditas.</li>
+<li><b>Bet Builder Serbia–Alemania: 0 de 4.</b> Serbia–Alemania terminó 1-3 con solo 6 córners: fallaron «Goles Menos», «Córners Más» y «Ambos marcan: No» a la vez; las cuatro variantes que di compartían la misma idea (partido cerrado con muchos córners) y cayeron juntas.</li>
+<li><b>En vivo 2.º tiempo: 9 de 12 (75 %)</b> con p dicha 67 %: lo mejor calibrado de todo lo que sugerí (n pequeño).</li>
+<li><b>Lo que tú jugaste de mis variantes: 1 de 3.</b> E1 (Córners Más 6,5 + tiros al arco, cuota 2,0) se dio; C3 (cuota 2,46) y Boss Builder «Mejor» (cuota 5,0) fallaron.</li>
+</ul>
+
+<h3>2. Qué tumbó a las combinadas</h3>
+<ul>
+<li>De 46 combinadas, <b>33 fallaron y 17 de esas fallaron por una sola pata</b>: casi la mitad de los fallos eran «casi ganada». Eso es normal en combinadas, pero indica que una pata de más es el costo.</li>
+<li>Patas que más combinadas tumbaron: <b>goles/resultado 19, córners 15, tarjetas 6, remates/tiros 4</b>. Dentro de combinadas, las patas sueltas se dieron: goles/resultado 52 % (27/52), córners 56 % (19/34), tarjetas 65 % (11/17), remates/tiros 62 % (8/13). Ninguna familia pasa del 65 % cuando va dentro de una combinada: multiplicar 2–3 patas de ~55-60 % da 30-35 %, que es justo lo que salió.</li>
+<li>En las sencillas esas mismas familias se dan mejor (goles/resultado 72 %, remates 71 %, córners 60 % en n = 10): las patas «bonitas» que elegí para combinar eran las más inciertas, no las más seguras.</li>
+<li>Los «córners Más» en partidos de pocos córners (Luxemburgo–Estonia 4, Bulgaria–Islandia 5, Moldavia–Kazajistán 5, Andorra–Gibraltar 5) y los «goles Menos» en partidos abiertos (Países Bajos–Grecia 7-0, Serbia–Alemania 1-3) son los fallos repetidos. Mi patrón de «córners Más + pocos goles» se contradice a sí mismo cuando el partido se abre.</li>
+</ul>
+
+<h3>3. Qué cambio desde ahora en las combinadas</h3>
+<ol>
+<li><b>Máximo 2 patas</b>, y solo si cada una es ≥ 70 % por sí sola. Con 3 o más patas solo como «lotería» de stake mínimo y dicho así.</li>
+<li><b>Prohibido tratar patas del mismo partido como independientes.</b> La p de una combinada del mismo partido la calculo con la simulación conjunta del modelo, no multiplicando; y la recorto un 15–20 % relativo mientras no tenga datos propios que la respalden (con 29 casos reales ya salió 31 % contra 47 % dicho).</li>
+<li><b>No repetir la receta «córners Más + goles Menos»</b> en varios partidos el mismo día: son la misma apuesta («partido cerrado y con mucho córner»), fallan juntas. Máximo una por día.</li>
+<li><b>Cuota mínima útil:</b> las sencillas de cuota &lt; 1,50 se dan bastante pero no pagan; si las sugiero, las marco como «protección» y no como «valor». Las de 1,50–1,99 las voy a presentar con la p recortada (53 % real).</li>
+<li><b>Evitar patas de tarjetas «Más»/jugador dentro de combinadas</b>: dependen del árbitro y de un solo evento.</li>
+<li><b>Mostrar siempre el «real hasta hoy»</b> de cada tipo (sencilla 71 %, combinada 2 patas 33 %, 3 patas 24 %, en vivo 75 %) junto a mi p, para que veas la diferencia en el momento de decidir.</li>
+<li>Cada sugerencia nueva de combinada queda en <code>registro/sugerencias.csv</code> con sus patas en el momento de entregarla (<code>recoleccion/sugerencias.py</code>), para que el próximo balance la califique sin reconstruirla.</li>
+</ol>
+
+<h3>4. Límites y pendientes de esta auditoría</h3>
+<ul>
+<li><b>4–8 nov:</b> solo hay agregados (151 líneas: 72 se dieron, 48 %; boletos recomendados 27 de 51 selecciones; VALOR 5/11, justa 10/14, RIESGO 8/22; en vivo 3/13 boletos). El detalle pata por pata se perdió: si tienes el archivo <i>Balance_lineas_sugeridas_4-8_nov_2026.xlsx</i>, súbelo y lo reconstruyo.</li>
+<li><b>9-nov:</b> los 3 combos de misión salieron 0 de 3 según el balance de ese día, pero no recuperé sus patas; «justo 5/12, evitar 1/7» tampoco está itemizado.</li>
+<li>Estudiantes–Ind. Rivadavia fue a tiempo extra: el feed incluye la prórroga y Betano liquida a 90′; usé tus boletos 65/68 como evidencia y dejé una combinada del 12-noche como «sin verificar».</li>
+<li>Luis Suárez «anota» (Colombia–Chile 1-0): Sofascore no atribuye el gol, queda «sin verificar». Las líneas de 1T sin estadística por tiempo no se calificaron. Inter Bogotá–Santa Fe sigue sin calificar.</li>
+<li>Líneas de jugadores: calificadas solo en 4 partidos del 13-nov (los demás sin datos de jugador en el repo).</li>
+<li>La cuota de las combinadas es el producto de las cuotas sueltas o un precio estimado mío: no es el cupón real de Betano, así que el «1 u en cada una» es un techo.</li>
+<li>La apuesta abierta de Betano sigue sin leerse (sesión de Betano caducada).</li>
+</ul>

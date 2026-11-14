@@ -108,4 +108,12 @@ check(CJ.casar('Scott Bain', _pl) is None, 'jugadores: quien no figura con minut
 _f = ['h', 90, 3, 1, 1, 2, 4, 1, 2, 0]
 check(CJ.valor(_f, 'anota_o_asiste', False) == 3 and CJ.valor(_f, 'remates', False) == 3 and CJ.valor(_f, 'tarjeta', True) == 1 and CJ.valor(_f, 'tarjeta', False) == 0, 'jugadores: «N o más»; anota_o_asiste suma goles y asistencias; tarjeta sale de los incidentes')
 
+# --- auditoría de sugerencias ---
+import csv as _csv, json as _json, auditoria_html as AH
+_S = list(_csv.DictReader(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'registro', 'sugerencias.csv'), encoding='utf-8-sig'), delimiter=';'))
+check(len(_S) > 300 and len({r['id'] for r in _S}) == len(_S), 'sugerencias: ids únicos y más de 300 filas')
+check(all(len(_json.loads(r['patas_json'])) == int(r['n_patas']) for r in _S if r['patas_json'] and not r['entrega'].startswith('4')), 'sugerencias: n_patas coincide con las patas guardadas')
+check(all(r['resultado'] != 'cumplió' or 'F' not in [l[2] for l in _json.loads(r['patas_json'])] for r in _S if r['patas_json']), 'sugerencias: una combinada «cumplió» no puede tener una pata fallada')
+check('https://' not in AH.PLANTILLA and 'id="flt"' in AH.PLANTILLA, 'auditoría HTML: autónoma (sin red) y con filtros')
+
 print(f'\n{ok} pruebas de recolección superadas')

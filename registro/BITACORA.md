@@ -102,3 +102,9 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Patas de tus boletos: tarjetas Más, goles y patas de jugador tumbaron; córners Más ✓ en 7 patas. Sin identificar: 66, 68 (prórroga) y 75. Apuesta abierta (1): pendiente (sesión de Betano expirada; no se entró con credenciales).
 - Límites: jugadores solo en 4 de 14 partidos; Estudiantes–Rivadavia con prórroga en el feed; 1T de saques/al arco/fueras sin estadística por tiempo; Inter Bogotá–Santa Fe pendiente.
 - Nuevo: `recoleccion/calificar_jugadores.py`; `balance_html.py` muestra «qué pasó con cada pata» (`patas_calificadas.json`).
+
+## 13-nov, 22:08 · auditoría de todo lo que sugerí (combinadas y sencillas)
+- Entregado: `entregas/2026-11-13/2208_auditoria-sugerencias.html` (generador `recoleccion/auditoria_html.py`; datos `registro/sugerencias.csv` armado por `recoleccion/sugerencias.py`). Libro: hojas «Sugeridas» (336 filas) y «Auditoría sugeridas» (fórmulas) + 3 lecciones.
+- Sencillas 200/283 (71 %) vs 75 % dicho; cuota < 1,50: 78 % pero −13,6 u a 1 u c/u; 1,50–1,99: 53 %. Combinadas del mismo partido 9/29 (31 %) vs 47 % dicho (las del informe final del 13-nov 3/12 vs 59 %); 2 patas 7/21 (33 % vs 55 %); 3 patas 5/21; 5–6 patas 0/3; Bet Builder Serbia–Alemania 0/4; en vivo 9/12 (75 %). Tuyas de mis variantes: 1 de 3.
+- 33 de 46 combinadas fallaron, 17 por una sola pata (goles/resultado 19, córners 15, tarjetas 6). Cambios: máx. 2 patas ≥ 70 % c/u, p conjunta por simulación y recortada, no repetir «córners Más + goles Menos» en varios partidos, cuota < 1,50 = protección.
+- Límites: 4–8 nov y combos de misión del 9-nov solo como agregados; una combinada del 12-noche (prórroga) y Luis Suárez «anota» sin verificar; cuota de combinadas = producto/estimada (techo).

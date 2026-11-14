@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-13 | 22:08 | Auditoría de TODO lo que sugerí (336: sencillas, combinadas, Bet Builder, en vivo) calificado pata por pata, con filtros y qué cambio en las combinadas (HTML) | 4–13 nov (varios) | `2026-11-13/2208_auditoria-sugerencias.html` |
 | 2026-11-13 | 22:40 | Balance COMPLETO 12 y 13-nov: 4.258 líneas calificadas (equipo + jugador), patas de tus boletos, picks del 12-nov, conclusiones y pendientes (HTML con filtros y «cumple» ajustable) | 12-noche y 13-nov (14 partidos) | `2026-11-13/2240_balance-12-13nov.html` |
 | 2026-11-13 | 21:55 | Balance parcial 12 y 13-nov: tus 18 boletos de Betano, mis 38 picks del 12-nov y las líneas de goles del pipeline (HTML con filtros y «cumple» ajustable) | 12-noche y 13-nov (14 partidos) | `2026-11-13/2155_balance-12-13nov_parcial.html` |
 | 2026-11-13 | 20:45 | Informe interactivo generado por `recoleccion/informe_html.py` (ejemplo con los 21 partidos del 14-nov: filtros, gráficos, cupón) | los 21 del 14-nov | `2026-11-13/2040_informe-interactivo-jornada-14nov.html` |
