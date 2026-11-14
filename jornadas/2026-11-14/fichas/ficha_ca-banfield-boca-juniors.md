@@ -1,23 +1,12 @@
 # Ficha — CA Banfield - Boca Juniors
 Argentina Copa Argentina · 2026-11-14 17:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T00:15:21.385Z · 446 mercados
 
-Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
+Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
 
-## Resumen: líneas de equipo que cumplen 5 de 7 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
+## Resumen: líneas de equipo que cumplen 7 de 10 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
 
-| Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |
-|---|---|---|---|---|---|---|
-| Córners | total | Menos 10.5 | 1.24 | +0.9 | 5 de 7 | 5 de 7 |
-| Córners | total | Más 6.5 | 1.31 | +3.1 | 7 de 7 | 6 de 7 |
-| Córners | total | Más 7.5 | 1.57 | +2.1 | 6 de 7 | 5 de 7 |
-| Remates | visitante | Menos 17.5 | 1.52 | +3.2 | 5 de 7 | 5 de 7 |
-| Remates | visitante | Menos 16.5 | 1.75 | +2.2 | 5 de 7 | 5 de 7 |
-| Tiros al arco | local | Menos 4.5 | 1.26 | +2.0 | 5 de 7 | 7 de 7 |
-| Tiros al arco | total | Menos 9.5 | 1.57 | +2.9 | 6 de 7 | 7 de 7 |
-| Tiros al arco | total | Menos 8.5 | 1.98 | +1.9 | 5 de 7 | 7 de 7 |
-| Tiros al arco | visitante | Menos 6.5 | 1.45 | +2.4 | 5 de 7 | 7 de 7 |
-| Tiros al arco | visitante | Menos 5.5 | 1.85 | +1.4 | 5 de 7 | 6 de 7 |
+_Ninguna._
 
 ## Córners
 
@@ -28,11 +17,11 @@ Muestra: local 7, visitante 7, directos 5. Esperado: local 3.71, visitante 5.86,
 
 | Línea | Más | Menos |
 |---|---|---|
-| 6.5 | @1.31 · col +3.1 · L 7 de 7 · V 6 de 7 · D 3 de 5 ✓ | @3.3 · col -3.1 · L 0 de 7 · V 1 de 7 · D 2 de 5 |
-| 7.5 | @1.57 · col +2.1 · L 6 de 7 · V 5 de 7 · D 3 de 5 ✓ | @2.32 · col -2.1 · L 1 de 7 · V 2 de 7 · D 2 de 5 |
+| 6.5 | @1.31 · col +3.1 · L 7 de 7 · V 6 de 7 · D 3 de 5 | @3.3 · col -3.1 · L 0 de 7 · V 1 de 7 · D 2 de 5 |
+| 7.5 | @1.57 · col +2.1 · L 6 de 7 · V 5 de 7 · D 3 de 5 | @2.32 · col -2.1 · L 1 de 7 · V 2 de 7 · D 2 de 5 |
 | 8.5 | @2.02 · col +1.1 · L 6 de 7 · V 4 de 7 · D 2 de 5 | @1.75 · col -1.1 · L 1 de 7 · V 3 de 7 · D 3 de 5 |
 | 9.5 | @2.67 · col +0.1 · L 4 de 7 · V 4 de 7 · D 1 de 5 | @1.44 · col -0.1 · L 3 de 7 · V 3 de 7 · D 4 de 5 |
-| 10.5 | @3.75 · col -0.9 · L 2 de 7 · V 2 de 7 · D 1 de 5 | @1.24 · col +0.9 · L 5 de 7 · V 5 de 7 · D 4 de 5 ✓ |
+| 10.5 | @3.75 · col -0.9 · L 2 de 7 · V 2 de 7 · D 1 de 5 | @1.24 · col +0.9 · L 5 de 7 · V 5 de 7 · D 4 de 5 |
 
 ## Estadísticas del partido
 
@@ -72,8 +61,8 @@ Muestra: local 7, visitante 7, directos 5. Esperado: local 12.64, visitante 14.2
 | Línea | Más | Menos |
 |---|---|---|
 | 15.5 | @1.67 · col -1.2 · L 2 de 7 · V 3 de 7 · D 1 de 5 | @2.1 · col +1.2 · L 5 de 7 · V 4 de 7 · D 4 de 5 |
-| 16.5 | @2.0 · col -2.2 · L 2 de 7 · V 2 de 7 · D 1 de 5 | @1.75 · col +2.2 · L 5 de 7 · V 5 de 7 · D 4 de 5 ✓ |
-| 17.5 | @2.45 · col -3.2 · L 2 de 7 · V 2 de 7 · D 1 de 5 | @1.52 · col +3.2 · L 5 de 7 · V 5 de 7 · D 4 de 5 ✓ |
+| 16.5 | @2.0 · col -2.2 · L 2 de 7 · V 2 de 7 · D 1 de 5 | @1.75 · col +2.2 · L 5 de 7 · V 5 de 7 · D 4 de 5 |
+| 17.5 | @2.45 · col -3.2 · L 2 de 7 · V 2 de 7 · D 1 de 5 | @1.52 · col +3.2 · L 5 de 7 · V 5 de 7 · D 4 de 5 |
 
 ### Tiros al arco
 Muestra: local 7, visitante 7, directos 5. Esperado: local 2.5, visitante 4.14, **total 6.64** (local 3.0 a favor / 4.29 en contra; visitante 4.0 / 2.0).
@@ -83,8 +72,8 @@ Muestra: local 7, visitante 7, directos 5. Esperado: local 2.5, visitante 4.14, 
 | Línea | Más | Menos |
 |---|---|---|
 | 7.5 | @1.44 · col -0.9 · L 4 de 7 · V 1 de 7 · D 3 de 5 | @2.65 · col +0.9 · L 3 de 7 · V 6 de 7 · D 2 de 5 |
-| 8.5 | @1.78 · col -1.9 · L 2 de 7 · V 0 de 7 · D 2 de 5 | @1.98 · col +1.9 · L 5 de 7 · V 7 de 7 · D 3 de 5 ✓ |
-| 9.5 | @2.3 · col -2.9 · L 1 de 7 · V 0 de 7 · D 2 de 5 | @1.57 · col +2.9 · L 6 de 7 · V 7 de 7 · D 3 de 5 ✓ |
+| 8.5 | @1.78 · col -1.9 · L 2 de 7 · V 0 de 7 · D 2 de 5 | @1.98 · col +1.9 · L 5 de 7 · V 7 de 7 · D 3 de 5 |
+| 9.5 | @2.3 · col -2.9 · L 1 de 7 · V 0 de 7 · D 2 de 5 | @1.57 · col +2.9 · L 6 de 7 · V 7 de 7 · D 3 de 5 |
 
 **local**
 
@@ -92,15 +81,15 @@ Muestra: local 7, visitante 7, directos 5. Esperado: local 2.5, visitante 4.14, 
 |---|---|---|
 | 2.5 | @1.52 · col +0.0 · L 3 de 7 · V 2 de 7 · D 3 de 5 | @2.45 · col +0.0 · L 4 de 7 · V 5 de 7 · D 2 de 5 |
 | 3.5 | @2.25 · col -1.0 · L 3 de 7 · V 2 de 7 · D 2 de 5 | @1.6 · col +1.0 · L 4 de 7 · V 5 de 7 · D 3 de 5 |
-| 4.5 | @3.65 · col -2.0 · L 2 de 7 · V 0 de 7 · D 2 de 5 | @1.26 · col +2.0 · L 5 de 7 · V 7 de 7 · D 3 de 5 ✓ |
+| 4.5 | @3.65 · col -2.0 · L 2 de 7 · V 0 de 7 · D 2 de 5 | @1.26 · col +2.0 · L 5 de 7 · V 7 de 7 · D 3 de 5 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
 | 4.5 | @1.44 · col -0.4 · L 3 de 7 · V 3 de 7 · D 3 de 5 | @2.67 · col +0.4 · L 4 de 7 · V 4 de 7 · D 2 de 5 |
-| 5.5 | @1.88 · col -1.4 · L 2 de 7 · V 1 de 7 · D 1 de 5 | @1.85 · col +1.4 · L 5 de 7 · V 6 de 7 · D 4 de 5 ✓ |
-| 6.5 | @2.65 · col -2.4 · L 2 de 7 · V 0 de 7 · D 1 de 5 | @1.45 · col +2.4 · L 5 de 7 · V 7 de 7 · D 4 de 5 ✓ |
+| 5.5 | @1.88 · col -1.4 · L 2 de 7 · V 1 de 7 · D 1 de 5 | @1.85 · col +1.4 · L 5 de 7 · V 6 de 7 · D 4 de 5 |
+| 6.5 | @2.65 · col -2.4 · L 2 de 7 · V 0 de 7 · D 1 de 5 | @1.45 · col +2.4 · L 5 de 7 · V 7 de 7 · D 4 de 5 |
 
 ## Goles y tarjetas (para los agentes de goles-resultado y tarjetas; no entran en el ranking)
 
@@ -135,9 +124,9 @@ Muestra: local 7, visitante 7, directos 5. Esperado: local 1.0, visitante 1.5, *
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.18 · col +1.0 · L 7 de 7 · V 6 de 7 · D 3 de 5 ✓ | @4.45 · col -1.0 · L 0 de 7 · V 1 de 7 · D 2 de 5 |
+| 0.5 | @1.18 · col +1.0 · L 7 de 7 · V 6 de 7 · D 3 de 5 | @4.45 · col -1.0 · L 0 de 7 · V 1 de 7 · D 2 de 5 |
 | 1.5 | @1.82 · col +0.0 · L 3 de 7 · V 3 de 7 · D 2 de 5 | @1.93 · col +0.0 · L 4 de 7 · V 4 de 7 · D 3 de 5 |
-| 2.5 | @3.4 · col -1.0 · L 1 de 7 · V 1 de 7 · D 1 de 5 | @1.29 · col +1.0 · L 6 de 7 · V 6 de 7 · D 4 de 5 ✓ |
+| 2.5 | @3.4 · col -1.0 · L 1 de 7 · V 1 de 7 · D 1 de 5 | @1.29 · col +1.0 · L 6 de 7 · V 6 de 7 · D 4 de 5 |
 | 3.5 | @6.7 · col -2.0 · L 0 de 7 · V 0 de 7 · D 0 de 5 | @1.09 · col +2.0 · L 7 de 7 · V 7 de 7 · D 5 de 5 ✓ |
 
 ### Tarjetas (solo amarillas)
@@ -166,7 +155,7 @@ Muestra: local 7, visitante 7, directos 5. Esperado: local 2.93, visitante 2.36,
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
+_Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 
 ## Contexto para juzgar los criterios no numéricos
 

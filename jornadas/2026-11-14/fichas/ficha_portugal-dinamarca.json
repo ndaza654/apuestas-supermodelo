@@ -4,8 +4,9 @@
  "fecha": "2026-11-14 14:45",
  "cuotas_leidas": "Cuotas de Betano leídas 2026-11-14T00:03:33.255Z · 579 mercados",
  "regla": {
-  "muestra": "últimos 7 de cada equipo (cualquier sede) + directos",
-  "cumple": "5 de 7 (n mínimo 5)",
+  "muestra": "últimos 10 de cada equipo (cualquier sede) + hasta 6 directos",
+  "cumple": "7 de 10 (n mínimo 7)",
+  "directos": "hasta 6",
   "colchon": "informativo: esperado − línea"
  },
  "corners": {
@@ -289,13 +290,13 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 3,
@@ -303,7 +304,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     },
     "menos": {
      "cuota": 8.0,
@@ -420,7 +421,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 0,
@@ -471,7 +472,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 0,
@@ -522,7 +523,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 1,
@@ -567,7 +568,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 7,
@@ -581,7 +582,7 @@
       "txt": "2 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -618,7 +619,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 7,
@@ -632,7 +633,7 @@
       "txt": "2 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -669,7 +670,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 7,
@@ -683,7 +684,7 @@
       "txt": "2 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -856,7 +857,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 3,
@@ -864,7 +865,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     },
     "menos": {
      "cuota": 4.6,
@@ -901,13 +902,13 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 3,
@@ -915,7 +916,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     },
     "menos": {
      "cuota": 3.1,
@@ -952,13 +953,13 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 3,
@@ -966,7 +967,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     },
     "menos": {
      "cuota": 2.25,
@@ -1003,13 +1004,13 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 3,
@@ -1017,7 +1018,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     },
     "menos": {
      "cuota": 1.75,
@@ -1077,7 +1078,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 3,
@@ -1128,13 +1129,13 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 1,
@@ -1142,7 +1143,7 @@
       "txt": "1 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -1179,13 +1180,13 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 1,
@@ -1193,7 +1194,7 @@
       "txt": "1 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -1230,7 +1231,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 7,
@@ -1244,7 +1245,7 @@
       "txt": "2 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -1360,13 +1361,13 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 3,
@@ -1374,7 +1375,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     },
     "menos": {
      "cuota": 2.62,
@@ -1411,7 +1412,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 4,
@@ -1536,7 +1537,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 4,
@@ -1587,7 +1588,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 4,
@@ -1718,7 +1719,7 @@
        "x": 6,
        "n": 7,
        "txt": "6 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 2,
@@ -1786,7 +1787,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 3,
@@ -1843,7 +1844,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 2,
@@ -1972,7 +1973,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 2,
@@ -2001,7 +2002,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 0,
@@ -2023,7 +2024,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 2,
@@ -2052,7 +2053,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 1,
@@ -2074,13 +2075,13 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 1,
@@ -2088,7 +2089,7 @@
        "txt": "1 de 3",
        "cumple": false
       },
-      "cumple": true
+      "cumple": false
      },
      "menos": {
       "cuota": 2.12,
@@ -2255,7 +2256,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 4,
@@ -2289,7 +2290,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 2,
@@ -2340,7 +2341,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 2,
@@ -2746,7 +2747,7 @@
        "x": 6,
        "n": 7,
        "txt": "6 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 1,
@@ -2797,7 +2798,7 @@
        "x": 6,
        "n": 7,
        "txt": "6 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 1,
@@ -2848,7 +2849,7 @@
        "x": 6,
        "n": 7,
        "txt": "6 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 2,
@@ -3001,7 +3002,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 0,
@@ -3023,7 +3024,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 7,
@@ -3037,7 +3038,7 @@
        "txt": "3 de 3",
        "cumple": false
       },
-      "cumple": true
+      "cumple": false
      },
      "menos": {
       "cuota": 2.2,
@@ -3074,7 +3075,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 7,
@@ -3088,7 +3089,7 @@
        "txt": "3 de 3",
        "cumple": false
       },
-      "cumple": true
+      "cumple": false
      },
      "menos": {
       "cuota": 1.75,
@@ -3131,7 +3132,7 @@
        "x": 6,
        "n": 7,
        "txt": "6 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 2,
@@ -3306,13 +3307,13 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 1,
@@ -3320,7 +3321,7 @@
        "txt": "1 de 3",
        "cumple": false
       },
-      "cumple": true
+      "cumple": false
      }
     },
     {
@@ -3357,13 +3358,13 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 1,
@@ -3371,7 +3372,7 @@
        "txt": "1 de 3",
        "cumple": false
       },
-      "cumple": true
+      "cumple": false
      }
     },
     {
@@ -3408,13 +3409,13 @@
        "x": 6,
        "n": 7,
        "txt": "6 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 6,
        "n": 7,
        "txt": "6 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 1,
@@ -3422,7 +3423,7 @@
        "txt": "1 de 3",
        "cumple": false
       },
-      "cumple": true
+      "cumple": false
      }
     },
     {
@@ -3561,7 +3562,7 @@
        "x": 6,
        "n": 7,
        "txt": "6 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 4,
@@ -3589,7 +3590,7 @@
        "x": 6,
        "n": 7,
        "txt": "6 de 7",
-       "cumple": true
+       "cumple": false
       },
       "reg_visitante": {
        "x": 7,
@@ -3603,7 +3604,7 @@
        "txt": "3 de 3",
        "cumple": false
       },
-      "cumple": true
+      "cumple": false
      },
      "menos": {
       "cuota": 3.1,
@@ -3646,7 +3647,7 @@
        "x": 5,
        "n": 7,
        "txt": "5 de 7",
-       "cumple": true
+       "cumple": false
       },
       "directos": {
        "x": 2,
@@ -3961,7 +3962,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 4,
@@ -4086,7 +4087,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 3,
@@ -4137,13 +4138,13 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 1,
@@ -4151,7 +4152,7 @@
       "txt": "1 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -4216,7 +4217,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 7,
@@ -4230,7 +4231,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     },
     "menos": {
      "cuota": 12.5,
@@ -4273,7 +4274,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -4324,7 +4325,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -4375,7 +4376,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -4426,7 +4427,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -4477,7 +4478,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -4528,7 +4529,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -4579,7 +4580,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -4596,7 +4597,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 2,
@@ -4647,7 +4648,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 2,
@@ -4698,7 +4699,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 3,
@@ -4749,13 +4750,13 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 1,
@@ -4763,7 +4764,7 @@
       "txt": "1 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -4828,7 +4829,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 7,
@@ -4842,7 +4843,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     },
     "menos": {
      "cuota": 2.57,
@@ -4885,7 +4886,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -4902,7 +4903,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 1,
@@ -4959,7 +4960,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 3,
@@ -4967,7 +4968,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    }
   ]
@@ -5100,7 +5101,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 7,
@@ -5114,7 +5115,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     },
     "menos": {
      "cuota": 4.5,
@@ -5225,13 +5226,13 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 3,
@@ -5239,7 +5240,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -5259,7 +5260,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 1,
@@ -5327,7 +5328,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 4,
@@ -5378,13 +5379,13 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -5392,7 +5393,7 @@
       "txt": "2 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -5429,13 +5430,13 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -5443,7 +5444,7 @@
       "txt": "2 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -5480,13 +5481,13 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 3,
@@ -5494,7 +5495,7 @@
       "txt": "3 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -5531,7 +5532,7 @@
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 4,
@@ -5582,13 +5583,13 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "reg_visitante": {
       "x": 5,
       "n": 7,
       "txt": "5 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -5596,7 +5597,7 @@
       "txt": "2 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    },
    {
@@ -5639,7 +5640,7 @@
       "x": 6,
       "n": 7,
       "txt": "6 de 7",
-      "cumple": true
+      "cumple": false
      },
      "directos": {
       "x": 2,
@@ -5647,7 +5648,7 @@
       "txt": "2 de 3",
       "cumple": false
      },
-     "cumple": true
+     "cumple": false
     }
    }
   ]
