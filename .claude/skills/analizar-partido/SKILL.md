@@ -16,7 +16,7 @@ El usuario decide y apuesta; tú entregas probabilidad, cuota, regularidad y lí
 1. `python3 recoleccion/correr_jornada.py jornadas/<día>` → entradas, fichas, informes del modelo, `ranking.md`.
    Si no hay `betano/*.json`, dice que la etapa 1 no dejó nada y termina: no se inventa.
 2. Lanzar los agentes `corners`, `partido`, `jugadores`, `goles-resultado` y `tarjetas` con las fichas de los partidos apto/reserva (cada uno escribe su detalle en `jornadas/<día>/agentes/` y devuelve un resumen corto); después `combinadas` con lo que cumplió. `goles-resultado` y `tarjetas` no entran en el ranking de aptos: léelos con las alertas del modelo a la vista.
-3. Escribir `jornadas/<día>/informe_final.md` (español, hora de Bogotá): abre con **«Enfoque de mercados»**; por partido y mercado, las líneas que cumplen (≥5 de 7 en ambos equipos) con cuota, esperado, colchón y «X de 7»; luego lo que no cumple, resumido; y los límites (datos que faltaron, partidos no aptos y por qué).
+3. El informe interactivo sale solo de la etapa 2 (`jornadas/<día>/informe.html`, de `recoleccion/informe_html.py`); entregarlo al usuario así y guardar copia en `entregas/` (ver CLAUDE.md: «Informes en HTML interactivo»). Escribir además `jornadas/<día>/informe_final.md` (español, hora de Bogotá): abre con **«Enfoque de mercados»**; por partido y mercado, las líneas que cumplen (≥5 de 7 en ambos equipos) con cuota, esperado, colchón y «X de 7»; luego lo que no cumple, resumido; y los límites (datos que faltaron, partidos no aptos y por qué).
 4. Verificar: `python3 pruebas/test_ficha.py`, cifras contra la ficha. Commit y push del resultado.
 
 ## Puntuación de contexto (`recoleccion/puntuar.py`)

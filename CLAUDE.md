@@ -32,6 +32,12 @@ Todo **informe, análisis, balance, combinada, lectura en vivo o resumen con lí
 4. Al terminar la respuesta, decir en una línea que quedó guardada y dónde.
 No se guardan las respuestas cortas o de conversación (sin líneas, probabilidades ni balances). Si una sesión no tiene acceso a git, decirlo y dejar el texto en el chat para que el usuario lo guarde. `entregas/` no reemplaza a `registro/` (datos para calificar) ni a `jornadas/` (datos y salidas del pipeline).
 
+## Informes en HTML interactivo (valen para CUALQUIER chat, cuenta o sesión)
+Los informes, análisis y balances de una jornada **no se entregan como texto plano**: se entregan como **HTML interactivo** (filtros, gráficos, cupón), hecho con el generador del repo, no a mano:
+- `python3 recoleccion/informe_html.py jornadas/AAAA-MM-DD` → `jornadas/AAAA-MM-DD/informe.html` (lo genera también `correr_jornada.py` al final de la etapa 2). Lee `registro/lineas.csv` + `ranking.json` + `ESTADO.md`; autónomo (sin red); pestañas Resumen, Líneas de equipo, Jugadores, Cupón y Datos y límites; filtros por partido, mercado, ámbito, lado, cuota, p modelo, EV, cumple ≥5 de 7, titular y búsqueda; el colchón es informativo y no oculta ninguna línea.
+- Antes de entregarlo: abrirlo (por ejemplo con Playwright), comprobar que los filtros responden y que no hay errores de consola. Entregarlo con SendUserFile o como artefacto, y guardar la copia en `entregas/` según la regla de Entregas.
+- Mejoras al informe se hacen **en `recoleccion/informe_html.py`** (para que todas las sesiones las hereden), no en una copia suelta. Un análisis de un solo partido o un balance puede añadir su propia sección al HTML o un `.md` junto a él, pero la base interactiva siempre sale del generador. Si falta `registro/lineas.csv` para esa jornada, correr antes `correr_jornada.py`.
+
 ## Contexto de la sesión (que no se llene)
 - Una sesión por jornada. Empezar leyendo `jornadas/AAAA-MM-DD/ranking.md` y `ESTADO.md`; la ficha de un partido solo cuando se va a analizar. No abrir los JSON crudos de `flashscore/` ni `betano/`.
 - Los agentes escriben su detalle en archivos (`jornadas/AAAA-MM-DD/agentes/<partido>_<agente>.md`) y devuelven al chat solo un resumen corto (las 5 mejores líneas y los límites).

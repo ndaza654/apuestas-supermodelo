@@ -83,4 +83,13 @@ _cl = json.load(open(os.path.join(_j14, 'clima', 'clima.json'), encoding='utf8')
 _c = A.clima_de(_cl['kosovo-israel'])
 check(_c['temperatura'] == 3.4 and _c['lluvia'] is None and not _c['viento_fuerte'] and 'Open-Meteo' in _c['texto'], 'clima: temperatura al inicio; lluvia/viento «fuerte» solo por umbral fijo (7,6 mm/h, 30 km/h)')
 
+# --- informe interactivo de la jornada (recoleccion/informe_html.py) ---
+import informe_html as IH
+_j, _f, _rk, _res, _es = IH.cargar(os.path.join(RAIZ, 'jornadas', '2026-11-13'))
+_d = IH.datos(_j, _f, _rk, _res, _es)
+check(len(_d['P']) >= 3 and len(_d['F']) == len(_f) and all(len(x) == 20 for x in _d['F']), 'el informe HTML recibe todas las líneas del registro (nada se filtra por colchón) con 20 campos')
+_h = IH.PLANTILLA.replace('/*DATA*/', json.dumps(_d, ensure_ascii=False))
+check('const D={' in _h.replace(' ', '') and 'No apuesta' not in _h and 'el informe no apuesta' in _h, 'el HTML es autónomo (datos incrustados, sin recursos externos) y declara que no apuesta')
+check('http://' not in IH.PLANTILLA.replace('http://www.w3.org', '') and 'https://' not in IH.PLANTILLA, 'el HTML no pide nada a la red')
+
 print(f'\n{ok} pruebas de recolección superadas')

@@ -4,14 +4,15 @@
     python3 recoleccion/correr_jornada.py jornadas/2026-11-13
 
 Lee      jornadas/<día>/betano/*.json  (+ flashscore/*.json, notas/*.json si existen)
-Escribe  entradas/ (armadas), fichas/ (por mercado), informes/ (modelo SM-1.2 de cada partido apto o en reserva), ranking.md y ranking.json.
+Escribe  entradas/ (armadas), fichas/ (por mercado), informes/ (modelo SM-1.2 de cada partido apto o en reserva), ranking.md y ranking.json,
+         registro/lineas.csv e informe.html (informe interactivo de la jornada; ver recoleccion/informe_html.py).
 Si falta lo recolectado lo dice y termina; NO inventa datos.
 """
 import os, sys, json, glob, shutil, subprocess
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(AQUI)
 sys.path.insert(0, AQUI)
-import armar_entrada as A, ficha as FI, puntuar as PU, registrar_jornada as RJ
+import armar_entrada as A, ficha as FI, puntuar as PU, registrar_jornada as RJ, informe_html as IH
 
 
 def main(argv):
@@ -46,6 +47,10 @@ def main(argv):
             print(f"{k:34s} {orden.get(nombre)}: sin informe del modelo (ver ranking.md)")
     n, prev = RJ.registrar(base)                                     # registro/lineas.csv: todas las líneas, ficha + modelo
     print(f'registro/lineas.csv: {n} líneas de esta jornada (+{prev} de otras)')
+    try:
+        IH.main([base])                                               # informe.html interactivo (filtros, gráficos, cupón); se puede regenerar siempre
+    except SystemExit as e:
+        print('informe.html no generado:', e)
     return 0
 
 
