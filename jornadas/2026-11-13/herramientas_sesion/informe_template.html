@@ -1,0 +1,349 @@
+<title>Informe de mercados 13-nov</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Layout: cabecera con pestañas, barra de filtros que se queda arriba, y una vista por pestaña (tablas con barras de probabilidad, gráficos SVG y calculadora en vivo). */
+:root {
+  --bg:#f3f5f8; --surface:#fff; --surface-2:#eaeef4; --fg:#14202e; --muted:#5a6a7c; --line:#d6dde7;
+  --accent:#0b7a75; --accent-fg:#fff; --accent-soft:#d5efec; --good:#1a7f45; --bad:#b8392b; --warn-bg:#fff3d6; --warn-fg:#6b4a00;
+  --m0:#2f5fb3; --m1:#7a3fb0; --m2:#c06a00; --grid:#d6dde7;
+  --font-head:"Space Grotesk","Segoe UI",system-ui,sans-serif; --font-body:"Inter","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg:#0e1620; --surface:#17222f; --surface-2:#1e2c3c; --fg:#e8eef6; --muted:#98a8ba; --line:#2b3b4e;
+  --accent:#4fd1c5; --accent-fg:#07211f; --accent-soft:#123b3a; --good:#59d38a; --bad:#ff8a78; --warn-bg:#3a2f10; --warn-fg:#f3d58a;
+  --m0:#7ea6ee; --m1:#bf93ec; --m2:#f2a550; --grid:#2b3b4e; color-scheme:dark; } }
+:root[data-theme="dark"] {
+  --bg:#0e1620; --surface:#17222f; --surface-2:#1e2c3c; --fg:#e8eef6; --muted:#98a8ba; --line:#2b3b4e;
+  --accent:#4fd1c5; --accent-fg:#07211f; --accent-soft:#123b3a; --good:#59d38a; --bad:#ff8a78; --warn-bg:#3a2f10; --warn-fg:#f3d58a;
+  --m0:#7ea6ee; --m1:#bf93ec; --m2:#f2a550; --grid:#2b3b4e; color-scheme:dark; }
+* { box-sizing:border-box; } [hidden] { display:none !important; }
+body { background:var(--bg); color:var(--fg); font-family:var(--font-body); font-size:14px; line-height:1.45;
+  padding-block:16px 40px; padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px)); }
+.wrap { max-width:1180px; margin:0 auto; display:flex; flex-direction:column; gap:14px; }
+h1,h2,h3 { font-family:var(--font-head); margin:0; letter-spacing:-.01em; text-wrap:balance; }
+h1 { font-size:clamp(24px,5.5vw,34px); line-height:1.1; } h2 { font-size:18px; } h3 { font-size:15px; }
+p { margin:0; } button,select,input { font:inherit; color:inherit; }
+button { cursor:pointer; } :focus-visible { outline:3px solid var(--accent); outline-offset:2px; }
+.muted { color:var(--muted); } .eyebrow { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-weight:600; }
+.num { font-variant-numeric:tabular-nums; }
+.notice { background:var(--warn-bg); color:var(--warn-fg); border-radius:12px; padding:10px 14px; font-size:13px; display:grid; gap:3px; }
+.tabs { display:flex; gap:6px; overflow-x:auto; padding-bottom:2px; }
+.tab { border:1px solid var(--line); background:var(--surface); border-radius:10px; padding:8px 14px; font-weight:600; white-space:nowrap; }
+.tab[aria-selected="true"] { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); }
+.filters { position:sticky; top:env(safe-area-inset-top,0px); z-index:6; background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:10px 12px; display:flex; flex-wrap:wrap; gap:8px 12px; align-items:flex-end; }
+.f { display:flex; flex-direction:column; gap:3px; min-width:0; } .f > label,.f > .lab { font-size:11px; letter-spacing:.06em; text-transform:uppercase; font-weight:600; color:var(--muted); }
+.f select,.f input[type=number],.f input[type=search] { background:var(--bg); border:1px solid var(--line); border-radius:8px; padding:6px 8px; min-width:0; }
+.f input[type=number] { width:72px; } .f input[type=search] { width:150px; }
+.chips { display:flex; gap:5px; flex-wrap:wrap; }
+.chip { border:1px solid var(--line); background:var(--bg); border-radius:999px; padding:5px 10px; font-size:13px; font-weight:500; display:inline-flex; align-items:center; gap:6px; }
+.chip[aria-pressed="true"] { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); }
+.dot { width:9px; height:9px; border-radius:50%; display:inline-block; flex:none; }
+.check { display:flex; gap:6px; align-items:center; font-size:13px; padding:6px 0; }
+.count { margin-left:auto; font-size:12px; color:var(--muted); align-self:center; }
+
+.card { background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:16px; display:flex; flex-direction:column; gap:12px; min-width:0; }
+.grid2 { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr)); }
+.tablebox { overflow-x:auto; border:1px solid var(--line); border-radius:14px; background:var(--surface); }
+table { border-collapse:collapse; width:100%; min-width:760px; }
+th,td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--line); white-space:nowrap; }
+th { font-size:11px; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); font-weight:600; position:sticky; top:0; background:var(--surface); cursor:pointer; user-select:none; }
+th[aria-sort] { color:var(--accent); }
+tr:last-child td { border-bottom:0; }
+td.sel { white-space:normal; min-width:150px; font-weight:500; }
+.pbar { display:flex; align-items:center; gap:8px; min-width:120px; }
+.pbar b { width:42px; text-align:right; font-variant-numeric:tabular-nums; }
+.track { position:relative; flex:1; height:8px; background:var(--surface-2); border-radius:4px; min-width:60px; }
+.track i { position:absolute; left:0; top:0; bottom:0; border-radius:4px; background:var(--accent); }
+.track u { position:absolute; top:-3px; bottom:-3px; width:2px; background:var(--fg); opacity:.55; }
+.badge { display:inline-block; padding:1px 8px; border-radius:999px; font-size:11px; font-weight:600; }
+.b-yes { background:var(--accent-soft); color:var(--good); } .b-no { background:var(--surface-2); color:var(--muted); }
+.b-tit { background:var(--accent-soft); color:var(--accent); } .b-sub { background:var(--warn-bg); color:var(--warn-fg); }
+.mdot { display:inline-flex; align-items:center; gap:6px; }
+.more { align-self:center; border:1px solid var(--accent); color:var(--accent); background:transparent; border-radius:10px; padding:8px 16px; font-weight:600; }
+.empty { padding:24px; text-align:center; color:var(--muted); }
+
+.mhead { display:flex; flex-wrap:wrap; justify-content:space-between; gap:8px; align-items:flex-start; }
+.mhead h2 { display:flex; align-items:center; gap:8px; }
+.stack { display:flex; height:30px; border-radius:8px; overflow:hidden; font-size:12px; font-weight:600; color:#fff; }
+.stack div { display:flex; align-items:center; justify-content:center; min-width:0; }
+.kv { display:grid; grid-template-columns:repeat(auto-fit,minmax(110px,1fr)); gap:8px; }
+.kv div { background:var(--surface-2); border-radius:10px; padding:8px 10px; } .kv b { display:block; font-family:var(--font-head); font-size:18px; } .kv span { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; font-weight:600; }
+.enf p { margin-bottom:6px; } .enf ul { margin:4px 0 8px; padding-left:18px; display:grid; gap:4px; }
+.xi { display:grid; gap:4px; font-size:13px; } .xi b { font-weight:600; }
+.charts { display:grid; gap:10px; grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr)); }
+.chart { background:var(--surface-2); border-radius:12px; padding:8px 10px; } .chart h4 { margin:0 0 4px; font-size:12px; font-weight:600; }
+svg text { font-family:var(--font-body); fill:var(--muted); font-size:10px; }
+.legend { display:flex; gap:12px; flex-wrap:wrap; font-size:12px; color:var(--muted); }
+.legend i { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:5px; vertical-align:-1px; }
+
+.calc { display:grid; gap:12px; }
+.calc-in { display:flex; flex-wrap:wrap; gap:10px 16px; align-items:flex-end; }
+.calc-in input[type=number] { width:70px; background:var(--bg); border:1px solid var(--line); border-radius:8px; padding:6px 8px; }
+.calc-in input[type=range] { width:200px; }
+.out { display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr)); }
+.out table { min-width:0; } .out td,.out th { padding:5px 8px; }
+.idea { background:var(--surface-2); border-radius:12px; padding:12px; display:flex; flex-direction:column; gap:8px; }
+.idea button { align-self:flex-start; border:1px solid var(--accent); color:var(--accent); background:transparent; border-radius:8px; padding:5px 10px; font-weight:600; }
+.pk { display:flex; justify-content:space-between; gap:8px; font-size:13px; } .pk b { font-variant-numeric:tabular-nums; }
+footer { color:var(--muted); font-size:12px; }
+@media (max-width:480px) { .f input[type=search] { width:120px; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Liga de Naciones · viernes 13 de noviembre · 14:45 Bogotá</p>
+    <h1>Informe de mercados</h1>
+    <p class="muted">Tres partidos, todos los mercados que ofrece Betano, ordenados por probabilidad.</p>
+  </header>
+  <div class="notice">
+    <p><strong>Cuotas de Betano leídas a las 13:06</strong> (pre-partido). En vivo cambian: usa la pestaña «En vivo» para ver la cuota justa de cada línea.</p>
+    <p>Alineaciones <strong>confirmadas</strong> (Sofascore). Los jugadores marcados «suplente» no están en el once. «Cumple» = filtro de los tipsters (≥ 5 de 7 en ambos equipos); no tiene resultados verificados.</p>
+  </div>
+  <nav class="tabs" role="tablist" id="tabs"></nav>
+
+  <div class="filters" id="filters"></div>
+  <main id="view"></main>
+  <footer>Datos: Betano 13:06 · Sofascore (alineaciones confirmadas, últimos 7 de cada equipo y jugador, árbitro) · Flashscore (últimos 7 y directos) · modelo apuestas-supermodelo. La probabilidad de jugadores mezcla tasa por 90 × minutos, X de 7 y la cuota (pesos propios, sin calibrar). No se colocó ninguna apuesta.</footer>
+</div>
+
+<script>
+const D = /*DATA*/;
+(function(){
+const MS = D.matches;
+const COL = ['var(--m0)','var(--m1)','var(--m2)'];
+const MERC = {goles:'Goles',corners:'Córners',tarjetas:'Tarjetas',remates:'Remates',al_arco:'Tiros al arco',faltas:'Faltas',fueras:'Fueras de juego',saques_banda:'Saques de banda',saques_meta:'Saques de meta',resultado:'Resultado / hándicap',ambos:'Ambos marcan',especial:'Más córners / tarjetas'};
+const STAT = {remates:'Remates',al_arco:'Tiros al arco',faltas:'Faltas cometidas',entradas:'Entradas',anota:'Anota',asiste:'Asiste',anota_o_asiste:'Anota o asiste',tarjeta:'Tarjeta',atajadas:'Atajadas'};
+const AB = ['PB–GRE','ESC–MKD','SLO–SUI'];
+const SHORT = ['Países Bajos–Grecia','Escocia–Macedonia','Eslovenia–Suiza'];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pct = p => p == null ? '–' : Math.round(p*100) + ' %';
+const f2 = x => x == null ? '–' : (+x).toFixed(2).replace('.',',');
+const odd = x => x == null ? '–' : (+x).toFixed(2).replace('.',',');
+const amb = (m,a) => a==='total'?'Total':a==='local'?m.loc:a==='visitante'?m.vis:a==='1T'?'Total 1.er tiempo':a==='2T'?'Total 2.º tiempo':a;
+
+// ---- filas ----
+const TEAM = [], PLAY = [], PAIR = [];
+MS.forEach(m => {
+  m.R.forEach(r => TEAM.push({m:m.id,mercado:r[0],amb:r[1],lado:r[2],linea:r[3],cuota:r[4],p:r[5],pm:r[6],esp:r[7],col:r[8],rl:r[9],rv:r[10],dir:r[11],cumple:r[12]==='sí',na:r[12]==='',ps:r[13],sel:r[2]+' '+r[3]}));
+  m.RES.forEach(r => TEAM.push({m:m.id,mercado:r[0],amb:'',lado:'',linea:null,cuota:r[2],p:r[3],pm:r[4],esp:null,col:null,rl:'',rv:'',dir:'',cumple:false,na:true,ps:null,sel:r[1]}));
+  m.P.forEach(r => PLAY.push({m:m.id,j:r[0],lado:r[1],st:r[2],k:r[3],cuota:r[4],p:r[5],pm:r[6],fr:r[7],n:r[8],tit:r[9]===1,cumple:r[10]===1,nota:r[11],pois:r[12]}));
+  m.Q.forEach(r => PAIR.push({m:m.id,a:r[0],b:r[1],st:r[2],cuota:r[3],pmod:r[4],mine:r[5],tit:r[6]===1}));
+});
+
+const S = { tab:'vivo', match:'all', mercado:'all', cmin:'', cmax:'', pmin:0, cumple:false, tit:true, q:'', sort:{partido:null}, lim:200, sortKey:{}, };
+const LS = {}; // sin persistencia: el informe se abre siempre limpio
+
+// ---- gráficos ----
+function bars(vals, labels, c1, c2, vals2){
+  const W=210,H=70,n=vals.length,bw=W/n; const mx=Math.max(1,...vals.filter(v=>v!=null),...(vals2||[]).filter(v=>v!=null));
+  let s=`<svg viewBox="0 0 ${W} ${H+14}" width="100%" role="img">`;
+  for(let i=0;i<n;i++){
+    const x=i*bw+3, w=vals2?(bw-6)/2:(bw-6);
+    const h1=vals[i]==null?0:vals[i]/mx*(H-12);
+    s+=`<rect x="${x}" y="${H-h1}" width="${w}" height="${Math.max(h1,vals[i]==null?0:1)}" fill="${c1}" rx="2"><title>${esc(labels[i]||'')}: ${vals[i]??'sin dato'}</title></rect>`;
+    if(vals[i]!=null) s+=`<text x="${x+w/2}" y="${H-h1-2}" text-anchor="middle">${vals[i]}</text>`;
+    if(vals2){const h2=vals2[i]==null?0:vals2[i]/mx*(H-12);
+      s+=`<rect x="${x+w}" y="${H-h2}" width="${w}" height="${Math.max(h2,vals2[i]==null?0:1)}" fill="${c2}" rx="2"><title>${esc(labels[i]||'')} (en contra): ${vals2[i]??'sin dato'}</title></rect>`;
+      if(vals2[i]!=null) s+=`<text x="${x+w+w/2}" y="${H-h2-2}" text-anchor="middle">${vals2[i]}</text>`;}
+    s+=`<text x="${i*bw+bw/2}" y="${H+11}" text-anchor="middle">${i+1}</text>`;
+  }
+  return s+`<line x1="0" x2="${W}" y1="${H}" y2="${H}" stroke="var(--grid)"/></svg>`;
+}
+function scatter(rows){
+  const W=320,H=300,pad=30; let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Probabilidad del modelo contra la del mercado">`;
+  for(let t=0;t<=1.001;t+=.25){const x=pad+t*(W-pad-8),y=H-pad-t*(H-pad-8);
+    s+=`<line x1="${pad}" x2="${W-8}" y1="${y}" y2="${y}" stroke="var(--grid)" stroke-width=".6"/><line x1="${x}" x2="${x}" y1="8" y2="${H-pad}" stroke="var(--grid)" stroke-width=".6"/><text x="${x}" y="${H-pad+12}" text-anchor="middle">${Math.round(t*100)}</text><text x="${pad-4}" y="${y+3}" text-anchor="end">${Math.round(t*100)}</text>`;}
+  s+=`<line x1="${pad}" y1="${H-pad}" x2="${W-8}" y2="8" stroke="var(--fg)" stroke-dasharray="3 3" opacity=".45"/>`;
+  rows.slice(0,900).forEach(r=>{ if(r.pm==null||r.p==null)return;
+    const x=pad+r.pm*(W-pad-8), y=H-pad-r.p*(H-pad-8);
+    s+=`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="3.2" fill="${r.cumple?COL[r.m]:'none'}" stroke="${COL[r.m]}" stroke-width="1.3"><title>${esc(MS[r.m].loc+' – '+MS[r.m].vis+' · '+(MERC[r.mercado]||r.mercado)+' '+r.sel+' @'+odd(r.cuota)+': modelo '+pct(r.p)+' · mercado '+pct(r.pm))}</title></circle>`;});
+  s+=`<text x="${W/2}" y="${H-2}" text-anchor="middle">probabilidad del mercado (%)</text><text transform="translate(9 ${H/2}) rotate(-90)" text-anchor="middle">modelo (%)</text></svg>`;
+  return s;
+}
+function topBars(rows, labelFn, n=10){
+  const r=rows.slice(0,n); const W=330, rh=20; let s=`<svg viewBox="0 0 ${W} ${r.length*rh+4}" width="100%" role="img">`;
+  r.forEach((x,i)=>{const y=i*rh+2, w=(W-170)*x.pe;
+    s+=`<text x="0" y="${y+13}" style="fill:var(--fg)">${esc(labelFn(x).slice(0,34))}</text><rect x="168" y="${y+3}" width="${w}" height="12" rx="3" fill="${COL[x.m]}"/><text x="${168+w+4}" y="${y+13}" style="fill:var(--fg)">${pct(x.pe)}</text>`;});
+  return s+'</svg>';
+}
+
+// ---- piezas de tabla ----
+function pbar(p, pm){
+  if(p==null) return '<span class="muted">sin dato</span>';
+  return `<div class="pbar"><b>${pct(p)}</b><div class="track"><i style="width:${Math.round(p*100)}%"></i>${pm!=null?`<u style="left:${Math.round(pm*100)}%" title="mercado ${pct(pm)}"></u>`:''}</div></div>`;
+}
+function mdot(i){ return `<span class="mdot"><i class="dot" style="background:${COL[i]}"></i>${SHORT[i]}</span>`; }
+function th(label,key,tab){ const cur=S.sortKey[tab]; const asc=cur&&cur.k===key&&cur.d===1; const a=cur&&cur.k===key?(cur.d===1?'ascending':'descending'):null;
+  return `<th data-k="${key}" data-tab="${tab}" ${a?`aria-sort="${a}"`:''}>${label}${a?(asc?' ▲':' ▼'):''}</th>`; }
+function sortRows(rows,tab,def){ const c=S.sortKey[tab]||def; const k=c.k,d=c.d;
+  return rows.slice().sort((x,y)=>{const a=x[k],b=y[k]; if(a==null&&b==null)return 0; if(a==null)return 1; if(b==null)return -1; return (typeof a==='string'?a.localeCompare(b):a-b)*d;}); }
+
+// ---- filtros ----
+function filterBar(){
+  const f=document.getElementById('filters'); const tab=S.tab;
+  if(tab==='partido'||tab==='vivo'){ f.hidden = true; return; } f.hidden=false;
+  let mercs=[]; if(tab==='mercados') mercs=[...new Set(TEAM.map(r=>r.mercado))]; if(tab==='jugadores') mercs=[...new Set(PLAY.map(r=>r.st))]; if(tab==='parejas') mercs=[...new Set(PAIR.map(r=>r.st))];
+  const lab = k => tab==='mercados'?(MERC[k]||k):(STAT[k]||k);
+  let h=`<div class="f"><span class="lab">Partido</span><div class="chips" id="fm"><button class="chip" data-m="all" aria-pressed="${S.match==='all'}">Todos</button>${MS.map(m=>`<button class="chip" data-m="${m.id}" aria-pressed="${S.match===m.id}"><i class="dot" style="background:${COL[m.id]}"></i>${SHORT[m.id]}</button>`).join('')}</div></div>`;
+  h+=`<div class="f"><label for="fmerc">Mercado</label><select id="fmerc"><option value="all">Todos</option>${mercs.map(k=>`<option value="${k}" ${S.mercado===k?'selected':''}>${esc(lab(k))}</option>`).join('')}</select></div>`;
+  h+=`<div class="f"><label for="cmin">Cuota mín.</label><input id="cmin" type="number" step="0.05" min="1" value="${S.cmin}"></div><div class="f"><label for="cmax">Cuota máx.</label><input id="cmax" type="number" step="0.05" min="1" value="${S.cmax}"></div>`;
+  h+=`<div class="f"><label for="pmin">Prob. mín. <b id="pminv">${S.pmin}</b> %</label><input id="pmin" type="range" min="0" max="95" step="5" value="${S.pmin}"></div>`;
+  if(tab!=='parejas'||true) h+=`<label class="check"><input id="fcum" type="checkbox" ${S.cumple?'checked':''}> ${tab==='mercados'?'Solo cumple el filtro (≥ 5 de 7)':'Solo regulares (≥ 5 de 7)'}</label>`;
+  if(tab==='jugadores'||tab==='parejas') h+=`<label class="check"><input id="ftit" type="checkbox" ${S.tit?'checked':''}> Solo titulares</label>`;
+  h+=`<div class="f"><label for="fq">Buscar</label><input id="fq" type="search" value="${esc(S.q)}" placeholder="jugador, línea…"></div><span class="count" id="cnt"></span>`;
+  f.innerHTML=h;
+  f.querySelectorAll('#fm .chip').forEach(b=>b.onclick=()=>{S.match=b.dataset.m==='all'?'all':+b.dataset.m; S.lim=200; render();});
+  f.querySelector('#fmerc').onchange=e=>{S.mercado=e.target.value;S.lim=200;view();};
+  f.querySelector('#cmin').oninput=e=>{S.cmin=e.target.value;S.lim=200;view();}; f.querySelector('#cmax').oninput=e=>{S.cmax=e.target.value;S.lim=200;view();};
+  f.querySelector('#pmin').oninput=e=>{S.pmin=+e.target.value; f.querySelector('#pminv').textContent=S.pmin; S.lim=200; view();};
+  f.querySelector('#fcum').onchange=e=>{S.cumple=e.target.checked;S.lim=200;view();};
+  const t=f.querySelector('#ftit'); if(t) t.onchange=e=>{S.tit=e.target.checked;S.lim=200;view();};
+  f.querySelector('#fq').oninput=e=>{S.q=e.target.value;S.lim=200;view();};
+}
+function passCommon(r, mercKey, text){
+  if(S.match!=='all' && r.m!==S.match) return false;
+  if(S.mercado!=='all' && r[mercKey]!==S.mercado) return false;
+  if(S.cmin!=='' && r.cuota < +S.cmin) return false; if(S.cmax!=='' && r.cuota > +S.cmax) return false;
+  if(r.p!=null){ if(r.p*100 < S.pmin) return false; } else if(S.pmin>0) return false;
+  if(S.q && !text.toLowerCase().includes(S.q.toLowerCase())) return false;
+  return true;
+}
+
+// ---- vistas ----
+function viewPartido(){
+  return MS.map(m=>{
+    const p=m.pres, o=m.obj;
+    const names=[m.loc,m.vis]; const se=(t,k)=>bars(m.series[t][k], m.series[t].rival, COL[m.id],'var(--muted)');
+    const mini=(t,nm)=>`<div class="chart"><h4>${esc(nm)}: goles (a favor / en contra)</h4>${bars(m.series[t].gf,m.series[t].rival,COL[m.id],'var(--muted)',m.series[t].gc)}</div>
+      <div class="chart"><h4>${esc(nm)}: córners (a favor / en contra)</h4>${bars(m.series[t].cf,m.series[t].rival,COL[m.id],'var(--muted)',m.series[t].cc)}</div>
+      <div class="chart"><h4>${esc(nm)}: amarillas (recibe / rival)</h4>${bars(m.series[t].yf,m.series[t].rival,COL[m.id],'var(--muted)',m.series[t].yc)}</div>`;
+    const refv=m.ref.serie.map(x=>x==null?null:x);
+    return `<section class="card">
+      <div class="mhead"><div><p class="eyebrow">${esc(m.liga||'')} · ${esc(m.estadio||'')} · árbitro ${esc(m.arbitro)}</p><h2><i class="dot" style="background:${COL[m.id]}"></i>${esc(m.loc)} – ${esc(m.vis)}</h2></div></div>
+      <div class="stack" aria-label="Probabilidad de resultado"><div style="width:${p[0]*100}%;background:${COL[m.id]}">${esc(m.loc)} ${pct(p[0])}</div><div style="width:${p[1]*100}%;background:#6b7a8c">Empate ${pct(p[1])}</div><div style="width:${p[2]*100}%;background:#3b4a5c">${esc(m.vis)} ${pct(p[2])}</div></div>
+      <div class="kv"><div><b>${f2(o.gl+o.gv)}</b><span>Goles esperados</span></div><div><b>${f2(o.gl)} · ${f2(o.gv)}</b><span>Por equipo</span></div><div><b>${f2(o.cl+o.cv)}</b><span>Córners</span></div><div><b>${f2(o.ytot)}</b><span>Amarillas</span></div><div><b>${f2(o.shl+o.shv)}</b><span>Remates</span></div><div><b>${f2(o.fl+o.fv)}</b><span>Faltas</span></div></div>
+      <div class="enf"><h3>Enfoque de mercados</h3>${m.enfoque}</div>
+      <div class="xi"><div><b>${esc(m.loc)} (${m.xi.fh}):</b> ${esc(m.xi.h.join(', '))}</div><div><b>${esc(m.vis)} (${m.xi.fa}):</b> ${esc(m.xi.a.join(', '))}</div>
+      <div class="muted">Bajas/dudas: ${esc([...m.xi.mh,...m.xi.ma].map(x=>x.replace(':missing',' (baja)').replace(':doubtful',' (duda)')).join(', ')||'ninguna')}</div></div>
+      <div class="legend"><span><i style="background:${COL[m.id]}"></i>a favor / recibe</span><span><i style="background:var(--muted)"></i>en contra / del rival</span><span>barras 1–7 = últimos 7 partidos, de más reciente a más antiguo</span></div>
+      <div class="charts">${mini('h',m.loc)}${mini('a',m.vis)}<div class="chart"><h4>Árbitro ${esc(m.arbitro)}: amarillas por partido</h4>${bars(refv,refv.map((_,i)=>'partido '+(i+1)),'var(--m2)')}</div></div>
+    </section>`;}).join('');
+}
+
+function viewMercados(){
+  let rows=TEAM.filter(r=>passCommon(r,'mercado',MS[r.m].loc+' '+MS[r.m].vis+' '+(MERC[r.mercado]||'')+' '+r.sel+' '+amb(MS[r.m],r.amb)) && (!S.cumple || r.cumple));
+  rows=sortRows(rows,'mercados',{k:'p',d:-1});
+  document.getElementById('cnt').textContent=rows.length+' líneas';
+  const show=rows.slice(0,S.lim);
+  const body=show.map(r=>{const m=MS[r.m];
+    return `<tr><td>${mdot(r.m)}</td><td>${esc(MERC[r.mercado]||r.mercado)}</td><td>${esc(r.amb?amb(m,r.amb):'')}</td><td class="sel">${esc(r.sel)}</td><td class="num">${odd(r.cuota)}</td><td>${pbar(r.p,r.pm)}</td><td class="num">${pct(r.pm)}</td><td class="num">${r.ps!=null?pct(r.ps):'–'}</td><td class="num">${r.esp!=null?f2(r.esp):'–'}</td><td class="num">${r.col!=null?f2(r.col):'–'}</td><td class="num">${esc(r.rl||'–')}</td><td class="num">${esc(r.rv||'–')}</td><td class="num">${esc(r.dir||'–')}</td><td>${r.na?'<span class="badge b-no">sin ficha</span>':(r.cumple?'<span class="badge b-yes">cumple</span>':'<span class="badge b-no">no cumple</span>')}</td></tr>`;}).join('');
+  const sc=rows.filter(r=>r.pm!=null&&r.p!=null);
+  return `<div class="grid2"><section class="card"><h3>Modelo contra mercado</h3><p class="muted">Cada punto es una línea. Sobre la diagonal, el modelo la ve más probable que Betano. Punto lleno = cumple el filtro.</p>${scatter(sc)}</section>
+  <section class="card"><h3>Las 10 más probables con este filtro</h3>${topBars(rows.filter(r=>r.cuota>=1.2).map(r=>({m:r.m,pe:r.p,l:AB[r.m]+': '+(MERC[r.mercado]||r.mercado)+' '+r.sel})),x=>x.l)}<p class="muted">Solo líneas con cuota ≥ 1,20. La raya negra de la tabla marca la probabilidad que implica la cuota.</p></section></div>
+  <div class="tablebox"><table><thead><tr><th>Partido</th>${th('Mercado','mercado','mercados')}<th>Ámbito</th>${th('Línea','sel','mercados')}${th('Cuota','cuota','mercados')}${th('Prob. modelo','p','mercados')}${th('Mercado','pm','mercados')}${th('Sofascore*','ps','mercados')}${th('Esperado','esp','mercados')}${th('Colchón','col','mercados')}<th>7 loc.</th><th>7 vis.</th><th>Directos</th><th>Filtro</th></tr></thead><tbody>${body||''}</tbody></table>${rows.length?'':'<div class="empty">Ninguna línea cumple estos filtros.</div>'}</div>
+  ${rows.length>show.length?`<button class="more" id="more">Ver más (${rows.length-show.length} restantes)</button>`:''}
+  <p class="muted">*Solo tarjetas: probabilidad con las amarillas de los últimos 7 de Sofascore y el árbitro (Poisson). Colchón = esperado − línea (más) o línea − esperado (menos); es informativo. «Sin ficha» = 1.er/2.º tiempo y mercados de resultado, que no tienen 7 de regularidad.</p>`;
+}
+
+function viewJugadores(){
+  let rows=PLAY.filter(r=>passCommon(Object.assign({},r,{p:r.p!=null?r.p:r.pm}),'st',MS[r.m].loc+' '+MS[r.m].vis+' '+r.j+' '+(STAT[r.st]||'')+' '+r.k) && (!S.cumple||r.cumple) && (!S.tit||r.tit));
+  rows.forEach(r=>{r.pe=r.p!=null?r.p:r.pm; r.team=r.lado==='L'?MS[r.m].loc:MS[r.m].vis;});
+  rows=sortRows(rows,'jugadores',{k:'pe',d:-1});
+  document.getElementById('cnt').textContent=rows.length+' líneas';
+  const show=rows.slice(0,S.lim);
+  const body=show.map(r=>`<tr><td>${mdot(r.m)}</td><td class="sel">${esc(r.j)}</td><td>${esc(r.team)}</td><td>${r.tit?'<span class="badge b-tit">titular</span>':'<span class="badge b-sub">suplente</span>'}</td><td>${esc(STAT[r.st]||r.st)} ${r.k}+</td><td class="num">${odd(r.cuota)}</td><td>${r.p!=null?pbar(r.p,r.pm):'<span class="muted">solo mercado</span> '+pct(r.pm)}</td><td class="num">${pct(r.pm)}</td><td class="num">${r.fr!=null?r.fr+' de '+r.n:'–'}</td><td>${r.fr==null?'<span class="badge b-no">sin datos</span>':(r.cumple?'<span class="badge b-yes">regular</span>':'<span class="badge b-no">no</span>')}</td><td class="sel muted">${esc(r.nota)}</td></tr>`).join('');
+  return `<div class="grid2"><section class="card"><h3>Los 10 jugadores más probables</h3>${topBars(rows.filter(r=>r.cuota>=1.3&&r.p!=null).map(r=>({m:r.m,pe:r.p,l:r.j.split(' ').slice(-1)[0]+' '+(STAT[r.st]||r.st)+' '+r.k+'+ @'+odd(r.cuota)})),x=>x.l)}<p class="muted">Solo cuota ≥ 1,30 y jugadores con historial.</p></section>
+  <section class="card"><h3>Cómo se calcula</h3><p>Mezcla tres cosas: la tasa por 90 minutos × minutos esperados (Poisson), el «X de 7» de sus últimos 7 partidos y la probabilidad que implica la cuota. Pesos 35/35/30 en remates, tiros al arco, faltas, entradas y atajadas; 25/15/60 en goles, asistencias y tarjetas. Favorito ×1,10 en remates y goles; no favorito ×1,10–1,15 en faltas, entradas y tarjetas. Son supuestos míos, sin calibrar.</p><p class="muted">Los jugadores que entraron al once y no tenían historial recogido (p. ej. Dumfries, Che Adams, Zakaria) salen «solo mercado».</p></section></div>
+  <div class="tablebox"><table><thead><tr><th>Partido</th>${th('Jugador','j','jugadores')}<th>Equipo</th><th>Estado</th>${th('Mercado','st','jugadores')}${th('Cuota','cuota','jugadores')}${th('Prob. estimada','pe','jugadores')}${th('Mercado','pm','jugadores')}${th('X de 7','fr','jugadores')}<th>Regular</th><th>Notas</th></tr></thead><tbody>${body}</tbody></table>${rows.length?'':'<div class="empty">Ninguna línea cumple estos filtros.</div>'}</div>
+  ${rows.length>show.length?`<button class="more" id="more">Ver más (${rows.length-show.length} restantes)</button>`:''}`;
+}
+
+function viewParejas(){
+  let rows=PAIR.filter(r=>{ if(S.match!=='all'&&r.m!==S.match)return false; if(S.mercado!=='all'&&r.st!==S.mercado)return false;
+    if(S.cmin!==''&&r.cuota<+S.cmin)return false; if(S.cmax!==''&&r.cuota>+S.cmax)return false;
+    const p=r.mine!=null?r.mine:r.pmod; if(p==null||p*100<S.pmin)return false; if(S.tit&&!r.tit)return false;
+    if(S.q&&!(r.a+' '+r.b).toLowerCase().includes(S.q.toLowerCase()))return false; return true;});
+  rows.forEach(r=>r.pe=r.mine!=null?r.mine:r.pmod);
+  rows=sortRows(rows,'parejas',{k:'pe',d:-1});
+  document.getElementById('cnt').textContent=rows.length+' parejas';
+  const body=rows.map(r=>`<tr><td>${mdot(r.m)}</td><td class="sel">${esc(r.a)} <span class="muted">o</span> ${esc(r.b)}</td><td>${esc(STAT[r.st]||r.st)}</td><td class="num">${odd(r.cuota)}</td><td>${pbar(r.pmod,1/r.cuota)}</td><td>${r.mine!=null?pbar(r.mine,1/r.cuota):'<span class="muted">sin historial</span>'}</td><td class="num">${pct(1/r.cuota)}</td><td>${r.tit?'<span class="badge b-tit">ambos titulares</span>':'<span class="badge b-sub">alguno suplente</span>'}</td></tr>`).join('');
+  return `<p class="muted">Solo Países Bajos–Grecia tiene parejas en Betano. «Mía» = 1 − (1−p₁)(1−p₂) con mi estimación de cada jugador; supone independencia y por eso queda algo alta entre compañeros.</p>
+  <div class="tablebox"><table><thead><tr><th>Partido</th><th>Pareja (cualquiera de…)</th>${th('Mercado','st','parejas')}${th('Cuota','cuota','parejas')}${th('Modelo','pmod','parejas')}${th('Mía','mine','parejas')}<th>Mercado</th><th>Alineación</th></tr></thead><tbody>${body}</tbody></table>${rows.length?'':'<div class="empty">Ninguna pareja cumple estos filtros.</div>'}</div>`;
+}
+
+// ---- en vivo ----
+function pmf(l,N=16){ const a=[Math.exp(-l)]; for(let i=1;i<N;i++) a.push(a[i-1]*l/i); return a; }
+function sc(m,min,gh,ga,cc,ys){
+  const rem=Math.max(0,90-min)/90, o=m.obj;
+  const ph=pmf(o.gl*rem),pa=pmf(o.gv*rem),pc=pmf((o.cl+o.cv)*rem,30),py=pmf(o.ytot*rem,24);
+  let w=0,d=0,l=0,btts=0,tot={}; const T=[]; for(let i=0;i<ph.length;i++)for(let j=0;j<pa.length;j++){const p=ph[i]*pa[j],H=gh+i,A=ga+j; if(H>A)w+=p;else if(H===A)d+=p;else l+=p; if(H>0&&A>0)btts+=p; T[H+A]=(T[H+A]||0)+p;}
+  const geq=(arr,k)=>{let s=0;for(let i=k;i<arr.length;i++)s+=arr[i]||0;return s;};
+  const teamGt=(pm,cur,line)=>{let s=0;for(let i=0;i<pm.length;i++) if(cur+i>line) s+=pm[i]; return s;};
+  const cG=(arr,cur,line)=>{let s=0;for(let i=0;i<arr.length;i++) if(cur+i>line) s+=(arr[i]||0); return s;};
+  return {w,d,l,btts,gt:line=>cG(T,0,line),th:line=>teamGt(ph,gh,line),ta:line=>teamGt(pa,ga,line),co:line=>cG(pc,cc,line),ta2:line=>cG(py,ys,line)};
+}
+const LIVE={m:0,min:0,gh:0,ga:0,cc:0,ys:0};
+function ppick(m,r,pk){ const [t,a,b]=pk; if(t==='res'){return {'1':r.w,'X':r.d,'2':r.l,'1X':r.w+r.d,'X2':r.d+r.l,'12':r.w+r.l}[a];}
+  if(t==='btts') return a==='si'?r.btts:1-r.btts; if(t==='gt') return a==='mas'?r.gt(b):1-r.gt(b); if(t==='co') return a==='mas'?r.co(b):1-r.co(b); if(t==='ta') return a==='mas'?r.ta2(b):1-r.ta2(b); if(t==='th') return a==='mas'?r.th(b):1-r.th(b); if(t==='tv') return a==='mas'?r.ta(b):1-r.ta(b); }
+function pname(m,pk){ const [t,a,b]=pk; if(t==='res'){return {'1':'Gana '+m.loc,'X':'Empate','2':'Gana '+m.vis,'1X':m.loc+' o empate','X2':m.vis+' o empate','12':'No hay empate'}[a];}
+  if(t==='btts') return 'Ambos marcan: '+(a==='si'?'Sí':'No'); const lab=a==='mas'?'Más':'Menos'; return ({gt:'Goles',co:'Córners',ta:'Tarjetas (puntos)',th:'Goles '+m.loc,tv:'Goles '+m.vis}[t])+' '+lab+' '+b; }
+function row(name,p){ const j=p>0.0005?1/p:null; return `<tr><td>${esc(name)}</td><td>${pbar(p,null)}</td><td class="num">${j&&p<0.995?odd(j):'–'}</td></tr>`; }
+const IDEAS=[
+ {m:0,min:30,gh:0,ga:0,cc:0,ys:0,t:'Países Bajos–Grecia 0–0 al minuto 30',x:'Con ≈3,2 goles esperados, los goles suelen llegar. Mira «más de 1,5» y la victoria local si la cuota se dispara.',pk:[['gt','mas',1.5],['res','1'],['btts','si']]},
+ {m:0,min:20,gh:0,ga:1,cc:0,ys:0,t:'Grecia gana 0–1 al 20′',x:'El modelo da a Países Bajos 62 % antes del pitazo; si va perdiendo temprano, el empate o la victoria local suelen pagar más de lo que valen.',pk:[['res','1'],['res','1X'],['gt','mas',2.5]]},
+ {m:0,min:60,gh:1,ga:0,cc:0,ys:0,t:'Países Bajos gana 1–0 al 60′',x:'Partido que se cierra: mira pocos goles y que el favorito sostenga.',pk:[['res','1'],['gt','menos',2.5],['btts','no']]},
+ {m:1,min:35,gh:0,ga:0,cc:0,ys:0,t:'Escocia – Macedonia 0–0 al 35′',x:'Escocia necesita ganar y el modelo la da 86 %. Si todavía no marcó, la cuota de ganar sube.',pk:[['res','1'],['gt','mas',1.5],['tv','menos',0.5]]},
+ {m:1,min:25,gh:1,ga:0,cc:0,ys:0,t:'Escocia gana 1–0 al 25′',x:'Macedonia no ha marcado en el grupo: «ambos marcan: No» y más goles de Escocia.',pk:[['btts','no'],['gt','mas',2.5],['th','mas',1.5]]},
+ {m:2,min:45,gh:0,ga:0,cc:0,ys:0,t:'Eslovenia – Suiza 0–0 al descanso',x:'Es el partido de menos goles esperados (≈2,0). «Menos 2,5», «no marcan ambos» y Suiza o empate son las líneas fuertes.',pk:[['gt','menos',2.5],['btts','no'],['res','X2']]},
+ {m:2,min:30,gh:0,ga:1,cc:0,ys:0,t:'Suiza gana 0–1 al 30′',x:'Eslovenia necesita ganar: si queda abajo, se vuelca y suben córners y tarjetas.',pk:[['res','X2'],['gt','menos',3.5],['co','mas',7.5]]},
+ {m:2,min:60,gh:0,ga:0,cc:4,ys:1,t:'Eslovenia – Suiza al 60′ con 4 córners y 1 punto de tarjetas',x:'Pon tus números reales en la calculadora: te dice la probabilidad de cada línea de córners y tarjetas.',pk:[['co','mas',7.5],['co','mas',8.5],['ta','mas',2.5]]}
+];
+function viewVivo(){
+  const m=MS[LIVE.m], r=sc(m,LIVE.min,LIVE.gh,LIVE.ga,LIVE.cc,LIVE.ys);
+  const goalLines=[0.5,1.5,2.5,3.5,4.5].filter(l=>LIVE.gh+LIVE.ga<=l).map(l=>[l]);
+  const cLines=[5.5,6.5,7.5,8.5,9.5,10.5,11.5,12.5].filter(l=>l+0.5>LIVE.cc);
+  const tLines=[1.5,2.5,3.5,4.5,5.5,6.5].filter(l=>l+0.5>LIVE.ys);
+  const t1=['res','1'],t2=['res','X'],t3=['res','2'];
+  const rows1=[[m.loc,r.w],['Empate',r.d],[m.vis,r.l],[m.loc+' o empate',r.w+r.d],[m.vis+' o empate',r.d+r.l],['No hay empate',r.w+r.l],['Ambos marcan: Sí',r.btts],['Ambos marcan: No',1-r.btts]];
+  const rows2=[];goalLines.forEach(([l])=>{rows2.push(['Más '+l,r.gt(l)],['Menos '+l,1-r.gt(l)]);}); rows2.push([m.loc+' Más 0.5 goles',r.th(0.5)],[m.vis+' Más 0.5 goles',r.ta(0.5)],[m.loc+' Más 1.5 goles',r.th(1.5)],[m.vis+' Más 1.5 goles',r.ta(1.5)]);
+  const rows3=[];cLines.forEach(l=>rows3.push(['Córners Más '+l,r.co(l)],['Córners Menos '+l,1-r.co(l)]));
+  const rows4=[];tLines.forEach(l=>rows4.push(['Tarjetas Más '+l,r.ta2(l)],['Tarjetas Menos '+l,1-r.ta2(l)]));
+  const tbl=(t,rs)=>`<div class="tablebox"><table><thead><tr><th>${t}</th><th>Probabilidad</th><th>Cuota justa</th></tr></thead><tbody>${rs.map(x=>row(x[0],x[1])).join('')}</tbody></table></div>`;
+  const ideas=IDEAS.map((i,ix)=>{const mm=MS[i.m],rr=sc(mm,i.min,i.gh,i.ga,i.cc,i.ys);
+    return `<div class="idea"><h3>${esc(i.t)}</h3><p>${esc(i.x)}</p>${i.pk.map(pk=>{const p=ppick(mm,rr,pk);return `<div class="pk"><span>${esc(pname(mm,pk))}</span><b>${pct(p)} · cuota justa ${p>0.0005&&p<0.995?odd(1/p):'–'}</b></div>`;}).join('')}<button data-i="${ix}">Cargar en la calculadora</button></div>`;}).join('');
+  return `<section class="card calc"><h2>Calculadora en vivo</h2>
+  <p class="muted">Pon el marcador y el minuto. Muestra la probabilidad de cada línea de lo que queda de partido y la <b>cuota justa</b> (1 ÷ probabilidad): si Betano paga más que eso, la línea paga más de lo que el modelo estima. Usa los goles, córners y tarjetas esperados del modelo, repartidos parejo en los 90′ y sin ajustar por el marcador.</p>
+  <div class="calc-in">
+   <div class="f"><label for="lm">Partido</label><select id="lm">${MS.map(x=>`<option value="${x.id}" ${LIVE.m===x.id?'selected':''}>${SHORT[x.id]}</option>`).join('')}</select></div>
+   <div class="f"><label for="lmin">Minuto <b id="lminv">${LIVE.min}</b>′</label><input id="lmin" type="range" min="0" max="90" value="${LIVE.min}"></div>
+   <div class="f"><label for="lgh">Goles ${esc(m.loc)}</label><input id="lgh" type="number" min="0" max="9" value="${LIVE.gh}"></div>
+   <div class="f"><label for="lga">Goles ${esc(m.vis)}</label><input id="lga" type="number" min="0" max="9" value="${LIVE.ga}"></div>
+   <div class="f"><label for="lcc">Córners hasta ahora</label><input id="lcc" type="number" min="0" max="30" value="${LIVE.cc}"></div>
+   <div class="f"><label for="lys">Puntos tarjetas (amarilla 1, roja 2)</label><input id="lys" type="number" min="0" max="20" value="${LIVE.ys}"></div>
+  </div>
+  <div class="out">${tbl('Resultado final y ambos marcan',rows1)}${tbl('Goles',rows2)}${tbl('Córners (total final)',rows3)}${tbl('Tarjetas en puntos (total final)',rows4)}</div></section>
+  <section class="card"><h2>Ideas para apostar en vivo</h2><p class="muted">Escenarios probables según lo que pase. Las probabilidades se calculan al vuelo; antes de apostar, compara con la cuota que veas en Betano.</p><div class="grid2">${ideas}</div></section>`;
+}
+
+function render(){
+  const T=[['partido','Partidos'],['mercados','Mercados'],['jugadores','Jugadores'],['parejas','Parejas'],['vivo','En vivo']];
+  document.getElementById('tabs').innerHTML=T.map(t=>`<button class="tab" role="tab" data-t="${t[0]}" aria-selected="${S.tab===t[0]}">${t[1]}</button>`).join('');
+  document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{S.tab=b.dataset.t;S.mercado='all';S.q='';S.lim=200;render();});
+  filterBar(); view();
+}
+function view(){
+  const v=document.getElementById('view'); const t=S.tab; const scroll=window.scrollY;
+  v.innerHTML = t==='partido'?viewPartido():t==='mercados'?viewMercados():t==='jugadores'?viewJugadores():t==='parejas'?viewParejas():viewVivo();
+  v.querySelectorAll('th[data-k]').forEach(h=>h.onclick=()=>{const k=h.dataset.k,tb=h.dataset.tab; const c=S.sortKey[tb]; S.sortKey[tb]={k,d:c&&c.k===k?-c.d:(k==='j'||k==='st'||k==='mercado'||k==='sel'?1:-1)}; view();});
+  const more=v.querySelector('#more'); if(more) more.onclick=()=>{S.lim+=300;view();};
+  if(t==='vivo'){
+    const g=id=>document.getElementById(id);
+    g('lm').onchange=e=>{LIVE.m=+e.target.value;view();}; g('lmin').oninput=e=>{LIVE.min=+e.target.value;view();};
+    ['gh','ga','cc','ys'].forEach(k=>g('l'+k).oninput=e=>{LIVE[k]=Math.max(0,+e.target.value||0);view();});
+    v.querySelectorAll('.idea button').forEach(b=>b.onclick=()=>{const i=IDEAS[+b.dataset.i];Object.assign(LIVE,{m:i.m,min:i.min,gh:i.gh,ga:i.ga,cc:i.cc,ys:i.ys});view();window.scrollTo({top:0,behavior:'smooth'});});
+  }
+}
+render();
+})();
+</script>

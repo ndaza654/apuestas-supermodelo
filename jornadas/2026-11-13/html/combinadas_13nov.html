@@ -1,0 +1,334 @@
+<title>Combinadas del 13-nov</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Layout: barra de filtros arriba, rejilla de tarjetas (una combinada por tarjeta) y un cupón fijo abajo
+   que suma lo que el usuario va marcando. Color de la cuota = nivel de riesgo (verde azulado, ámbar, rojo). */
+:root {
+  --bg: #f3f5f8; --surface: #ffffff; --surface-2: #eaeef4; --fg: #14202e; --muted: #5a6a7c; --line: #d6dde7;
+  --accent: #0b7a75; --accent-fg: #ffffff; --accent-soft: #d5efec;
+  --mid: #a8620a; --risk: #b8392b;
+  --warn-bg: #fff3d6; --warn-fg: #6b4a00;
+  --m0: #2f5fb3; --m1: #7a3fb0; --m2: #c06a00;
+  --font-head: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1620; --surface: #17222f; --surface-2: #1e2c3c; --fg: #e8eef6; --muted: #98a8ba; --line: #2b3b4e;
+    --accent: #4fd1c5; --accent-fg: #07211f; --accent-soft: #123b3a; --mid: #f0b25a; --risk: #ff8a78;
+    --warn-bg: #3a2f10; --warn-fg: #f3d58a; --m0: #7ea6ee; --m1: #bf93ec; --m2: #f2a550; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1620; --surface: #17222f; --surface-2: #1e2c3c; --fg: #e8eef6; --muted: #98a8ba; --line: #2b3b4e;
+  --accent: #4fd1c5; --accent-fg: #07211f; --accent-soft: #123b3a; --mid: #f0b25a; --risk: #ff8a78;
+  --warn-bg: #3a2f10; --warn-fg: #f3d58a; --m0: #7ea6ee; --m1: #bf93ec; --m2: #f2a550; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  padding-block: 20px 40px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.wrap { max-width: 1040px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+h1, h2, h3 { font-family: var(--font-head); margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h1 { font-size: clamp(26px, 6vw, 38px); line-height: 1.1; }
+h2 { font-size: 20px; }
+p { margin: 0; }
+button { font: inherit; color: inherit; cursor: pointer; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.num { font-variant-numeric: tabular-nums; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+header { display: flex; flex-direction: column; gap: 12px; }
+.notice { background: var(--warn-bg); color: var(--warn-fg); border-radius: 12px; padding: 12px 14px; font-size: 14px; display: grid; gap: 4px; }
+.notice strong { font-weight: 600; }
+
+.controls { display: flex; flex-direction: column; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; }
+.ctrl-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.ctrl-row > .lab { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); min-width: 64px; }
+.pill { border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 6px 12px; font-size: 14px; font-weight: 500; display: inline-flex; align-items: center; gap: 7px; }
+.pill[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.pill .dot { width: 9px; height: 9px; border-radius: 50%; }
+.stake { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.stake input { font: inherit; font-size: 17px; font-weight: 600; width: 140px; padding: 7px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); font-variant-numeric: tabular-nums; }
+
+.legend { color: var(--muted); font-size: 13px; display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
+.group-title { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-top: 6px; }
+.group-title p { color: var(--muted); font-size: 14px; }
+.group { display: flex; flex-direction: column; gap: 12px; }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.card.on { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.kicker { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.big { font-family: var(--font-head); font-weight: 700; font-size: 38px; line-height: 1; letter-spacing: -0.02em; }
+.r-low .big { color: var(--accent); } .r-mid .big { color: var(--mid); } .r-high .big { color: var(--risk); }
+.est { font-size: 11px; font-weight: 600; background: var(--warn-bg); color: var(--warn-fg); padding: 2px 6px; border-radius: 6px; white-space: nowrap; text-transform: none; letter-spacing: 0; }
+.prob { text-align: right; min-width: 78px; }
+.prob b { font-family: var(--font-head); font-size: 22px; display: block; line-height: 1.1; }
+.prob span { font-size: 12px; color: var(--muted); }
+.bar { height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; margin-top: 6px; }
+.bar i { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+.legs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.leg { display: grid; grid-template-columns: 5px 1fr auto; align-items: center; gap: 10px; background: var(--surface-2); border-radius: 10px; padding: 8px 12px 8px 0; overflow: hidden; min-width: 0; }
+.leg .tag { align-self: stretch; }
+.leg-text { min-width: 0; }
+.leg-text b { font-weight: 600; display: block; overflow-wrap: anywhere; font-size: 14px; }
+.leg-text small { color: var(--muted); font-size: 12px; }
+.odd { font-family: var(--font-head); font-weight: 700; font-size: 16px; font-variant-numeric: tabular-nums; }
+.foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; border-top: 1px dashed var(--line); padding-top: 10px; }
+.foot small { color: var(--muted); }
+.pay { font-family: var(--font-head); font-weight: 700; font-size: 18px; font-variant-numeric: tabular-nums; }
+.add { border: 1.5px solid var(--accent); background: transparent; color: var(--accent); border-radius: 10px; padding: 7px 12px; font-weight: 600; font-size: 14px; }
+.add[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
+.note { font-size: 12px; color: var(--muted); }
+
+.empty { color: var(--muted); padding: 20px; text-align: center; background: var(--surface); border: 1px dashed var(--line); border-radius: 14px; }
+
+.how { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px; display: grid; gap: 10px; }
+.how ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+footer { color: var(--muted); font-size: 13px; }
+
+.slip { position: sticky; bottom: 0; z-index: 5; margin-top: 4px; background: var(--surface); border: 1px solid var(--accent); border-radius: 16px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px;
+  box-shadow: 0 -6px 24px rgba(0,0,0,.12); margin-bottom: env(safe-area-inset-bottom, 0px); }
+.slip-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+.slip h2 { font-size: 16px; }
+.slip-items { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
+.slip-items div { display: flex; justify-content: space-between; gap: 10px; }
+.slip-items button { border: 0; background: none; color: var(--risk); font-size: 13px; text-decoration: underline; padding: 0; }
+.slip-sum { display: flex; gap: 18px; flex-wrap: wrap; align-items: baseline; }
+.slip-sum b { font-family: var(--font-head); font-size: 20px; font-variant-numeric: tabular-nums; }
+.slip-sum span { display: block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.copy { border: 0; background: var(--accent); color: var(--accent-fg); border-radius: 10px; padding: 8px 14px; font-weight: 600; }
+.msg { font-size: 13px; color: var(--risk); min-height: 1em; }
+@media (max-width: 420px) { .big { font-size: 32px; } .ctrl-row > .lab { min-width: 100%; } }
+@media (prefers-reduced-motion: no-preference) { .bar i { transition: width .35s ease; } .card { transition: border-color .15s, box-shadow .15s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Liga de Naciones · viernes 13 de noviembre · 14:45 Bogotá</p>
+    <h1>Combinadas para hoy</h1>
+    <div class="notice">
+      <p><strong>Confirma las cuotas en el cupón de Betano.</strong> Las leí a las 13:06 y pueden haberse movido.</p>
+      <p>Las combinadas de un mismo partido usan Crear apuesta: su precio es una <strong>estimación</strong> mía (marcada «estimado»). Si Betano muestra menos, la jugada vale menos.</p>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="ctrl-row"><span class="lab">Partido</span><div class="ctrl-row" id="f-match" role="group" aria-label="Filtrar por partido"></div></div>
+    <div class="ctrl-row"><span class="lab">Tipo</span><div class="ctrl-row" id="f-type" role="group" aria-label="Filtrar por tipo"></div></div>
+    <div class="ctrl-row"><span class="lab">Ordenar</span><div class="ctrl-row" id="f-sort" role="group" aria-label="Ordenar"></div></div>
+    <div class="stake"><label class="lab ctrl-row" for="stake" style="font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);min-width:64px">Apuesta</label><input id="stake" type="text" inputmode="numeric" value="10.000" autocomplete="off"><span class="note">COP · se actualiza el pago de cada tarjeta y del cupón</span></div>
+  </div>
+
+  <div class="legend" id="legend"></div>
+  <div id="list" class="group"></div>
+
+  <section class="how">
+    <h2>Cómo leerlo</h2>
+    <ul>
+      <li>La probabilidad es una estimación mía, ajustada para no pasar mucho de lo que dice el mercado. No está calibrada con resultados.</li>
+      <li>Mezclar mercados no sube la probabilidad para una misma cuota: cuota ~3–4 ≈ 22–29 %, ~10 ≈ 10–12 %, ~20 ≈ 5–6 %.</li>
+      <li>Las combinadas «por partido» juntan 2–3 líneas del mismo partido con Crear apuesta. Una cuota alta pesa menos que varias líneas fáciles juntas.</li>
+      <li>Las de cuota ~10, ~15 y ~20 son múltiples normales: una pata por partido, precio igual al producto de las cuotas.</li>
+      <li>Cupón: solo una jugada por partido. Si dos combinadas comparten partido, Betano no las deja en un mismo múltiple.</li>
+      <li>No coloqué ninguna apuesta. La decisión es tuya.</li>
+    </ul>
+  </section>
+  <footer>Datos: Betano (13:06 Bogotá), Sofascore (alineaciones confirmadas, últimos 7 partidos), Flashscore. Modelo del repositorio apuestas-supermodelo.</footer>
+
+  <aside class="slip" id="slip" aria-live="polite" hidden>
+    <div class="slip-top"><h2>Mi cupón</h2><button class="copy" id="copy" type="button">Copiar resumen</button></div>
+    <div class="slip-items" id="slip-items"></div>
+    <div class="slip-sum">
+      <div><span>Cuota</span><b id="s-odd">–</b></div>
+      <div><span>Probabilidad</span><b id="s-p">–</b></div>
+      <div><span>Pagaría</span><b id="s-pay">–</b></div>
+    </div>
+    <div class="msg" id="msg"></div>
+  </aside>
+</div>
+
+<script>
+(function () {
+  var MATCHES = [
+    { id: 0, name: 'Países Bajos – Grecia', short: 'Países Bajos–Grecia', color: 'var(--m0)' },
+    { id: 1, name: 'Escocia – Macedonia del Norte', short: 'Escocia–Macedonia', color: 'var(--m1)' },
+    { id: 2, name: 'Eslovenia – Suiza', short: 'Eslovenia–Suiza', color: 'var(--m2)' }
+  ];
+  var TYPES = [
+    { id: 'all', label: 'Todas' },
+    { id: 'm', label: 'Por partido ~3–4', title: 'Una cuota ~3–4 por partido', sub: '2–3 líneas del mismo partido (Crear apuesta): más probables que una sola línea larga.' },
+    { id: 'x10', label: 'Cuota ~10', title: 'Cuota ~10', sub: 'Una línea por partido. Cerca de 1 de cada 8–10.' },
+    { id: 'x15', label: 'Cuota ~15', title: 'Cuota ~15', sub: 'Término medio. Cerca de 1 de cada 13.' },
+    { id: 'x20', label: 'Cuota ~20', title: 'Cuota ~20', sub: 'Riesgo alto. Cerca de 1 de cada 17.' }
+  ];
+  // t: tipo · legs: [partido, texto, cuota, nota?] · odd: cuota total · est: precio estimado · p: probabilidad
+  var ITEMS = [
+    { id: 'pb1', t: 'm', m: 0, name: 'Países Bajos sin perder, muchos remates', odd: 3.3, est: true, p: .26, sum: 2.80, legs: [[0,'Países Bajos o empate',1.18],[0,'Remates Países Bajos Más 17.5',1.53],[0,'Tiros al arco total Menos 10.5',1.55]] },
+    { id: 'pb2', t: 'm', m: 0, name: 'Pocos goles de Países Bajos y córners', odd: 2.9, est: true, p: .29, sum: 2.64, legs: [[0,'Goles Países Bajos Menos 3.5',1.18],[0,'Córners 1.er tiempo Menos 5.5',1.38],[0,'Córners total Más 8.5',1.62]] },
+    { id: 'pb3', t: 'm', m: 0, name: 'Grecia incómoda en el 2.º tiempo', odd: 3.8, est: true, p: .22, sum: 3.81, legs: [[0,'Goles 2.º tiempo Menos 2.5',1.36],[0,'Faltas Grecia Más 11.5',1.75],[0,'Tiros al arco Grecia Más 2.5',1.60]] },
+    { id: 'es1', t: 'm', m: 1, name: 'Escocia gana, partido sin muchos remates', odd: 2.9, est: true, p: .29, sum: 3.10, legs: [[1,'Gana Escocia',1.20],[1,'Remates total Menos 29.5',1.42],[1,'Tarjetas 1.er tiempo Menos 1.5',1.82]] },
+    { id: 'es2', t: 'm', m: 1, name: 'Partido tranquilo', odd: 3.8, est: true, p: .22, sum: 3.71, legs: [[1,'Goles 1.er tiempo Menos 2.5',1.16],[1,'Tarjetas total Menos 4.5',1.83],[1,'Remates total Menos 27.5',1.75]] },
+    { id: 'es3', t: 'm', m: 1, name: 'Córners temprano y faltas de Macedonia', odd: 2.9, est: true, p: .29, sum: 2.45, legs: [[1,'Córners 1.er tiempo Más 3.5',1.40],[1,'Faltas Macedonia del Norte Más 12.5',1.75]] },
+    { id: 'sl1', t: 'm', m: 2, name: 'Córners y tarjetas en los dos equipos', odd: 3.3, est: true, p: .26, sum: 3.72, legs: [[2,'Córners total Más 6.5',1.26],[2,'Córners 1.er tiempo Más 2.5',1.23],[2,'Ambos 2+ tarjetas: Sí',2.40]] },
+    { id: 'sl2', t: 'm', m: 2, name: 'Suiza gana y Eslovenia se lleva tarjetas', odd: 3.8, est: true, p: .22, sum: 4.16, legs: [[2,'Córners 1.er tiempo Menos 5.5',1.27],[2,'Gana Suiza',1.80],[2,'Más tarjetas: Eslovenia',1.82]] },
+    { id: 'sl3', t: 'm', m: 2, name: 'Al menos 2 goles y pocos córners al inicio', odd: 3.3, est: true, p: .26, sum: 3.61, legs: [[2,'Goles total Más 1.5',1.57],[2,'Córners 1.er tiempo Menos 3.5',2.30]] },
+
+    { id: 'a10', t: 'x10', name: 'Opción A', odd: 9.06, p: .12, legs: [[0,'Reijnders anota o asiste 1+',2.22],[1,'Gana Escocia',1.20],[2,'Córners Eslovenia Más 4.5',3.40]] },
+    { id: 'b10', t: 'x10', name: 'Opción B · incluye Crear apuesta', odd: 9.0, est: true, p: .10, legs: [[0,'Malen anota o asiste 1+',1.72],[1,'Gana Escocia + Macedonia remates Menos 7.5',1.54,'precio estimado'],[2,'Córners Eslovenia Más 4.5',3.40]] },
+    { id: 'a15', t: 'x15', name: 'Opción A', odd: 13.57, p: .079, legs: [[0,'Verbruggen atajadas 3+',2.85],[1,'Córners 1.er tiempo Menos 5.5',1.40],[2,'Córners Eslovenia Más 4.5',3.40]] },
+    { id: 'b15', t: 'x15', name: 'Opción B', odd: 13.62, p: .076, legs: [[0,'Reijnders anota 1+',3.20],[1,'Córners Macedonia del Norte Más 2.5',2.30,'el modelo lo ve más probable que el mercado'],[2,'Tarjetas Suiza Más 1.5',1.85]] },
+    { id: 'a20', t: 'x20', name: 'Opción A', odd: 18.18, p: .059, legs: [[0,'Reijnders remates 5+',3.45],[1,'Macedonia remates Menos 7.5',1.55],[2,'Córners Eslovenia Más 4.5',3.40]] },
+    { id: 'b20', t: 'x20', name: 'Opción B', odd: 18.01, p: .057, legs: [[0,'Retsos entradas 3+',3.45],[1,'Córners Macedonia del Norte Más 2.5',2.30],[2,'Tarjetas Eslovenia Más 2.5',2.27]] }
+  ];
+  ITEMS.forEach(function (it) { it.matches = it.t === 'm' ? [it.m] : [0, 1, 2]; });
+
+  var state = { match: 'all', type: 'all', sort: 'p', slip: [], stake: 10000 };
+  try { var s = parseInt(localStorage.getItem('c13-stake'), 10); if (s) state.stake = s; } catch (e) {}
+
+  function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+  function fmtOdd(n) { return n.toFixed(2).replace('.', ','); }
+  function fmtP(p) { return (p >= .1 ? Math.round(p * 100) : (Math.round(p * 1000) / 10).toString().replace('.', ',')) + ' %'; }
+  function fmtMoney(n) { return '$' + Math.round(n).toLocaleString('es-CO'); }
+  function parseMoney(v) { return parseInt(String(v).replace(/[^0-9]/g, ''), 10) || 0; }
+  function risk(o) { return o < 5 ? 'r-low' : (o < 14 ? 'r-mid' : 'r-high'); }
+  function riskOf(it) { return it.t === 'm' ? 'r-low' : risk(it.odd); }
+
+  function pills(host, opts, key, withDot) {
+    host.innerHTML = '';
+    opts.forEach(function (o) {
+      var b = el('button', 'pill'); b.type = 'button';
+      b.setAttribute('aria-pressed', String(state[key] === o.id));
+      if (withDot && o.color) { var d = el('i', 'dot'); d.style.background = o.color; b.appendChild(d); }
+      b.appendChild(document.createTextNode(o.label));
+      b.addEventListener('click', function () { state[key] = o.id; render(); });
+      host.appendChild(b);
+    });
+  }
+
+  function cardFor(it) {
+    var on = state.slip.indexOf(it.id) >= 0;
+    var c = el('article', 'card ' + riskOf(it) + (on ? ' on' : ''));
+    var kicker = it.t === 'm' ? MATCHES[it.m].short : 'Una por partido';
+    var top = el('div', 'top');
+    var left = el('div');
+    left.appendChild(el('div', 'kicker', '<span>' + kicker + '</span>' + (it.est ? '<span class="est">estimado</span>' : '')));
+    left.appendChild(el('div', 'big num', (it.est ? '≈ ' : '') + fmtOdd(it.odd)));
+    top.appendChild(left);
+    var pr = el('div', 'prob', '<b>≈ ' + fmtP(it.p) + '</b><span>probabilidad</span>');
+    var bar = el('div', 'bar', '<i style="width:' + Math.min(100, Math.round(it.p * 300)) + '%"></i>');
+    pr.appendChild(bar);
+    top.appendChild(pr);
+    c.appendChild(top);
+    c.appendChild(el('h3', null, it.name));
+    var ul = el('ul', 'legs');
+    it.legs.forEach(function (l) {
+      var li = el('li', 'leg');
+      var tag = el('i', 'tag'); tag.style.background = MATCHES[l[0]].color; li.appendChild(tag);
+      var tx = el('div', 'leg-text', '<b></b><small></small>');
+      tx.querySelector('b').textContent = l[1];
+      tx.querySelector('small').textContent = MATCHES[l[0]].short + (l[3] ? ' · ' + l[3] : '');
+      li.appendChild(tx);
+      li.appendChild(el('span', 'odd', fmtOdd(l[2])));
+      ul.appendChild(li);
+    });
+    c.appendChild(ul);
+    if (it.t === 'm') c.appendChild(el('p', 'note', 'Cuotas sueltas sumadas: ' + fmtOdd(it.sum) + '. Armar en Crear apuesta y mirar el precio real.'));
+    var foot = el('div', 'foot');
+    foot.appendChild(el('div', null, '<small>Pagaría</small> <span class="pay">' + fmtMoney(state.stake * it.odd) + '</span>'));
+    var add = el('button', 'add', on ? 'En el cupón ✓' : '+ Al cupón'); add.type = 'button';
+    add.setAttribute('aria-pressed', String(on));
+    add.addEventListener('click', function () { toggle(it); });
+    foot.appendChild(add);
+    c.appendChild(foot);
+    return c;
+  }
+
+  function render() {
+    pills(document.getElementById('f-match'), [{ id: 'all', label: 'Todos' }].concat(MATCHES.map(function (m) { return { id: m.id, label: m.short, color: m.color }; })), 'match', true);
+    pills(document.getElementById('f-type'), TYPES, 'type', false);
+    pills(document.getElementById('f-sort'), [{ id: 'p', label: 'Más probable primero' }, { id: 'odd', label: 'Cuota más alta primero' }], 'sort', false);
+    var lg = document.getElementById('legend'); lg.innerHTML = '';
+    MATCHES.forEach(function (m) { lg.appendChild(el('span', null, '<span style="color:' + m.color + '">●</span> ' + m.name)); });
+
+    var host = document.getElementById('list'); host.innerHTML = '';
+    var any = false;
+    TYPES.filter(function (t) { return t.id !== 'all' && (state.type === 'all' || state.type === t.id); }).forEach(function (t) {
+      var items = ITEMS.filter(function (it) {
+        return it.t === t.id && (state.match === 'all' || it.matches.indexOf(state.match) >= 0 && (it.t !== 'm' || it.m === state.match) || (it.t !== 'm' && state.match !== 'all'));
+      });
+      if (!items.length) return;
+      any = true;
+      items.sort(function (a, b) { return state.sort === 'p' ? b.p - a.p : b.odd - a.odd; });
+      var g = el('div', 'group');
+      var gt = el('div', 'group-title'); gt.appendChild(el('h2', null, t.title)); gt.appendChild(el('p', null, t.sub)); g.appendChild(gt);
+      var grid = el('div', 'grid');
+      items.forEach(function (it) { grid.appendChild(cardFor(it)); });
+      g.appendChild(grid); host.appendChild(g);
+    });
+    if (!any) host.appendChild(el('div', 'empty', 'No hay combinadas con ese filtro. Prueba con «Todos» o «Todas».'));
+    renderSlip();
+  }
+
+  function toggle(it) {
+    var msg = document.getElementById('msg'); msg.textContent = '';
+    var i = state.slip.indexOf(it.id);
+    if (i >= 0) { state.slip.splice(i, 1); render(); return; }
+    var taken = {};
+    state.slip.forEach(function (id) { ITEMS.filter(function (x) { return x.id === id; })[0].matches.forEach(function (m) { taken[m] = 1; }); });
+    var clash = it.matches.filter(function (m) { return taken[m]; });
+    if (clash.length) {
+      state.slip.push(it.id); state.slip = [it.id];
+      render();
+      document.getElementById('msg').textContent = 'Ese partido ya estaba en tu cupón: dejé solo esta jugada.';
+      return;
+    }
+    state.slip.push(it.id); render();
+  }
+
+  function renderSlip() {
+    var slip = document.getElementById('slip');
+    slip.hidden = state.slip.length === 0;
+    if (!state.slip.length) return;
+    var box = document.getElementById('slip-items'); box.innerHTML = '';
+    var odd = 1, p = 1, est = false;
+    state.slip.forEach(function (id) {
+      var it = ITEMS.filter(function (x) { return x.id === id; })[0];
+      odd *= it.odd; p *= it.p; est = est || !!it.est;
+      var row = el('div');
+      var label = (it.t === 'm' ? MATCHES[it.m].short + ': ' : 'Múltiple ' + fmtOdd(it.odd) + ': ') + it.name;
+      row.appendChild(el('span', null, '')); row.firstChild.textContent = label + ' @' + fmtOdd(it.odd);
+      var rm = el('button', null, 'quitar'); rm.type = 'button';
+      rm.addEventListener('click', function () { toggle(it); });
+      row.appendChild(rm); box.appendChild(row);
+    });
+    document.getElementById('s-odd').textContent = (est ? '≈ ' : '') + fmtOdd(odd);
+    document.getElementById('s-p').textContent = '≈ ' + fmtP(p);
+    document.getElementById('s-pay').textContent = fmtMoney(state.stake * odd);
+  }
+
+  document.getElementById('copy').addEventListener('click', function () {
+    var lines = ['Cupón 13-nov · apuesta ' + fmtMoney(state.stake)];
+    state.slip.forEach(function (id) {
+      var it = ITEMS.filter(function (x) { return x.id === id; })[0];
+      lines.push('• ' + it.name + ' @' + fmtOdd(it.odd) + (it.est ? ' (estimado)' : ''));
+      it.legs.forEach(function (l) { lines.push('    – ' + MATCHES[l[0]].short + ': ' + l[1] + ' @' + fmtOdd(l[2])); });
+    });
+    var text = lines.join('\n'), btn = document.getElementById('copy');
+    function done(ok) { btn.textContent = ok ? 'Copiado ✓' : 'No se pudo copiar'; setTimeout(function () { btn.textContent = 'Copiar resumen'; }, 1800); }
+    try { navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(false); }); } catch (e) { done(false); }
+  });
+
+  var input = document.getElementById('stake');
+  input.value = state.stake.toLocaleString('es-CO');
+  input.addEventListener('input', function () {
+    var n = parseMoney(input.value); state.stake = n;
+    input.value = n ? n.toLocaleString('es-CO') : '';
+    try { localStorage.setItem('c13-stake', String(n)); } catch (e) {}
+    var pos = input.selectionStart; render(); input.focus();
+  });
+  render();
+})();
+</script>
