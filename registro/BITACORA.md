@@ -94,3 +94,11 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Líneas de goles del pipeline (368 con resultado completo): «cumple ≥ 5 de 7» 75 % real vs 42 % «no cumple», pero el precio decía 83 % vs 40 %: sin ventaja sobre el mercado. Picks del 12-nov: 24/33 (73 % vs 69 %); «valor» 4/7.
 - Límites: sin estadísticas finales del 13-nov (la ventana emergente de inicio de sesión de Betano bloqueó el navegador y Flashscore no se pudo abrir); marcadores de Moldavia, Andorra, Bulgaria, Eslovaquia, Liechtenstein, Luxemburgo y Morelia tomados del título de la página de Flashscore. Sin leer la apuesta abierta de Betano ni la pata que falló en cada boleto. Inter Bogotá–Santa Fe en curso. Pendiente: córners, tarjetas, remates, jugadores y 1T/2T.
 - Nuevo: `recoleccion/calificar_lineas.py` (califica líneas de equipo con un JSON de resultados) y `recoleccion/balance_html.py`.
+
+## 13-nov, 22:40 · balance COMPLETO del 12 y 13-nov
+- Entregado: `entregas/2026-11-13/2240_balance-12-13nov.html` (reemplaza al parcial de las 21:55). Libro: notas por pata en los boletos 65–77, hoja «Líneas 12-13 nov» con 4.258 líneas calificadas, lecciones 18–22.
+- Equipo (1.460 líneas, 14 partidos, estadística final de Flashscore): «cumple ≥ 5 de 7» 73 % real vs 77 % esperado, ROI −7,5 % con 1 u por línea (sin filtro −6,5 %): separa líneas probables, no da valor. Menos 57 % (ROI −0,9 %) vs Más 44 % (ROI −11,7 %).
+- Jugadores (4 partidos con alineación, Sofascore): 1.912 líneas con resultado, 848 anuladas por no jugar; solo 5 «cumple» (4 se dieron); las «no cumple» ROI −61 %; probabilidades de remates/al arco sobrestimadas (41 % vs 59 % en remates 1+).
+- Patas de tus boletos: tarjetas Más, goles y patas de jugador tumbaron; córners Más ✓ en 7 patas. Sin identificar: 66, 68 (prórroga) y 75. Apuesta abierta (1): pendiente (sesión de Betano expirada; no se entró con credenciales).
+- Límites: jugadores solo en 4 de 14 partidos; Estudiantes–Rivadavia con prórroga en el feed; 1T de saques/al arco/fueras sin estadística por tiempo; Inter Bogotá–Santa Fe pendiente.
+- Nuevo: `recoleccion/calificar_jugadores.py`; `balance_html.py` muestra «qué pasó con cada pata» (`patas_calificadas.json`).

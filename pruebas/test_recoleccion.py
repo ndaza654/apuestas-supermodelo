@@ -101,4 +101,11 @@ check(CL.calificar(3, 2.5, 'Más') == 'cumplió' and CL.calificar(2, 2.0, 'Más'
 check(CL.valor({'g': [1, 2], 'g1': [0, 1], 'y': [2, 3]}, 'goles', '2T') == 2 and CL.valor({'g': [1, 2]}, 'goles', '1T') is None and CL.valor({'y': [2, 3]}, 'tarjetas', 'visitante') == 3, 'calificar: 2T = total − 1T; sin dato por tiempo no se inventa')
 check('function cum(' in BH.PLANTILLA and 'id="kbar"' in BH.PLANTILLA and 'https://' not in BH.PLANTILLA, 'el balance HTML trae el filtro K de N y no pide nada a la red')
 
+import calificar_jugadores as CJ
+_pl = {'Andy Robertson': ['h', 90], 'Ben Gannon-Doak': ['h', 76], 'Che Adams': ['h', 67], 'Srđan Babić': ['h', 90]}
+check(CJ.casar('Andrew Robertson', _pl) == 'Andy Robertson' and CJ.casar('Ben Doak', _pl) == 'Ben Gannon-Doak' and CJ.casar('Ché Adams', _pl) == 'Che Adams' and CJ.casar('Srdjan Babic', _pl) == 'Srđan Babić', 'jugadores: casa nombres Betano↔Sofascore sin tildes ni apodos')
+check(CJ.casar('Scott Bain', _pl) is None, 'jugadores: quien no figura con minutos no se casa con otro (jugador que no jugó)')
+_f = ['h', 90, 3, 1, 1, 2, 4, 1, 2, 0]
+check(CJ.valor(_f, 'anota_o_asiste', False) == 3 and CJ.valor(_f, 'remates', False) == 3 and CJ.valor(_f, 'tarjeta', True) == 1 and CJ.valor(_f, 'tarjeta', False) == 0, 'jugadores: «N o más»; anota_o_asiste suma goles y asistencias; tarjeta sale de los incidentes')
+
 print(f'\n{ok} pruebas de recolección superadas')

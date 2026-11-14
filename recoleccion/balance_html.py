@@ -45,6 +45,14 @@ def cargar(a):
     for ruta in a.boletos:
         d = json.load(open(ruta if os.path.isabs(ruta) else os.path.join(RAIZ, ruta), encoding='utf8'))
         B += [b for b in d['boletos'] if b['fecha'] >= a.desde]
+    pc = os.path.join(base, 'patas_calificadas.json')       # opcional: qué pasó con cada pata de cada boleto
+    if os.path.exists(pc):
+        PC = json.load(open(pc, encoding='utf8'))
+        for b in B:
+            x = PC.get(str(b['n']))
+            if x:
+                b['falla'] = x['falla']
+                b['det'] = ' · '.join(f'{t} {e}' + (f' ({d})' if d else '') for t, e, d in x['patas'])
     pend = []
     p = os.path.join(base, 'pendientes.json')
     if os.path.exists(p):
@@ -126,7 +134,7 @@ function vBol(){
  const paint=()=>{get();const L=rows.filter(b=>(!F.d||b.fecha===F.d)&&(!F.t||b.tipo===F.t)&&(!F.r||b.resultado===F.r)&&(F.s==null||b.stake>=F.s)&&(!F.g||(F.g==='g')===b.gratis)&&(!F.q||(b.partidos+' '+b.patas).toLowerCase().includes(F.q)));
   const re=L.filter(b=>!b.gratis),ap=re.reduce((a,b)=>a+b.stake,0),co=L.reduce((a,b)=>a+b.cobrado,0),g=re.filter(b=>b.resultado==='Ganada').length;
   $('#bagg').innerHTML=`<b>${L.length}</b> boletos · dinero real ${re.length} · ganados ${g} (${re.length?pct(g/re.length):'–'}) · apostado ${cop(ap)} · cobrado ${cop(co)} · neto <b class="${co-ap>=0?'pos':'neg'}">${cop(co-ap)}</b> · ROI ${ap?pct((co-ap)/ap):'–'} · «cobrado» incluye lo ganado con apuestas gratis`;
-  $('#bt2').innerHTML='<tr><th>#</th><th>Día</th><th>Tipo</th><th class="n">Stake</th><th class="n">Cuota</th><th>Resultado</th><th class="n">Cobrado</th><th class="n">Neto</th><th>Partidos</th><th>Patas</th></tr>'+L.map(b=>`<tr><td>${b.n}</td><td>${b.fecha}</td><td>${esc(b.tipo)}</td><td class="n">${cop(b.stake)}${b.gratis?' (gratis)':''}</td><td class="n">${f2(b.cuota)}</td><td class="${b.resultado==='Ganada'?'ok':'bad'}">${b.resultado}</td><td class="n">${cop(b.cobrado)}</td><td class="n ${b.cobrado-(b.gratis?0:b.stake)>=0?'pos':'neg'}">${cop(b.cobrado-(b.gratis?0:b.stake))}</td><td style="white-space:normal;min-width:220px">${esc(b.partidos)}</td><td style="white-space:normal;min-width:260px">${esc(b.patas)}</td></tr>`).join('')};
+  $('#bt2').innerHTML='<tr><th>#</th><th>Día</th><th>Tipo</th><th class="n">Stake</th><th class="n">Cuota</th><th>Resultado</th><th class="n">Cobrado</th><th class="n">Neto</th><th>Partidos</th><th>Patas</th><th>Qué pasó con cada pata</th></tr>'+L.map(b=>`<tr><td>${b.n}</td><td>${b.fecha}</td><td>${esc(b.tipo)}</td><td class="n">${cop(b.stake)}${b.gratis?' (gratis)':''}</td><td class="n">${f2(b.cuota)}</td><td class="${b.resultado==='Ganada'?'ok':'bad'}">${b.resultado}</td><td class="n">${cop(b.cobrado)}</td><td class="n ${b.cobrado-(b.gratis?0:b.stake)>=0?'pos':'neg'}">${cop(b.cobrado-(b.gratis?0:b.stake))}</td><td style="white-space:normal;min-width:220px">${esc(b.partidos)}</td><td style="white-space:normal;min-width:260px">${esc(b.patas)}</td><td style="white-space:normal;min-width:300px"><b>${esc(b.falla||'')}</b><br><span style="color:var(--mut)">${esc(b.det||'')}</span></td></tr>`).join('')};
  $('#app').oninput=paint;$('#app').onchange=paint;paint()}
 function vPen(){$('#app').innerHTML=`<div class="card"><h2>Pendientes (no se dan por ganadas ni perdidas)</h2>${D.pend.length?'<ul>'+D.pend.map(t=>`<li>${esc(t)}</li>`).join('')+'</ul>':'<p class="mut">Nada pendiente.</p>'}<p class="small mut">Líneas mías sin calificar en este balance: ${D.L.filter(r=>!r[15]).length.toLocaleString('es-CO')} (la mayoría de jugador, que necesitan estadística por jugador, o de partidos en curso).</p></div>`}
 function vCon(){$('#app').innerHTML=`<div class="card concl">${D.concl||'<p class="mut">Sin conclusiones escritas.</p>'}</div>`}
