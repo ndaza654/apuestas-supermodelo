@@ -21,7 +21,7 @@ Análisis automático ya corrido (`python3 recoleccion/correr_jornada.py jornada
 5. Betano: sin parejas «cualquiera de los jugadores…» en ningún partido; Colombia, Segunda y Jamaica–México sin remates/al arco/faltas ni tarjetas de jugador; Japón–Brasil solo 175 mercados.
 6. Alineaciones **probables**, no oficiales: releer ~1 h antes de cada partido antes de apostar a jugadores. Clima = pronóstico, también se relee.
 7. Contexto de competición: Banfield–Boca = semifinal de Copa Argentina (sede neutral, Mendoza); Jamaica–México = Concacaf NL Liga A, playoffs, cuartos de final (ida/vuelta sin verificar).
-8. Flashscore no cuenta rojas en las tarjetas (`y` = amarillas + 2·rojas solo cuando el feed trae rojas): ver la nota de la ficha de tarjetas.
+8. Tarjetas: Betano cuenta en puntos (amarilla 1, roja 2) y la serie de Flashscore puede quedar por debajo si hubo rojas (ver la nota de la ficha de tarjetas).
 
 ## Cambios al código (este día)
 - `recoleccion/armar_entrada.py`: lee `alineaciones/`, `clima/clima.json` y `clasificacion/clasificacion.json` (antes solo Betano + Flashscore); el clima pasa a la ficha como dict con umbrales fijos (lluvia fuerte ≥ 7,6 mm/h, viento fuerte ≥ 30 km/h); la tabla se casa por nombre y, si hay duda, no se adivina.
