@@ -11,6 +11,11 @@ Actualizado: vie 13-nov-2026 ~23:10 Bogotá (análisis e informe entregados). Ra
 - Situación: se leyó lo que hay en las fichas (tabla, clima, tipo de competición); sigue sin previa, motivación ni rotación, así que los 21 quedan en «reserva».
 - Boleto abierto del usuario (captura suya, 13-nov 23:22): combinada de 3 Bet Builder, $13.450 a 7,60 (Japón–Brasil, Valladolid–Castellón, Kosovo–Israel), **pendiente**. Guardado en `boletos_usuario.json`; lectura en `entregas/2026-11-13/2324_lectura-boleto-abierto.md` (p conjunta 11 % por simulación, EV −13 %).
 
+## Reanálisis de la tarde (14-nov, 14:30 y 14:48)
+- 8 partidos (4 de Liga de Naciones a las 14:45 y 4 de Primera A a las 15:30) con cuotas de Betano releídas hoy (13:56 y 14:06; solo líneas de equipo, apertura en `raw_13nov/`) y alineaciones oficiales en los 4 de Europa. Entregas `1430_reanalisis-bloque-1445.md` y `1448_reanalisis-bloque-1530.md`; 45 sugerencias pendientes en `sugerencias_tarde.json`.
+- En `registro/lineas.csv` esos 8 partidos ya no tienen filas de jugadores (no se releyeron); los otros 13 siguen con las cuotas del 13-nov.
+- El análisis de la tarea programada (04:00) está en `main`, no en esta rama.
+
 ## Recolectado y en el repo (todo con hash verificado contra el navegador)
 | Qué | Dónde | Cobertura |
 |---|---|---|

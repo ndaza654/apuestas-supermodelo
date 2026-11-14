@@ -339,7 +339,7 @@ def jornadas(rows):
     cuando el agente `calificacion` lo llene, la sugerencia se califica sola al volver a correr este archivo."""
     import glob
     idx = {(r['jornada'], r['partido'], r['mercado'], r['ambito'], r['linea'], r['lado']): r for r in rows if not r['jugador']}
-    for ruta in sorted(glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'sugerencias.json'))):
+    for ruta in sorted(glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'sugerencias*.json'))):
         d = json.load(open(ruta, encoding='utf8'))
         jor = d['jornada']
         for s in d['sugerencias']:
@@ -351,8 +351,8 @@ def jornadas(rows):
                 else:
                     c = ('P', 'pendiente')
                 legs.append((p['partido'], p['texto'] if len(s['patas']) == 1 else f"{p['texto']} ({p['partido']})" if '|' in s['partidos'] else p['texto'], p['cuota'], c))
-            add(f"{jor} · informe de la jornada: {s['etiqueta']}", jor, '', s['tipo'], s['nombre'], s['partidos'].replace(' - ', '–'), legs, s['cuota'], s['p'],
-                nota=f"{s['etiqueta']}; p recortada (p del modelo {s['p_modelo']}). " + d.get('nota', ''), fuente=os.path.relpath(ruta, RAIZ))
+            add(f"{jor} · {d.get('entrega', 'informe de la jornada')}: {s['etiqueta']}", jor, '', s['tipo'], s['nombre'], s['partidos'].replace(' - ', '–'), legs, s['cuota'], s['p'],
+                nota=f"{s['etiqueta']}; {d.get('p_es', 'p recortada')} (p del modelo {s['p_modelo']}). " + d.get('nota', ''), fuente=os.path.relpath(ruta, RAIZ))
 
 
 def main():
