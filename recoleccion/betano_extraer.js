@@ -50,7 +50,9 @@ async function extraerBetano(slug, id) {
     const periodo = /primer tiempo/.test(n) ? '1T' : /segundo tiempo/.test(n) ? '2T' : null;
     const ini = n.startsWith(nl) ? 'local' : n.startsWith(nv) ? 'visitante' : null;
     const fin = n.endsWith(nl) || n.endsWith(nv);
-    if (fin && periodo) return null;                                    // «Goles en Primer Tiempo Italia»: no se usa
+    // «Goles en Primer Tiempo Italia» y «Primer Tiempo Japón Tiros de esquina» (equipo + tiempo): no son el total del tiempo.
+    // 14-nov: FXH2/FYH2 («Primer Tiempo <equipo> Tiros de esquina») se colaban en corners|1T y ensuciaban las líneas 0.5 y 1.5.
+    if ((fin || n.includes(nl) || n.includes(nv)) && periodo) return null;
     if (ini && periodo) return null;   // «Serbia … Primer/Segundo Tiempo»: no es la línea del equipo a partido completo (13-nov: Serbia tarjetas 1T 0.5 se colaba como 0.5 de partido)
     return { mercado: stat, ambito: ini || periodo || 'total' };
   }
