@@ -79,3 +79,12 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Tarjetas: Poisson con esperado de equipos de Sofascore mezclado 65/35 con el promedio del árbitro; discrepa del modelo en varias líneas (confianza baja, se muestran ambas).
 - Corrección: las etiquetas «leído ~13:25–13:35» de los json de Sofascore eran anteriores a la hora real; quedaron como «entre 13:06 y 13:19».
 - Se midió: nada todavía; se califica con los resultados del 14-nov.
+
+## 14-nov · recolección de los 21 partidos (sin análisis todavía)
+- Entregado: datos en `jornadas/2026-11-14/` (Betano 21/21, contexto Flashscore 21/21, XI probable y bajas 16/21, clima 21/21, clasificación 18/21), con hash verificado archivo por archivo contra el navegador (cada archivo se copió por heredoc y se borró y repitió si no coincidía; hubo 2 desajustes por mi transcripción, corregidos). Pipeline corrido (fichas, informes del modelo, ranking, `registro/lineas.csv` con 12.232 líneas de la jornada).
+- Fuentes: Betano (API interna de cuotas, leída 13-nov); Flashscore (feed `df_hh/df_st/df_sui` con `x-fsign`, páginas de alineaciones y clasificación); Open-Meteo (pronóstico). Sofascore no se usó; no se evadió ningún bloqueo.
+- Ajuste del extractor de Betano: auto-selección de la pestaña `bt` más completa y filtro FXH2/FYH2; el conteo «14 con id» de la lista era 14 de 21 (los otros 7 se ubicaron con el calendario de la página).
+- Código: `armar_entrada.py` ahora lee alineaciones, clima y clasificación (+6 pruebas). Clima a la ficha con umbrales fijos (lluvia fuerte ≥ 7,6 mm/h; viento ≥ 30 km/h; el modelo aplica sus multiplicadores solo si se cumplen o si temperatura < 5 °C: Kosovo, Rumanía y Suecia).
+- Límites: sin historial por jugador (ningún partido pasa de «no apto» en Jugadores), sin XI en 5 partidos (Banfield–Boca y 4 de Colombia), 3 árbitros sin publicar, sin estadísticas de árbitros. Alineaciones solo probables.
+- Se midió: nada todavía; se califica con los resultados del 14-nov (agente `calificacion`).
+

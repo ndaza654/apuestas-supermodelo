@@ -4,6 +4,8 @@
 Entradas:  betano/<clave>.json   (recoleccion/betano.py: {meta, betano})
            flashscore/<clave>.json (recoleccion/flashscore_extraer.js: contexto del partido)  [opcional]
            jugadores/<clave>.json (historial por jugador de la alineación probable, de Flashscore)  [opcional]
+           alineaciones/<clave>.json (Flashscore: XI probable y bajas; formato compacto de alineaciones/LEEME.md)  [opcional]
+           clima/clima.json y clasificacion/clasificacion.json (Open-Meteo y tablas de Flashscore, por clave)  [opcional]
            notas/<clave>.json    (lectura de la situación hecha por Claude: importancia, motivación, rotación… ver NOTAS_EJEMPLO)  [opcional]
 Salida:    entradas/<clave>.json
 Lo que falta se deja VACÍO y se declara en ficha.dudas / ficha.faltan; nunca se rellena con supuestos.
@@ -18,6 +20,11 @@ NOTAS_EJEMPLO = {'importancia': 'alta|normal|baja', 'derbi': False, 'eliminatori
                  'local': {'motivacion': 'normal|alta|baja', 'rotacion': False, 'necesita_ganar': False, 'estilo': []},
                  'visitante': {'motivacion': 'normal|alta|baja', 'rotacion': False, 'necesita_ganar': False, 'estilo': []},
                  'bajas': [], 'dudas': [], 'fuentes': []}
+
+
+def _json(base, rel):
+    p = os.path.join(base, rel)
+    return json.load(open(p, encoding='utf8')) if os.path.exists(p) else {}
 
 
 def _equipo(n=None):
@@ -123,6 +130,56 @@ def hist_de(jug, betano):
     return out, sin
 
 
+LECTURA_ALINEACIONES = 'vie 13-nov ~19:15-19:45 Bogotá'
+FILA = re.compile(r'^(\d+)\.\s+(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+:\d+)\s+(-?\d+)\s+(\d+)\b')
+
+
+def lineups_de(al):
+    """alineaciones/<clave>.json (compacto) → la forma que lee jugadores_de(); None si Flashscore no tiene la pestaña."""
+    if not al or al.get('sin_pestana') or not al.get('probables', {}).get('L'):
+        return None
+    p = lambda a: [{'n': x[0], 'num': x[1], 'pid': x[2], 'gk': bool(x[3])} for x in a]
+    b = lambda a: [{'n': x[0], 'pid': x[1], 'motivo': x[2]} for x in a]
+    return {'tipo': al.get('tipo'), 'probables': {k: p(v) for k, v in al['probables'].items()},
+            'bajas': {k: b(v) for k, v in al.get('bajas', {}).items()}}
+
+
+GENERICAS = {'real', 'club', 'fc', 'cf', 'cd', 'ud', 'sc', 'sp', 'de', 'del', 'la', 'el', 'atletico', 'atl', 'deportivo', 'dep', 'ii', 'b', 'sad', 'rcd'}
+
+
+def fila_de(tabla, equipo):
+    """Fila de la tabla (texto de Flashscore) que corresponde al equipo; None si no hay UNA sola que case.
+    1.º nombres contenidos uno en el otro («Querétaro» ⊂ «Queretaro FC»); 2.º, si no, una palabra distintiva en común
+    («Sporting de Gijón» ↔ «Real Sporting»). Si hay duda (0 o varias filas) no se adivina."""
+    t = set(_norm(equipo))
+    filas = [(m, set(_norm(m.group(2)))) for m in (FILA.match(f) for f in tabla.get('filas', [])) if m]
+    hallados = [m for m, n in filas if n and t and (n <= t or t <= n)]
+    if len(hallados) != 1:
+        hallados = [m for m, n in filas if (n & t) - GENERICAS]
+    if len(hallados) != 1:
+        return None
+    m = hallados[0]
+    cab = (tabla.get('cab') or '').split(' | ')
+    grupo = cab[1] if len(cab) > 1 and cab[1].upper().startswith('GRUPO') else ''
+    return {'pos': int(m.group(1)), 'equipo': m.group(2), 'pj': int(m.group(3)), 'g': int(m.group(4)), 'e': int(m.group(5)), 'p': int(m.group(6)),
+            'gf_gc': m.group(7), 'dg': int(m.group(8)), 'pts': int(m.group(9)), 'grupo': grupo}
+
+
+def clima_de(c):
+    """clima.json[clave] → dict de la ficha (lo que leen el modelo y el puntuador). Las tres horas son inicio, +1 h y +2 h (UTC).
+    temperatura = la de la hora de inicio; lluvia «fuerte» solo si ≥ 7,6 mm/h (umbral OMM de lluvia intensa) y viento fuerte si ≥ 30 km/h:
+    umbrales fijos y objetivos; lo demás se deja como dato en `texto` para que lo juzgue el análisis."""
+    if not c or not c.get('horas_utc') or not c['horas_utc'][0]:
+        return None
+    hs = [h for h in c['horas_utc'] if h]
+    t, hum, pp, mm, v, cod = hs[0][1:7]
+    mm_max, v_max, pp_max = max(h[4] for h in hs), max(h[5] for h in hs), max(h[3] for h in hs)
+    texto = (f"{t:g} °C al inicio, humedad {hum} %, prob. de lluvia máx. {pp_max} %, lluvia máx. {mm_max:g} mm/h, viento máx. {v_max:g} km/h "
+             f"(código OMM al inicio {cod}) · Open-Meteo, pronóstico del 13-nov, ciudad del estadio")
+    return {'temperatura': t, 'lluvia': 'fuerte' if mm_max >= 7.6 else None, 'viento_fuerte': v_max >= 30,
+            'lluvia_mm_max': mm_max, 'prob_lluvia_max': pp_max, 'viento_kmh_max': v_max, 'texto': texto}
+
+
 def armar(b, fs=None, notas=None, jug=None):
     meta, bet = b['meta'], b['betano']
     notas = notas or {}
@@ -182,7 +239,37 @@ def main(argv):
         b = cargar('betano', k)
         if not b:
             print(f'{k}: sin betano/{k}.json'); continue
-        e = armar(b, cargar('flashscore', k), cargar('notas', k), cargar('jugadores', k))
+        fs = cargar('flashscore', k)
+        al = cargar('alineaciones', k)
+        if fs is not None and al is not None and not fs.get('lineups'):
+            lu = lineups_de(al)
+            if lu:
+                fs['lineups'], fs['lineups_leidas'] = lu, f"{LECTURA_ALINEACIONES} · XI oficial se publica ~1 h antes del inicio"
+            else:
+                fs['avisos'] = list(fs.get('avisos', [])) + ['Flashscore no muestra pestaña de alineaciones para este partido: sin XI ni bajas con fuente']
+        e = armar(b, fs, cargar('notas', k), cargar('jugadores', k))
+        F = e['ficha']
+        cl = _json(base, 'clima/clima.json').get(k)
+        if clima_de(cl) and not F.get('clima'):
+            F['clima'] = clima_de(cl)
+            F['fuentes'] = F['fuentes'] + ['Open-Meteo (clima)']
+        cs = _json(base, 'clasificacion/clasificacion.json')
+        pc = (cs.get('partidos') or {}).get(k)
+        if pc:
+            F['fuentes'] = F['fuentes'] + ['Flashscore (clasificación)']
+            tabla = {}
+            for ref in pc.get('tablas', []):
+                t = cs['tablas'][ref]
+                for lado, nom in (('local', e['local']), ('visitante', e['visitante'])):
+                    fl = fila_de(t, nom) or fila_de(t, (fs or {}).get(lado if lado == 'local' else 'visitante', ''))
+                    if fl and lado not in tabla:
+                        tabla[lado] = fl
+            if tabla:
+                F['tabla'] = tabla
+            if not pc.get('tablas'):
+                F['dudas'] = list(F.get('dudas') or []) + ['Sin tabla de clasificación en Flashscore (' + pc.get('nota', 'amistoso, copa o eliminatoria') + '): importancia por juzgar con el contexto de la competición']
+            elif len(tabla) < 2:
+                F['dudas'] = list(F.get('dudas') or []) + ['Clasificación: no se pudo casar el nombre de un equipo con la tabla de Flashscore']
         json.dump(e, open(os.path.join(base, 'entradas', k + '.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=0)
         print(f"{k:34s} forma={len(e['ficha']['forma']['local'])}/{len(e['ficha']['forma']['visitante'])} h2h={len(e['ficha'].get('h2h', []))} faltan={len(e['ficha']['faltan'])}")
     return 0

@@ -195,12 +195,18 @@ def ficha_jugadores(e):
 # ---------- contexto para los criterios que se juzgan (no se calculan) ----------
 def contexto(e):
     F = e.get('ficha') or {}
-    return {'arbitro': (F.get('arbitro') or {}).get('nombre'), 'clima': F.get('clima'),
+    return {'arbitro': (F.get('arbitro') or {}).get('nombre'), 'clima': (F.get('clima') or {}).get('texto') if isinstance(F.get('clima'), dict) else F.get('clima'), 'tabla': F.get('tabla'),
             'derbi': F.get('derbi'), 'importancia': F.get('importancia'),
             'local': {k: (F.get('local') or {}).get(k) for k in ('estilo', 'motivacion', 'rotacion', 'necesita_ganar', 'perfil_corners')},
             'visitante': {k: (F.get('visitante') or {}).get(k) for k in ('estilo', 'motivacion', 'rotacion', 'necesita_ganar', 'perfil_corners')},
             'bajas': [f"{b.get('jugador')} ({b.get('lado')}, {b.get('posicion')}, {b.get('horas_desde_noticia')} h)" for b in (F.get('bajas') or [])],
             'dudas': F.get('dudas'), 'fuentes': F.get('fuentes')}
+
+def _tabla_txt(t):
+    if not t:
+        return 'sin dato'
+    f = lambda x: f"{x['pos']}.º {x['equipo']} {x['pts']} pts en {x['pj']} PJ (DG {x['dg']:+d}){' · ' + x['grupo'] if x.get('grupo') else ''}"
+    return ' | '.join(f"{k}: {f(v)}" for k, v in t.items())
 
 def construir(e):
     return {'encuentro': f"{e.get('local')} - {e.get('visitante')}", 'liga': e.get('liga'), 'fecha': e.get('fecha'),
@@ -299,6 +305,7 @@ def markdown(F):
     L.append(md_jugadores(F['jugadores']))
     c = F['contexto']
     L += ['## Contexto para juzgar los criterios no numéricos', '', f"- Árbitro: {c['arbitro']}; derbi: {c['derbi']}; importancia: {c['importancia']}; clima: {c['clima']}",
+          f"- Tabla (Flashscore, antes de la jornada): {_tabla_txt(c.get('tabla'))}",
           f"- Local: {c['local']}", f"- Visitante: {c['visitante']}", f"- Bajas: {'; '.join(c['bajas']) or 'ninguna anotada'}",
           f"- Dudas: {c['dudas']}", '']
     return '\n'.join(L)

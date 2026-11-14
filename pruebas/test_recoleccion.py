@@ -68,4 +68,19 @@ check(all(r['cumple_ficha'] == '' for r in _R if r['ambito'] in ('1T', '2T') and
 check(all(r['resultado'] == '' and r['apostada'] == '' for r in _R), 'las columnas de resultado quedan vacías para el agente de calificación')
 check(any(r['cumple_ficha'] == 'sin alineación' for r in _R if r['mercado'].startswith('jugador')), 'jugadores sin alineación quedan marcados, no como «no cumple»')
 
+# --- alineaciones / clima / clasificación recolectados el 13-nov para el 14-nov ---
+_j14 = os.path.join(RAIZ, 'jornadas', '2026-11-14')
+_al = json.load(open(os.path.join(_j14, 'alineaciones', 'noruega-gales.json'), encoding='utf8'))
+_lu = A.lineups_de(_al)
+check(len(_lu['probables']['L']) == 11 and _lu['probables']['L'][0]['gk'] and _lu['probables']['L'][9]['n'] == 'Haaland E.' and _lu['bajas']['V'][1]['motivo'] == 'Tarjetas amarillas', 'alineaciones compactas → la forma que lee jugadores_de (XI, arquero, bajas con motivo)')
+check(A.lineups_de(json.load(open(os.path.join(_j14, 'alineaciones', 'millonarios-fc-alianza-fc.json'), encoding='utf8'))) is None, 'partido sin pestaña de alineaciones en Flashscore → None (no se inventa XI)')
+_cs = json.load(open(os.path.join(_j14, 'clasificacion', 'clasificacion.json'), encoding='utf8'))
+_fq = A.fila_de(_cs['tablas']['T8'], 'Querétaro')
+check(_fq['pos'] == 12 and _fq['pts'] == 20 and _fq['pj'] == 15 and _fq['dg'] == -5, 'fila de la tabla: Querétaro 12.º, 20 pts en 15 PJ')
+check(A.fila_de(_cs['tablas']['T1'], 'Sporting de Gijón')['pos'] == 7 and A.fila_de(_cs['tablas']['T1'], 'Real Madrid') is None, 'Sporting de Gijón ↔ «Real Sporting» por palabra distintiva; «Real» solo no basta')
+check(A.fila_de(_cs['tablas']['T8'], 'Equipo Que No Existe') is None, 'un equipo que no casa con la tabla da None (no se adivina)')
+_cl = json.load(open(os.path.join(_j14, 'clima', 'clima.json'), encoding='utf8'))
+_c = A.clima_de(_cl['kosovo-israel'])
+check(_c['temperatura'] == 3.4 and _c['lluvia'] is None and not _c['viento_fuerte'] and 'Open-Meteo' in _c['texto'], 'clima: temperatura al inicio; lluvia/viento «fuerte» solo por umbral fijo (7,6 mm/h, 30 km/h)')
+
 print(f'\n{ok} pruebas de recolección superadas')
