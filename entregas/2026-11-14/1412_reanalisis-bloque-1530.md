@@ -1,9 +1,9 @@
 # Reanálisis · bloque de las 15:30 (4 partidos de Primera A, fecha 19, última de la fase regular)
 
-- **Entrega:** sáb 14-nov-2026, ~14:48 Bogotá.
+- **Entrega:** sáb 14-nov-2026, ~14:12 Bogotá (el archivo se llamó primero «1448»: hora mal estimada, corregida).
 - **Cuotas:** Betano, releídas hoy 14:06 Bogotá (19:06 UTC). Águilas–Medellín no cambió desde anoche; los otros tres sí.
 - **Alineaciones:** Flashscore no las publica para estos 4 partidos (ni probables ni oficiales). No las tengo.
-- **Contexto:** previa de Flashscore de cada partido, leída 14:40.
+- **Contexto:** previa de Flashscore de cada partido, leída ~14:10.
 - **Muestra de 7** partidos por equipo: «cumple» = 5 de 7 o más en ambos equipos. Directos: hasta 6.
 - **Límites:** Betano solo ofrece goles, córners y tarjetas de equipo en estos partidos; no releí jugadores; árbitros sin estadísticas; tarjetas en puntos (amarilla 1, roja 2) y la serie de Flashscore solo cuenta amarillas; la p conjunta de las combinadas es el producto de las p.
 

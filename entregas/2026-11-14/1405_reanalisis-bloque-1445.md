@@ -1,8 +1,8 @@
 # Reanálisis · bloque de las 14:45 (4 partidos de Liga de Naciones)
 
-- **Entrega:** sáb 14-nov-2026, ~14:30 Bogotá.
+- **Entrega:** sáb 14-nov-2026, ~14:05 Bogotá (el archivo se llamó primero «1430»: hora mal estimada, corregida).
 - **Cuotas:** Betano, releídas hoy 13:56 Bogotá (18:56 UTC). Pueden haberse movido; confirma en el cupón.
-- **Alineaciones:** oficiales, Flashscore, leídas 14:15–14:20.
+- **Alineaciones:** oficiales, Flashscore, leídas ~14:00–14:02.
 - **Muestra de 7** partidos por equipo (no 10): «cumple» = 5 de 7 o más en ambos equipos.
 - **Límites:** no releí mercados de jugadores (sin historial por jugador no los recomiendo); árbitros sin estadísticas; clima = pronóstico del 13-nov; no busqué noticias fuera de las alineaciones y bajas de Flashscore; la p conjunta de las combinadas es el producto de las p (no corrí la simulación) y el precio real del Bet Builder lo pone Betano al armarlo.
 
