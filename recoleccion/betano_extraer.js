@@ -23,9 +23,21 @@ function listarPartidos() {
 }
 
 async function extraerBetano(slug, id) {
-  const r = await fetch(`/api/cuotas-de-partido/${slug}/${id}/?bt=12&req=s,stnf,c,mb`);
-  if (!r.ok) throw new Error('Betano HTTP ' + r.status);
-  const d = (await r.json()).data, ev = d.event;
+  // `bt` es el número de la pestaña de mercados de la página del partido; la pestaña «Todo» cambia de número según el partido
+  // (14-nov: en Mirassol–Atlético-MG y Chapecoense–Vasco «Todo» es bt=13 y bt=12 es «Minutos»: 28 mercados de 806). Se parte de bt=12
+  // y, si trae menos de la mitad de los mercados declarados (totalMarketsAvailable), se prueban otras pestañas y se queda la más completa.
+  const leer = async bt => {
+    const r = await fetch(`/api/cuotas-de-partido/${slug}/${id}/?bt=${bt}&req=s,stnf,c,mb`);
+    if (!r.ok) throw new Error('Betano HTTP ' + r.status + ' (bt=' + bt + ')');
+    return (await r.json()).data.event;
+  };
+  const nUnicos = e => new Set((e.markets || []).map(m => m.id)).size;
+  let ev = await leer(12);
+  for (const bt of [13, 14, 11, 15]) {
+    if (nUnicos(ev) >= 0.5 * (ev.totalMarketsAvailable || 0)) break;
+    const e2 = await leer(bt);
+    if (nUnicos(e2) > nUnicos(ev)) ev = e2;
+  }
   const [P0, P1] = ev.participants, loc = P0.name, vis = P1.name;
   const norm = s => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const nl = norm(loc), nv = norm(vis);
