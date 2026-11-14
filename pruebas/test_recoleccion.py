@@ -95,4 +95,10 @@ check('http://' not in IH.PLANTILLA.replace('http://www.w3.org', '') and 'https:
 check(_d['N'] >= 1 and 1 <= _d['K'] <= _d['N'] and 1 <= _d['MN'] <= _d['N'], f"el informe trae N={_d['N']}, K={_d['K']}, n mínimo={_d['MN']} según la muestra real de la jornada")
 check("id=\"kbar\"" in IH.PLANTILLA and 'function cum(' in IH.PLANTILLA and 'data-k=' in IH.PLANTILLA, 'el informe trae la barra para cambiar el mínimo de «cumple» (K de N) y recalcula con ella')
 
+# --- calificador de líneas y balance ---
+import calificar_lineas as CL, balance_html as BH
+check(CL.calificar(3, 2.5, 'Más') == 'cumplió' and CL.calificar(2, 2.0, 'Más') == 'nula' and CL.calificar(2, 2.25, 'Más') == 'media perdida' and CL.calificar(2, 2.75, 'Menos') == 'cumplió' and CL.calificar(2, 2.25, 'Menos') == 'media ganada', 'calificar: líneas enteras (nula), .5 y asiáticas (.25/.75 = dos medias líneas)')
+check(CL.valor({'g': [1, 2], 'g1': [0, 1], 'y': [2, 3]}, 'goles', '2T') == 2 and CL.valor({'g': [1, 2]}, 'goles', '1T') is None and CL.valor({'y': [2, 3]}, 'tarjetas', 'visitante') == 3, 'calificar: 2T = total − 1T; sin dato por tiempo no se inventa')
+check('function cum(' in BH.PLANTILLA and 'id="kbar"' in BH.PLANTILLA and 'https://' not in BH.PLANTILLA, 'el balance HTML trae el filtro K de N y no pide nada a la red')
+
 print(f'\n{ok} pruebas de recolección superadas')

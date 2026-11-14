@@ -88,3 +88,9 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Límites: sin historial por jugador (ningún partido pasa de «no apto» en Jugadores), sin XI en 5 partidos (Banfield–Boca y 4 de Colombia), 3 árbitros sin publicar, sin estadísticas de árbitros. Alineaciones solo probables.
 - Se midió: nada todavía; se califica con los resultados del 14-nov (agente `calificacion`).
 
+## 13-nov, 21:55 · balance PARCIAL del 12 y 13-nov (boletos, picks del 12-nov y goles del pipeline)
+- Entregado: `entregas/2026-11-13/2155_balance-12-13nov_parcial.html` (generado por `recoleccion/balance_html.py`; datos en `jornadas/2026-11-13/balance/`). Libro `registro/libro_apuestas.xlsx`: boletos 65–77 en «Boletos 9-12» (ahora hasta el 13-nov), nueva hoja «Líneas 12-13 nov» (384 líneas de goles calificadas), lecciones 17–19, Panorama actualizado (4–13 nov: 71 boletos reales, −$1.925).
+- Boletos 12–13 nov: 17 reales, 5 ganados, neto −$34.050 (apostado $254.375, cobrado $220.325). Simples +$7.375 vs combinadas/dobles −$41.425.
+- Líneas de goles del pipeline (368 con resultado completo): «cumple ≥ 5 de 7» 75 % real vs 42 % «no cumple», pero el precio decía 83 % vs 40 %: sin ventaja sobre el mercado. Picks del 12-nov: 24/33 (73 % vs 69 %); «valor» 4/7.
+- Límites: sin estadísticas finales del 13-nov (la ventana emergente de inicio de sesión de Betano bloqueó el navegador y Flashscore no se pudo abrir); marcadores de Moldavia, Andorra, Bulgaria, Eslovaquia, Liechtenstein, Luxemburgo y Morelia tomados del título de la página de Flashscore. Sin leer la apuesta abierta de Betano ni la pata que falló en cada boleto. Inter Bogotá–Santa Fe en curso. Pendiente: córners, tarjetas, remates, jugadores y 1T/2T.
+- Nuevo: `recoleccion/calificar_lineas.py` (califica líneas de equipo con un JSON de resultados) y `recoleccion/balance_html.py`.

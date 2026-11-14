@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-13 | 21:55 | Balance parcial 12 y 13-nov: tus 18 boletos de Betano, mis 38 picks del 12-nov y las líneas de goles del pipeline (HTML con filtros y «cumple» ajustable) | 12-noche y 13-nov (14 partidos) | `2026-11-13/2155_balance-12-13nov_parcial.html` |
 | 2026-11-13 | 20:45 | Informe interactivo generado por `recoleccion/informe_html.py` (ejemplo con los 21 partidos del 14-nov: filtros, gráficos, cupón) | los 21 del 14-nov | `2026-11-13/2040_informe-interactivo-jornada-14nov.html` |
 | 2026-11-13 | ≈15:58 | En vivo: líneas atrasadas vs lo esperado + contexto | Países Bajos–Grecia, Escocia–Macedonia, Eslovenia–Suiza | `2026-11-13/1558_vivo-segundo-tiempo_contexto.md` |
 | 2026-11-13 | ≈15:50 | En vivo: líneas del 2.º tiempo con cuota y probabilidad | los 3 anteriores | `2026-11-13/1550_vivo-segundo-tiempo_probabilidades.md` |
