@@ -28,7 +28,7 @@ Goles y tarjetas salen en la ficha (`goles`, `tarjetas`) pero **no entran en el 
 Todo **informe, análisis, balance, combinada, lectura en vivo o resumen con líneas/probabilidades** que se entregue al usuario en el chat se guarda en el repo **en la misma respuesta**, sin que él lo pida:
 1. Copia del contenido en `entregas/AAAA-MM-DD/HHMM_tema[_partido].md` (hora de Bogotá de la entrega; `.html` si fue una página o artefacto; texto íntegro, no un resumen). Debe llevar arriba: fecha y hora, fuente y hora de las cuotas, y los límites (qué no se leyó).
 2. Una línea nueva (la más reciente arriba) en `entregas/INDICE.md`: fecha, hora, tema, partido(s), archivo.
-3. `git add`, commit y push **a la rama en uso**; si estás en `main`, crea una rama primero (`entregas/AAAA-MM-DD`). Nunca force-push ni reescribir historia. Si el push es rechazado: `git pull --rebase` y reintentar.
+3. `git add`, commit y push **a la rama en uso**. Desde el 13-nov-2026 la rama de trabajo normal de TODAS las cuentas y sesiones es **`main`** (la rama `recoleccion/2026-11-14` ya está fusionada): `git pull --rebase` antes de empezar, commits pequeños y push directo a `main`. Nunca force-push ni reescribir historia. Si el push es rechazado: `git pull --rebase` y reintentar.
 4. Al terminar la respuesta, decir en una línea que quedó guardada y dónde.
 No se guardan las respuestas cortas o de conversación (sin líneas, probabilidades ni balances). Si una sesión no tiene acceso a git, decirlo y dejar el texto en el chat para que el usuario lo guarde. `entregas/` no reemplaza a `registro/` (datos para calificar) ni a `jornadas/` (datos y salidas del pipeline).
 
