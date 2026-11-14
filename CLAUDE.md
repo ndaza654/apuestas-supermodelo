@@ -24,6 +24,14 @@ Responder siempre en **español**; horas en **Bogotá (UTC−5)**.
 `corners`, `partido`, `jugadores` (los 3 mercados de prueba) y `goles-resultado`, `tarjetas`, `combinadas`, `calificacion`. Cada uno trabaja sobre la ficha y el informe del partido; `combinadas` va después de los demás y `calificacion` al día siguiente con los resultados en `jornadas/AAAA-MM-DD/resultados/`.
 Goles y tarjetas salen en la ficha (`goles`, `tarjetas`) pero **no entran en el ranking** de aptos. Tarjetas: Betano cuenta en puntos y Flashscore solo trae amarillas (la serie queda por debajo si hubo rojas).
 
+## Entregas (memoria de lo que se publica en el chat) — vale para CUALQUIER chat, cuenta o sesión
+Todo **informe, análisis, balance, combinada, lectura en vivo o resumen con líneas/probabilidades** que se entregue al usuario en el chat se guarda en el repo **en la misma respuesta**, sin que él lo pida:
+1. Copia del contenido en `entregas/AAAA-MM-DD/HHMM_tema[_partido].md` (hora de Bogotá de la entrega; `.html` si fue una página o artefacto; texto íntegro, no un resumen). Debe llevar arriba: fecha y hora, fuente y hora de las cuotas, y los límites (qué no se leyó).
+2. Una línea nueva (la más reciente arriba) en `entregas/INDICE.md`: fecha, hora, tema, partido(s), archivo.
+3. `git add`, commit y push **a la rama en uso**; si estás en `main`, crea una rama primero (`entregas/AAAA-MM-DD`). Nunca force-push ni reescribir historia. Si el push es rechazado: `git pull --rebase` y reintentar.
+4. Al terminar la respuesta, decir en una línea que quedó guardada y dónde.
+No se guardan las respuestas cortas o de conversación (sin líneas, probabilidades ni balances). Si una sesión no tiene acceso a git, decirlo y dejar el texto en el chat para que el usuario lo guarde. `entregas/` no reemplaza a `registro/` (datos para calificar) ni a `jornadas/` (datos y salidas del pipeline).
+
 ## Contexto de la sesión (que no se llene)
 - Una sesión por jornada. Empezar leyendo `jornadas/AAAA-MM-DD/ranking.md` y `ESTADO.md`; la ficha de un partido solo cuando se va a analizar. No abrir los JSON crudos de `flashscore/` ni `betano/`.
 - Los agentes escriben su detalle en archivos (`jornadas/AAAA-MM-DD/agentes/<partido>_<agente>.md`) y devuelven al chat solo un resumen corto (las 5 mejores líneas y los límites).
