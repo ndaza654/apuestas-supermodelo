@@ -9,6 +9,7 @@ Actualizado: vie 13-nov-2026 ~23:10 Bogotá (análisis e informe entregados). Ra
 - Agentes (detalle en `agentes/jornada_<agente>.md`): córners, partido, goles-resultado, tarjetas y combinadas. Jugadores no se corrió: sin historial no hay nada que analizar.
 - Anomalía Mirassol–Atlético-MG: revisada, es coherente (Betano publica escaleras de 23 líneas en tiros al arco, remates y saques de meta; no hay línea mal leída ni equipo cambiado). Cuidado con remates del visitante y saques de meta: series infladas por partidos muy desiguales.
 - Situación: se leyó lo que hay en las fichas (tabla, clima, tipo de competición); sigue sin previa, motivación ni rotación, así que los 21 quedan en «reserva».
+- Boleto abierto del usuario (captura suya, 13-nov 23:22): combinada de 3 Bet Builder, $13.450 a 7,60 (Japón–Brasil, Valladolid–Castellón, Kosovo–Israel), **pendiente**. Guardado en `boletos_usuario.json`; lectura en `entregas/2026-11-13/2324_lectura-boleto-abierto.md` (p conjunta 11 % por simulación, EV −13 %).
 
 ## Recolectado y en el repo (todo con hash verificado contra el navegador)
 | Qué | Dónde | Cobertura |

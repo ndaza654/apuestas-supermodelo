@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-13 | 23:24 | Lectura de tu boleto abierto (combinada de 3 Bet Builder, $13.450 a cuota 7,60): p conjunta 11 % por simulación, EV −13 %, pata por pata | Japón–Brasil, Valladolid–Castellón, Kosovo–Israel | `2026-11-13/2324_lectura-boleto-abierto.md` |
 | 2026-11-13 | 23:10 | Informe de la jornada del 14-nov con análisis: «Enfoque de mercados», real hasta hoy y 58 sugerencias con las reglas de la auditoría (38 protecciones, 15 sencillas 1,50–1,99, 4 combinadas de 2 patas, 1 lotería); muestra de 7, cumple 5 de 7 (HTML con filtros y cupón) | los 21 del 14-nov | `2026-11-13/2310_informe-jornada-14nov.html` |
 | 2026-11-13 | 22:30 | Mensaje de contexto para un chat nuevo (conectar al repo, cómo funciona todo, estado, tarea programada 3:45 a. m.) | — | `2026-11-13/2230_mensaje-nuevo-chat.md` |
 | 2026-11-13 | 22:08 | Auditoría de TODO lo que sugerí (336: sencillas, combinadas, Bet Builder, en vivo) calificado pata por pata, con filtros y qué cambio en las combinadas (HTML) | 4–13 nov (varios) | `2026-11-13/2208_auditoria-sugerencias.html` |

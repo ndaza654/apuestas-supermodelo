@@ -1,0 +1,17 @@
+{
+ "nota": "Boletos del usuario leídos de capturas suyas de Betano (solo lectura; Claude no entra a Betano). Para el balance del 14-nov.",
+ "boletos": [
+  {"leido": "2026-11-13 23:22 (captura del usuario, pestaña Abiertas)", "tipo": "Combinada de 3 Bet Builder", "apuesta_cop": 13450, "cuota": 7.60, "ganancia_potencial_cop": 102251, "estado": "pendiente",
+   "selecciones": [
+    {"partido": "Japón - Brasil", "hora": "2026-11-14 05:15", "cuota_bet_builder": 2.02, "patas": [
+      {"texto": "Brasil Tarjetas Totales Más de 0.5", "clave": ["Japón - Brasil", "tarjetas", "visitante", "0.5", "Más"]},
+      {"texto": "Tiros de esquina Más de 7.5", "clave": ["Japón - Brasil", "corners", "total", "7.5", "Más"]}]},
+    {"partido": "Real Valladolid - CD Castellón", "hora": "2026-11-14 08:00", "cuota_bet_builder": 1.95, "patas": [
+      {"texto": "Tarjetas Totales Más de 5.5", "clave": ["Real Valladolid - CD Castellón", "tarjetas", "total", "5.5", "Más"]},
+      {"texto": "Goles totales Más de 1.5", "clave": ["Real Valladolid - CD Castellón", "goles", "total", "1.5", "Más"]}]},
+    {"partido": "Kosovo - Israel", "hora": "2026-11-14 09:00", "cuota_bet_builder": 1.93, "patas": [
+      {"texto": "Tiros de esquina Menos 9.5", "clave": ["Kosovo - Israel", "corners", "total", "9.5", "Menos"]},
+      {"texto": "Israel - Goles totales Menos 1.5", "clave": ["Kosovo - Israel", "goles", "visitante", "1.5", "Menos"]}]}],
+   "lectura_claude": {"p_conjunta_simulacion": 0.1144, "p_con_recorte_auditoria": 0.0586, "p_stress": 0.0900, "cuota_justa": 8.74, "ev": -0.130, "entrega": "entregas/2026-11-13/2324_lectura-boleto-abierto.md"}}
+ ]
+}
