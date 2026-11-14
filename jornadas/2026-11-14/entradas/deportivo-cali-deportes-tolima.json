@@ -58,7 +58,7 @@
 "mercado": "goles",
 "ambito": "total",
 "linea": 3.5,
-"mas": 3.85,
+"mas": 3.8,
 "menos": 1.24
 },
 {
@@ -115,14 +115,14 @@
 "ambito": "1T",
 "linea": 0.5,
 "mas": 1.52,
-"menos": 2.45
+"menos": 2.42
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 0.75,
-"mas": 1.72,
-"menos": 2.07
+"mas": 1.75,
+"menos": 2.05
 },
 {
 "mercado": "goles",
@@ -184,49 +184,49 @@
 "mercado": "goles",
 "ambito": "local",
 "linea": 0.5,
-"mas": 1.32,
-"menos": 3.2
+"mas": 1.33,
+"menos": 3.15
 },
 {
 "mercado": "goles",
 "ambito": "local",
 "linea": 1.5,
-"mas": 2.42,
-"menos": 1.52
+"mas": 2.45,
+"menos": 1.5
 },
 {
 "mercado": "goles",
 "ambito": "local",
 "linea": 2.5,
-"mas": 5.2,
-"menos": 1.14
+"mas": 5.3,
+"menos": 1.13
 },
 {
 "mercado": "goles",
 "ambito": "local",
 "linea": 3.5,
-"mas": 9.75,
+"mas": 10.0,
 "menos": 1.03
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 0.5,
-"mas": 1.45,
-"menos": 2.62
+"mas": 1.42,
+"menos": 2.7
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 1.5,
-"mas": 3.05,
-"menos": 1.35
+"mas": 3.0,
+"menos": 1.36
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 2.5,
-"mas": 7.1,
+"mas": 7.0,
 "menos": 1.08
 },
 {
@@ -304,36 +304,36 @@
 {
 "mercado": "resultado",
 "opciones": {
-"1": 2.32,
-"X": 3.25,
-"2": 3.25,
-"1X": 1.38,
-"X2": 1.65,
-"12": 1.33
+"1": 2.4,
+"X": 3.15,
+"2": 3.15,
+"1X": 1.39,
+"X2": 1.6,
+"12": 1.34
 }
 },
 {
 "mercado": "resultado_1t",
 "opciones": {
-"1": 2.95,
-"X": 1.98,
+"1": 3.0,
+"X": 1.95,
 "2": 3.8
 }
 },
 {
 "mercado": "resultado_2t",
 "opciones": {
-"1": 2.65,
-"X": 2.35,
-"2": 3.4
+"1": 2.72,
+"X": 2.32,
+"2": 3.3
 }
 },
 {
 "mercado": "htft_o",
 "opciones": {
-"1": 1.85,
+"1": 1.9,
 "X": 1.6,
-"2": 2.37
+"2": 2.35
 }
 },
 {
@@ -357,8 +357,8 @@
 {
 "mercado": "ambos",
 "opciones": {
-"si": 1.88,
-"no": 1.82
+"si": 1.87,
+"no": 1.83
 }
 },
 {
@@ -380,399 +380,104 @@
 {
 "mercado": "htft",
 "opciones": {
-"1/1": 3.8,
-"1/X": 14.0,
-"1/2": 40.0,
-"X/1": 5.2,
-"X/X": 4.5,
-"X/2": 6.8,
+"1/1": 3.95,
+"1/X": 13.5,
+"1/2": 37.0,
+"X/1": 5.3,
+"X/X": 4.4,
+"X/2": 6.7,
 "2/1": 35.0,
 "2/X": 15.5,
-"2/2": 5.4
+"2/2": 5.3
 }
 },
 {
 "mercado": "handicap",
 "h": -3.0,
 "opciones": {
-"local": 25.0,
-"empate": 12.0,
-"visitante": 1.06
+"local": 27.0,
+"empate": 12.5,
+"visitante": 1.05
 }
 },
 {
 "mercado": "handicap",
 "h": -2.0,
 "opciones": {
-"local": 11.5,
-"empate": 6.6,
-"visitante": 1.2
+"local": 12.5,
+"empate": 6.9,
+"visitante": 1.19
 }
 },
 {
 "mercado": "handicap",
 "h": -1.0,
 "opciones": {
-"local": 4.8,
-"empate": 3.95,
-"visitante": 1.65
+"local": 5.1,
+"empate": 4.0,
+"visitante": 1.6
 }
 },
 {
 "mercado": "handicap",
 "h": 1.0,
 "opciones": {
-"local": 1.38,
-"empate": 4.7,
-"visitante": 7.7
+"local": 1.39,
+"empate": 4.6,
+"visitante": 7.6
 }
 },
 {
 "mercado": "handicap",
 "h": 2.0,
 "opciones": {
-"local": 1.1,
-"empate": 9.0,
-"visitante": 20.0
+"local": 1.11,
+"empate": 8.75,
+"visitante": 19.5
 }
 },
 {
 "mercado": "handicap",
 "h": -0.75,
 "opciones": {
-"local": 2.67,
-"visitante": 1.45
+"local": 2.8,
+"visitante": 1.42
 }
 },
 {
 "mercado": "handicap",
 "h": -0.5,
 "opciones": {
-"local": 2.25,
-"visitante": 1.62
+"local": 2.32,
+"visitante": 1.6
 }
 },
 {
 "mercado": "handicap",
 "h": -0.25,
 "opciones": {
-"local": 1.93,
-"visitante": 1.83
+"local": 2.0,
+"visitante": 1.78
 }
 },
 {
 "mercado": "handicap",
 "h": 0.0,
 "opciones": {
-"local": 1.62,
-"visitante": 2.25
+"local": 1.67,
+"visitante": 2.18
 }
 },
 {
 "mercado": "handicap",
 "h": 0.25,
 "opciones": {
-"local": 1.47,
-"visitante": 2.65
+"local": 1.5,
+"visitante": 2.57
 }
 }
 ],
-"jugadores": [
-{
-"jugador": "Steven Rodriguez",
-"lado": "local",
-"stat": "anota",
-"cuota": 2.7
-},
-{
-"jugador": "Carlos Bacca",
-"lado": "local",
-"stat": "anota",
-"cuota": 2.8
-},
-{
-"jugador": "Juan Dinenno",
-"lado": "local",
-"stat": "anota",
-"cuota": 2.8
-},
-{
-"jugador": "Adrián Parra",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 3.1
-},
-{
-"jugador": "Jean Sebastian Galindo",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.35
-},
-{
-"jugador": "Aviles Hurtado",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.35
-},
-{
-"jugador": "Johan Andres Martinez",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.35
-},
-{
-"jugador": "Luis Sandoval",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 3.65
-},
-{
-"jugador": "Jader Valencia",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 3.65
-},
-{
-"jugador": "Eduard Bello",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.9
-},
-{
-"jugador": "Jeinner Fuentes",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 3.9
-},
-{
-"jugador": "Neifer Sanchez",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 3.9
-},
-{
-"jugador": "Kelvin Florez",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 4.25
-},
-{
-"jugador": "Ever Valencia",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 4.25
-},
-{
-"jugador": "Alexis Manyoma",
-"lado": "local",
-"stat": "anota",
-"cuota": 4.65
-},
-{
-"jugador": "Emanuel Reynoso",
-"lado": "local",
-"stat": "anota",
-"cuota": 4.65
-},
-{
-"jugador": "Jorge Cabezas",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 4.65
-},
-{
-"jugador": "Luis Sanchez",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 5.4
-},
-{
-"jugador": "Edwar Lopez",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 5.7
-},
-{
-"jugador": "Sebastián Guzmán",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 5.7
-},
-{
-"jugador": "Yoimar Estiven Moreno",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 5.7
-},
-{
-"jugador": "Daniel Giraldo",
-"lado": "local",
-"stat": "anota",
-"cuota": 6.5
-},
-{
-"jugador": "Ronaldo Pajaro",
-"lado": "local",
-"stat": "anota",
-"cuota": 6.5
-},
-{
-"jugador": "Brayan Rovira",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 6.8
-},
-{
-"jugador": "Gustavo Cuellar",
-"lado": "local",
-"stat": "anota",
-"cuota": 7.2
-},
-{
-"jugador": "Joan Gomez",
-"lado": "local",
-"stat": "anota",
-"cuota": 7.2
-},
-{
-"jugador": "Victor Reyes",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 7.2
-},
-{
-"jugador": "Santiago Martínez",
-"lado": "local",
-"stat": "anota",
-"cuota": 7.8
-},
-{
-"jugador": "Miguel Correa",
-"lado": "local",
-"stat": "anota",
-"cuota": 7.8
-},
-{
-"jugador": "Cristian Trujillo",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 7.8
-},
-{
-"jugador": "Cristian Arrieta",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 7.8
-},
-{
-"jugador": "Homer Martinez",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 7.8
-},
-{
-"jugador": "Santiago Joven",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 7.8
-},
-{
-"jugador": "Junior Hernandez",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 9.75
-},
-{
-"jugador": "Jherson Mosquera",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 9.75
-},
-{
-"jugador": "Jose Caldera",
-"lado": "local",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Leyser Chaverra",
-"lado": "local",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Keimer Sandoval",
-"lado": "local",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Juan Tello",
-"lado": "local",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Edwin Velasco",
-"lado": "local",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Fabian Viafara",
-"lado": "local",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Jose Moya",
-"lado": "local",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Juan Mera",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Daniel Pedrozo",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Jan Angulo",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Shean Barbosa",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Fernando Alvarez",
-"lado": "local",
-"stat": "anota",
-"cuota": 13.5
-},
-{
-"jugador": "Anderson Angulo",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 15.5
-},
-{
-"jugador": "Yordan Osorio",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 15.5
-}
-],
+"jugadores": [],
 "parejas": []
 },
 "jugadores": [],
@@ -1786,8 +1491,7 @@
 },
 "faltan": [
 "lectura de la situación (importancia, motivación, rotación, tabla)",
-"historial por jugador (remates, tiros al arco): sin él los mercados de jugadores no se pueden filtrar",
-"alineación probable (titularidad de cada jugador)"
+"historial por jugador (remates, tiros al arco): sin él los mercados de jugadores no se pueden filtrar"
 ],
 "clima": {
 "temperatura": 25.3,
@@ -1826,5 +1530,5 @@
 }
 },
 "estadio": "Estadio Deportivo Cali",
-"cuotas_leidas": "Cuotas de Betano leídas 2026-11-14T00:07:03.669Z · 166 mercados"
+"cuotas_leidas": "Cuotas de Betano leídas 2026-11-14T19:06:07.857Z · 166 mercados"
 }

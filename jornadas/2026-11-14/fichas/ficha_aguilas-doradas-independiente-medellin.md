@@ -1,5 +1,5 @@
 # Ficha — Aguilas Doradas - Independiente Medellín
-Colombia Categoría Primera A · 2026-11-14 15:30 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T00:06:12.968Z · 166 mercados
+Colombia Categoría Primera A · 2026-11-14 15:30 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T19:06:07.156Z · 166 mercados
 
 Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.

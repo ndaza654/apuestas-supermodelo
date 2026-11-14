@@ -1,6 +1,6 @@
 # Informe de la jornada 2026-11-14
 
-Hecho: 2026-11-14 14:02 (Bogotá) · Cuotas: Betano, leídas 13-nov 19:01 a 14-nov 13:56 (Bogotá), sin releer · Muestra de 7 partidos por equipo: «cumple» = 5 de 7 en ambos (n mínimo 5) · 444 líneas de equipo cumplen. El informe interactivo es `informe.html`.
+Hecho: 2026-11-14 14:10 (Bogotá) · Cuotas: Betano, leídas 13-nov 19:01 a 14-nov 14:06 (Bogotá), sin releer · Muestra de 7 partidos por equipo: «cumple» = 5 de 7 en ambos (n mínimo 5) · 444 líneas de equipo cumplen. El informe interactivo es `informe.html`.
 
 ## Enfoque de mercados
 
@@ -79,7 +79,6 @@ Hecho: 2026-11-14 14:02 (Bogotá) · Cuotas: Betano, leídas 13-nov 19:01 a 14-n
 | 08:00 | Real Valladolid - CD Castellón | Goles visitante Más 0.5 | 1,21 | 80 % | 75 % | 5 de 7 | 6 de 7 | 1 de 2 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:00 | Georgia - Hungría | Goles Menos 3.5 | 1,20 | 82 % | 75 % | 5 de 7 | 5 de 7 | 1 de 1 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:30 | UD Almeria - FC Andorra | Córners Menos 12.5 | 1,21 | 79 % | 75 % | 6 de 7 | 6 de 7 | 1 de 2 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
-| 15:30 | Millonarios FC - Alianza FC | Goles local Menos 3.5 | 1,20 | 82 % | 75 % | 6 de 7 | 7 de 7 | 6 de 6 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 18:30 | Chapecoense SC - Vasco da Gama RJ | Córners Menos 12.5 | 1,21 | 79 % | 74 % | 6 de 7 | 6 de 7 | 2 de 3 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 05:15 | Japón - Brasil | Goles Menos 4.5 | 1,20 | 82 % | 74 % | 7 de 7 | 7 de 7 | 1 de 1 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 09:00 | Kosovo - Israel | Córners Menos 10.5 | 1,24 | 79 % | 74 % | 7 de 7 | 6 de 7 | 3 de 3 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
@@ -88,19 +87,20 @@ Hecho: 2026-11-14 14:02 (Bogotá) · Cuotas: Betano, leídas 13-nov 19:01 a 14-n
 | 05:15 | Japón - Brasil | Goles Más 1.5 | 1,23 | 80 % | 74 % | 5 de 7 | 6 de 7 | 1 de 1 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Tiros al arco visitante Menos 5.5 | 1,22 | 79 % | 74 % | 5 de 7 | 5 de 7 | 2 de 3 | Tiros al arco Menos con «cumple»: 9 de 10 (90% real contra 79% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 14:45 | Rumanía - Polonia | Goles Más 1.5 | 1,22 | 79 % | 74 % | 5 de 7 | 5 de 7 | 1 de 1 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
+| 15:30 | Atletico Nacional - Once Caldas | Goles local Menos 2.5 | 1,21 | 81 % | 74 % | 5 de 7 | 7 de 7 | 5 de 6 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 18:30 | Chapecoense SC - Vasco da Gama RJ | Goles Menos 4.5 | 1,22 | 81 % | 73 % | 6 de 7 | 5 de 7 | 3 de 3 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 08:00 | Real Valladolid - CD Castellón | Goles Más 1.5 | 1,24 | 79 % | 73 % | 6 de 7 | 6 de 7 | 1 de 2 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:00 | Noruega - Gales | Tiros al arco visitante Más 1.5 | 1,24 | 78 % | 73 % | 7 de 7 | 5 de 7 | 1 de 1 | Tiros al arco Más con «cumple»: 9 de 10 (90% real contra 78% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 17:00 | CA Banfield - Boca Juniors | Córners Menos 10.5 | 1,24 | 77 % | 73 % | 5 de 7 | 5 de 7 | 4 de 5 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
-| 15:30 | Atletico Nacional - Once Caldas | Goles Más 1.5 | 1,25 | 78 % | 72 % | 6 de 7 | 5 de 7 | 4 de 6 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Saques de meta Más 13.5 | 1,21 | 77 % | 72 % | 6 de 7 | 7 de 7 | – | Saques de meta Más con «cumple»: sin líneas calificadas todavía (se usa el global: 73% real contra 77% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
+| 15:30 | Millonarios FC - Alianza FC | Goles local Menos 3.5 | 1,23 | 80 % | 72 % | 6 de 7 | 7 de 7 | 6 de 6 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 14:45 | Irlanda del Norte - Ucrania | Córners Menos 10.5 | 1,25 | 77 % | 72 % | 5 de 7 | 5 de 7 | 1 de 1 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
+| 15:30 | Atletico Nacional - Once Caldas | Goles Más 1.5 | 1,25 | 78 % | 72 % | 6 de 7 | 5 de 7 | 4 de 6 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:30 | RCD Mallorca - Cordoba CF | Goles Menos 4.5 | 1,24 | 79 % | 72 % | 7 de 7 | 6 de 7 | – | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:30 | UD Almeria - FC Andorra | Goles Menos 4.5 | 1,24 | 79 % | 72 % | 6 de 7 | 5 de 7 | 1 de 2 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 17:00 | CA Banfield - Boca Juniors | Tiros al arco local Menos 4.5 | 1,26 | 76 % | 72 % | 5 de 7 | 7 de 7 | 3 de 5 | Tiros al arco Menos con «cumple»: 9 de 10 (90% real contra 79% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Remates local Menos 19.5 | 1,24 | 76 % | 72 % | 6 de 7 | 5 de 7 | 1 de 3 | ⚠ directos en contra (1 de 3) · Remates Menos con «cumple»: 9 de 13 (69% real contra 62% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
-| 15:30 | Deportivo Cali - Deportes Tolima | Goles Menos 3.5 | 1,24 | 79 % | 72 % | 6 de 7 | 5 de 7 | 6 de 6 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
-| 15:30 | Atletico Nacional - Once Caldas | Goles visitante Más 0.5 | 1,26 | 77 % | 71 % | 5 de 7 | 7 de 7 | 4 de 6 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
+| 15:30 | Deportivo Cali - Deportes Tolima | Goles Menos 3.5 | 1,24 | 78 % | 71 % | 6 de 7 | 5 de 7 | 6 de 6 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:30 | RCD Mallorca - Cordoba CF | Córners Menos 12.5 | 1,27 | 75 % | 71 % | 7 de 7 | 5 de 7 | – | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 14:45 | Suecia - Bosnia y Herzegovina | Córners Menos 10.5 | 1,30 | 76 % | 71 % | 7 de 7 | 7 de 7 | 1 de 1 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota 1,30–1,49: 24 de 37 (65% real contra 70%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Tiros al arco Menos 11.5 | 1,28 | 75 % | 71 % | 6 de 7 | 5 de 7 | 2 de 3 | Tiros al arco Menos con «cumple»: 9 de 10 (90% real contra 79% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
@@ -127,7 +127,7 @@ Hecho: 2026-11-14 14:02 (Bogotá) · Cuotas: Betano, leídas 13-nov 19:01 a 14-n
 | 18:00 | Queretaro FC - CF Monterrey | Remates local Más 10.5 | 1,52 | 62 % | 56 % | 5 de 7 | 5 de 7 | 0 de 6 | ⚠ directos en contra (0 de 6) · Remates Más con «cumple»: 3 de 4 (75% real contra 77% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Saques de meta Más 15.5 | 1,50 | 62 % | 56 % | 6 de 7 | 6 de 7 | – | Saques de meta Más con «cumple»: sin líneas calificadas todavía (se usa el global: 73% real contra 77% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Remates visitante Más 11.5 | 1,52 | 61 % | 56 % | 5 de 7 | 5 de 7 | 2 de 3 | Remates Más con «cumple»: 3 de 4 (75% real contra 77% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
-| 15:30 | Millonarios FC - Alianza FC | Goles local Menos 2.5 | 1,55 | 61 % | 55 % | 6 de 7 | 6 de 7 | 6 de 6 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
+| 15:30 | Atletico Nacional - Once Caldas | Goles visitante Menos 1.5 | 1,55 | 61 % | 56 % | 6 de 7 | 5 de 7 | 6 de 6 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
 | 12:30 | UD Almeria - FC Andorra | Córners visitante Más 3.5 | 1,55 | 64 % | 55 % | 5 de 7 | 5 de 7 | 2 de 2 | Córners Más con «cumple»: 24 de 39 (62% real contra 76% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
 
 ## Combinadas de 2 patas del mismo partido — 4
@@ -145,7 +145,7 @@ Familias fuera de las combinadas por alerta del modelo: Chapecoense SC - Vasco d
 
 ## Lotería (3 patas de 3 partidos; solo stake mínimo)
 
-Atletico Nacional - Once Caldas: Goles Más 1.5 + Irlanda del Norte - Ucrania: Córners Menos 10.5 + CA Banfield - Boca Juniors: Tiros al arco local Menos 4.5 · cuota 1,97 · p del modelo 46 % · p recortada 38 %.
+Irlanda del Norte - Ucrania: Córners Menos 10.5 + Atletico Nacional - Once Caldas: Goles Más 1.5 + CA Banfield - Boca Juniors: Tiros al arco local Menos 4.5 · cuota 1,97 · p del modelo 46 % · p recortada 38 %.
 
 ## Situación por partido (lo que hay en las fichas)
 
@@ -164,9 +164,9 @@ Atletico Nacional - Once Caldas: Goles Más 1.5 + Irlanda del Norte - Ucrania: C
 | 14:45 | Rumanía - Polonia | 18 % · 24 % · 57 % | local: 4.º Rumanía 0 pts en 4 PJ (DG -10) · GRUPO 4 | visitante: 3.º Polonia 4 pts en 4 PJ (DG +3) · GRUPO 4 | Gishamer S. | sin alineación | 10 | Córners |
 | 14:45 | Suecia - Bosnia y Herzegovina | 66 % · 21 % · 13 % | local: 1.º Suecia 10 pts en 4 PJ (DG +4) · GRUPO 4 | visitante: 2.º Bosnia-Herzegovina 8 pts en 4 PJ (DG +3) · GRUPO 4 | Sozza S. | sin alineación | 24 | Córners |
 | 15:30 | Aguilas Doradas - Independiente Medellín | 39 % · 28 % · 33 % | local: 10.º Águilas Doradas 25 pts en 18 PJ (DG +1) | visitante: 6.º Ind. Medellín 29 pts en 18 PJ (DG +3) | Roldan W. | sin alineación | 11 | – |
-| 15:30 | Atletico Nacional - Once Caldas | 37 % · 28 % · 35 % | local: 1.º Atl. Nacional 39 pts en 18 PJ (DG +20) | visitante: 8.º Once Caldas 27 pts en 18 PJ (DG +4) | Rojas A. | sin alineación | 11 | Córners |
-| 15:30 | Deportivo Cali - Deportes Tolima | 41 % · 30 % · 29 % | local: 2.º Deportivo Cali 34 pts en 18 PJ (DG +16) | visitante: 9.º Tolima 26 pts en 18 PJ (DG +2) | Ortega C. | sin alineación | 8 | – |
-| 15:30 | Millonarios FC - Alianza FC | 75 % · 17 % · 7 % | local: 7.º Millonarios 27 pts en 18 PJ (DG +9) | visitante: 16.º Alianza 18 pts en 18 PJ (DG -13) | Ulloa D. | sin alineación | 11 | Córners |
+| 15:30 | Atletico Nacional - Once Caldas | 41 % · 27 % · 32 % | local: 1.º Atl. Nacional 39 pts en 18 PJ (DG +20) | visitante: 8.º Once Caldas 27 pts en 18 PJ (DG +4) | Rojas A. | sin alineación | 11 | Córners |
+| 15:30 | Deportivo Cali - Deportes Tolima | 41 % · 30 % · 30 % | local: 2.º Deportivo Cali 34 pts en 18 PJ (DG +16) | visitante: 9.º Tolima 26 pts en 18 PJ (DG +2) | Ortega C. | sin alineación | 8 | – |
+| 15:30 | Millonarios FC - Alianza FC | 80 % · 15 % · 5 % | local: 7.º Millonarios 27 pts en 18 PJ (DG +9) | visitante: 16.º Alianza 18 pts en 18 PJ (DG -13) | Ulloa D. | sin alineación | 11 | Córners |
 | 16:30 | Mirassol SP - Clube Atletico MG | 49 % · 27 % · 24 % | local: 14.º Mirassol 40 pts en 34 PJ (DG -9) | visitante: 7.º Atlético-MG 50 pts en 34 PJ (DG +4) | Sampaio S. | probable | 70 | – |
 | 17:00 | CA Banfield - Boca Juniors | 12 % · 24 % · 64 % | sin tabla | sin publicar | sin alineación | 16 | – |
 | 18:00 | Queretaro FC - CF Monterrey | 26 % · 25 % · 49 % | local: 12.º Querétaro 20 pts en 15 PJ (DG -5) | visitante: 10.º Monterrey 21 pts en 15 PJ (DG +1) | sin publicar | probable | 20 | – |

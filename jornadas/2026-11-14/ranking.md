@@ -16,15 +16,15 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 | 10 | UD Almeria - FC Andorra | sin leer | reserva | reserva (100 · 7) | no lo ofrece | no apto (46 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 46 < 60 |
 | 11 | Queretaro FC - CF Monterrey | sin leer | reserva | reserva (100 · 1) | reserva (80 · 4) | no apto (50 · 0) | situación sin leer; jugadores: datos 50 < 60 |
 | 12 | Japón - Brasil | sin leer | reserva | reserva (100 · 5) | no lo ofrece | no apto (50 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 50 < 60 |
-| 13 | RCD Mallorca - Cordoba CF | sin leer | reserva | reserva (100 · 3) | no lo ofrece | no apto (46 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 46 < 60 |
-| 14 | Deportivo Cali - Deportes Tolima | sin leer | reserva | reserva (96 · 3) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
-| 15 | Rumanía - Polonia | sin leer | reserva | reserva (100 · 1) | reserva (90 · 1) | no lo ofrece | situación sin leer; jugadores: Betano no lo ofrece |
-| 16 | Aguilas Doradas - Independiente Medellín | sin leer | reserva | reserva (96 · 2) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
-| 17 | Real Sociedad II - Sporting de Gijón | sin leer | reserva | reserva (100 · 1) | no lo ofrece | no apto (47 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 47 < 60 |
-| 18 | Millonarios FC - Alianza FC | sin leer | reserva | reserva (96 · 1) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
-| 19 | Jamaica - México | sin leer | reserva | reserva (89 · 0) | no lo ofrece | no apto (47 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 47 < 60 |
-| 20 | Real Valladolid - CD Castellón | sin leer | reserva | reserva (100 · 0) | no lo ofrece | no apto (46 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 46 < 60 |
-| 21 | Atletico Nacional - Once Caldas | sin leer | reserva | reserva (96 · 0) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 13 | Deportivo Cali - Deportes Tolima | sin leer | reserva | reserva (96 · 3) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 14 | RCD Mallorca - Cordoba CF | sin leer | reserva | reserva (100 · 3) | no lo ofrece | no apto (46 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 46 < 60 |
+| 15 | Aguilas Doradas - Independiente Medellín | sin leer | reserva | reserva (96 · 2) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 16 | Rumanía - Polonia | sin leer | reserva | reserva (100 · 1) | reserva (90 · 1) | no lo ofrece | situación sin leer; jugadores: Betano no lo ofrece |
+| 17 | Millonarios FC - Alianza FC | sin leer | reserva | reserva (96 · 1) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 18 | Real Sociedad II - Sporting de Gijón | sin leer | reserva | reserva (100 · 1) | no lo ofrece | no apto (47 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 47 < 60 |
+| 19 | Atletico Nacional - Once Caldas | sin leer | reserva | reserva (96 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 20 | Jamaica - México | sin leer | reserva | reserva (89 · 0) | no lo ofrece | no apto (47 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 47 < 60 |
+| 21 | Real Valladolid - CD Castellón | sin leer | reserva | reserva (100 · 0) | no lo ofrece | no apto (46 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 46 < 60 |
 
 ## Mirassol SP - Clube Atletico MG (Brasil Brasileirao - Serie A)
 Datos 85 · Situación sin leer · por mercado: {'Córners': 1, 'Faltas': 1, 'Fueras de juego': 3, 'Saques de meta': 7, 'Remates': 8, 'Tiros al arco': 6}
@@ -110,6 +110,13 @@ Datos 75 · Situación sin leer · por mercado: {'Córners': 5}
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -6 2 duda(s) abierta(s) en la ficha
 
+## Deportivo Cali - Deportes Tolima (Colombia Categoría Primera A)
+Datos 100 · Situación sin leer · por mercado: {'Córners': 3}
+
+**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: Betano no ofrece líneas de jugadores | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
+
 ## RCD Mallorca - Cordoba CF (España Segunda División)
 Datos 73 · Situación sin leer · por mercado: {'Córners': 3}
 
@@ -117,10 +124,10 @@ Datos 73 · Situación sin leer · por mercado: {'Córners': 3}
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
 
-## Deportivo Cali - Deportes Tolima (Colombia Categoría Primera A)
-Datos 63 · Situación sin leer · por mercado: {'Córners': 3}
+## Aguilas Doradas - Independiente Medellín (Colombia Categoría Primera A)
+Datos 100 · Situación sin leer · por mercado: {'Córners': 2}
 
-**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 49 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
+**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: Betano no ofrece líneas de jugadores | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
@@ -131,12 +138,12 @@ Datos 95 · Situación sin leer · por mercado: {'Córners': 1, 'Remates': 1}
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
 
-## Aguilas Doradas - Independiente Medellín (Colombia Categoría Primera A)
-Datos 63 · Situación sin leer · por mercado: {'Córners': 2}
+## Millonarios FC - Alianza FC (Colombia Categoría Primera A)
+Datos 100 · Situación sin leer · por mercado: {'Córners': 1}
 
-**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 51 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
+**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: Betano no ofrece líneas de jugadores | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (76%, según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
 ## Real Sociedad II - Sporting de Gijón (España Segunda División)
 Datos 78 · Situación sin leer · por mercado: {'Córners': 1}
@@ -145,12 +152,12 @@ Datos 78 · Situación sin leer · por mercado: {'Córners': 1}
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
-## Millonarios FC - Alianza FC (Colombia Categoría Primera A)
-Datos 63 · Situación sin leer · por mercado: {'Córners': 1}
+## Atletico Nacional - Once Caldas (Colombia Categoría Primera A)
+Datos 100 · Situación sin leer · por mercado: ninguna línea cumple
 
-**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 55 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
+**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: Betano no ofrece líneas de jugadores | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (72%, según cuotas); -3 1 duda(s) abierta(s) en la ficha
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
 ## Jamaica - México (CONCACAF Nations League Play-offs)
 Datos 73 · Situación sin leer · por mercado: ninguna línea cumple
@@ -165,10 +172,3 @@ Datos 73 · Situación sin leer · por mercado: ninguna línea cumple
 **Datos:** Córners: 25 líneas, muestra de 7 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 16 con línea, 0% con ≥5 partidos de historial, 100% titulares probables → 46 | Árbitro con promedio: 0 (sin dato); directos con estadística: 2 (0)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
-
-## Atletico Nacional - Once Caldas (Colombia Categoría Primera A)
-Datos 63 · Situación sin leer · por mercado: ninguna línea cumple
-
-**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 50 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
-
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha

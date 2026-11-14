@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-14 | 14:48 | Reanálisis del bloque de las 15:30 (Primera A, fecha 19) con cuotas releídas (14:06) y la previa de Flashscore: líneas de 1,45 o más con regularidad y combinadas entre partidos; sin alineaciones | Águilas–Medellín, Nacional–Once Caldas, Cali–Tolima, Millonarios–Alianza | `2026-11-14/1448_reanalisis-bloque-1530.md` |
 | 2026-11-14 | 14:30 | Reanálisis del bloque de las 14:45 con cuotas releídas (13:56) y alineaciones oficiales: líneas de 1,45 o más que cumplen 5 de 7, tres Bet Builder de Portugal–Dinamarca y combinadas entre partidos | Portugal–Dinamarca, Irlanda del Norte–Ucrania, Rumanía–Polonia, Suecia–Bosnia | `2026-11-14/1430_reanalisis-bloque-1445.md` |
 | 2026-11-14 | 03:49 | Auditoría de todo el repo: 48 hallazgos (4 críticos, 13 altos, 15 medios, 7 bajos, 9 cosas que están bien), semáforo por área, plan priorizado y límites (HTML con filtros + versión en texto) | — (todo el repo, commit 11ce7af) | `2026-11-14/0349_auditoria-repo.html` y `2026-11-14/0349_auditoria-repo.md` |
 | 2026-11-13 | 23:24 | Lectura de tu boleto abierto (combinada de 3 Bet Builder, $13.450 a cuota 7,60): p conjunta 11 % por simulación, EV −13 %, pata por pata | Japón–Brasil, Valladolid–Castellón, Kosovo–Israel | `2026-11-13/2324_lectura-boleto-abierto.md` |

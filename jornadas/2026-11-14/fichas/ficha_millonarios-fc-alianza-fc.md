@@ -1,5 +1,5 @@
 # Ficha — Millonarios FC - Alianza FC
-Colombia Categoría Primera A · 2026-11-14 15:30 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T00:07:32.837Z · 164 mercados
+Colombia Categoría Primera A · 2026-11-14 15:30 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T19:06:08.221Z · 164 mercados
 
 Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -8,7 +8,7 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 
 | Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |
 |---|---|---|---|---|---|---|
-| Córners | visitante | Más 2.5 | 1.8 | +1.0 | 5 de 7 | 5 de 7 |
+| Córners | visitante | Más 2.5 | 1.65 | +1.0 | 5 de 7 | 5 de 7 |
 
 ## Córners
 
@@ -19,23 +19,23 @@ Muestra: local 7, visitante 7, directos 6. Esperado: local 5.29, visitante 3.5, 
 
 | Línea | Más | Menos |
 |---|---|---|
-| 7.5 | @1.31 · col +1.3 · L 4 de 7 · V 6 de 7 · D 3 de 6 | @3.25 · col -1.3 · L 3 de 7 · V 1 de 7 · D 3 de 6 |
-| 8.5 | @1.55 · col +0.3 · L 2 de 7 · V 5 de 7 · D 3 de 6 | @2.35 · col -0.3 · L 5 de 7 · V 2 de 7 · D 3 de 6 |
-| 9.5 | @1.93 · col -0.7 · L 2 de 7 · V 3 de 7 · D 3 de 6 | @1.82 · col +0.7 · L 5 de 7 · V 4 de 7 · D 3 de 6 |
-| 10.5 | @2.55 · col -1.7 · L 1 de 7 · V 3 de 7 · D 3 de 6 | @1.47 · col +1.7 · L 6 de 7 · V 4 de 7 · D 3 de 6 |
-| 11.5 | @3.45 · col -2.7 · L 0 de 7 · V 3 de 7 · D 2 de 6 | @1.28 · col +2.7 · L 7 de 7 · V 4 de 7 · D 4 de 6 |
+| 7.5 | @1.29 · col +1.3 · L 4 de 7 · V 6 de 7 · D 3 de 6 | @3.4 · col -1.3 · L 3 de 7 · V 1 de 7 · D 3 de 6 |
+| 8.5 | @1.52 · col +0.3 · L 2 de 7 · V 5 de 7 · D 3 de 6 | @2.45 · col -0.3 · L 5 de 7 · V 2 de 7 · D 3 de 6 |
+| 9.5 | @1.85 · col -0.7 · L 2 de 7 · V 3 de 7 · D 3 de 6 | @1.88 · col +0.7 · L 5 de 7 · V 4 de 7 · D 3 de 6 |
+| 10.5 | @2.42 · col -1.7 · L 1 de 7 · V 3 de 7 · D 3 de 6 | @1.52 · col +1.7 · L 6 de 7 · V 4 de 7 · D 3 de 6 |
+| 11.5 | @3.25 · col -2.7 · L 0 de 7 · V 3 de 7 · D 2 de 6 | @1.31 · col +2.7 · L 7 de 7 · V 4 de 7 · D 4 de 6 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 6.5 | @1.83 · col -1.2 · L 2 de 7 · V 2 de 7 · D 3 de 6 | — |
+| 6.5 | @1.87 · col -1.2 · L 2 de 7 · V 2 de 7 · D 3 de 6 | — |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.8 · col +1.0 · L 5 de 7 · V 5 de 7 · D 6 de 6 ✓ | — |
+| 2.5 | @1.65 · col +1.0 · L 5 de 7 · V 5 de 7 · D 6 de 6 ✓ | — |
 
 ## Estadísticas del partido
 
@@ -68,32 +68,32 @@ Muestra: local 7, visitante 7, directos 6. Esperado: local 1.43, visitante 1.14,
 | Línea | Más | Menos |
 |---|---|---|
 | 0.5 | @1.04 · col +2.1 · L 6 de 7 · V 7 de 7 · D 6 de 6 ✓ | @9.0 · col -2.1 · L 1 de 7 · V 0 de 7 · D 0 de 6 |
-| 1.5 | @1.23 · col +1.1 · L 6 de 7 · V 4 de 7 · D 6 de 6 | @3.85 · col -1.1 · L 1 de 7 · V 3 de 7 · D 0 de 6 |
-| 2.25 | @1.53 · col +0.3 · L 4 de 7 · V 4 de 7 · D 4 de 6 | @2.45 · col -0.3 · L 1 de 7 · V 3 de 7 · D 0 de 6 |
+| 1.5 | @1.23 · col +1.1 · L 6 de 7 · V 4 de 7 · D 6 de 6 | @3.9 · col -1.1 · L 1 de 7 · V 3 de 7 · D 0 de 6 |
+| 2.25 | @1.52 · col +0.3 · L 4 de 7 · V 4 de 7 · D 4 de 6 | @2.5 · col -0.3 · L 1 de 7 · V 3 de 7 · D 0 de 6 |
 | 2.5 | @1.7 · col +0.1 · L 4 de 7 · V 4 de 7 · D 4 de 6 | @2.07 · col -0.1 · L 3 de 7 · V 3 de 7 · D 2 de 6 |
-| 2.75 | @1.9 · col -0.2 · L 2 de 7 · V 2 de 7 · D 1 de 6 | @1.88 · col +0.2 · L 3 de 7 · V 3 de 7 · D 2 de 6 |
-| 3.0 | @2.18 · col -0.4 · L 2 de 7 · V 2 de 7 · D 1 de 6 | @1.67 · col +0.4 · L 3 de 7 · V 3 de 7 · D 2 de 6 |
-| 3.25 | @2.47 · col -0.7 · L 2 de 7 · V 2 de 7 · D 1 de 6 | @1.53 · col +0.7 · L 3 de 7 · V 3 de 7 · D 2 de 6 |
+| 2.75 | @1.88 · col -0.2 · L 2 de 7 · V 2 de 7 · D 1 de 6 | @1.9 · col +0.2 · L 3 de 7 · V 3 de 7 · D 2 de 6 |
+| 3.0 | @2.15 · col -0.4 · L 2 de 7 · V 2 de 7 · D 1 de 6 | @1.67 · col +0.4 · L 3 de 7 · V 3 de 7 · D 2 de 6 |
+| 3.25 | @2.45 · col -0.7 · L 2 de 7 · V 2 de 7 · D 1 de 6 | @1.53 · col +0.7 · L 3 de 7 · V 3 de 7 · D 2 de 6 |
 | 3.5 | @2.67 · col -0.9 · L 2 de 7 · V 2 de 7 · D 1 de 6 | @1.44 · col +0.9 · L 5 de 7 · V 5 de 7 · D 5 de 6 ✓ |
-| 4.5 | @4.65 · col -1.9 · L 1 de 7 · V 0 de 7 · D 0 de 6 | @1.17 · col +1.9 · L 6 de 7 · V 7 de 7 · D 6 de 6 ✓ |
-| 5.5 | @7.8 · col -2.9 · L 0 de 7 · V 0 de 7 · D 0 de 6 | @1.06 · col +2.9 · L 7 de 7 · V 7 de 7 · D 6 de 6 ✓ |
+| 4.5 | @4.6 · col -1.9 · L 1 de 7 · V 0 de 7 · D 0 de 6 | @1.17 · col +1.9 · L 6 de 7 · V 7 de 7 · D 6 de 6 ✓ |
+| 5.5 | @7.7 · col -2.9 · L 0 de 7 · V 0 de 7 · D 0 de 6 | @1.06 · col +2.9 · L 7 de 7 · V 7 de 7 · D 6 de 6 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.1 · col +0.9 · L 6 de 7 · V 5 de 7 · D 5 de 6 ✓ | @6.3 · col -0.9 · L 1 de 7 · V 2 de 7 · D 1 de 6 |
-| 1.5 | @1.45 · col -0.1 · L 2 de 7 · V 4 de 7 · D 3 de 6 | @2.6 · col +0.1 · L 5 de 7 · V 3 de 7 · D 3 de 6 |
-| 2.5 | @2.35 · col -1.1 · L 1 de 7 · V 1 de 7 · D 0 de 6 | @1.55 · col +1.1 · L 6 de 7 · V 6 de 7 · D 6 de 6 ✓ |
-| 3.5 | @4.25 · col -2.1 · L 1 de 7 · V 0 de 7 · D 0 de 6 | @1.2 · col +2.1 · L 6 de 7 · V 7 de 7 · D 6 de 6 ✓ |
-| 4.5 | @7.6 · col -3.1 · L 0 de 7 · V 0 de 7 · D 0 de 6 | @1.06 · col +3.1 · L 7 de 7 · V 7 de 7 · D 6 de 6 ✓ |
+| 0.5 | @1.08 · col +0.9 · L 6 de 7 · V 5 de 7 · D 5 de 6 ✓ | @7.0 · col -0.9 · L 1 de 7 · V 2 de 7 · D 1 de 6 |
+| 1.5 | @1.4 · col -0.1 · L 2 de 7 · V 4 de 7 · D 3 de 6 | @2.8 · col +0.1 · L 5 de 7 · V 3 de 7 · D 3 de 6 |
+| 2.5 | @2.2 · col -1.1 · L 1 de 7 · V 1 de 7 · D 0 de 6 | @1.62 · col +1.1 · L 6 de 7 · V 6 de 7 · D 6 de 6 ✓ |
+| 3.5 | @3.9 · col -2.1 · L 1 de 7 · V 0 de 7 · D 0 de 6 | @1.23 · col +2.1 · L 6 de 7 · V 7 de 7 · D 6 de 6 ✓ |
+| 4.5 | @7.1 · col -3.1 · L 0 de 7 · V 0 de 7 · D 0 de 6 | @1.08 · col +3.1 · L 7 de 7 · V 7 de 7 · D 6 de 6 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.93 · col +0.6 · L 6 de 7 · V 6 de 7 · D 5 de 6 ✓ | @1.82 · col -0.6 · L 1 de 7 · V 1 de 7 · D 1 de 6 |
-| 1.5 | @5.3 · col -0.4 · L 3 de 7 · V 1 de 7 · D 3 de 6 | @1.14 · col +0.4 · L 4 de 7 · V 6 de 7 · D 3 de 6 |
+| 0.5 | @2.15 · col +0.6 · L 6 de 7 · V 6 de 7 · D 5 de 6 ✓ | @1.65 · col -0.6 · L 1 de 7 · V 1 de 7 · D 1 de 6 |
+| 1.5 | @6.2 · col -0.4 · L 3 de 7 · V 1 de 7 · D 3 de 6 | @1.1 · col +0.4 · L 4 de 7 · V 6 de 7 · D 3 de 6 |
 
 ### Tarjetas (solo amarillas)
 _Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._

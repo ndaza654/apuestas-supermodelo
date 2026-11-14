@@ -1,5 +1,5 @@
 # Ficha — Deportivo Cali - Deportes Tolima
-Colombia Categoría Primera A · 2026-11-14 15:30 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T00:07:03.669Z · 166 mercados
+Colombia Categoría Primera A · 2026-11-14 15:30 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T19:06:07.857Z · 166 mercados
 
 Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -76,25 +76,25 @@ Muestra: local 7, visitante 7, directos 6. Esperado: local 1.21, visitante 0.71,
 | 2.25 | @1.95 · col -0.3 · L 2 de 7 · V 4 de 7 · D 2 de 6 | @1.83 · col +0.3 · L 3 de 7 · V 3 de 7 · D 0 de 6 |
 | 2.5 | @2.2 · col -0.6 · L 2 de 7 · V 4 de 7 · D 2 de 6 | @1.62 · col +0.6 · L 5 de 7 · V 3 de 7 · D 4 de 6 |
 | 2.75 | @2.57 · col -0.8 · L 1 de 7 · V 2 de 7 · D 0 de 6 | @1.5 · col +0.8 · L 5 de 7 · V 3 de 7 · D 4 de 6 |
-| 3.5 | @3.85 · col -1.6 · L 1 de 7 · V 2 de 7 · D 0 de 6 | @1.24 · col +1.6 · L 6 de 7 · V 5 de 7 · D 6 de 6 ✓ |
+| 3.5 | @3.8 · col -1.6 · L 1 de 7 · V 2 de 7 · D 0 de 6 | @1.24 · col +1.6 · L 6 de 7 · V 5 de 7 · D 6 de 6 ✓ |
 | 4.5 | @6.9 · col -2.6 · L 0 de 7 · V 1 de 7 · D 0 de 6 | @1.08 · col +2.6 · L 7 de 7 · V 6 de 7 · D 6 de 6 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.32 · col +0.7 · L 4 de 7 · V 5 de 7 · D 5 de 6 | @3.2 · col -0.7 · L 3 de 7 · V 2 de 7 · D 1 de 6 |
-| 1.5 | @2.42 · col -0.3 · L 3 de 7 · V 2 de 7 · D 0 de 6 | @1.52 · col +0.3 · L 4 de 7 · V 5 de 7 · D 6 de 6 |
-| 2.5 | @5.2 · col -1.3 · L 2 de 7 · V 1 de 7 · D 0 de 6 | @1.14 · col +1.3 · L 5 de 7 · V 6 de 7 · D 6 de 6 ✓ |
-| 3.5 | @9.75 · col -2.3 · L 0 de 7 · V 0 de 7 · D 0 de 6 | @1.03 · col +2.3 · L 7 de 7 · V 7 de 7 · D 6 de 6 ✓ |
+| 0.5 | @1.33 · col +0.7 · L 4 de 7 · V 5 de 7 · D 5 de 6 | @3.15 · col -0.7 · L 3 de 7 · V 2 de 7 · D 1 de 6 |
+| 1.5 | @2.45 · col -0.3 · L 3 de 7 · V 2 de 7 · D 0 de 6 | @1.5 · col +0.3 · L 4 de 7 · V 5 de 7 · D 6 de 6 |
+| 2.5 | @5.3 · col -1.3 · L 2 de 7 · V 1 de 7 · D 0 de 6 | @1.13 · col +1.3 · L 5 de 7 · V 6 de 7 · D 6 de 6 ✓ |
+| 3.5 | @10.0 · col -2.3 · L 0 de 7 · V 0 de 7 · D 0 de 6 | @1.03 · col +2.3 · L 7 de 7 · V 7 de 7 · D 6 de 6 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.45 · col +0.2 · L 2 de 7 · V 4 de 7 · D 6 de 6 | @2.62 · col -0.2 · L 5 de 7 · V 3 de 7 · D 0 de 6 |
-| 1.5 | @3.05 · col -0.8 · L 0 de 7 · V 3 de 7 · D 3 de 6 | @1.35 · col +0.8 · L 7 de 7 · V 4 de 7 · D 3 de 6 |
-| 2.5 | @7.1 · col -1.8 · L 0 de 7 · V 1 de 7 · D 0 de 6 | @1.08 · col +1.8 · L 7 de 7 · V 6 de 7 · D 6 de 6 ✓ |
+| 0.5 | @1.42 · col +0.2 · L 2 de 7 · V 4 de 7 · D 6 de 6 | @2.7 · col -0.2 · L 5 de 7 · V 3 de 7 · D 0 de 6 |
+| 1.5 | @3.0 · col -0.8 · L 0 de 7 · V 3 de 7 · D 3 de 6 | @1.36 · col +0.8 · L 7 de 7 · V 4 de 7 · D 3 de 6 |
+| 2.5 | @7.0 · col -1.8 · L 0 de 7 · V 1 de 7 · D 0 de 6 | @1.08 · col +1.8 · L 7 de 7 · V 6 de 7 · D 6 de 6 ✓ |
 
 ### Tarjetas (solo amarillas)
 _Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._

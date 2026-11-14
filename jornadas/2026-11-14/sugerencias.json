@@ -189,29 +189,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles local Menos 3.5",
-   "partidos": "Millonarios FC - Alianza FC",
-   "cuota": 1.2,
-   "p": 0.7452,
-   "p_modelo": 0.8195,
-   "patas": [
-    {
-     "partido": "Millonarios FC - Alianza FC",
-     "texto": "Goles local Menos 3.5",
-     "cuota": 1.2,
-     "clave": [
-      "Millonarios FC - Alianza FC",
-      "goles",
-      "local",
-      "3.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Córners Menos 12.5",
    "partidos": "Chapecoense SC - Vasco da Gama RJ",
    "cuota": 1.21,
@@ -396,6 +373,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Goles local Menos 2.5",
+   "partidos": "Atletico Nacional - Once Caldas",
+   "cuota": 1.21,
+   "p": 0.736,
+   "p_modelo": 0.8094,
+   "patas": [
+    {
+     "partido": "Atletico Nacional - Once Caldas",
+     "texto": "Goles local Menos 2.5",
+     "cuota": 1.21,
+     "clave": [
+      "Atletico Nacional - Once Caldas",
+      "goles",
+      "local",
+      "2.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Goles Menos 4.5",
    "partidos": "Chapecoense SC - Vasco da Gama RJ",
    "cuota": 1.22,
@@ -488,29 +488,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles Más 1.5",
-   "partidos": "Atletico Nacional - Once Caldas",
-   "cuota": 1.25,
-   "p": 0.7248,
-   "p_modelo": 0.7776,
-   "patas": [
-    {
-     "partido": "Atletico Nacional - Once Caldas",
-     "texto": "Goles Más 1.5",
-     "cuota": 1.25,
-     "clave": [
-      "Atletico Nacional - Once Caldas",
-      "goles",
-      "total",
-      "1.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Saques de meta Más 13.5",
    "partidos": "Mirassol SP - Clube Atletico MG",
    "cuota": 1.21,
@@ -534,6 +511,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Goles local Menos 3.5",
+   "partidos": "Millonarios FC - Alianza FC",
+   "cuota": 1.23,
+   "p": 0.724,
+   "p_modelo": 0.7962,
+   "patas": [
+    {
+     "partido": "Millonarios FC - Alianza FC",
+     "texto": "Goles local Menos 3.5",
+     "cuota": 1.23,
+     "clave": [
+      "Millonarios FC - Alianza FC",
+      "goles",
+      "local",
+      "3.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Córners Menos 10.5",
    "partidos": "Irlanda del Norte - Ucrania",
    "cuota": 1.25,
@@ -550,6 +550,29 @@
       "total",
       "10.5",
       "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles Más 1.5",
+   "partidos": "Atletico Nacional - Once Caldas",
+   "cuota": 1.25,
+   "p": 0.7224,
+   "p_modelo": 0.775,
+   "patas": [
+    {
+     "partido": "Atletico Nacional - Once Caldas",
+     "texto": "Goles Más 1.5",
+     "cuota": 1.25,
+     "clave": [
+      "Atletico Nacional - Once Caldas",
+      "goles",
+      "total",
+      "1.5",
+      "Más"
      ]
     }
    ]
@@ -652,8 +675,8 @@
    "nombre": "Goles Menos 3.5",
    "partidos": "Deportivo Cali - Deportes Tolima",
    "cuota": 1.24,
-   "p": 0.717,
-   "p_modelo": 0.7885,
+   "p": 0.7125,
+   "p_modelo": 0.7836,
    "patas": [
     {
      "partido": "Deportivo Cali - Deportes Tolima",
@@ -665,29 +688,6 @@
       "total",
       "3.5",
       "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles visitante Más 0.5",
-   "partidos": "Atletico Nacional - Once Caldas",
-   "cuota": 1.26,
-   "p": 0.7137,
-   "p_modelo": 0.7657,
-   "patas": [
-    {
-     "partido": "Atletico Nacional - Once Caldas",
-     "texto": "Goles visitante Más 0.5",
-     "cuota": 1.26,
-     "clave": [
-      "Atletico Nacional - Once Caldas",
-      "goles",
-      "visitante",
-      "0.5",
-      "Más"
      ]
     }
    ]
@@ -1178,21 +1178,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Goles local Menos 2.5",
-   "partidos": "Millonarios FC - Alianza FC",
+   "nombre": "Goles visitante Menos 1.5",
+   "partidos": "Atletico Nacional - Once Caldas",
    "cuota": 1.55,
-   "p": 0.5528,
-   "p_modelo": 0.6105,
+   "p": 0.5551,
+   "p_modelo": 0.613,
    "patas": [
     {
-     "partido": "Millonarios FC - Alianza FC",
-     "texto": "Goles local Menos 2.5",
+     "partido": "Atletico Nacional - Once Caldas",
+     "texto": "Goles visitante Menos 1.5",
      "cuota": 1.55,
      "clave": [
-      "Millonarios FC - Alianza FC",
+      "Atletico Nacional - Once Caldas",
       "goles",
-      "local",
-      "2.5",
+      "visitante",
+      "1.5",
       "Menos"
      ]
     }
@@ -1365,23 +1365,11 @@
    "tipo": "combinada entre partidos",
    "etiqueta": "lotería (stake mínimo)",
    "nombre": "Lotería de 3 protecciones",
-   "partidos": "Atletico Nacional - Once Caldas | Irlanda del Norte - Ucrania | CA Banfield - Boca Juniors",
+   "partidos": "Irlanda del Norte - Ucrania | Atletico Nacional - Once Caldas | CA Banfield - Boca Juniors",
    "cuota": 1.97,
-   "p": 0.3772,
-   "p_modelo": 0.4572,
+   "p": 0.376,
+   "p_modelo": 0.4556,
    "patas": [
-    {
-     "partido": "Atletico Nacional - Once Caldas",
-     "texto": "Goles Más 1.5",
-     "cuota": 1.25,
-     "clave": [
-      "Atletico Nacional - Once Caldas",
-      "goles",
-      "total",
-      "1.5",
-      "Más"
-     ]
-    },
     {
      "partido": "Irlanda del Norte - Ucrania",
      "texto": "Córners Menos 10.5",
@@ -1392,6 +1380,18 @@
       "total",
       "10.5",
       "Menos"
+     ]
+    },
+    {
+     "partido": "Atletico Nacional - Once Caldas",
+     "texto": "Goles Más 1.5",
+     "cuota": 1.25,
+     "clave": [
+      "Atletico Nacional - Once Caldas",
+      "goles",
+      "total",
+      "1.5",
+      "Más"
      ]
     },
     {
