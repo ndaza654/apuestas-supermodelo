@@ -116,4 +116,36 @@ check(all(len(_json.loads(r['patas_json'])) == int(r['n_patas']) for r in _S if 
 check(all(r['resultado'] != 'cumplió' or 'F' not in [l[2] for l in _json.loads(r['patas_json'])] for r in _S if r['patas_json']), 'sugerencias: una combinada «cumplió» no puede tener una pata fallada')
 check('https://' not in AH.PLANTILLA and 'id="flt"' in AH.PLANTILLA, 'auditoría HTML: autónoma (sin red) y con filtros')
 
+# --- análisis de la jornada con las reglas de la auditoría (recoleccion/analisis_jornada.py) ---
+import analisis_jornada as AJ
+def _l(m, lado, cuota, p, res, cumple='sí', partido='A - B', jor='2026-01-01'):
+    return {'jornada': jor, 'partido': partido, 'mercado': m, 'lado': lado, 'cuota': str(cuota), 'p_modelo': str(p), 'resultado': res, 'cumple_ficha': cumple}
+_H = [_l('corners', 'Más', 1.25, 0.8, 'cumplió')] * 12 + [_l('corners', 'Más', 1.25, 0.8, 'falló')] * 8 + [_l('goles', 'Menos', 1.4, 0.7, 'cumplió')] * 7 + [_l('goles', 'Menos', 1.4, 0.7, 'falló')] * 3
+_R = AJ.real_hasta_hoy(_H, [{'n_patas': '1', 'tipo': 'sencilla', 'cuota': '1.4', 'p_estimada': '0.8', 'resultado': 'cumplió'}, {'n_patas': '2', 'tipo': 'combinada mismo partido', 'cuota': '2', 'p_estimada': '0.5', 'resultado': 'falló'}])
+check(_R['mercado_lado']['corners|Más']['aciertos'] == 12 and _R['mercado_lado']['corners|Más']['real'] == 0.6 and _R['mercado_lado']['corners|Más']['factor'] < 0.9,
+      'análisis: «real hasta hoy» por mercado y lado (12 de 20 = 60 % contra 80 % dicho -> factor < 1)')
+check(_R['mercado_lado']['goles|Menos']['factor'] <= 1.0 and all(v['factor'] <= 1.0 for v in _R['banda_cuota'].values()), 'análisis: ningún factor sube la p del modelo')
+check(_R['sugerencias']['sencillas']['n'] == 1 and _R['sugerencias']['combinadas de 2 patas (todas)']['real'] == 0.0, 'análisis: auditoría de sugerencias por tipo y número de patas')
+_f, _t = AJ.recorte(_R, 'corners', 'Más', 1.25)
+check(_f < 1 and '12 de 20' in _t and AJ.recorte(_R, 'faltas', 'Más', 1.25)[0] <= 1 and 'sin líneas calificadas' in AJ.recorte(_R, 'faltas', 'Más', 1.25)[1],
+      'análisis: la p se recorta con el factor real y se dice cuándo no hay líneas calificadas')
+_Jx = [{'jornada': 'x', 'partido': 'A - B', 'hora_partido': '2026-01-02 10:00', 'mercado': 'corners', 'ambito': 'total', 'jugador': '', 'linea': str(l), 'lado': 'Menos', 'cuota': str(c), 'p_modelo': str(pm),
+        'p_mercado': str(pm), 'ev_modelo': '-0.03', 'esperado': '8', 'colchon': '2', 'reg_local': '6 de 7', 'reg_visitante': '5 de 7', 'directos': d, 'cumple_ficha': k, 'alerta_modelo': ''}
+       for l, c, pm, d, k in ((12.5, 1.10, 0.95, '3 de 3', 'sí'), (11.5, 1.25, 0.90, '0 de 4', 'sí'), (10.5, 1.60, 0.70, '', 'sí'), (9.5, 1.9, 0.5, '', 'no'))]
+_C = AJ.candidatas(_Jx, _R)
+_pr, _se = AJ.sencillas(_C)
+check(len(_C) == 3 and all(c['p_rec'] <= c['p'] for c in _C), 'análisis: solo entran líneas con «cumple» y la p recortada nunca supera la del modelo')
+check([c['linea'] for c in _pr] == [11.5] and [c['linea'] for c in _se] == [10.5], 'análisis: de cada escalera una protección (la de mayor cuota con p recortada ≥ 70 %) y una sencilla 1,50–1,99')
+check('directos en contra (0 de 4)' in _pr[0]['real'], 'análisis: avisa cuando los directos dicen lo contrario (no excluye la línea)')
+check(AJ.sencillas(AJ.candidatas([{**_Jx[1], 'mercado': 'tarjetas'}], _R)) == ([], []), 'análisis: tarjetas no entra en sugerencias (sin árbitro)')
+check(AJ.loteria(_pr) is None, 'análisis: sin tres partidos distintos no hay lotería')
+check('<h3>Título</h3>' in IH._md('## Título\n- uno **dos**\ntexto <b>') and '<li>uno <b>dos</b></li>' in IH._md('- uno **dos**') and '&lt;b&gt;' in IH._md('texto <b>'),
+      'informe: el enfoque en markdown se convierte a HTML escapado')
+check("['ana','Análisis']" in IH.PLANTILLA and 'function vAna(' in IH.PLANTILLA and 'Enfoque de mercados' in IH.PLANTILLA, 'informe: la pestaña «Análisis» abre con «Enfoque de mercados»')
+_dA = dict(_d); _dA['A'] = IH.analisis(os.path.join(RAIZ, 'jornadas', '2026-11-13'), _d)
+check(_dA['A'] is None, 'informe: sin analisis.json la jornada no muestra la pestaña «Análisis» (y sigue funcionando)')
+import sugerencias as _SG
+check("res = 'pendiente'" in open(_SG.__file__, encoding='utf8').read() and all(r['resultado'] == 'pendiente' or r['fecha_entrega'] < '2026-11-14' or r['resultado'] in ('cumplió', 'falló', 'parcial', 'anulada') for r in _S),
+      'sugerencias: las registradas antes del partido quedan «pendiente» hasta que la línea tenga resultado')
+
 print(f'\n{ok} pruebas de recolección superadas')

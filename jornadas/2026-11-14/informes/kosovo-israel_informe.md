@@ -62,7 +62,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Tarjetas | Ambos 1+ tarjetas: Sí | 1.25 | 79 % | 73 % | Expulsión antes del 70′ (87 %) | Favorito golpea temprano y gana (73 %) | Alta probabilidad |
 | Remates | Remates Israel Menos 10.5 | 1.62 | 59 % | 50 % | Favorito gana en partido trabado (69 %) | Partido abierto (ambos marcan y 3+ goles) (50 %) | Justa |
 | Tiros al arco | Tiros al arco Israel Menos 4.5 | 1.30 | 75 % | 55 % | Favorito gana en partido trabado (91 %) | Sorpresa: gana el no favorito (55 %) | Alta probabilidad |
-| Jugadores | Eli Dasa anota o asiste | 9.00 | 14 % | 0 % | Sorpresa: gana el no favorito (26 %) | Favorito golpea temprano y gana (0 %) | Valor frágil (depende de un guion) |
+| Jugadores | Erblin Osmani anota o asiste | 5.80 | 19 % | 8 % | Partido abierto (ambos marcan y 3+ goles) (30 %) | Sorpresa: gana el no favorito (8 %) | Valor frágil (depende de un guion) |
 | Quién saca más | Más corners: Israel | 2.92 | 36 % | 31 % | Favorito golpea temprano y gana (42 %) | Sorpresa: gana el no favorito (31 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
@@ -84,26 +84,26 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Hándicap Israel +1.5 | 1.37 | 72 % | 72 % | 72 % | +0 pts | -1 % | 72 % | — | 1.43 | Favorito golpea temprano y gana | Alta probabilidad |
 | Córners 2.º tiempo Menos 5.5 | 1.32 | 72 % | 73 % | 70 % | +2 pts | -5 % | 70 % | +0.4 | 1.43 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
 | Córners Más 6.5 | 1.31 | 71 % | 74 % | 73 % | -2 pts | -7 % | 69 % | +0.6 | 1.45 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
-| Ethane Azoulay remates 1+ | 1.25 | 71 % | 71 % | 71 % | -0 pts | -12 % | 69 % | — | 1.46 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| Ethane Azoulay remates 1+ | 1.25 | 71 % | 71 % | 71 % | -0 pts | -11 % | 68 % | — | 1.45 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Vedat Muriqi tiros al arco 1+ | 1.26 | 70 % | 71 % | 71 % | -0 pts | -11 % | 63 % | — | 1.46 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | Córners Israel Más 2.5 | 1.37 | 70 % | 68 % | 72 % | -1 pts | -4 % | 67 % | +0.7 | 1.46 | Sorpresa: gana el no favorito | Alta probabilidad |
 | Goles Más 1.75 | 1.37 | 70 % | 72 % | 72 % | -2 pts | -4 % | 70 % | +0.5 | 1.47 | Empate | Alta probabilidad · asiática: devuelve 12 % |
 | Goles Menos 3.25 | 1.42 | 70 % | 69 % | 69 % | +1 pts | -0 % | 70 % | +0.4 | 1.47 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 11 % |
-| Erblin Osmani remates 1+ | 1.26 | 70 % | 71 % | 70 % | +0 pts | -12 % | 68 % | — | 1.48 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
+| Erblin Osmani remates 1+ | 1.26 | 69 % | 71 % | 70 % | -0 pts | -13 % | 67 % | — | 1.49 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | Baton Zabergja tiros al arco 1+ | 1.27 | 69 % | 70 % | 69 % | +0 pts | -12 % | 62 % | — | 1.49 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
-| Anan Khalaili remates 1+ | 1.27 | 69 % | 70 % | 69 % | -0 pts | -12 % | 66 % | — | 1.49 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Córners Menos 9.5 | 1.44 | 69 % | 67 % | 66 % | +3 pts | -1 % | 67 % | +0.4 | 1.50 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Anan Khalaili remates 1+ | 1.27 | 69 % | 70 % | 69 % | -0 pts | -13 % | 64 % | — | 1.50 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Edon Zhegrova tiros al arco 1+ | 1.30 | 68 % | 69 % | 68 % | +0 pts | -11 % | 61 % | — | 1.50 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
 | Goles 1.er tiempo Más 0.5 | 1.42 | 68 % | 68 % | 69 % | -1 pts | -3 % | 68 % | +0.6 | 1.51 | Favorito gana en partido trabado | Alta probabilidad |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Eli Dasa anota o asiste | 9.00 | 14 % | 10 % | 14 % | +0 pts | +25 % | 0 % | — | 8.44 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
-| Raz Shlomo anota o asiste | 8.75 | 14 % | 10 % | 14 % | -0 pts | +22 % | 0 % | — | 8.36 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
-| Roy Revivo anota o asiste | 7.60 | 15 % | 11 % | 16 % | -0 pts | +18 % | 0 % | — | 7.43 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
+| Eli Dasa anota o asiste | 9.00 | 14 % | 10 % | 14 % | +0 pts | +24 % | 0 % | — | 8.45 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
+| Raz Shlomo anota o asiste | 8.75 | 14 % | 10 % | 14 % | -0 pts | +23 % | 0 % | — | 8.27 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
+| Erblin Osmani anota o asiste | 5.80 | 19 % | 15 % | 19 % | +0 pts | +12 % | 8 % | — | 5.79 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
 
-Kelly ¼ (dato informativo, no una orden de stake): Eli Dasa anota o asiste 0.8 % de la banca; Raz Shlomo anota o asiste 0.7 % de la banca; Roy Revivo anota o asiste 0.7 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+Kelly ¼ (dato informativo, no una orden de stake): Eli Dasa anota o asiste 0.8 % de la banca; Raz Shlomo anota o asiste 0.8 % de la banca; Erblin Osmani anota o asiste 0.6 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
 
 ## Sistemas de tipsters que este partido cumple (solo para medir, no para decidir)
 | Sistema | Regla | Selección que propone | Historial con cuotas reales |

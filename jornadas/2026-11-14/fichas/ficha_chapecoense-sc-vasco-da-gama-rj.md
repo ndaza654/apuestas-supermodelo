@@ -1,7 +1,7 @@
 # Ficha — Chapecoense SC - Vasco da Gama RJ
 Brasil Brasileirao - Serie A · 2026-11-14 18:30 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T00:09:27.284Z · 618 mercados
 
-Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
+Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
 
 ## Resumen: líneas de equipo que cumplen 5 de 7 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)

@@ -116,7 +116,9 @@ def add(entrega, fecha, hora, tipo, nombre, partidos, legs, cuota, p, jugada='',
         res = resultado_forzado
     elif 'F' in cods:
         res = 'falló'
-    elif 'U' in cods or 'P' in cods:
+    elif 'P' in cods:
+        res = 'pendiente'            # sugerencia registrada antes del partido: se califica cuando registro/lineas.csv tenga el resultado
+    elif 'U' in cods:
         res = 'sin verificar'
     elif 'MP' in cods or 'MG' in cods:
         res = 'parcial'
@@ -327,7 +329,30 @@ def construir():
             '≈16:00', 'sencilla', nombre, r['partido'].replace(' - ', '–'),
             [(r['partido'], nombre, float(r['cuota']) if r['cuota'] else None, (COD[r['resultado']], r['nota'].split('valor real ')[-1][:40] if 'valor real' in r['nota'] else ''))],
             float(r['cuota']) if r['cuota'] else '', float(r['p_modelo']) if r['p_modelo'] else '', '', 'Línea con «cumple» (≥ 5 de 7 en ambos).', 'registro/lineas.csv')
+    jornadas(rows)
     return FILAS
+
+
+def jornadas(rows):
+    """Sugerencias registradas ANTES de los partidos por recoleccion/analisis_jornada.py (jornadas/<día>/sugerencias.json).
+    Cada pata trae la clave de su línea en registro/lineas.csv: mientras esa línea no tenga resultado queda «pendiente»;
+    cuando el agente `calificacion` lo llene, la sugerencia se califica sola al volver a correr este archivo."""
+    import glob
+    idx = {(r['jornada'], r['partido'], r['mercado'], r['ambito'], r['linea'], r['lado']): r for r in rows if not r['jugador']}
+    for ruta in sorted(glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'sugerencias.json'))):
+        d = json.load(open(ruta, encoding='utf8'))
+        jor = d['jornada']
+        for s in d['sugerencias']:
+            legs = []
+            for p in s['patas']:
+                r = idx.get((jor, *p['clave']))
+                if r is not None and r['resultado'] in COD:
+                    c = (COD[r['resultado']], r['nota'].split('valor real ')[-1][:40] if 'valor real' in r['nota'] else '')
+                else:
+                    c = ('P', 'pendiente')
+                legs.append((p['partido'], p['texto'] if len(s['patas']) == 1 else f"{p['texto']} ({p['partido']})" if '|' in s['partidos'] else p['texto'], p['cuota'], c))
+            add(f"{jor} · informe de la jornada: {s['etiqueta']}", jor, '', s['tipo'], s['nombre'], s['partidos'].replace(' - ', '–'), legs, s['cuota'], s['p'],
+                nota=f"{s['etiqueta']}; p recortada (p del modelo {s['p_modelo']}). " + d.get('nota', ''), fuente=os.path.relpath(ruta, RAIZ))
 
 
 def main():

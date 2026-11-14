@@ -1,6 +1,6 @@
 # Ranking de partidos por contexto
 
-Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situación sin leer. «Cumplen» = líneas de equipo con 5 de 7 en ambos equipos y cuota ≥ 1.20, más jugadores con algún escalón que cumple. Los no aptos se muestran con su motivo; nada se descarta en silencio.
+Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situación sin leer. «Cumplen» = líneas de equipo con 5 de 7 en ambos equipos (jornada recogida con muestra de 7) y cuota ≥ 1.20, más jugadores con algún escalón que cumple. Los no aptos se muestran con su motivo; nada se descarta en silencio.
 
 | # | Partido | Situación | Estado | Córners (datos · cumplen) | Partido (datos · cumplen) | Jugadores (datos · cumplen) | Motivo |
 |---|---|---|---|---|---|---|---|
@@ -99,7 +99,7 @@ Datos 73 · Situación sin leer · por mercado: {'Córners': 7}
 ## Queretaro FC - CF Monterrey (México Liga MX)
 Datos 82 · Situación sin leer · por mercado: {'Córners': 1, 'Remates': 2, 'Tiros al arco': 2}
 
-**Datos:** Córners: 26 líneas, muestra de 7 al 100% → 100 | Partido: 2/6 familias ofrecidas, muestra al 100% → 80 | Jugadores: 20 con línea, 0% con ≥5 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: 0 (sin dato); directos con estadística: 7 (+5)
+**Datos:** Córners: 26 líneas, muestra de 7 al 100% → 100 | Partido: 2/6 familias ofrecidas, muestra al 100% → 80 | Jugadores: 20 con línea, 0% con ≥5 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
 
@@ -120,7 +120,7 @@ Datos 73 · Situación sin leer · por mercado: {'Córners': 3}
 ## Deportivo Cali - Deportes Tolima (Colombia Categoría Primera A)
 Datos 63 · Situación sin leer · por mercado: {'Córners': 3}
 
-**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 49 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 7 (+5)
+**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 49 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
@@ -134,7 +134,7 @@ Datos 80 · Situación sin leer · por mercado: {'Córners': 1, 'Remates': 1}
 ## Aguilas Doradas - Independiente Medellín (Colombia Categoría Primera A)
 Datos 63 · Situación sin leer · por mercado: {'Córners': 2}
 
-**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 51 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 7 (+5)
+**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 51 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
@@ -148,7 +148,7 @@ Datos 78 · Situación sin leer · por mercado: {'Córners': 1}
 ## Millonarios FC - Alianza FC (Colombia Categoría Primera A)
 Datos 63 · Situación sin leer · por mercado: {'Córners': 1}
 
-**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 55 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 7 (+5)
+**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 55 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (72%, según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
@@ -169,6 +169,6 @@ Datos 73 · Situación sin leer · por mercado: ninguna línea cumple
 ## Atletico Nacional - Once Caldas (Colombia Categoría Primera A)
 Datos 63 · Situación sin leer · por mercado: ninguna línea cumple
 
-**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 50 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 7 (+5)
+**Datos:** Córners: 7 líneas, muestra de 7 al 100% → 96 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 50 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha

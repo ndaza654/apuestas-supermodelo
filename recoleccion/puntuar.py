@@ -159,7 +159,7 @@ def _m(m):
 
 def markdown(R):
     L = ['# Ranking de partidos por contexto', '',
-         f'Apto = datos ≥ {UMBRAL_DATOS} **y** situación ≥ {UMBRAL_SITUACION}; reserva = datos suficientes y situación sin leer. «Cumplen» = líneas de equipo con 7 de 10 en ambos equipos y cuota ≥ 1.20, '
+         f'Apto = datos ≥ {UMBRAL_DATOS} **y** situación ≥ {UMBRAL_SITUACION}; reserva = datos suficientes y situación sin leer. «Cumplen» = líneas de equipo con {FI.CUMPLE} de {FI.N} en ambos equipos{'' if FI.N >= FI.REGLA[0] else ' (jornada recogida con muestra de ' + str(FI.N) + ')'} y cuota ≥ 1.20, '
          'más jugadores con algún escalón que cumple. Los no aptos se muestran con su motivo; nada se descarta en silencio.', '',
          '| # | Partido | Situación | Estado | Córners (datos · cumplen) | Partido (datos · cumplen) | Jugadores (datos · cumplen) | Motivo |', '|---|---|---|---|---|---|---|---|']
     for i, r in enumerate(R, 1):
@@ -177,6 +177,7 @@ def main(argv):
         return 1
     carpeta = argv[0]
     salida = argv[1] if len(argv) > 1 else os.path.join(carpeta, '..')
+    FI.fijar_muestra(FI.muestra_de(carpeta))   # jornada recogida con 7 partidos -> «muestra de 7», cumple 5 de 7
     R = []
     for p in sorted(glob.glob(os.path.join(carpeta, '*.json'))):
         R.append(evaluar(json.load(open(p, encoding='utf8'))))

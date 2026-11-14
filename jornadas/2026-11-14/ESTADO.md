@@ -1,6 +1,14 @@
 # Estado · sábado 14-nov-2026 (21 partidos)
 
-Actualizado: vie 13-nov-2026 ~21:00 Bogotá. Rama `recoleccion/2026-11-14` (no está en `main`).
+Actualizado: vie 13-nov-2026 ~23:10 Bogotá (análisis e informe entregados). Rama `recoleccion/2026-11-14` (no está en `main`).
+
+## Análisis entregado (13-nov ~23:10)
+- Pipeline corrido de nuevo con la **muestra de 7** bien declarada: «cumple» = 5 de 7 en ambos (n mínimo 5). 446 líneas de equipo cumplen (goles 178, córners 130, tiros al arco 52, remates 35, tarjetas 30, saques de meta 10, fueras 8, faltas 2, saques de banda 1).
+- Informe interactivo con la pestaña «Análisis» (enfoque de mercados, real hasta hoy, sugerencias): copia en `entregas/2026-11-13/2310_informe-jornada-14nov.html`; texto en `informe_final.md`; enfoque en `enfoque.md`; datos en `analisis.json`.
+- Sugerencias registradas (58, todas «pendiente» en `registro/sugerencias.csv`): 38 protecciones (cuota < 1,50), 15 sencillas de 1,50–1,99, 4 combinadas de 2 patas y 1 lotería. Con la p recortada ninguna tiene EV positivo.
+- Agentes (detalle en `agentes/jornada_<agente>.md`): córners, partido, goles-resultado, tarjetas y combinadas. Jugadores no se corrió: sin historial no hay nada que analizar.
+- Anomalía Mirassol–Atlético-MG: revisada, es coherente (Betano publica escaleras de 23 líneas en tiros al arco, remates y saques de meta; no hay línea mal leída ni equipo cambiado). Cuidado con remates del visitante y saques de meta: series infladas por partidos muy desiguales.
+- Situación: se leyó lo que hay en las fichas (tabla, clima, tipo de competición); sigue sin previa, motivación ni rotación, así que los 21 quedan en «reserva».
 
 ## Recolectado y en el repo (todo con hash verificado contra el navegador)
 | Qué | Dónde | Cobertura |

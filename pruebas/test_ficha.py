@@ -92,4 +92,18 @@ Fg = FI.construir(eg)
 check(Fg['goles']['esperado']['total'] == 2.5 and Fg['goles']['lineas'][0]['mas']['reg_local']['x'] == 7, 'la ficha trae goles (serie g)')
 check('amarillas' in Fg['tarjetas']['nota'] and Fg['tarjetas']['esperado']['total'] == 4.0, 'tarjetas: usa amarillas y avisa que Betano cuenta puntos (rojas no vienen en la fuente)')
 
+# jornada recogida con 7 partidos: «muestra de 7», cumple 5 de 7 (proporción de 7 de 10); después vuelve a la regla
+check(FI.fijar_muestra(7) == (7, 5, 5), 'muestra de 7 -> cumple 5 de 7, n mínimo 5')
+s5 = [(6, 4)] * 5 + [(0, 0)] * 2
+s4 = [(6, 4)] * 4 + [(0, 0)] * 3
+b5 = FI.ficha_estadistica(partido(s5, s5, [{'mercado': 'corners', 'ambito': 'total', 'linea': 8.5, 'mas': 1.8, 'menos': 1.9}]), 'corners')['lineas'][0]['mas']
+b4 = FI.ficha_estadistica(partido(s4, s4, [{'mercado': 'corners', 'ambito': 'total', 'linea': 8.5, 'mas': 1.8, 'menos': 1.9}]), 'corners')['lineas'][0]['mas']
+check(b5['reg_local']['txt'] == '5 de 7' and b5['cumple'] and not b4['cumple'], 'con muestra de 7: 5 de 7 cumple y 4 de 7 no')
+check('5 de 7' in FI.construir(eg)['regla']['cumple'] and 'últimos 7' in FI.construir(eg)['regla']['muestra'], 'la ficha declara «muestra de 7» y «5 de 7»')
+check(FI.fijar_muestra(10) == (10, 7, 7) and FI.fijar_muestra(0) == (10, 7, 7) and FI.fijar_muestra(12) == (10, 7, 7), 'con 10 o más (o sin dato) vale la regla 7 de 10')
+import tempfile, json as _j
+with tempfile.TemporaryDirectory() as td:
+    _j.dump(eg, open(os.path.join(td, 'a.json'), 'w'))
+    check(FI.muestra_de(td) == 7, 'muestra_de: lee el mayor número de partidos por equipo de las entradas')
+
 print(f'\n{ok} pruebas de la ficha superadas')

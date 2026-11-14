@@ -4,8 +4,9 @@
  "fecha": "2026-11-14 15:30",
  "cuotas_leidas": "Cuotas de Betano leídas 2026-11-14T00:07:03.669Z · 166 mercados",
  "regla": {
-  "muestra": "últimos 7 de cada equipo (cualquier sede) + directos",
+  "muestra": "últimos 7 de cada equipo (cualquier sede) + hasta 6 directos",
   "cumple": "5 de 7 (n mínimo 5)",
+  "directos": "hasta 6",
   "colchon": "informativo: esperado − línea"
  },
  "corners": {
@@ -13,7 +14,7 @@
   "titulo": "Córners",
   "n_local": 7,
   "n_visitante": 7,
-  "n_directos": 7,
+  "n_directos": 6,
   "esperado": {
    "local": 3.14,
    "visitante": 5.14,
@@ -110,10 +111,6 @@
     [
      10.0,
      7.0
-    ],
-    [
-     6.0,
-     9.0
     ]
    ]
   },
@@ -204,9 +201,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 6,
-      "n": 7,
-      "txt": "6 de 7",
+      "x": 5,
+      "n": 6,
+      "txt": "5 de 6",
       "cumple": true
      },
      "cumple": false
@@ -232,9 +229,9 @@
       "cumple": true
      },
      "directos": {
-      "x": 6,
-      "n": 7,
-      "txt": "6 de 7",
+      "x": 5,
+      "n": 6,
+      "txt": "5 de 6",
       "cumple": true
      },
      "cumple": true
@@ -256,8 +253,8 @@
      },
      "directos": {
       "x": 1,
-      "n": 7,
-      "txt": "1 de 7",
+      "n": 6,
+      "txt": "1 de 6",
       "cumple": false
      },
      "cumple": false
@@ -283,9 +280,9 @@
       "cumple": true
      },
      "directos": {
-      "x": 6,
-      "n": 7,
-      "txt": "6 de 7",
+      "x": 5,
+      "n": 6,
+      "txt": "5 de 6",
       "cumple": true
      },
      "cumple": true
@@ -307,8 +304,8 @@
      },
      "directos": {
       "x": 1,
-      "n": 7,
-      "txt": "1 de 7",
+      "n": 6,
+      "txt": "1 de 6",
       "cumple": false
      },
      "cumple": false
@@ -334,9 +331,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 4,
-      "n": 7,
-      "txt": "4 de 7",
+      "x": 3,
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false
@@ -358,8 +355,8 @@
      },
      "directos": {
       "x": 3,
-      "n": 7,
-      "txt": "3 de 7",
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false
@@ -385,9 +382,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 4,
-      "n": 7,
-      "txt": "4 de 7",
+      "x": 3,
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false
@@ -409,8 +406,8 @@
      },
      "directos": {
       "x": 3,
-      "n": 7,
-      "txt": "3 de 7",
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false
@@ -436,9 +433,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 4,
-      "n": 7,
-      "txt": "4 de 7",
+      "x": 3,
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false
@@ -460,8 +457,8 @@
      },
      "directos": {
       "x": 3,
-      "n": 7,
-      "txt": "3 de 7",
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": true
@@ -487,9 +484,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 4,
-      "n": 7,
-      "txt": "4 de 7",
+      "x": 3,
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false
@@ -503,7 +500,7 @@
    "titulo": "Faltas",
    "n_local": 7,
    "n_visitante": 7,
-   "n_directos": 7,
+   "n_directos": 6,
    "esperado": {
     "local": 10.79,
     "visitante": 13.29,
@@ -600,10 +597,6 @@
      [
       12.0,
       6.0
-     ],
-     [
-      8.0,
-      17.0
      ]
     ]
    },
@@ -614,7 +607,7 @@
    "titulo": "Fueras de juego",
    "n_local": 7,
    "n_visitante": 7,
-   "n_directos": 7,
+   "n_directos": 6,
    "esperado": {
     "local": 1.64,
     "visitante": 1.64,
@@ -711,10 +704,6 @@
      [
       4.0,
       3.0
-     ],
-     [
-      1.0,
-      1.0
      ]
     ]
    },
@@ -725,7 +714,7 @@
    "titulo": "Saques de banda",
    "n_local": 7,
    "n_visitante": 7,
-   "n_directos": 7,
+   "n_directos": 6,
    "esperado": {
     "local": 17.43,
     "visitante": 19.64,
@@ -822,10 +811,6 @@
      [
       15.0,
       19.0
-     ],
-     [
-      9.0,
-      11.0
      ]
     ]
    },
@@ -918,7 +903,7 @@
    "titulo": "Remates",
    "n_local": 7,
    "n_visitante": 7,
-   "n_directos": 7,
+   "n_directos": 6,
    "esperado": {
     "local": 10.79,
     "visitante": 12.43,
@@ -1015,10 +1000,6 @@
      [
       14.0,
       18.0
-     ],
-     [
-      9.0,
-      18.0
      ]
     ]
    },
@@ -1029,7 +1010,7 @@
    "titulo": "Tiros al arco",
    "n_local": 7,
    "n_visitante": 7,
-   "n_directos": 7,
+   "n_directos": 6,
    "esperado": {
     "local": 4.07,
     "visitante": 3.71,
@@ -1126,10 +1107,6 @@
      [
       5.0,
       7.0
-     ],
-     [
-      3.0,
-      12.0
      ]
     ]
    },
@@ -1141,7 +1118,7 @@
   "titulo": "Goles",
   "n_local": 7,
   "n_visitante": 7,
-  "n_directos": 7,
+  "n_directos": 6,
   "nota": "Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T.",
   "esperado": {
    "local": 1.21,
@@ -1239,10 +1216,6 @@
     [
      0.0,
      2.0
-    ],
-    [
-     2.0,
-     4.0
     ]
    ]
   },
@@ -1366,9 +1339,9 @@
       "cumple": true
      },
      "directos": {
-      "x": 6,
-      "n": 7,
-      "txt": "6 de 7",
+      "x": 5,
+      "n": 6,
+      "txt": "5 de 6",
       "cumple": true
      },
      "cumple": false
@@ -1390,8 +1363,8 @@
      },
      "directos": {
       "x": 1,
-      "n": 7,
-      "txt": "1 de 7",
+      "n": 6,
+      "txt": "1 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1417,9 +1390,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 1,
-      "n": 7,
-      "txt": "1 de 7",
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1441,8 +1414,8 @@
      },
      "directos": {
       "x": 6,
-      "n": 7,
-      "txt": "6 de 7",
+      "n": 6,
+      "txt": "6 de 6",
       "cumple": true
      },
      "cumple": false
@@ -1469,8 +1442,8 @@
      },
      "directos": {
       "x": 0,
-      "n": 7,
-      "txt": "0 de 7",
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1491,9 +1464,9 @@
       "cumple": true
      },
      "directos": {
-      "x": 7,
-      "n": 7,
-      "txt": "7 de 7",
+      "x": 6,
+      "n": 6,
+      "txt": "6 de 6",
       "cumple": true
      },
      "cumple": true
@@ -1520,8 +1493,8 @@
      },
      "directos": {
       "x": 0,
-      "n": 7,
-      "txt": "0 de 7",
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1542,9 +1515,9 @@
       "cumple": true
      },
      "directos": {
-      "x": 7,
-      "n": 7,
-      "txt": "7 de 7",
+      "x": 6,
+      "n": 6,
+      "txt": "6 de 6",
       "cumple": true
      },
      "cumple": true
@@ -1570,9 +1543,9 @@
       "cumple": true
      },
      "directos": {
-      "x": 7,
-      "n": 7,
-      "txt": "7 de 7",
+      "x": 6,
+      "n": 6,
+      "txt": "6 de 6",
       "cumple": true
      },
      "cumple": false
@@ -1594,8 +1567,8 @@
      },
      "directos": {
       "x": 0,
-      "n": 7,
-      "txt": "0 de 7",
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1621,9 +1594,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 7,
-      "n": 7,
-      "txt": "7 de 7",
+      "x": 6,
+      "n": 6,
+      "txt": "6 de 6",
       "cumple": true
      },
      "cumple": false
@@ -1645,8 +1618,8 @@
      },
      "directos": {
       "x": 0,
-      "n": 7,
-      "txt": "0 de 7",
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1672,9 +1645,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 3,
-      "n": 7,
-      "txt": "3 de 7",
+      "x": 2,
+      "n": 6,
+      "txt": "2 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1696,8 +1669,8 @@
      },
      "directos": {
       "x": 0,
-      "n": 7,
-      "txt": "0 de 7",
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1723,9 +1696,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 3,
-      "n": 7,
-      "txt": "3 de 7",
+      "x": 2,
+      "n": 6,
+      "txt": "2 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1747,8 +1720,8 @@
      },
      "directos": {
       "x": 0,
-      "n": 7,
-      "txt": "0 de 7",
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1774,9 +1747,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 3,
-      "n": 7,
-      "txt": "3 de 7",
+      "x": 2,
+      "n": 6,
+      "txt": "2 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1798,8 +1771,8 @@
      },
      "directos": {
       "x": 0,
-      "n": 7,
-      "txt": "0 de 7",
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1825,9 +1798,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 3,
-      "n": 7,
-      "txt": "3 de 7",
+      "x": 2,
+      "n": 6,
+      "txt": "2 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1849,8 +1822,8 @@
      },
      "directos": {
       "x": 4,
-      "n": 7,
-      "txt": "4 de 7",
+      "n": 6,
+      "txt": "4 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1876,9 +1849,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 1,
-      "n": 7,
-      "txt": "1 de 7",
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1900,8 +1873,8 @@
      },
      "directos": {
       "x": 4,
-      "n": 7,
-      "txt": "4 de 7",
+      "n": 6,
+      "txt": "4 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1927,9 +1900,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 1,
-      "n": 7,
-      "txt": "1 de 7",
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -1951,8 +1924,8 @@
      },
      "directos": {
       "x": 6,
-      "n": 7,
-      "txt": "6 de 7",
+      "n": 6,
+      "txt": "6 de 6",
       "cumple": true
      },
      "cumple": true
@@ -1978,9 +1951,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 1,
-      "n": 7,
-      "txt": "1 de 7",
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -2002,8 +1975,8 @@
      },
      "directos": {
       "x": 6,
-      "n": 7,
-      "txt": "6 de 7",
+      "n": 6,
+      "txt": "6 de 6",
       "cumple": true
      },
      "cumple": true
@@ -2029,9 +2002,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 7,
-      "n": 7,
-      "txt": "7 de 7",
+      "x": 6,
+      "n": 6,
+      "txt": "6 de 6",
       "cumple": true
      },
      "cumple": false
@@ -2053,8 +2026,8 @@
      },
      "directos": {
       "x": 0,
-      "n": 7,
-      "txt": "0 de 7",
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -2080,9 +2053,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 4,
-      "n": 7,
-      "txt": "4 de 7",
+      "x": 3,
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false
@@ -2104,8 +2077,8 @@
      },
      "directos": {
       "x": 3,
-      "n": 7,
-      "txt": "3 de 7",
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false
@@ -2131,9 +2104,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 1,
-      "n": 7,
-      "txt": "1 de 7",
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "cumple": false
@@ -2155,8 +2128,8 @@
      },
      "directos": {
       "x": 6,
-      "n": 7,
-      "txt": "6 de 7",
+      "n": 6,
+      "txt": "6 de 6",
       "cumple": true
      },
      "cumple": true
@@ -2169,7 +2142,7 @@
   "titulo": "Tarjetas (solo amarillas)",
   "n_local": 7,
   "n_visitante": 7,
-  "n_directos": 7,
+  "n_directos": 6,
   "nota": "Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas.",
   "esperado": {
    "local": 2.57,
@@ -2267,10 +2240,6 @@
     [
      4.0,
      2.0
-    ],
-    [
-     5.0,
-     4.0
     ]
    ]
   },
@@ -2306,10 +2275,10 @@
       "cumple": false
      },
      "directos": {
-      "x": 5,
-      "n": 7,
-      "txt": "5 de 7",
-      "cumple": true
+      "x": 4,
+      "n": 6,
+      "txt": "4 de 6",
+      "cumple": false
      },
      "cumple": false
     },
@@ -2330,8 +2299,8 @@
      },
      "directos": {
       "x": 2,
-      "n": 7,
-      "txt": "2 de 7",
+      "n": 6,
+      "txt": "2 de 6",
       "cumple": false
      },
      "cumple": false
@@ -2357,9 +2326,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 4,
-      "n": 7,
-      "txt": "4 de 7",
+      "x": 3,
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false
@@ -2381,8 +2350,8 @@
      },
      "directos": {
       "x": 3,
-      "n": 7,
-      "txt": "3 de 7",
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false
@@ -2408,9 +2377,9 @@
       "cumple": false
      },
      "directos": {
-      "x": 4,
-      "n": 7,
-      "txt": "4 de 7",
+      "x": 3,
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false
@@ -2432,8 +2401,8 @@
      },
      "directos": {
       "x": 3,
-      "n": 7,
-      "txt": "3 de 7",
+      "n": 6,
+      "txt": "3 de 6",
       "cumple": false
      },
      "cumple": false

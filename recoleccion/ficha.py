@@ -15,12 +15,38 @@ Reglas fijas del usuario (12-nov-2026; muestra ampliada el 13-nov-2026):
 
 Uso:  python3 recoleccion/ficha.py <entrada.json> [carpeta_salida]
 """
-import json, os, re, sys, unicodedata
+import glob, json, os, re, sys, unicodedata
 
 N = 10           # partidos por equipo (los últimos oficiales, cualquier sede)
 N_H2H = 6        # directos: 6 como máximo (si hay menos, los que haya)
 MIN_N = 7        # muestra mínima para poder decir «cumple»
 CUMPLE = 7       # veces de N que debe cumplirse la línea
+REGLA = (N, MIN_N, CUMPLE)   # la regla vigente; fijar_muestra() la adapta a una jornada recogida con menos partidos
+
+
+def muestra_de(carpeta):
+    """Mayor número de partidos por equipo en las entradas de una jornada (la muestra con la que se recogió). 0 si no hay forma."""
+    nmax = 0
+    for p in glob.glob(os.path.join(carpeta, '*.json')):
+        try:
+            forma = ((json.load(open(p, encoding='utf8')).get('ficha') or {}).get('forma') or {})
+        except (ValueError, AttributeError):
+            continue
+        for lado in ('local', 'visitante'):
+            nmax = max(nmax, len(forma.get(lado) or []))
+    return nmax
+
+
+def fijar_muestra(nmax):
+    """Una jornada recogida con menos partidos que la regla (p. ej. 7 antes del 13-nov) se declara «muestra de nmax» y usa el umbral
+    proporcional (7 de 10 -> 5 de 7, n mínimo 5): el mismo cálculo que hace informe_html.py. Con nmax >= 10 (o 0) vale la regla."""
+    global N, MIN_N, CUMPLE
+    n0, m0, c0 = REGLA
+    if nmax and nmax < n0:
+        N, MIN_N, CUMPLE = nmax, max(1, round(m0 * nmax / n0)), max(1, round(c0 * nmax / n0))
+    else:
+        N, MIN_N, CUMPLE = n0, m0, c0
+    return N, MIN_N, CUMPLE
 
 # mercado de Betano -> clave de estadística en ficha.forma[].stats  ([a favor, en contra])
 MERCADOS = {
@@ -319,6 +345,7 @@ def main(argv):
     ruta = argv[1]
     sal = argv[2] if len(argv) > 2 else os.path.dirname(os.path.abspath(ruta))
     e = json.load(open(ruta, encoding='utf8'))
+    fijar_muestra(muestra_de(os.path.dirname(os.path.abspath(ruta))))   # muestra real de la jornada (las entradas de la misma carpeta)
     F = construir(e)
     clave = os.path.splitext(os.path.basename(ruta))[0]
     os.makedirs(sal, exist_ok=True)

@@ -86,6 +86,66 @@ def datos(jor, filas, rk, res, estado):
     return {'jor': jor, 'u': U_COP, 'P': P, 'F': F, 'estado': estado, 'N': nmax, 'K': K0, 'MN': MN0}
 
 
+def _md(t):
+    """Markdown mínimo (títulos ##, viñetas -, **negrita**) -> HTML escapado; para el bloque «Enfoque de mercados»."""
+    esc = lambda x: x.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+    out, lista = [], False
+    for ln in t.splitlines():
+        ln = ln.rstrip()
+        h = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', esc(ln.lstrip('#- ').strip()))
+        if ln.startswith('- '):
+            if not lista:
+                out.append('<ul>')
+                lista = True
+            out.append(f'<li>{h}</li>')
+            continue
+        if lista:
+            out.append('</ul>')
+            lista = False
+        if ln.startswith('#'):
+            out.append(f'<h3>{h}</h3>')
+        elif ln:
+            out.append(f'<p>{h}</p>')
+    if lista:
+        out.append('</ul>')
+    return '\n'.join(out)
+
+
+def analisis(base, d):
+    """Pestaña «Análisis»: <jornada>/analisis.json (de analisis_jornada.py) + <jornada>/enfoque.md (lo escribe Claude). Sin ellos no hay pestaña."""
+    p = os.path.join(base, 'analisis.json')
+    if not os.path.exists(p):
+        return None
+    A = json.load(open(p, encoding='utf8'))
+    pidx = {x['n']: i for i, x in enumerate(d['P'])}
+    lado = {'Más': 'Más', 'Menos': 'Menos'}
+    idx = {(r[0], r[1], r[2], r[5], r[6]): i for i, r in enumerate(d['F']) if r[3] in ('', None)}
+
+    def fila(c):
+        return idx.get((pidx.get(c['partido']), c['mercado'], c['ambito'], num(c['linea']), lado.get(c['lado'], c['lado'])))
+
+    S = []
+    for et, lista in (('protección', A.get('proteccion', [])), ('sencilla 1,50–1,99', A.get('sencillas', []))):
+        for c in lista:
+            S.append({'t': et, 'h': c['hora'], 'n': c['partido'], 'x': c['texto'], 'm': c['mercado'], 'c': c['cuota'], 'p': c['p'], 'pr': c['p_rec'],
+                      'L': c['L'], 'V': c['V'], 'D': c['D'], 'col': c.get('colchon'), 'real': c['real'], 'i': [fila(c)]})
+    for c in A.get('combinadas', []):
+        S.append({'t': 'combinada de 2 patas', 'h': c['hora'], 'n': c['partido'], 'x': c['texto'], 'm': ' + '.join(x['mercado'] for x in c['patas']), 'c': c['cuota'],
+                  'p': c['p_ajust'], 'pr': c['p_rec'], 'L': ' · '.join(x['L'] for x in c['patas']), 'V': ' · '.join(x['V'] for x in c['patas']),
+                  'D': ' · '.join(x['D'] or '–' for x in c['patas']), 'col': None,
+                  'real': f"simulación {c['p_sim']:.0%}, ajustada {c['p_ajust']:.0%}, recortada {A['reglas']['recorte_combo']:.0%}; correlación {c.get('correlacion')}; guion común: {c.get('guion')}; pata más frágil: {c.get('fragil')}",
+                  'i': [fila(x) for x in c['patas']]})
+    lot = A.get('loteria')
+    if lot:
+        S.append({'t': 'lotería (stake mínimo)', 'h': min(x['hora'] for x in lot['patas']), 'n': 'varios (3 partidos)', 'x': lot['texto'], 'm': 'varios', 'c': lot['cuota'],
+                  'p': lot['p'], 'pr': lot['p_rec'], 'L': '', 'V': '', 'D': '', 'col': None, 'real': 'tres patas de partidos distintos: producto de sus p recortadas',
+                  'i': [fila(x) for x in lot['patas']]})
+    e = os.path.join(base, 'enfoque.md')
+    return {'hecho': A.get('hecho'), 'leidas': A.get('cuotas_leidas'), 'muestra': A.get('muestra'), 'cumple': A.get('cumple'), 'reglas': A.get('reglas'),
+            'real': A.get('real'), 'P': A.get('partidos'), 'S': S, 'saltados': A.get('combos_saltados_por_alerta', []), 'n_cumplen': A.get('n_cumplen'),
+            'jh': A.get('n_jugadores_con_historial'), 'enfoque': _md(open(e, encoding='utf8').read()) if os.path.exists(e) else ''}
+
+
 PLANTILLA = r'''<!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Informe __JOR__</title>
@@ -109,6 +169,7 @@ tr:hover td{background:var(--acc2)}.ok{color:var(--acc);font-weight:600}.mut{col
 .bar{height:10px;border-radius:5px;background:var(--acc);display:inline-block;vertical-align:middle}.bar2{background:var(--warn)}
 .row{display:flex;gap:10px;align-items:center;margin:3px 0}.row .t{flex:0 0 190px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.row .v{flex:1;min-width:0}
 pre{white-space:pre-wrap;word-break:break-word;font:12.5px/1.5 ui-monospace,Menlo,monospace}.small{font-size:12px}
+.enf h3{font-size:14px;margin:12px 0 4px}.enf p,.enf ul{margin:4px 0;max-width:95ch}.enf ul{padding-left:20px}.enf li{margin:3px 0}
 @media(max-width:560px){.row .t{flex-basis:110px}}
 </style></head><body>
 <h1>Informe interactivo · <span id="jor"></span></h1>
@@ -121,7 +182,7 @@ const $=(s,e)=>(e||document).querySelector(s),pct=x=>x==null?'–':(100*x).toFix
 const MERC=[...new Set(D.F.map(r=>r[1]))].sort(),AMB=[...new Set(D.F.map(r=>r[2]))].sort();
 const bog=s=>{try{return new Date(s).toLocaleString('es-CO',{timeZone:'America/Bogota',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})}catch(e){return s}};
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let K=D.K,MN=D.MN,MODO='ambos',TF={tp:0.7,tc:1.3,tm:'',ts:false},TAB='res',SEL=new Set(),CUP=[],stake=1,sortK={l:['p',-1],j:['c',-1]},LIM={l:200,j:200},Fil={l:{},j:{}};
+let K=D.K,MN=D.MN,MODO='ambos',TF={tp:0.7,tc:1.3,tm:'',ts:false},TAB=D.A?'ana':'res',FA={},SEL=new Set(),CUP=[],stake=1,sortK={l:['p',-1],j:['c',-1]},LIM={l:200,j:200},Fil={l:{},j:{}};
 const isJ=r=>r[1].startsWith('jugador:');
 const rg=s=>{const m=/(\d+)\s*de\s*(\d+)/.exec(s||'');return m?[+m[1],+m[2]]:null};
 /* «cumple» dinámico: true / false / null (sin muestra o sin alineación). Equipo: ambos equipos (o el modo elegido) con ≥k veces y n ≥ MN. Jugador: su historial. */
@@ -137,9 +198,9 @@ function kbar(){const B=$('#kbar'),ks=[];for(let i=Math.max(1,D.N-5);i<=D.N;i++)
 const nm=r=>isJ(r)?r[3]+' · '+r[1].slice(8):r[1]+(r[2]!=='total'?' '+r[2]:'');
 $('#jor').textContent=D.jor;
 $('#sub').textContent=D.P.length+' partidos · '+D.F.length.toLocaleString('es-CO')+' líneas de Betano (cumplan o no) · hora de Bogotá · 1 u = $'+D.u.toLocaleString('es-CO')+' COP. Solo lectura: el informe no apuesta.';
-const TABS=[['res','Resumen'],['l','Líneas de equipo'],['j','Jugadores'],['cup','Cupón'],['dat','Datos y límites']];
+const TABS=[...(D.A?[['ana','Análisis']]:[]),['res','Resumen'],['l','Líneas de equipo'],['j','Jugadores'],['cup','Cupón'],['dat','Datos y límites']];
 function nav(){$('#nav').innerHTML=TABS.map(([k,t])=>`<button class="${TAB===k?'on':''}" data-k="${k}">${t}${k==='cup'&&CUP.length?' ('+CUP.length+')':''}</button>`).join('');$('#nav').onclick=e=>{const k=e.target.dataset.k;if(k){TAB=k;draw()}}}
-function draw(keep){const A=$('#app');A.oninput=A.onchange=A.onclick=null;nav();const y=window.scrollY;({res:vRes,l:()=>vTab('l'),j:()=>vTab('j'),cup:vCup,dat:vDat})[TAB]();window.scrollTo(0,keep?y:0)}
+function draw(keep){const A=$('#app');A.oninput=A.onchange=A.onclick=null;nav();const y=window.scrollY;({ana:vAna,res:vRes,l:()=>vTab('l'),j:()=>vTab('j'),cup:vCup,dat:vDat})[TAB]();window.scrollTo(0,keep?y:0)}
 function vRes(){
  const n=D.P.length,cm=D.P.map((_,i)=>D.F.filter(r=>r[0]===i&&!isJ(r)&&cum(r)===true).length),mx=Math.max(1,...cm);
  let h=`<div class="card"><h2>Cuántas líneas de equipo cumplen (≥ ${K} de ${D.N}, ${{ambos:'en ambos',local:'en el local',visitante:'en el visitante',alguno:'en alguno de los dos'}[MODO]}) por partido</h2>`+D.P.map((p,i)=>`<div class="row"><span class="t">${esc(p.n)}</span><span class="v"><span class="bar" style="width:${Math.max(2,82*cm[i]/mx)}%"></span> ${cm[i]}</span></div>`).join('')+`<p class="small mut">«Cumple» es un criterio de tipsters sin resultados verificados; el objetivo es la probabilidad de la línea.</p></div>`;
@@ -154,6 +215,25 @@ function vRes(){
  ['tp','tc','tm','ts'].forEach(id=>$('#'+id).oninput=top);top();
  $('#app').onclick=e=>{const a=e.target.dataset.add,p=e.target.dataset.p;if(a!=null){add(+a)}if(p!=null){Fil.l={p:+p};TAB='l';draw()}}}
 function add(i){if(!CUP.includes(i)){CUP.push(i);nav()}}
+/* Pestaña «Análisis»: enfoque de mercados, «real hasta hoy» y sugerencias con las reglas de la auditoría (analisis_jornada.py) */
+const NM={corners:'Córners',goles:'Goles',tarjetas:'Tarjetas',al_arco:'Tiros al arco',remates:'Remates',faltas:'Faltas',fueras:'Fueras de juego',saques_meta:'Saques de meta',saques_banda:'Saques de banda'};
+const hh=s=>(s||'').slice(11,16);
+function vAna(){const A=D.A,R=A.real,g=R.global_cumple;
+ const rt=(o,f)=>Object.entries(o).map(([k,v])=>`<tr><td>${esc(f?f(k):k)}</td><td class="n">${v.n}</td><td class="n">${v.aciertos}</td><td class="n ${v.real!=null&&v.dicho!=null&&v.real<v.dicho-0.03?'bad':'ok'}">${pct(v.real)}</td><td class="n">${pct(v.dicho)}</td>${v.factor!=null?`<td class="n">× ${(+v.factor).toFixed(2)}</td>`:'<td></td>'}</tr>`).join('');
+ const th='<tr><th>Grupo</th><th class="n">n</th><th class="n">Se dieron</th><th class="n">Real</th><th class="n">Dicho</th><th class="n">Recorte de p</th></tr>';
+ let h=`<div class="card"><h2>Enfoque de mercados</h2><p class="small mut">Hecho: ${esc(A.hecho||'')} (Bogotá) · Cuotas: Betano, leídas ${A.leidas&&A.leidas.length?bog(A.leidas[0])+' a '+bog(A.leidas[1]):'sin dato'} (Bogotá), sin releer · Muestra de ${A.muestra} partidos por equipo: «cumple» = ${A.cumple} de ${A.muestra} en ambos · ${A.n_cumplen} líneas de equipo cumplen · jugadores con historial: ${A.jh||0} líneas.</p><div class="enf">${A.enfoque||'<p class="mut">Esta jornada no tiene enfoque.md.</p>'}</div></div>`;
+ h+=`<div class="card"><h2>Sugerencias (reglas de la auditoría)</h2><p class="small mut">p recortada = p del modelo × el menor factor real (mercado-lado y banda de cuota). «Protección» = cuota &lt; ${f2(A.reglas.cuota_proteccion)}: se da, no paga. Combinadas: 2 patas del mismo partido, cada una ≥ ${pct(A.reglas.p_min)} recortada; conjunta de la simulación recortada ${pct(A.reglas.recorte_combo)}; la cuota es el producto (techo). El «+» lleva las patas al cupón.</p><div class="filters"><label>Tipo<select id="at"><option value="">todos</option>${[...new Set(A.S.map(s=>s.t))].map(t=>`<option ${FA.t===t?'selected':''}>${esc(t)}</option>`).join('')}</select></label><label>Partido<select id="an"><option value="">todos</option>${D.P.map(p=>`<option ${FA.n===p.n?'selected':''}>${esc(p.n)}</option>`).join('')}</select></label><label>Mercado<select id="am"><option value="">todos</option>${Object.keys(NM).filter(m=>A.S.some(s=>s.m.includes(m))).map(m=>`<option value="${m}" ${FA.m===m?'selected':''}>${NM[m]}</option>`).join('')}</select></label><label>p recortada ≥<input type="number" id="ap" step="0.05" min="0" max="1" value="${FA.p??''}"></label><label>Cuota ≥<input type="number" id="ac" step="0.05" value="${FA.c??''}"></label><label>Buscar<input type="search" id="aq" value="${esc(FA.q||'')}"></label><span class="small mut" id="acnt"></span></div><div class="tw" style="margin-top:8px"><table id="atb"></table></div></div>`;
+ h+=`<div class="card"><h2>Real hasta hoy (lo que de verdad se dio)</h2><p class="small mut">Líneas de equipo con «cumple» ya calificadas: ${g.aciertos} de ${g.n} (${pct(g.real)} real contra ${pct(g.dicho)} dicho) en ${R.partidos} partidos. Muestra chica y con líneas del mismo partido correlacionadas: es un aviso, no una prueba.</p><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))"><div class="tw"><table><tr><th colspan="6">Por mercado y lado (con «cumple»)</th></tr>${th}${rt(R.mercado_lado,k=>{const [m,l]=k.split('|');return (NM[m]||m)+' '+l})}</table></div><div><div class="tw"><table><tr><th colspan="6">Por banda de cuota (con «cumple»)</th></tr>${th}${rt(R.banda_cuota)}</table></div><div class="tw" style="margin-top:10px"><table><tr><th colspan="6">Mis sugerencias auditadas (4–13 nov)</th></tr>${th}${rt(R.sugerencias)}</table></div></div></div></div>`;
+ h+=`<div class="card"><h2>Situación por partido (lo que hay en las fichas)</h2><div class="grid">${A.P.map(p=>`<div class="card" style="margin:0"><b>${hh(p.hora)} · ${esc(p.n)}</b><div class="small mut">${esc(p.liga)}</div><div class="small">1X2 modelo: <b>${pct(p.p1)}</b> · ${pct(p.px)} · ${pct(p.p2)}</div><div class="small">Tabla: ${esc(p.tabla)}</div><div class="small">Árbitro: ${esc(p.arbitro)} (sin estadísticas) · XI: ${esc(p.xi)}</div><div class="small mut">${esc(p.clima)}</div><div class="small">Cumplen: ${p.cumplen} (${Object.entries(p.cumplen_por_mercado).map(([m,n])=>(NM[m]||m)+' '+n).join(', ')||'ninguna'})</div>${p.familias_alerta.length?`<div class="small warn">⚠ Alerta del modelo en ${p.familias_alerta.map(m=>NM[m]||m).join(', ')}: la simulación se aleja del mercado</div>`:''}<div class="small mut">${esc(p.enfoque)}</div></div>`).join('')}</div></div>`;
+ $('#app').innerHTML=h;
+ const paint=()=>{FA={t:$('#at').value||undefined,n:$('#an').value||undefined,m:$('#am').value||undefined,p:$('#ap').value===''?undefined:+$('#ap').value,c:$('#ac').value===''?undefined:+$('#ac').value,q:$('#aq').value.trim().toLowerCase()||undefined,s:FA.s};
+  let L=A.S.map((s,i)=>[s,i]).filter(([s])=>(!FA.t||s.t===FA.t)&&(!FA.n||s.n===FA.n||s.x.includes(FA.n))&&(!FA.m||s.m.includes(FA.m))&&(FA.p==null||s.pr>=FA.p)&&(FA.c==null||s.c>=FA.c)&&(!FA.q||(s.n+' '+s.x+' '+s.t).toLowerCase().includes(FA.q)));
+  const [sk,sd]=FA.s||['pr',-1],kf={h:s=>s.h+s.n,c:s=>s.c,p:s=>s.p,pr:s=>s.pr,ev:s=>s.pr*s.c-1,t:s=>s.t}[sk];L.sort((a,b)=>{const x=kf(a[0]),y=kf(b[0]);return(x>y?1:x<y?-1:0)*sd});
+  $('#acnt').textContent=L.length+' de '+A.S.length+' sugerencias';const ar=k=>sk===k?(sd<0?' ▼':' ▲'):'';
+  $('#atb').innerHTML=`<tr><th data-s="h">Hora · partido · sugerencia${ar('h')}</th><th data-s="t">Tipo${ar('t')}</th><th class="n" data-s="c">Cuota${ar('c')}</th><th class="n" data-s="p">p modelo${ar('p')}</th><th class="n" data-s="pr">p recortada${ar('pr')}</th><th class="n" data-s="ev">EV con p recortada${ar('ev')}</th><th>Local</th><th>Visit.</th><th>Directos</th><th></th></tr>`+(L.length?L.map(([s,i])=>`<tr><td style="white-space:normal;min-width:210px;max-width:520px"><div class="small mut">${hh(s.h)} · ${esc(s.n)}</div><b>${esc(s.x)}</b><div class="small mut">Real hasta hoy: ${esc(s.real)}</div></td><td><span class="pill ${s.t==='protección'?'apto':''}">${esc(s.t)}</span></td><td class="n">${f2(s.c)}</td><td class="n">${pct(s.p)}</td><td class="n ok">${pct(s.pr)}</td><td class="n ${s.pr*s.c-1<0?'bad':''}">${pct(s.pr*s.c-1)}</td><td>${esc(s.L)}</td><td>${esc(s.V)}</td><td>${esc(s.D||'–')}</td><td><button class="b small" data-sg="${i}">+</button></td></tr>`).join(''):'<tr><td colspan="10" class="mut">Ninguna sugerencia pasa esos filtros.</td></tr>')};
+ $('#app').oninput=paint;$('#app').onchange=paint;
+ $('#app').onclick=e=>{const t=e.target;if(t.dataset.sg!=null){A.S[+t.dataset.sg].i.forEach(i=>{if(i!=null)add(i)});t.textContent='✓'}if(t.dataset.s){const k=t.dataset.s,c=FA.s||['pr',-1];FA.s=c[0]===k?[k,-c[1]]:[k,-1];paint()}};
+ paint()}
 function vTab(w){
  const F=Fil[w],rows=D.F.map((r,i)=>[r,i]).filter(([r])=>w==='j'?isJ(r):!isJ(r));
  const mset=[...new Set(rows.map(([r])=>r[1]))].sort(),aset=[...new Set(rows.map(([r])=>r[2]))].sort();
@@ -192,6 +272,7 @@ def main(argv):
     base = argv[0]
     jor, filas, rk, res, estado = cargar(base)
     d = datos(jor, filas, rk, res, estado)
+    d['A'] = analisis(base, d)
     js = json.dumps(d, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
     html = PLANTILLA.replace('__JOR__', jor).replace('/*DATA*/', js)
     out = argv[1] if len(argv) > 1 else os.path.join(base, 'informe.html')

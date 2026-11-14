@@ -5,14 +5,15 @@
 
 Lee      jornadas/<día>/betano/*.json  (+ flashscore/*.json, notas/*.json si existen)
 Escribe  entradas/ (armadas), fichas/ (por mercado), informes/ (modelo SM-1.2 de cada partido apto o en reserva), ranking.md y ranking.json,
-         registro/lineas.csv e informe.html (informe interactivo de la jornada; ver recoleccion/informe_html.py).
+         registro/lineas.csv, analisis.json + sugerencias.json + informe_final.md (recoleccion/analisis_jornada.py: sugerencias con las reglas
+         de la auditoría) e informe.html (informe interactivo de la jornada; ver recoleccion/informe_html.py).
 Si falta lo recolectado lo dice y termina; NO inventa datos.
 """
 import os, sys, json, glob, shutil, subprocess
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(AQUI)
 sys.path.insert(0, AQUI)
-import armar_entrada as A, ficha as FI, puntuar as PU, registrar_jornada as RJ, informe_html as IH
+import armar_entrada as A, ficha as FI, puntuar as PU, registrar_jornada as RJ, informe_html as IH, analisis_jornada as AJ
 
 
 def main(argv):
@@ -26,6 +27,8 @@ def main(argv):
         return 2
     A.main([base])
     ent = os.path.join(base, 'entradas')
+    n, mn, k = FI.fijar_muestra(FI.muestra_de(ent))                  # jornada recogida con 7 partidos -> «muestra de 7», cumple 5 de 7
+    print(f'Muestra de la jornada: {n} partidos por equipo; cumple = {k} de {n} (n mínimo {mn})')
     PU.main([ent, base])                                              # ranking.json / ranking.md en la carpeta de la jornada
     R = json.load(open(os.path.join(base, 'ranking.json'), encoding='utf8'))
     orden = {r['partido']: r['estado'] for r in R}
@@ -47,6 +50,10 @@ def main(argv):
             print(f"{k:34s} {orden.get(nombre)}: sin informe del modelo (ver ranking.md)")
     n, prev = RJ.registrar(base)                                     # registro/lineas.csv: todas las líneas, ficha + modelo
     print(f'registro/lineas.csv: {n} líneas de esta jornada (+{prev} de otras)')
+    try:
+        AJ.main([base])                                               # sugerencias con las reglas de la auditoría -> analisis.json, sugerencias.json, informe_final.md
+    except Exception as e:                                            # el análisis no debe tumbar el registro ni el informe
+        print('analisis.json no generado:', e)
     try:
         IH.main([base])                                               # informe.html interactivo (filtros, gráficos, cupón); se puede regenerar siempre
     except SystemExit as e:
