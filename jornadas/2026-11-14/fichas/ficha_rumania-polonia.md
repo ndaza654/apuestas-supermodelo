@@ -1,5 +1,5 @@
 # Ficha — Rumanía - Polonia
-UEFA Liga de Naciones · 2026-11-14 14:45 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T00:05:01.269Z · 415 mercados
+UEFA Liga de Naciones · 2026-11-14 14:45 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T18:56:54.388Z · 392 mercados
 
 Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -30,21 +30,21 @@ Muestra: local 7, visitante 7, directos 1. Esperado: local 2.71, visitante 5.43,
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.28 · col +0.2 · L 4 de 7 · V 3 de 7 · D 0 de 1 | — |
-| 3.5 | @1.65 · col -0.8 · L 3 de 7 · V 2 de 7 · D 0 de 1 | — |
-| 4.5 | @2.4 · col -1.8 · L 2 de 7 · V 0 de 7 · D 0 de 1 | — |
-| 5.5 | @3.75 · col -2.8 · L 1 de 7 · V 0 de 7 · D 0 de 1 | — |
-| 6.5 | @5.9 · col -3.8 · L 0 de 7 · V 0 de 7 · D 0 de 1 | — |
+| 1.5 | @1.1 · col +1.2 · L 4 de 7 · V 6 de 7 · D 0 de 1 | — |
+| 2.5 | @1.34 · col +0.2 · L 4 de 7 · V 3 de 7 · D 0 de 1 | — |
+| 3.5 | @1.8 · col -0.8 · L 3 de 7 · V 2 de 7 · D 0 de 1 | — |
+| 4.5 | @2.75 · col -1.8 · L 2 de 7 · V 0 de 7 · D 0 de 1 | — |
+| 5.5 | @4.35 · col -2.8 · L 1 de 7 · V 0 de 7 · D 0 de 1 | — |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.13 · col +2.9 · L 6 de 7 · V 7 de 7 · D 1 de 1 ✓ | — |
-| 3.5 | @1.34 · col +1.9 · L 4 de 7 · V 6 de 7 · D 1 de 1 | — |
-| 4.5 | @1.72 · col +0.9 · L 2 de 7 · V 5 de 7 · D 1 de 1 | — |
-| 5.5 | @2.42 · col -0.1 · L 2 de 7 · V 5 de 7 · D 1 de 1 | — |
-| 6.5 | @3.6 · col -1.1 · L 2 de 7 · V 4 de 7 · D 1 de 1 | — |
+| 3.5 | @1.28 · col +1.9 · L 4 de 7 · V 6 de 7 · D 1 de 1 | — |
+| 4.5 | @1.6 · col +0.9 · L 2 de 7 · V 5 de 7 · D 1 de 1 | — |
+| 5.5 | @2.2 · col -0.1 · L 2 de 7 · V 5 de 7 · D 1 de 1 | — |
+| 6.5 | @3.2 · col -1.1 · L 2 de 7 · V 4 de 7 · D 1 de 1 | — |
+| 7.5 | @4.85 · col -2.1 · L 1 de 7 · V 3 de 7 · D 0 de 1 | — |
 
 ## Estadísticas del partido
 
@@ -160,34 +160,35 @@ Muestra: local 7, visitante 7, directos 1. Esperado: local 1.5, visitante 2.29, 
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.05 · col +3.3 · L 7 de 7 · V 6 de 7 · D 1 de 1 ✓ | @10.25 · col -3.3 · L 0 de 7 · V 1 de 7 · D 0 de 1 |
-| 1.5 | @1.25 · col +2.3 · L 5 de 7 · V 5 de 7 · D 1 de 1 ✓ | @3.95 · col -2.3 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
-| 2.0 | @1.37 · col +1.8 · L 5 de 7 · V 5 de 7 · D 1 de 1 ✓ | @3.2 · col -1.8 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
-| 2.25 | @1.57 · col +1.5 · L 5 de 7 · V 5 de 7 · D 1 de 1 ✓ | @2.47 · col -1.5 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
-| 2.5 | @1.75 · col +1.3 · L 5 de 7 · V 5 de 7 · D 1 de 1 ✓ | @2.07 · col -1.3 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
-| 2.75 | @1.98 · col +1.0 · L 4 de 7 · V 4 de 7 · D 1 de 1 | @1.88 · col -1.0 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
-| 3.0 | @2.3 · col +0.8 · L 4 de 7 · V 4 de 7 · D 1 de 1 | @1.65 · col -0.8 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
-| 3.25 | @2.6 · col +0.5 · L 4 de 7 · V 4 de 7 · D 1 de 1 | @1.53 · col -0.5 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
-| 3.5 | @2.85 · col +0.3 · L 4 de 7 · V 4 de 7 · D 1 de 1 | @1.44 · col -0.3 · L 3 de 7 · V 3 de 7 · D 0 de 1 |
-| 4.5 | @5.1 · col -0.7 · L 3 de 7 · V 3 de 7 · D 1 de 1 | @1.17 · col +0.7 · L 4 de 7 · V 4 de 7 · D 0 de 1 |
-| 5.5 | @9.25 · col -1.7 · L 3 de 7 · V 1 de 7 · D 1 de 1 | @1.06 · col +1.7 · L 4 de 7 · V 6 de 7 · D 0 de 1 |
+| 0.5 | @1.04 · col +3.3 · L 7 de 7 · V 6 de 7 · D 1 de 1 ✓ | @11.25 · col -3.3 · L 0 de 7 · V 1 de 7 · D 0 de 1 |
+| 1.5 | @1.22 · col +2.3 · L 5 de 7 · V 5 de 7 · D 1 de 1 ✓ | @4.3 · col -2.3 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
+| 2.25 | @1.5 · col +1.5 · L 5 de 7 · V 5 de 7 · D 1 de 1 ✓ | @2.67 · col -1.5 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
+| 2.5 | @1.67 · col +1.3 · L 5 de 7 · V 5 de 7 · D 1 de 1 ✓ | @2.22 · col -1.3 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
+| 2.75 | @1.85 · col +1.0 · L 4 de 7 · V 4 de 7 · D 1 de 1 | @2.0 · col -1.0 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
+| 3.0 | @2.1 · col +0.8 · L 4 de 7 · V 4 de 7 · D 1 de 1 | @1.78 · col -0.8 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
+| 3.25 | @2.4 · col +0.5 · L 4 de 7 · V 4 de 7 · D 1 de 1 | @1.6 · col -0.5 · L 2 de 7 · V 2 de 7 · D 0 de 1 |
+| 3.5 | @2.62 · col +0.3 · L 4 de 7 · V 4 de 7 · D 1 de 1 | @1.5 · col -0.3 · L 3 de 7 · V 3 de 7 · D 0 de 1 |
+| 3.75 | @3.15 · col +0.0 · L 3 de 7 · V 3 de 7 · D 1 de 1 | @1.38 · col -0.0 · L 3 de 7 · V 3 de 7 · D 0 de 1 |
+| 4.5 | @4.6 · col -0.7 · L 3 de 7 · V 3 de 7 · D 1 de 1 | @1.2 · col +0.7 · L 4 de 7 · V 4 de 7 · D 0 de 1 |
+| 5.5 | @8.25 · col -1.7 · L 3 de 7 · V 1 de 7 · D 1 de 1 | @1.08 · col +1.7 · L 4 de 7 · V 6 de 7 · D 0 de 1 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.42 · col +1.0 · L 4 de 7 · V 5 de 7 · D 0 de 1 | @2.72 · col -1.0 · L 3 de 7 · V 2 de 7 · D 1 de 1 |
-| 1.5 | @2.87 · col +0.0 · L 2 de 7 · V 3 de 7 · D 0 de 1 | @1.39 · col +0.0 · L 5 de 7 · V 4 de 7 · D 1 de 1 |
-| 2.5 | @6.5 · col -1.0 · L 1 de 7 · V 2 de 7 · D 0 de 1 | @1.09 · col +1.0 · L 6 de 7 · V 5 de 7 · D 1 de 1 ✓ |
+| 0.5 | @1.47 · col +1.0 · L 4 de 7 · V 5 de 7 · D 0 de 1 | @2.57 · col -1.0 · L 3 de 7 · V 2 de 7 · D 1 de 1 |
+| 1.5 | @3.05 · col +0.0 · L 2 de 7 · V 3 de 7 · D 0 de 1 | @1.35 · col +0.0 · L 5 de 7 · V 4 de 7 · D 1 de 1 |
+| 2.5 | @6.9 · col -1.0 · L 1 de 7 · V 2 de 7 · D 0 de 1 | @1.08 · col +1.0 · L 6 de 7 · V 5 de 7 · D 1 de 1 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.18 · col +1.8 · L 7 de 7 · V 5 de 7 · D 1 de 1 ✓ | @4.5 · col -1.8 · L 0 de 7 · V 2 de 7 · D 0 de 1 |
-| 1.5 | @1.8 · col +0.8 · L 4 de 7 · V 4 de 7 · D 1 de 1 | @1.95 · col -0.8 · L 3 de 7 · V 3 de 7 · D 0 de 1 |
-| 2.5 | @3.35 · col -0.2 · L 3 de 7 · V 2 de 7 · D 1 de 1 | @1.3 · col +0.2 · L 4 de 7 · V 5 de 7 · D 0 de 1 |
-| 3.5 | @6.6 · col -1.2 · L 2 de 7 · V 1 de 7 · D 1 de 1 | @1.09 · col +1.2 · L 5 de 7 · V 6 de 7 · D 0 de 1 ✓ |
+| 0.5 | @1.14 · col +1.8 · L 7 de 7 · V 5 de 7 · D 1 de 1 ✓ | @5.2 · col -1.8 · L 0 de 7 · V 2 de 7 · D 0 de 1 |
+| 1.5 | @1.65 · col +0.8 · L 4 de 7 · V 4 de 7 · D 1 de 1 | @2.15 · col -0.8 · L 3 de 7 · V 3 de 7 · D 0 de 1 |
+| 2.5 | @2.87 · col -0.2 · L 3 de 7 · V 2 de 7 · D 1 de 1 | @1.38 · col +0.2 · L 4 de 7 · V 5 de 7 · D 0 de 1 |
+| 3.5 | @5.5 · col -1.2 · L 2 de 7 · V 1 de 7 · D 1 de 1 | @1.12 · col +1.2 · L 5 de 7 · V 6 de 7 · D 0 de 1 ✓ |
+| 4.5 | @9.5 · col -2.2 · L 1 de 7 · V 1 de 7 · D 1 de 1 | @1.04 · col +2.2 · L 6 de 7 · V 6 de 7 · D 0 de 1 ✓ |
 
 ### Tarjetas (solo amarillas)
 _Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._
@@ -224,4 +225,4 @@ _Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: []
+- Dudas: ['Alineación probable: sin casar con Betano → Hindrich O., Ratiu A., Dragusin R., Coubis A., Bancu N., Ghita V., Dragomir V., Man D., Hagi I., Coman F., Birligea D., Dragowski B., Cash M., Potulski K., Kiwior J., Kubiak O., Nowak W., Regula M., Szymanski S., Zielinski P., Zalewski N., Lewandowski R.']

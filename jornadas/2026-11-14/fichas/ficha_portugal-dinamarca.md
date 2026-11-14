@@ -1,5 +1,5 @@
 # Ficha — Portugal - Dinamarca
-UEFA Liga de Naciones · 2026-11-14 14:45 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T00:03:33.255Z · 579 mercados
+UEFA Liga de Naciones · 2026-11-14 14:45 · cuotas leídas: Cuotas de Betano leídas 2026-11-14T18:56:53.110Z · 548 mercados
 
 Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -8,12 +8,12 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 
 | Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |
 |---|---|---|---|---|---|---|
-| Córners | local | Menos 7.5 | 1.29 | +2.6 | 5 de 7 | 7 de 7 |
-| Córners | total | Menos 11.5 | 1.25 | +1.5 | 5 de 7 | 6 de 7 |
-| Córners | total | Más 7.5 | 1.34 | +2.5 | 6 de 7 | 5 de 7 |
-| Córners | total | Más 8.5 | 1.6 | +1.5 | 6 de 7 | 5 de 7 |
-| Córners | total | Más 9.5 | 2.0 | +0.5 | 5 de 7 | 5 de 7 |
-| Córners | visitante | Más 2.5 | 1.45 | +2.6 | 6 de 7 | 6 de 7 |
+| Córners | local | Menos 7.5 | 1.31 | +2.6 | 5 de 7 | 7 de 7 |
+| Córners | total | Menos 11.5 | 1.29 | +1.5 | 5 de 7 | 6 de 7 |
+| Córners | total | Más 7.5 | 1.3 | +2.5 | 6 de 7 | 5 de 7 |
+| Córners | total | Más 8.5 | 1.55 | +1.5 | 6 de 7 | 5 de 7 |
+| Córners | total | Más 9.5 | 1.93 | +0.5 | 5 de 7 | 5 de 7 |
+| Córners | visitante | Más 2.5 | 1.42 | +2.6 | 6 de 7 | 6 de 7 |
 | Fueras de juego | visitante | Más 1.5 | 1.67 | +0.7 | 5 de 7 | 5 de 7 |
 | Remates | visitante | Más 10.5 | 1.62 | +5.1 | 5 de 7 | 7 de 7 |
 | Remates | visitante | Más 11.5 | 2.0 | +4.1 | 5 de 7 | 7 de 7 |
@@ -31,42 +31,41 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 4.86, visitante 5.14,
 
 | Línea | Más | Menos |
 |---|---|---|
-| 4.5 | @1.03 · col +5.5 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ | @10.0 · col -5.5 · L 0 de 7 · V 0 de 7 · D 0 de 3 |
-| 5.5 | @1.08 · col +4.5 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ | @6.9 · col -4.5 · L 0 de 7 · V 0 de 7 · D 0 de 3 |
-| 6.5 | @1.17 · col +3.5 · L 7 de 7 · V 5 de 7 · D 3 de 3 ✓ | @4.6 · col -3.5 · L 0 de 7 · V 2 de 7 · D 0 de 3 |
-| 7.5 | @1.34 · col +2.5 · L 6 de 7 · V 5 de 7 · D 3 de 3 ✓ | @3.1 · col -2.5 · L 1 de 7 · V 2 de 7 · D 0 de 3 |
-| 8.5 | @1.6 · col +1.5 · L 6 de 7 · V 5 de 7 · D 3 de 3 ✓ | @2.25 · col -1.5 · L 1 de 7 · V 2 de 7 · D 0 de 3 |
-| 9.5 | @2.0 · col +0.5 · L 5 de 7 · V 5 de 7 · D 3 de 3 ✓ | @1.75 · col -0.5 · L 2 de 7 · V 2 de 7 · D 0 de 3 |
-| 10.5 | @2.67 · col -0.5 · L 2 de 7 · V 4 de 7 · D 2 de 3 | @1.44 · col +0.5 · L 5 de 7 · V 3 de 7 · D 1 de 3 |
-| 11.5 | @3.65 · col -1.5 · L 2 de 7 · V 1 de 7 · D 2 de 3 | @1.25 · col +1.5 · L 5 de 7 · V 6 de 7 · D 1 de 3 ✓ |
-| 12.5 | @5.1 · col -2.5 · L 1 de 7 · V 1 de 7 · D 2 de 3 | @1.15 · col +2.5 · L 6 de 7 · V 6 de 7 · D 1 de 3 ✓ |
-| 13.5 | @6.8 · col -3.5 · L 1 de 7 · V 0 de 7 · D 1 de 3 | @1.08 · col +3.5 · L 6 de 7 · V 7 de 7 · D 2 de 3 ✓ |
-| 14.5 | @9.0 · col -4.5 · L 0 de 7 · V 0 de 7 · D 1 de 3 | @1.04 · col +4.5 · L 7 de 7 · V 7 de 7 · D 2 de 3 ✓ |
+| 5.5 | @1.07 · col +4.5 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ | @7.3 · col -4.5 · L 0 de 7 · V 0 de 7 · D 0 de 3 |
+| 6.5 | @1.16 · col +3.5 · L 7 de 7 · V 5 de 7 · D 3 de 3 ✓ | @4.9 · col -3.5 · L 0 de 7 · V 2 de 7 · D 0 de 3 |
+| 7.5 | @1.3 · col +2.5 · L 6 de 7 · V 5 de 7 · D 3 de 3 ✓ | @3.3 · col -2.5 · L 1 de 7 · V 2 de 7 · D 0 de 3 |
+| 8.5 | @1.55 · col +1.5 · L 6 de 7 · V 5 de 7 · D 3 de 3 ✓ | @2.35 · col -1.5 · L 1 de 7 · V 2 de 7 · D 0 de 3 |
+| 9.5 | @1.93 · col +0.5 · L 5 de 7 · V 5 de 7 · D 3 de 3 ✓ | @1.82 · col -0.5 · L 2 de 7 · V 2 de 7 · D 0 de 3 |
+| 10.5 | @2.55 · col -0.5 · L 2 de 7 · V 4 de 7 · D 2 de 3 | @1.47 · col +0.5 · L 5 de 7 · V 3 de 7 · D 1 de 3 |
+| 11.5 | @3.4 · col -1.5 · L 2 de 7 · V 1 de 7 · D 2 de 3 | @1.29 · col +1.5 · L 5 de 7 · V 6 de 7 · D 1 de 3 ✓ |
+| 12.5 | @4.75 · col -2.5 · L 1 de 7 · V 1 de 7 · D 2 de 3 | @1.16 · col +2.5 · L 6 de 7 · V 6 de 7 · D 1 de 3 ✓ |
+| 13.5 | @6.5 · col -3.5 · L 1 de 7 · V 0 de 7 · D 1 de 3 | @1.09 · col +3.5 · L 6 de 7 · V 7 de 7 · D 2 de 3 ✓ |
+| 14.5 | @8.5 · col -4.5 · L 0 de 7 · V 0 de 7 · D 1 de 3 | @1.05 · col +4.5 · L 7 de 7 · V 7 de 7 · D 2 de 3 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.06 · col +2.4 · L 5 de 7 · V 5 de 7 · D 3 de 3 ✓ | @8.0 · col -2.4 · L 2 de 7 · V 2 de 7 · D 0 de 3 |
-| 3.5 | @1.16 · col +1.4 · L 4 de 7 · V 4 de 7 · D 3 de 3 | @4.8 · col -1.4 · L 3 de 7 · V 3 de 7 · D 0 de 3 |
-| 4.5 | @1.36 · col +0.4 · L 4 de 7 · V 2 de 7 · D 3 de 3 | @3.0 · col -0.4 · L 3 de 7 · V 5 de 7 · D 0 de 3 |
-| 5.5 | @1.72 · col -0.6 · L 4 de 7 · V 2 de 7 · D 3 de 3 | @2.05 · col +0.6 · L 3 de 7 · V 5 de 7 · D 0 de 3 |
-| 6.5 | @2.35 · col -1.6 · L 3 de 7 · V 2 de 7 · D 2 de 3 | @1.55 · col +1.6 · L 4 de 7 · V 5 de 7 · D 1 de 3 |
-| 7.5 | @3.4 · col -2.6 · L 2 de 7 · V 0 de 7 · D 1 de 3 | @1.29 · col +2.6 · L 5 de 7 · V 7 de 7 · D 2 de 3 ✓ |
-| 8.5 | @5.0 · col -3.6 · L 2 de 7 · V 0 de 7 · D 1 de 3 | @1.15 · col +3.6 · L 5 de 7 · V 7 de 7 · D 2 de 3 ✓ |
-| 9.5 | @7.1 · col -4.6 · L 1 de 7 · V 0 de 7 · D 1 de 3 | @1.08 · col +4.6 · L 6 de 7 · V 7 de 7 · D 2 de 3 ✓ |
-| 10.5 | @9.5 · col -5.6 · L 0 de 7 · V 0 de 7 · D 1 de 3 | @1.04 · col +5.6 · L 7 de 7 · V 7 de 7 · D 2 de 3 ✓ |
+| 2.5 | @1.05 · col +2.4 · L 5 de 7 · V 5 de 7 · D 3 de 3 ✓ | @8.5 · col -2.4 · L 2 de 7 · V 2 de 7 · D 0 de 3 |
+| 3.5 | @1.15 · col +1.4 · L 4 de 7 · V 4 de 7 · D 3 de 3 | @5.0 · col -1.4 · L 3 de 7 · V 3 de 7 · D 0 de 3 |
+| 4.5 | @1.34 · col +0.4 · L 4 de 7 · V 2 de 7 · D 3 de 3 | @3.1 · col -0.4 · L 3 de 7 · V 5 de 7 · D 0 de 3 |
+| 5.5 | @1.67 · col -0.6 · L 4 de 7 · V 2 de 7 · D 3 de 3 | @2.1 · col +0.6 · L 3 de 7 · V 5 de 7 · D 0 de 3 |
+| 6.5 | @2.27 · col -1.6 · L 3 de 7 · V 2 de 7 · D 2 de 3 | @1.6 · col +1.6 · L 4 de 7 · V 5 de 7 · D 1 de 3 |
+| 7.5 | @3.25 · col -2.6 · L 2 de 7 · V 0 de 7 · D 1 de 3 | @1.31 · col +2.6 · L 5 de 7 · V 7 de 7 · D 2 de 3 ✓ |
+| 8.5 | @4.8 · col -3.6 · L 2 de 7 · V 0 de 7 · D 1 de 3 | @1.16 · col +3.6 · L 5 de 7 · V 7 de 7 · D 2 de 3 ✓ |
+| 9.5 | @6.9 · col -4.6 · L 1 de 7 · V 0 de 7 · D 1 de 3 | @1.08 · col +4.6 · L 6 de 7 · V 7 de 7 · D 2 de 3 ✓ |
+| 10.5 | @9.25 · col -5.6 · L 0 de 7 · V 0 de 7 · D 1 de 3 | @1.04 · col +5.6 · L 7 de 7 · V 7 de 7 · D 2 de 3 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.15 · col +3.6 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ | @5.0 · col -3.6 · L 0 de 7 · V 0 de 7 · D 0 de 3 |
-| 2.5 | @1.45 · col +2.6 · L 6 de 7 · V 6 de 7 · D 3 de 3 ✓ | @2.62 · col -2.6 · L 1 de 7 · V 1 de 7 · D 0 de 3 |
-| 3.5 | @2.07 · col +1.6 · L 5 de 7 · V 4 de 7 · D 2 de 3 | @1.7 · col -1.6 · L 2 de 7 · V 3 de 7 · D 1 de 3 |
-| 4.5 | @3.35 · col +0.6 · L 4 de 7 · V 3 de 7 · D 2 de 3 | @1.3 · col -0.6 · L 3 de 7 · V 4 de 7 · D 1 de 3 |
-| 5.5 | @5.6 · col -0.4 · L 2 de 7 · V 3 de 7 · D 2 de 3 | @1.12 · col +0.4 · L 5 de 7 · V 4 de 7 · D 1 de 3 |
-| 6.5 | @8.75 · col -1.4 · L 2 de 7 · V 3 de 7 · D 2 de 3 | @1.05 · col +1.4 · L 5 de 7 · V 4 de 7 · D 1 de 3 |
+| 1.5 | @1.14 · col +3.6 · L 7 de 7 · V 7 de 7 · D 3 de 3 ✓ | @5.3 · col -3.6 · L 0 de 7 · V 0 de 7 · D 0 de 3 |
+| 2.5 | @1.42 · col +2.6 · L 6 de 7 · V 6 de 7 · D 3 de 3 ✓ | @2.75 · col -2.6 · L 1 de 7 · V 1 de 7 · D 0 de 3 |
+| 3.5 | @2.0 · col +1.6 · L 5 de 7 · V 4 de 7 · D 2 de 3 | @1.75 · col -1.6 · L 2 de 7 · V 3 de 7 · D 1 de 3 |
+| 4.5 | @3.15 · col +0.6 · L 4 de 7 · V 3 de 7 · D 2 de 3 | @1.33 · col -0.6 · L 3 de 7 · V 4 de 7 · D 1 de 3 |
+| 5.5 | @5.2 · col -0.4 · L 2 de 7 · V 3 de 7 · D 2 de 3 | @1.14 · col +0.4 · L 5 de 7 · V 4 de 7 · D 1 de 3 |
+| 6.5 | @8.25 · col -1.4 · L 2 de 7 · V 3 de 7 · D 2 de 3 | @1.05 · col +1.4 · L 5 de 7 · V 4 de 7 · D 1 de 3 |
 
 ## Estadísticas del partido
 
@@ -83,13 +82,13 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 11.57, visitante 9.71
 
 | Línea | Más | Menos |
 |---|---|---|
-| 10.5 | @1.75 · col +1.1 · L 3 de 7 · V 6 de 7 · D 2 de 3 | @2.02 · col -1.1 · L 4 de 7 · V 1 de 7 · D 1 de 3 |
+| 11.5 | @2.07 · col +0.1 · L 3 de 7 · V 5 de 7 · D 2 de 3 | @1.7 · col -0.1 · L 4 de 7 · V 2 de 7 · D 1 de 3 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 10.5 | @1.95 · col -0.8 · L 3 de 7 · V 2 de 7 · D 1 de 3 | @1.8 · col +0.8 · L 4 de 7 · V 5 de 7 · D 2 de 3 |
+| 10.5 | @2.05 · col -0.8 · L 3 de 7 · V 2 de 7 · D 1 de 3 | @1.72 · col +0.8 · L 4 de 7 · V 5 de 7 · D 2 de 3 |
 
 ### Fueras de juego
 Muestra: local 7, visitante 7, directos 3. Esperado: local 1.5, visitante 2.21, **total 3.71** (local 1.86 a favor / 2.14 en contra; visitante 2.29 / 1.14).
@@ -218,36 +217,36 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 1.79, visitante 1.5, 
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.03 · col +2.8 · L 6 de 7 · V 7 de 7 · D 3 de 3 ✓ | @12.5 · col -2.8 · L 1 de 7 · V 0 de 7 · D 0 de 3 |
-| 1.5 | @1.17 · col +1.8 · L 4 de 7 · V 6 de 7 · D 2 de 3 | @5.1 · col -1.8 · L 3 de 7 · V 1 de 7 · D 1 de 3 |
-| 2.25 | @1.38 · col +1.0 · L 4 de 7 · V 5 de 7 · D 2 de 3 | @3.15 · col -1.0 · L 3 de 7 · V 1 de 7 · D 1 de 3 |
-| 2.5 | @1.52 · col +0.8 · L 4 de 7 · V 5 de 7 · D 2 de 3 | @2.55 · col -0.8 · L 3 de 7 · V 2 de 7 · D 1 de 3 |
-| 2.75 | @1.65 · col +0.5 · L 1 de 7 · V 5 de 7 · D 2 de 3 | @2.32 · col -0.5 · L 3 de 7 · V 2 de 7 · D 1 de 3 |
-| 3.0 | @1.8 · col +0.3 · L 1 de 7 · V 5 de 7 · D 2 de 3 | @2.05 · col -0.3 · L 3 de 7 · V 2 de 7 · D 1 de 3 |
-| 3.25 | @2.05 · col +0.0 · L 1 de 7 · V 5 de 7 · D 2 de 3 | @1.82 · col -0.0 · L 3 de 7 · V 2 de 7 · D 1 de 3 |
-| 3.5 | @2.25 · col -0.2 · L 1 de 7 · V 5 de 7 · D 2 de 3 | @1.65 · col +0.2 · L 6 de 7 · V 2 de 7 · D 1 de 3 |
-| 3.75 | @2.62 · col -0.5 · L 1 de 7 · V 4 de 7 · D 2 de 3 | @1.52 · col +0.5 · L 6 de 7 · V 2 de 7 · D 1 de 3 |
-| 4.5 | @3.75 · col -1.2 · L 1 de 7 · V 4 de 7 · D 2 de 3 | @1.28 · col +1.2 · L 6 de 7 · V 3 de 7 · D 1 de 3 |
-| 5.5 | @6.6 · col -2.2 · L 1 de 7 · V 2 de 7 · D 2 de 3 | @1.11 · col +2.2 · L 6 de 7 · V 5 de 7 · D 1 de 3 ✓ |
-| 6.5 | @11.0 · col -3.2 · L 0 de 7 · V 0 de 7 · D 1 de 3 | @1.04 · col +3.2 · L 7 de 7 · V 7 de 7 · D 2 de 3 ✓ |
+| 0.5 | @1.03 · col +2.8 · L 6 de 7 · V 7 de 7 · D 3 de 3 ✓ | @12.0 · col -2.8 · L 1 de 7 · V 0 de 7 · D 0 de 3 |
+| 1.5 | @1.18 · col +1.8 · L 4 de 7 · V 6 de 7 · D 2 de 3 | @5.0 · col -1.8 · L 3 de 7 · V 1 de 7 · D 1 de 3 |
+| 2.25 | @1.4 · col +1.0 · L 4 de 7 · V 5 de 7 · D 2 de 3 | @3.1 · col -1.0 · L 3 de 7 · V 1 de 7 · D 1 de 3 |
+| 2.5 | @1.55 · col +0.8 · L 4 de 7 · V 5 de 7 · D 2 de 3 | @2.5 · col -0.8 · L 3 de 7 · V 2 de 7 · D 1 de 3 |
+| 2.75 | @1.67 · col +0.5 · L 1 de 7 · V 5 de 7 · D 2 de 3 | @2.27 · col -0.5 · L 3 de 7 · V 2 de 7 · D 1 de 3 |
+| 3.0 | @1.85 · col +0.3 · L 1 de 7 · V 5 de 7 · D 2 de 3 | @2.0 · col -0.3 · L 3 de 7 · V 2 de 7 · D 1 de 3 |
+| 3.25 | @2.1 · col +0.0 · L 1 de 7 · V 5 de 7 · D 2 de 3 | @1.78 · col -0.0 · L 3 de 7 · V 2 de 7 · D 1 de 3 |
+| 3.5 | @2.3 · col -0.2 · L 1 de 7 · V 5 de 7 · D 2 de 3 | @1.62 · col +0.2 · L 6 de 7 · V 2 de 7 · D 1 de 3 |
+| 3.75 | @2.7 · col -0.5 · L 1 de 7 · V 4 de 7 · D 2 de 3 | @1.5 · col +0.5 · L 6 de 7 · V 2 de 7 · D 1 de 3 |
+| 4.5 | @3.9 · col -1.2 · L 1 de 7 · V 4 de 7 · D 2 de 3 | @1.26 · col +1.2 · L 6 de 7 · V 3 de 7 · D 1 de 3 |
+| 5.5 | @6.8 · col -2.2 · L 1 de 7 · V 2 de 7 · D 2 de 3 | @1.11 · col +2.2 · L 6 de 7 · V 5 de 7 · D 1 de 3 ✓ |
+| 6.5 | @11.5 · col -3.2 · L 0 de 7 · V 0 de 7 · D 1 de 3 | @1.04 · col +3.2 · L 7 de 7 · V 7 de 7 · D 2 de 3 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.1 · col +1.3 · L 5 de 7 · V 4 de 7 · D 2 de 3 | @6.4 · col -1.3 · L 2 de 7 · V 3 de 7 · D 1 de 3 |
-| 1.5 | @1.45 · col +0.3 · L 4 de 7 · V 4 de 7 · D 2 de 3 | @2.6 · col -0.3 · L 3 de 7 · V 3 de 7 · D 1 de 3 |
-| 2.5 | @2.35 · col -0.7 · L 1 de 7 · V 4 de 7 · D 2 de 3 | @1.55 · col +0.7 · L 6 de 7 · V 3 de 7 · D 1 de 3 |
-| 3.5 | @4.25 · col -1.7 · L 1 de 7 · V 2 de 7 · D 2 de 3 | @1.2 · col +1.7 · L 6 de 7 · V 5 de 7 · D 1 de 3 ✓ |
-| 4.5 | @7.6 · col -2.7 · L 0 de 7 · V 0 de 7 · D 1 de 3 | @1.07 · col +2.7 · L 7 de 7 · V 7 de 7 · D 2 de 3 ✓ |
+| 0.5 | @1.1 · col +1.3 · L 5 de 7 · V 4 de 7 · D 2 de 3 | @6.2 · col -1.3 · L 2 de 7 · V 3 de 7 · D 1 de 3 |
+| 1.5 | @1.5 · col +0.3 · L 4 de 7 · V 4 de 7 · D 2 de 3 | @2.45 · col -0.3 · L 3 de 7 · V 3 de 7 · D 1 de 3 |
+| 2.5 | @2.55 · col -0.7 · L 1 de 7 · V 4 de 7 · D 2 de 3 | @1.47 · col +0.7 · L 6 de 7 · V 3 de 7 · D 1 de 3 |
+| 3.5 | @4.8 · col -1.7 · L 1 de 7 · V 2 de 7 · D 2 de 3 | @1.16 · col +1.7 · L 6 de 7 · V 5 de 7 · D 1 de 3 ✓ |
+| 4.5 | @8.75 · col -2.7 · L 0 de 7 · V 0 de 7 · D 1 de 3 | @1.05 · col +2.7 · L 7 de 7 · V 7 de 7 · D 2 de 3 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.47 · col +1.0 · L 5 de 7 · V 7 de 7 · D 3 de 3 ✓ | @2.57 · col -1.0 · L 2 de 7 · V 0 de 7 · D 0 de 3 |
-| 1.5 | @3.1 · col +0.0 · L 1 de 7 · V 6 de 7 · D 2 de 3 | @1.33 · col +0.0 · L 6 de 7 · V 1 de 7 · D 1 de 3 |
-| 2.5 | @7.3 · col -1.0 · L 0 de 7 · V 1 de 7 · D 0 de 3 | @1.07 · col +1.0 · L 7 de 7 · V 6 de 7 · D 3 de 3 ✓ |
+| 0.5 | @1.42 · col +1.0 · L 5 de 7 · V 7 de 7 · D 3 de 3 ✓ | @2.72 · col -1.0 · L 2 de 7 · V 0 de 7 · D 0 de 3 |
+| 1.5 | @2.87 · col +0.0 · L 1 de 7 · V 6 de 7 · D 2 de 3 | @1.39 · col +0.0 · L 6 de 7 · V 1 de 7 · D 1 de 3 |
+| 2.5 | @6.5 · col -1.0 · L 0 de 7 · V 1 de 7 · D 0 de 3 | @1.09 · col +1.0 · L 7 de 7 · V 6 de 7 · D 3 de 3 ✓ |
 
 ### Tarjetas (solo amarillas)
 _Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._
@@ -260,24 +259,24 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 2.14, visitante 1.57,
 | 2.5 | @1.33 · col +1.2 · L 4 de 7 · V 5 de 7 · D 1 de 3 | @3.15 · col -1.2 · L 3 de 7 · V 2 de 7 · D 2 de 3 |
 | 3.5 | @1.72 · col +0.2 · L 2 de 7 · V 3 de 7 · D 1 de 3 | @2.05 · col -0.2 · L 5 de 7 · V 4 de 7 · D 2 de 3 |
 | 4.5 | @2.42 · col -0.8 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.52 · col +0.8 · L 5 de 7 · V 5 de 7 · D 2 de 3 ✓ |
-| 5.5 | @3.6 · col -1.8 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.26 · col +1.8 · L 5 de 7 · V 5 de 7 · D 2 de 3 ✓ |
+| 5.5 | @3.6 · col -1.8 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.27 · col +1.8 · L 5 de 7 · V 5 de 7 · D 2 de 3 ✓ |
 | 6.5 | @5.4 · col -2.8 · L 1 de 7 · V 1 de 7 · D 0 de 3 | @1.13 · col +2.8 · L 6 de 7 · V 6 de 7 · D 3 de 3 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.18 · col +1.6 · L 5 de 7 · V 7 de 7 · D 3 de 3 ✓ | @4.5 · col -1.6 · L 2 de 7 · V 0 de 7 · D 0 de 3 |
-| 1.5 | @1.8 · col +0.6 · L 3 de 7 · V 4 de 7 · D 2 de 3 | @1.95 · col -0.6 · L 4 de 7 · V 3 de 7 · D 1 de 3 |
-| 2.5 | @3.35 · col -0.4 · L 2 de 7 · V 2 de 7 · D 0 de 3 | @1.3 · col +0.4 · L 5 de 7 · V 5 de 7 · D 3 de 3 ✓ |
+| 0.5 | @1.16 · col +1.6 · L 5 de 7 · V 7 de 7 · D 3 de 3 ✓ | @4.85 · col -1.6 · L 2 de 7 · V 0 de 7 · D 0 de 3 |
+| 1.5 | @1.7 · col +0.6 · L 3 de 7 · V 4 de 7 · D 2 de 3 | @2.07 · col -0.6 · L 4 de 7 · V 3 de 7 · D 1 de 3 |
+| 2.5 | @3.05 · col -0.4 · L 2 de 7 · V 2 de 7 · D 0 de 3 | @1.34 · col +0.4 · L 5 de 7 · V 5 de 7 · D 3 de 3 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.45 · col +0.1 · L 2 de 7 · V 3 de 7 · D 1 de 3 | @2.62 · col -0.1 · L 5 de 7 · V 4 de 7 · D 2 de 3 |
-| 2.5 | @2.32 · col -0.9 · L 1 de 7 · V 2 de 7 · D 1 de 3 | @1.57 · col +0.9 · L 6 de 7 · V 5 de 7 · D 2 de 3 ✓ |
-| 3.5 | @4.2 · col -1.9 · L 0 de 7 · V 1 de 7 · D 1 de 3 | @1.2 · col +1.9 · L 7 de 7 · V 6 de 7 · D 2 de 3 ✓ |
+| 1.5 | @1.5 · col +0.1 · L 2 de 7 · V 3 de 7 · D 1 de 3 | @2.45 · col -0.1 · L 5 de 7 · V 4 de 7 · D 2 de 3 |
+| 2.5 | @2.47 · col -0.9 · L 1 de 7 · V 2 de 7 · D 1 de 3 | @1.5 · col +0.9 · L 6 de 7 · V 5 de 7 · D 2 de 3 ✓ |
+| 3.5 | @4.55 · col -1.9 · L 0 de 7 · V 1 de 7 · D 1 de 3 | @1.17 · col +1.9 · L 7 de 7 · V 6 de 7 · D 2 de 3 ✓ |
 
 ## Jugadores (solo líneas que cumplen la regularidad; el JSON trae todas)
 
@@ -292,4 +291,4 @@ _Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Alineación probable: sin casar con Betano → Maehle J.']
+- Dudas: ['Alineación probable: sin casar con Betano → Costa D., Costa A., Dias R., Veiga R., Dalot D., Palhinha J., Neves R., Vitinha, Fernandes B., Ramos G. M., Joao Félix, Hermansen M., Kristensen R., Provstgaard O., Andersen J., Maehle J., Hjulmand M., Hojbjerg P., Froholdt V., Isaksen G., Hojlund R., Daramy M.']

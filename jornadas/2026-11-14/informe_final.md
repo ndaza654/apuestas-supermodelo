@@ -1,6 +1,6 @@
 # Informe de la jornada 2026-11-14
 
-Hecho: 2026-11-13 23:10 (Bogotá) · Cuotas: Betano, leídas 13-nov 19:01 a 13-nov 19:15 (Bogotá), sin releer · Muestra de 7 partidos por equipo: «cumple» = 5 de 7 en ambos (n mínimo 5) · 446 líneas de equipo cumplen. El informe interactivo es `informe.html`.
+Hecho: 2026-11-14 14:02 (Bogotá) · Cuotas: Betano, leídas 13-nov 19:01 a 14-nov 13:56 (Bogotá), sin releer · Muestra de 7 partidos por equipo: «cumple» = 5 de 7 en ambos (n mínimo 5) · 444 líneas de equipo cumplen. El informe interactivo es `informe.html`.
 
 ## Enfoque de mercados
 
@@ -67,7 +67,7 @@ Hecho: 2026-11-13 23:10 (Bogotá) · Cuotas: Betano, leídas 13-nov 19:01 a 13-n
 | Sugerencias auditadas: combinadas de 3 patas (todas) | 21 | 5 | 24 % | 23 % | |
 | Sugerencias auditadas: combinadas de 4 o más patas (todas) | 3 | 0 | 0 % | 10 % | |
 
-## Protección (cuota < 1,50: se dan, no pagan) — 38
+## Protección (cuota < 1,50: se dan, no pagan) — 37
 
 | Hora | Partido | Sugerencia | Cuota | p modelo | p recortada | Local | Visitante | Directos | Real hasta hoy |
 |---|---|---|---|---|---|---|---|---|---|
@@ -77,49 +77,49 @@ Hecho: 2026-11-13 23:10 (Bogotá) · Cuotas: Betano, leídas 13-nov 19:01 a 13-n
 | 16:30 | Mirassol SP - Clube Atletico MG | Goles local Más 0.5 | 1,21 | 81 % | 76 % | 5 de 7 | 6 de 7 | 2 de 3 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Tiros al arco local Menos 7.5 | 1,21 | 80 % | 75 % | 7 de 7 | 6 de 7 | 3 de 3 | Tiros al arco Menos con «cumple»: 9 de 10 (90% real contra 79% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 08:00 | Real Valladolid - CD Castellón | Goles visitante Más 0.5 | 1,21 | 80 % | 75 % | 5 de 7 | 6 de 7 | 1 de 2 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
-| 14:45 | Suecia - Bosnia y Herzegovina | Goles Más 1.5 | 1,20 | 80 % | 75 % | 6 de 7 | 5 de 7 | 1 de 1 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:00 | Georgia - Hungría | Goles Menos 3.5 | 1,20 | 82 % | 75 % | 5 de 7 | 5 de 7 | 1 de 1 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
-| 14:45 | Portugal - Dinamarca | Goles local Menos 3.5 | 1,20 | 82 % | 75 % | 6 de 7 | 5 de 7 | 1 de 3 | ⚠ directos en contra (1 de 3) · Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:30 | UD Almeria - FC Andorra | Córners Menos 12.5 | 1,21 | 79 % | 75 % | 6 de 7 | 6 de 7 | 1 de 2 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 15:30 | Millonarios FC - Alianza FC | Goles local Menos 3.5 | 1,20 | 82 % | 75 % | 6 de 7 | 7 de 7 | 6 de 6 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 18:30 | Chapecoense SC - Vasco da Gama RJ | Córners Menos 12.5 | 1,21 | 79 % | 74 % | 6 de 7 | 6 de 7 | 2 de 3 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 05:15 | Japón - Brasil | Goles Menos 4.5 | 1,20 | 82 % | 74 % | 7 de 7 | 7 de 7 | 1 de 1 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 09:00 | Kosovo - Israel | Córners Menos 10.5 | 1,24 | 79 % | 74 % | 7 de 7 | 6 de 7 | 3 de 3 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
-| 14:45 | Suecia - Bosnia y Herzegovina | Goles Menos 4.5 | 1,23 | 82 % | 74 % | 6 de 7 | 5 de 7 | 1 de 1 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
+| 14:45 | Suecia - Bosnia y Herzegovina | Goles Menos 4.5 | 1,22 | 82 % | 74 % | 6 de 7 | 5 de 7 | 1 de 1 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
+| 14:45 | Suecia - Bosnia y Herzegovina | Goles Más 1.5 | 1,21 | 80 % | 74 % | 6 de 7 | 5 de 7 | 1 de 1 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 05:15 | Japón - Brasil | Goles Más 1.5 | 1,23 | 80 % | 74 % | 5 de 7 | 6 de 7 | 1 de 1 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Tiros al arco visitante Menos 5.5 | 1,22 | 79 % | 74 % | 5 de 7 | 5 de 7 | 2 de 3 | Tiros al arco Menos con «cumple»: 9 de 10 (90% real contra 79% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
+| 14:45 | Rumanía - Polonia | Goles Más 1.5 | 1,22 | 79 % | 74 % | 5 de 7 | 5 de 7 | 1 de 1 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 18:30 | Chapecoense SC - Vasco da Gama RJ | Goles Menos 4.5 | 1,22 | 81 % | 73 % | 6 de 7 | 5 de 7 | 3 de 3 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 08:00 | Real Valladolid - CD Castellón | Goles Más 1.5 | 1,24 | 79 % | 73 % | 6 de 7 | 6 de 7 | 1 de 2 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:00 | Noruega - Gales | Tiros al arco visitante Más 1.5 | 1,24 | 78 % | 73 % | 7 de 7 | 5 de 7 | 1 de 1 | Tiros al arco Más con «cumple»: 9 de 10 (90% real contra 78% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
-| 14:45 | Irlanda del Norte - Ucrania | Córners Menos 10.5 | 1,24 | 77 % | 73 % | 5 de 7 | 5 de 7 | 1 de 1 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 17:00 | CA Banfield - Boca Juniors | Córners Menos 10.5 | 1,24 | 77 % | 73 % | 5 de 7 | 5 de 7 | 4 de 5 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 15:30 | Atletico Nacional - Once Caldas | Goles Más 1.5 | 1,25 | 78 % | 72 % | 6 de 7 | 5 de 7 | 4 de 6 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Saques de meta Más 13.5 | 1,21 | 77 % | 72 % | 6 de 7 | 7 de 7 | – | Saques de meta Más con «cumple»: sin líneas calificadas todavía (se usa el global: 73% real contra 77% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
+| 14:45 | Irlanda del Norte - Ucrania | Córners Menos 10.5 | 1,25 | 77 % | 72 % | 5 de 7 | 5 de 7 | 1 de 1 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:30 | RCD Mallorca - Cordoba CF | Goles Menos 4.5 | 1,24 | 79 % | 72 % | 7 de 7 | 6 de 7 | – | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:30 | UD Almeria - FC Andorra | Goles Menos 4.5 | 1,24 | 79 % | 72 % | 6 de 7 | 5 de 7 | 1 de 2 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 17:00 | CA Banfield - Boca Juniors | Tiros al arco local Menos 4.5 | 1,26 | 76 % | 72 % | 5 de 7 | 7 de 7 | 3 de 5 | Tiros al arco Menos con «cumple»: 9 de 10 (90% real contra 79% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Remates local Menos 19.5 | 1,24 | 76 % | 72 % | 6 de 7 | 5 de 7 | 1 de 3 | ⚠ directos en contra (1 de 3) · Remates Menos con «cumple»: 9 de 13 (69% real contra 62% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 15:30 | Deportivo Cali - Deportes Tolima | Goles Menos 3.5 | 1,24 | 79 % | 72 % | 6 de 7 | 5 de 7 | 6 de 6 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
-| 14:45 | Portugal - Dinamarca | Córners Menos 11.5 | 1,25 | 76 % | 72 % | 5 de 7 | 6 de 7 | 1 de 3 | ⚠ directos en contra (1 de 3) · Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
-| 14:45 | Suecia - Bosnia y Herzegovina | Córners Menos 10.5 | 1,29 | 76 % | 72 % | 7 de 7 | 7 de 7 | 1 de 1 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 15:30 | Atletico Nacional - Once Caldas | Goles visitante Más 0.5 | 1,26 | 77 % | 71 % | 5 de 7 | 7 de 7 | 4 de 6 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
-| 14:45 | Rumanía - Polonia | Goles Más 1.5 | 1,25 | 77 % | 71 % | 5 de 7 | 5 de 7 | 1 de 1 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 12:30 | RCD Mallorca - Cordoba CF | Córners Menos 12.5 | 1,27 | 75 % | 71 % | 7 de 7 | 5 de 7 | – | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
+| 14:45 | Suecia - Bosnia y Herzegovina | Córners Menos 10.5 | 1,30 | 76 % | 71 % | 7 de 7 | 7 de 7 | 1 de 1 | Córners Menos con «cumple»: 17 de 20 (85% real contra 82% dicho) · cuota 1,30–1,49: 24 de 37 (65% real contra 70%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Tiros al arco Menos 11.5 | 1,28 | 75 % | 71 % | 6 de 7 | 5 de 7 | 2 de 3 | Tiros al arco Menos con «cumple»: 9 de 10 (90% real contra 79% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Goles local Menos 2.5 | 1,25 | 78 % | 71 % | 7 de 7 | 6 de 7 | 3 de 3 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 15:30 | Aguilas Doradas - Independiente Medellín | Goles local Más 0.5 | 1,29 | 75 % | 70 % | 5 de 7 | 6 de 7 | 4 de 6 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
+| 14:45 | Suecia - Bosnia y Herzegovina | Goles visitante Menos 1.5 | 1,27 | 77 % | 70 % | 5 de 7 | 5 de 7 | 1 de 1 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota < 1,30: 109 de 133 (82% real contra 87%) |
 | 09:00 | Kosovo - Israel | Tiros al arco visitante Menos 4.5 | 1,30 | 75 % | 70 % | 5 de 7 | 6 de 7 | 3 de 3 | Tiros al arco Menos con «cumple»: 9 de 10 (90% real contra 79% dicho) · cuota 1,30–1,49: 24 de 37 (65% real contra 70%) |
 
-## Sencillas de cuota 1,50–1,99 (p recortada a la vista) — 15
+## Sencillas de cuota 1,50–1,99 (p recortada a la vista) — 16
 
 | Hora | Partido | Sugerencia | Cuota | p modelo | p recortada | Local | Visitante | Directos | Real hasta hoy |
 |---|---|---|---|---|---|---|---|---|---|
 | 12:00 | Noruega - Gales | Goles Menos 4.0 | 1,50 | 67 % | 61 % | 6 de 7 | 6 de 7 | 1 de 1 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
+| 14:45 | Suecia - Bosnia y Herzegovina | Goles local Menos 2.5 | 1,50 | 65 % | 59 % | 6 de 7 | 6 de 7 | 1 de 1 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
 | 05:15 | Japón - Brasil | Goles Menos 3.5 | 1,50 | 65 % | 59 % | 5 de 7 | 7 de 7 | 1 de 1 | Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
+| 14:45 | Rumanía - Polonia | Goles Más 2.25 | 1,50 | 64 % | 58 % | 5 de 7 | 5 de 7 | 1 de 1 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
 | 09:00 | Kosovo - Israel | Tiros al arco local Menos 6.5 | 1,50 | 63 % | 57 % | 6 de 7 | 6 de 7 | 2 de 3 | Tiros al arco Menos con «cumple»: 9 de 10 (90% real contra 79% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
 | 14:45 | Irlanda del Norte - Ucrania | Tiros al arco Menos 8.5 | 1,52 | 63 % | 57 % | 5 de 7 | 6 de 7 | 1 de 1 | Tiros al arco Menos con «cumple»: 9 de 10 (90% real contra 79% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
-| 14:45 | Irlanda del Norte - Ucrania | Remates visitante Más 9.5 | 1,50 | 62 % | 57 % | 6 de 7 | 5 de 7 | 1 de 1 | Remates Más con «cumple»: 3 de 4 (75% real contra 77% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
-| 14:45 | Suecia - Bosnia y Herzegovina | Goles visitante Más 0.5 | 1,50 | 62 % | 56 % | 6 de 7 | 5 de 7 | 1 de 1 | Goles Más con «cumple»: 21 de 30 (70% real contra 76% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
+| 14:45 | Irlanda del Norte - Ucrania | Remates visitante Más 9.5 | 1,50 | 62 % | 56 % | 6 de 7 | 5 de 7 | 1 de 1 | Remates Más con «cumple»: 3 de 4 (75% real contra 77% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Goles Menos 3.0 | 1,57 | 62 % | 56 % | 6 de 7 | 6 de 7 | 1 de 3 | ⚠ directos en contra (1 de 3) · Goles Menos con «cumple»: 46 de 59 (78% real contra 87% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
 | 17:00 | CA Banfield - Boca Juniors | Remates visitante Menos 17.5 | 1,52 | 62 % | 56 % | 5 de 7 | 5 de 7 | 4 de 5 | Remates Menos con «cumple»: 9 de 13 (69% real contra 62% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
 | 16:30 | Mirassol SP - Clube Atletico MG | Remates local Menos 17.5 | 1,53 | 62 % | 56 % | 6 de 7 | 5 de 7 | 1 de 3 | ⚠ directos en contra (1 de 3) · Remates Menos con «cumple»: 9 de 13 (69% real contra 62% dicho) · cuota 1,50–1,99: 17 de 34 (50% real contra 57%) |
@@ -138,14 +138,14 @@ Cada pata con p recortada ≥ 70 %; la conjunta sale de la simulación y se reco
 |---|---|---|---|---|---|---|---|
 | 16:30 | Mirassol SP - Clube Atletico MG | Tiros al arco local Menos 7.5 + Goles local Menos 2.5 | 1,51 | 67 % | 67 % | 54 % | Goles Mirassol SP Menos 2.5 |
 | 12:00 | Noruega - Gales | Córners local Menos 7.5 + Tiros al arco visitante Más 1.5 | 1,49 | 61 % | 63 % | 50 % | Tiros al arco Gales Más 1.5 |
-| 14:45 | Portugal - Dinamarca | Goles local Menos 3.5 + Córners Menos 11.5 | 1,50 | 62 % | 63 % | 50 % | Córners Menos 11.5 |
+| 12:30 | RCD Mallorca - Cordoba CF | Goles Menos 4.5 + Córners Menos 12.5 | 1,57 | 60 % | 60 % | 48 % | Córners Menos 12.5 |
 | 09:00 | Kosovo - Israel | Córners Menos 10.5 + Tiros al arco visitante Menos 4.5 | 1,61 | 59 % | 60 % | 48 % | Tiros al arco Israel Menos 4.5 |
 
 Familias fuera de las combinadas por alerta del modelo: Chapecoense SC - Vasco da Gama RJ (sin patas de córners); Suecia - Bosnia y Herzegovina (sin patas de córners); UD Almeria - FC Andorra (sin patas de córners).
 
 ## Lotería (3 patas de 3 partidos; solo stake mínimo)
 
-Atletico Nacional - Once Caldas: Goles Más 1.5 + CA Banfield - Boca Juniors: Tiros al arco local Menos 4.5 + Portugal - Dinamarca: Córners Menos 11.5 · cuota 1,97 · p del modelo 45 % · p recortada 37 %.
+Atletico Nacional - Once Caldas: Goles Más 1.5 + Irlanda del Norte - Ucrania: Córners Menos 10.5 + CA Banfield - Boca Juniors: Tiros al arco local Menos 4.5 · cuota 1,97 · p del modelo 46 % · p recortada 38 %.
 
 ## Situación por partido (lo que hay en las fichas)
 
@@ -159,10 +159,10 @@ Atletico Nacional - Once Caldas: Goles Más 1.5 + CA Banfield - Boca Juniors: Ti
 | 12:00 | Noruega - Gales | 81 % · 13 % · 6 % | local: 4.º Noruega 3 pts en 4 PJ (DG -2) · GRUPO 4 | visitante: 3.º Gales 3 pts en 4 PJ (DG -3) · GRUPO 4 | Derevinskyi O. | probable | 44 | Saques de banda |
 | 12:30 | RCD Mallorca - Cordoba CF | 49 % · 25 % · 25 % | local: 6.º Mallorca 22 pts en 12 PJ (DG +8) | visitante: 11.º Córdoba 19 pts en 13 PJ (DG +0) | Sanchez R. | probable | 22 | – |
 | 12:30 | UD Almeria - FC Andorra | 60 % · 23 % · 17 % | local: 1.º Almería 29 pts en 13 PJ (DG +14) | visitante: 19.º Andorra 11 pts en 12 PJ (DG -5) | Fuentes A. | probable | 25 | Córners |
-| 14:45 | Irlanda del Norte - Ucrania | 38 % · 32 % · 30 % | local: 1.º Irlanda del Norte 8 pts en 4 PJ (DG +4) · GRUPO 2 | visitante: 3.º Ucrania 4 pts en 4 PJ (DG -3) · GRUPO 2 | Letexier F. | probable | 13 | – |
-| 14:45 | Portugal - Dinamarca | 64 % · 21 % · 15 % | local: 1.º Portugal 12 pts en 4 PJ (DG +5) · GRUPO 4 | visitante: 2.º Dinamarca 6 pts en 4 PJ (DG +0) · GRUPO 4 | Obrenovic R. | probable | 38 | Saques de banda |
-| 14:45 | Rumanía - Polonia | 22 % · 26 % · 52 % | local: 4.º Rumanía 0 pts en 4 PJ (DG -10) · GRUPO 4 | visitante: 3.º Polonia 4 pts en 4 PJ (DG +3) · GRUPO 4 | Gishamer S. | probable | 11 | – |
-| 14:45 | Suecia - Bosnia y Herzegovina | 64 % · 22 % · 14 % | local: 1.º Suecia 10 pts en 4 PJ (DG +4) · GRUPO 4 | visitante: 2.º Bosnia-Herzegovina 8 pts en 4 PJ (DG +3) · GRUPO 4 | Sozza S. | probable | 24 | Córners |
+| 14:45 | Irlanda del Norte - Ucrania | 35 % · 33 % · 32 % | local: 1.º Irlanda del Norte 8 pts en 4 PJ (DG +4) · GRUPO 2 | visitante: 3.º Ucrania 4 pts en 4 PJ (DG -3) · GRUPO 2 | Letexier F. | sin alineación | 13 | – |
+| 14:45 | Portugal - Dinamarca | 61 % · 22 % · 17 % | local: 1.º Portugal 12 pts en 4 PJ (DG +5) · GRUPO 4 | visitante: 2.º Dinamarca 6 pts en 4 PJ (DG +0) · GRUPO 4 | Obrenovic R. | sin alineación | 37 | Saques de banda |
+| 14:45 | Rumanía - Polonia | 18 % · 24 % · 57 % | local: 4.º Rumanía 0 pts en 4 PJ (DG -10) · GRUPO 4 | visitante: 3.º Polonia 4 pts en 4 PJ (DG +3) · GRUPO 4 | Gishamer S. | sin alineación | 10 | Córners |
+| 14:45 | Suecia - Bosnia y Herzegovina | 66 % · 21 % · 13 % | local: 1.º Suecia 10 pts en 4 PJ (DG +4) · GRUPO 4 | visitante: 2.º Bosnia-Herzegovina 8 pts en 4 PJ (DG +3) · GRUPO 4 | Sozza S. | sin alineación | 24 | Córners |
 | 15:30 | Aguilas Doradas - Independiente Medellín | 39 % · 28 % · 33 % | local: 10.º Águilas Doradas 25 pts en 18 PJ (DG +1) | visitante: 6.º Ind. Medellín 29 pts en 18 PJ (DG +3) | Roldan W. | sin alineación | 11 | – |
 | 15:30 | Atletico Nacional - Once Caldas | 37 % · 28 % · 35 % | local: 1.º Atl. Nacional 39 pts en 18 PJ (DG +20) | visitante: 8.º Once Caldas 27 pts en 18 PJ (DG +4) | Rojas A. | sin alineación | 11 | Córners |
 | 15:30 | Deportivo Cali - Deportes Tolima | 41 % · 30 % · 29 % | local: 2.º Deportivo Cali 34 pts en 18 PJ (DG +16) | visitante: 9.º Tolima 26 pts en 18 PJ (DG +2) | Ortega C. | sin alineación | 8 | – |
