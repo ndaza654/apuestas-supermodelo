@@ -1,7 +1,7 @@
 # Alineaciones y bajas · 14-nov-2026
 
 - **Fuente:** Flashscore.co, pestaña «Alineaciones» de cada partido (`…/resumen/alineaciones/?mid=<mid>`), leída con `recoleccion/flashscore_alineaciones.js` (`leerLineups`).
-- **Hora de lectura:** vie 13-nov-2026, ~19:30–20:30 Bogotá (UTC−5). Todos los archivos se leyeron en esa ventana.
+- **Hora de lectura:** vie 13-nov-2026, ~19:15–19:45 Bogotá (UTC−5). Todos los archivos se leyeron en esa ventana (los Colombianos y Banfield–Boca se confirmaron como «sin pestaña» en la misma lectura).
 - **Estado:** todas son **«Alineaciones probables»**, no oficiales. Flashscore publica las oficiales ~1 h antes del inicio; si se quiere apostar a jugadores, hay que releer ese día (regla fija 1).
 - **Orientación:** `L` = primer equipo del `titulo` = local; `V` = visitante. (El orden del enlace de Flashscore NO sirve para esto; el título sí.)
 - **Formato:** `probables.L/V` = `[nombre, dorsal, id_jugador_flashscore, 1 si arquero]`; `bajas.L/V` = `[nombre, id, motivo]` (lesión, selección nacional, tarjetas amarillas = suspendido, inactivo…).
