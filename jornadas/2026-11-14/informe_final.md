@@ -1,6 +1,6 @@
 # Informe de la jornada 2026-11-14
 
-Hecho: 2026-11-14 14:10 (Bogotá) · Cuotas: Betano, leídas 13-nov 19:01 a 14-nov 14:06 (Bogotá), sin releer · Muestra de 7 partidos por equipo: «cumple» = 5 de 7 en ambos (n mínimo 5) · 444 líneas de equipo cumplen. El informe interactivo es `informe.html`.
+Hecho: 2026-11-14 14:33 (Bogotá) · Cuotas: Betano, leídas 13-nov 19:01 a 14-nov 14:06 (Bogotá), sin releer · Muestra de 7 partidos por equipo: «cumple» = 5 de 7 en ambos (n mínimo 5) · 444 líneas de equipo cumplen. El informe interactivo es `informe.html`.
 
 ## Enfoque de mercados
 
@@ -160,7 +160,7 @@ Irlanda del Norte - Ucrania: Córners Menos 10.5 + Atletico Nacional - Once Cald
 | 12:30 | RCD Mallorca - Cordoba CF | 49 % · 25 % · 25 % | local: 6.º Mallorca 22 pts en 12 PJ (DG +8) | visitante: 11.º Córdoba 19 pts en 13 PJ (DG +0) | Sanchez R. | probable | 22 | – |
 | 12:30 | UD Almeria - FC Andorra | 60 % · 23 % · 17 % | local: 1.º Almería 29 pts en 13 PJ (DG +14) | visitante: 19.º Andorra 11 pts en 12 PJ (DG -5) | Fuentes A. | probable | 25 | Córners |
 | 14:45 | Irlanda del Norte - Ucrania | 35 % · 33 % · 32 % | local: 1.º Irlanda del Norte 8 pts en 4 PJ (DG +4) · GRUPO 2 | visitante: 3.º Ucrania 4 pts en 4 PJ (DG -3) · GRUPO 2 | Letexier F. | sin alineación | 13 | – |
-| 14:45 | Portugal - Dinamarca | 61 % · 22 % · 17 % | local: 1.º Portugal 12 pts en 4 PJ (DG +5) · GRUPO 4 | visitante: 2.º Dinamarca 6 pts en 4 PJ (DG +0) · GRUPO 4 | Obrenovic R. | sin alineación | 37 | Saques de banda |
+| 14:45 | Portugal - Dinamarca | 61 % · 22 % · 17 % | local: 1.º Portugal 12 pts en 4 PJ (DG +5) · GRUPO 4 | visitante: 2.º Dinamarca 6 pts en 4 PJ (DG +0) · GRUPO 4 | Obrenovic R. | probable | 37 | Saques de banda |
 | 14:45 | Rumanía - Polonia | 18 % · 24 % · 57 % | local: 4.º Rumanía 0 pts en 4 PJ (DG -10) · GRUPO 4 | visitante: 3.º Polonia 4 pts en 4 PJ (DG +3) · GRUPO 4 | Gishamer S. | sin alineación | 10 | Córners |
 | 14:45 | Suecia - Bosnia y Herzegovina | 66 % · 21 % · 13 % | local: 1.º Suecia 10 pts en 4 PJ (DG +4) · GRUPO 4 | visitante: 2.º Bosnia-Herzegovina 8 pts en 4 PJ (DG +3) · GRUPO 4 | Sozza S. | sin alineación | 24 | Córners |
 | 15:30 | Aguilas Doradas - Independiente Medellín | 39 % · 28 % · 33 % | local: 10.º Águilas Doradas 25 pts en 18 PJ (DG +1) | visitante: 6.º Ind. Medellín 29 pts en 18 PJ (DG +3) | Roldan W. | sin alineación | 11 | – |

@@ -282,7 +282,12 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 2.14, visitante 1.57,
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
+- Gonçalo Ramos — al_arco: 1+ @1.17 · col +1.4 · 5 de 5 (titular 0.90)
+- Renato Veiga — faltas: 1+ @1.21 · col +1.0 · 5 de 6 (titular 0.90)
+- Vitinha — remates: 1+ @1.16 · col +1.3 · 5 de 6 (titular 0.90)
+- Morten Hjulmand — remates: 1+ @1.67 · col +0.6 · 5 de 5 (titular 0.90)
+- Morten Hjulmand — faltas: 1+ @1.28 · col +0.8 · 5 de 5 (titular 0.90)
+- Rasmus Hojlund — remates: 2+ @1.36 · col +1.4 · 5 de 5 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos
 
@@ -291,4 +296,4 @@ _Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Alineación probable: sin casar con Betano → Costa D., Costa A., Dias R., Veiga R., Dalot D., Palhinha J., Neves R., Vitinha, Fernandes B., Ramos G. M., Joao Félix, Hermansen M., Kristensen R., Provstgaard O., Andersen J., Maehle J., Hjulmand M., Hojbjerg P., Froholdt V., Isaksen G., Hojlund R., Daramy M.']
+- Dudas: ['Historial: sin casar con Betano → Maehle J.', 'Alineación probable: sin casar con Betano → Maehle J.']

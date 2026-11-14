@@ -5,8 +5,8 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 | # | Partido | Situación | Estado | Córners (datos · cumplen) | Partido (datos · cumplen) | Jugadores (datos · cumplen) | Motivo |
 |---|---|---|---|---|---|---|---|
 | 1 | Mirassol SP - Clube Atletico MG | sin leer | reserva | reserva (100 · 1) | reserva (100 · 25) | no apto (41 · 0) | situación sin leer; jugadores: datos 41 < 60 |
-| 2 | Noruega - Gales | sin leer | reserva | reserva (100 · 4) | reserva (97 · 15) | no apto (50 · 0) | situación sin leer; jugadores: datos 50 < 60 |
-| 3 | Portugal - Dinamarca | sin leer | reserva | reserva (100 · 6) | reserva (97 · 7) | no lo ofrece | situación sin leer; jugadores: Betano no lo ofrece |
+| 2 | Portugal - Dinamarca | sin leer | reserva | reserva (100 · 6) | reserva (97 · 7) | reserva (84 · 6) | situación sin leer |
+| 3 | Noruega - Gales | sin leer | reserva | reserva (100 · 4) | reserva (97 · 15) | no apto (50 · 0) | situación sin leer; jugadores: datos 50 < 60 |
 | 4 | Kosovo - Israel | sin leer | reserva | reserva (100 · 3) | reserva (80 · 9) | no apto (50 · 0) | situación sin leer; jugadores: datos 50 < 60 |
 | 5 | Suecia - Bosnia y Herzegovina | sin leer | reserva | reserva (100 · 2) | reserva (80 · 9) | no lo ofrece | situación sin leer; jugadores: Betano no lo ofrece |
 | 6 | CA Banfield - Boca Juniors | sin leer | reserva | reserva (89 · 3) | reserva (80 · 7) | no apto (20 · 0) | situación sin leer; jugadores: datos 20 < 60 |
@@ -33,19 +33,19 @@ Datos 85 · Situación sin leer · por mercado: {'Córners': 1, 'Faltas': 1, 'Fu
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
 
+## Portugal - Dinamarca (UEFA Liga de Naciones)
+Datos 99 · Situación sin leer · por mercado: {'Córners': 6, 'Fueras de juego': 1, 'Remates': 2, 'Tiros al arco': 4}
+
+**Datos:** Córners: 25 líneas, muestra de 7 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 95% → 97 | Jugadores: 21 con línea, 68% con ≥5 partidos de historial, 100% titulares probables → 84 | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -6 2 duda(s) abierta(s) en la ficha
+
 ## Noruega - Gales (UEFA Liga de Naciones)
 Datos 82 · Situación sin leer · por mercado: {'Córners': 4, 'Saques de banda': 1, 'Remates': 7, 'Tiros al arco': 7}
 
 **Datos:** Córners: 25 líneas, muestra de 7 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 96% → 97 | Jugadores: 22 con línea, 0% con ≥5 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (77%, según cuotas)
-
-## Portugal - Dinamarca (UEFA Liga de Naciones)
-Datos 100 · Situación sin leer · por mercado: {'Córners': 6, 'Fueras de juego': 1, 'Remates': 2, 'Tiros al arco': 4}
-
-**Datos:** Córners: 25 líneas, muestra de 7 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 95% → 97 | Jugadores: Betano no ofrece líneas de jugadores | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
-
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
 
 ## Kosovo - Israel (UEFA Liga de Naciones)
 Datos 82 · Situación sin leer · por mercado: {'Córners': 3, 'Remates': 4, 'Tiros al arco': 5}

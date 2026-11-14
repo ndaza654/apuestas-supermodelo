@@ -20,6 +20,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de Portuga
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Ambos marcan | ➖ neutro | sin ventaja clara para ninguna de las dos opciones |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
+| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
 
@@ -71,6 +72,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Fueras de lugar | Fueras de lugar Portugal Más 1.5 | 1.67 | 57 % | 56 % | Sorpresa: gana el no favorito (60 %) | Expulsión antes del 70′ (56 %) | Justa |
 | Saques de meta | Saques de meta Dinamarca Menos 9.5 | 1.75 | 54 % | 45 % | Favorito golpea temprano y gana (62 %) | Sorpresa: gana el no favorito (45 %) | Cara |
 | Saques de banda | Saques de banda 1.er tiempo Menos 16.5 | 1.93 | 59 % | 58 % | Empate (60 %) | Expulsión antes del 70′ (58 %) | Valor · ⚠ Revisar: la simulación sin contexto se aleja 21 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
+| Jugadores | Rúben Dias anota o asiste | 6.20 | 16 % | 6 % | Partido abierto (ambos marcan y 3+ goles) (22 %) | Empate (6 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 
@@ -93,15 +95,15 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Córners Dinamarca Menos 4.5 | 1.33 | 72 % | 73 % | 72 % | +0 pts | -4 % | 69 % | +0.5 | 1.43 | Favorito golpea temprano y gana | Alta probabilidad |
 | Córners Portugal Menos 7.5 | 1.31 | 72 % | 74 % | 72 % | +0 pts | -6 % | 65 % | +0.5 | 1.43 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
 | Goles 1.er tiempo Más 0.75 | 1.37 | 71 % | 71 % | 71 % | +0 pts | -2 % | 72 % | +0.6 | 1.44 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 17 % · ★ enfoque a favor |
+| Alberto Costa faltas cometidas 1+ | 1.26 | 71 % | 71 % | 71 % | +0 pts | -11 % | 70 % | — | 1.46 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | Tiros al arco Portugal Menos 7.5 | 1.36 | 71 % | 71 % | 71 % | +0 pts | -4 % | 60 % | +0.5 | 1.46 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
 | Córners 1.er tiempo Menos 5.5 | 1.40 | 70 % | 69 % | 70 % | +0 pts | -1 % | 69 % | +0.5 | 1.46 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Pierre Hojbjerg remates 1+ | 1.26 | 70 % | 71 % | 70 % | +0 pts | -11 % | 68 % | — | 1.46 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Hándicap Dinamarca +1.75 | 1.40 | 70 % | 70 % | 70 % | +0 pts | -2 % | 70 % | — | 1.47 | Favorito golpea temprano y gana | Alta probabilidad · asiática: devuelve 10 % · ★ enfoque a favor |
 | Córners Portugal Más 4.5 | 1.34 | 70 % | 72 % | 70 % | +0 pts | -6 % | 63 % | +0.6 | 1.47 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
+| Gustav Isaksen entradas 1+ | 1.27 | 70 % | 70 % | 70 % | +0 pts | -11 % | 66 % | — | 1.47 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
 | Goles Dinamarca Menos 1.5 | 1.39 | 70 % | 69 % | 70 % | +0 pts | -3 % | 70 % | +0.4 | 1.48 | Sorpresa: gana el no favorito | Alta probabilidad |
 | Goles Más 2.25 | 1.40 | 70 % | 70 % | 70 % | +0 pts | -2 % | 70 % | +0.5 | 1.48 | Empate | Alta probabilidad · asiática: devuelve 10 % · ★ enfoque a favor |
-| Hándicap Portugal -0.25 | 1.44 | 68 % | 68 % | 68 % | +0 pts | -2 % | 68 % | — | 1.51 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 11 % · ★ enfoque a favor |
-| Goles Dinamarca Más 0.5 | 1.42 | 67 % | 67 % | 67 % | +0 pts | -4 % | 67 % | +0.6 | 1.53 | Favorito golpea temprano y gana | Alta probabilidad · ★ enfoque a favor |
-| Descanso o final: Portugal | 1.42 | 67 % | 66 % | 67 % | +0 pts | -5 % | 67 % | — | 1.54 | Sorpresa: gana el no favorito | Alta probabilidad · ★ enfoque a favor |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |

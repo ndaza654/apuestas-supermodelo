@@ -135,3 +135,10 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Registro: 45 sugerencias nuevas «pendiente» (`jornadas/2026-11-14/sugerencias_tarde.json`; `sugerencias.py` ahora lee `sugerencias*.json`).
 - Hallazgo aparte: la tarea programada de las 3:45 subió su análisis de la jornada a `main` (commit `2e9d503`, `entregas/2026-11-14/0400_*`), no a esta rama. Sin mezclar; pendiente de decisión del usuario.
 - Límites: sin noticias fuera de Flashscore, sin estadísticas de árbitro, clima del 13-nov, el precio real del Bet Builder no se leyó.
+
+## 14-nov, 14:25–14:34 · informe interactivo de la tarde y jugadores de Portugal–Dinamarca
+- Entregado: `entregas/2026-11-14/1425_informe-tarde.html`, `1430_jugadores-portugal-dinamarca.md` y `1434_informe-tarde-con-jugadores.html`.
+- `informe_html.py`: tarjetas `reanalisis*.md` arriba en «Análisis», tablas en el markdown, filtro «Colchón ≥» (equipo y jugadores), «p modelo ≥» en jugadores y columnas p, EV, esperado, colchón e historial en la pestaña Jugadores.
+- Historial por jugador: recolectado solo para Portugal–Dinamarca (Flashscore, pestaña «Estadísticas de jugadores», 10 partidos pasados; `jornadas/2026-11-14/jugadores/`). Sofascore respondió 403/404: no se evadió. Datos transcritos por el chat, sin hash.
+- Lectura: en jugadores la p del modelo va pegada al precio y el EV ronda −12 %; solo se informó la regularidad (muestras de 4–6, por debajo del mínimo).
+- Corrección: las entregas de los dos bloques se hicieron ~14:05 y ~14:12 (se habían nombrado 1430 y 1448 por una hora mal estimada).

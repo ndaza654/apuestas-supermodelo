@@ -5,6 +5,8 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-14 | 14:34 | Informe interactivo actualizado: suma la tarjeta de jugadores de Portugal–Dinamarca y sus 486 líneas de jugador con historial, esperado, colchón y p (HTML probado con Playwright) | los 21 del 14-nov | `2026-11-14/1434_informe-tarde-con-jugadores.html` |
+| 2026-11-14 | 14:30 | Jugadores de Portugal–Dinamarca con historial de Flashscore (4–6 partidos por jugador): 5 líneas con regularidad y las que no se recomiendan | Portugal–Dinamarca | `2026-11-14/1430_jugadores-portugal-dinamarca.md` |
 | 2026-11-14 | 14:25 | Informe interactivo de la jornada con los dos reanálisis de la tarde arriba, cuotas releídas en 8 partidos, filtro «Colchón ≥» y pestaña Jugadores con p, EV, esperado y colchón (HTML probado con Playwright) | los 21 del 14-nov (8 releídos) | `2026-11-14/1425_informe-tarde.html` |
 | 2026-11-14 | 14:12 | Reanálisis del bloque de las 15:30 (Primera A, fecha 19) con cuotas releídas (14:06) y la previa de Flashscore: líneas de 1,45 o más con regularidad y combinadas entre partidos; sin alineaciones | Águilas–Medellín, Nacional–Once Caldas, Cali–Tolima, Millonarios–Alianza | `2026-11-14/1412_reanalisis-bloque-1530.md` |
 | 2026-11-14 | 14:05 | Reanálisis del bloque de las 14:45 con cuotas releídas (13:56) y alineaciones oficiales: líneas de 1,45 o más que cumplen 5 de 7, tres Bet Builder de Portugal–Dinamarca y combinadas entre partidos | Portugal–Dinamarca, Irlanda del Norte–Ucrania, Rumanía–Polonia, Suecia–Bosnia | `2026-11-14/1405_reanalisis-bloque-1445.md` |
