@@ -87,7 +87,7 @@ async function extraerFlashscore(mid, opciones = {}) {
   }
   async function forma(sec, equipo) {
     const out = [];
-    const filas = sec.filas.filter(fsOficial).sort((a, b) => Number(b.KC) - Number(a.KC)).slice(0, NH2H);
+    const filas = sec.filas.filter(fsOficial).sort((a, b) => Number(b.KC) - Number(a.KC)).slice(0, N);
     for (const r of filas) {
       const esLocal = fsLimpio(r.KJ) === equipo || fsLimpio(r.KJ).toLowerCase() === equipo.toLowerCase();
       const [gh, ga] = r.KL.split(':').map(Number);
