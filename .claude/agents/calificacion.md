@@ -11,7 +11,7 @@ Entrada: `registro/lineas.csv` (todas las líneas analizadas de la jornada, con 
 Qué medir, siempre con n a la vista:
 1. Por mercado (córners, partido, jugadores, goles-resultado, tarjetas, combinadas): aciertos / líneas.
 2. **Ficha vs modelo (las dos lecturas lado a lado):** ¿acertaron más las líneas con `cumple_ficha = sí` que las `no`? ¿acertó más el modelo (p_modelo vs resultado, Brier/calibración) en las líneas sin alerta que en las con alerta? ¿cuándo coinciden las dos y cuándo no? Con n pequeño, solo reporta.
-2b. **Regularidad:** ¿las líneas que cumplían «≥ 5 de 7 en ambos equipos» acertaron más que las que no? ¿el colchón informó algo? (es informativo, solo se mide).
+2b. **Regularidad:** ¿las líneas que cumplían «≥ 7 de 10 en ambos equipos» acertaron más que las que no? ¿el colchón informó algo? (es informativo, solo se mide).
 3. Calibración del modelo y CLV cuando haya cuota de cierre.
 4. Fallas de proceso: líneas sin dato, jugadores que no jugaron (alineación probable que falló), rojas no contadas en tarjetas.
 

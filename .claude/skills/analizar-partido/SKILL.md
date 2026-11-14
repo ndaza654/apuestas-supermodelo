@@ -8,7 +8,7 @@ El usuario decide y apuesta; tú entregas probabilidad, cuota, regularidad y lí
 
 ## Etapa 1 — Recolección (necesita el navegador del computador del usuario; ~22–23 h Bogotá del día anterior)
 1. **Betano:** `recoleccion/betano_extraer.js` en la pestaña de betano.co → texto compacto de cada partido → `raw/bet_<clave>.txt` → `python3 recoleccion/betano.py jornadas/<día>/raw` → `betano/<clave>.json`. Primero se lee qué mercados ofrece cada partido.
-2. **Flashscore:** `recoleccion/flashscore_extraer.js` en la pestaña de flashscore.co → `flashscore/<clave>.json` (últimos 7 de cada equipo con estadísticas, directos, árbitro, estadio). Emparejar cada partido de Betano con su `mid` de Flashscore (misma hora de inicio + nombres; Flashscore usa nombres en inglés). Pausas entre llamadas; si hay 403/429, parar y avisar.
+2. **Flashscore:** `recoleccion/flashscore_extraer.js` en la pestaña de flashscore.co → `flashscore/<clave>.json` (últimos 10 de cada equipo + hasta 6 directos con estadísticas, directos, árbitro, estadio). Emparejar cada partido de Betano con su `mid` de Flashscore (misma hora de inicio + nombres; Flashscore usa nombres en inglés). Pausas entre llamadas; si hay 403/429, parar y avisar.
 3. **Situación (la lee Claude, no se adivina):** con la previa de Flashscore, la tabla y las bajas, escribir `notas/<clave>.json` (formato en `recoleccion/armar_entrada.py`, NOTAS_EJEMPLO): importancia, derbi, motivación, rotación, necesita ganar, bajas, dudas, fuentes. Sin esa lectura el partido queda «reserva», nunca «apto».
 4. Guardar y subir al repo (commit + push) **antes** de que corra la etapa 2.
 
@@ -16,7 +16,7 @@ El usuario decide y apuesta; tú entregas probabilidad, cuota, regularidad y lí
 1. `python3 recoleccion/correr_jornada.py jornadas/<día>` → entradas, fichas, informes del modelo, `ranking.md`.
    Si no hay `betano/*.json`, dice que la etapa 1 no dejó nada y termina: no se inventa.
 2. Lanzar los agentes `corners`, `partido`, `jugadores`, `goles-resultado` y `tarjetas` con las fichas de los partidos apto/reserva (cada uno escribe su detalle en `jornadas/<día>/agentes/` y devuelve un resumen corto); después `combinadas` con lo que cumplió. `goles-resultado` y `tarjetas` no entran en el ranking de aptos: léelos con las alertas del modelo a la vista.
-3. El informe interactivo sale solo de la etapa 2 (`jornadas/<día>/informe.html`, de `recoleccion/informe_html.py`); entregarlo al usuario así y guardar copia en `entregas/` (ver CLAUDE.md: «Informes en HTML interactivo»). Escribir además `jornadas/<día>/informe_final.md` (español, hora de Bogotá): abre con **«Enfoque de mercados»**; por partido y mercado, las líneas que cumplen (≥5 de 7 en ambos equipos) con cuota, esperado, colchón y «X de 7»; luego lo que no cumple, resumido; y los límites (datos que faltaron, partidos no aptos y por qué).
+3. El informe interactivo sale solo de la etapa 2 (`jornadas/<día>/informe.html`, de `recoleccion/informe_html.py`); entregarlo al usuario así y guardar copia en `entregas/` (ver CLAUDE.md: «Informes en HTML interactivo»). Escribir además `jornadas/<día>/informe_final.md` (español, hora de Bogotá): abre con **«Enfoque de mercados»**; por partido y mercado, las líneas que cumplen (≥7 de 10 en ambos equipos) con cuota, esperado, colchón y «X de 7»; luego lo que no cumple, resumido; y los límites (datos que faltaron, partidos no aptos y por qué).
 4. Verificar: `python3 pruebas/test_ficha.py`, cifras contra la ficha. Commit y push del resultado.
 
 ## Puntuación de contexto (`recoleccion/puntuar.py`)

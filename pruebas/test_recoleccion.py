@@ -49,10 +49,11 @@ pp = hist['Donyell Malen']['partidos'][0]
 check(pp['min'] == 72 and pp['remates'] == 2 and pp['tarjeta'] == 1 and pp['faltas'] == 3 and sin_h == ['Nadie X.'], 'el historial de Flashscore pasa a ficha.jugadores_hist con nombres de Betano')
 
 # --- el puntaje de jugadores cuenta todas las líneas (no solo remates/tiros al arco) ---
-for clave, minimo in (('eslovenia-suiza', 1), ('serbia-alemania', 1)):
+# (datos del 13-nov recogidos con muestra de 7: con la regla de 10 ya casi ninguna línea llega a cumplir; solo se exige que cuenten)
+for clave, minimo in (('eslovenia-suiza', 0), ('serbia-alemania', 0)):
     ej = json.load(open(os.path.join(RAIZ, 'jornadas', '2026-11-13', 'entradas', clave + '.json'), encoding='utf8'))
     rj = PU.evaluar(ej)
-    check(rj['mercados']['jugadores']['estado'] != 'no ofrece' and rj['mercados']['jugadores']['cumplen'] >= minimo, f'{clave}: los jugadores con línea de anota/asiste/tarjeta/entradas/faltas cuentan en el puntaje')
+    check(rj['mercados']['jugadores']['estado'] != 'no ofrece' and rj['mercados']['jugadores']['datos'] > 0 and rj['mercados']['jugadores']['cumplen'] >= minimo, f'{clave}: los jugadores con línea de anota/asiste/tarjeta/entradas/faltas cuentan en el puntaje')
 # --- registro de líneas (ficha + modelo en la misma fila) ---
 import tempfile, csv as _csv
 import registrar_jornada as RJ

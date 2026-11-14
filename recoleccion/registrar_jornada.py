@@ -2,7 +2,7 @@
 """Registro de TODAS las líneas analizadas de una jornada (la «base de datos» del proyecto).
 
 Une, línea por línea, las dos lecturas que se comparan después con los resultados reales:
-  · la FICHA (regularidad «X de 7», esperado, colchón, cumple) — fichas/ficha_<partido>.json
+  · la FICHA (regularidad «X de 10», esperado, colchón, cumple) — fichas/ficha_<partido>.json
   · el MODELO SM-1.2 (p, p_mercado, p_simulacion, ev, alerta) — informes/<partido>_resultado.json
 Salida: registro/lineas.csv (separador ';', UTF-8 con BOM: abre directo en Excel y Google Sheets). Una fila por línea de
 Betano y lado (Más/Menos, Sí), cumpla o no. Las columnas de resultado quedan vacías; las llena el agente `calificacion`
@@ -11,6 +11,8 @@ al día siguiente (resultado real, apostada, cuota de cierre). Correr de nuevo l
 Uso:  python3 recoleccion/registrar_jornada.py jornadas/AAAA-MM-DD [registro/lineas.csv]
 """
 import csv, glob, json, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import ficha as FI
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CAMPOS = ['jornada', 'partido', 'liga', 'hora_partido', 'cuotas_leidas', 'mercado', 'ambito', 'jugador', 'titular', 'linea', 'lado',
@@ -72,7 +74,7 @@ def filas_de(ficha, informe, jornada):
             f = {**base, 'mercado': 'jugador:' + j['stat'], 'ambito': j.get('lado'), 'jugador': j['jugador'], 'titular': j.get('titular'),
                  'linea': s['minimo'], 'lado': 'Más' if j.get('escalones') else 'Sí', 'cuota': s['cuota'],
                  'esperado': j.get('esperado'), 'colchon': s.get('colchon'), 'reg_local': (s.get('reg') or {}).get('txt'),
-                 'cumple_ficha': 'sí' if (s.get('reg') or {}).get('cumple') else ('no' if (s.get('reg') or {}).get('n', 0) >= 5 else 'sin muestra')}
+                 'cumple_ficha': 'sí' if (s.get('reg') or {}).get('cumple') else ('no' if (s.get('reg') or {}).get('n', 0) >= FI.MIN_N else 'sin muestra')}
             if j.get('titular') is None:
                 f['nota'] = 'sin alineación (regla 1: no se analiza)'
                 f['cumple_ficha'] = 'sin alineación'

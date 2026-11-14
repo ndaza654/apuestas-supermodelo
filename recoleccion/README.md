@@ -24,7 +24,7 @@ Dos piezas: `flashscore_extraer.js` (en la pestaña de flashscore.co) y `armar_e
 - Lista del día (incluye mañana): `f_1_<día 0|1>_-5_en_1` → `mid`, hora, liga, local, visitante (nombres en inglés).
 - Contexto de un partido: `df_hh_1_<mid>` (últimos de cada equipo + directos) → por cada partido terminado `df_st_1_<id>` (córners, remates, tiros al arco, faltas, fueras,
   saques de banda y de meta, amarillas/rojas, xG; total y por tiempo) y `df_sui_1_<mid>` (árbitro anunciado, estadio).
-- Probado con Colombia (Pasto–Junior) y con la Liga de Naciones (Italia–Francia): 7 + 7 + 7 partidos con estadísticas; coincide con la fuente anterior (Sofascore) en córners,
+- Probado con Colombia (Pasto–Junior) y con la Liga de Naciones (Italia–Francia): 7 + 7 + 7 partidos con estadísticas (prueba del 12-nov, con la muestra anterior de 7); coincide con la fuente anterior (Sofascore) en córners,
   remates, faltas, fueras, saques y tarjetas de los mismos partidos. Algunos partidos viejos no traen saques de meta: la ficha muestra el n real.
 - Emparejar con Betano: misma hora de inicio + nombres (Betano en español, Flashscore en inglés).
 - No hay (todavía): historial por jugador (remates/tiros al arco por partido), alineaciones probables, estadísticas del árbitro (B-Soccer).
@@ -42,6 +42,6 @@ Probable bloqueo por exceso de llamadas; reintentar más tarde, con pausas entre
 Open-Meteo (`api.open-meteo.com/v1/forecast?latitude=..&longitude=..&hourly=temperature_2m,precipitation,wind_speed_10m`) desde la pestaña de open-meteo.com.
 
 ## Qué debe quedar en cada entrada (`pub/entradas/<partido>.json`)
-`betano` (líneas, jugadores, parejas), `jugadores` (alineación probable/confirmada con fuente y hora), `ficha.forma` (últimos 7 de cada equipo con `stats`:
-`g, xg, c, sh, sot, f, off, ti, gk, y` como [a favor, en contra]), `ficha.h2h` (directos con `stats` orientadas al local/visitante actual; opcional),
+`betano` (líneas, jugadores, parejas), `jugadores` (alineación probable/confirmada con fuente y hora), `ficha.forma` (últimos 10 de cada equipo con `stats`:
+`g, xg, c, sh, sot, f, off, ti, gk, y` como [a favor, en contra]), `ficha.h2h` (hasta 6 directos con `stats` orientadas al local/visitante actual; opcional),
 `ficha.jugadores_hist`, `ficha.arbitro`, `ficha.clima`, `ficha.bajas`. Lo que falte se declara en la ficha; no se inventa.

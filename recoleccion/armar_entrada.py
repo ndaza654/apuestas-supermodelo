@@ -112,7 +112,7 @@ def jugadores_de(lu, betano, hora_lectura=''):
 def hist_de(jug, betano):
     """Historial por jugador de Flashscore (jugadores/<clave>.json) → ficha.jugadores_hist con los nombres de Betano.
     Cada aparición: [mid, fecha, min, remates, al_arco, goles, asist, amarillas, rojas, faltas, entradas] (la más reciente primero).
-    Solo cuenta lo jugado dentro de los últimos 7 partidos oficiales del equipo; el resto no se inventa."""
+    Solo cuenta lo jugado dentro de los últimos 10 partidos oficiales del equipo; el resto no se inventa."""
     out, sin = {}, []
     nombres = sorted({j['jugador'] for j in betano.get('jugadores', [])})
     for fs_n, d in (jug or {}).items():
@@ -204,7 +204,7 @@ def armar(b, fs=None, notas=None, jug=None):
         faltan.append('lectura de la situación (importancia, motivación, rotación, tabla)')
     if not ficha['jugadores_hist'] and jug:
         ficha['jugadores_hist'], sin_h = hist_de(jug, bet)
-        ficha['fuentes'] = ficha['fuentes'] + ['Flashscore (estadísticas de jugadores de los últimos 7 partidos de cada selección; solo jugadores de la alineación probable)']
+        ficha['fuentes'] = ficha['fuentes'] + ['Flashscore (estadísticas de jugadores de los últimos 10 partidos de cada selección; solo jugadores de la alineación probable)']
         if sin_h:
             dudas.append('Historial: sin casar con Betano → ' + ', '.join(sin_h))
     if not ficha['jugadores_hist']:

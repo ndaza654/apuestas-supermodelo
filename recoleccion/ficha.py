@@ -6,9 +6,10 @@ Entrada : una «entrada» del supermodelo (el mismo JSON que usa `python3 -m sup
           betano.lineas / betano.jugadores y, si existe, ficha.h2h (directos con estadísticas).
 Salida  : <salida>/ficha_<clave>.json (completo) y ficha_<clave>.md (resumen legible).
 
-Reglas fijas del usuario (12-nov-2026):
-  * Muestra: últimos 7 partidos de cada equipo, combinados y en cualquier sede, + directos (los que existan).
-  * Regularidad: cuántas veces de esos 7 se cumplió la línea. Cumple con 5 de 7 o más (n mínimo 5).
+Reglas fijas del usuario (12-nov-2026; muestra ampliada el 13-nov-2026):
+  * Muestra: últimos 10 partidos de cada equipo, combinados y en cualquier sede, + directos (los que existan, 6 como máximo).
+  * Regularidad: cuántas veces de esos 10 se cumplió la línea. Cumple con 7 de 10 o más (n mínimo 7; proporcional al 5 de 7 anterior).
+    Los umbrales están en las constantes N, N_H2H, MIN_N y CUMPLE de abajo (único lugar donde cambiarlos).
   * Colchón: esperado por los datos menos la línea de Betano. Es INFORMATIVO: no se descarta ninguna línea por él.
   * Objetivo: probabilidad de que la línea se cumpla, no valor contra Betano.
 
@@ -16,9 +17,10 @@ Uso:  python3 recoleccion/ficha.py <entrada.json> [carpeta_salida]
 """
 import json, os, re, sys, unicodedata
 
-N = 7            # partidos por equipo
-MIN_N = 5        # muestra mínima para poder decir «cumple»
-CUMPLE = 5       # veces de N que debe cumplirse la línea
+N = 10           # partidos por equipo (los últimos oficiales, cualquier sede)
+N_H2H = 6        # directos: 6 como máximo (si hay menos, los que haya)
+MIN_N = 7        # muestra mínima para poder decir «cumple»
+CUMPLE = 7       # veces de N que debe cumplirse la línea
 
 # mercado de Betano -> clave de estadística en ficha.forma[].stats  ([a favor, en contra])
 MERCADOS = {
@@ -76,7 +78,7 @@ def serie(forma, clave, n=N):
 def serie_h2h(h2h, clave):
     """Directos con estadísticas: lista de {fecha, comp, stats:{clave:[local_actual, visitante_actual]}} ya orientada."""
     out = []
-    for m in (h2h or [])[:N]:
+    for m in (h2h or [])[:N_H2H]:
         p = (m.get('stats') or {}).get(clave)
         if p and len(p) == 2 and p[0] is not None and p[1] is not None:
             out.append((float(p[0]), float(p[1])))
@@ -211,7 +213,7 @@ def _tabla_txt(t):
 def construir(e):
     return {'encuentro': f"{e.get('local')} - {e.get('visitante')}", 'liga': e.get('liga'), 'fecha': e.get('fecha'),
             'cuotas_leidas': e.get('cuotas_leidas'),
-            'regla': {'muestra': f'últimos {N} de cada equipo (cualquier sede) + directos', 'cumple': f'{CUMPLE} de {N} (n mínimo {MIN_N})',
+            'regla': {'muestra': f'últimos {N} de cada equipo (cualquier sede) + hasta {N_H2H} directos', 'cumple': f'{CUMPLE} de {N} (n mínimo {MIN_N})', 'directos': f'hasta {N_H2H}',
                       'colchon': 'informativo: esperado − línea'},
             'corners': ficha_estadistica(e, 'corners'),
             'partido': {m: ficha_estadistica(e, m) for m in GRUPOS['partido']},
@@ -267,7 +269,7 @@ def md_jugadores(lst):
             hay = True
             L.append(f"- {j['jugador']} — {j['stat']}: Sí @{j['cuota']} · {j['reg']['txt']}{tit}")
     if not hay:
-        L.append('_Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._')
+        L.append(f'_Ninguna línea de jugador cumple {CUMPLE} de {N} con muestra suficiente._')
     return '\n'.join(L) + '\n'
 
 def resumen(F, cuota_min=1.20):
@@ -284,7 +286,7 @@ def resumen(F, cuota_min=1.20):
 
 def md_resumen(F):
     filas = resumen(F)
-    L = ['## Resumen: líneas de equipo que cumplen 5 de 7 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)', '']
+    L = [f'## Resumen: líneas de equipo que cumplen {CUMPLE} de {N} en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)', '']
     if not filas:
         return '\n'.join(L + ['_Ninguna._', ''])
     L += ['| Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |', '|---|---|---|---|---|---|---|']

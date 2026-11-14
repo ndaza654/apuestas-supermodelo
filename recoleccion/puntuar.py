@@ -2,13 +2,13 @@
 """Puntuación de contexto de cada partido y filtro de los partidos aptos.
 
 Dos puntuaciones SIEMPRE juntas (decisión del usuario, 12-nov-2026): lo mínimo es mirar las dos.
-  · DATOS (0–100): ¿hay con qué analizar? Mercados que Betano ofrece, 7 partidos con estadística por equipo, alineaciones,
+  · DATOS (0–100): ¿hay con qué analizar? Mercados que Betano ofrece, 10 partidos con estadística por equipo (más hasta 6 directos), alineaciones,
     historial de los jugadores con línea, árbitro y directos.
   · SITUACIÓN (0–100): ¿el partido tiene un guion legible? Importancia, derbi/eliminatoria, necesidad de ganar, rotación, favorito claro,
     bajas, clima, descanso. Si la ficha trae solo valores por defecto (nadie leyó la situación) se dice «situación sin leer» y no se premia.
 Estados: APTO = datos ≥ 60 y situación ≥ 45; RESERVA = datos ≥ 60 pero la situación no está leída (hay que leerla antes de decidir); NO APTO = el resto.
 Ninguno se descarta en silencio: todos salen en el ranking con el motivo.
-Para los aptos se corre la ficha por mercado (córners, partido, jugadores) y se cuentan las líneas que cumplen 5 de 7 en ambos equipos.
+Para los aptos se corre la ficha por mercado (córners, partido, jugadores) y se cuentan las líneas que cumplen 7 de 10 en ambos equipos.
 
 Uso:  python3 recoleccion/puntuar.py jornadas/2026-11-12/pub/entradas [carpeta_salida]
 Salida: ranking.json y ranking.md en la carpeta de salida (por defecto, junto a la carpeta de entradas).
@@ -40,11 +40,11 @@ def puntuar_datos(e, F):
     det, fam = [], {}
 
     def cobertura(r):
-        return (min(r.get('n_local', 0), 7) + min(r.get('n_visitante', 0), 7)) / 14
+        return (min(r.get('n_local', 0), FI.N) + min(r.get('n_visitante', 0), FI.N)) / (2 * FI.N)
     n_c = sum(1 for l in lineas if l.get('mercado') == 'corners' and l.get('ambito') in ('total', 'local', 'visitante'))
     if n_c:
         fam['córners'] = round(100 * (0.7 * cobertura(F['corners']) + 0.3 * min(1, n_c / 8)))
-        det.append(f"Córners: {n_c} líneas, muestra de 7 al {cobertura(F['corners']):.0%} → {fam['córners']}")
+        det.append(f"Córners: {n_c} líneas, muestra de {FI.N} al {cobertura(F['corners']):.0%} → {fam['córners']}")
     else:
         det.append('Córners: Betano no ofrece líneas de equipo/total')
     ofrecidas = [m for m in FI.GRUPOS['partido'] if any(l.get('mercado') == m for l in lineas)]
@@ -61,10 +61,10 @@ def puntuar_datos(e, F):
         js = [j for j in js if j['jugador'] in xi]
         n_j = len(xi)
     if n_j and js:
-        con_hist = sum(1 for j in js if j['partidos_muestra'] >= 5) / len(js)
+        con_hist = sum(1 for j in js if j['partidos_muestra'] >= FI.MIN_N) / len(js)
         con_xi = sum(1 for j in js if (j.get('titular') or 0) >= 0.6) / len(js)
         fam['jugadores'] = round(100 * (0.5 * con_hist + 0.3 * con_xi + 0.2 * min(1, n_j / 20)))
-        det.append(f"Jugadores: {n_j} con línea, {con_hist:.0%} con ≥5 partidos de historial, {con_xi:.0%} titulares probables → {fam['jugadores']}")
+        det.append(f"Jugadores: {n_j} con línea, {con_hist:.0%} con ≥{FI.MIN_N} partidos de historial, {con_xi:.0%} titulares probables → {fam['jugadores']}")
     else:
         det.append('Jugadores: Betano no ofrece líneas de jugadores' if not n_j else 'Jugadores: Betano no trae líneas de jugadores con ficha')
     base = sum(fam.values()) / len(fam) if fam else 0
@@ -159,7 +159,7 @@ def _m(m):
 
 def markdown(R):
     L = ['# Ranking de partidos por contexto', '',
-         f'Apto = datos ≥ {UMBRAL_DATOS} **y** situación ≥ {UMBRAL_SITUACION}; reserva = datos suficientes y situación sin leer. «Cumplen» = líneas de equipo con 5 de 7 en ambos equipos y cuota ≥ 1.20, '
+         f'Apto = datos ≥ {UMBRAL_DATOS} **y** situación ≥ {UMBRAL_SITUACION}; reserva = datos suficientes y situación sin leer. «Cumplen» = líneas de equipo con 7 de 10 en ambos equipos y cuota ≥ 1.20, '
          'más jugadores con algún escalón que cumple. Los no aptos se muestran con su motivo; nada se descarta en silencio.', '',
          '| # | Partido | Situación | Estado | Córners (datos · cumplen) | Partido (datos · cumplen) | Jugadores (datos · cumplen) | Motivo |', '|---|---|---|---|---|---|---|---|']
     for i, r in enumerate(R, 1):
