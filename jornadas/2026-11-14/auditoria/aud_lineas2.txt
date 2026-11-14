@@ -1,0 +1,50 @@
+== dónde se aparta el modelo del mercado (|d|>=0.03) por mercado/ámbito
+   ('corners', '2T') 68 de 96
+   ('corners', '1T') 40 de 132
+   ('tarjetas', 'total') 32 de 46
+   ('tarjetas', 'visitante') 28 de 40
+   ('remates', 'total') 24 de 36
+   ('corners', 'visitante') 23 de 55
+   ('tarjetas', 'local') 22 de 40
+   ('corners', 'total') 20 de 142
+   ('corners', 'local') 18 de 53
+   ('remates', 'local') 10 de 32
+   ('remates', 'visitante') 10 de 32
+   ('tarjetas', '1T') 6 de 28
+   ('faltas', 'local') 6 de 6
+   ('faltas', 'visitante') 6 de 6
+== por mercado: cuando el modelo está >=3 pts por ENCIMA del mercado
+   corners       n= 86 partidos=11 real=34.9% p_merc=41.3% p_mod=48.0% ROI=-28.0%
+   faltas        n=  8 partidos= 3 real=62.5% p_merc=49.1% p_mod=55.6% ROI=+20.2%
+   goles         n=  2 partidos= 2 real=0.0% p_merc=48.9% p_mod=52.1% ROI=-100.0%
+   remates       n= 22 partidos= 4 real=31.8% p_merc=40.6% p_mod=44.6% ROI=-21.1%
+   tarjetas      n= 44 partidos= 9 real=34.1% p_merc=50.3% p_mod=57.2% ROI=-34.1%
+== por partido: real − p_mercado en las líneas donde el modelo está >=3 pts por encima
+   Curazao - Panamá                         n= 10 real=30% p_merc=42% p_mod=51% lados={'Más': 6, 'Menos': 4} mercados={'corners': 4, 'tarjetas': 6}
+   Estudiantes de La Plata - Independiente  n= 37 real=49% p_merc=47% p_mod=53% lados={'Más': 24, 'Menos': 13} mercados={'corners': 10, 'remates': 10, 'tarjetas': 17}
+   Andorra - Gibraltar                      n=  8 real=38% p_merc=47% p_mod=55% lados={'Más': 7, 'Menos': 1} mercados={'corners': 6, 'tarjetas': 2}
+   Bulgaria - Islandia                      n=  9 real=22% p_merc=48% p_mod=55% lados={'Más': 9} mercados={'corners': 9}
+   Escocia - Macedonia del Norte            n= 13 real=62% p_merc=44% p_mod=50% lados={'Más': 6, 'Menos': 7} mercados={'corners': 6, 'faltas': 2, 'remates': 3, 'tarjetas': 2}
+   Eslovenia - Suiza                        n= 14 real=79% p_merc=47% p_mod=54% lados={'Más': 14} mercados={'corners': 11, 'tarjetas': 3}
+   Liechtenstein - Azerbaiyán               n=  6 real=33% p_merc=50% p_mod=60% lados={'Más': 6} mercados={'corners': 3, 'tarjetas': 3}
+   Luxemburgo - Estonia                     n= 10 real=0% p_merc=49% p_mod=56% lados={'Más': 10} mercados={'corners': 8, 'tarjetas': 2}
+   Moldavia - Kazajistán                    n= 10 real=60% p_merc=50% p_mod=57% lados={'Más': 8, 'Menos': 2} mercados={'corners': 7, 'tarjetas': 3}
+   Países Bajos - Grecia                    n= 23 real=0% p_merc=39% p_mod=43% lados={'Más': 22, 'Menos': 1} mercados={'corners': 8, 'faltas': 3, 'remates': 5, 'goles': 1, 'tarjetas': 6}
+   Serbia - Alemania                        n= 22 real=18% p_merc=35% p_mod=39% lados={'Más': 21, 'Menos': 1} mercados={'corners': 14, 'faltas': 3, 'remates': 4, 'goles': 1}
+== p_modelo vs p_simulacion vs mercado: ¿qué es p_modelo?
+   p_modelo ≈ 0.470·p_mercado + 0.530·p_simulación  (residuo medio abs 0.0072)
+   |p_sim − p_merc| media 0.0357 · p90 0.0639 · >=0.10: 89 (6.1%) · >=0.15: 74
+   logit(y) ~ logit(p_merc): b=[0.013 0.872] nll=853.97
+   + (p_sim − p_merc): b=[ 0.013  0.871 -0.419] nll=853.82  (coef. negativo = la simulación empuja en la dirección equivocada)
+   + (p_mod − p_merc): b=[ 0.014  0.87  -1.917] nll=853.04
+== sesgo favorito-improbable del mercado: real − p_merc por tramo de p_merc (todas las líneas de equipo)
+   p_merc 0.0–0.1: n=  90 real=7.8% p_merc=6.5% ROI=-32.2%
+   p_merc 0.1–0.2: n= 102 real=16.7% p_merc=14.9% ROI=-12.9%
+   p_merc 0.2–0.3: n= 123 real=30.9% p_merc=25.1% ROI=+8.3%
+   p_merc 0.3–0.4: n= 192 real=36.5% p_merc=35.2% ROI=-5.5%
+   p_merc 0.4–0.5: n= 217 real=47.5% p_merc=45.3% ROI=-2.3%
+   p_merc 0.5–0.6: n= 228 real=51.8% p_merc=54.4% ROI=-10.0%
+   p_merc 0.6–0.7: n= 197 real=64.5% p_merc=64.7% ROI=-4.3%
+   p_merc 0.7–0.8: n= 123 real=71.5% p_merc=75.0% ROI=-7.5%
+   p_merc 0.8–0.9: n=  98 real=83.7% p_merc=85.1% ROI=-4.1%
+   p_merc 0.9–1.0: n=  90 real=92.2% p_merc=93.5% ROI=-2.8%

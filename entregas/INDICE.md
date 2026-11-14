@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-14 | 03:49 | Auditoría de todo el repo: 48 hallazgos (4 críticos, 13 altos, 15 medios, 7 bajos, 9 cosas que están bien), semáforo por área, plan priorizado y límites (HTML con filtros + versión en texto) | — (todo el repo, commit 11ce7af) | `2026-11-14/0349_auditoria-repo.html` y `2026-11-14/0349_auditoria-repo.md` |
 | 2026-11-13 | 23:24 | Lectura de tu boleto abierto (combinada de 3 Bet Builder, $13.450 a cuota 7,60): p conjunta 11 % por simulación, EV −13 %, pata por pata | Japón–Brasil, Valladolid–Castellón, Kosovo–Israel | `2026-11-13/2324_lectura-boleto-abierto.md` |
 | 2026-11-13 | 23:10 | Informe de la jornada del 14-nov con análisis: «Enfoque de mercados», real hasta hoy y 58 sugerencias con las reglas de la auditoría (38 protecciones, 15 sencillas 1,50–1,99, 4 combinadas de 2 patas, 1 lotería); muestra de 7, cumple 5 de 7 (HTML con filtros y cupón) | los 21 del 14-nov | `2026-11-13/2310_informe-jornada-14nov.html` |
 | 2026-11-13 | 22:30 | Mensaje de contexto para un chat nuevo (conectar al repo, cómo funciona todo, estado, tarea programada 3:45 a. m.) | — | `2026-11-13/2230_mensaje-nuevo-chat.md` |

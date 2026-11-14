@@ -119,3 +119,11 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Anomalía Mirassol–Atlético-MG: cerrada. Betano publica escaleras de 23 líneas en tiros al arco, remates y saques de meta; no hay línea mal leída. Series de remates del visitante y saques de meta infladas por partidos desiguales.
 - Límites: cuotas del 13-nov 19:01–19:15 sin releer; muestra de 7; alineaciones solo probables en 16 partidos; sin historial por jugador, sin estadísticas de árbitro; situación (previa, motivación, rotación) sin leer, los 21 siguen en «reserva». Pruebas: modelo 106, ficha 27, betano 11, recolección 56.
 - Se midió: nada todavía; se califica con los resultados del 14-nov.
+
+## 14-nov, 03:49 · auditoría de todo el repo (tarea programada, solo lectura)
+- Entregado: `entregas/2026-11-14/0349_auditoria-repo.html` (filtros por severidad, área y veredicto) y `0349_auditoria-repo.md`. Evidencia y scripts en `jornadas/2026-11-14/auditoria/`. Commit auditado: `11ce7af`. No se cambió código ni datos.
+- Conclusión: el repo sirve como registro y análisis honesto, pero no demuestra ventaja sobre Betano. 48 hallazgos: 4 críticos (A1 sin ventaja demostrada, A2 el modelo no mejora al precio, C1 datos transcritos por el chat, G1 reglas de stake del libro sin cumplir), 13 altos, 15 medios, 7 bajos y 9 cosas que están bien.
+- Medido (12 partidos de equipo, 4 de jugador): apostar todas las líneas ROI −6,5 % (IC por partidos −11 % a −1 %); «cumple» −7,5 % (IC −21 % a +5 %); Brier mercado 0,2020 contra modelo 0,2047; líneas con el modelo 3 puntos o más sobre el mercado: 35 % real contra 44 % del mercado; «cumple» menos mercado −4,1 puntos; jugadores 11,4 % real contra 23 % dicho.
+- El «recorte de p» de `analisis_jornada.py` (13-nov) no pasa la validación dejando un partido fuera: Brier 0,1964 recortada contra 0,1808 cruda. Queda marcado para retirar.
+- Boletos reales: 71 con dinero, neto −$1.925; 9–13 nov −$76.550 (ROI −23 %); sin los 2 mejores −$345.316; 17 de 23 boletos del 9 al 13-nov superan el máximo de 7.500 de la hoja «Reglas».
+- Pendiente de decisión del usuario: regla de banca, retirar «valor»/EV/recorte, medir cuota de cierre, reconstruir recolección y registro. Nada de eso se hizo en esta tarea.

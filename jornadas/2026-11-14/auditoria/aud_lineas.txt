@@ -1,0 +1,125 @@
+calificadas (cumplió/falló): 3372 · otras: Counter({'nula': 862, 'media ganada': 12, 'media perdida': 12})
+equipo con p y cuota: 1460 · partidos: 12 · jugador: 1912 · partidos jugador: 4
+líneas por partido (equipo): [32, 66, 76, 76, 76, 88, 102, 108, 134, 226, 236, 240]
+partidos: [('2026-11-12-noche', 'Club Atletico Morelia - Leones Negros UdeG'), ('2026-11-12-noche', 'Curazao - Panamá'), ('2026-11-12-noche', 'Estudiantes de La Plata - Independiente Rivadavia'), ('2026-11-13', 'Andorra - Gibraltar'), ('2026-11-13', 'Bulgaria - Islandia'), ('2026-11-13', 'Escocia - Macedonia del Norte'), ('2026-11-13', 'Eslovenia - Suiza'), ('2026-11-13', 'Liechtenstein - Azerbaiyán'), ('2026-11-13', 'Luxemburgo - Estonia'), ('2026-11-13', 'Moldavia - Kazajistán'), ('2026-11-13', 'Países Bajos - Grecia'), ('2026-11-13', 'Serbia - Alemania')]
+
+== 1. ROI a 1 u por línea (IC 95 % por partidos)
+todas las líneas de equipo                   n=1460 part=12 real=50.2% p=50.0% real−p= +0.3% [-0.4%,+1.1%]  ROI= -6.5% [-11%,-1%] 
+cumple sí                                    n= 213 part=12 real=73.2% p=77.5% real−p= -4.3% [-13.9%,+3.6%]  ROI= -7.5% [-21%,+5%] 
+cumple no                                    n= 791 part=12 real=44.1% p=42.5% real−p= +1.7% [-0.7%,+4.7%]  ROI= -5.2% [-15%,+6%] 
+sin ficha (1T/2T)                            n= 456 part=12 real=50.0% p=50.1% real−p= -0.1% [-0.1%,-0.1%]  ROI= -8.2% [-13%,-3%] 
+lado Más                                     n= 753 part=12 real=44.0% p=46.7% real−p= -2.7% [-12.0%,+5.6%]  ROI=-11.7% [-34%,+7%] 
+  cumple sí · Más                            n=  92 part=12 real=70.7% p=75.2% real−p= -4.6% [-26.0%,+11.2%]  ROI= -7.4% [-39%,+17%] 
+lado Menos                                   n= 707 part=12 real=56.9% p=53.4% real−p= +3.4% [-5.1%,+12.8%]  ROI= -0.9% [-21%,+21%] 
+  cumple sí · Menos                          n= 121 part=12 real=75.2% p=79.2% real−p= -4.0% [-14.2%,+9.3%]  ROI= -7.7% [-22%,+13%] 
+mercado al_arco                              n= 100 part= 4 real=50.0% p=50.0% real−p= -0.0% [-0.0%,+0.0%]  ROI=-23.1% [-31%,-9%] 
+  cumple sí · al_arco                        n=  20 part= 3 real=90.0% p=78.9% real−p=+11.1% [-61.7%,+33.2%]  ROI= +9.3% [-100%,+44%] 
+mercado corners                              n= 478 part=12 real=50.6% p=49.7% real−p= +0.9% [-1.1%,+3.6%]  ROI= -9.8% [-22%,+8%] 
+  cumple sí · corners                        n=  59 part=10 real=69.5% p=78.0% real−p= -8.5% [-34.6%,+8.8%]  ROI=-16.8% [-56%,+8%] 
+mercado faltas                               n=  18 part= 3 real=50.0% p=50.0% real−p= -0.0% [-0.0%,+0.0%]  ROI= -4.3% [-8%,+1%] 
+  cumple sí · faltas                         n=   1 part= 1 real= 0.0% p=43.0% real−p=-43.0% [-43.0%,-43.0%]  ROI=-100.0% [-100%,-100%] 
+mercado fueras                               n=  18 part= 3 real=50.0% p=50.0% real−p= +0.0% [-0.0%,+0.0%]  ROI=-10.7% [-12%,-10%] 
+  cumple sí · fueras                         n=   4 part= 2 real=100.0% p=53.9% real−p=+46.1% [+44.3%,+46.7%]  ROI=+76.7% [+70%,+79%] 
+mercado goles                                n= 568 part=12 real=50.0% p=50.1% real−p= -0.1% [-0.1%,-0.1%]  ROI= -2.7% [-15%,+12%] 
+  cumple sí · goles                          n=  89 part=12 real=75.3% p=83.2% real−p= -7.9% [-24.4%,+6.3%]  ROI=-11.7% [-33%,+6%] 
+mercado remates                              n= 100 part= 4 real=50.0% p=50.0% real−p= -0.0% [-0.0%,+0.0%]  ROI=-10.1% [-12%,-7%] 
+  cumple sí · remates                        n=  17 part= 3 real=70.6% p=65.9% real−p= +4.7% [-69.2%,+47.2%]  ROI= +4.2% [-100%,+77%] 
+mercado saques_banda                         n=  12 part= 2 real=50.0% p=50.0% real−p= -0.0% [-0.0%,+0.0%]  ROI= -7.1% [-8%,-7%] 
+  cumple sí · saques_banda                   n=   1 part= 1 real= 0.0% p=47.9% real−p=-47.9% [-47.9%,-47.9%]  ROI=-100.0% [-100%,-100%] 
+mercado saques_meta                          n=  12 part= 2 real=50.0% p=50.0% real−p= +0.0% [+0.0%,+0.0%]  ROI= -0.4% [-2%,+1%] 
+  cumple sí · saques_meta                    n=0
+mercado tarjetas                             n= 154 part=11 real=50.0% p=50.0% real−p= -0.0% [-0.0%,-0.0%]  ROI= +2.9% [-5%,+8%] 
+  cumple sí · tarjetas                       n=  22 part= 7 real=63.6% p=68.0% real−p= -4.3% [-24.7%,+28.5%]  ROI= +2.7% [-28%,+55%] 
+EV modelo > 0                                n= 141 part=11 real=43.3% p=59.7% real−p=-16.4% [-31.7%,-1.2%]  ROI=-20.4% [-53%,+14%] 
+EV modelo > 0 y cumple sí                    n=  15 part= 4 real=66.7% p=71.7% real−p= -5.0% [-24.7%,+43.9%]  ROI=+10.5% [-14%,+101%] 
+alerta del modelo                            n=  76 part=10 real=52.6% p=49.8% real−p= +2.8% [-4.0%,+12.1%]  ROI= +3.1% [-9%,+20%] 
+
+== 2. ¿El modelo aporta algo sobre el precio? (líneas con p y p_mercado)
+n=1460 · |p−pm| media 0.0234 · mediana 0.0151 · p90 0.0454 · corr(p,pm) 0.9870 · líneas con |p−pm|≥0,03: 321 (22.0%)
+Brier  modelo 0.20474 · mercado 0.20197 · simulación 0.20788 (n sim 1460) · constante 0,5: 0.25000
+LogLoss modelo 0.59357 · mercado 0.58648 · simulación 0.60233
+Brier(modelo) − Brier(mercado) = +0.00277  IC95 por partidos [-0.00175, +0.00722]  (negativo = el modelo mejora al mercado)
+Brier(simulación pura) − Brier(mercado) IC95 [-0.00023, +0.01145]
+  modelo ≥3 pts POR DEBAJO del mercado     n= 159 part=11 real=68.6% p_merc=56.1% p_mod=49.8% real−p_merc=+12.5% [+2.6%,+24.4%] ROI=+19.9%
+  1–3 pts por debajo                       n= 312 part=12 real=50.3% p_merc=47.4% p_mod=45.6% real−p_merc=+2.9% [-11.4%,+14.9%] ROI=+0.0%
+  igual (±1 pt)                            n= 513 part=12 real=49.9% p_merc=49.9% p_mod=49.9% real−p_merc=-0.0% [-0.2%,+0.3%] ROI=-6.3%
+  1–3 pts por encima                       n= 314 part=12 real=49.0% p_merc=52.3% p_mod=54.1% real−p_merc=-3.3% [-15.6%,+10.8%] ROI=-15.8%
+  modelo ≥3 pts POR ENCIMA del mercado     n= 162 part=11 real=35.2% p_merc=44.1% p_mod=50.5% real−p_merc=-9.0% [-23.1%,+4.8%] ROI=-27.3%
+
+== 3. ¿«Cumple» añade información sobre el precio? real − p_mercado por grupo
+  cumple sí    n= 213 real=73.2% p_merc=77.3% real−p_merc=-4.1% IC95 [-13.7%,+4.0%]
+  cumple no    n= 791 real=44.1% p_merc=42.5% real−p_merc=+1.6% IC95 [-0.7%,+4.7%]
+  a igual precio (banda de p_mercado): real con cumple sí vs no
+    p_merc 0.3–0.4: sí 66.7% (n=3) · no 36.1% (n=119)
+    p_merc 0.4–0.5: sí 44.4% (n=9) · no 47.7% (n=151)
+    p_merc 0.5–0.6: sí 57.9% (n=19) · no 50.6% (n=154)
+    p_merc 0.6–0.7: sí 57.6% (n=33) · no 67.4% (n=92)
+    p_merc 0.7–0.8: sí 60.5% (n=43) · no 83.8% (n=37)
+    p_merc 0.8–0.9: sí 84.8% (n=46) · no 81.0% (n=21)
+    p_merc 0.9–1.0: sí 91.7% (n=60) · no 100.0% (n=3)
+  por regularidad mínima de los dos equipos (x de 7), real − p_mercado:
+    mínimo 0 de 7: n= 136 real=22.8% p_merc=20.2% real−p_merc=+2.6% ROI=-5.0%
+    mínimo 1 de 7: n= 153 real=33.3% p_merc=33.2% real−p_merc=+0.1% ROI=-13.4%
+    mínimo 2 de 7: n= 201 real=38.3% p_merc=43.5% real−p_merc=-5.2% ROI=-17.4%
+    mínimo 3 de 7: n= 154 real=61.7% p_merc=51.4% real−p_merc=+10.3% ROI=+15.4%
+    mínimo 4 de 7: n= 135 real=65.9% p_merc=63.0% real−p_merc=+2.9% ROI=-1.6%
+    mínimo 5 de 7: n= 109 real=67.9% p_merc=71.3% real−p_merc=-3.4% ROI=-6.8%
+    mínimo 6 de 7: n=  77 real=77.9% p_merc=82.2% real−p_merc=-4.3% ROI=-8.0%
+    mínimo 7 de 7: n=  27 real=81.5% p_merc=87.4% real−p_merc=-5.9% ROI=-9.1%
+
+== 4. Calibración del modelo por tramos (IC por partidos)
+  p 0.0–0.1: n=  87 real= 9.2% dicho= 6.4% real−p=+2.8% IC95 [-2.8%,+7.9%]
+  p 0.1–0.2: n= 112 real=18.8% dicho=14.9% real−p=+3.9% IC95 [-3.1%,+12.1%]
+  p 0.2–0.3: n= 132 real=30.3% dicho=25.5% real−p=+4.8% IC95 [-1.1%,+13.2%]
+  p 0.3–0.4: n= 177 real=40.1% dicho=35.6% real−p=+4.5% IC95 [-0.7%,+10.4%]
+  p 0.4–0.5: n= 221 real=44.3% dicho=45.2% real−p=-0.8% IC95 [-6.6%,+4.3%]
+  p 0.5–0.6: n= 224 real=54.5% dicho=54.8% real−p=-0.3% IC95 [-5.4%,+5.5%]
+  p 0.6–0.7: n= 179 real=61.5% dicho=64.5% real−p=-3.0% IC95 [-8.6%,+2.2%]
+  p 0.7–0.8: n= 131 real=71.8% dicho=74.6% real−p=-2.8% IC95 [-10.2%,+2.2%]
+  p 0.8–0.9: n= 109 real=81.7% dicho=85.1% real−p=-3.4% IC95 [-10.7%,+3.0%]
+  p 0.9–1.0: n=  87 real=90.8% dicho=93.6% real−p=-2.8% IC95 [-7.9%,+3.0%]
+
+== 5. Margen de Betano (overround) por mercado en la jornada del 14-nov (pares Más/Menos)
+  al_arco        pares= 115 margen medio 7.0% · mediana 6.9%
+  corners        pares= 423 margen medio 7.0% · mediana 7.0%
+  faltas         pares=  15 margen medio 6.9% · mediana 6.9%
+  fueras         pares=  25 margen medio 7.0% · mediana 7.1%
+  goles          pares= 596 margen medio 5.7% · mediana 5.8%
+  remates        pares= 113 margen medio 7.0% · mediana 7.1%
+  saques_banda   pares=  14 margen medio 6.9% · mediana 6.8%
+  saques_meta    pares=  34 margen medio 7.0% · mediana 7.1%
+  tarjetas       pares= 125 margen medio 7.0% · mediana 7.1%
+
+== 6. Validación del «recorte de p» de analisis_jornada.py dejando un partido fuera (líneas con cumple sí)
+  n=213 en 12 partidos · Brier p cruda 0.18075 · p recortada (fuera de muestra) 0.19639 · solo factor global 0.18316 · mercado 0.18075
+  Brier(recortada) − Brier(cruda) = +0.01564 IC95 por partidos [-0.00326, +0.03094] (negativo = el recorte mejora)
+  real 73.2% · p cruda 77.5% · p recortada fuera de muestra 69.3%
+  jornada 2026-11-12-noche: n=68 partidos=3 real=79.4% dicho=77.2%
+  jornada 2026-11-13: n=145 partidos=9 real=70.3% dicho=77.6%
+  real − p por partido (cumple sí): -17%(n5) -9%(n9) +6%(n54) -5%(n7) -38%(n12) +25%(n18) -17%(n11) +3%(n7) -4%(n9) -11%(n11) -10%(n32) -11%(n38)
+
+== 7. Jugadores (calificadas con cuota)
+  con p del modelo: 1875 · sin p: 37 · partidos: 4 · nulas (no jugó): 862
+  jugadores (todas)                          n=1875 part= 4 real=11.4% p=23.0% real−p=-11.7% [-13.4%,-10.9%]  ROI=-70.7% [-80%,-66%] 
+   jugador:al_arco                           n= 310 part= 3 real=10.6% p=16.7% real−p= -6.0% [-8.7%,-2.8%]  ROI=-64.1% [-81%,-48%] 
+   jugador:anota                             n= 114 part= 4 real= 8.8% p=17.1% real−p= -8.3% [-12.1%,-4.3%]  ROI=-60.3% [-86%,-38%] 
+   jugador:anota_o_asiste                    n= 113 part= 4 real=13.3% p=25.6% real−p=-12.4% [-19.3%,-7.0%]  ROI=-57.5% [-84%,-41%] 
+   jugador:asiste                            n= 105 part= 4 real= 5.7% p=16.7% real−p=-11.0% [-17.5%,-6.1%]  ROI=-71.4% [-91%,-55%] 
+   jugador:entradas                          n= 302 part= 2 real=16.2% p=32.0% real−p=-15.8% [-16.7%,-14.8%]  ROI=-66.9% [-78%,-55%] 
+   jugador:faltas                            n= 323 part= 2 real=12.4% p=23.4% real−p=-11.0% [-15.1%,-6.7%]  ROI=-72.8% [-81%,-64%] 
+   jugador:remates                           n= 486 part= 3 real=10.7% p=23.8% real−p=-13.1% [-15.3%,-11.9%]  ROI=-79.8% [-82%,-78%] 
+   jugador:tarjeta                           n= 122 part= 4 real= 6.6% p=21.6% real−p=-15.0% [-22.0%,-7.2%]  ROI=-76.5% [-95%,-51%] 
+    p 0.0–0.2: n=1079 real= 2.3% dicho= 8.7%
+    p 0.2–0.4: n= 439 real=12.8% dicho=28.2%
+    p 0.4–0.6: n= 181 real=24.3% dicho=49.8%
+    p 0.6–0.8: n= 164 real=50.0% dicho=69.7%
+    p 0.8–1.0: n=  12 real=50.0% dicho=81.1%
+  Brier jugadores: modelo 0.09906 · mercado 0.10055 (n=1875)
+
+== 8. Potencia: ¿cuántas apuestas hacen falta para ver una ventaja?
+  ROI real +2% a cuota 1.3: desviación por apuesta 0.53 u → ~2,743 apuestas INDEPENDIENTES para que el IC95 excluya 0
+  ROI real +2% a cuota 1.9: desviación por apuesta 0.95 u → ~8,621 apuestas INDEPENDIENTES para que el IC95 excluya 0
+  ROI real +3% a cuota 1.3: desviación por apuesta 0.53 u → ~1,187 apuestas INDEPENDIENTES para que el IC95 excluya 0
+  ROI real +3% a cuota 1.9: desviación por apuesta 0.95 u → ~3,825 apuestas INDEPENDIENTES para que el IC95 excluya 0
+  ROI real +5% a cuota 1.3: desviación por apuesta 0.51 u → ~403 apuestas INDEPENDIENTES para que el IC95 excluya 0
+  ROI real +5% a cuota 1.9: desviación por apuesta 0.94 u → ~1,371 apuestas INDEPENDIENTES para que el IC95 excluya 0
