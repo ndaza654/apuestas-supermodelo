@@ -92,5 +92,7 @@ check(len(_d['P']) >= 3 and len(_d['F']) == len(_f) and all(len(x) == 20 for x i
 _h = IH.PLANTILLA.replace('/*DATA*/', json.dumps(_d, ensure_ascii=False))
 check('constD={' in _h.replace(' ', '') and 'el informe no apuesta' in _h, 'el HTML es autónomo (datos incrustados, sin recursos externos) y declara que no apuesta')
 check('http://' not in IH.PLANTILLA.replace('http://www.w3.org', '') and 'https://' not in IH.PLANTILLA, 'el HTML no pide nada a la red')
+check(_d['N'] >= 1 and 1 <= _d['K'] <= _d['N'] and 1 <= _d['MN'] <= _d['N'], f"el informe trae N={_d['N']}, K={_d['K']}, n mínimo={_d['MN']} según la muestra real de la jornada")
+check("id=\"kbar\"" in IH.PLANTILLA and 'function cum(' in IH.PLANTILLA and 'data-k=' in IH.PLANTILLA, 'el informe trae la barra para cambiar el mínimo de «cumple» (K de N) y recalcula con ella')
 
 print(f'\n{ok} pruebas de recolección superadas')
