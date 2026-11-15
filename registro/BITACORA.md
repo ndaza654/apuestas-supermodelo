@@ -196,3 +196,12 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Modalidad (sencilla, combinada mismo partido, combinada entre partidos, Bet Builder, en vivo, combinada sin detalle), patas (sencilla, doble, triple, 4 o más), cuota desde/hasta, p desde/hasta (%), resultado (con «parcial») y búsqueda de texto.
 - Las barras de acierto ahora van por modalidad y por número de patas, y siguen los filtros. Resumen bajo los filtros: cuántas resueltas se dieron frente a lo que decía la cuota.
 - `dashboard/datos.py` agrega `n_patas` a cada sugerencia. En combinadas la cuota es la que estimé en «Crear apuesta», no la de Betano.
+
+## 15-nov-2026 ~17:35 · balance del día (boletos 88–94, líneas y sugerencias calificadas)
+- Hecho: leídos los boletos de Betano (solo lectura): hoy 5 boletos, $72.500, todos Perdida (n.º 90–94); los BB del sábado n.º 88 (Chapecoense) y 89 (Banfield) también Perdida (−$15.000). Resultados reales de 12 partidos con Flashscore (`jornadas/2026-11-15/resultados/`) y estadística por jugador de 5 partidos (`jugadores_resultado/`); también se completaron los 4 partidos que seguían pendientes del 14-nov (Chapecoense, Banfield, Querétaro, Jamaica).
+- Calificado: 4.619 líneas de jugador y 1.714 de equipo del 15-nov en `registro/lineas.csv`; 151 sugerencias del 15-nov en `registro/sugerencias.csv` (bloque `quince()` en `recoleccion/sugerencias.py`: estrategia 01:45, sugerencias 11:45, BB 14:00, en vivo 16:00). Balance HTML: `jornadas/2026-11-15/balance/balance.html` (copia en `entregas/2026-11-15/`).
+- Libro: hojas «Líneas 15-nov» y «Sugeridas 15-nov», boletos 88–94 en «Boletos 9-12», 4 lecciones nuevas.
+- Hallazgos: en vivo, mi p media 78 % frente a 25 % real (7 de 24; Betano decía 50 %); tu filtro como sencillas 33 de 48 (+10 % plano) pero sus combinadas 0 de 7; modelo pre-partido bien calibrado. Un solo día: pistas, no pruebas.
+- Corrección: `calificar_jugadores.py` no reconocía la «ı» turca y anulaba como «no jugó» a Bardakcı, Yılmaz y Kadıoğlu.
+- Pendiente: Panamá–Curazao (18:00); goleador/tarjeta por jugador de 7 partidos sin leer; tarjetas de Jamaica–México no vienen en el feed.
+

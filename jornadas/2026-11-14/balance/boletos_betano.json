@@ -1,5 +1,5 @@
 {
- "fuente": "Betano.co → Mis apuestas → Resueltas y Abiertas (navegador integrado, 14-nov ~18:55 Bogotá, solo lectura; sin iniciar sesión: la sesión ya estaba abierta). El listado no trae código ni hora de apuesta ni qué pata falló; el orden (más nuevo arriba) continúa la numeración del 13-nov (77). «Ganancias» de Betano = total devuelto (stake × cuota), no neto. Resultados reales: Flashscore (marcador y estadísticas, sha256 4f416e9d748d) y por jugador de 10 partidos (sha256 23b2dc4b26c1).",
+ "fuente": "Betano.co → Mis apuestas → Resueltas y Abiertas (navegador integrado, 14-nov ~18:55 Bogotá, solo lectura; sin iniciar sesión: la sesión ya estaba abierta). El listado no trae código ni hora de apuesta ni qué pata falló; el orden (más nuevo arriba) continúa la numeración del 13-nov (77). «Ganancias» de Betano = total devuelto (stake × cuota), no neto. Resultados reales: Flashscore (marcador y estadísticas, sha256 4f416e9d748d) y por jugador de 10 partidos (sha256 23b2dc4b26c1). | 15-nov ~17:15: leídos los boletos 88 y 89 (liquidados Perdida) y completados con Flashscore (feed del 15-nov).",
  "abiertas": "2 apuestas abiertas al leer: Chapecoense–Vasco BB $7.500 @6,00 (Más 16.5 saques de meta · Chapecoense Más 4.5 córners · Más 2.5 goles; 0-0 al minuto ~10) y Banfield–Boca BB $7.500 @5,70 (Banfield Más 10.5 remates · Boca Menos 17.5 remates · Menos 9.5 tiros al arco · Más 7.5 córners; 0-3 al minuto 81, con selecciones «no disponibles»). Quedan pendientes.",
  "boletos": [
   {
@@ -121,6 +121,30 @@
    "cobrado": 0,
    "partidos": "Mirassol – Atlético-MG (0-0)",
    "patas": "BB: Atlético-MG Más 11.5 remates · Mirassol Más 6.5 saques de meta · Más 15.5 saques de meta · Más 8.5 córners"
+  },
+  {
+   "n": 88,
+   "fecha": "2026-11-14",
+   "tipo": "Simple",
+   "stake": 7500,
+   "gratis": false,
+   "cuota": 6.0,
+   "resultado": "Perdida",
+   "cobrado": 0,
+   "partidos": "Chapecoense – Vasco da Gama (0-2)",
+   "patas": "BB: Más 16.5 saques de meta · Chapecoense Más 4.5 córners · Más 2.5 goles"
+  },
+  {
+   "n": 89,
+   "fecha": "2026-11-14",
+   "tipo": "Simple",
+   "stake": 7500,
+   "gratis": false,
+   "cuota": 5.7,
+   "resultado": "Perdida",
+   "cobrado": 0,
+   "partidos": "Banfield – Boca Juniors (0-3)",
+   "patas": "BB: Banfield Más 10.5 remates · Boca Menos 17.5 remates · Menos 9.5 tiros al arco · Más 7.5 córners"
   }
  ]
 }

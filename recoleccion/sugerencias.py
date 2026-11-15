@@ -111,6 +111,7 @@ FILAS = []
 
 def add(entrega, fecha, hora, tipo, nombre, partidos, legs, cuota, p, jugada='', nota='', fuente='', resultado_forzado=None):
     """legs = [(partido, texto, cuota_pata|None, (cod, valor))]"""
+    legs = [(l[0], l[1], l[2], (l[3][0], l[3][1].replace(' (Flashscore 15-nov 17:25)', '').replace(' (Flashscore 15-nov 17:25', ''))) for l in legs]
     cods = [l[3][0] for l in legs]
     if resultado_forzado:
         res = resultado_forzado
@@ -330,6 +331,7 @@ def construir():
             [(r['partido'], nombre, float(r['cuota']) if r['cuota'] else None, (COD[r['resultado']], r['nota'].split('valor real ')[-1][:40] if 'valor real' in r['nota'] else ''))],
             float(r['cuota']) if r['cuota'] else '', float(r['p_modelo']) if r['p_modelo'] else '', '', 'Línea con «cumple» (≥ 5 de 7 en ambos).', 'registro/lineas.csv')
     jornadas(rows)
+    quince(rows)
     # ===== 14-nov · análisis de la jornada (corrida programada 3:45 a. m.; pendientes de calificar con resultados del 14-nov) ======
     F14 = 'entregas/2026-11-14/0400_analisis-jornada-14nov.md'
     E14 = '14-nov 04:00 · análisis de la jornada (muestra de 7)'
@@ -347,7 +349,7 @@ def construir():
     add(E14, '2026-11-14', '04:00', 'sencilla', 'Suecia–Bosnia · córners total Menos 10.5 (7 de 7 / 7 de 7, protección)', 'Suecia–Bosnia',
         [(SB, 'Córners total Menos 10.5', 1.29, P)], 1.29, .761, '', nota14, F14)
     add(E14, '2026-11-14', '04:00', 'sencilla', 'Chapecoense–Vasco · córners Chapecoense Más 3.5 (único EV>0 de córners)', 'Chapecoense–Vasco',
-        [('Chapecoense SC - Vasco da Gama RJ', 'Córners Chapecoense Más 3.5', 1.62, P)], 1.62, .632, '', nota14 + ' 5 de 7 / 5 de 7; EV +2,3 %; alerta del modelo en el partido.', F14)
+        [('Chapecoense SC - Vasco da Gama RJ', 'Córners Chapecoense Más 3.5', 1.62, ('C', '6'))], 1.62, .632, '', nota14.replace('Pendiente de calificar con los resultados del 14-nov. ', 'Calificada el 15-nov con Flashscore. ') + ' 5 de 7 / 5 de 7; EV +2,3 %; alerta del modelo en el partido.', F14)
     return FILAS
 
 
@@ -371,6 +373,117 @@ def jornadas(rows):
                 legs.append((p['partido'], p['texto'] if len(s['patas']) == 1 else f"{p['texto']} ({p['partido']})" if '|' in s['partidos'] else p['texto'], p['cuota'], c))
             add(f"{jor} · {d.get('entrega', 'informe de la jornada')}: {s['etiqueta']}", jor, '', s['tipo'], s['nombre'], s['partidos'].replace(' - ', '–'), legs, s['cuota'], s['p'],
                 nota=f"{s['etiqueta']}; {d.get('p_es', 'p recortada')} (p del modelo {s['p_modelo']}). " + d.get('nota', ''), fuente=os.path.relpath(ruta, RAIZ))
+
+
+def quince(rows):
+    """15-nov: lo que se entregó ese día (estrategia 01:45, sugerencias 11:45, BB 14:00, en vivo 16:00), calificado con los resultados de Flashscore
+    (jornadas/2026-11-15/resultados/resultados_1725.json y jugadores_resultado/jugadores_resultado_1745.txt). Lo que sigue sin partido terminado queda «pendiente»."""
+    J15 = '2026-11-15'
+    base = os.path.join(RAIZ, 'jornadas', J15)
+    R15 = json.load(open(os.path.join(base, 'resultados', 'resultados_1725.json'), encoding='utf8'))
+    PJ15, _q = {}, None
+    for ln in open(os.path.join(base, 'jugadores_resultado', 'jugadores_resultado_1745.txt'), encoding='utf8'):
+        ln = ln.strip()
+        if ln.startswith('#') and not ln.startswith('# '):
+            _q = ln[1:].strip(); PJ15[_q] = {}
+        elif ln and not ln.startswith(('#', '@')) and _q:
+            f = ln.split('|'); PJ15[_q][f[1]] = [int(x) for x in f[2:]]
+
+    def t(m, mercado, ambito, lado, linea):
+        if m not in R15:
+            return ('P', 'pendiente')
+        v = CL.valor(R15[m], mercado, ambito)
+        return (cod(CL.calificar(v, linea, lado)), f'{v:g}') if v is not None else ('U', 'sin dato')
+
+    def j(m, nombre, que, linea):
+        fila = PJ15.get(m, {}).get(nombre)
+        if fila is None:
+            return ('N', 'no jugó') if m in PJ15 else ('U', 'sin dato')
+        mi, rem, arco, g, a, fal, rec, ent, atj, am, ro = fila
+        v = {'remates': rem, 'al_arco': arco, 'goles': g, 'asist': a, 'faltas': fal, 'entradas': ent, 'atajadas': atj}[que]
+        return ('C' if v >= linea else 'F', f'{v}')
+
+    idx = {(r['partido'], r['mercado'], r['ambito'], r['jugador'], r['lado'], float(r['linea'])): r for r in rows
+           if r['jornada'] == J15 and r['linea'] not in ('', None)}
+
+    def de_lineas(p):
+        r = idx.get((p['partido'], p['mercado'], p['ambito'], p.get('jugador', ''), p['lado'], float(p['linea'])))
+        if r is not None and r['resultado'] in COD:
+            return (COD[r['resultado']], r['nota'].split('valor real ')[-1][:40] if 'valor real' in r['nota'] else '')
+        return ('P', 'pendiente')
+
+    # ----- 01:45 · estrategia del usuario (cuota 1,40–2,20, ≥ 7 de 10, colchón > 0) -----
+    F0 = 'entregas/2026-11-15/0145_estrategia-jornada-15nov.md'
+    E0 = '15-nov 01:45 · estrategia del usuario (cuota 1,40–2,20 · ≥ 7 de 10 · colchón > 0)'
+    est = json.load(open(os.path.join(base, 'estrategia.json'), encoding='utf8'))
+    for s_ in est['sencillas']:
+        res = de_lineas(s_)
+        nombre = s_['texto']
+        add(E0, J15, '01:45', 'sencilla', nombre, s_['partido'].replace(' - ', '–'), [(s_['partido'], nombre, s_['cuota'], res)], s_['cuota'], s_['p'], '',
+            'Línea que pasa el filtro del usuario (cuota 1,40–2,20, regularidad ≥ 7 de 10 en ambos, colchón > 0). p = del modelo.', F0)
+    for c in est['combinadas']:
+        legs = [(p_['partido'], p_['texto'] if not c['mismo_partido'] else p_['texto'], p_['cuota'], de_lineas(p_)) for p_ in c['patas']]
+        partidos = ' / '.join(dict.fromkeys(p_['partido'].replace(' - ', '–') for p_ in c['patas']))
+        add(E0, J15, '01:45', 'combinada mismo partido' if c['mismo_partido'] else 'combinada entre partidos',
+            f"Combinada {c['n']}: " + ' + '.join(p_['texto'] for p_ in c['patas']), partidos, [(l[0], f'{l[1]} ({l[0]})' if not c['mismo_partido'] else l[1], l[2], l[3]) for l in legs],
+            c['cuota_producto'], c['p_producto'], '', c['nota'] + '. Cuota = producto de patas (techo); p = producto de las p del modelo (sin correlación).', F0)
+
+    # ----- 11:45 · sugerencias de los 4 partidos de las 12:00 y 12:30 -----
+    F1 = 'entregas/2026-11-15/1145_sugerencias-4-partidos-12h.md'
+    E1_ = '15-nov 11:45 · sugerencias de los 4 partidos de las 12:00 y 12:30'
+    BA, EC, ES_, GL = 'Bielorrusia - Albania', 'SD Eibar - Cadiz CF', 'CD Eldense - CE Sabadell FC', 'Granada CF - UD Las Palmas'
+    nota1 = 'Cuotas leídas el 14-nov 19:55 (no se pudieron releer ese día). Sin alineaciones confirmadas.'
+    for m, txt, cuota, p_, res in [
+            (BA, 'Goles Más 1.5', 1.45, None, t(BA, 'goles', 'total', 'Más', 1.5)),
+            (EC, 'Goles Cádiz Más 0.5', 1.52, .63, t(EC, 'goles', 'visitante', 'Más', .5)),
+            (ES_, 'Córners Sabadell Más 3.5', 1.42, .66, t(ES_, 'corners', 'visitante', 'Más', 3.5)),
+            (ES_, 'Goles Más 1.5', 1.47, .655, t(ES_, 'goles', 'total', 'Más', 1.5)),
+            (ES_, 'Goles Eldense Menos 1.5', 1.45, .66, t(ES_, 'goles', 'local', 'Menos', 1.5))]:
+        add(E1_, J15, '11:45', 'sencilla', txt, m.replace(' - ', '–'), [(m, txt, cuota, res)], cuota, p_ if p_ else '', '', nota1, F1)
+
+    # ----- 14:00 · Bet Builders España–Inglaterra y Bélgica–Italia -----
+    F2 = 'entregas/2026-11-15/1400_bb-espana-inglaterra_belgica-italia.md'
+    E2 = '15-nov 14:00 · BB España–Inglaterra y Bélgica–Italia (14:45)'
+    EI, BI = 'España - Inglaterra', 'Bélgica - Italia'
+    nota2 = 'Cuota = producto de las cuotas (techo); el BB paga menos. Probabilidades de jugador = estimación propia, no del modelo.'
+    add(E2, J15, '14:00', 'Bet Builder', 'España–Inglaterra · C1: Bellingham 2+ remates + Kane 1+ a puerta + Inglaterra marca', 'España–Inglaterra',
+        [(EI, 'Bellingham 2+ remates', 1.55, j(EI, 'Bellingham J.', 'remates', 2)), (EI, 'Kane 1+ tiro al arco', 1.37, j(EI, 'Kane H.', 'al_arco', 1)),
+         (EI, 'Inglaterra marca (Más 0.5)', 1.27, t(EI, 'goles', 'visitante', 'Más', .5))], 2.70, .49, '', nota2, F2)
+    add(E2, J15, '14:00', 'Bet Builder', 'España–Inglaterra · C2: Bellingham 2+ + Kane 2+ remates + remates España Menos 17.5', 'España–Inglaterra',
+        [(EI, 'Bellingham 2+ remates', 1.55, j(EI, 'Bellingham J.', 'remates', 2)), (EI, 'Kane 2+ remates', 1.42, j(EI, 'Kane H.', 'remates', 2)),
+         (EI, 'Remates España Menos 17.5', 1.75, t(EI, 'remates', 'local', 'Menos', 17.5))], 3.85, .32, '', nota2, F2)
+    add(E2, J15, '14:00', 'Bet Builder', 'Bélgica–Italia · C1: tiros al arco Más 8.5 + De Bruyne 3+ remates + Tonali 1+ remate', 'Bélgica–Italia',
+        [(BI, 'Tiros al arco total Más 8.5', 1.50, t(BI, 'al_arco', 'total', 'Más', 8.5)), (BI, 'De Bruyne 3+ remates', 1.30, j(BI, 'De Bruyne K.', 'remates', 3)),
+         (BI, 'Tonali 1+ remate', 1.31, j(BI, 'Tonali S.', 'remates', 1))], 2.55, .41, '', nota2, F2)
+    add(E2, J15, '14:00', 'Bet Builder', 'Bélgica–Italia · C2: tiros al arco Más 8.5 + De Ketelaere 1+ a puerta + Mechele 1+ falta + Tonali 1+ remate', 'Bélgica–Italia',
+        [(BI, 'Tiros al arco total Más 8.5', 1.50, t(BI, 'al_arco', 'total', 'Más', 8.5)), (BI, 'De Ketelaere 1+ tiro al arco', 1.50, j(BI, 'De Ketelaere C.', 'al_arco', 1)),
+         (BI, 'Mechele 1+ falta', 1.60, j(BI, 'Mechele B.', 'faltas', 1)), (BI, 'Tonali 1+ remate', 1.31, j(BI, 'Tonali S.', 'remates', 1))], 4.72, .27, '', nota2, F2)
+
+    # ----- 16:00 · en vivo, 2.º tiempo de los 4 partidos de las 14:45 (cuotas de hace 10–15 min; líneas del partido completo) -----
+    F3 = 'entregas/2026-11-15/1600_vivo-2t_4-partidos-14h45.md'
+    E3 = '15-nov 16:00 · en vivo, 2.º tiempo (4 partidos 14:45)'
+    CC, FT = 'Croacia - República Checa', 'Francia - Turquía'
+    nota3 = 'Línea del partido completo leída en vivo (≈15:44–15:49). p = mezcla de mi p y la de Betano (= 1 / cuota justa de la entrega).'
+    vivo = [
+        (EI, 'Córners España Menos 2.5', 2.75, 69, 1.95, ('corners', 'local', 'Menos', 2.5)), (EI, 'Remates España Menos 14.5', 2.07, 91, 1.47, ('remates', 'local', 'Menos', 14.5)),
+        (EI, 'Tiros al arco España Menos 3.5', 1.83, 87, 1.46, ('al_arco', 'local', 'Menos', 3.5)), (EI, 'Remates total Menos 26.5', 1.75, 89, 1.41, ('remates', 'total', 'Menos', 26.5)),
+        (EI, 'Córners España Menos 3.5', 1.75, 87, 1.44, ('corners', 'local', 'Menos', 3.5)), (EI, 'Córners total Menos 7.5', 2.37, 62, 1.97, ('corners', 'total', 'Menos', 7.5)),
+        (EI, 'Córners total Menos 8.5', 1.70, 78, 1.51, ('corners', 'total', 'Menos', 8.5)), (EI, 'Tiros al arco total Menos 8.5', 1.78, 76, 1.56, ('al_arco', 'total', 'Menos', 8.5)),
+        (EI, 'Tarjetas total Menos 3.5', 1.72, 73, 1.57, ('tarjetas', 'total', 'Menos', 3.5)),
+        (CC, 'Tarjetas total Menos 1.5', 2.60, 66, 1.96, ('tarjetas', 'total', 'Menos', 1.5)), (CC, 'Tarjetas total Menos 2.5', 1.65, 88, 1.38, ('tarjetas', 'total', 'Menos', 2.5)),
+        (CC, 'Tarjetas R. Checa Menos 1.5', 1.57, 88, 1.35, ('tarjetas', 'visitante', 'Menos', 1.5)),
+        (FT, 'Goles Francia Menos 1.5', 2.18, 73, 1.72, ('goles', 'local', 'Menos', 1.5)), (FT, 'Córners Francia Menos 6.5', 1.93, 74, 1.65, ('corners', 'local', 'Menos', 6.5)),
+        (FT, 'Goles total Menos 2.5', 1.62, 79, 1.47, ('goles', 'total', 'Menos', 2.5)), (FT, 'Tarjetas Turquía Menos 1.5', 1.67, 79, 1.48, ('tarjetas', 'visitante', 'Menos', 1.5)),
+        (FT, 'Tarjetas total Menos 2.5', 1.57, 81, 1.43, ('tarjetas', 'total', 'Menos', 2.5)), (FT, 'Córners Turquía Más 3.5', 1.98, 64, 1.81, ('corners', 'visitante', 'Más', 3.5)),
+        (BI, 'Tarjetas Bélgica Menos 1.5', 1.70, 79, 1.49, ('tarjetas', 'local', 'Menos', 1.5)), (BI, 'Tarjetas total Menos 3.5', 1.82, 69, 1.66, ('tarjetas', 'total', 'Menos', 3.5))]
+    for m, txt, cuota, pm, justa, (mer, amb, lado, lin) in vivo:
+        add(E3, J15, '16:00', 'en vivo (sencilla)', txt, m.replace(' - ', '–'), [(m, txt, cuota, t(m, mer, amb, lado, lin))], cuota, round(1 / justa, 3), '',
+            f'{nota3} p mía {pm} %.', F3)
+    for m, nombre, txt, cuota, pm, justa, que, lin in [
+            (EI, 'Bellingham J.', 'Bellingham 3+ tiros al arco', 2.10, 62, 1.63, 'al_arco', 3), (FT, 'Güler A.', 'Güler 4+ remates', 2.05, 59, 1.70, 'remates', 4),
+            (FT, 'Calhanoglu H.', 'Calhanoglu 2+ remates', 3.00, 53, None, 'remates', 2), (EI, 'Porro P.', 'Porro 4+ faltas', 1.37, 76, None, 'faltas', 4)]:
+        add(E3, J15, '16:00', 'en vivo (sencilla)', txt, m.replace(' - ', '–'), [(m, txt, cuota, j(m, nombre, que, lin))], cuota, round(1 / justa, 3) if justa else '', '',
+            f'{nota3} p mía {pm} %. Jugador: muestra chica.', F3)
 
 
 def main():

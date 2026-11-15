@@ -19,7 +19,7 @@ IDX = {'remates': 3, 'al_arco': 4, 'goles': 5, 'asist': 6, 'faltas': 7, 'entrada
 
 
 def norm(s):
-    s = s.replace('æ', 'ae').replace('Æ', 'ae').replace('ø', 'o').replace('Ø', 'o').replace('ß', 'ss').replace('đ', 'd').replace('ł', 'l').replace('œ', 'oe')
+    s = s.replace('ı', 'i').replace('İ', 'i').replace('æ', 'ae').replace('Æ', 'ae').replace('ø', 'o').replace('Ø', 'o').replace('ß', 'ss').replace('đ', 'd').replace('ł', 'l').replace('œ', 'oe')
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower().replace('-', ' ')
     return re.sub(r'[^a-z ]', '', s).split()
 
