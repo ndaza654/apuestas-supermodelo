@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-15 | 18:50 | Análisis de tu estrategia (cuota 1,40–2,20 · ≥ 7 de 10 · colchón > 0): acierto, ROI, qué funciona y qué no | 45 partidos, 4 jornadas | entregas/2026-11-15/1850_analisis-estrategia-usuario.md |
 | 2026-11-15 | 1820 | Histórico reorganizado (4–15 nov) y datos completados | todos | registro/BITACORA.md |
 | 2026-11-15 | 17:35 | Balance del 15-nov: boletos 88–94, líneas y sugerencias calificadas (pre-partido, combinadas, BB y en vivo), criterios | 12 partidos terminados (Panamá–Curazao pendiente) | `entregas/2026-11-15/1735_balance-15nov.md` · `1735_balance-15nov.html` · `1735_balance-14nov-actualizado.html` |
 | 2026-11-15 | 16:00 | En vivo 2.º tiempo: líneas con valor (esperado previo vs 1T), cuota justa, límites | España–Inglaterra, Bélgica–Italia, Croacia–R. Checa, Francia–Turquía | `entregas/2026-11-15/1600_vivo-2t_4-partidos-14h45.md` |
