@@ -1,0 +1,6 @@
+:root{--font:Georgia,'Iowan Old Style',Cambria,serif;--bg:#f4efe6;--card:#fffdf8;--fg:#2a2118;--mut:#7a6d5e;--line:#ded3c0;--acc:#8c3b1e;--acc2:#f6e9d8;--onacc:#fff;--chip:#efe6d6;--ok:#2e7d4f;--ko:#b3261e;--okbg:#e0f0e5;--kobg:#f8dcd8;--warn:#9a6700;--warnbg:#f6e7bd;--r:4px;--r2:6px;color-scheme:light}
+h1,h2,h3,summary b{font-family:Georgia,serif}nav button,.chipb,button.b,.kp,label,th,.pill,.mx,.xn,table{font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+h1{border-bottom:3px double var(--line);padding-bottom:6px}
+.topb{background:var(--card);border:1px solid var(--line);border-radius:var(--r2);padding:8px 12px;margin:6px 0;position:sticky;top:44px;z-index:8;max-height:42vh;overflow:auto}
+details.mt>summary{top:0;position:static;font-size:15px;background:var(--acc2)}
+.lc{box-shadow:2px 2px 0 var(--line)}

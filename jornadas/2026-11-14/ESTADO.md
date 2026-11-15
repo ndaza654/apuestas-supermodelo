@@ -42,3 +42,8 @@ Análisis automático ya corrido (`python3 recoleccion/correr_jornada.py jornada
 - `recoleccion/ficha.py`: la ficha imprime la tabla del equipo.
 - `pruebas/test_recoleccion.py`: +6 pruebas de lo anterior.
 - `recoleccion/betano_extraer.js`: ya corregido antes (elige la pestaña `bt` más completa; filtro FXH2/FYH2).
+
+## Actualización 14-nov ~19:15
+- Balance parcial y libro al día (ver `balance/`). Estado de partidos en `resultados/estado_partidos.json` (final / en juego / por jugar, leído 18:45–19:00).
+- Informe v2 (tres diseños) en `informe_v2_{A,B,C}.html`, generado con `python3 recoleccion/informe_v2.py jornadas/2026-11-14`; el usuario elige uno.
+- Pendiente: liquidar los 4 partidos abiertos y los 2 BB; historial de jugadores para el resto.

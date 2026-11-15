@@ -5,6 +5,8 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-14 | 19:10 | Informe v2 en tres diseños (A Tablero, B Partido a partido, C Cupón): filtro «X de N» (3–10), gráficos por línea y mercado, historial de jugadores, resultados y tus boletos | los 21 del 14-nov | `2026-11-14/1910_informe-v2-A.html`, `…-B.html`, `…-C.html` |
+| 2026-11-14 | 19:10 | Balance parcial del día: tus 10 boletos liquidados, 6.273 líneas calificadas y mis sugerencias (HTML + resumen) | los 17 terminados | `2026-11-14/1910_balance-parcial.html`, `1910_balance-parcial.md` |
 | 2026-11-14 | 14:34 | Informe interactivo actualizado: suma la tarjeta de jugadores de Portugal–Dinamarca y sus 486 líneas de jugador con historial, esperado, colchón y p (HTML probado con Playwright) | los 21 del 14-nov | `2026-11-14/1434_informe-tarde-con-jugadores.html` |
 | 2026-11-14 | 14:30 | Jugadores de Portugal–Dinamarca con historial de Flashscore (4–6 partidos por jugador): 5 líneas con regularidad y las que no se recomiendan | Portugal–Dinamarca | `2026-11-14/1430_jugadores-portugal-dinamarca.md` |
 | 2026-11-14 | 14:25 | Informe interactivo de la jornada con los dos reanálisis de la tarde arriba, cuotas releídas en 8 partidos, filtro «Colchón ≥» y pestaña Jugadores con p, EV, esperado y colchón (HTML probado con Playwright) | los 21 del 14-nov (8 releídos) | `2026-11-14/1425_informe-tarde.html` |

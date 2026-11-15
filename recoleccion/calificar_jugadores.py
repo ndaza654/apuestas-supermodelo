@@ -19,8 +19,41 @@ IDX = {'remates': 3, 'al_arco': 4, 'goles': 5, 'asist': 6, 'faltas': 7, 'entrada
 
 
 def norm(s):
+    s = s.replace('æ', 'ae').replace('Æ', 'ae').replace('ø', 'o').replace('Ø', 'o').replace('ß', 'ss').replace('đ', 'd').replace('ł', 'l').replace('œ', 'oe')
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower().replace('-', ' ')
     return re.sub(r'[^a-z ]', '', s).split()
+
+
+def casar_flashscore(nombre, plantel):
+    """Flashscore escribe «Apellido I.» (o un solo nombre) y Betano «Nombre Apellido».
+    Casa por apellido(s) (fichas de más de una letra) y, si dos jugadores comparten apellido, por la inicial.
+    Con un único candidato con ese apellido se acepta aunque la inicial no coincida (apodos: «Tincho Conde» = «Conde M.»)."""
+    n = norm(nombre)
+    if not n:
+        return None
+    cands = []
+    for cand in plantel:
+        c = norm(cand)
+        ap = [t for t in c if len(t) > 1]
+        ini = [t for t in c if len(t) == 1]
+        if ap and all(t in n for t in ap):
+            cands.append((cand, ap, ini))
+    if not cands:
+        return None
+    if len(cands) == 1:
+        return cands[0][0]
+    # varios con el mismo apellido: elegir por inicial (la primera inicial debe coincidir con algún otro nombre de Betano)
+    buenos = [c for c in cands if not c[2] or any(t[0] == c[2][0] for t in n if t not in c[1])]
+    primero = [c for c in buenos if c[2] and n[0][0] == c[2][0] and n[0] not in c[1]]    # la inicial es la del nombre de pila (primer token de Betano)
+    if len(primero) == 1:
+        return primero[0][0]
+    if len(buenos) == 1:
+        return buenos[0][0]
+    # si varios cumplen, el que tiene más fichas en común (apellido compuesto)
+    buenos.sort(key=lambda c: -len(c[1]))
+    if len(buenos) > 1 and len(buenos[0][1]) == len(buenos[1][1]):
+        return None
+    return buenos[0][0] if buenos else None
 
 
 def casar(nombre, plantel):
@@ -28,6 +61,9 @@ def casar(nombre, plantel):
     n = norm(nombre)
     if not n:
         return None
+    m = casar_flashscore(nombre, plantel)
+    if m:
+        return m
     mejor, ms = None, 0
     for cand in plantel:
         c = norm(cand)
@@ -97,7 +133,7 @@ def main(jornada, ruta):
             # ni se parece a nadie; se anota para revisión.
             sin.setdefault(r['partido'], set()).add(r['jugador'])
             r['resultado'] = 'nula'
-            r['nota'] = (r['nota'] + ' · ' if r['nota'] else '') + 'no jugó (sin minutos en Sofascore): Betano la anula'
+            r['nota'] = (r['nota'] + ' · ' if r['nota'] else '') + 'no jugó (sin minutos en la fuente): Betano la anula'
             nulas += 1; n += 1
             continue
         fila = plantel[nom]
@@ -106,7 +142,7 @@ def main(jornada, ruta):
         if v is None:
             continue
         r['resultado'] = 'cumplió' if v >= L else 'falló'
-        r['nota'] = (r['nota'] + ' · ' if r['nota'] and 'valor real' not in r['nota'] else '') + f'valor real {v} ({nom}, {fila[1]}′; Sofascore)'
+        r['nota'] = (r['nota'] + ' · ' if r['nota'] and 'valor real' not in r['nota'] else '') + f'valor real {v} ({nom}, {fila[1]}′)'
         n += 1; ok += r['resultado'] == 'cumplió'
     f = open(rc, 'w', encoding='utf-8-sig', newline='')
     w = csv.DictWriter(f, fieldnames=campos, delimiter=';'); w.writeheader(); w.writerows(filas); f.close()

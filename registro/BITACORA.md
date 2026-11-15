@@ -142,3 +142,9 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Historial por jugador: recolectado solo para Portugal–Dinamarca (Flashscore, pestaña «Estadísticas de jugadores», 10 partidos pasados; `jornadas/2026-11-14/jugadores/`). Sofascore respondió 403/404: no se evadió. Datos transcritos por el chat, sin hash.
 - Lectura: en jugadores la p del modelo va pegada al precio y el EV ronda −12 %; solo se informó la regularidad (muestras de 4–6, por debajo del mínimo).
 - Corrección: las entregas de los dos bloques se hicieron ~14:05 y ~14:12 (se habían nombrado 1430 y 1448 por una hora mal estimada).
+
+## 14-nov, ~19:00–19:15 · balance parcial e informe v2
+- Entregado: `entregas/2026-11-14/1910_balance-parcial.{html,md}` y `1910_informe-v2-{A,B,C}.html`. Libro `registro/libro_apuestas.xlsx`: boletos 78–87 y hoja «Líneas 14-nov» (6.273 líneas calificadas).
+- Balance: tus 10 boletos liquidados perdieron o fueron cash-out (neto −$98.450); 2 Bet Builders abiertos. Líneas de equipo con cuota ≥ 1,35: 41 % real contra 41 % del mercado; con «cumple» 5 de 7: 73 % contra 59 % (118 líneas, un día, correlacionadas). Sugerencias: 62 de 93 liquidadas.
+- Código: `recoleccion/informe_v2.py` + `plantillas_v2/` (tres diseños, un motor; K, N, n mínimo y equipos ajustables; series por partido y gráficos); `calificar_jugadores.casar_flashscore` («Apellido I.» ↔ nombre de Betano); `recoleccion/flashscore_jugadores.js` (recolector de jugadores con todas las columnas de Flashscore).
+- Pendiente: calificar Banfield, Chapecoense, Querétaro y Jamaica–México y los 2 BB abiertos; historial de jugadores de los demás partidos.
