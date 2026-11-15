@@ -123,9 +123,15 @@ def hist_de(jug, betano):
             continue
         partidos = []
         for a in d['p']:
-            mid, fecha, mn, sh, sot, g, asi, am, ro, fa, en = a
-            partidos.append({'fecha': fecha, 'mid': mid, 'min': mn, 'remates': sh, 'al_arco': sot, 'goles': g, 'asist': asi,
-                             'tarjeta': (am or 0) + (ro or 0), 'faltas': fa, 'entradas': en})
+            mid, fecha, mn, sh, sot, g, asi, am, ro, fa, en = a[:11]
+            ex = a[11:]                                   # opcional: atajadas, entradas totales (Flashscore, 15-nov en adelante)
+            pj = {'fecha': fecha, 'mid': mid, 'min': mn, 'remates': sh, 'al_arco': sot, 'goles': g, 'asist': asi,
+                  'tarjeta': (am or 0) + (ro or 0), 'faltas': fa, 'entradas': en}
+            if len(ex) >= 1:
+                pj['atajadas'] = ex[0]
+            if len(ex) >= 2:
+                pj['entradas_tot'] = ex[1]
+            partidos.append(pj)
         out[cas[0]] = {'pos': d.get('pos'), 'partidos': partidos}
     return out, sin
 

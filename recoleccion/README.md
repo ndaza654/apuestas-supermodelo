@@ -30,6 +30,13 @@ Dos piezas: `flashscore_extraer.js` (en la pestaña de flashscore.co) y `armar_e
 - No hay (todavía): historial por jugador (remates/tiros al arco por partido), alineaciones probables, estadísticas del árbitro (B-Soccer).
 - Uso:  `const ctx = await extraerFlashscore(mid)` → guardar como `jornadas/<día>/flashscore/<clave>.json`.
 
+## Historial por jugador (Flashscore) — OBLIGATORIO para los partidos con mercado de jugador de estadística
+Regla (CLAUDE.md, desde el 14-nov-2026): si Betano ofrece en un partido remates, tiros al arco, entradas, faltas, atajadas o asistencias de jugador, la recolección de ese partido incluye el historial por jugador de los últimos 10 partidos de cada equipo y las alineaciones. Partidos sin mercado de jugador o con solo goleador/tarjeta no lo necesitan.
+- Alineaciones: `flashscore_alineaciones.js` (navegando a la pestaña del partido) → `raw/lu_<clave>.txt` → `alineaciones_decod.py` → `alineaciones/<clave>.json`.
+- Historial: `flashscore_jugadores_iframe.js` (carga cada partido pasado en un iframe de flashscore.co, espera a que la tabla tenga filas, recorre General/Remates/Defensa/Paradas; sirve de 1 a 3 pestañas en paralelo, un partido por pestaña a la vez) → `__exportar('<partido>:<L|V>')` → `raw/pj_<partido>__<L|V>[__sufijo].txt` con hash → `jugadores_decod.py` → `jugadores/<partido>.json` (que lee `armar_entrada.hist_de`: min, remates, al arco, goles, asistencias, tarjetas, faltas, entradas ganadas, atajadas, entradas totales).
+- Se pregunta la tabla de jugadores al abrir cada partido; si Flashscore no la publica (p. ej. un amistoso menor) se declara la ausencia, no se rellena.
+- Límites: sin «faltas recibidas»; «entradas» = entradas ganadas (la columna también trae el total); las atajadas salen de «Paradas del arquero».
+
 ## Sofascore  (⚠ NO verificado hoy)
 Endpoints usados en la sesión del 12-nov desde una pestaña de sofascore.com: `event/<id>`, `event/<id>/lineups` (probables),
 `event/<id>/h2h/events`, `team/<id>/events/last/0`, `event/<id>/statistics`, `event/<id>/pregame-form`, `referee/<id>/statistics`,

@@ -61,9 +61,18 @@ def jug_resultado(path, idx):
     return out
 
 
-def construir():
+def fechas_de(jors):
+    return {re.match(r'\d{4}-\d{2}-\d{2}', j).group(0) for j in jors}
+
+
+def construir(jornadas=None):
+    """jornadas=None → todo el registro; una lista (p. ej. ['2026-11-13', '2026-11-15']) → «datos cortos» solo de esas jornadas
+    (líneas, boletos, sugerencias, documentos y estados de esos días; el resto del repo no entra al HTML)."""
     filas = rd(os.path.join(RAIZ, 'registro', 'lineas.csv'))
+    if jornadas:
+        filas = [r for r in filas if r['jornada'] in jornadas]
     jors = sorted({r['jornada'] for r in filas})
+    fechas = fechas_de(jors)
     claves = sorted({(r['jornada'], r['partido']): r['hora_partido'] for r in filas}.items(), key=lambda kv: (kv[1], kv[0]))
     idx, P = {}, []
     for (j, n), hora in claves:
@@ -140,7 +149,7 @@ def construir():
                 for fs_n, d in H.items():
                     b = CJ.casar_flashscore(fs_n, nombres)
                     if b and d.get('p'):
-                        sal[b] = [[x[1]] + x[2:11] for x in d['p']]
+                        sal[b] = [[x[1]] + x[2:11] + ([x[11]] if len(x) > 11 else [0]) for x in d['p']]
                 if sal:
                     HIS[i] = sal
         nm = {k[1]: v for k, v in idx.items() if k[0] == j}
@@ -171,14 +180,20 @@ def construir():
     B = []
     for n in sorted(bol):
         b = bol[n]
+        if jornadas and b.get('fecha', '')[:10] not in fechas and not any(x in str(b.get('fecha', '')) for x in fechas):
+            continue
         B.append([n, b.get('fecha', ''), b.get('hora', ''), b.get('tipo', ''), b.get('stake', 0), b.get('gratis', False), b.get('cuota', 0), b.get('resultado', ''), b.get('cobrado', 0),
                   b.get('partidos', ''), b.get('patas', ''), pcs.get(str(n))])
     abiertas = []
     for p in glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'balance', 'pendientes.json')):
+        if jornadas and os.path.relpath(p, os.path.join(RAIZ, 'jornadas')).split(os.sep)[0][:10] not in fechas:
+            continue
         abiertas += json.load(open(p, encoding='utf8'))
     # sugerencias
     S = []
     for r in rd(os.path.join(RAIZ, 'registro', 'sugerencias.csv')):
+        if jornadas and r['fecha_entrega'][:10] not in fechas:
+            continue
         try:
             pj = json.loads(r['patas_json']) if r.get('patas_json') else []
         except ValueError:
@@ -188,6 +203,8 @@ def construir():
     # histórico 9–12 nov (picks entregados antes del pipeline)
     HL = []
     for r in rd(os.path.join(RAIZ, 'registro', 'historial_lineas.csv')):
+        if jornadas:
+            break
         HL.append([r['fecha_partido'], r['partido'], r['mercado_linea'], f(r['cuota']), f(r['p_modelo']), f(r['p_mercado']), f(r['ev']), RS.get(r['resultado'], ''), r['modelo'][:60]])
     # documentos
     docs = []
@@ -200,10 +217,12 @@ def construir():
         t = open(p, encoding='utf8').read()
         rel = os.path.relpath(p, RAIZ)
         m = re.match(r'(?:jornadas|entregas)/(\d{4}-\d{2}-\d{2}[^/]*)', rel)
+        if jornadas and m and m.group(1)[:10] not in fechas:
+            continue
         titulo = next((ln.lstrip('# ').strip() for ln in t.splitlines() if ln.strip()), rel)[:120]
         tipo = 'entrega' if rel.startswith('entregas') else 'estado' if rel.endswith('ESTADO.md') else 'enfoque/reanálisis' if ('enfoque' in rel or 'reanalisis' in rel) else 'informe' if 'informe' in rel else 'proyecto'
         docs.append([rel, titulo, tipo, m.group(1) if m else '', t[:60000]])
-    htmls = [[os.path.relpath(p, RAIZ), os.path.getsize(p) // 1024] for p in sorted(glob.glob(os.path.join(RAIZ, 'entregas', '**', '*.html'), recursive=True))]
+    htmls = [[os.path.relpath(p, RAIZ), os.path.getsize(p) // 1024] for p in sorted(glob.glob(os.path.join(RAIZ, 'entregas', '**', '*.html'), recursive=True)) if not jornadas or os.path.relpath(p, RAIZ).split(os.sep)[1][:10] in fechas]
     metodos = rd(os.path.join(RAIZ, 'registro', 'metodos.csv'))
     estados = {j: open(os.path.join(RAIZ, 'jornadas', j, 'ESTADO.md'), encoding='utf8').read()[:6000] for j in jors if os.path.exists(os.path.join(RAIZ, 'jornadas', j, 'ESTADO.md'))}
     nmax = nmax or FI.N

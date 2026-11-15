@@ -38,7 +38,7 @@ function vals(t){if(vcache.has(t.i))return vcache.get(t.i);const Sx=(DB.SER[t.p]
 function regT(t,n,K,MN){const V=vals(t),f=a=>{const w=a.slice(0,n),c=w.filter(x=>hit(x.v,t.l,t.s)).length;return{c,n:w.length,ok:w.length>=MN&&c>=K}};return{l:f(V.l),v:f(V.v),h:f(V.h)}}
 function cumT(t,n,K,MN,who){n=n==null?ST.N:n;K=K==null?ST.K:K;MN=MN==null?ST.MN:MN;who=who||ST.who;const r=regT(t,n,K,MN);if(!r.l.n||!r.v.n)return t.cf==null?null:t.cf===1;
  return who==='local'?r.l.ok:who==='visitante'?r.v.ok:who==='alguno'?(r.l.ok||r.v.ok):(r.l.ok&&r.v.ok)}
-const HI=(j,m)=>{const h=j;return m==='remates'?h[2]:m==='al_arco'?h[3]:m==='faltas'?h[8]:m==='entradas'?h[9]:m==='anota'?(h[4]>=1?1:0):m==='asiste'?(h[5]>=1?1:0):m==='anota_o_asiste'?((h[4]+h[5])>=1?1:0):m==='tarjeta'?((h[6]+h[7])>=1?1:0):null};
+const HI=(j,m)=>{const h=j;return m==='remates'?h[2]:m==='al_arco'?h[3]:m==='faltas'?h[8]:m==='entradas'?h[9]:m==='atajadas'?(h[10]==null?null:h[10]):m==='anota'?(h[4]>=1?1:0):m==='asiste'?(h[5]>=1?1:0):m==='anota_o_asiste'?((h[4]+h[5])>=1?1:0):m==='tarjeta'?((h[6]+h[7])>=1?1:0):null};
 const hist=g=>(DB.HIS[g.p]||{})[g.j]||null;
 function pvals(g){const H=hist(g);if(!H)return null;return H.filter(x=>x[1]>0).map(x=>({v:HI(x,g.m),m:x})).filter(x=>x.v!=null)}
 function cumG(g,n,K,MN){n=n==null?(S.jug?S.jug.Nj:5):n;K=K==null?(S.jug?S.jug.Kj:3):K;MN=MN==null?(S.jug?S.jug.MNj:3):MN;const a=pvals(g);if(!a)return null;const w=a.slice(0,n),c=w.filter(x=>x.v>=g.l).length;return{c,n:w.length,ok:w.length>=MN&&c>=K}}

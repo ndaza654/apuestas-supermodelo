@@ -21,6 +21,8 @@ El usuario decide y apuesta; tú entregas probabilidad, cuota, regularidad y lí
 
 ## Puntuación de contexto (`recoleccion/puntuar.py`)
 Siempre las dos juntas: **datos** (por familia de mercado que Betano ofrece) y **situación**. Apto = datos ≥ 60 y situación ≥ 45 por mercado; reserva = datos suficientes pero situación sin leer; no apto = el resto. Nada se descarta en silencio.
+**Regla de recolección (etapa 1):** si Betano ofrece mercados de jugador de estadística (remates, tiros al arco, entradas, faltas, atajadas, asistencias) en un partido, el historial por jugador de los últimos 10 partidos de cada equipo y las alineaciones se recolectan ANTES de analizar (ver CLAUDE.md y `recoleccion/README.md`); partidos sin mercado de jugador o con solo goleador/tarjeta no lo necesitan.
+
 Límites conocidos: sin historial por jugador ni alineación probable, el mercado de jugadores no es apto; las estadísticas del árbitro (B-Soccer) no están recolectadas; sin estadística por tiempo no hay ficha de 1T/2T.
 
 ## Etapa 3 — Calificación (día siguiente)
