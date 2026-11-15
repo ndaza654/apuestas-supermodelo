@@ -236,7 +236,7 @@ def construir(jornadas=None):
         except ValueError:
             pj = []
         S.append([r['id'], r['fecha_entrega'], r['hora'], r['entrega'], r['tipo'], r['nombre'], r['partidos'], r['patas'], f(r['cuota']), f(r['p_estimada']), r['resultado'], r['detalle_patas'][:300],
-                  r['familia_fallo'], r['fuente'], pj])
+                  r['familia_fallo'], r['fuente'], pj, int(r['n_patas'] or 0) or max(len(pj), 1), r['tipo']])
     # histórico 9–12 nov (picks entregados antes del pipeline)
     HL = []
     for r in rd(os.path.join(RAIZ, 'registro', 'historial_lineas.csv')):

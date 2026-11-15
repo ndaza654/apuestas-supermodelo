@@ -191,3 +191,8 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Jugadores: selector «Ordenar por» (sentido, probabilidad, colchón, regularidad, cuota) y «Dirección» (mayor a menor / menor a mayor); filtro «Colchón desde».
 - Todas las líneas: filtros «Colchón desde» y «Colchón hasta» (las líneas sin colchón calculado se excluyen al usar el filtro). El CSV respeta el filtro.
 - El colchón sigue siendo informativo: sin filtro puesto no oculta nada.
+
+## 15-nov-2026 ~14:55 · Dashboard: filtros nuevos en «Lo que te envié»
+- Modalidad (sencilla, combinada mismo partido, combinada entre partidos, Bet Builder, en vivo, combinada sin detalle), patas (sencilla, doble, triple, 4 o más), cuota desde/hasta, p desde/hasta (%), resultado (con «parcial») y búsqueda de texto.
+- Las barras de acierto ahora van por modalidad y por número de patas, y siguen los filtros. Resumen bajo los filtros: cuántas resueltas se dieron frente a lo que decía la cuota.
+- `dashboard/datos.py` agrega `n_patas` a cada sugerencia. En combinadas la cuota es la que estimé en «Crear apuesta», no la de Betano.
