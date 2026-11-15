@@ -186,3 +186,8 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Entregado: 2 combinadas BB por partido (`entregas/2026-11-15/1400_bb-espana-inglaterra_belgica-italia.md`); recomendado España–Inglaterra. Probabilidades de jugador estimadas por regularidad (7–9 partidos), no del modelo.
 - Nuevo: `recoleccion/contexto_mercado.py` (contexto del partido y factores a favor/en contra por mercado, con `notas/<clave>.json`), `recoleccion/cambios_cuotas.py`, y en el dashboard «Contexto del partido», «Contexto de <mercado> en este partido» y «Cuotas que se movieron». Notas escritas para los 4 partidos de Liga de Naciones A con tabla leída; los otros 9 quedan «situación sin leer».
 - Límites: criterios de tipsters sin verificar (los del proyecto «Apuestas» no están en el repo); sin estadísticas de árbitro; `registro/sugerencias.csv` no se reescribió en la relectura.
+
+## 15-nov-2026 ~14:45 · Dashboard: orden en Jugadores y filtro de colchón
+- Jugadores: selector «Ordenar por» (sentido, probabilidad, colchón, regularidad, cuota) y «Dirección» (mayor a menor / menor a mayor); filtro «Colchón desde».
+- Todas las líneas: filtros «Colchón desde» y «Colchón hasta» (las líneas sin colchón calculado se excluyen al usar el filtro). El CSV respeta el filtro.
+- El colchón sigue siendo informativo: sin filtro puesto no oculta nada.
