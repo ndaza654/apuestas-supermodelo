@@ -296,9 +296,9 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
 ## Contexto para juzgar los criterios no numéricos
 
-- Árbitro: Kavanagh C.; derbi: False; importancia: normal; clima: None
+- Árbitro: Kavanagh C.; derbi: False; importancia: alta; clima: None
 - Tabla (Flashscore, antes de la jornada): sin dato
-- Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
+- Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': True, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
 - Dudas: ['Historial: sin casar con Betano → Dembélé O., Kone M., Koundé J., Akliouche M., Lacroix M., Lepaul E., Kalulu P., Tchouaméni A., Hernández T., Saliba W., Digne L., Mateta J., Elmaz B., Akturkoglu K., Tiknaz D. E., Kahveci I., Bayindir A., Yildiz K., Muldur M., Akaydin S., Ayhan K., Söyüncü C., Kabasakal M.']

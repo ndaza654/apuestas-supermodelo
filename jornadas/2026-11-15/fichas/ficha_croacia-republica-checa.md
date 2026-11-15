@@ -287,6 +287,6 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Árbitro: Branco Godinho L. M.; derbi: False; importancia: normal; clima: None
 - Tabla (Flashscore, antes de la jornada): sin dato
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
-- Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
+- Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': True, 'perfil_corners': {}}
 - Bajas: ninguna anotada
 - Dudas: ['Historial: sin casar con Betano → Ivanovic F., Pongracic M., Kramaric A., Moro N., Hranac R., Karabec A., Sulc P., Radosta M., Sejk V., Zmrzly O., Krejci L., Macek R., Lingr O., Vitik M., Kricfalusi O., Vasulin D., Visinsky D., Doudera D., Holes T., Schick P., Chory T., Sojka A., Zeleny J., Darida V., Chytil M., Kliment J., Bucha P., Sacek M.']

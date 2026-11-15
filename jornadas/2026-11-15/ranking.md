@@ -4,10 +4,10 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 
 | # | Partido | Situación | Estado | Córners (datos · cumplen) | Partido (datos · cumplen) | Jugadores (datos · cumplen) | Motivo |
 |---|---|---|---|---|---|---|---|
-| 1 | España - Inglaterra | sin leer | reserva | reserva (100 · 3) | reserva (100 · 3) | reserva (80 · 13) | situación sin leer |
-| 2 | Francia - Turquía | sin leer | reserva | reserva (100 · 3) | reserva (97 · 5) | reserva (73 · 11) | situación sin leer |
-| 3 | Bélgica - Italia | sin leer | reserva | reserva (100 · 3) | reserva (96 · 7) | reserva (80 · 6) | situación sin leer |
-| 4 | Croacia - República Checa | sin leer | reserva | reserva (100 · 5) | reserva (95 · 4) | reserva (78 · 3) | situación sin leer |
+| 1 | España - Inglaterra | 57 | apto | apto (100 · 3) | apto (100 · 4) | apto (85 · 13) |  |
+| 2 | Francia - Turquía | 82 | apto | apto (100 · 3) | apto (97 · 5) | apto (73 · 11) |  |
+| 3 | Bélgica - Italia | 62 | apto | apto (100 · 4) | apto (96 · 6) | apto (80 · 6) |  |
+| 4 | Croacia - República Checa | 57 | apto | apto (100 · 5) | apto (95 · 4) | apto (78 · 3) |  |
 | 5 | CD Eldense - CE Sabadell FC | sin leer | reserva | reserva (100 · 3) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
 | 6 | Panamá - Curazao | sin leer | reserva | reserva (89 · 3) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
 | 7 | Granada CF - UD Las Palmas | sin leer | reserva | reserva (100 · 2) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
@@ -19,32 +19,32 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 | 13 | Bielorrusia - Albania | sin leer | no apto | no lo ofrece | no lo ofrece | no apto (20 · 0) | situación sin leer; córners: Betano no lo ofrece; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
 
 ## España - Inglaterra (UEFA Liga de Naciones)
-Datos 93 · Situación sin leer · por mercado: {'Córners': 3, 'Remates': 2, 'Tiros al arco': 1}
+Datos 95 · Situación 57 · por mercado: {'Córners': 3, 'Remates': 3, 'Tiros al arco': 1}
 
-**Datos:** Córners: 26 líneas, muestra de 10 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 100% → 100 | Jugadores: 22 con línea, 60% con ≥7 partidos de historial, 100% titulares probables → 80 | Árbitro con promedio: 0 (sin dato); directos con estadística: 2 (0)
+**Datos:** Córners: 26 líneas, muestra de 10 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 100% → 100 | Jugadores: 22 con línea, 70% con ≥7 partidos de historial, 100% titulares probables → 85 | Árbitro con promedio: 0 (sin dato); directos con estadística: 2 (0)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+**Situación:** +15 importancia alta; +10 un equipo necesita ganar; -15 rotación esperada; -3 1 duda(s) abierta(s) en la ficha
 
 ## Francia - Turquía (UEFA Liga de Naciones)
-Datos 90 · Situación sin leer · por mercado: {'Córners': 3, 'Remates': 3, 'Tiros al arco': 2}
+Datos 90 · Situación 82 · por mercado: {'Córners': 3, 'Remates': 3, 'Tiros al arco': 2}
 
 **Datos:** Córners: 27 líneas, muestra de 10 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 96% → 97 | Jugadores: 22 con línea, 46% con ≥7 partidos de historial, 100% titulares probables → 73 | Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (78%, según cuotas); -3 1 duda(s) abierta(s) en la ficha
+**Situación:** +15 importancia alta; +10 un equipo necesita ganar; +10 favorito claro (78%, según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
 ## Bélgica - Italia (UEFA Liga de Naciones)
-Datos 97 · Situación sin leer · por mercado: {'Córners': 3, 'Faltas': 2, 'Remates': 1, 'Tiros al arco': 4}
+Datos 97 · Situación 62 · por mercado: {'Córners': 4, 'Faltas': 2, 'Tiros al arco': 4}
 
 **Datos:** Córners: 27 líneas, muestra de 10 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 94% → 96 | Jugadores: 22 con línea, 60% con ≥7 partidos de historial, 100% titulares probables → 80 | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+**Situación:** +15 importancia alta; +10 un equipo necesita ganar; -15 rotación esperada; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
 ## Croacia - República Checa (UEFA Liga de Naciones)
-Datos 96 · Situación sin leer · por mercado: {'Córners': 5, 'Faltas': 1, 'Fueras de juego': 1, 'Tiros al arco': 2}
+Datos 96 · Situación 57 · por mercado: {'Córners': 5, 'Faltas': 1, 'Fueras de juego': 1, 'Tiros al arco': 2}
 
 **Datos:** Córners: 26 líneas, muestra de 10 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 92% → 95 | Jugadores: 22 con línea, 56% con ≥7 partidos de historial, 100% titulares probables → 78 | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+**Situación:** +10 un equipo necesita ganar; -3 1 duda(s) abierta(s) en la ficha
 
 ## CD Eldense - CE Sabadell FC (España Segunda División)
 Datos 60 · Situación sin leer · por mercado: {'Córners': 3}

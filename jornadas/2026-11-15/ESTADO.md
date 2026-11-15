@@ -17,3 +17,8 @@
 - Cruce de nombres Flashscore↔Betano: 6 jugadores ambiguos o abreviados se resolvieron por id de Flashscore verificado en su perfil (`recoleccion/alias_jugadores.json`); los que ningún partido de los últimos 10 jugaron quedan sin historial.
 - Sin cruzar a propósito: Giannis Kosti (Chipre; Flashscore «Kosti I.»), sin alias verificado.
 - Los datos pasaron transcritos por el chat y se verificaron con hash (3 erratas de transcripción halladas y corregidas por hash de línea).
+
+## Relectura del 15-nov 13:36 (Bogotá)
+- Betano releído para España–Inglaterra y Bélgica–Italia (hash verificado); lectura de anoche en `betano_previo/`. Los otros 11 partidos siguen con cuotas del 14-nov 19:55.
+- Onces **oficiales** (Flashscore 13:40) para esos dos partidos. Italia cambió 4 titulares; Koleosho y Pisilli sin historial.
+- Tabla leída (Flashscore 13:50) y notas de situación para los 4 partidos de Liga de Naciones A; el resto, situación sin leer.

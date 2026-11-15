@@ -4870,7 +4870,7 @@
 ],
 "ficha": {
 "derbi": false,
-"importancia": "normal",
+"importancia": "alta",
 "eliminatoria": null,
 "local": {
 "estilo": [],
@@ -4878,11 +4878,12 @@
 "marcador": "normal",
 "rotacion": false,
 "motivacion": "normal",
-"necesita_ganar": false,
+"necesita_ganar": true,
 "perfil_corners": {},
 "propositivo": null,
 "dias_descanso": null,
-"viaje_largo": false
+"viaje_largo": false,
+"animo": "depende de sí misma si gana"
 },
 "visitante": {
 "estilo": [],
@@ -4894,13 +4895,15 @@
 "perfil_corners": {},
 "propositivo": null,
 "dias_descanso": null,
-"viaje_largo": false
+"viaje_largo": false,
+"animo": "perdió los cinco partidos del grupo (3 goles a favor, 13 en contra); no se juega nada en la tabla"
 },
 "bajas": [],
 "dudas": [
 "Historial: sin casar con Betano → Dembélé O., Kone M., Koundé J., Akliouche M., Lacroix M., Lepaul E., Kalulu P., Tchouaméni A., Hernández T., Saliba W., Digne L., Mateta J., Elmaz B., Akturkoglu K., Tiknaz D. E., Kahveci I., Bayindir A., Yildiz K., Muldur M., Akaydin S., Ayhan K., Söyüncü C., Kabasakal M."
 ],
 "fuentes": [
+"Flashscore: tabla del grupo, 15-nov 13:50 Bogotá",
 "Flashscore (últimos partidos, estadísticas y H2H)",
 "Flashscore (estadísticas de jugadores de los últimos 10 partidos de cada selección; solo jugadores de la alineación probable)",
 "Flashscore (alineaciones probables y bajas)"
@@ -9296,9 +9299,7 @@
 "partidos": null,
 "nota": "Nombre anunciado por Flashscore; las estadísticas del árbitro (B-Soccer) no están recolectadas."
 },
-"faltan": [
-"lectura de la situación (importancia, motivación, rotación, tabla)"
-]
+"faltan": []
 },
 "estadio": "Stade Atlantique",
 "cuotas_leidas": "Cuotas de Betano leídas 2026-11-15T00:55:20.783Z · 580 mercados"

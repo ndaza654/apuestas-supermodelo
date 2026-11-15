@@ -180,3 +180,9 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Hallazgo: elegir solo por cuota 1,40–2,20 pierde claro (−18,7 %, rango −22,9 a −12,9). Tu filtro (regularidad + colchón) separa buenas de malas (+26,5 pts, rango +6,2 a +44,8) pero el grupo que pasa no prueba ganar dinero (+6,5 %, rango −10,0 a +20,0; por jornada +1 %, −17 %, +17 %).
 - Corrección: un +13,5 % inicial en selecciones 4–8 era un error (cuota del Bet Builder repetida por selección); ahora solo se calcula precio y ganancia con las 53 selecciones de precio propio.
 - Límites: 21–42 partidos por capa; cada capa trae criterios distintos; banca solo 4–8; 15-nov sin resultados.
+
+## 15-nov, 13:36–14:30 · relectura de cuotas, onces oficiales, combinadas BB y contexto por mercado
+- Relectura de Betano 13:36 (España–Inglaterra y Bélgica–Italia; hash verificado) y onces oficiales de Flashscore 13:40. Lectura anterior guardada en `betano_previo/` y `raw/previo_1955/`. 310 y 394 cuotas movidas (`cambios_cuotas.json`).
+- Entregado: 2 combinadas BB por partido (`entregas/2026-11-15/1400_bb-espana-inglaterra_belgica-italia.md`); recomendado España–Inglaterra. Probabilidades de jugador estimadas por regularidad (7–9 partidos), no del modelo.
+- Nuevo: `recoleccion/contexto_mercado.py` (contexto del partido y factores a favor/en contra por mercado, con `notas/<clave>.json`), `recoleccion/cambios_cuotas.py`, y en el dashboard «Contexto del partido», «Contexto de <mercado> en este partido» y «Cuotas que se movieron». Notas escritas para los 4 partidos de Liga de Naciones A con tabla leída; los otros 9 quedan «situación sin leer».
+- Límites: criterios de tipsters sin verificar (los del proyecto «Apuestas» no están en el repo); sin estadísticas de árbitro; `registro/sugerencias.csv` no se reescribió en la relectura.

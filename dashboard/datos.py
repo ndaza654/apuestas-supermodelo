@@ -81,6 +81,11 @@ def construir(jornadas=None):
         P.append({'jor': j, 'n': n, 'hora': hora, 'liga': next(r['liga'] for r in filas if r['jornada'] == j and r['partido'] == n)})
     # estado, slug, disponibilidad
     SER, META, HIS, JR = {}, {}, {}, {}
+    CAMB = {}
+    for j in jors:
+        pcc = os.path.join(RAIZ, 'jornadas', j, 'cambios_cuotas.json')
+        if os.path.exists(pcc):
+            CAMB[j] = json.load(open(pcc, encoding='utf8'))
     nmax = 0
     by_name = {}
     for j in jors:
@@ -121,6 +126,15 @@ def construir(jornadas=None):
                 D['J'] = int(os.path.exists(os.path.join(base, 'jugadores', sl + '.json')))
                 D['C'] = int(any(sl in k or k in sl for k in clima))
                 D['E'] = int(os.path.exists(os.path.join(base, 'entradas', sl + '.json')))
+                pcx = os.path.join(base, 'contexto', sl + '.json')
+                if os.path.exists(pcx):
+                    cxj = json.load(open(pcx, encoding='utf8'))
+                    p['cx'] = {'p': cxj['partido'], 'm': cxj['mercados'], 'n': int(cxj.get('con_notas', False)), 'f': cxj.get('falta', []), 'src': cxj.get('fuentes', [])}
+                ccj = CAMB.get(j, {}).get(sl)
+                if ccj:
+                    utiles = [c for c in ccj['cambios'] if 1.2 <= c[3] <= 4.0]
+                    p['cc'] = {'a': ccj['antes'], 'h': ccj['ahora'], 'n': len(ccj['cambios']), 'c': [[c[0], c[1], c[2], c[3], c[4]] for c in utiles[:140]],
+                               'nv': ccj.get('nuevas', [])[:12], 'q': ccj.get('quitadas', [])[:12]}
                 if D['F']:
                     fsj = json.load(open(fp, encoding='utf8'))
                     D['R'] = int(bool(fsj.get('arbitro')))

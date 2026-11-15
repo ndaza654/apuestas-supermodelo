@@ -54,6 +54,13 @@ def main(argv):
         AJ.main([base])                                               # sugerencias con las reglas de la auditoría -> analisis.json, sugerencias.json, informe_final.md
     except Exception as e:                                            # el análisis no debe tumbar el registro ni el informe
         print('analisis.json no generado:', e)
+    try:                                                              # contexto por partido y por mercado + cuotas que se movieron (los lee el dashboard)
+        import contexto_mercado as CM, cambios_cuotas as CC
+        CM.main([base])
+        if os.path.isdir(os.path.join(base, 'betano_previo')):
+            CC.main([base])
+    except Exception as e:
+        print('contexto/cambios no generados:', e)
     try:
         IH.main([base])                                               # informe.html interactivo (filtros, gráficos, cupón); se puede regenerar siempre
     except SystemExit as e:
