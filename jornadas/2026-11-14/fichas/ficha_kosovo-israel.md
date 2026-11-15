@@ -4,22 +4,9 @@ UEFA Liga de Naciones · 2026-11-14 09:00 · cuotas leídas: Cuotas de Betano le
 Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
 
-## Resumen: líneas de equipo que cumplen 5 de 7 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
+## Resumen: líneas de equipo que cumplen 7 de 10 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
 
-| Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |
-|---|---|---|---|---|---|---|
-| Córners | total | Menos 10.5 | 1.24 | +3.7 | 7 de 7 | 6 de 7 |
-| Córners | total | Menos 9.5 | 1.44 | +2.7 | 6 de 7 | 6 de 7 |
-| Córners | total | Menos 8.5 | 1.75 | +1.7 | 5 de 7 | 5 de 7 |
-| Remates | local | Menos 17.5 | 1.67 | +4.3 | 5 de 7 | 5 de 7 |
-| Remates | local | Menos 16.5 | 1.98 | +3.3 | 5 de 7 | 5 de 7 |
-| Remates | total | Menos 27.5 | 1.72 | +3.8 | 5 de 7 | 5 de 7 |
-| Remates | total | Menos 26.5 | 1.95 | +2.8 | 5 de 7 | 5 de 7 |
-| Tiros al arco | local | Menos 6.5 | 1.5 | +2.1 | 6 de 7 | 6 de 7 |
-| Tiros al arco | local | Menos 5.5 | 1.95 | +1.1 | 6 de 7 | 5 de 7 |
-| Tiros al arco | total | Menos 10.5 | 1.4 | +2.6 | 6 de 7 | 7 de 7 |
-| Tiros al arco | total | Menos 9.5 | 1.67 | +1.6 | 6 de 7 | 5 de 7 |
-| Tiros al arco | visitante | Menos 4.5 | 1.3 | +0.9 | 5 de 7 | 6 de 7 |
+_Ninguna._
 
 ## Córners
 
@@ -32,15 +19,15 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 3.36, visitante 3.43,
 |---|---|---|
 | 6.5 | @1.31 · col +0.3 · L 3 de 7 · V 3 de 7 · D 1 de 3 | @3.25 · col -0.3 · L 4 de 7 · V 4 de 7 · D 2 de 3 |
 | 7.5 | @1.57 · col -0.7 · L 3 de 7 · V 2 de 7 · D 1 de 3 | @2.3 · col +0.7 · L 4 de 7 · V 5 de 7 · D 2 de 3 |
-| 8.5 | @2.02 · col -1.7 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.75 · col +1.7 · L 5 de 7 · V 5 de 7 · D 2 de 3 ✓ |
-| 9.5 | @2.67 · col -2.7 · L 1 de 7 · V 1 de 7 · D 0 de 3 | @1.44 · col +2.7 · L 6 de 7 · V 6 de 7 · D 3 de 3 ✓ |
-| 10.5 | @3.75 · col -3.7 · L 0 de 7 · V 1 de 7 · D 0 de 3 | @1.24 · col +3.7 · L 7 de 7 · V 6 de 7 · D 3 de 3 ✓ |
+| 8.5 | @2.02 · col -1.7 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.75 · col +1.7 · L 5 de 7 · V 5 de 7 · D 2 de 3 |
+| 9.5 | @2.67 · col -2.7 · L 1 de 7 · V 1 de 7 · D 0 de 3 | @1.44 · col +2.7 · L 6 de 7 · V 6 de 7 · D 3 de 3 |
+| 10.5 | @3.75 · col -3.7 · L 0 de 7 · V 1 de 7 · D 0 de 3 | @1.24 · col +3.7 · L 7 de 7 · V 6 de 7 · D 3 de 3 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.15 · col +0.9 · L 5 de 7 · V 7 de 7 · D 2 de 3 ✓ | — |
+| 2.5 | @1.15 · col +0.9 · L 5 de 7 · V 7 de 7 · D 2 de 3 | — |
 | 3.5 | @1.38 · col -0.1 · L 1 de 7 · V 5 de 7 · D 1 de 3 | — |
 | 4.5 | @1.82 · col -1.1 · L 1 de 7 · V 2 de 7 · D 1 de 3 | — |
 | 5.5 | @2.62 · col -2.1 · L 0 de 7 · V 0 de 7 · D 0 de 3 | — |
@@ -50,7 +37,7 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 3.36, visitante 3.43,
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.12 · col +1.9 · L 5 de 7 · V 6 de 7 · D 2 de 3 ✓ | — |
+| 1.5 | @1.12 · col +1.9 · L 5 de 7 · V 6 de 7 · D 2 de 3 | — |
 | 2.5 | @1.37 · col +0.9 · L 4 de 7 · V 4 de 7 · D 2 de 3 | — |
 | 3.5 | @1.88 · col -0.1 · L 4 de 7 · V 2 de 7 · D 2 de 3 | — |
 | 4.5 | @2.9 · col -1.1 · L 3 de 7 · V 1 de 7 · D 0 de 3 | — |
@@ -78,16 +65,16 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 13.21, visitante 10.5
 | Línea | Más | Menos |
 |---|---|---|
 | 25.5 | @1.57 · col -1.8 · L 2 de 7 · V 3 de 7 · D 1 de 3 | @2.3 · col +1.8 · L 5 de 7 · V 4 de 7 · D 2 de 3 |
-| 26.5 | @1.78 · col -2.8 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.95 · col +2.8 · L 5 de 7 · V 5 de 7 · D 2 de 3 ✓ |
-| 27.5 | @2.05 · col -3.8 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.72 · col +3.8 · L 5 de 7 · V 5 de 7 · D 2 de 3 ✓ |
+| 26.5 | @1.78 · col -2.8 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.95 · col +2.8 · L 5 de 7 · V 5 de 7 · D 2 de 3 |
+| 27.5 | @2.05 · col -3.8 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.72 · col +3.8 · L 5 de 7 · V 5 de 7 · D 2 de 3 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
 | 15.5 | @1.52 · col -2.3 · L 2 de 7 · V 5 de 7 · D 1 de 3 | @2.42 · col +2.3 · L 5 de 7 · V 2 de 7 · D 2 de 3 |
-| 16.5 | @1.78 · col -3.3 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.98 · col +3.3 · L 5 de 7 · V 5 de 7 · D 2 de 3 ✓ |
-| 17.5 | @2.12 · col -4.3 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.67 · col +4.3 · L 5 de 7 · V 5 de 7 · D 2 de 3 ✓ |
+| 16.5 | @1.78 · col -3.3 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.98 · col +3.3 · L 5 de 7 · V 5 de 7 · D 2 de 3 |
+| 17.5 | @2.12 · col -4.3 · L 2 de 7 · V 2 de 7 · D 1 de 3 | @1.67 · col +4.3 · L 5 de 7 · V 5 de 7 · D 2 de 3 |
 
 **visitante**
 
@@ -105,16 +92,16 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 4.36, visitante 3.57,
 | Línea | Más | Menos |
 |---|---|---|
 | 8.5 | @1.65 · col -0.6 · L 3 de 7 · V 2 de 7 · D 1 de 3 | @2.15 · col +0.6 · L 4 de 7 · V 5 de 7 · D 2 de 3 |
-| 9.5 | @2.1 · col -1.6 · L 1 de 7 · V 2 de 7 · D 0 de 3 | @1.67 · col +1.6 · L 6 de 7 · V 5 de 7 · D 3 de 3 ✓ |
-| 10.5 | @2.8 · col -2.6 · L 1 de 7 · V 0 de 7 · D 0 de 3 | @1.4 · col +2.6 · L 6 de 7 · V 7 de 7 · D 3 de 3 ✓ |
+| 9.5 | @2.1 · col -1.6 · L 1 de 7 · V 2 de 7 · D 0 de 3 | @1.67 · col +1.6 · L 6 de 7 · V 5 de 7 · D 3 de 3 |
+| 10.5 | @2.8 · col -2.6 · L 1 de 7 · V 0 de 7 · D 0 de 3 | @1.4 · col +2.6 · L 6 de 7 · V 7 de 7 · D 3 de 3 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
 | 4.5 | @1.4 · col -0.1 · L 3 de 7 · V 3 de 7 · D 1 de 3 | @2.82 · col +0.1 · L 4 de 7 · V 4 de 7 · D 2 de 3 |
-| 5.5 | @1.8 · col -1.1 · L 1 de 7 · V 2 de 7 · D 1 de 3 | @1.95 · col +1.1 · L 6 de 7 · V 5 de 7 · D 2 de 3 ✓ |
-| 6.5 | @2.5 · col -2.1 · L 1 de 7 · V 1 de 7 · D 1 de 3 | @1.5 · col +2.1 · L 6 de 7 · V 6 de 7 · D 2 de 3 ✓ |
+| 5.5 | @1.8 · col -1.1 · L 1 de 7 · V 2 de 7 · D 1 de 3 | @1.95 · col +1.1 · L 6 de 7 · V 5 de 7 · D 2 de 3 |
+| 6.5 | @2.5 · col -2.1 · L 1 de 7 · V 1 de 7 · D 1 de 3 | @1.5 · col +2.1 · L 6 de 7 · V 6 de 7 · D 2 de 3 |
 
 **visitante**
 
@@ -122,7 +109,7 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 4.36, visitante 3.57,
 |---|---|---|
 | 2.5 | @1.45 · col +1.1 · L 6 de 7 · V 3 de 7 · D 2 de 3 | @2.62 · col -1.1 · L 1 de 7 · V 4 de 7 · D 1 de 3 |
 | 3.5 | @2.07 · col +0.1 · L 3 de 7 · V 2 de 7 · D 0 de 3 | @1.7 · col -0.1 · L 4 de 7 · V 5 de 7 · D 3 de 3 |
-| 4.5 | @3.35 · col -0.9 · L 2 de 7 · V 1 de 7 · D 0 de 3 | @1.3 · col +0.9 · L 5 de 7 · V 6 de 7 · D 3 de 3 ✓ |
+| 4.5 | @3.35 · col -0.9 · L 2 de 7 · V 1 de 7 · D 0 de 3 | @1.3 · col +0.9 · L 5 de 7 · V 6 de 7 · D 3 de 3 |
 
 ## Goles y tarjetas (para los agentes de goles-resultado y tarjetas; no entran en el ranking)
 
@@ -134,7 +121,7 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 1.71, visitante 1.07,
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.06 · col +2.3 · L 6 de 7 · V 6 de 7 · D 2 de 3 ✓ | @9.0 · col -2.3 · L 1 de 7 · V 1 de 7 · D 1 de 3 |
+| 0.5 | @1.06 · col +2.3 · L 6 de 7 · V 6 de 7 · D 2 de 3 | @9.0 · col -2.3 · L 1 de 7 · V 1 de 7 · D 1 de 3 |
 | 1.5 | @1.3 · col +1.3 · L 4 de 7 · V 6 de 7 · D 1 de 3 | @3.55 · col -1.3 · L 3 de 7 · V 1 de 7 · D 2 de 3 |
 | 1.75 | @1.37 · col +1.0 · L 2 de 7 · V 5 de 7 · D 0 de 3 | @3.2 · col -1.0 · L 3 de 7 · V 1 de 7 · D 2 de 3 |
 | 2.0 | @1.47 · col +0.8 · L 2 de 7 · V 5 de 7 · D 0 de 3 | @2.8 · col -0.8 · L 3 de 7 · V 1 de 7 · D 2 de 3 |
@@ -144,25 +131,25 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 1.71, visitante 1.07,
 | 3.0 | @2.62 · col -0.2 · L 2 de 7 · V 3 de 7 · D 0 de 3 | @1.52 · col +0.2 · L 5 de 7 · V 2 de 7 · D 3 de 3 |
 | 3.25 | @2.95 · col -0.5 · L 2 de 7 · V 3 de 7 · D 0 de 3 | @1.42 · col +0.5 · L 5 de 7 · V 2 de 7 · D 3 de 3 |
 | 3.5 | @3.2 · col -0.7 · L 2 de 7 · V 3 de 7 · D 0 de 3 | @1.36 · col +0.7 · L 5 de 7 · V 4 de 7 · D 3 de 3 |
-| 4.5 | @5.9 · col -1.7 · L 1 de 7 · V 2 de 7 · D 0 de 3 | @1.13 · col +1.7 · L 6 de 7 · V 5 de 7 · D 3 de 3 ✓ |
-| 5.5 | @10.5 · col -2.7 · L 1 de 7 · V 0 de 7 · D 0 de 3 | @1.05 · col +2.7 · L 6 de 7 · V 7 de 7 · D 3 de 3 ✓ |
+| 4.5 | @5.9 · col -1.7 · L 1 de 7 · V 2 de 7 · D 0 de 3 | @1.13 · col +1.7 · L 6 de 7 · V 5 de 7 · D 3 de 3 |
+| 5.5 | @10.5 · col -2.7 · L 1 de 7 · V 0 de 7 · D 0 de 3 | @1.05 · col +2.7 · L 6 de 7 · V 7 de 7 · D 3 de 3 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.18 · col +1.2 · L 5 de 7 · V 6 de 7 · D 2 de 3 ✓ | @4.45 · col -1.2 · L 2 de 7 · V 1 de 7 · D 1 de 3 |
+| 0.5 | @1.18 · col +1.2 · L 5 de 7 · V 6 de 7 · D 2 de 3 | @4.45 · col -1.2 · L 2 de 7 · V 1 de 7 · D 1 de 3 |
 | 1.5 | @1.85 · col +0.2 · L 1 de 7 · V 4 de 7 · D 0 de 3 | @1.88 · col -0.2 · L 6 de 7 · V 3 de 7 · D 3 de 3 |
 | 2.5 | @3.6 · col -0.8 · L 1 de 7 · V 4 de 7 · D 0 de 3 | @1.26 · col +0.8 · L 6 de 7 · V 3 de 7 · D 3 de 3 |
-| 3.5 | @7.2 · col -1.8 · L 1 de 7 · V 1 de 7 · D 0 de 3 | @1.07 · col +1.8 · L 6 de 7 · V 6 de 7 · D 3 de 3 ✓ |
+| 3.5 | @7.2 · col -1.8 · L 1 de 7 · V 1 de 7 · D 0 de 3 | @1.07 · col +1.8 · L 6 de 7 · V 6 de 7 · D 3 de 3 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
 | 0.5 | @1.52 · col +0.6 · L 5 de 7 · V 3 de 7 · D 1 de 3 | @2.45 · col -0.6 · L 2 de 7 · V 4 de 7 · D 2 de 3 |
-| 1.5 | @3.25 · col -0.4 · L 2 de 7 · V 1 de 7 · D 0 de 3 | @1.31 · col +0.4 · L 5 de 7 · V 6 de 7 · D 3 de 3 ✓ |
-| 2.5 | @7.5 · col -1.4 · L 2 de 7 · V 1 de 7 · D 0 de 3 | @1.07 · col +1.4 · L 5 de 7 · V 6 de 7 · D 3 de 3 ✓ |
+| 1.5 | @3.25 · col -0.4 · L 2 de 7 · V 1 de 7 · D 0 de 3 | @1.31 · col +0.4 · L 5 de 7 · V 6 de 7 · D 3 de 3 |
+| 2.5 | @7.5 · col -1.4 · L 2 de 7 · V 1 de 7 · D 0 de 3 | @1.07 · col +1.4 · L 5 de 7 · V 6 de 7 · D 3 de 3 |
 
 ### Tarjetas (solo amarillas)
 _Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._
@@ -190,7 +177,7 @@ Muestra: local 6, visitante 6, directos 2. Esperado: local 1.92, visitante 2.08,
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
+_Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 
 ## Contexto para juzgar los criterios no numéricos
 

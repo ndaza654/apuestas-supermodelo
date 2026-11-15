@@ -330,6 +330,24 @@ def construir():
             [(r['partido'], nombre, float(r['cuota']) if r['cuota'] else None, (COD[r['resultado']], r['nota'].split('valor real ')[-1][:40] if 'valor real' in r['nota'] else ''))],
             float(r['cuota']) if r['cuota'] else '', float(r['p_modelo']) if r['p_modelo'] else '', '', 'Línea con «cumple» (≥ 5 de 7 en ambos).', 'registro/lineas.csv')
     jornadas(rows)
+    # ===== 14-nov · análisis de la jornada (corrida programada 3:45 a. m.; pendientes de calificar con resultados del 14-nov) ======
+    F14 = 'entregas/2026-11-14/0400_analisis-jornada-14nov.md'
+    E14 = '14-nov 04:00 · análisis de la jornada (muestra de 7)'
+    JB, NG, SB, MC = 'Japón - Brasil', 'Noruega - Gales', 'Suecia - Bosnia y Herzegovina', 'RCD Mallorca - Cordoba CF'
+    P = ('P', '')
+    nota14 = 'Pendiente de calificar con los resultados del 14-nov. Cuota = producto de patas (techo). EV < 0 en todas: se publican solo para auditar.'
+    add(E14, '2026-11-14', '04:00', 'combinada mismo partido', 'Japón–Brasil · goles Menos 4.5 + Brasil Menos 3.5 (protección)', 'Japón–Brasil',
+        [(JB, 'Goles total Menos 4.5', 1.20, P), (JB, 'Goles Brasil Menos 3.5', 1.10, P)], 1.32, .657, '', nota14 + ' p conjunta por simulación recortada 17,5 %.', F14)
+    add(E14, '2026-11-14', '04:00', 'combinada', 'Japón goles Menos 4.5 + Noruega Menos 4.5 (2 patas, entre partidos)', 'Japón–Brasil / Noruega–Gales',
+        [(JB, 'Goles total Menos 4.5', 1.20, P), (NG, 'Goles Noruega Menos 4.5', 1.15, P)], 1.38, .711, '', nota14, F14)
+    add(E14, '2026-11-14', '04:00', 'combinada', 'Noruega Menos 4.5 + Suecia córners Menos 10.5 (2 patas, entre partidos)', 'Noruega–Gales / Suecia–Bosnia',
+        [(NG, 'Goles Noruega Menos 4.5', 1.15, P), (SB, 'Córners total Menos 10.5', 1.29, P)], 1.48, .661, '', nota14, F14)
+    add(E14, '2026-11-14', '04:00', 'combinada', 'LOTERÍA 3 patas · Japón Menos 4.5 + Noruega Menos 4.5 + Mallorca córners Más 7.5', 'Japón–Brasil / Noruega–Gales / Mallorca–Córdoba',
+        [(JB, 'Goles total Menos 4.5', 1.20, P), (NG, 'Goles Noruega Menos 4.5', 1.15, P), (MC, 'Córners total Más 7.5', 1.19, P)], 1.64, .572, '', nota14 + ' Lotería de stake mínimo.', F14)
+    add(E14, '2026-11-14', '04:00', 'sencilla', 'Suecia–Bosnia · córners total Menos 10.5 (7 de 7 / 7 de 7, protección)', 'Suecia–Bosnia',
+        [(SB, 'Córners total Menos 10.5', 1.29, P)], 1.29, .761, '', nota14, F14)
+    add(E14, '2026-11-14', '04:00', 'sencilla', 'Chapecoense–Vasco · córners Chapecoense Más 3.5 (único EV>0 de córners)', 'Chapecoense–Vasco',
+        [('Chapecoense SC - Vasco da Gama RJ', 'Córners Chapecoense Más 3.5', 1.62, P)], 1.62, .632, '', nota14 + ' 5 de 7 / 5 de 7; EV +2,3 %; alerta del modelo en el partido.', F14)
     return FILAS
 
 

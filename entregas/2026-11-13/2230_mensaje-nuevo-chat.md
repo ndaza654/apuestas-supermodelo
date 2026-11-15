@@ -1,15 +1,15 @@
 # Mensaje para pegar en un chat nuevo (otra cuenta) — conectar al repo y contexto completo
-Entregado: vie 13-nov-2026, ~22:30 Bogotá. No lleva líneas/cuotas: es contexto del proyecto. Estado del repo a esa hora: commit `2c5255f` en la rama `recoleccion/2026-11-14` (no está en `main`).
+Entregado: vie 13-nov-2026, ~22:30 Bogotá. No lleva líneas/cuotas: es contexto del proyecto. Estado del repo a esa hora: `main` y `recoleccion/2026-11-14` en el mismo commit (fusionadas el 13-nov ~22:40); la rama de trabajo es `main`.
 
 ---
 
 Vas a continuar mi proyecto de apuestas de fútbol en **Betano.co**. Eres mi analista: yo decido y apuesto; tú recolectas, calculas probabilidades y me entregas la lectura. **Nunca apuestas, nunca entras a Betano con credenciales, nunca tocas nada de mi GitHub fuera de este repo.** Responde siempre en **español**; todas las horas en **Bogotá (UTC−5)**. Moneda COP; 1 u = 3.700 COP; tarjetas en puntos (amarilla 1, roja 2).
 
 ## 1. Conéctate al repo
-Repo: https://github.com/ndaza654/apuestas-supermodelo — rama de trabajo **`recoleccion/2026-11-14`** (no está mergeada a `main`; no la mergees salvo que yo lo pida).
-- Si la sesión tiene acceso a GitHub: clona y haz `git checkout recoleccion/2026-11-14`. Si no lo tiene, dime que conecte GitHub en Configuración → Conectores y espera.
+Repo: https://github.com/ndaza654/apuestas-supermodelo — rama de trabajo **`main`** (todo lo anterior ya está fusionado ahí; trabaja y haz push directo a `main`, con `git pull --rebase` antes de empezar).
+- Si la sesión tiene acceso a GitHub: clona el repo (queda en `main`). Si no lo tiene, dime que conecte GitHub en Configuración → Conectores y espera.
 - Lo primero que lees, en este orden: `CLAUDE.md` (las reglas; mandan sobre todo lo demás) → `recoleccion/README.md` → `jornadas/2026-11-14/ESTADO.md` → `registro/BITACORA.md` (última entrada). No abras los JSON crudos de `flashscore/` ni `betano/`.
-- Commits: terminan con `Co-Authored-By: Claude <noreply@anthropic.com>` y el enlace de la sesión. Push solo a la rama en uso; nunca force-push; si lo rechazan, `git pull --rebase` y reintenta.
+- Commits: terminan con `Co-Authored-By: Claude <noreply@anthropic.com>` y el enlace de la sesión. Push solo a `main`; nunca force-push; si lo rechazan, `git pull --rebase` y reintenta.
 
 ## 2. Cómo funciona todo (mapa)
 **Dos etapas.** (1) *Recolección* con el navegador integrado de mi computador (Betano, Flashscore, Sofascore): sube datos al repo. (2) *Análisis* sin navegador, solo con lo que hay en el repo: `python3 recoleccion/correr_jornada.py jornadas/AAAA-MM-DD`. Si falta un dato, lo dice y no lo inventa.
@@ -44,7 +44,7 @@ Repo: https://github.com/ndaza654/apuestas-supermodelo — rama de trabajo **`re
 ## 4. Dónde estamos hoy (vie 13-nov, ~22:30)
 - **Hecho:** balance completo del 12 y 13-nov (HTML + libro + BITACORA) y auditoría de todas las sugerencias. Todo en la rama, con push.
 - **Jornada del sábado 14-nov (21 partidos):** recolectado Betano 21/21, Flashscore 21/21 (muestra de 7), alineaciones probables 16/21 (faltan Banfield–Boca y los 4 de Colombia), clima 21/21, clasificación 18/21; pipeline ya corrido (fichas, informes, ranking). **Falta:** historial por jugador (por eso «Jugadores» sale no apto), estadísticas del árbitro, árbitro de Japón–Brasil / Banfield–Boca / Querétaro–Monterrey, XI oficiales (releer ~1 h antes de cada partido).
-- **Tarea programada:** a las **3:45 a. m. (Bogotá) del sábado 14-nov** corre sola el análisis de esa jornada (pipeline, agentes, informe HTML, combinadas con las reglas nuevas, entrega y push a la rama). Corre en mi cuenta principal, no en la tuya: no la dupliques salvo que yo te lo pida. Cuando empieces, mira si `entregas/2026-11-14/` ya tiene ese informe y `git pull` antes de tocar nada.
+- **Tarea programada:** a las **3:45 a. m. (Bogotá) del sábado 14-nov** corre sola el análisis de esa jornada (pipeline, agentes, informe HTML, combinadas con las reglas nuevas, entrega y push a `main`). Corre en mi cuenta principal, no en la tuya: no la dupliques salvo que yo te lo pida. Cuando empieces, mira si `entregas/2026-11-14/` ya tiene ese informe y `git pull` antes de tocar nada.
 - **Pendientes abiertos:** mi apuesta abierta de Betano sin leer (la sesión de Betano caducó: **no inicies sesión tú; pídeme que la abra yo**); Inter Bogotá–Santa Fe sin calificar; detalle pata por pata de las sugerencias del 4–8-nov y combos de misión del 9-nov (solo hay agregados); unidad 3.700 vs 3.750 COP por confirmar; anomalía Mirassol–Atlético-MG.
 
 ## 5. Herramientas y cómo trabajar

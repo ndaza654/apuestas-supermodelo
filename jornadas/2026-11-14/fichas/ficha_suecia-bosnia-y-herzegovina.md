@@ -4,21 +4,13 @@ UEFA Liga de Naciones · 2026-11-14 14:45 · cuotas leídas: Cuotas de Betano le
 Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
 
-## Resumen: líneas de equipo que cumplen 5 de 7 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
+## Resumen: líneas de equipo que cumplen 7 de 10 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
 
 | Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |
 |---|---|---|---|---|---|---|
 | Córners | total | Más 6.5 | 1.26 | +1.0 | 5 de 7 | 5 de 7 |
 | Córners | total | Menos 10.5 | 1.3 | +3.0 | 7 de 7 | 7 de 7 |
 | Remates | local | Menos 18.5 | 1.62 | +7.0 | 7 de 7 | 7 de 7 |
-| Remates | local | Menos 17.5 | 1.9 | +6.0 | 7 de 7 | 6 de 7 |
-| Remates | local | Menos 16.5 | 2.3 | +5.0 | 7 de 7 | 6 de 7 |
-| Remates | total | Menos 28.5 | 1.72 | +6.0 | 5 de 7 | 7 de 7 |
-| Remates | total | Menos 27.5 | 1.95 | +5.0 | 5 de 7 | 6 de 7 |
-| Remates | total | Menos 26.5 | 2.3 | +4.0 | 5 de 7 | 5 de 7 |
-| Tiros al arco | local | Menos 7.5 | 1.36 | +3.2 | 6 de 7 | 7 de 7 |
-| Tiros al arco | local | Menos 6.5 | 1.67 | +2.2 | 6 de 7 | 6 de 7 |
-| Tiros al arco | local | Menos 5.5 | 2.25 | +1.2 | 5 de 7 | 6 de 7 |
 
 ## Córners
 
@@ -29,7 +21,7 @@ Muestra: local 7, visitante 7, directos 1. Esperado: local 4.0, visitante 3.5, *
 
 | Línea | Más | Menos |
 |---|---|---|
-| 6.5 | @1.26 · col +1.0 · L 5 de 7 · V 5 de 7 · D 0 de 1 ✓ | @3.65 · col -1.0 · L 2 de 7 · V 2 de 7 · D 1 de 1 |
+| 6.5 | @1.26 · col +1.0 · L 5 de 7 · V 5 de 7 · D 0 de 1 | @3.65 · col -1.0 · L 2 de 7 · V 2 de 7 · D 1 de 1 |
 | 7.5 | @1.5 · col +0.0 · L 4 de 7 · V 3 de 7 · D 0 de 1 | @2.5 · col +0.0 · L 3 de 7 · V 4 de 7 · D 1 de 1 |
 | 8.5 | @1.87 · col -1.0 · L 3 de 7 · V 3 de 7 · D 0 de 1 | @1.87 · col +1.0 · L 4 de 7 · V 4 de 7 · D 1 de 1 |
 | 9.5 | @2.45 · col -2.0 · L 2 de 7 · V 3 de 7 · D 0 de 1 | @1.5 · col +2.0 · L 5 de 7 · V 4 de 7 · D 1 de 1 |
@@ -49,7 +41,7 @@ Muestra: local 7, visitante 7, directos 1. Esperado: local 4.0, visitante 3.5, *
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.16 · col +2.0 · L 6 de 7 · V 7 de 7 · D 1 de 1 ✓ | — |
+| 1.5 | @1.16 · col +2.0 · L 6 de 7 · V 7 de 7 · D 1 de 1 | — |
 | 2.5 | @1.5 · col +1.0 · L 4 de 7 · V 6 de 7 · D 1 de 1 | — |
 | 3.5 | @2.15 · col +0.0 · L 4 de 7 · V 2 de 7 · D 1 de 1 | — |
 | 4.5 | @3.45 · col -1.0 · L 2 de 7 · V 1 de 7 · D 0 de 1 | — |
@@ -76,16 +68,16 @@ Muestra: local 7, visitante 7, directos 1. Esperado: local 11.5, visitante 11.0,
 
 | Línea | Más | Menos |
 |---|---|---|
-| 26.5 | @1.57 · col -4.0 · L 2 de 7 · V 2 de 7 · D 0 de 1 | @2.3 · col +4.0 · L 5 de 7 · V 5 de 7 · D 1 de 1 ✓ |
-| 27.5 | @1.78 · col -5.0 · L 2 de 7 · V 1 de 7 · D 0 de 1 | @1.95 · col +5.0 · L 5 de 7 · V 6 de 7 · D 1 de 1 ✓ |
-| 28.5 | @2.05 · col -6.0 · L 2 de 7 · V 0 de 7 · D 0 de 1 | @1.72 · col +6.0 · L 5 de 7 · V 7 de 7 · D 1 de 1 ✓ |
+| 26.5 | @1.57 · col -4.0 · L 2 de 7 · V 2 de 7 · D 0 de 1 | @2.3 · col +4.0 · L 5 de 7 · V 5 de 7 · D 1 de 1 |
+| 27.5 | @1.78 · col -5.0 · L 2 de 7 · V 1 de 7 · D 0 de 1 | @1.95 · col +5.0 · L 5 de 7 · V 6 de 7 · D 1 de 1 |
+| 28.5 | @2.05 · col -6.0 · L 2 de 7 · V 0 de 7 · D 0 de 1 | @1.72 · col +6.0 · L 5 de 7 · V 7 de 7 · D 1 de 1 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 16.5 | @1.57 · col -5.0 · L 0 de 7 · V 1 de 7 · D 0 de 1 | @2.3 · col +5.0 · L 7 de 7 · V 6 de 7 · D 1 de 1 ✓ |
-| 17.5 | @1.85 · col -6.0 · L 0 de 7 · V 1 de 7 · D 0 de 1 | @1.9 · col +6.0 · L 7 de 7 · V 6 de 7 · D 1 de 1 ✓ |
+| 16.5 | @1.57 · col -5.0 · L 0 de 7 · V 1 de 7 · D 0 de 1 | @2.3 · col +5.0 · L 7 de 7 · V 6 de 7 · D 1 de 1 |
+| 17.5 | @1.85 · col -6.0 · L 0 de 7 · V 1 de 7 · D 0 de 1 | @1.9 · col +6.0 · L 7 de 7 · V 6 de 7 · D 1 de 1 |
 | 18.5 | @2.22 · col -7.0 · L 0 de 7 · V 0 de 7 · D 0 de 1 | @1.62 · col +7.0 · L 7 de 7 · V 7 de 7 · D 1 de 1 ✓ |
 
 **visitante**
@@ -111,9 +103,9 @@ Muestra: local 7, visitante 7, directos 1. Esperado: local 4.29, visitante 4.14,
 
 | Línea | Más | Menos |
 |---|---|---|
-| 5.5 | @1.6 · col -1.2 · L 2 de 7 · V 1 de 7 · D 0 de 1 | @2.25 · col +1.2 · L 5 de 7 · V 6 de 7 · D 1 de 1 ✓ |
-| 6.5 | @2.12 · col -2.2 · L 1 de 7 · V 1 de 7 · D 0 de 1 | @1.67 · col +2.2 · L 6 de 7 · V 6 de 7 · D 1 de 1 ✓ |
-| 7.5 | @3.0 · col -3.2 · L 1 de 7 · V 0 de 7 · D 0 de 1 | @1.36 · col +3.2 · L 6 de 7 · V 7 de 7 · D 1 de 1 ✓ |
+| 5.5 | @1.6 · col -1.2 · L 2 de 7 · V 1 de 7 · D 0 de 1 | @2.25 · col +1.2 · L 5 de 7 · V 6 de 7 · D 1 de 1 |
+| 6.5 | @2.12 · col -2.2 · L 1 de 7 · V 1 de 7 · D 0 de 1 | @1.67 · col +2.2 · L 6 de 7 · V 6 de 7 · D 1 de 1 |
+| 7.5 | @3.0 · col -3.2 · L 1 de 7 · V 0 de 7 · D 0 de 1 | @1.36 · col +3.2 · L 6 de 7 · V 7 de 7 · D 1 de 1 |
 
 **visitante**
 
@@ -190,7 +182,7 @@ Muestra: local 5, visitante 6, directos 0. Esperado: local 1.63, visitante 2.63,
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
+_Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 
 ## Contexto para juzgar los criterios no numéricos
 

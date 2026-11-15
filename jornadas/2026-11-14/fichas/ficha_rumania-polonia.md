@@ -4,12 +4,9 @@ UEFA Liga de Naciones · 2026-11-14 14:45 · cuotas leídas: Cuotas de Betano le
 Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
 
-## Resumen: líneas de equipo que cumplen 5 de 7 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
+## Resumen: líneas de equipo que cumplen 7 de 10 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
 
-| Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |
-|---|---|---|---|---|---|---|
-| Córners | total | Menos 10.5 | 1.35 | +2.4 | 6 de 7 | 5 de 7 |
-| Remates | total | Menos 28.5 | 1.65 | +1.9 | 6 de 7 | 5 de 7 |
+_Ninguna._
 
 ## Córners
 
@@ -24,7 +21,7 @@ Muestra: local 7, visitante 7, directos 1. Esperado: local 2.71, visitante 5.43,
 | 7.5 | @1.42 · col +0.6 · L 3 de 7 · V 6 de 7 · D 1 de 1 | @2.72 · col -0.6 · L 4 de 7 · V 1 de 7 · D 0 de 1 |
 | 8.5 | @1.75 · col -0.4 · L 2 de 7 · V 3 de 7 · D 0 de 1 | @2.02 · col +0.4 · L 5 de 7 · V 4 de 7 · D 1 de 1 |
 | 9.5 | @2.25 · col -1.4 · L 1 de 7 · V 3 de 7 · D 0 de 1 | @1.6 · col +1.4 · L 6 de 7 · V 4 de 7 · D 1 de 1 |
-| 10.5 | @3.05 · col -2.4 · L 1 de 7 · V 2 de 7 · D 0 de 1 | @1.35 · col +2.4 · L 6 de 7 · V 5 de 7 · D 1 de 1 ✓ |
+| 10.5 | @3.05 · col -2.4 · L 1 de 7 · V 2 de 7 · D 0 de 1 | @1.35 · col +2.4 · L 6 de 7 · V 5 de 7 · D 1 de 1 |
 
 **local**
 
@@ -105,7 +102,7 @@ Muestra: local 7, visitante 7, directos 1. Esperado: local 10.93, visitante 15.6
 |---|---|---|
 | 26.5 | @1.65 · col +0.1 · L 3 de 7 · V 4 de 7 · D 1 de 1 | @2.15 · col -0.1 · L 4 de 7 · V 3 de 7 · D 0 de 1 |
 | 27.5 | @1.87 · col -0.9 · L 3 de 7 · V 3 de 7 · D 1 de 1 | @1.87 · col +0.9 · L 4 de 7 · V 4 de 7 · D 0 de 1 |
-| 28.5 | @2.15 · col -1.9 · L 1 de 7 · V 2 de 7 · D 1 de 1 | @1.65 · col +1.9 · L 6 de 7 · V 5 de 7 · D 0 de 1 ✓ |
+| 28.5 | @2.15 · col -1.9 · L 1 de 7 · V 2 de 7 · D 1 de 1 | @1.65 · col +1.9 · L 6 de 7 · V 5 de 7 · D 0 de 1 |
 
 **local**
 
@@ -216,7 +213,7 @@ Muestra: local 7, visitante 7, directos 1. Esperado: local 2.86, visitante 2.5, 
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
+_Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 
 ## Contexto para juzgar los criterios no numéricos
 

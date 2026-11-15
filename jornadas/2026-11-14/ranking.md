@@ -41,9 +41,9 @@ Datos 99 · Situación sin leer · por mercado: {'Córners': 6, 'Fueras de juego
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -6 2 duda(s) abierta(s) en la ficha
 
 ## Noruega - Gales (UEFA Liga de Naciones)
-Datos 82 · Situación sin leer · por mercado: {'Córners': 4, 'Saques de banda': 1, 'Remates': 7, 'Tiros al arco': 7}
+Datos 69 · Situación sin leer · por mercado: {'Tiros al arco': 2}
 
-**Datos:** Córners: 25 líneas, muestra de 7 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 96% → 97 | Jugadores: 22 con línea, 0% con ≥5 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)
+**Datos:** Córners: 25 líneas, muestra de 10 al 70% → 79 | Partido: 6/6 familias ofrecidas, muestra al 68% → 77 | Jugadores: 22 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (77%, según cuotas)
 
@@ -61,10 +61,10 @@ Datos 90 · Situación sin leer · por mercado: {'Córners': 2, 'Remates': 6, 'T
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (64%, según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
-## CA Banfield - Boca Juniors (Argentina Copa Argentina)
-Datos 68 · Situación sin leer · por mercado: {'Córners': 3, 'Remates': 2, 'Tiros al arco': 5}
+## Portugal - Dinamarca (UEFA Liga de Naciones)
+Datos 74 · Situación sin leer · por mercado: ninguna línea cumple
 
-**Datos:** Córners: 5 líneas, muestra de 7 al 100% → 89 | Partido: 2/6 familias ofrecidas, muestra al 100% → 80 | Jugadores: 71 con línea, 0% con ≥5 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 5 (+5)
+**Datos:** Córners: 26 líneas, muestra de 10 al 70% → 79 | Partido: 6/6 familias ofrecidas, muestra al 67% → 77 | Jugadores: 21 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (61%, según cuotas); -6 2 duda(s) abierta(s) en la ficha
 
@@ -83,28 +83,35 @@ Datos 90 · Situación sin leer · por mercado: {'Córners': 2, 'Remates': 1, 'T
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
 ## Chapecoense SC - Vasco da Gama RJ (Brasil Brasileirao - Serie A)
-Datos 86 · Situación sin leer · por mercado: {'Córners': 4, 'Faltas': 1, 'Tiros al arco': 2}
+Datos 72 · Situación sin leer · por mercado: ninguna línea cumple
 
-**Datos:** Córners: 28 líneas, muestra de 7 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 100% → 100 | Jugadores: 14 con línea, 0% con ≥5 partidos de historial, 100% titulares probables → 44 | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
+**Datos:** Córners: 28 líneas, muestra de 10 al 70% → 79 | Partido: 6/6 familias ofrecidas, muestra al 70% → 79 | Jugadores: 14 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 44 | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (66%, según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
-## UD Almeria - FC Andorra (España Segunda División)
-Datos 73 · Situación sin leer · por mercado: {'Córners': 7}
+## Mirassol SP - Clube Atletico MG (Brasil Brasileirao - Serie A)
+Datos 71 · Situación sin leer · por mercado: ninguna línea cumple
 
-**Datos:** Córners: 25 líneas, muestra de 7 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 16 con línea, 0% con ≥5 partidos de historial, 100% titulares probables → 46 | Árbitro con promedio: 0 (sin dato); directos con estadística: 2 (0)
+**Datos:** Córners: 30 líneas, muestra de 10 al 70% → 79 | Partido: 6/6 familias ofrecidas, muestra al 70% → 79 | Jugadores: 11 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 41 | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+
+## Kosovo - Israel (UEFA Liga de Naciones)
+Datos 68 · Situación sin leer · por mercado: ninguna línea cumple
+
+**Datos:** Córners: 15 líneas, muestra de 10 al 70% → 79 | Partido: 2/6 familias ofrecidas, muestra al 70% → 59 | Jugadores: 21 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
 
 ## Queretaro FC - CF Monterrey (México Liga MX)
-Datos 82 · Situación sin leer · por mercado: {'Córners': 1, 'Remates': 2, 'Tiros al arco': 2}
+Datos 68 · Situación sin leer · por mercado: ninguna línea cumple
 
 **Datos:** Córners: 26 líneas, muestra de 7 al 100% → 100 | Partido: 2/6 familias ofrecidas, muestra al 100% → 80 | Jugadores: 20 con línea, 0% con ≥5 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
 
-## Japón - Brasil (Internacional Amistosos)
-Datos 75 · Situación sin leer · por mercado: {'Córners': 5}
+## Real Sociedad II - Sporting de Gijón (España Segunda División)
+Datos 68 · Situación sin leer · por mercado: ninguna línea cumple
 
 **Datos:** Córners: 15 líneas, muestra de 7 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 20 con línea, 0% con ≥5 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)
 
@@ -145,10 +152,59 @@ Datos 100 · Situación sin leer · por mercado: {'Córners': 1}
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (76%, según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
-## Real Sociedad II - Sporting de Gijón (España Segunda División)
-Datos 78 · Situación sin leer · por mercado: {'Córners': 1}
+## Jamaica - México (CONCACAF Nations League Play-offs)
+Datos 62 · Situación sin leer · por mercado: ninguna línea cumple
 
-**Datos:** Córners: 24 líneas, muestra de 7 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 17 con línea, 0% con ≥5 partidos de historial, 100% titulares probables → 47 | Árbitro con promedio: 0 (sin dato); directos con estadística: 3 (+5)
+**Datos:** Córners: 5 líneas, muestra de 10 al 70% → 68 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 17 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 47 | Árbitro con promedio: 0 (sin dato); directos con estadística: 5 (+5)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (61%, según cuotas); -6 2 duda(s) abierta(s) en la ficha
+
+## RCD Mallorca - Cordoba CF (España Segunda División)
+Datos 62 · Situación sin leer · por mercado: ninguna línea cumple
+
+**Datos:** Córners: 25 líneas, muestra de 10 al 70% → 79 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 16 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 46 | Árbitro con promedio: 0 (sin dato); directos con estadística: 0 (0)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+
+## Real Valladolid - CD Castellón (España Segunda División)
+Datos 62 · Situación sin leer · por mercado: ninguna línea cumple
+
+**Datos:** Córners: 25 líneas, muestra de 10 al 70% → 79 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 16 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 46 | Árbitro con promedio: 0 (sin dato); directos con estadística: 2 (0)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+
+## UD Almeria - FC Andorra (España Segunda División)
+Datos 62 · Situación sin leer · por mercado: ninguna línea cumple
+
+**Datos:** Córners: 25 líneas, muestra de 10 al 70% → 79 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 16 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 46 | Árbitro con promedio: 0 (sin dato); directos con estadística: 2 (0)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+
+## CA Banfield - Boca Juniors (Argentina Copa Argentina)
+Datos 54 · Situación sin leer · por mercado: ninguna línea cumple
+
+**Datos:** Córners: 5 líneas, muestra de 10 al 70% → 68 | Partido: 2/6 familias ofrecidas, muestra al 70% → 59 | Jugadores: 71 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 5 (+5)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (61%, según cuotas); -6 2 duda(s) abierta(s) en la ficha
+
+## Aguilas Doradas - Independiente Medellín (Colombia Categoría Primera A)
+Datos 52 · Situación sin leer · por mercado: ninguna línea cumple
+
+**Datos:** Córners: 7 líneas, muestra de 10 al 70% → 75 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 51 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
+
+## Atletico Nacional - Once Caldas (Colombia Categoría Primera A)
+Datos 52 · Situación sin leer · por mercado: ninguna línea cumple
+
+**Datos:** Córners: 7 líneas, muestra de 10 al 70% → 75 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 50 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
+
+## Deportivo Cali - Deportes Tolima (Colombia Categoría Primera A)
+Datos 52 · Situación sin leer · por mercado: ninguna línea cumple
+
+**Datos:** Córners: 7 líneas, muestra de 10 al 70% → 75 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 49 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
 

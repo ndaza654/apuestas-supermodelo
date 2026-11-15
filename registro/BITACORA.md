@@ -128,6 +128,13 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Boletos reales: 71 con dinero, neto −$1.925; 9–13 nov −$76.550 (ROI −23 %); sin los 2 mejores −$345.316; 17 de 23 boletos del 9 al 13-nov superan el máximo de 7.500 de la hoja «Reglas».
 - Pendiente de decisión del usuario: regla de banca, retirar «valor»/EV/recorte, medir cuota de cierre, reconstruir recolección y registro. Nada de eso se hizo en esta tarea.
 
+## 14-nov, 04:00 · análisis de la jornada del sábado (21 partidos, corrida programada)
+- Entregado: `entregas/2026-11-14/0400_analisis-jornada-14nov.html` (generado por `informe_html.py`) y `.md` (Enfoque de mercados, 5 mejores líneas por partido, combinadas). Detalle de agentes en `jornadas/2026-11-14/agentes/` (córners, goles-resultado, partido, tarjetas, jugadores, combinadas; 8 partidos con análisis profundo, 13 solo con ficha e informe). Combinadas y sencillas nuevas registradas en `recoleccion/sugerencias.py` (pendientes de calificar).
+- Datos/método: Betano leído 13-nov 19:02–19:15 Bogotá; muestra de 7 (cumple ≥5 de 7); modelo SM-1.2; reglas de combinadas de la auditoría del 13-nov (máx. 2 patas ≥70 %, p conjunta por simulación recortada 17,5 %, cuota <1,50 = protección).
+- Hallazgo: ninguna línea con ≥5 de 7 en ambos equipos y cuota ≥1,50; los EV son todos negativos salvo ruido y córners Chapecoense local Más 3.5 (+2,3 %, 5/7 y 5/7, partido con alerta del modelo). Jugadores: no apto en los 21.
+- Límites: alineaciones probables sin releer, 3 árbitros sin publicar, sin estadísticas de árbitro ni historial por jugador, 5 partidos sin alineación, 13 partidos sin análisis profundo.
+- Se midió: nada todavía; se califica con los resultados del 14-nov (agente `calificacion`).
+
 ## 14-nov, 14:05 y 14:12 · reanálisis de los 8 partidos de la tarde (a pedido del usuario)
 - Entregado: `entregas/2026-11-14/1405_reanalisis-bloque-1445.md` (Portugal–Dinamarca, Irlanda del Norte–Ucrania, Rumanía–Polonia, Suecia–Bosnia) y `1412_reanalisis-bloque-1530.md` (los 4 de Primera A). Líneas de 1,35 o más (preferencia 1,45+) con «cumple 5 de 7», tres Bet Builder de Portugal–Dinamarca (3+ patas de 1,50+, producto 5+) y combinadas entre partidos.
 - Datos: Betano releído 13:56 (Europa) y 14:06 (Colombia), solo líneas de equipo (jugadores no releídos); la apertura del 13-nov quedó en `jornadas/2026-11-14/raw_13nov/`. Alineaciones oficiales de Flashscore en los 4 de Europa (~14:00–14:02); Colombia sin alineaciones, con la previa de Flashscore. Pipeline recorrido (muestra de 7).

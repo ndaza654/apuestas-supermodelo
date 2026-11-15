@@ -4,13 +4,9 @@ Colombia Categoría Primera A · 2026-11-14 15:30 · cuotas leídas: Cuotas de B
 Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
 
-## Resumen: líneas de equipo que cumplen 5 de 7 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
+## Resumen: líneas de equipo que cumplen 7 de 10 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
 
-| Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |
-|---|---|---|---|---|---|---|
-| Córners | total | Más 6.5 | 1.26 | +1.8 | 6 de 7 | 6 de 7 |
-| Córners | total | Menos 10.5 | 1.29 | +2.2 | 7 de 7 | 6 de 7 |
-| Córners | total | Más 7.5 | 1.5 | +0.8 | 5 de 7 | 5 de 7 |
+_Ninguna._
 
 ## Córners
 
@@ -122,7 +118,7 @@ Muestra: local 7, visitante 7, directos 6. Esperado: local 2.57, visitante 3.86,
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 5 de 7 con muestra suficiente._
+_Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 
 ## Contexto para juzgar los criterios no numéricos
 

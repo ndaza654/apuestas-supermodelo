@@ -4,7 +4,7 @@ UEFA Liga de Naciones · 2026-11-14 14:45 · cuotas leídas: Cuotas de Betano le
 Reglas: muestra = últimos 7 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 5 de 7 (n mínimo 5); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
 
-## Resumen: líneas de equipo que cumplen 5 de 7 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
+## Resumen: líneas de equipo que cumplen 7 de 10 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
 
 | Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |
 |---|---|---|---|---|---|---|
@@ -109,7 +109,7 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 1.5, visitante 2.21, 
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.67 · col +0.7 · L 5 de 7 · V 5 de 7 · D 1 de 3 ✓ | @2.12 · col -0.7 · L 2 de 7 · V 2 de 7 · D 2 de 3 |
+| 1.5 | @1.67 · col +0.7 · L 5 de 7 · V 5 de 7 · D 1 de 3 | @2.12 · col -0.7 · L 2 de 7 · V 2 de 7 · D 2 de 3 |
 
 ### Saques de banda
 Muestra: local 7, visitante 7, directos 3. Esperado: local 15.29, visitante 16.71, **total 32.0** (local 14.0 a favor / 14.29 en contra; visitante 19.14 / 16.57).
@@ -176,8 +176,8 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 13.0, visitante 15.57
 
 | Línea | Más | Menos |
 |---|---|---|
-| 10.5 | @1.62 · col +5.1 · L 5 de 7 · V 7 de 7 · D 3 de 3 ✓ | @2.2 · col -5.1 · L 2 de 7 · V 0 de 7 · D 0 de 3 |
-| 11.5 | @2.0 · col +4.1 · L 5 de 7 · V 7 de 7 · D 3 de 3 ✓ | @1.75 · col -4.1 · L 2 de 7 · V 0 de 7 · D 0 de 3 |
+| 10.5 | @1.62 · col +5.1 · L 5 de 7 · V 7 de 7 · D 3 de 3 | @2.2 · col -5.1 · L 2 de 7 · V 0 de 7 · D 0 de 3 |
+| 11.5 | @2.0 · col +4.1 · L 5 de 7 · V 7 de 7 · D 3 de 3 | @1.75 · col -4.1 · L 2 de 7 · V 0 de 7 · D 0 de 3 |
 | 12.5 | @2.55 · col +3.1 · L 4 de 7 · V 6 de 7 · D 2 de 3 | @1.47 · col -3.1 · L 3 de 7 · V 1 de 7 · D 1 de 3 |
 
 ### Tiros al arco
@@ -195,15 +195,15 @@ Muestra: local 7, visitante 7, directos 3. Esperado: local 4.5, visitante 4.93, 
 
 | Línea | Más | Menos |
 |---|---|---|
-| 5.5 | @1.6 · col -1.0 · L 2 de 7 · V 2 de 7 · D 2 de 3 | @2.25 · col +1.0 · L 5 de 7 · V 5 de 7 · D 1 de 3 ✓ |
-| 6.5 | @2.12 · col -2.0 · L 2 de 7 · V 2 de 7 · D 2 de 3 | @1.67 · col +2.0 · L 5 de 7 · V 5 de 7 · D 1 de 3 ✓ |
-| 7.5 | @3.0 · col -3.0 · L 1 de 7 · V 1 de 7 · D 2 de 3 | @1.36 · col +3.0 · L 6 de 7 · V 6 de 7 · D 1 de 3 ✓ |
+| 5.5 | @1.6 · col -1.0 · L 2 de 7 · V 2 de 7 · D 2 de 3 | @2.25 · col +1.0 · L 5 de 7 · V 5 de 7 · D 1 de 3 |
+| 6.5 | @2.12 · col -2.0 · L 2 de 7 · V 2 de 7 · D 2 de 3 | @1.67 · col +2.0 · L 5 de 7 · V 5 de 7 · D 1 de 3 |
+| 7.5 | @3.0 · col -3.0 · L 1 de 7 · V 1 de 7 · D 2 de 3 | @1.36 · col +3.0 · L 6 de 7 · V 6 de 7 · D 1 de 3 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.33 · col +2.4 · L 6 de 7 · V 7 de 7 · D 3 de 3 ✓ | @3.1 · col -2.4 · L 1 de 7 · V 0 de 7 · D 0 de 3 |
+| 2.5 | @1.33 · col +2.4 · L 6 de 7 · V 7 de 7 · D 3 de 3 | @3.1 · col -2.4 · L 1 de 7 · V 0 de 7 · D 0 de 3 |
 | 3.5 | @1.82 · col +1.4 · L 4 de 7 · V 5 de 7 · D 2 de 3 | @1.93 · col -1.4 · L 3 de 7 · V 2 de 7 · D 1 de 3 |
 | 4.5 | @2.75 · col +0.4 · L 4 de 7 · V 3 de 7 · D 1 de 3 | @1.42 · col -0.4 · L 3 de 7 · V 4 de 7 · D 2 de 3 |
 
