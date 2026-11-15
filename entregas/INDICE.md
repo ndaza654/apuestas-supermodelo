@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-15 | 05:05 | Dashboard v2 «Mando» (rediseño blanco y azul, prueba funcional) | jornadas 14 y 15-nov | `entregas/2026-11-15/0505_dashboard-v2-mando.html` (+ `.md`) |
 | 2026-11-15 | 01:45 | Jornada 15-nov con la estrategia del usuario: 57 sencillas y 10 combinadas de cuota ≥ 3 | 13 partidos del 15-nov | `entregas/2026-11-15/0145_informe-15nov-estrategia.html` (+ `0145_estrategia-jornada-15nov.md`) |
 | 2026-11-15 | 01:20 | Prueba de la estrategia del usuario (cuota ~1,50, regularidad, colchón) con 3 jornadas | todas (12, 13, 14-nov) | `entregas/2026-11-15/0115_estrategia-del-usuario.md` |
 | 2026-11-14 | 21:30 | Dashboard A (prueba) + informe jornada 15-nov con historial de jugadores | 13 partidos del 15-nov | `entregas/2026-11-14/2130_dashboard-A-prueba-15nov.html` (+ `.md`, `2130_informe-15nov.html`) |

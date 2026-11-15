@@ -159,3 +159,6 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Regla nueva en `CLAUDE.md`, `recoleccion/README.md` y el skill `analizar-partido`: sin el historial de esos partidos la recolección no está completa.
 - Errores de código hallados y corregidos: (1) con nombres ambiguos (Bellingham, Pašalić, Esposito) el cruce escogía «el primero» y marcaba a Jobe como titular en vez de Jude; ahora se usa el id de Flashscore (`alias_jugadores.json`) y, sin alias, no se asigna; (2) la «ı» turca no se normalizaba (Çakır, Yılmaz, Kadıoğlu, Bardakcı sin historial).
 - Chipre–Montenegro sin alineación: sin recomendaciones de jugador. 8 de ~21 favoritos de las capturas no se recolectaron.
+
+## 15-nov, 05:05 · dashboard v2 «Mando»
+- Rediseño completo en `dashboard/v2/` (generador `dashboard/construir_v2.py`): estrategia del usuario como filtro en vivo con su resultado en lo ya jugado, gráficos por partido con rival/sede/marcador, escalera de líneas, armador de combinadas con probabilidad y avisos, registro de apuestas. Prueba con las jornadas del 14 y 15-nov. El dashboard anterior (`dashboard/src/`) queda sin tocar.
