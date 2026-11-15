@@ -169,3 +169,8 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 
 ## 15-nov, 05:05 · dashboard v2 «Mando»
 - Rediseño completo en `dashboard/v2/` (generador `dashboard/construir_v2.py`): estrategia del usuario como filtro en vivo con su resultado en lo ya jugado, gráficos por partido con rival/sede/marcador, escalera de líneas, armador de combinadas con probabilidad y avisos, registro de apuestas. Prueba con las jornadas del 14 y 15-nov. El dashboard anterior (`dashboard/src/`) queda sin tocar.
+
+## 15-nov, ~06:50 · dashboard en línea (GitHub Pages) y unión de ramas
+- Hecho: flujo `.github/workflows/dashboard.yml` (cada push a `main` reconstruye `dashboard/construir_v2.py` con todo el registro y publica en Pages), regla «Dashboard en línea» en `CLAUDE.md`, revisión de secretos (archivos e historial: sin claves, tokens ni correos personales; sí códigos y montos de boletos). Link previsto: https://ndaza654.github.io/apuestas-supermodelo/
+- Unión: `recoleccion/2026-11-14` se fusionó en `main` (avance simple, sin force). Del 14-nov se conservó la versión de la rama (reanálisis de la tarde); de `main` se añadieron las 6 sugerencias de las 4:00 (S494–S499), sus archivos de agentes, bitácora e índice. 39 marcas «cumple» de Banfield–Boca difieren entre ambas versiones y quedó la de la rama.
+- Pendiente del usuario: poner el repo público y activar Pages (Settings → Pages → Source: GitHub Actions); desde aquí el proxy bloquea esos ajustes. La primera corrida construyó bien y solo falló en «configure-pages».
