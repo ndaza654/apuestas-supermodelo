@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-15 | 01:20 | Prueba de la estrategia del usuario (cuota ~1,50, regularidad, colchón) con 3 jornadas | todas (12, 13, 14-nov) | `entregas/2026-11-15/0115_estrategia-del-usuario.md` |
 | 2026-11-14 | 21:30 | Dashboard A (prueba) + informe jornada 15-nov con historial de jugadores | 13 partidos del 15-nov | `entregas/2026-11-14/2130_dashboard-A-prueba-15nov.html` (+ `.md`, `2130_informe-15nov.html`) |
 | 2026-11-14 | 19:40 | Dashboard: tres prototipos completos (A Mando, B Móvil, C Laboratorio) con diferencias, pros/contras y faltantes | todos | `entregas/2026-11-14/1940_dashboard-prototipos.md` + `1940_dashboard-prototipo-{A-mando,B-movil,C-laboratorio}.html` |
 | 2026-11-14 | 19:10 | Informe v2 en tres diseños (A Tablero, B Partido a partido, C Cupón): filtro «X de N» (3–10), gráficos por línea y mercado, historial de jugadores, resultados y tus boletos | los 21 del 14-nov | `2026-11-14/1910_informe-v2-A.html`, `…-B.html`, `…-C.html` |
