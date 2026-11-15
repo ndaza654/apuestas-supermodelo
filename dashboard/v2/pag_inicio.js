@@ -26,6 +26,7 @@ PAGES.inicio={render(){const j=ST.jor,ps=P.filter(p=>p.jor===j),rows=stratRows(j
   <div class="card flush"><div class="hd" style="padding:14px 14px 0"><h2>Lo que más sentido tiene ${fin&&!pend?'(ya jugado)':'hoy'}</h2><div class="sp"></div><a class="btn soft sm" href="#/estrategia">Ver las ${rows.length}</a></div>${listLi(rows.slice(0,8),{empty:'Ninguna línea pasa tu filtro en esta jornada. Aflójalo en «Mi estrategia».'})}</div>
   ${est&&est.combinadas.length?`<h2 style="margin:18px 0 10px">Combinadas que te envié</h2><div class="grid g2">${est.combinadas.map(c=>comboCard(j,c)).join('')}</div>`:''}
  </div><div>
+  ${(()=>{const t=hStats(HBOL());return`<div class="card"><div class="hd"><h2>Histórico desde el 4-nov</h2><div class="sp"></div><a class="btn soft sm" href="#/historico">Abrir</a></div><div class="row"><span class="num b" style="font-size:22px;color:${hCol(t.net)}">${hCop(t.net)}</span><span class="sm mut">en ${t.nr} boletos con dinero · ${t.gan} ganados</span></div><p class="xs mut" style="margin:6px 0 0">Boletos, selecciones, picks, partidos, banca y lecciones de todos los días.</p></div>`})()}
   ${avis.length?`<div class="card"><h2>Ojo con esto</h2>${avis.slice(0,6).map(t=>`<div class="note warn">${t}</div>`).join('')}</div>`:''}
   <div class="card flush"><div class="hd" style="padding:14px 14px 0"><h2>Partidos</h2><div class="sp"></div><a class="btn soft sm" href="#/partidos">Todos</a></div>${ps.map(p=>matchRow(p,byP[p.i]||0)).join('')}</div>
  </div></div>`}};

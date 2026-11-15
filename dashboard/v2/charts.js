@@ -21,7 +21,7 @@ function hitBars(rows){if(!rows.length)return'<div class="empty sm">Sin líneas 
   <div class="sm" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(r.l)}</div>
   <div style="position:relative;height:18px;background:#EEF0F3;border-radius:4px"><div style="width:${r.n?r.hit*100:0}%;height:100%;background:#1877F2;border-radius:4px"></div>${r.imp!=null?`<div style="position:absolute;top:-3px;bottom:-3px;left:${r.imp*100}%;width:2px;background:#1C1E21"></div>`:''}</div>
   <div class="sm num r"><b>${pc(r.hit)}</b> <span class="mut">n ${r.n}</span></div></div>`});
- return s+'</div><div class="legend" style="margin-top:6px"><span><i style="background:#1877F2"></i>se dio</span><span><i style="background:#1C1E21;width:2px;height:12px"></i>lo que decía la cuota</span><span>más claro = menos de 20 líneas</span></div>'}
+ return s+'</div><div class="legend" style="margin-top:6px"><span><i style="background:#1877F2"></i>se dio</span>'+(rows.some(r=>r.imp!=null)?'<span><i style="background:#1C1E21;width:2px;height:12px"></i>lo que decía la cuota</span>':'')+'<span>más claro = menos de 20 líneas</span></div>'}
 /* calibración: bins [{x(p dicha), y(real), n}] */
 function calibChart(bins){const W=400,H=230,l=34,b=28,t=10,r=10,pw=W-l-r,ph=H-t-b,X=v=>l+pw*v,Y=v=>t+ph-ph*v;let s=`<svg class="ch" viewBox="0 0 ${W} ${H}" role="img" aria-label="calibración">`;
  [0,.25,.5,.75,1].forEach(v=>{s+=`<line x1="${l}" x2="${W-r}" y1="${Y(v)}" y2="${Y(v)}" stroke="#EEF0F3"/><text x="${l-5}" y="${Y(v)+4}" text-anchor="end">${v*100}</text><text x="${X(v)}" y="${H-10}" text-anchor="middle">${v*100}</text>`});
@@ -39,4 +39,4 @@ function heat(rl,cl,cell){let s=`<div class="heat" style="grid-template-columns:
 function lineAcc(pts){if(pts.length<2)return'<div class="empty sm">Aún no hay suficientes boletos cerrados para una curva.</div>';const W=400,H=150,l=8,r=8,t=14,b=14,mn=Math.min(0,...pts.map(p=>p.y)),mx=Math.max(0,...pts.map(p=>p.y)),sp=(mx-mn)||1,X=k=>l+(W-l-r)*k/(pts.length-1),Y=v=>t+(H-t-b)*(1-(v-mn)/sp);
  let s=`<svg class="ch" viewBox="0 0 ${W} ${H}"><line x1="${l}" x2="${W-r}" y1="${Y(0)}" y2="${Y(0)}" stroke="#CED0D4"/><polyline fill="none" stroke="#1877F2" stroke-width="2" points="${pts.map((p,k)=>X(k)+','+Y(p.y)).join(' ')}"/>`;
  pts.forEach((p,k)=>{s+=`<g class="bar" data-tip="${esc(p.tip)}"><circle cx="${X(k)}" cy="${Y(p.y)}" r="11" fill="transparent"/><circle cx="${X(k)}" cy="${Y(p.y)}" r="4" fill="#1877F2" stroke="#fff" stroke-width="2"/></g>`});
- const last=pts[pts.length-1];return s+`<text class="val" x="${W-r}" y="${Math.max(12,Y(last.y)-8)}" text-anchor="end">${cop(last.y)}</text></svg>`}
+ const last=pts[pts.length-1];return s+`<text class="val" x="${W-r}" y="${Math.max(12,Y(last.y)-8)}" text-anchor="end">${last.y<0?'−':''}${cop(Math.abs(last.y))}</text></svg>`}

@@ -47,6 +47,12 @@ Al final de **cada petición que cambie datos** (recolección, análisis, inform
 2. Hacer el push **a `main`** (es la rama de trabajo normal; ver Entregas). Ese push es lo que actualiza el link. Nunca `--force`; si lo rechaza: `git pull --rebase origin main` y reintentar. Una sesión que, por lo que sea, trabaje en otra rama, la lleva a `main` por avance simple (`git push origin HEAD:main`) al terminar.
 3. Decir en una línea que el link ya muestra lo nuevo (tarda ~1 min). Si el push a `main` no fue posible, decirlo: el link queda con lo anterior.
 Nada de claves ni cookies en el repo (es público); no escribir credenciales en ningún archivo.
+**Histórico completo (desde el 4-nov) en el dashboard, pestaña «Histórico»:** de dónde sale cada cosa y qué hay que dejar al día.
+- 4–8 nov: `registro/historico_libro.json` (extraído del libro con `python3 recoleccion/libro_a_json.py`; solo se vuelve a correr si se corrige el libro).
+- 9–14 nov en adelante, **cada balance debe dejar** `jornadas/AAAA-MM-DD/balance/boletos_betano.json` (boletos leídos de Betano), `patas_calificadas.json` (pata por pata, ✓/✗ y valor real) y `pendientes.json`; el dashboard los toma solos. Sin esos archivos el boleto no aparece.
+- Picks 9–12: `registro/historial_lineas.csv`; líneas del pipeline: `registro/lineas.csv`; sugerencias: `registro/sugerencias.csv`; documentos: `entregas/` y `registro/BITACORA.md`.
+- **Cuidado con la cuota de la pata:** en un Bet Builder Betano da un solo precio al grupo; el libro lo repite en cada selección. Solo las selecciones con precio propio sirven para calcular precio o ganancia (el dashboard ya lo marca); los aciertos sí cuentan todas.
+- Prueba: `python3 pruebas/test_dashboard.py`.
 
 ## Informes en HTML interactivo (valen para CUALQUIER chat, cuenta o sesión)
 Los informes, análisis y balances de una jornada **no se entregan como texto plano**: se entregan como **HTML interactivo** (filtros, gráficos, cupón), hecho con el generador del repo, no a mano:
@@ -71,7 +77,7 @@ Las conclusiones sobre los filtros/criterios de tipsters se sacan en estos balan
 
 ## Cómo se corre
 - Dependencias: `pip install -r requirements.txt` (numpy, scipy; sin scipy el modelo falla).
-- Modelo: `python3 -m supermodelo <entrada.json>`  ·  pruebas: `python3 pruebas/test_modelo.py`, `python3 pruebas/test_ficha.py` y `python3 pruebas/test_betano.py` y `python3 pruebas/test_recoleccion.py`
+- Modelo: `python3 -m supermodelo <entrada.json>`  ·  pruebas: `python3 pruebas/test_modelo.py`, `python3 pruebas/test_ficha.py` y `python3 pruebas/test_betano.py`, `python3 pruebas/test_recoleccion.py` y `python3 pruebas/test_dashboard.py`
 - Ficha por mercado: `python3 recoleccion/ficha.py <entrada.json> [carpeta_salida]`
 - Flujo de un partido: ver `.claude/skills/analizar-partido/SKILL.md`. Resultados y calificación: `.claude/skills/registrar-resultados/SKILL.md`.
 - Recolección desde el navegador de su computador: Betano (`recoleccion/betano_extraer.js` + `betano.py`, verificado), contexto en Flashscore (preferida por el usuario) o Sofascore (hoy da 403), árbitro en B-Soccer. Detalle: `recoleccion/README.md`.

@@ -28,7 +28,7 @@ svg.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke
 .card{background:var(--card);border-radius:var(--r);box-shadow:var(--sh);padding:16px;margin:0 0 14px}
 .card.flush{padding:0;overflow:hidden}.card .hd{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}.card .hd h2{margin:0}
 .grid{display:grid;gap:14px}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
-.grid>.card{margin:0}
+.grid>.card{margin:0}.grid>*{min-width:0}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .btn{border:0;border-radius:8px;background:#E4E6EB;padding:8px 14px;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;gap:6px;white-space:nowrap;min-height:36px}
 .btn:hover{background:#D8DADF}.btn.pri{background:var(--blue);color:#fff}.btn.pri:hover{background:var(--blue2)}.btn.soft{background:var(--soft);color:var(--blue)}.btn.soft:hover{background:#DBE7F2}
@@ -48,7 +48,7 @@ input[type=number]{width:84px}input.srch{border:0;background-color:var(--bg);pad
 .filters{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:14px}
 .kpi{background:#fff;border-radius:var(--r);box-shadow:var(--sh);padding:12px 14px}.kpi .v{font-size:26px;font-weight:700;line-height:1.15;letter-spacing:-.3px}.kpi .l{font-size:13px;color:var(--mut)}.kpi .s{font-size:12px;color:var(--mut);margin-top:2px}
-.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}
+.tw{overflow-x:auto}td.num{white-space:nowrap}table{border-collapse:collapse;width:100%;font-size:14px}
 th{font-size:12px;color:var(--mut);font-weight:600;text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap;background:#fff;position:sticky;top:0}
 th[data-sort]{cursor:pointer}th[data-sort]:hover{color:var(--ink)}th.sorted{color:var(--blue)}
 td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}tr:last-child td{border-bottom:0}

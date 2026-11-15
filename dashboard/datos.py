@@ -176,11 +176,28 @@ def construir(jornadas=None):
                       rs, real(r['nota']), f(r['stake'], 0), f(r['cuota_cierre']), cf, r['alerta_modelo'], r['cuotas_leidas'][:16]])
     # boletos
     bol = {}
+    HLIB = {}
+    pl = os.path.join(RAIZ, 'registro', 'historico_libro.json')
+    if os.path.exists(pl):
+        HLIB = json.load(open(pl, encoding='utf8'))
+    por_cod = {}
+    for sl in HLIB.get('selecciones', []):
+        por_cod.setdefault(sl['codigo'], []).append(sl)
+    pcs_libro = {}
+    for bl in HLIB.get('boletos', []):
+        sels = por_cod.get(bl['codigo'], [])
+        pt = [(f"{x['seleccion']} · {x['partido']}" + (f" ({x['marcador']})" if x['marcador'] else ''),
+               '✓' if x['resultado'] == 'Ganó' else '✗' if x['resultado'] == 'Perdió' else '?', str(x['valor_real']) if x['valor_real'] is not None else '–') for x in sels]
+        bol[bl['n']] = {'n': bl['n'], 'fecha': bl['fecha'], 'hora': bl['hora'], 'tipo': bl['tipo'], 'stake': bl['stake'], 'gratis': bl['gratis'], 'cuota': bl['cuota'],
+                        'resultado': bl['resultado'], 'cobrado': bl['cobrado'], 'partidos': bl['partidos'] or '', 'patas': ' · '.join(x['seleccion'] for x in sels),
+                        'extra': {'vivo': bl['vivo'], 'et': bl['etiqueta'], 'qp': bl['que_paso'], 'mj': bl['mejor'], 'ligas': bl['ligas'], 'mk': bl['mercados']}}
+        if pt:
+            pcs_libro[str(bl['n'])] = {'falla': bl['que_paso'] if bl['resultado'] == 'Perdida' else '', 'patas': [list(q) for q in pt]}
     for p in [os.path.join(RAIZ, 'registro', 'boletos_9-12nov.json')] + sorted(glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'balance', 'boletos_betano.json'))):
         d = json.load(open(p, encoding='utf8'))
         for b in d['boletos']:
             bol[b['n']] = b
-    pcs = {}
+    pcs = dict(pcs_libro)
     for p in glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'balance', 'patas_calificadas.json')):
         pcs.update(json.load(open(p, encoding='utf8')))
     B = []
@@ -188,8 +205,8 @@ def construir(jornadas=None):
         b = bol[n]
         if jornadas and b.get('fecha', '')[:10] not in fechas and not any(x in str(b.get('fecha', '')) for x in fechas):
             continue
-        B.append([n, b.get('fecha', ''), b.get('hora', ''), b.get('tipo', ''), b.get('stake', 0), b.get('gratis', False), b.get('cuota', 0), b.get('resultado', ''), b.get('cobrado', 0),
-                  b.get('partidos', ''), b.get('patas', ''), pcs.get(str(n))])
+        B.append([n, b.get('fecha', ''), b.get('hora', ''), b.get('tipo', ''), b.get('stake', 0), b.get('gratis', False), b.get('cuota', 0), 'Cash out' if str(b.get('resultado', '')).lower() == 'cash out' else b.get('resultado', ''), b.get('cobrado', 0),
+                  b.get('partidos', ''), b.get('patas', ''), pcs.get(str(n)), b.get('extra')])
     abiertas = []
     for p in glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'balance', 'pendientes.json')):
         if jornadas and os.path.relpath(p, os.path.join(RAIZ, 'jornadas')).split(os.sep)[0][:10] not in fechas:
@@ -211,7 +228,7 @@ def construir(jornadas=None):
     for r in rd(os.path.join(RAIZ, 'registro', 'historial_lineas.csv')):
         if jornadas:
             break
-        HL.append([r['fecha_partido'], r['partido'], r['mercado_linea'], f(r['cuota']), f(r['p_modelo']), f(r['p_mercado']), f(r['ev']), RS.get(r['resultado'], ''), r['modelo'][:60]])
+        HL.append([r['fecha_partido'], r['partido'], r['mercado_linea'], f(r['cuota']), f(r['p_modelo']), f(r['p_mercado']), f(r['ev']), RS.get(r['resultado'], ''), r['modelo'][:60], r['tipo']])
     # documentos
     docs = []
     pat = (glob.glob(os.path.join(RAIZ, 'entregas', '**', '*.md'), recursive=True) + glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'ESTADO.md')) + glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'enfoque.md'))
@@ -229,12 +246,22 @@ def construir(jornadas=None):
         tipo = 'entrega' if rel.startswith('entregas') else 'estado' if rel.endswith('ESTADO.md') else 'enfoque/reanálisis' if ('enfoque' in rel or 'reanalisis' in rel) else 'informe' if 'informe' in rel else 'proyecto'
         docs.append([rel, titulo, tipo, m.group(1) if m else '', t[:60000]])
     htmls = [[os.path.relpath(p, RAIZ), os.path.getsize(p) // 1024] for p in sorted(glob.glob(os.path.join(RAIZ, 'entregas', '**', '*.html'), recursive=True)) if not jornadas or os.path.relpath(p, RAIZ).split(os.sep)[1][:10] in fechas]
+    HIST = None
+    if HLIB and not jornadas:
+        gsz = {}
+        for x in HLIB['selecciones']:      # en un Bet Builder la «cuota de la pata» es el precio del grupo repetido: solo las selecciones únicas en su grupo tienen precio propio
+            gsz[(x['boleto'], x['cuota_pata'], x['partido'])] = gsz.get((x['boleto'], x['cuota_pata'], x['partido']), 0) + 1
+        HIST = {'periodo': HLIB.get('periodo'), 'fuente': HLIB.get('fuente'),
+                'sel': [[x['boleto'], x['fecha'], x['partido'], x['liga'], x['marcador'], x['familia'], x['ambito'], x['lado'], x['linea'], x['valor_real'], x['resultado'],
+                         x['cuota_pata'], x['tipo_boleto'], x['vivo'], x['seleccion'], x['mercado_betano'], gsz[(x['boleto'], x['cuota_pata'], x['partido'])]] for x in HLIB['selecciones']],
+                'par': HLIB['partidos'], 'ban': [[x['fecha'], x['tipo'], x['codigo'], x['monto'], x['saldo']] for x in HLIB['banca']], 'cierre': HLIB.get('banca_cierre'),
+                'lec': HLIB['lecciones'], 'reg': HLIB['reglas']}
     metodos = rd(os.path.join(RAIZ, 'registro', 'metodos.csv'))
     estados = {j: open(os.path.join(RAIZ, 'jornadas', j, 'ESTADO.md'), encoding='utf8').read()[:6000] for j in jors if os.path.exists(os.path.join(RAIZ, 'jornadas', j, 'ESTADO.md'))}
     nmax = nmax or FI.N
     ahora = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-5))).strftime('%d-%b-%Y %H:%M')
     return {'gen': ahora, 'jors': jors, 'P': P, 'L': L, 'J': Jg, 'SER': SER, 'META': META, 'HIS': HIS, 'JR': JR, 'B': B, 'abiertas': abiertas, 'S': S, 'HL': HL, 'docs': docs, 'htmls': htmls,
-            'metodos': [[m['fecha'], m['modelo_o_forma'], m['que_se_entrego'][:200], m['medido'][:300], m['limites'][:200]] for m in metodos], 'estados': estados,
+            'HIST': HIST, 'metodos': [[m['fecha'], m['modelo_o_forma'], m['que_se_entrego'][:200], m['medido'][:300], m['limites'][:200]] for m in metodos], 'estados': estados,
             'N': nmax, 'NH': FI.N_H2H, 'K': FI.CUMPLE if nmax >= FI.N else max(1, round(FI.CUMPLE * nmax / FI.N)), 'MN': FI.MIN_N if nmax >= FI.N else max(1, round(FI.MIN_N * nmax / FI.N)), 'UNIT': 3700}
 
 
