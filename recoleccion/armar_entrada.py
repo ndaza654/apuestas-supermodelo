@@ -67,7 +67,22 @@ def h2h_de(directos, hoy=None, anos=H2H_ANOS):
 
 def _norm(x):
     x = unicodedata.normalize('NFD', x or '')
-    return re.sub(r'[^a-z0-9 ]+', ' ', ''.join(c for c in x if unicodedata.category(c) != 'Mn').lower().replace('đ', 'd').replace('ł', 'l')).split()
+    return re.sub(r'[^a-z0-9 ]+', ' ', ''.join(c for c in x if unicodedata.category(c) != 'Mn').lower().replace('đ', 'd').replace('ł', 'l').replace('ı', 'i').replace('ø', 'o').replace('ß', 'ss')).split()
+
+
+def _alias():
+    """id de Flashscore -> nombre de Betano (recoleccion/alias_jugadores.json; verificado en el perfil de Flashscore)."""
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'alias_jugadores.json')
+    return {k: v for k, v in json.load(open(f, encoding='utf8')).items() if not k.startswith('_')} if os.path.exists(f) else {}
+
+
+def candidatos(nombre_fs, pid, nombres_betano):
+    """Nombres de Betano que corresponden a un jugador de Flashscore. Con id en el alias: ese nombre (si Betano lo ofrece).
+    Si no, coincidencia por apellido+inicial; si hay más de uno NO se escoge (se devuelve la lista y el llamador lo declara)."""
+    a = _alias().get(pid)
+    if a:
+        return [n for n in nombres_betano if n == a]
+    return [n for n in nombres_betano if coincide(nombre_fs, n)]
 
 
 def coincide(nombre_flashscore, nombre_betano):
@@ -94,11 +109,11 @@ def jugadores_de(lu, betano, hora_lectura=''):
     fuente = f"Flashscore «{lu.get('tipo') or 'alineaciones probables'}»" + (f' leída {hora_lectura}' if hora_lectura else '')
     for lado_fs, lado in (('L', 'local'), ('V', 'visitante')):
         for p in lu['probables'].get(lado_fs, []):
-            cas = [n for n, ld in nombres if coincide(p['n'], n) and (ld in (lado, lado[0].upper(), None))]
-            if cas:
+            cas = candidatos(p['n'], p.get('pid'), [n for n, ld in nombres if ld in (lado, lado[0].upper(), None)])
+            if len(cas) == 1:
                 out.append({'nombre': cas[0], 'lado': lado, 'titular': 0.9, 'minutos': 80, 'fuentes_xi': '1/1', 'fuente': fuente})
             else:
-                sin_casar.append(p['n'])
+                sin_casar.append(p['n'] + (' (ambiguo: ' + ' / '.join(cas) + ')' if len(cas) > 1 else ''))
         for p in lu.get('bajas', {}).get(lado_fs, []):
             cas = [n for n, ld in nombres if coincide(p['n'], n)]
             for n in cas[:1]:
@@ -116,7 +131,9 @@ def hist_de(jug, betano):
     out, sin = {}, []
     nombres = sorted({j['jugador'] for j in betano.get('jugadores', [])})
     for fs_n, d in (jug or {}).items():
-        cas = [n for n in nombres if coincide(fs_n, n)]
+        lado = {'L': 'local', 'V': 'visitante'}.get(d.get('lado'))
+        propios = sorted({j['jugador'] for j in betano.get('jugadores', []) if (lado is None or j.get('lado') in (lado, lado[0].upper(), None))}) or nombres
+        cas = candidatos(fs_n, d.get('pid'), propios)
         if len(cas) != 1:
             if d.get('p'):
                 sin.append(fs_n)

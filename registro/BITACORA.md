@@ -153,3 +153,9 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Entregado: `entregas/2026-11-14/1940_dashboard-prototipos.md` y tres HTML (A «Mando», B «Móvil», C «Laboratorio»). Código en `dashboard/` (`datos.py`, `src/`, `construir_prototipos.py`); plan en `docs/PLAN_DASHBOARD.md`.
 - Mismo motor, 16 páginas, datos del repo en memoria; cambia navegación/densidad. Probado con Playwright a 1440 y 390 px sin errores de consola.
 - Pendiente: que el usuario elija diseño y señale mejoras; sigue abierta la lista de decisiones (hosting, entrada de apuestas desde el celular, automatización).
+
+## 14-nov, ~21:20 · recolección de la jornada del 15-nov con historial de jugadores (regla nueva)
+- Recolectados 13 partidos del domingo (Betano 19:55, Flashscore, alineaciones 20:16). Historial por jugador completo (10 de 10 partidos por equipo) para los 5 partidos con mercado de jugador de estadística; ver `jornadas/2026-11-15/jugadores/LEEME.md` y `ESTADO.md`.
+- Regla nueva en `CLAUDE.md`, `recoleccion/README.md` y el skill `analizar-partido`: sin el historial de esos partidos la recolección no está completa.
+- Errores de código hallados y corregidos: (1) con nombres ambiguos (Bellingham, Pašalić, Esposito) el cruce escogía «el primero» y marcaba a Jobe como titular en vez de Jude; ahora se usa el id de Flashscore (`alias_jugadores.json`) y, sin alias, no se asigna; (2) la «ı» turca no se normalizaba (Çakır, Yılmaz, Kadıoğlu, Bardakcı sin historial).
+- Chipre–Montenegro sin alineación: sin recomendaciones de jugador. 8 de ~21 favoritos de las capturas no se recolectaron.

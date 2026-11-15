@@ -41,7 +41,7 @@ function cumT(t,n,K,MN,who){n=n==null?ST.N:n;K=K==null?ST.K:K;MN=MN==null?ST.MN:
 const HI=(j,m)=>{const h=j;return m==='remates'?h[2]:m==='al_arco'?h[3]:m==='faltas'?h[8]:m==='entradas'?h[9]:m==='atajadas'?(h[10]==null?null:h[10]):m==='anota'?(h[4]>=1?1:0):m==='asiste'?(h[5]>=1?1:0):m==='anota_o_asiste'?((h[4]+h[5])>=1?1:0):m==='tarjeta'?((h[6]+h[7])>=1?1:0):null};
 const hist=g=>(DB.HIS[g.p]||{})[g.j]||null;
 function pvals(g){const H=hist(g);if(!H)return null;return H.filter(x=>x[1]>0).map(x=>({v:HI(x,g.m),m:x})).filter(x=>x.v!=null)}
-function cumG(g,n,K,MN){n=n==null?(S.jug?S.jug.Nj:5):n;K=K==null?(S.jug?S.jug.Kj:3):K;MN=MN==null?(S.jug?S.jug.MNj:3):MN;const a=pvals(g);if(!a)return null;const w=a.slice(0,n),c=w.filter(x=>x.v>=g.l).length;return{c,n:w.length,ok:w.length>=MN&&c>=K}}
+function cumG(g,n,K,MN){n=n==null?(S.jug?S.jug.Nj:10):n;K=K==null?(S.jug?S.jug.Kj:7):K;MN=MN==null?(S.jug?S.jug.MNj:7):MN;const a=pvals(g);if(!a)return null;const w=a.slice(0,n),c=w.filter(x=>x.v>=g.l).length;return{c,n:w.length,ok:w.length>=MN&&c>=K}}
 /* ---- estadística ---- */
 const isG=x=>x.rs==='C'||x.rs==='F'||x.rs==='MG'||x.rs==='MP';
 const retOf=x=>x.rs==='C'?x.c-1:x.rs==='F'?-1:x.rs==='MG'?(x.c-1)/2:x.rs==='MP'?-.5:null;

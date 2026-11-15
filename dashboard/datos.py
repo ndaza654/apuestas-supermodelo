@@ -7,6 +7,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(RAIZ, 'recoleccion'))
 import ficha as FI
 import calificar_jugadores as CJ
+import armar_entrada as AE
 
 STAT = {'corners': 'c', 'goles': 'g', 'tarjetas': 'y', 'remates': 'sh', 'al_arco': 'sot', 'faltas': 'f', 'fueras': 'off', 'saques_banda': 'ti', 'saques_meta': 'gk'}
 RS = {'cumplió': 'C', 'falló': 'F', 'media ganada': 'MG', 'media perdida': 'MP', 'nula': 'N'}
@@ -144,10 +145,15 @@ def construir(jornadas=None):
             pj = os.path.join(base, 'jugadores', (sl or '_') + '.json')
             if os.path.exists(pj):
                 H = json.load(open(pj, encoding='utf8'))
-                nombres = sorted({r['jugador'] for r in filas if r['jornada'] == j and r['partido'] == n and r['jugador']})
+                por_lado = {'L': sorted({r['jugador'] for r in filas if r['jornada'] == j and r['partido'] == n and r['jugador'] and r['ambito'] == 'local'}),
+                            'V': sorted({r['jugador'] for r in filas if r['jornada'] == j and r['partido'] == n and r['jugador'] and r['ambito'] == 'visitante'})}
                 sal = {}
                 for fs_n, d in H.items():
-                    b = CJ.casar_flashscore(fs_n, nombres)
+                    pl = por_lado.get(d.get('lado')) or sorted(set(por_lado['L']) | set(por_lado['V']))
+                    cas = AE.candidatos(fs_n, d.get('pid'), pl)          # mismo cruce que el análisis: id verificado o apellido+inicial
+                    if len(cas) > 1:
+                        continue                                          # ambiguo sin alias: no se asigna
+                    b = cas[0] if cas else CJ.casar_flashscore(fs_n, pl)
                     if b and d.get('p'):
                         sal[b] = [[x[1]] + x[2:11] + ([x[11]] if len(x) > 11 else [0]) for x in d['p']]
                 if sal:
