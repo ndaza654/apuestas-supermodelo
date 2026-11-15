@@ -1,0 +1,46 @@
+name: Dashboard
+
+# Cada push a main reconstruye el dashboard con TODO el registro y lo publica en GitHub Pages.
+# Sin red ni claves: solo lee los archivos del repo (registro/, jornadas/).
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Construir el dashboard
+        run: |
+          mkdir -p _sitio
+          python3 dashboard/construir_v2.py _sitio/index.html
+          touch _sitio/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _sitio
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4

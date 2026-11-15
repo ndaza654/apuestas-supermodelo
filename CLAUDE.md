@@ -40,6 +40,14 @@ Todo **informe, análisis, balance, combinada, lectura en vivo o resumen con lí
 4. Al terminar la respuesta, decir en una línea que quedó guardada y dónde.
 No se guardan las respuestas cortas o de conversación (sin líneas, probabilidades ni balances). Si una sesión no tiene acceso a git, decirlo y dejar el texto en el chat para que el usuario lo guarde. `entregas/` no reemplaza a `registro/` (datos para calificar) ni a `jornadas/` (datos y salidas del pipeline).
 
+## Dashboard en línea (desde el 15-nov-2026, vale para CUALQUIER chat, cuenta o sesión)
+El dashboard v2 «Mando» tiene un **link fijo**: https://ndaza654.github.io/apuestas-supermodelo/ (GitHub Pages, repo público por decisión del usuario). Lo reconstruye solo `.github/workflows/dashboard.yml` en **cada push a `main`**, con `dashboard/construir_v2.py` sobre TODO el registro (`registro/` + `jornadas/`). No se rehace a mano ni se manda el HTML por el chat: los datos solo se **agregan** (jornadas nuevas, resultados que se completan) y el script los empaqueta.
+Al final de **cada petición que cambie datos** (recolección, análisis, informe, balance, calificación, apuestas) además de la regla de Entregas:
+1. Dejar `registro/`, `jornadas/` y `entregas/` al día y comprobar que `python3 dashboard/construir_v2.py /tmp/d.html` corre sin error.
+2. Pasar `main` a la rama en uso **por avance simple** (`git push origin HEAD:main`; nunca `--force`). Si lo rechaza: `git pull --rebase origin main` y reintentar. Esto es lo que actualiza el link; la rama de trabajo sigue existiendo.
+3. Decir en una línea que el link ya muestra lo nuevo (tarda ~1 min). Si el push a `main` no fue posible, decirlo: el link queda con lo anterior.
+Nada de claves ni cookies en el repo (es público); no escribir credenciales en ningún archivo.
+
 ## Informes en HTML interactivo (valen para CUALQUIER chat, cuenta o sesión)
 Los informes, análisis y balances de una jornada **no se entregan como texto plano**: se entregan como **HTML interactivo** (filtros, gráficos, cupón), hecho con el generador del repo, no a mano:
 - `python3 recoleccion/informe_html.py jornadas/AAAA-MM-DD` → `jornadas/AAAA-MM-DD/informe.html` (lo genera también `correr_jornada.py` al final de la etapa 2). Lee `registro/lineas.csv` + `ranking.json` + `ESTADO.md`; autónomo (sin red); pestañas Resumen, Líneas de equipo, Jugadores, Cupón y Datos y límites; filtros por partido, mercado, ámbito, lado, cuota, p modelo, EV, cumple ≥7 de 10, titular y búsqueda; el colchón es informativo y no oculta ninguna línea.
