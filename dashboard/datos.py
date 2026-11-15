@@ -212,6 +212,9 @@ def construir(jornadas=None):
         for b in d['boletos']:
             bol[b['n']] = b
     pcs = dict(pcs_libro)
+    p9 = os.path.join(RAIZ, 'registro', 'patas_calificadas_9-12nov.json')      # boletos 52–64 (recoleccion/historico_extra.py)
+    if os.path.exists(p9):
+        pcs.update(json.load(open(p9, encoding='utf8')))
     for p in glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'balance', 'patas_calificadas.json')):
         pcs.update(json.load(open(p, encoding='utf8')))
     B = []
@@ -262,13 +265,19 @@ def construir(jornadas=None):
     htmls = [[os.path.relpath(p, RAIZ), os.path.getsize(p) // 1024] for p in sorted(glob.glob(os.path.join(RAIZ, 'entregas', '**', '*.html'), recursive=True)) if not jornadas or os.path.relpath(p, RAIZ).split(os.sep)[1][:10] in fechas]
     HIST = None
     if HLIB and not jornadas:
+        sels, pars = list(HLIB['selecciones']), list(HLIB['partidos'])
+        pe = os.path.join(RAIZ, 'registro', 'historico_9-15nov.json')        # 9–15 nov (recoleccion/historico_extra.py): el libro solo cubre 4–8
+        if os.path.exists(pe):
+            ex = json.load(open(pe, encoding='utf8'))
+            sels += ex['selecciones']
+            pars += ex['partidos']
         gsz = {}
-        for x in HLIB['selecciones']:      # en un Bet Builder la «cuota de la pata» es el precio del grupo repetido: solo las selecciones únicas en su grupo tienen precio propio
+        for x in sels:      # en un Bet Builder la «cuota de la pata» es el precio del grupo repetido: solo las selecciones únicas en su grupo tienen precio propio
             gsz[(x['boleto'], x['cuota_pata'], x['partido'])] = gsz.get((x['boleto'], x['cuota_pata'], x['partido']), 0) + 1
         HIST = {'periodo': HLIB.get('periodo'), 'fuente': HLIB.get('fuente'),
                 'sel': [[x['boleto'], x['fecha'], x['partido'], x['liga'], x['marcador'], x['familia'], x['ambito'], x['lado'], x['linea'], x['valor_real'], x['resultado'],
-                         x['cuota_pata'], x['tipo_boleto'], x['vivo'], x['seleccion'], x['mercado_betano'], gsz[(x['boleto'], x['cuota_pata'], x['partido'])]] for x in HLIB['selecciones']],
-                'par': HLIB['partidos'], 'ban': [[x['fecha'], x['tipo'], x['codigo'], x['monto'], x['saldo']] for x in HLIB['banca']], 'cierre': HLIB.get('banca_cierre'),
+                         x['cuota_pata'], x['tipo_boleto'], x['vivo'], x['seleccion'], x['mercado_betano'], gsz[(x['boleto'], x['cuota_pata'], x['partido'])]] for x in sels],
+                'par': pars, 'ban': [[x['fecha'], x['tipo'], x['codigo'], x['monto'], x['saldo']] for x in HLIB['banca']], 'cierre': HLIB.get('banca_cierre'),
                 'lec': HLIB['lecciones'], 'reg': HLIB['reglas']}
     metodos = rd(os.path.join(RAIZ, 'registro', 'metodos.csv'))
     estados = {j: open(os.path.join(RAIZ, 'jornadas', j, 'ESTADO.md'), encoding='utf8').read()[:6000] for j in jors if os.path.exists(os.path.join(RAIZ, 'jornadas', j, 'ESTADO.md'))}

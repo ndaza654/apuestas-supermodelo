@@ -1,14 +1,273 @@
-{"fuente":"Flashscore (feed df_st/df_su) + Sofascore (lineups/incidents), leído el 13-nov ~22:15 Bogotá. ✓ se dio · ✗ falló · ? sin dato verificable. Betano liquida a 90′: los partidos con prórroga (Estudiantes) pueden diferir.",
-"65":{"falla":"Ganada: se dieron las 3 patas (Betano liquidó a 90′; el feed trae 9 pts de tarjetas con prórroga).","patas":[["Más 7.5 córners totales","✓","10 con prórroga"],["Menos 8.5 tarjetas totales","✓","Betano la dio ganada"],["Ind. Rivadavia Más 2.5 tiros al arco","✓","4"]]},
-"66":{"falla":"No verificable: Muslera y B. Rodríguez no figuran en un partido que tenga estadística de jugador en el repo.","patas":[["Muslera 3+ atajadas","?","sin dato"],["Baltasar Rodríguez 2+ remates","?","sin dato"]]},
-"67":{"falla":"Falló: Curazao Más 0.5 goles (0-0).","patas":[["Más 2.5 tarjetas totales","✓","6 pts"],["Curazao Más 3.5 córners","✓","4"],["Curazao Más 0.5 goles","✗","0"],["Curazao +2 hándicap","✓","0-0"]]},
-"68":{"falla":"Falló (apuesta gratis): probablemente Ind. Rivadavia Más 2.5 córners; el feed marca 3 pero incluye prórroga (a 90′ ≤ 2).","patas":[["Ind. Rivadavia Más 2.5 córners","✗","3 con prórroga; inferido de la liquidación"],["Más 4.5 tarjetas totales","✓","9 pts (con prórroga)"]]},
-"69":{"falla":"Ganada.","patas":[["Más 8.5 córners","✓",""],["Más 7.5 córners","✓",""],["Más 7.5 córners","✓",""]]},
-"70":{"falla":"Falló: Menos 3.5 goles (Serbia-Alemania 1-3 = 4) y Más 9.5 córners (6). Nmecha 1+ (mercado no legible) y Wirtz faltas (umbral no legible) no se pudieron verificar.","patas":[["Menos 3.5 goles","✗","4"],["Más 9.5 córners","✗","6"],["Nmecha 1+ (mercado no legible)","?","remates 2 / al arco 0"],["Wirtz faltas cometidas","?","0 faltas"]]},
-"71":{"falla":"Falló BB2 (Grecia Más 2.5 tiros al arco: 1; Verbruggen 2+ atajadas: 1) y BB3 (Eslovenia-Suiza 0-0: Más 1.5 goles ✗). BB1 se dio.","patas":[["BB1 Escocia gana + Menos 29.5 remates totales","✓","2-1; 25 remates"],["BB2 Malen anota o asiste","✓","1 gol, 2 asist."],["BB2 Grecia Más 2.5 tiros al arco","✗","1"],["BB2 Verbruggen 2+ atajadas","✗","1"],["BB3 Eslovenia Más 2.5 córners","✓","7"],["BB3 Más 1.5 goles totales","✗","0"]]},
-"72":{"falla":"Falló: Más 3.5 tarjetas totales (1 pt) y Retsos 2+ tackles (0). McTominay 1+ al arco ✓ (2) y Más 3.5 córners 1T ✓ (7).","patas":[["BB1 McTominay 1+ tiros al arco","✓","2"],["BB1 Más 3.5 córners 1T","✓","7"],["Más 3.5 tarjetas totales","✗","1"],["Retsos 2+ tackles","✗","0"]]},
-"73":{"falla":"Falló: Más 1.5 tarjetas totales (Escocia-Macedonia: 1 pt). Macedonia Más 2.5 córners ✓ (5).","patas":[["Macedonia Más 2.5 córners","✓","5"],["Más 1.5 tarjetas totales","✗","1"]]},
-"74":{"falla":"Falló el BB: Nico Paz no anotó (0) y Argentina perdió 1-2. Menos 4.5 córners 1T ✓ (4) y Más 7.5 córners ✓ (9).","patas":[["BB Menos 4.5 córners 1T","✓","4"],["BB Nico Paz anota","✗","0"],["BB Argentina gana","✗","1-2"],["Más 7.5 córners","✓","9"]]},
-"75":{"falla":"Falló: no se pudo precisar. Ecuador Más 7.5 córners ✓ (12), Saint Martin Más 3.5 córners ✓ (5); «Más 1.5 goles» sin partido legible (si fue Colombia-Chile 1-0, ✗); Luis Suárez anota sin confirmar (Sofascore no atribuye el único gol de Colombia).","patas":[["Más 1.5 goles (partido no legible)","?","si fue Col-Chi: 1"],["Ecuador-Costa Rica Más 7.5 córners","✓","12"],["Saint Martin Más 3.5 córners","✓","5"],["Luis Suárez anota","?","Sofascore: 0 goles atribuidos"]]},
-"76":{"falla":"Ganada.","patas":[["BB Más 8.5 córners + Ambos anotan Sí","✓",""]]},
-"77":{"falla":"Ganada.","patas":[["Nicaragua gana","✓","1-2"],["Colombia Más 0.5 goles","✓","1-0"]]}}
+{
+ "fuente": "Flashscore (feed df_st/df_su) + Sofascore (lineups/incidents), leído el 13-nov ~22:15 Bogotá. ✓ se dio · ✗ falló · ? sin dato verificable. Betano liquida a 90′: los partidos con prórroga (Estudiantes) pueden diferir.",
+ "65": {
+  "falla": "Ganada: se dieron las 3 patas (Betano liquidó a 90′; el feed trae 9 pts de tarjetas con prórroga).",
+  "patas": [
+   [
+    "Más 7.5 córners totales",
+    "✓",
+    "10 con prórroga"
+   ],
+   [
+    "Menos 8.5 tarjetas totales",
+    "✓",
+    "Betano la dio ganada"
+   ],
+   [
+    "Ind. Rivadavia Más 2.5 tiros al arco",
+    "✓",
+    "4"
+   ]
+  ]
+ },
+ "66": {
+  "falla": "Muslera no llegó a 3 atajadas (Flashscore: 2 en todo el partido, con prórroga). Baltasar Rodríguez hizo 2 remates con prórroga; a 90′ no se puede verificar.",
+  "patas": [
+   [
+    "Muslera 3+ atajadas",
+    "✗",
+    "2"
+   ],
+   [
+    "Baltasar Rodríguez 2+ remates",
+    "?",
+    "2 con prórroga"
+   ]
+  ]
+ },
+ "67": {
+  "falla": "Falló: Curazao Más 0.5 goles (0-0).",
+  "patas": [
+   [
+    "Más 2.5 tarjetas totales",
+    "✓",
+    "6 pts"
+   ],
+   [
+    "Curazao Más 3.5 córners",
+    "✓",
+    "4"
+   ],
+   [
+    "Curazao Más 0.5 goles",
+    "✗",
+    "0"
+   ],
+   [
+    "Curazao +2 hándicap",
+    "✓",
+    "0-0"
+   ]
+  ]
+ },
+ "68": {
+  "falla": "Falló (apuesta gratis): probablemente Ind. Rivadavia Más 2.5 córners; el feed marca 3 pero incluye prórroga (a 90′ ≤ 2).",
+  "patas": [
+   [
+    "Ind. Rivadavia Más 2.5 córners",
+    "✗",
+    "3 con prórroga; inferido de la liquidación"
+   ],
+   [
+    "Más 4.5 tarjetas totales",
+    "✓",
+    "9 pts (con prórroga)"
+   ]
+  ]
+ },
+ "69": {
+  "falla": "Ganada.",
+  "patas": [
+   [
+    "Más 8.5 córners",
+    "✓",
+    ""
+   ],
+   [
+    "Más 7.5 córners",
+    "✓",
+    ""
+   ],
+   [
+    "Más 7.5 córners",
+    "✓",
+    ""
+   ]
+  ]
+ },
+ "70": {
+  "falla": "Falló: Menos 3.5 goles (Serbia-Alemania 1-3 = 4) y Más 9.5 córners (6). Nmecha 1+ (mercado no legible) y Wirtz faltas (umbral no legible) no se pudieron verificar.",
+  "patas": [
+   [
+    "Menos 3.5 goles",
+    "✗",
+    "4"
+   ],
+   [
+    "Más 9.5 córners",
+    "✗",
+    "6"
+   ],
+   [
+    "Nmecha 1+ (mercado no legible)",
+    "?",
+    "remates 2 / al arco 0"
+   ],
+   [
+    "Wirtz faltas cometidas",
+    "?",
+    "0 faltas"
+   ]
+  ]
+ },
+ "71": {
+  "falla": "Falló BB2 (Grecia Más 2.5 tiros al arco: 1; Verbruggen 2+ atajadas: 1) y BB3 (Eslovenia-Suiza 0-0: Más 1.5 goles ✗). BB1 se dio.",
+  "patas": [
+   [
+    "BB1 Escocia gana + Menos 29.5 remates totales",
+    "✓",
+    "2-1; 25 remates"
+   ],
+   [
+    "BB2 Malen anota o asiste",
+    "✓",
+    "1 gol, 2 asist."
+   ],
+   [
+    "BB2 Grecia Más 2.5 tiros al arco",
+    "✗",
+    "1"
+   ],
+   [
+    "BB2 Verbruggen 2+ atajadas",
+    "✗",
+    "1"
+   ],
+   [
+    "BB3 Eslovenia Más 2.5 córners",
+    "✓",
+    "7"
+   ],
+   [
+    "BB3 Más 1.5 goles totales",
+    "✗",
+    "0"
+   ]
+  ]
+ },
+ "72": {
+  "falla": "Falló: Más 3.5 tarjetas totales (Eslovenia–Suiza: 2 pts) y Retsos 2+ tackles (0). McTominay 1+ al arco ✓ (2) y Más 3.5 córners 1T ✓ (7).",
+  "patas": [
+   [
+    "BB1 McTominay 1+ tiros al arco",
+    "✓",
+    "2"
+   ],
+   [
+    "BB1 Más 3.5 córners 1T",
+    "✓",
+    "7"
+   ],
+   [
+    "Más 3.5 tarjetas totales (Eslovenia–Suiza)",
+    "✗",
+    "2"
+   ],
+   [
+    "Retsos 2+ tackles",
+    "✗",
+    "0"
+   ]
+  ]
+ },
+ "73": {
+  "falla": "Falló: Más 1.5 tarjetas totales (Países Bajos–Grecia: 0 pts). Macedonia Más 2.5 córners ✓ (5).",
+  "patas": [
+   [
+    "Macedonia Más 2.5 córners",
+    "✓",
+    "5"
+   ],
+   [
+    "Más 1.5 tarjetas totales (Países Bajos–Grecia)",
+    "✗",
+    "0"
+   ]
+  ]
+ },
+ "74": {
+  "falla": "Falló el BB: Nico Paz no anotó (0) y Argentina perdió 1-2. Menos 4.5 córners 1T ✓ (4); Más 7.5 córners de Saint Martin–El Salvador ✗ (5; antes figuraba ✓ con 9, que eran los de Argentina–Uruguay).",
+  "patas": [
+   [
+    "BB Menos 4.5 córners 1T",
+    "✓",
+    "4"
+   ],
+   [
+    "BB Nico Paz anota",
+    "✗",
+    "0"
+   ],
+   [
+    "BB Argentina gana",
+    "✗",
+    "1-2"
+   ],
+   [
+    "Más 7.5 córners (Saint Martin–El Salvador)",
+    "✗",
+    "5"
+   ]
+  ]
+ },
+ "75": {
+  "falla": "Falló Luis Suárez anota (Colombia–Chile; Sofascore no le atribuye el único gol). Argentina–Uruguay Más 1.5 goles ✓ (3), Ecuador Más 7.5 córners ✓ (12), Saint Martin Más 3.5 córners ✓ (5).",
+  "patas": [
+   [
+    "Argentina–Uruguay Más 1.5 goles",
+    "✓",
+    "3"
+   ],
+   [
+    "Ecuador-Costa Rica Más 7.5 córners",
+    "✓",
+    "12"
+   ],
+   [
+    "Saint Martin Más 3.5 córners",
+    "✓",
+    "5"
+   ],
+   [
+    "Luis Suárez anota",
+    "?",
+    "Sofascore: 0 goles atribuidos"
+   ]
+  ]
+ },
+ "76": {
+  "falla": "Ganada.",
+  "patas": [
+   [
+    "BB Más 8.5 córners + Ambos anotan Sí",
+    "✓",
+    ""
+   ]
+  ]
+ },
+ "77": {
+  "falla": "Ganada.",
+  "patas": [
+   [
+    "Nicaragua gana",
+    "✓",
+    "1-2"
+   ],
+   [
+    "Colombia Más 0.5 goles",
+    "✓",
+    "1-0"
+   ]
+  ]
+ }
+}

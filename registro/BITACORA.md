@@ -205,3 +205,10 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Corrección: `calificar_jugadores.py` no reconocía la «ı» turca y anulaba como «no jugó» a Bardakcı, Yılmaz y Kadıoğlu.
 - Pendiente: Panamá–Curazao (18:00); goleador/tarjeta por jugador de 7 partidos sin leer; tarjetas de Jamaica–México no vienen en el feed.
 
+
+## 15-nov-2026 ~18:20 · Histórico reorganizado: selecciones, picks y partidos de todos los días (4–15 nov)
+- Problema: Selecciones y Partidos solo traían el 4–8-nov (libro) y Picks solo el 9 y 11. Ahora cada pestaña cubre 4–15-nov y el Resumen trae «Día por día» (boletos, selecciones, partidos con estadísticas, líneas analizadas, sugerencias, documentos) para ver de un vistazo qué hay de cada día.
+- Datos nuevos: `registro/crudo_partidos/2026-11-09…15.txt` (77 partidos leídos de los feeds de Flashscore, estadísticas por tiempo y árbitro), `recoleccion/historico_extra.py` → `registro/historico_9-15nov.json` (168 selecciones de los boletos 52–94 y 79 partidos) y `registro/patas_calificadas_9-12nov.json`.
+- Rectificaciones en `patas_calificadas.json`: 13-nov entradas 66, 72, 73, 74 (Más 7,5 córners marcado ✓ con el 9 de otro partido; real 5 en Saint Martin–El Salvador → ✗), 75; 14-nov entrada 78.
+- Banca: del 4 al 8-nov el saldo real viene del libro; del 9 al 15 se derivó de los boletos (apostado/cobrado), porque la sesión de Betano está cerrada y no se entró con credenciales.
+- Límites declarados: (1) los picks del 4–8-nov eran del modelo viejo y sus líneas por partido no quedaron en el repo (solo el agregado: 72 de 151); (2) 10-nov sin entrega del modelo; (3) Sheffield Wednesday–Accrington y Barnsley–Oldham con estadísticas parciales; (4) Guerreros del Pacífico–FC Santiago sin lista de Flashscore (solo marcador 1-1); (5) Atajadas de Flashscore pueden contradecir el marcador (D. Costa 14-nov) → «sin verificar»; (6) en un Bet Builder solo las selecciones con precio propio (84) sirven para precio; (7) pendientes: Panamá–Curazao, goleador/tarjeta por jugador de 7 partidos del 15-nov, tarjetas de Jamaica–México, y las líneas de jugador de partidos no apostados sin estadística por jugador.
