@@ -1,0 +1,6 @@
+.sh-c{--acc:#4263eb;--r:6px;--r2:8px;--font:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+.sh-c #app{max-width:1500px;margin:0 auto}.sh-c header.top{background:var(--bg);border:0}.sh-c h1{font-size:17px;letter-spacing:-.2px}
+.sh-c #nav{padding:0 14px;border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:15}.sh-c .tn1{display:flex;gap:4px;padding-top:6px;flex-wrap:wrap}.sh-c .tg{padding:6px 12px;border-radius:var(--r) var(--r) 0 0;color:var(--mut);font-weight:600}.sh-c .tg.on{color:var(--acc);border-bottom:2px solid var(--acc)}.sh-c .tn2{display:flex;gap:2px;padding:4px 0 6px;flex-wrap:wrap}.sh-c .t2{padding:4px 11px;border-radius:99px}.sh-c .t2.on{background:var(--acc);color:#fff}.sh-c .t2:hover:not(.on){background:var(--chip)}
+.sh-c td.n,.sh-c .kp b,.sh-c .od{font-variant-numeric:tabular-nums;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.sh-c .body{display:block}.sh-c #det{position:fixed;right:0;top:0;bottom:0;width:min(470px,100vw);z-index:30;overflow:auto;background:var(--bg);padding:10px;box-shadow:-8px 0 30px #0005;display:none}.sh-c.det-open #det{display:block}.sh-c #det .det{border:0;background:transparent}
+.sh-c .kb{background:transparent}.sh-c .fpanel{background:transparent;border-style:dashed}

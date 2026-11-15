@@ -148,3 +148,8 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Balance: tus 10 boletos liquidados perdieron o fueron cash-out (neto −$98.450); 2 Bet Builders abiertos. Líneas de equipo con cuota ≥ 1,35: 41 % real contra 41 % del mercado; con «cumple» 5 de 7: 73 % contra 59 % (118 líneas, un día, correlacionadas). Sugerencias: 62 de 93 liquidadas.
 - Código: `recoleccion/informe_v2.py` + `plantillas_v2/` (tres diseños, un motor; K, N, n mínimo y equipos ajustables; series por partido y gráficos); `calificar_jugadores.casar_flashscore` («Apellido I.» ↔ nombre de Betano); `recoleccion/flashscore_jugadores.js` (recolector de jugadores con todas las columnas de Flashscore).
 - Pendiente: calificar Banfield, Chapecoense, Querétaro y Jamaica–México y los 2 BB abiertos; historial de jugadores de los demás partidos.
+
+## 14-nov, ~19:40 · dashboard: tres prototipos
+- Entregado: `entregas/2026-11-14/1940_dashboard-prototipos.md` y tres HTML (A «Mando», B «Móvil», C «Laboratorio»). Código en `dashboard/` (`datos.py`, `src/`, `construir_prototipos.py`); plan en `docs/PLAN_DASHBOARD.md`.
+- Mismo motor, 16 páginas, datos del repo en memoria; cambia navegación/densidad. Probado con Playwright a 1440 y 390 px sin errores de consola.
+- Pendiente: que el usuario elija diseño y señale mejoras; sigue abierta la lista de decisiones (hosting, entrada de apuestas desde el celular, automatización).

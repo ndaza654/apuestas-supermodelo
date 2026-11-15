@@ -47,3 +47,6 @@ Análisis automático ya corrido (`python3 recoleccion/correr_jornada.py jornada
 - Balance parcial y libro al día (ver `balance/`). Estado de partidos en `resultados/estado_partidos.json` (final / en juego / por jugar, leído 18:45–19:00).
 - Informe v2 (tres diseños) en `informe_v2_{A,B,C}.html`, generado con `python3 recoleccion/informe_v2.py jornadas/2026-11-14`; el usuario elige uno.
 - Pendiente: liquidar los 4 partidos abiertos y los 2 BB; historial de jugadores para el resto.
+
+## Actualización 14-nov ~19:40
+- Prototipos de dashboard (A/B/C) en `dashboard/prototipos/` y copia en `entregas/2026-11-14/1940_*`. Sin cambios en datos ni en el pipeline.
