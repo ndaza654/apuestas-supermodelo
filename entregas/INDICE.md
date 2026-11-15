@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-15 | 14:00 | Combinadas BB (2 por partido) con cuotas releídas 13:36 y onces oficiales | España–Inglaterra, Bélgica–Italia | `entregas/2026-11-15/1400_bb-espana-inglaterra_belgica-italia.md` |
 | 2026-11-15 | 11:45 | Sugerencias para los 4 partidos de las 12:00 y 12:30 | Bielorrusia–Albania, Finlandia–San Marino, Eibar–Cádiz, Eldense–Sabadell | `entregas/2026-11-15/1145_sugerencias-4-partidos-12h.md` |
 | 2026-11-15 | 07:45 | Histórico del 4 al 15-nov en el dashboard + análisis de la estrategia con la muestra grande (87 boletos, 186 selecciones, 323 picks, 22.335 líneas) | todo el periodo | `entregas/2026-11-15/0745_historico-4-15nov-en-dashboard.md` |
 | 2026-11-15 | 05:05 | Dashboard v2 «Mando» (rediseño blanco y azul, prueba funcional) | jornadas 14 y 15-nov | `entregas/2026-11-15/0505_dashboard-v2-mando.html` (+ `.md`) |
