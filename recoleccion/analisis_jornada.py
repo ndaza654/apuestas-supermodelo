@@ -272,12 +272,17 @@ def partidos(base, J, cands):
     fic = {}
     for f in glob.glob(os.path.join(base, 'fichas', 'ficha_*.json')):
         d = json.load(open(f, encoding='utf8'))
+        d['_clave'] = os.path.basename(f)[len('ficha_'):-len('.json')]
         fic[d['encuentro']] = d
     orden = sorted({(r['hora_partido'], r['partido']) for r in J})
     out = []
     for hora, n in orden:
         F, R, I = fic.get(n, {}), rk.get(n, {}), inf.get(n) or next((v for k, v in inf.items() if k.replace('–', '-').replace(' vs ', ' - ') == n), {})
         c = F.get('contexto') or {}
+        cx = {}                                                    # contexto/<clave>.json (notas leídas en la recolección): rellena tabla y árbitro si la ficha no los trae
+        pcx = os.path.join(base, 'contexto', (F.get('_clave') or '') + '.json')
+        if F.get('_clave') and os.path.exists(pcx):
+            cx = {k: v for k, v in (json.load(open(pcx, encoding='utf8')).get('partido') or [])}
         js = [r for r in J if r['partido'] == n and not es_equipo(r)]
         con_xi = sum(1 for r in js if r['cumple_ficha'] != 'sin alineación')
         cs = [x for x in cands if x['partido'] == n]
@@ -286,8 +291,8 @@ def partidos(base, J, cands):
                     'p1': pr.get('local'), 'px': pr.get('empate'), 'p2': pr.get('visitante'),
                     'alertas': I.get('alertas') or [], 'enfoque': I.get('enfoque_resumen') or '',
                     'familias_alerta': sorted({'corners' if l['sel'].get('mercado') == 'mas_que' else l['sel'].get('mercado') for l in I.get('lineas', []) if l.get('alerta')}),
-                    'tabla': FI._tabla_txt(c.get('tabla')) if c.get('tabla') else 'sin tabla', 'clima': c.get('clima') or 'sin dato',
-                    'arbitro': c.get('arbitro') or 'sin publicar', 'bajas': c.get('bajas') or [], 'dudas': c.get('dudas') or [],
+                    'tabla': FI._tabla_txt(c.get('tabla')) if c.get('tabla') else (cx.get('Tabla') or 'sin tabla'), 'clima': c.get('clima') or 'sin dato',
+                    'arbitro': c.get('arbitro') or (cx.get('Árbitro') or '').split(' Muestra recogida')[0].replace('..', '.') or 'sin publicar', 'bajas': c.get('bajas') or [], 'dudas': c.get('dudas') or [],
                     'xi': 'probable' if con_xi else 'sin alineación', 'lineas_jugador': len(js),
                     'cumplen': len(cs), 'cumplen_por_mercado': {m: sum(1 for x in cs if x['mercado'] == m) for m in sorted({x['mercado'] for x in cs})}})
     return out

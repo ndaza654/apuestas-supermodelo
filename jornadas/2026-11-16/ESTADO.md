@@ -1,4 +1,4 @@
-# Jornada 2026-11-16 · estado de la recolección (etapa 1) — cerrada ~21:55 Bogotá del 15-nov
+# Jornada 2026-11-16 · estado — etapa 1 cerrada ~21:55 Bogotá del 15-nov; **etapa 2 corrida el 16-nov ~01:00 Bogotá**
 
 **Etapa 1 COMPLETA con límites** para los 11 partidos que el usuario marcó como favoritos en Flashscore (sus capturas mostraban un contador de 13 favoritos; solo 11 son del lunes 16). **El análisis (etapa 2, `correr_jornada.py`) no se ha corrido**: el usuario pidió solo la recolección. Hash de cada archivo verificado contra el navegador.
 
@@ -19,3 +19,12 @@
 - Cruce de nombres Flashscore↔Betano: pendiente para la etapa 2 (`recoleccion/alias_jugadores.json`).
 - Cuotas de Betano del 15-nov 20:13–20:14; si el análisis se hace otro día, hay que **releer** (guardar antes en `betano_previo/` y `raw/previo_HHMM/`, regla de relectura).
 - Los datos pasaron transcritos por el chat y se verificaron con hash (3 erratas de transcripción halladas y corregidas por hash de línea en el historial de jugadores).
+
+## Etapa 2 (16-nov, ~01:00 Bogotá)
+- `correr_jornada.py` corrido completo: 11 fichas, modelo, `ranking.md`, `registro/lineas.csv` (4.551 líneas de esta jornada), `contexto/` (11), `analisis.json`, `informe_final.md`, `sugerencias.json` (44 «pendiente») e `informe.html` (probado: 0 errores de consola, filtros responden).
+- Situación: 9 de 11 partidos «aptos» y 2 «reserva». República Centroafricana–Benín y Somalia–Ghana quedan sin puntaje de situación porque sus notas no traen ninguna señal (necesita ganar, rotación, importancia alta): hay tabla y qué se juega, pero no se inventó motivación.
+- Notas ajustadas antes de correr: importancia «media» → «normal» (valor que entiende el generador); importancia alta en Estonia, Islandia y Albacete (definición de puesto/zona baja leída en la tabla); «necesita ganar» en Estonia (local), Feroe (local), Macedonia–Eslovenia (visitante, ver nota) y Suiza–Escocia (visitante).
+- Árbitros: sin promedio de tarjetas ni faltas fiable (muestra de 1–3 partidos por árbitro); el puntaje de datos no suma el +5 por árbitro. Se muestran nombre y muestra en el contexto.
+- Historial de jugadores: los 66 jugadores con línea en Alemania, Grecia y Suiza casaron con su historial (alias no hizo falta). Grecia: 0 de 21 con ≥7 partidos (4 de 10 partidos con tabla) → sus mercados de jugador no se recomiendan. Alemania y Suiza: 50 % con ≥7 partidos. Estonia–Bulgaria y Macedonia–Eslovenia: historial recogido pero sin alineación ni línea de jugador.
+- Alineaciones: solo 3 de 11 (Alemania, Grecia, Suiza). Los otros 8 no tienen mercado de jugador usable.
+- Cuotas siguen siendo las del 15-nov 20:13–20:14: releer antes de apostar (copiar antes `betano/` a `betano_previo/`).

@@ -232,3 +232,8 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Hecho: Betano (11 partidos), Flashscore 10+10 y directos, alineaciones probables (3 de 11), tablas y situación (11), árbitros designados (9 de 11) e historial por jugador de los 5 partidos con mercado de estadística (`jornadas/2026-11-16/`; estado en `ESTADO.md`).
 - Cobertura del historial: 50 de 78 partidos pasados con tabla; Grecia, Estonia y Bulgaria con 4/10. 28 partidos sin tabla en Flashscore tras 3 intentos.
 - Límites: sin alineación en Estonia–Bulgaria y Macedonia–Eslovenia; árbitros con muestra mínima; Canadá–Guatemala con árbitro de país «Esp» sin verificar. Etapa 2 no corrida.
+
+## 16-nov-2026 ~01:05 · análisis (etapa 2) de la jornada del 16-nov
+- `correr_jornada.py` completo con muestra de 10: 166 líneas de equipo con «cumple», 33 protecciones (cuota < 1,50), 7 sencillas 1,50–1,99, 3 combinadas de 2 patas (p recortada 46–49 %), 1 lotería; 44 sugerencias registradas como «pendiente». Situación: 9 aptos, 2 reserva (RCA–Benín, Somalia–Ghana).
+- Notas de situación ajustadas (importancia «media»→«normal», alta donde la tabla muestra una definición; «necesita ganar» solo donde la tabla lo respalda). `analisis_jornada.py` ahora toma tabla y árbitro de `contexto/` cuando la ficha no los trae.
+- Límites: cuotas del 15-nov 20:13–20:14 sin releer; alineaciones en 3 de 11; árbitros sin tasa fiable; historial de jugadores parcial (Grecia 4/10 → sin recomendación de jugador).

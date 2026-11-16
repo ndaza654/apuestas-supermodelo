@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-16 | 01:05 | Análisis de la jornada (etapa 2): enfoque, 33 protecciones, 7 sencillas, 3 combinadas de 2 patas, lotería | 11 partidos del 16-nov | entregas/2026-11-16/0105_analisis-jornada.md (+ _informe.html) |
 | 2026-11-15 | 21:55 | Recolección completa de la jornada del 16-nov (etapa 1) | 11 partidos (Alemania–P. Bajos, Grecia–Serbia, Suiza–Escocia, Macedonia–Eslovenia, Estonia–Bulgaria, Canadá–Guatemala y otros 5) | entregas/2026-11-15/2155_recoleccion-16nov.md |
 | 2026-11-15 | 20:10 | Cierre de Panamá–Curazao (2-0) y estrategia recalculada | Panamá–Curazao | entregas/2026-11-15/2010_cierre-panama-curazao-y-estrategia.md |
 | 2026-11-15 | 19:45 | Dónde están el supermodelo y los criterios de tipsters, cómo funcionan y para qué sirven con tu estrategia | 4 jornadas | entregas/2026-11-15/1945_donde-esta-el-modelo-y-los-tipsters.md |
