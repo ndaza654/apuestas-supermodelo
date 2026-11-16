@@ -219,3 +219,7 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Boletos reales 4–15-nov: 1–2 patas −2 %; 3–4 patas −46 % (43 boletos, 8 ganados); 5+ patas +59 % solo por el boleto 7 del 4-nov (sin él −$85.010). Boletos de $30.000 o más: 10, 0 ganados, −$393.095.
 - Hoy: patas 22 de 31 (71 %), 0 de 5 boletos; el filtro acertó igual que el 12 y el 14 (~69–71 %), no es récord. Informe: `entregas/2026-11-15/1850_analisis-estrategia-usuario.md`.
 - Límites: solo 15-nov es prueba hacia adelante; Panamá–Curazao sin cerrar; criterio sin verificar fuera de estos datos.
+
+## 15-nov-2026 ~19:45 · mapa del supermodelo y los tipsters frente a la estrategia
+- El supermodelo SM-1.2 y los sistemas de tipsters siguen en el repo y corren en cada jornada. Medido en 5.875 líneas de equipo: Brier mercado 0,1922, modelo 0,1932, simulación 0,1936 (el modelo no mejora al precio); modelo ≥ 3 pts sobre el precio → 41,6 % de acierto (−25,6 %); dentro del filtro 17 líneas, 35 %. Solo pistas. Informe: `entregas/2026-11-15/1945_donde-esta-el-modelo-y-los-tipsters.md`.
+- Límites: `criterios_por_mercado_12nov.md` e `idea_chats_por_mercado.md` están en el proyecto «Apuestas», no en el repo; no existe `sombra.csv`.
