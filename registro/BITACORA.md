@@ -242,3 +242,9 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - `pruebas/backtest/` (preparar_datos.py, motor.js, hallazgos.js, plantilla.html, construir.py): 50.408 partidos (5 grandes + Brasil, 2000/01–2026/27), misma lectura que la ficha (regularidad, esperado, colchón), sin mirar el futuro. Solo % de acierto.
 - Medido con 7 de 10 en ambos: córners Más 8.5 70,6 % (base 65,8 %), Más 9.5 63,3 % (54,4 %), goles Más 2.5 59,3 % (50,0 %), remates Más 22.5 76,8 % (63,8 %), tarjetas Más 3.5 75,9 % (61,2 %). A igual colchón, cumplir o no la regularidad cambia 0–4 puntos. Goles 2.5: acierto con filtro 59,8 % = probabilidad de la cuota 59,7 %.
 - Límites: sin líneas ni cuotas de Betano; cuotas solo 1X2 y goles 2.5; Brasil solo goles; sin jugadores ni mitades. La primera versión (01:50, `pruebas/calibracion/backtest_*.py`) se retiró: contaba distinto a la ficha.
+
+## 16-nov-2026 ~02:48 · backtest dentro del análisis y del dashboard
+- Tarjetas entran a sugerencias y resumen de la ficha (la exclusión era una regla del código, sin respaldo: con «cumple» Más 24/27, Menos 33/45 = lo que decía el modelo). Hoy entran 3 líneas de tarjetas (1 protección, 2 sencillas) y cambia la lotería.
+- `registro/tasas_historicas.json` + `recoleccion/tasas_historicas.py`: tasa de clubes por línea, conteo y colchón; en `analisis_jornada.py` es semáforo (`p_hist`, `hist_sem`), no recorta p. Validada con 817 líneas jugadas (`registro/validacion_tasas.json`): Brier modelo 0,1434, histórico 0,1490, mezcla 75/25 0,1423.
+- Dashboard: página «Backtest histórico» (explorador con pestañas Hoy y Mi línea). Datos compactos en `pruebas/backtest/datos.json` (van en el repo para que el workflow construya).
+- Límites: clubes y cuotas europeas, sin Betano; solo % de acierto; 9 líneas de hoy sin tasa (asiáticas o mercados no medidos).

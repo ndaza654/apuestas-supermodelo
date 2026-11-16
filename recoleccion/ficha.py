@@ -301,7 +301,7 @@ def md_jugadores(lst):
 def resumen(F, cuota_min=1.20):
     """Líneas de equipo que cumplen la regularidad en ambos equipos (con cuota >= cuota_min para no llenar el resumen de líneas de 1.03)."""
     filas = []
-    bloques = [('Córners', F['corners'])] + [(r['titulo'], r) for r in F['partido'].values()]
+    bloques = [('Córners', F['corners'])] + [(r['titulo'], r) for r in F['partido'].values()] + [('Goles', F['goles']), ('Tarjetas', F['tarjetas'])]
     for tit, r in bloques:
         for f in r.get('lineas', []):
             for lado in ('mas', 'menos'):
@@ -328,7 +328,7 @@ def markdown(F):
          md_resumen(F), '## Córners', '', md_estadistica(F['corners']), '## Estadísticas del partido', '']
     for m in GRUPOS['partido']:
         L.append(md_estadistica(F['partido'][m]))
-    L += ['## Goles y tarjetas (para los agentes de goles-resultado y tarjetas; no entran en el ranking)', '',
+    L += ['## Goles y tarjetas (también entran en el resumen y en el análisis; detalle para los agentes goles-resultado y tarjetas)', '',
           md_estadistica(F['goles']), md_estadistica(F['tarjetas'])]
     L.append(md_jugadores(F['jugadores']))
     c = F['contexto']

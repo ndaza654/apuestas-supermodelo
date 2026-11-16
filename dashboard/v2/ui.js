@@ -4,7 +4,7 @@ const IC={home:'<path d="M3 10.5L12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0
  wallet:'<rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18M16 15h2"/>',chart:'<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',send:'<path d="M21 3L10 14M21 3l-7 18-4-7-7-4z"/>',db:'<ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/>',
  doc:'<path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6M9 13h8M9 17h8"/>',more:'<circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>',x:'<path d="M6 6l12 12M18 6L6 18"/>',back:'<path d="M15 5l-7 7 7 7"/>'};
 const ic=n=>`<svg class="i" viewBox="0 0 24 24">${IC[n]||''}</svg>`;
-const PAGES={},NAV=[['inicio','Inicio','home'],['partidos','Partidos','ball'],['estrategia','Mi estrategia','target'],['cupon','Cupón','ticket'],['-','Explorar'],['lineas','Todas las líneas','list'],['jugadores','Jugadores','user'],
+const PAGES={},NAV=[['inicio','Inicio','home'],['partidos','Partidos','ball'],['estrategia','Mi estrategia','target'],['cupon','Cupón','ticket'],['-','Explorar'],['lineas','Todas las líneas','list'],['jugadores','Jugadores','user'],['backtest','Backtest histórico','chart'],
  ['-','Seguimiento'],['historico','Histórico','doc'],['apuestas','Mis apuestas','wallet'],['aprender','Qué funciona','chart'],['enviadas','Lo que te envié','send'],['-','Respaldo'],['datos','Datos y límites','db'],['docs','Documentos','doc']];
 const route=()=>{const h=(location.hash||'#/inicio').slice(2).split('/');return{pg:PAGES[h[0]]?h[0]:'inicio',arg:h.slice(1).map(decodeURIComponent)}};
 const go=h=>{location.hash='#/'+h};

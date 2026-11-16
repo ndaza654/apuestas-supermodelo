@@ -1,6 +1,6 @@
 # Informe de la jornada 2026-11-16
 
-Hecho: 2026-11-16 00:51 (Bogotá) · Cuotas: Betano, leídas 15-nov 20:13 a 15-nov 20:14 (Bogotá), sin releer · Muestra de 10 partidos por equipo: «cumple» = 7 de 10 en ambos (n mínimo 7) · 166 líneas de equipo cumplen. El informe interactivo es `informe.html`.
+Hecho: 2026-11-16 02:47 (Bogotá) · Cuotas: Betano, leídas 15-nov 20:13 a 15-nov 20:14 (Bogotá), sin releer · Muestra de 10 partidos por equipo: «cumple» = 7 de 10 en ambos (n mínimo 7) · 166 líneas de equipo cumplen. El informe interactivo es `informe.html`.
 
 ## Enfoque de mercados
 
@@ -52,55 +52,58 @@ Hecho: 2026-11-16 00:51 (Bogotá) · Cuotas: Betano, leídas 15-nov 20:13 a 15-n
 | Sugerencias auditadas: combinadas de 3 patas (todas) | 37 | 10 | 27 % | 25 % | |
 | Sugerencias auditadas: combinadas de 4 o más patas (todas) | 8 | 0 | 0 % | 14 % | |
 
-## Protección (cuota < 1,50: se dan, no pagan) — 33
+## Protección (cuota < 1,50: se dan, no pagan) — 34
 
-| Hora | Partido | Sugerencia | Cuota | p modelo | p recortada | Local | Visitante | Directos | Real hasta hoy |
-|---|---|---|---|---|---|---|---|---|---|
-| 14:30 | Albacete Balompié - RC Celta de Vigo II | Goles Menos 4.5 | 1,22 | 81 % | 81 % | 9 de 10 | 7 de 10 | – | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 10:00 | Islas Feroé - Moldavia | Goles visitante Menos 1.5 | 1,20 | 81 % | 81 % | 7 de 10 | 8 de 10 | 3 de 3 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:45 | Suiza - Escocia | Goles local Más 0.5 | 1,21 | 81 % | 81 % | 9 de 10 | 7 de 10 | 2 de 2 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:30 | Albacete Balompié - RC Celta de Vigo II | Goles Más 1.5 | 1,21 | 81 % | 81 % | 10 de 10 | 10 de 10 | – | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:45 | Macedonia del Norte - Eslovenia | Córners local Más 1.5 | 1,21 | 84 % | 80 % | 8 de 10 | 9 de 10 | 1 de 1 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 12:00 | Islandia - Luxemburgo | Goles local Menos 3.5 | 1,23 | 80 % | 80 % | 9 de 10 | 10 de 10 | 3 de 3 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 10:00 | Islas Feroé - Moldavia | Goles local Más 0.5 | 1,23 | 79 % | 79 % | 9 de 10 | 10 de 10 | 2 de 3 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 10:00 | Somalia - Ghana | Goles Menos 4.5 | 1,23 | 79 % | 79 % | 10 de 10 | 8 de 10 | 1 de 1 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 12:00 | Estonia - Bulgaria | Goles visitante Menos 1.5 | 1,24 | 79 % | 79 % | 8 de 10 | 7 de 10 | 1 de 1 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:45 | Macedonia del Norte - Eslovenia | Goles Menos 3.5 | 1,25 | 79 % | 79 % | 7 de 10 | 10 de 10 | 1 de 1 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:45 | Suiza - Escocia | Córners Menos 11.5 | 1,22 | 79 % | 79 % | 9 de 10 | 7 de 10 | 1 de 2 | Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:45 | Grecia - Serbia | Goles Más 1.5 | 1,23 | 79 % | 79 % | 7 de 10 | 9 de 10 | 1 de 1 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 12:00 | Islandia - Luxemburgo | Goles Más 1.5 | 1,22 | 78 % | 78 % | 9 de 10 | 7 de 10 | 3 de 3 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:45 | Alemania - Países Bajos | Córners Menos 11.5 | 1,24 | 77 % | 77 % | 7 de 10 | 7 de 10 | 1 de 3 | ⚠ directos en contra (1 de 3) · Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:45 | Alemania - Países Bajos | Goles visitante Más 0.5 | 1,24 | 76 % | 76 % | 7 de 10 | 10 de 10 | 2 de 3 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:45 | Suiza - Escocia | Goles Menos 3.5 | 1,29 | 76 % | 76 % | 8 de 10 | 8 de 10 | 2 de 2 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 12:00 | Estonia - Bulgaria | Córners Más 6.5 | 1,22 | 79 % | 75 % | 8 de 10 | 8 de 10 | 1 de 1 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 10:00 | Islas Feroé - Moldavia | Córners visitante Más 2.5 | 1,27 | 78 % | 74 % | 9 de 10 | 7 de 10 | 3 de 3 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:45 | Grecia - Serbia | Córners Menos 11.5 | 1,29 | 74 % | 74 % | 7 de 10 | 8 de 10 | 1 de 1 | Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:45 | Grecia - Serbia | Córners local Menos 7.5 | 1,30 | 74 % | 74 % | 10 de 10 | 9 de 10 | 1 de 1 | Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
-| 14:45 | Alemania - Países Bajos | Goles Menos 4.5 | 1,36 | 74 % | 74 % | 8 de 10 | 8 de 10 | 3 de 3 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
-| 11:00 | República Centroafricana - Benín | Goles visitante Menos 2.5 | 1,31 | 74 % | 73 % | 7 de 10 | 8 de 10 | 0 de 1 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
-| 12:00 | Estonia - Bulgaria | Goles local Más 0.5 | 1,32 | 73 % | 73 % | 7 de 10 | 7 de 10 | 0 de 1 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
-| 14:30 | Albacete Balompié - RC Celta de Vigo II | Córners visitante Más 2.5 | 1,32 | 76 % | 73 % | 9 de 10 | 7 de 10 | – | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
-| 12:00 | Islandia - Luxemburgo | Córners Menos 10.5 | 1,31 | 73 % | 73 % | 8 de 10 | 10 de 10 | 3 de 3 | Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
-| 14:45 | Alemania - Países Bajos | Córners local Más 3.5 | 1,23 | 76 % | 73 % | 7 de 10 | 7 de 10 | 2 de 3 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:45 | Macedonia del Norte - Eslovenia | Córners Más 6.5 | 1,26 | 76 % | 73 % | 9 de 10 | 8 de 10 | 1 de 1 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 14:30 | Albacete Balompié - RC Celta de Vigo II | Córners Más 7.5 | 1,27 | 75 % | 72 % | 8 de 10 | 8 de 10 | – | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
-| 11:00 | República Centroafricana - Benín | Goles Más 1.5 | 1,34 | 72 % | 72 % | 7 de 10 | 7 de 10 | 1 de 1 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
-| 14:45 | Suiza - Escocia | Goles Más 1.5 | 1,36 | 71 % | 71 % | 8 de 10 | 7 de 10 | 2 de 2 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
-| 20:00 | Canadá - Guatemala | Goles local Menos 3.5 | 1,38 | 71 % | 71 % | 8 de 10 | 10 de 10 | 3 de 3 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
-| 14:45 | Grecia - Serbia | Córners Más 7.5 | 1,30 | 73 % | 70 % | 8 de 10 | 7 de 10 | 1 de 1 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
-| 10:00 | Islas Feroé - Moldavia | Córners Más 7.5 | 1,30 | 73 % | 70 % | 8 de 10 | 7 de 10 | 3 de 3 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
+| Hora | Partido | Sugerencia | Cuota | p modelo | p recortada | Histórico (clubes) | Local | Visitante | Directos | Real hasta hoy |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 14:30 | Albacete Balompié - RC Celta de Vigo II | Goles Menos 4.5 | 1,22 | 81 % | 81 % | 81 % (sin discrepancia) | 9 de 10 | 7 de 10 | – | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 10:00 | Islas Feroé - Moldavia | Goles visitante Menos 1.5 | 1,20 | 81 % | 81 % | 77 % (sin discrepancia) | 7 de 10 | 8 de 10 | 3 de 3 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Suiza - Escocia | Goles local Más 0.5 | 1,21 | 81 % | 81 % | 85 % (sin discrepancia) | 9 de 10 | 7 de 10 | 2 de 2 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:30 | Albacete Balompié - RC Celta de Vigo II | Goles Más 1.5 | 1,21 | 81 % | 81 % | 85 % (sin discrepancia) | 10 de 10 | 10 de 10 | – | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Macedonia del Norte - Eslovenia | Córners local Más 1.5 | 1,21 | 84 % | 80 % | 90 % (sin discrepancia) | 8 de 10 | 9 de 10 | 1 de 1 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 12:00 | Islandia - Luxemburgo | Goles local Menos 3.5 | 1,23 | 80 % | 80 % | 88 % (sin discrepancia) | 9 de 10 | 10 de 10 | 3 de 3 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 10:00 | Islas Feroé - Moldavia | Goles local Más 0.5 | 1,23 | 79 % | 79 % | 91 % (a favor) | 9 de 10 | 10 de 10 | 2 de 3 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 10:00 | Somalia - Ghana | Goles Menos 4.5 | 1,23 | 79 % | 79 % | 90 % (a favor) | 10 de 10 | 8 de 10 | 1 de 1 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 12:00 | Estonia - Bulgaria | Goles visitante Menos 1.5 | 1,24 | 79 % | 79 % | 71 % (sin discrepancia) | 8 de 10 | 7 de 10 | 1 de 1 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Macedonia del Norte - Eslovenia | Goles Menos 3.5 | 1,25 | 79 % | 79 % | 77 % (sin discrepancia) | 7 de 10 | 10 de 10 | 1 de 1 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Suiza - Escocia | Córners Menos 11.5 | 1,22 | 79 % | 79 % | 71 % (sin discrepancia) | 9 de 10 | 7 de 10 | 1 de 2 | Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Grecia - Serbia | Goles Más 1.5 | 1,23 | 79 % | 79 % | 82 % (sin discrepancia) | 7 de 10 | 9 de 10 | 1 de 1 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 12:00 | Islandia - Luxemburgo | Goles Más 1.5 | 1,22 | 78 % | 78 % | 77 % (sin discrepancia) | 9 de 10 | 7 de 10 | 3 de 3 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Alemania - Países Bajos | Córners Menos 11.5 | 1,24 | 77 % | 77 % | 70 % (sin discrepancia) | 7 de 10 | 7 de 10 | 1 de 3 | ⚠ directos en contra (1 de 3) · Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Grecia - Serbia | Tarjetas visitante Menos 3.5 | 1,25 | 76 % | 76 % | 85 % (sin discrepancia) | 9 de 9 | 8 de 10 | 1 de 1 | Tarjetas Menos con «cumple»: 33 de 45 (73% real contra 73% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Alemania - Países Bajos | Goles visitante Más 0.5 | 1,24 | 76 % | 76 % | 76 % (sin discrepancia) | 7 de 10 | 10 de 10 | 2 de 3 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Suiza - Escocia | Goles Menos 3.5 | 1,29 | 76 % | 76 % | 74 % (sin discrepancia) | 8 de 10 | 8 de 10 | 2 de 2 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 12:00 | Estonia - Bulgaria | Córners Más 6.5 | 1,22 | 79 % | 75 % | 81 % (sin discrepancia) | 8 de 10 | 8 de 10 | 1 de 1 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 10:00 | Islas Feroé - Moldavia | Córners visitante Más 2.5 | 1,27 | 78 % | 74 % | 76 % (sin discrepancia) | 9 de 10 | 7 de 10 | 3 de 3 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Grecia - Serbia | Córners Menos 11.5 | 1,29 | 74 % | 74 % | 75 % (sin discrepancia) | 7 de 10 | 8 de 10 | 1 de 1 | Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Grecia - Serbia | Córners local Menos 7.5 | 1,30 | 74 % | 74 % | 77 % (sin discrepancia) | 10 de 10 | 9 de 10 | 1 de 1 | Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
+| 14:45 | Alemania - Países Bajos | Goles Menos 4.5 | 1,36 | 74 % | 74 % | 87 % (a favor) | 8 de 10 | 8 de 10 | 3 de 3 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
+| 11:00 | República Centroafricana - Benín | Goles visitante Menos 2.5 | 1,31 | 74 % | 73 % | 81 % (sin discrepancia) | 7 de 10 | 8 de 10 | 0 de 1 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
+| 12:00 | Estonia - Bulgaria | Goles local Más 0.5 | 1,32 | 73 % | 73 % | 76 % (sin discrepancia) | 7 de 10 | 7 de 10 | 0 de 1 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
+| 14:30 | Albacete Balompié - RC Celta de Vigo II | Córners visitante Más 2.5 | 1,32 | 76 % | 73 % | 65 % (sin discrepancia) | 9 de 10 | 7 de 10 | – | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
+| 12:00 | Islandia - Luxemburgo | Córners Menos 10.5 | 1,31 | 73 % | 73 % | 70 % (sin discrepancia) | 8 de 10 | 10 de 10 | 3 de 3 | Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
+| 14:45 | Alemania - Países Bajos | Córners local Más 3.5 | 1,23 | 76 % | 73 % | 82 % (sin discrepancia) | 7 de 10 | 7 de 10 | 2 de 3 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:45 | Macedonia del Norte - Eslovenia | Córners Más 6.5 | 1,26 | 76 % | 73 % | 86 % (a favor) | 9 de 10 | 8 de 10 | 1 de 1 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 14:30 | Albacete Balompié - RC Celta de Vigo II | Córners Más 7.5 | 1,27 | 75 % | 72 % | 74 % (sin discrepancia) | 8 de 10 | 8 de 10 | – | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota < 1,30: 498 de 568 (88% real contra 87%) |
+| 11:00 | República Centroafricana - Benín | Goles Más 1.5 | 1,34 | 72 % | 72 % | 77 % (sin discrepancia) | 7 de 10 | 7 de 10 | 1 de 1 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
+| 14:45 | Suiza - Escocia | Goles Más 1.5 | 1,36 | 71 % | 71 % | 77 % (sin discrepancia) | 8 de 10 | 7 de 10 | 2 de 2 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
+| 20:00 | Canadá - Guatemala | Goles local Menos 3.5 | 1,38 | 71 % | 71 % | 88 % (a favor) | 8 de 10 | 10 de 10 | 3 de 3 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
+| 14:45 | Grecia - Serbia | Córners Más 7.5 | 1,30 | 73 % | 70 % | 74 % (sin discrepancia) | 8 de 10 | 7 de 10 | 1 de 1 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
+| 10:00 | Islas Feroé - Moldavia | Córners Más 7.5 | 1,30 | 73 % | 70 % | 74 % (sin discrepancia) | 8 de 10 | 7 de 10 | 3 de 3 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota 1,30–1,49: 105 de 138 (76% real contra 70%) |
 
-## Sencillas de cuota 1,50–1,99 (p recortada a la vista) — 7
+## Sencillas de cuota 1,50–1,99 (p recortada a la vista) — 9
 
-| Hora | Partido | Sugerencia | Cuota | p modelo | p recortada | Local | Visitante | Directos | Real hasta hoy |
-|---|---|---|---|---|---|---|---|---|---|
-| 14:45 | Grecia - Serbia | Córners local Menos 6.5 | 1,55 | 61 % | 61 % | 10 de 10 | 9 de 10 | 1 de 1 | Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
-| 14:45 | Grecia - Serbia | Fueras de juego Más 2.5 | 1,60 | 61 % | 61 % | 7 de 10 | 7 de 10 | 1 de 1 | Fueras de juego Más con «cumple»: 3 de 4 (75% real contra 69% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
-| 14:45 | Alemania - Países Bajos | Remates Menos 30.5 | 1,62 | 59 % | 59 % | 7 de 10 | 7 de 10 | 2 de 3 | Remates Menos con «cumple»: 27 de 40 (68% real contra 58% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
-| 10:00 | Somalia - Ghana | Goles Menos 3.25 | 1,70 | 57 % | 57 % | 7 de 10 | 7 de 10 | 1 de 1 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
-| 14:45 | Grecia - Serbia | Goles Más 2.5 | 1,70 | 56 % | 56 % | 7 de 10 | 7 de 10 | 1 de 1 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
-| 14:45 | Alemania - Países Bajos | Córners Más 8.5 | 1,62 | 58 % | 55 % | 7 de 10 | 7 de 10 | 2 de 3 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
-| 14:45 | Grecia - Serbia | Tiros al arco visitante Más 2.5 | 1,57 | 60 % | 55 % | 9 de 10 | 7 de 10 | 1 de 1 | Tiros al arco Más con «cumple»: 17 de 27 (63% real contra 72% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
+| Hora | Partido | Sugerencia | Cuota | p modelo | p recortada | Histórico (clubes) | Local | Visitante | Directos | Real hasta hoy |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 14:30 | Albacete Balompié - RC Celta de Vigo II | Tarjetas Más 4.5 | 1,55 | 64 % | 64 % | 61 % (sin discrepancia) | 7 de 10 | 9 de 10 | – | Tarjetas Más con «cumple»: 24 de 27 (89% real contra 72% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
+| 14:45 | Grecia - Serbia | Córners local Menos 6.5 | 1,55 | 61 % | 61 % | 82 % (a favor) | 10 de 10 | 9 de 10 | 1 de 1 | Córners Menos con «cumple»: 113 de 129 (88% real contra 84% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
+| 14:45 | Grecia - Serbia | Fueras de juego Más 2.5 | 1,60 | 61 % | 61 % | – (sin dato) | 7 de 10 | 7 de 10 | 1 de 1 | Fueras de juego Más con «cumple»: 3 de 4 (75% real contra 69% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
+| 12:00 | Estonia - Bulgaria | Tarjetas local Menos 2.5 | 1,53 | 60 % | 60 % | 77 % (a favor) | 7 de 9 | 8 de 9 | 1 de 1 | Tarjetas Menos con «cumple»: 33 de 45 (73% real contra 73% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
+| 14:45 | Alemania - Países Bajos | Remates Menos 30.5 | 1,62 | 59 % | 59 % | 86 % (a favor) | 7 de 10 | 7 de 10 | 2 de 3 | Remates Menos con «cumple»: 27 de 40 (68% real contra 58% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
+| 10:00 | Somalia - Ghana | Goles Menos 3.25 | 1,70 | 57 % | 57 % | – (sin dato) | 7 de 10 | 7 de 10 | 1 de 1 | Goles Menos con «cumple»: 200 de 235 (85% real contra 85% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
+| 14:45 | Grecia - Serbia | Goles Más 2.5 | 1,70 | 56 % | 56 % | 62 % (sin discrepancia) | 7 de 10 | 7 de 10 | 1 de 1 | Goles Más con «cumple»: 88 de 109 (81% real contra 80% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
+| 14:45 | Alemania - Países Bajos | Córners Más 8.5 | 1,62 | 58 % | 55 % | 63 % (sin discrepancia) | 7 de 10 | 7 de 10 | 2 de 3 | Córners Más con «cumple»: 118 de 155 (76% real contra 80% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
+| 14:45 | Grecia - Serbia | Tiros al arco visitante Más 2.5 | 1,57 | 60 % | 55 % | 79 % (a favor) | 9 de 10 | 7 de 10 | 1 de 1 | Tiros al arco Más con «cumple»: 17 de 27 (63% real contra 72% dicho) · cuota 1,50–1,99: 89 de 144 (62% real contra 57%) |
 
 ## Combinadas de 2 patas del mismo partido — 3
 
@@ -116,7 +119,7 @@ Familias fuera de las combinadas por alerta del modelo: Albacete Balompié - RC 
 
 ## Lotería (3 patas de 3 partidos; solo stake mínimo)
 
-Macedonia del Norte - Eslovenia: Goles Menos 3.5 + Suiza - Escocia: Goles Menos 3.5 + Islas Feroé - Moldavia: Córners visitante Más 2.5 · cuota 2,05 · p del modelo 47 % · p recortada 44 %.
+Macedonia del Norte - Eslovenia: Goles Menos 3.5 + Grecia - Serbia: Tarjetas visitante Menos 3.5 + Suiza - Escocia: Goles Menos 3.5 · cuota 2,02 · p del modelo 46 % · p recortada 46 %.
 
 ## Situación por partido (lo que hay en las fichas)
 

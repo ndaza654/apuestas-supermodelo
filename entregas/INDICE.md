@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-16 | 02:48 | Cambios del backtest en el análisis de hoy: tarjetas entran, segunda opinión histórica, página «Backtest histórico» del dashboard | todos | `entregas/2026-11-16/0248_backtest-en-el-analisis-de-hoy.md` · `0248_analisis-jornada-revisado_informe.html` |
 | 2026-11-16 | 02:04 | Backtest profundo de la regla «X de N» (50.408 partidos, 5 grandes + Brasil): informe interactivo + hallazgos | — | `entregas/2026-11-16/0204_backtest-regla-x-de-n.html` · `.md` |
 | 2026-11-16 | 01:50 | Backtest 7 de 10, primera versión (reemplazada por la de 02:04; decía ~230k partidos, eran ~50 mil) | — | `entregas/2026-11-16/0150_backtest-estrategia.html` |
 | 2026-11-16 | 01:05 | Análisis de la jornada (etapa 2): enfoque, 33 protecciones, 7 sencillas, 3 combinadas de 2 patas, lotería | 11 partidos del 16-nov | entregas/2026-11-16/0105_analisis-jornada.md (+ _informe.html) |

@@ -20,7 +20,11 @@ Reglas (todas vienen de la auditoría; las constantes están abajo, único lugar
     partido (alerta del modelo: «más córners que» cuenta como córners); remates y tiros al arco cuentan como la misma familia;
     cada patrón (p. ej. «córners Más + goles Menos») máximo una vez por día. La cuota es el producto de las cuotas (techo: el cupón de Betano puede pagar menos).
   · 3 o más patas: solo «lotería» de stake mínimo (una, entre partidos distintos).
-  · Tarjetas: sin estadísticas de árbitro y con la peor calibración, no entran en sugerencias (quedan en las tablas del informe).
+  · Tarjetas: entran como cualquier mercado (desde el 16-nov; antes estaban excluidas por una regla de esta auditoría que los datos no respaldan:
+    con «cumple», Más se dio 24 de 27 y Menos 33 de 45, igual a lo que decía el modelo). La serie de la ficha trae solo amarillas: queda POR DEBAJO si hubo rojas.
+  · Segunda opinión histórica (backtest en ligas de clubes, registro/tasas_historicas.json): cada línea muestra la tasa de acierto de las líneas iguales con el mismo
+    conteo (X de 10) y colchón. NO recorta p: en 812 líneas ya jugadas la tasa de clubes no calibra mejor que el modelo (Brier 0,149 contra 0,143) y, cuando es más
+    baja que el modelo, el modelo acertó (hist ≤ modelo − 0,10: real 88 % = modelo 88 %). Se usa como semáforo: «a favor» / «en contra» / «sin discrepancia».
   · Jugadores: solo con alineación y con historial; sin historial no hay sugerencia (regla 1 de CLAUDE.md).
 No apuesta, no lee la red, no inventa: lo que falta se declara.
 """
@@ -31,6 +35,7 @@ RAIZ = os.path.dirname(AQUI)
 sys.path.insert(0, AQUI)
 sys.path.insert(0, RAIZ)
 import ficha as FI
+import tasas_historicas as TH
 
 P_MIN = 0.70            # p recortada mínima de una «protección» y de cada pata de combinada
 P_MIN_SENCILLA = 0.55   # p recortada mínima de una sencilla de cuota 1,50–1,99
@@ -40,7 +45,8 @@ CUOTA_SENCILLA_MAX = 2.00
 RECORTE_COMBO = 0.20    # la auditoría pide 15–20 %: se usa el extremo prudente
 M_SUAVIZADO = 20        # líneas ficticias con las que cada factor se acerca al factor global
 MAX_COMBOS = 8
-SIN_SUGERENCIA = ('tarjetas',)
+SIN_SUGERENCIA = ()      # familias que no entran en sugerencias (vacío: todo mercado entra; ver docstring sobre tarjetas)
+DISCREPANCIA_HIST = 0.10  # diferencia entre p histórica y p recortada a partir de la cual se marca «a favor» / «en contra»
 MISMA_HISTORIA = {'remates': 'tiros', 'al_arco': 'tiros'}
 AMBITOS = ('total', 'local', 'visitante')
 NOMBRE = {'corners': 'Córners', 'goles': 'Goles', 'tarjetas': 'Tarjetas', 'al_arco': 'Tiros al arco', 'remates': 'Remates', 'faltas': 'Faltas',
@@ -149,6 +155,25 @@ def clave(r):
     return [r['partido'], r['mercado'], r['ambito'], r['linea'], r['lado']]
 
 
+def _xde(t):
+    try:
+        a, b = (t or '').split(' de ')
+        return int(a), int(b)
+    except ValueError:
+        return None
+
+
+def historica(r, p_rec):
+    """Segunda opinión: tasa histórica (clubes) de las líneas iguales con el mismo X de 10 y colchón. No recorta p; marca el semáforo."""
+    a, b = _xde(r['reg_local']), _xde(r['reg_visitante'])
+    t = TH.tasa(r['mercado'], r['ambito'], r['lado'], num(r['linea']), a[0] / a[1] * 10, b[0] / b[1] * 10, num(r['colchon']), 10) if a and b and a[1] and b[1] else None
+    if not t:
+        return {'p_hist': None, 'n_hist': None, 'hist_txt': 'sin tasa histórica para esta línea (mercado no medido, línea asiática o fuera de rango)', 'hist_sem': 'sin dato'}
+    d = t['p'] - p_rec
+    sem = 'a favor' if d >= DISCREPANCIA_HIST else 'en contra' if d <= -DISCREPANCIA_HIST else 'sin discrepancia'
+    return {'p_hist': t['p'], 'n_hist': t['n'], 'hist_txt': t['texto'], 'hist_sem': sem, 'hist_k': t['k'], 'hist_banda': t['banda'], 'hist_per': t['per']}
+
+
 def candidatas(J, REAL):
     """Líneas de equipo con «cumple» (ámbito de partido completo), con su p recortada y su «real hasta hoy»."""
     out = []
@@ -162,7 +187,8 @@ def candidatas(J, REAL):
         d = r['directos'].split(' de ') if ' de ' in (r['directos'] or '') else None
         if d and int(d[1]) >= 3 and int(d[0]) * 3 <= int(d[1]):          # los directos dicen lo contrario (solo aviso; no excluye)
             real = f"⚠ directos en contra ({r['directos']}) · " + real
-        out.append({'partido': r['partido'], 'hora': r['hora_partido'], 'mercado': r['mercado'], 'ambito': r['ambito'], 'linea': num(r['linea']), 'lado': r['lado'],
+        h = historica(r, round(p * f, 4))
+        out.append({**h, 'partido': r['partido'], 'hora': r['hora_partido'], 'mercado': r['mercado'], 'ambito': r['ambito'], 'linea': num(r['linea']), 'lado': r['lado'],
                     'texto': texto(r), 'cuota': c, 'p': round(p, 4), 'p_rec': round(p * f, 4), 'factor': round(f, 3), 'real': real,
                     'p_mercado': num(r['p_mercado']), 'ev': num(r['ev_modelo']), 'esperado': num(r['esperado']), 'colchon': num(r['colchon']),
                     'L': r['reg_local'], 'V': r['reg_visitante'], 'D': r['directos'], 'alerta': bool(r['alerta_modelo']), 'clave': clave(r)})
@@ -325,8 +351,8 @@ def informe_md(base, A):
         L.append(f"| {k} (con «cumple») | {v['n']} | {v['aciertos']} | {pc(v['real'])} | {pc(v['dicho'])} | × {q(v['factor'])} |")
     for k, v in R['sugerencias'].items():
         L.append(f"| Sugerencias auditadas: {k} | {v['n']} | {v['aciertos']} | {pc(v['real'])} | {pc(v['dicho'])} | |")
-    cab = ['| Hora | Partido | Sugerencia | Cuota | p modelo | p recortada | Local | Visitante | Directos | Real hasta hoy |', '|---|---|---|---|---|---|---|---|---|---|']
-    fila = lambda c: f"| {hora(c)} | {c['partido']} | {c['texto']} | {q(c['cuota'])} | {pc(c['p'])} | {pc(c['p_rec'])} | {c['L']} | {c['V']} | {c['D'] or '–'} | {c['real']} |"
+    cab = ['| Hora | Partido | Sugerencia | Cuota | p modelo | p recortada | Histórico (clubes) | Local | Visitante | Directos | Real hasta hoy |', '|---|---|---|---|---|---|---|---|---|---|---|']
+    fila = lambda c: f"| {hora(c)} | {c['partido']} | {c['texto']} | {q(c['cuota'])} | {pc(c['p'])} | {pc(c['p_rec'])} | {pc(c['p_hist'])} ({c['hist_sem']}) | {c['L']} | {c['V']} | {c['D'] or '–'} | {c['real']} |"
     L += ['', f"## Protección (cuota < {q(CUOTA_PROTECCION)}: se dan, no pagan) — {len(A['proteccion'])}", ''] + cab + [fila(c) for c in A['proteccion']]
     L += ['', f"## Sencillas de cuota 1,50–1,99 (p recortada a la vista) — {len(A['sencillas'])}", ''] + cab + [fila(c) for c in A['sencillas']]
     L += ['', f"## Combinadas de 2 patas del mismo partido — {len(A['combinadas'])}", '',
@@ -374,7 +400,7 @@ def main(argv):
     A = {'jornada': jor, 'hecho': ahora.strftime('%Y-%m-%d %H:%M'), 'muestra': nmax, 'cumple': k, 'n_minimo': mn, 'cuotas_leidas': [leidas[0], leidas[-1]] if leidas else [],
          'reglas': {'p_min': P_MIN, 'p_min_sencilla': P_MIN_SENCILLA, 'cuota_min': CUOTA_MIN, 'cuota_proteccion': CUOTA_PROTECCION,
                     'recorte_combo': RECORTE_COMBO, 'sin_sugerencia': list(SIN_SUGERENCIA)},
-         'real': REAL, 'partidos': P, 'proteccion': prot, 'sencillas': sen, 'combinadas': com, 'combos_saltados_por_alerta': saltados, 'loteria': lot,
+         'real': REAL, 'lineas_cumplen': [{k: v for k, v in c.items() if k != 'clave'} for c in cands], 'partidos': P, 'proteccion': prot, 'sencillas': sen, 'combinadas': com, 'combos_saltados_por_alerta': saltados, 'loteria': lot,
          'n_cumplen': len(cands), 'n_jugadores_con_historial': sum(1 for r in J if not es_equipo(r) and r['cumple_ficha'] in ('sí', 'no'))}
     json.dump(A, open(os.path.join(base, 'analisis.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=1)
     informe_md(base, A)

@@ -8,7 +8,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
 import datos
 
-SRC = ['core.js', 'charts.js', 'ui.js', 'pag_inicio.js', 'pag_partido.js', 'pag_estrategia.js', 'pag_cupon.js', 'pag_aprender.js', 'pag_historico.js', 'pag_datos.js', 'app.js']
+SRC = ['core.js', 'charts.js', 'ui.js', 'pag_inicio.js', 'pag_partido.js', 'pag_estrategia.js', 'pag_cupon.js', 'pag_aprender.js', 'pag_historico.js', 'pag_datos.js', 'pag_backtest.js', 'app.js']
 
 
 def extras(d):
@@ -34,7 +34,29 @@ def extras(d):
         if os.path.exists(fe):
             EST[j] = json.load(open(fe, encoding='utf8'))
     d.update({'AN': AN, 'XI': XI, 'EST': EST})
+    d['BT'] = backtest(d)
     return d
+
+
+def backtest(d):
+    """Explorador del backtest (pruebas/backtest/): HTML autónomo con la pestaña «Hoy» de la última jornada con análisis. Sin los datos compactos no hay página."""
+    import importlib.util
+    B = os.path.join(datos.RAIZ, 'pruebas', 'backtest')
+    if not os.path.exists(os.path.join(B, 'datos.json')):
+        return None
+    sp = importlib.util.spec_from_file_location('bt_construir', os.path.join(B, 'construir.py'))
+    m = importlib.util.module_from_spec(sp)
+    sp.loader.exec_module(m)
+    hoy = None
+    for j in sorted(d['jors'], reverse=True):
+        fa = os.path.join(datos.RAIZ, 'jornadas', j, 'analisis.json')
+        if os.path.exists(fa):
+            A = json.load(open(fa, encoding='utf8'))
+            if A.get('lineas_cumplen'):
+                hoy = {'jornada': j, 'lineas': [{k: v for k, v in x.items() if k != 'real'} for x in A['lineas_cumplen']]}
+                break
+    pv = os.path.join(datos.RAIZ, 'registro', 'validacion_tasas.json')
+    return m.construir(hoy, json.load(open(pv, encoding='utf8')) if os.path.exists(pv) else None)
 
 
 def main(a):

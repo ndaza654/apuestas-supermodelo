@@ -1,0 +1,120 @@
+{
+ "lineas": 817,
+ "sin_tasa": 53,
+ "jornadas": [
+  "2026-11-12-noche",
+  "2026-11-13",
+  "2026-11-14",
+  "2026-11-15"
+ ],
+ "brier": {
+  "modelo": 0.1434,
+  "historica": 0.149,
+  "minimo": 0.145,
+  "promedio": 0.1429,
+  "mezcla_25": 0.1423
+ },
+ "discrepancia": [
+  {
+   "grupo": "hist ≥ modelo + 0,10",
+   "n": 175,
+   "modelo": 0.611,
+   "historica": 0.821,
+   "real": 0.691
+  },
+  {
+   "grupo": "hist dentro de ±0,10",
+   "n": 616,
+   "modelo": 0.835,
+   "historica": 0.844,
+   "real": 0.833
+  },
+  {
+   "grupo": "hist ≤ modelo − 0,10",
+   "n": 26,
+   "modelo": 0.884,
+   "historica": 0.729,
+   "real": 0.885
+  },
+  {
+   "grupo": "modelo < 0,70 y hist ≥ 0,70",
+   "n": 139,
+   "modelo": 0.592,
+   "historica": 0.802,
+   "real": 0.647
+  }
+ ],
+ "por_mercado": [
+  {
+   "grupo": "al_arco Menos",
+   "n": 54,
+   "modelo": 0.683,
+   "historica": 0.804,
+   "real": 0.815
+  },
+  {
+   "grupo": "al_arco Más",
+   "n": 27,
+   "modelo": 0.72,
+   "historica": 0.807,
+   "real": 0.63
+  },
+  {
+   "grupo": "corners Menos",
+   "n": 125,
+   "modelo": 0.833,
+   "historica": 0.83,
+   "real": 0.872
+  },
+  {
+   "grupo": "corners Más",
+   "n": 150,
+   "modelo": 0.796,
+   "historica": 0.825,
+   "real": 0.76
+  },
+  {
+   "grupo": "goles Menos",
+   "n": 223,
+   "modelo": 0.858,
+   "historica": 0.877,
+   "real": 0.848
+  },
+  {
+   "grupo": "goles Más",
+   "n": 103,
+   "modelo": 0.809,
+   "historica": 0.833,
+   "real": 0.806
+  },
+  {
+   "grupo": "remates Menos",
+   "n": 39,
+   "modelo": 0.577,
+   "historica": 0.809,
+   "real": 0.667
+  },
+  {
+   "grupo": "remates Más",
+   "n": 18,
+   "modelo": 0.643,
+   "historica": 0.786,
+   "real": 0.889
+  },
+  {
+   "grupo": "tarjetas Menos",
+   "n": 45,
+   "modelo": 0.733,
+   "historica": 0.809,
+   "real": 0.733
+  },
+  {
+   "grupo": "tarjetas Más",
+   "n": 27,
+   "modelo": 0.722,
+   "historica": 0.801,
+   "real": 0.889
+  }
+ ],
+ "conclusion": "La tasa de clubes, como p, no calibra mejor que el modelo en estas líneas; cuando es más baja que el modelo, el modelo acertó, y cuando es más alta, lo real queda entre las dos. Por eso se muestra como segunda opinión (semáforo) y no recorta p."
+}

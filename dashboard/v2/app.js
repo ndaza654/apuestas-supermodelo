@@ -10,7 +10,7 @@ function chrome(){const r=route(),pg=r.pg==='partido'?'partidos':r.pg;
  $('#topcup').innerHTML=`${ic('ticket')} Cupón ${ST.cup.length?`<b class="num">${ST.cup.length}</b>`:''}`}
 function render(keep){const r=route(),ae=document.activeElement,fb=ae&&ae.dataset&&ae.dataset.bind,ss=fb?ae.selectionStart:null,sy=scrollY;
  try{$('#main').innerHTML=PAGES[r.pg].render(r.arg)}catch(e){$('#main').innerHTML=`<div class="card"><div class="empty">No se pudo mostrar esta página (${esc(e.message)}). <a href="#/inicio">Volver al inicio</a></div></div>`;console.error(e)}
- chrome();document.title=({inicio:'Inicio',partidos:'Partidos',partido:'Partido',estrategia:'Mi estrategia',cupon:'Cupón',lineas:'Líneas',jugadores:'Jugadores',apuestas:'Mis apuestas',aprender:'Qué funciona',enviadas:'Lo que te envié',datos:'Datos',docs:'Documentos'}[r.pg]||'Mando')+' · Mando';
+ chrome();document.title=({inicio:'Inicio',partidos:'Partidos',partido:'Partido',estrategia:'Mi estrategia',cupon:'Cupón',lineas:'Líneas',jugadores:'Jugadores',backtest:'Backtest histórico',apuestas:'Mis apuestas',aprender:'Qué funciona',enviadas:'Lo que te envié',datos:'Datos',docs:'Documentos'}[r.pg]||'Mando')+' · Mando';
  if(fb){const el=$(`#main [data-bind="${fb}"]`);if(el){el.focus();try{el.setSelectionRange(ss,ss)}catch(e){}}}
  if(keep)scrollTo(0,sy);else scrollTo(0,0);if(DR&&DR.t==='line'&&$('#dr').classList.contains('on')){const st=$('#dr').scrollTop;openLine(DR.key);$('#dr').scrollTop=st}}
 const upd=()=>{save();render(true)};
@@ -38,6 +38,7 @@ const ACT={home(){go('inicio')},close(){closeDr()},line(el){openLine(el.dataset.
   download('lineas_filtradas.csv','﻿'+h.join(';')+'\n'+rows.join('\n'),'text/csv');toast(rows.length+' líneas descargadas')},
  more(el){setp('f.lim.'+el.dataset.id,+el.dataset.n);upd()},
  sres(el){$('#sres').style.display='none';$('#q').value='';const k=el.dataset.k,v=el.dataset.v;if(k==='p')go('partido/'+v);else if(k==='g'){setp('f.jq',v);setp('f.jj','');setp('f.jh','0');setp('f.jm','');save();if(route().pg==='jugadores')render();else go('jugadores')}else if(k==='d')go('docs/'+v);else go(v)}};
+ACT.btdl=()=>{download('backtest_regla_x_de_n.html',DB.BT,'text/html');toast('Descargado')};
 let _pl=null;
 function search(q){q=q.trim().toLowerCase();const box=$('#sres');if(q.length<2){box.style.display='none';return}
  if(!_pl){const m=new Map();G.forEach(x=>{if(!m.has(x.j))m.set(x.j,x.p)});_pl=[...m.entries()]}

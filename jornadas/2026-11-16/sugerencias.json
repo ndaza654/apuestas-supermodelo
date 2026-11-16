@@ -327,6 +327,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Tarjetas visitante Menos 3.5",
+   "partidos": "Grecia - Serbia",
+   "cuota": 1.25,
+   "p": 0.7645,
+   "p_modelo": 0.7645,
+   "patas": [
+    {
+     "partido": "Grecia - Serbia",
+     "texto": "Tarjetas visitante Menos 3.5",
+     "cuota": 1.25,
+     "clave": [
+      "Grecia - Serbia",
+      "tarjetas",
+      "visitante",
+      "3.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Goles visitante Más 0.5",
    "partidos": "Alemania - Países Bajos",
    "cuota": 1.24,
@@ -764,6 +787,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Tarjetas Más 4.5",
+   "partidos": "Albacete Balompié - RC Celta de Vigo II",
+   "cuota": 1.55,
+   "p": 0.6447,
+   "p_modelo": 0.6447,
+   "patas": [
+    {
+     "partido": "Albacete Balompié - RC Celta de Vigo II",
+     "texto": "Tarjetas Más 4.5",
+     "cuota": 1.55,
+     "clave": [
+      "Albacete Balompié - RC Celta de Vigo II",
+      "tarjetas",
+      "total",
+      "4.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Córners local Menos 6.5",
    "partidos": "Grecia - Serbia",
    "cuota": 1.55,
@@ -803,6 +849,29 @@
       "total",
       "2.5",
       "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Tarjetas local Menos 2.5",
+   "partidos": "Estonia - Bulgaria",
+   "cuota": 1.53,
+   "p": 0.6042,
+   "p_modelo": 0.6042,
+   "patas": [
+    {
+     "partido": "Estonia - Bulgaria",
+     "texto": "Tarjetas local Menos 2.5",
+     "cuota": 1.53,
+     "clave": [
+      "Estonia - Bulgaria",
+      "tarjetas",
+      "local",
+      "2.5",
+      "Menos"
      ]
     }
    ]
@@ -1031,10 +1100,10 @@
    "tipo": "combinada entre partidos",
    "etiqueta": "lotería (stake mínimo)",
    "nombre": "Lotería de 3 protecciones",
-   "partidos": "Macedonia del Norte - Eslovenia | Suiza - Escocia | Islas Feroé - Moldavia",
-   "cuota": 2.05,
-   "p": 0.4432,
-   "p_modelo": 0.4657,
+   "partidos": "Macedonia del Norte - Eslovenia | Grecia - Serbia | Suiza - Escocia",
+   "cuota": 2.02,
+   "p": 0.4564,
+   "p_modelo": 0.4585,
    "patas": [
     {
      "partido": "Macedonia del Norte - Eslovenia",
@@ -1049,6 +1118,18 @@
      ]
     },
     {
+     "partido": "Grecia - Serbia",
+     "texto": "Tarjetas visitante Menos 3.5",
+     "cuota": 1.25,
+     "clave": [
+      "Grecia - Serbia",
+      "tarjetas",
+      "visitante",
+      "3.5",
+      "Menos"
+     ]
+    },
+    {
      "partido": "Suiza - Escocia",
      "texto": "Goles Menos 3.5",
      "cuota": 1.29,
@@ -1058,18 +1139,6 @@
       "total",
       "3.5",
       "Menos"
-     ]
-    },
-    {
-     "partido": "Islas Feroé - Moldavia",
-     "texto": "Córners visitante Más 2.5",
-     "cuota": 1.27,
-     "clave": [
-      "Islas Feroé - Moldavia",
-      "corners",
-      "visitante",
-      "2.5",
-      "Más"
      ]
     }
    ]

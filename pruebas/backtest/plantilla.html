@@ -70,7 +70,9 @@ ol.h{padding-left:20px;margin:6px 0}ol.h li{margin:9px 0}
 </header>
 <nav role="tablist" id="tabs">
   <button data-t="hall" aria-selected="true">Hallazgos</button>
+  <button data-t="hoy" id="tabHoy" hidden>Hoy</button>
   <button data-t="exp">Explorar</button>
+  <button data-t="mi">Mi línea</button>
   <button data-t="rank">Ranking de líneas</button>
   <button data-t="part">Partidos</button>
   <button data-t="lim">Datos y límites</button>
@@ -165,6 +167,40 @@ ol.h{padding-left:20px;margin:6px 0}ol.h li{margin:9px 0}
     <p class="nota">Solo goles 2.5 del partido trae cuotas en la base. «Mercado» es la probabilidad que daba la cuota, sin margen.</p><div class="scroll" id="pcuo"></div></div>
 </section>
 
+<section id="t-hoy" hidden>
+  <div class="card"><h2 id="hoyTit">Líneas de hoy</h2>
+    <p class="nota">Cada línea que cumple la regularidad, con la tasa histórica de acierto en ligas de clubes de las líneas iguales (mismo X de 10 y colchón). Es una segunda opinión: <b>no recorta p</b>. Toca una fila para ver esa cohorte en Explorar.</p>
+    <div class="fila">
+      <label>Semáforo<select id="hsem"><option value="">Todos</option><option value="a favor">El histórico está por encima (a favor)</option><option value="en contra">El histórico está por debajo (en contra)</option><option value="sin discrepancia">Sin discrepancia</option><option value="sin dato">Sin tasa histórica</option></select></label>
+      <label>Mercado<select id="hmk"><option value="">Todos</option></select></label>
+      <label>Partido<select id="hpar"><option value="">Todos</option></select></label>
+      <label>Cuota desde<input type="number" id="hc0" step="0.05" min="1" placeholder="sin"></label>
+      <label>hasta<input type="number" id="hc1" step="0.05" min="1" placeholder="sin"></label>
+      <label>n mín. histórico<input type="number" id="hn" step="50" min="0" value="0"></label>
+    </div>
+    <p class="nota" id="hres"></p>
+    <div class="scroll" id="hoy"></div>
+    <p class="nota">Semáforo: «a favor» si la tasa histórica supera la p recortada en 10 puntos o más; «en contra» si queda 10 puntos o más por debajo. Las selecciones no son clubes: es una referencia, no una medida. En las líneas ya jugadas, cuando el histórico estaba por debajo del modelo, el modelo acertó (ver Hallazgos).</p>
+  </div>
+</section>
+
+<section id="t-mi" hidden>
+  <div class="card"><h2>Consulta tu línea</h2>
+    <p class="nota">Escribe los datos de una línea de la ficha y mira cómo le fue a las líneas iguales en ligas de clubes: mismo mercado, línea, lado, conteo X de 10 y colchón.</p>
+    <div class="fila">
+      <label>Mercado<select id="mmk"></select></label>
+      <label>Ámbito<select id="mamb"></select></label>
+      <label>Lado<span class="seg" id="mlado"><button data-v="mas" class="on">Más</button><button data-v="menos">Menos</button></span></label>
+      <label>Línea<input type="number" id="mlin" step="1" value="8.5"></label>
+      <label>Local (X de 10)<input type="number" id="mxl" min="0" max="10" step="1" value="7"></label>
+      <label>Visitante (X de 10)<input type="number" id="mxv" min="0" max="10" step="1" value="7"></label>
+      <label>Colchón<input type="number" id="mcol" step="0.1" placeholder="opcional"></label>
+    </div>
+    <div class="scroll" id="mres" style="margin-top:10px"></div>
+    <p class="nota">Cohorte: partidos donde el menor de los dos conteos es al menos el que escribes y el colchón cae en un tramo de ±0,5. Si hay pocos partidos, mira la fila sin colchón.</p>
+  </div>
+</section>
+
 <section id="t-rank" hidden>
   <div class="card"><h2>Ranking de líneas con los filtros actuales</h2>
     <p class="nota">Todas las combinaciones de mercado, ámbito, línea y lado, con la regularidad, colchón, liga, temporada, equipo y cuota del favorito que tengas puestos. Toca un encabezado para ordenar y una fila para abrirla en Explorar.</p>
@@ -175,6 +211,7 @@ ol.h{padding-left:20px;margin:6px 0}ol.h li{margin:9px 0}
       <label>Acierto base máx. (%)<input type="number" id="rbase" placeholder="sin" min="0" max="100" step="5"></label>
     </div>
     <p class="nota" id="rest"></p>
+    <button class="btn" id="rcsv">Descargar CSV</button>
     <div class="scroll" id="rank"></div></div>
 </section>
 
@@ -184,6 +221,7 @@ ol.h{padding-left:20px;margin:6px 0}ol.h li{margin:9px 0}
       <label>Ver<select id="vista"><option value="sel">Los que pasan el filtro</option><option value="base">Toda la base</option><option value="no">Los que no pasan</option></select></label>
       <label>Resultado<select id="vres"><option value="">Todos</option><option value="1">Acertadas</option><option value="0">Falladas</option></select></label>
     </div>
+    <button class="btn" id="pcsv">Descargar CSV de estos partidos</button>
     <div class="scroll" id="part"></div>
     <div class="pag"><button class="btn" id="pant">Anteriores</button><span id="pinfo"></span><button class="btn" id="psig">Siguientes</button></div></div>
 </section>
@@ -211,7 +249,7 @@ ol.h{padding-left:20px;margin:6px 0}ol.h li{margin:9px 0}
 </main>
 
 <script>/*__MOTOR__*/</script>
-<script>const DATOS=/*__DATOS__*/;</script>
+<script>const DATOS=/*__DATOS__*/;const HOY=/*__HOY__*/;const VAL=/*__VAL__*/;</script>
 <script>
 'use strict';
 const $=s=>document.querySelector(s), E=Motor.crear(DATOS), MK=Motor.MERCADOS, AMB=Motor.AMBITOS, D=DATOS;
@@ -397,13 +435,82 @@ function dibujarRanking(){
   $('#rank').querySelectorAll('tr.clic').forEach(tr=>tr.onclick=()=>{const g=fs[+tr.dataset.ix];Object.assign(st,{mk:g.mk,amb:g.amb,linea:g.l,lado:g.lado,tab:'exp'});pintar();window.scrollTo(0,0);});
 }
 
+
+/* ---------- utilidades: CSV y abrir una cohorte ---------- */
+function bajar(nombre,filas){const t='﻿'+filas.map(f=>f.map(v=>{v=v==null?'':String(v);return /[;"\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v;}).join(';')).join('\n');
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([t],{type:'text/csv'}));a.download=nombre;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);}
+$('#rcsv').onclick=()=>{const fs=RK.filas.filter(g=>g.sn>0).sort((a,b)=>b.sh/b.sn-a.sh/a.sn);
+  bajar('backtest_ranking.csv',[['mercado','ambito','linea','lado','n_filtro','aciertos_filtro','pct_filtro','n_base','pct_base','cuota_justa']].concat(fs.map(g=>[MK[g.mk].nombre,g.amb,g.l,g.lado,g.sn,g.sh,(100*g.sh/g.sn).toFixed(1),g.bn,g.bn?(100*g.bh/g.bn).toFixed(1):'',g.sh?(g.sn/g.sh).toFixed(2):''])));};
+$('#pcsv').onclick=()=>{if(!R)return;const v=$('#vista').value,rows=[['fecha','partido','liga','local_X','visitante_X','esperado','colchon','real','acierto']];
+  for(const i of R.base){if(v==='sel'&&!R.sel[i])continue;if(v==='no'&&R.sel[i])continue;rows.push([fechaTxt(i),D.equipos[E.h[i]]+' - '+D.equipos[E.a[i]],D.ligas[E.lg[i]],R.xL[i],R.xV[i],R.prep.exp[i].toFixed(2),R.col[i].toFixed(2),R.prep.real[i],R.hit[i]]);}
+  bajar('backtest_partidos.csv',rows);};
+const MKJS={corners:'corners',goles:'goles',remates:'remates',al_arco:'arco',faltas:'faltas',tarjetas:'tarj'};
+const CORTES=[0.5,1,1.5,2,3];
+function abrir(d){ // d: {mk,amb,lado,linea,k,banda,per}
+  Object.assign(st,{mk:d.mk,amb:d.amb,lado:d.lado,linea:d.linea,N:10,K:d.k,nmin:7,quien:'ambos',favMin:null,favMax:null,cuoMin:null,cuoMax:null,equipo:-1,tab:'exp'});
+  st.ligas=D.ligas.map(()=>true);st.colMin=d.banda==null||d.banda===0?null:CORTES[d.banda-1];st.colMax=d.banda==null||d.banda>=CORTES.length?null:Math.round((CORTES[d.banda]-0.001)*1000)/1000;
+  st.tDesde=d.per==='rec'?2019:E.tMin;st.tHasta=E.tMax;pintar();window.scrollTo(0,0);}
+addEventListener('message',e=>{if(e.data&&e.data.bt==='abrir')abrir(e.data);});
+
+/* ---------- Hoy ---------- */
+const SEM={'a favor':'pos','en contra':'neg'};
+function pintarHoy(){
+  if(!HOY){return;}
+  if(!$('#hmk').dataset.ok){$('#hmk').dataset.ok=1;[...new Set(HOY.lineas.map(x=>x.mercado))].forEach(m=>$('#hmk').add(new Option((MK[MKJS[m]]||{nombre:m}).nombre,m)));
+    [...new Set(HOY.lineas.map(x=>x.partido))].forEach(p=>$('#hpar').add(new Option(p,p)));
+    for(const id of['hsem','hmk','hpar','hc0','hc1','hn'])$('#'+id).oninput=pintarHoy;}
+  $('#hoyTit').textContent='Líneas que cumplen en '+HOY.jornada+' ('+HOY.lineas.length+')';
+  const s=$('#hsem').value,m=$('#hmk').value,pa=$('#hpar').value,c0=numero('hc0'),c1=numero('hc1'),nm=+$('#hn').value||0;
+  const fs=HOY.lineas.filter(x=>(!s||x.hist_sem===s)&&(!m||x.mercado===m)&&(!pa||x.partido===pa)&&(c0==null||x.cuota>=c0)&&(c1==null||x.cuota<=c1)&&(x.n_hist||0)>=nm).sort((a,b)=>a.hora<b.hora?-1:a.hora>b.hora?1:b.p_rec-a.p_rec);
+  const cnt={};HOY.lineas.forEach(x=>cnt[x.hist_sem]=(cnt[x.hist_sem]||0)+1);
+  $('#hres').textContent=`${fs.length} líneas · semáforo en todas: ${Object.entries(cnt).map(([k,v])=>k+' '+v).join(' · ')}`;
+  const pc1=x=>x==null?'—':(100*x).toFixed(0).replace('.',',')+' %';
+  let t='<table><thead><tr><th>Hora</th><th style="text-align:left">Partido</th><th style="text-align:left">Línea</th><th>Cuota</th><th>p modelo</th><th>p recortada</th><th>Histórico</th><th>n</th><th>Semáforo</th><th>Local</th><th>Visit.</th><th>Colchón</th></tr></thead><tbody>';
+  fs.forEach((x,ix)=>{t+=`<tr class="clic ${x.n_hist!=null&&x.n_hist<150?'poco':''}" data-ix="${ix}"><td>${x.hora.slice(11,16)}</td><td style="text-align:left">${x.partido}</td><td style="text-align:left"><b>${x.texto}</b></td><td>${dec(x.cuota)}</td><td>${pc1(x.p)}</td><td>${pc1(x.p_rec)}</td><td><b>${pc1(x.p_hist)}</b></td><td>${x.n_hist==null?'—':num(x.n_hist)}</td><td class="${SEM[x.hist_sem]||''}">${x.hist_sem}</td><td>${x.L}</td><td>${x.V}</td><td>${x.colchon==null?'—':dec(x.colchon,1)}</td></tr>`;});
+  $('#hoy').innerHTML=fs.length?t+'</tbody></table>':'<p class="nota">Ninguna línea con estos filtros.</p>';
+  $('#hoy').querySelectorAll('tr.clic').forEach(tr=>tr.onclick=()=>{const x=fs[+tr.dataset.ix];if(x.p_hist==null){return;}
+    abrir({mk:MKJS[x.mercado],amb:x.ambito,lado:x.lado==='Más'?'mas':'menos',linea:x.linea,k:x.hist_k,banda:x.hist_banda,per:x.hist_per});});
+}
+
+/* ---------- Consulta tu línea ---------- */
+for(const k in MK){if(k!=='btts')$('#mmk').add(new Option(MK[k].nombre,k));}
+let mst={amb:'total',lado:'mas'};$('#mmk').value='corners';
+function pintarMi(){
+  const mk=$('#mmk').value||'corners',ambs=Object.keys(AMB).filter(a=>a==='total'||MK[mk].equipo.length);
+  if($('#mamb').dataset.mk!==mk){$('#mamb').dataset.mk=mk;$('#mamb').innerHTML=ambs.map(a=>`<option value="${a}">${AMB[a]}</option>`).join('');}
+  const amb=$('#mamb').value||'total',linea=numero('mlin'),xl=numero('mxl'),xv=numero('mxv'),col=numero('mcol');
+  if(linea==null||xl==null||xv==null){$('#mres').innerHTML='<p class="nota">Completa línea y conteos.</p>';return;}
+  const k=Math.max(0,Math.min(10,Math.min(Math.round(xl),Math.round(xv))));
+  const base={ligas:D.ligas.map(()=>true),tDesde:0,tHasta:9999,equipo:-1,K:k,quien:'ambos',nmin:7,colMin:null,colMax:null,favMin:null,favMax:null,cuoMin:null,cuoMax:null};
+  const filas=[];
+  for(const [per,d0] of [['Desde 2019/20',2019],['Todas las temporadas',E.tMin]]){
+    for(const [nom,cm] of col!=null?[['Con colchón ±0,5',1],['Sin colchón',0]]:[['Sin colchón',0]]){
+      const f={...base,tDesde:d0,colMin:cm?col-0.5:null,colMax:cm?col+0.5:null},r=E.analizar({mk,amb,linea,lado:mst.lado,N:10},f);
+      filas.push({et:per+' · '+nom,n:r.sn,h:r.sh,bn:r.bn,bh:r.bh});}}
+  let t='<table><thead><tr><th>Cohorte</th><th>Acierto</th><th>n</th><th>Intervalo 95 %</th><th>Base (sin filtro)</th><th>Cuota justa</th></tr></thead><tbody>';
+  for(const x of filas){const w=Motor.wilson(x.h,x.n);t+=`<tr class="${x.n<150?'poco':''}"><td>${x.et}</td><td><b>${pct(x.h,x.n)}</b></td><td>${num(x.n)}</td><td>${x.n?pct(w[0],1,0)+' a '+pct(w[1],1,0):'—'}</td><td>${pct(x.bh,x.bn)}</td><td>${x.h?dec(x.n/x.h):'—'}</td></tr>`;}
+  $('#mres').innerHTML=t+'</tbody></table>'+(filas.every(x=>x.n<150)?'<p class="aviso">Pocos partidos con esa combinación: no es una cifra firme. Prueba una línea cercana o menos exigencia.</p>':'');
+}
+for(const id of['mmk','mamb','mlin','mxl','mxv','mcol'])$('#'+id).oninput=pintarMi;
+$('#mlado').onclick=e=>{if(e.target.dataset.v){mst.lado=e.target.dataset.v;document.querySelectorAll('#mlado button').forEach(b=>b.classList.toggle('on',b===e.target));pintarMi();}};
+$('#mmk').onchange=()=>{const l=lineasDe($('#mmk').value,'total');$('#mlin').value=l[Math.floor((l.length-1)/2)];pintarMi();};
+
+/* ---------- Hoy y validación en Hallazgos ---------- */
+if(HOY){$('#tabHoy').hidden=false;}
+if(VAL){const f=x=>(100*x).toFixed(1).replace('.',',')+' %';
+  $('#t-hall').insertAdjacentHTML('beforeend',`<div class="card"><h2>Prueba con tus líneas ya jugadas</h2>
+   <p class="nota">${num(VAL.lineas)} líneas de equipo con «cumple» ya calificadas (selecciones y otras jornadas, fuera de la muestra del backtest). Se compara lo que dijo el modelo, lo que dice la tasa histórica de clubes y lo que pasó. Error de Brier: más bajo es mejor.</p>
+   <div class="scroll"><table><thead><tr><th>p usada</th><th>Brier</th></tr></thead><tbody>${[['Modelo','modelo'],['Tasa histórica sola','historica'],['El menor de los dos','minimo'],['Promedio de los dos','promedio'],['75 % modelo + 25 % histórico','mezcla_25']].map(([n,k])=>`<tr><td>${n}</td><td>${VAL.brier[k].toFixed(4).replace('.',',')}</td></tr>`).join('')}</tbody></table></div>
+   <div class="scroll" style="margin-top:8px"><table><thead><tr><th>Cuando…</th><th>n</th><th>Modelo</th><th>Histórico</th><th>Pasó</th></tr></thead><tbody>${VAL.discrepancia.filter(x=>x).map(x=>`<tr><td>${x.grupo}</td><td>${x.n}</td><td>${f(x.modelo)}</td><td>${f(x.historica)}</td><td><b>${f(x.real)}</b></td></tr>`).join('')}</tbody></table></div>
+   <p class="aviso">${VAL.conclusion} La mejora de mezclar es de 0,001 en Brier con ${VAL.jornadas.length} jornadas: no justifica cambiar la p. El histórico ayuda a ver dónde el modelo y los clubes no coinciden.</p></div>`);}
+
 /* ---------- pintar todo ---------- */
 function pintar(){
   sincronizar();
   document.querySelectorAll('#tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===st.tab));
-  for(const t of['hall','exp','rank','part','lim'])$('#t-'+t).hidden=t!==st.tab;
+  for(const t of['hall','hoy','exp','mi','rank','part','lim'])$('#t-'+t).hidden=t!==st.tab;
   $('#filtros').hidden=!['exp','rank','part'].includes(st.tab);
-  if($('#filtros').hidden)return;
+  if($('#filtros').hidden){if(st.tab==='hoy')pintarHoy();if(st.tab==='mi')pintarMi();return;}
   R=E.analizar(Q(),filtro());
   $('#resumen').textContent=textoFiltro()+` → ${num(R.sn)} partidos, ${pct(R.sh,R.sn)} de acierto (base ${pct(R.bh,R.bn)})`;
   if(st.tab==='exp')pintarExplorar();
