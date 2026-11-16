@@ -6,7 +6,16 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 
 ## Resumen: líneas de equipo que cumplen 7 de 10 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
 
-_Ninguna._
+| Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |
+|---|---|---|---|---|---|---|
+| Goles | total | Menos 4.5 | 1.23 | +2.5 | 10 de 10 | 8 de 10 |
+| Goles | total | Menos 3.5 | 1.57 | +1.5 | 10 de 10 | 8 de 10 |
+| Goles | total | Menos 3.25 | 1.7 | +1.2 | 7 de 10 | 7 de 10 |
+| Goles | total | Menos 3.0 | 1.9 | +1.0 | 7 de 10 | 7 de 10 |
+| Goles | total | Menos 2.75 | 2.15 | +0.8 | 7 de 10 | 7 de 10 |
+| Goles | total | Menos 2.5 | 2.35 | +0.5 | 7 de 10 | 7 de 10 |
+| Goles | visitante | Menos 3.5 | 1.42 | +2.0 | 10 de 10 | 9 de 10 |
+| Goles | visitante | Menos 2.5 | 2.07 | +1.1 | 8 de 10 | 9 de 10 |
 
 ## Córners
 
@@ -41,7 +50,7 @@ Muestra: local 8, visitante 10, directos 1. Esperado: local 6.8, visitante 11.68
 ### Tiros al arco
 Muestra: local 8, visitante 10, directos 1. Esperado: local 2.14, visitante 4.21, **total 6.35** (local 0.88 a favor / 5.12 en contra; visitante 3.3 / 3.4).
 
-## Goles y tarjetas (para los agentes de goles-resultado y tarjetas; no entran en el ranking)
+## Goles y tarjetas (también entran en el resumen y en el análisis; detalle para los agentes goles-resultado y tarjetas)
 
 ### Goles
 _Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T._

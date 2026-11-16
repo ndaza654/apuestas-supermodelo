@@ -12,31 +12,42 @@
   {
    "n": 1,
    "mismo_partido": true,
-   "cuota_producto": 6.09,
-   "p_producto": 0.1336,
-   "nota": "BB Alemania–P. Bajos (≥3 patas, cada una ≥1,50). Producto 6,09; Betano pagará menos por la correlación: estimado ≈5,2. Patas elegidas por el modelo (p conjunta ≈18 %), la mayoría no cumple el 7 de 10.",
+   "cuota_producto": 7.34,
+   "p_producto": 0.1078,
+   "nota": "BB Alemania–P. Bajos, releída 14:26 con alineaciones oficiales: precio REAL en Betano ≈5,20 (cuotas por pata 1,67·1,75·1,60·1,57). Alemania necesita ganar y domina: remates, tiros al arco y córners + P. Bajos con tarjetas. p conjunta del modelo ≈17 %.",
    "patas": [
     {
      "partido": "Alemania - Países Bajos",
-     "texto": "Tiros al arco Países Bajos Menos 5.5",
-     "mercado": "al_arco",
-     "ambito": "visitante",
-     "jugador": "",
-     "lado": "Menos",
-     "linea": "5.5",
-     "cuota": 1.5,
-     "p": 0.6478
-    },
-    {
-     "partido": "Alemania - Países Bajos",
-     "texto": "Córners Alemania Más 4.5",
-     "mercado": "corners",
+     "texto": "Remates Alemania Más 16.5",
+     "mercado": "remates",
      "ambito": "local",
      "jugador": "",
      "lado": "Más",
-     "linea": "4.5",
-     "cuota": 1.52,
-     "p": 0.6019
+     "linea": "16.5",
+     "cuota": 1.67,
+     "p": 0.5531
+    },
+    {
+     "partido": "Alemania - Países Bajos",
+     "texto": "Tiros al arco Alemania Más 5.5",
+     "mercado": "al_arco",
+     "ambito": "local",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "5.5",
+     "cuota": 1.75,
+     "p": 0.5271
+    },
+    {
+     "partido": "Alemania - Países Bajos",
+     "texto": "Córners Más 9.5",
+     "mercado": "corners",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "9.5",
+     "cuota": 1.6,
+     "p": 0.5945
     },
     {
      "partido": "Alemania - Países Bajos",
@@ -46,61 +57,28 @@
      "jugador": "",
      "lado": "Más",
      "linea": "1.5",
-     "cuota": 1.65,
-     "p": 0.5911
-    },
-    {
-     "partido": "Alemania - Países Bajos",
-     "texto": "Córners Más 8.5",
-     "mercado": "corners",
-     "ambito": "total",
-     "jugador": "",
-     "lado": "Más",
-     "linea": "8.5",
-     "cuota": 1.62,
-     "p": 0.5797
+     "cuota": 1.57,
+     "p": 0.6217
     }
    ]
   },
   {
    "n": 2,
    "mismo_partido": true,
-   "cuota_producto": 6.1,
-   "p_producto": 0.1285,
-   "nota": "BB Grecia–Serbia (≥3 patas, cada una ≥1,50). Producto 6,10; precio estimado en Betano ≈5,2. Historia: Grecia con poco y Serbia llega y marca. Patas elegidas por el modelo (p conjunta ≈18 %).",
+   "cuota_producto": 7.02,
+   "p_producto": 0.1229,
+   "nota": "BB Grecia–Serbia, releída 14:26: precio REAL en Betano ≈5,20 (cuotas por pata 1,55·1,70·1,55·1,72). Partido abierto: Grecia busca goles en casa, Serbia (14 partidos encajando) marca; córners del 2T. p conjunta del modelo ≈17,6 %.",
    "patas": [
     {
      "partido": "Grecia - Serbia",
-     "texto": "Remates Grecia Menos 19.5",
-     "mercado": "remates",
+     "texto": "Goles Grecia Más 1.5",
+     "mercado": "goles",
      "ambito": "local",
-     "jugador": "",
-     "lado": "Menos",
-     "linea": "19.5",
-     "cuota": 1.52,
-     "p": 0.627
-    },
-    {
-     "partido": "Grecia - Serbia",
-     "texto": "Córners Grecia Menos 6.5",
-     "mercado": "corners",
-     "ambito": "local",
-     "jugador": "",
-     "lado": "Menos",
-     "linea": "6.5",
-     "cuota": 1.55,
-     "p": 0.6146
-    },
-    {
-     "partido": "Grecia - Serbia",
-     "texto": "Tiros al arco Serbia Más 2.5",
-     "mercado": "al_arco",
-     "ambito": "visitante",
      "jugador": "",
      "lado": "Más",
-     "linea": "2.5",
-     "cuota": 1.57,
-     "p": 0.5972
+     "linea": "1.5",
+     "cuota": 1.55,
+     "p": 0.6175
     },
     {
      "partido": "Grecia - Serbia",
@@ -110,16 +88,38 @@
      "jugador": "",
      "lado": "Más",
      "linea": "0.5",
-     "cuota": 1.65,
-     "p": 0.5583
+     "cuota": 1.7,
+     "p": 0.5465
+    },
+    {
+     "partido": "Grecia - Serbia",
+     "texto": "Córners Más 8.5",
+     "mercado": "corners",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "8.5",
+     "cuota": 1.55,
+     "p": 0.624
+    },
+    {
+     "partido": "Grecia - Serbia",
+     "texto": "Córners 2T Más 4.5",
+     "mercado": "corners",
+     "ambito": "2T",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "4.5",
+     "cuota": 1.72,
+     "p": 0.5838
     }
    ]
   },
   {
    "n": 3,
    "mismo_partido": false,
-   "cuota_producto": 1.85,
-   "p_producto": 0.5263,
+   "cuota_producto": 1.86,
+   "p_producto": 0.5258,
    "nota": "Doble de protecciones: Alemania con pocos goles + Suiza con goles",
    "patas": [
     {
@@ -130,8 +130,8 @@
      "jugador": "",
      "lado": "Menos",
      "linea": "4.5",
-     "cuota": 1.36,
-     "p": 0.7377
+     "cuota": 1.37,
+     "p": 0.737
     },
     {
      "partido": "Suiza - Escocia",
@@ -191,8 +191,8 @@
   {
    "n": 5,
    "mismo_partido": false,
-   "cuota_producto": 2.42,
-   "p_producto": 0.3972,
+   "cuota_producto": 2.44,
+   "p_producto": 0.3968,
    "nota": "Triple de pocos goles (cuota ≈2,4)",
    "patas": [
     {
@@ -214,8 +214,8 @@
      "jugador": "",
      "lado": "Menos",
      "linea": "4.5",
-     "cuota": 1.36,
-     "p": 0.7377
+     "cuota": 1.37,
+     "p": 0.737
     },
     {
      "partido": "Canadá - Guatemala",
@@ -234,7 +234,7 @@
    "n": 6,
    "mismo_partido": false,
    "cuota_producto": 2.02,
-   "p_producto": 0.4585,
+   "p_producto": 0.4523,
    "nota": "Lotería del análisis (stake mínimo)",
    "patas": [
     {
@@ -257,7 +257,7 @@
      "lado": "Menos",
      "linea": "3.5",
      "cuota": 1.25,
-     "p": 0.7645
+     "p": 0.7543
     },
     {
      "partido": "Suiza - Escocia",
@@ -448,29 +448,29 @@
    "lado": "Menos",
    "linea": "2.5",
    "cuota": 1.45,
-   "p": 0.6781
+   "p": 0.6772
   },
   {
    "partido": "Alemania - Países Bajos",
-   "texto": "Remates Menos 30.5",
+   "texto": "Córners Menos 11.5",
+   "mercado": "corners",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "11.5",
+   "cuota": 1.47,
+   "p": 0.6401
+  },
+  {
+   "partido": "Alemania - Países Bajos",
+   "texto": "Remates Menos 31.5",
    "mercado": "remates",
    "ambito": "total",
    "jugador": "",
    "lado": "Menos",
-   "linea": "30.5",
-   "cuota": 1.62,
-   "p": 0.586
-  },
-  {
-   "partido": "Alemania - Países Bajos",
-   "texto": "Córners Más 8.5",
-   "mercado": "corners",
-   "ambito": "total",
-   "jugador": "",
-   "lado": "Más",
-   "linea": "8.5",
-   "cuota": 1.62,
-   "p": 0.5797
+   "linea": "31.5",
+   "cuota": 1.57,
+   "p": 0.5871
   },
   {
    "partido": "Alemania - Países Bajos",
@@ -481,7 +481,18 @@
    "lado": "Más",
    "linea": "32.5",
    "cuota": 1.75,
-   "p": 0.5319
+   "p": 0.5248
+  },
+  {
+   "partido": "Alemania - Países Bajos",
+   "texto": "Remates Menos 30.5",
+   "mercado": "remates",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "30.5",
+   "cuota": 1.78,
+   "p": 0.5181
   },
   {
    "partido": "Alemania - Países Bajos",
@@ -491,8 +502,8 @@
    "jugador": "",
    "lado": "Menos",
    "linea": "11.5",
-   "cuota": 1.8,
-   "p": 0.4862
+   "cuota": 1.78,
+   "p": 0.4921
   },
   {
    "partido": "Grecia - Serbia",
@@ -503,7 +514,7 @@
    "lado": "Menos",
    "linea": "2.5",
    "cuota": 1.47,
-   "p": 0.6572
+   "p": 0.6605
   },
   {
    "partido": "Grecia - Serbia",
@@ -513,8 +524,8 @@
    "jugador": "",
    "lado": "Menos",
    "linea": "10.5",
-   "cuota": 1.47,
-   "p": 0.637
+   "cuota": 1.5,
+   "p": 0.6198
   },
   {
    "partido": "Grecia - Serbia",
@@ -524,30 +535,8 @@
    "jugador": "",
    "lado": "Más",
    "linea": "2.25",
-   "cuota": 1.52,
-   "p": 0.6317
-  },
-  {
-   "partido": "Grecia - Serbia",
-   "texto": "Córners Grecia Menos 6.5",
-   "mercado": "corners",
-   "ambito": "local",
-   "jugador": "",
-   "lado": "Menos",
-   "linea": "6.5",
-   "cuota": 1.55,
-   "p": 0.6146
-  },
-  {
-   "partido": "Grecia - Serbia",
-   "texto": "Fueras de juego Más 2.5",
-   "mercado": "fueras",
-   "ambito": "total",
-   "jugador": "",
-   "lado": "Más",
-   "linea": "2.5",
-   "cuota": 1.6,
-   "p": 0.6106
+   "cuota": 1.57,
+   "p": 0.619
   },
   {
    "partido": "Grecia - Serbia",
@@ -558,7 +547,29 @@
    "lado": "Más",
    "linea": "2.5",
    "cuota": 1.57,
-   "p": 0.5972
+   "p": 0.5992
+  },
+  {
+   "partido": "Grecia - Serbia",
+   "texto": "Fueras de juego Más 2.5",
+   "mercado": "fueras",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "2.5",
+   "cuota": 1.6,
+   "p": 0.5902
+  },
+  {
+   "partido": "Grecia - Serbia",
+   "texto": "Córners Grecia Menos 6.5",
+   "mercado": "corners",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "6.5",
+   "cuota": 1.62,
+   "p": 0.5767
   },
   {
    "partido": "Grecia - Serbia",
@@ -568,8 +579,8 @@
    "jugador": "",
    "lado": "Más",
    "linea": "2.5",
-   "cuota": 1.7,
-   "p": 0.555
+   "cuota": 1.75,
+   "p": 0.5422
   },
   {
    "partido": "Grecia - Serbia",
@@ -580,7 +591,7 @@
    "lado": "Menos",
    "linea": "2.5",
    "cuota": 1.67,
-   "p": 0.5438
+   "p": 0.5402
   },
   {
    "partido": "Macedonia del Norte - Eslovenia",

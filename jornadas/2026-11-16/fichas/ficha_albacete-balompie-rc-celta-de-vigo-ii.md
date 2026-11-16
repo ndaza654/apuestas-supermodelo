@@ -11,6 +11,11 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Córners | local | Más 4.5 | 1.36 | +1.4 | 9 de 10 | 7 de 10 |
 | Córners | total | Más 7.5 | 1.27 | +2.4 | 8 de 10 | 8 de 10 |
 | Córners | visitante | Más 2.5 | 1.32 | +1.4 | 9 de 10 | 7 de 10 |
+| Goles | local | Menos 2.5 | 1.42 | +0.8 | 8 de 10 | 7 de 10 |
+| Goles | total | Más 1.5 | 1.21 | +1.8 | 10 de 10 | 10 de 10 |
+| Goles | total | Menos 4.5 | 1.22 | +1.2 | 9 de 10 | 7 de 10 |
+| Goles | visitante | Más 0.5 | 1.45 | +1.1 | 8 de 10 | 8 de 10 |
+| Tarjetas | total | Más 4.5 | 1.55 | +1.8 | 7 de 10 | 9 de 10 |
 
 ## Córners
 
@@ -77,7 +82,7 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 13.85, visitante 13
 ### Tiros al arco
 Muestra: local 10, visitante 10, directos 0. Esperado: local 4.6, visitante 4.55, **total 9.15** (local 3.7 a favor / 4.5 en contra; visitante 4.6 / 5.5).
 
-## Goles y tarjetas (para los agentes de goles-resultado y tarjetas; no entran en el ranking)
+## Goles y tarjetas (también entran en el resumen y en el análisis; detalle para los agentes goles-resultado y tarjetas)
 
 ### Goles
 _Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T._

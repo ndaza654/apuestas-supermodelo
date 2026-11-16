@@ -10,6 +10,9 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 |---|---|---|---|---|---|---|
 | Córners | total | Menos 11.5 | 1.22 | +1.9 | 9 de 10 | 7 de 10 |
 | Córners | total | Más 7.5 | 1.38 | +2.1 | 7 de 10 | 7 de 10 |
+| Goles | local | Más 0.5 | 1.21 | +1.3 | 9 de 10 | 7 de 10 |
+| Goles | total | Menos 3.5 | 1.29 | +0.8 | 8 de 10 | 8 de 10 |
+| Goles | total | Más 1.5 | 1.36 | +1.2 | 8 de 10 | 7 de 10 |
 
 ## Córners
 
@@ -114,7 +117,7 @@ Muestra: local 10, visitante 10, directos 2. Esperado: local 5.0, visitante 3.6,
 | 3.5 | @2.4 · col +0.1 · L 2 de 10 · V 7 de 10 · D 0 de 2 | @1.53 · col -0.1 · L 8 de 10 · V 3 de 10 · D 2 de 2 |
 | 4.5 | @3.95 · col -0.9 · L 2 de 10 · V 7 de 10 · D 0 de 2 | @1.22 · col +0.9 · L 8 de 10 · V 3 de 10 · D 2 de 2 |
 
-## Goles y tarjetas (para los agentes de goles-resultado y tarjetas; no entran en el ranking)
+## Goles y tarjetas (también entran en el resumen y en el análisis; detalle para los agentes goles-resultado y tarjetas)
 
 ### Goles
 _Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T._

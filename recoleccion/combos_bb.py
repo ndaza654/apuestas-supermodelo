@@ -4,7 +4,7 @@ Usa la simulación del súper modelo (conjunta real, no producto) y el ajuste de
     python3 recoleccion/combos_bb.py jornadas/AAAA-MM-DD/entradas/<partido>.json [--patas 3] [--pata 1.5] [--total 5.3] [--precio 5.4] [--sin-jugadores] [--top 12] [--max-cand 22]
 Límites: la cuota del Bet Builder la fija Betano (suele quedar por debajo del producto); el modelo no sabe qué mercados Betano deja combinar;
 el producto es una referencia, hay que mirar el precio del cupón. precio_est = 0,95 / p conjunta (ver K_PRECIO): con «total ≥ 5» el techo de p es ≈ 19 %."""
-import itertools, json, math, os, sys
+import re, itertools, json, math, os, sys
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, RAIZ)
 from supermodelo.analizar import analizar
@@ -24,18 +24,22 @@ SOLO_LINEAS = ()   # con --solo-lineas: solo mercados que están en registro/lin
 K_PRECIO = 0.95   # precio del Bet Builder × p del modelo ≈ 0,95 (13-nov: 20 precios leídos, 0,76–1,05): Betano cobra la correlación, el producto de cuotas NO es el precio
 
 
-def correr(ruta, n_patas=3, cuota_pata=1.5, total=5.3, jugadores=True, top=12, max_cand=22, max_patas=4, precio=5.4):
+def correr(ruta, n_patas=3, cuota_pata=1.5, total=5.3, jugadores=True, top=12, max_cand=22, max_patas=4, precio=5.4, solo=None, excluir=None, max_jug=8):
     e = json.load(open(ruta, encoding='utf8'))
     A = analizar(e, devolver_sim=True, builders=False)
     S = A.pop('_S')
     cand = [r for r in A['lineas'] if r['cuota'] >= cuota_pata and not r.get('asiatica') and r['p'] >= 0.30 and (jugadores or r['sel']['mercado'] not in ('jugador', 'pareja')) and (not SOLO_LINEAS or r['sel']['mercado'] in SOLO_LINEAS)]
+    if solo:
+        cand = [r for r in cand if re.search(solo, r['seleccion'])]
+    if excluir:
+        cand = [r for r in cand if not re.search(excluir, r['seleccion'])]
     cand = sorted(cand, key=lambda r: -r['p'])
     nj = 0
     pool = []
     for r in cand:                                    # los mercados de jugador son cientos: se limitan a 8 para no tapar al resto
         if r['sel']['mercado'] in ('jugador', 'pareja'):
             nj += 1
-            if nj > 8:
+            if nj > max_jug:
                 continue
         pool.append(r)
     cand = pool[:max_cand]
@@ -66,7 +70,7 @@ if __name__ == '__main__':
     if '--solo-lineas' in a:
         SOLO_LINEAS = ('goles', 'corners', 'tarjetas', 'al_arco', 'remates', 'faltas', 'fueras', 'saques_meta', 'saques_banda')
     g = lambda k, d: type(d)(a[a.index(k) + 1]) if k in a else d
-    A, R, nc = correr(a[0], g('--patas', 3), g('--pata', 1.5), g('--total', 5.3), '--sin-jugadores' not in a, g('--top', 12), g('--max-cand', 22), precio=g('--precio', 5.4))
+    A, R, nc = correr(a[0], g('--patas', 3), g('--pata', 1.5), g('--total', 5.3), '--sin-jugadores' not in a, g('--top', 12), g('--max-cand', 22), precio=g('--precio', 5.4), solo=g('--solo', '') or None, excluir=g('--excluir', '') or None, max_jug=g('--max-jug', 8))
     print(f"# {A['partido']} · {nc} candidatas (cuota ≥ {g('--pata', 1.5)}) · combos que cumplen: top {len(R)} por probabilidad conjunta")
     for x in R:
         print(f"p {x['p_ajust']:.3f} (sim {x['p_sim']:.3f}) · prod {x['producto']} · precio est. {x['precio_est']} · corr {x['correlacion']} · stress {x['p_stress']:.3f} | " + ' + '.join(f"{s} @{q} ({p:.2f})" for s, p, q in zip(x['patas'], x['p_patas'], x['cuotas'])) + (f" | avisos: {'; '.join(x['avisos'])}" if x['avisos'] else ''))

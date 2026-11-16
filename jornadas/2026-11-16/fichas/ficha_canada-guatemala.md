@@ -6,7 +6,10 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 
 ## Resumen: líneas de equipo que cumplen 7 de 10 en AMBOS equipos (cuota ≥ 1.20; las demás están en las tablas)
 
-_Ninguna._
+| Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |
+|---|---|---|---|---|---|---|
+| Goles | local | Menos 3.5 | 1.38 | +1.8 | 8 de 10 | 10 de 10 |
+| Goles | local | Menos 2.5 | 1.95 | +0.8 | 7 de 10 | 7 de 10 |
 
 ## Córners
 
@@ -43,7 +46,7 @@ Muestra: local 10, visitante 10, directos 3. Esperado: local 13.05, visitante 9.
 ### Tiros al arco
 Muestra: local 10, visitante 10, directos 3. Esperado: local 4.85, visitante 3.3, **total 8.15** (local 5.5 a favor / 2.5 en contra; visitante 4.1 / 4.2).
 
-## Goles y tarjetas (para los agentes de goles-resultado y tarjetas; no entran en el ranking)
+## Goles y tarjetas (también entran en el resumen y en el análisis; detalle para los agentes goles-resultado y tarjetas)
 
 ### Goles
 _Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T._
