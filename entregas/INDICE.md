@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-16 | 17:35 | Balance del 16-nov (tus boletos y mis combis) | todos los del 16-nov | entregas/2026-11-16/1735_balance-16nov.md · .html |
 | 2026-11-16 | 14:32 | BB reevaluadas con contexto | Alemania–P. Bajos, Grecia–Serbia | entregas/2026-11-16/1432_combis-bb-reevaluadas.md |
 | 2026-11-16 | 13:42 | Combis 14:45 (BB) + combinadas entre partidos | Alemania–P. Bajos, Grecia–Serbia, resto | entregas/2026-11-16/1342_combis-14-45-bb.md |
 | 2026-11-16 | 07:49 | Lectura de la combinada del usuario (doble 3,83) | Somalia–Ghana, Islas Feroé–Moldavia | `entregas/2026-11-16/0749_lectura-combi-somalia-ghana-feroe-moldavia.md` |

@@ -488,6 +488,9 @@ def quince(rows):
 
 def main():
     filas = construir()
+    extra = os.path.join(RAIZ, 'registro', 'sugerencias_extra.csv')   # filas calificadas a mano (p. ej. combinadas del usuario del 16-nov); se agregan al final
+    if os.path.exists(extra):
+        filas += [dict(r) for r in csv.DictReader(open(extra, encoding='utf-8-sig'), delimiter=';')]
     out = os.path.join(RAIZ, 'registro', 'sugerencias.csv')
     campos = list(filas[0].keys())
     with open(out, 'w', encoding='utf-8-sig', newline='') as f:

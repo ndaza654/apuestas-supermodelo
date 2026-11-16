@@ -248,3 +248,10 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - `registro/tasas_historicas.json` + `recoleccion/tasas_historicas.py`: tasa de clubes por línea, conteo y colchón; en `analisis_jornada.py` es semáforo (`p_hist`, `hist_sem`), no recorta p. Validada con 817 líneas jugadas (`registro/validacion_tasas.json`): Brier modelo 0,1434, histórico 0,1490, mezcla 75/25 0,1423.
 - Dashboard: página «Backtest histórico» (explorador con pestañas Hoy y Mi línea). Datos compactos en `pruebas/backtest/datos.json` (van en el repo para que el workflow construya).
 - Límites: clubes y cuotas europeas, sin Betano; solo % de acierto; 9 líneas de hoy sin tasa (asiáticas o mercados no medidos).
+
+## 16-nov-2026 ~17:30 · balance del lunes 16-nov
+- Tus boletos (capturas de Betano): 11 de hoy, $97.036 apostados (+$15.000 gratis), $6.536 devueltos (cash out $725 y $5.811), neto −$90.500 (≈24,5 u); con Panamá–Curazao (15-nov, $9.000) −$99.500. 25 de 39 patas se dieron; 6 boletos cayeron por una sola pata (fueras de juego, córners ×3, goles Más 1.5 ×2).
+- Mis 6 combinadas: 1 ganada (triple de protecciones 1,80), 5 perdidas (BB Grecia–Serbia: goles de ambos fallaron con 1-0; BB Alemania–P. Bajos: córners 5 y tarjetas P. Bajos 1 punto; «Menos goles» con Alemania 5-0 y Suiza 4-0). Combinada 5 con una pata pendiente (Canadá–Guatemala 20:00) ya perdida por las otras dos. Filas en `registro/sugerencias_extra.csv` (las agrega `sugerencias.py`).
+- Líneas de equipo (1.194 calificadas): con «cumple» 125/161 (78 %), sin cumplir 477/1.033 (46 %); estrategia de sencillas 20/31 (65 %), ROI +9,6 %. Un solo día.
+- Límites: Canadá–Guatemala y jugadores sin calificar; boletos leídos de capturas, patas sin marca inferidas del BB.
+- Archivos: `jornadas/2026-11-16/balance/`, `jornadas/2026-11-16/resultados/resultados_1730.json`, libro (hojas «Boletos 16-nov» y «Líneas 16-nov»).
