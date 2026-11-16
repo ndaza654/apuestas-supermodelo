@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-16 | 13:42 | Combis 14:45 (BB) + combinadas entre partidos | Alemania–P. Bajos, Grecia–Serbia, resto | entregas/2026-11-16/1342_combis-14-45-bb.md |
 | 2026-11-16 | 07:49 | Lectura de la combinada del usuario (doble 3,83) | Somalia–Ghana, Islas Feroé–Moldavia | `entregas/2026-11-16/0749_lectura-combi-somalia-ghana-feroe-moldavia.md` |
 | 2026-11-16 | 02:48 | Cambios del backtest en el análisis de hoy: tarjetas entran, segunda opinión histórica, página «Backtest histórico» del dashboard | todos | `entregas/2026-11-16/0248_backtest-en-el-analisis-de-hoy.md` · `0248_analisis-jornada-revisado_informe.html` |
 | 2026-11-16 | 02:04 | Backtest profundo de la regla «X de N» (50.408 partidos, 5 grandes + Brasil): informe interactivo + hallazgos | — | `entregas/2026-11-16/0204_backtest-regla-x-de-n.html` · `.md` |
