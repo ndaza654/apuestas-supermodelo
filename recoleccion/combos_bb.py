@@ -20,6 +20,7 @@ def familia(r):
     return (s['mercado'], s.get('ambito')) if s['mercado'] in ('goles', 'corners', 'tarjetas') else (s['mercado'],)
 
 
+SOLO_LINEAS = ()   # con --solo-lineas: solo mercados que están en registro/lineas.csv (así el dashboard puede mostrar la combinada)
 K_PRECIO = 0.95   # precio del Bet Builder × p del modelo ≈ 0,95 (13-nov: 20 precios leídos, 0,76–1,05): Betano cobra la correlación, el producto de cuotas NO es el precio
 
 
@@ -27,7 +28,7 @@ def correr(ruta, n_patas=3, cuota_pata=1.5, total=5.3, jugadores=True, top=12, m
     e = json.load(open(ruta, encoding='utf8'))
     A = analizar(e, devolver_sim=True, builders=False)
     S = A.pop('_S')
-    cand = [r for r in A['lineas'] if r['cuota'] >= cuota_pata and not r.get('asiatica') and r['p'] >= 0.30 and (jugadores or r['sel']['mercado'] not in ('jugador', 'pareja'))]
+    cand = [r for r in A['lineas'] if r['cuota'] >= cuota_pata and not r.get('asiatica') and r['p'] >= 0.30 and (jugadores or r['sel']['mercado'] not in ('jugador', 'pareja')) and (not SOLO_LINEAS or r['sel']['mercado'] in SOLO_LINEAS)]
     cand = sorted(cand, key=lambda r: -r['p'])
     nj = 0
     pool = []
@@ -62,6 +63,8 @@ def correr(ruta, n_patas=3, cuota_pata=1.5, total=5.3, jugadores=True, top=12, m
 
 if __name__ == '__main__':
     a = sys.argv[1:]
+    if '--solo-lineas' in a:
+        SOLO_LINEAS = ('goles', 'corners', 'tarjetas', 'al_arco', 'remates', 'faltas', 'fueras', 'saques_meta', 'saques_banda')
     g = lambda k, d: type(d)(a[a.index(k) + 1]) if k in a else d
     A, R, nc = correr(a[0], g('--patas', 3), g('--pata', 1.5), g('--total', 5.3), '--sin-jugadores' not in a, g('--top', 12), g('--max-cand', 22), precio=g('--precio', 5.4))
     print(f"# {A['partido']} · {nc} candidatas (cuota ≥ {g('--pata', 1.5)}) · combos que cumplen: top {len(R)} por probabilidad conjunta")

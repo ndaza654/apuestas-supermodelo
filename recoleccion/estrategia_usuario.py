@@ -59,7 +59,11 @@ def main(a):
             patas = []
             for k in cb['patas']:
                 r = idx.get(tuple(k))
-                if r is None: sys.exit(f'combinada {i}: pata fuera del filtro o inexistente: {k}')
+                if r is None:                                  # pata fuera del filtro (p. ej. un BB escogido por el modelo): se toma de lineas.csv sin filtro y se avisa
+                    r = next((x for x in filas if (x['partido'], x['mercado'], x['ambito'], x['jugador'], x['lado'], x['linea']) == tuple(k)), None)
+                    if r is None: sys.exit(f'combinada {i}: pata inexistente en lineas.csv: {k}')
+                    p_, ap_ = prob(r); r = dict(r, _c=f(r['cuota']), _p=p_, _ap=ap_, _t=texto(r), _reg=' · '.join(x for x in (r['reg_local'], r['reg_visitante']) if x))
+                    print(f'combinada {i}: pata fuera del filtro de la estrategia (cumple_ficha={r["cumple_ficha"]}, colchón={r["colchon"]}): {r["_t"]}')
                 patas.append(r)
             cu = 1; p = 1
             for r in patas: cu *= r['_c']; p *= r['_p']

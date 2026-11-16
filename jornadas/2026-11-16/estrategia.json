@@ -1,0 +1,619 @@
+{
+ "jornada": "2026-11-16",
+ "filtro": {
+  "cuota": [
+   1.4,
+   2.2
+  ],
+  "cumple": ">=7 de 10",
+  "colchon": ">0"
+ },
+ "combinadas": [
+  {
+   "n": 1,
+   "mismo_partido": true,
+   "cuota_producto": 6.09,
+   "p_producto": 0.1336,
+   "nota": "BB Alemania–P. Bajos (≥3 patas, cada una ≥1,50). Producto 6,09; Betano pagará menos por la correlación: estimado ≈5,2. Patas elegidas por el modelo (p conjunta ≈18 %), la mayoría no cumple el 7 de 10.",
+   "patas": [
+    {
+     "partido": "Alemania - Países Bajos",
+     "texto": "Tiros al arco Países Bajos Menos 5.5",
+     "mercado": "al_arco",
+     "ambito": "visitante",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "5.5",
+     "cuota": 1.5,
+     "p": 0.6478
+    },
+    {
+     "partido": "Alemania - Países Bajos",
+     "texto": "Córners Alemania Más 4.5",
+     "mercado": "corners",
+     "ambito": "local",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "4.5",
+     "cuota": 1.52,
+     "p": 0.6019
+    },
+    {
+     "partido": "Alemania - Países Bajos",
+     "texto": "Tarjetas Países Bajos Más 1.5",
+     "mercado": "tarjetas",
+     "ambito": "visitante",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "1.5",
+     "cuota": 1.65,
+     "p": 0.5911
+    },
+    {
+     "partido": "Alemania - Países Bajos",
+     "texto": "Córners Más 8.5",
+     "mercado": "corners",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "8.5",
+     "cuota": 1.62,
+     "p": 0.5797
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "mismo_partido": true,
+   "cuota_producto": 6.1,
+   "p_producto": 0.1285,
+   "nota": "BB Grecia–Serbia (≥3 patas, cada una ≥1,50). Producto 6,10; precio estimado en Betano ≈5,2. Historia: Grecia con poco y Serbia llega y marca. Patas elegidas por el modelo (p conjunta ≈18 %).",
+   "patas": [
+    {
+     "partido": "Grecia - Serbia",
+     "texto": "Remates Grecia Menos 19.5",
+     "mercado": "remates",
+     "ambito": "local",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "19.5",
+     "cuota": 1.52,
+     "p": 0.627
+    },
+    {
+     "partido": "Grecia - Serbia",
+     "texto": "Córners Grecia Menos 6.5",
+     "mercado": "corners",
+     "ambito": "local",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "6.5",
+     "cuota": 1.55,
+     "p": 0.6146
+    },
+    {
+     "partido": "Grecia - Serbia",
+     "texto": "Tiros al arco Serbia Más 2.5",
+     "mercado": "al_arco",
+     "ambito": "visitante",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "2.5",
+     "cuota": 1.57,
+     "p": 0.5972
+    },
+    {
+     "partido": "Grecia - Serbia",
+     "texto": "Goles Serbia Más 0.5",
+     "mercado": "goles",
+     "ambito": "visitante",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "0.5",
+     "cuota": 1.65,
+     "p": 0.5583
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "mismo_partido": false,
+   "cuota_producto": 1.85,
+   "p_producto": 0.5263,
+   "nota": "Doble de protecciones: Alemania con pocos goles + Suiza con goles",
+   "patas": [
+    {
+     "partido": "Alemania - Países Bajos",
+     "texto": "Goles Menos 4.5",
+     "mercado": "goles",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "4.5",
+     "cuota": 1.36,
+     "p": 0.7377
+    },
+    {
+     "partido": "Suiza - Escocia",
+     "texto": "Goles Más 1.5",
+     "mercado": "goles",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "1.5",
+     "cuota": 1.36,
+     "p": 0.7134
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "mismo_partido": false,
+   "cuota_producto": 1.8,
+   "p_producto": 0.5332,
+   "nota": "Triple de protecciones (cuota ≈1,8)",
+   "patas": [
+    {
+     "partido": "Albacete Balompié - RC Celta de Vigo II",
+     "texto": "Goles Menos 4.5",
+     "mercado": "goles",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "4.5",
+     "cuota": 1.22,
+     "p": 0.8142
+    },
+    {
+     "partido": "Islas Feroé - Moldavia",
+     "texto": "Goles Moldavia Menos 1.5",
+     "mercado": "goles",
+     "ambito": "visitante",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "1.5",
+     "cuota": 1.2,
+     "p": 0.8138
+    },
+    {
+     "partido": "Islandia - Luxemburgo",
+     "texto": "Goles Islandia Menos 3.5",
+     "mercado": "goles",
+     "ambito": "local",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "3.5",
+     "cuota": 1.23,
+     "p": 0.8047
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "mismo_partido": false,
+   "cuota_producto": 2.42,
+   "p_producto": 0.3972,
+   "nota": "Triple de pocos goles (cuota ≈2,4)",
+   "patas": [
+    {
+     "partido": "Suiza - Escocia",
+     "texto": "Goles Menos 3.5",
+     "mercado": "goles",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "3.5",
+     "cuota": 1.29,
+     "p": 0.7587
+    },
+    {
+     "partido": "Alemania - Países Bajos",
+     "texto": "Goles Menos 4.5",
+     "mercado": "goles",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "4.5",
+     "cuota": 1.36,
+     "p": 0.7377
+    },
+    {
+     "partido": "Canadá - Guatemala",
+     "texto": "Goles Canadá Menos 3.5",
+     "mercado": "goles",
+     "ambito": "local",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "3.5",
+     "cuota": 1.38,
+     "p": 0.7096
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "mismo_partido": false,
+   "cuota_producto": 2.02,
+   "p_producto": 0.4585,
+   "nota": "Lotería del análisis (stake mínimo)",
+   "patas": [
+    {
+     "partido": "Macedonia del Norte - Eslovenia",
+     "texto": "Goles Menos 3.5",
+     "mercado": "goles",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "3.5",
+     "cuota": 1.25,
+     "p": 0.7904
+    },
+    {
+     "partido": "Grecia - Serbia",
+     "texto": "Tarjetas Serbia Menos 3.5",
+     "mercado": "tarjetas",
+     "ambito": "visitante",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "3.5",
+     "cuota": 1.25,
+     "p": 0.7645
+    },
+    {
+     "partido": "Suiza - Escocia",
+     "texto": "Goles Menos 3.5",
+     "mercado": "goles",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "3.5",
+     "cuota": 1.29,
+     "p": 0.7587
+    }
+   ]
+  }
+ ],
+ "sencillas": [
+  {
+   "partido": "Islas Feroé - Moldavia",
+   "texto": "Goles Más 1.5",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "1.5",
+   "cuota": 1.44,
+   "p": 0.6657
+  },
+  {
+   "partido": "Islas Feroé - Moldavia",
+   "texto": "Tarjetas Menos 4.5",
+   "mercado": "tarjetas",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "4.5",
+   "cuota": 2.02,
+   "p": 0.461
+  },
+  {
+   "partido": "Islas Feroé - Moldavia",
+   "texto": "Tarjetas Moldavia Menos 2.5",
+   "mercado": "tarjetas",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 2.05,
+   "p": 0.4518
+  },
+  {
+   "partido": "Somalia - Ghana",
+   "texto": "Goles Ghana Menos 3.5",
+   "mercado": "goles",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "3.5",
+   "cuota": 1.42,
+   "p": 0.6849
+  },
+  {
+   "partido": "Somalia - Ghana",
+   "texto": "Goles Menos 3.5",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "3.5",
+   "cuota": 1.57,
+   "p": 0.6132
+  },
+  {
+   "partido": "Somalia - Ghana",
+   "texto": "Goles Menos 3.25",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "3.25",
+   "cuota": 1.7,
+   "p": 0.5668
+  },
+  {
+   "partido": "Somalia - Ghana",
+   "texto": "Goles Menos 3.0",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "3.0",
+   "cuota": 1.9,
+   "p": 0.5049
+  },
+  {
+   "partido": "Somalia - Ghana",
+   "texto": "Goles Ghana Menos 2.5",
+   "mercado": "goles",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 2.07,
+   "p": 0.45
+  },
+  {
+   "partido": "Somalia - Ghana",
+   "texto": "Goles Menos 2.75",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.75",
+   "cuota": 2.15,
+   "p": 0.4365
+  },
+  {
+   "partido": "Estonia - Bulgaria",
+   "texto": "Tarjetas Estonia Menos 2.5",
+   "mercado": "tarjetas",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.53,
+   "p": 0.6042
+  },
+  {
+   "partido": "Islandia - Luxemburgo",
+   "texto": "Goles Menos 3.5",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "3.5",
+   "cuota": 1.45,
+   "p": 0.6787
+  },
+  {
+   "partido": "Islandia - Luxemburgo",
+   "texto": "Córners Luxemburgo Más 2.5",
+   "mercado": "corners",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "2.5",
+   "cuota": 2.0,
+   "p": 0.6206
+  },
+  {
+   "partido": "Albacete Balompié - RC Celta de Vigo II",
+   "texto": "Goles Albacete Balompié Menos 2.5",
+   "mercado": "goles",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.42,
+   "p": 0.683
+  },
+  {
+   "partido": "Albacete Balompié - RC Celta de Vigo II",
+   "texto": "Goles RC Celta de Vigo II Más 0.5",
+   "mercado": "goles",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "0.5",
+   "cuota": 1.45,
+   "p": 0.6501
+  },
+  {
+   "partido": "Albacete Balompié - RC Celta de Vigo II",
+   "texto": "Tarjetas Más 4.5",
+   "mercado": "tarjetas",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "4.5",
+   "cuota": 1.55,
+   "p": 0.6447
+  },
+  {
+   "partido": "Alemania - Países Bajos",
+   "texto": "Goles Alemania Menos 2.5",
+   "mercado": "goles",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.45,
+   "p": 0.6781
+  },
+  {
+   "partido": "Alemania - Países Bajos",
+   "texto": "Remates Menos 30.5",
+   "mercado": "remates",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "30.5",
+   "cuota": 1.62,
+   "p": 0.586
+  },
+  {
+   "partido": "Alemania - Países Bajos",
+   "texto": "Córners Más 8.5",
+   "mercado": "corners",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "8.5",
+   "cuota": 1.62,
+   "p": 0.5797
+  },
+  {
+   "partido": "Alemania - Países Bajos",
+   "texto": "Saques de banda Más 32.5",
+   "mercado": "saques_banda",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "32.5",
+   "cuota": 1.75,
+   "p": 0.5319
+  },
+  {
+   "partido": "Alemania - Países Bajos",
+   "texto": "Faltas Países Bajos Menos 11.5",
+   "mercado": "faltas",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "11.5",
+   "cuota": 1.8,
+   "p": 0.4862
+  },
+  {
+   "partido": "Grecia - Serbia",
+   "texto": "Goles Grecia Menos 2.5",
+   "mercado": "goles",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.47,
+   "p": 0.6572
+  },
+  {
+   "partido": "Grecia - Serbia",
+   "texto": "Córners Menos 10.5",
+   "mercado": "corners",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "10.5",
+   "cuota": 1.47,
+   "p": 0.637
+  },
+  {
+   "partido": "Grecia - Serbia",
+   "texto": "Goles Más 2.25",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "2.25",
+   "cuota": 1.52,
+   "p": 0.6317
+  },
+  {
+   "partido": "Grecia - Serbia",
+   "texto": "Córners Grecia Menos 6.5",
+   "mercado": "corners",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "6.5",
+   "cuota": 1.55,
+   "p": 0.6146
+  },
+  {
+   "partido": "Grecia - Serbia",
+   "texto": "Fueras de juego Más 2.5",
+   "mercado": "fueras",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "2.5",
+   "cuota": 1.6,
+   "p": 0.6106
+  },
+  {
+   "partido": "Grecia - Serbia",
+   "texto": "Tiros al arco Serbia Más 2.5",
+   "mercado": "al_arco",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "2.5",
+   "cuota": 1.57,
+   "p": 0.5972
+  },
+  {
+   "partido": "Grecia - Serbia",
+   "texto": "Goles Más 2.5",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "2.5",
+   "cuota": 1.7,
+   "p": 0.555
+  },
+  {
+   "partido": "Grecia - Serbia",
+   "texto": "Tarjetas Serbia Menos 2.5",
+   "mercado": "tarjetas",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.67,
+   "p": 0.5438
+  },
+  {
+   "partido": "Macedonia del Norte - Eslovenia",
+   "texto": "Tarjetas Macedonia del Norte Menos 2.5",
+   "mercado": "tarjetas",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.75,
+   "p": 0.5384
+  },
+  {
+   "partido": "Macedonia del Norte - Eslovenia",
+   "texto": "Tarjetas Menos 4.5",
+   "mercado": "tarjetas",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "4.5",
+   "cuota": 1.78,
+   "p": 0.5287
+  },
+  {
+   "partido": "Canadá - Guatemala",
+   "texto": "Goles Canadá Menos 2.5",
+   "mercado": "goles",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.95,
+   "p": 0.4811
+  }
+ ]
+}
