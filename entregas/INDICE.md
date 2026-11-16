@@ -46,3 +46,4 @@ Regla completa en `CLAUDE.md` → «Entregas».
 | 2026-11-13 | ≈14:00 | Informe completo por probabilidad | Eslovenia–Suiza | `2026-11-13/1400_informe-completo_eslovenia-suiza.md` |
 
 Nota: el análisis Serbia–Alemania (Boss Builder, tarjetas y jugadores) quedó en `jornadas/2026-11-13/` antes de existir esta carpeta; no se duplicó.
+2026-11-16 | 01:50 | backtest estrategia 7/10 (5 grandes + Brasil) | — | entregas/2026-11-16/0150_backtest-estrategia.html

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Backtest estrategia 7/10 — 5 grandes + Brasil</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#0f1117;color:#e0e0e0;margin:0;padding:16px}
+h1{font-size:1.3rem;margin:0 0 4px}
+.sub{color:#888;font-size:.85rem;margin-bottom:16px}
+.info{background:#1a1f2e;border-radius:8px;padding:12px 16px;font-size:.85rem;margin-bottom:16px;line-height:1.6}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.leg{padding:3px 10px;border-radius:4px;font-size:.8rem}
+table.bt{border-collapse:collapse;width:100%;font-size:.85rem}
+table.bt th{background:#1e2535;padding:8px 10px;text-align:center;font-weight:600;font-size:.8rem}
+table.bt th:first-child{text-align:left}
+table.bt td{padding:7px 10px;text-align:center;border-bottom:1px solid #1e2535}
+table.bt td.lname{text-align:left;font-weight:500;white-space:nowrap}
+table.bt td.empty{color:#555}
+table.bt small{font-size:.7rem;opacity:.7}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+button.tab,button.ltab{background:#1e2535;border:none;color:#e0e0e0;padding:6px 14px;border-radius:6px;cursor:pointer;font-size:.82rem}
+button.tab.active,button.ltab.active{background:#2d4a7a;color:#fff}
+.section{display:none}.section.active{display:block}
+</style>
+</head>
+<body>
+<h1>📊 Backtest estrategia 7 de 10</h1>
+<div class="sub">
+  5 grandes ligas europeas + Brasileirao · 15 análisis ·
+  Regla: ≥7 de 10 partidos anteriores con la línea cumplida
+</div>
+
+<div class="info">
+  <strong>Cómo leer esto:</strong> cada celda muestra el % de partidos donde la línea se dio,
+  y entre paréntesis cuántos partidos. <em>Ambos ≥7/10</em> = ambos equipos tenían regularidad.
+  <em>Solo local / Solo visita</em> = solo uno tenía regularidad.
+  <em>Ninguno</em> = ninguno cumplía el filtro.<br>
+  <strong>Esperado sin filtro:</strong> la cuota de Betano implica un %. El filtro sirve si <em>Ambos</em> supera claramente a <em>Ninguno</em>.
+</div>
+
+<div class="legend">
+  <span class="leg" style="background:#1a7a4a;color:#fff">≥75% muy regular</span>
+  <span class="leg" style="background:#2d9f5c;color:#fff">65–74% regular</span>
+  <span class="leg" style="background:#6abf69;color:#000">55–64% moderado</span>
+  <span class="leg" style="background:#f0c040;color:#000">45–54% débil</span>
+  <span class="leg" style="background:#c0392b;color:#fff">&lt;45% no sirve</span>
+</div>
+
+<div class="tabs">
+  <button class="tab active" data-sec="global">Resumen global</button>
+  <button class="tab" data-sec="ligas">Por liga</button>
+</div>
+
+<div id="global" class="section active">
+  <table class="bt">
+    <thead><tr>
+      <th>Mercado</th>
+      <th>Ambos ≥7/10</th><th>Solo local</th><th>Solo visita</th><th>Ninguno</th>
+    </tr></thead>
+    <tbody><tr>
+      <td class="lname">Tiros arco >10</td>
+      <td style="background:#1a7a4a;color:#fff" title="1933 partidos">76%<small> 1933</small></td><td style="background:#f0c040;color:#000" title="1775 partidos">55%<small> 1775</small></td><td style="background:#f0c040;color:#000" title="1811 partidos">53%<small> 1811</small></td><td style="background:#c0392b;color:#fff" title="33899 partidos">29%<small> 33899</small></td>
+    </tr><tr>
+      <td class="lname">Tiros arco >8</td>
+      <td style="background:#1a7a4a;color:#fff" title="6462 partidos">77%<small> 6462</small></td><td style="background:#6abf69;color:#000" title="6261 partidos">60%<small> 6261</small></td><td style="background:#6abf69;color:#000" title="6328 partidos">59%<small> 6328</small></td><td style="background:#f0c040;color:#000" title="20367 partidos">47%<small> 20367</small></td>
+    </tr><tr>
+      <td class="lname">Córners >10.5</td>
+      <td style="background:#6abf69;color:#000" title="746 partidos">56%<small> 746</small></td><td style="background:#f0c040;color:#000" title="3655 partidos">50%<small> 3655</small></td><td style="background:#f0c040;color:#000" title="3621 partidos">49%<small> 3621</small></td><td style="background:#c0392b;color:#fff" title="31848 partidos">41%<small> 31848</small></td>
+    </tr><tr>
+      <td class="lname">Córners >8.5</td>
+      <td style="background:#2d9f5c;color:#fff" title="12238 partidos">70%<small> 12238</small></td><td style="background:#2d9f5c;color:#fff" title="9046 partidos">66%<small> 9046</small></td><td style="background:#2d9f5c;color:#fff" title="9066 partidos">65%<small> 9066</small></td><td style="background:#6abf69;color:#000" title="9520 partidos">60%<small> 9520</small></td>
+    </tr><tr>
+      <td class="lname">Córners >9.5</td>
+      <td style="background:#6abf69;color:#000" title="3782 partidos">63%<small> 3782</small></td><td style="background:#6abf69;color:#000" title="7344 partidos">58%<small> 7344</small></td><td style="background:#6abf69;color:#000" title="7375 partidos">57%<small> 7375</small></td><td style="background:#f0c040;color:#000" title="21369 partidos">51%<small> 21369</small></td>
+    </tr><tr>
+      <td class="lname">Faltas >20</td>
+      <td style="background:#1a7a4a;color:#fff" title="27474 partidos">89%<small> 27474</small></td><td style="background:#2d9f5c;color:#fff" title="4144 partidos">70%<small> 4144</small></td><td style="background:#2d9f5c;color:#fff" title="4140 partidos">67%<small> 4140</small></td><td style="background:#f0c040;color:#000" title="3732 partidos">52%<small> 3732</small></td>
+    </tr><tr>
+      <td class="lname">Faltas >24</td>
+      <td style="background:#1a7a4a;color:#fff" title="14515 partidos">86%<small> 14515</small></td><td style="background:#6abf69;color:#000" title="4992 partidos">63%<small> 4992</small></td><td style="background:#6abf69;color:#000" title="5045 partidos">62%<small> 5045</small></td><td style="background:#c0392b;color:#fff" title="14938 partidos">38%<small> 14938</small></td>
+    </tr><tr>
+      <td class="lname">Goles >1.5</td>
+      <td style="background:#1a7a4a;color:#fff" title="27720 partidos">76%<small> 27720</small></td><td style="background:#2d9f5c;color:#fff" title="9247 partidos">73%<small> 9247</small></td><td style="background:#2d9f5c;color:#fff" title="9151 partidos">72%<small> 9151</small></td><td style="background:#2d9f5c;color:#fff" title="3876 partidos">69%<small> 3876</small></td>
+    </tr><tr>
+      <td class="lname">Goles >2.5</td>
+      <td style="background:#6abf69;color:#000" title="2124 partidos">59%<small> 2124</small></td><td style="background:#f0c040;color:#000" title="7314 partidos">55%<small> 7314</small></td><td style="background:#f0c040;color:#000" title="7365 partidos">53%<small> 7365</small></td><td style="background:#f0c040;color:#000" title="33191 partidos">47%<small> 33191</small></td>
+    </tr><tr>
+      <td class="lname">Goles >3.5</td>
+      <td style="background:#888;color:#fff" title="27 partidos">52%<small> 27</small></td><td style="background:#c0392b;color:#fff" title="693 partidos">39%<small> 693</small></td><td style="background:#c0392b;color:#fff" title="739 partidos">32%<small> 739</small></td><td style="background:#c0392b;color:#fff" title="48535 partidos">28%<small> 48535</small></td>
+    </tr><tr>
+      <td class="lname">Remates >20</td>
+      <td style="background:#1a7a4a;color:#fff" title="23962 partidos">82%<small> 23962</small></td><td style="background:#2d9f5c;color:#fff" title="5905 partidos">72%<small> 5905</small></td><td style="background:#2d9f5c;color:#fff" title="5903 partidos">70%<small> 5903</small></td><td style="background:#f0c040;color:#000" title="4476 partidos">53%<small> 4476</small></td>
+    </tr><tr>
+      <td class="lname">Remates >25</td>
+      <td style="background:#2d9f5c;color:#fff" title="1701 partidos">67%<small> 1701</small></td><td style="background:#6abf69;color:#000" title="4787 partidos">56%<small> 4787</small></td><td style="background:#f0c040;color:#000" title="4822 partidos">55%<small> 4822</small></td><td style="background:#c0392b;color:#fff" title="28936 partidos">38%<small> 28936</small></td>
+    </tr><tr>
+      <td class="lname">Tarjetas pts >2</td>
+      <td style="background:#1a7a4a;color:#fff" title="25249 partidos">82%<small> 25249</small></td><td style="background:#2d9f5c;color:#fff" title="5672 partidos">71%<small> 5672</small></td><td style="background:#2d9f5c;color:#fff" title="5792 partidos">71%<small> 5792</small></td><td style="background:#6abf69;color:#000" title="3547 partidos">63%<small> 3547</small></td>
+    </tr><tr>
+      <td class="lname">Tarjetas pts >3</td>
+      <td style="background:#1a7a4a;color:#fff" title="10920 partidos">76%<small> 10920</small></td><td style="background:#6abf69;color:#000" title="6866 partidos">62%<small> 6866</small></td><td style="background:#6abf69;color:#000" title="6888 partidos">61%<small> 6888</small></td><td style="background:#f0c040;color:#000" title="15586 partidos">50%<small> 15586</small></td>
+    </tr><tr>
+      <td class="lname">Tarjetas pts >4</td>
+      <td style="background:#2d9f5c;color:#fff" title="2819 partidos">67%<small> 2819</small></td><td style="background:#6abf69;color:#000" title="4240 partidos">57%<small> 4240</small></td><td style="background:#6abf69;color:#000" title="4288 partidos">57%<small> 4288</small></td><td style="background:#c0392b;color:#fff" title="28913 partidos">38%<small> 28913</small></td>
+    </tr></tbody>
+  </table>
+</div>
+
+<div id="ligas" class="section">
+  <div class="tabs" id="liga-tabs">
+    <button class="ltab" data-liga="BRA">Brasileirao</button><button class="ltab" data-liga="D1">Bundesliga</button><button class="ltab" data-liga="E0">Premier League</button><button class="ltab" data-liga="F1">Ligue 1</button><button class="ltab" data-liga="I1">Serie A</button><button class="ltab" data-liga="SP1">La Liga</button>
+  </div>
+  <div class="lsec" id="liga-BRA" style="display:none">
+      <table class="bt"><thead><tr>
+        <th>Mercado</th><th>Ambos ≥7/10</th><th>Solo local</th><th>Solo visita</th><th>Ninguno</th>
+      </tr></thead><tbody><tr>
+          <td class="lname">Goles >1.5</td>
+          <td style="background:#2d9f5c;color:#fff" title="1723 partidos">72%<small> 1723</small></td><td style="background:#6abf69;color:#000" title="1148 partidos">65%<small> 1148</small></td><td style="background:#2d9f5c;color:#fff" title="1107 partidos">69%<small> 1107</small></td><td style="background:#2d9f5c;color:#fff" title="803 partidos">66%<small> 803</small></td>
+        </tr><tr>
+          <td class="lname">Goles >2.5</td>
+          <td style="background:#888;color:#fff" title="25 partidos">56%<small> 25</small></td><td style="background:#c0392b;color:#fff" title="383 partidos">43%<small> 383</small></td><td style="background:#f0c040;color:#000" title="359 partidos">48%<small> 359</small></td><td style="background:#c0392b;color:#fff" title="4014 partidos">42%<small> 4014</small></td>
+        </tr><tr>
+          <td class="lname">Goles >3.5</td>
+          <td class="empty">—</td><td style="background:#888;color:#fff" title="9 partidos">11%<small> 9</small></td><td style="background:#888;color:#fff" title="7 partidos">0%<small> 7</small></td><td style="background:#c0392b;color:#fff" title="4765 partidos">21%<small> 4765</small></td>
+        </tr></tbody></table>
+    </div><div class="lsec" id="liga-D1" style="display:none">
+      <table class="bt"><thead><tr>
+        <th>Mercado</th><th>Ambos ≥7/10</th><th>Solo local</th><th>Solo visita</th><th>Ninguno</th>
+      </tr></thead><tbody><tr>
+          <td class="lname">Tiros arco >10</td>
+          <td style="background:#1a7a4a;color:#fff" title="256 partidos">84%<small> 256</small></td><td style="background:#f0c040;color:#000" title="302 partidos">45%<small> 302</small></td><td style="background:#c0392b;color:#fff" title="324 partidos">44%<small> 324</small></td><td style="background:#c0392b;color:#fff" title="5730 partidos">36%<small> 5730</small></td>
+        </tr><tr>
+          <td class="lname">Tiros arco >8</td>
+          <td style="background:#2d9f5c;color:#fff" title="1191 partidos">73%<small> 1191</small></td><td style="background:#6abf69;color:#000" title="1494 partidos">63%<small> 1494</small></td><td style="background:#6abf69;color:#000" title="1531 partidos">60%<small> 1531</small></td><td style="background:#6abf69;color:#000" title="2396 partidos">55%<small> 2396</small></td>
+        </tr><tr>
+          <td class="lname">Córners >10.5</td>
+          <td style="background:#f0c040;color:#000" title="72 partidos">53%<small> 72</small></td><td style="background:#f0c040;color:#000" title="555 partidos">47%<small> 555</small></td><td style="background:#f0c040;color:#000" title="581 partidos">46%<small> 581</small></td><td style="background:#c0392b;color:#fff" title="6232 partidos">40%<small> 6232</small></td>
+        </tr><tr>
+          <td class="lname">Córners >8.5</td>
+          <td style="background:#2d9f5c;color:#fff" title="1759 partidos">68%<small> 1759</small></td><td style="background:#6abf69;color:#000" title="1788 partidos">64%<small> 1788</small></td><td style="background:#6abf69;color:#000" title="1785 partidos">62%<small> 1785</small></td><td style="background:#6abf69;color:#000" title="2108 partidos">61%<small> 2108</small></td>
+        </tr><tr>
+          <td class="lname">Córners >9.5</td>
+          <td style="background:#6abf69;color:#000" title="467 partidos">65%<small> 467</small></td><td style="background:#6abf69;color:#000" title="1278 partidos">56%<small> 1278</small></td><td style="background:#f0c040;color:#000" title="1309 partidos">54%<small> 1309</small></td><td style="background:#f0c040;color:#000" title="4386 partidos">50%<small> 4386</small></td>
+        </tr><tr>
+          <td class="lname">Faltas >20</td>
+          <td style="background:#1a7a4a;color:#fff" title="5510 partidos">93%<small> 5510</small></td><td style="background:#2d9f5c;color:#fff" title="699 partidos">71%<small> 699</small></td><td style="background:#2d9f5c;color:#fff" title="700 partidos">67%<small> 700</small></td><td style="background:#f0c040;color:#000" title="531 partidos">51%<small> 531</small></td>
+        </tr><tr>
+          <td class="lname">Faltas >24</td>
+          <td style="background:#1a7a4a;color:#fff" title="4054 partidos">91%<small> 4054</small></td><td style="background:#2d9f5c;color:#fff" title="592 partidos">66%<small> 592</small></td><td style="background:#6abf69;color:#000" title="618 partidos">63%<small> 618</small></td><td style="background:#c0392b;color:#fff" title="2176 partidos">35%<small> 2176</small></td>
+        </tr><tr>
+          <td class="lname">Goles >1.5</td>
+          <td style="background:#1a7a4a;color:#fff" title="5743 partidos">81%<small> 5743</small></td><td style="background:#1a7a4a;color:#fff" title="936 partidos">79%<small> 936</small></td><td style="background:#1a7a4a;color:#fff" title="936 partidos">78%<small> 936</small></td><td style="background:#1a7a4a;color:#fff" title="157 partidos">80%<small> 157</small></td>
+        </tr><tr>
+          <td class="lname">Goles >2.5</td>
+          <td style="background:#6abf69;color:#000" title="777 partidos">60%<small> 777</small></td><td style="background:#6abf69;color:#000" title="1646 partidos">61%<small> 1646</small></td><td style="background:#6abf69;color:#000" title="1646 partidos">57%<small> 1646</small></td><td style="background:#f0c040;color:#000" title="3703 partidos">55%<small> 3703</small></td>
+        </tr><tr>
+          <td class="lname">Goles >3.5</td>
+          <td style="background:#888;color:#fff" title="18 partidos">56%<small> 18</small></td><td style="background:#c0392b;color:#fff" title="245 partidos">38%<small> 245</small></td><td style="background:#c0392b;color:#fff" title="260 partidos">37%<small> 260</small></td><td style="background:#c0392b;color:#fff" title="7249 partidos">35%<small> 7249</small></td>
+        </tr><tr>
+          <td class="lname">Remates >20</td>
+          <td style="background:#1a7a4a;color:#fff" title="5835 partidos">86%<small> 5835</small></td><td style="background:#1a7a4a;color:#fff" title="728 partidos">78%<small> 728</small></td><td style="background:#1a7a4a;color:#fff" title="724 partidos">75%<small> 724</small></td><td style="background:#2d9f5c;color:#fff" title="153 partidos">67%<small> 153</small></td>
+        </tr><tr>
+          <td class="lname">Remates >25</td>
+          <td style="background:#2d9f5c;color:#fff" title="776 partidos">69%<small> 776</small></td><td style="background:#6abf69;color:#000" title="1329 partidos">59%<small> 1329</small></td><td style="background:#6abf69;color:#000" title="1316 partidos">57%<small> 1316</small></td><td style="background:#f0c040;color:#000" title="4019 partidos">48%<small> 4019</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >2</td>
+          <td style="background:#1a7a4a;color:#fff" title="4313 partidos">78%<small> 4313</small></td><td style="background:#2d9f5c;color:#fff" title="1314 partidos">73%<small> 1314</small></td><td style="background:#2d9f5c;color:#fff" title="1322 partidos">72%<small> 1322</small></td><td style="background:#2d9f5c;color:#fff" title="491 partidos">70%<small> 491</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >3</td>
+          <td style="background:#2d9f5c;color:#fff" title="1026 partidos">66%<small> 1026</small></td><td style="background:#6abf69;color:#000" title="1558 partidos">59%<small> 1558</small></td><td style="background:#6abf69;color:#000" title="1553 partidos">57%<small> 1553</small></td><td style="background:#f0c040;color:#000" title="3303 partidos">54%<small> 3303</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >4</td>
+          <td style="background:#f0c040;color:#000" title="62 partidos">52%<small> 62</small></td><td style="background:#f0c040;color:#000" title="531 partidos">46%<small> 531</small></td><td style="background:#f0c040;color:#000" title="539 partidos">48%<small> 539</small></td><td style="background:#c0392b;color:#fff" title="6308 partidos">38%<small> 6308</small></td>
+        </tr></tbody></table>
+    </div><div class="lsec" id="liga-E0" style="display:none">
+      <table class="bt"><thead><tr>
+        <th>Mercado</th><th>Ambos ≥7/10</th><th>Solo local</th><th>Solo visita</th><th>Ninguno</th>
+      </tr></thead><tbody><tr>
+          <td class="lname">Tiros arco >10</td>
+          <td style="background:#1a7a4a;color:#fff" title="1609 partidos">76%<small> 1609</small></td><td style="background:#6abf69;color:#000" title="944 partidos">62%<small> 944</small></td><td style="background:#6abf69;color:#000" title="944 partidos">61%<small> 944</small></td><td style="background:#c0392b;color:#fff" title="6240 partidos">33%<small> 6240</small></td>
+        </tr><tr>
+          <td class="lname">Tiros arco >8</td>
+          <td style="background:#1a7a4a;color:#fff" title="3782 partidos">83%<small> 3782</small></td><td style="background:#6abf69;color:#000" title="1319 partidos">65%<small> 1319</small></td><td style="background:#6abf69;color:#000" title="1354 partidos">64%<small> 1354</small></td><td style="background:#f0c040;color:#000" title="3282 partidos">48%<small> 3282</small></td>
+        </tr><tr>
+          <td class="lname">Córners >10.5</td>
+          <td style="background:#6abf69;color:#000" title="443 partidos">58%<small> 443</small></td><td style="background:#f0c040;color:#000" title="1464 partidos">53%<small> 1464</small></td><td style="background:#f0c040;color:#000" title="1459 partidos">54%<small> 1459</small></td><td style="background:#f0c040;color:#000" title="6371 partidos">48%<small> 6371</small></td>
+        </tr><tr>
+          <td class="lname">Córners >8.5</td>
+          <td style="background:#2d9f5c;color:#fff" title="4797 partidos">74%<small> 4797</small></td><td style="background:#2d9f5c;color:#fff" title="1976 partidos">73%<small> 1976</small></td><td style="background:#2d9f5c;color:#fff" title="2004 partidos">71%<small> 2004</small></td><td style="background:#2d9f5c;color:#fff" title="960 partidos">68%<small> 960</small></td>
+        </tr><tr>
+          <td class="lname">Córners >9.5</td>
+          <td style="background:#6abf69;color:#000" title="1801 partidos">65%<small> 1801</small></td><td style="background:#6abf69;color:#000" title="2290 partidos">64%<small> 2290</small></td><td style="background:#6abf69;color:#000" title="2312 partidos">61%<small> 2312</small></td><td style="background:#6abf69;color:#000" title="3334 partidos">59%<small> 3334</small></td>
+        </tr><tr>
+          <td class="lname">Faltas >20</td>
+          <td style="background:#1a7a4a;color:#fff" title="3077 partidos">79%<small> 3077</small></td><td style="background:#6abf69;color:#000" title="1871 partidos">65%<small> 1871</small></td><td style="background:#6abf69;color:#000" title="1898 partidos">61%<small> 1898</small></td><td style="background:#f0c040;color:#000" title="2891 partidos">50%<small> 2891</small></td>
+        </tr><tr>
+          <td class="lname">Faltas >24</td>
+          <td style="background:#2d9f5c;color:#fff" title="366 partidos">68%<small> 366</small></td><td style="background:#6abf69;color:#000" title="856 partidos">58%<small> 856</small></td><td style="background:#f0c040;color:#000" title="881 partidos">53%<small> 881</small></td><td style="background:#c0392b;color:#fff" title="7634 partidos">32%<small> 7634</small></td>
+        </tr><tr>
+          <td class="lname">Goles >1.5</td>
+          <td style="background:#1a7a4a;color:#fff" title="5761 partidos">76%<small> 5761</small></td><td style="background:#1a7a4a;color:#fff" title="1695 partidos">77%<small> 1695</small></td><td style="background:#2d9f5c;color:#fff" title="1678 partidos">73%<small> 1678</small></td><td style="background:#2d9f5c;color:#fff" title="603 partidos">70%<small> 603</small></td>
+        </tr><tr>
+          <td class="lname">Goles >2.5</td>
+          <td style="background:#6abf69;color:#000" title="469 partidos">59%<small> 469</small></td><td style="background:#f0c040;color:#000" title="1580 partidos">54%<small> 1580</small></td><td style="background:#f0c040;color:#000" title="1579 partidos">54%<small> 1579</small></td><td style="background:#f0c040;color:#000" title="6109 partidos">50%<small> 6109</small></td>
+        </tr><tr>
+          <td class="lname">Goles >3.5</td>
+          <td style="background:#888;color:#fff" title="5 partidos">40%<small> 5</small></td><td style="background:#c0392b;color:#fff" title="136 partidos">45%<small> 136</small></td><td style="background:#c0392b;color:#fff" title="136 partidos">33%<small> 136</small></td><td style="background:#c0392b;color:#fff" title="9460 partidos">29%<small> 9460</small></td>
+        </tr><tr>
+          <td class="lname">Remates >20</td>
+          <td style="background:#1a7a4a;color:#fff" title="5381 partidos">81%<small> 5381</small></td><td style="background:#2d9f5c;color:#fff" title="1613 partidos">71%<small> 1613</small></td><td style="background:#2d9f5c;color:#fff" title="1600 partidos">69%<small> 1600</small></td><td style="background:#6abf69;color:#000" title="1143 partidos">58%<small> 1143</small></td>
+        </tr><tr>
+          <td class="lname">Remates >25</td>
+          <td style="background:#2d9f5c;color:#fff" title="263 partidos">68%<small> 263</small></td><td style="background:#f0c040;color:#000" title="942 partidos">53%<small> 942</small></td><td style="background:#f0c040;color:#000" title="960 partidos">51%<small> 960</small></td><td style="background:#c0392b;color:#fff" title="7572 partidos">37%<small> 7572</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >2</td>
+          <td style="background:#2d9f5c;color:#fff" title="2999 partidos">72%<small> 2999</small></td><td style="background:#2d9f5c;color:#fff" title="2190 partidos">67%<small> 2190</small></td><td style="background:#6abf69;color:#000" title="2249 partidos">64%<small> 2249</small></td><td style="background:#6abf69;color:#000" title="2299 partidos">60%<small> 2299</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >3</td>
+          <td style="background:#6abf69;color:#000" title="348 partidos">63%<small> 348</small></td><td style="background:#f0c040;color:#000" title="1198 partidos">53%<small> 1198</small></td><td style="background:#f0c040;color:#000" title="1192 partidos">52%<small> 1192</small></td><td style="background:#c0392b;color:#fff" title="6999 partidos">44%<small> 6999</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >4</td>
+          <td style="background:#888;color:#fff" title="23 partidos">48%<small> 23</small></td><td style="background:#c0392b;color:#fff" title="212 partidos">38%<small> 212</small></td><td style="background:#c0392b;color:#fff" title="206 partidos">35%<small> 206</small></td><td style="background:#c0392b;color:#fff" title="9296 partidos">30%<small> 9296</small></td>
+        </tr></tbody></table>
+    </div><div class="lsec" id="liga-F1" style="display:none">
+      <table class="bt"><thead><tr>
+        <th>Mercado</th><th>Ambos ≥7/10</th><th>Solo local</th><th>Solo visita</th><th>Ninguno</th>
+      </tr></thead><tbody><tr>
+          <td class="lname">Tiros arco >10</td>
+          <td class="empty">—</td><td style="background:#c0392b;color:#fff" title="55 partidos">29%<small> 55</small></td><td style="background:#c0392b;color:#fff" title="54 partidos">39%<small> 54</small></td><td style="background:#c0392b;color:#fff" title="7490 partidos">24%<small> 7490</small></td>
+        </tr><tr>
+          <td class="lname">Tiros arco >8</td>
+          <td style="background:#f0c040;color:#000" title="153 partidos">53%<small> 153</small></td><td style="background:#f0c040;color:#000" title="906 partidos">53%<small> 906</small></td><td style="background:#f0c040;color:#000" title="961 partidos">51%<small> 961</small></td><td style="background:#c0392b;color:#fff" title="5579 partidos">45%<small> 5579</small></td>
+        </tr><tr>
+          <td class="lname">Córners >10.5</td>
+          <td style="background:#888;color:#fff" title="8 partidos">38%<small> 8</small></td><td style="background:#c0392b;color:#fff" title="242 partidos">37%<small> 242</small></td><td style="background:#c0392b;color:#fff" title="243 partidos">40%<small> 243</small></td><td style="background:#c0392b;color:#fff" title="6726 partidos">36%<small> 6726</small></td>
+        </tr><tr>
+          <td class="lname">Córners >8.5</td>
+          <td style="background:#6abf69;color:#000" title="1138 partidos">62%<small> 1138</small></td><td style="background:#6abf69;color:#000" title="1619 partidos">62%<small> 1619</small></td><td style="background:#6abf69;color:#000" title="1677 partidos">61%<small> 1677</small></td><td style="background:#6abf69;color:#000" title="2785 partidos">57%<small> 2785</small></td>
+        </tr><tr>
+          <td class="lname">Córners >9.5</td>
+          <td style="background:#f0c040;color:#000" title="130 partidos">48%<small> 130</small></td><td style="background:#f0c040;color:#000" title="843 partidos">49%<small> 843</small></td><td style="background:#f0c040;color:#000" title="828 partidos">50%<small> 828</small></td><td style="background:#f0c040;color:#000" title="5418 partidos">46%<small> 5418</small></td>
+        </tr><tr>
+          <td class="lname">Faltas >20</td>
+          <td style="background:#1a7a4a;color:#fff" title="5428 partidos">89%<small> 5428</small></td><td style="background:#2d9f5c;color:#fff" title="624 partidos">73%<small> 624</small></td><td style="background:#2d9f5c;color:#fff" title="621 partidos">74%<small> 621</small></td><td style="background:#2d9f5c;color:#fff" title="166 partidos">65%<small> 166</small></td>
+        </tr><tr>
+          <td class="lname">Faltas >24</td>
+          <td style="background:#1a7a4a;color:#fff" title="2516 partidos">84%<small> 2516</small></td><td style="background:#6abf69;color:#000" title="1094 partidos">63%<small> 1094</small></td><td style="background:#6abf69;color:#000" title="1099 partidos">62%<small> 1099</small></td><td style="background:#f0c040;color:#000" title="2130 partidos">48%<small> 2130</small></td>
+        </tr><tr>
+          <td class="lname">Goles >1.5</td>
+          <td style="background:#2d9f5c;color:#fff" title="4147 partidos">74%<small> 4147</small></td><td style="background:#2d9f5c;color:#fff" title="1875 partidos">70%<small> 1875</small></td><td style="background:#2d9f5c;color:#fff" title="1859 partidos">69%<small> 1859</small></td><td style="background:#2d9f5c;color:#fff" title="1132 partidos">67%<small> 1132</small></td>
+        </tr><tr>
+          <td class="lname">Goles >2.5</td>
+          <td style="background:#f0c040;color:#000" title="193 partidos">52%<small> 193</small></td><td style="background:#f0c040;color:#000" title="955 partidos">52%<small> 955</small></td><td style="background:#f0c040;color:#000" title="990 partidos">50%<small> 990</small></td><td style="background:#c0392b;color:#fff" title="6875 partidos">44%<small> 6875</small></td>
+        </tr><tr>
+          <td class="lname">Goles >3.5</td>
+          <td style="background:#888;color:#fff" title="1 partidos">0%<small> 1</small></td><td style="background:#c0392b;color:#fff" title="57 partidos">39%<small> 57</small></td><td style="background:#c0392b;color:#fff" title="63 partidos">24%<small> 63</small></td><td style="background:#c0392b;color:#fff" title="8892 partidos">25%<small> 8892</small></td>
+        </tr><tr>
+          <td class="lname">Remates >20</td>
+          <td style="background:#1a7a4a;color:#fff" title="3755 partidos">79%<small> 3755</small></td><td style="background:#2d9f5c;color:#fff" title="1305 partidos">74%<small> 1305</small></td><td style="background:#2d9f5c;color:#fff" title="1305 partidos">69%<small> 1305</small></td><td style="background:#f0c040;color:#000" title="1234 partidos">50%<small> 1234</small></td>
+        </tr><tr>
+          <td class="lname">Remates >25</td>
+          <td style="background:#c0392b;color:#fff" title="61 partidos">44%<small> 61</small></td><td style="background:#f0c040;color:#000" title="546 partidos">52%<small> 546</small></td><td style="background:#f0c040;color:#000" title="549 partidos">49%<small> 549</small></td><td style="background:#c0392b;color:#fff" title="6443 partidos">36%<small> 6443</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >2</td>
+          <td style="background:#1a7a4a;color:#fff" title="4260 partidos">78%<small> 4260</small></td><td style="background:#2d9f5c;color:#fff" title="1322 partidos">70%<small> 1322</small></td><td style="background:#2d9f5c;color:#fff" title="1380 partidos">74%<small> 1380</small></td><td style="background:#6abf69;color:#000" title="638 partidos">64%<small> 638</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >3</td>
+          <td style="background:#6abf69;color:#000" title="837 partidos">64%<small> 837</small></td><td style="background:#6abf69;color:#000" title="1493 partidos">57%<small> 1493</small></td><td style="background:#6abf69;color:#000" title="1494 partidos">58%<small> 1494</small></td><td style="background:#f0c040;color:#000" title="3776 partidos">52%<small> 3776</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >4</td>
+          <td style="background:#888;color:#fff" title="37 partidos">35%<small> 37</small></td><td style="background:#f0c040;color:#000" title="407 partidos">47%<small> 407</small></td><td style="background:#c0392b;color:#fff" title="418 partidos">44%<small> 418</small></td><td style="background:#c0392b;color:#fff" title="6738 partidos">36%<small> 6738</small></td>
+        </tr></tbody></table>
+    </div><div class="lsec" id="liga-I1" style="display:none">
+      <table class="bt"><thead><tr>
+        <th>Mercado</th><th>Ambos ≥7/10</th><th>Solo local</th><th>Solo visita</th><th>Ninguno</th>
+      </tr></thead><tbody><tr>
+          <td class="lname">Tiros arco >10</td>
+          <td style="background:#f0c040;color:#000" title="57 partidos">53%<small> 57</small></td><td style="background:#f0c040;color:#000" title="295 partidos">50%<small> 295</small></td><td style="background:#f0c040;color:#000" title="306 partidos">49%<small> 306</small></td><td style="background:#c0392b;color:#fff" title="7254 partidos">30%<small> 7254</small></td>
+        </tr><tr>
+          <td class="lname">Tiros arco >8</td>
+          <td style="background:#2d9f5c;color:#fff" title="922 partidos">71%<small> 922</small></td><td style="background:#6abf69;color:#000" title="1346 partidos">58%<small> 1346</small></td><td style="background:#6abf69;color:#000" title="1311 partidos">58%<small> 1311</small></td><td style="background:#f0c040;color:#000" title="4333 partidos">49%<small> 4333</small></td>
+        </tr><tr>
+          <td class="lname">Córners >10.5</td>
+          <td style="background:#6abf69;color:#000" title="103 partidos">56%<small> 103</small></td><td style="background:#f0c040;color:#000" title="753 partidos">50%<small> 753</small></td><td style="background:#f0c040;color:#000" title="732 partidos">47%<small> 732</small></td><td style="background:#c0392b;color:#fff" title="6328 partidos">42%<small> 6328</small></td>
+        </tr><tr>
+          <td class="lname">Córners >8.5</td>
+          <td style="background:#2d9f5c;color:#fff" title="2473 partidos">70%<small> 2473</small></td><td style="background:#2d9f5c;color:#fff" title="1865 partidos">67%<small> 1865</small></td><td style="background:#2d9f5c;color:#fff" title="1862 partidos">66%<small> 1862</small></td><td style="background:#6abf69;color:#000" title="1716 partidos">60%<small> 1716</small></td>
+        </tr><tr>
+          <td class="lname">Córners >9.5</td>
+          <td style="background:#6abf69;color:#000" title="717 partidos">59%<small> 717</small></td><td style="background:#6abf69;color:#000" title="1551 partidos">59%<small> 1551</small></td><td style="background:#6abf69;color:#000" title="1586 partidos">57%<small> 1586</small></td><td style="background:#f0c040;color:#000" title="4062 partidos">52%<small> 4062</small></td>
+        </tr><tr>
+          <td class="lname">Faltas >20</td>
+          <td style="background:#1a7a4a;color:#fff" title="6817 partidos">92%<small> 6817</small></td><td style="background:#1a7a4a;color:#fff" title="509 partidos">78%<small> 509</small></td><td style="background:#2d9f5c;color:#fff" title="502 partidos">72%<small> 502</small></td><td style="background:#6abf69;color:#000" title="88 partidos">62%<small> 88</small></td>
+        </tr><tr>
+          <td class="lname">Faltas >24</td>
+          <td style="background:#1a7a4a;color:#fff" title="4215 partidos">87%<small> 4215</small></td><td style="background:#2d9f5c;color:#fff" title="1042 partidos">66%<small> 1042</small></td><td style="background:#2d9f5c;color:#fff" title="1079 partidos">65%<small> 1079</small></td><td style="background:#f0c040;color:#000" title="1580 partidos">47%<small> 1580</small></td>
+        </tr><tr>
+          <td class="lname">Goles >1.5</td>
+          <td style="background:#1a7a4a;color:#fff" title="5247 partidos">76%<small> 5247</small></td><td style="background:#2d9f5c;color:#fff" title="1765 partidos">74%<small> 1765</small></td><td style="background:#2d9f5c;color:#fff" title="1776 partidos">73%<small> 1776</small></td><td style="background:#2d9f5c;color:#fff" title="557 partidos">75%<small> 557</small></td>
+        </tr><tr>
+          <td class="lname">Goles >2.5</td>
+          <td style="background:#6abf69;color:#000" title="362 partidos">59%<small> 362</small></td><td style="background:#f0c040;color:#000" title="1319 partidos">54%<small> 1319</small></td><td style="background:#f0c040;color:#000" title="1349 partidos">53%<small> 1349</small></td><td style="background:#f0c040;color:#000" title="6315 partidos">48%<small> 6315</small></td>
+        </tr><tr>
+          <td class="lname">Goles >3.5</td>
+          <td style="background:#888;color:#fff" title="3 partidos">67%<small> 3</small></td><td style="background:#c0392b;color:#fff" title="129 partidos">37%<small> 129</small></td><td style="background:#c0392b;color:#fff" title="132 partidos">32%<small> 132</small></td><td style="background:#c0392b;color:#fff" title="9081 partidos">28%<small> 9081</small></td>
+        </tr><tr>
+          <td class="lname">Remates >20</td>
+          <td style="background:#1a7a4a;color:#fff" title="4911 partidos">84%<small> 4911</small></td><td style="background:#2d9f5c;color:#fff" title="892 partidos">72%<small> 892</small></td><td style="background:#2d9f5c;color:#fff" title="877 partidos">70%<small> 877</small></td><td style="background:#f0c040;color:#000" title="1232 partidos">48%<small> 1232</small></td>
+        </tr><tr>
+          <td class="lname">Remates >25</td>
+          <td style="background:#2d9f5c;color:#fff" title="429 partidos">65%<small> 429</small></td><td style="background:#6abf69;color:#000" title="1132 partidos">59%<small> 1132</small></td><td style="background:#6abf69;color:#000" title="1162 partidos">57%<small> 1162</small></td><td style="background:#c0392b;color:#fff" title="5189 partidos">37%<small> 5189</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >2</td>
+          <td style="background:#1a7a4a;color:#fff" title="6784 partidos">86%<small> 6784</small></td><td style="background:#1a7a4a;color:#fff" title="526 partidos">84%<small> 526</small></td><td style="background:#1a7a4a;color:#fff" title="522 partidos">80%<small> 522</small></td><td style="background:#2d9f5c;color:#fff" title="93 partidos">66%<small> 93</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >3</td>
+          <td style="background:#1a7a4a;color:#fff" title="3908 partidos">77%<small> 3908</small></td><td style="background:#2d9f5c;color:#fff" title="1456 partidos">71%<small> 1456</small></td><td style="background:#2d9f5c;color:#fff" title="1493 partidos">66%<small> 1493</small></td><td style="background:#6abf69;color:#000" title="1068 partidos">62%<small> 1068</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >4</td>
+          <td style="background:#2d9f5c;color:#fff" title="881 partidos">65%<small> 881</small></td><td style="background:#6abf69;color:#000" title="1413 partidos">58%<small> 1413</small></td><td style="background:#6abf69;color:#000" title="1446 partidos">59%<small> 1446</small></td><td style="background:#f0c040;color:#000" title="4185 partidos">49%<small> 4185</small></td>
+        </tr></tbody></table>
+    </div><div class="lsec" id="liga-SP1" style="display:none">
+      <table class="bt"><thead><tr>
+        <th>Mercado</th><th>Ambos ≥7/10</th><th>Solo local</th><th>Solo visita</th><th>Ninguno</th>
+      </tr></thead><tbody><tr>
+          <td class="lname">Tiros arco >10</td>
+          <td style="background:#888;color:#fff" title="11 partidos">27%<small> 11</small></td><td style="background:#f0c040;color:#000" title="179 partidos">49%<small> 179</small></td><td style="background:#c0392b;color:#fff" title="183 partidos">44%<small> 183</small></td><td style="background:#c0392b;color:#fff" title="7185 partidos">25%<small> 7185</small></td>
+        </tr><tr>
+          <td class="lname">Tiros arco >8</td>
+          <td style="background:#6abf69;color:#000" title="414 partidos">60%<small> 414</small></td><td style="background:#6abf69;color:#000" title="1196 partidos">58%<small> 1196</small></td><td style="background:#6abf69;color:#000" title="1171 partidos">56%<small> 1171</small></td><td style="background:#c0392b;color:#fff" title="4777 partidos">45%<small> 4777</small></td>
+        </tr><tr>
+          <td class="lname">Córners >10.5</td>
+          <td style="background:#f0c040;color:#000" title="120 partidos">52%<small> 120</small></td><td style="background:#f0c040;color:#000" title="641 partidos">50%<small> 641</small></td><td style="background:#f0c040;color:#000" title="606 partidos">49%<small> 606</small></td><td style="background:#c0392b;color:#fff" title="6191 partidos">40%<small> 6191</small></td>
+        </tr><tr>
+          <td class="lname">Córners >8.5</td>
+          <td style="background:#2d9f5c;color:#fff" title="2071 partidos">70%<small> 2071</small></td><td style="background:#6abf69;color:#000" title="1798 partidos">65%<small> 1798</small></td><td style="background:#2d9f5c;color:#fff" title="1738 partidos">66%<small> 1738</small></td><td style="background:#6abf69;color:#000" title="1951 partidos">58%<small> 1951</small></td>
+        </tr><tr>
+          <td class="lname">Córners >9.5</td>
+          <td style="background:#6abf69;color:#000" title="667 partidos">65%<small> 667</small></td><td style="background:#6abf69;color:#000" title="1382 partidos">56%<small> 1382</small></td><td style="background:#6abf69;color:#000" title="1340 partidos">57%<small> 1340</small></td><td style="background:#f0c040;color:#000" title="4169 partidos">50%<small> 4169</small></td>
+        </tr><tr>
+          <td class="lname">Faltas >20</td>
+          <td style="background:#1a7a4a;color:#fff" title="6642 partidos">90%<small> 6642</small></td><td style="background:#1a7a4a;color:#fff" title="441 partidos">80%<small> 441</small></td><td style="background:#1a7a4a;color:#fff" title="419 partidos">77%<small> 419</small></td><td style="background:#1a7a4a;color:#fff" title="56 partidos">75%<small> 56</small></td>
+        </tr><tr>
+          <td class="lname">Faltas >24</td>
+          <td style="background:#1a7a4a;color:#fff" title="3364 partidos">83%<small> 3364</small></td><td style="background:#6abf69;color:#000" title="1408 partidos">64%<small> 1408</small></td><td style="background:#2d9f5c;color:#fff" title="1368 partidos">66%<small> 1368</small></td><td style="background:#f0c040;color:#000" title="1418 partidos">53%<small> 1418</small></td>
+        </tr><tr>
+          <td class="lname">Goles >1.5</td>
+          <td style="background:#1a7a4a;color:#fff" title="5099 partidos">75%<small> 5099</small></td><td style="background:#2d9f5c;color:#fff" title="1828 partidos">75%<small> 1828</small></td><td style="background:#2d9f5c;color:#fff" title="1795 partidos">72%<small> 1795</small></td><td style="background:#2d9f5c;color:#fff" title="624 partidos">70%<small> 624</small></td>
+        </tr><tr>
+          <td class="lname">Goles >2.5</td>
+          <td style="background:#6abf69;color:#000" title="298 partidos">59%<small> 298</small></td><td style="background:#6abf69;color:#000" title="1431 partidos">55%<small> 1431</small></td><td style="background:#f0c040;color:#000" title="1442 partidos">50%<small> 1442</small></td><td style="background:#f0c040;color:#000" title="6175 partidos">48%<small> 6175</small></td>
+        </tr><tr>
+          <td class="lname">Goles >3.5</td>
+          <td class="empty">—</td><td style="background:#c0392b;color:#fff" title="117 partidos">38%<small> 117</small></td><td style="background:#c0392b;color:#fff" title="141 partidos">28%<small> 141</small></td><td style="background:#c0392b;color:#fff" title="9088 partidos">28%<small> 9088</small></td>
+        </tr><tr>
+          <td class="lname">Remates >20</td>
+          <td style="background:#1a7a4a;color:#fff" title="4080 partidos">80%<small> 4080</small></td><td style="background:#2d9f5c;color:#fff" title="1367 partidos">71%<small> 1367</small></td><td style="background:#2d9f5c;color:#fff" title="1397 partidos">70%<small> 1397</small></td><td style="background:#6abf69;color:#000" title="714 partidos">58%<small> 714</small></td>
+        </tr><tr>
+          <td class="lname">Remates >25</td>
+          <td style="background:#2d9f5c;color:#fff" title="172 partidos">69%<small> 172</small></td><td style="background:#f0c040;color:#000" title="838 partidos">55%<small> 838</small></td><td style="background:#6abf69;color:#000" title="835 partidos">55%<small> 835</small></td><td style="background:#c0392b;color:#fff" title="5713 partidos">37%<small> 5713</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >2</td>
+          <td style="background:#1a7a4a;color:#fff" title="6893 partidos">89%<small> 6893</small></td><td style="background:#1a7a4a;color:#fff" title="320 partidos">83%<small> 320</small></td><td style="background:#1a7a4a;color:#fff" title="319 partidos">85%<small> 319</small></td><td style="background:#888;color:#fff" title="26 partidos">69%<small> 26</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >3</td>
+          <td style="background:#1a7a4a;color:#fff" title="4801 partidos">80%<small> 4801</small></td><td style="background:#2d9f5c;color:#fff" title="1161 partidos">72%<small> 1161</small></td><td style="background:#2d9f5c;color:#fff" title="1156 partidos">72%<small> 1156</small></td><td style="background:#2d9f5c;color:#fff" title="440 partidos">68%<small> 440</small></td>
+        </tr><tr>
+          <td class="lname">Tarjetas pts >4</td>
+          <td style="background:#2d9f5c;color:#fff" title="1816 partidos">69%<small> 1816</small></td><td style="background:#6abf69;color:#000" title="1677 partidos">63%<small> 1677</small></td><td style="background:#6abf69;color:#000" title="1679 partidos">64%<small> 1679</small></td><td style="background:#6abf69;color:#000" title="2386 partidos">56%<small> 2386</small></td>
+        </tr></tbody></table>
+    </div>
+</div>
+
+<script>
+document.querySelectorAll('.tab').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.sec).classList.add('active');
+  });
+});
+(function(){
+  const first = document.querySelector('.ltab');
+  if(first) {
+    first.classList.add('active');
+    document.getElementById('liga-'+first.dataset.liga).style.display='block';
+  }
+  document.querySelectorAll('.ltab').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      document.querySelectorAll('.ltab').forEach(b=>b.classList.remove('active'));
+      document.querySelectorAll('.lsec').forEach(s=>s.style.display='none');
+      btn.classList.add('active');
+      document.getElementById('liga-'+btn.dataset.liga).style.display='block';
+    });
+  });
+})();
+</script>
+</body>
+</html>
