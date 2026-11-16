@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Backtest de la regla «X de N» · 5 grandes ligas + Brasil</title>
+<style>
+:root{--bg:#f4f5f1;--card:#fff;--ink:#17262b;--mut:#5d6c70;--line:#dfe3dd;--acc:#0f5c8c;--acc2:#d9e8f2;--ok:#1d7a46;--no:#b3392c;--warn:#8a6100;--chip:#e9ece6}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1417;--card:#172025;--ink:#e7edee;--mut:#9aa8ac;--line:#2a363c;--acc:#6bb6ea;--acc2:#1d3445;--ok:#5fca8c;--no:#f08a7c;--warn:#e0b85a;--chip:#222d33}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:16px 14px 6px;max-width:1100px;margin:0 auto}
+h1{font-size:1.25rem;margin:0 0 2px;letter-spacing:-.01em}
+h2{font-size:1.02rem;margin:0 0 8px}
+h3{font-size:.95rem;margin:14px 0 6px}
+p{margin:6px 0}
+.sub{color:var(--mut);font-size:.86rem}
+main{max-width:1100px;margin:0 auto;padding:0 10px 60px}
+nav{display:flex;gap:4px;overflow-x:auto;padding:8px 10px;position:sticky;top:0;background:var(--bg);z-index:5;max-width:1100px;margin:0 auto;border-bottom:1px solid var(--line)}
+nav button{flex:none;border:0;background:transparent;color:var(--mut);font:inherit;font-weight:600;padding:7px 12px;border-radius:8px;cursor:pointer}
+nav button[aria-selected=true]{background:var(--ink);color:var(--bg)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}
+.fila{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:end}
+label{display:flex;flex-direction:column;font-size:.76rem;color:var(--mut);gap:3px}
+select,input[type=number],input[type=text]{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:7px 8px;min-width:0}
+input[type=number]{width:84px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{border:0;background:var(--bg);color:var(--ink);font:inherit;padding:7px 11px;cursor:pointer}
+.seg button.on{background:var(--acc);color:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;font-size:.84rem;padding:5px 10px;border-radius:999px;cursor:pointer}
+.chip.on{background:var(--acc2);border-color:var(--acc)}
+.btn{border:1px solid var(--line);background:var(--chip);color:var(--ink);font:inherit;font-size:.84rem;padding:6px 10px;border-radius:8px;cursor:pointer}
+details>summary{cursor:pointer;font-weight:600;padding:2px 0}
+.resumen{font-size:.84rem;color:var(--mut);margin-top:8px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.kpi b{display:block;font-size:1.55rem;letter-spacing:-.02em;line-height:1.15}
+.kpi span{font-size:.78rem;color:var(--mut)}
+.kpi.pri{border-color:var(--acc)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-weight:600;color:var(--mut);font-size:.76rem;position:sticky;top:0;background:var(--card)}
+th:first-child,td:first-child{text-align:left}
+th.ord{cursor:pointer;text-decoration:underline dotted}
+tr.clic{cursor:pointer}
+tr.clic:hover td,tr.act td{background:var(--acc2)}
+tr.poco td{color:var(--mut)}
+td small{color:var(--mut)}
+.viz{position:relative;display:inline-block;width:88px;height:10px;background:var(--chip);border-radius:3px;vertical-align:middle}
+.viz i{position:absolute;left:0;top:0;bottom:0;background:var(--acc);border-radius:3px}
+.viz u{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--ink)}
+.pos{color:var(--ok)}.neg{color:var(--no)}.ok{color:var(--ok);font-weight:700}.no{color:var(--no);font-weight:700}
+.nota{font-size:.8rem;color:var(--mut)}
+.aviso{border-left:3px solid var(--warn);padding:6px 10px;background:var(--chip);border-radius:0 8px 8px 0;font-size:.86rem;margin:8px 0}
+.ley{display:flex;gap:14px;font-size:.78rem;color:var(--mut);margin:4px 0 8px;flex-wrap:wrap}
+.ley i{display:inline-block;width:18px;height:8px;background:var(--acc);border-radius:2px;vertical-align:middle;margin-right:4px}
+.ley u{display:inline-block;width:2px;height:12px;background:var(--ink);vertical-align:middle;margin-right:5px}
+ol.h{padding-left:20px;margin:6px 0}ol.h li{margin:9px 0}
+.pag{display:flex;gap:8px;align-items:center;margin-top:8px;font-size:.84rem}
+[hidden]{display:none!important}
+:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Backtest de la regla «X de N»</h1>
+  <div class="sub" id="sub"></div>
+</header>
+<nav role="tablist" id="tabs">
+  <button data-t="hall" aria-selected="true">Hallazgos</button>
+  <button data-t="exp">Explorar</button>
+  <button data-t="rank">Ranking de líneas</button>
+  <button data-t="part">Partidos</button>
+  <button data-t="lim">Datos y límites</button>
+</nav>
+<main>
+
+<section id="t-hall">
+  <div class="card">
+    <h2>Qué dice la prueba (7 de 10 en ambos equipos, todas las temporadas)</h2>
+    <p class="nota">Cifras calculadas por el mismo motor de esta página (<code>pruebas/backtest/hallazgos.js</code>). «Base» = todos los partidos con historial suficiente, sin exigir regularidad. Solo mide acierto, no ganancia.</p>
+    <ol class="h">
+      <li><b>El filtro sube el acierto en todos los mercados, pero poco en goles y córners.</b> Córners Más 8.5: 70,6 % contra 65,8 % de base. Córners Más 9.5: 63,3 % contra 54,4 %. Goles Más 1.5: 76,5 % contra 74,6 %. Goles Más 2.5: 59,3 % contra 50,0 %. La subida es mayor en remates (Más 22.5: 76,8 % contra 63,8 %), tarjetas en puntos (Más 3.5: 75,9 % contra 61,2 %) y faltas (Más 24.5: 86,3 % contra 62,0 %).</li>
+      <li><b>«7 de 10» no quiere decir 70 % o más.</b> En córners y goles el partido siguiente acierta menos de lo que venía pasando: 63 % en córners Más 9.5 y 59 % en goles Más 2.5. En remates, faltas y tiros al arco se sostiene mejor (77–86 %), porque dependen más del estilo del equipo.</li>
+      <li><b>A igual colchón, cumplir o no el «7 de 10» da casi lo mismo.</b> Córners Más 8.5 con colchón entre 2,1 y 2,7: 70,1 % si cumple y 72,0 % si no cumple. Remates Más 22.5 con colchón 3,5–4,6: 74,6 % y 74,2 %. Tarjetas Más 3.5 con colchón 1,4–2,1: 74,5 % y 70,6 %. El colchón (esperado menos línea) explica el acierto tanto como el conteo; la regularidad añade entre 0 y 4 puntos. Hoy el colchón es «solo informativo»: esta prueba dice que vale la pena mirarlo junto al conteo. Lo puedes comprobar en Explorar, tabla «Mismo colchón».</li>
+      <li><b>En goles 2.5 el mercado ya lo sabe.</b> Es el único mercado con cuotas en la base. Cuando el filtro dice Más 2.5, acierta 59,8 % y la cuota (sin margen) ya decía 59,7 %. En Menos 2.5: 57,3 % y 57,3 %. El filtro escoge partidos con más acierto, pero el precio ya lo trae descontado. En córners, remates, faltas y tarjetas no hay cuotas para comprobarlo; lo prudente es suponer que Betano también sube la línea en esos partidos. Por eso el dato útil es el acierto con colchón pequeño (línea cerca del esperado): usa el filtro de colchón.</li>
+      <li><b>Subir a 8 de 10 da 2 a 4 puntos más y deja entre un tercio y la mitad de las líneas.</b> Córners Más 8.5: 72,9 % (4.129 partidos) contra 70,6 % (11.678). Remates Más 22.5: 80,5 %. Tarjetas Más 3.5: 80,0 %. Con 9 de 10 casi no quedan partidos en córners y goles.</li>
+      <li><b>La liga cambia el resultado.</b> Ligue 1 es la más floja para córners Más (8.5: 62,1 %; 9.5: 49,2 % con solo 120 partidos) y de las mejores para Menos 10.5 (67,6 %). Tarjetas Más 3.5 funciona en La Liga (80,0 %) y Serie A (77,4 %); en la Premier funciona el Menos 5.5 (83,2 %). En faltas la Premier va muy por debajo (Más 24.5 se da solo 37,4 % de las veces).</li>
+      <li><b>El fútbol cambió y las líneas viejas engañan.</b> Córners Más 8.5 con filtro pasó de 72,0 % (2000–2011) a 67,4 % (2023–2026); Más 9.5 de 66,2 % a 58,8 %. Menos 10.5 subió de 63,9 % a 67,1 %. Faltas Más 24.5 cayó de 77,6 % a 41,8 % de base. Para decidir hoy, mira las temporadas recientes con el filtro de temporada.</li>
+      <li><b>Qué tan seguido aparece una línea.</b> Con 7 de 10 en ambos: córners Más 8.5 aparece en 31 % de los partidos, Más 9.5 en 10 %, goles Más 2.5 en 4 %, tarjetas Más 3.5 en 28 %, remates Más 22.5 en 31 %.</li>
+    </ol>
+    <div class="aviso">Lectura para decidir: el filtro sirve para <b>escoger partidos</b>, no garantiza que la cuota pague. Las líneas con más acierto y menos dependencia del azar son remates, tiros al arco, faltas y tarjetas; en goles la cuota ya refleja lo que ve el filtro. La línea que Betano ofrece suele estar cerca del esperado, así que el número realista es el de colchón bajo, no el promedio general.</div>
+  </div>
+</section>
+
+<section id="filtros" hidden>
+  <div class="card">
+    <div class="fila">
+      <label>Mercado<select id="mk"></select></label>
+      <label>Ámbito<select id="amb"></select></label>
+      <label>Línea<span style="display:flex;gap:4px"><button class="btn" id="lmenos" aria-label="Bajar línea">−</button><select id="linea"></select><button class="btn" id="lmas" aria-label="Subir línea">+</button></span></label>
+      <label>Lado<span class="seg" id="lado"><button data-v="mas">Más</button><button data-v="menos">Menos</button></span></label>
+    </div>
+    <details id="masf" style="margin-top:10px">
+      <summary>Filtros: regularidad, colchón, cuota, liga, temporada, equipo</summary>
+      <h3>Regularidad</h3>
+      <div class="fila">
+        <label>Al menos K<input type="number" id="K" min="0" max="10" step="1"></label>
+        <label>de los últimos N<select id="N"></select></label>
+        <label>n mínimo<input type="number" id="nmin" min="1" max="10" step="1"></label>
+        <label>En qué equipos<select id="quien"><option value="ambos">Ambos</option><option value="local">Local</option><option value="visitante">Visitante</option><option value="cualquiera">Cualquiera de los dos</option><option value="todas">No exigir (todas)</option></select></label>
+      </div>
+      <h3>Colchón (esperado − línea en Más; línea − esperado en Menos)</h3>
+      <div class="fila">
+        <label>Mínimo<input type="number" id="colMin" step="0.1" placeholder="sin"></label>
+        <label>Máximo<input type="number" id="colMax" step="0.1" placeholder="sin"></label>
+      </div>
+      <h3>Cuota</h3>
+      <div class="fila">
+        <label>Favorito 1X2 mín.<input type="number" id="favMin" step="0.05" min="1" placeholder="sin"></label>
+        <label>Favorito 1X2 máx.<input type="number" id="favMax" step="0.05" min="1" placeholder="sin"></label>
+        <label>Cuota de la línea mín.<input type="number" id="cuoMin" step="0.05" min="1" placeholder="sin"></label>
+        <label>Cuota de la línea máx.<input type="number" id="cuoMax" step="0.05" min="1" placeholder="sin"></label>
+      </div>
+      <p class="nota" id="notaCuo"></p>
+      <h3>Liga</h3>
+      <div class="chips" id="ligas"></div>
+      <h3>Temporada y equipo</h3>
+      <div class="fila">
+        <label>Desde<select id="tDesde"></select></label>
+        <label>Hasta<select id="tHasta"></select></label>
+        <label>Equipo (local o visitante)<input type="text" id="equipo" list="eqs" placeholder="todos" autocomplete="off"><datalist id="eqs"></datalist></label>
+      </div>
+      <h3>Atajos</h3>
+      <div class="chips">
+        <button class="btn" data-atajo="7">7 de 10 en ambos</button>
+        <button class="btn" data-atajo="8">8 de 10 en ambos</button>
+        <button class="btn" data-atajo="col">Colchón de 0 a 1 (línea cerca del esperado)</button>
+        <button class="btn" data-atajo="rec">Solo desde 2021</button>
+        <button class="btn" data-atajo="cero">Quitar todos los filtros</button>
+      </div>
+    </details>
+    <div class="resumen" id="resumen"></div>
+  </div>
+</section>
+
+<section id="t-exp" hidden>
+  <div class="kpis" id="kpis"></div>
+  <div class="card"><h2>Escalera de líneas</h2>
+    <p class="nota">Cómo cambia el acierto al mover la línea, con los mismos filtros. Toca una fila para analizar esa línea.</p>
+    <div class="ley"><span><i></i>con filtro</span><span><u></u>base (sin regularidad ni colchón)</span></div>
+    <div class="scroll" id="esc"></div></div>
+  <div class="card"><h2>Por regularidad</h2>
+    <p class="nota" id="regNota"></p><div class="scroll" id="reg"></div></div>
+  <div class="card"><h2>Mismo colchón: ¿cumplir la regularidad cambia algo?</h2>
+    <p class="nota">Partidos de la base repartidos por tramos de colchón. Si las dos columnas se parecen, el conteo no añade nada a lo que ya dice el esperado.</p>
+    <div class="scroll" id="col"></div></div>
+  <div class="card"><h2>Por liga</h2><div class="scroll" id="plig"></div></div>
+  <div class="card"><h2>Por temporada</h2><div class="scroll" id="ptem"></div></div>
+  <div class="card"><h2>Por cuota del favorito (1X2)</h2>
+    <p class="nota">Partido parejo o con favorito claro, según la cuota más baja del 1X2.</p><div class="scroll" id="pfav"></div></div>
+  <div class="card" id="cardCuo"><h2>Por cuota de la línea y contra el mercado</h2>
+    <p class="nota">Solo goles 2.5 del partido trae cuotas en la base. «Mercado» es la probabilidad que daba la cuota, sin margen.</p><div class="scroll" id="pcuo"></div></div>
+</section>
+
+<section id="t-rank" hidden>
+  <div class="card"><h2>Ranking de líneas con los filtros actuales</h2>
+    <p class="nota">Todas las combinaciones de mercado, ámbito, línea y lado, con la regularidad, colchón, liga, temporada, equipo y cuota del favorito que tengas puestos. Toca un encabezado para ordenar y una fila para abrirla en Explorar.</p>
+    <div class="fila">
+      <label>Mercado<select id="rmk"><option value="">Todos</option></select></label>
+      <label>Lado<select id="rlado"><option value="">Más y Menos</option><option value="mas">Más</option><option value="menos">Menos</option></select></label>
+      <label>n mínimo con filtro<input type="number" id="rn" value="300" min="0" step="50"></label>
+      <label>Acierto base máx. (%)<input type="number" id="rbase" placeholder="sin" min="0" max="100" step="5"></label>
+    </div>
+    <p class="nota" id="rest"></p>
+    <div class="scroll" id="rank"></div></div>
+</section>
+
+<section id="t-part" hidden>
+  <div class="card"><h2>Partidos</h2>
+    <div class="fila">
+      <label>Ver<select id="vista"><option value="sel">Los que pasan el filtro</option><option value="base">Toda la base</option><option value="no">Los que no pasan</option></select></label>
+      <label>Resultado<select id="vres"><option value="">Todos</option><option value="1">Acertadas</option><option value="0">Falladas</option></select></label>
+    </div>
+    <div class="scroll" id="part"></div>
+    <div class="pag"><button class="btn" id="pant">Anteriores</button><span id="pinfo"></span><button class="btn" id="psig">Siguientes</button></div></div>
+</section>
+
+<section id="t-lim" hidden>
+  <div class="card"><h2>Datos</h2>
+    <p id="ldatos"></p>
+    <h3>Cómo se calcula</h3>
+    <p>Para cada partido se usan solo los partidos anteriores de cada equipo en su liga (nunca el propio partido ni los posteriores), hasta 10 y con no más de 400 días de antigüedad. Es la misma lectura de la ficha del proyecto:</p>
+    <p>Regularidad: veces que la línea se cumplió en esos partidos. En líneas del total cuenta el total de cada partido del equipo. En líneas del local cuenta lo que hizo el local y lo que concedió el visitante; en las del visitante, al revés. Esperado por equipo = (lo que hace + lo que concede el rival) / 2; el total es la suma. Colchón = esperado − línea en Más, línea − esperado en Menos.</p>
+    <p>«Base» son los partidos con historial suficiente que pasan los filtros de liga, temporada, equipo y cuota. «Con filtro» añade la regularidad y el colchón. La cuota mínima justa es 1 dividido por el acierto: por debajo de esa cuota el acierto no alcanza para cubrir la apuesta.</p>
+    <h3>Límites</h3>
+    <ul>
+      <li>La base no trae las líneas ni las cuotas de Betano. Se usa una rejilla de líneas fija; Betano mueve la línea según el partido.</li>
+      <li>Solo hay cuotas de 1X2 y de goles Más/Menos 2.5 (casas europeas, no Betano). En los demás mercados el acierto no se puede comparar con un precio.</li>
+      <li>Brasil solo trae goles y 1X2: no entra en córners, remates, tiros al arco, faltas ni tarjetas.</li>
+      <li>El historial es solo de liga (sin copas ni torneos europeos) y sin enfrentamientos directos. Un recién ascendido no tiene historial hasta jugar 7 partidos.</li>
+      <li>Tarjetas en puntos = amarillas + 2 × rojas, como Betano; la base puede contar distinto la doble amarilla según la liga y el año.</li>
+      <li>La forma de contar tiros al arco y faltas cambió con los años en la fuente; compara temporadas recientes entre sí.</li>
+      <li>No hay estadísticas de jugadores, fueras de juego, saques ni mitades: esos mercados quedan fuera.</li>
+      <li>No incluye el supermodelo ni el recorte de p: mide solo la regla de regularidad y el colchón.</li>
+      <li>Son ligas de clubes. No dice nada directo sobre partidos de selecciones.</li>
+    </ul></div>
+</section>
+</main>
+
+<script>/*__MOTOR__*/</script>
+<script>const DATOS=/*__DATOS__*/;</script>
+<script>
+'use strict';
+const $=s=>document.querySelector(s), E=Motor.crear(DATOS), MK=Motor.MERCADOS, AMB=Motor.AMBITOS, D=DATOS;
+const pct=(h,n,d=1)=>n?(100*h/n).toFixed(d).replace('.',',')+' %':'—';
+const num=n=>n.toLocaleString('es-CO');
+const dec=(x,d=2)=>x.toFixed(d).replace('.',',');
+const iBRA=D.ligas.length-1;
+const tLabel=y=>y+'/'+String((y+1)%100).padStart(2,'0');
+const fechaTxt=i=>new Date(E.fecha[i]*864e5).toISOString().slice(0,10);
+const st={mk:'corners',amb:'total',linea:8.5,lado:'mas',N:10,K:7,nmin:7,quien:'ambos',colMin:null,colMax:null,favMin:null,favMax:null,cuoMin:null,cuoMax:null,
+  ligas:D.ligas.map(()=>true),tDesde:E.tMin,tHasta:E.tMax,equipo:-1,tab:'hall',pag:0};
+const Q=()=>({mk:st.mk,amb:st.amb,linea:st.linea,lado:st.lado,N:st.N});
+const lineasDe=(mk,amb)=>amb==='total'?MK[mk].total:MK[mk].equipo;
+
+/* ---------- controles ---------- */
+$('#sub').textContent=`${num(E.n)} partidos · ${D.ligas.join(', ')} · temporadas ${tLabel(E.tMin)} a ${tLabel(E.tMax)} · mide solo % de acierto`;
+$('#ldatos').textContent=`${num(E.n)} partidos de ${D.ligas.join(', ')}, de ${fechaTxt(0)} a ${fechaTxt(E.n-1)}. Fuente: ${D.fuente}.`;
+for(const k in MK){$('#mk').add(new Option(MK[k].nombre,k));$('#rmk').add(new Option(MK[k].nombre,k));}
+for(let n=10;n>=5;n--)$('#N').add(new Option(n,n));
+for(let y=E.tMin;y<=E.tMax;y++){$('#tDesde').add(new Option(tLabel(y),y));$('#tHasta').add(new Option(tLabel(y),y));}
+D.ligas.forEach((n,i)=>{const b=document.createElement('button');b.className='chip';b.textContent=n;b.dataset.i=i;b.onclick=()=>{st.ligas[i]=!st.ligas[i];if(!st.ligas.some(x=>x))st.ligas[i]=true;pintar();};$('#ligas').append(b);});
+$('#eqs').innerHTML=D.equipos.slice().sort((a,b)=>a.localeCompare(b)).map(e=>`<option value="${e.replace(/"/g,'&quot;')}">`).join('');
+const eqId=new Map(D.equipos.map((e,i)=>[e.toLowerCase(),i]));
+
+function ponerLineas(){
+  const ls=lineasDe(st.mk,st.amb).slice(); if(!ls.includes(st.linea))ls.push(st.linea); ls.sort((a,b)=>a-b);
+  $('#linea').innerHTML=ls.map(l=>`<option value="${l}">${dec(l,1)}</option>`).join(''); $('#linea').value=st.linea;
+}
+function ponerAmbitos(){
+  $('#amb').innerHTML=Object.keys(AMB).filter(a=>a==='total'||MK[st.mk].equipo.length).map(a=>`<option value="${a}">${AMB[a]}</option>`).join('');
+  if(!MK[st.mk].equipo.length)st.amb='total'; $('#amb').value=st.amb;
+}
+function lineaMedia(){const ls=lineasDe(st.mk,st.amb);st.linea=ls[Math.floor((ls.length-1)/2)];}
+function sincronizar(){
+  $('#mk').value=st.mk;ponerAmbitos();ponerLineas();
+  document.querySelectorAll('#lado button').forEach(b=>b.classList.toggle('on',b.dataset.v===st.lado));
+  $('#K').value=st.K;$('#K').max=st.N;$('#N').value=st.N;$('#nmin').value=st.nmin;$('#nmin').max=st.N;$('#quien').value=st.quien;
+  for(const k of['colMin','colMax','favMin','favMax','cuoMin','cuoMax'])$('#'+k).value=st[k]==null?'':st[k];
+  $('#tDesde').value=st.tDesde;$('#tHasta').value=st.tHasta;$('#equipo').value=st.equipo<0?'':D.equipos[st.equipo];
+  document.querySelectorAll('#ligas .chip').forEach(b=>b.classList.toggle('on',st.ligas[+b.dataset.i]));
+  const cc=E.tieneCuota(Q());$('#cuoMin').disabled=$('#cuoMax').disabled=!cc;
+  $('#notaCuo').textContent=cc?'Esta línea trae cuota en la base: puedes filtrar por ella.':'La cuota de la línea solo existe en la base para goles 2.5 del partido. La cuota del favorito sirve en todos los mercados.';
+}
+$('#mk').onchange=e=>{st.mk=e.target.value;if(!MK[st.mk].equipo.length)st.amb='total';lineaMedia();pintar();};
+$('#amb').onchange=e=>{st.amb=e.target.value;lineaMedia();pintar();};
+$('#linea').onchange=e=>{st.linea=+e.target.value;pintar();};
+$('#lmenos').onclick=()=>{if(st.linea>0.5){st.linea-=1;pintar();}};
+$('#lmas').onclick=()=>{st.linea+=1;pintar();};
+$('#lado').onclick=e=>{if(e.target.dataset.v){st.lado=e.target.dataset.v;pintar();}};
+const numero=id=>{const v=$('#'+id).value.trim().replace(',','.');return v===''||isNaN(+v)?null:+v;};
+let tmr;const luego=()=>{clearTimeout(tmr);tmr=setTimeout(pintar,180);};
+for(const k of['colMin','colMax','favMin','favMax','cuoMin','cuoMax'])$('#'+k).oninput=()=>{st[k]=numero(k);luego();};
+$('#K').oninput=()=>{const v=numero('K');if(v!=null){st.K=Math.max(0,Math.min(st.N,Math.round(v)));luego();}};
+$('#nmin').oninput=()=>{const v=numero('nmin');if(v!=null){st.nmin=Math.max(1,Math.min(st.N,Math.round(v)));luego();}};
+$('#N').onchange=e=>{st.N=+e.target.value;st.K=Math.min(st.K,st.N);st.nmin=Math.min(st.nmin,st.N);pintar();};
+$('#quien').onchange=e=>{st.quien=e.target.value;pintar();};
+$('#tDesde').onchange=e=>{st.tDesde=+e.target.value;if(st.tHasta<st.tDesde)st.tHasta=st.tDesde;pintar();};
+$('#tHasta').onchange=e=>{st.tHasta=+e.target.value;if(st.tDesde>st.tHasta)st.tDesde=st.tHasta;pintar();};
+$('#equipo').onchange=e=>{const id=eqId.get(e.target.value.trim().toLowerCase());st.equipo=id==null?-1:id;pintar();};
+document.querySelectorAll('[data-atajo]').forEach(b=>b.onclick=()=>{
+  const a=b.dataset.atajo;
+  if(a==='7'||a==='8'){st.N=10;st.K=+a;st.nmin=7;st.quien='ambos';}
+  if(a==='col'){st.colMin=0;st.colMax=1;}
+  if(a==='rec'){st.tDesde=2021;st.tHasta=E.tMax;}
+  if(a==='cero'){Object.assign(st,{N:10,K:7,nmin:7,quien:'todas',colMin:null,colMax:null,favMin:null,favMax:null,cuoMin:null,cuoMax:null,tDesde:E.tMin,tHasta:E.tMax,equipo:-1});st.ligas=D.ligas.map(()=>true);}
+  pintar();});
+$('#tabs').onclick=e=>{const t=e.target.dataset.t;if(!t)return;st.tab=t;pintar();window.scrollTo(0,0);};
+for(const id of['vista','vres'])$('#'+id).onchange=()=>{st.pag=0;pintarPartidos();};
+$('#pant').onclick=()=>{if(st.pag>0){st.pag--;pintarPartidos();}};
+$('#psig').onclick=()=>{st.pag++;pintarPartidos();};
+for(const id of['rmk','rlado','rn','rbase'])$('#'+id).oninput=()=>pintarRanking();
+
+/* ---------- tablas ---------- */
+const viz=(sh,sn,bh,bn)=>`<span class="viz">${sn?`<i style="width:${(100*sh/sn).toFixed(1)}%"></i>`:''}${bn?`<u style="left:calc(${(100*bh/bn).toFixed(1)}% - 1px)"></u>`:''}</span>`;
+const dif=(sh,sn,bh,bn)=>{if(!sn||!bn)return'—';const d=100*(sh/sn-bh/bn);return`<span class="${d>=0?'pos':'neg'}">${d>=0?'+':'−'}${dec(Math.abs(d),1)}</span>`;};
+function tablaGrupos(filas,titulo,clic){
+  let h=`<table><thead><tr><th>${titulo}</th><th>Con filtro</th><th>n</th><th>Base</th><th>n</th><th>Dif.</th><th>Cuota justa</th><th></th></tr></thead><tbody>`;
+  filas.forEach((g,ix)=>{h+=`<tr class="${g.sn<30?'poco ':''}${clic?'clic ':''}${g.act?'act':''}" data-ix="${ix}"><td>${g.et}</td><td><b>${pct(g.sh,g.sn)}</b></td><td>${num(g.sn)}</td><td>${pct(g.bh,g.bn)}</td><td>${num(g.bn)}</td><td>${dif(g.sh,g.sn,g.bh,g.bn)}</td><td>${g.sh?dec(g.sn/g.sh):'—'}</td><td>${viz(g.sh,g.sn,g.bh,g.bn)}</td></tr>`;});
+  return h+'</tbody></table>';
+}
+let R=null;
+function filtro(){return{ligas:st.ligas,tDesde:st.tDesde,tHasta:st.tHasta,equipo:st.equipo,K:st.K,quien:st.quien,nmin:st.nmin,colMin:st.colMin,colMax:st.colMax,favMin:st.favMin,favMax:st.favMax,cuoMin:st.cuoMin,cuoMax:st.cuoMax};}
+function textoFiltro(){
+  const p=[`${MK[st.mk].nombre} · ${AMB[st.amb]} · ${st.lado==='mas'?'Más':'Menos'} ${dec(st.linea,1)}`];
+  p.push(st.quien==='todas'?'sin exigir regularidad':`al menos ${st.K} de ${st.N} en ${({ambos:'ambos',local:'el local',visitante:'el visitante',cualquiera:'cualquiera'})[st.quien]} (n mín. ${st.nmin})`);
+  if(st.colMin!=null||st.colMax!=null)p.push(`colchón ${st.colMin!=null?'desde '+dec(st.colMin,1):''} ${st.colMax!=null?'hasta '+dec(st.colMax,1):''}`.trim());
+  if(st.favMin!=null||st.favMax!=null)p.push(`favorito ${st.favMin!=null?'≥ '+dec(st.favMin):''} ${st.favMax!=null?'≤ '+dec(st.favMax):''}`.trim());
+  if(E.tieneCuota(Q())&&(st.cuoMin!=null||st.cuoMax!=null))p.push(`cuota ${st.cuoMin!=null?'≥ '+dec(st.cuoMin):''} ${st.cuoMax!=null?'≤ '+dec(st.cuoMax):''}`.trim());
+  const nl=st.ligas.filter(x=>x).length;p.push(nl===D.ligas.length?'todas las ligas':D.ligas.filter((_,i)=>st.ligas[i]).join(', '));
+  p.push(st.tDesde===E.tMin&&st.tHasta===E.tMax?'todas las temporadas':`${tLabel(st.tDesde)} a ${tLabel(st.tHasta)}`);
+  if(st.equipo>=0)p.push(D.equipos[st.equipo]);
+  return p.join(' · ');
+}
+const regOK=(r,i)=>st.quien==='todas'?true:st.quien==='ambos'?(r.xL[i]>=st.K&&r.xV[i]>=st.K):st.quien==='local'?r.xL[i]>=st.K:st.quien==='visitante'?r.xV[i]>=st.K:(r.xL[i]>=st.K||r.xV[i]>=st.K);
+const colOK=(r,i)=>(st.colMin==null||r.col[i]>=st.colMin)&&(st.colMax==null||r.col[i]<=st.colMax);
+
+function pintarExplorar(){
+  const r=R,w=Motor.wilson(r.sh,r.sn);
+  let k=`<div class="kpi pri"><span>Acierto con el filtro</span><b>${pct(r.sh,r.sn)}</b><span>${num(r.sn)} partidos${r.sn?` · entre ${pct(w[0],1)} y ${pct(w[1],1)} (95 %)`:''}</span></div>`;
+  k+=`<div class="kpi"><span>Acierto de la base</span><b>${pct(r.bh,r.bn)}</b><span>${num(r.bn)} partidos sin exigir regularidad ni colchón</span></div>`;
+  k+=`<div class="kpi"><span>Lo que añade el filtro</span><b>${r.sn&&r.bn?dif(r.sh,r.sn,r.bh,r.bn)+' pts':'—'}</b><span>puntos de acierto sobre la base</span></div>`;
+  k+=`<div class="kpi"><span>Cuota mínima justa</span><b>${r.sh?dec(r.sn/r.sh):'—'}</b><span>por debajo de esta cuota el acierto no alcanza</span></div>`;
+  k+=`<div class="kpi"><span>Qué tan seguido aparece</span><b>${pct(r.sn,r.bn,0)}</b><span>${r.sn?'1 de cada '+dec(r.bn/r.sn,1)+' partidos':'ningún partido'}</span></div>`;
+  if(r.conCuota&&r.pmSn)k+=`<div class="kpi"><span>Lo que decía el mercado</span><b>${pct(r.pmS,r.pmSn)}</b><span>real ${pct(r.pmSh,r.pmSn)} en los ${num(r.pmSn)} con cuota</span></div>`;
+  $('#kpis').innerHTML=k+(r.sn>0&&r.sn<100?`<div class="aviso" style="grid-column:1/-1">Solo ${r.sn} partidos pasan el filtro: el porcentaje es poco fiable.</div>`:'');
+
+  const f=filtro(),ls=lineasDe(st.mk,st.amb).slice();if(!ls.includes(st.linea))ls.push(st.linea);ls.sort((a,b)=>a-b);
+  const esc=ls.map(l=>{const x=l===st.linea?r:E.analizar({...Q(),linea:l},f);return{et:(st.lado==='mas'?'Más ':'Menos ')+dec(l,1),sn:x.sn,sh:x.sh,bn:x.bn,bh:x.bh,act:l===st.linea,l};});
+  $('#esc').innerHTML=tablaGrupos(esc,'Línea',true);
+  $('#esc').querySelectorAll('tr.clic').forEach(tr=>tr.onclick=()=>{st.linea=esc[+tr.dataset.ix].l;pintar();});
+
+  // regularidad: K exacto y acumulado (respeta colchón, ignora la K elegida)
+  const q=st.quien==='todas'?'ambos':st.quien,ex=[],N=st.N;for(let i=0;i<=N;i++)ex.push({n:0,h:0});
+  for(const i of r.base){if(!colOK(r,i))continue;const m=q==='ambos'?Math.min(r.xL[i],r.xV[i]):q==='local'?r.xL[i]:q==='visitante'?r.xV[i]:Math.max(r.xL[i],r.xV[i]);ex[m].n++;ex[m].h+=r.hit[i];}
+  let h=`<table><thead><tr><th>Veces de ${N}</th><th>Exactamente</th><th>n</th><th>Al menos</th><th>n</th><th>Cuota justa</th><th></th></tr></thead><tbody>`,an=0,ah=0;const ac=[];
+  for(let i=N;i>=0;i--){an+=ex[i].n;ah+=ex[i].h;ac[i]={n:an,h:ah};}
+  for(let i=N;i>=0;i--)h+=`<tr class="${ac[i].n<30?'poco ':''}${i===st.K&&st.quien!=='todas'?'act':''}"><td>${i} de ${N}</td><td>${pct(ex[i].h,ex[i].n)}</td><td>${num(ex[i].n)}</td><td><b>${pct(ac[i].h,ac[i].n)}</b></td><td>${num(ac[i].n)}</td><td>${ac[i].h?dec(ac[i].n/ac[i].h):'—'}</td><td>${viz(ac[i].h,ac[i].n,r.bh,r.bn)}</td></tr>`;
+  $('#reg').innerHTML=h+'</tbody></table>';
+  $('#regNota').textContent=`Conteo ${({ambos:'mínimo de los dos equipos',local:'del local',visitante:'del visitante',cualquiera:'máximo de los dos equipos'})[q]}. «Exactamente 7» muestra lo que rinde justo ese nivel; «al menos 7» es la regla.`;
+
+  // mismo colchón
+  const cs=Array.from(r.base,i=>r.col[i]).sort((a,b)=>a-b);
+  if(cs.length>50){
+    const cortes=[...new Set([.1,.3,.5,.7,.9].map(p=>Math.round(cs[Math.floor(p*(cs.length-1))]*10)/10))];
+    const B=[];for(let b=0;b<=cortes.length;b++)B.push({lo:b?cortes[b-1]:-Infinity,hi:b<cortes.length?cortes[b]:Infinity,cn:0,ch:0,nn:0,nh:0});
+    for(const i of r.base){const c=r.col[i];const g=B.find(x=>c>=x.lo&&c<x.hi);if(!g)continue;if(regOK(r,i)){g.cn++;g.ch+=r.hit[i];}else{g.nn++;g.nh+=r.hit[i];}}
+    let t='<table><thead><tr><th>Colchón</th><th>Cumple regularidad</th><th>n</th><th>No cumple</th><th>n</th><th>Dif.</th><th>Todos</th></tr></thead><tbody>';
+    for(const g of B){const et=g.lo===-Infinity?`menos de ${dec(g.hi,1)}`:g.hi===Infinity?`${dec(g.lo,1)} o más`:`${dec(g.lo,1)} a ${dec(g.hi,1)}`;
+      t+=`<tr class="${g.cn<30||g.nn<30?'poco':''}"><td>${et}</td><td><b>${pct(g.ch,g.cn)}</b></td><td>${num(g.cn)}</td><td>${pct(g.nh,g.nn)}</td><td>${num(g.nn)}</td><td>${dif(g.ch,g.cn,g.nh,g.nn)}</td><td>${pct(g.ch+g.nh,g.cn+g.nn)}</td></tr>`;}
+    $('#col').innerHTML=t+'</tbody></table>';
+  }else $('#col').innerHTML='<p class="nota">Muy pocos partidos para repartir por colchón.</p>';
+
+  const gl=E.agrupar(r,i=>E.lg[i]);$('#plig').innerHTML=tablaGrupos([...gl.values()].sort((a,b)=>a.k-b.k).map(g=>({...g,et:D.ligas[g.k]})),'Liga');
+  const gt=E.agrupar(r,i=>E.temp[i]);$('#ptem').innerHTML=tablaGrupos([...gt.values()].sort((a,b)=>b.k-a.k).map(g=>({...g,et:tLabel(g.k)})),'Temporada');
+  const bf=[[0,1.4,'menos de 1,40'],[1.4,1.7,'1,40 a 1,69'],[1.7,2,'1,70 a 1,99'],[2,2.4,'2,00 a 2,39'],[2.4,99,'2,40 o más']];
+  const gf=E.agrupar(r,i=>{const v=E.fav[i]/100;if(!v)return null;return bf.findIndex(b=>v>=b[0]&&v<b[1]);});
+  $('#pfav').innerHTML=tablaGrupos([...gf.values()].sort((a,b)=>a.k-b.k).map(g=>({...g,et:bf[g.k][2]})),'Cuota del favorito');
+  $('#cardCuo').hidden=!r.conCuota;
+  if(r.conCuota){
+    const bc=[[1,1.5,'menos de 1,50'],[1.5,1.7,'1,50 a 1,69'],[1.7,1.9,'1,70 a 1,89'],[1.9,2.1,'1,90 a 2,09'],[2.1,2.5,'2,10 a 2,49'],[2.5,99,'2,50 o más']];
+    const O=st.lado==='mas'?E.O.o25:E.O.u25,U=st.lado==='mas'?E.O.u25:E.O.o25,G=bc.map(()=>({sn:0,sh:0,sp:0,bn:0,bh:0,bp:0}));
+    for(const i of r.base){if(!O[i]||!U[i])continue;const c=O[i]/100,g=G[bc.findIndex(b=>c>=b[0]&&c<b[1])];if(!g)continue;const pm=(1/O[i])/(1/O[i]+1/U[i]);g.bn++;g.bh+=r.hit[i];g.bp+=pm;if(r.sel[i]){g.sn++;g.sh+=r.hit[i];g.sp+=pm;}}
+    let t='<table><thead><tr><th>Cuota</th><th>Filtro: real</th><th>mercado</th><th>n</th><th>Base: real</th><th>mercado</th><th>n</th></tr></thead><tbody>';
+    G.forEach((g,ix)=>{t+=`<tr class="${g.sn<30?'poco':''}"><td>${bc[ix][2]}</td><td><b>${pct(g.sh,g.sn)}</b></td><td>${pct(g.sp,g.sn)}</td><td>${num(g.sn)}</td><td>${pct(g.bh,g.bn)}</td><td>${pct(g.bp,g.bn)}</td><td>${num(g.bn)}</td></tr>`;});
+    $('#pcuo').innerHTML=t+'</tbody></table>';
+  }
+}
+
+function pintarPartidos(){
+  const r=R,v=$('#vista').value,vr=$('#vres').value,ids=[];
+  for(let t=r.base.length-1;t>=0;t--){const i=r.base[t];if(v==='sel'&&!r.sel[i])continue;if(v==='no'&&r.sel[i])continue;if(vr!==''&&r.hit[i]!==+vr)continue;ids.push(i);}
+  const TAM=40,pags=Math.max(1,Math.ceil(ids.length/TAM));st.pag=Math.min(st.pag,pags-1);
+  const cc=r.conCuota,O=st.lado==='mas'?E.O.o25:E.O.u25;
+  let h=`<table><thead><tr><th>Fecha</th><th style="text-align:left">Partido</th><th>Local</th><th>Visit.</th><th>Esperado</th><th>Colchón</th><th>Real</th><th></th>${cc?'<th>Cuota</th>':''}<th>Favorito</th></tr></thead><tbody>`;
+  for(const i of ids.slice(st.pag*TAM,(st.pag+1)*TAM)){
+    h+=`<tr><td>${fechaTxt(i)}</td><td style="text-align:left">${D.equipos[E.h[i]]} – ${D.equipos[E.a[i]]} <small>${D.ligas[E.lg[i]]}</small></td><td>${r.xL[i]} de ${r.prep.nl[i]}</td><td>${r.xV[i]} de ${r.prep.nv[i]}</td><td>${dec(r.prep.exp[i],1)}</td><td>${dec(r.col[i],1)}</td><td>${r.prep.real[i]}</td><td class="${r.hit[i]?'ok':'no'}">${r.hit[i]?'✓':'✗'}</td>${cc?`<td>${O[i]?dec(O[i]/100):'—'}</td>`:''}<td>${E.fav[i]?dec(E.fav[i]/100):'—'}</td></tr>`;}
+  $('#part').innerHTML=ids.length?h+'</tbody></table>':'<p class="nota">Ningún partido con estos filtros.</p>';
+  $('#pinfo').textContent=`${num(ids.length)} partidos · página ${st.pag+1} de ${pags} (más recientes primero)`;
+}
+
+/* ---------- ranking ---------- */
+let RK={clave:'',filas:[],orden:'d',asc:false,token:0};
+function pintarRanking(){
+  const f=filtro(),clave=JSON.stringify([f,st.N]);
+  if(RK.clave!==clave){
+    RK.clave=clave;RK.filas=[];const tk=++RK.token,cola=[];
+    for(const mk in MK)for(const amb of['total','local','visitante'])if(amb==='total'||MK[mk].equipo.length)cola.push([mk,amb]);
+    const paso=()=>{if(tk!==RK.token)return;const c=cola.shift();if(!c){$('#rest').textContent='';dibujarRanking();return;}
+      for(const l of lineasDe(c[0],c[1]))for(const lado of['mas','menos']){const x=E.analizar({mk:c[0],amb:c[1],linea:l,lado,N:st.N},f);RK.filas.push({mk:c[0],amb:c[1],l,lado,sn:x.sn,sh:x.sh,bn:x.bn,bh:x.bh});}
+      $('#rest').textContent=`Calculando… faltan ${cola.length} mercados`;dibujarRanking();setTimeout(paso,0);};
+    paso();
+  }else dibujarRanking();
+}
+function dibujarRanking(){
+  const fm=$('#rmk').value,fl=$('#rlado').value,mn=+$('#rn').value||0,bx=$('#rbase').value===''?null:+$('#rbase').value;
+  const val={p:g=>g.sn?g.sh/g.sn:-1,n:g=>g.sn,b:g=>g.bn?g.bh/g.bn:-1,d:g=>g.sn&&g.bn?g.sh/g.sn-g.bh/g.bn:-9,f:g=>g.bn?g.sn/g.bn:-1}[RK.orden];
+  const fs=RK.filas.filter(g=>g.sn>=mn&&g.sn>0&&(!fm||g.mk===fm)&&(!fl||g.lado===fl)&&(bx==null||(g.bn&&100*g.bh/g.bn<=bx))).sort((a,b)=>RK.asc?val(a)-val(b):val(b)-val(a));
+  const th=(k,t)=>`<th class="ord" data-o="${k}">${t}${RK.orden===k?(RK.asc?' ▲':' ▼'):''}</th>`;
+  let h=`<table><thead><tr><th>Línea</th>${th('p','Con filtro')}${th('n','n')}${th('b','Base')}${th('d','Dif.')}<th>Cuota justa</th>${th('f','Aparece')}<th></th></tr></thead><tbody>`;
+  fs.slice(0,200).forEach((g,ix)=>{h+=`<tr class="clic" data-ix="${ix}"><td>${MK[g.mk].nombre} · ${g.amb==='total'?'total':g.amb} · ${g.lado==='mas'?'Más':'Menos'} ${dec(g.l,1)}</td><td><b>${pct(g.sh,g.sn)}</b></td><td>${num(g.sn)}</td><td>${pct(g.bh,g.bn)}</td><td>${dif(g.sh,g.sn,g.bh,g.bn)}</td><td>${g.sh?dec(g.sn/g.sh):'—'}</td><td>${pct(g.sn,g.bn,0)}</td><td>${viz(g.sh,g.sn,g.bh,g.bn)}</td></tr>`;});
+  $('#rank').innerHTML=fs.length?h+'</tbody></table>'+(fs.length>200?`<p class="nota">Se muestran 200 de ${fs.length}.</p>`:''):'<p class="nota">Ninguna línea llega al n mínimo con estos filtros.</p>';
+  $('#rank').querySelectorAll('th.ord').forEach(t=>t.onclick=()=>{const o=t.dataset.o;if(RK.orden===o)RK.asc=!RK.asc;else{RK.orden=o;RK.asc=false;}dibujarRanking();});
+  $('#rank').querySelectorAll('tr.clic').forEach(tr=>tr.onclick=()=>{const g=fs[+tr.dataset.ix];Object.assign(st,{mk:g.mk,amb:g.amb,linea:g.l,lado:g.lado,tab:'exp'});pintar();window.scrollTo(0,0);});
+}
+
+/* ---------- pintar todo ---------- */
+function pintar(){
+  sincronizar();
+  document.querySelectorAll('#tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===st.tab));
+  for(const t of['hall','exp','rank','part','lim'])$('#t-'+t).hidden=t!==st.tab;
+  $('#filtros').hidden=!['exp','rank','part'].includes(st.tab);
+  if($('#filtros').hidden)return;
+  R=E.analizar(Q(),filtro());
+  $('#resumen').textContent=textoFiltro()+` → ${num(R.sn)} partidos, ${pct(R.sh,R.sn)} de acierto (base ${pct(R.bh,R.bn)})`;
+  if(st.tab==='exp')pintarExplorar();
+  if(st.tab==='part'){st.pag=0;pintarPartidos();}
+  if(st.tab==='rank')pintarRanking();
+}
+pintar();
+</script>
+</body>
+</html>

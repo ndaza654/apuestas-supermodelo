@@ -237,3 +237,8 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - `correr_jornada.py` completo con muestra de 10: 166 líneas de equipo con «cumple», 33 protecciones (cuota < 1,50), 7 sencillas 1,50–1,99, 3 combinadas de 2 patas (p recortada 46–49 %), 1 lotería; 44 sugerencias registradas como «pendiente». Situación: 9 aptos, 2 reserva (RCA–Benín, Somalia–Ghana).
 - Notas de situación ajustadas (importancia «media»→«normal», alta donde la tabla muestra una definición; «necesita ganar» solo donde la tabla lo respalda). `analisis_jornada.py` ahora toma tabla y árbitro de `contexto/` cuando la ficha no los trae.
 - Límites: cuotas del 15-nov 20:13–20:14 sin releer; alineaciones en 3 de 11; árbitros sin tasa fiable; historial de jugadores parcial (Grecia 4/10 → sin recomendación de jugador).
+
+## 16-nov-2026 ~02:04 · backtest de la regla «X de N» en ligas de clubes
+- `pruebas/backtest/` (preparar_datos.py, motor.js, hallazgos.js, plantilla.html, construir.py): 50.408 partidos (5 grandes + Brasil, 2000/01–2026/27), misma lectura que la ficha (regularidad, esperado, colchón), sin mirar el futuro. Solo % de acierto.
+- Medido con 7 de 10 en ambos: córners Más 8.5 70,6 % (base 65,8 %), Más 9.5 63,3 % (54,4 %), goles Más 2.5 59,3 % (50,0 %), remates Más 22.5 76,8 % (63,8 %), tarjetas Más 3.5 75,9 % (61,2 %). A igual colchón, cumplir o no la regularidad cambia 0–4 puntos. Goles 2.5: acierto con filtro 59,8 % = probabilidad de la cuota 59,7 %.
+- Límites: sin líneas ni cuotas de Betano; cuotas solo 1X2 y goles 2.5; Brasil solo goles; sin jugadores ni mitades. La primera versión (01:50, `pruebas/calibracion/backtest_*.py`) se retiró: contaba distinto a la ficha.
