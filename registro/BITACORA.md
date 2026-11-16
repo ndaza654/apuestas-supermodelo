@@ -223,3 +223,7 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 ## 15-nov-2026 ~19:45 · mapa del supermodelo y los tipsters frente a la estrategia
 - El supermodelo SM-1.2 y los sistemas de tipsters siguen en el repo y corren en cada jornada. Medido en 5.875 líneas de equipo: Brier mercado 0,1922, modelo 0,1932, simulación 0,1936 (el modelo no mejora al precio); modelo ≥ 3 pts sobre el precio → 41,6 % de acierto (−25,6 %); dentro del filtro 17 líneas, 35 %. Solo pistas. Informe: `entregas/2026-11-15/1945_donde-esta-el-modelo-y-los-tipsters.md`.
 - Límites: `criterios_por_mercado_12nov.md` e `idea_chats_por_mercado.md` están en el proyecto «Apuestas», no en el repo; no existe `sombra.csv`.
+
+## 15-nov-2026 ~20:10 · cierre de Panamá–Curazao (2-0)
+- Leído de Flashscore: marcador, estadísticas por tiempo, árbitro, goleadores y quién jugó. Agregado a `registro/crudo_partidos/2026-11-15.txt` y `recoleccion/historico_extra.py` (80 partidos en el Histórico). Calificadas 90 líneas de equipo y 36 de goleador (`jornadas/2026-11-15/resultados/resultados_panama_2005.json`, `jugadores_resultado/..._solo_goles.txt`, solo goles y quién jugó); sugerencias pendientes 16 → 8. Sin boleto tuyo en este partido.
+- Estrategia: 211 líneas, 66,8 %, ROI +9,0 % en 44 partidos; sin cambios en las conclusiones.

@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-15 | 20:10 | Cierre de Panamá–Curazao (2-0) y estrategia recalculada | Panamá–Curazao | entregas/2026-11-15/2010_cierre-panama-curazao-y-estrategia.md |
 | 2026-11-15 | 19:45 | Dónde están el supermodelo y los criterios de tipsters, cómo funcionan y para qué sirven con tu estrategia | 4 jornadas | entregas/2026-11-15/1945_donde-esta-el-modelo-y-los-tipsters.md |
 | 2026-11-15 | 18:50 | Análisis de tu estrategia (cuota 1,40–2,20 · ≥ 7 de 10 · colchón > 0): acierto, ROI, qué funciona y qué no | 45 partidos, 4 jornadas | entregas/2026-11-15/1850_analisis-estrategia-usuario.md |
 | 2026-11-15 | 1820 | Histórico reorganizado (4–15 nov) y datos completados | todos | registro/BITACORA.md |

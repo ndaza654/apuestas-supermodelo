@@ -40,7 +40,7 @@ PART = {
     'AJh0DeXa': ('Turquía - Bélgica', EUR), '8AlPZdzK': ('Estudiantes de La Plata - Independiente Rivadavia', 'ARGENTINA: Supercopa'),
     '6isiMKqI': ('Costa de Marfil - Gambia', 'ÁFRICA: Eliminatorias Copa Africana'), 'Q7OGKyqf': ('Senegal - Sudán', 'ÁFRICA: Eliminatorias Copa Africana'),
     'IqxRBrde': ('Italia - Francia', EUR), 'lfBbB5E4': ('Albania - Finlandia', EUR), 'OKNATSve': ('Inglaterra - Croacia', EUR),
-    'vBfNkJec': ('República Checa - España', EUR), 'pYOIBire': ('Montenegro - Letonia', EUR), 'CrivN9NM': ('Curazao - Panamá', CON),
+    'vBfNkJec': ('República Checa - España', EUR), 'pYOIBire': ('Montenegro - Letonia', EUR), 'CrivN9NM': ('Curazao - Panamá', CON), '8ExAHmop': ('Panamá - Curazao', CON),
     'nyvAHotQ': ('FC Barcelona (F) - Arsenal FC (F)', 'EUROPA: UEFA Champions League Femenina'), 'hOu755k5': ('Atlético Morelia - Leones Negros', 'MÉXICO: Liga de Expansión MX'),
     # 13-nov
     't0Cjphwg': ('Internacional de Bogotá - Independiente Santa Fe', COL), 'GzS4tf1n': ('Países Bajos - Grecia', EUR), 'QqdVALGL': ('Nigeria - Tanzania', 'ÁFRICA: Eliminatorias Copa Africana'),
