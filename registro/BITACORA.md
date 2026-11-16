@@ -227,3 +227,8 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 ## 15-nov-2026 ~20:10 · cierre de Panamá–Curazao (2-0)
 - Leído de Flashscore: marcador, estadísticas por tiempo, árbitro, goleadores y quién jugó. Agregado a `registro/crudo_partidos/2026-11-15.txt` y `recoleccion/historico_extra.py` (80 partidos en el Histórico). Calificadas 90 líneas de equipo y 36 de goleador (`jornadas/2026-11-15/resultados/resultados_panama_2005.json`, `jugadores_resultado/..._solo_goles.txt`, solo goles y quién jugó); sugerencias pendientes 16 → 8. Sin boleto tuyo en este partido.
 - Estrategia: 211 líneas, 66,8 %, ROI +9,0 % en 44 partidos; sin cambios en las conclusiones.
+
+## 15-nov-2026 ~21:55 · recolección de la jornada del 16-nov (etapa 1, sin análisis)
+- Hecho: Betano (11 partidos), Flashscore 10+10 y directos, alineaciones probables (3 de 11), tablas y situación (11), árbitros designados (9 de 11) e historial por jugador de los 5 partidos con mercado de estadística (`jornadas/2026-11-16/`; estado en `ESTADO.md`).
+- Cobertura del historial: 50 de 78 partidos pasados con tabla; Grecia, Estonia y Bulgaria con 4/10. 28 partidos sin tabla en Flashscore tras 3 intentos.
+- Límites: sin alineación en Estonia–Bulgaria y Macedonia–Eslovenia; árbitros con muestra mínima; Canadá–Guatemala con árbitro de país «Esp» sin verificar. Etapa 2 no corrida.
