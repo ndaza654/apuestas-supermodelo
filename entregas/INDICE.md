@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-17 | 15:45 | Lives al descanso: tarjetas Menos, córners de Georgia y Gales, goles Dinamarca–Noruega | los 8 de la Liga de Naciones (14:45) | entregas/2026-11-17/1545_lives-descanso-nations-league.md |
 | 2026-11-17 | 14:10 | Líneas y combinadas de las 14:45 con onces oficiales y árbitros | los 7 de la Liga de Naciones | entregas/2026-11-17/1410_lineas-y-combis-14-45.md |
 | 2026-11-17 | 13:55 | Dinamarca–Noruega detallado: onces oficiales, árbitro Meler, muestras y tu Bet Builder | Dinamarca - Noruega | entregas/2026-11-17/1350_dinamarca-noruega-detalle.md |
 | 2026-11-17 | 01:10 | Análisis 17-nov: sencillas, protecciones y combinadas | los 13 del 17-nov | entregas/2026-11-17/0110_analisis.md · .html |
