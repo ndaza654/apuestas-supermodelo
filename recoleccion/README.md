@@ -52,3 +52,14 @@ Open-Meteo (`api.open-meteo.com/v1/forecast?latitude=..&longitude=..&hourly=temp
 `betano` (líneas, jugadores, parejas), `jugadores` (alineación probable/confirmada con fuente y hora), `ficha.forma` (últimos 10 de cada equipo con `stats`:
 `g, xg, c, sh, sot, f, off, ti, gk, y` como [a favor, en contra]), `ficha.h2h` (hasta 6 directos con `stats` orientadas al local/visitante actual; opcional),
 `ficha.jugadores_hist`, `ficha.arbitro`, `ficha.clima`, `ficha.bajas`. Lo que falte se declara en la ficha; no se inventa.
+
+## Pila de recolección «todo el día» (probada el 16/17-nov-2026 con 13 partidos)
+Orden y fuente de cada dato (todo se guarda en `jornadas/AAAA-MM-DD/` apenas se lee; el navegador pierde lo que no se baja):
+1. **Lista de partidos**: API de calendario de Betano (`/api/sports/upcoming/calendar/FOOT/?timeZoneId=America/Bogota&day=<ms 00:00 Bogotá>&sort=Leagues`, todas las ligas, ~167 partidos).
+2. **Betano**: `betano_extraer.js` (se carga con `fetch` de raw.githubusercontent.com + `(0,eval)`) → `raw/bet_<slug>.txt` → `betano.py` → `betano/<slug>.json`. Además el volcado completo de mercados (`betano_full/<slug>.json`, ~600 mercados/partido).
+3. **Flashscore** (`flashscore_extraer.js`, 10 partidos por equipo con estadísticas de equipo + directos + árbitro) → `flashscore/<slug>.json`.
+   `/partido/<mid>/` redirige a la URL completa (sirve para armar iframes). Tabla: iframe a `<url>clasificacion/?mid=<mid>#/clasificacion/tabla/general`. Previa y bajas: pestaña alineaciones (texto «PREVIA DE FLASHSCORE»). Probables: en formato «cancha» (`[class*="fp-formation_"]`), ver `alineaciones_pitch.py`.
+4. **Jugadores**: Opta (optaplayerstats.statsperform.com, solo DOM renderizado) para los partidos de la Nations League → `opta_decod.py`; Flashscore (`flashscore_jugadores_iframe.js`) para el resto. Opta y Flashscore coinciden (318/320 cifras en 40 partidos).
+5. **Árbitros**: ValueStats (`/en/referee/<id-slug>`, servidor renderizado, un `fetch` por árbitro; directorio `/en/referees?name=`). Sin cuenta: tarjetas por partido y totales por competición; faltas por partido requieren cuenta.
+**Cómo sacar datos del navegador sin pasarlos por el chat:** crear un Blob con el JSON y hacer `a.download` → queda un `.tmp` en `~/Downloads` (Electron) → `device_stage_files` → copiar al repo. Pedir acceso a Descargas una vez.
+**Ritmo:** con el panel del navegador oculto, los iframes de Flashscore van lentos (~1 min por partido); repartir la cola en 3 pestañas (módulo 3 por pestaña, cola en `localStorage`).
