@@ -1,0 +1,689 @@
+{
+ "jornada": "2026-11-17",
+ "filtro": {
+  "cuota": [
+   1.4,
+   2.2
+  ],
+  "cumple": ">=7 de 10",
+  "colchon": ">0"
+ },
+ "combinadas": [
+  {
+   "n": 1,
+   "mismo_partido": true,
+   "cuota_producto": 3.31,
+   "p_producto": 0.265,
+   "nota": "BB Dinamarca–Noruega, partido abierto y decisivo (Dinamarca no puede perder, Noruega necesita ganar): esperado 3,95 goles, 10,6 córners y 10,8 tiros al arco. Cuota = producto (techo); Betano recalcula el precio del BB.",
+   "patas": [
+    {
+     "partido": "Dinamarca - Noruega",
+     "texto": "Goles Más 2.5",
+     "mercado": "goles",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "2.5",
+     "cuota": 1.45,
+     "p": 0.6614
+    },
+    {
+     "partido": "Dinamarca - Noruega",
+     "texto": "Córners Más 8.5",
+     "mercado": "corners",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "8.5",
+     "cuota": 1.52,
+     "p": 0.6361
+    },
+    {
+     "partido": "Dinamarca - Noruega",
+     "texto": "Tiros al arco Más 8.5",
+     "mercado": "al_arco",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "8.5",
+     "cuota": 1.5,
+     "p": 0.6299
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "mismo_partido": true,
+   "cuota_producto": 3.63,
+   "p_producto": 0.246,
+   "nota": "BB Gales–Portugal, partido cerrado sin tarjetas: esperado 2,95 goles y 3,4 tarjetas; Gales marca (esperado 1,3) y Portugal llega con muchas bajas. Cuota = producto (techo).",
+   "patas": [
+    {
+     "partido": "Gales - Portugal",
+     "texto": "Tarjetas Menos 4.5",
+     "mercado": "tarjetas",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "4.5",
+     "cuota": 1.42,
+     "p": 0.6815
+    },
+    {
+     "partido": "Gales - Portugal",
+     "texto": "Goles Menos 3.5",
+     "mercado": "goles",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "3.5",
+     "cuota": 1.65,
+     "p": 0.5859
+    },
+    {
+     "partido": "Gales - Portugal",
+     "texto": "Goles Gales Más 0.5",
+     "mercado": "goles",
+     "ambito": "local",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "0.5",
+     "cuota": 1.55,
+     "p": 0.6162
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "mismo_partido": true,
+   "cuota_producto": 3.5,
+   "p_producto": 0.2312,
+   "nota": "BB Irlanda–Kosovo: Kosovo remata más (esperado 14,65) y marca; Irlanda llega poco al arco (esperado 3,6). Cuota = producto (techo).",
+   "patas": [
+    {
+     "partido": "Irlanda - Kosovo",
+     "texto": "Tiros al arco Irlanda Menos 5.5",
+     "mercado": "al_arco",
+     "ambito": "local",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "5.5",
+     "cuota": 1.42,
+     "p": 0.6704
+    },
+    {
+     "partido": "Irlanda - Kosovo",
+     "texto": "Remates Kosovo Más 9.5",
+     "mercado": "remates",
+     "ambito": "visitante",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "9.5",
+     "cuota": 1.57,
+     "p": 0.5892
+    },
+    {
+     "partido": "Irlanda - Kosovo",
+     "texto": "Goles Kosovo Más 0.5",
+     "mercado": "goles",
+     "ambito": "visitante",
+     "jugador": "",
+     "lado": "Más",
+     "linea": "0.5",
+     "cuota": 1.57,
+     "p": 0.5854
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "mismo_partido": false,
+   "cuota_producto": 3.02,
+   "p_producto": 0.2884,
+   "nota": "Tres partidos distintos (cuota exacta = producto): Bosnia e Irlanda con pocos tiros al arco + Israel–Austria con pocos córners (esperado 7,65). Las tres patas ≈ 64–68 % cada una.",
+   "patas": [
+    {
+     "partido": "Bosnia y Herzegovina - Rumanía",
+     "texto": "Tiros al arco Bosnia y Herzegovina Menos 5.5",
+     "mercado": "al_arco",
+     "ambito": "local",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "5.5",
+     "cuota": 1.42,
+     "p": 0.6762
+    },
+    {
+     "partido": "Irlanda - Kosovo",
+     "texto": "Tiros al arco Irlanda Menos 5.5",
+     "mercado": "al_arco",
+     "ambito": "local",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "5.5",
+     "cuota": 1.42,
+     "p": 0.6704
+    },
+    {
+     "partido": "Israel - Austria",
+     "texto": "Córners Menos 9.5",
+     "mercado": "corners",
+     "ambito": "total",
+     "jugador": "",
+     "lado": "Menos",
+     "linea": "9.5",
+     "cuota": 1.5,
+     "p": 0.6361
+    }
+   ]
+  }
+ ],
+ "sencillas": [
+  {
+   "partido": "Malaui - Egipto",
+   "texto": "Goles Egipto Menos 2.5",
+   "mercado": "goles",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.67,
+   "p": 0.5649
+  },
+  {
+   "partido": "Bosnia y Herzegovina - Rumanía",
+   "texto": "Tiros al arco Bosnia y Herzegovina Menos 5.5",
+   "mercado": "al_arco",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "5.5",
+   "cuota": 1.42,
+   "p": 0.6762
+  },
+  {
+   "partido": "Dinamarca - Noruega",
+   "texto": "Goles Más 2.5",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "2.5",
+   "cuota": 1.45,
+   "p": 0.6614
+  },
+  {
+   "partido": "Dinamarca - Noruega",
+   "texto": "Córners Más 8.5",
+   "mercado": "corners",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "8.5",
+   "cuota": 1.52,
+   "p": 0.6361
+  },
+  {
+   "partido": "Dinamarca - Noruega",
+   "texto": "Tiros al arco Más 8.5",
+   "mercado": "al_arco",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "8.5",
+   "cuota": 1.5,
+   "p": 0.6299
+  },
+  {
+   "partido": "Dinamarca - Noruega",
+   "texto": "Remates Noruega Menos 14.5",
+   "mercado": "remates",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "14.5",
+   "cuota": 1.62,
+   "p": 0.5925
+  },
+  {
+   "partido": "Dinamarca - Noruega",
+   "texto": "Fueras de juego Dinamarca Menos 2.5",
+   "mercado": "fueras",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.6,
+   "p": 0.5906
+  },
+  {
+   "partido": "Dinamarca - Noruega",
+   "texto": "Goles Dinamarca Más 1.5",
+   "mercado": "goles",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "1.5",
+   "cuota": 1.72,
+   "p": 0.5445
+  },
+  {
+   "partido": "Dinamarca - Noruega",
+   "texto": "Faltas Dinamarca Menos 11.5",
+   "mercado": "faltas",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "11.5",
+   "cuota": 1.72,
+   "p": 0.5356
+  },
+  {
+   "partido": "Dinamarca - Noruega",
+   "texto": "Remates Noruega Menos 13.5",
+   "mercado": "remates",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "13.5",
+   "cuota": 1.93,
+   "p": 0.497
+  },
+  {
+   "partido": "Dinamarca - Noruega",
+   "texto": "Mikkel Damsgaard · anota_o_asiste Sí 1",
+   "mercado": "jugador:anota_o_asiste",
+   "ambito": "local",
+   "jugador": "Mikkel Damsgaard",
+   "lado": "Sí",
+   "linea": "1",
+   "cuota": 1.91,
+   "p": 0.4574
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Tarjetas Menos 4.5",
+   "mercado": "tarjetas",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "4.5",
+   "cuota": 1.42,
+   "p": 0.6815
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Córners Más 7.5",
+   "mercado": "corners",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "7.5",
+   "cuota": 1.42,
+   "p": 0.667
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Goles Menos 3.75",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "3.75",
+   "cuota": 1.52,
+   "p": 0.6448
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Córners Portugal Menos 6.5",
+   "mercado": "corners",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "6.5",
+   "cuota": 1.53,
+   "p": 0.6191
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Goles Gales Más 0.5",
+   "mercado": "goles",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "0.5",
+   "cuota": 1.55,
+   "p": 0.6162
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Tiros al arco Gales Más 2.5",
+   "mercado": "al_arco",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "2.5",
+   "cuota": 1.6,
+   "p": 0.5882
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Goles Portugal Menos 2.5",
+   "mercado": "goles",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.62,
+   "p": 0.5868
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Goles Menos 3.5",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "3.5",
+   "cuota": 1.65,
+   "p": 0.5859
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Remates Portugal Menos 17.5",
+   "mercado": "remates",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "17.5",
+   "cuota": 1.62,
+   "p": 0.5791
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Córners Gales Más 2.5",
+   "mercado": "corners",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "2.5",
+   "cuota": 1.62,
+   "p": 0.576
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Córners Más 8.5",
+   "mercado": "corners",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "8.5",
+   "cuota": 1.75,
+   "p": 0.5371
+  },
+  {
+   "partido": "Gales - Portugal",
+   "texto": "Saques de banda Gales Más 13.5",
+   "mercado": "saques_banda",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "13.5",
+   "cuota": 1.93,
+   "p": 0.4757
+  },
+  {
+   "partido": "Hungría - Irlanda del Norte",
+   "texto": "Tarjetas Hungría Menos 2.5",
+   "mercado": "tarjetas",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.67,
+   "p": 0.5419
+  },
+  {
+   "partido": "Hungría - Irlanda del Norte",
+   "texto": "Trai Hume · remates 1 o más",
+   "mercado": "jugador:remates",
+   "ambito": "visitante",
+   "jugador": "Trai Hume",
+   "lado": "Más",
+   "linea": "1",
+   "cuota": 1.67,
+   "p": 0.5326
+  },
+  {
+   "partido": "Hungría - Irlanda del Norte",
+   "texto": "Isaac Price · tiros al arco 1 o más",
+   "mercado": "jugador:al_arco",
+   "ambito": "visitante",
+   "jugador": "Isaac Price",
+   "lado": "Más",
+   "linea": "1",
+   "cuota": 1.67,
+   "p": 0.5304
+  },
+  {
+   "partido": "Hungría - Irlanda del Norte",
+   "texto": "Fueras de juego Hungría Menos 1.5",
+   "mercado": "fueras",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "1.5",
+   "cuota": 1.83,
+   "p": 0.5079
+  },
+  {
+   "partido": "Irlanda - Kosovo",
+   "texto": "Tiros al arco Menos 9.5",
+   "mercado": "al_arco",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "9.5",
+   "cuota": 1.42,
+   "p": 0.6745
+  },
+  {
+   "partido": "Irlanda - Kosovo",
+   "texto": "Tiros al arco Irlanda Menos 5.5",
+   "mercado": "al_arco",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "5.5",
+   "cuota": 1.42,
+   "p": 0.6704
+  },
+  {
+   "partido": "Irlanda - Kosovo",
+   "texto": "Remates Kosovo Más 9.5",
+   "mercado": "remates",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "9.5",
+   "cuota": 1.57,
+   "p": 0.5892
+  },
+  {
+   "partido": "Irlanda - Kosovo",
+   "texto": "Goles Kosovo Más 0.5",
+   "mercado": "goles",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "0.5",
+   "cuota": 1.57,
+   "p": 0.5854
+  },
+  {
+   "partido": "Irlanda - Kosovo",
+   "texto": "Tiros al arco Irlanda Menos 4.5",
+   "mercado": "al_arco",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "4.5",
+   "cuota": 1.85,
+   "p": 0.5012
+  },
+  {
+   "partido": "Israel - Austria",
+   "texto": "Córners Menos 9.5",
+   "mercado": "corners",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "9.5",
+   "cuota": 1.5,
+   "p": 0.6361
+  },
+  {
+   "partido": "Israel - Austria",
+   "texto": "Córners Menos 8.5",
+   "mercado": "corners",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "8.5",
+   "cuota": 1.87,
+   "p": 0.5055
+  },
+  {
+   "partido": "Polonia - Suecia",
+   "texto": "Viktor Gyokeres · anota_o_asiste Sí 1",
+   "mercado": "jugador:anota_o_asiste",
+   "ambito": "visitante",
+   "jugador": "Viktor Gyokeres",
+   "lado": "Sí",
+   "linea": "1",
+   "cuota": 1.85,
+   "p": 0.4768
+  },
+  {
+   "partido": "Ucrania - Georgia",
+   "texto": "Córners Georgia Más 3.5",
+   "mercado": "corners",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "3.5",
+   "cuota": 1.57,
+   "p": 0.6009
+  },
+  {
+   "partido": "Ucrania - Georgia",
+   "texto": "Tarjetas Georgia Menos 2.5",
+   "mercado": "tarjetas",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.72,
+   "p": 0.5485
+  },
+  {
+   "partido": "Ucrania - Georgia",
+   "texto": "Tarjetas Menos 4.5",
+   "mercado": "tarjetas",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "4.5",
+   "cuota": 2.02,
+   "p": 0.467
+  },
+  {
+   "partido": "Atletico Nacional - Once Caldas",
+   "texto": "Goles Once Caldas Más 0.5",
+   "mercado": "goles",
+   "ambito": "visitante",
+   "jugador": "",
+   "lado": "Más",
+   "linea": "0.5",
+   "cuota": 1.62,
+   "p": 0.5823
+  },
+  {
+   "partido": "América de Cali - Internacional de Bogota",
+   "texto": "Goles América de Cali Menos 2.5",
+   "mercado": "goles",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 1.44,
+   "p": 0.6551
+  },
+  {
+   "partido": "México - Jamaica",
+   "texto": "Goles Menos 4.25",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "4.25",
+   "cuota": 1.44,
+   "p": 0.6551
+  },
+  {
+   "partido": "México - Jamaica",
+   "texto": "Goles México Menos 3.5",
+   "mercado": "goles",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "3.5",
+   "cuota": 1.47,
+   "p": 0.6418
+  },
+  {
+   "partido": "México - Jamaica",
+   "texto": "Goles Menos 4.0",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "4.0",
+   "cuota": 1.53,
+   "p": 0.6166
+  },
+  {
+   "partido": "México - Jamaica",
+   "texto": "Goles Menos 3.75",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "3.75",
+   "cuota": 1.7,
+   "p": 0.5549
+  },
+  {
+   "partido": "México - Jamaica",
+   "texto": "Goles Menos 3.5",
+   "mercado": "goles",
+   "ambito": "total",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "3.5",
+   "cuota": 1.85,
+   "p": 0.5099
+  },
+  {
+   "partido": "México - Jamaica",
+   "texto": "Goles México Menos 2.5",
+   "mercado": "goles",
+   "ambito": "local",
+   "jugador": "",
+   "lado": "Menos",
+   "linea": "2.5",
+   "cuota": 2.15,
+   "p": 0.4388
+  }
+ ]
+}

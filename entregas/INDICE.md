@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-17 | 01:10 | Análisis 17-nov: sencillas, protecciones y combinadas | los 13 del 17-nov | entregas/2026-11-17/0110_analisis.md · .html |
 | 2026-11-16 | 17:35 | Balance del 16-nov (tus boletos y mis combis) | todos los del 16-nov | entregas/2026-11-16/1735_balance-16nov.md · .html |
 | 2026-11-16 | 14:32 | BB reevaluadas con contexto | Alemania–P. Bajos, Grecia–Serbia | entregas/2026-11-16/1432_combis-bb-reevaluadas.md |
 | 2026-11-16 | 13:42 | Combis 14:45 (BB) + combinadas entre partidos | Alemania–P. Bajos, Grecia–Serbia, resto | entregas/2026-11-16/1342_combis-14-45-bb.md |
