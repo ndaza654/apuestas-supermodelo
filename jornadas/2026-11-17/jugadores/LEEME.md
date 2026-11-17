@@ -5,24 +5,24 @@ Leído desde el navegador el 17-nov-2026 (noche del 16 en Bogotá). Cobertura re
 
 | Partido | Lado | Partidos con jugadores (de 10) | Jugadores | Sin datos en Flashscore |
 |---|---|---|---|---|
-| bosnia-y-herzegovina-rumania | L | 8 | 27 | 2 |
+| bosnia-y-herzegovina-rumania | L | 9 | 28 | 1 |
 | bosnia-y-herzegovina-rumania | V | 10 | 44 | 0 |
-| dinamarca-noruega | L | 7 | 35 | 3 |
-| dinamarca-noruega | V | 9 | 31 | 1 |
-| gales-portugal | L | 9 | 29 | 1 |
+| dinamarca-noruega | L | 10 | 42 | 0 |
+| dinamarca-noruega | V | 10 | 31 | 0 |
+| gales-portugal | L | 10 | 29 | 0 |
 | gales-portugal | V | 10 | 43 | 0 |
-| hungria-irlanda-del-norte | L | 8 | 32 | 2 |
-| hungria-irlanda-del-norte | V | 9 | 30 | 1 |
-| irlanda-kosovo | L | 8 | 37 | 2 |
+| hungria-irlanda-del-norte | L | 10 | 32 | 0 |
+| hungria-irlanda-del-norte | V | 10 | 30 | 0 |
+| irlanda-kosovo | L | 9 | 37 | 1 |
 | irlanda-kosovo | V | 10 | 32 | 0 |
 | israel-austria | L | 10 | 34 | 0 |
 | israel-austria | V | 10 | 35 | 0 |
 | polonia-suecia | L | 10 | 39 | 0 |
-| polonia-suecia | V | 9 | 37 | 1 |
+| polonia-suecia | V | 10 | 38 | 0 |
 | ucrania-georgia | L | 10 | 46 | 0 |
 | ucrania-georgia | V | 10 | 33 | 0 |
 
-Partidos de Flashscore sin tabla de jugadores: 15 (ver `flashscore/jugadores_pj_crudo.json`, campo errores).
+Partidos de Flashscore sin tabla de jugadores: 3 (ver `flashscore/jugadores_pj_crudo.json`, campo errores).
 
 ## Límites
 - Flashscore no trae «faltas recibidas» (Opta sí: campo `opta`).

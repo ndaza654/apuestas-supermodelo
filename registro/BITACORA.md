@@ -255,3 +255,7 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 - Líneas de equipo (1.194 calificadas): con «cumple» 125/161 (78 %), sin cumplir 477/1.033 (46 %); estrategia de sencillas 20/31 (65 %), ROI +9,6 %. Un solo día.
 - Límites: Canadá–Guatemala y jugadores sin calificar; boletos leídos de capturas, patas sin marca inferidas del BB.
 - Archivos: `jornadas/2026-11-16/balance/`, `jornadas/2026-11-16/resultados/resultados_1730.json`, libro (hojas «Boletos 16-nov» y «Líneas 16-nov»).
+
+
+## 17-nov-2026 (recolección, sin análisis)
+Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations League, México–Jamaica, Copa Colombia ×2, Copa Africana ×2). Betano completo, Flashscore (forma, tabla, previa, bajas, probables), Opta (jugadores NL), historial Flashscore (76/78 partidos de clasificatorio), árbitros ValueStats. Opta y Flashscore coinciden en 318/320 cifras de equipo. Detalle y límites en `jornadas/2026-11-17/ESTADO.md`. Sin sugerencias ni líneas registradas.
