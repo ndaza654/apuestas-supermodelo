@@ -20,6 +20,9 @@ const DEF={jor:(JORS.filter(j=>P.some(p=>p.jor===j&&p.est==='pend')).pop())||JOR
  sede:'todos',cup:[],saved:[],bets:[],target:3,stake:7400,presets:{},tab:{},f:{ac0:1.4,ac1:2.2,lc0:1,lc1:50,jc0:1.3,jc1:3}};
 let ST=JSON.parse(JSON.stringify(DEF));
 try{const s=JSON.parse(localStorage.getItem('mando2')||'null');if(s){ST=Object.assign(ST,s);ST.strat=Object.assign({},DEF.strat,s.strat||{});ST.f=Object.assign({},DEF.f,s.f||{});if(!JORS.includes(ST.jor))ST.jor=DEF.jor}}catch(e){}
+/* ST.strat = «tu estrategia» (la que leen Inicio, Partidos, Cupón, Líneas, Jugadores, Histórico…). ST.est = filtro de trabajo de la pestaña Mi estrategia: se mueve ahí y NO cambia las demás pestañas. */
+const ensureEst=()=>{ST.est=Object.assign({},DEF.strat,ST.est||ST.strat)};ensureEst();
+const sActiva=()=>location.hash.indexOf('#/estrategia')===0?ST.est:ST.strat;
 const save=()=>{try{localStorage.setItem('mando2',JSON.stringify(ST))}catch(e){}};
 /* ===== formato ===== */
 const f2=v=>v==null?'–':v.toFixed(2).replace('.',','),f1=v=>v==null?'–':(Math.round(v*10)/10).toString().replace('.',',');

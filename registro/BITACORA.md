@@ -259,3 +259,9 @@ Hoja de cálculo para filtrar y auditar: «Panorama» (fórmulas), «Líneas» (
 
 ## 17-nov-2026 (recolección, sin análisis)
 Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations League, México–Jamaica, Copa Colombia ×2, Copa Africana ×2). Betano completo, Flashscore (forma, tabla, previa, bajas, probables), Opta (jugadores NL), historial Flashscore (76/78 partidos de clasificatorio), árbitros ValueStats. Opta y Flashscore coinciden en 318/320 cifras de equipo. Detalle y límites en `jornadas/2026-11-17/ESTADO.md`. Sin sugerencias ni líneas registradas.
+
+### 17-nov-2026 15:00 · Dashboard: filtro propio en «Mi estrategia», orden y estado vacío
+- «Mi estrategia» ahora tiene su propio filtro (`ST.est`); lo que se mueva ahí no cambia las otras pestañas (que siguen con `ST.strat`). Botones: «Usar este filtro en todas las pestañas» / «Volver al de las demás pestañas». Presets y «Guardar filtro» actúan sobre el filtro de la pestaña.
+- Lista de Estrategia con «Ordenar por» (sentido, probabilidad, cuota, colchón, colchón relativo, regularidad, valor de la línea, mercado, hora) y vista de tabla con columnas ordenables.
+- «Todas las líneas»: el estado vacío nombra los filtros activos (p. ej. Resultado «Se dio» en un día sin resultados) con botón «Quitar estos filtros».
+- Pendiente anotado: textos fijos «-nov» en pag_historico.js quedarán viejos al cambiar de mes.

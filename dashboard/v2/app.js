@@ -20,11 +20,14 @@ const now=()=>{const d=new Date();return d.toLocaleDateString('es-CO',{day:'nume
 const ACT={home(){go('inicio')},close(){closeDr()},line(el){openLine(el.dataset.key)},menu(el,e){e.preventDefault();$('#nav').classList.toggle('open')},
  cup(el){const k=el.dataset.key,i=ST.cup.indexOf(k);if(i>=0){ST.cup.splice(i,1);toast('Quitada del cupón')}else{ST.cup.push(k);toast('Añadida al cupón')}upd()},
  pv(el){ST.pv=ST.pv||{};const k=el.dataset.k;ST.pv[k]=k==='l'?+el.dataset.v:el.dataset.v;if(k!=='l')delete ST.pv.l;upd()},
- preset(el){const pr=Object.assign({},PRE,ST.presets||{})[el.dataset.n];if(pr){Object.assign(ST.strat,{mks:[],lado:'',tipo:'todo'},pr);toast('Filtro: '+el.dataset.n);upd()}},
- savepre(){const n=(getp('f.pname','')||'').trim();if(!n){toast('Escribe un nombre para el filtro');return}ST.presets=ST.presets||{};ST.presets[n]=JSON.parse(JSON.stringify(ST.strat));setp('f.pname','');toast('Filtro guardado');upd()},
- auto(){const rows=stratRows(ST.jor).filter(x=>P[x.p].est!=='final'),pool=rows.length?rows:stratRows(ST.jor),seen=new Set(),keys=[];let c=1;
+ preset(el){const pr=Object.assign({},PRE,ST.presets||{})[el.dataset.n];if(pr){Object.assign(ST.est,{mks:[],lado:'',tipo:'todo'},pr);toast('Filtro: '+el.dataset.n);upd()}},
+ savepre(){const n=(getp('f.pname','')||'').trim();if(!n){toast('Escribe un nombre para el filtro');return}ST.presets=ST.presets||{};ST.presets[n]=JSON.parse(JSON.stringify(ST.est));setp('f.pname','');toast('Filtro guardado');upd()},
+ auto(){const S0=route().pg==='estrategia'?ST.est:ST.strat,rows=stratRows(ST.jor,S0).filter(x=>P[x.p].est!=='final'),pool=rows.length?rows:stratRows(ST.jor,S0),seen=new Set(),keys=[];let c=1;
   for(const x of pool){if(seen.has(x.p))continue;seen.add(x.p);keys.push(x.key);c*=x.c;if(c>=(ST.target||3))break}
   if(!keys.length){toast('Ninguna línea pasa tu filtro en esta jornada');return}ST.cup=keys;save();toast(c>=(ST.target||3)?'Combinada armada: cuota '+f2(c):'No alcanzó la cuota; quedó en '+f2(c));if(route().pg==='cupon')render();else go('cupon')},
+ usarest(){ST.strat=JSON.parse(JSON.stringify(ST.est));toast('Las demás pestañas ahora usan este filtro');upd()},
+ volverest(){ST.est=JSON.parse(JSON.stringify(ST.strat));toast('Filtro vuelto al de las demás pestañas');upd()},
+ clearf(el){const d={'f.lr':'','f.le':'','f.lk0':'','f.lk1':'','f.ls':'','f.lm':'','f.la':'','f.lp':''};String(el.dataset.keys||'').split(',').forEach(k=>{if(k in d)setp(k,d[k])});upd()},
  loadcup(el){const ks=JSON.parse(el.dataset.keys).filter(k=>BYKEY.has(k));ST.cup=ks;save();toast(ks.length+' patas cargadas');if(route().pg==='cupon')render();else go('cupon')},
  clearcup(){ST.cup=[];toast('Cupón vacío');upd()},
  copy(){const t=cupText(cupInfo(ST.cup));(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast('Copiado'),()=>{download('cupon.txt',t);toast('Descargado como texto')})},
@@ -55,7 +58,7 @@ function boot(){shell();tipInit();
   const st=e.target.closest('[data-set]');if(st){setp(st.dataset.set,parseV(st.dataset.val));if(st.dataset.set==='jor'||st.dataset.set==='tab.partido'){save();render(st.dataset.set!=='jor'||true)}else upd();return}
   const tg=e.target.closest('[data-tog]');if(tg){const arr=(getp(tg.dataset.tog,[])||[]).slice(),v=tg.dataset.val,i=arr.indexOf(v);if(i>=0)arr.splice(i,1);else arr.push(v);setp(tg.dataset.tog,arr);upd();return}
   if(!e.target.closest('#sres')&&e.target.id!=='q')$('#sres').style.display='none';if(e.target.closest('#nav a'))$('#nav').classList.remove('open')});
- const onBind=e=>{const el=e.target;if(el.id==='q'){if(e.type==='input')search(el.value);return}if(el.dataset.actChange==='import'&&e.type==='change'){const f=el.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>{try{const s=JSON.parse(rd.result);if(!s||typeof s!=='object'||!s.strat)throw 0;ST=Object.assign(JSON.parse(JSON.stringify(DEF)),s);if(!JORS.includes(ST.jor))ST.jor=DEF.jor;save();toast('Copia cargada');render()}catch(x){toast('Ese archivo no es una copia de Mando')}};rd.readAsText(f);return}
+ const onBind=e=>{const el=e.target;if(el.id==='q'){if(e.type==='input')search(el.value);return}if(el.dataset.actChange==='import'&&e.type==='change'){const f=el.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>{try{const s=JSON.parse(rd.result);if(!s||typeof s!=='object'||!s.strat)throw 0;ST=Object.assign(JSON.parse(JSON.stringify(DEF)),s);if(!JORS.includes(ST.jor))ST.jor=DEF.jor;ensureEst();save();toast('Copia cargada');render()}catch(x){toast('Ese archivo no es una copia de Mando')}};rd.readAsText(f);return}
   if(!el.dataset||!el.dataset.bind)return;const isNum='num'in el.dataset;if(isNum&&e.type==='input')return;let v=el.value;if(isNum){if(v===''||isNaN(+v))return;v=+v}setp(el.dataset.bind,v);
   if(e.type==='input'){clearTimeout(_deb);_deb=setTimeout(upd,220)}else upd()};
  document.addEventListener('input',onBind);document.addEventListener('change',onBind);
