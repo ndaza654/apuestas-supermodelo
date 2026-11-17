@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-17 | 16:25 | Lives: estado de las líneas enviadas al min 75 | los 8 de la Liga de Naciones (14:45) | entregas/2026-11-17/1625_lives-estado-min75.md |
 | 2026-11-17 | 16:10 | Lives 2º tiempo: tarjetas Menos, córners Georgia, goles Din–Nor | los 8 de la Liga de Naciones (14:45) | entregas/2026-11-17/1610_lives-segundo-tiempo-nations-league.md |
 | 2026-11-17 | 15:45 | Lives al descanso: tarjetas Menos, córners de Georgia y Gales, goles Dinamarca–Noruega | los 8 de la Liga de Naciones (14:45) | entregas/2026-11-17/1545_lives-descanso-nations-league.md |
 | 2026-11-17 | 14:10 | Líneas y combinadas de las 14:45 con onces oficiales y árbitros | los 7 de la Liga de Naciones | entregas/2026-11-17/1410_lineas-y-combis-14-45.md |
