@@ -30,6 +30,11 @@ def fecha_iso(txt):
     return '%s-%02d-%02d' % (m.group(3), MESES[m.group(2)], int(m.group(1))) if m else ''
 
 
+# clave de la carpeta = slug de Betano (cuando difiere del nombre de Opta)
+ALIAS_CLAVE = {'bosnia-rumania': 'bosnia-y-herzegovina-rumania', 'hungria-irlanda-norte': 'hungria-irlanda-del-norte',
+               'rep-irlanda-kosovo': 'irlanda-kosovo'}
+
+
 def nombre_fs(n):
     """«A. Isak» → «Isak A.» (formato Flashscore/Betano del repo)."""
     n = re.sub(r'^(Starter|Suplente)\s+', '', n.strip())
@@ -88,6 +93,7 @@ def main(carpeta):
     cobertura = []
     for u in UP:
         clave = slug(u['h']) + '-' + slug(u['a'])
+        clave = ALIAS_CLAVE.get(clave, clave)
         pv = D.get('D|%s|prev' % u['id'], {})
         meta = pv.get('meta', '')
         arb = re.search(r'Árbitro(.+)$', meta)

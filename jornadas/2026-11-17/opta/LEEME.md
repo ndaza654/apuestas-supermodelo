@@ -8,16 +8,16 @@ Fuente: optaplayerstats.statsperform.com (Betting Showcase), leído del DOM rend
 | dinamarca-noruega | Noruega | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
 | gales-portugal | Gales | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
 | gales-portugal | Portugal | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
-| bosnia-rumania | Bosnia | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
-| bosnia-rumania | Rumanía | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
-| hungria-irlanda-norte | Hungría | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
-| hungria-irlanda-norte | Irlanda Norte | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
+| bosnia-y-herzegovina-rumania | Bosnia | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
+| bosnia-y-herzegovina-rumania | Rumanía | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
+| hungria-irlanda-del-norte | Hungría | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
+| hungria-irlanda-del-norte | Irlanda Norte | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
 | israel-austria | Israel | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
 | israel-austria | Austria | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
 | polonia-suecia | Polonia | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
 | polonia-suecia | Suecia | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
-| rep-irlanda-kosovo | Rep. Irlanda | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
-| rep-irlanda-kosovo | Kosovo | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
+| irlanda-kosovo | Rep. Irlanda | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
+| irlanda-kosovo | Kosovo | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
 | ucrania-georgia | Ucrania | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
 | ucrania-georgia | Georgia | 5 | faltan 5 (clasificatorios/amistosos: otra fuente) |
 
