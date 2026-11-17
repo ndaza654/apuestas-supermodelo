@@ -1,5 +1,5 @@
 # Ficha — Polonia - Suecia
-UEFA Liga de Naciones · 2026-11-17 14:45 · cuotas leídas: Cuotas de Betano leídas 2026-11-17T06:00:27.202Z · 246 mercados
+UEFA Liga de Naciones · 2026-11-17 14:45 · cuotas leídas: Cuotas de Betano leídas 2026-11-17T18:58:43.370Z · 241 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -8,10 +8,9 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 
 | Mercado | Ámbito | Línea | Cuota | Colchón | Local | Visitante |
 |---|---|---|---|---|---|---|
-| Córners | total | Más 6.5 | 1.24 | +2.0 | 8 de 10 | 7 de 10 |
+| Córners | total | Menos 11.5 | 1.22 | +3.0 | 8 de 10 | 10 de 10 |
 | Goles | local | Menos 2.5 | 1.27 | +0.8 | 8 de 10 | 8 de 10 |
-| Goles | total | Más 1.5 | 1.2 | +1.9 | 8 de 10 | 9 de 10 |
-| Goles | visitante | Más 0.5 | 1.26 | +1.1 | 7 de 10 | 9 de 10 |
+| Goles | visitante | Más 0.5 | 1.24 | +1.1 | 7 de 10 | 9 de 10 |
 
 ## Córners
 
@@ -22,31 +21,31 @@ Muestra: local 10, visitante 10, directos 3. Esperado: local 5.35, visitante 3.1
 
 | Línea | Más | Menos |
 |---|---|---|
-| 6.5 | @1.24 · col +2.0 · L 8 de 10 · V 7 de 10 · D 3 de 3 ✓ | @3.75 · col -2.0 · L 2 de 10 · V 3 de 10 · D 0 de 3 |
-| 7.5 | @1.45 · col +1.0 · L 8 de 10 · V 6 de 10 · D 3 de 3 | @2.62 · col -1.0 · L 2 de 10 · V 4 de 10 · D 0 de 3 |
-| 8.5 | @1.82 · col +0.0 · L 5 de 10 · V 5 de 10 · D 2 de 3 | @1.93 · col +0.0 · L 5 de 10 · V 5 de 10 · D 1 de 3 |
-| 9.5 | @2.37 · col -1.0 · L 5 de 10 · V 4 de 10 · D 2 de 3 | @1.55 · col +1.0 · L 5 de 10 · V 6 de 10 · D 1 de 3 |
-| 10.5 | @3.2 · col -2.0 · L 4 de 10 · V 1 de 10 · D 2 de 3 | @1.32 · col +2.0 · L 6 de 10 · V 9 de 10 · D 1 de 3 |
+| 7.5 | @1.38 · col +1.0 · L 8 de 10 · V 6 de 10 · D 3 de 3 | @2.9 · col -1.0 · L 2 de 10 · V 4 de 10 · D 0 de 3 |
+| 8.5 | @1.67 · col +0.0 · L 5 de 10 · V 5 de 10 · D 2 de 3 | @2.1 · col +0.0 · L 5 de 10 · V 5 de 10 · D 1 de 3 |
+| 9.5 | @2.15 · col -1.0 · L 5 de 10 · V 4 de 10 · D 2 de 3 | @1.65 · col +1.0 · L 5 de 10 · V 6 de 10 · D 1 de 3 |
+| 10.5 | @2.87 · col -2.0 · L 4 de 10 · V 1 de 10 · D 2 de 3 | @1.38 · col +2.0 · L 6 de 10 · V 9 de 10 · D 1 de 3 |
+| 11.5 | @3.95 · col -3.0 · L 2 de 10 · V 0 de 10 · D 1 de 3 | @1.22 · col +3.0 · L 8 de 10 · V 10 de 10 · D 2 de 3 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.16 · col +2.9 · L 9 de 10 · V 6 de 10 · D 3 de 3 | — |
-| 3.5 | @1.42 · col +1.9 · L 8 de 10 · V 6 de 10 · D 3 de 3 | — |
-| 4.5 | @1.88 · col +0.8 · L 7 de 10 · V 4 de 10 · D 2 de 3 | — |
-| 5.5 | @2.75 · col -0.1 · L 7 de 10 · V 3 de 10 · D 2 de 3 | — |
-| 6.5 | @4.15 · col -1.1 · L 6 de 10 · V 3 de 10 · D 2 de 3 | — |
+| 3.5 | @1.31 · col +1.9 · L 8 de 10 · V 6 de 10 · D 3 de 3 | — |
+| 4.5 | @1.67 · col +0.8 · L 7 de 10 · V 4 de 10 · D 2 de 3 | — |
+| 5.5 | @2.37 · col -0.1 · L 7 de 10 · V 3 de 10 · D 2 de 3 | — |
+| 6.5 | @3.5 · col -1.1 · L 6 de 10 · V 3 de 10 · D 2 de 3 | — |
+| 7.5 | @5.3 · col -2.1 · L 4 de 10 · V 2 de 10 · D 2 de 3 | — |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.24 · col +0.7 · L 6 de 10 · V 7 de 10 · D 2 de 3 | — |
-| 3.5 | @1.6 · col -0.3 · L 4 de 10 · V 5 de 10 · D 2 de 3 | — |
-| 4.5 | @2.27 · col -1.4 · L 0 de 10 · V 2 de 10 · D 1 de 3 | — |
-| 5.5 | @3.5 · col -2.4 · L 0 de 10 · V 1 de 10 · D 1 de 3 | — |
-| 6.5 | @5.5 · col -3.4 · L 0 de 10 · V 1 de 10 · D 1 de 3 | — |
+| 2.5 | @1.25 · col +0.7 · L 6 de 10 · V 7 de 10 · D 2 de 3 | — |
+| 3.5 | @1.62 · col -0.3 · L 4 de 10 · V 5 de 10 · D 2 de 3 | — |
+| 4.5 | @2.32 · col -1.4 · L 0 de 10 · V 2 de 10 · D 1 de 3 | — |
+| 5.5 | @3.55 · col -2.4 · L 0 de 10 · V 1 de 10 · D 1 de 3 | — |
+| 6.5 | @5.7 · col -3.4 · L 0 de 10 · V 1 de 10 · D 1 de 3 | — |
 
 ## Estadísticas del partido
 
@@ -79,35 +78,35 @@ Muestra: local 10, visitante 10, directos 3. Esperado: local 1.75, visitante 1.6
 | Línea | Más | Menos |
 |---|---|---|
 | 0.5 | @1.04 · col +2.9 · L 9 de 10 · V 10 de 10 · D 3 de 3 ✓ | @11.5 · col -2.9 · L 1 de 10 · V 0 de 10 · D 0 de 3 |
-| 1.5 | @1.2 · col +1.9 · L 8 de 10 · V 9 de 10 · D 3 de 3 ✓ | @4.65 · col -1.9 · L 2 de 10 · V 1 de 10 · D 0 de 3 |
-| 2.25 | @1.44 · col +1.1 · L 6 de 10 · V 7 de 10 · D 2 de 3 | @2.87 · col -1.1 · L 2 de 10 · V 1 de 10 · D 0 de 3 |
-| 2.5 | @1.6 · col +0.9 · L 6 de 10 · V 7 de 10 · D 2 de 3 | @2.35 · col -0.9 · L 4 de 10 · V 3 de 10 · D 1 de 3 |
-| 2.75 | @1.75 · col +0.7 · L 4 de 10 · V 5 de 10 · D 2 de 3 | @2.15 · col -0.7 · L 4 de 10 · V 3 de 10 · D 1 de 3 |
-| 3.0 | @1.95 · col +0.4 · L 4 de 10 · V 5 de 10 · D 2 de 3 | @1.88 · col -0.4 · L 4 de 10 · V 3 de 10 · D 1 de 3 |
-| 3.25 | @2.22 · col +0.1 · L 4 de 10 · V 5 de 10 · D 2 de 3 | @1.7 · col -0.1 · L 4 de 10 · V 3 de 10 · D 1 de 3 |
-| 3.5 | @2.45 · col -0.1 · L 4 de 10 · V 5 de 10 · D 2 de 3 | @1.57 · col +0.1 · L 6 de 10 · V 5 de 10 · D 1 de 3 |
-| 3.75 | @2.9 · col -0.3 · L 3 de 10 · V 4 de 10 · D 1 de 3 | @1.44 · col +0.3 · L 6 de 10 · V 5 de 10 · D 1 de 3 |
-| 4.5 | @4.2 · col -1.1 · L 3 de 10 · V 4 de 10 · D 1 de 3 | @1.23 · col +1.1 · L 7 de 10 · V 6 de 10 · D 2 de 3 |
-| 5.5 | @7.4 · col -2.1 · L 1 de 10 · V 2 de 10 · D 0 de 3 | @1.09 · col +2.1 · L 9 de 10 · V 8 de 10 · D 3 de 3 ✓ |
-| 6.5 | @12.5 · col -3.1 · L 0 de 10 · V 0 de 10 · D 0 de 3 | @1.03 · col +3.1 · L 10 de 10 · V 10 de 10 · D 3 de 3 ✓ |
+| 1.5 | @1.19 · col +1.9 · L 8 de 10 · V 9 de 10 · D 3 de 3 ✓ | @4.85 · col -1.9 · L 2 de 10 · V 1 de 10 · D 0 de 3 |
+| 2.25 | @1.42 · col +1.1 · L 6 de 10 · V 7 de 10 · D 2 de 3 | @3.0 · col -1.1 · L 2 de 10 · V 1 de 10 · D 0 de 3 |
+| 2.5 | @1.57 · col +0.9 · L 6 de 10 · V 7 de 10 · D 2 de 3 | @2.42 · col -0.9 · L 4 de 10 · V 3 de 10 · D 1 de 3 |
+| 2.75 | @1.7 · col +0.7 · L 4 de 10 · V 5 de 10 · D 2 de 3 | @2.22 · col -0.7 · L 4 de 10 · V 3 de 10 · D 1 de 3 |
+| 3.0 | @1.88 · col +0.4 · L 4 de 10 · V 5 de 10 · D 2 de 3 | @1.95 · col -0.4 · L 4 de 10 · V 3 de 10 · D 1 de 3 |
+| 3.25 | @2.12 · col +0.1 · L 4 de 10 · V 5 de 10 · D 2 de 3 | @1.75 · col -0.1 · L 4 de 10 · V 3 de 10 · D 1 de 3 |
+| 3.5 | @2.35 · col -0.1 · L 4 de 10 · V 5 de 10 · D 2 de 3 | @1.6 · col +0.1 · L 6 de 10 · V 5 de 10 · D 1 de 3 |
+| 3.75 | @2.75 · col -0.3 · L 3 de 10 · V 4 de 10 · D 1 de 3 | @1.47 · col +0.3 · L 6 de 10 · V 5 de 10 · D 1 de 3 |
+| 4.5 | @3.95 · col -1.1 · L 3 de 10 · V 4 de 10 · D 1 de 3 | @1.25 · col +1.1 · L 7 de 10 · V 6 de 10 · D 2 de 3 |
+| 5.5 | @7.0 · col -2.1 · L 1 de 10 · V 2 de 10 · D 0 de 3 | @1.1 · col +2.1 · L 9 de 10 · V 8 de 10 · D 3 de 3 ✓ |
+| 6.5 | @11.75 · col -3.1 · L 0 de 10 · V 0 de 10 · D 0 de 3 | @1.04 · col +3.1 · L 10 de 10 · V 10 de 10 · D 3 de 3 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.19 · col +1.2 · L 8 de 10 · V 9 de 10 · D 3 de 3 ✓ | @4.4 · col -1.2 · L 2 de 10 · V 1 de 10 · D 0 de 3 |
-| 1.5 | @1.85 · col +0.2 · L 5 de 10 · V 4 de 10 · D 2 de 3 | @1.88 · col -0.2 · L 5 de 10 · V 6 de 10 · D 1 de 3 |
+| 0.5 | @1.18 · col +1.2 · L 8 de 10 · V 9 de 10 · D 3 de 3 ✓ | @4.5 · col -1.2 · L 2 de 10 · V 1 de 10 · D 0 de 3 |
+| 1.5 | @1.85 · col +0.2 · L 5 de 10 · V 4 de 10 · D 2 de 3 | @1.9 · col -0.2 · L 5 de 10 · V 6 de 10 · D 1 de 3 |
 | 2.5 | @3.55 · col -0.8 · L 2 de 10 · V 2 de 10 · D 0 de 3 | @1.27 · col +0.8 · L 8 de 10 · V 8 de 10 · D 3 de 3 ✓ |
-| 3.5 | @7.1 · col -1.8 · L 1 de 10 · V 1 de 10 · D 0 de 3 | @1.08 · col +1.8 · L 9 de 10 · V 9 de 10 · D 3 de 3 ✓ |
+| 3.5 | @7.2 · col -1.8 · L 1 de 10 · V 1 de 10 · D 0 de 3 | @1.07 · col +1.8 · L 9 de 10 · V 9 de 10 · D 3 de 3 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.26 · col +1.1 · L 7 de 10 · V 9 de 10 · D 2 de 3 ✓ | @3.6 · col -1.1 · L 3 de 10 · V 1 de 10 · D 1 de 3 |
-| 1.5 | @2.15 · col +0.1 · L 4 de 10 · V 5 de 10 · D 2 de 3 | @1.65 · col -0.1 · L 6 de 10 · V 5 de 10 · D 1 de 3 |
-| 2.5 | @4.5 · col -0.8 · L 2 de 10 · V 4 de 10 · D 2 de 3 | @1.18 · col +0.8 · L 8 de 10 · V 6 de 10 · D 1 de 3 |
-| 3.5 | @8.75 · col -1.9 · L 0 de 10 · V 1 de 10 · D 0 de 3 | @1.05 · col +1.9 · L 10 de 10 · V 9 de 10 · D 3 de 3 ✓ |
+| 0.5 | @1.24 · col +1.1 · L 7 de 10 · V 9 de 10 · D 2 de 3 ✓ | @3.85 · col -1.1 · L 3 de 10 · V 1 de 10 · D 1 de 3 |
+| 1.5 | @2.07 · col +0.1 · L 4 de 10 · V 5 de 10 · D 2 de 3 | @1.7 · col -0.1 · L 6 de 10 · V 5 de 10 · D 1 de 3 |
+| 2.5 | @4.25 · col -0.8 · L 2 de 10 · V 4 de 10 · D 2 de 3 | @1.2 · col +0.8 · L 8 de 10 · V 6 de 10 · D 1 de 3 |
+| 3.5 | @8.5 · col -1.9 · L 0 de 10 · V 1 de 10 · D 0 de 3 | @1.05 · col +1.9 · L 10 de 10 · V 9 de 10 · D 3 de 3 ✓ |
 
 ### Tarjetas (solo amarillas)
 _Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._
@@ -135,8 +134,8 @@ Muestra: local 10, visitante 8, directos 3. Esperado: local 2.26, visitante 2.14
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Viktor Gyokeres — anota: Sí @2.3 · 7 de 10 (titular 0.90)
-- Viktor Gyokeres — anota_o_asiste: Sí @1.85 · 8 de 10 (titular 0.90)
+- Viktor Gyokeres — anota: Sí @2.2 · 7 de 10 (titular 0.90)
+- Viktor Gyokeres — anota_o_asiste: Sí @1.82 · 8 de 10 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos
 
@@ -145,4 +144,4 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Historial: sin casar con Betano → Bułka M., Wojtuszek N., Pietuszewski O., Slisz B., Wiśniewski P., Kamiński J., Zeneli B., Bergvall L., Bolin H., Dahl S., Skoglund H., Starfelt C., Swedberg W., Kenneth Nlata Sema, Jesper Kewe Karlström, Holm E., Ali T., Nilsson G., Svanberg M., Wszolek P., Kapustka B., Bereszynski B., Grosicki K., Hien I., Nordfeldt K., Grabara K., Moder J., Skorupski L., Ziolkowski J., Piatek K., Lundgren G., Buksa A., Sema K.']
+- Dudas: ['Historial: sin casar con Betano → Cash M., Kiwior J., Bułka M., Frankowski P., Wojtuszek N., Pietuszewski O., Slisz B., Wiśniewski P., Kamiński J., Nygren B., Zeneli B., Bergvall L., Bolin H., Dahl S., Skoglund H., Starfelt C., Swedberg W., Kenneth Nlata Sema, Wålemark P., Jesper Kewe Karlström, Holm E., Ali T., Nilsson G., Svanberg M., Wszolek P., Kapustka B., Bereszynski B., Grosicki K., Hien I., Nordfeldt K., Grabara K., Moder J., Skorupski L., Ziolkowski J., Piatek K., Lundgren G., Buksa A., Sema K.', 'Alineación probable: sin casar con Betano → Nygren B.']

@@ -1,11 +1,11 @@
 # Hungría - Irlanda del Norte
 UEFA Liga de Naciones · 2026-11-17 14:45
 
-**Tipo de partido:** Favorito leve · cerrado · caliente · **Favorito:** Hungría · primer gol: local 57 %, visitante 32 %, nadie 11 % · gol del favorito antes del 35′: 32 %
+**Tipo de partido:** Favorito leve · cerrado · caliente · **Favorito:** Hungría · primer gol: local 55 %, visitante 34 %, nadie 11 % · gol del favorito antes del 35′: 31 %
 
 ## ⚠ Alertas (revisar antes de usar las líneas marcadas)
-- Revisar: la simulación sin contexto se aleja 16 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
-- Revisar: la simulación sin contexto se aleja 17 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
+- Revisar: la simulación sin contexto se aleja 19 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
+- Revisar: la simulación sin contexto se aleja 20 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
 
 ## Enfoque de mercados (qué mercados le quedan bien al contexto)
 Enfoque: mirar primero Goles del partido (Menos), 1.er tiempo (Menos) y empate al descanso.
@@ -26,11 +26,11 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Guion | Probabilidad |
 |---|---|
 | Empate | 21 % |
-| Partido abierto (ambos marcan y 3+ goles) | 19 % |
-| Sorpresa: gana el no favorito | 19 % |
-| Favorito gana en partido trabado | 16 % |
+| Sorpresa: gana el no favorito | 20 % |
+| Partido abierto (ambos marcan y 3+ goles) | 20 % |
+| Favorito gana en partido trabado | 14 % |
 | Favorito golpea temprano y gana | 13 % |
-| Expulsión antes del 70′ | 12 % |
+| Expulsión antes del 70′ | 11 % |
 
 ## Lo que cambió el contexto
 - Importancia alta: más tensión (tarjetas ×1,10) y algo menos de gol (×0,95).
@@ -41,93 +41,98 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 ## Medias esperadas (con contexto)
 | | Goles | Remates | Al arco | Córners | Faltas | Tarjetas |
 |---|---|---|---|---|---|---|
-| local | 1.32 | 14.2 | 4.6 | 4.5 | 13.6 | 2.5 |
-| visitante | 0.79 | 10.1 | 2.9 | 4.5 | 13.6 | 3.1 |
+| local | 1.34 | 15.0 | 4.6 | 4.5 | 13.6 | 2.4 |
+| visitante | 0.83 | 9.3 | 2.9 | 4.5 | 13.6 | 3.0 |
 
 ## Media esperada por mercado (modelo con contexto; entre paréntesis lo que espera Betano; rango del 80 % de los partidos simulados)
 | Mercado | Total | Local | Visitante | 1.er tiempo | 2.º tiempo |
 |---|---|---|---|---|---|
-| Goles | 2.1 (2.2) · 0–4 | 1.3 (1.4) · 0–3 | 0.8 (0.8) · 0–2 | 0.9 (0.9) · 0–2 | 1.2 (1.2) · 0–3 |
-| Córners | 9.1 (9.0) · 5–13 | 4.5 · 2–8 | 4.6 · 2–8 | 4.0 (4.4) · 2–7 | 5.0 (4.7) · 2–8 |
-| Tarjetas (amarilla 1, roja 2) | 5.6 (5.3) · 2–9 | 2.5 (2.4) · 1–5 | 3.1 (2.9) · 1–5 | 1.8 (1.9) · 0–4 | 3.8 · 1–7 |
-| Remates | 24.3 (24.1) · 17–32 | 14.2 (14.2) · 9–20 | 10.1 (10.1) · 6–15 | 10.8 · 7–15 | 13.5 · 9–19 |
-| Tiros al arco | 7.5 (7.5) · 4–11 | 4.6 (4.6) · 2–8 | 2.9 (2.9) · 1–5 | 3.3 · 1–6 | 4.2 · 2–7 |
-| Faltas | 26.8 (26.5) · 20–34 | 13.4 (13.2) · 9–18 | 13.4 (13.2) · 9–18 | 12.0 · 8–17 | 14.8 · 10–20 |
-| Fueras de lugar | 4.0 (4.0) · 1–7 | 1.7 (1.7) · 0–4 | 2.3 (2.3) · 0–5 | 1.8 · 0–4 | 2.2 · 0–4 |
-| Saques de meta | 16.1 · 10–23 | 8.0 · 4–13 | 8.1 · 4–13 | 7.2 · 3–11 | 8.9 · 5–14 |
-| Saques de banda | 40.1 · 29–52 | 20.0 · 12–28 | 20.1 · 13–28 | 17.9 · 12–25 | 22.2 · 15–30 |
+| Goles | 2.2 (2.2) · 0–4 | 1.3 (1.4) · 0–3 | 0.8 (0.9) · 0–2 | 0.9 (1.0) · 0–2 | 1.2 (1.2) · 0–3 |
+| Córners | 9.0 (9.0) · 5–13 | 4.5 · 2–8 | 4.4 · 2–8 | 4.0 (4.4) · 2–7 | 5.0 (4.7) · 2–8 |
+| Tarjetas (amarilla 1, roja 2) | 5.3 (5.1) · 2–9 | 2.4 (2.3) · 1–4 | 2.9 (2.8) · 1–5 | 1.8 (1.8) · 0–4 | 3.6 · 1–6 |
+| Remates | 24.4 (24.2) · 17–32 | 15.0 (15.0) · 9–21 | 9.3 (9.3) · 5–14 | 10.8 · 6–15 | 13.6 · 9–19 |
+| Tiros al arco | 7.5 (7.5) · 4–11 | 4.6 (4.6) · 2–8 | 2.9 (2.9) · 1–5 | 3.4 · 1–6 | 4.2 · 2–7 |
+| Faltas | 27.1 (26.5) · 20–34 | 13.6 (13.2) · 9–18 | 13.5 (13.2) · 9–18 | 12.1 · 8–17 | 15.0 · 10–20 |
+| Fueras de lugar | 4.0 (4.0) · 1–7 | 1.6 (1.6) · 0–3 | 2.4 (2.3) · 0–5 | 1.8 · 0–4 | 2.2 · 0–4 |
+| Saques de meta | 15.9 · 10–23 | 8.0 · 4–13 | 7.9 · 4–13 | 7.1 · 3–11 | 8.8 · 5–13 |
+| Saques de banda | 40.2 · 29–52 | 20.1 · 12–28 | 20.1 · 12.9–28 | 18.0 · 12–25 | 22.2 · 15–30 |
 | Atajadas del portero | — | 2.1 · 0–4 | 3.3 · 1–6 | — | — |
 
 ## Lectura por mercado (la línea que mejor encaja con este partido en cada mercado)
 | Mercado | Línea | Cuota | Prob. | Robustez | Brilla si… | La mata si… | Etiqueta |
 |---|---|---|---|---|---|---|---|
-| Goles | Goles 1.er tiempo Menos 1.5 | 1.28 | 76 % | (lo define el marcador) | Favorito gana en partido trabado (98 %) | Partido abierto (ambos marcan y 3+ goles) (45 %) | Alta probabilidad · ★ enfoque a favor |
-| Ambos marcan | Ambos marcan: No | 1.62 | 59 % | (lo define el marcador) | Favorito golpea temprano y gana (100 %) | Partido abierto (ambos marcan y 3+ goles) (0 %) | Justa |
-| Resultado y hándicap | Hándicap Hungría +1 | 1.25 | 78 % | (lo define el marcador) | Partido abierto (ambos marcan y 3+ goles) (100 %) | Sorpresa: gana el no favorito (0 %) | Alta probabilidad |
-| Córners | Córners 1.er tiempo Menos 5.5 | 1.31 | 76 % | 74 % | Favorito gana en partido trabado (78 %) | Partido abierto (ambos marcan y 3+ goles) (74 %) | Alta probabilidad |
-| Tarjetas | Ambos 2+ tarjetas: Sí | 1.65 | 61 % | 54 % | Expulsión antes del 70′ (79 %) | Favorito golpea temprano y gana (54 %) | Justa |
-| Faltas | Faltas Más 26.5 | 1.93 | 51 % | 49 % | Expulsión antes del 70′ (57 %) | Favorito gana en partido trabado (49 %) | Justa |
-| Remates | Remates Irlanda del Norte Más 8.5 | 1.44 | 66 % | 58 % | Partido abierto (ambos marcan y 3+ goles) (75 %) | Expulsión antes del 70′ (58 %) | Alta probabilidad · cuota por debajo de la justa |
-| Tiros al arco | Tiros al arco Hungría Más 3.5 | 1.42 | 67 % | 49 % | Partido abierto (ambos marcan y 3+ goles) (89 %) | Sorpresa: gana el no favorito (49 %) | Cara |
-| Fueras de lugar | Fueras de lugar Más 3.5 | 1.78 | 53 % | 51 % | Partido abierto (ambos marcan y 3+ goles) (54 %) | Expulsión antes del 70′ (51 %) | Cara |
-| Jugadores | Zsolt Nagy anota o asiste | 3.05 | 31 % | 12 % | Partido abierto (ambos marcan y 3+ goles) (53 %) | Sorpresa: gana el no favorito (12 %) | Cara |
-| Quién saca más | Más corners: Irlanda del Norte | 3.00 | 37 % | 32 % | Favorito golpea temprano y gana (45 %) | Sorpresa: gana el no favorito (32 %) | Valor · ⚠ Revisar: la simulación sin contexto se aleja 17 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
+| Goles | Goles 1.er tiempo Menos 1.5 | 1.33 | 75 % | (lo define el marcador) | Favorito gana en partido trabado (99 %) | Partido abierto (ambos marcan y 3+ goles) (46 %) | Alta probabilidad · ★ enfoque a favor |
+| Ambos marcan | Ambos marcan: No | 1.70 | 56 % | (lo define el marcador) | Favorito golpea temprano y gana (100 %) | Partido abierto (ambos marcan y 3+ goles) (0 %) | Justa |
+| Resultado y hándicap | Hándicap Irlanda del Norte +2 | 1.26 | 78 % | (lo define el marcador) | Sorpresa: gana el no favorito (100 %) | Favorito golpea temprano y gana (36 %) | Alta probabilidad |
+| Córners | Córners 1.er tiempo Menos 5.5 | 1.31 | 76 % | 74 % | Sorpresa: gana el no favorito (77 %) | Partido abierto (ambos marcan y 3+ goles) (74 %) | Alta probabilidad |
+| Tarjetas | Ambos 2+ tarjetas: Sí | 1.72 | 59 % | 52 % | Expulsión antes del 70′ (77 %) | Favorito golpea temprano y gana (52 %) | Justa |
+| Faltas | Faltas Más 26.5 | 1.93 | 52 % | 51 % | Expulsión antes del 70′ (57 %) | Favorito gana en partido trabado (51 %) | Justa |
+| Remates | Remates Irlanda del Norte Menos 10.5 | 1.42 | 66 % | 58 % | Favorito gana en partido trabado (76 %) | Partido abierto (ambos marcan y 3+ goles) (58 %) | Alta probabilidad · cuota por debajo de la justa |
+| Tiros al arco | Tiros al arco Hungría Más 3.5 | 1.42 | 67 % | 51 % | Partido abierto (ambos marcan y 3+ goles) (88 %) | Sorpresa: gana el no favorito (51 %) | Alta probabilidad · cuota por debajo de la justa |
+| Fueras de lugar | Fueras de lugar Más 3.5 | 1.78 | 55 % | 55 % | Favorito golpea temprano y gana (57 %) | Expulsión antes del 70′ (52 %) | Justa |
+| Jugadores | Pierce Charles atajadas 5+ | 3.95 | 24 % | 22 % | Favorito gana en partido trabado (26 %) | Favorito golpea temprano y gana (22 %) | Cara |
+| Quién saca más | Más corners: Irlanda del Norte | 3.40 | 33 % | 29 % | Favorito golpea temprano y gana (41 %) | Sorpresa: gana el no favorito (29 %) | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 20 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 
 ## Alta probabilidad y robustas (aguantan en los guiones principales)
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Hándicap Hungría +1 | 1.25 | 78 % | 78 % | 78 % | -0 pts | -2 % | 78 % | — | 1.32 | Sorpresa: gana el no favorito | Alta probabilidad |
-| Hungría o empate | 1.25 | 78 % | 78 % | 78 % | -0 pts | -2 % | 78 % | — | 1.32 | Sorpresa: gana el no favorito | Alta probabilidad |
-| Hándicap Irlanda del Norte +2 | 1.27 | 77 % | 77 % | 77 % | -0 pts | -2 % | 77 % | — | 1.33 | Favorito golpea temprano y gana | Alta probabilidad |
-| Goles 1.er tiempo Menos 1.5 | 1.28 | 76 % | 76 % | 76 % | +1 pts | -2 % | 76 % | +0.6 | 1.35 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · ★ enfoque a favor |
+| Hándicap Irlanda del Norte +2 | 1.26 | 78 % | 77 % | 78 % | +1 pts | -1 % | 78 % | — | 1.31 | Favorito golpea temprano y gana | Alta probabilidad |
+| Hándicap Hungría +1 | 1.25 | 77 % | 78 % | 78 % | -1 pts | -4 % | 77 % | — | 1.34 | Sorpresa: gana el no favorito | Alta probabilidad |
+| Hungría o empate | 1.25 | 77 % | 78 % | 78 % | -1 pts | -4 % | 77 % | — | 1.34 | Sorpresa: gana el no favorito | Alta probabilidad |
 | Córners 1.er tiempo Menos 5.5 | 1.31 | 76 % | 74 % | 76 % | +1 pts | -0 % | 74 % | +0.7 | 1.35 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Goles Hungría Más 0.5 | 1.30 | 75 % | 74 % | 75 % | +0 pts | -3 % | 75 % | +0.8 | 1.37 | Sorpresa: gana el no favorito | Alta probabilidad |
-| Córners Irlanda del Norte Más 2.5 | 1.31 | 75 % | 71 % | 75 % | -0 pts | -2 % | 69 % | +0.8 | 1.37 | Expulsión antes del 70′ | Alta probabilidad |
-| Goles Más 1.25 | 1.34 | 73 % | 73 % | 73 % | -0 pts | -3 % | 73 % | +0.6 | 1.42 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 13 % |
-| No hay empate | 1.31 | 73 % | 72 % | 71 % | +2 pts | -5 % | 73 % | — | 1.42 | Empate | Alta probabilidad |
-| Córners 2.º tiempo Más 3.5 | 1.39 | 72 % | 69 % | 71 % | +1 pts | -1 % | 68 % | +0.7 | 1.44 | Expulsión antes del 70′ | Alta probabilidad |
-| Goles 1.er tiempo Menos 1.25 | 1.38 | 71 % | 71 % | 71 % | +1 pts | -2 % | 71 % | +0.3 | 1.44 | Favorito golpea temprano y gana | Alta probabilidad · asiática: devuelve 18 % · ★ enfoque a favor |
-| Goles Menos 2.75 | 1.40 | 71 % | 70 % | 70 % | +1 pts | -0 % | 71 % | +0.4 | 1.45 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 10 % · ★ enfoque a favor |
-| Goles 2.º tiempo Más 0.5 | 1.36 | 71 % | 71 % | 70 % | +0 pts | -4 % | 71 % | +0.6 | 1.46 | Empate | Alta probabilidad |
-| Hándicap Hungría +0 | 1.42 | 70 % | 69 % | 70 % | +0 pts | -1 % | 70 % | — | 1.47 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 29 % |
-| Córners Menos 10.5 | 1.35 | 70 % | 71 % | 70 % | -1 pts | -6 % | 66 % | +0.5 | 1.47 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · cuota por debajo de la justa |
-| Eoin Kenny remates 1+ | 1.27 | 69 % | 70 % | 69 % | +0 pts | -12 % | 66 % | — | 1.49 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
-| András Schäfer remates 1+ | 1.29 | 69 % | 69 % | 69 % | +0 pts | -11 % | 66 % | — | 1.49 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
-| Willi Orban remates 1+ | 1.28 | 69 % | 70 % | 69 % | +0 pts | -12 % | 67 % | — | 1.49 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
-| Paul Smyth remates 1+ | 1.27 | 69 % | 70 % | 69 % | -0 pts | -12 % | 66 % | — | 1.49 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
-| Aron Doktorics remates 1+ | 1.29 | 68 % | 69 % | 68 % | -0 pts | -12 % | 67 % | — | 1.51 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
-| Jozef Urblik remates 1+ | 1.29 | 68 % | 69 % | 68 % | -0 pts | -12 % | 66 % | — | 1.52 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
-| Milan Vitalis remates 1+ | 1.29 | 68 % | 69 % | 68 % | -0 pts | -13 % | 66 % | — | 1.52 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
-| Córners Más 7.5 | 1.42 | 68 % | 68 % | 67 % | +1 pts | -4 % | 64 % | +0.5 | 1.52 | Expulsión antes del 70′ | Alta probabilidad |
-| Akos Szendrei tiros al arco 1+ | 1.30 | 67 % | 69 % | 67 % | -0 pts | -12 % | 60 % | — | 1.53 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
-| Córners Hungría Más 3.5 | 1.28 | 67 % | 73 % | 68 % | -0 pts | -14 % | 57 % | +0.4 | 1.53 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
+| Goles 1.er tiempo Menos 1.5 | 1.33 | 75 % | 73 % | 73 % | +2 pts | -0 % | 75 % | +0.6 | 1.37 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · ★ enfoque a favor |
+| Goles Hungría Más 0.5 | 1.29 | 74 % | 75 % | 75 % | -1 pts | -4 % | 74 % | +0.8 | 1.39 | Sorpresa: gana el no favorito | Alta probabilidad |
+| Goles Más 1.25 | 1.32 | 73 % | 74 % | 74 % | -1 pts | -3 % | 73 % | +0.6 | 1.41 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 13 % |
+| Córners Irlanda del Norte Más 2.5 | 1.36 | 73 % | 69 % | 73 % | -1 pts | -1 % | 69 % | +0.8 | 1.42 | Expulsión antes del 70′ | Alta probabilidad |
+| No hay empate | 1.33 | 72 % | 70 % | 70 % | +1 pts | -5 % | 72 % | — | 1.44 | Empate | Alta probabilidad |
+| Córners Menos 10.5 | 1.35 | 71 % | 71 % | 71 % | +1 pts | -4 % | 68 % | +0.5 | 1.44 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Córners 2.º tiempo Más 3.5 | 1.39 | 71 % | 69 % | 71 % | +0 pts | -1 % | 67 % | +0.7 | 1.45 | Expulsión antes del 70′ | Alta probabilidad |
+| András Schäfer remates 1+ | 1.26 | 71 % | 71 % | 71 % | +0 pts | -11 % | 70 % | — | 1.45 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
+| Goles 2.º tiempo Más 0.5 | 1.37 | 71 % | 71 % | 71 % | -0 pts | -3 % | 71 % | +0.7 | 1.46 | Empate | Alta probabilidad |
+| Aron Doktorics remates 1+ | 1.26 | 70 % | 71 % | 70 % | +0 pts | -12 % | 68 % | — | 1.47 | Empate | Alta probabilidad · cuota por debajo de la justa |
+| Jozef Urblik remates 1+ | 1.26 | 70 % | 71 % | 70 % | -0 pts | -12 % | 68 % | — | 1.48 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| Goles Menos 2.75 | 1.44 | 70 % | 68 % | 68 % | +1 pts | +0 % | 70 % | +0.4 | 1.48 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 10 % · ★ enfoque a favor |
+| Córners Hungría Más 3.5 | 1.25 | 70 % | 75 % | 68 % | +1 pts | -13 % | 60 % | +0.4 | 1.48 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
+| Goles 1.er tiempo Menos 1.25 | 1.45 | 69 % | 67 % | 68 % | +2 pts | +1 % | 69 % | +0.3 | 1.48 | Favorito golpea temprano y gana | Alta probabilidad · asiática: devuelve 18 % · ★ enfoque a favor |
+| Roland Sallai remates 3+ | 1.27 | 69 % | 70 % | 69 % | +0 pts | -12 % | 66 % | — | 1.49 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| Hándicap Hungría +0 | 1.42 | 69 % | 69 % | 69 % | -1 pts | -3 % | 69 % | — | 1.50 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 29 % |
+| Bendegúz Bolla remates 1+ | 1.29 | 68 % | 69 % | 68 % | +0 pts | -12 % | 66 % | — | 1.50 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
+| Aron Csongvai remates 1+ | 1.31 | 68 % | 68 % | 68 % | -0 pts | -11 % | 66 % | — | 1.52 | Empate | Alta probabilidad · cuota por debajo de la justa |
+| Akos Szendrei tiros al arco 1+ | 1.30 | 68 % | 69 % | 68 % | +0 pts | -12 % | 60 % | — | 1.52 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
+| Milan Toth tiros al arco 1+ | 1.30 | 68 % | 69 % | 68 % | +0 pts | -12 % | 62 % | — | 1.52 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
+| Milan Peto remates 2+ | 1.29 | 68 % | 69 % | 67 % | +0 pts | -13 % | 64 % | — | 1.52 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Bence Varkonyi anota o asiste | 11.75 | 11 % | 7 % | 11 % | -0 pts | +27 % | 4 % | — | 11.38 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
-| Akos Markgraf anota o asiste | 10.50 | 12 % | 8 % | 12 % | -0 pts | +22 % | 4 % | — | 10.42 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
-| Mark Csinger anota o asiste | 9.00 | 13 % | 10 % | 13 % | +0 pts | +21 % | 5 % | — | 8.75 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
-| Attila Osvath anota o asiste | 7.10 | 17 % | 12 % | 17 % | +0 pts | +19 % | 6 % | — | 6.75 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
-| Córners Irlanda del Norte Más 5.5 | 4.15 | 27 % | 23 % | 27 % | +0 pts | +12 % | 22 % | -0.4 | 3.99 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
-| Más corners: Irlanda del Norte | 3.00 | 37 % | 28 % | 36 % | +0 pts | +10 % | 32 % | — | 2.90 | Sorpresa: gana el no favorito | Valor · ⚠ Revisar: la simulación sin contexto se aleja 17 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
-| Córners Irlanda del Norte Más 4.5 | 2.62 | 41 % | 36 % | 41 % | +0 pts | +7 % | 36 % | +0.0 | 2.57 | Expulsión antes del 70′ | Valor · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Attila Osvath anota o asiste | 7.10 | 16 % | 12 % | 17 % | -0 pts | +15 % | 6 % | — | 7.03 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
+| Jordan Thompson anota o asiste | 7.40 | 16 % | 12 % | 16 % | -0 pts | +15 % | 0 % | — | 7.40 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
+| Córners Irlanda del Norte Más 5.5 | 4.60 | 25 % | 20 % | 25 % | -1 pts | +13 % | 21 % | -0.4 | 4.41 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Más corners: Irlanda del Norte | 3.40 | 33 % | 24 % | 34 % | -1 pts | +13 % | 29 % | — | 3.21 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 20 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
+| Córners Irlanda del Norte Más 4.5 | 2.87 | 38 % | 33 % | 39 % | -1 pts | +8 % | 33 % | -0.0 | 2.81 | Sorpresa: gana el no favorito | Valor · Línea contra el guion (Más de un equipo que perdió: 2/11) |
 
-Kelly ¼ (dato informativo, no una orden de stake): Bence Varkonyi anota o asiste 0.6 % de la banca; Akos Markgraf anota o asiste 0.6 % de la banca; Mark Csinger anota o asiste 0.7 % de la banca; Attila Osvath anota o asiste 0.8 % de la banca; Córners Irlanda del Norte Más 5.5 1.0 % de la banca; Más corners: Irlanda del Norte 1.2 % de la banca; Córners Irlanda del Norte Más 4.5 1.1 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+Kelly ¼ (dato informativo, no una orden de stake): Attila Osvath anota o asiste 0.6 % de la banca; Jordan Thompson anota o asiste 0.6 % de la banca; Córners Irlanda del Norte Más 5.5 0.9 % de la banca; Más corners: Irlanda del Norte 1.3 % de la banca; Córners Irlanda del Norte Más 4.5 1.1 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+
+## Sistemas de tipsters que este partido cumple (solo para medir, no para decidir)
+| Sistema | Regla | Selección que propone | Historial con cuotas reales |
+|---|---|---|---|
+| Ingeniero Analista #5 | empate 2,90–3,20 (señal de pocos goles) | Goles Menos 2.5 | 18423 partidos: acierto 59.9 % contra 59.5 % del precio; ROI -3.9 % ± 1.1 (con la mejor cuota -0.3 %) |
+| Ingeniero Analista #26 | parejo (ambos ≥2,00) y Más 1.5 >1,40 | Goles Menos 2.5 | 58298 partidos: acierto 53.4 % contra 53.3 % del precio; ROI -5.2 % ± 0.7 (con la mejor cuota -1.3 %) |
+| Ingeniero Analista #420 | empate ≤3,40, ambos ≥2,00, nadie con 2 victorias seguidas | Empate | 48947 partidos: acierto 29.9 % contra 29.2 % del precio; ROI -5.0 % ± 1.3 (con la mejor cuota -0.1 %) |
 
 ## Builders del mismo guion
 | Patas | Prob. ajustada | Prob. simulación | Si una pata está 5 pts peor | Cuota justa | Cuota mínima en Betano | Correlación | Margen acumulado | Guion común | Robustez |
 |---|---|---|---|---|---|---|---|---|---|
-| Goles Menos 3.5 + Tiros al arco Menos 8.5 | 61 % | 61 % | 56 % | 1.64 | 1.69 | 1.1 | 6 % | Empate | 23 % |
-| Hándicap Irlanda del Norte +3 + Goles Menos 3.5 + Tiros al arco Hungría Menos 5.5 | 59 % | 60 % | 55 % | 1.68 | 1.73 | 1.12 | 8 % | Empate | 25 % |
-| Hándicap Irlanda del Norte +3 + Goles 2.º tiempo Menos 2.5 + Tiros al arco Hungría Menos 5.5 | 61 % | 62 % | 56 % | 1.65 | 1.70 | 1.09 | 7 % | Empate | 32 % |
-| Goles 2.º tiempo Menos 2.5 + Tiros al arco Menos 8.5 | 61 % | 62 % | 57 % | 1.63 | 1.68 | 1.06 | 6 % | Empate | 28 % |
-| Goles Irlanda del Norte Menos 2.5 + Hungría o empate + Córners Más 6.5 | 62 % | 62 % | 58 % | 1.63 | 1.67 | 1.04 | 7 % | Empate | 0 % |
-| Córners Más 6.5 + Tiros al arco Irlanda del Norte Más 1.5 | 62 % | 61 % | 58 % | 1.60 | 1.65 | 1.01 | 6 % | Partido abierto (ambos marcan y 3+ goles) | 48 % |
-| Goles 1.er tiempo Menos 2.5 + Ambos marcan: No | 58 % | 57 % | 53 % | 1.72 | 1.77 | 1.06 | 7 % | Favorito gana en partido trabado | 0 % |
-| Córners 2.º tiempo Más 2.5 + Goles 1.er tiempo Menos 2.5 + Tiros al arco Irlanda del Norte Más 1.5 | 62 % | 62 % | 58 % | 1.62 | 1.67 | 0.99 | 7 % | Sorpresa: gana el no favorito | 50 % |
+| Goles Menos 3.5 + Tiros al arco Menos 8.5 | 61 % | 61 % | 56 % | 1.64 | 1.69 | 1.11 | 6 % | Empate | 25 % |
+| Goles Menos 3.5 + Hándicap Irlanda del Norte +3 + Tiros al arco Menos 8.5 | 58 % | 59 % | 54 % | 1.71 | 1.76 | 1.15 | 8 % | Empate | 25 % |
+| Ambos 2+ tarjetas: Sí + Tarjetas Más 4.5 | 50 % | 52 % | 46 % | 1.98 | 2.04 | 1.48 | 11 % | Expulsión antes del 70′ | 43 % |
+| Ambos 2+ tarjetas: Sí + Goles Hungría Menos 3.5 + Tarjetas Más 4.5 | 49 % | 50 % | 45 % | 2.05 | 2.11 | 1.49 | 12 % | Expulsión antes del 70′ | 41 % |
+| Goles 1.er tiempo Menos 1.5 + Hándicap Irlanda del Norte +3 + Córners 2.º tiempo Más 2.5 | 62 % | 63 % | 57 % | 1.63 | 1.67 | 1.03 | 7 % | Empate | 39 % |
+| Goles 2.º tiempo Menos 2.5 + Ambos marcan: No | 55 % | 54 % | 50 % | 1.82 | 1.87 | 1.11 | 8 % | Favorito golpea temprano y gana | 0 % |
+| Goles 1.er tiempo Menos 1.5 + Ambos marcan: No | 51 % | 50 % | 46 % | 1.98 | 2.04 | 1.19 | 9 % | Favorito gana en partido trabado | 0 % |
+| Goles Irlanda del Norte Menos 2.5 + Córners Irlanda del Norte Más 2.5 + Hungría o empate | 56 % | 60 % | 52 % | 1.78 | 1.83 | 1.06 | 10 % | Favorito golpea temprano y gana | 0 % |
 
 Prob. ajustada: la conjunta de la simulación llevando cada pata a su probabilidad de decisión y corrigiendo la dependencia entre patas que se midió con 62 000 partidos (p. ej. «gana el favorito + sus córners Más» se estorban más de lo que creía el simulador). Margen acumulado: lo que la casa cobra por pata, multiplicado.
 

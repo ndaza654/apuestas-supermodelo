@@ -38,3 +38,8 @@ Cobertura de los últimos 10 partidos oficiales por equipo: **14 de 16 equipos c
 - Árbitro de Dinamarca–Noruega con promedio de tarjetas y faltas (ValueStats, sesión del usuario): `arbitros/valuestats_meler_20.json`.
 - Muestra incompleta: saques de meta (Dinamarca 5 de 10, Noruega 8 de 10; Flashscore no trae el dato en clasificatorios del Mundial) y tarjetas de Noruega (9). Esas líneas no se recomiendan. Hermansen: 5 partidos (los otros 5 jugó otro arquero).
 - Corregida la fusión de nombres con ø/æ/ł (Ødegaard, Højlund…) en `pj_json_decod.py` + `jugadores_fusionar.py`.
+
+## Actualización 17-nov 14:10 Bogotá (los 7 partidos de las 14:45)
+- Cuotas releídas 13:58 (`raw/bet_*.txt`; las de las 13:40 en `raw/previo_1340/`). Onces oficiales leídos 13:59 en 6 de 7; **Polonia–Suecia sin pestaña de alineaciones** (solo probables).
+- Árbitros con 20 partidos (tarjetas y faltas, ValueStats): `arbitros/valuestats_arbitros_1400.json` y en `notas/`.
+- Colombia y México–Jamaica siguen con cuotas de las 01:00 y sin árbitro.
