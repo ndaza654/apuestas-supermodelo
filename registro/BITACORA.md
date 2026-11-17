@@ -265,3 +265,10 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Lista de Estrategia con «Ordenar por» (sentido, probabilidad, cuota, colchón, colchón relativo, regularidad, valor de la línea, mercado, hora) y vista de tabla con columnas ordenables.
 - «Todas las líneas»: el estado vacío nombra los filtros activos (p. ej. Resultado «Se dio» en un día sin resultados) con botón «Quitar estos filtros».
 - Pendiente anotado: textos fijos «-nov» en pag_historico.js quedarán viejos al cambiar de mes.
+
+## 17-nov-2026 ~17:20 · balance del martes 17-nov
+- Tus boletos (Betano → Resueltas, navegador): 8 registrados (n.º 107–114), $96.752 apostados, $56.191 cobrados, neto −$40.561. Los 4 de hoy cayeron ($61.500): Simple BB Dinamarca–Noruega (córners 8 vs Más 9.5), combinada de 4 (Polonia 2 córners y Bosnia–Rumanía 8), combinada de 6 (4 de 10 patas) y combinada de 5 (los 5 grupos fallaron: Ratiu, Gales–Portugal 7 córners, Price/Tóth, Hjulmand, Israel–Austria 13 córners). Ganados: Irlanda U21, Japón–Paraguay, Singapur–Brasil (estaban liquidados y sin registrar).
+- Líneas de equipo (1.294 calificadas, 10 partidos): con «cumple» 126/165 (76 %), sin cumplir 530/1.129 (47 %). Jugadores: 4.247 líneas calificadas con Flashscore (343 cumplieron, 1.309 anuladas por no jugar); 318 líneas de México–Jamaica y los dos partidos colombianos siguen pendientes.
+- Sugerencias del informe: 28 de 41 sencillas cumplidas, 3 pendientes. Mis picks en vivo (16 líneas añadidas a `registro/sugerencias.csv`): «Menos tarjetas» 3/7; córners/goles 5/6.
+- Límites: Flashscore no trae faltas recibidas ni las entradas totales de Betano; los porteros de Rumanía, Austria, Suecia e Irlanda del Norte no vinieron en Flashscore; 2 boletos viejos sin fecha de partido verificada; la cuota 2,02 de «Polonia córners Más 2.5» se transcribió tal cual.
+- Archivos: `jornadas/2026-11-17/balance/` (boletos_betano.json, patas_calificadas.json, pendientes.json, balance.html), `jornadas/2026-11-17/resultados/` (resultados_1650.json, jugadores_resultado.txt), libro (hojas «Boletos 17-nov», «Líneas 17-nov», «Sugeridas 17-nov» y 3 lecciones).
