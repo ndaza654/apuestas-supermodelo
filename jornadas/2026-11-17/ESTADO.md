@@ -31,3 +31,10 @@ Cobertura de los últimos 10 partidos oficiales por equipo: **14 de 16 equipos c
 - Nombres de jugador: Opta («I. Apellido») se convirtió a «Apellido I.»; unos pocos jugadores pueden figurar duplicados entre fuentes (p. ej. Sudakov G./H.). Revisar con `alias_jugadores.json` antes de usarlos.
 - Columna «C» del resumen Opta sin confirmar (despejes o centros).
 - Los datos pasaron por el navegador y se bajaron como archivo (no transcritos por el chat). Cuotas Betano leídas el 16-nov ~23:05 Bogotá: releer antes de apostar.
+
+## Actualización 17-nov 13:55 Bogotá (Dinamarca–Noruega)
+- Cuotas de Dinamarca–Noruega releídas 13:40 (`raw/bet_dinamarca-noruega.txt`); lo anterior (01:00) en `raw/previo_0100/`. Resto de partidos: cuotas de las 01:00 sin releer.
+- Onces oficiales de Dinamarca–Noruega leídos 13:42 (Flashscore). Los demás partidos siguen con alineación probable.
+- Árbitro de Dinamarca–Noruega con promedio de tarjetas y faltas (ValueStats, sesión del usuario): `arbitros/valuestats_meler_20.json`.
+- Muestra incompleta: saques de meta (Dinamarca 5 de 10, Noruega 8 de 10; Flashscore no trae el dato en clasificatorios del Mundial) y tarjetas de Noruega (9). Esas líneas no se recomiendan. Hermansen: 5 partidos (los otros 5 jugó otro arquero).
+- Corregida la fusión de nombres con ø/æ/ł (Ødegaard, Højlund…) en `pj_json_decod.py` + `jugadores_fusionar.py`.

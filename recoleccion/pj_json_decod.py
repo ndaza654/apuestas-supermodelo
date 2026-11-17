@@ -14,8 +14,11 @@ import sys, os, json, re, unicodedata
 from collections import defaultdict
 
 
+TRANSLIT = str.maketrans({'ø': 'o', 'æ': 'ae', 'œ': 'oe', 'đ': 'd', 'ð': 'd', 'ł': 'l', 'ß': 'ss', 'þ': 'th', 'ı': 'i'})   # NFD no descompone ø/æ/ł: sin esto «Højlund» y «Hojlund» eran dos jugadores
+
+
 def norm(s):
-    s = unicodedata.normalize('NFD', s.lower())
+    s = unicodedata.normalize('NFD', s.lower().translate(TRANSLIT))
     s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
     return re.sub(r'[^a-z ]+', '', s).strip()
 

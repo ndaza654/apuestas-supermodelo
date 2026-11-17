@@ -1,6 +1,6 @@
 # Informe de la jornada 2026-11-17
 
-Hecho: 2026-11-17 01:05 (Bogotá) · Cuotas: Betano, leídas 17-nov 01:00 a 17-nov 01:00 (Bogotá), sin releer · Muestra de 10 partidos por equipo: «cumple» = 7 de 10 en ambos (n mínimo 7) · 142 líneas de equipo cumplen. El informe interactivo es `informe.html`.
+Hecho: 2026-11-17 13:47 (Bogotá) · Cuotas: Betano, leídas 17-nov 01:00 a 17-nov 13:40 (Bogotá), sin releer · Muestra de 10 partidos por equipo: «cumple» = 7 de 10 en ambos (n mínimo 7) · 143 líneas de equipo cumplen. El informe interactivo es `informe.html`.
 
 ## Enfoque de mercados
 
@@ -67,39 +67,36 @@ Límites: los criterios son reglas de tipsters sin resultados verificados; en 4 
 | 14:45 | Bosnia y Herzegovina - Rumanía | Goles local Menos 2.5 | 1,25 | 78 % | 77 % | 74 % (sin discrepancia) | 8 de 10 | 7 de 10 | 3 de 5 | Goles Menos con «cumple»: 254 de 295 (86% real contra 85% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 | 14:45 | Polonia - Suecia | Goles local Menos 2.5 | 1,27 | 77 % | 77 % | 74 % (sin discrepancia) | 8 de 10 | 8 de 10 | 3 de 3 | Goles Menos con «cumple»: 254 de 295 (86% real contra 85% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 | 14:45 | Gales - Portugal | Tarjetas visitante Menos 2.5 | 1,27 | 77 % | 77 % | 68 % (sin discrepancia) | 7 de 10 | 7 de 10 | 1 de 1 | Tarjetas Menos con «cumple»: 39 de 53 (74% real contra 71% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
+| 14:45 | Dinamarca - Noruega | Córners Más 7.5 | 1,20 | 80 % | 76 % | 78 % (sin discrepancia) | 8 de 10 | 9 de 10 | 1 de 1 | Córners Más con «cumple»: 141 de 185 (76% real contra 80% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 | 14:45 | Hungría - Irlanda del Norte | Córners Más 6.5 | 1,22 | 79 % | 76 % | 81 % (sin discrepancia) | 8 de 10 | 7 de 10 | 0 de 1 | Córners Más con «cumple»: 141 de 185 (76% real contra 80% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
-| 14:45 | Dinamarca - Noruega | Córners visitante Menos 6.5 | 1,25 | 76 % | 76 % | 81 % (sin discrepancia) | 8 de 10 | 7 de 10 | 1 de 1 | Córners Menos con «cumple»: 132 de 155 (85% real contra 83% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 | 14:45 | Gales - Portugal | Córners local Más 1.5 | 1,21 | 79 % | 76 % | 96 % (a favor) | 10 de 10 | 10 de 10 | 1 de 1 | Córners Más con «cumple»: 141 de 185 (76% real contra 80% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
+| 14:45 | Dinamarca - Noruega | Goles local Menos 2.5 | 1,29 | 76 % | 76 % | 83 % (sin discrepancia) | 7 de 10 | 9 de 10 | 1 de 1 | Goles Menos con «cumple»: 254 de 295 (86% real contra 85% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 | 14:45 | Bosnia y Herzegovina - Rumanía | Goles Más 1.5 | 1,25 | 78 % | 76 % | 82 % (sin discrepancia) | 8 de 10 | 7 de 10 | 3 de 5 | Goles Más con «cumple»: 106 de 136 (78% real contra 80% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 | 14:45 | Gales - Portugal | Goles local Menos 1.5 | 1,29 | 75 % | 75 % | 63 % (en contra) | 7 de 10 | 8 de 10 | 1 de 1 | Goles Menos con «cumple»: 254 de 295 (86% real contra 85% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 | 14:45 | Polonia - Suecia | Goles visitante Más 0.5 | 1,26 | 77 % | 75 % | 76 % (sin discrepancia) | 7 de 10 | 9 de 10 | 2 de 3 | Goles Más con «cumple»: 106 de 136 (78% real contra 80% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 | 14:45 | Gales - Portugal | Córners Más 6.5 | 1,22 | 78 % | 75 % | 85 % (a favor) | 7 de 10 | 9 de 10 | 1 de 1 | Córners Más con «cumple»: 141 de 185 (76% real contra 80% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 | 14:45 | Israel - Austria | Córners Menos 10.5 | 1,29 | 75 % | 75 % | 72 % (sin discrepancia) | 9 de 10 | 9 de 10 | 1 de 1 | Córners Menos con «cumple»: 132 de 155 (85% real contra 83% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
-| 14:45 | Dinamarca - Noruega | Goles local Menos 2.5 | 1,32 | 74 % | 74 % | 83 % (sin discrepancia) | 7 de 10 | 9 de 10 | 1 de 1 | Goles Menos con «cumple»: 254 de 295 (86% real contra 85% dicho) · cuota 1,30–1,49: 118 de 160 (74% real contra 70%) |
 | 14:45 | Gales - Portugal | Córners visitante Menos 7.5 | 1,28 | 74 % | 74 % | 88 % (a favor) | 8 de 10 | 8 de 10 | 0 de 1 | Córners Menos con «cumple»: 132 de 155 (85% real contra 83% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 | 14:45 | Polonia - Suecia | Córners Más 6.5 | 1,24 | 77 % | 74 % | 81 % (sin discrepancia) | 8 de 10 | 7 de 10 | 3 de 3 | Córners Más con «cumple»: 141 de 185 (76% real contra 80% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 | 14:45 | Bosnia y Herzegovina - Rumanía | Córners Menos 10.5 | 1,31 | 73 % | 73 % | 70 % (sin discrepancia) | 8 de 10 | 8 de 10 | 4 de 5 | Córners Menos con «cumple»: 132 de 155 (85% real contra 83% dicho) · cuota 1,30–1,49: 118 de 160 (74% real contra 70%) |
-| 14:45 | Dinamarca - Noruega | Córners Más 7.5 | 1,28 | 76 % | 72 % | 78 % (sin discrepancia) | 8 de 10 | 9 de 10 | 1 de 1 | Córners Más con «cumple»: 141 de 185 (76% real contra 80% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
+| 14:45 | Dinamarca - Noruega | Córners visitante Menos 6.5 | 1,33 | 72 % | 72 % | 81 % (sin discrepancia) | 8 de 10 | 7 de 10 | 1 de 1 | Córners Menos con «cumple»: 132 de 155 (85% real contra 83% dicho) · cuota 1,30–1,49: 118 de 160 (74% real contra 70%) |
 | 14:45 | Gales - Portugal | Goles Menos 4.0 | 1,37 | 72 % | 72 % | – (sin dato) | 7 de 10 | 7 de 10 | 1 de 1 | Goles Menos con «cumple»: 254 de 295 (86% real contra 85% dicho) · cuota 1,30–1,49: 118 de 160 (74% real contra 70%) |
 | 14:45 | Irlanda - Kosovo | Córners visitante Más 2.5 | 1,32 | 75 % | 71 % | 72 % (sin discrepancia) | 7 de 10 | 7 de 10 | 0 de 1 | Córners Más con «cumple»: 141 de 185 (76% real contra 80% dicho) · cuota 1,30–1,49: 118 de 160 (74% real contra 70%) |
 | 14:45 | Irlanda - Kosovo | Córners Menos 10.5 | 1,35 | 71 % | 71 % | 69 % (sin discrepancia) | 7 de 10 | 8 de 10 | 1 de 1 | Córners Menos con «cumple»: 132 de 155 (85% real contra 83% dicho) · cuota 1,30–1,49: 118 de 160 (74% real contra 70%) |
 | 14:45 | Hungría - Irlanda del Norte | Tiros al arco visitante Más 1.5 | 1,24 | 78 % | 71 % | 78 % (sin discrepancia) | 8 de 10 | 9 de 10 | 1 de 1 | Tiros al arco Más con «cumple»: 17 de 28 (61% real contra 72% dicho) · cuota < 1,30: 594 de 683 (87% real contra 87%) |
 
-## Sencillas de cuota 1,50–1,99 (p recortada a la vista) — 13
+## Sencillas de cuota 1,50–1,99 (p recortada a la vista) — 10
 
 | Hora | Partido | Sugerencia | Cuota | p modelo | p recortada | Histórico (clubes) | Local | Visitante | Directos | Real hasta hoy |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 14:45 | Israel - Austria | Córners Menos 9.5 | 1,50 | 64 % | 64 % | 69 % (sin discrepancia) | 9 de 10 | 9 de 10 | 1 de 1 | Córners Menos con «cumple»: 132 de 155 (85% real contra 83% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
 | 14:45 | Gales - Portugal | Córners visitante Menos 6.5 | 1,53 | 62 % | 62 % | 81 % (a favor) | 8 de 10 | 7 de 10 | 0 de 1 | Córners Menos con «cumple»: 132 de 155 (85% real contra 83% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
-| 14:45 | Dinamarca - Noruega | Córners Más 8.5 | 1,52 | 64 % | 61 % | 66 % (sin discrepancia) | 8 de 10 | 9 de 10 | 1 de 1 | Córners Más con «cumple»: 141 de 185 (76% real contra 80% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
 | 14:45 | Gales - Portugal | Goles local Más 0.5 | 1,55 | 62 % | 60 % | 76 % (a favor) | 7 de 10 | 7 de 10 | 0 de 1 | Goles Más con «cumple»: 106 de 136 (78% real contra 80% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
-| 14:45 | Dinamarca - Noruega | Remates visitante Menos 14.5 | 1,62 | 59 % | 59 % | 82 % (a favor) | 7 de 10 | 8 de 10 | 1 de 1 | Remates Menos con «cumple»: 29 de 42 (69% real contra 58% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
 | 14:45 | Dinamarca - Noruega | Fueras de juego local Menos 2.5 | 1,60 | 59 % | 59 % | – (sin dato) | 8 de 10 | 7 de 10 | 1 de 1 | Fueras de juego Menos con «cumple»: 9 de 9 (100% real contra 68% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
 | 14:45 | Irlanda - Kosovo | Remates visitante Más 9.5 | 1,57 | 59 % | 59 % | 77 % (a favor) | 8 de 10 | 7 de 10 | 1 de 1 | Remates Más con «cumple»: 16 de 18 (89% real contra 64% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
 | 14:45 | Gales - Portugal | Goles visitante Menos 2.5 | 1,62 | 59 % | 59 % | 82 % (a favor) | 8 de 10 | 8 de 10 | 1 de 1 | Goles Menos con «cumple»: 254 de 295 (86% real contra 85% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
 | 14:45 | Gales - Portugal | Goles Menos 3.5 | 1,65 | 59 % | 59 % | 73 % (a favor) | 7 de 10 | 7 de 10 | 1 de 1 | Goles Menos con «cumple»: 254 de 295 (86% real contra 85% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
 | 14:45 | Gales - Portugal | Remates visitante Menos 17.5 | 1,62 | 58 % | 58 % | 93 % (a favor) | 8 de 10 | 7 de 10 | 0 de 1 | Remates Menos con «cumple»: 29 de 42 (69% real contra 58% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
-| 14:45 | Dinamarca - Noruega | Tiros al arco Más 8.5 | 1,50 | 63 % | 57 % | 70 % (a favor) | 7 de 10 | 10 de 10 | 1 de 1 | Tiros al arco Más con «cumple»: 17 de 28 (61% real contra 72% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
 | 14:45 | Irlanda - Kosovo | Goles visitante Más 0.5 | 1,57 | 59 % | 57 % | 68 % (a favor) | 7 de 10 | 7 de 10 | 1 de 1 | Goles Más con «cumple»: 106 de 136 (78% real contra 80% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
 | 14:45 | Gales - Portugal | Córners local Más 2.5 | 1,62 | 58 % | 55 % | 87 % (a favor) | 8 de 10 | 8 de 10 | 0 de 1 | Córners Más con «cumple»: 141 de 185 (76% real contra 80% dicho) · cuota 1,50–1,99: 100 de 162 (62% real contra 57%) |
 
@@ -112,7 +109,7 @@ Cada pata con p recortada ≥ 70 %; la conjunta sale de la simulación y se reco
 | 14:45 | Polonia - Suecia | Goles visitante Más 0.5 + Córners Más 6.5 | 1,56 | 59 % | 60 % | 48 % | Goles Suecia Más 0.5 |
 | 14:45 | Gales - Portugal | Tarjetas visitante Más 0.5 + Goles Menos 4.0 | 1,64 | 49 % | 59 % | 47 % | Goles Menos 4.0 |
 | 14:45 | Hungría - Irlanda del Norte | Goles visitante Menos 1.5 + Tiros al arco visitante Más 1.5 | 1,50 | 58 % | 58 % | 47 % | Tiros al arco Irlanda del Norte Más 1.5 |
-| 14:45 | Dinamarca - Noruega | Córners visitante Menos 6.5 + Goles local Menos 2.5 | 1,65 | 56 % | 57 % | 46 % | Goles Dinamarca Menos 2.5 |
+| 14:45 | Dinamarca - Noruega | Goles local Menos 2.5 + Córners visitante Menos 6.5 | 1,72 | 55 % | 56 % | 45 % | Córners Noruega Menos 6.5 |
 
 Familias fuera de las combinadas por alerta del modelo: Bosnia y Herzegovina - Rumanía (sin patas de córners); Hungría - Irlanda del Norte (sin patas de córners); Irlanda - Kosovo (sin patas de córners); Israel - Austria (sin patas de córners).
 
@@ -127,7 +124,7 @@ Irlanda - Kosovo: Goles visitante Menos 1.5 + Bosnia y Herzegovina - Rumanía: G
 | 08:00 | Malaui - Egipto | – · – · – | Gr. B: 1.Egipto 7 · 2.Angola 7 · 3.Malaui 3 · 4.Sudán del Sur 0 (3 PJ) | Sin anunciar. Sin promedio de tarjetas ni de faltas: no se recolectó. | sin alineación | 0 | – |
 | 08:00 | Tanzania - Nigeria | – · – · – | Gr. L: 1.Guinea-Bisáu 7 · 2.Nigeria 6 · 3.Madagascar 2 · 4.Tanzania 1 (3 PJ) | Athoumani M. | sin alineación | 0 | – |
 | 14:45 | Bosnia y Herzegovina - Rumanía | 47 % · 25 % · 28 % | B4: 1.Suecia 13 · 2.Bosnia 8 · 3.Polonia 4 · 4.Rumanía 3 (5 PJ) | Sanchez J. | probable | 13 | Córners |
-| 14:45 | Dinamarca - Noruega | 42 % · 24 % · 35 % | A4: 1.Portugal 12 · 2.Dinamarca 9 · 3.Noruega 6 · 4.Gales 3 (5 PJ) | Meler H. U. | probable | 35 | Saques de banda |
+| 14:45 | Dinamarca - Noruega | 36 % · 24 % · 40 % | A4: 1.Portugal 12 · 2.Dinamarca 9 · 3.Noruega 6 · 4.Gales 3 (5 PJ) | Meler H. U. | probable | 36 | Saques de banda |
 | 14:45 | Gales - Portugal | 12 % · 19 % · 70 % | A4: 1.Portugal 12 · 2.Dinamarca 9 · 3.Noruega 6 · 4.Gales 3 (5 PJ) | Jablonski S. | probable | 41 | Saques de banda |
 | 14:45 | Hungría - Irlanda del Norte | 50 % · 28 % · 21 % | B2: 1.Irl. Norte 11 · 2.Hungría 10 · 3.Ucrania 4 · 4.Georgia 2 (5 PJ) | Guida M. | probable | 13 | Córners |
 | 14:45 | Irlanda - Kosovo | 46 % · 31 % · 24 % | B3: 1.Austria 11 · 2.Kosovo 6 · 3.Irlanda 5 · 4.Israel 3 (5 PJ) | Malcevs E. | probable | 16 | Córners |

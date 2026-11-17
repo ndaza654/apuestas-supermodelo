@@ -4,7 +4,7 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 
 | # | Partido | Situación | Estado | Córners (datos · cumplen) | Partido (datos · cumplen) | Jugadores (datos · cumplen) | Motivo |
 |---|---|---|---|---|---|---|---|
-| 1 | Dinamarca - Noruega | 74 | apto | apto (100 · 4) | apto (96 · 9) | apto (80 · 9) |  |
+| 1 | Dinamarca - Noruega | 74 | apto | apto (100 · 4) | apto (96 · 8) | apto (89 · 12) |  |
 | 2 | Irlanda - Kosovo | 59 | apto | apto (100 · 2) | apto (80 · 8) | apto (78 · 2) |  |
 | 3 | Hungría - Irlanda del Norte | 72 | apto | apto (100 · 2) | apto (90 · 4) | apto (80 · 5) |  |
 | 4 | Bosnia y Herzegovina - Rumanía | 57 | apto | apto (100 · 1) | apto (90 · 7) | apto (80 · 2) |  |
@@ -19,9 +19,9 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 | 13 | Tanzania - Nigeria | sin leer | no ofrece | no lo ofrece | no lo ofrece | no lo ofrece | situación sin leer; córners: Betano no lo ofrece; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
 
 ## Dinamarca - Noruega (UEFA Liga de Naciones)
-Datos 92 · Situación 74 · por mercado: {'Córners': 4, 'Faltas': 1, 'Fueras de juego': 1, 'Remates': 2, 'Tiros al arco': 2, 'Goles': 3}
+Datos 95 · Situación 74 · por mercado: {'Córners': 4, 'Faltas': 1, 'Fueras de juego': 1, 'Remates': 2, 'Tiros al arco': 1, 'Goles': 3}
 
-**Datos:** Córners: 26 líneas, muestra de 10 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 94% → 96 | Jugadores: 19 con línea, 63% con ≥7 partidos de historial, 100% titulares probables → 80 | Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)
+**Datos:** Córners: 28 líneas, muestra de 10 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 94% → 96 | Jugadores: 21 con línea, 77% con ≥7 partidos de historial, 100% titulares probables → 89 | Árbitro con promedio: 0 (sin dato); directos con estadística: 1 (0)
 
 **Situación:** +15 importancia alta; +10 un equipo necesita ganar; +5 partido parejo (según cuotas); -6 2 duda(s) abierta(s) en la ficha
 
