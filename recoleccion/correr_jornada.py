@@ -39,7 +39,11 @@ def main(argv):
         e = json.load(open(p, encoding='utf8'))
         nombre = f"{e['local']} - {e['visitante']}"
         FI.main(['ficha', p, os.path.join(base, 'fichas')])
-        if orden.get(nombre) in ('apto', 'reserva'):
+        bet = e.get('betano') or {}
+        # desde el 18-nov-2026 el modelo también corre en partidos «no aptos» para el ranking si Betano ofrece goles, resultado o ambos marcan
+        # (p. ej. Copa del Rey: solo goles, 1X2 y BTTS): el usuario analiza esos mercados en todos los partidos
+        marcador = any(l.get('mercado') == 'goles' for l in bet.get('lineas', [])) or any(u.get('mercado') in ('resultado', 'ambos') for u in bet.get('unicos', []))
+        if orden.get(nombre) in ('apto', 'reserva') or marcador:
             r = subprocess.run([sys.executable, '-m', 'supermodelo', os.path.abspath(p)], cwd=RAIZ, capture_output=True, text=True)
             for suf in ('_informe.md', '_informe.html', '_resultado.json'):
                 o = os.path.join(ent, k + suf)
