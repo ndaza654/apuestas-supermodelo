@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-18 | 11:30 | Análisis de la jornada (enfoque, sencillas, combinadas, ambos marcan y resultado, jugadores de Brasil) | 11 partidos (Brasil ×5, UWCL ×4, Copa del Rey ×2) | `entregas/2026-11-18/1130_analisis_jornada.md` · `1130_informe.html` |
 | 2026-11-17 | 16:58 | Balance del 17-nov: tus 8 boletos (neto −$40.561), líneas calificadas y lecciones | los 10 partidos terminados | entregas/2026-11-17/1658_balance-17nov.html |
 | 2026-11-17 | 16:25 | Lives: estado de las líneas enviadas al min 75 | los 8 de la Liga de Naciones (14:45) | entregas/2026-11-17/1625_lives-estado-min75.md |
 | 2026-11-17 | 16:10 | Lives 2º tiempo: tarjetas Menos, córners Georgia, goles Din–Nor | los 8 de la Liga de Naciones (14:45) | entregas/2026-11-17/1610_lives-segundo-tiempo-nations-league.md |
