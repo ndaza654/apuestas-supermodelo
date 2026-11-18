@@ -220,6 +220,63 @@ def ficha_jugadores(e):
             out.append({**base, 'cuota': lin.get('cuota') or (lin.get('escalera') or {}).get('1'), 'reg': reg(x, len(jugados))})
     return out
 
+
+# ---------- ambos marcan y resultado (1X2, doble oportunidad) ----------
+# Desde el 18-nov-2026: el usuario pidió analizarlos como cualquier otro mercado. Se cuenta, en los últimos N partidos de CADA equipo
+# (cualquier sede) y en los directos, cuántas veces pasó lo que pide la selección; `g` de la forma = [goles del equipo, goles del rival].
+# «cumple» = ambos equipos ≥ CUMPLE de N (mismo umbral que los demás mercados). No hay esperado/colchón: la lectura numérica es la p del modelo.
+def _gs(partidos, n=None):
+    out = []
+    for m in (partidos or [])[:n]:
+        g = m.get('g') or (m.get('stats') or {}).get('g')   # la forma nueva trae g arriba; la de antes del 18-nov, dentro de stats
+        if g and len(g) == 2 and g[0] is not None and g[1] is not None:
+            out.append((int(g[0]), int(g[1])))
+    return out
+
+# selección -> (qué debe cumplir el LOCAL de hoy, qué debe cumplir el VISITANTE de hoy), cada uno sobre (goles propios, goles rival)
+RESULTADO_SEL = {
+    '1':  (lambda a, b: a > b,  lambda a, b: a < b),
+    'X':  (lambda a, b: a == b, lambda a, b: a == b),
+    '2':  (lambda a, b: a < b,  lambda a, b: a > b),
+    '1X': (lambda a, b: a >= b, lambda a, b: a <= b),
+    'X2': (lambda a, b: a <= b, lambda a, b: a >= b),
+    '12': (lambda a, b: a != b, lambda a, b: a != b),
+}
+AMBOS_SEL = {'si': lambda a, b: a > 0 and b > 0, 'no': lambda a, b: a == 0 or b == 0}
+
+def _fila_cond(cond_l, cond_v, gl, gv, gh, cuota, extra=None):
+    """Regularidad de una selección: local sobre sus partidos, visitante sobre los suyos, directos desde el punto de vista del local de hoy."""
+    rl = reg(sum(1 for a, b in gl if cond_l(a, b)), len(gl))
+    rv = reg(sum(1 for a, b in gv if cond_v(a, b)), len(gv))
+    rh = reg(sum(1 for a, b in gh if cond_l(a, b)), len(gh)) if gh else None
+    return {'cuota': cuota, 'colchon': None, 'reg_local': rl, 'reg_visitante': rv, 'directos': rh, 'cumple': bool(rl['cumple'] and rv['cumple']), **(extra or {})}
+
+def ficha_resultados(e):
+    F = e.get('ficha') or {}
+    forma = F.get('forma') or {}
+    gl, gv = _gs(forma.get('local'), N), _gs(forma.get('visitante'), N)
+    gh = _gs(F.get('h2h'), N_H2H)
+    un = {u.get('mercado'): u.get('opciones') or {} for u in (e.get('betano') or {}).get('unicos', []) if u.get('mercado') in ('ambos', 'resultado')}
+    res = {'n_local': len(gl), 'n_visitante': len(gv), 'n_directos': len(gh),
+           'nota': 'Mercados de una sola cuota: sin línea ni colchón. «L»/«V» = veces que el local/visitante de hoy vivió eso en sus últimos partidos '
+                   '(1 = el local ganó y el visitante perdió; X = ambos empataron; BTTS Sí = marcaron los dos equipos del partido). '
+                   'Los goles son del partido completo.'}
+    if not gl or not gv:
+        res['aviso'] = 'sin goles suficientes en los últimos partidos'
+    for clave, tabla in (('ambos', AMBOS_SEL), ('resultado', RESULTADO_SEL)):
+        filas = []
+        for sel, cuota in (un.get(clave) or {}).items():
+            if sel not in tabla or cuota is None:
+                continue
+            cond = tabla[sel]
+            cl, cv = (cond, cond) if clave == 'ambos' else cond
+            if gl and gv:
+                filas.append({'seleccion': sel, **_fila_cond(cl, cv, gl, gv, gh, cuota)})
+            else:
+                filas.append({'seleccion': sel, 'cuota': cuota, 'nota': 'sin muestra'})
+        res[clave] = filas
+    return res
+
 # ---------- contexto para los criterios que se juzgan (no se calculan) ----------
 def contexto(e):
     F = e.get('ficha') or {}
@@ -245,6 +302,7 @@ def construir(e):
             'partido': {m: ficha_estadistica(e, m) for m in GRUPOS['partido']},
             'goles': ficha_estadistica(e, 'goles'),
             'tarjetas': ficha_estadistica(e, 'tarjetas'),
+            'resultados': ficha_resultados(e),
             'jugadores': ficha_jugadores(e),
             'contexto': contexto(e)}
 
@@ -279,6 +337,23 @@ def md_estadistica(r):
             L.append(f"| {f['linea']} | {_celda(f.get('mas'))} | {_celda(f.get('menos'))} |")
     L.append('')
     return '\n'.join(L)
+
+def md_resultados(r):
+    L = ['## Ambos marcan y resultado (1X2 / doble oportunidad)', '', f"_{r['nota']}_"]
+    if r.get('aviso'):
+        return '\n'.join(L + [f"_{r['aviso']}_", ''])
+    L.append(f"Muestra: local {r['n_local']}, visitante {r['n_visitante']}, directos {r['n_directos']}.")
+    for clave, tit in (('ambos', 'Ambos marcan'), ('resultado', 'Resultado del partido')):
+        if not r.get(clave):
+            continue
+        L += ['', f'**{tit}**', '', '| Selección | Cuota | Local | Visitante | Directos | Cumple |', '|---|---|---|---|---|---|']
+        for f in r[clave]:
+            if 'reg_local' not in f:
+                L.append(f"| {f['seleccion']} | {f['cuota']} | — | — | — | {f.get('nota')} |")
+                continue
+            d = f.get('directos')
+            L.append(f"| {f['seleccion']} | {f['cuota']} | {f['reg_local']['txt']} | {f['reg_visitante']['txt']} | {d['txt'] if d else '—'} | {'✓' if f['cumple'] else ''} |")
+    return '\n'.join(L + [''])
 
 def md_jugadores(lst):
     L = ['## Jugadores (solo líneas que cumplen la regularidad; el JSON trae todas)', '',
@@ -330,6 +405,7 @@ def markdown(F):
         L.append(md_estadistica(F['partido'][m]))
     L += ['## Goles y tarjetas (también entran en el resumen y en el análisis; detalle para los agentes goles-resultado y tarjetas)', '',
           md_estadistica(F['goles']), md_estadistica(F['tarjetas'])]
+    L.append(md_resultados(F['resultados']))
     L.append(md_jugadores(F['jugadores']))
     c = F['contexto']
     L += ['## Contexto para juzgar los criterios no numéricos', '', f"- Árbitro: {c['arbitro']}; derbi: {c['derbi']}; importancia: {c['importancia']}; clima: {c['clima']}",

@@ -106,4 +106,27 @@ with tempfile.TemporaryDirectory() as td:
     _j.dump(eg, open(os.path.join(td, 'a.json'), 'w'))
     check(FI.muestra_de(td) == 7, 'muestra_de: lee el mayor número de partidos por equipo de las entradas')
 
+# ambos marcan y resultado (desde el 18-nov-2026): se cuentan en los últimos partidos de cada equipo, sin línea ni colchón
+FI.fijar_muestra(10)
+gl = [{'g': [2, 1]}] * 8 + [{'g': [0, 0]}] * 2          # local: ganó 8, empató 2; marcaron ambos en 8
+gv = [{'stats': {'g': [1, 2]}}] * 7 + [{'g': [1, 1]}] * 3  # visitante: perdió 7, empató 3; marcaron ambos en 10 (g dentro de stats o arriba)
+er = {'local': 'A', 'visitante': 'B', 'liga': 'X', 'fecha': '2026-01-01', 'ficha': {'forma': {'local': gl, 'visitante': gv}, 'h2h': [{'g': [2, 0]}, {'g': [1, 1]}]},
+      'betano': {'lineas': [], 'jugadores': [], 'unicos': [{'mercado': 'ambos', 'opciones': {'si': 1.8, 'no': 2.0}},
+                                                          {'mercado': 'resultado', 'opciones': {'1': 1.6, 'X': 4.0, '2': 5.0, '1X': 1.2, 'X2': 2.4, '12': 1.3}}]}}
+R = FI.construir(er)['resultados']
+fila = lambda m, s: [x for x in R[m] if x['seleccion'] == s][0]
+check(fila('ambos', 'si')['reg_local']['txt'] == '8 de 10' and fila('ambos', 'si')['reg_visitante']['txt'] == '10 de 10' and fila('ambos', 'si')['cumple'], 'ambos marcan Sí: cuenta cuántas veces marcaron los dos en cada equipo (g arriba o dentro de stats)')
+check(fila('ambos', 'no')['reg_local']['txt'] == '2 de 10' and not fila('ambos', 'no')['cumple'], 'ambos marcan No: lo contrario, no cumple con 2 de 10')
+check(fila('resultado', '1')['reg_local']['txt'] == '8 de 10' and fila('resultado', '1')['reg_visitante']['txt'] == '7 de 10' and fila('resultado', '1')['cumple'], 'resultado 1: el local ganó y el visitante perdió')
+check(fila('resultado', 'X')['reg_local']['txt'] == '2 de 10' and fila('resultado', 'X')['reg_visitante']['txt'] == '3 de 10' and not fila('resultado', 'X')['cumple'], 'resultado X: empates de cada equipo')
+check(fila('resultado', '12')['reg_local']['txt'] == '8 de 10' and fila('resultado', '12')['reg_visitante']['txt'] == '7 de 10', '12 = sin empate')
+check(fila('resultado', '1X')['reg_local']['txt'] == '10 de 10' and fila('resultado', '1X')['directos']['txt'] == '2 de 2', '1X: el local no perdió; directos desde el local de hoy')
+check(len(R['resultado']) == 6 and 'Sin línea' not in R['nota'] and 'colchón' in R['nota'], 'trae las 6 selecciones y avisa que no hay línea ni colchón')
+check('## Ambos marcan y resultado' in FI.markdown(FI.construir(er)), 'la ficha en Markdown incluye la sección')
+import registrar_jornada as RJ, calificar_lineas as CL
+filas_r = RJ.filas_de(FI.construir(er), None, '2026-01-01')
+check({(x['mercado'], x['lado']) for x in filas_r if x['mercado'] in ('ambos', 'resultado')} >= {('ambos', 'Sí'), ('ambos', 'No'), ('resultado', '1X')}, 'registro/lineas.csv recibe una fila por selección')
+check(CL.calificar_unico({'g': [2, 1]}, 'ambos', 'Sí')[0] == 'cumplió' and CL.calificar_unico({'g': [1, 1]}, 'resultado', '1')[0] == 'falló'
+      and CL.calificar_unico({'g': [1, 1]}, 'resultado', 'X2')[0] == 'cumplió' and CL.calificar_unico({}, 'ambos', 'Sí') == (None, None), 'calificación de ambos marcan y resultado con los goles del partido')
+
 print(f'\n{ok} pruebas de la ficha superadas')

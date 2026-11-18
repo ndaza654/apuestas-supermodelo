@@ -55,6 +55,21 @@ def calificar(v, linea, lado):
     return 'cumplió' if r > 0 else 'falló' if r < 0 else 'nula'
 
 
+def calificar_unico(res, mercado, lado):
+    """Ambos marcan (Sí/No) y resultado (1/X/2/1X/X2/12) con los goles del tiempo reglamentario `g`=[h,a]. None si falta el dato."""
+    if 'g' not in res:
+        return None, None
+    h, a = res['g']
+    if mercado == 'ambos':
+        ok = (h > 0 and a > 0) if lado == 'Sí' else (h == 0 or a == 0)
+    else:
+        r = '1' if h > a else ('2' if a > h else 'X')
+        ok = {'1': r == '1', 'X': r == 'X', '2': r == '2', '1X': r in '1X', 'X2': r in 'X2', '12': r != 'X'}.get(lado)
+        if ok is None:
+            return None, None
+    return ('cumplió' if ok else 'falló'), f'{h}-{a}'
+
+
 def main(jornada, ruta_res):
     res = json.load(open(ruta_res, encoding='utf8'))
     ruta = os.path.join(RAIZ, 'registro', 'lineas.csv')
@@ -67,6 +82,14 @@ def main(jornada, ruta_res):
         if r['jornada'] != jornada or r['mercado'].startswith('jugador') or r['partido'] not in res:
             continue
         R = res[r['partido']]
+        if r['mercado'] in ('ambos', 'resultado'):       # una sola cuota por selección (desde el 18-nov-2026)
+            cal, marc = calificar_unico(R, r['mercado'], r['lado'])
+            if cal:
+                r['resultado'] = cal
+                r['nota'] = ((r['nota'] + ' · ') if r['nota'] and 'valor real' not in r['nota'] else '') + f'valor real {marc} ({R.get("fuente", "")})'
+                n += 1
+                g += cal == 'cumplió'
+            continue
         v = valor(R, r['mercado'], r['ambito'])
         try:
             linea = float(r['linea'])

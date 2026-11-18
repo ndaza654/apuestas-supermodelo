@@ -20,8 +20,9 @@ NOTAS (jornadas/<día>/notas/<clave>.json), todos los campos opcionales:
 import os, sys, json, glob
 
 MERC = ['corners', 'goles', 'tarjetas', 'remates', 'al_arco', 'faltas', 'fueras', 'saques_banda', 'saques_meta']
+UNICOS = ['ambos', 'resultado']   # una sola cuota por selección (desde el 18-nov-2026); salen de ficha['resultados']
 NOM = {'corners': 'córners', 'goles': 'goles', 'tarjetas': 'tarjetas', 'remates': 'remates', 'al_arco': 'tiros al arco', 'faltas': 'faltas',
-       'fueras': 'fueras de juego', 'saques_banda': 'saques de banda', 'saques_meta': 'saques de meta'}
+       'fueras': 'fueras de juego', 'saques_banda': 'saques de banda', 'saques_meta': 'saques de meta', 'ambos': 'ambos marcan', 'resultado': 'resultado'}
 
 
 def _j(p):
@@ -105,6 +106,63 @@ def factores_datos(fm, m, loc, vis):
             out.append(['+', f"En sus {len(d)} directos recientes hubo {n1(md)} de promedio."])
         elif md <= L - 1:
             out.append(['-', f"En sus {len(d)} directos recientes hubo solo {n1(md)} de promedio."])
+    return out
+
+
+def _x(R, clave, sel, lado):
+    """(x, n) de la regularidad guardada en ficha['resultados'][clave] para la selección; lado = 'reg_local' | 'reg_visitante' | 'directos'."""
+    for f in (R or {}).get(clave) or []:
+        if f.get('seleccion') == sel and f.get(lado):
+            return f[lado]['x'], f[lado]['n']
+    return None
+
+
+def factores_unicos(N, m, loc, vis, F):
+    """Factores de «ambos marcan» y «resultado»: datos de la ficha (cuántas veces pasó en los últimos partidos de cada equipo) + situación."""
+    out = []
+    R = F.get('resultados') or {}
+    N = N or {}
+    sl, sv = N.get('local') or {}, N.get('visitante') or {}
+    dec = N.get('decisivo') or N.get('importancia') == 'alta'
+    if m == 'ambos':
+        a, b = _x(R, 'ambos', 'si', 'reg_local'), _x(R, 'ambos', 'si', 'reg_visitante')
+        if a and b:
+            for eq, (x, n) in ((loc, a), (vis, b)):
+                if n and x / n >= 0.7:
+                    out.append(['+', f"En {x} de sus últimos {n} partidos de {eq} marcaron los dos equipos."])
+                elif n and x / n <= 0.4:
+                    out.append(['-', f"En solo {x} de sus últimos {n} partidos de {eq} marcaron los dos equipos."])
+        d = _x(R, 'ambos', 'si', 'directos')
+        if d and d[1] >= 2:
+            out.append(['+' if d[0] / d[1] >= 0.6 else '-' if d[0] / d[1] <= 0.34 else '=', f"En los directos: marcaron ambos en {d[0]} de {d[1]}."])
+        for eq, s in ((loc, sl), (vis, sv)):
+            if s.get('necesita_ganar'):
+                out.append(['+', f"{eq} necesita ganar: si no va por delante, el partido se abre y el rival encuentra espacios."])
+            if s.get('le_sirve_empate'):
+                out.append(['-', f"A {eq} le sirve el empate: puede cerrarse y dejar a uno en cero."])
+            if s.get('rotacion'):
+                out.append(['=', f"{eq} rota titulares: sus promedios se hicieron con otro once."])
+        if dec:
+            out.append(['-', "Partido decisivo: los primeros tiempos suelen ser más cerrados; el «sí» llega tarde."])
+    elif m == 'resultado':
+        gl, gv = _x(R, 'resultado', '1', 'reg_local'), _x(R, 'resultado', '2', 'reg_visitante')
+        if gl and gv:
+            out.append(['=', f"{loc} ganó {gl[0]} de sus últimos {gl[1]}; {vis} ganó {gv[0]} de sus últimos {gv[1]}."])
+        el, ev = _x(R, 'resultado', 'X', 'reg_local'), _x(R, 'resultado', 'X', 'reg_visitante')
+        if el and ev:
+            out.append(['=', f"Empates: {loc} {el[0]} de {el[1]}, {vis} {ev[0]} de {ev[1]}."])
+        d = _x(R, 'resultado', '1', 'directos'), _x(R, 'resultado', '2', 'directos'), _x(R, 'resultado', 'X', 'directos')
+        if all(d) and d[0][1] >= 2:
+            out.append(['=', f"En los {d[0][1]} directos: {loc} ganó {d[0][0]}, {vis} ganó {d[1][0]}, empates {d[2][0]}."])
+        for eq, s in ((loc, sl), (vis, sv)):
+            if s.get('necesita_ganar'):
+                out.append(['+', f"{eq} necesita ganar: va a por el partido (favorece la victoria suya y el «sin empate»)."])
+            if s.get('le_sirve_empate'):
+                out.append(['+', f"A {eq} le sirve el empate: sube el peso del empate y de la doble oportunidad a su favor."])
+            if s.get('rotacion'):
+                out.append(['-', f"{eq} rota titulares: baja su nivel esperado contra lo que dicen los últimos partidos."])
+        if N.get('derbi'):
+            out.append(['=', "Es un clásico o derbi: la forma pesa menos y el empate gana peso."])
     return out
 
 
@@ -215,6 +273,9 @@ def contexto_de(base, clave):
         if m == 'tarjetas':
             fs.append(['=', 'La serie solo cuenta amarillas; Betano cuenta puntos (roja = 2).'])
         mercados[m] = fs
+    for m in UNICOS:
+        if (F.get('resultados') or {}).get(m):
+            mercados[m] = factores_unicos(N, m, loc, vis, F)
     return {'partido': part, 'mercados': mercados, 'con_notas': bool(N), 'falta': falta, 'fuentes': N.get('fuentes') or [],
             'criterios': 'Reglas generales de tipsters y medios, sin resultados verificados: orientan, no prueban.'}
 

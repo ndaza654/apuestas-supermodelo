@@ -50,7 +50,10 @@ DISCREPANCIA_HIST = 0.10  # diferencia entre p histórica y p recortada a partir
 MISMA_HISTORIA = {'remates': 'tiros', 'al_arco': 'tiros'}
 AMBITOS = ('total', 'local', 'visitante')
 NOMBRE = {'corners': 'Córners', 'goles': 'Goles', 'tarjetas': 'Tarjetas', 'al_arco': 'Tiros al arco', 'remates': 'Remates', 'faltas': 'Faltas',
-          'fueras': 'Fueras de juego', 'saques_meta': 'Saques de meta', 'saques_banda': 'Saques de banda'}
+          'fueras': 'Fueras de juego', 'saques_meta': 'Saques de meta', 'saques_banda': 'Saques de banda',
+          'ambos': 'Ambos marcan', 'resultado': 'Resultado'}
+UNICOS = ('ambos', 'resultado')   # mercados de una sola cuota por selección (sin línea): desde el 18-nov-2026 entran como cualquier otro
+SEL_UNICO = {'Sí': 'si', 'No': 'no'}   # el resto (1, X, 2, 1X, X2, 12) se usa tal cual
 BANDAS = [(0, 1.30, 'cuota < 1,30'), (1.30, 1.50, 'cuota 1,30–1,49'), (1.50, 2.00, 'cuota 1,50–1,99'), (2.00, 99, 'cuota ≥ 2,00')]
 
 
@@ -147,6 +150,12 @@ def recorte(REAL, mercado, lado, cuota):
 
 # ---------------------------------------------------------------------------------------------- líneas de la jornada
 def texto(r):
+    if r['mercado'] in UNICOS:
+        if r['mercado'] == 'ambos':
+            return f"Ambos marcan: {r['lado']}"
+        loc, _, vis = r['partido'].partition(' - ')
+        return 'Resultado: ' + {'1': f'gana {loc}', 'X': 'empate', '2': f'gana {vis}', '1X': f'{loc} o empate', 'X2': f'{vis} o empate',
+                                '12': 'gana alguno (sin empate)'}.get(r['lado'], r['lado'])
     amb = '' if r['ambito'] == 'total' else (' ' + r['ambito'])
     return f"{NOMBRE.get(r['mercado'], r['mercado'])}{amb} {r['lado']} {r['linea']}"
 
@@ -249,7 +258,8 @@ def combinadas(base, prot, alertas_partido):
         S = A.pop('_S')
         mejores = []
         for a, b in pares:
-            sel = [{'mercado': x['mercado'], 'ambito': x['ambito'], 'linea': x['linea'], 'lado': 'mas' if x['lado'] == 'Más' else 'menos'} for x in (a, b)]
+            sel = [{'mercado': x['mercado'], 'lado': SEL_UNICO.get(x['lado'], x['lado'])} if x['mercado'] in UNICOS else
+                   {'mercado': x['mercado'], 'ambito': x['ambito'], 'linea': x['linea'], 'lado': 'mas' if x['lado'] == 'Más' else 'menos'} for x in (a, b)]
             r = CB.evaluar(A, S, sel)
             if r.get('error'):
                 continue

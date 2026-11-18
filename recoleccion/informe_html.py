@@ -236,7 +236,7 @@ function vRes(){
  $('#app').onclick=e=>{const a=e.target.dataset.add,p=e.target.dataset.p;if(a!=null){add(+a)}if(p!=null){Fil.l={p:+p};TAB='l';draw()}}}
 function add(i){if(!CUP.includes(i)){CUP.push(i);nav()}}
 /* Pestaña «Análisis»: enfoque de mercados, «real hasta hoy» y sugerencias con las reglas de la auditoría (analisis_jornada.py) */
-const NM={corners:'Córners',goles:'Goles',tarjetas:'Tarjetas',al_arco:'Tiros al arco',remates:'Remates',faltas:'Faltas',fueras:'Fueras de juego',saques_meta:'Saques de meta',saques_banda:'Saques de banda'};
+const NM={corners:'Córners',goles:'Goles',tarjetas:'Tarjetas',al_arco:'Tiros al arco',remates:'Remates',faltas:'Faltas',fueras:'Fueras de juego',saques_meta:'Saques de meta',saques_banda:'Saques de banda',ambos:'Ambos marcan',resultado:'Resultado'};
 const hh=s=>(s||'').slice(11,16);
 function vAna(){const A=D.A,R=A.real,g=R.global_cumple;
  const rt=(o,f)=>Object.entries(o).map(([k,v])=>`<tr><td>${esc(f?f(k):k)}</td><td class="n">${v.n}</td><td class="n">${v.aciertos}</td><td class="n ${v.real!=null&&v.dicho!=null&&v.real<v.dicho-0.03?'bad':'ok'}">${pct(v.real)}</td><td class="n">${pct(v.dicho)}</td>${v.factor!=null?`<td class="n">× ${(+v.factor).toFixed(2)}</td>`:'<td></td>'}</tr>`).join('');

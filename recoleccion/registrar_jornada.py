@@ -66,6 +66,21 @@ def filas_de(ficha, informe, jornada):
                     f['nota'] = c.get('nota') or l.get('nota') or 'sin estadística por tiempo'
                 f.update(_p(M.get((m, l['ambito'], l['linea'], lado))))
                 out.append(f)
+    # ambos marcan y resultado (desde el 18-nov-2026): una cuota por selección, sin línea ni colchón; lado = Sí/No o 1/X/2/1X/X2/12
+    for m in ('ambos', 'resultado'):
+        for r in (ficha.get('resultados') or {}).get(m, []):
+            if r.get('cuota') is None:
+                continue
+            lado = {'si': 'Sí', 'no': 'No'}.get(r['seleccion'], r['seleccion'])
+            f = {**base, 'mercado': m, 'ambito': 'total', 'linea': '', 'lado': lado, 'cuota': r['cuota']}
+            if 'reg_local' in r:
+                d = r.get('directos')
+                f.update(reg_local=r['reg_local']['txt'], reg_visitante=r['reg_visitante']['txt'], directos=d['txt'] if d else '',
+                         cumple_ficha='sí' if r['cumple'] else 'no')
+            else:
+                f['nota'] = r.get('nota') or 'sin muestra'
+            f.update(_p(M.get((m, None, None, r['seleccion']))))
+            out.append(f)
     for j in ficha.get('jugadores', []):
         filas = j.get('escalones') or [{'minimo': 1, 'cuota': j.get('cuota'), 'reg': j.get('reg'), 'colchon': None}]
         for s in filas:

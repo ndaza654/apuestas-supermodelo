@@ -177,7 +177,7 @@ def construir(jornadas=None):
             for k, v in jug_resultado(fp, nm).items():
                 JR[k] = v
     # líneas
-    L, Jg = [], []
+    L, Jg, U = [], [], {}
     for r in filas:
         i = idx[(r['jornada'], r['partido'])]
         rs = RS.get(r['resultado'], '')
@@ -185,9 +185,14 @@ def construir(jornadas=None):
         if r['mercado'].startswith('jugador:'):
             Jg.append([i, r['mercado'][8:], r['jugador'], 'L' if r['ambito'] == 'local' else 'V', f(r['titular']), f(r['linea']), r['lado'], f(r['cuota']), f(r['p_modelo']), f(r['p_mercado']),
                        f(r['ev_modelo']), f(r['esperado']), f(r['colchon']), rs, real(r['nota']), f(r['stake'], 0), r['cumple_ficha'][:40]])
+        elif r['mercado'] in ('ambos', 'resultado'):      # una sola cuota por selección (desde el 18-nov-2026): tarjeta propia en el Resumen del partido
+            U.setdefault(i, []).append([r['mercado'], r['lado'], f(r['cuota']), r['reg_local'], r['reg_visitante'], r['directos'], f(r['p_modelo']), f(r['p_mercado']),
+                                        f(r['ev_modelo']), cf, rs, real(r['nota'])])
         elif r['mercado'] in STAT and r['lado'] in ('Más', 'Menos') and r['linea'] != '':
             L.append([i, r['mercado'], r['ambito'], r['lado'], f(r['linea']), f(r['cuota']), f(r['esperado']), f(r['colchon']), f(r['p_modelo']), f(r['p_mercado']), f(r['ev_modelo']),
                       rs, real(r['nota']), f(r['stake'], 0), f(r['cuota_cierre']), cf, r['alerta_modelo'], r['cuotas_leidas'][:16]])
+    for i, rows in U.items():
+        P[i]['u'] = rows
     # boletos
     bol = {}
     HLIB = {}
