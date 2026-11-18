@@ -69,9 +69,13 @@ async function extraerBetano(slug, id) {
     return { mercado: stat, ambito: ini || periodo || 'total' };
   }
   const lineas = new Map();                                             // clave mercado|ambito → Map(linea → {mas,menos})
+  // 18-nov: en los partidos de Brasil (y otros) Betano ya no manda las líneas Más/Menos en `m.selections` sino en la tabla
+  // (`m.tableLayout.rows[].groupSelections[].selections`, layoutType 6). Se lee de donde estén.
+  const selsDe = m => (m.selections && m.selections.length) ? m.selections
+    : ((m.tableLayout && m.tableLayout.rows) || []).flatMap(rw => (rw.groupSelections || []).flatMap(g => g.selections || []));
   for (const m of ms) {
     const c = clasificar(m.name); if (!c) continue;
-    for (const s of m.selections || []) {
+    for (const s of selsDe(m)) {
       const mm = norm(s.name).match(/^(mas|menos)( de)? ([\d.]+)$/); if (!mm) continue;
       const clave = c.mercado + '|' + c.ambito, h = parseFloat(mm[3]);
       if (!lineas.has(clave)) lineas.set(clave, new Map());
