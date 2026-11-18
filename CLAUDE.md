@@ -78,6 +78,15 @@ Cuando el usuario pida un balance (de un día o de varios):
 5. Guardar la copia del informe según la regla de Entregas (`entregas/`), commit y push.
 Las conclusiones sobre los filtros/criterios de tipsters se sacan en estos balances, no antes.
 
+## Ambos marcan y resultado del partido (desde el 18-nov-2026, vale para CUALQUIER chat, cuenta o sesión)
+El usuario pidió que **«ambos marcan» (BTTS) y «resultado: quién gana» (1, X, 2) y la doble oportunidad (1X, X2, 12)** se analicen como cualquier otro mercado de goles; antes el modelo los calculaba pero no salían en la ficha, en `registro/lineas.csv`, en el análisis ni en la calificación.
+- **Recolección:** salen del mismo Betano (`unicos`: `ambos`, `resultado`); en todos los partidos que se recolectan, también los que solo traen goles/córners/tarjetas, se lee y se guarda esto.
+- **Ficha** (`ficha.ficha_resultados`, sección «Ambos marcan y resultado»): sin línea ni colchón; regularidad «X de 10» por equipo (cuántas veces de sus últimos 10 pasó lo que pide la selección: BTTS Sí = marcaron los dos; 1 = el local ganó y el visitante perdió; X = ambos empataron; 1X, X2 y 12 igual) + directos. «Cumple» = ambos equipos ≥ 7 de 10. Los goles son del partido completo.
+- **Registro:** filas con `mercado` = `ambos` o `resultado`, `ámbito` = `total`, `línea` vacía, `lado` = Sí/No o 1/X/2/1X/X2/12, con la p del modelo y el EV. `calificar_lineas.py` los califica con el marcador (`g`) del resultado.
+- **Análisis:** entran en candidatas, sugerencias y combinadas (`analisis_jornada.py`; la simulación del modelo mide la correlación con goles). No tienen «tasa histórica» (el backtest no los midió): `hist_sem` sale «sin dato». El «real hasta hoy» usa el factor global hasta tener líneas calificadas.
+- **Dashboard:** Partido → Resumen, tarjeta «Ambos marcan y resultado» con contexto a favor/en contra (`contexto_mercado.factores_unicos`).
+- **Betano (formato del 18-nov):** las líneas Más/Menos pasaron a `m.tableLayout.rows[].groupSelections[].selections`; `betano_extraer.js` lo lee con `selsDe`. Si una jornada sale con `lineas=0`, es esto.
+
 ## Contexto de la sesión (que no se llene)
 - Una sesión por jornada. Empezar leyendo `jornadas/AAAA-MM-DD/ranking.md` y `ESTADO.md`; la ficha de un partido solo cuando se va a analizar. No abrir los JSON crudos de `flashscore/` ni `betano/`.
 - Los agentes escriben su detalle en archivos (`jornadas/AAAA-MM-DD/agentes/<partido>_<agente>.md`) y devuelven al chat solo un resumen corto (las 5 mejores líneas y los límites).
