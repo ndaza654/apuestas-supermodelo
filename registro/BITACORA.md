@@ -272,3 +272,11 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Sugerencias del informe: 28 de 41 sencillas cumplidas, 3 pendientes. Mis picks en vivo (16 líneas añadidas a `registro/sugerencias.csv`): «Menos tarjetas» 3/7; córners/goles 5/6.
 - Límites: Flashscore no trae faltas recibidas ni las entradas totales de Betano; los porteros de Rumanía, Austria, Suecia e Irlanda del Norte no vinieron en Flashscore; 2 boletos viejos sin fecha de partido verificada; la cuota 2,02 de «Polonia córners Más 2.5» se transcribió tal cual.
 - Archivos: `jornadas/2026-11-17/balance/` (boletos_betano.json, patas_calificadas.json, pendientes.json, balance.html), `jornadas/2026-11-17/resultados/` (resultados_1650.json, jugadores_resultado.txt), libro (hojas «Boletos 17-nov», «Líneas 17-nov», «Sugeridas 17-nov» y 3 lecciones).
+
+## 18-nov-2026 ~22:35 · balance adelantado del miércoles (sin boletos)
+- Resultados por investigación web (sin navegador del PC): marcadores de los 11 partidos y estadísticas de equipo parciales en `jornadas/2026-11-18/resultados/resultados_2232.json`.
+- Líneas de equipo: 1.446 con resultado; con «cumple» 205/243 (84 %), sin cumplir 506/1.203 (42 %); a igual p del modelo la diferencia es pequeña. Modelo calibrado (27/26, 55/51, 65/64, 75/75, 89/91).
+- Sugerencias del informe: 54 se dieron, 17 no, 40 pendientes. Sencillas 1,50–1,99: 7 de 11 con dato. Combinadas mismo partido 2 de 3.
+- Límites: sin tus boletos; sin estadística por jugador (solo Kaio Jorge); datos de una sola fuente en Flamengo–Athletico, Corinthians–Botafogo, Häcken–City.
+- Archivos: `jornadas/2026-11-18/balance/` (balance.html, pendientes.json), `entregas/2026-11-18/2234_balance-adelantado.md`.
+

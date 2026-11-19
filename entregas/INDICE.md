@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-18 | 22:34 | Balance adelantado del 18-nov (líneas y sugerencias calificadas; sin boletos) | los 11 partidos | `entregas/2026-11-18/2234_balance-adelantado.md` · `2234_balance-adelantado.html` |
 | 2026-11-18 | 17:25 | Bet Builder de 3 patas ≥1,50, total ≈5 (3 opciones) | Cruzeiro–Palmeiras | `entregas/2026-11-18/1725_bb5_cruzeiro-palmeiras.md` |
 | 2026-11-18 | 17:19 | Bet Builder Cruzeiro–Palmeiras (3 opciones) | Cruzeiro–Palmeiras | `entregas/2026-11-18/1719_bb_cruzeiro-palmeiras.md` |
 | 2026-11-18 | 11:40 | Comparación de 3 videos de TikTok (PowerStats, Daniel Vega, Ingeniero analista) contra mi análisis | Flamengo–Athletico, Cruzeiro–Palmeiras, Grêmio–Bahia, Corinthians–Botafogo, Remo–Chapecoense | `entregas/2026-11-18/1140_comparacion_videos.md` |
