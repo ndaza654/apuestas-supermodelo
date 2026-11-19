@@ -291,7 +291,7 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 ## 2026-11-19 (mañana) · balance completo de la noche del 17 y del 18-nov
 - Boletos 115–124 leídos de Betano → Mis apuestas (marca ✓/✗ por selección): los 10 perdidos, apostado 88.939 COP, cobrado 0; 27 de 50 patas se dieron (54 %).
 - Resultados reales de Flashscore (feeds df_st/df_su + tablas de jugadores): líneas de equipo de los 17 partidos del 17 y 18-nov calificadas (17-nov 1.462 con resultado, 18-nov 2.448; 2 de Chelsea–PSG 1T sin dato); líneas de jugador 17-nov 3.003 y 18-nov 3.312 (Nations League, México–Jamaica, Brasil ×5 y Champions F ×4).
-- Medido: con «cumple ≥ 7 de 10» 79 % (194) el 17-nov y 83 % (403) el 18-nov, sin cumplir 44 % y 40 %. Sugerencias: 17-nov 32 de 48, 18-nov 84 de 115. Jugadores: el modelo daba 22–26 % y se dio 12–13 %.
+- Medido: con «cumple ≥ 7 de 10» 79 % (194) el 17-nov y 83 % (403) el 18-nov, sin cumplir 44 % y 40 %. Sugerencias: 17-nov 32 de 48, 18-nov 84 de 115. Jugadores: el modelo daba 22–26 % y se dio 13–14 %.
 - Sin tabla de jugadores en Flashscore: Atl. Nacional–Once Caldas, América de Cali–Inter, Utebo–Sabadell, Alcoyano–Mallorca. «anota» de los dos colombianos calificada con incidentes (5 ✓, 35 ✗ jugaron, 57 sin resultado porque no se sabe si jugaron).
 - Nuevo: `recoleccion/resultados_flashscore.py`, `recoleccion/jugadores_resultado_pj.py`, `recoleccion/calificar_anota_incidentes.py`, `recoleccion/libro_dia.py` (hojas del libro).
 - Libro: hojas «Boletos 17n-18», «Líneas 17-nov» y «Líneas 18-nov» (actualizadas), «Sugeridas 17-nov» y «Sugeridas 18-nov» (reconstruidas desde sugerencias.csv; los id de sugerencias.csv cambian al regenerar), 5 lecciones nuevas.
