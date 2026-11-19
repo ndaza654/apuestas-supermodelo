@@ -1,6 +1,6 @@
 # Informe de la jornada 2026-11-19
 
-Hecho: 2026-11-19 10:04 (Bogotá) · Cuotas: Betano, leídas 19-nov 07:51 a 19-nov 07:51 (Bogotá), sin releer · Muestra de 10 partidos por equipo: «cumple» = 7 de 10 en ambos (n mínimo 7) · 339 líneas de equipo cumplen. El informe interactivo es `informe.html`.
+Hecho: 2026-11-19 10:51 (Bogotá) · Cuotas: Betano, leídas 19-nov 07:51 a 19-nov 07:51 (Bogotá), sin releer · Muestra de 10 partidos por equipo: «cumple» = 7 de 10 en ambos (n mínimo 7) · 339 líneas de equipo cumplen. El informe interactivo es `informe.html`.
 
 ## Enfoque de mercados
 

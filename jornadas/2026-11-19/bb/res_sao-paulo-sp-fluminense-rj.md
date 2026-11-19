@@ -1,0 +1,28 @@
+# BB Boost · Sao Paulo SP - Fluminense RJ · 500 combos con precio real, 245 cumplen (≥3 patas, cada una ≥ 1.5, precio ≥ 5.0)
+Catálogo leído 2026-11-19T15:30:32.293Z (UTC). p = modelo (ajustada). EV informativo; el bono no está incluido.
+
+- p 0.213 (sim 0.224, stress 0.192) · precio BB **5.0** (producto 5.54) · EV +0.07 · Remates Menos 27.5 @1.57 + Tiros al arco Menos 8.5 @1.72 + Córners Fluminense RJ Más 4.5 @2.05 · frágil: Córners Fluminense RJ Más 4.5
+- p 0.205 (sim 0.207, stress 0.188) · precio BB **5.0** (producto 7.44) · EV +0.03 · Remates Menos 27.5 @1.57 + Goles 2.º tiempo Menos 1.5 @1.62 + Tarjetas Fluminense RJ Más 2.5 @1.7 + Tiros al arco Menos 8.5 @1.72 · frágil: Tiros al arco Menos 8.5
+- p 0.204 (sim 0.200, stress 0.180) · precio BB **5.1** (producto 5.95) · EV +0.04 · Saques de meta Sao Paulo SP Más 6.5 @1.5 + Remates Fluminense RJ Menos 12.5 @1.62 + Remates Menos 24.5 @2.45 · frágil: Remates Menos 24.5
+- p 0.204 (sim 0.205, stress 0.186) · precio BB **5.0** (producto 6.41) · EV +0.02 · Goles Sao Paulo SP Menos 1.5 @1.5 + Córners Menos 10.5 @1.6 + Fluminense RJ o empate @1.57 + Tarjetas Fluminense RJ Más 2.5 @1.7 · frágil: Tarjetas Fluminense RJ Más 2.5
+- p 0.200 (sim 0.204, stress 0.176) · precio BB **5.3** (producto 7.37) · EV +0.06 · Tiros al arco Menos 8.5 @1.72 + Saques de banda Sao Paulo SP Menos 18.5 @1.75 + Remates Menos 24.5 @2.45 · frágil: Remates Menos 24.5
+- p 0.198 (sim 0.196, stress 0.178) · precio BB **5.0** (producto 5.75) · EV -0.01 · Córners Menos 10.5 @1.6 + Remates Menos 26.5 @1.78 + Faltas Fluminense RJ Más 15.5 @2.02 · frágil: Faltas Fluminense RJ Más 15.5
+- p 0.197 (sim 0.198, stress 0.177) · precio BB **5.1** (producto 6.18) · EV +0.01 · Remates Sao Paulo SP Menos 14.5 @1.78 + Tiros al arco Menos 8.5 @1.72 + Faltas Fluminense RJ Más 15.5 @2.02 · frágil: Faltas Fluminense RJ Más 15.5
+- p 0.197 (sim 0.203, stress 0.173) · precio BB **5.5** (producto 6.75) · EV +0.08 · Ambos 2+ tarjetas: Sí @1.65 + Tiros al arco Sao Paulo SP Menos 4.5 @1.67 + Remates Menos 24.5 @2.45 · frágil: Remates Menos 24.5
+- p 0.197 (sim 0.204, stress 0.177) · precio BB **5.3** (producto 5.93) · EV +0.04 · Ambos 2+ tarjetas: Sí @1.65 + Remates Sao Paulo SP Menos 14.5 @1.78 + Córners Menos 9.5 @2.02 · frágil: Córners Menos 9.5
+- p 0.196 (sim 0.205, stress 0.176) · precio BB **5.2** (producto 5.62) · EV +0.02 · Goles 2.º tiempo Menos 1.5 @1.62 + Remates Sao Paulo SP Menos 14.5 @1.78 + Saques de banda Menos 36.5 @1.95 · frágil: Saques de banda Menos 36.5
+- p 0.196 (sim 0.196, stress 0.175) · precio BB **5.1** (producto 6.04) · EV +0.00 · Goles Sao Paulo SP Menos 1.5 @1.5 + Ambos marcan: No @1.9 + Tarjetas Más 5.5 @2.12 · frágil: Tarjetas Más 5.5
+- p 0.195 (sim 0.203, stress 0.175) · precio BB **5.1** (producto 5.28) · EV -0.00 · Goles 1.er tiempo Más 0.5 @1.5 + Córners Menos 10.5 @1.6 + Remates Sao Paulo SP Menos 13.5 @2.2 · frágil: Remates Sao Paulo SP Menos 13.5
+- p 0.195 (sim 0.212, stress 0.178) · precio BB **5.1** (producto 8.09) · EV -0.01 · Tarjetas Más 4.5 @1.62 + Ambos 2+ tarjetas: Sí @1.65 + Remates Sao Paulo SP Menos 14.5 @1.78 + Goles Menos 2.5 @1.7 · frágil: Goles Menos 2.5
+- p 0.194 (sim 0.197, stress 0.175) · precio BB **5.2** (producto 5.26) · EV +0.01 · Fluminense RJ o empate @1.57 + Tarjetas Más 4.5 @1.62 + Remates Menos 25.5 @2.07 · frágil: Remates Menos 25.5
+- p 0.194 (sim 0.203, stress 0.175) · precio BB **5.4** (producto 5.23) · EV +0.05 · Fluminense RJ o empate @1.57 + Ambos 2+ tarjetas: Sí @1.65 + Córners Menos 9.5 @2.02 · frágil: Córners Menos 9.5
+- p 0.194 (sim 0.191, stress 0.176) · precio BB **5.0** (producto 5.26) · EV -0.03 · Goles Menos 2.5 @1.7 + Tarjetas 1.er tiempo Más 1.5 @1.72 + Faltas Más 29.5 @1.8 · frágil: Faltas Más 29.5
+- p 0.193 (sim 0.201, stress 0.170) · precio BB **5.0** (producto 6.35) · EV -0.03 · Córners Menos 10.5 @1.6 + Goles 2.º tiempo Menos 1.5 @1.62 + Tiros al arco Sao Paulo SP Menos 3.5 @2.45 · frágil: Tiros al arco Sao Paulo SP Menos 3.5
+- p 0.193 (sim 0.195, stress 0.177) · precio BB **5.3** (producto 6.22) · EV +0.02 · Goles Sao Paulo SP Menos 1.5 @1.5 + Remates Menos 27.5 @1.57 + Córners Menos 10.5 @1.6 + Ambos 2+ tarjetas: Sí @1.65 · frágil: Ambos 2+ tarjetas: Sí
+- p 0.193 (sim 0.198, stress 0.170) · precio BB **5.1** (producto 5.95) · EV -0.02 · Goles 1.er tiempo Más 0.5 @1.5 + Remates Fluminense RJ Menos 12.5 @1.62 + Remates Menos 24.5 @2.45 · frágil: Remates Menos 24.5
+- p 0.193 (sim 0.193, stress 0.176) · precio BB **5.2** (producto 6.4) · EV +0.00 · Remates Sao Paulo SP Menos 15.5 @1.52 + Saques de meta Sao Paulo SP Menos 8.5 @1.5 + Ambos 2+ tarjetas: Sí @1.65 + Tarjetas Fluminense RJ Más 2.5 @1.7 · frágil: Tarjetas Fluminense RJ Más 2.5
+- p 0.192 (sim 0.201, stress 0.173) · precio BB **5.1** (producto 6.09) · EV -0.02 · Tiros al arco Sao Paulo SP Menos 4.5 @1.67 + Remates Fluminense RJ Más 11.5 @1.78 + Córners Fluminense RJ Más 4.5 @2.05 · frágil: Córners Fluminense RJ Más 4.5
+- p 0.192 (sim 0.187, stress 0.171) · precio BB **5.0** (producto 6.27) · EV -0.04 · Tiros al arco Menos 8.5 @1.72 + Tarjetas 1.er tiempo Más 1.5 @1.72 + Tarjetas Sao Paulo SP Más 2.5 @2.12 · frágil: Tarjetas Sao Paulo SP Más 2.5
+- p 0.192 (sim 0.200, stress 0.172) · precio BB **5.2** (producto 5.02) · EV -0.00 · Córners Menos 10.5 @1.6 + Ambos 2+ tarjetas: Sí @1.65 + Ambos marcan: No @1.9 · frágil: Ambos marcan: No
+- p 0.191 (sim 0.195, stress 0.172) · precio BB **5.0** (producto 5.39) · EV -0.04 · Goles 1.er tiempo Más 0.5 @1.5 + Remates Menos 26.5 @1.78 + Córners Menos 9.5 @2.02 · frágil: Córners Menos 9.5
+- p 0.190 (sim 0.190, stress 0.170) · precio BB **5.1** (producto 5.23) · EV -0.03 · Remates Menos 27.5 @1.57 + Fluminense RJ o empate @1.57 + Tarjetas Más 5.5 @2.12 · frágil: Tarjetas Más 5.5
