@@ -106,7 +106,7 @@ def valor(r, mercado, tarj):
     if mercado == 'faltas': return r[6]
     if mercado == 'entradas': return r[8]
     if mercado == 'atajadas': return r[9]
-    if mercado == 'tarjeta': return 1 if (tarj or r[10] + r[11] > 0) else 0    # «@» de incidentes o amarillas/rojas de la fila (los .txt de Flashscore las traen en la fila)
+    if mercado == 'tarjeta': return 1 if (tarj or sum(r[10:12]) > 0) else 0    # «@» de incidentes o amarillas/rojas de la fila (los .txt de Flashscore las traen en la fila)
     return None
 
 

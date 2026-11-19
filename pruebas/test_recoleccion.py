@@ -106,6 +106,7 @@ _pl = {'Andy Robertson': ['h', 90], 'Ben Gannon-Doak': ['h', 76], 'Che Adams': [
 check(CJ.casar('Andrew Robertson', _pl) == 'Andy Robertson' and CJ.casar('Ben Doak', _pl) == 'Ben Gannon-Doak' and CJ.casar('Ché Adams', _pl) == 'Che Adams' and CJ.casar('Srdjan Babic', _pl) == 'Srđan Babić', 'jugadores: casa nombres Betano↔Sofascore sin tildes ni apodos')
 check(CJ.casar('Scott Bain', _pl) is None, 'jugadores: quien no figura con minutos no se casa con otro (jugador que no jugó)')
 _f = ['h', 90, 3, 1, 1, 2, 4, 1, 2, 0]
+check(CJ.valor(_f + [1, 0], 'tarjeta', False) == 1 and CJ.valor(_f + [0, 1], 'tarjeta', False) == 1 and CJ.valor(_f + [0, 0], 'tarjeta', False) == 0, 'jugadores: tarjeta también sale de las columnas amarillas/rojas de la fila (txt de Flashscore sin «@»)')
 check(CJ.valor(_f, 'anota_o_asiste', False) == 3 and CJ.valor(_f, 'remates', False) == 3 and CJ.valor(_f, 'tarjeta', True) == 1 and CJ.valor(_f, 'tarjeta', False) == 0, 'jugadores: «N o más»; anota_o_asiste suma goles y asistencias; tarjeta sale de los incidentes')
 
 # --- auditoría de sugerencias ---
