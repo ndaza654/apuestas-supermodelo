@@ -10,6 +10,11 @@ function bbCombo(c){const ok=c.cumple,evc=c.ev_con_boost,est=c.precio_bb==null,p
  ${c.nota?`<div class="xs ${est?'':'mut'}" style="margin-top:6px;${est?'color:var(--warn)':''}">${esc(c.nota)}</div>`:''}<div class="xs mut" style="margin-top:8px">Pago con boost ≈ ×${f2(c.pago_boost)} (si el +25 % se suma a la ganancia neta: confírmalo en el cupón) · ${c.solidez!=null?'solidez '+f2(c.solidez)+' de 1 · ':''}pata más floja ${c.p_patas?pc(Math.min(...c.p_patas)):'–'}</div></div>`}
 function bbInicio(j){const B=DB.BB[j],ks=Object.keys(B).filter(k=>B[k]&&B[k].combos);
  return`<div class="card"><div class="hd"><h2>BB Boost de hoy</h2><div class="sp"></div><a class="btn soft sm" href="#/bb">Ver combos</a></div>${ks.map(k=>{const m=B[k],c=m.combos[0];return`<div class="leg"><div><div class="b sm">${esc(bbName(k,j))}</div><div class="xs mut">${esc(m.veredicto)}${c?` · mejor: precio ${f2(c.precio_bb)} · p ${pc(c.p_prudente)}`:''}</div></div></div>`}).join('')}</div>`}
+
+function misBloque(j){const M=(DB.MIS||{})[j];if(!M)return'';
+ const blk=m=>`<h2 style="margin:18px 0 6px">${esc(m.titulo)}</h2><div class="grid g2">${m.combos.map(c=>{const pr=c.precio_real!=null?`<b style="color:var(--ok)">precio real ${f2(c.precio_real)}</b>`:(c.precio_est?`precio estimado ${f2(c.precio_est[0])}–${f2(c.precio_est[1])}`:`cuota ${f2(c.producto)}`);
+  return`<div class="card"><div class="hd"><h3 style="margin:0">${esc(c.partido)}</h3><div class="sp"></div><span class="tag ${c.precio_real!=null?'ok':'warn'}">${esc(c.estado)}</span></div>${c.patas.map(t=>`<div class="leg"><div class="b sm">${esc(t)}</div></div>`).join('')}<div class="row" style="margin-top:8px;gap:14px;flex-wrap:wrap"><div class="sm">${pr} · producto ${f2(c.producto)}</div><div class="sm">p ${pc(c.p,1)}</div><div class="sm b">stake $${(c.stake||0).toLocaleString('es-CO')}</div></div></div>`}).join('')}</div>`;
+ return`<h1 style="margin-top:26px">Misiones de Betano</h1><div class="note warn">${esc(M.nota)} Actualizado ${esc(M.actualizado)} (Bogotá).</div>${blk(M.m1)}${blk(M.m2)}`}
 PAGES.bb={render(){const j=ST.jor,B=(DB.BB||{})[j];
  if(!B)return`<h1>BB Boost</h1><div style="margin-bottom:12px">${jorChips('jor')}</div><div class="card"><div class="empty">Esta jornada no tiene combinaciones BB Boost guardadas.</div></div>`;
  const ks=Object.keys(B).filter(k=>B[k]&&B[k].combos);
@@ -17,4 +22,4 @@ PAGES.bb={render(){const j=ST.jor,B=(DB.BB||{})[j];
  <div class="note"><b>Condiciones:</b> ${(B.condiciones_lista||[]).map(esc).join(' · ')}. Se exige margen: cada pata ≥ 1,51 y total ≥ 5,05.</div>
  ${B.aviso?`<div class="note warn">${esc(B.aviso)} Leído a las ${esc(B.leido_hora||'')} (Bogotá).</div>`:''}
  ${ks.map(k=>{const m=B[k];return`<h2 style="margin:18px 0 6px">${esc(bbName(k,j))} <span class="tag ${/^S/i.test(m.veredicto)?'ok':/NO/.test(m.veredicto)?'bad':'warn'}">${esc(m.veredicto)}</span></h2><p class="sm mut">${esc(m.nota)}</p><div class="grid g2">${m.combos.map(bbCombo).join('')}</div>`}).join('')}
- <p class="xs mut" style="margin-top:14px">3 patas son lotería (en el histórico propio salieron 28 %, igual a lo que decía el precio): stake mínimo. Detalle en <code>entregas/${j}/</code> y <code>jornadas/${j}/bb/</code>.</p>`}};
+ <p class="xs mut" style="margin-top:14px">3 patas son lotería (en el histórico propio salieron 28 %, igual a lo que decía el precio): stake mínimo. Detalle en <code>entregas/${j}/</code> y <code>jornadas/${j}/bb/</code>.</p>${misBloque(j)}`}};

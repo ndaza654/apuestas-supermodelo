@@ -38,7 +38,12 @@ def extras(d):
         fb = os.path.join(datos.RAIZ, 'jornadas', j, 'bb', 'bb_boost_resumen.json')
         if os.path.exists(fb):
             BB[j] = json.load(open(fb, encoding='utf8'))
-    d.update({'AN': AN, 'XI': XI, 'EST': EST, 'BB': BB})
+    MIS = {}
+    for j in d['jors']:
+        fm = os.path.join(datos.RAIZ, 'jornadas', j, 'misiones', 'misiones.json')
+        if os.path.exists(fm):
+            MIS[j] = json.load(open(fm, encoding='utf8'))
+    d.update({'AN': AN, 'XI': XI, 'EST': EST, 'BB': BB, 'MIS': MIS})
     d['BT'] = backtest(d)
     return d
 
