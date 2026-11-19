@@ -1,0 +1,45 @@
+{
+ "lineas": 10695,
+ "dias": [
+  "2026-11-12-noche",
+  "2026-11-13",
+  "2026-11-14",
+  "2026-11-15",
+  "2026-11-16",
+  "2026-11-17",
+  "2026-11-18"
+ ],
+ "modelos": {
+  "solo precio de mercado": {
+   "n": 9235,
+   "logloss": 0.5566,
+   "brier": 0.1895
+  },
+  "+ cumple X de N + colchón + lado": {
+   "n": 9235,
+   "logloss": 0.5583,
+   "brier": 0.1903
+  },
+  "+ probabilidad del modelo": {
+   "n": 9235,
+   "logloss": 0.5588,
+   "brier": 0.1905
+  }
+ },
+ "por_lado": {
+  "Más": {
+   "n": 5537,
+   "acierto": 0.4394,
+   "roi_plano": -0.157,
+   "ic95": 0.0316
+  },
+  "Menos": {
+   "n": 5070,
+   "acierto": 0.5643,
+   "roi_plano": -0.0154,
+   "ic95": 0.0312
+  }
+ },
+ "nota": "regresión logística entrenada con los días anteriores y probada en el día siguiente; los 2 primeros días solo entrenan",
+ "conclusion": "Mejor log-loss fuera de muestra: «solo precio de mercado». Si no es la 2.ª o 3.ª fila con diferencia clara (> 0,002), el segundo paso no supera al precio de mercado."
+}

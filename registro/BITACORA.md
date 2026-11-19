@@ -296,3 +296,11 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Nuevo: `recoleccion/resultados_flashscore.py`, `recoleccion/jugadores_resultado_pj.py`, `recoleccion/calificar_anota_incidentes.py`, `recoleccion/libro_dia.py` (hojas del libro).
 - Libro: hojas «Boletos 17n-18», «Líneas 17-nov» y «Líneas 18-nov» (actualizadas), «Sugeridas 17-nov» y «Sugeridas 18-nov» (reconstruidas desde sugerencias.csv; los id de sugerencias.csv cambian al regenerar), 5 lecciones nuevas.
 - Archivos: `jornadas/2026-11-17/balance/` y `jornadas/2026-11-18/balance/` (balance.html, pendientes.json, patas_calificadas.json), `jornadas/2026-11-18/resultados/`.
+
+
+## 2026-11-19 (10:20) · análisis completo 4–18 nov
+- 124 boletos: −416.875 COP en dinero real (117 boletos, ROI −23,5 %); 4–8 +74.625, 9–13 −100.000, 14–18 −391.500. Acierto por pata estable (~60 %); el hundimiento viene de más patas por boleto (4,3 en 14–18), margen de Betano y mala suerte (≈1 % si fueran independientes).
+- Filtro «cumple ≥ 7 de 10»: 70–84 % cada día (promedio 81 %), sin tendencia; igual a lo que ya paga el precio (82 %): ROI plano −0,6 %. En 1,40–2,20: 65 % contra 62 % (+5,9 %, ±11 %). «Más»: −15,2 % plano (5.832 líneas); «Menos»: −0,7 % (5.355).
+- Segundo paso (cumple + colchón + modelo): no mejora el log-loss del precio fuera de muestra. Herramienta nueva `recoleccion/segundo_paso.py` (validar / ordenar) y `registro/validacion_segundo_paso.json`.
+- Jugadores: acierto 12 % contra 24 % del precio (a verificar contra liquidaciones de Betano). Corregido error de calificación de tarjetas de jugador (17 y 18-nov).
+- Informe: `entregas/2026-11-19/1020_analisis_4-18nov.md`.

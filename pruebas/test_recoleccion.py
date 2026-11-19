@@ -150,4 +150,8 @@ import sugerencias as _SG
 check("res = 'pendiente'" in open(_SG.__file__, encoding='utf8').read() and all(r['resultado'] == 'pendiente' or r['fecha_entrega'] < '2026-11-14' or r['resultado'] in ('cumplió', 'falló', 'parcial', 'anulada') for r in _S),
       'sugerencias: las registradas antes del partido quedan «pendiente» hasta que la línea tenga resultado')
 
+import segundo_paso as _SP
+_rr = {'p_mercado': '0.6', 'p_modelo': '0.62', 'colchon': '1.5', 'linea': '9.5', 'cumple_ficha': 'sí', 'reg_local': '8 de 10', 'reg_visitante': '7 de 10', 'lado': 'Menos'}
+check(len(_SP._feat(_rr, 0)) == 1 and len(_SP._feat(_rr, 1)) == 7 and len(_SP._feat(_rr, 2)) == 8 and _SP._x('sin dato') == (0.5, 0), 'segundo paso: variables de la validación (precio, cumple X de N, colchón, lado, modelo)')
+
 print(f'\n{ok} pruebas de recolección superadas')
