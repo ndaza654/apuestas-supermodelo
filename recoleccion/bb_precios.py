@@ -72,7 +72,7 @@ def refrescar_entrada(e, legs):
     return n
 
 
-def candidatos(jornada, clave, catalogo=None, top=150, max_patas=4, pool_n=90, pool4=26, prod_min=5.0, p_max=0.24, p_min=0.15, solidas=False, sin_jugadores=True):
+def candidatos(jornada, clave, catalogo=None, top=150, max_patas=4, pool_n=90, pool4=26, prod_min=5.0, p_max=0.24, p_min=0.15, solidas=False, sin_jugadores=True, pool5=14):
     cat_ruta = catalogo or sorted(f for f in os.listdir(os.path.join(jornada, 'bb')) if f.startswith('catalogo_'))[-1]
     cats = json.load(open(os.path.join(jornada, 'bb', os.path.basename(cat_ruta)), encoding='utf8'))
     cat = cats[CLAVES[clave]]
@@ -104,7 +104,7 @@ def candidatos(jornada, clave, catalogo=None, top=150, max_patas=4, pool_n=90, p
     pm = [max(float(x.mean()), 1e-9) for x in ev]
     res = []
     for n in range(3, max_patas + 1):
-        for c in itertools.combinations(range(min(len(pool), pool_n if n == 3 else pool4)), n):
+        for c in itertools.combinations(range(min(len(pool), pool_n if n == 3 else pool4 if n == 4 else pool5)), n):
             fams = [_familia(pool[i][1]['sel']) for i in c]
             if len(set(fams)) < n:
                 continue
@@ -172,9 +172,9 @@ if __name__ == '__main__':
     g = lambda k, d: type(d)(a[a.index(k) + 1]) if k in a else d
     if a[0] == 'candidatos':
         o = candidatos(a[1], a[2], catalogo=g('--catalogo', '') or None, top=g('--top', 150), solidas='--solidas' in a, p_min=g('--pmin', 0.15), p_max=g('--pmax', 0.24),
-                       pool_n=g('--pool', 90), pool4=g('--pool4', 26), prod_min=g('--prod', 5.0))
+                       pool_n=g('--pool', 90), pool4=g('--pool4', 26), prod_min=g('--prod', 5.0), max_patas=g('--patas', 4), pool5=g('--pool5', 14))
         if '--solidas' in a:
-            os.replace(os.path.join(a[1], 'bb', f'cand_{a[2]}.json'), os.path.join(a[1], 'bb', f'cands_{a[2]}.json'))
+            os.replace(os.path.join(a[1], 'bb', f'cand_{a[2]}.json'), os.path.join(a[1], 'bb', f'cands{g("--sufijo", "")}_{a[2]}.json'))
         print(o['partido'], 'pool', o['pool'], 'cuotas refrescadas', o['cuotas_refrescadas'], 'candidatos', len(o['candidatos']))
         for x in o['candidatos'][:5]:
             print(round(x['p_ajust'], 3), x['producto'], x['patas'])

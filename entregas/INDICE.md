@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-19 | 13:55 | BB Boost con más patas (4–5), cada una más probable; precios leídos y estimados | Vasco–Inter, Vitória–Bragantino, São Paulo–Fluminense | `entregas/2026-11-19/1355_bb_boost_mas_patas.md` · `jornadas/2026-11-19/bb/` |
 | 2026-11-19 | 10:56 | Análisis de hoy: BB Boost (Vasco–Inter, Vitória–Bragantino, São Paulo–Fluminense) con precio real de Betano + lectura de los otros 7 partidos | todos | `entregas/2026-11-19/1056_analisis_hoy_bb_boost.md` · `jornadas/2026-11-19/informe.html` · `jornadas/2026-11-19/bb/` |
 | 2026-11-19 | 10:20 | Análisis completo 4–18 nov: estrategias, filtro, jugadores, qué mejorar, segundo paso («supermodelo») | todos | `entregas/2026-11-19/1020_analisis_4-18nov.md` · `registro/validacion_segundo_paso.json` |
 | 2026-11-19 | 10:00 | Balance completo de la noche del 17 y del 18-nov (boletos 115–124, líneas y sugerencias calificadas) | todos los de esos días | `entregas/2026-11-19/1000_balance_17n-18nov.md` |
