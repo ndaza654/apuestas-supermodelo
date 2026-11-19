@@ -87,6 +87,11 @@ El usuario pidió que **«ambos marcan» (BTTS) y «resultado: quién gana» (1,
 - **Dashboard:** Partido → Resumen, tarjeta «Ambos marcan y resultado» con contexto a favor/en contra (`contexto_mercado.factores_unicos`).
 - **Betano (formato del 18-nov):** las líneas Más/Menos pasaron a `m.tableLayout.rows[].groupSelections[].selections`; `betano_extraer.js` lo lee con `selsDe`. Si una jornada sale con `lineas=0`, es esto.
 
+## Árbitro y goleador en la recolección (desde el 19-nov-2026, vale para CUALQUIER chat, cuenta o sesión)
+El usuario vio análisis que decían «no se recolectó información del árbitro» y pidió que eso no vuelva a pasar.
+1. **Árbitro: SIEMPRE, en TODOS los partidos de la jornada, sin que el usuario lo pida.** Se recolecta en la etapa 1: árbitro anunciado (Flashscore `df_sui`, pestaña del partido), su historial en ValueStats (`/en/referee/<id-slug>`: tarjetas por partido, por competición, últimos partidos; faltas por partido solo con cuenta) y, si hay, penales pitados. Se guarda en `jornadas/AAAA-MM-DD/arbitros/<clave>.json` y entra en la ficha (`ficha.arbitro`) para los mercados de **tarjetas y goles (penales)**. La recolección no se da por completa sin intentarlo en cada partido; si un árbitro no se pudo leer (no anunciado todavía, sin página), se dice en `ESTADO.md` y en el informe (qué partido y por qué) y el análisis lo declara, nunca lo omite en silencio.
+2. **Goleador: cuando el usuario diga que importa** (o pida goleadoras/goleadores), se trae el historial de goles por jugador de los equipos de ese partido: últimos 10 partidos oficiales con minutos, goles, remates, al arco y asistencias (mismo archivo `jugadores/<partido>.json`), tasa de gol por 90, y los mercados `an`/`aoa` con la regularidad «X de 10» del jugador. Si el usuario dice «el goleador no es importante» en una jornada, se omite esa jornada. Vale también para fútbol femenino y MLS.
+
 ## Contexto de la sesión (que no se llene)
 - Una sesión por jornada. Empezar leyendo `jornadas/AAAA-MM-DD/ranking.md` y `ESTADO.md`; la ficha de un partido solo cuando se va a analizar. No abrir los JSON crudos de `flashscore/` ni `betano/`.
 - Los agentes escriben su detalle en archivos (`jornadas/AAAA-MM-DD/agentes/<partido>_<agente>.md`) y devuelven al chat solo un resumen corto (las 5 mejores líneas y los límites).
