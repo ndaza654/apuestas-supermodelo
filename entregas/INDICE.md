@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-19 | 14:55 | Misiones de Betano con precio REAL del Bet Builder (3,25 · 3,60 · 4,05) y combinadas ≥2,00 | Vitória–Bragantino, Orlando–Cincinnati, Seattle–RSL, São Paulo–Fluminense | `entregas/2026-11-19/1455_misiones_precio_real.md` |
 | 2026-11-19 | 14:45 | Combis de las 2 misiones sin Vasco–Inter (BB ≥3,00 y combinadas ≥2,00) | Vitória–Bragantino, Orlando–Cincinnati, Seattle–RSL, São Paulo–Fluminense | `entregas/2026-11-19/1445_combis_misiones_sin_vasco.md` |
 | 2026-11-19 | 14:35 | Combis para las 2 misiones de Betano (BB ≥3,00 y combinadas ≥2,00) con líneas de la estrategia | Vasco–Inter, Vitória–Bragantino, Orlando–Cincinnati, Seattle–RSL | `entregas/2026-11-19/1435_combis_misiones.md` |
 | 2026-11-19 | 13:55 | BB Boost con más patas (4–5), cada una más probable; precios leídos y estimados | Vasco–Inter, Vitória–Bragantino, São Paulo–Fluminense | `entregas/2026-11-19/1355_bb_boost_mas_patas.md` · `jornadas/2026-11-19/bb/` |

@@ -1,25 +1,22 @@
 {
  "actualizado": "14:50",
- "nota": "Cuotas leídas 07:51 (Bogotá). Los precios Bet Builder son estimados hasta confirmarlos en el cupón. Sin Vasco–Inter (va con BB Boost).",
+ "nota": "Precios Bet Builder REALES leídos en Betano (mc-leg) a las ≈14:45 Bogotá; las cuotas de cada pata también se releyeron. Las combinadas de la misión 2 pagan el producto de las cuotas (releídas). Sin Vasco–Inter (va con BB Boost). Revisa en el cupón antes de apostar: si el precio baja de 3,00 (misión 1) o 2,00 (misión 2), no cuenta.",
  "m1": {
   "titulo": "Misión deportiva · Bet Builder, mínimo 3 mercados, cuota total ≥ 3,00 · $30.000 (3 × $10.000)",
   "combos": [
    {
     "partido": "Vitória–Bragantino · 17:30",
     "patas": [
-     "Córners Bragantino Más 4.5 @1,65",
-     "Saques de meta Vitória Más 7.5 @1,47",
+     "Córners Bragantino Más 4.5 @1,55",
+     "Fueras de lugar Bragantino Menos 1.5 @1,50",
      "Goles Menos 3.5 @1,40"
     ],
-    "producto": 3.4,
-    "precio_est": [
-     3.3,
-     3.7
-    ],
-    "precio_real": null,
-    "p": 0.248,
+    "producto": 3.26,
+    "precio_est": null,
+    "precio_real": 3.25,
+    "p": 0.244,
     "stake": 10000,
-    "estado": "por confirmar"
+    "estado": "precio real leído"
    },
    {
     "partido": "Orlando–Cincinnati · 19:30",
@@ -29,31 +26,39 @@
      "Tarjetas total Más 3.5 @1,57"
     ],
     "producto": 4.19,
-    "precio_est": [
-     3.2,
-     3.5
-    ],
-    "precio_real": null,
+    "precio_est": null,
+    "precio_real": 3.6,
     "p": 0.26,
     "stake": 10000,
-    "estado": "por confirmar"
+    "estado": "precio real leído"
    },
    {
     "partido": "Seattle–RSL · 22:00",
     "patas": [
-     "Remates Seattle Menos 17.5 @1,42",
-     "Tiros al arco total Menos 10.5 @1,65",
-     "Tarjetas RSL Menos 2.5 @1,57"
+     "Córners RSL Más 4.5 @1,85",
+     "Goles Menos 3.5 @1,55",
+     "Tiros al arco total Menos 10.5 @1,65"
     ],
-    "producto": 3.68,
-    "precio_est": [
-     3.2,
-     3.6
-    ],
-    "precio_real": null,
-    "p": 0.255,
+    "producto": 4.73,
+    "precio_est": null,
+    "precio_real": 4.05,
+    "p": 0.264,
     "stake": 10000,
-    "estado": "por confirmar"
+    "estado": "precio real leído"
+   },
+   {
+    "partido": "Alternativa · São Paulo–Fluminense · 19:30",
+    "patas": [
+     "Fueras Fluminense Menos 1.5 @1,57",
+     "Saques de meta total Menos 17.5 @1,52",
+     "Tarjetas total Menos 5.5 @1,67"
+    ],
+    "producto": 3.98,
+    "precio_est": null,
+    "precio_real": 3.95,
+    "p": 0.2,
+    "stake": 0,
+    "estado": "suplente (9 bajas en São Paulo)"
    }
   ]
  },
@@ -76,13 +81,13 @@
    {
     "partido": "Seattle + Vitória",
     "patas": [
-     "Seattle Goles Menos 3.75 @1,42",
+     "Seattle Goles Menos 3.5 @1,55",
      "Vitória Fueras Bragantino Menos 1.5 @1,50"
     ],
-    "producto": 2.13,
+    "producto": 2.33,
     "precio_est": null,
     "precio_real": null,
-    "p": 0.45,
+    "p": 0.41,
     "stake": 17500,
     "estado": "cuota = producto"
    },
