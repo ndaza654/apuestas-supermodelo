@@ -242,6 +242,10 @@ def texto_arbitro(A):
         t += f"; historial de {A.get('partidos')} partidos: {c(A['amarillas_pp_historial'])} amarillas por partido"
     if A.get('supera'):
         t += f"; la muestra superó 3,5 tarjetas en {c(A['supera']['3.5'])} %, 4,5 en {c(A['supera']['4.5'])} % y 5,5 en {c(A['supera']['5.5'])} %"
+    if A.get('faltas_pp_muestra') is not None:
+        t += f"; faltas pitadas por partido: {c(A['faltas_pp_muestra'])}"
+        if A.get('fueras_juego_pp_muestra') is not None:
+            t += f", fueras de juego {c(A['fueras_juego_pp_muestra'])}"
     return t + '.'
 
 

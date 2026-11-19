@@ -222,6 +222,13 @@ def arbitro_de(a, fs=None):
          'fuente': a.get('fuente'), 'leido': a.get('leido'),
          'tarjetas_por_partido': float(tot) if tot else a.get('amarillas_pp_total'),
          'nota': 'ValueStats: muestra de %s partidos recientes (amarillas, rojas y penales de la muestra) + historial total. Faltas por partido y penales por partido: solo con cuenta de ValueStats.' % (n or '?')}
+    pp = a.get('por_partido')
+    if pp:       # faltas/penales/fueras de juego por partido (sesión de ValueStats del usuario): últimos 20, [total, local, visitante] por partido
+        o['faltas_pp_muestra'] = a.get('faltas_pp_muestra')
+        o['penales_pp_muestra'] = a.get('penales_pp_muestra')
+        o['fueras_juego_pp_muestra'] = a.get('fueras_juego_pp_muestra')
+        o['faltas_por_partido'] = [x[0] for x in (pp.get('series') or {}).get('Fouls', [])]
+        o['nota'] = o['nota'].replace('Faltas por partido y penales por partido: solo con cuenta de ValueStats.', 'Faltas, penales y fueras de juego por partido: leídos de los últimos %s partidos (ValueStats).' % pp.get('n'))
     m2 = _re.search(r'exceeded 3\.5 cards in ([\d.]+)% of matches, 4\.5 in ([\d.]+)% and 5\.5 in ([\d.]+)%', f)
     if m2:
         o['supera'] = {'3.5': float(m2.group(1)), '4.5': float(m2.group(2)), '5.5': float(m2.group(3))}
