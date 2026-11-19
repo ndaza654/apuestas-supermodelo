@@ -99,6 +99,7 @@ La combinada que el usuario pide como «BB Boost»: **Bet Builder del mismo part
 3. Candidatas y evidencia: `python3 recoleccion/bb_precios.py candidatos <jornada> <clave> --solidas` (solo patas con X de 10 ≥ 7 en ambos equipos), `bb_precios.py resultado`, `bb_evidencia.py`. Salida en `jornadas/AAAA-MM-DD/bb/` y resumen en `bb/bb_boost_resumen.json`.
 4. Se informa p modelo, p prudente (= mínimo entre p y 0,95 ÷ precio), EV sin boost y con boost (pago = 1 + 1,25 × (precio − 1), **verificar en el cupón**) y el punto de equilibrio (≈ 16 %). Sin patas respaldadas por la ficha, el partido sale «no recomendado».
 5. Releer el precio real y las alineaciones oficiales ≈ 1 h antes del partido. 3 patas = lotería: stake mínimo.
+6. **Dashboard:** la página «BB Boost» y la tarjeta de Inicio salen de `jornadas/AAAA-MM-DD/bb/bb_boost_resumen.json` (`dashboard/v2/pag_bb.js`). Cada vez que se entreguen o actualicen combos BB, dejar ese JSON al día (combos, precio real, `veredicto`, `nota`, `leido_hora`) antes del push; si no está, el dashboard no los muestra.
 
 ## Contexto de la sesión (que no se llene)
 - Una sesión por jornada. Empezar leyendo `jornadas/AAAA-MM-DD/ranking.md` y `ESTADO.md`; la ficha de un partido solo cuando se va a analizar. No abrir los JSON crudos de `flashscore/` ni `betano/`.

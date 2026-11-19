@@ -24,6 +24,7 @@ PAGES.inicio={render(){const j=ST.jor,ps=P.filter(p=>p.jor===j),rows=stratRows(j
   ${a.n?`<div class="kpi"><div class="v num">${pc(a.hit)}</div><div class="l">acierto de tu filtro (${a.w} de ${a.n})</div><div class="s">la cuota decía ${pc(a.imp)} · ROI ${sg(a.roi)}</div></div>`:`<div class="kpi"><div class="v num">${ST.cup.length}</div><div class="l">patas en tu cupón</div><div class="s"><a href="#/cupon">Abrir cupón</a></div></div>`}</div>
  <div class="split"><div>
   <div class="card flush"><div class="hd" style="padding:14px 14px 0"><h2>Lo que más sentido tiene ${fin&&!pend?'(ya jugado)':'hoy'}</h2><div class="sp"></div><a class="btn soft sm" href="#/estrategia">Ver las ${rows.length}</a></div>${listLi(rows.slice(0,8),{empty:'Ninguna línea pasa tu filtro en esta jornada. Aflójalo en «Mi estrategia».'})}</div>
+  ${DB.BB&&DB.BB[j]?bbInicio(j):''}
   ${est&&est.combinadas.length?`<h2 style="margin:18px 0 10px">Combinadas que te envié</h2><div class="grid g2">${est.combinadas.map(c=>comboCard(j,c)).join('')}</div>`:''}
  </div><div>
   ${(()=>{const t=hStats(HBOL());return`<div class="card"><div class="hd"><h2>Histórico desde el 4-nov</h2><div class="sp"></div><a class="btn soft sm" href="#/historico">Abrir</a></div><div class="row"><span class="num b" style="font-size:22px;color:${hCol(t.net)}">${hCop(t.net)}</span><span class="sm mut">en ${t.nr} boletos con dinero · ${t.gan} ganados</span></div><p class="xs mut" style="margin:6px 0 0">Boletos, selecciones, picks, partidos, banca y lecciones de todos los días.</p></div>`})()}

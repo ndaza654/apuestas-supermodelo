@@ -8,7 +8,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
 import datos
 
-SRC = ['core.js', 'charts.js', 'ui.js', 'pag_inicio.js', 'pag_partido.js', 'pag_estrategia.js', 'pag_cupon.js', 'pag_aprender.js', 'pag_historico.js', 'pag_datos.js', 'pag_backtest.js', 'app.js']
+SRC = ['core.js', 'charts.js', 'ui.js', 'pag_inicio.js', 'pag_partido.js', 'pag_estrategia.js', 'pag_cupon.js', 'pag_bb.js', 'pag_aprender.js', 'pag_historico.js', 'pag_datos.js', 'pag_backtest.js', 'app.js']
 
 
 def extras(d):
@@ -33,7 +33,12 @@ def extras(d):
         fe = os.path.join(base, 'estrategia.json')
         if os.path.exists(fe):
             EST[j] = json.load(open(fe, encoding='utf8'))
-    d.update({'AN': AN, 'XI': XI, 'EST': EST})
+    BB = {}
+    for j in d['jors']:
+        fb = os.path.join(datos.RAIZ, 'jornadas', j, 'bb', 'bb_boost_resumen.json')
+        if os.path.exists(fb):
+            BB[j] = json.load(open(fb, encoding='utf8'))
+    d.update({'AN': AN, 'XI': XI, 'EST': EST, 'BB': BB})
     d['BT'] = backtest(d)
     return d
 
