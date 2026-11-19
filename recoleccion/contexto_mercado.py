@@ -209,6 +209,8 @@ def factores_situacion(N, m, loc, vis, F):
             out.append(['-', "No hay nada en juego: suele bajar la intensidad."])
         if N.get('arbitro'):
             out.append(['=', 'Árbitro: ' + N['arbitro']])
+        elif texto_arbitro(F.get('arbitro')):
+            out.append(['=', 'Árbitro: ' + texto_arbitro(F.get('arbitro'))])
     if m == 'tarjetas':
         fa = bloque(F, 'faltas')
         if fa and (fa.get('esperado') or {}).get('total') is not None:
@@ -224,6 +226,23 @@ def factores_situacion(N, m, loc, vis, F):
     if m == 'goles' and dec:
         out.append(['=', "Partido decisivo: los primeros tiempos suelen ser más cerrados de lo que dicen los promedios."])
     return out
+
+
+def texto_arbitro(A):
+    """Frase con lo leído del árbitro (ficha.arbitro, de ValueStats); '' si no hay estadísticas."""
+    if not A or A.get('amarillas_pp') is None:
+        return ''
+    c = lambda v: ('%.2f' % v).rstrip('0').rstrip('.').replace('.', ',')
+    t = f"{A.get('nombre')} (ValueStats): en sus últimos {A.get('muestra_n')} partidos {c(A['amarillas_pp'])} amarillas y {c(A['rojas_pp'])} rojas por partido"
+    if A.get('puntos_pp_muestra') is not None:
+        t += f" ({c(A['puntos_pp_muestra'])} puntos Betano)"
+    if A.get('penales_muestra') is not None:
+        t += f"; {A['penales_muestra']} penales en esos partidos"
+    if A.get('amarillas_pp_historial') is not None:
+        t += f"; historial de {A.get('partidos')} partidos: {c(A['amarillas_pp_historial'])} amarillas por partido"
+    if A.get('supera'):
+        t += f"; la muestra superó 3,5 tarjetas en {c(A['supera']['3.5'])} %, 4,5 en {c(A['supera']['4.5'])} % y 5,5 en {c(A['supera']['5.5'])} %"
+    return t + '.'
 
 
 def contexto_de(base, clave):
@@ -255,8 +274,9 @@ def contexto_de(base, clave):
             txt.append(s['animo'])
         part.append([f'Cómo llega {eq}', ('; '.join(txt) + '.') if txt else 'Sin datos de resultados recientes.'])
     arb = FS.get('arbitro')
-    part.append(['Árbitro', (f"{arb}. " if arb else 'Sin anunciar. ') + (N.get('arbitro') or 'Sin promedio de tarjetas ni de faltas: no se recolectó.')])
-    if not N.get('arbitro'):
+    ta = texto_arbitro(F.get('arbitro'))
+    part.append(['Árbitro', ta or ((f"{arb}. " if arb else 'Sin anunciar. ') + (N.get('arbitro') or 'Sin promedio de tarjetas ni de faltas: no se recolectó.'))])
+    if not N.get('arbitro') and not ta:
         falta.append('estadísticas del árbitro')
     if AL.get('probables', {}).get('L'):
         nb = len((AL.get('bajas') or {}).get('L') or []), len((AL.get('bajas') or {}).get('V') or [])

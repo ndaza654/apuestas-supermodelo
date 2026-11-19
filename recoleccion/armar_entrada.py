@@ -203,6 +203,31 @@ def clima_de(c):
             'lluvia_mm_max': mm_max, 'prob_lluvia_max': pp_max, 'viento_kmh_max': v_max, 'texto': texto}
 
 
+def arbitro_de(a, fs=None):
+    """Ficha del árbitro desde jornadas/<día>/arbitros/<clave>.json (ValueStats, ver CLAUDE.md «Árbitro y goleador»).
+    Devuelve el dict que va en ficha.arbitro: promedios de la muestra reciente (≤20 partidos), historial total, rojas y penales de la muestra y límites."""
+    import re as _re
+    f = a.get('faq_texto') or ''
+    g = lambda pat: (_re.search(pat, f) or [None, None])[1]
+    n = a.get('muestra_n')
+    y = g(r'averages ([\d.]+) yellow cards'); r = g(r'and ([\d.]+) red cards per match across')
+    tot = g(r'([\d.]+) cards per match in total')
+    pen = g(r'has awarded (\d+) penalt')
+    o = {'nombre': a.get('arbitro') or ((fs or {}).get('arbitro') or ''), 'pais': (fs or {}).get('arbitro_pais'),
+         'partidos': a.get('partidos_registrados'), 'muestra_n': n,
+         'amarillas_pp': float(y) if y else None, 'rojas_pp': float(r) if r else None, 'tarjetas_pp_muestra': float(tot) if tot else None,
+         'puntos_pp_muestra': round(float(y) + 2 * float(r), 2) if y and r else None,       # puntos Betano: amarilla 1, roja 2
+         'amarillas_pp_historial': a.get('amarillas_pp_total'), 'rojas_pp_historial': a.get('rojas_pp_total'),
+         'penales_muestra': int(pen) if pen else None,
+         'fuente': a.get('fuente'), 'leido': a.get('leido'),
+         'tarjetas_por_partido': float(tot) if tot else a.get('amarillas_pp_total'),
+         'nota': 'ValueStats: muestra de %s partidos recientes (amarillas, rojas y penales de la muestra) + historial total. Faltas por partido y penales por partido: solo con cuenta de ValueStats.' % (n or '?')}
+    m2 = _re.search(r'exceeded 3\.5 cards in ([\d.]+)% of matches, 4\.5 in ([\d.]+)% and 5\.5 in ([\d.]+)%', f)
+    if m2:
+        o['supera'] = {'3.5': float(m2.group(1)), '4.5': float(m2.group(2)), '5.5': float(m2.group(3))}
+    return o
+
+
 def armar(b, fs=None, notas=None, jug=None):
     meta, bet = b['meta'], b['betano']
     notas = notas or {}
@@ -272,6 +297,10 @@ def main(argv):
                 fs['avisos'] = list(fs.get('avisos', [])) + ['Flashscore no muestra pestaña de alineaciones para este partido: sin XI ni bajas con fuente']
         e = armar(b, fs, cargar('notas', k), cargar('jugadores', k))
         F = e['ficha']
+        arb = cargar('arbitros', k)
+        if arb:
+            F['arbitro'] = arbitro_de(arb, fs)
+            F['fuentes'] = F['fuentes'] + ['ValueStats (árbitro)']
         cl = _json(base, 'clima/clima.json').get(k)
         if clima_de(cl) and not F.get('clima'):
             F['clima'] = clima_de(cl)

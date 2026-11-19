@@ -27,3 +27,8 @@ Límites conocidos: sin historial por jugador ni alineación probable, el mercad
 
 ## Etapa 3 — Calificación (día siguiente)
 El usuario/Claude recoge los resultados reales desde el PC (Flashscore), los sube a `jornadas/<día>/resultados/<clave>.json` y el agente `calificacion` aplica `registrar-resultados`. Sin resultados no califica: no estima.
+
+## Añadido el 19-nov-2026 (árbitro y goleador en la recolección)
+- **Árbitro en TODOS los partidos**, sin que lo pida el usuario: Flashscore `df_sui` + ValueStats (`/en/referee/<id-slug>`) → `arbitros/<clave>.json` → `ficha.arbitro` (tarjetas y penales). Si no se pudo leer, se declara en `ESTADO.md` y en el informe.
+- **Goleador/goleadora cuando el usuario lo diga** (siempre en Champions femenina): incidentes `df_su_1_<mid>` de los últimos 10 partidos → `python3 recoleccion/goleadores.py jornadas/AAAA-MM-DD` (lo corre `correr_jornada.py`). Si dice «el goleador no es importante», se omite esa jornada.
+- URLs de partidos pasados en Flashscore: slugs de los dos equipos en orden alfabético. Detalle en `recoleccion/README.md`.

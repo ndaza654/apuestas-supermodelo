@@ -280,3 +280,9 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Límites: sin tus boletos; sin estadística por jugador (solo Kaio Jorge); datos de una sola fuente en Flamengo–Athletico, Corinthians–Botafogo, Häcken–City.
 - Archivos: `jornadas/2026-11-18/balance/` (balance.html, pendientes.json), `entregas/2026-11-18/2234_balance-adelantado.md`.
 
+
+## 2026-11-19 · recolección (sin análisis)
+- Recolectados 10 partidos: Champions F ×5, Brasil ×3, MLS Playoffs ×2. Cuotas de Betano ≈08:10 Bogotá. Estado completo: `jornadas/2026-11-19/ESTADO.md`.
+- Nuevo: árbitro obligatorio en todos los partidos (ValueStats → `ficha.arbitro`); historial de goleadoras desde incidentes de Flashscore (`goleadores/`).
+- Jugadores: Brasil 8–10 de 10 partidos por equipo; MLS 4–9 de 10 (Cincinnati y Seattle cortos); femeninos casi sin tabla en Flashscore (solo goles/asistencias).
+- Sin sugerencias enviadas; `registro/sugerencias.csv` no se tocó.

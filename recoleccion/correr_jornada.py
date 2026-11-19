@@ -13,7 +13,7 @@ import os, sys, json, glob, shutil, subprocess
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(AQUI)
 sys.path.insert(0, AQUI)
-import armar_entrada as A, ficha as FI, puntuar as PU, registrar_jornada as RJ, informe_html as IH, analisis_jornada as AJ
+import armar_entrada as A, ficha as FI, puntuar as PU, registrar_jornada as RJ, informe_html as IH, analisis_jornada as AJ, goleadores as GO
 
 
 def main(argv):
@@ -52,6 +52,8 @@ def main(argv):
             print(f"{k:34s} modelo {'OK' if r.returncode == 0 else 'ERROR: ' + r.stderr[-200:]}")
         else:
             print(f"{k:34s} {orden.get(nombre)}: sin informe del modelo (ver ranking.md)")
+    if os.path.exists(os.path.join(base, 'flashscore', 'goles_crudo.json')):
+        GO.main(base)                                                 # historial de goleadores/goleadoras (incidentes de Flashscore) -> goleadores/<clave>.md|json
     n, prev = RJ.registrar(base)                                     # registro/lineas.csv: todas las líneas, ficha + modelo
     print(f'registro/lineas.csv: {n} líneas de esta jornada (+{prev} de otras)')
     try:

@@ -84,9 +84,8 @@ def main(c):
             r['p'].sort(key=lambda x: x[1], reverse=True)
         json.dump(d, open(os.path.join(jd, clave + '.json'), 'w', encoding='utf-8'), ensure_ascii=False)
     # cobertura: partidos distintos por equipo (L/V) entre los 10 oficiales
-    ln = ['# Historial por jugador · jornada 17-nov-2026', '',
-          'Fuentes: **Opta** (Nations League, 5 partidos por equipo, ver `../opta/LEEME.md`) + **Flashscore** (clasificatorios del Mundial; pestaña «Estadísticas de jugadores», columnas General/Remates/Defensa/Paradas).',
-          'Leído desde el navegador el 17-nov-2026 (noche del 16 en Bogotá). Cobertura real de los últimos 10 partidos oficiales de cada equipo:', '',
+    ln = ['# Historial por jugador · jornada ' + os.path.basename(os.path.normpath(c)), '',
+          'Fuente: **Flashscore** (pestaña «Estadísticas de jugadores», columnas General/Remates/Defensa/Paradas), leído desde el navegador. Cobertura real de los últimos 10 partidos oficiales de cada equipo:', '',
           '| Partido | Lado | Partidos con jugadores (de 10) | Jugadores | Sin datos en Flashscore |', '|---|---|---|---|---|']
     errores = raw.get('errores', [])
     for clave in sorted(datos):
