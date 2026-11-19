@@ -253,6 +253,8 @@ def contexto_de(base, clave):
     F = _j(os.path.join(base, 'fichas', f'ficha_{clave}.json'))
     if not F:
         return None
+    if not F.get('arbitro'):    # la ficha de mercado no copia el árbitro: viene de la entrada (ficha.arbitro, ValueStats)
+        F['arbitro'] = ((_j(os.path.join(base, 'entradas', clave + '.json')) or {}).get('ficha') or {}).get('arbitro')
     N = _j(os.path.join(base, 'notas', clave + '.json')) or {}
     FS = _j(os.path.join(base, 'flashscore', clave + '.json')) or {}
     AL = _j(os.path.join(base, 'alineaciones', clave + '.json')) or {}
