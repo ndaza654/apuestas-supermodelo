@@ -304,3 +304,12 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Segundo paso (cumple + colchón + modelo): no mejora el log-loss del precio fuera de muestra. Herramienta nueva `recoleccion/segundo_paso.py` (validar / ordenar) y `registro/validacion_segundo_paso.json`.
 - Jugadores: acierto 12 % contra 24 % del precio (a verificar contra liquidaciones de Betano). Corregido error de calificación de tarjetas de jugador (17 y 18-nov).
 - Informe: `entregas/2026-11-19/1020_analisis_4-18nov.md`.
+
+
+## 2026-11-19 (23:05) · balance del día 19-nov (sin Seattle–RSL, pendiente)
+- Boletos 125–131 leídos de Betano → Mis apuestas: 7 liquidados, apostado 118.500 COP, cobrado 201.533 → **+83.033 COP** (1 ganado: doble de 35.000 → 186.533; 1 cash out de 15.000; 5 perdidos). Abierto: Seattle–RSL BB 35.000 @4,00 (pendiente, mañana).
+- Calificación con Flashscore (feeds df_st/df_su + Player stats en inglés): 1.831 líneas de equipo (cumple ≥7/10 81,5 % vs no 42,6 %), 2.441 de jugador (1.643 nulas); p del modelo de jugador muy inflada (50–65 % → 30 % real). Sugerencias: 54 de 74 (73 %), ROI plano −3,3 %.
+- Patas de tus boletos: cumple 12/15, no cumple 3/7. Fallos típicos: una pata en la mediana (saques de banda 34 vs 36.5, córners 7 vs 8.5), córners Más de femeninas, Ambos anotan Sí, Orlando Menos remates (27 reales vs 12,4 esperados).
+- Combinadas/misiones enviadas (no jugadas): BB Boost Vasco A–D ✓ (5,10–5,50), E/F ✗; Vitória A/B ✗; São Paulo ✗; m1 Vitória ✓ 3,25, São Paulo alterna ✓ 3,95, Orlando ✗.
+- Libro: hojas «Boletos 19-nov», «Líneas 19-nov», «Sugeridas 19-nov» y 6 lecciones. Pendiente: Seattle–RSL (líneas, sugerencias S7xx, S794, boleto abierto, m1/m2 con Seattle).
+- Archivos: `jornadas/2026-11-19/balance/` (balance.html, boletos_betano.json, patas_calificadas.json, pendientes.json, conclusiones.html), `jornadas/2026-11-19/resultados/`.
