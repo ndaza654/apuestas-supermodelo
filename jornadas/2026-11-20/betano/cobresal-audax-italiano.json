@@ -7,7 +7,7 @@
 "region": "Chile",
 "liga": "Liga de Primera",
 "n_mercados": 184,
-"cuotas_leidas": "2026-11-20T16:28:00.459Z"
+"cuotas_leidas": "2026-11-20T19:51:15.014Z"
 },
 "betano": {
 "lineas": [
@@ -23,7 +23,7 @@
 "ambito": "total",
 "linea": 1.5,
 "mas": 1.25,
-"menos": 4.05
+"menos": 4.0
 },
 {
 "mercado": "goles",
@@ -36,8 +36,8 @@
 "mercado": "goles",
 "ambito": "total",
 "linea": 2.25,
-"mas": 1.55,
-"menos": 2.52
+"mas": 1.57,
+"menos": 2.5
 },
 {
 "mercado": "goles",
@@ -51,7 +51,7 @@
 "ambito": "total",
 "linea": 2.75,
 "mas": 1.95,
-"menos": 1.91
+"menos": 1.9
 },
 {
 "mercado": "goles",
@@ -316,7 +316,7 @@
 "mercado": "corners",
 "ambito": "visitante",
 "linea": 3.5,
-"mas": 1.33,
+"mas": 1.34,
 "menos": null
 },
 {
@@ -330,7 +330,7 @@
 "mercado": "corners",
 "ambito": "visitante",
 "linea": 5.5,
-"mas": 2.45,
+"mas": 2.42,
 "menos": null
 },
 {
@@ -344,7 +344,7 @@
 "mercado": "corners",
 "ambito": "visitante",
 "linea": 7.5,
-"mas": 5.5,
+"mas": 5.6,
 "menos": null
 },
 {
@@ -379,56 +379,49 @@
 "mercado": "goles",
 "ambito": "1T",
 "linea": 0.5,
-"mas": 1.35,
-"menos": 3.15
+"mas": 1.36,
+"menos": 3.05
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 0.75,
-"mas": 1.47,
-"menos": 2.7
+"mas": 1.5,
+"menos": 2.62
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 1.0,
-"mas": 1.7,
-"menos": 2.15
+"mas": 1.75,
+"menos": 2.1
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 1.25,
-"mas": 2.12,
-"menos": 1.72
+"mas": 2.18,
+"menos": 1.7
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 1.5,
-"mas": 2.5,
-"menos": 1.52
-},
-{
-"mercado": "goles",
-"ambito": "1T",
-"linea": 1.75,
-"mas": 3.2,
-"menos": 1.36
+"mas": 2.55,
+"menos": 1.5
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 2.5,
-"mas": 5.6,
-"menos": 1.14
+"mas": 5.7,
+"menos": 1.13
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 3.5,
-"mas": 11.0,
+"mas": 11.25,
 "menos": 1.03
 },
 {
@@ -554,7 +547,7 @@
 "mercado": "goles",
 "ambito": "local",
 "linea": 2.5,
-"mas": 4.05,
+"mas": 4.1,
 "menos": 1.21
 },
 {
@@ -582,7 +575,7 @@
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 2.5,
-"mas": 5.0,
+"mas": 4.9,
 "menos": 1.15
 },
 {
@@ -597,21 +590,21 @@
 "ambito": "2T",
 "linea": 0.5,
 "mas": 1.21,
-"menos": 4.25
+"menos": 4.3
 },
 {
 "mercado": "goles",
 "ambito": "2T",
 "linea": 1.5,
-"mas": 1.95,
-"menos": 1.83
+"mas": 1.93,
+"menos": 1.85
 },
 {
 "mercado": "goles",
 "ambito": "2T",
 "linea": 2.5,
-"mas": 3.8,
-"menos": 1.25
+"mas": 3.75,
+"menos": 1.26
 },
 {
 "mercado": "corners",
@@ -685,15 +678,15 @@
 "X": 3.65,
 "2": 2.9,
 "1X": 1.44,
-"X2": 1.65,
+"X2": 1.62,
 "12": 1.28
 }
 },
 {
 "mercado": "resultado_1t",
 "opciones": {
-"1": 2.85,
-"X": 2.27,
+"1": 2.9,
+"X": 2.25,
 "2": 3.35
 }
 },
@@ -709,7 +702,7 @@
 "mercado": "htft_o",
 "opciones": {
 "1": 1.83,
-"X": 1.75,
+"X": 1.72,
 "2": 2.15
 }
 },
@@ -757,22 +750,22 @@
 {
 "mercado": "htft",
 "opciones": {
-"1/1": 3.6,
+"1/1": 3.7,
 "1/X": 14.0,
 "1/2": 30.0,
-"X/1": 5.8,
-"X/X": 5.7,
-"X/2": 6.9,
-"2/1": 27.0,
+"X/1": 5.7,
+"X/X": 5.6,
+"X/2": 6.8,
+"2/1": 26.0,
 "2/X": 14.0,
-"2/2": 4.6
+"2/2": 4.7
 }
 },
 {
 "mercado": "handicap",
 "h": -3.0,
 "opciones": {
-"local": 19.5,
+"local": 20.0,
 "empate": 10.75,
 "visitante": 1.07
 }
@@ -781,7 +774,7 @@
 "mercado": "handicap",
 "h": -2.0,
 "opciones": {
-"local": 9.5,
+"local": 9.75,
 "empate": 6.4,
 "visitante": 1.22
 }
@@ -790,9 +783,9 @@
 "mercado": "handicap",
 "h": -1.0,
 "opciones": {
-"local": 4.35,
+"local": 4.45,
 "empate": 4.15,
-"visitante": 1.65
+"visitante": 1.62
 }
 },
 {
@@ -817,8 +810,8 @@
 "mercado": "handicap",
 "h": -0.75,
 "opciones": {
-"local": 2.7,
-"visitante": 1.5
+"local": 2.75,
+"visitante": 1.47
 }
 },
 {
@@ -841,8 +834,8 @@
 "mercado": "handicap",
 "h": 0.0,
 "opciones": {
-"local": 1.72,
-"visitante": 2.18
+"local": 1.75,
+"visitante": 2.15
 }
 },
 {
@@ -1011,25 +1004,25 @@
 "jugador": "Nicolas Orellana",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 5.0
+"cuota": 4.9
 },
 {
 "jugador": "Nicolas Aedo",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 5.0
+"cuota": 4.9
 },
 {
 "jugador": "Paolo Guajardo",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 5.0
+"cuota": 4.9
 },
 {
 "jugador": "Martin Jimenez",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 5.0
+"cuota": 4.9
 },
 {
 "jugador": "Vicente Belmar",
@@ -1143,7 +1136,7 @@
 "jugador": "Raimundo Rebolledo",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 8.5
+"cuota": 8.25
 },
 {
 "jugador": "Víctor Campos",
