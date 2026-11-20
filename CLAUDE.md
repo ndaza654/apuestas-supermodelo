@@ -78,6 +78,15 @@ Cuando el usuario pida un balance (de un día o de varios):
 5. Guardar la copia del informe según la regla de Entregas (`entregas/`), commit y push.
 Las conclusiones sobre los filtros/criterios de tipsters se sacan en estos balances, no antes.
 
+### Lista fija de cada balance (desde el 19-nov-2026; el usuario pidió que NO haya que repetírselo)
+En TODO balance, además de lo anterior, sin que lo pida:
+1. **Calificar TODO lo que se le envió, no solo lo que apostó:** líneas (equipo y jugador), sugerencias, **combinadas, BB Boost y misiones**. Los combos viven en `jornadas/AAAA-MM-DD/bb/bb_boost_resumen.json` y `misiones/misiones.json`: correr `python3 recoleccion/calificar_bb.py jornadas/AAAA-MM-DD <resultados_por_partido.json>` (deja `resultado`, `patas_real` y `jugada` en cada combo) y luego `python3 recoleccion/sugerencias.py` (los agrega a `registro/sugerencias.csv` como «Bet Builder (BB Boost)» / «Misión …», con p, cuota y resultado pata por pata). Así salen en el dashboard en **«BB Boost»** (SE DIO ✓ / FALLÓ ✗ + valor real) y en **«Lo que te envié»** (modalidad Bet Builder). Cada combo que se envíe por el chat debe quedar antes en esos JSON (ver «BB Boost»).
+2. **Boletos del usuario:** leer Betano → Mis apuestas (Resueltas **y Abiertas**), escribir `boletos_betano.json`, `patas_calificadas.json` (pata por pata con valor real; las sin marca ✓/✗ se calculan con las estadísticas) y `pendientes.json`; marcar `apostada` en las líneas de `registro/lineas.csv` que él jugó.
+3. **Partido sin terminar = pendiente** (boleto abierto, líneas, sugerencias, combos): se declara en `pendientes.json` y se califica en el balance siguiente.
+4. **Líneas de jugador:** tablas Player stats de Flashscore en inglés (`flashscore_jugadores_en.js`); atajadas = atajadas del equipo; nunca dar por perdida una línea sin saber si jugó («nula»).
+5. **Entregar:** `balance.html` con conclusiones (`conclusiones.html`: cómo nos fue en plata, qué funcionó, qué falló, qué mejorar, límites; con la calibración del modelo en equipo y jugador y el acierto de «cumple» frente al precio), libro (`libro_dia.py` lineas / sugeridas / boletos + lecciones), `registro/BITACORA.md`, `entregas/` + `INDICE.md`, `construir_v2.py` + `test_dashboard.py`, commit y push a `main`; decir en el chat cómo le fue, qué se ve en el dashboard y qué quedó pendiente.
+6. **Si el usuario pide algo nuevo en un balance (otra vista, otro dato, otro filtro), se hace en el generador/dashboard del repo y se agrega aquí como regla fija.**
+
 ## Ambos marcan y resultado del partido (desde el 18-nov-2026, vale para CUALQUIER chat, cuenta o sesión)
 El usuario pidió que **«ambos marcan» (BTTS) y «resultado: quién gana» (1, X, 2) y la doble oportunidad (1X, X2, 12)** se analicen como cualquier otro mercado de goles; antes el modelo los calculaba pero no salían en la ficha, en `registro/lineas.csv`, en el análisis ni en la calificación.
 - **Recolección:** salen del mismo Betano (`unicos`: `ambos`, `resultado`); en todos los partidos que se recolectan, también los que solo traen goles/córners/tarjetas, se lee y se guarda esto.

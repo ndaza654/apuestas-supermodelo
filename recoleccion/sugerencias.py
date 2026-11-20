@@ -13,7 +13,7 @@ línea asiática que devuelve (media ganada/perdida) y ninguna pata fallida, que
 marcan: Betano liquida a 90′ y el feed trae la prórroga.
 Lo que NO está: el detalle pata por pata de las combinadas y boletos recomendados del 4 al 8-nov (solo cifras agregadas en el libro/proyecto).
 """
-import csv, json, os, sys
+import csv, json, os, re, sys
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(RAIZ, 'recoleccion'))
@@ -331,6 +331,7 @@ def construir():
             [(r['partido'], nombre, float(r['cuota']) if r['cuota'] else None, (COD[r['resultado']], r['nota'].split('valor real ')[-1][:40] if 'valor real' in r['nota'] else ''))],
             float(r['cuota']) if r['cuota'] else '', float(r['p_modelo']) if r['p_modelo'] else '', '', 'Línea con «cumple» (≥ 5 de 7 en ambos).', 'registro/lineas.csv')
     jornadas(rows)
+    bb_y_misiones()
     quince(rows)
     # ===== 14-nov · análisis de la jornada (corrida programada 3:45 a. m.; pendientes de calificar con resultados del 14-nov) ======
     F14 = 'entregas/2026-11-14/0400_analisis-jornada-14nov.md'
@@ -373,6 +374,47 @@ def jornadas(rows):
                 legs.append((p['partido'], p['texto'] if len(s['patas']) == 1 else f"{p['texto']} ({p['partido']})" if '|' in s['partidos'] else p['texto'], p['cuota'], c))
             add(f"{jor} · {d.get('entrega', 'informe de la jornada')}: {s['etiqueta']}", jor, '', s['tipo'], s['nombre'], s['partidos'].replace(' - ', '–'), legs, s['cuota'], s['p'],
                 nota=f"{s['etiqueta']}; {d.get('p_es', 'p recortada')} (p del modelo {s['p_modelo']}). " + d.get('nota', ''), fuente=os.path.relpath(ruta, RAIZ))
+
+
+def bb_y_misiones():
+    """Combos de BB Boost (jornadas/<día>/bb/bb_boost_resumen.json) y misiones (jornadas/<día>/misiones/misiones.json) ya enviados al usuario.
+    Entran a «Lo que te envié» calificados pata por pata con los `patas_real` que deja recoleccion/calificar_bb.py (sin ese paso quedan «pendiente»)."""
+    import glob
+    for rb in sorted(glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'bb', 'bb_boost_resumen.json'))):
+        jdir = os.path.dirname(os.path.dirname(rb)); jor = os.path.basename(jdir)
+        B = json.load(open(rb, encoding='utf8'))
+        mp = os.path.join(jdir, 'resultados', 'mapa_partidos.json')
+        M = json.load(open(mp, encoding='utf8')) if os.path.exists(mp) else {}
+        hora = B.get('leido_hora', '')
+        for slug, v in B.items():
+            if not (isinstance(v, dict) and 'combos' in v):
+                continue
+            part = M.get(slug, slug).replace(' - ', '–')
+            for c in v['combos']:
+                pr = c.get('precio_bb') or (sum(c['precio_estimado']) / 2 if c.get('precio_estimado') else '')
+                pr_txt = 'precio BB real leído en el cupón' if c.get('precio_bb') else 'precio BB ESTIMADO (no se leyó en el cupón)'
+                pr_ = c.get('patas_real') or []
+                legs = []
+                for i, t in enumerate(c['patas']):
+                    ok, real = pr_[i] if i < len(pr_) else (None, 'pendiente')
+                    legs.append((M.get(slug, slug), t, (c.get('cuotas_cupon') or [None] * 9)[i], ('C' if ok is True else 'F' if ok is False else 'P', real)))
+                add(f'{jor} · BB Boost enviado ({hora})', jor, hora, 'Bet Builder (BB Boost)', f"BB Boost {c['tag']} · {part}", part, legs, pr,
+                    c.get('p_prudente', ''), 'jugada' if c.get('jugada') else 'no jugada', f"{pr_txt}; {'cumple' if c.get('cumple') else 'no cumple'} las condiciones del boost; p prudente {c.get('p_prudente')}.", os.path.relpath(rb, RAIZ))
+    for rm in sorted(glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'misiones', 'misiones.json'))):
+        jdir = os.path.dirname(os.path.dirname(rm)); jor = os.path.basename(jdir)
+        Mi = json.load(open(rm, encoding='utf8')); hora = Mi.get('actualizado', '')
+        for mm, nom in (('m1', 'Misión 1'), ('m2', 'Misión 2')):
+            for c in (Mi.get(mm) or {}).get('combos', []):
+                pr = c.get('precio_real') or c.get('producto') or ''
+                pr_ = c.get('patas_real') or []
+                legs = []
+                for i, t in enumerate(c['patas']):
+                    ok, real = pr_[i] if i < len(pr_) else (None, 'pendiente')
+                    cu = re.search(r'@([\d,\.]+)', t)
+                    legs.append((c['partido'], re.sub(r'\s*@[\d,\.]+', '', t), float(cu.group(1).replace(',', '.')) if cu else None, ('C' if ok is True else 'F' if ok is False else 'P', real)))
+                tipo = 'Misión 1 · Bet Builder' if mm == 'm1' else 'Misión 2 · combinada entre partidos'
+                add(f'{jor} · {nom} enviada ({hora})', jor, hora, tipo, f"{nom} · {c['partido']}", c['partido'], legs, pr, c.get('p', ''),
+                    'jugada' if c.get('jugada') else 'no jugada', f"{c.get('estado', '')}; {'precio real leído' if c.get('precio_real') else 'cuota = producto de las cuotas'}.", os.path.relpath(rm, RAIZ))
 
 
 def quince(rows):

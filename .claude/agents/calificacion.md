@@ -16,3 +16,5 @@ Qué medir, siempre con n a la vista:
 4. Fallas de proceso: líneas sin dato, jugadores que no jugaron (alineación probable que falló), rojas no contadas en tarjetas.
 
 Honestidad: con n pequeño (una jornada son pocas líneas) **no concluyas**; reporta los números y di que son insuficientes para cambiar un criterio. Los criterios vienen de tipsters y medios sin resultados verificados: esta calificación es lo que los verifica con el tiempo. Escribe `registro/resumen_AAAA-MM-DD.md` y al chat devuelve solo el resumen corto.
+
+**Balance completo (regla fija desde el 19-nov):** además de las líneas, califica las combinadas, los combos de BB Boost y las misiones enviados (`python3 recoleccion/calificar_bb.py jornadas/<día> <resultados_por_partido.json>` y luego `python3 recoleccion/sugerencias.py`), para que salgan en el dashboard («BB Boost» y «Lo que te envié»). Ver CLAUDE.md → «Lista fija de cada balance».
