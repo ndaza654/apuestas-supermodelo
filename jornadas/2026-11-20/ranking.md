@@ -4,35 +4,71 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 
 | # | Partido | Situación | Estado | Córners (datos · cumplen) | Partido (datos · cumplen) | Jugadores (datos · cumplen) | Motivo |
 |---|---|---|---|---|---|---|---|
-| 1 | FC Bayern Munchen - 1. FC Köln | sin leer | reserva | reserva (100 · 4) | reserva (90 · 23) | reserva (100 · 2) | situación sin leer |
-| 2 | Western Sydney Wanderers - Adelaide United | sin leer | reserva | reserva (100 · 7) | reserva (80 · 19) | reserva (81 · 3) | situación sin leer |
-| 3 | ES Troyes AC - Le Havre AC | sin leer | reserva | reserva (100 · 7) | reserva (90 · 16) | reserva (91 · 0) | situación sin leer |
-| 4 | Athletic Bilbao - RCD Espanyol | sin leer | reserva | reserva (100 · 5) | reserva (90 · 18) | no apto (50 · 0) | situación sin leer; jugadores: datos 50 < 60 |
-| 5 | Farul Constanta - Universitatea Cluj | sin leer | reserva | reserva (100 · 5) | reserva (85 · 12) | reserva (86 · 0) | situación sin leer |
-| 6 | Cercle Brugge KSV - KVC Westerlo | sin leer | reserva | reserva (100 · 0) | reserva (80 · 15) | reserva (65 · 0) | situación sin leer |
-| 7 | Al-Ahli SFC - Al-Nassr FC | sin leer | reserva | reserva (100 · 0) | reserva (80 · 12) | reserva (90 · 1) | situación sin leer |
-| 8 | FC Botosani - FC Voluntari | sin leer | reserva | reserva (100 · 0) | reserva (84 · 8) | reserva (83 · 3) | situación sin leer |
-| 9 | South Melbourne FC - Canberra FC | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 10 | Aarhus GF - Lyngby BK | sin leer | reserva | reserva (96 · 0) | reserva (76 · 8) | reserva (92 · 0) | situación sin leer |
-| 11 | Cobresal - Audax Italiano | sin leer | reserva | reserva (100 · 5) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
-| 12 | FC Andorra - CD Leganés | sin leer | reserva | reserva (100 · 6) | no lo ofrece | no apto (48 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 48 < 60 |
-| 13 | Hellas Verona - Cesena | sin leer | reserva | reserva (100 · 3) | no lo ofrece | no apto (48 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 48 < 60 |
-| 14 | Vissel Kobe - Mito Hollyhock | sin leer | reserva | reserva (100 · 3) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
-| 15 | Al Gharafa - Al Arabi Doha | sin leer | reserva | reserva (92 · 2) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 16 | Sydney United - Sutherland Sharks | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 17 | Bengaluru - Mumbai City | sin leer | reserva | reserva (89 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 18 | Al-Duhail SC - Qatar SC | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 19 | Al Ittihad Kalba - Al Sharjah Club | sin leer | reserva | reserva (92 · 1) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 20 | Shabab Al Ahli Dubai - Ajman Club | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 21 | Kashiwa Reysol - JEF United Chiba | sin leer | reserva | reserva (100 · 2) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
-| 22 | Al-Sadd SC - Lusail City | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 23 | Beijing Guoan - Shanghai Port | sin leer | reserva | reserva (100 · 1) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 24 | East Bengal Club - Sporting Club Delhi | sin leer | reserva | reserva (78 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 25 | ES Hammam Sousse - Sakiet Eddaier | sin leer | reserva | reserva (75 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 26 | Kashima Antlers - Shimizu S-Pulse | sin leer | reserva | reserva (100 · 1) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
-| 27 | Olympique de Beja - AS Marsa | sin leer | reserva | reserva (68 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 28 | Club S Hammam-Lif - Metlaoui | sin leer | reserva | reserva (71 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 29 | FC Bihor Oradea - CS Gloria Bistrita | sin leer | no ofrece | no lo ofrece | no lo ofrece | no lo ofrece | situación sin leer; córners: Betano no lo ofrece; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 1 | Atlético Bucaramanga - América de Cali | 67 | apto | apto (100 · 3) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 2 | Palestino - Unión La Calera | 57 | apto | apto (100 · 4) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 3 | Deportivo Cali - Millonarios FC | 67 | apto | apto (100 · 4) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 4 | Independiente Medellín - Independiente Santa Fe | 62 | apto | apto (100 · 2) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 5 | FC Bayern Munchen - 1. FC Köln | sin leer | reserva | reserva (100 · 4) | reserva (90 · 23) | reserva (100 · 2) | situación sin leer |
+| 6 | Western Sydney Wanderers - Adelaide United | sin leer | reserva | reserva (100 · 7) | reserva (80 · 19) | reserva (81 · 3) | situación sin leer |
+| 7 | FC Juarez - Atlas FC | sin leer | reserva | reserva (100 · 8) | reserva (80 · 18) | no apto (45 · 0) | situación sin leer; jugadores: datos 45 < 60 |
+| 8 | Club Tijuana - Atlante FC | sin leer | reserva | reserva (100 · 3) | reserva (80 · 21) | no apto (44 · 0) | situación sin leer; jugadores: datos 44 < 60 |
+| 9 | ES Troyes AC - Le Havre AC | sin leer | reserva | reserva (100 · 7) | reserva (90 · 16) | reserva (91 · 0) | situación sin leer |
+| 10 | Athletic Bilbao - RCD Espanyol | sin leer | reserva | reserva (100 · 5) | reserva (90 · 18) | no apto (50 · 0) | situación sin leer; jugadores: datos 50 < 60 |
+| 11 | Velez Sarsfield - CA Belgrano | sin leer | reserva | reserva (100 · 6) | reserva (80 · 17) | no apto (48 · 0) | situación sin leer; jugadores: datos 48 < 60 |
+| 12 | Farul Constanta - Universitatea Cluj | sin leer | reserva | reserva (100 · 5) | reserva (85 · 12) | reserva (86 · 0) | situación sin leer |
+| 13 | Cercle Brugge KSV - KVC Westerlo | sin leer | reserva | reserva (100 · 0) | reserva (80 · 15) | reserva (65 · 0) | situación sin leer |
+| 14 | Al-Ahli SFC - Al-Nassr FC | sin leer | reserva | reserva (100 · 0) | reserva (80 · 12) | reserva (90 · 1) | situación sin leer |
+| 15 | FC Botosani - FC Voluntari | sin leer | reserva | reserva (100 · 0) | reserva (84 · 8) | reserva (83 · 3) | situación sin leer |
+| 16 | South Melbourne FC - Canberra FC | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 17 | Aarhus GF - Lyngby BK | sin leer | reserva | reserva (96 · 0) | reserva (76 · 8) | reserva (92 · 0) | situación sin leer |
+| 18 | Cobresal - Audax Italiano | sin leer | reserva | reserva (100 · 5) | no lo ofrece | no apto (50 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 50 < 60 |
+| 19 | Club Puebla - Atlético San Luis | sin leer | reserva | reserva (100 · 2) | no lo ofrece | no apto (46 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 46 < 60 |
+| 20 | FC Andorra - CD Leganés | sin leer | reserva | reserva (100 · 6) | no lo ofrece | no apto (48 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 48 < 60 |
+| 21 | Hellas Verona - Cesena | sin leer | reserva | reserva (100 · 3) | no lo ofrece | no apto (48 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 48 < 60 |
+| 22 | Vissel Kobe - Mito Hollyhock | sin leer | reserva | reserva (100 · 3) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 23 | Al Gharafa - Al Arabi Doha | sin leer | reserva | reserva (92 · 2) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 24 | Sydney United - Sutherland Sharks | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 25 | Bengaluru - Mumbai City | sin leer | reserva | reserva (89 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 26 | Al-Duhail SC - Qatar SC | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 27 | Al Ittihad Kalba - Al Sharjah Club | sin leer | reserva | reserva (92 · 1) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 28 | Shabab Al Ahli Dubai - Ajman Club | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 29 | Kashiwa Reysol - JEF United Chiba | sin leer | reserva | reserva (100 · 2) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 30 | Al-Sadd SC - Lusail City | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 31 | Beijing Guoan - Shanghai Port | sin leer | reserva | reserva (100 · 1) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 32 | East Bengal Club - Sporting Club Delhi | sin leer | reserva | reserva (78 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 33 | ES Hammam Sousse - Sakiet Eddaier | sin leer | reserva | reserva (75 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 34 | Kashima Antlers - Shimizu S-Pulse | sin leer | reserva | reserva (100 · 1) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 35 | Olympique de Beja - AS Marsa | sin leer | reserva | reserva (68 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 36 | Club S Hammam-Lif - Metlaoui | sin leer | reserva | reserva (71 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 37 | FC Bihor Oradea - CS Gloria Bistrita | sin leer | no ofrece | no lo ofrece | no lo ofrece | no lo ofrece | situación sin leer; córners: Betano no lo ofrece; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+
+## Atlético Bucaramanga - América de Cali (Colombia Categoría Primera A)
+Datos 70 · Situación 67 · por mercado: {'Córners': 3, 'Goles': 3, 'Tarjetas': 2}
+
+**Datos:** Córners: 12 líneas, muestra de 10 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 46 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
+
+**Situación:** +15 importancia alta; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
+
+## Palestino - Unión La Calera (Chile Liga de Primera)
+Datos 70 · Situación 57 · por mercado: {'Córners': 4, 'Goles': 4}
+
+**Datos:** Córners: 35 líneas, muestra de 10 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 51 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
+
+**Situación:** +10 un equipo necesita ganar; -3 1 duda(s) abierta(s) en la ficha
+
+## Deportivo Cali - Millonarios FC (Colombia Categoría Primera A)
+Datos 70 · Situación 67 · por mercado: {'Córners': 4, 'Goles': 2}
+
+**Datos:** Córners: 12 líneas, muestra de 10 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 49 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
+
+**Situación:** +15 importancia alta; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
+
+## Independiente Medellín - Independiente Santa Fe (Colombia Categoría Primera A)
+Datos 70 · Situación 62 · por mercado: {'Córners': 2, 'Goles': 3}
+
+**Datos:** Córners: 12 líneas, muestra de 10 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 50 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
+
+**Situación:** +15 importancia alta; -3 1 duda(s) abierta(s) en la ficha
 
 ## FC Bayern Munchen - 1. FC Köln (Alemania Bundesliga)
 Datos 100 · Situación sin leer · por mercado: {'Córners': 4, 'Fueras de juego': 1, 'Remates': 7, 'Tiros al arco': 8, 'Goles': 4, 'Tarjetas': 3}
@@ -48,6 +84,20 @@ Datos 97 · Situación sin leer · por mercado: {'Córners': 7, 'Remates': 12, '
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -6 2 duda(s) abierta(s) en la ficha
 
+## FC Juarez - Atlas FC (México Liga MX)
+Datos 80 · Situación sin leer · por mercado: {'Córners': 8, 'Remates': 5, 'Tiros al arco': 6, 'Goles': 3, 'Tarjetas': 4}
+
+**Datos:** Córners: 37 líneas, muestra de 10 al 100% → 100 | Partido: 2/6 familias ofrecidas, muestra al 100% → 80 | Jugadores: 15 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 45 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+
+## Club Tijuana - Atlante FC (México Liga MX)
+Datos 75 · Situación sin leer · por mercado: {'Córners': 3, 'Remates': 9, 'Tiros al arco': 7, 'Goles': 2, 'Tarjetas': 3}
+
+**Datos:** Córners: 38 líneas, muestra de 10 al 100% → 100 | Partido: 2/6 familias ofrecidas, muestra al 100% → 80 | Jugadores: 14 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 44 | Árbitro con promedio: 0 (sin dato); directos con estadística: 0 (0)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+
 ## ES Troyes AC - Le Havre AC (Francia Ligue 1)
 Datos 99 · Situación sin leer · por mercado: {'Córners': 7, 'Fueras de juego': 7, 'Remates': 4, 'Tiros al arco': 1, 'Goles': 1, 'Tarjetas': 3}
 
@@ -61,6 +111,13 @@ Datos 90 · Situación sin leer · por mercado: {'Córners': 5, 'Fueras de juego
 **Datos:** Córners: 38 líneas, muestra de 10 al 100% → 100 | Partido: 4/6 familias ofrecidas, muestra al 100% → 90 | Jugadores: 20 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (63%, según cuotas); -6 2 duda(s) abierta(s) en la ficha
+
+## Velez Sarsfield - CA Belgrano (Argentina Liga Profesional)
+Datos 81 · Situación sin leer · por mercado: {'Córners': 6, 'Remates': 9, 'Tiros al arco': 4, 'Goles': 3, 'Tarjetas': 1}
+
+**Datos:** Córners: 37 líneas, muestra de 10 al 100% → 100 | Partido: 2/6 familias ofrecidas, muestra al 100% → 80 | Jugadores: 18 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 48 | Árbitro con promedio: +5; directos con estadística: 2 (0)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
 ## Farul Constanta - Universitatea Cluj (Rumanía Liga1)
 Datos 100 · Situación sin leer · por mercado: {'Córners': 5, 'Remates': 7, 'Tiros al arco': 3, 'Goles': 2}
@@ -105,9 +162,16 @@ Datos 98 · Situación sin leer · por mercado: {'Remates': 2, 'Goles': 2, 'Tarj
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -6 2 duda(s) abierta(s) en la ficha
 
 ## Cobresal - Audax Italiano (Chile Liga de Primera)
-Datos 70 · Situación sin leer · por mercado: {'Córners': 5, 'Goles': 2, 'Tarjetas': 1}
+Datos 85 · Situación sin leer · por mercado: {'Córners': 5, 'Goles': 2, 'Tarjetas': 1}
 
-**Datos:** Córners: 38 líneas, muestra de 10 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 58 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
+**Datos:** Córners: 38 líneas, muestra de 10 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 20 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
+
+## Club Puebla - Atlético San Luis (México Liga MX)
+Datos 78 · Situación sin leer · por mercado: {'Córners': 2, 'Goles': 6}
+
+**Datos:** Córners: 37 líneas, muestra de 10 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 16 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 46 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
 

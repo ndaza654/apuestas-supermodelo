@@ -42,3 +42,16 @@ Los jugadores con menos de 7 partidos de historial no pasan el filtro «7 de 10�
 | Andorra–Leganés, Verona–Cesena, Cobresal–Audax | — | Solo goleador (`anota`): no necesitan historial de estadística |
 | BB Boost (catálogo `bb/catalogo_1400.json` hash 152596482; precios `bb/precios_1400.json`) | `bb/` | **Leído 13:54 Bogotá** en 7 partidos (Al-Ahli, Aarhus y Farul ya empezados). Resumen `bb/bb_boost_resumen.json`, texto `bb/BB_BOOST_1354.md` |
 Límites: una sola lectura de cuotas (sin CLV); releer cuotas y onces ≈ 1 h antes; «entradas» de Flashscore no son idénticas a las de Betano; criterios de tipsters sin resultados verificados. Hash del lote de historiales Al-Ahli/Aarhus (`pjb_20nov_1`): 1924190433.
+
+
+## Bloque 16:00–22:10 (9 partidos; recolección 14:51–15:50 Bogotá)
+| Qué | Dónde | Estado |
+|---|---|---|
+| Betano (lectura 14:51; hash `bet_20nov_tarde` 3620562271) | `betano/`, `raw/bet_*.txt` | 9 de 9. **Límite de la fuente:** la API de Betano entrega 215 de los 625–685 mercados anunciados de Vélez, Tijuana y Juárez; los mercados de remates, asistencias y atajadas de jugador solo traen el jugador destacado |
+| Flashscore últimos 10 de cada equipo + directos (`fs_20nov_tarde` 3682558057) | `flashscore/` | 9 de 9 (10+10 con estadísticas completas; directos: Tijuana–Atlante 0 (no se han enfrentado en el periodo), Vélez–Belgrano 3, resto 6) |
+| Árbitro (ValueStats; hash `vs_20nov_tarde` 3525050358) | `arbitros/` | 6 de 9. **Sin anunciar a las 15:40:** Tijuana–Atlante, Juárez–Atlas, Puebla–San Luis (ni Flashscore ni ValueStats ni prensa lo tenían); releer antes del partido |
+| Tabla y qué se juegan (hash `lust_20nov_tarde` 1736476756) | `paginas/`, `notas/` | 8 de 9. **Vélez–Belgrano: Flashscore no tiene pestaña de posiciones** |
+| Alineaciones | `alineaciones/` | Oficiales: Cobresal–Audax (leídas ~15:50). Probables: Vélez, Tijuana, Juárez, Puebla. **Sin publicar a las 15:45: Palestino, Medellín, Bucaramanga, Cali** (se releen ~1 h antes) |
+| **Historial por jugador (Vélez–Belgrano, Tijuana–Atlante, Juárez–Atlas)** | `jugadores/` | **NO disponible en Flashscore:** su pestaña «Player stats» está vacía para Liga MX y Liga Profesional argentina (12 partidos probados; los 4 primeros de Vélez, 5 de Tijuana y 3 de Juárez dieron «filas 0»; el resto no se probó al comprobarse que era toda la liga). Sofascore da 403. Los mercados de jugador de estadística de esos 3 partidos **no se recomiendan** |
+| Cobresal, Palestino, Puebla, Medellín, Bucaramanga, Cali | — | Solo goleador (`anota`): no necesitan historial de estadística |
+Límites: una sola lectura de cuotas (sin CLV); «entradas» de Flashscore no son idénticas a las de Betano; Flashscore no trae «faltas recibidas» en Liga MX/Argentina; criterios de tipsters sin resultados verificados.
