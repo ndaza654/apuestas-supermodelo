@@ -29,3 +29,16 @@ Los jugadores con menos de 7 partidos de historial no pasan el filtro «7 de 10�
 - «Entradas» de Flashscore son ganadas/intentadas; Betano cuenta entradas totales. Flashscore solo trae amarillas y rojas para tarjetas (Betano cuenta en puntos).
 - Lo recogido pasa transcrito por el chat y se verificó con hash: `fs_20nov.json` 527643060, `fs_paginas_20nov.json` 2535844691, `arb_20nov.json` 3040378702, `pj_20nov.json` 804547518, `lu_20nov.json` 1245359337.
 - Criterios de tipsters y medios sin resultados verificados; el «cumple 7 de 10» acierta cerca de lo que ya descuenta el precio (ver `CLAUDE.md`, «Hallazgos 4–18 nov»).
+
+## Bloque 12:30–16:00 (10 partidos; recolección 11:27–13:00 Bogotá)
+| Qué | Dónde | Estado |
+|---|---|---|
+| Betano (lectura 11:27–11:28; hash `bet_20nov_pm` 760018290) | `betano/`, `raw/bet_*.txt` | 10 de 10 |
+| Flashscore últimos 10 de cada equipo + directos (`fs_20nov_pm_b` 47020405) | `flashscore/` | 10 de 10 |
+| Árbitro (ValueStats; `arb_20nov_pm` 2107428813) | `arbitros/` | 9 de 10; **Al-Ahli–Al-Nassr no estaba anunciado** |
+| Tabla, forma y bajas (`fs_paginas_20nov_pm` 3123788724; `lu_st_20nov_pm` 1801034947) | `paginas/`, `notas/` | 10 de 10; solo hechos de tabla, forma y bajas (sin lectura de rotación ni objetivos) |
+| Alineaciones | `alineaciones/` | Oficiales en Al-Ahli–Al-Nassr y Aarhus–Lyngby; probables en 8; **Cobresal–Audax sin pestaña** |
+| **Historial por jugador (7 partidos con tiros al arco)** | `jugadores/<partido>.json` | **Completo: Al-Ahli (10+10 de 10) y Aarhus (10 de 10 y 9 de 10; falta Aarhus vs VSK Aarhus 9-sep: Flashscore sin pestaña de jugadores). PENDIENTE: Farul–Cluj, Bayern–Köln, Troyes–Le Havre, Cercle–Westerlo y Athletic–Espanyol** (la conexión con el PC se cayó al bajar el último lote; Flashscore tampoco publica jugadores de Farul vs Sepsi 28-oct). Sus líneas de jugador salen «sin muestra» y **no se recomiendan** hasta traer el historial |
+| Andorra–Leganés, Verona–Cesena, Cobresal–Audax | — | Solo goleador (`anota`): no necesitan historial de estadística |
+| BB Boost | — | **No se leyó** |
+Límites: una sola lectura de cuotas (sin CLV); releer cuotas y onces ≈ 1 h antes; «entradas» de Flashscore no son idénticas a las de Betano; criterios de tipsters sin resultados verificados. Hash del lote de historiales Al-Ahli/Aarhus (`pjb_20nov_1`): 1924190433.
