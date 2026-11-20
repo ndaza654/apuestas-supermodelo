@@ -1,0 +1,711 @@
+{
+ "leido": "2026-11-20 13:54 Bogotá",
+ "leido_hora": "13:54",
+ "condiciones": "BB BOOST 25 %: ≥3 mercados, cada cuota > 1,50, cuota total > 5,00 (cupón de Betano)",
+ "condiciones_lista": [
+  "≥ 3 mercados del mismo partido (Bet Builder)",
+  "cada cuota > 1,50 (se exige ≥ 1,51)",
+  "cuota total > 5,00 (se exige ≥ 5,05)",
+  "bono +25 % sobre la ganancia neta (verificar en el cupón)"
+ ],
+ "aviso": "Precios REALES leídos de Betano 13:54 Bogotá (mc-leg), cuota de cada pata en el cupón comprobada > 1,50. Se evaluaron 692 combos de 3–5 patas (catálogo de 7 partidos; Al-Ahli, Aarhus y Farul ya habían empezado). EV con boost = p·(1+1,25·(precio−1))−1 con la p del modelo (sin validar contra el precio: informativo). 3–5 patas = lotería, stake mínimo. Releer precio y alineaciones oficiales ≈ 1 h antes.",
+ "fc-bayern-munchen-1-fc-koln": {
+  "evento": 93891476,
+  "combos": [
+   {
+    "tag": "A principal · 3 patas sólidas",
+    "patas": [
+     "Tiros al arco FC Bayern Munchen Menos 9.5",
+     "Tarjetas Más 2.5",
+     "Tiros al arco 1. FC Köln Más 2.5"
+    ],
+    "cuotas_cupon": [
+     1.72,
+     1.7,
+     1.78
+    ],
+    "cuotas_catalogo": [
+     1.72,
+     1.7,
+     1.78
+    ],
+    "producto_cupon": 5.2,
+    "precio_bb": 5.2,
+    "p_modelo": 0.173,
+    "p_prudente": 0.1726,
+    "p_stress": 0.1559,
+    "K": null,
+    "solidez": 1.0,
+    "solidez_patas": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ev_sin_boost": -0.102,
+    "pago_boost": 6.25,
+    "ev_con_boost": 0.079,
+    "p_equilibrio_boost": 0.16,
+    "frágil": "Tiros al arco 1. FC Köln Más 2.5",
+    "cumple": true,
+    "ids": [
+     "10849008097",
+     "10849008046",
+     "10849008090"
+    ]
+   },
+   {
+    "tag": "B · 5 patas sólidas (más pago)",
+    "patas": [
+     "Goles 1. FC Köln Más 0.5",
+     "Ambos marcan: Sí",
+     "Tiros al arco FC Bayern Munchen Menos 9.5",
+     "Tarjetas Más 2.5",
+     "Tiros al arco 1. FC Köln Más 2.5"
+    ],
+    "cuotas_cupon": [
+     1.65,
+     1.67,
+     1.72,
+     1.7,
+     1.78
+    ],
+    "cuotas_catalogo": [
+     1.65,
+     1.7,
+     1.72,
+     1.7,
+     1.78
+    ],
+    "producto_cupon": 14.34,
+    "precio_bb": 7,
+    "p_modelo": 0.132,
+    "p_prudente": 0.1319,
+    "p_stress": 0.1192,
+    "K": null,
+    "solidez": 1.0,
+    "solidez_patas": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ev_sin_boost": -0.077,
+    "pago_boost": 8.5,
+    "ev_con_boost": 0.121,
+    "p_equilibrio_boost": 0.118,
+    "frágil": "Tiros al arco 1. FC Köln Más 2.5",
+    "cumple": true,
+    "ids": [
+     "10742719120",
+     "10590098664",
+     "10849008097",
+     "10849008046",
+     "10849008090"
+    ]
+   },
+   {
+    "tag": "C · 4 patas",
+    "patas": [
+     "Remates FC Bayern Munchen Menos 24.5",
+     "Ambos marcan: Sí",
+     "Tiros al arco FC Bayern Munchen Menos 9.5",
+     "Remates 1. FC Köln Más 9.5"
+    ],
+    "cuotas_cupon": [
+     1.53,
+     1.67,
+     1.72,
+     2.22
+    ],
+    "cuotas_catalogo": [
+     1.53,
+     1.7,
+     1.72,
+     2.22
+    ],
+    "producto_cupon": 9.76,
+    "precio_bb": 7,
+    "p_modelo": 0.134,
+    "p_prudente": 0.1338,
+    "p_stress": 0.1173,
+    "K": null,
+    "solidez": 0.6,
+    "solidez_patas": [
+     0.6,
+     1.0,
+     1.0,
+     0.6
+    ],
+    "ev_sin_boost": -0.063,
+    "pago_boost": 8.5,
+    "ev_con_boost": 0.137,
+    "p_equilibrio_boost": 0.118,
+    "frágil": "Remates 1. FC Köln Más 9.5",
+    "cumple": true,
+    "ids": [
+     "10849008115",
+     "10590098664",
+     "10849008097",
+     "10849008118"
+    ]
+   },
+   {
+    "tag": "D · 3 patas",
+    "patas": [
+     "Goles 1. FC Köln Más 0.5",
+     "Córners Menos 11.5",
+     "Remates 1. FC Köln Más 9.5"
+    ],
+    "cuotas_cupon": [
+     1.65,
+     1.75,
+     2.22
+    ],
+    "cuotas_catalogo": [
+     1.65,
+     1.75,
+     2.22
+    ],
+    "producto_cupon": 6.41,
+    "precio_bb": 6.2,
+    "p_modelo": 0.146,
+    "p_prudente": 0.1464,
+    "p_stress": 0.1283,
+    "K": null,
+    "solidez": 0.6,
+    "solidez_patas": [
+     1.0,
+     0.6,
+     0.6
+    ],
+    "ev_sin_boost": -0.092,
+    "pago_boost": 7.5,
+    "ev_con_boost": 0.098,
+    "p_equilibrio_boost": 0.133,
+    "frágil": "Remates 1. FC Köln Más 9.5",
+    "cumple": true,
+    "ids": [
+     "10742719120",
+     "10829139216",
+     "10849008118"
+    ]
+   },
+   {
+    "tag": "E · 4 patas",
+    "patas": [
+     "Goles 1. FC Köln Más 0.5",
+     "Córners FC Bayern Munchen Menos 8.5",
+     "Tiros al arco FC Bayern Munchen Menos 9.5",
+     "Tiros al arco 1. FC Köln Más 2.5"
+    ],
+    "cuotas_cupon": [
+     1.65,
+     1.7,
+     1.72,
+     1.78
+    ],
+    "cuotas_catalogo": [
+     1.65,
+     1.7,
+     1.72,
+     1.78
+    ],
+    "producto_cupon": 8.59,
+    "precio_bb": 6.9,
+    "p_modelo": 0.135,
+    "p_prudente": 0.1351,
+    "p_stress": 0.122,
+    "K": null,
+    "solidez": 0.6,
+    "solidez_patas": [
+     1.0,
+     0.6,
+     1.0,
+     1.0
+    ],
+    "ev_sin_boost": -0.068,
+    "pago_boost": 8.38,
+    "ev_con_boost": 0.132,
+    "p_equilibrio_boost": 0.119,
+    "frágil": "Tiros al arco 1. FC Köln Más 2.5",
+    "cumple": true,
+    "ids": [
+     "10742719120",
+     "10832361347",
+     "10849008097",
+     "10849008090"
+    ]
+   }
+  ],
+  "veredicto": "SÍ — el mejor del día",
+  "nota": "Bayern favorito claro (la ficha da ≈ 91 % al local). La 3 patas A es la única donde las tres patas cumplen la ficha (X de 10 ≥ 7 en ambos equipos): Bayern pocos tiros al arco, tarjetas ≥ 3 en el partido y Köln ≥ 3 tiros al arco. En la 5 patas B, «Goles Köln Más 0.5» y «Ambos marcan: Sí» son casi el mismo evento (Bayern marca casi seguro): pata de relleno que sube el precio sin añadir información. Se pierde si Köln tira poco al arco, Bayern tira mucho o el partido sale sin tarjetas."
+ },
+ "es-troyes-ac-le-havre-ac": {
+  "evento": 95023733,
+  "combos": [
+   {
+    "tag": "A · 3 patas (margen mínimo)",
+    "patas": [
+     "Remates ES Troyes AC Menos 14.5",
+     "Remates Le Havre AC Más 11.5",
+     "Faltas Le Havre AC Más 13.5"
+    ],
+    "cuotas_cupon": [
+     1.52,
+     1.82,
+     1.85
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.82,
+     1.85
+    ],
+    "producto_cupon": 5.12,
+    "precio_bb": 5.1,
+    "p_modelo": 0.18,
+    "p_prudente": 0.1796,
+    "p_stress": 0.1619,
+    "K": null,
+    "solidez": 0.6,
+    "solidez_patas": [
+     0.6,
+     0.6,
+     0.6
+    ],
+    "ev_sin_boost": -0.084,
+    "pago_boost": 6.12,
+    "ev_con_boost": 0.099,
+    "p_equilibrio_boost": 0.163,
+    "frágil": "Faltas Le Havre AC Más 13.5",
+    "cumple": true,
+    "ids": [
+     "10849481383",
+     "10849481386",
+     "10849449600"
+    ]
+   }
+  ],
+  "veredicto": "SÍ, pero margen mínimo",
+  "nota": "Precio 5,10 apenas sobre el mínimo 5,05; basta que Betano lo mueva un poco y deja de cumplir. Patas con solidez 0,6 (6 de 10 con colchón positivo). Releer antes del partido."
+ },
+ "cercle-brugge-ksv-kvc-westerlo": {
+  "evento": 93949763,
+  "combos": [
+   {
+    "tag": "A principal · 3 patas",
+    "patas": [
+     "Remates KVC Westerlo Más 12.5",
+     "KVC Westerlo o empate",
+     "Remates Cercle Brugge KSV Menos 14.5"
+    ],
+    "cuotas_cupon": [
+     1.62,
+     1.75,
+     2.57
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.75,
+     2.57
+    ],
+    "producto_cupon": 7.29,
+    "precio_bb": 7.1,
+    "p_modelo": 0.131,
+    "p_prudente": 0.1305,
+    "p_stress": 0.112,
+    "K": null,
+    "solidez": 0.6,
+    "solidez_patas": [
+     0.6,
+     1.0,
+     0.6
+    ],
+    "ev_sin_boost": -0.073,
+    "pago_boost": 8.62,
+    "ev_con_boost": 0.125,
+    "p_equilibrio_boost": 0.116,
+    "frágil": "Remates Cercle Brugge KSV Menos 14.5",
+    "cumple": true,
+    "ids": [
+     "10855060777",
+     "10597889565",
+     "10864193216"
+    ]
+   },
+   {
+    "tag": "B · 3 patas (más pago)",
+    "patas": [
+     "KVC Westerlo o empate",
+     "Remates KVC Westerlo Más 13.5",
+     "Remates Cercle Brugge KSV Menos 14.5"
+    ],
+    "cuotas_cupon": [
+     1.75,
+     1.95,
+     2.57
+    ],
+    "cuotas_catalogo": [
+     1.75,
+     1.95,
+     2.57
+    ],
+    "producto_cupon": 8.77,
+    "precio_bb": 8.25,
+    "p_modelo": 0.11,
+    "p_prudente": 0.1097,
+    "p_stress": 0.0942,
+    "K": null,
+    "solidez": 0.6,
+    "solidez_patas": [
+     1.0,
+     0.6,
+     0.6
+    ],
+    "ev_sin_boost": -0.095,
+    "pago_boost": 10.06,
+    "ev_con_boost": 0.104,
+    "p_equilibrio_boost": 0.099,
+    "frágil": "Remates Cercle Brugge KSV Menos 14.5",
+    "cumple": true,
+    "ids": [
+     "10597889565",
+     "10855060773",
+     "10864193216"
+    ]
+   },
+   {
+    "tag": "C · 4 patas",
+    "patas": [
+     "Goles Más 2.5",
+     "Remates KVC Westerlo Más 12.5",
+     "KVC Westerlo o empate",
+     "Remates Cercle Brugge KSV Menos 15.5"
+    ],
+    "cuotas_cupon": [
+     1.52,
+     1.62,
+     1.75,
+     2.07
+    ],
+    "cuotas_catalogo": [
+     1.53,
+     1.62,
+     1.75,
+     2.07
+    ],
+    "producto_cupon": 8.92,
+    "precio_bb": 9.25,
+    "p_modelo": 0.094,
+    "p_prudente": 0.0936,
+    "p_stress": 0.083,
+    "K": null,
+    "solidez": 0.6,
+    "solidez_patas": [
+     0.6,
+     0.6,
+     1.0,
+     0.6
+    ],
+    "ev_sin_boost": -0.134,
+    "pago_boost": 11.31,
+    "ev_con_boost": 0.059,
+    "p_equilibrio_boost": 0.088,
+    "frágil": "Remates Cercle Brugge KSV Menos 15.5",
+    "cumple": true,
+    "ids": [
+     "10795948641",
+     "10855060777",
+     "10597889565",
+     "10855060772"
+    ]
+   }
+  ],
+  "veredicto": "SÍ",
+  "nota": "Combos con Westerlo «o empate» + remates de Westerlo Más y de Cercle Menos: la ficha respalda el empate/doble oportunidad y los remates a medias (0,6). Probabilidad baja (≈11–13 %) pero precio alto (7–8)."
+ },
+ "athletic-bilbao-rcd-espanyol": {
+  "evento": 91673433,
+  "combos": [
+   {
+    "tag": "A principal · 4 patas",
+    "patas": [
+     "Tarjetas RCD Espanyol Menos 3.5",
+     "Remates RCD Espanyol Más 7.5",
+     "Córners Menos 10.5",
+     "Remates Athletic Bilbao Menos 17.5"
+    ],
+    "cuotas_cupon": [
+     1.57,
+     1.52,
+     1.6,
+     1.7
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     1.52,
+     1.6,
+     1.7
+    ],
+    "producto_cupon": 6.49,
+    "precio_bb": 6.3,
+    "p_modelo": 0.149,
+    "p_prudente": 0.1492,
+    "p_stress": 0.1358,
+    "K": null,
+    "solidez": 0.6,
+    "solidez_patas": [
+     0.6,
+     0.6,
+     0.6,
+     0.6
+    ],
+    "ev_sin_boost": -0.06,
+    "pago_boost": 7.62,
+    "ev_con_boost": 0.137,
+    "p_equilibrio_boost": 0.131,
+    "frágil": "Remates Athletic Bilbao Menos 17.5",
+    "cumple": true,
+    "ids": [
+     "10850261569",
+     "10849964814",
+     "10829820974",
+     "10849964809"
+    ]
+   },
+   {
+    "tag": "B · 4 patas (más pago)",
+    "patas": [
+     "Tarjetas RCD Espanyol Menos 3.5",
+     "Remates RCD Espanyol Más 7.5",
+     "Córners Menos 10.5",
+     "Fueras de lugar RCD Espanyol Menos 2.5"
+    ],
+    "cuotas_cupon": [
+     1.57,
+     1.52,
+     1.6,
+     1.85
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     1.52,
+     1.6,
+     1.85
+    ],
+    "producto_cupon": 7.06,
+    "precio_bb": 7.6,
+    "p_modelo": 0.118,
+    "p_prudente": 0.1176,
+    "p_stress": 0.1059,
+    "K": null,
+    "solidez": 0.6,
+    "solidez_patas": [
+     0.6,
+     0.6,
+     0.6,
+     1.0
+    ],
+    "ev_sin_boost": -0.106,
+    "pago_boost": 9.25,
+    "ev_con_boost": 0.088,
+    "p_equilibrio_boost": 0.108,
+    "frágil": "Fueras de lugar RCD Espanyol Menos 2.5",
+    "cumple": true,
+    "ids": [
+     "10850261569",
+     "10849964814",
+     "10829820974",
+     "10849960576"
+    ]
+   },
+   {
+    "tag": "C · 3 patas (margen mínimo)",
+    "patas": [
+     "Tarjetas RCD Espanyol Menos 3.5",
+     "Remates Athletic Bilbao Menos 17.5",
+     "Fueras de lugar Menos 3.5"
+    ],
+    "cuotas_cupon": [
+     1.57,
+     1.7,
+     1.95
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     1.7,
+     1.95
+    ],
+    "producto_cupon": 5.2,
+    "precio_bb": 5.1,
+    "p_modelo": 0.167,
+    "p_prudente": 0.1672,
+    "p_stress": 0.1492,
+    "K": null,
+    "solidez": 0.6,
+    "solidez_patas": [
+     0.6,
+     0.6,
+     0.6
+    ],
+    "ev_sin_boost": -0.147,
+    "pago_boost": 6.12,
+    "ev_con_boost": 0.023,
+    "p_equilibrio_boost": 0.163,
+    "frágil": "Fueras de lugar Menos 3.5",
+    "cumple": true,
+    "ids": [
+     "10850261569",
+     "10849964809",
+     "10849960572"
+    ]
+   }
+  ],
+  "veredicto": "SÍ — 4 patas mejor que 3",
+  "nota": "Con 3 patas el precio queda en 5,10 y el EV con bono ≈ 0; la de 4 patas sube a 6,30 y el EV con bono a ≈ +0,14 (el cuarto mercado, córners Menos 10,5, no baja mucho la probabilidad). Todas las patas con solidez 0,6."
+ },
+ "fc-andorra-cd-leganes": {
+  "evento": 94786660,
+  "combos": [
+   {
+    "tag": "A · 3 patas (poco respaldo)",
+    "patas": [
+     "Goles Más 2.5",
+     "Tarjetas Más 5.5",
+     "Córners Más 9.5"
+    ],
+    "cuotas_cupon": [
+     1.72,
+     1.75,
+     1.87
+    ],
+    "cuotas_catalogo": [
+     1.72,
+     1.75,
+     1.87
+    ],
+    "producto_cupon": 5.63,
+    "precio_bb": 5.7,
+    "p_modelo": 0.149,
+    "p_prudente": 0.1491,
+    "p_stress": 0.1342,
+    "K": null,
+    "solidez": 0.6,
+    "solidez_patas": [
+     0.6,
+     0.6,
+     0.6
+    ],
+    "ev_sin_boost": -0.15,
+    "pago_boost": 6.88,
+    "ev_con_boost": 0.026,
+    "p_equilibrio_boost": 0.145,
+    "frágil": "Córners Más 9.5",
+    "cumple": true,
+    "ids": [
+     "10830218835",
+     "10856308408",
+     "10839561054"
+    ]
+   }
+  ],
+  "veredicto": "CUMPLE precio, NO recomendado",
+  "nota": "Solo 5 patas respaldadas por la ficha; la única combinación con todas respaldadas deja EV con bono ≈ +0,03. Las de EV alto usan córners por tiempo y «más córners Leganés» (sin ficha, alerta del modelo en córners): ese EV no es creíble."
+ },
+ "hellas-verona-cesena": {
+  "evento": 93744978,
+  "combos": [
+   {
+    "tag": "solo precio · sin respaldo de la ficha",
+    "patas": [
+     "Córners Cesena Más 3.5",
+     "Goles 2.º tiempo Menos 1.5",
+     "Córners 1.er tiempo Menos 4.5"
+    ],
+    "cuotas_cupon": [
+     1.78,
+     1.8,
+     1.93
+    ],
+    "cuotas_catalogo": [
+     1.78,
+     1.83,
+     1.93
+    ],
+    "producto_cupon": 6.18,
+    "precio_bb": 7.6,
+    "p_modelo": 0.137,
+    "p_prudente": 0.125,
+    "p_stress": 0.1236,
+    "K": null,
+    "solidez": 0.0,
+    "solidez_patas": [
+     0.6,
+     0.0,
+     0.0
+    ],
+    "ev_sin_boost": 0.039,
+    "pago_boost": 9.25,
+    "ev_con_boost": 0.264,
+    "p_equilibrio_boost": 0.108,
+    "frágil": "Córners 1.er tiempo Menos 4.5",
+    "cumple": true,
+    "ids": [
+     "10832110768",
+     "10570750393",
+     "10831668633"
+    ]
+   }
+  ],
+  "veredicto": "CUMPLE precio, NO recomendado",
+  "nota": "Ninguna pata con solidez suficiente en la ficha (córners Cesena Más 3.5 es lo único a medias). Los EV positivos vienen de patas sin respaldo."
+ },
+ "cobresal-audax-italiano": {
+  "evento": 95369241,
+  "combos": [
+   {
+    "tag": "solo precio · sin respaldo de la ficha",
+    "patas": [
+     "Goles Audax Italiano Menos 1.5",
+     "Córners 1.er tiempo Menos 4.5",
+     "Gana Cobresal"
+    ],
+    "cuotas_cupon": [
+     1.57,
+     2.15,
+     2.32
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     2.15,
+     2.32
+    ],
+    "producto_cupon": 7.83,
+    "precio_bb": 5.8,
+    "p_modelo": 0.159,
+    "p_prudente": 0.1594,
+    "p_stress": 0.1397,
+    "K": null,
+    "solidez": 0.0,
+    "solidez_patas": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ev_sin_boost": -0.075,
+    "pago_boost": 7.0,
+    "ev_con_boost": 0.116,
+    "p_equilibrio_boost": 0.143,
+    "frágil": "Gana Cobresal",
+    "cumple": true,
+    "ids": [
+     "10797435088",
+     "10829543366",
+     "10787318985"
+    ]
+   }
+  ],
+  "veredicto": "CUMPLE precio, NO recomendado",
+  "nota": "Ninguna pata con respaldo de la ficha; los combos de mayor EV usan córners/goles por tiempo o resultado 1T sin estadística. Sin alineaciones leídas."
+ }
+}

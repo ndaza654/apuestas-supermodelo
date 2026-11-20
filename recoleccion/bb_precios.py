@@ -75,7 +75,7 @@ def refrescar_entrada(e, legs):
 def candidatos(jornada, clave, catalogo=None, top=150, max_patas=4, pool_n=90, pool4=26, prod_min=5.0, p_max=0.24, p_min=0.15, solidas=False, sin_jugadores=True, pool5=14):
     cat_ruta = catalogo or sorted(f for f in os.listdir(os.path.join(jornada, 'bb')) if f.startswith('catalogo_'))[-1]
     cats = json.load(open(os.path.join(jornada, 'bb', os.path.basename(cat_ruta)), encoding='utf8'))
-    cat = cats[CLAVES[clave]]
+    cat = cats[CLAVES.get(clave, clave)]
     e = json.load(open(os.path.join(jornada, 'entradas', clave + '.json'), encoding='utf8'))
     legs = BC.traducir(cat, e['local'], e['visitante'])
     u = {}

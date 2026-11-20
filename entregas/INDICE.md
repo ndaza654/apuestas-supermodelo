@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-20 | 14:00 | BB Boost: precios reales y combos de 3–5 patas (Bayern, Troyes, Cercle, Athletic; Andorra/Verona/Cobresal no recomendados) | 7 partidos 20-nov | entregas/2026-11-20/1400_bb_boost_7_partidos.md |
 | 2026-11-20 | 13:10 | Informe final parcial 10 partidos 12:30–16:00 (jugadores solo Al-Ahli y Aarhus; resto pendiente) | los 10 de 12:30–16:00 | entregas/2026-11-20/1310_resumen_12-16h_final.md · 1310_informe_jornada_12-16h_final.html |
 | 2026-11-20 | 12:45 | Informe parcial 10 partidos 12:30–16:00 (sin jugadores) | Al-Ahli–Al-Nassr, Aarhus–Lyngby, Farul–Cluj, Bayern–Köln, Andorra–Leganés, Verona–Cesena, Cercle–Westerlo, Troyes–Le Havre, Athletic–Espanyol, Cobresal–Audax | entregas/2026-11-20/1245_resumen_12-16h_sin_jugadores.md · 1245_informe_jornada_12-16h_sin_jugadores.html |
 | 2026-11-19 | 23:50 | Aprender de las combinadas: por qué se pierden, lecciones y reglas (159 combinadas) | todos | `entregas/2026-11-19/2350_aprendizaje_combinadas.md` |
