@@ -1,0 +1,6277 @@
+{
+ "generado": "recoleccion/aprender_combos.py",
+ "n_combinadas": 159,
+ "se_dieron": 40,
+ "perdidas": 119,
+ "perdidas_por_una_pata": 72,
+ "patas": {
+  "n": 545,
+  "hit": 0.65,
+  "con_dato_previo": 317
+ },
+ "pata_mas_floja": {
+  "combinadas_perdidas_por_una_pata_con_dato": 33,
+  "la_que_cayo_era_la_mas_floja": 11,
+  "por_azar_esperado": 12.6
+ },
+ "por_banda_colchon": {
+  "10–20 %": {
+   "n": 51,
+   "hit": 0.451
+  },
+  "5–10 %": {
+   "n": 20,
+   "hit": 0.65
+  },
+  "< 5 %": {
+   "n": 36,
+   "hit": 0.667
+  },
+  "sin dato": {
+   "n": 228,
+   "hit": 0.627
+  },
+  "≥ 20 %": {
+   "n": 210,
+   "hit": 0.719
+  }
+ },
+ "por_cumple": {
+  "no": {
+   "n": 77,
+   "hit": 0.571
+  },
+  "sí": {
+   "n": 219,
+   "hit": 0.694
+  }
+ },
+ "por_mercado_lado": {
+  "corners Más": {
+   "n": 62,
+   "hit": 0.645
+  },
+  "goles Menos": {
+   "n": 48,
+   "hit": 0.625
+  },
+  "goles Más": {
+   "n": 31,
+   "hit": 0.742
+  },
+  "remates Menos": {
+   "n": 29,
+   "hit": 0.793
+  },
+  "al_arco Más": {
+   "n": 27,
+   "hit": 0.778
+  },
+  "corners Menos": {
+   "n": 26,
+   "hit": 0.654
+  },
+  "remates Más": {
+   "n": 21,
+   "hit": 0.762
+  },
+  "tarjetas Más": {
+   "n": 18,
+   "hit": 0.667
+  },
+  "al_arco Menos": {
+   "n": 12,
+   "hit": 0.667
+  },
+  "fueras Menos": {
+   "n": 11,
+   "hit": 0.636
+  },
+  "tarjetas Menos": {
+   "n": 9,
+   "hit": 0.778
+  },
+  "saques_meta Más": {
+   "n": 8,
+   "hit": 0.625
+  }
+ },
+ "por_n_patas": {
+  "2": {
+   "combinadas": 47,
+   "se_dieron": 20,
+   "hit": 0.426,
+   "hit_pata": 0.67,
+   "si_independientes": 0.449
+  },
+  "3": {
+   "combinadas": 59,
+   "se_dieron": 18,
+   "hit": 0.305,
+   "hit_pata": 0.655,
+   "si_independientes": 0.281
+  },
+  "4+": {
+   "combinadas": 53,
+   "se_dieron": 2,
+   "hit": 0.038,
+   "hit_pata": 0.633,
+   "si_independientes": 0.102
+  }
+ },
+ "por_fuente": {
+  "BB Boost": {
+   "combinadas": 17,
+   "se_dieron": 5,
+   "patas_prom": 3.7,
+   "hit_pata": 0.746
+  },
+  "Misión": {
+   "combinadas": 4,
+   "se_dieron": 3,
+   "patas_prom": 2.8,
+   "hit_pata": 0.818
+  },
+  "sugerida": {
+   "combinadas": 80,
+   "se_dieron": 26,
+   "patas_prom": 2.6,
+   "hit_pata": 0.652
+  },
+  "tu boleto": {
+   "combinadas": 58,
+   "se_dieron": 6,
+   "patas_prom": 4.4,
+   "hit_pata": 0.61
+  }
+ },
+ "por_cuota_pata": {
+  "< 1,30": {
+   "n": 63,
+   "hit": 0.762
+  },
+  "1,50–1,79": {
+   "n": 86,
+   "hit": 0.674
+  },
+  "1,30–1,49": {
+   "n": 38,
+   "hit": 0.737
+  },
+  "1,80 o más": {
+   "n": 29,
+   "hit": 0.69
+  }
+ },
+ "causas": {
+  "sin_cumplir": 31,
+  "atipico": 72,
+  "sin_datos": 82,
+  "mediana": 2,
+  "ambos": 2
+ },
+ "postmortem": [
+  {
+   "id": "S001",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "Países Bajos sin perder, muchos remates",
+   "cuota": 3.3,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Países Bajos o empate",
+     "ok": true,
+     "real": "7-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Remates Países Bajos Más 17.5",
+     "ok": false,
+     "real": "17",
+     "colchon_rel": -0.102,
+     "x10": 0.29,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco total Menos 10.5",
+     "ok": false,
+     "real": "14",
+     "colchon_rel": 0.013,
+     "x10": 0.29,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Países Bajos Más 17.5",
+     "causa": "no cumplía el 7 de 10 (0.29); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco total Menos 10.5",
+     "causa": "no cumplía el 7 de 10 (0.29); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S002",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "Pocos goles de Países Bajos y córners",
+   "cuota": 2.9,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Países Bajos Menos 3.5",
+     "ok": false,
+     "real": "7",
+     "colchon_rel": 0.511,
+     "x10": 0.86,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners 1.er tiempo Menos 5.5",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": -0.896,
+     "x10": 0.0,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners total Más 8.5",
+     "ok": true,
+     "real": "9",
+     "colchon_rel": 0.227,
+     "x10": 0.57,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Países Bajos Menos 3.5",
+     "causa": "cumplía y tenía colchón (51 %) pero el partido salió atípico: real 7 frente a esperado 1.71",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S003",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "Grecia incómoda en el 2.º tiempo",
+   "cuota": 3.8,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Goles 2.º tiempo Menos 2.5",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": -0.2,
+     "x10": 0.14,
+     "cumple": "no"
+    },
+    {
+     "pata": "Faltas Grecia Más 11.5",
+     "ok": false,
+     "real": "9",
+     "colchon_rel": -0.062,
+     "x10": 0.29,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Grecia Más 2.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": 0.884,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Faltas Grecia Más 11.5",
+     "causa": "no cumplía el 7 de 10 (0.29); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Grecia Más 2.5",
+     "causa": "cumplía y tenía colchón (88 %) pero el partido salió atípico: real 1 frente a esperado 4.71",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S006",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "Córners temprano y faltas de Macedonia",
+   "cuota": 2.9,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners 1.er tiempo Más 3.5",
+     "ok": true,
+     "real": "7",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Faltas Macedonia del Norte Más 12.5",
+     "ok": false,
+     "real": "11",
+     "colchon_rel": 0.08,
+     "x10": 0.29,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Faltas Macedonia del Norte Más 12.5",
+     "causa": "no cumplía el 7 de 10 (0.29); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S007",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "Córners y tarjetas en los dos equipos",
+   "cuota": 3.3,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners total Más 6.5",
+     "ok": true,
+     "real": "18",
+     "colchon_rel": 0.297,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners 1.er tiempo Más 2.5",
+     "ok": true,
+     "real": "10",
+     "colchon_rel": 2.372,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Ambos 2+ tarjetas: Sí",
+     "ok": false,
+     "real": "2-0 pts",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Ambos 2+ tarjetas: Sí",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S008",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "Suiza gana y Eslovenia se lleva tarjetas",
+   "cuota": 3.8,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Córners 1.er tiempo Menos 5.5",
+     "ok": false,
+     "real": "10",
+     "colchon_rel": -0.533,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Gana Suiza",
+     "ok": false,
+     "real": "0-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más tarjetas: Eslovenia",
+     "ok": true,
+     "real": "2-0 pts",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners 1.er tiempo Menos 5.5",
+     "causa": "cumplía y tenía colchón (-53 %) pero el partido salió atípico: real 10 frente a esperado 8.43",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Gana Suiza",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S009",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "Al menos 2 goles y pocos córners al inicio",
+   "cuota": 3.3,
+   "n_patas": 2,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Goles total Más 1.5",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": 0.473,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners 1.er tiempo Menos 3.5",
+     "ok": false,
+     "real": "10",
+     "colchon_rel": -1.409,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles total Más 1.5",
+     "causa": "cumplía y tenía colchón (47 %) pero el partido salió atípico: real 0 frente a esperado 2.21",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Córners 1.er tiempo Menos 3.5",
+     "causa": "cumplía y tenía colchón (-141 %) pero el partido salió atípico: real 10 frente a esperado 8.43",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S012",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada entre partidos",
+   "nombre": "Cuota ~15 · Opción A",
+   "cuota": 13.57,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Verbruggen atajadas 3+",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners 1.er tiempo Menos 5.5",
+     "ok": false,
+     "real": "7",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners Eslovenia Más 4.5",
+     "ok": true,
+     "real": "7",
+     "colchon_rel": -0.096,
+     "x10": 0.29,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Verbruggen atajadas 3+",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Córners 1.er tiempo Menos 5.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S013",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada entre partidos",
+   "nombre": "Cuota ~15 · Opción B",
+   "cuota": 13.62,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Reijnders anota 1+",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners Macedonia del Norte Más 2.5",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": 0.428,
+     "x10": 0.57,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tarjetas Suiza Más 1.5",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": -0.193,
+     "x10": 0.29,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tarjetas Suiza Más 1.5",
+     "causa": "no cumplía el 7 de 10 (0.29); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S014",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada entre partidos",
+   "nombre": "Cuota ~20 · Opción A",
+   "cuota": 18.18,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Reijnders remates 5+",
+     "ok": false,
+     "real": "3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Macedonia remates Menos 7.5",
+     "ok": true,
+     "real": "7",
+     "colchon_rel": -0.391,
+     "x10": 0.14,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Eslovenia Más 4.5",
+     "ok": true,
+     "real": "7",
+     "colchon_rel": -0.096,
+     "x10": 0.29,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Reijnders remates 5+",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S015",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada entre partidos",
+   "nombre": "Cuota ~20 · Opción B",
+   "cuota": 18.01,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Retsos entradas 3+",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners Macedonia del Norte Más 2.5",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": 0.428,
+     "x10": 0.57,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tarjetas Eslovenia Más 2.5",
+     "ok": false,
+     "real": "2",
+     "colchon_rel": 0.144,
+     "x10": 0.57,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Retsos entradas 3+",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Tarjetas Eslovenia Más 2.5",
+     "causa": "no cumplía el 7 de 10 (0.57); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S016",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "NLG-1 · Córners Más 6.5 + Goles Menos 4.5",
+   "cuota": 1.46,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Más 6.5",
+     "ok": true,
+     "real": "9",
+     "colchon_rel": 0.605,
+     "x10": 0.86,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Menos 4.5",
+     "ok": false,
+     "real": "7",
+     "colchon_rel": 0.333,
+     "x10": 0.86,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Menos 4.5",
+     "causa": "cumplía y tenía colchón (33 %) pero el partido salió atípico: real 7 frente a esperado 3.0",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S017",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "NLG-2 · Tiros al arco Grecia Más 1.5 + Tarjetas Menos 6.5",
+   "cuota": 1.54,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tiros al arco Grecia Más 1.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": 2.14,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas Menos 6.5",
+     "ok": true,
+     "real": "0",
+     "colchon_rel": 0.463,
+     "x10": 0.86,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco Grecia Más 1.5",
+     "causa": "cumplía y tenía colchón (214 %) pero el partido salió atípico: real 1 frente a esperado 4.71",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S018",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "SAL-1 · Córners Serbia Más 1.5 + Tarjetas Alemania Más 0.5",
+   "cuota": 1.5,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Serbia Más 1.5",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": 2.193,
+     "x10": 0.86,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tarjetas Alemania Más 0.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 1.62,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Serbia Más 1.5",
+     "causa": "cumplía y tenía colchón (219 %) pero el partido salió atípico: real 0 frente a esperado 4.79",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S020",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "ESC-1 · Goles Escocia Menos 3.5 + Ambos 1+ tarjetas: Sí",
+   "cuota": 1.56,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Escocia Menos 3.5",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": 0.469,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Ambos 1+ tarjetas: Sí",
+     "ok": false,
+     "real": "1-0 pts",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Ambos 1+ tarjetas: Sí",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S021",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "ESC-2 · Córners Menos 11.5 + Remates Menos 29.5",
+   "cuota": 1.86,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Menos 11.5",
+     "ok": false,
+     "real": "14",
+     "colchon_rel": 0.205,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Menos 29.5",
+     "ok": true,
+     "real": "25",
+     "colchon_rel": 0.112,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Menos 11.5",
+     "causa": "cumplía y tenía colchón (20 %) pero el partido salió atípico: real 14 frente a esperado 9.14",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S023",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "SLO-2 · Córners Menos 10.5 + Goles Más 1.5",
+   "cuota": 1.81,
+   "n_patas": 2,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Córners Menos 10.5",
+     "ok": false,
+     "real": "18",
+     "colchon_rel": 0.197,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Más 1.5",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": 0.473,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Menos 10.5",
+     "causa": "cumplía y tenía colchón (20 %) pero el partido salió atípico: real 18 frente a esperado 8.43",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Goles Más 1.5",
+     "causa": "cumplía y tenía colchón (47 %) pero el partido salió atípico: real 0 frente a esperado 2.21",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S024",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "BUL-1 · Córners Más 6.5 + Goles Menos 3.5",
+   "cuota": 1.55,
+   "n_patas": 2,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Córners Más 6.5",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": 0.472,
+     "x10": 0.86,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Menos 3.5",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": 0.183,
+     "x10": 0.86,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 6.5",
+     "causa": "cumplía y tenía colchón (47 %) pero el partido salió atípico: real 5 frente a esperado 9.57",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Goles Menos 3.5",
+     "causa": "cumplía y tenía colchón (18 %) pero el partido salió atípico: real 5 frente a esperado 2.86",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S025",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "LUX-1 · Córners Más 6.5 + Goles Estonia Menos 1.5",
+   "cuota": 1.59,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Más 6.5",
+     "ok": false,
+     "real": "4",
+     "colchon_rel": 0.275,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Estonia Menos 1.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 0.427,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 6.5",
+     "causa": "cumplía y tenía colchón (28 %) pero el partido salió atípico: real 4 frente a esperado 8.29",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S026",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "combinada mismo partido",
+   "nombre": "MOL-1 · Córners Más 6.5 + Goles Kazajistán Más 0.5",
+   "cuota": 1.8,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Más 6.5",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": 0.891,
+     "x10": 1.0,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Kazajistán Más 0.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 2.42,
+     "x10": 1.0,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 6.5",
+     "causa": "cumplía y tenía colchón (89 %) pero el partido salió atípico: real 5 frente a esperado 12.29",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S028",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "Bet Builder",
+   "nombre": "Mejor: Goles Menos 3.5 + Córners Más 9.5 + Ambos marcan No",
+   "cuota": 5.0,
+   "n_patas": 3,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Goles Menos 3.5",
+     "ok": false,
+     "real": "4",
+     "colchon_rel": 0.306,
+     "x10": 0.86,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Más 9.5",
+     "ok": false,
+     "real": "6",
+     "colchon_rel": 0.158,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Ambos marcan: No",
+     "ok": false,
+     "real": "1-3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Menos 3.5",
+     "causa": "cumplía y tenía colchón (31 %) pero el partido salió atípico: real 4 frente a esperado 2.43",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Córners Más 9.5",
+     "causa": "cumplía y tenía colchón (16 %) pero el partido salió atípico: real 6 frente a esperado 11.0",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Ambos marcan: No",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S029",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "Bet Builder",
+   "nombre": "Plan B: Goles Menos 2.5 + Córners Más 8.5 + Ambos marcan No",
+   "cuota": 5.3,
+   "n_patas": 3,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Goles Menos 2.5",
+     "ok": false,
+     "real": "4",
+     "colchon_rel": 0.028,
+     "x10": 0.29,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Más 8.5",
+     "ok": false,
+     "real": "6",
+     "colchon_rel": 0.294,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Ambos marcan: No",
+     "ok": false,
+     "real": "1-3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Menos 2.5",
+     "causa": "no cumplía el 7 de 10 (0.29); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Más 8.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 6 frente a esperado 11.0",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Ambos marcan: No",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S030",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "Bet Builder",
+   "nombre": "Plan B': Goles Alemania Menos 2.5 + Córners Más 8.5 + Ambos marcan No",
+   "cuota": 5.2,
+   "n_patas": 3,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Goles Alemania Menos 2.5",
+     "ok": false,
+     "real": "3",
+     "colchon_rel": 0.456,
+     "x10": 1.0,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Más 8.5",
+     "ok": false,
+     "real": "6",
+     "colchon_rel": 0.294,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Ambos marcan: No",
+     "ok": false,
+     "real": "1-3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Alemania Menos 2.5",
+     "causa": "cumplía y tenía colchón (46 %) pero el partido salió atípico: real 3 frente a esperado 1.36",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Córners Más 8.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 6 frente a esperado 11.0",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Ambos marcan: No",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S031",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "Bet Builder",
+   "nombre": "Fiel a la ficha: Goles Menos 3.5 + Córners Más 9.5 + Goles Serbia Más 0.5",
+   "cuota": 7.6,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Goles Menos 3.5",
+     "ok": false,
+     "real": "4",
+     "colchon_rel": 0.306,
+     "x10": 0.86,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Más 9.5",
+     "ok": false,
+     "real": "6",
+     "colchon_rel": 0.158,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Serbia Más 0.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 1.14,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Menos 3.5",
+     "causa": "cumplía y tenía colchón (31 %) pero el partido salió atípico: real 4 frente a esperado 2.43",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Córners Más 9.5",
+     "causa": "cumplía y tenía colchón (16 %) pero el partido salió atípico: real 6 frente a esperado 11.0",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S043",
+   "fuente": "sugerida",
+   "jornada": "2026-11-13",
+   "tipo": "en vivo (combinada entre partidos)",
+   "nombre": "Combinada de 3 armada por el modelo (no recomendada)",
+   "cuota": 3.47,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Eslovenia–Suiza Goles Menos 1.5",
+     "ok": true,
+     "real": "0",
+     "colchon_rel": -0.473,
+     "x10": 0.14,
+     "cumple": "no"
+    },
+    {
+     "pata": "PB–Grecia ambos 2T No",
+     "ok": true,
+     "real": "Grecia 0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Escocia–Macedonia Goles Menos 2.5",
+     "ok": false,
+     "real": "3",
+     "colchon_rel": -0.056,
+     "x10": 0.43,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Escocia–Macedonia Goles Menos 2.5",
+     "causa": "no cumplía el 7 de 10 (0.43); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S391",
+   "fuente": "sugerida",
+   "jornada": "2026-11-14",
+   "tipo": "combinada mismo partido",
+   "nombre": "Córners local Menos 7.5 + Tiros al arco visitante Más 1.5",
+   "cuota": 1.49,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners local Menos 7.5",
+     "ok": false,
+     "real": "8 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": -0.305,
+     "x10": 0.14,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco visitante Más 1.5",
+     "ok": true,
+     "real": "5 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": 5.14,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners local Menos 7.5",
+     "causa": "no cumplía el 7 de 10 (0.14); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S392",
+   "fuente": "sugerida",
+   "jornada": "2026-11-14",
+   "tipo": "combinada mismo partido",
+   "nombre": "Goles Menos 4.5 + Córners Menos 12.5",
+   "cuota": 1.57,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Menos 4.5",
+     "ok": false,
+     "real": "6 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": 0.444,
+     "x10": 0.86,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Menos 12.5",
+     "ok": true,
+     "real": "11 (Flashscore (feed df_st y marcador f_",
+     "colchon_rel": 0.086,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Menos 4.5",
+     "causa": "cumplía y tenía colchón (44 %) pero el partido salió atípico: real 6 (Flashscore (feed df_st y marcador f_1 frente a esperado 2.5",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S429",
+   "fuente": "sugerida",
+   "jornada": "2026-11-14",
+   "tipo": "combinada mismo partido",
+   "nombre": "BB-A Portugal–Dinamarca",
+   "cuota": 5.22,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Más 9.5",
+     "ok": true,
+     "real": "13 (Flashscore (feed df_st y marcador f_",
+     "colchon_rel": 0.053,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Dinamarca Más 10.5",
+     "ok": true,
+     "real": "17 (Flashscore (feed df_st y marcador f_",
+     "colchon_rel": 0.483,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Fueras de juego Dinamarca Más 1.5",
+     "ok": false,
+     "real": "1 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": 0.473,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Fueras de juego Dinamarca Más 1.5",
+     "causa": "cumplía y tenía colchón (47 %) pero el partido salió atípico: real 1 (Flashscore (feed df_st y marcador f_1 frente a esperado 2.21",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S430",
+   "fuente": "sugerida",
+   "jornada": "2026-11-14",
+   "tipo": "combinada mismo partido",
+   "nombre": "BB-B Portugal–Dinamarca",
+   "cuota": 6.37,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Más 8.5",
+     "ok": true,
+     "real": "13 (Flashscore (feed df_st y marcador f_",
+     "colchon_rel": 0.176,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Dinamarca Más 10.5",
+     "ok": true,
+     "real": "17 (Flashscore (feed df_st y marcador f_",
+     "colchon_rel": 0.483,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tarjetas Menos 4.5",
+     "ok": true,
+     "real": "2 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": 0.176,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Fueras de juego Dinamarca Más 1.5",
+     "ok": false,
+     "real": "1 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": 0.473,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Fueras de juego Dinamarca Más 1.5",
+     "causa": "cumplía y tenía colchón (47 %) pero el partido salió atípico: real 1 (Flashscore (feed df_st y marcador f_1 frente a esperado 2.21",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S431",
+   "fuente": "sugerida",
+   "jornada": "2026-11-14",
+   "tipo": "combinada mismo partido",
+   "nombre": "BB-C Portugal–Dinamarca",
+   "cuota": 5.18,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Remates Dinamarca Más 11.5",
+     "ok": true,
+     "real": "17 (Flashscore (feed df_st y marcador f_",
+     "colchon_rel": 0.354,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Más 8.5",
+     "ok": true,
+     "real": "13 (Flashscore (feed df_st y marcador f_",
+     "colchon_rel": 0.176,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Fueras de juego Dinamarca Más 1.5",
+     "ok": false,
+     "real": "1 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": 0.473,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Fueras de juego Dinamarca Más 1.5",
+     "causa": "cumplía y tenía colchón (47 %) pero el partido salió atípico: real 1 (Flashscore (feed df_st y marcador f_1 frente a esperado 2.21",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S435",
+   "fuente": "sugerida",
+   "jornada": "2026-11-14",
+   "tipo": "combinada entre partidos",
+   "nombre": "Europa 4 patas",
+   "cuota": 5.48,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Más 8.5 (Portugal - Dinamarca)",
+     "ok": true,
+     "real": "13 (Flashscore (feed df_st y marcador f_",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles Más 2.25 (Rumanía - Polonia)",
+     "ok": true,
+     "real": "3 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Bosnia marca (Suecia - Bosnia y Herzegovina)",
+     "ok": true,
+     "real": "2 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Remates Ucrania Más 9.5 (Irlanda del Norte - Ucrania)",
+     "ok": false,
+     "real": "7 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": 0.188,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Ucrania Más 9.5 (Irlanda del Norte - Ucrania)",
+     "causa": "cumplía y tenía colchón (19 %) pero el partido salió atípico: real 7 (Flashscore (feed df_st y marcador f_1 frente a esperado 11.29",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S436",
+   "fuente": "sugerida",
+   "jornada": "2026-11-14",
+   "tipo": "combinada entre partidos",
+   "nombre": "Colombia 2 patas A",
+   "cuota": 2.28,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Más 8.5 (Aguilas Doradas - Independiente Medellín)",
+     "ok": false,
+     "real": "8 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners Más 7.5 (Deportivo Cali - Deportes Tolima)",
+     "ok": true,
+     "real": "9 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 8.5 (Aguilas Doradas - Independiente Medellín)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S438",
+   "fuente": "sugerida",
+   "jornada": "2026-11-14",
+   "tipo": "combinada entre partidos",
+   "nombre": "Colombia 3 patas",
+   "cuota": 3.53,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Más 8.5 (Aguilas Doradas - Independiente Medellín)",
+     "ok": false,
+     "real": "8 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners Más 7.5 (Deportivo Cali - Deportes Tolima)",
+     "ok": true,
+     "real": "9 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles Once Caldas Menos 1.5 (Atletico Nacional - Once Caldas)",
+     "ok": true,
+     "real": "1 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": 0.24,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 8.5 (Aguilas Doradas - Independiente Medellín)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S439",
+   "fuente": "sugerida",
+   "jornada": "2026-11-14",
+   "tipo": "combinada entre partidos",
+   "nombre": "Colombia 4 patas",
+   "cuota": 5.73,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Más 8.5 (Aguilas Doradas - Independiente Medellín)",
+     "ok": false,
+     "real": "8 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners Más 7.5 (Deportivo Cali - Deportes Tolima)",
+     "ok": true,
+     "real": "9 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles Once Caldas Menos 1.5 (Atletico Nacional - Once Caldas)",
+     "ok": true,
+     "real": "1 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": 0.24,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Millonarios Menos 2.5 (Millonarios FC - Alianza FC)",
+     "ok": true,
+     "real": "2 (Flashscore (feed df_st y marcador f_1",
+     "colchon_rel": 0.428,
+     "x10": 0.86,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 8.5 (Aguilas Doradas - Independiente Medellín)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S487",
+   "fuente": "sugerida",
+   "jornada": "2026-11-15",
+   "tipo": "combinada mismo partido",
+   "nombre": "Goles Menos 3.5 + Córners Más 7.5",
+   "cuota": 1.56,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Menos 3.5",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": 0.329,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Más 7.5",
+     "ok": false,
+     "real": "3",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 7.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 3 frente a esperado 9.65",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S534",
+   "fuente": "sugerida",
+   "jornada": "2026-11-16",
+   "tipo": "combinada mismo partido",
+   "nombre": "Goles visitante Menos 1.5 + Córners Más 6.5",
+   "cuota": 1.51,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles visitante Menos 1.5",
+     "ok": true,
+     "real": "1 (Flashscore (feeds df_st y df_su), leí",
+     "colchon_rel": -0.7,
+     "x10": 0.2,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Más 6.5",
+     "ok": false,
+     "real": "5 (Flashscore (feeds df_st y df_su), leí",
+     "colchon_rel": 0.377,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 6.5",
+     "causa": "cumplía y tenía colchón (38 %) pero el partido salió atípico: real 5 (Flashscore (feeds df_st y df_su), leí frente a esperado 8.95",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S535",
+   "fuente": "sugerida",
+   "jornada": "2026-11-16",
+   "tipo": "combinada mismo partido",
+   "nombre": "Córners Menos 12.5 + Goles Menos 4.5",
+   "cuota": 1.75,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Menos 12.5",
+     "ok": true,
+     "real": "5 (Flashscore (feeds df_st y df_su), leí",
+     "colchon_rel": 0.18,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Menos 4.5",
+     "ok": false,
+     "real": "5 (Flashscore (feeds df_st y df_su), leí",
+     "colchon_rel": 0.2,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Menos 4.5",
+     "causa": "cumplía y tenía colchón (20 %) pero el partido salió atípico: real 5 (Flashscore (feeds df_st y df_su), leí frente a esperado 3.6",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S536",
+   "fuente": "sugerida",
+   "jornada": "2026-11-16",
+   "tipo": "combinada mismo partido",
+   "nombre": "Córners Menos 11.5 + Goles Más 2.0",
+   "cuota": 1.77,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Menos 11.5",
+     "ok": true,
+     "real": "10 (Flashscore (feeds df_st y df_su), le",
+     "colchon_rel": 0.174,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Más 2.0",
+     "ok": false,
+     "real": "1 (Flashscore (feeds df_st y df_su), leí",
+     "colchon_rel": 0.525,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Más 2.0",
+     "causa": "cumplía y tenía colchón (52 %) pero el partido salió atípico: real 1 (Flashscore (feeds df_st y df_su), leí frente a esperado 3.05",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S537",
+   "fuente": "sugerida",
+   "jornada": "2026-11-16",
+   "tipo": "combinada entre partidos",
+   "nombre": "Lotería de 3 protecciones",
+   "cuota": 2.02,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Menos 3.5 (Macedonia del Norte - Eslovenia)",
+     "ok": true,
+     "real": "3 (Flashscore (feeds df_st y df_su), leí",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles Menos 3.5 (Suiza - Escocia)",
+     "ok": false,
+     "real": "4 (Flashscore (feeds df_st y df_su), leí",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas visitante Menos 3.5 (Grecia - Serbia)",
+     "ok": true,
+     "real": "1 (Flashscore (feeds df_st y df_su), leí",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Menos 3.5 (Suiza - Escocia)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S582",
+   "fuente": "sugerida",
+   "jornada": "2026-11-17",
+   "tipo": "combinada mismo partido",
+   "nombre": "Tarjetas visitante Más 0.5 + Goles Menos 4.0",
+   "cuota": 1.64,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tarjetas visitante Más 0.5",
+     "ok": true,
+     "real": "5 (Flashscore (feed df_st/df_sur), leído",
+     "colchon_rel": 5.8,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles Menos 4.0",
+     "ok": false,
+     "real": "5 (Flashscore (feed df_st/df_sur), leído",
+     "colchon_rel": 0.263,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Menos 4.0",
+     "causa": "cumplía y tenía colchón (26 %) pero el partido salió atípico: real 5 (Flashscore (feed df_st/df_sur), leído frente a esperado 2.95",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S584",
+   "fuente": "sugerida",
+   "jornada": "2026-11-17",
+   "tipo": "combinada mismo partido",
+   "nombre": "Córners visitante Menos 6.5 + Goles local Menos 2.5",
+   "cuota": 1.65,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners visitante Menos 6.5",
+     "ok": false,
+     "real": "7 (Flashscore (feed df_st/df_sur), leído",
+     "colchon_rel": -0.631,
+     "x10": 0.1,
+     "cumple": "no"
+    },
+    {
+     "pata": "Goles local Menos 2.5",
+     "ok": true,
+     "real": "2 (Flashscore (feed df_st/df_sur), leído",
+     "colchon_rel": -0.58,
+     "x10": 0.0,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners visitante Menos 6.5",
+     "causa": "no cumplía el 7 de 10 (0.1); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S698",
+   "fuente": "sugerida",
+   "jornada": "2026-11-18",
+   "tipo": "combinada mismo partido",
+   "nombre": "Tiros al arco Menos 11.5 + Goles Menos 3.5",
+   "cuota": 1.67,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tiros al arco Menos 11.5",
+     "ok": true,
+     "real": "4 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": 0.135,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Menos 3.5",
+     "ok": false,
+     "real": "4 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": 0.3,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Menos 3.5",
+     "causa": "cumplía y tenía colchón (30 %) pero el partido salió atípico: real 4 (Flashscore (feeds df_st/df_su, leído  frente a esperado 2.45",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S700",
+   "fuente": "sugerida",
+   "jornada": "2026-11-18",
+   "tipo": "combinada entre partidos",
+   "nombre": "Lotería de 3 protecciones",
+   "cuota": 2.02,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tarjetas Más 2.5 (Remo PA - Chapecoense SC)",
+     "ok": true,
+     "real": "6 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas visitante Más 1.5 (Flamengo RJ - Athletico PR)",
+     "ok": true,
+     "real": "3 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Remates Más 24.5 (Cruzeiro - Palmeiras SP)",
+     "ok": false,
+     "real": "24 (Flashscore (feeds df_st/df_su, leído",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Más 24.5 (Cruzeiro - Palmeiras SP)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S793",
+   "fuente": "sugerida",
+   "jornada": "2026-11-19",
+   "tipo": "combinada mismo partido",
+   "nombre": "Tiros al arco Menos 11.5 + Fueras de juego Menos 4.5",
+   "cuota": 1.48,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tiros al arco Menos 11.5",
+     "ok": true,
+     "real": "7 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": 0.335,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Fueras de juego Menos 4.5",
+     "ok": false,
+     "real": "7 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": 0.378,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Fueras de juego Menos 4.5",
+     "causa": "cumplía y tenía colchón (38 %) pero el partido salió atípico: real 7 (Flashscore (feeds df_st/df_su, leído  frente a esperado 2.8",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S871",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost E · 4 patas (precio leído) · Vasco da Gama RJ–Internacional RS",
+   "cuota": 5.1,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Saques de meta Más 15.5",
+     "ok": false,
+     "real": "7 saques de meta",
+     "colchon_rel": 0.161,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Fueras de lugar Menos 3.5",
+     "ok": false,
+     "real": "7 fueras de juego",
+     "colchon_rel": 0.2,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Menos 29.5",
+     "ok": true,
+     "real": "24 remates",
+     "colchon_rel": 0.098,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Vasco da Gama RJ Menos 17.5",
+     "ok": true,
+     "real": "9 remates (local)",
+     "colchon_rel": 0.269,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Saques de meta Más 15.5",
+     "causa": "cumplía y tenía colchón (16 %) pero el partido salió atípico: real 7 saques de meta frente a esperado 18.0",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Fueras de lugar Menos 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S872",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost F · 4 patas (precio leído) · Vasco da Gama RJ–Internacional RS",
+   "cuota": 5.5,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Saques de meta Más 15.5",
+     "ok": false,
+     "real": "7 saques de meta",
+     "colchon_rel": 0.161,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Menos 29.5",
+     "ok": true,
+     "real": "24 remates",
+     "colchon_rel": 0.098,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Internacional RS Más 0.5",
+     "ok": true,
+     "real": "1 goles (visitante)",
+     "colchon_rel": 1.7,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Vasco da Gama RJ Menos 17.5",
+     "ok": true,
+     "real": "9 remates (local)",
+     "colchon_rel": 0.269,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Saques de meta Más 15.5",
+     "causa": "cumplía y tenía colchón (16 %) pero el partido salió atípico: real 7 saques de meta frente a esperado 18.0",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S874",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost H · 4 patas (precio por leer) · Vasco da Gama RJ–Internacional RS",
+   "cuota": 5.73,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Saques de meta Más 15.5",
+     "ok": false,
+     "real": "7 saques de meta",
+     "colchon_rel": 0.161,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Menos 29.5",
+     "ok": true,
+     "real": "24 remates",
+     "colchon_rel": 0.098,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Vasco da Gama RJ Menos 17.5",
+     "ok": true,
+     "real": "9 remates (local)",
+     "colchon_rel": 0.269,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Internacional RS Más 10.5",
+     "ok": true,
+     "real": "15 remates (visitante)",
+     "colchon_rel": 0.314,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Saques de meta Más 15.5",
+     "causa": "cumplía y tenía colchón (16 %) pero el partido salió atípico: real 7 saques de meta frente a esperado 18.0",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S875",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost I · 5 patas (precio por leer) · Vasco da Gama RJ–Internacional RS",
+   "cuota": 5.025,
+   "n_patas": 5,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Fueras de lugar Menos 3.5",
+     "ok": false,
+     "real": "7 fueras de juego",
+     "colchon_rel": 0.2,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Menos 29.5",
+     "ok": true,
+     "real": "24 remates",
+     "colchon_rel": 0.098,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Fueras de lugar Internacional RS Menos 1.5",
+     "ok": false,
+     "real": "3 fueras de juego (visitante)",
+     "colchon_rel": 0.033,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Vasco da Gama RJ Menos 17.5",
+     "ok": true,
+     "real": "9 remates (local)",
+     "colchon_rel": 0.269,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Vasco da Gama RJ Menos 5.5",
+     "ok": true,
+     "real": "4 tiros al arco (local)",
+     "colchon_rel": 0.336,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Fueras de lugar Menos 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Fueras de lugar Internacional RS Menos 1.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S876",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost B (mejor EV) · Vitoria BA–Bragantino SP",
+   "cuota": 5.5,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Goles Vitoria BA Menos 1.5",
+     "ok": false,
+     "real": "2 goles (local)",
+     "colchon_rel": 0.167,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Bragantino SP Más 4.5",
+     "ok": true,
+     "real": "7 tiros al arco (visitante)",
+     "colchon_rel": 0.378,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Saques de banda Más 38.5",
+     "ok": false,
+     "real": "34 saques de banda",
+     "colchon_rel": 0.071,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Vitoria BA Menos 1.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Saques de banda Más 38.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S877",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost A (mejor respaldo ficha) · Vitoria BA–Bragantino SP",
+   "cuota": 5.1,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Tiros al arco Bragantino SP Más 4.5",
+     "ok": true,
+     "real": "7 tiros al arco (visitante)",
+     "colchon_rel": 0.378,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Faltas Vitoria BA Menos 13.5",
+     "ok": false,
+     "real": "15 faltas (local)",
+     "colchon_rel": 0.156,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Saques de banda Vitoria BA Más 18.5",
+     "ok": false,
+     "real": "11 saques de banda (local)",
+     "colchon_rel": 0.059,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Faltas Vitoria BA Menos 13.5",
+     "causa": "cumplía y tenía colchón (16 %) pero el partido salió atípico: real 15 faltas (local) frente a esperado 11.4",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Saques de banda Vitoria BA Más 18.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S878",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost V1 · 4 patas (precio por leer) · Vitoria BA–Bragantino SP",
+   "cuota": 5.96,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Bragantino SP Más 4.5",
+     "ok": true,
+     "real": "8 córners (visitante)",
+     "colchon_rel": 0.444,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Más 8.5",
+     "ok": true,
+     "real": "12 tiros al arco",
+     "colchon_rel": 0.329,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Bragantino SP Más 4.5",
+     "ok": true,
+     "real": "7 tiros al arco (visitante)",
+     "colchon_rel": 0.378,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Faltas Vitoria BA Menos 13.5",
+     "ok": false,
+     "real": "15 faltas (local)",
+     "colchon_rel": 0.156,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Faltas Vitoria BA Menos 13.5",
+     "causa": "cumplía y tenía colchón (16 %) pero el partido salió atípico: real 15 faltas (local) frente a esperado 11.4",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S879",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost V2 · 4 patas (precio por leer) · Vitoria BA–Bragantino SP",
+   "cuota": 5.91,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Vitoria BA Menos 1.5",
+     "ok": false,
+     "real": "2 goles (local)",
+     "colchon_rel": 0.167,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Bragantino SP Más 4.5",
+     "ok": true,
+     "real": "8 córners (visitante)",
+     "colchon_rel": 0.444,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Más 8.5",
+     "ok": true,
+     "real": "12 tiros al arco",
+     "colchon_rel": 0.329,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Bragantino SP Más 4.5",
+     "ok": true,
+     "real": "7 tiros al arco (visitante)",
+     "colchon_rel": 0.378,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Vitoria BA Menos 1.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S880",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost V3 · 4 patas (precio por leer) · Vitoria BA–Bragantino SP",
+   "cuota": 5.5600000000000005,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Bragantino SP Más 4.5",
+     "ok": true,
+     "real": "8 córners (visitante)",
+     "colchon_rel": 0.444,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Más 8.5",
+     "ok": true,
+     "real": "12 tiros al arco",
+     "colchon_rel": 0.329,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Bragantino SP Más 4.5",
+     "ok": true,
+     "real": "7 tiros al arco (visitante)",
+     "colchon_rel": 0.378,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Saques de banda Vitoria BA Más 18.5",
+     "ok": false,
+     "real": "11 saques de banda (local)",
+     "colchon_rel": 0.059,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Saques de banda Vitoria BA Más 18.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S881",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost única que cumple y con patas respaldadas · Sao Paulo SP–Fluminense RJ",
+   "cuota": 6.0,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Saques de meta Menos 17.5",
+     "ok": true,
+     "real": "16 saques de meta",
+     "colchon_rel": 0.083,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Fueras de lugar Fluminense RJ Menos 1.5",
+     "ok": true,
+     "real": "1 fueras de juego (visitante)",
+     "colchon_rel": 0.3,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Fueras de lugar Sao Paulo SP Menos 1.5",
+     "ok": true,
+     "real": "0 fueras de juego (local)",
+     "colchon_rel": 0.233,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Más 7.5",
+     "ok": false,
+     "real": "4 tiros al arco",
+     "colchon_rel": 0.12,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco Más 7.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S882",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost S1 · 4 patas (precio por leer) · Sao Paulo SP–Fluminense RJ",
+   "cuota": 5.72,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Saques de meta Menos 17.5",
+     "ok": true,
+     "real": "16 saques de meta",
+     "colchon_rel": 0.083,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Fueras de lugar Fluminense RJ Menos 1.5",
+     "ok": true,
+     "real": "1 fueras de juego (visitante)",
+     "colchon_rel": 0.3,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Más 7.5",
+     "ok": false,
+     "real": "4 tiros al arco",
+     "colchon_rel": 0.12,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Fluminense RJ Más 3.5",
+     "ok": true,
+     "real": "4 tiros al arco (visitante)",
+     "colchon_rel": 0.2,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco Más 7.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S883",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-19",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost S2 · 4 patas (precio por leer) · Sao Paulo SP–Fluminense RJ",
+   "cuota": 5.59,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Fueras de lugar Fluminense RJ Menos 1.5",
+     "ok": true,
+     "real": "1 fueras de juego (visitante)",
+     "colchon_rel": 0.3,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Más 24.5",
+     "ok": false,
+     "real": "21 remates",
+     "colchon_rel": 0.098,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tarjetas Sao Paulo SP Menos 2.5",
+     "ok": true,
+     "real": "1 puntos de tarjetas (local)",
+     "colchon_rel": 0.06,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tarjetas Menos 5.5",
+     "ok": true,
+     "real": "2 puntos de tarjetas",
+     "colchon_rel": 0.118,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Más 24.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S885",
+   "fuente": "Misión",
+   "jornada": "2026-11-19",
+   "tipo": "Misión 1 · Bet Builder",
+   "nombre": "Misión 1 · Orlando–Cincinnati · 19:30",
+   "cuota": 3.6,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Remates total Menos 31.5",
+     "ok": false,
+     "real": "37 remates",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tiros al arco Orlando Menos 5.5",
+     "ok": false,
+     "real": "8 tiros al arco (local)",
+     "colchon_rel": 0.155,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tarjetas total Más 3.5",
+     "ok": true,
+     "real": "6 puntos de tarjetas",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates total Menos 31.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Tiros al arco Orlando Menos 5.5",
+     "causa": "cumplía y tenía colchón (16 %) pero el partido salió atípico: real 8 tiros al arco (local) frente a esperado 4.65",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S948",
+   "fuente": "sugerida",
+   "jornada": "2026-11-15",
+   "tipo": "combinada entre partidos",
+   "nombre": "Combinada 1: Tiros al arco Más 8.5 + Córners Croacia Menos 6.5 + Remates Menos 29.5 + Goles Menos 4.5",
+   "cuota": 5.01,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tiros al arco Más 8.5 (Bélgica - Italia)",
+     "ok": true,
+     "real": "14",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners Croacia Menos 6.5 (Croacia - República Checa)",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": 0.308,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Menos 29.5 (España - Inglaterra)",
+     "ok": false,
+     "real": "32",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles Menos 4.5 (Francia - Turquía)",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Menos 29.5 (España - Inglaterra)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S949",
+   "fuente": "sugerida",
+   "jornada": "2026-11-15",
+   "tipo": "combinada entre partidos",
+   "nombre": "Combinada 2: Córners Croacia Menos 6.5 + Remates Francia Menos 20.5 + Córners Menos 10.5",
+   "cuota": 3.55,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Croacia Menos 6.5 (Croacia - República Checa)",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": 0.308,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Francia Menos 20.5 (Francia - Turquía)",
+     "ok": false,
+     "real": "23",
+     "colchon_rel": 0.266,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Menos 10.5 (España - Inglaterra)",
+     "ok": true,
+     "real": "10",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Francia Menos 20.5 (Francia - Turquía)",
+     "causa": "cumplía y tenía colchón (27 %) pero el partido salió atípico: real 23 frente a esperado 15.05",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S951",
+   "fuente": "sugerida",
+   "jornada": "2026-11-15",
+   "tipo": "combinada entre partidos",
+   "nombre": "Combinada 4: Tarjetas Más 4.5 + Tarjetas Más 4.5 + Tarjetas Más 4.5",
+   "cuota": 3.39,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tarjetas Más 4.5 (CD Tenerife - AD Ceuta FC)",
+     "ok": false,
+     "real": "4",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas Más 4.5 (Granada CF - UD Las Palmas)",
+     "ok": true,
+     "real": "8",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas Más 4.5 (CD Eldense - CE Sabadell FC)",
+     "ok": true,
+     "real": "6",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tarjetas Más 4.5 (CD Tenerife - AD Ceuta FC)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S952",
+   "fuente": "sugerida",
+   "jornada": "2026-11-15",
+   "tipo": "combinada entre partidos",
+   "nombre": "Combinada 5: Goles AD Ceuta FC Más 0.5 + Goles Cadiz CF Más 0.5 + Goles Más 1.5",
+   "cuota": 3.4,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles AD Ceuta FC Más 0.5 (CD Tenerife - AD Ceuta FC)",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": 1.7,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Cadiz CF Más 0.5 (SD Eibar - Cadiz CF)",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 1.5,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Más 1.5 (CD Eldense - CE Sabadell FC)",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles AD Ceuta FC Más 0.5 (CD Tenerife - AD Ceuta FC)",
+     "causa": "cumplía y tenía colchón (170 %) pero el partido salió atípico: real 0 frente a esperado 1.35",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S954",
+   "fuente": "sugerida",
+   "jornada": "2026-11-15",
+   "tipo": "combinada mismo partido",
+   "nombre": "Combinada 7: Córners Menos 10.5 + Remates Menos 29.5 + Tiros al arco Menos 10.5",
+   "cuota": 3.8,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Córners Menos 10.5",
+     "ok": true,
+     "real": "10",
+     "colchon_rel": 0.133,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Menos 29.5",
+     "ok": false,
+     "real": "32",
+     "colchon_rel": 0.127,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Menos 10.5",
+     "ok": false,
+     "real": "12",
+     "colchon_rel": 0.1,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Menos 29.5",
+     "causa": "cumplía y tenía colchón (13 %) pero el partido salió atípico: real 32 frente a esperado 25.75",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tiros al arco Menos 10.5",
+     "causa": "cumplía y tenía colchón (10 %) pero el partido salió atípico: real 12 frente a esperado 9.45",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S955",
+   "fuente": "sugerida",
+   "jornada": "2026-11-15",
+   "tipo": "combinada mismo partido",
+   "nombre": "Combinada 8: Córners Croacia Menos 6.5 + Tiros al arco Croacia Menos 6.5 + Tarjetas Menos 4.5",
+   "cuota": 3.03,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Croacia Menos 6.5",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": 0.308,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Croacia Menos 6.5",
+     "ok": false,
+     "real": "8",
+     "colchon_rel": 0.246,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tarjetas Menos 4.5",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": 0.287,
+     "x10": 0.78,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco Croacia Menos 6.5",
+     "causa": "cumplía y tenía colchón (25 %) pero el partido salió atípico: real 8 frente a esperado 4.9",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S956",
+   "fuente": "sugerida",
+   "jornada": "2026-11-15",
+   "tipo": "combinada mismo partido",
+   "nombre": "Combinada 9: Remates Francia Menos 20.5 + Remates Turquía Más 7.5 + Arda Güler · remates 2 o más",
+   "cuota": 3.98,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Remates Francia Menos 20.5",
+     "ok": false,
+     "real": "23",
+     "colchon_rel": 0.266,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Turquía Más 7.5",
+     "ok": true,
+     "real": "13",
+     "colchon_rel": 0.827,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Arda Güler · remates 2 o más",
+     "ok": true,
+     "real": "5 (Güler A., 90′)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Francia Menos 20.5",
+     "causa": "cumplía y tenía colchón (27 %) pero el partido salió atípico: real 23 frente a esperado 15.05",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S964",
+   "fuente": "sugerida",
+   "jornada": "2026-11-15",
+   "tipo": "Bet Builder",
+   "nombre": "España–Inglaterra · C2: Bellingham 2+ + Kane 2+ remates + remates España Menos 17.5",
+   "cuota": 3.85,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Bellingham 2+ remates",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Kane 2+ remates",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Remates España Menos 17.5",
+     "ok": false,
+     "real": "23",
+     "colchon_rel": 0.169,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates España Menos 17.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S965",
+   "fuente": "sugerida",
+   "jornada": "2026-11-15",
+   "tipo": "Bet Builder",
+   "nombre": "Bélgica–Italia · C1: tiros al arco Más 8.5 + De Bruyne 3+ remates + Tonali 1+ remate",
+   "cuota": 2.55,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tiros al arco total Más 8.5",
+     "ok": true,
+     "real": "14",
+     "colchon_rel": 0.3,
+     "x10": 0.9,
+     "cumple": "sí"
+    },
+    {
+     "pata": "De Bruyne 3+ remates",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tonali 1+ remate",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tonali 1+ remate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S966",
+   "fuente": "sugerida",
+   "jornada": "2026-11-15",
+   "tipo": "Bet Builder",
+   "nombre": "Bélgica–Italia · C2: tiros al arco Más 8.5 + De Ketelaere 1+ a puerta + Mechele 1+ falta + Tonali 1+ remate",
+   "cuota": 4.72,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Tiros al arco total Más 8.5",
+     "ok": true,
+     "real": "14",
+     "colchon_rel": 0.3,
+     "x10": 0.9,
+     "cumple": "sí"
+    },
+    {
+     "pata": "De Ketelaere 1+ tiro al arco",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Mechele 1+ falta",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tonali 1+ remate",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "De Ketelaere 1+ tiro al arco",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Mechele 1+ falta",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Tonali 1+ remate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 67",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-12",
+   "tipo": "Simple",
+   "nombre": "Curazao – Panamá (0-0)",
+   "cuota": 4.45,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Más 2.5 tarjetas totales",
+     "ok": true,
+     "real": "6 pts",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Curazao Más 3.5 córners",
+     "ok": true,
+     "real": "4",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Curazao Más 0.5 goles",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Curazao +2 hándicap",
+     "ok": true,
+     "real": "0-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Curazao Más 0.5 goles",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 68",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-12",
+   "tipo": "Simple",
+   "nombre": "Estudiantes de La Plata – Independiente Rivadavia (2-2, pen. 3-2)",
+   "cuota": 3.1,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Ind. Rivadavia Más 2.5 córners",
+     "ok": false,
+     "real": "3 con prórroga; inferido de la liquidación",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más 4.5 tarjetas totales",
+     "ok": true,
+     "real": "9 pts (con prórroga)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Ind. Rivadavia Más 2.5 córners",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 70",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-13",
+   "tipo": "Simple",
+   "nombre": "Serbia – Alemania (1-3)",
+   "cuota": 5.3,
+   "n_patas": 2,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Menos 3.5 goles",
+     "ok": false,
+     "real": "4",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más 9.5 córners",
+     "ok": false,
+     "real": "6",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Menos 3.5 goles",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Más 9.5 córners",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 71",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-13",
+   "tipo": "Combinada de 3",
+   "nombre": "Escocia – Macedonia del Norte (2-1) · Países Bajos – Grecia (7-0) · Eslovenia – ",
+   "cuota": 12.38,
+   "n_patas": 6,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "BB1 Escocia gana + Menos 29.5 remates totales",
+     "ok": true,
+     "real": "2-1; 25 remates",
+     "colchon_rel": 0.465,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "BB2 Malen anota o asiste",
+     "ok": true,
+     "real": "1 gol, 2 asist.",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "BB2 Grecia Más 2.5 tiros al arco",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": 0.884,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "BB2 Verbruggen 2+ atajadas",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "BB3 Eslovenia Más 2.5 córners",
+     "ok": true,
+     "real": "7",
+     "colchon_rel": 0.628,
+     "x10": 0.57,
+     "cumple": "no"
+    },
+    {
+     "pata": "BB3 Más 1.5 goles totales",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "BB2 Grecia Más 2.5 tiros al arco",
+     "causa": "cumplía y tenía colchón (88 %) pero el partido salió atípico: real 1 frente a esperado 4.71",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "BB2 Verbruggen 2+ atajadas",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "BB3 Más 1.5 goles totales",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 72",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-13",
+   "tipo": "Combinada de 3",
+   "nombre": "Escocia – Macedonia del Norte (2-1) · Eslovenia – Suiza (0-0) · Países Bajos – G",
+   "cuota": 5.57,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "BB1 McTominay 1+ tiros al arco",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "BB1 Más 3.5 córners 1T",
+     "ok": true,
+     "real": "7",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más 3.5 tarjetas totales (Eslovenia–Suiza)",
+     "ok": false,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Retsos 2+ tackles",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Más 3.5 tarjetas totales (Eslovenia–Suiza)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Retsos 2+ tackles",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 73",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-13",
+   "tipo": "Doble",
+   "nombre": "Escocia – Macedonia del Norte (2-1) · Países Bajos – Grecia (7-0)",
+   "cuota": 2.7,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Macedonia Más 2.5 córners",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": 0.428,
+     "x10": 0.57,
+     "cumple": "no"
+    },
+    {
+     "pata": "Más 1.5 tarjetas totales (Países Bajos–Grecia)",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Más 1.5 tarjetas totales (Países Bajos–Grecia)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 74",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-13",
+   "tipo": "Doble",
+   "nombre": "Argentina – Uruguay (1-2) · Saint Martin – El Salvador (0-2)",
+   "cuota": 8.54,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "BB Menos 4.5 córners 1T",
+     "ok": true,
+     "real": "4",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "BB Nico Paz anota",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "BB Argentina gana",
+     "ok": false,
+     "real": "1-2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más 7.5 córners (Saint Martin–El Salvador)",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "BB Nico Paz anota",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "BB Argentina gana",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Más 7.5 córners (Saint Martin–El Salvador)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 75",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-13",
+   "tipo": "Combinada de 4",
+   "nombre": "Argentina – Uruguay (1-2) · Ecuador – Costa Rica · Saint Martin – El Salvador (0",
+   "cuota": 12.3,
+   "n_patas": 3,
+   "patas_falladas": 0,
+   "detalle": [
+    {
+     "pata": "Argentina–Uruguay Más 1.5 goles",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Ecuador-Costa Rica Más 7.5 córners",
+     "ok": true,
+     "real": "12",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Saint Martin Más 3.5 córners",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": []
+  },
+  {
+   "id": "boleto 78",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-13",
+   "tipo": "Combinada de 3",
+   "nombre": "Guerreros del Pacífico – FC Santiago (1-1) · Internacional de Bogotá – Santa Fe ",
+   "cuota": 5.88,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Guerreros – Santiago ambos anotan",
+     "ok": true,
+     "real": "1-1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Internacional – Santa Fe ambos anotan",
+     "ok": false,
+     "real": "0-2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Guatemala – Canadá BB córners Más 8.5 ✗ (7) + tarjetas Más 3.5 ✓ (7 pts)",
+     "ok": false,
+     "real": "7 córners",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Internacional – Santa Fe ambos anotan",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Guatemala – Canadá BB córners Más 8.5 ✗ (7) + tarjetas Más 3.5 ✓ (7 pts)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 79",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-13",
+   "tipo": "Combinada de 3",
+   "nombre": "Japón – Brasil (3-2) · Real Valladolid – CD Castellón (0-1) · Kosovo – Israel (0",
+   "cuota": 7.6,
+   "n_patas": 6,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Brasil Más 0.5 tarjetas",
+     "ok": true,
+     "real": "Vinicius, Endrick, Suzuki J. y Raphinha (roja)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más 7.5 córners Japón–Brasil",
+     "ok": true,
+     "real": "10",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más 5.5 tarjetas Valladolid–Castellón",
+     "ok": true,
+     "real": "7 puntos",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más 1.5 goles Valladolid–Castellón",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Menos 9.5 córners Kosovo–Israel",
+     "ok": true,
+     "real": "9",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Israel Menos 1.5 goles",
+     "ok": true,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Más 1.5 goles Valladolid–Castellón",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 80",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-14",
+   "tipo": "Doble",
+   "nombre": "Noruega – Gales (3-1) · Georgia – Hungría (0-2)",
+   "cuota": 3.85,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Haaland 2+ goles",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Szoboszlai 2+ remates",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Georgia Menos 1.5 goles",
+     "ok": true,
+     "real": "0",
+     "colchon_rel": 0.573,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Haaland 2+ goles",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Szoboszlai 2+ remates",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 81",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-14",
+   "tipo": "Doble",
+   "nombre": "Noruega – Gales (3-1) · Georgia – Hungría (0-2)",
+   "cuota": 5.69,
+   "n_patas": 5,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Ødegaard anota o asiste",
+     "ok": false,
+     "real": "0 + 0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Gales Más 2.5 córners",
+     "ok": false,
+     "real": "2",
+     "colchon_rel": 1.228,
+     "x10": 0.86,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Noruega gana",
+     "ok": true,
+     "real": "3-1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Szoboszlai 1+ tiros al arco",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más 7.5 córners Georgia–Hungría",
+     "ok": true,
+     "real": "14",
+     "colchon_rel": 0.191,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Ødegaard anota o asiste",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Gales Más 2.5 córners",
+     "causa": "cumplía y tenía colchón (123 %) pero el partido salió atípico: real 2 frente a esperado 5.57",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Szoboszlai 1+ tiros al arco",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 82",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-14",
+   "tipo": "Combinada de 4",
+   "nombre": "Rumanía – Polonia (2-1) · Suecia – Bosnia (3-2) · Portugal – Dinamarca (1-4) · I",
+   "cuota": 11.57,
+   "n_patas": 5,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Rumanía–Polonia Más 2.5 goles",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": 0.516,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Suecia Menos 18.5 remates",
+     "ok": true,
+     "real": "13",
+     "colchon_rel": 0.378,
+     "x10": 1.0,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Dinamarca Más 2.5 córners",
+     "ok": true,
+     "real": "7",
+     "colchon_rel": 1.056,
+     "x10": 0.86,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Hjulmand 1+ remates",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Ucrania Más 9.5 remates",
+     "ok": false,
+     "real": "7",
+     "colchon_rel": 0.188,
+     "x10": 0.71,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Ucrania Más 9.5 remates",
+     "causa": "cumplía y tenía colchón (19 %) pero el partido salió atípico: real 7 frente a esperado 11.29",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 83",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-14",
+   "tipo": "Simple",
+   "nombre": "Portugal – Dinamarca (1-4)",
+   "cuota": 6.8,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Dinamarca Más 1.5 fueras de juego",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": 0.473,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Dinamarca Más 10.5 remates",
+     "ok": true,
+     "real": "17",
+     "colchon_rel": 0.483,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Más 9.5 córners",
+     "ok": true,
+     "real": "13",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más 2.5 goles",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Dinamarca Más 1.5 fueras de juego",
+     "causa": "cumplía y tenía colchón (47 %) pero el partido salió atípico: real 1 frente a esperado 2.21",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 84",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-14",
+   "tipo": "Combinada de 4",
+   "nombre": "Millonarios – Alianza (2-0) · Atl. Nacional – Once Caldas (1-1) · Águilas – Ind.",
+   "cuota": 8.76,
+   "n_patas": 6,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Millonarios–Alianza Menos 3.5 goles",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": 0.266,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Millonarios–Alianza Menos 11.5 córners",
+     "ok": true,
+     "real": "7",
+     "colchon_rel": 0.236,
+     "x10": 0.57,
+     "cumple": "no"
+    },
+    {
+     "pata": "Nacional–Once Caldas Menos 3.5 goles",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": 0.346,
+     "x10": 0.86,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Águilas–Medellín Más 8.5 córners",
+     "ok": false,
+     "real": "8",
+     "colchon_rel": 0.269,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tolima Más 3.5 córners",
+     "ok": false,
+     "real": "3",
+     "colchon_rel": 0.469,
+     "x10": 0.57,
+     "cumple": "no"
+    },
+    {
+     "pata": "Cali Más 0.5 goles",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": 1.42,
+     "x10": 0.57,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Águilas–Medellín Más 8.5 córners",
+     "causa": "cumplía y tenía colchón (27 %) pero el partido salió atípico: real 8 frente a esperado 10.79",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tolima Más 3.5 córners",
+     "causa": "no cumplía el 7 de 10 (0.57); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "boleto 87",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-14",
+   "tipo": "Simple",
+   "nombre": "Mirassol – Atlético-MG (0-0)",
+   "cuota": 3.0,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Atlético-MG Más 11.5 remates",
+     "ok": true,
+     "real": "16",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Mirassol Más 6.5 saques de meta",
+     "ok": true,
+     "real": "11",
+     "colchon_rel": 0.66,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Más 15.5 saques de meta",
+     "ok": true,
+     "real": "21",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más 8.5 córners",
+     "ok": false,
+     "real": "7",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Más 8.5 córners",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 88",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-14",
+   "tipo": "Simple",
+   "nombre": "Chapecoense – Vasco da Gama (0-2)",
+   "cuota": 6.0,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Más 16.5 saques de meta",
+     "ok": true,
+     "real": "25",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Chapecoense Más 4.5 córners",
+     "ok": true,
+     "real": "6",
+     "colchon_rel": 0.111,
+     "x10": 0.29,
+     "cumple": "no"
+    },
+    {
+     "pata": "Más 2.5 goles",
+     "ok": false,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Más 2.5 goles",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 89",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-14",
+   "tipo": "Simple",
+   "nombre": "Banfield – Boca Juniors (0-3)",
+   "cuota": 5.7,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Banfield Más 10.5 remates",
+     "ok": true,
+     "real": "12",
+     "colchon_rel": 0.204,
+     "x10": 0.57,
+     "cumple": "no"
+    },
+    {
+     "pata": "Boca Menos 17.5 remates",
+     "ok": true,
+     "real": "15",
+     "colchon_rel": 0.183,
+     "x10": 0.71,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Menos 9.5 tiros al arco",
+     "ok": true,
+     "real": "8",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Más 7.5 córners",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Más 7.5 córners",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 90",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-15",
+   "tipo": "Combinada de 4",
+   "nombre": "Chipre – Montenegro (1-4) · Granada – Las Palmas (1-0) · Tenerife – Ceuta (2-0) ",
+   "cuota": 4.62,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Chipre Más 0.5 goles",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 2.3,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Granada–Las Palmas Tarjetas Más 4.5",
+     "ok": true,
+     "real": "8 pts",
+     "colchon_rel": 0.367,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tenerife–Ceuta Tarjetas Más 4.5",
+     "ok": false,
+     "real": "4 pts",
+     "colchon_rel": 0.678,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Letonia Más 0.5 goles",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": 1.7,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tenerife–Ceuta Tarjetas Más 4.5",
+     "causa": "cumplía y tenía colchón (68 %) pero el partido salió atípico: real 4 pts frente a esperado 7.55",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Letonia Más 0.5 goles",
+     "causa": "cumplía y tenía colchón (170 %) pero el partido salió atípico: real 0 frente a esperado 1.35",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 91",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-15",
+   "tipo": "Combinada de 4",
+   "nombre": "Bielorrusia – Albania (0-2) · Finlandia – San Marino (7-2) · Eldense – Sabadell ",
+   "cuota": 24.06,
+   "n_patas": 8,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Bielorrusia–Albania Goles Menos 2.5",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": 0.1,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Bielorrusia–Albania Tarjetas Menos 6.5",
+     "ok": true,
+     "real": "6 pts",
+     "colchon_rel": 0.292,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Finlandia -2 (resultado)",
+     "ok": true,
+     "real": "7-2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Finlandia -5.5 hándicap córners",
+     "ok": false,
+     "real": "5-1 (dif. 4)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Eldense–Sabadell Tarjetas Más 4.5",
+     "ok": true,
+     "real": "6 pts (incluye 1 roja)",
+     "colchon_rel": 0.344,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Eldense Más 3.5 córners",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": 0.214,
+     "x10": 0.4,
+     "cumple": "no"
+    },
+    {
+     "pata": "Eibar–Cádiz Córners Más 7.5",
+     "ok": false,
+     "real": "6",
+     "colchon_rel": 0.367,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Cádiz Más 0.5 goles",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 1.5,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Finlandia -5.5 hándicap córners",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Eldense Más 3.5 córners",
+     "causa": "no cumplía el 7 de 10 (0.4); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Eibar–Cádiz Córners Más 7.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "boleto 92",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-15",
+   "tipo": "Combinada de 4",
+   "nombre": "España – Inglaterra (2-3) · Francia – Turquía (2-1) · Bélgica – Italia (4-1) · C",
+   "cuota": 21.11,
+   "n_patas": 11,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Kane 1+ tiros al arco",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Cucurella 1+ faltas",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Jacquet 1+ faltas",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Özer 3+ atajadas",
+     "ok": true,
+     "real": "7",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Olise 1+ tiros al arco",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Italia Más 3.5 tiros al arco",
+     "ok": true,
+     "real": "4",
+     "colchon_rel": 0.614,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tonali 1+ remates",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "De Bruyne 3+ remates",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Červ 1+ remates",
+     "ok": false,
+     "real": "0 (Betano muestra «David Kozel: 1+»; Kozel jugó 6′ y tampoco remató)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Croacia Menos 6.5 córners",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": 0.308,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tarjetas Menos 5.5",
+     "ok": true,
+     "real": "2 pts",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tonali 1+ remates",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Červ 1+ remates",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 93",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-15",
+   "tipo": "Simple",
+   "nombre": "España – Inglaterra (2-3)",
+   "cuota": 5.8,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Bellingham 2+ remates",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Remates totales Menos 29.5",
+     "ok": false,
+     "real": "32",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Kane o Bellingham anota o asiste",
+     "ok": true,
+     "real": "Kane 1 gol; Bellingham 1 asistencia",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles Más 2.5",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates totales Menos 29.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 94",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-15",
+   "tipo": "Simple",
+   "nombre": "Bélgica – Italia (4-1)",
+   "cuota": 5.4,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tarjetas Menos 5.5",
+     "ok": true,
+     "real": "3 pts",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Italia Faltas Menos 12.5",
+     "ok": true,
+     "real": "11",
+     "colchon_rel": 0.108,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Más 8.5",
+     "ok": true,
+     "real": "14",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "De Ketelaere 1+ tiros al arco",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "De Ketelaere 1+ tiros al arco",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 95",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-16",
+   "tipo": "Simple",
+   "nombre": "Grecia – Serbia (1-0)",
+   "cuota": 5.6,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Fueras de juego Más 2.5",
+     "ok": false,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Grecia remates Más 17.5",
+     "ok": true,
+     "real": "19",
+     "colchon_rel": -0.123,
+     "x10": 0.2,
+     "cumple": "no"
+    },
+    {
+     "pata": "Petrović 4+ atajadas",
+     "ok": true,
+     "real": "según Betano",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Nedeljković 2+ entradas",
+     "ok": true,
+     "real": "según Betano",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Fueras de juego Más 2.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 96",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-16",
+   "tipo": "Doble",
+   "nombre": "Suiza – Escocia (4-0) · Grecia – Serbia (1-0)",
+   "cuota": 7.25,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Suiza–Escocia córners Más 8.5",
+     "ok": true,
+     "real": "11",
+     "colchon_rel": 0.129,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "McTominay 1+ tiros al arco",
+     "ok": false,
+     "real": "no visible (Escocia 1 tiro al arco)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Grecia gana",
+     "ok": true,
+     "real": "1-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tetteh anota o asiste",
+     "ok": false,
+     "real": "según Betano",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "McTominay 1+ tiros al arco",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Tetteh anota o asiste",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 97",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-16",
+   "tipo": "Simple",
+   "nombre": "Alemania – Países Bajos (5-0)",
+   "cuota": 5.0,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Remates totales Menos 31.5",
+     "ok": true,
+     "real": "27",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Saques de banda Más 32.5",
+     "ok": true,
+     "real": "37",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners Más 9.5",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 9.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 98",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-16",
+   "tipo": "Combinada de 3",
+   "nombre": "Macedonia del Norte – Eslovenia (0-3) · Suiza – Escocia (4-0) · Alemania – Paíse",
+   "cuota": 9.92,
+   "n_patas": 7,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Macedonia–Eslovenia goles Menos 3.5",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": 0.329,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Macedonia–Eslovenia córners Más 6.5",
+     "ok": true,
+     "real": "8",
+     "colchon_rel": 0.531,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Suiza–Escocia goles Menos 3.5",
+     "ok": false,
+     "real": "4",
+     "colchon_rel": 0.229,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "McTominay 1+ tiros al arco",
+     "ok": false,
+     "real": "no visible",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Suiza–Escocia córners Más 7.5",
+     "ok": true,
+     "real": "11",
+     "colchon_rel": 0.28,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Alemania–PB goles Menos 4.5",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": 0.622,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Schlotterbeck 1+ remates",
+     "ok": true,
+     "real": "según Betano",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Suiza–Escocia goles Menos 3.5",
+     "causa": "cumplía y tenía colchón (23 %) pero el partido salió atípico: real 4 frente a esperado 2.7",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "McTominay 1+ tiros al arco",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Alemania–PB goles Menos 4.5",
+     "causa": "cumplía y tenía colchón (62 %) pero el partido salió atípico: real 5 frente a esperado 1.7",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 99",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-16",
+   "tipo": "Doble",
+   "nombre": "Estonia – Bulgaria (2-1) · Islandia – Luxemburgo (3-0)",
+   "cuota": 3.92,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Estonia–Bulgaria goles Más 1.5",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": 0.7,
+     "x10": 0.4,
+     "cumple": "no"
+    },
+    {
+     "pata": "Estonia–Bulgaria córners Más 7.5",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": 0.193,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Islandia–Luxemburgo «Menos de 10.5»",
+     "ok": false,
+     "real": "no visible (córners 12)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Estonia–Bulgaria córners Más 7.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Islandia–Luxemburgo «Menos de 10.5»",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 100",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-16",
+   "tipo": "Simple",
+   "nombre": "República Centroafricana – Benín (0-1)",
+   "cuota": 5.3,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Benín Más 0.5 goles",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 2.6,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Más 7.5",
+     "ok": false,
+     "real": "7",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles Más 0.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 7.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 102",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-16",
+   "tipo": "Simple",
+   "nombre": "Estonia – Bulgaria (2-1)",
+   "cuota": 4.8,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Más 6.5",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas Más 3.5",
+     "ok": true,
+     "real": "7 pts",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Estonia o empate",
+     "ok": true,
+     "real": "2-1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 6.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 103",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-16",
+   "tipo": "Simple",
+   "nombre": "República Centroafricana – Benín (0-1)",
+   "cuota": 3.05,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Más 1.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners Más 6.5",
+     "ok": true,
+     "real": "7",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Más 1.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 105",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-16",
+   "tipo": "Doble",
+   "nombre": "Somalia – Ghana (0-1) · Islas Feroé – Moldavia (1-0)",
+   "cuota": 3.84,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Ghana goles Menos 3.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 0.586,
+     "x10": 0.9,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Somalia–Ghana córners Más 7.5",
+     "ok": true,
+     "real": "8",
+     "colchon_rel": 0.175,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Feroe–Moldavia goles Más 1.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": 1.2,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Feroe–Moldavia córners Más 7.5",
+     "ok": true,
+     "real": "12",
+     "colchon_rel": 0.333,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Feroe–Moldavia goles Más 1.5",
+     "causa": "cumplía y tenía colchón (120 %) pero el partido salió atípico: real 1 frente a esperado 3.3",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 106",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-15",
+   "tipo": "Simple",
+   "nombre": "Panamá – Curazao (2-0) · jugado el 15-nov",
+   "cuota": 11.75,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Bacuna anota",
+     "ok": false,
+     "real": "según Betano",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners Menos 9.5",
+     "ok": true,
+     "real": "según Betano",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Curazao tarjetas Menos 3.5",
+     "ok": false,
+     "real": "5 pts",
+     "colchon_rel": 0.474,
+     "x10": 0.88,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Bacuna anota",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Curazao tarjetas Menos 3.5",
+     "causa": "cumplía y tenía colchón (47 %) pero el partido salió atípico: real 5 pts frente a esperado 1.84",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 107",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-17",
+   "tipo": "Simple",
+   "nombre": "Dinamarca – Noruega (2-3)",
+   "cuota": 8.5,
+   "n_patas": 5,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners Más 9.5",
+     "ok": false,
+     "real": "8",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Ødegaard o Damsgaard asistencia 1+",
+     "ok": true,
+     "real": "1 (Ødegaard)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Nusa tiros al arco 1+",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tiros al arco totales Más 9.5",
+     "ok": true,
+     "real": "11",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Dinamarca fueras de juego Menos 2.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 0.18,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 9.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 108",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-17",
+   "tipo": "Combinada de 4",
+   "nombre": "Dinamarca – Noruega (2-3) · Ucrania – Georgia (1-0) · Polonia – Suecia (1-1) · B",
+   "cuota": 33.35,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Noruega gana",
+     "ok": true,
+     "real": "2-3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Ucrania–Georgia córners Más 12.5",
+     "ok": true,
+     "real": "16",
+     "colchon_rel": -0.308,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Polonia córners Más 2.5",
+     "ok": false,
+     "real": "2",
+     "colchon_rel": 1.14,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Bosnia–Rumanía córners Más 8.5",
+     "ok": false,
+     "real": "8",
+     "colchon_rel": -0.024,
+     "x10": 0.3,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Polonia córners Más 2.5",
+     "causa": "cumplía y tenía colchón (114 %) pero el partido salió atípico: real 2 frente a esperado 5.35",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Bosnia–Rumanía córners Más 8.5",
+     "causa": "no cumplía el 7 de 10 (0.3); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "boleto 109",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-17",
+   "tipo": "Combinada de 6",
+   "nombre": "Bosnia y Herzegovina – Rumanía (2-1) · Hungría – Irlanda del Norte (1-1) · Israe",
+   "cuota": 13.3,
+   "n_patas": 10,
+   "patas_falladas": 6,
+   "detalle": [
+    {
+     "pata": "Bosnia–Rumanía córners Menos 10.5",
+     "ok": true,
+     "real": "8",
+     "colchon_rel": 0.21,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Rumanía goles Más 0.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 2.1,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Hungría–NIR córners 1T Menos 5.5",
+     "ok": true,
+     "real": "4",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Hungría–NIR córners Menos 10.5",
+     "ok": true,
+     "real": "9",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Israel–Austria córners Menos 10.5",
+     "ok": false,
+     "real": "13",
+     "colchon_rel": 0.271,
+     "x10": 0.9,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Irlanda–Kosovo córners Menos 10.5",
+     "ok": false,
+     "real": "13",
+     "colchon_rel": 0.195,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Din–Nor córners Más 8.5",
+     "ok": false,
+     "real": "8",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Gales–Portugal goles Menos 4.5",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": 0.344,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Gales goles Menos 1.5",
+     "ok": false,
+     "real": "2",
+     "colchon_rel": 0.133,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Gales–Portugal tarjetas Menos 4.5",
+     "ok": false,
+     "real": "7 pts",
+     "colchon_rel": 0.244,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Israel–Austria córners Menos 10.5",
+     "causa": "cumplía y tenía colchón (27 %) pero el partido salió atípico: real 13 frente a esperado 7.65",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Irlanda–Kosovo córners Menos 10.5",
+     "causa": "cumplía y tenía colchón (20 %) pero el partido salió atípico: real 13 frente a esperado 8.45",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Din–Nor córners Más 8.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Gales–Portugal goles Menos 4.5",
+     "causa": "cumplía y tenía colchón (34 %) pero el partido salió atípico: real 5 frente a esperado 2.95",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Gales goles Menos 1.5",
+     "causa": "cumplía y tenía colchón (13 %) pero el partido salió atípico: real 2 frente a esperado 1.3",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Gales–Portugal tarjetas Menos 4.5",
+     "causa": "cumplía y tenía colchón (24 %) pero el partido salió atípico: real 7 pts frente a esperado 3.4",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 110",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-17",
+   "tipo": "Combinada de 5",
+   "nombre": "Bosnia y Herzegovina – Rumanía (2-1) · Gales – Portugal (2-3) · Hungría – Irland",
+   "cuota": 46.64,
+   "n_patas": 10,
+   "patas_falladas": 6,
+   "detalle": [
+    {
+     "pata": "Zlomislic 2+ atajadas",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Ratiu remates 1+",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Gales–Portugal córners Más 7.5",
+     "ok": false,
+     "real": "7",
+     "colchon_rel": 0.3,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Ben Davies faltas 1+",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Galbraith remates 1+",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Price remates 2+",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tóth atajadas 2+",
+     "ok": false,
+     "real": "≤1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Ambos anotan Sí",
+     "ok": true,
+     "real": "2-3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Hjulmand remates 1+",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Israel–Austria córners Menos 9.5",
+     "ok": false,
+     "real": "13",
+     "colchon_rel": 0.195,
+     "x10": 0.9,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Ratiu remates 1+",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Gales–Portugal córners Más 7.5",
+     "causa": "cumplía y tenía colchón (30 %) pero el partido salió atípico: real 7 frente a esperado 9.75",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Price remates 2+",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Tóth atajadas 2+",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Hjulmand remates 1+",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Israel–Austria córners Menos 9.5",
+     "causa": "cumplía y tenía colchón (20 %) pero el partido salió atípico: real 13 frente a esperado 7.65",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 115",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-17",
+   "tipo": "Simple",
+   "nombre": "Chile – Colombia (0-0)",
+   "cuota": 6.0,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Chile–Colombia Goles Menos 2.5",
+     "ok": true,
+     "real": "0-0 (0 goles)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Chile–Colombia Ambos equipos reciben 2+ tarjetas",
+     "ok": true,
+     "real": "amarillas+rojas 3 y 4 (puntos): ambos con 2+",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Chile–Colombia Córners Menos 9.5",
+     "ok": false,
+     "real": "12 córners (4-8)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Chile–Colombia Córners Menos 9.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 116",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-17",
+   "tipo": "Combinada de 4",
+   "nombre": "Ecuador – Bolivia (2-0) · Argentina – Costa Rica (7-0) · Uruguay – Rep. Dominica",
+   "cuota": 17.56,
+   "n_patas": 8,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Ecuador–Bolivia Córners Más 7.5",
+     "ok": true,
+     "real": "13 córners (7-6)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Ecuador Más 1.5 goles",
+     "ok": true,
+     "real": "2 goles de Ecuador",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Julián Álvarez anota",
+     "ok": true,
+     "real": "Álvarez marcó 2 (35' y 43')",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Argentina–Costa Rica Córners Más 7.5",
+     "ok": false,
+     "real": "7 córners (7-0): faltó 1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Uruguay–Rep. Dominicana Córners Más 7.5",
+     "ok": false,
+     "real": "7 córners (3-4): faltó 1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Uruguay -2 (hándicap resultado)",
+     "ok": true,
+     "real": "5-0 (ganó por 5)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Atlético Nacional clasifica",
+     "ok": false,
+     "real": "2-2 (1-1 al descanso); perdió en penales 3-4",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Atlético Nacional–Once Caldas Córners Más 7.5",
+     "ok": true,
+     "real": "8 córners (4-4)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Argentina–Costa Rica Córners Más 7.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Uruguay–Rep. Dominicana Córners Más 7.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Atlético Nacional clasifica",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 117",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-17",
+   "tipo": "Doble",
+   "nombre": "América de Cali – Inter de Bogotá (1-1) · México – Jamaica (1-0)",
+   "cuota": 7.52,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "América–Inter Córners Más 9.5",
+     "ok": false,
+     "real": "5 córners (1-4)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "América–Inter Ambos anotan Sí",
+     "ok": true,
+     "real": "1-1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "México Goles Menos 3.5",
+     "ok": true,
+     "real": "1 gol de México (1-0)",
+     "colchon_rel": 0.643,
+     "x10": 1.0,
+     "cumple": "sí"
+    },
+    {
+     "pata": "México–Jamaica Córners Más 8.5",
+     "ok": false,
+     "real": "8 córners (5-3): faltó 2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "América–Inter Córners Más 9.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "México–Jamaica Córners Más 8.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 118",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-17",
+   "tipo": "Doble",
+   "nombre": "América de Cali – Inter de Bogotá (1-1) · México – Jamaica (1-0)",
+   "cuota": 13.57,
+   "n_patas": 5,
+   "patas_falladas": 4,
+   "detalle": [
+    {
+     "pata": "América–Inter Tarjetas Más 5.5",
+     "ok": false,
+     "real": "4 puntos de tarjetas (1-3)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "América–Inter Córners Más 8.5",
+     "ok": false,
+     "real": "5 córners (1-4)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "América–Inter Goles Más 0.5",
+     "ok": true,
+     "real": "2 goles (1-1)",
+     "colchon_rel": 4.1,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Julián Quiñones anota",
+     "ok": false,
+     "real": "No marcó: gol de Corona (35')",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "México–Jamaica Tarjetas Más 4.5",
+     "ok": false,
+     "real": "4 puntos (1-3): faltó 1",
+     "colchon_rel": 0.08,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "América–Inter Tarjetas Más 5.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "América–Inter Córners Más 8.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Julián Quiñones anota",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "México–Jamaica Tarjetas Más 4.5",
+     "causa": "pata en la mediana: colchón de solo 8 % de la línea (esperado 4.86, real 4 puntos (1-3): faltó 1)",
+     "tipo": "mediana"
+    }
+   ]
+  },
+  {
+   "id": "boleto 119",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-17",
+   "tipo": "Doble",
+   "nombre": "América de Cali – Inter de Bogotá (1-1) · México – Jamaica (1-0)",
+   "cuota": 13.9,
+   "n_patas": 5,
+   "patas_falladas": 4,
+   "detalle": [
+    {
+     "pata": "América–Inter Tarjetas Más 5.5",
+     "ok": false,
+     "real": "4 puntos de tarjetas (1-3)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "América–Inter Córners Más 8.5",
+     "ok": false,
+     "real": "5 córners (1-4)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "América–Inter Goles Más 0.5",
+     "ok": true,
+     "real": "2 goles (1-1)",
+     "colchon_rel": 4.1,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Julián Quiñones anota",
+     "ok": false,
+     "real": "No marcó: gol de Corona (35')",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "México–Jamaica Tarjetas Más 4.5",
+     "ok": false,
+     "real": "4 puntos (1-3): faltó 1",
+     "colchon_rel": 0.08,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "América–Inter Tarjetas Más 5.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "América–Inter Córners Más 8.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Julián Quiñones anota",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "México–Jamaica Tarjetas Más 4.5",
+     "causa": "pata en la mediana: colchón de solo 8 % de la línea (esperado 4.86, real 4 puntos (1-3): faltó 1)",
+     "tipo": "mediana"
+    }
+   ]
+  },
+  {
+   "id": "boleto 120",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-17",
+   "tipo": "Doble",
+   "nombre": "América de Cali – Inter de Bogotá (1-1) · México – Jamaica (1-0)",
+   "cuota": 4.54,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "América–Inter Tarjetas Más 3.5",
+     "ok": true,
+     "real": "4 puntos de tarjetas (1-3)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "México–Jamaica Córners Más 9.5",
+     "ok": false,
+     "real": "8 córners (5-3): faltó 2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "México -1 (hándicap resultado)",
+     "ok": false,
+     "real": "1-0: ganó por 1 (el -1 queda en devolución, el BB cae por los córners)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "México–Jamaica Córners Más 9.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "México -1 (hándicap resultado)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 121",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-18",
+   "tipo": "Combinada de 3",
+   "nombre": "Real Madrid (F) – Inter (F) (3-1) · BK Häcken (F) – Manchester City (F) (0-2) · ",
+   "cuota": 22.65,
+   "n_patas": 8,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Real Madrid (F) Goles Menos 3.5",
+     "ok": true,
+     "real": "3 goles de Real Madrid",
+     "colchon_rel": 0.457,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Real Madrid Más 0.5 goles",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": 2.8,
+     "x10": 0.4,
+     "cumple": "no"
+    },
+    {
+     "pata": "Inter Más 0.5 goles",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 2.8,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Real Madrid Tarjetas Más 0.5",
+     "ok": true,
+     "real": "2 puntos de tarjetas Real Madrid",
+     "colchon_rel": 2.56,
+     "x10": 0.78,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Häcken Más 0.5 goles",
+     "ok": false,
+     "real": "0 goles (0-2)",
+     "colchon_rel": 2.8,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Häcken–City Córners Menos 11.5",
+     "ok": true,
+     "real": "4 córners (0-4)",
+     "colchon_rel": 0.17,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "City Tarjetas Más 0.5",
+     "ok": false,
+     "real": "0 tarjetas de City (Häcken 2)",
+     "colchon_rel": 1.88,
+     "x10": 0.78,
+     "cumple": "no"
+    },
+    {
+     "pata": "Utebo Más 0.5 goles",
+     "ok": false,
+     "real": "0 goles (0-3)",
+     "colchon_rel": 1.1,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Häcken Más 0.5 goles",
+     "causa": "cumplía y tenía colchón (280 %) pero el partido salió atípico: real 0 goles (0-2) frente a esperado 1.9",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "City Tarjetas Más 0.5",
+     "causa": "no cumplía el 7 de 10 (0.78); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Utebo Más 0.5 goles",
+     "causa": "cumplía y tenía colchón (110 %) pero el partido salió atípico: real 0 goles (0-3) frente a esperado 1.05",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 122",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-18",
+   "tipo": "Doble",
+   "nombre": "Chelsea (F) – PSG (F) (1-0) · Juventus (F) – Leuven (F) (2-0)",
+   "cuota": 5.55,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Chelsea (F) Tarjetas Más 0.5",
+     "ok": true,
+     "real": "1 amarilla del Chelsea",
+     "colchon_rel": 2.12,
+     "x10": 0.78,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Chelsea–PSG Córners Más 7.5",
+     "ok": true,
+     "real": "13 córners (10-3)",
+     "colchon_rel": -0.22,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Alba Redondo anota",
+     "ok": false,
+     "real": "No marcó: goles de Serturini (86') y Pavan (90+3')",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Juventus -2.5 hándicap córners",
+     "ok": true,
+     "real": "+10 córners (11-1)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Alba Redondo anota",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 123",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-18",
+   "tipo": "Combinada de 4",
+   "nombre": "Remo – Chapecoense (2-0) · Flamengo – Athletico PR (2-1) · Gremio – Bahia (0-0) ",
+   "cuota": 7.21,
+   "n_patas": 6,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Remo–Chapecoense: Chapecoense Córners Más 3.5",
+     "ok": true,
+     "real": "5 córners del Chapecoense",
+     "colchon_rel": 2.129,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Remo–Chapecoense Remates Más 25.5",
+     "ok": true,
+     "real": "29 remates (18-11)",
+     "colchon_rel": 0.141,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Flamengo–Athletico Tarjetas Más 3.5",
+     "ok": true,
+     "real": "5 puntos de tarjetas (2-3)",
+     "colchon_rel": 0.686,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Gremio–Bahia Tiros al arco Más 7.5",
+     "ok": true,
+     "real": "12 tiros al arco (8-4)",
+     "colchon_rel": 0.44,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Corinthians–Botafogo Tiros al arco Más 7.5",
+     "ok": false,
+     "real": "4 tiros al arco del Corinthians",
+     "colchon_rel": 0.327,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Hugo Souza 3+ atajadas",
+     "ok": false,
+     "real": "0 atajadas (Botafogo no tiró al arco)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Corinthians–Botafogo Tiros al arco Más 7.5",
+     "causa": "cumplía y tenía colchón (33 %) pero el partido salió atípico: real 4 tiros al arco del Corinthians frente a esperado 9.95",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Hugo Souza 3+ atajadas",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 124",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-18",
+   "tipo": "Simple",
+   "nombre": "Cruzeiro – Palmeiras (2-1)",
+   "cuota": 6.1,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Cruzeiro Saques de meta Más 7.5",
+     "ok": true,
+     "real": "8 saques de meta del Cruzeiro",
+     "colchon_rel": 0.253,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Palmeiras Remates Más 14.5",
+     "ok": false,
+     "real": "8 remates del Palmeiras",
+     "colchon_rel": 0.224,
+     "x10": 0.5,
+     "cumple": "no"
+    },
+    {
+     "pata": "Cruzeiro–Palmeiras Goles Más 2.5",
+     "ok": true,
+     "real": "3 goles (2-1)",
+     "colchon_rel": 0.24,
+     "x10": 0.4,
+     "cumple": "no"
+    },
+    {
+     "pata": "Cruzeiro–Palmeiras Tarjetas Más 5.5",
+     "ok": true,
+     "real": "8 puntos de tarjetas (4-4)",
+     "colchon_rel": 0.009,
+     "x10": 0.3,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Palmeiras Remates Más 14.5",
+     "causa": "no cumplía el 7 de 10 (0.5); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "boleto 125",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-19",
+   "tipo": "Doble",
+   "nombre": "Paris FC (F) – HB Køge (F) (2-1) · Austria Viena (F) – Bayern (F) (0-4)",
+   "cuota": 6.48,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Paris–Køge Córners Más 9.5",
+     "ok": true,
+     "real": "21 córners (18-3)",
+     "colchon_rel": -0.411,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Paris–Køge Goles Más 2.5",
+     "ok": true,
+     "real": "3 goles (2-1)",
+     "colchon_rel": -0.2,
+     "x10": 0.1,
+     "cumple": "no"
+    },
+    {
+     "pata": "Austria–Bayern Goles Menos 4.5",
+     "ok": true,
+     "real": "4 goles (0-4)",
+     "colchon_rel": 0.278,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Austria–Bayern Córners Más 8.5",
+     "ok": false,
+     "real": "7 córners (2-5)",
+     "colchon_rel": 0.138,
+     "x10": 0.44,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Austria–Bayern Córners Más 8.5",
+     "causa": "no cumplía el 7 de 10 (0.44); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "boleto 127",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-19",
+   "tipo": "Combinada de 3",
+   "nombre": "Barcelona (F) – Servette (F) (6-0) · Arsenal (F) – Lyon (F) (0-2) · Benfica (F) ",
+   "cuota": 5.94,
+   "n_patas": 5,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Barcelona–Servette Goles Menos 6.5",
+     "ok": true,
+     "real": "6 goles (6-0)",
+     "colchon_rel": 0.308,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Arsenal–Lyon Córners Más 7.5",
+     "ok": false,
+     "real": "6 córners (2-4)",
+     "colchon_rel": 0.347,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Arsenal–Lyon Ambos anotan Sí",
+     "ok": false,
+     "real": "0-2",
+     "colchon_rel": "",
+     "x10": 0.2,
+     "cumple": "no"
+    },
+    {
+     "pata": "Benfica–Roma Goles Más 2.5",
+     "ok": true,
+     "real": "5 goles (2-3)",
+     "colchon_rel": 0.72,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Benfica–Roma Córners Más 7.5",
+     "ok": false,
+     "real": "5 córners (2-3)",
+     "colchon_rel": 0.44,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Arsenal–Lyon Córners Más 7.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Arsenal–Lyon Ambos anotan Sí",
+     "causa": "«Ambos marcan» exige que anoten los dos: aquí 0-2; el equipo que menos anota (0.2 de 10) lo rompió",
+     "tipo": "ambos"
+    },
+    {
+     "pata": "Benfica–Roma Córners Más 7.5",
+     "causa": "cumplía y tenía colchón (44 %) pero el partido salió atípico: real 5 córners (2-3) frente a esperado 10.8",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 129",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-19",
+   "tipo": "Simple",
+   "nombre": "Vitória – Bragantino (2-1)",
+   "cuota": 5.7,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Vitória–Bragantino Saques de meta Más 16.5",
+     "ok": true,
+     "real": "20 saques de meta (14-6)",
+     "colchon_rel": 0.1,
+     "x10": 0.3,
+     "cumple": "no"
+    },
+    {
+     "pata": "Vitória–Bragantino Saques de banda Más 36.5",
+     "ok": false,
+     "real": "34 saques de banda (11-23)",
+     "colchon_rel": 0.13,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Vitória Tiros al arco Más 3.5",
+     "ok": true,
+     "real": "5 tiros al arco",
+     "colchon_rel": 0.457,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Vitória–Bragantino Córners Más 9.5",
+     "ok": true,
+     "real": "15 córners (7-8)",
+     "colchon_rel": 0.226,
+     "x10": 0.5,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Vitória–Bragantino Saques de banda Más 36.5",
+     "causa": "cumplía y tenía colchón (13 %) pero el partido salió atípico: real 34 saques de banda (11-23) frente a esperado 41.25",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 130",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-19",
+   "tipo": "Doble",
+   "nombre": "Orlando – Cincinnati (1-3) · São Paulo – Fluminense (0-1)",
+   "cuota": 4.73,
+   "n_patas": 5,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Orlando–Cincinnati Remates total Menos 33.5",
+     "ok": false,
+     "real": "37 remates (27-10)",
+     "colchon_rel": 0.127,
+     "x10": 0.9,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Orlando Remates Menos 17.5",
+     "ok": false,
+     "real": "27 remates de Orlando",
+     "colchon_rel": 0.291,
+     "x10": 0.9,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Orlando–Cincinnati Tarjetas total Más 2.5",
+     "ok": true,
+     "real": "6 puntos (2-4)",
+     "colchon_rel": 0.668,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "São Paulo–Fluminense Ambos anotan Sí",
+     "ok": false,
+     "real": "0-1",
+     "colchon_rel": "",
+     "x10": 0.5,
+     "cumple": "no"
+    },
+    {
+     "pata": "São Paulo–Fluminense Tarjetas total Menos 6.5",
+     "ok": true,
+     "real": "2 puntos (1-1)",
+     "colchon_rel": 0.254,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Orlando–Cincinnati Remates total Menos 33.5",
+     "causa": "cumplía y tenía colchón (13 %) pero el partido salió atípico: real 37 remates (27-10) frente a esperado 29.25",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Orlando Remates Menos 17.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 27 remates de Orlando frente a esperado 12.4",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "São Paulo–Fluminense Ambos anotan Sí",
+     "causa": "«Ambos marcan» exige que anoten los dos: aquí 0-1; el equipo que menos anota (0.5 de 10) lo rompió",
+     "tipo": "ambos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 131",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-19",
+   "tipo": "Doble",
+   "nombre": "Orlando – Cincinnati (1-3) · São Paulo – Fluminense (0-1)",
+   "cuota": 3.35,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Orlando–Cincinnati Tarjetas total Más 2.5",
+     "ok": true,
+     "real": "6 puntos (2-4)",
+     "colchon_rel": 0.668,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Djhordney (São Paulo) Remates totales 1+",
+     "ok": false,
+     "real": "0 remates en 65'",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Djhordney (São Paulo) Remates totales 1+",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  }
+ ],
+ "reglas": [
+  {
+   "id": "pata_mediana",
+   "texto": "En una combinada, evitar la pata con colchón < 10 % de la línea (la «pata en la mediana»): es la que más se cae.",
+   "umbral_colchon_rel": 0.1,
+   "n_baja": 56,
+   "hit_baja": 0.661,
+   "n_alta": 261,
+   "hit_alta": 0.667,
+   "estado": "en observación"
+  },
+  {
+   "id": "pata_sin_cumplir",
+   "texto": "En una combinada, todas las patas deben cumplir el 7 de 10 en ambos equipos.",
+   "n_no": 77,
+   "hit_no": 0.571,
+   "n_si": 219,
+   "hit_si": 0.694,
+   "estado": "activa"
+  },
+  {
+   "id": "ambos_si",
+   "texto": "«Ambos marcan: Sí» dentro de una combinada solo si los dos equipos marcan en ≥ 7 de 10.",
+   "n": 0,
+   "hit": null,
+   "estado": "en observación"
+  },
+  {
+   "id": "patas_max",
+   "texto": "Máximo 2 patas por combinada (3 solo como lotería de stake mínimo); 4 o más patas casi nunca se dan.",
+   "n_4mas": 53,
+   "hit_4mas": 0.038,
+   "hit_2": 0.426,
+   "hit_3": 0.305,
+   "estado": "activa"
+  }
+ ],
+ "lecciones": [
+  "159 combinadas calificadas (las que te envié y las que jugaste): 40 se dieron (25 %). 72 de 119 perdidas (60 %) cayeron por una sola pata.",
+  "Tamaño: 2 patas se dieron 20 de 47, 3 patas 18 de 59, 4 o más 2 de 53. Cada pata extra pesa más de lo que parece.",
+  "La pata de menor colchón cayó 11 veces de 33 (por azar se esperarían ≈ 12.6): el colchón no predice cuál pata se cae.",
+  "Patas que cumplían el 7 de 10 se dieron 69 % (n 219) frente a 57 % de las que no (n 77): esta sí separa.",
+  "De las patas caídas con dato previo, 72 de 107 cumplían y tenían colchón: el partido salió fuera de lo normal (varianza), no fue una mala elección; 31 no cumplían el 7 de 10 y 2 estaban en la mediana."
+ ]
+}

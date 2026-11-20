@@ -44,6 +44,8 @@ def extras(d):
         if os.path.exists(fm):
             MIS[j] = json.load(open(fm, encoding='utf8'))
     d.update({'AN': AN, 'XI': XI, 'EST': EST, 'BB': BB, 'MIS': MIS})
+    fca = os.path.join(datos.RAIZ, 'registro', 'aprendizaje_combos.json')
+    d['CA'] = json.load(open(fca, encoding='utf8')) if os.path.exists(fca) else None
     d['BT'] = backtest(d)
     return d
 

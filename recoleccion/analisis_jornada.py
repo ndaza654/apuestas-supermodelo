@@ -264,10 +264,15 @@ def combinadas(base, prot, alertas_partido):
             if r.get('error'):
                 continue
             p_final = r['p_ajust'] * (1 - RECORTE_COMBO)                  # regla de la auditoría: conjunta de la simulación, recortada
+            rel = lambda x: (x['colchon'] / x['linea']) if (x.get('colchon') is not None and x.get('linea')) else None
+            ra_, rb_ = rel(a), rel(b)
+            floja = (a if (ra_ if ra_ is not None else 9) <= (rb_ if rb_ is not None else 9) else b)
+            rf = rel(floja)
             mejores.append({'partido': partido, 'hora': a['hora'], 'patas': [a, b], 'texto': f"{a['texto']} + {b['texto']}",
                             'cuota': round(a['cuota'] * b['cuota'], 2), 'p_sim': r['p_sim'], 'p_ajust': r['p_ajust'],
                             'p_rec': round(p_final, 4), 'correlacion': r.get('correlacion'), 'guion': r.get('guion_comun'),
-                            'fragil': r.get('pata_mas_fragil'), 'patron': ' + '.join(sorted(f"{x['mercado']} {x['lado']}" for x in (a, b)))})
+                            'fragil': r.get('pata_mas_fragil'), 'pata_menor_colchon': (f"{floja['texto']} (colchón {100 * rf:.0f} % de la línea)" if rf is not None else None),
+                            'patron': ' + '.join(sorted(f"{x['mercado']} {x['lado']}" for x in (a, b)))})
         mejores.sort(key=lambda c: -c['p_rec'] * c['cuota'])              # dentro del partido: la de mejor relación p × cuota (informativo)
         out += mejores[:1]
     out.sort(key=lambda c: -c['p_rec'])
@@ -367,8 +372,12 @@ def informe_md(base, A):
     L += ['', f"## Sencillas de cuota 1,50–1,99 (p recortada a la vista) — {len(A['sencillas'])}", ''] + cab + [fila(c) for c in A['sencillas']]
     L += ['', f"## Combinadas de 2 patas del mismo partido — {len(A['combinadas'])}", '',
           f"Cada pata con p recortada ≥ {pc(P_MIN)}; la conjunta sale de la simulación y se recorta {pc(RECORTE_COMBO)}; la cuota es el producto de las cuotas (techo).", '',
-          '| Hora | Partido | Patas | Cuota (producto) | p simulación | p ajustada | p recortada | Pata más frágil |', '|---|---|---|---|---|---|---|---|']
-    L += [f"| {hora(c)} | {c['partido']} | {c['texto']} | {q(c['cuota'])} | {pc(c['p_sim'])} | {pc(c['p_ajust'])} | {pc(c['p_rec'])} | {c.get('fragil') or '–'} |" for c in A['combinadas']]
+          '| Hora | Partido | Patas | Cuota (producto) | p simulación | p ajustada | p recortada | Pata más frágil | Pata de menor colchón |', '|---|---|---|---|---|---|---|---|---|']
+    L += [f"| {hora(c)} | {c['partido']} | {c['texto']} | {q(c['cuota'])} | {pc(c['p_sim'])} | {pc(c['p_ajust'])} | {pc(c['p_rec'])} | {c.get('fragil') or '–'} | {c.get('pata_menor_colchon') or '–'} |" for c in A['combinadas']]
+    ap = A.get('aprendizaje_combos') or {}
+    if ap.get('lecciones'):
+        L += ['', '### Lo aprendido de las combinadas (se actualiza en cada balance: `recoleccion/aprender_combos.py`)', ''] + [f"- {t}" for t in ap['lecciones']]
+        L += [f"- Regla «{r['id']}» ({r['estado']}): {r['texto']}" for r in ap.get('reglas', [])]
     if A['combos_saltados_por_alerta']:
         L += ['', 'Familias fuera de las combinadas por alerta del modelo: ' + '; '.join(A['combos_saltados_por_alerta']) + '.']
     if A.get('loteria'):
@@ -398,6 +407,11 @@ def main(argv):
     S = [s for s in csv.DictReader(open(ps, encoding='utf-8-sig'), delimiter=';') if s['fecha_entrega'] < jor] if os.path.exists(ps) else []
     REAL = real_hasta_hoy([r for r in L if r['jornada'] < jor], S)
     cands = candidatas(J, REAL)
+    APR = {}
+    fa = os.path.join(RAIZ, 'registro', 'aprendizaje_combos.json')           # recoleccion/aprender_combos.py (se corre en cada balance)
+    if os.path.exists(fa):
+        ap = json.load(open(fa, encoding='utf8'))
+        APR = {k: ap.get(k) for k in ('n_combinadas', 'se_dieron', 'perdidas', 'perdidas_por_una_pata', 'por_n_patas', 'por_fuente', 'por_cumple', 'pata_mas_floja', 'lecciones', 'reglas')}
     prot, sen = sencillas(cands)
     P = partidos(base, J, cands)
     alertas = {p['n']: p['familias_alerta'] for p in P}
@@ -410,7 +424,7 @@ def main(argv):
     A = {'jornada': jor, 'hecho': ahora.strftime('%Y-%m-%d %H:%M'), 'muestra': nmax, 'cumple': k, 'n_minimo': mn, 'cuotas_leidas': [leidas[0], leidas[-1]] if leidas else [],
          'reglas': {'p_min': P_MIN, 'p_min_sencilla': P_MIN_SENCILLA, 'cuota_min': CUOTA_MIN, 'cuota_proteccion': CUOTA_PROTECCION,
                     'recorte_combo': RECORTE_COMBO, 'sin_sugerencia': list(SIN_SUGERENCIA)},
-         'real': REAL, 'lineas_cumplen': [{k: v for k, v in c.items() if k != 'clave'} for c in cands], 'partidos': P, 'proteccion': prot, 'sencillas': sen, 'combinadas': com, 'combos_saltados_por_alerta': saltados, 'loteria': lot,
+         'real': REAL, 'aprendizaje_combos': APR, 'lineas_cumplen': [{k: v for k, v in c.items() if k != 'clave'} for c in cands], 'partidos': P, 'proteccion': prot, 'sencillas': sen, 'combinadas': com, 'combos_saltados_por_alerta': saltados, 'loteria': lot,
          'n_cumplen': len(cands), 'n_jugadores_con_historial': sum(1 for r in J if not es_equipo(r) and r['cumple_ficha'] in ('sí', 'no'))}
     json.dump(A, open(os.path.join(base, 'analisis.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=1)
     informe_md(base, A)

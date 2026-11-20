@@ -315,3 +315,9 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Archivos: `jornadas/2026-11-19/balance/` (balance.html, boletos_betano.json, patas_calificadas.json, pendientes.json, conclusiones.html), `jornadas/2026-11-19/resultados/`.
 - (23:25) Nuevo: `recoleccion/calificar_bb.py` califica pata por pata los combos de BB Boost y las misiones (`resultado`, `patas_real`) y el dashboard los muestra en «BB Boost» (SE DIO ✓ / FALLÓ ✗ + valor real). 19-nov: 5 de 17 BB Boost se dieron (Vasco A–D y G); misiones m1 Vitória ✓ y São Paulo alterna ✓, Orlando ✗; Seattle pendiente.
 - (23:40) «Lo que te envié» ahora incluye los combos de BB Boost y las misiones (`sugerencias.py → bb_y_misiones()`): 19-nov = 17 BB Boost (5 se dieron) + 7 misiones (2 se dieron, 1 falló, 3 pendientes por Seattle). Regla fija añadida a CLAUDE.md («Lista fija de cada balance») y al agente `calificacion`.
+
+## 19-nov-2026 · Aprender de las combinadas (23:45 Bogotá)
+- Nuevo `recoleccion/aprender_combos.py` → `registro/combos_patas.csv` y `registro/aprendizaje_combos.json`: 159 combinadas calificadas (enviadas + boletos tuyos), 40 se dieron (25 %); 72 de 119 perdidas cayeron por una sola pata. 2 patas 43 %, 3 patas 31 %, 4+ patas 4 % (2 de 53). El colchón no predice cuál pata cae (11 de 33 vs ≈ 12,6 por azar); «cumple 7 de 10» sí separa (69 % vs 57 %).
+- Reglas: «máx. 2 patas» y «todas las patas cumplen» activas; «evitar pata en la mediana» y «ambos Sí solo con ≥ 7 de 10» en observación (n < 25).
+- Integrado en `analisis_jornada.py` (sección «Lo aprendido de las combinadas», columna «Pata de menor colchón») y en el dashboard (Qué funciona y Mi estrategia: «Todo lo enviado y apostado» y «Combinadas: por qué se pierden»). Regla fija añadida a CLAUDE.md y al agente `combinadas`.
+

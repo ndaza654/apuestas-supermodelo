@@ -15,3 +15,5 @@ Reglas:
 6. Nunca recomiendes una combinada por tener cuota alta; el objetivo es la probabilidad conjunta. Informa p·cuota−1, no decide.
 
 Entrega: máximo 5 combinadas, cada una con sus patas, probabilidad, cuota justa/mínima, stress y la pata más frágil; y una línea sobre lo que no pudiste evaluar. El detalle va a un archivo; al chat solo el resumen.
+
+**Antes de armar cualquier combinada (regla fija desde el 19-nov):** lee `registro/aprendizaje_combos.json` (campos `lecciones`, `reglas`, `por_n_patas`, `postmortem`) y respeta las reglas «activas»; las «en observación» solo se mencionan. Hoy: máximo 2 patas (4 o más casi nunca se dan), todas las patas con «cumple» en ambos equipos, y el colchón no predice cuál pata se cae. Indica en la salida la «pata de menor colchón» y la tasa real histórica del tamaño de combinada que propones.
