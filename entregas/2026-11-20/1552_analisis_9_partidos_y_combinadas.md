@@ -1,6 +1,6 @@
-# Análisis a fondo de los 9 partidos de 16:00–22:10 y combinadas cruzadas · 20-nov-2026, entrega 16:05 Bogotá
+# Análisis a fondo de los 9 partidos de 16:00–22:10 y combinadas cruzadas · 20-nov-2026, entrega 15:52 Bogotá
 
-**Cuotas:** Betano, leídas a las 14:51 Bogotá (una sola lectura; verifica cada precio en el cupón antes de apostar). **Datos:** Flashscore (últimos 10 de cada equipo, directos), ValueStats (árbitros), tablas y onces de Flashscore leídas 15:20–15:50. **Límites:** sin historial de jugadores en Vélez, Tijuana y Juárez (Flashscore no lo publica para Liga MX ni Argentina) → no se analizan sus mercados de jugador; onces sin publicar en Palestino, Medellín, Bucaramanga y Cali; árbitro sin anunciar en Tijuana, Juárez y Puebla; Cobresal–Audax empezó a las 16:00 (sus líneas no entran en combinadas). Criterios de tipsters sin resultados verificados; el «cumple 7 de 10» acierta cerca de lo que la cuota ya descuenta.
+**Cuotas:** Betano, leídas a las 14:51 Bogotá (una sola lectura; verifica cada precio en el cupón antes de apostar). **Datos:** Flashscore (últimos 10 de cada equipo, directos), ValueStats (árbitros), tablas y onces de Flashscore leídas 15:20–15:50. **Límites:** sin historial de jugadores en Vélez, Tijuana y Juárez (Flashscore no lo publica para Liga MX ni Argentina) → no se analizan sus mercados de jugador; onces sin publicar en Palestino, Medellín, Bucaramanga y Cali; árbitro sin anunciar en Tijuana, Juárez y Puebla; Cobresal–Audax empieza a las 16:00 (sus líneas no entran en combinadas por falta de tiempo). Criterios de tipsters sin resultados verificados; el «cumple 7 de 10» acierta cerca de lo que la cuota ya descuenta.
 
 ## Enfoque de mercados
 - **Córners es el mercado que más pesa:** es el que más líneas cumple en ambos equipos (Juárez–Atlas 21, Vélez 19, Palestino 16, Puebla 15, Tijuana 14) y el que más líneas con valor deja: Más 7,0 Medellín, Más 7,0 Vélez, Más 8,0 Tijuana, Más 10,0 Juárez salen con EV levemente positivo.
@@ -10,7 +10,7 @@
 - **Mercados de jugador:** descartados en los tres partidos con estadística por falta de historial.
 
 ## Partido por partido
-**Cobresal–Audax (16:00, ya empezado).** Chile, fecha 28: Cobresal 14.º (27 pts), Audax 13.º (30): pelean por no descender. Esperado: córners 11,4, goles 2,35, tarjetas 5,4. Árbitro Philippe (5,97 amarillas por partido). Onces oficiales leídas. Lo mejor: Córners Más 9,0 @1,52 (p 67 %, 7/10 y 7/10, EV +0,04) y Tarjetas Más 3,5 @1,34. Ambos marcan Sí @1,60 (p 60 %).
+**Cobresal–Audax (16:00, empieza en minutos).** Chile, fecha 28: Cobresal 14.º (27 pts), Audax 13.º (30): pelean por no descender. Esperado: córners 11,4, goles 2,35, tarjetas 5,4. Árbitro Philippe (5,97 amarillas por partido). Onces oficiales leídas. Lo mejor: Córners Más 9,0 @1,52 (p 67 %, 7/10 y 7/10, EV +0,04) y Tarjetas Más 3,5 @1,34. Ambos marcan Sí @1,60 (p 60 %).
 
 **Medellín–Santa Fe (16:30).** Cuadrangular, grupo A, primera fecha (todos 0 pts). Medellín P P G G G, Santa Fe P G G P G. Árbitro Ortiz Novoa (5,55 amarillas, 0,38 rojas por partido). Esperado: córners 9,95, goles 2,7. Lo mejor: **Córners Más 7,0 @1,30** (p 78 %, 8/10 y 7/10, colchón 2,95, EV +0,04). Resultado: «gana alguno» @1,32 (p 71 %, 9/10 y 10/10). Goles Menos 4,5 total @1,09 como base. Onces sin publicar.
 
