@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-19 | 22:40 | Análisis del bloque 00:00–10:30 del 20-nov: enfoque de mercados, protecciones, sencillas y combinadas (Betano 21:59, una sola lectura) | 19 partidos (WSW–Adelaide y Botosani–Voluntari con jugadores) | `entregas/2026-11-19/2240_analisis_bloque_20nov_0000-1030.md` · `entregas/2026-11-19/2240_informe_20nov_bloque_0000-1030.html` · `jornadas/2026-11-20/` |
 | 2026-11-19 | 22:05 | Qué mercados trae cada uno de los 20 partidos con más mercados del 20-nov (equipo y jugadores) | 20 partidos | `entregas/2026-11-19/2205_mercados_por_partido_20nov.md` · `jornadas/2026-11-20/mercados_por_partido.json` |
 | 2026-11-19 | 21:55 | Partidos del vie 20-nov con más mercados en Betano (ranking de 394; top 13 con ≥500) | los 13 de más mercados | `entregas/2026-11-19/2155_partidos_20nov_mas_mercados.md` · `jornadas/2026-11-20/calendario_mercados.json` |
 | 2026-11-19 | 14:55 | Misiones de Betano con precio REAL del Bet Builder (3,25 · 3,60 · 4,05) y combinadas ≥2,00 | Vitória–Bragantino, Orlando–Cincinnati, Seattle–RSL, São Paulo–Fluminense | `entregas/2026-11-19/1455_misiones_precio_real.md` |

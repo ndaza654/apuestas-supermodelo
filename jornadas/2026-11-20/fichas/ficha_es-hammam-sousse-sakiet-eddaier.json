@@ -1,0 +1,1837 @@
+{
+ "encuentro": "ES Hammam Sousse - Sakiet Eddaier",
+ "liga": "Túnez Ligue 1",
+ "fecha": "2026-11-20 08:30",
+ "cuotas_leidas": "Cuotas de Betano leídas 2026-11-20T02:59:04.586Z · 76 mercados",
+ "regla": {
+  "muestra": "últimos 10 de cada equipo (cualquier sede) + hasta 6 directos",
+  "cumple": "7 de 10 (n mínimo 7)",
+  "directos": "hasta 6",
+  "colchon": "informativo: esperado − línea"
+ },
+ "corners": {
+  "mercado": "corners",
+  "titulo": "Córners",
+  "n_local": 7,
+  "n_visitante": 8,
+  "n_directos": 0,
+  "esperado": {
+   "local": 3.71,
+   "visitante": 3.95,
+   "total": 7.66
+  },
+  "promedios": {
+   "local_a_favor": 3.43,
+   "local_en_contra": 4.14,
+   "visitante_a_favor": 3.75,
+   "visitante_en_contra": 4.0
+  },
+  "series": {
+   "local": [
+    [
+     0.0,
+     2.0
+    ],
+    [
+     7.0,
+     3.0
+    ],
+    [
+     6.0,
+     8.0
+    ],
+    [
+     3.0,
+     4.0
+    ],
+    [
+     5.0,
+     4.0
+    ],
+    [
+     0.0,
+     5.0
+    ],
+    [
+     3.0,
+     3.0
+    ]
+   ],
+   "visitante": [
+    [
+     4.0,
+     3.0
+    ],
+    [
+     2.0,
+     3.0
+    ],
+    [
+     2.0,
+     8.0
+    ],
+    [
+     1.0,
+     4.0
+    ],
+    [
+     6.0,
+     3.0
+    ],
+    [
+     4.0,
+     4.0
+    ],
+    [
+     2.0,
+     5.0
+    ],
+    [
+     9.0,
+     2.0
+    ]
+   ],
+   "directos": []
+  },
+  "lineas": [
+   {
+    "ambito": "1T",
+    "linea": 3.5,
+    "mas": {
+     "cuota": 1.7
+    },
+    "menos": {
+     "cuota": 2.05
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 4.0,
+    "mas": {
+     "cuota": 2.32
+    },
+    "menos": {
+     "cuota": 2.05
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "total",
+    "linea": 7.0,
+    "esperado": 7.66,
+    "mas": {
+     "cuota": 1.6,
+     "colchon": 0.66,
+     "reg_local": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 8,
+      "txt": "4 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 3.1,
+     "colchon": -0.66,
+     "reg_local": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 8,
+      "txt": "2 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 7.5,
+    "esperado": 7.66,
+    "mas": {
+     "cuota": 1.6,
+     "colchon": 0.16,
+     "reg_local": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 8,
+      "txt": "4 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.18,
+     "colchon": -0.16,
+     "reg_local": {
+      "x": 4,
+      "n": 7,
+      "txt": "4 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 8,
+      "txt": "4 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 8.0,
+    "esperado": 7.66,
+    "mas": {
+     "cuota": 2.07,
+     "colchon": -0.34,
+     "reg_local": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 8,
+      "txt": "3 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.18,
+     "colchon": 0.34,
+     "reg_local": {
+      "x": 4,
+      "n": 7,
+      "txt": "4 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 8,
+      "txt": "4 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 8.5,
+    "esperado": 7.66,
+    "mas": {
+     "cuota": 2.07,
+     "colchon": -0.84,
+     "reg_local": {
+      "x": 3,
+      "n": 7,
+      "txt": "3 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 8,
+      "txt": "3 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.67,
+     "colchon": 0.84,
+     "reg_local": {
+      "x": 4,
+      "n": 7,
+      "txt": "4 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 8,
+      "txt": "5 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 9.0,
+    "esperado": 7.66,
+    "mas": {
+     "cuota": 2.77,
+     "colchon": -1.34,
+     "reg_local": {
+      "x": 2,
+      "n": 7,
+      "txt": "2 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 8,
+      "txt": "2 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.67,
+     "colchon": 1.34,
+     "reg_local": {
+      "x": 4,
+      "n": 7,
+      "txt": "4 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 8,
+      "txt": "5 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 9.5,
+    "esperado": 7.66,
+    "mas": {
+     "cuota": 2.77,
+     "colchon": -1.84,
+     "reg_local": {
+      "x": 2,
+      "n": 7,
+      "txt": "2 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 8,
+      "txt": "2 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.39,
+     "colchon": 1.84,
+     "reg_local": {
+      "x": 5,
+      "n": 7,
+      "txt": "5 de 7",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 6,
+      "n": 8,
+      "txt": "6 de 8",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   }
+  ]
+ },
+ "partido": {
+  "faltas": {
+   "mercado": "faltas",
+   "titulo": "Faltas",
+   "n_local": 4,
+   "n_visitante": 5,
+   "n_directos": 0,
+   "esperado": {
+    "local": 14.35,
+    "visitante": 14.8,
+    "total": 29.15
+   },
+   "promedios": {
+    "local_a_favor": 12.5,
+    "local_en_contra": 13.0,
+    "visitante_a_favor": 16.6,
+    "visitante_en_contra": 16.2
+   },
+   "series": {
+    "local": [
+     [
+      9.0,
+      12.0
+     ],
+     [
+      8.0,
+      18.0
+     ],
+     [
+      20.0,
+      14.0
+     ],
+     [
+      13.0,
+      8.0
+     ]
+    ],
+    "visitante": [
+     [
+      15.0,
+      18.0
+     ],
+     [
+      17.0,
+      15.0
+     ],
+     [
+      21.0,
+      13.0
+     ],
+     [
+      15.0,
+      19.0
+     ],
+     [
+      15.0,
+      16.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "fueras": {
+   "mercado": "fueras",
+   "titulo": "Fueras de juego",
+   "n_local": 4,
+   "n_visitante": 5,
+   "n_directos": 0,
+   "esperado": {
+    "local": 2.27,
+    "visitante": 3.3,
+    "total": 5.57
+   },
+   "promedios": {
+    "local_a_favor": 3.75,
+    "local_en_contra": 4.0,
+    "visitante_a_favor": 2.6,
+    "visitante_en_contra": 0.8
+   },
+   "series": {
+    "local": [
+     [
+      7.0,
+      6.0
+     ],
+     [
+      2.0,
+      7.0
+     ],
+     [
+      4.0,
+      3.0
+     ],
+     [
+      2.0,
+      0.0
+     ]
+    ],
+    "visitante": [
+     [
+      4.0,
+      0.0
+     ],
+     [
+      2.0,
+      1.0
+     ],
+     [
+      3.0,
+      1.0
+     ],
+     [
+      2.0,
+      2.0
+     ],
+     [
+      2.0,
+      0.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "saques_banda": {
+   "mercado": "saques_banda",
+   "titulo": "Saques de banda",
+   "n_local": 4,
+   "n_visitante": 5,
+   "n_directos": 0,
+   "esperado": {
+    "local": 25.27,
+    "visitante": 23.4,
+    "total": 48.67
+   },
+   "promedios": {
+    "local_a_favor": 27.75,
+    "local_en_contra": 26.0,
+    "visitante_a_favor": 20.8,
+    "visitante_en_contra": 22.8
+   },
+   "series": {
+    "local": [
+     [
+      38.0,
+      26.0
+     ],
+     [
+      24.0,
+      14.0
+     ],
+     [
+      32.0,
+      26.0
+     ],
+     [
+      17.0,
+      38.0
+     ]
+    ],
+    "visitante": [
+     [
+      30.0,
+      22.0
+     ],
+     [
+      12.0,
+      26.0
+     ],
+     [
+      22.0,
+      26.0
+     ],
+     [
+      23.0,
+      21.0
+     ],
+     [
+      17.0,
+      19.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "saques_meta": {
+   "mercado": "saques_meta",
+   "titulo": "Saques de meta",
+   "n_local": 0,
+   "n_visitante": 0,
+   "n_directos": 0,
+   "aviso": "sin estadísticas suficientes en los últimos partidos",
+   "lineas": []
+  },
+  "remates": {
+   "mercado": "remates",
+   "titulo": "Remates",
+   "n_local": 7,
+   "n_visitante": 8,
+   "n_directos": 0,
+   "esperado": {
+    "local": 5.56,
+    "visitante": 9.2,
+    "total": 14.76
+   },
+   "promedios": {
+    "local_a_favor": 5.0,
+    "local_en_contra": 11.14,
+    "visitante_a_favor": 7.25,
+    "visitante_en_contra": 6.12
+   },
+   "series": {
+    "local": [
+     [
+      7.0,
+      18.0
+     ],
+     [
+      5.0,
+      8.0
+     ],
+     [
+      4.0,
+      11.0
+     ],
+     [
+      4.0,
+      9.0
+     ],
+     [
+      7.0,
+      10.0
+     ],
+     [
+      2.0,
+      13.0
+     ],
+     [
+      6.0,
+      9.0
+     ]
+    ],
+    "visitante": [
+     [
+      5.0,
+      5.0
+     ],
+     [
+      5.0,
+      7.0
+     ],
+     [
+      6.0,
+      6.0
+     ],
+     [
+      12.0,
+      9.0
+     ],
+     [
+      9.0,
+      8.0
+     ],
+     [
+      6.0,
+      5.0
+     ],
+     [
+      8.0,
+      3.0
+     ],
+     [
+      7.0,
+      6.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "al_arco": {
+   "mercado": "al_arco",
+   "titulo": "Tiros al arco",
+   "n_local": 7,
+   "n_visitante": 8,
+   "n_directos": 0,
+   "esperado": {
+    "local": 1.92,
+    "visitante": 3.81,
+    "total": 5.73
+   },
+   "promedios": {
+    "local_a_favor": 1.71,
+    "local_en_contra": 5.0,
+    "visitante_a_favor": 2.62,
+    "visitante_en_contra": 2.12
+   },
+   "series": {
+    "local": [
+     [
+      3.0,
+      9.0
+     ],
+     [
+      2.0,
+      2.0
+     ],
+     [
+      3.0,
+      6.0
+     ],
+     [
+      2.0,
+      6.0
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.0,
+      8.0
+     ],
+     [
+      2.0,
+      3.0
+     ]
+    ],
+    "visitante": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.0,
+      4.0
+     ],
+     [
+      4.0,
+      0.0
+     ],
+     [
+      6.0,
+      6.0
+     ],
+     [
+      2.0,
+      1.0
+     ],
+     [
+      2.0,
+      0.0
+     ],
+     [
+      4.0,
+      2.0
+     ],
+     [
+      3.0,
+      3.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  }
+ },
+ "goles": {
+  "mercado": "goles",
+  "titulo": "Goles",
+  "n_local": 10,
+  "n_visitante": 10,
+  "n_directos": 0,
+  "nota": "Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T.",
+  "esperado": {
+   "local": 0.65,
+   "visitante": 1.6,
+   "total": 2.25
+  },
+  "promedios": {
+   "local_a_favor": 0.7,
+   "local_en_contra": 1.8,
+   "visitante_a_favor": 1.4,
+   "visitante_en_contra": 0.6
+  },
+  "series": {
+   "local": [
+    [
+     1.0,
+     3.0
+    ],
+    [
+     0.0,
+     2.0
+    ],
+    [
+     0.0,
+     2.0
+    ],
+    [
+     1.0,
+     3.0
+    ],
+    [
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     2.0,
+     3.0
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     2.0,
+     2.0
+    ]
+   ],
+   "visitante": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0
+    ],
+    [
+     1.0,
+     0.0
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     2.0,
+     0.0
+    ],
+    [
+     3.0,
+     2.0
+    ],
+    [
+     1.0,
+     2.0
+    ],
+    [
+     5.0,
+     0.0
+    ]
+   ],
+   "directos": []
+  },
+  "lineas": [
+   {
+    "ambito": "1T",
+    "linea": 0.5,
+    "mas": {
+     "cuota": 1.67
+    },
+    "menos": {
+     "cuota": 2.07
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 0.75,
+    "mas": {
+     "cuota": 2.0
+    },
+    "menos": {
+     "cuota": 1.75
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 1.0,
+    "mas": {
+     "cuota": 2.82
+    },
+    "menos": {
+     "cuota": 1.4
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 1.25,
+    "mas": {
+     "cuota": 3.45
+    },
+    "menos": {
+     "cuota": 1.28
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 1.5,
+    "mas": {
+     "cuota": 3.95
+    },
+    "menos": {
+     "cuota": 1.21
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 2.5,
+    "mas": {
+     "cuota": 8.5
+    },
+    "menos": {
+     "cuota": 1.04
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "2T",
+    "linea": 0.5,
+    "mas": {
+     "cuota": 1.42
+    },
+    "menos": {
+     "cuota": 2.65
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "2T",
+    "linea": 1.5,
+    "mas": {
+     "cuota": 2.85
+    },
+    "menos": {
+     "cuota": 1.37
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "2T",
+    "linea": 2.5,
+    "mas": {
+     "cuota": 6.2
+    },
+    "menos": {
+     "cuota": 1.09
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "local",
+    "linea": 0.5,
+    "esperado": 0.65,
+    "mas": {
+     "cuota": 1.57,
+     "colchon": 0.15,
+     "reg_local": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.3,
+     "colchon": -0.15,
+     "reg_local": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "local",
+    "linea": 1.5,
+    "esperado": 0.65,
+    "mas": {
+     "cuota": 3.6,
+     "colchon": -0.85,
+     "reg_local": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.26,
+     "colchon": 0.85,
+     "reg_local": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    }
+   },
+   {
+    "ambito": "local",
+    "linea": 2.5,
+    "esperado": 0.65,
+    "mas": {
+     "cuota": 8.25,
+     "colchon": -1.85,
+     "reg_local": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.05,
+     "colchon": 1.85,
+     "reg_local": {
+      "x": 10,
+      "n": 10,
+      "txt": "10 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 10,
+      "n": 10,
+      "txt": "10 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 0.5,
+    "esperado": 2.25,
+    "mas": {
+     "cuota": 1.14,
+     "colchon": 1.75,
+     "reg_local": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    },
+    "menos": {
+     "cuota": 4.9,
+     "colchon": -1.75,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 1.25,
+    "esperado": 2.25,
+    "mas": {
+     "cuota": 1.44,
+     "colchon": 1.0,
+     "reg_local": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.67,
+     "colchon": -1.0,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 1.5,
+    "esperado": 2.25,
+    "mas": {
+     "cuota": 1.65,
+     "colchon": 0.75,
+     "reg_local": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.12,
+     "colchon": -0.75,
+     "reg_local": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 1.75,
+    "esperado": 2.25,
+    "mas": {
+     "cuota": 1.85,
+     "colchon": 0.5,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.9,
+     "colchon": -0.5,
+     "reg_local": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 2.0,
+    "esperado": 2.25,
+    "mas": {
+     "cuota": 2.22,
+     "colchon": 0.25,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.62,
+     "colchon": -0.25,
+     "reg_local": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 2.25,
+    "esperado": 2.25,
+    "mas": {
+     "cuota": 2.57,
+     "colchon": 0.0,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.47,
+     "colchon": 0.0,
+     "reg_local": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 2.5,
+    "esperado": 2.25,
+    "mas": {
+     "cuota": 2.85,
+     "colchon": -0.25,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.37,
+     "colchon": 0.25,
+     "reg_local": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 3.5,
+    "esperado": 2.25,
+    "mas": {
+     "cuota": 5.3,
+     "colchon": -1.25,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.12,
+     "colchon": 1.25,
+     "reg_local": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 4.5,
+    "esperado": 2.25,
+    "mas": {
+     "cuota": 9.0,
+     "colchon": -2.25,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.03,
+     "colchon": 2.25,
+     "reg_local": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    }
+   },
+   {
+    "ambito": "visitante",
+    "linea": 0.5,
+    "esperado": 1.6,
+    "mas": {
+     "cuota": 1.5,
+     "colchon": 1.1,
+     "reg_local": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    },
+    "menos": {
+     "cuota": 2.47,
+     "colchon": -1.1,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "visitante",
+    "linea": 1.5,
+    "esperado": 1.6,
+    "mas": {
+     "cuota": 3.25,
+     "colchon": 0.1,
+     "reg_local": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.31,
+     "colchon": -0.1,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "visitante",
+    "linea": 2.5,
+    "esperado": 1.6,
+    "mas": {
+     "cuota": 7.5,
+     "colchon": -0.9,
+     "reg_local": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.07,
+     "colchon": 0.9,
+     "reg_local": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    }
+   }
+  ]
+ },
+ "tarjetas": {
+  "mercado": "tarjetas",
+  "titulo": "Tarjetas (solo amarillas)",
+  "n_local": 7,
+  "n_visitante": 7,
+  "n_directos": 0,
+  "nota": "Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas.",
+  "esperado": {
+   "local": 2.36,
+   "visitante": 2.43,
+   "total": 4.79
+  },
+  "promedios": {
+   "local_a_favor": 2.86,
+   "local_en_contra": 2.0,
+   "visitante_a_favor": 2.86,
+   "visitante_en_contra": 1.86
+  },
+  "series": {
+   "local": [
+    [
+     3.0,
+     2.0
+    ],
+    [
+     5.0,
+     1.0
+    ],
+    [
+     4.0,
+     4.0
+    ],
+    [
+     3.0,
+     1.0
+    ],
+    [
+     2.0,
+     2.0
+    ],
+    [
+     2.0,
+     2.0
+    ],
+    [
+     1.0,
+     2.0
+    ]
+   ],
+   "visitante": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     3.0,
+     2.0
+    ],
+    [
+     4.0,
+     2.0
+    ],
+    [
+     6.0,
+     2.0
+    ],
+    [
+     0.0,
+     2.0
+    ],
+    [
+     3.0,
+     1.0
+    ],
+    [
+     3.0,
+     3.0
+    ]
+   ],
+   "directos": []
+  },
+  "lineas": []
+ },
+ "resultados": {
+  "n_local": 10,
+  "n_visitante": 10,
+  "n_directos": 0,
+  "nota": "Mercados de una sola cuota: sin línea ni colchón. «L»/«V» = veces que el local/visitante de hoy vivió eso en sus últimos partidos (1 = el local ganó y el visitante perdió; X = ambos empataron; BTTS Sí = marcaron los dos equipos del partido). Los goles son del partido completo.",
+  "ambos": [
+   {
+    "seleccion": "si",
+    "cuota": 2.32,
+    "colchon": null,
+    "reg_local": {
+     "x": 5,
+     "n": 10,
+     "txt": "5 de 10",
+     "cumple": false
+    },
+    "reg_visitante": {
+     "x": 3,
+     "n": 10,
+     "txt": "3 de 10",
+     "cumple": false
+    },
+    "directos": null,
+    "cumple": false
+   },
+   {
+    "seleccion": "no",
+    "cuota": 1.53,
+    "colchon": null,
+    "reg_local": {
+     "x": 5,
+     "n": 10,
+     "txt": "5 de 10",
+     "cumple": false
+    },
+    "reg_visitante": {
+     "x": 7,
+     "n": 10,
+     "txt": "7 de 10",
+     "cumple": true
+    },
+    "directos": null,
+    "cumple": false
+   }
+  ],
+  "resultado": [
+   {
+    "seleccion": "1",
+    "cuota": 2.92,
+    "colchon": null,
+    "reg_local": {
+     "x": 0,
+     "n": 10,
+     "txt": "0 de 10",
+     "cumple": false
+    },
+    "reg_visitante": {
+     "x": 2,
+     "n": 10,
+     "txt": "2 de 10",
+     "cumple": false
+    },
+    "directos": null,
+    "cumple": false
+   },
+   {
+    "seleccion": "X",
+    "cuota": 2.9,
+    "colchon": null,
+    "reg_local": {
+     "x": 3,
+     "n": 10,
+     "txt": "3 de 10",
+     "cumple": false
+    },
+    "reg_visitante": {
+     "x": 3,
+     "n": 10,
+     "txt": "3 de 10",
+     "cumple": false
+    },
+    "directos": null,
+    "cumple": false
+   },
+   {
+    "seleccion": "2",
+    "cuota": 2.57,
+    "colchon": null,
+    "reg_local": {
+     "x": 7,
+     "n": 10,
+     "txt": "7 de 10",
+     "cumple": true
+    },
+    "reg_visitante": {
+     "x": 5,
+     "n": 10,
+     "txt": "5 de 10",
+     "cumple": false
+    },
+    "directos": null,
+    "cumple": false
+   },
+   {
+    "seleccion": "1X",
+    "cuota": 1.5,
+    "colchon": null,
+    "reg_local": {
+     "x": 3,
+     "n": 10,
+     "txt": "3 de 10",
+     "cumple": false
+    },
+    "reg_visitante": {
+     "x": 5,
+     "n": 10,
+     "txt": "5 de 10",
+     "cumple": false
+    },
+    "directos": null,
+    "cumple": false
+   },
+   {
+    "seleccion": "X2",
+    "cuota": 1.4,
+    "colchon": null,
+    "reg_local": {
+     "x": 10,
+     "n": 10,
+     "txt": "10 de 10",
+     "cumple": true
+    },
+    "reg_visitante": {
+     "x": 8,
+     "n": 10,
+     "txt": "8 de 10",
+     "cumple": true
+    },
+    "directos": null,
+    "cumple": true
+   },
+   {
+    "seleccion": "12",
+    "cuota": 1.37,
+    "colchon": null,
+    "reg_local": {
+     "x": 7,
+     "n": 10,
+     "txt": "7 de 10",
+     "cumple": true
+    },
+    "reg_visitante": {
+     "x": 7,
+     "n": 10,
+     "txt": "7 de 10",
+     "cumple": true
+    },
+    "directos": null,
+    "cumple": true
+   }
+  ]
+ },
+ "jugadores": [],
+ "contexto": {
+  "arbitro": "",
+  "clima": null,
+  "tabla": null,
+  "derbi": false,
+  "importancia": "normal",
+  "local": {
+   "estilo": [],
+   "motivacion": "normal",
+   "rotacion": false,
+   "necesita_ganar": false,
+   "perfil_corners": {}
+  },
+  "visitante": {
+   "estilo": [],
+   "motivacion": "normal",
+   "rotacion": false,
+   "necesita_ganar": false,
+   "perfil_corners": {}
+  },
+  "bajas": [],
+  "dudas": [
+   "Flashscore: sin estadísticas: Hamam-Sousse 2026-05-29 vs PS Sakiet Eddaier (Ligue 2)",
+   "Flashscore: sin estadísticas: Hamam-Sousse 2026-05-11 vs Hammam-Lif (Ligue 2)",
+   "Flashscore: sin estadísticas: Hamam-Sousse 2026-05-01 vs Sfax Railways (Ligue 2)",
+   "Flashscore: sin estadísticas: PS Sakiet Eddaier 2026-05-29 vs Hamam-Sousse (Ligue 2)",
+   "Flashscore: sin estadísticas: PS Sakiet Eddaier 2026-05-12 vs Redeyef (Ligue 2)"
+  ],
+  "fuentes": [
+   "Flashscore, página del partido (tabla, forma, directos) leída 19-nov ~22:45 Bogotá",
+   "Flashscore (últimos partidos, estadísticas y H2H)"
+  ]
+ }
+}
