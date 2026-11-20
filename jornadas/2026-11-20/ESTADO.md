@@ -25,7 +25,7 @@ Los jugadores con menos de 7 partidos de historial no pasan el filtro «7 de 10�
 
 ## Límites que se declaran
 - Una sola lectura de cuotas: no hay CLV ni movimiento. Releer cuotas y onces ≈ 1 h antes de cada partido.
-- BB Boost: **no se leyó** cuáles de estos partidos lo tienen ni su precio real; ninguna combinada del informe es un precio de Betano (la cuota de las combinadas es el producto de las cuotas, un techo).
+- BB Boost leído 13:54 Bogotá en 7 de 10 partidos; las combinadas de equipo del informe (producto de cuotas) siguen siendo un techo, no un precio de Betano; el precio real está en `bb/`.
 - «Entradas» de Flashscore son ganadas/intentadas; Betano cuenta entradas totales. Flashscore solo trae amarillas y rojas para tarjetas (Betano cuenta en puntos).
 - Lo recogido pasa transcrito por el chat y se verificó con hash: `fs_20nov.json` 527643060, `fs_paginas_20nov.json` 2535844691, `arb_20nov.json` 3040378702, `pj_20nov.json` 804547518, `lu_20nov.json` 1245359337.
 - Criterios de tipsters y medios sin resultados verificados; el «cumple 7 de 10» acierta cerca de lo que ya descuenta el precio (ver `CLAUDE.md`, «Hallazgos 4–18 nov»).
@@ -38,7 +38,7 @@ Los jugadores con menos de 7 partidos de historial no pasan el filtro «7 de 10�
 | Árbitro (ValueStats; `arb_20nov_pm` 2107428813) | `arbitros/` | 9 de 10; **Al-Ahli–Al-Nassr no estaba anunciado** |
 | Tabla, forma y bajas (`fs_paginas_20nov_pm` 3123788724; `lu_st_20nov_pm` 1801034947) | `paginas/`, `notas/` | 10 de 10; solo hechos de tabla, forma y bajas (sin lectura de rotación ni objetivos) |
 | Alineaciones | `alineaciones/` | Oficiales en Al-Ahli–Al-Nassr y Aarhus–Lyngby; probables en 8; **Cobresal–Audax sin pestaña** |
-| **Historial por jugador (7 partidos con tiros al arco)** | `jugadores/<partido>.json` | **Completo: Al-Ahli (10+10 de 10) y Aarhus (10 de 10 y 9 de 10; falta Aarhus vs VSK Aarhus 9-sep: Flashscore sin pestaña de jugadores). PENDIENTE: Farul–Cluj, Bayern–Köln, Troyes–Le Havre, Cercle–Westerlo y Athletic–Espanyol** (la conexión con el PC se cayó al bajar el último lote; Flashscore tampoco publica jugadores de Farul vs Sepsi 28-oct). Sus líneas de jugador salen «sin muestra» y **no se recomiendan** hasta traer el historial |
+| **Historial por jugador (7 partidos con tiros al arco)** | `jugadores/<partido>.json` | Al-Ahli 10+10 de 10; Aarhus 10 y 9 (falta vs VSK Aarhus 9-sep); Farul 10 y 9 (falta Cluj vs CFR 28-oct); Bayern 10+10; Troyes 10+10; Cercle 9 y 6 (faltan Hasselt 16-oct; Beveren, Patro Eisden, Mechelen y Waregem del visitante); **Athletic 3 y 4 de 10 (13 partidos sin leer: cobertura insuficiente, sus mercados de jugador no se recomiendan)**. Hash del lote final (`pjb_20nov_3`): 2135175239 |
 | Andorra–Leganés, Verona–Cesena, Cobresal–Audax | — | Solo goleador (`anota`): no necesitan historial de estadística |
-| BB Boost | — | **No se leyó** |
+| BB Boost (catálogo `bb/catalogo_1400.json` hash 152596482; precios `bb/precios_1400.json`) | `bb/` | **Leído 13:54 Bogotá** en 7 partidos (Al-Ahli, Aarhus y Farul ya empezados). Resumen `bb/bb_boost_resumen.json`, texto `bb/BB_BOOST_1354.md` |
 Límites: una sola lectura de cuotas (sin CLV); releer cuotas y onces ≈ 1 h antes; «entradas» de Flashscore no son idénticas a las de Betano; criterios de tipsters sin resultados verificados. Hash del lote de historiales Al-Ahli/Aarhus (`pjb_20nov_1`): 1924190433.

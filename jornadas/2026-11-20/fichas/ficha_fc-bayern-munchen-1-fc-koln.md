@@ -340,7 +340,8 @@ Muestra: local 10, visitante 10, directos 6.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
+- Dayot Upamecano — al_arco: 1+ @1.9 · col +0.4 · 7 de 9 (titular 0.90)
+- Michael Olise — al_arco: 1+ @1.12 · col +1.4 · 7 de 9 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos
 
@@ -349,4 +350,4 @@ _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Alineación probable: sin casar con Betano → Urbig J., Schwabe M.']
+- Dudas: ['Historial: sin casar con Betano → Davies A., Neuer M., Urbig J., Kim Min-Jae, Gnabry S., Saibari I., Daiber D., Diaz L., Sapoko Ndiaye B., Musiala J., Schwabe M., Skhiri E., Rondic I., Ache R., Dallinga T.', 'Alineación probable: sin casar con Betano → Urbig J., Schwabe M.']

@@ -1,5 +1,65 @@
 [
  {
+  "partido": "FC Bayern Munchen - 1. FC Köln",
+  "liga": "Alemania Bundesliga",
+  "fecha": "2026-11-20 14:30",
+  "datos": 100,
+  "situacion": null,
+  "estado": "reserva",
+  "apto": false,
+  "mercados": {
+   "córners": {
+    "datos": 100,
+    "estado": "reserva",
+    "cumplen": 4
+   },
+   "partido": {
+    "datos": 90,
+    "estado": "reserva",
+    "cumplen": 23
+   },
+   "jugadores": {
+    "datos": 100,
+    "estado": "reserva",
+    "cumplen": 2
+   }
+  },
+  "familias_datos": {
+   "córners": 100,
+   "partido": 90,
+   "jugadores": 100
+  },
+  "motivos": [
+   "situación sin leer"
+  ],
+  "detalle_datos": [
+   "Córners: 40 líneas, muestra de 10 al 100% → 100",
+   "Partido: 4/6 familias ofrecidas, muestra al 100% → 90",
+   "Jugadores: 20 con línea, 100% con ≥7 partidos de historial, 100% titulares probables → 100",
+   "Árbitro con promedio: +5; directos con estadística: 6 (+5)"
+  ],
+  "detalle_situacion": [
+   "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
+   "+10 favorito claro (86%, según cuotas)",
+   "-6 2 duda(s) abierta(s) en la ficha"
+  ],
+  "lineas_que_cumplen": 27,
+  "por_mercado": {
+   "Córners": 4,
+   "Fueras de juego": 1,
+   "Remates": 7,
+   "Tiros al arco": 8,
+   "Goles": 4,
+   "Tarjetas": 3
+  },
+  "jugadores_que_cumplen": 2,
+  "probabilidades_1x2": {
+   "1": 0.8605059429591043,
+   "X": 0.09796529196765189,
+   "2": 0.04152876507324373
+  }
+ },
+ {
   "partido": "Western Sydney Wanderers - Adelaide United",
   "liga": "Australia A-League",
   "fecha": "2026-11-20 03:40",
@@ -57,10 +117,10 @@
   }
  },
  {
-  "partido": "FC Bayern Munchen - 1. FC Köln",
-  "liga": "Alemania Bundesliga",
-  "fecha": "2026-11-20 14:30",
-  "datos": 90,
+  "partido": "ES Troyes AC - Le Havre AC",
+  "liga": "Francia Ligue 1",
+  "fecha": "2026-11-20 14:45",
+  "datos": 99,
   "situacion": null,
   "estado": "reserva",
   "apto": false,
@@ -68,53 +128,51 @@
    "córners": {
     "datos": 100,
     "estado": "reserva",
-    "cumplen": 4
+    "cumplen": 7
    },
    "partido": {
     "datos": 90,
     "estado": "reserva",
-    "cumplen": 23
+    "cumplen": 16
    },
    "jugadores": {
-    "datos": 50,
-    "estado": "no apto",
+    "datos": 91,
+    "estado": "reserva",
     "cumplen": 0
    }
   },
   "familias_datos": {
    "córners": 100,
    "partido": 90,
-   "jugadores": 50
+   "jugadores": 91
   },
   "motivos": [
-   "situación sin leer",
-   "jugadores: datos 50 < 60"
+   "situación sin leer"
   ],
   "detalle_datos": [
-   "Córners: 40 líneas, muestra de 10 al 100% → 100",
+   "Córners: 38 líneas, muestra de 10 al 100% → 100",
    "Partido: 4/6 familias ofrecidas, muestra al 100% → 90",
-   "Jugadores: 20 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 50",
-   "Árbitro con promedio: +5; directos con estadística: 6 (+5)"
+   "Jugadores: 17 con línea, 88% con ≥7 partidos de historial, 100% titulares probables → 91",
+   "Árbitro con promedio: +5; directos con estadística: 0 (0)"
   ],
   "detalle_situacion": [
    "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
-   "+10 favorito claro (86%, según cuotas)",
-   "-3 1 duda(s) abierta(s) en la ficha"
+   "-6 2 duda(s) abierta(s) en la ficha"
   ],
-  "lineas_que_cumplen": 27,
+  "lineas_que_cumplen": 23,
   "por_mercado": {
-   "Córners": 4,
-   "Fueras de juego": 1,
-   "Remates": 7,
-   "Tiros al arco": 8,
-   "Goles": 4,
+   "Córners": 7,
+   "Fueras de juego": 7,
+   "Remates": 4,
+   "Tiros al arco": 1,
+   "Goles": 1,
    "Tarjetas": 3
   },
   "jugadores_que_cumplen": 0,
   "probabilidades_1x2": {
-   "1": 0.8605059429591043,
-   "X": 0.09796529196765189,
-   "2": 0.04152876507324373
+   "1": 0.42285270112708895,
+   "X": 0.27982899339292655,
+   "2": 0.29731830547998445
   }
  },
  {
@@ -160,7 +218,7 @@
   "detalle_situacion": [
    "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
    "+10 favorito claro (63%, según cuotas)",
-   "-3 1 duda(s) abierta(s) en la ficha"
+   "-6 2 duda(s) abierta(s) en la ficha"
   ],
   "lineas_que_cumplen": 23,
   "por_mercado": {
@@ -179,70 +237,10 @@
   }
  },
  {
-  "partido": "ES Troyes AC - Le Havre AC",
-  "liga": "Francia Ligue 1",
-  "fecha": "2026-11-20 14:45",
-  "datos": 84,
-  "situacion": null,
-  "estado": "reserva",
-  "apto": false,
-  "mercados": {
-   "córners": {
-    "datos": 100,
-    "estado": "reserva",
-    "cumplen": 7
-   },
-   "partido": {
-    "datos": 90,
-    "estado": "reserva",
-    "cumplen": 16
-   },
-   "jugadores": {
-    "datos": 47,
-    "estado": "no apto",
-    "cumplen": 0
-   }
-  },
-  "familias_datos": {
-   "córners": 100,
-   "partido": 90,
-   "jugadores": 47
-  },
-  "motivos": [
-   "situación sin leer",
-   "jugadores: datos 47 < 60"
-  ],
-  "detalle_datos": [
-   "Córners: 38 líneas, muestra de 10 al 100% → 100",
-   "Partido: 4/6 familias ofrecidas, muestra al 100% → 90",
-   "Jugadores: 17 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 47",
-   "Árbitro con promedio: +5; directos con estadística: 0 (0)"
-  ],
-  "detalle_situacion": [
-   "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
-   "-3 1 duda(s) abierta(s) en la ficha"
-  ],
-  "lineas_que_cumplen": 23,
-  "por_mercado": {
-   "Córners": 7,
-   "Fueras de juego": 7,
-   "Remates": 4,
-   "Tiros al arco": 1,
-   "Goles": 1,
-   "Tarjetas": 3
-  },
-  "jugadores_que_cumplen": 0,
-  "probabilidades_1x2": {
-   "1": 0.42285270112708895,
-   "X": 0.27982899339292655,
-   "2": 0.29731830547998445
-  }
- },
- {
   "partido": "Farul Constanta - Universitatea Cluj",
   "liga": "Rumanía Liga1",
   "fecha": "2026-11-20 13:30",
-  "datos": 88,
+  "datos": 100,
   "situacion": null,
   "estado": "reserva",
   "apto": false,
@@ -258,30 +256,29 @@
     "cumplen": 12
    },
    "jugadores": {
-    "datos": 49,
-    "estado": "no apto",
+    "datos": 86,
+    "estado": "reserva",
     "cumplen": 0
    }
   },
   "familias_datos": {
    "córners": 100,
    "partido": 85,
-   "jugadores": 49
+   "jugadores": 86
   },
   "motivos": [
-   "situación sin leer",
-   "jugadores: datos 49 < 60"
+   "situación sin leer"
   ],
   "detalle_datos": [
    "Córners: 37 líneas, muestra de 10 al 100% → 100",
    "Partido: 3/6 familias ofrecidas, muestra al 100% → 85",
-   "Jugadores: 19 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 49",
+   "Jugadores: 19 con línea, 74% con ≥7 partidos de historial, 100% titulares probables → 86",
    "Árbitro con promedio: +5; directos con estadística: 6 (+5)"
   ],
   "detalle_situacion": [
    "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
    "+5 partido parejo (según cuotas)",
-   "-3 1 duda(s) abierta(s) en la ficha"
+   "-6 2 duda(s) abierta(s) en la ficha"
   ],
   "lineas_que_cumplen": 17,
   "por_mercado": {
@@ -301,7 +298,7 @@
   "partido": "Cercle Brugge KSV - KVC Westerlo",
   "liga": "Bélgica 1A Pro League",
   "fecha": "2026-11-20 14:45",
-  "datos": 86,
+  "datos": 92,
   "situacion": null,
   "estado": "reserva",
   "apto": false,
@@ -317,29 +314,28 @@
     "cumplen": 15
    },
    "jugadores": {
-    "datos": 49,
-    "estado": "no apto",
+    "datos": 65,
+    "estado": "reserva",
     "cumplen": 0
    }
   },
   "familias_datos": {
    "córners": 100,
    "partido": 80,
-   "jugadores": 49
+   "jugadores": 65
   },
   "motivos": [
-   "situación sin leer",
-   "jugadores: datos 49 < 60"
+   "situación sin leer"
   ],
   "detalle_datos": [
    "Córners: 37 líneas, muestra de 10 al 100% → 100",
    "Partido: 2/6 familias ofrecidas, muestra al 100% → 80",
-   "Jugadores: 19 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 49",
+   "Jugadores: 19 con línea, 32% con ≥7 partidos de historial, 100% titulares probables → 65",
    "Árbitro con promedio: +5; directos con estadística: 6 (+5)"
   ],
   "detalle_situacion": [
    "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
-   "-3 1 duda(s) abierta(s) en la ficha"
+   "-6 2 duda(s) abierta(s) en la ficha"
   ],
   "lineas_que_cumplen": 15,
   "por_mercado": {

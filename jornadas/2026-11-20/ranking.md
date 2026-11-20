@@ -4,12 +4,12 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 
 | # | Partido | Situación | Estado | Córners (datos · cumplen) | Partido (datos · cumplen) | Jugadores (datos · cumplen) | Motivo |
 |---|---|---|---|---|---|---|---|
-| 1 | Western Sydney Wanderers - Adelaide United | sin leer | reserva | reserva (100 · 7) | reserva (80 · 19) | reserva (81 · 3) | situación sin leer |
-| 2 | FC Bayern Munchen - 1. FC Köln | sin leer | reserva | reserva (100 · 4) | reserva (90 · 23) | no apto (50 · 0) | situación sin leer; jugadores: datos 50 < 60 |
-| 3 | Athletic Bilbao - RCD Espanyol | sin leer | reserva | reserva (100 · 5) | reserva (90 · 18) | no apto (50 · 0) | situación sin leer; jugadores: datos 50 < 60 |
-| 4 | ES Troyes AC - Le Havre AC | sin leer | reserva | reserva (100 · 7) | reserva (90 · 16) | no apto (47 · 0) | situación sin leer; jugadores: datos 47 < 60 |
-| 5 | Farul Constanta - Universitatea Cluj | sin leer | reserva | reserva (100 · 5) | reserva (85 · 12) | no apto (49 · 0) | situación sin leer; jugadores: datos 49 < 60 |
-| 6 | Cercle Brugge KSV - KVC Westerlo | sin leer | reserva | reserva (100 · 0) | reserva (80 · 15) | no apto (49 · 0) | situación sin leer; jugadores: datos 49 < 60 |
+| 1 | FC Bayern Munchen - 1. FC Köln | sin leer | reserva | reserva (100 · 4) | reserva (90 · 23) | reserva (100 · 2) | situación sin leer |
+| 2 | Western Sydney Wanderers - Adelaide United | sin leer | reserva | reserva (100 · 7) | reserva (80 · 19) | reserva (81 · 3) | situación sin leer |
+| 3 | ES Troyes AC - Le Havre AC | sin leer | reserva | reserva (100 · 7) | reserva (90 · 16) | reserva (91 · 0) | situación sin leer |
+| 4 | Athletic Bilbao - RCD Espanyol | sin leer | reserva | reserva (100 · 5) | reserva (90 · 18) | no apto (50 · 0) | situación sin leer; jugadores: datos 50 < 60 |
+| 5 | Farul Constanta - Universitatea Cluj | sin leer | reserva | reserva (100 · 5) | reserva (85 · 12) | reserva (86 · 0) | situación sin leer |
+| 6 | Cercle Brugge KSV - KVC Westerlo | sin leer | reserva | reserva (100 · 0) | reserva (80 · 15) | reserva (65 · 0) | situación sin leer |
 | 7 | Al-Ahli SFC - Al-Nassr FC | sin leer | reserva | reserva (100 · 0) | reserva (80 · 12) | reserva (90 · 1) | situación sin leer |
 | 8 | FC Botosani - FC Voluntari | sin leer | reserva | reserva (100 · 0) | reserva (84 · 8) | reserva (83 · 3) | situación sin leer |
 | 9 | South Melbourne FC - Canberra FC | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
@@ -34,6 +34,13 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 | 28 | Club S Hammam-Lif - Metlaoui | sin leer | reserva | reserva (71 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
 | 29 | FC Bihor Oradea - CS Gloria Bistrita | sin leer | no ofrece | no lo ofrece | no lo ofrece | no lo ofrece | situación sin leer; córners: Betano no lo ofrece; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
 
+## FC Bayern Munchen - 1. FC Köln (Alemania Bundesliga)
+Datos 100 · Situación sin leer · por mercado: {'Córners': 4, 'Fueras de juego': 1, 'Remates': 7, 'Tiros al arco': 8, 'Goles': 4, 'Tarjetas': 3}
+
+**Datos:** Córners: 40 líneas, muestra de 10 al 100% → 100 | Partido: 4/6 familias ofrecidas, muestra al 100% → 90 | Jugadores: 20 con línea, 100% con ≥7 partidos de historial, 100% titulares probables → 100 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
+
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (86%, según cuotas); -6 2 duda(s) abierta(s) en la ficha
+
 ## Western Sydney Wanderers - Adelaide United (Australia A-League)
 Datos 97 · Situación sin leer · por mercado: {'Córners': 7, 'Remates': 12, 'Tiros al arco': 2, 'Goles': 5}
 
@@ -41,40 +48,33 @@ Datos 97 · Situación sin leer · por mercado: {'Córners': 7, 'Remates': 12, '
 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -6 2 duda(s) abierta(s) en la ficha
 
-## FC Bayern Munchen - 1. FC Köln (Alemania Bundesliga)
-Datos 90 · Situación sin leer · por mercado: {'Córners': 4, 'Fueras de juego': 1, 'Remates': 7, 'Tiros al arco': 8, 'Goles': 4, 'Tarjetas': 3}
+## ES Troyes AC - Le Havre AC (Francia Ligue 1)
+Datos 99 · Situación sin leer · por mercado: {'Córners': 7, 'Fueras de juego': 7, 'Remates': 4, 'Tiros al arco': 1, 'Goles': 1, 'Tarjetas': 3}
 
-**Datos:** Córners: 40 líneas, muestra de 10 al 100% → 100 | Partido: 4/6 familias ofrecidas, muestra al 100% → 90 | Jugadores: 20 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
+**Datos:** Córners: 38 líneas, muestra de 10 al 100% → 100 | Partido: 4/6 familias ofrecidas, muestra al 100% → 90 | Jugadores: 17 con línea, 88% con ≥7 partidos de historial, 100% titulares probables → 91 | Árbitro con promedio: +5; directos con estadística: 0 (0)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (86%, según cuotas); -3 1 duda(s) abierta(s) en la ficha
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -6 2 duda(s) abierta(s) en la ficha
 
 ## Athletic Bilbao - RCD Espanyol (España LaLiga)
 Datos 90 · Situación sin leer · por mercado: {'Córners': 5, 'Fueras de juego': 3, 'Remates': 4, 'Tiros al arco': 4, 'Goles': 6, 'Tarjetas': 1}
 
 **Datos:** Córners: 38 líneas, muestra de 10 al 100% → 100 | Partido: 4/6 familias ofrecidas, muestra al 100% → 90 | Jugadores: 20 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 50 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (63%, según cuotas); -3 1 duda(s) abierta(s) en la ficha
-
-## ES Troyes AC - Le Havre AC (Francia Ligue 1)
-Datos 84 · Situación sin leer · por mercado: {'Córners': 7, 'Fueras de juego': 7, 'Remates': 4, 'Tiros al arco': 1, 'Goles': 1, 'Tarjetas': 3}
-
-**Datos:** Córners: 38 líneas, muestra de 10 al 100% → 100 | Partido: 4/6 familias ofrecidas, muestra al 100% → 90 | Jugadores: 17 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 47 | Árbitro con promedio: +5; directos con estadística: 0 (0)
-
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (63%, según cuotas); -6 2 duda(s) abierta(s) en la ficha
 
 ## Farul Constanta - Universitatea Cluj (Rumanía Liga1)
-Datos 88 · Situación sin leer · por mercado: {'Córners': 5, 'Remates': 7, 'Tiros al arco': 3, 'Goles': 2}
+Datos 100 · Situación sin leer · por mercado: {'Córners': 5, 'Remates': 7, 'Tiros al arco': 3, 'Goles': 2}
 
-**Datos:** Córners: 37 líneas, muestra de 10 al 100% → 100 | Partido: 3/6 familias ofrecidas, muestra al 100% → 85 | Jugadores: 19 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 49 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
+**Datos:** Córners: 37 líneas, muestra de 10 al 100% → 100 | Partido: 3/6 familias ofrecidas, muestra al 100% → 85 | Jugadores: 19 con línea, 74% con ≥7 partidos de historial, 100% titulares probables → 86 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -3 1 duda(s) abierta(s) en la ficha
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +5 partido parejo (según cuotas); -6 2 duda(s) abierta(s) en la ficha
 
 ## Cercle Brugge KSV - KVC Westerlo (Bélgica 1A Pro League)
-Datos 86 · Situación sin leer · por mercado: {'Remates': 9, 'Tiros al arco': 4, 'Goles': 1, 'Tarjetas': 1}
+Datos 92 · Situación sin leer · por mercado: {'Remates': 9, 'Tiros al arco': 4, 'Goles': 1, 'Tarjetas': 1}
 
-**Datos:** Córners: 37 líneas, muestra de 10 al 100% → 100 | Partido: 2/6 familias ofrecidas, muestra al 100% → 80 | Jugadores: 19 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 49 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
+**Datos:** Córners: 37 líneas, muestra de 10 al 100% → 100 | Partido: 2/6 familias ofrecidas, muestra al 100% → 80 | Jugadores: 19 con línea, 32% con ≥7 partidos de historial, 100% titulares probables → 65 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -6 2 duda(s) abierta(s) en la ficha
 
 ## Al-Ahli SFC - Al-Nassr FC (Arabia Saudita Professional League)
 Datos 95 · Situación sin leer · por mercado: {'Remates': 7, 'Tiros al arco': 1, 'Goles': 3, 'Tarjetas': 1}

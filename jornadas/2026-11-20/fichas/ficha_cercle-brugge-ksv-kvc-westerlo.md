@@ -285,4 +285,4 @@ _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Alineación probable: sin casar con Betano → Coucke G., Erick Nunes, Jungdal A.']
+- Dudas: ['Historial: sin casar con Betano → Coucke G., Erick Nunes, Manneh A., Adaramola T., Herrmann C., Amani L., Agyekum L., Diaby I., Ravych C., Tsimba E., Yang Min-Hyuk, Jungdal A., Diong P., Ourega D., Bohamdi-Kamoni N.', 'Alineación probable: sin casar con Betano → Coucke G., Erick Nunes, Jungdal A.']

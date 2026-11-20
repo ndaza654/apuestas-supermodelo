@@ -343,4 +343,4 @@ _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Alineación probable: sin casar con Betano → Simon U., Fortuno A.']
+- Dudas: ['Historial: sin casar con Betano → Vivian D., Simon U., Prados Diaz B., Sannadi M., Paredes A., Fortuno A., Fernandez Sanchez M., Calatrava A., Hinojo R., Dmitrovic M., Gonzalez U.', 'Alineación probable: sin casar con Betano → Simon U., Fortuno A.']

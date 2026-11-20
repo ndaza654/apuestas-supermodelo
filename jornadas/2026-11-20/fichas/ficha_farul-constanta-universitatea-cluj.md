@@ -305,4 +305,4 @@ _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Alineación probable: sin casar con Betano → Munteanu R., Lefter S., Cristea L.']
+- Dudas: ['Historial: sin casar con Betano → Munteanu R., Doicaru I., Lefter S., Cristea L., Drammeh M., Capradossi E., Simion G.', 'Alineación probable: sin casar con Betano → Munteanu R., Lefter S., Cristea L.']

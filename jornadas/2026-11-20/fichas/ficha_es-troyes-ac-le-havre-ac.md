@@ -340,4 +340,4 @@ _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Alineación probable: sin casar con Betano → Konate H., Bodart A., Koffi E., Ouziad D., Samatta M.']
+- Dudas: ['Historial: sin casar con Betano → Konate H., Diaz Jr. M., Gozzi P., Donkor N., Beach P., Batola C., Ouzenadji A., Kone Y., Samatta M., Ouziad D., Koffi E., Bodart A., Mosengo D., Ndiaye R., Nakamura S., Gallon G., Mpasi-Nzau L., Pembele T., Doucoure F., Zouaoui Y.', 'Alineación probable: sin casar con Betano → Konate H., Bodart A., Koffi E., Ouziad D., Samatta M.']
