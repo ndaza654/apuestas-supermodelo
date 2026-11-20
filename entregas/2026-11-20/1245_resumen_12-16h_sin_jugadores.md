@@ -1,0 +1,6 @@
+# Resumen parcial · 10 partidos 12:30–16:00 (viernes 20-nov-2026)
+Entrega 12:45 Bogotá. Cuotas Betano leídas 11:28 (una sola lectura, sin CLV). Alineaciones/tablas Flashscore 12:05 (oficiales solo Al-Ahli y Aarhus). Árbitro: 9 de 10 (Al-Ahli sin anunciar). **Sin historial de jugadores todavía** (en descarga): líneas de jugador «sin muestra», no recomendadas. BB Boost no leído. Criterios de tipsters sin resultados verificados.
+
+Sencillas 1,50–1,99 (p recortada): Cercle–Westerlo Tarjetas visitante Menos 2,5 @1,50 (69 %); Andorra–Leganés Córners Más 8,0 @1,52 (68 %; ⚠ alerta del modelo en córners, directos 1 de 6); Cobresal–Audax Córners Más 9,0 @1,52 (67 %); Athletic–Espanyol Goles Menos 3,5 @1,50 (64 %); Cercle–Westerlo Remates Menos 31,5 @1,50 (62 %); Al-Ahli–Al-Nassr Remates Menos 27,5 @1,52 (62 %); Aarhus–Lyngby Tarjetas Menos 4,5 @1,67 (57 %; directos 1 de 6); Bayern–Köln Córners visitante Más 2,5 @1,62 (56 %).
+Combinadas 2 patas: Bayern–Köln Goles Menos 6,5 + Tiros al arco Menos 14,5 @1,54 (p recortada 55 %); Farul–Cluj Tiros al arco Más 6,5 + Goles Más 1,5 @1,61 (52 %); Cobresal–Audax Goles local Menos 2,5 + Córners Más 8,0 @1,59 (51 %).
+Informe interactivo completo: `1245_informe_jornada_12-16h_sin_jugadores.html`.

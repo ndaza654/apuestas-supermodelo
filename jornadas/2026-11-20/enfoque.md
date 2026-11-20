@@ -1,3 +1,16 @@
+**Bloque 12:30–16:00 (10 partidos, viernes 20-nov; cuotas de Betano leídas a las 11:28 Bogotá, sin releer).** Qué pesa y por qué:
+
+- **Córners es el mercado con más líneas en los 10** (102 a 130 por partido) y el que más líneas cumple el 7 de 10 en ambos equipos: Troyes–Le Havre 26, Athletic–Espanyol 22, Bayern–Köln, Andorra–Leganés y Cobresal–Audax 20 cada uno, Farul–Cluj y Cercle–Westerlo 16. El esperado de la ficha ronda 10,0–11,4 (Athletic 10,0, Verona 9,9, Andorra 10,2, Farul 10,3, Cobresal 11,4), por eso «Más» 7,0–8,0 cumple, pero paga solo 1,20–1,31. **En Al-Ahli, Aarhus, Andorra y Verona la simulación del modelo se aleja 15–25 puntos del mercado en córners: esas patas no entran en combinadas.**
+- **Goles y resultado: Bayern–Köln es el partido más claro** (el modelo da 91 % local). Lo que cumple es Goles Menos 6,5 (esperado 3,85, cuota 1,21) y similares: protección, no ganancia. En Athletic–Espanyol (modelo 67 % local, esperado de goles 2,6) cumplen Goles Menos 4,5 y Más 1,5, ambos a 1,21–1,22.
+- **Remates y tiros al arco de equipo (Al-Ahli, Aarhus, Farul, Bayern, Cercle, Troyes, Athletic; Andorra, Verona y Cobresal no ofrecen estos mercados).** Aquí cumple sobre todo «Menos» con colchón amplio (Bayern local Menos 26,5, colchón 8,4; Cercle local Menos 19,5, colchón 6,5). Pagan 1,21–1,34; solo las líneas de cuota 1,50–1,52 (Cercle Remates Menos 31,5; Al-Ahli Remates Menos 27,5) dan precio útil.
+- **Tarjetas pesa en Troyes–Le Havre (38 líneas, 11 cumplen; esperado 4,06) y Athletic–Espanyol (44 líneas, 8 cumplen).** Árbitros anunciados con historial en ValueStats en 9 de 10; **Al-Ahli–Al-Nassr no tiene árbitro anunciado**. En Troyes–Le Havre, Menos 5,5 (1,26) y Más 2,5 (1,33) cumplen a la vez: la ficha no discrimina hacia dónde cae.
+- **Mercados de jugador: solo en 7 partidos** (anota y tiros al arco; los 3 sin tiros al arco solo traen goleador). Los historiales de los últimos 10 partidos de cada equipo se bajan después del primer informe: hasta entonces las líneas de jugador salen «sin muestra» y no se recomiendan.
+- **Lo que pesa menos:** fueras de juego (22–24 líneas en Farul, Bayern, Troyes y Athletic; cumplen 4–8) y faltas (solo 6 líneas en Bayern, Troyes y Athletic).
+- **Lo que dice la evidencia propia (4–19 nov):** «Más» ha rendido peor que «Menos»; el filtro 7 de 10 acierta cerca de lo que ya descuenta la cuota; las combinadas de 3 o más patas solo como lotería. Por eso lo sugerido son sobre todo «Menos» y protecciones.
+- **Datos que faltan:** onces oficiales solo en Al-Ahli–Al-Nassr y Aarhus–Lyngby (los otros 8 son probables; Cobresal–Audax sin pestaña); sin árbitro en Al-Ahli; una sola lectura de cuotas (sin CLV): releer cuotas y onces ≈ 1 h antes de cada partido. BB Boost: **no se leyó**.
+
+---
+
 Bloque de 19 partidos (viernes 20-nov, 03:30–10:30 Bogotá); cuotas de Betano leídas el 19-nov a las 21:59 y sin releer. Qué pesa y por qué:
 
 - **Goles (los 19 partidos) es el mercado con más cobertura.** Todos traen entre 23 y 30 líneas de goles más resultado, doble oportunidad y ambos marcan. Es donde hay más líneas con 7 de 10 en ambos equipos, pero también donde la cuota ya cobra lo que ve el filtro: lo que cumple casi siempre paga menos de 1,50.

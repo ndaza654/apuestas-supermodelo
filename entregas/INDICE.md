@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-20 | 12:45 | Informe parcial 10 partidos 12:30–16:00 (sin jugadores) | Al-Ahli–Al-Nassr, Aarhus–Lyngby, Farul–Cluj, Bayern–Köln, Andorra–Leganés, Verona–Cesena, Cercle–Westerlo, Troyes–Le Havre, Athletic–Espanyol, Cobresal–Audax | entregas/2026-11-20/1245_resumen_12-16h_sin_jugadores.md · 1245_informe_jornada_12-16h_sin_jugadores.html |
 | 2026-11-19 | 23:50 | Aprender de las combinadas: por qué se pierden, lecciones y reglas (159 combinadas) | todos | `entregas/2026-11-19/2350_aprendizaje_combinadas.md` |
 | 2026-11-19 | 23:05 | Balance del 19-nov: 7 boletos (+83.033 COP), líneas y sugerencias calificadas, qué funcionó y qué falló (Seattle–RSL pendiente) | 9 partidos (Vasco, Vitória, São Paulo, Orlando, 5 de Champions F) | `entregas/2026-11-19/2305_balance_19nov.md` · `entregas/2026-11-19/2305_balance_19nov.html` · `jornadas/2026-11-19/balance/` |
 | 2026-11-19 | 22:40 | Análisis del bloque 00:00–10:30 del 20-nov: enfoque de mercados, protecciones, sencillas y combinadas (Betano 21:59, una sola lectura) | 19 partidos (WSW–Adelaide y Botosani–Voluntari con jugadores) | `entregas/2026-11-19/2240_analisis_bloque_20nov_0000-1030.md` · `entregas/2026-11-19/2240_informe_20nov_bloque_0000-1030.html` · `jornadas/2026-11-20/` |
