@@ -267,7 +267,7 @@ Muestra: local 10, visitante 10, directos 6.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
+- Cristiano Ronaldo — al_arco: 1+ @1.14 · col +1.0 · 7 de 9 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos
 
@@ -276,4 +276,4 @@ _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Alineación probable: sin casar con Betano → Mendy E., Atangana V., Bento, Angelo']
+- Dudas: ['Historial: sin casar con Betano → Mendy E., Hamidou R., Atangana V., Abdo A., Al Sanbi A., Angelo, Bento, Al Aqidi N.', 'Alineación probable: sin casar con Betano → Mendy E., Atangana V., Bento, Angelo']

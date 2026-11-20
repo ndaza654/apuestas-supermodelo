@@ -10,10 +10,10 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 | 4 | ES Troyes AC - Le Havre AC | sin leer | reserva | reserva (100 · 7) | reserva (90 · 16) | no apto (47 · 0) | situación sin leer; jugadores: datos 47 < 60 |
 | 5 | Farul Constanta - Universitatea Cluj | sin leer | reserva | reserva (100 · 5) | reserva (85 · 12) | no apto (49 · 0) | situación sin leer; jugadores: datos 49 < 60 |
 | 6 | Cercle Brugge KSV - KVC Westerlo | sin leer | reserva | reserva (100 · 0) | reserva (80 · 15) | no apto (49 · 0) | situación sin leer; jugadores: datos 49 < 60 |
-| 7 | Al-Ahli SFC - Al-Nassr FC | sin leer | reserva | reserva (100 · 0) | reserva (80 · 12) | no apto (48 · 0) | situación sin leer; jugadores: datos 48 < 60 |
+| 7 | Al-Ahli SFC - Al-Nassr FC | sin leer | reserva | reserva (100 · 0) | reserva (80 · 12) | reserva (90 · 1) | situación sin leer |
 | 8 | FC Botosani - FC Voluntari | sin leer | reserva | reserva (100 · 0) | reserva (84 · 8) | reserva (83 · 3) | situación sin leer |
 | 9 | South Melbourne FC - Canberra FC | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no lo ofrece | situación sin leer; partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 10 | Aarhus GF - Lyngby BK | sin leer | reserva | reserva (96 · 0) | reserva (76 · 8) | no apto (48 · 0) | situación sin leer; jugadores: datos 48 < 60 |
+| 10 | Aarhus GF - Lyngby BK | sin leer | reserva | reserva (96 · 0) | reserva (76 · 8) | reserva (92 · 0) | situación sin leer |
 | 11 | Cobresal - Audax Italiano | sin leer | reserva | reserva (100 · 5) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
 | 12 | FC Andorra - CD Leganés | sin leer | reserva | reserva (100 · 6) | no lo ofrece | no apto (48 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 48 < 60 |
 | 13 | Hellas Verona - Cesena | sin leer | reserva | reserva (100 · 3) | no lo ofrece | no apto (48 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 48 < 60 |
@@ -77,11 +77,11 @@ Datos 86 · Situación sin leer · por mercado: {'Remates': 9, 'Tiros al arco': 
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
 
 ## Al-Ahli SFC - Al-Nassr FC (Arabia Saudita Professional League)
-Datos 81 · Situación sin leer · por mercado: {'Remates': 7, 'Tiros al arco': 1, 'Goles': 3, 'Tarjetas': 1}
+Datos 95 · Situación sin leer · por mercado: {'Remates': 7, 'Tiros al arco': 1, 'Goles': 3, 'Tarjetas': 1}
 
-**Datos:** Córners: 37 líneas, muestra de 10 al 100% → 100 | Partido: 2/6 familias ofrecidas, muestra al 100% → 80 | Jugadores: 18 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 48 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
+**Datos:** Córners: 37 líneas, muestra de 10 al 100% → 100 | Partido: 2/6 familias ofrecidas, muestra al 100% → 80 | Jugadores: 18 con línea, 83% con ≥7 partidos de historial, 100% titulares probables → 90 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -6 2 duda(s) abierta(s) en la ficha
 
 ## FC Botosani - FC Voluntari (Rumanía Liga1)
 Datos 99 · Situación sin leer · por mercado: {'Fueras de juego': 3, 'Goles': 4, 'Tarjetas': 1}
@@ -98,11 +98,11 @@ Datos 92 · Situación sin leer · por mercado: {'Goles': 9}
 **Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; +10 favorito claro (81%, según cuotas)
 
 ## Aarhus GF - Lyngby BK (Dinamarca Superligaen)
-Datos 83 · Situación sin leer · por mercado: {'Remates': 2, 'Goles': 2, 'Tarjetas': 4}
+Datos 98 · Situación sin leer · por mercado: {'Remates': 2, 'Goles': 2, 'Tarjetas': 4}
 
-**Datos:** Córners: 37 líneas, muestra de 10 al 95% → 96 | Partido: 2/6 familias ofrecidas, muestra al 95% → 76 | Jugadores: 18 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 48 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
+**Datos:** Córners: 37 líneas, muestra de 10 al 95% → 96 | Partido: 2/6 familias ofrecidas, muestra al 95% → 76 | Jugadores: 18 con línea, 89% con ≥7 partidos de historial, 100% titulares probables → 92 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
 
-**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -3 1 duda(s) abierta(s) en la ficha
+**Situación:** sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa; -6 2 duda(s) abierta(s) en la ficha
 
 ## Cobresal - Audax Italiano (Chile Liga de Primera)
 Datos 70 · Situación sin leer · por mercado: {'Córners': 5, 'Goles': 2, 'Tarjetas': 1}

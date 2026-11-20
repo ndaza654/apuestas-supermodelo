@@ -1,6 +1,6 @@
 # Informe de la jornada 2026-11-20
 
-Hecho: 2026-11-20 12:42 (Bogotá) · Cuotas: Betano, leídas 19-nov 21:59 a 20-nov 11:28 (Bogotá), sin releer · Muestra de 10 partidos por equipo: «cumple» = 7 de 10 en ambos (n mínimo 7) · 726 líneas de equipo cumplen. El informe interactivo es `informe.html`.
+Hecho: 2026-11-20 13:08 (Bogotá) · Cuotas: Betano, leídas 19-nov 21:59 a 20-nov 11:28 (Bogotá), sin releer · Muestra de 10 partidos por equipo: «cumple» = 7 de 10 en ambos (n mínimo 7) · 726 líneas de equipo cumplen. El informe interactivo es `informe.html`.
 
 ## Enfoque de mercados
 
@@ -10,7 +10,7 @@ Hecho: 2026-11-20 12:42 (Bogotá) · Cuotas: Betano, leídas 19-nov 21:59 a 20-n
 - **Goles y resultado: Bayern–Köln es el partido más claro** (el modelo da 91 % local). Lo que cumple es Goles Menos 6,5 (esperado 3,85, cuota 1,21) y similares: protección, no ganancia. En Athletic–Espanyol (modelo 67 % local, esperado de goles 2,6) cumplen Goles Menos 4,5 y Más 1,5, ambos a 1,21–1,22.
 - **Remates y tiros al arco de equipo (Al-Ahli, Aarhus, Farul, Bayern, Cercle, Troyes, Athletic; Andorra, Verona y Cobresal no ofrecen estos mercados).** Aquí cumple sobre todo «Menos» con colchón amplio (Bayern local Menos 26,5, colchón 8,4; Cercle local Menos 19,5, colchón 6,5). Pagan 1,21–1,34; solo las líneas de cuota 1,50–1,52 (Cercle Remates Menos 31,5; Al-Ahli Remates Menos 27,5) dan precio útil.
 - **Tarjetas pesa en Troyes–Le Havre (38 líneas, 11 cumplen; esperado 4,06) y Athletic–Espanyol (44 líneas, 8 cumplen).** Árbitros anunciados con historial en ValueStats en 9 de 10; **Al-Ahli–Al-Nassr no tiene árbitro anunciado**. En Troyes–Le Havre, Menos 5,5 (1,26) y Más 2,5 (1,33) cumplen a la vez: la ficha no discrimina hacia dónde cae.
-- **Mercados de jugador: solo en 7 partidos** (anota y tiros al arco; los 3 sin tiros al arco solo traen goleador). Los historiales de los últimos 10 partidos de cada equipo se bajan después del primer informe: hasta entonces las líneas de jugador salen «sin muestra» y no se recomiendan.
+- **Mercados de jugador: solo en 7 partidos** (anota y tiros al arco; Andorra, Verona y Cobresal solo traen goleador). **Historial de los últimos 10 partidos bajado solo para Al-Ahli–Al-Nassr y Aarhus–Lyngby**; en Farul–Cluj, Bayern–Köln, Troyes–Le Havre, Cercle–Westerlo y Athletic–Espanyol quedó **pendiente** (se cayó la conexión con el PC): sus líneas de jugador salen «sin muestra» y no se recomiendan.
 - **Lo que pesa menos:** fueras de juego (22–24 líneas en Farul, Bayern, Troyes y Athletic; cumplen 4–8) y faltas (solo 6 líneas en Bayern, Troyes y Athletic).
 - **Lo que dice la evidencia propia (4–19 nov):** «Más» ha rendido peor que «Menos»; el filtro 7 de 10 acierta cerca de lo que ya descuenta la cuota; las combinadas de 3 o más patas solo como lotería. Por eso lo sugerido son sobre todo «Menos» y protecciones.
 - **Datos que faltan:** onces oficiales solo en Al-Ahli–Al-Nassr y Aarhus–Lyngby (los otros 8 son probables; Cobresal–Audax sin pestaña); sin árbitro en Al-Ahli; una sola lectura de cuotas (sin CLV): releer cuotas y onces ≈ 1 h antes de cada partido. BB Boost: **no se leyó**.

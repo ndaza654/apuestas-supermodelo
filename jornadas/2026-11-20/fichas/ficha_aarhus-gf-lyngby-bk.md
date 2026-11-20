@@ -277,4 +277,4 @@ _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Alineación probable: sin casar con Betano → Hansen J., Bech T., Aegidius J., Buur O.']
+- Dudas: ['Historial: sin casar con Betano → Hansen J., Bech T., Hedenstad M., Kochen D., Buur O., Aegidius J., Hebo M.', 'Alineación probable: sin casar con Betano → Hansen J., Bech T., Aegidius J., Buur O.']

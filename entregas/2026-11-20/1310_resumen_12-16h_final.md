@@ -1,0 +1,3 @@
+# Entrega final parcial · 10 partidos 12:30–16:00 (20-nov-2026)
+Entrega 13:10 Bogotá. Cuotas Betano 11:28 (una lectura). Tablas/alineaciones Flashscore 12:05. Árbitro 9 de 10 (Al-Ahli sin anunciar). Historial de jugadores: **solo Al-Ahli–Al-Nassr y Aarhus–Lyngby**; **pendientes** Farul–Cluj, Bayern–Köln, Troyes–Le Havre, Cercle–Westerlo y Athletic–Espanyol (se cayó la conexión con el PC): sus líneas de jugador «sin muestra», no recomendadas. BB Boost no leído. Criterios de tipsters sin resultados verificados.
+Las sugerencias de equipo (sencillas 1,50–1,99 y combinadas de 2 patas) son las de `1245_resumen_12-16h_sin_jugadores.md`; no cambiaron. Informe interactivo: `1310_informe_jornada_12-16h_final.html`.
