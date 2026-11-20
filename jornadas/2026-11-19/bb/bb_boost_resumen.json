@@ -43,7 +43,23 @@
      "10837257265",
      "10837257247",
      "10837257268"
-    ]
+    ],
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "9 remates (local)"
+     ],
+     [
+      true,
+      "4 tiros al arco (local)"
+     ],
+     [
+      true,
+      "15 remates (visitante)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "B alterna",
@@ -84,7 +100,23 @@
      "10858590706",
      "10837257265",
      "10837257268"
-    ]
+    ],
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "24 remates"
+     ],
+     [
+      true,
+      "9 remates (local)"
+     ],
+     [
+      true,
+      "15 remates (visitante)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "C alterna",
@@ -125,7 +157,23 @@
      "10810557654",
      "10837257265",
      "10837257268"
-    ]
+    ],
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "8 córners (visitante)"
+     ],
+     [
+      true,
+      "9 remates (local)"
+     ],
+     [
+      true,
+      "15 remates (visitante)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "D alterna",
@@ -166,7 +214,23 @@
      "10858590706",
      "10837257263",
      "10837257268"
-    ]
+    ],
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "24 remates"
+     ],
+     [
+      true,
+      "9 remates (local)"
+     ],
+     [
+      true,
+      "15 remates (visitante)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "E · 4 patas (precio leído)",
@@ -209,7 +273,27 @@
      0.6,
      1.0,
      1.0
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "7 saques de meta"
+     ],
+     [
+      false,
+      "7 fueras de juego"
+     ],
+     [
+      true,
+      "24 remates"
+     ],
+     [
+      true,
+      "9 remates (local)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "F · 4 patas (precio leído)",
@@ -252,7 +336,27 @@
      1.0,
      1.0,
      1.0
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "7 saques de meta"
+     ],
+     [
+      true,
+      "24 remates"
+     ],
+     [
+      true,
+      "1 goles (visitante)"
+     ],
+     [
+      true,
+      "9 remates (local)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "G · 4 patas (precio por leer)",
@@ -298,7 +402,27 @@
      1.0,
      1.0,
      1.0
-    ]
+    ],
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "24 remates"
+     ],
+     [
+      true,
+      "1 goles (visitante)"
+     ],
+     [
+      true,
+      "9 remates (local)"
+     ],
+     [
+      true,
+      "15 remates (visitante)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "H · 4 patas (precio por leer)",
@@ -344,7 +468,27 @@
      1.0,
      1.0,
      1.0
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "7 saques de meta"
+     ],
+     [
+      true,
+      "24 remates"
+     ],
+     [
+      true,
+      "9 remates (local)"
+     ],
+     [
+      true,
+      "15 remates (visitante)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "I · 5 patas (precio por leer)",
@@ -394,7 +538,31 @@
      0.6,
      1.0,
      1.0
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "7 fueras de juego"
+     ],
+     [
+      true,
+      "24 remates"
+     ],
+     [
+      false,
+      "3 fueras de juego (visitante)"
+     ],
+     [
+      true,
+      "9 remates (local)"
+     ],
+     [
+      true,
+      "4 tiros al arco (local)"
+     ]
+    ],
+    "jugada": false
    }
   ],
   "veredicto": "SÍ — la mejor del día",
@@ -442,7 +610,23 @@
      "10745459297",
      "10837257992",
      "10837207310"
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "2 goles (local)"
+     ],
+     [
+      true,
+      "7 tiros al arco (visitante)"
+     ],
+     [
+      false,
+      "34 saques de banda"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "A (mejor respaldo ficha)",
@@ -483,7 +667,23 @@
      "10837257992",
      "10837330416",
      "10837207312"
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "7 tiros al arco (visitante)"
+     ],
+     [
+      false,
+      "15 faltas (local)"
+     ],
+     [
+      false,
+      "11 saques de banda (local)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "V1 · 4 patas (precio por leer)",
@@ -529,7 +729,27 @@
      0.6,
      1.0,
      1.0
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "8 córners (visitante)"
+     ],
+     [
+      true,
+      "12 tiros al arco"
+     ],
+     [
+      true,
+      "7 tiros al arco (visitante)"
+     ],
+     [
+      false,
+      "15 faltas (local)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "V2 · 4 patas (precio por leer)",
@@ -575,7 +795,27 @@
      1.0,
      0.6,
      1.0
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "2 goles (local)"
+     ],
+     [
+      true,
+      "8 córners (visitante)"
+     ],
+     [
+      true,
+      "12 tiros al arco"
+     ],
+     [
+      true,
+      "7 tiros al arco (visitante)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "V3 · 4 patas (precio por leer)",
@@ -621,7 +861,27 @@
      0.6,
      1.0,
      0.6
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "8 córners (visitante)"
+     ],
+     [
+      true,
+      "12 tiros al arco"
+     ],
+     [
+      true,
+      "7 tiros al arco (visitante)"
+     ],
+     [
+      false,
+      "11 saques de banda (local)"
+     ]
+    ],
+    "jugada": false
    }
   ],
   "veredicto": "Marginal",
@@ -674,7 +934,27 @@
      "10837209044",
      "10837209042",
      "10837258643"
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "16 saques de meta"
+     ],
+     [
+      true,
+      "1 fueras de juego (visitante)"
+     ],
+     [
+      true,
+      "0 fueras de juego (local)"
+     ],
+     [
+      false,
+      "4 tiros al arco"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "S1 · 4 patas (precio por leer)",
@@ -720,7 +1000,27 @@
      1.0,
      0.6,
      0.6
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "16 saques de meta"
+     ],
+     [
+      true,
+      "1 fueras de juego (visitante)"
+     ],
+     [
+      false,
+      "4 tiros al arco"
+     ],
+     [
+      true,
+      "4 tiros al arco (visitante)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "tag": "S2 · 4 patas (precio por leer)",
@@ -766,7 +1066,27 @@
      0.6,
      0.6,
      1.0
-    ]
+    ],
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "1 fueras de juego (visitante)"
+     ],
+     [
+      false,
+      "21 remates"
+     ],
+     [
+      true,
+      "1 puntos de tarjetas (local)"
+     ],
+     [
+      true,
+      "2 puntos de tarjetas"
+     ]
+    ],
+    "jugada": false
    }
   ],
   "veredicto": "NO recomendado",

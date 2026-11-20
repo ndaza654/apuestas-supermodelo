@@ -16,7 +16,23 @@
     "precio_real": 3.25,
     "p": 0.244,
     "stake": 10000,
-    "estado": "precio real leído"
+    "estado": "precio real leído",
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "8 córners (visitante)"
+     ],
+     [
+      true,
+      "0 fueras de juego (visitante)"
+     ],
+     [
+      true,
+      "3 goles"
+     ]
+    ],
+    "jugada": false
    },
    {
     "partido": "Orlando–Cincinnati · 19:30",
@@ -30,7 +46,23 @@
     "precio_real": 3.6,
     "p": 0.26,
     "stake": 10000,
-    "estado": "precio real leído"
+    "estado": "precio real leído",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "37 remates"
+     ],
+     [
+      false,
+      "8 tiros al arco (local)"
+     ],
+     [
+      true,
+      "6 puntos de tarjetas"
+     ]
+    ],
+    "jugada": false
    },
    {
     "partido": "Seattle–RSL · 22:00",
@@ -44,7 +76,23 @@
     "precio_real": 4.05,
     "p": 0.264,
     "stake": 10000,
-    "estado": "precio real leído"
+    "estado": "precio real leído",
+    "resultado": "pendiente",
+    "patas_real": [
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ]
+    ],
+    "jugada": false
    },
    {
     "partido": "Alternativa · São Paulo–Fluminense · 19:30",
@@ -58,7 +106,23 @@
     "precio_real": 3.95,
     "p": 0.2,
     "stake": 0,
-    "estado": "suplente (9 bajas en São Paulo)"
+    "estado": "suplente (9 bajas en São Paulo)",
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "1 fueras de juego (visitante)"
+     ],
+     [
+      true,
+      "16 saques de meta"
+     ],
+     [
+      true,
+      "2 puntos de tarjetas"
+     ]
+    ],
+    "jugada": false
    }
   ]
  },
@@ -76,7 +140,19 @@
     "precio_real": null,
     "p": 0.46,
     "stake": 17500,
-    "estado": "cuota = producto"
+    "estado": "cuota = producto",
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "6 puntos de tarjetas"
+     ],
+     [
+      true,
+      "3 goles"
+     ]
+    ],
+    "jugada": false
    },
    {
     "partido": "Seattle + Vitória",
@@ -89,7 +165,19 @@
     "precio_real": null,
     "p": 0.41,
     "stake": 17500,
-    "estado": "cuota = producto"
+    "estado": "cuota = producto",
+    "resultado": "pendiente",
+    "patas_real": [
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      true,
+      "0 fueras de juego (visitante)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "partido": "Seattle + São Paulo",
@@ -102,7 +190,19 @@
     "precio_real": null,
     "p": 0.42,
     "stake": 15000,
-    "estado": "cuota = producto"
+    "estado": "cuota = producto",
+    "resultado": "pendiente",
+    "patas_real": [
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      true,
+      "16 saques de meta"
+     ]
+    ],
+    "jugada": false
    }
   ]
  }

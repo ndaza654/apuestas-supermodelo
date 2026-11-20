@@ -15,6 +15,7 @@ Límites: Seattle–RSL en vivo (1-0) → pendiente; Flashscore no trae faltas r
 | 131 | Doble | 17.500 | 3,35 | Perdida | 0 |
 | — | Seattle–RSL BB | 35.000 | 4,00 | Abierto (pendiente) | — |
 
+
 ## Cómo nos fue (19-nov, sin Seattle)
 
 **Resultado en plata:** 7 boletos liquidados, $118.500 apostados, $201.533 devueltos = **+$83.033** (≈ +22,4 u). Ganó 1 de 7 (la doble de $35.000: Vasco BB 2,85 × Vitória BB 1,87 = $186.533); 1 cash out de $15.000 (recuperó el stake de la misma BB de Vitória que en el otro boleto perdió); 5 perdidos. Seattle ($35.000 abierto @4,00) queda fuera hasta mañana.
@@ -48,4 +49,4 @@ Límites: Seattle–RSL en vivo (1-0) → pendiente; Flashscore no trae faltas r
 
 ## Límites
 
-Seattle–RSL queda pendiente (en vivo al leer, 1-0). Flashscore no trae faltas recibidas totales como Betano ni «entradas totales» (se usó «tackles won»); las atajadas se tomaron del equipo. Las combinadas y misiones enviadas por la mañana no se jugaron (no aparecen en «Mis apuestas»): se calificaron aparte, solo para aprender: m1 Vitória ✓ (3,25), Orlando ✗, São Paulo alterna ✓ (3,95); m2 Orlando+Vitória ✓ (≈2,20). BB Boost: Vasco A–D ✓; Vasco E/F (saques de meta Más 15.5: 7 reales) ✗; Vitória A y B ✗ (faltas Menos 13.5: 15; goles Menos 1.5: 2-1); São Paulo ✗ (tiros al arco Más 7.5: 4).
+Seattle–RSL queda pendiente (en vivo al leer, 1-0). Flashscore no trae faltas recibidas totales como Betano ni «entradas totales» (se usó «tackles won»); las atajadas se tomaron del equipo. Las combinadas y misiones enviadas por la mañana no se jugaron (no aparecen en «Mis apuestas»): se calificaron aparte, solo para aprender: m1 Vitória ✓ (3,25), Orlando ✗ (37 remates; Orlando 8 tiros al arco), São Paulo alterna ✓ (3,95); m2 Orlando+Vitória ✓ (≈2,20). BB Boost (9 de Vasco, 5 de Vitória, 3 de São Paulo; todas «no jugadas»): Vasco A–D y G ✓ (solo remates, tiros al arco, córners del Inter y goles del Inter); Vasco E, F, H ✗ (saques de meta Más 15.5: 7 reales) e I ✗ (fueras de juego); Vitória 5 de 5 ✗ (goles Menos 1.5: 2; faltas Menos 13.5: 15; saques de banda: 34 y 11 del local); São Paulo 3 de 3 ✗ (tiros al arco total Más 7.5: 4; remates Más 24.5: 21). Resumen: 5 de 17 se dieron. Ya se ven pata por pata en el dashboard, página «BB Boost».

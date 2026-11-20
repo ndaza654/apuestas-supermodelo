@@ -313,3 +313,4 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Combinadas/misiones enviadas (no jugadas): BB Boost Vasco A–D ✓ (5,10–5,50), E/F ✗; Vitória A/B ✗; São Paulo ✗; m1 Vitória ✓ 3,25, São Paulo alterna ✓ 3,95, Orlando ✗.
 - Libro: hojas «Boletos 19-nov», «Líneas 19-nov», «Sugeridas 19-nov» y 6 lecciones. Pendiente: Seattle–RSL (líneas, sugerencias S7xx, S794, boleto abierto, m1/m2 con Seattle).
 - Archivos: `jornadas/2026-11-19/balance/` (balance.html, boletos_betano.json, patas_calificadas.json, pendientes.json, conclusiones.html), `jornadas/2026-11-19/resultados/`.
+- (23:25) Nuevo: `recoleccion/calificar_bb.py` califica pata por pata los combos de BB Boost y las misiones (`resultado`, `patas_real`) y el dashboard los muestra en «BB Boost» (SE DIO ✓ / FALLÓ ✗ + valor real). 19-nov: 5 de 17 BB Boost se dieron (Vasco A–D y G); misiones m1 Vitória ✓ y São Paulo alterna ✓, Orlando ✗; Seattle pendiente.
