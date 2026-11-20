@@ -25,6 +25,9 @@ const ACT={home(){go('inicio')},close(){closeDr()},line(el){openLine(el.dataset.
  auto(){const S0=route().pg==='estrategia'?ST.est:ST.strat,rows=stratRows(ST.jor,S0).filter(x=>P[x.p].est!=='final'),pool=rows.length?rows:stratRows(ST.jor,S0),seen=new Set(),keys=[];let c=1;
   for(const x of pool){if(seen.has(x.p))continue;seen.add(x.p);keys.push(x.key);c*=x.c;if(c>=(ST.target||3))break}
   if(!keys.length){toast('Ninguna línea pasa tu filtro en esta jornada');return}ST.cup=keys;save();toast(c>=(ST.target||3)?'Combinada armada: cuota '+f2(c):'No alcanzó la cuota; quedó en '+f2(c));if(route().pg==='cupon')render();else go('cupon')},
+ estsec(el){ST.estsec=ST.estsec||{};ST.estsec[el.dataset.s]=!ST.estsec[el.dataset.s];upd()},
+ estpall(){ST.estp=[];upd()},
+ estppend(){ST.estp=P.map((p,i)=>[p,i]).filter(e=>e[0].jor===ST.jor&&e[0].est!=='final').map(e=>String(e[1]));upd()},
  usarest(){ST.strat=JSON.parse(JSON.stringify(ST.est));toast('Las demás pestañas ahora usan este filtro');upd()},
  volverest(){ST.est=JSON.parse(JSON.stringify(ST.strat));toast('Filtro vuelto al de las demás pestañas');upd()},
  clearf(el){const d={'f.lr':'','f.le':'','f.lk0':'','f.lk1':'','f.ls':'','f.lm':'','f.la':'','f.lp':''};String(el.dataset.keys||'').split(',').forEach(k=>{if(k in d)setp(k,d[k])});upd()},
@@ -59,7 +62,7 @@ function boot(){shell();tipInit();
   const tg=e.target.closest('[data-tog]');if(tg){const arr=(getp(tg.dataset.tog,[])||[]).slice(),v=tg.dataset.val,i=arr.indexOf(v);if(i>=0)arr.splice(i,1);else arr.push(v);setp(tg.dataset.tog,arr);upd();return}
   if(!e.target.closest('#sres')&&e.target.id!=='q')$('#sres').style.display='none';if(e.target.closest('#nav a'))$('#nav').classList.remove('open')});
  const onBind=e=>{const el=e.target;if(el.id==='q'){if(e.type==='input')search(el.value);return}if(el.dataset.actChange==='import'&&e.type==='change'){const f=el.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>{try{const s=JSON.parse(rd.result);if(!s||typeof s!=='object'||!s.strat)throw 0;ST=Object.assign(JSON.parse(JSON.stringify(DEF)),s);if(!JORS.includes(ST.jor))ST.jor=DEF.jor;ensureEst();save();toast('Copia cargada');render()}catch(x){toast('Ese archivo no es una copia de Mando')}};rd.readAsText(f);return}
-  if(!el.dataset||!el.dataset.bind)return;const isNum='num'in el.dataset;if(isNum&&e.type==='input')return;let v=el.value;if(isNum){if(v===''||isNaN(+v))return;v=+v}setp(el.dataset.bind,v);
+  if(!el.dataset||!el.dataset.bind)return;if(el.dataset.bind==='est.preset'){if(e.type==='change'&&el.value)ACT.preset({dataset:{n:el.value}});return}const isNum='num'in el.dataset;if(isNum&&e.type==='input')return;let v=el.value;if('bool'in el.dataset)v=v==='true';else if(isNum){if(v===''||isNaN(+v))return;v=+v}setp(el.dataset.bind,v);
   if(e.type==='input'){clearTimeout(_deb);_deb=setTimeout(upd,220)}else upd()};
  document.addEventListener('input',onBind);document.addEventListener('change',onBind);
  document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeDr();$('#sres').style.display='none'}if(e.key==='Enter'&&e.target.id==='q'){const f=$('#sres .srow');if(f)f.click()}if(e.key==='/'&&!/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();$('#q').focus()}});
