@@ -332,6 +332,7 @@ def construir():
             float(r['cuota']) if r['cuota'] else '', float(r['p_modelo']) if r['p_modelo'] else '', '', 'Línea con «cumple» (≥ 5 de 7 en ambos).', 'registro/lineas.csv')
     jornadas(rows)
     bb_y_misiones()
+    cruzadas()
     quince(rows)
     # ===== 14-nov · análisis de la jornada (corrida programada 3:45 a. m.; pendientes de calificar con resultados del 14-nov) ======
     F14 = 'entregas/2026-11-14/0400_analisis-jornada-14nov.md'
@@ -415,6 +416,26 @@ def bb_y_misiones():
                 tipo = 'Misión 1 · Bet Builder' if mm == 'm1' else 'Misión 2 · combinada entre partidos'
                 add(f'{jor} · {nom} enviada ({hora})', jor, hora, tipo, f"{nom} · {c['partido']}", c['partido'], legs, pr, c.get('p', ''),
                     'jugada' if c.get('jugada') else 'no jugada', f"{c.get('estado', '')}; {'precio real leído' if c.get('precio_real') else 'cuota = producto de las cuotas'}.", os.path.relpath(rm, RAIZ))
+
+
+def cruzadas():
+    """Combinadas ENTRE partidos que Claude envió por el chat (jornadas/<día>/combinadas_enviadas_HHMM.json: [{id,tipo,patas:[[«partido HH:MM», texto, cuota, p, detalle]],cuota,p,ev, patas_real?}]).
+    Entran a «Lo que te envié» como «combinada entre partidos»; quedan «pendiente» hasta que `patas_real` ([[true|false, valor real], …]) las califique."""
+    import glob
+    for rc in sorted(glob.glob(os.path.join(RAIZ, 'jornadas', '*', 'combinadas_enviadas_*.json'))):
+        jdir = os.path.dirname(rc); jor = os.path.basename(jdir)
+        hh = re.search(r'_(\d{2})(\d{2})\.json$', rc)
+        hora = f'{hh.group(1)}:{hh.group(2)}' if hh else ''
+        for c in json.load(open(rc, encoding='utf8')):
+            pr_ = c.get('patas_real') or []
+            legs, partidos = [], []
+            for i, pt in enumerate(c['patas']):
+                part = re.sub(r'\s+\d{2}:\d{2}$', '', pt[0]).replace(' - ', '–')
+                partidos.append(part)
+                ok, real = pr_[i] if i < len(pr_) else (None, 'pendiente')
+                legs.append((part, f'{part}: {pt[1]}', pt[2], ('C' if ok is True else 'F' if ok is False else 'P', real)))
+            add(f'{jor} · combinadas entre partidos ({hora})', jor, hora, 'combinada entre partidos', f"{c['id']} · {c['tipo']}", ' + '.join(partidos), legs, c.get('cuota', ''),
+                c.get('p', ''), 'jugada' if c.get('jugada') else 'no jugada', f"Cuotas Betano leídas ese día; p recortada del modelo, sin validar frente al precio; EV {c.get('ev', '')}.", os.path.relpath(rc, RAIZ))
 
 
 def quince(rows):
