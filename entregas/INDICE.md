@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-21 | 17:24 | Atlético MG–Boca: revisión pata por pata del combo A y alternativas más seguras | Atlético MG–Boca | `entregas/2026-11-21/1724_atletico-mg-boca_patas_seguras.md` |
 | 2026-11-21 | 17:20 | BB Boost Atlético MG–Boca con precio real de Betano (A: 5,30, EV con boost +6 %) | Atlético MG–Boca | `entregas/2026-11-21/1720_bbboost_atletico-mg-boca.md` |
 | 2026-11-21 | 17:05 | Final Atlético MG–Boca: onces oficiales, BB Boost no recomendado, 2 patas, límites (cuotas de ayer) | Atlético MG–Boca | `entregas/2026-11-21/1715_atletico-mg-boca_final.md` |
 | 2026-11-21 | 12:20 | Combinadas de 2, 3 y 4 patas (partidos 1:00–3:30 p. m.) | 12 partidos de la ventana | `entregas/2026-11-21/1220_combinadas_1300-1700.md` |
