@@ -25,16 +25,18 @@ window.pjEnP = async function (mid, idx) {
     const l = D.querySelector('a[href*="player-stats/' + nm + '/"]'); if (!l) continue;
     const hb = [...D.querySelectorAll('th')].map(x => x.textContent.trim()).join(',');
     l.click(); await until(() => [...D.querySelectorAll('th')].map(x => x.textContent.trim()).join(',') !== hb && D.querySelectorAll('tr[data-testid="wcl-tableBodyRow"]').length >= 1, 7000); await sleep(500);
-    const H = [...D.querySelectorAll('th')].map(x => x.textContent.trim()).filter(x => x); cols.push(nm + ':' + H.length);
+    const H = [...D.querySelectorAll('th')].map(x => x.textContent.trim()).filter(x => x); cols.push(nm + ':' + H.length); (window.__TH = window.__TH || {})[nm] = [...D.querySelectorAll('th')].map(x => x.textContent.trim());
     for (const tr of D.querySelectorAll('tr[data-testid="wcl-tableBodyRow"]')) {
       const fg = tr.querySelector('figure'); if (!fg) continue; const pid = fg.getAttribute('data-analytics-player-id'); if (!pid) continue;
       const imgs = tr.querySelectorAll('.wcl-photoContainer_llQ-a img'); const logo = imgs.length > 1 ? imgs[imgs.length - 1].src.split('/').pop() : null;
       const o = rows[pid] || (rows[pid] = { n: ((tr.querySelector('[class*="playerName"]') || {}).textContent || '').trim(), pos: ((tr.querySelector('[class*="position"]') || {}).textContent || '').trim(), eq: logo === logos[0] ? 'H' : logo === logos[1] ? 'A' : '?', v: {} });
       const tds = [...tr.querySelectorAll('td')].slice(1); H.forEach((h, i) => { if (tds[i]) o.v[h] = tds[i].textContent.trim(); });
+      // 21-nov: crudo sin interpretar (la alineación th↔td de Flashscore cambió: 'ALL' entra como th y los nombres salen duplicados). Se guarda cada fila tal cual para decodificar fuera de línea.
+      (o.raw || (o.raw = {}))[nm] = [...tr.querySelectorAll('td')].map(x => x.textContent.trim());
     }
   }
   f.remove();
-  window.__PJ[mid] = { url: f.src, h: names[0], a: names[1], rows, cols };
+  window.__PJ[mid] = { url: f.src, h: names[0], a: names[1], rows, cols, th: JSON.parse(JSON.stringify(window.__TH || {})) };
   try { localStorage.setItem('pjE_' + mid, JSON.stringify(window.__PJ[mid])); } catch (e) {}   // respaldo: la pestaña puede recargarse
   return mid + ' ' + names[0] + '-' + names[1] + ' ' + Object.keys(rows).length + ' [' + cols.join(' ') + ']';
 };
