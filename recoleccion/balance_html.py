@@ -37,7 +37,8 @@ def cargar(a):
             L.append([r['fecha_partido'], pid(r['partido']), r['liga'], 0, r['mercado_linea'], '', m.group(1) if m else '', num(m.group(2)) if m and m.group(2) else None,
                       num(r['cuota']), num(r['p_modelo']), num(r['p_mercado']), num(r['ev']), '', '', 'pick ' + r['tipo'], CODIGO.get(r['resultado'], ''), r['apostada'], r['nota']])
     for r in csv.DictReader(open(os.path.join(RAIZ, 'registro', 'lineas.csv'), encoding='utf-8-sig'), delimiter=';'):
-        if r['jornada'] in a.jornadas:
+        # `--jornadas 2026-11-20,2026-11-19|Seattle` : «jornada|prefijo» trae solo los partidos de esa jornada cuyo nombre empieza por el prefijo (p. ej. un partido que se cerró al día siguiente)
+        if r['jornada'] in a.jornadas or any('|' in j and r['jornada'] == j.split('|')[0] and r['partido'].startswith(j.split('|')[1]) for j in a.jornadas):
             L.append([r['hora_partido'][:10], pid(r['partido']), r['liga'], 1, r['mercado'] + (' ' + r['jugador'] if r['jugador'] else ''), r['ambito'], r['lado'], num(r['linea']),
                       num(r['cuota']), num(r['p_modelo']), num(r['p_mercado']), num(r['ev_modelo']), r['reg_local'], r['reg_visitante'], r['cumple_ficha'],
                       CODIGO.get(r['resultado'], ''), r['apostada'], r['nota']])

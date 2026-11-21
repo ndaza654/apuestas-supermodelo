@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-21 | 08:55 | Balance del 20-nov (boletos 132–139, líneas, sugerencias, combos, BB Boost) + cierre de Seattle–RSL | 38 partidos del 20-nov + Seattle–RSL (19-nov) | entregas/2026-11-21/0855_balance_20nov.md · 0855_balance_20nov.html |
 | 2026-11-21 | 08:30 | Análisis del sábado: enfoque, sencillas EV+, combinadas, informe HTML (cuotas 20-nov 23:08) | 40 partidos | entregas/2026-11-21/0830_analisis_21nov.md · 0830_informe_21nov.html |
 | 2026-11-21 | 01:10 | Estado de la recolección del sáb 21-nov (incompleta: jugadores 251/465, falta contexto) | 40 partidos | entregas/2026-11-21/0110_estado_recoleccion_21nov.md |
 | 2026-11-20 | 23:05 | Top 40 de mañana 21-nov: qué mercados (familias) tiene cada partido | 40 partidos | entregas/2026-11-21/2305_top40_mercados_por_partido.md |

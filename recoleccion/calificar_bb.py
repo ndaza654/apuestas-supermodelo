@@ -34,6 +34,30 @@ def evaluar(pata, partido, R, kw, prefijo=False):
     if prefijo:
         i = min([t.find(nom) for nom, _ in MERC if nom in t] or [0])
         t = t[i:]
+    # ambos marcan / resultado del partido / doble oportunidad (desde el 21-nov: antes quedaban «sin resultado»)
+    if partido in R and 'g' in R[partido]:
+        gh, ga = R[partido]['g']
+        L0, V0 = kw[partido]
+        mm = re.match(r'ambos marcan:?\s*(si|no)\s*$', t)
+        if mm:
+            amb = gh > 0 and ga > 0
+            return (amb if mm.group(1) == 'si' else not amb), f'{gh}-{ga}'
+        if not re.search(r'(mas|menos)\s+[\d.]+\s*$', t):
+            gana, pier = ('1' if gh > ga else 'X' if gh == ga else '2'), None
+            mg = re.match(r'gana\s+(.+)$', t)
+            if mg:
+                eq = mg.group(1)
+                sel = '1' if any(w in eq for w in L0) else '2' if any(w in eq for w in V0) else None
+                if sel:
+                    return gana == sel, f'{gh}-{ga}'
+            mo = re.match(r'(.+?)\s+o\s+empate$', t)
+            if mo:
+                eq = mo.group(1)
+                sel = '1' if any(w in eq for w in L0) else '2' if any(w in eq for w in V0) else None
+                if sel:
+                    return gana in (sel, 'X'), f'{gh}-{ga}'
+            if t in ('empate', 'x'):
+                return gana == 'X', f'{gh}-{ga}'
     m = re.search(r'(mas|menos)\s+([\d.]+)\s*$', t)
     if not m or partido not in R:
         return None, 'sin resultado'

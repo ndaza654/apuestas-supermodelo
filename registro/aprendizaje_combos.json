@@ -1,95 +1,95 @@
 {
  "generado": "recoleccion/aprender_combos.py",
- "n_combinadas": 159,
- "se_dieron": 40,
- "perdidas": 119,
- "perdidas_por_una_pata": 72,
+ "n_combinadas": 211,
+ "se_dieron": 69,
+ "perdidas": 142,
+ "perdidas_por_una_pata": 85,
  "patas": {
-  "n": 545,
-  "hit": 0.65,
-  "con_dato_previo": 317
+  "n": 703,
+  "hit": 0.674,
+  "con_dato_previo": 447
  },
  "pata_mas_floja": {
-  "combinadas_perdidas_por_una_pata_con_dato": 33,
-  "la_que_cayo_era_la_mas_floja": 11,
-  "por_azar_esperado": 12.6
+  "combinadas_perdidas_por_una_pata_con_dato": 42,
+  "la_que_cayo_era_la_mas_floja": 17,
+  "por_azar_esperado": 15.8
  },
  "por_banda_colchon": {
   "10–20 %": {
-   "n": 51,
-   "hit": 0.451
+   "n": 68,
+   "hit": 0.471
   },
   "5–10 %": {
-   "n": 20,
-   "hit": 0.65
+   "n": 23,
+   "hit": 0.609
   },
   "< 5 %": {
-   "n": 36,
-   "hit": 0.667
+   "n": 52,
+   "hit": 0.635
   },
   "sin dato": {
-   "n": 228,
-   "hit": 0.627
+   "n": 256,
+   "hit": 0.641
   },
   "≥ 20 %": {
-   "n": 210,
-   "hit": 0.719
+   "n": 304,
+   "hit": 0.76
   }
  },
  "por_cumple": {
   "no": {
-   "n": 77,
-   "hit": 0.571
+   "n": 122,
+   "hit": 0.574
   },
   "sí": {
-   "n": 219,
-   "hit": 0.694
+   "n": 299,
+   "hit": 0.746
   }
  },
  "por_mercado_lado": {
   "corners Más": {
-   "n": 62,
-   "hit": 0.645
+   "n": 87,
+   "hit": 0.713
   },
   "goles Menos": {
-   "n": 48,
-   "hit": 0.625
+   "n": 61,
+   "hit": 0.623
   },
   "goles Más": {
-   "n": 31,
-   "hit": 0.742
-  },
-  "remates Menos": {
-   "n": 29,
-   "hit": 0.793
-  },
-  "al_arco Más": {
-   "n": 27,
-   "hit": 0.778
+   "n": 47,
+   "hit": 0.809
   },
   "corners Menos": {
-   "n": 26,
-   "hit": 0.654
+   "n": 40,
+   "hit": 0.575
   },
-  "remates Más": {
-   "n": 21,
-   "hit": 0.762
+  "remates Menos": {
+   "n": 37,
+   "hit": 0.73
+  },
+  "al_arco Más": {
+   "n": 35,
+   "hit": 0.829
   },
   "tarjetas Más": {
-   "n": 18,
-   "hit": 0.667
+   "n": 33,
+   "hit": 0.727
+  },
+  "remates Más": {
+   "n": 29,
+   "hit": 0.655
   },
   "al_arco Menos": {
-   "n": 12,
-   "hit": 0.667
-  },
-  "fueras Menos": {
-   "n": 11,
-   "hit": 0.636
+   "n": 20,
+   "hit": 0.8
   },
   "tarjetas Menos": {
-   "n": 9,
-   "hit": 0.778
+   "n": 19,
+   "hit": 0.895
+  },
+  "fueras Menos": {
+   "n": 14,
+   "hit": 0.571
   },
   "saques_meta Más": {
    "n": 8,
@@ -98,75 +98,75 @@
  },
  "por_n_patas": {
   "2": {
-   "combinadas": 47,
-   "se_dieron": 20,
-   "hit": 0.426,
-   "hit_pata": 0.67,
-   "si_independientes": 0.449
+   "combinadas": 68,
+   "se_dieron": 38,
+   "hit": 0.559,
+   "hit_pata": 0.75,
+   "si_independientes": 0.562
   },
   "3": {
-   "combinadas": 59,
-   "se_dieron": 18,
-   "hit": 0.305,
-   "hit_pata": 0.655,
-   "si_independientes": 0.281
+   "combinadas": 77,
+   "se_dieron": 25,
+   "hit": 0.325,
+   "hit_pata": 0.662,
+   "si_independientes": 0.291
   },
   "4+": {
-   "combinadas": 53,
-   "se_dieron": 2,
-   "hit": 0.038,
-   "hit_pata": 0.633,
-   "si_independientes": 0.102
+   "combinadas": 66,
+   "se_dieron": 6,
+   "hit": 0.091,
+   "hit_pata": 0.647,
+   "si_independientes": 0.117
   }
  },
  "por_fuente": {
   "BB Boost": {
-   "combinadas": 17,
-   "se_dieron": 5,
-   "patas_prom": 3.7,
-   "hit_pata": 0.746
+   "combinadas": 32,
+   "se_dieron": 8,
+   "patas_prom": 3.6,
+   "hit_pata": 0.661
   },
   "Misión": {
-   "combinadas": 4,
-   "se_dieron": 3,
-   "patas_prom": 2.8,
-   "hit_pata": 0.818
+   "combinadas": 7,
+   "se_dieron": 5,
+   "patas_prom": 2.6,
+   "hit_pata": 0.833
   },
   "sugerida": {
-   "combinadas": 80,
-   "se_dieron": 26,
-   "patas_prom": 2.6,
-   "hit_pata": 0.652
+   "combinadas": 106,
+   "se_dieron": 47,
+   "patas_prom": 2.5,
+   "hit_pata": 0.711
   },
   "tu boleto": {
-   "combinadas": 58,
-   "se_dieron": 6,
-   "patas_prom": 4.4,
-   "hit_pata": 0.61
+   "combinadas": 66,
+   "se_dieron": 9,
+   "patas_prom": 4.5,
+   "hit_pata": 0.633
   }
  },
  "por_cuota_pata": {
   "< 1,30": {
-   "n": 63,
-   "hit": 0.762
+   "n": 85,
+   "hit": 0.812
   },
   "1,50–1,79": {
-   "n": 86,
-   "hit": 0.674
+   "n": 141,
+   "hit": 0.723
   },
   "1,30–1,49": {
-   "n": 38,
-   "hit": 0.737
+   "n": 63,
+   "hit": 0.778
   },
   "1,80 o más": {
-   "n": 29,
-   "hit": 0.69
+   "n": 45,
+   "hit": 0.511
   }
  },
  "causas": {
-  "sin_cumplir": 31,
-  "atipico": 72,
-  "sin_datos": 82,
+  "sin_cumplir": 50,
+  "atipico": 84,
+  "sin_datos": 89,
   "mediana": 2,
   "ambos": 2
  },
@@ -1987,7 +1987,50 @@
    ]
   },
   {
-   "id": "S871",
+   "id": "S794",
+   "fuente": "sugerida",
+   "jornada": "2026-11-19",
+   "tipo": "combinada entre partidos",
+   "nombre": "Lotería de 3 protecciones",
+   "cuota": 2.02,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Menos 3.5 (Sao Paulo SP - Fluminense RJ)",
+     "ok": true,
+     "real": "1 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Resultado: gana alguno (sin empate) (SL Benfica (F) - AS Roma (F))",
+     "ok": true,
+     "real": "2-3 (Flashscore (feeds df_st/df_su, leíd",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Resultado: gana alguno (sin empate) (Seattle Sounders FC - Real Salt Lake)",
+     "ok": false,
+     "real": "1-1 (Flashscore (feeds df_st/df_su, leíd",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Resultado: gana alguno (sin empate) (Seattle Sounders FC - Real Salt Lake)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S1637",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2043,7 +2086,7 @@
    ]
   },
   {
-   "id": "S872",
+   "id": "S1638",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2094,7 +2137,7 @@
    ]
   },
   {
-   "id": "S874",
+   "id": "S1640",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2145,7 +2188,7 @@
    ]
   },
   {
-   "id": "S875",
+   "id": "S1641",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2209,7 +2252,7 @@
    ]
   },
   {
-   "id": "S876",
+   "id": "S1642",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2257,7 +2300,7 @@
    ]
   },
   {
-   "id": "S877",
+   "id": "S1643",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2305,7 +2348,7 @@
    ]
   },
   {
-   "id": "S878",
+   "id": "S1644",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2356,7 +2399,7 @@
    ]
   },
   {
-   "id": "S879",
+   "id": "S1645",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2407,7 +2450,7 @@
    ]
   },
   {
-   "id": "S880",
+   "id": "S1646",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2458,7 +2501,7 @@
    ]
   },
   {
-   "id": "S881",
+   "id": "S1647",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2509,7 +2552,7 @@
    ]
   },
   {
-   "id": "S882",
+   "id": "S1648",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2560,7 +2603,7 @@
    ]
   },
   {
-   "id": "S883",
+   "id": "S1649",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2611,7 +2654,610 @@
    ]
   },
   {
-   "id": "S885",
+   "id": "S1652",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost C · 4 patas · FC Bayern Munchen–1. FC Köln",
+   "cuota": 7.0,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Remates FC Bayern Munchen Menos 24.5",
+     "ok": true,
+     "real": "17 remates (local)",
+     "colchon_rel": 0.259,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Ambos marcan: Sí",
+     "ok": true,
+     "real": "1-1",
+     "colchon_rel": "",
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco FC Bayern Munchen Menos 9.5",
+     "ok": true,
+     "real": "1 tiros al arco (local)",
+     "colchon_rel": 0.242,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates 1. FC Köln Más 9.5",
+     "ok": false,
+     "real": "7 remates (visitante)",
+     "colchon_rel": 0.342,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates 1. FC Köln Más 9.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S1653",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost D · 3 patas · FC Bayern Munchen–1. FC Köln",
+   "cuota": 6.2,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles 1. FC Köln Más 0.5",
+     "ok": true,
+     "real": "1 goles (visitante)",
+     "colchon_rel": 1.8,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Menos 11.5",
+     "ok": true,
+     "real": "5 córners",
+     "colchon_rel": 0.026,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates 1. FC Köln Más 9.5",
+     "ok": false,
+     "real": "7 remates (visitante)",
+     "colchon_rel": 0.342,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates 1. FC Köln Más 9.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S1655",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost A · 3 patas (margen mínimo) · ES Troyes AC–Le Havre AC",
+   "cuota": 5.1,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Remates ES Troyes AC Menos 14.5",
+     "ok": false,
+     "real": "19 remates (local)",
+     "colchon_rel": 0.124,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Le Havre AC Más 11.5",
+     "ok": false,
+     "real": "7 remates (visitante)",
+     "colchon_rel": 0.209,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Faltas Le Havre AC Más 13.5",
+     "ok": true,
+     "real": "22 faltas (visitante)",
+     "colchon_rel": 0.015,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates ES Troyes AC Menos 14.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Le Havre AC Más 11.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S1656",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost A principal · 3 patas · Cercle Brugge KSV–KVC Westerlo",
+   "cuota": 7.1,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Remates KVC Westerlo Más 12.5",
+     "ok": true,
+     "real": "16 remates (visitante)",
+     "colchon_rel": 0.14,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "KVC Westerlo o empate",
+     "ok": false,
+     "real": "1-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Remates Cercle Brugge KSV Menos 14.5",
+     "ok": false,
+     "real": "18 remates (local)",
+     "colchon_rel": 0.1,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "KVC Westerlo o empate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Remates Cercle Brugge KSV Menos 14.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S1657",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost B · 3 patas (más pago) · Cercle Brugge KSV–KVC Westerlo",
+   "cuota": 8.25,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "KVC Westerlo o empate",
+     "ok": false,
+     "real": "1-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Remates KVC Westerlo Más 13.5",
+     "ok": true,
+     "real": "16 remates (visitante)",
+     "colchon_rel": 0.056,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Cercle Brugge KSV Menos 14.5",
+     "ok": false,
+     "real": "18 remates (local)",
+     "colchon_rel": 0.1,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "KVC Westerlo o empate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Remates Cercle Brugge KSV Menos 14.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S1658",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost C · 4 patas · Cercle Brugge KSV–KVC Westerlo",
+   "cuota": 9.25,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Goles Más 2.5",
+     "ok": false,
+     "real": "1 goles",
+     "colchon_rel": 0.52,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates KVC Westerlo Más 12.5",
+     "ok": true,
+     "real": "16 remates (visitante)",
+     "colchon_rel": 0.14,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "KVC Westerlo o empate",
+     "ok": false,
+     "real": "1-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Remates Cercle Brugge KSV Menos 15.5",
+     "ok": false,
+     "real": "18 remates (local)",
+     "colchon_rel": 0.158,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Más 2.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "KVC Westerlo o empate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Remates Cercle Brugge KSV Menos 15.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S1659",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost A principal · 4 patas · Athletic Bilbao–RCD Espanyol",
+   "cuota": 6.4,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Tarjetas RCD Espanyol Menos 3.5",
+     "ok": true,
+     "real": "1 puntos de tarjetas (visitante)",
+     "colchon_rel": 0.2,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates RCD Espanyol Más 7.5",
+     "ok": false,
+     "real": "6 remates (visitante)",
+     "colchon_rel": 0.467,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Menos 10.5",
+     "ok": false,
+     "real": "11 córners",
+     "colchon_rel": 0.048,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Athletic Bilbao Menos 17.5",
+     "ok": true,
+     "real": "17 remates (local)",
+     "colchon_rel": 0.151,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates RCD Espanyol Más 7.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Menos 10.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S1660",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost B · 4 patas (más pago) · Athletic Bilbao–RCD Espanyol",
+   "cuota": 7.6,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Tarjetas RCD Espanyol Menos 3.5",
+     "ok": true,
+     "real": "1 puntos de tarjetas (visitante)",
+     "colchon_rel": 0.2,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates RCD Espanyol Más 7.5",
+     "ok": false,
+     "real": "6 remates (visitante)",
+     "colchon_rel": 0.467,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Menos 10.5",
+     "ok": false,
+     "real": "11 córners",
+     "colchon_rel": 0.048,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Fueras de lugar RCD Espanyol Menos 2.5",
+     "ok": false,
+     "real": "3 fueras de juego (visitante)",
+     "colchon_rel": 0.1,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates RCD Espanyol Más 7.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Menos 10.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Fueras de lugar RCD Espanyol Menos 2.5",
+     "causa": "cumplía y tenía colchón (10 %) pero el partido salió atípico: real 3 fueras de juego (visitante) frente a esperado 2.25",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S1661",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost C · 3 patas (margen mínimo) · Athletic Bilbao–RCD Espanyol",
+   "cuota": 5.2,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tarjetas RCD Espanyol Menos 3.5",
+     "ok": true,
+     "real": "1 puntos de tarjetas (visitante)",
+     "colchon_rel": 0.2,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Athletic Bilbao Menos 17.5",
+     "ok": true,
+     "real": "17 remates (local)",
+     "colchon_rel": 0.151,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Fueras de lugar Menos 3.5",
+     "ok": false,
+     "real": "5 fueras de juego",
+     "colchon_rel": 0.071,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Fueras de lugar Menos 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S1662",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost A · 3 patas (poco respaldo) · FC Andorra–CD Leganés",
+   "cuota": 5.7,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Más 2.5",
+     "ok": true,
+     "real": "4 goles",
+     "colchon_rel": 0.28,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tarjetas Más 5.5",
+     "ok": true,
+     "real": "9 puntos de tarjetas",
+     "colchon_rel": 0.264,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Más 9.5",
+     "ok": false,
+     "real": "8 córners",
+     "colchon_rel": 0.074,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 9.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S1663",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost solo precio · sin respaldo de la ficha · Hellas Verona–Cesena",
+   "cuota": 7.6,
+   "n_patas": 3,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Córners Cesena Más 3.5",
+     "ok": false,
+     "real": "1 córners (visitante)",
+     "colchon_rel": 0.271,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Goles 2.º tiempo Menos 1.5",
+     "ok": false,
+     "real": "2 goles",
+     "colchon_rel": -0.8,
+     "x10": 0.1,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners 1.er tiempo Menos 4.5",
+     "ok": false,
+     "real": "12 córners",
+     "colchon_rel": -1.2,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Cesena Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Goles 2.º tiempo Menos 1.5",
+     "causa": "no cumplía el 7 de 10 (0.1); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners 1.er tiempo Menos 4.5",
+     "causa": "cumplía y tenía colchón (-120 %) pero el partido salió atípico: real 12 córners frente a esperado 9.9",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S1664",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-20",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost solo precio · sin respaldo de la ficha · Cobresal–Audax Italiano",
+   "cuota": 5.8,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Goles Audax Italiano Menos 1.5",
+     "ok": false,
+     "real": "2 goles (visitante)",
+     "colchon_rel": 0.233,
+     "x10": 0.3,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners 1.er tiempo Menos 4.5",
+     "ok": false,
+     "real": "12 córners",
+     "colchon_rel": -1.533,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Gana Cobresal",
+     "ok": true,
+     "real": "3-2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Audax Italiano Menos 1.5",
+     "causa": "no cumplía el 7 de 10 (0.3); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners 1.er tiempo Menos 4.5",
+     "causa": "cumplía y tenía colchón (-153 %) pero el partido salió atípico: real 12 córners frente a esperado 11.4",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S1666",
    "fuente": "Misión",
    "jornada": "2026-11-19",
    "tipo": "Misión 1 · Bet Builder",
@@ -2659,7 +3305,198 @@
    ]
   },
   {
-   "id": "S948",
+   "id": "S1667",
+   "fuente": "Misión",
+   "jornada": "2026-11-19",
+   "tipo": "Misión 1 · Bet Builder",
+   "nombre": "Misión 1 · Seattle–RSL · 22:00",
+   "cuota": 4.05,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners RSL Más 4.5",
+     "ok": false,
+     "real": "1 córners (visitante)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles Menos 3.5",
+     "ok": true,
+     "real": "2 goles",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tiros al arco total Menos 10.5",
+     "ok": true,
+     "real": "8 tiros al arco",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners RSL Más 4.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S1678",
+   "fuente": "sugerida",
+   "jornada": "2026-11-20",
+   "tipo": "combinada entre partidos",
+   "nombre": "C3 · 2 patas · córners Menos",
+   "cuota": 1.69,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Palestino–Unión La Calera: Córners Menos 11.5",
+     "ok": false,
+     "real": "15 córners",
+     "colchon_rel": 0.178,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Deportivo Cali–Millonarios FC: Córners Menos 10.5",
+     "ok": true,
+     "real": "4 córners",
+     "colchon_rel": 0.238,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Palestino–Unión La Calera: Córners Menos 11.5",
+     "causa": "cumplía y tenía colchón (18 %) pero el partido salió atípico: real 15 córners frente a esperado 9.45",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S1682",
+   "fuente": "sugerida",
+   "jornada": "2026-11-20",
+   "tipo": "combinada entre partidos",
+   "nombre": "C7 · 2 patas · Menos goles + Menos córners",
+   "cuota": 1.95,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Club Puebla–Atlético San Luis: Goles Menos 3.5",
+     "ok": true,
+     "real": "2 goles",
+     "colchon_rel": 0.3,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Palestino–Unión La Calera: Córners Menos 11.5",
+     "ok": false,
+     "real": "15 córners",
+     "colchon_rel": 0.178,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Palestino–Unión La Calera: Córners Menos 11.5",
+     "causa": "cumplía y tenía colchón (18 %) pero el partido salió atípico: real 15 córners frente a esperado 9.45",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S1683",
+   "fuente": "sugerida",
+   "jornada": "2026-11-20",
+   "tipo": "combinada entre partidos",
+   "nombre": "C8 · 2 patas · tarjetas Tijuana + Juárez",
+   "cuota": 2.07,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Club Tijuana–Atlante FC: Tarjetas Más 3.5",
+     "ok": true,
+     "real": "7 puntos de tarjetas",
+     "colchon_rel": 0.334,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "FC Juarez–Atlas FC: Tarjetas visitante Más 1.5",
+     "ok": false,
+     "real": "1 puntos de tarjetas (visitante)",
+     "colchon_rel": 2.573,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "FC Juarez–Atlas FC: Tarjetas visitante Más 1.5",
+     "causa": "cumplía y tenía colchón (257 %) pero el partido salió atípico: real 1 puntos de tarjetas (visitante) frente a esperado 5.36",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S1687",
+   "fuente": "sugerida",
+   "jornada": "2026-11-20",
+   "tipo": "combinada entre partidos",
+   "nombre": "C12 · 3 patas · lotería",
+   "cuota": 3.48,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "FC Juarez–Atlas FC: Córners Más 10.0",
+     "ok": true,
+     "real": "18 córners",
+     "colchon_rel": 0.2,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Club Tijuana–Atlante FC: Tarjetas Más 3.5",
+     "ok": true,
+     "real": "7 puntos de tarjetas",
+     "colchon_rel": 0.334,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Palestino–Unión La Calera: Córners Menos 11.5",
+     "ok": false,
+     "real": "15 córners",
+     "colchon_rel": 0.178,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Palestino–Unión La Calera: Córners Menos 11.5",
+     "causa": "cumplía y tenía colchón (18 %) pero el partido salió atípico: real 15 córners frente a esperado 9.45",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S1745",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -2710,7 +3547,7 @@
    ]
   },
   {
-   "id": "S949",
+   "id": "S1746",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -2753,7 +3590,7 @@
    ]
   },
   {
-   "id": "S951",
+   "id": "S1748",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -2796,7 +3633,7 @@
    ]
   },
   {
-   "id": "S952",
+   "id": "S1749",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -2839,7 +3676,7 @@
    ]
   },
   {
-   "id": "S954",
+   "id": "S1751",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada mismo partido",
@@ -2887,7 +3724,7 @@
    ]
   },
   {
-   "id": "S955",
+   "id": "S1752",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada mismo partido",
@@ -2930,7 +3767,7 @@
    ]
   },
   {
-   "id": "S956",
+   "id": "S1753",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada mismo partido",
@@ -2973,7 +3810,7 @@
    ]
   },
   {
-   "id": "S964",
+   "id": "S1761",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "Bet Builder",
@@ -3016,7 +3853,7 @@
    ]
   },
   {
-   "id": "S965",
+   "id": "S1762",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "Bet Builder",
@@ -3059,7 +3896,7 @@
    ]
   },
   {
-   "id": "S966",
+   "id": "S1763",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "Bet Builder",
@@ -6228,6 +7065,353 @@
      "tipo": "sin_datos"
     }
    ]
+  },
+  {
+   "id": "boleto 132",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-19",
+   "tipo": "Simple",
+   "nombre": "Seattle Sounders – Real Salt Lake (1-1)",
+   "cuota": 4.0,
+   "n_patas": 6,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Seattle–RSL Córners Más 8.5",
+     "ok": false,
+     "real": "8 córners (7-1)",
+     "colchon_rel": -0.247,
+     "x10": 0.2,
+     "cumple": "no"
+    },
+    {
+     "pata": "Seattle goles Menos 2.5",
+     "ok": true,
+     "real": "1 gol",
+     "colchon_rel": 0.42,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "RSL remates Más 10.5",
+     "ok": true,
+     "real": "11 remates",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "RSL goles Más 0.5",
+     "ok": true,
+     "real": "1 gol",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "RSL córners Más 3.5",
+     "ok": false,
+     "real": "1 córner",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Seattle tiros al arco Menos 6.5",
+     "ok": true,
+     "real": "6 tiros al arco",
+     "colchon_rel": 0.331,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Seattle–RSL Córners Más 8.5",
+     "causa": "no cumplía el 7 de 10 (0.2); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "RSL córners Más 3.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 133",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-20",
+   "tipo": "Combinada de 5",
+   "nombre": "Western Sydney – Adelaide (4-2) · Kashima – Shimizu (1-1) · East Bengal – Sporti",
+   "cuota": 4.55,
+   "n_patas": 7,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "WSW–Adelaide: WSW tiros al arco Más 4.5",
+     "ok": true,
+     "real": "15 tiros al arco",
+     "colchon_rel": -0.056,
+     "x10": 0.3,
+     "cumple": "no"
+    },
+    {
+     "pata": "Borrello tiros al arco 1+",
+     "ok": true,
+     "real": "dato de Betano",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Kashima–Shimizu Goles Más 1.5",
+     "ok": true,
+     "real": "2 goles (1-1)",
+     "colchon_rel": 1.067,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Sporting Delhi goles Más 0.5",
+     "ok": true,
+     "real": "2 goles",
+     "colchon_rel": 3.7,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Bihor goles Más 0.5",
+     "ok": true,
+     "real": "5 goles",
+     "colchon_rel": 2.5,
+     "x10": 0.9,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Bihor–Gloria Goles Más 1.5",
+     "ok": true,
+     "real": "6 goles (5-1)",
+     "colchon_rel": 0.933,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "South Melbourne goles Menos 4.5",
+     "ok": false,
+     "real": "5 goles (5-2)",
+     "colchon_rel": 0.633,
+     "x10": 1.0,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "South Melbourne goles Menos 4.5",
+     "causa": "cumplía y tenía colchón (63 %) pero el partido salió atípico: real 5 goles (5-2) frente a esperado 1.65",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 134",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-20",
+   "tipo": "Combinada de 3",
+   "nombre": "Bengaluru – Mumbai (2-0) · Shabab Al Ahli – Ajman (3-1) · Botoșani – Voluntari (",
+   "cuota": 6.85,
+   "n_patas": 6,
+   "patas_falladas": 4,
+   "detalle": [
+    {
+     "pata": "Bengaluru–Mumbai Goles Menos 3.5",
+     "ok": true,
+     "real": "2 goles (2-0)",
+     "colchon_rel": 0.286,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Shabab Al Ahli goles Menos 2.5",
+     "ok": false,
+     "real": "3 goles (3-1)",
+     "colchon_rel": 0.36,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Gutea tiros al arco 1+",
+     "ok": false,
+     "real": "marca de Betano",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Voluntari goles Más 0.5",
+     "ok": true,
+     "real": "3 goles",
+     "colchon_rel": 1.5,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Botoșani goles Menos 2.5",
+     "ok": false,
+     "real": "3 goles",
+     "colchon_rel": 0.4,
+     "x10": 0.9,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Botoșani–Voluntari Tarjetas Más 3.5",
+     "ok": false,
+     "real": "marca de Betano (Flashscore no trajo tarjetas)",
+     "colchon_rel": 0.5,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Shabab Al Ahli goles Menos 2.5",
+     "causa": "cumplía y tenía colchón (36 %) pero el partido salió atípico: real 3 goles (3-1) frente a esperado 1.6",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Gutea tiros al arco 1+",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Botoșani goles Menos 2.5",
+     "causa": "cumplía y tenía colchón (40 %) pero el partido salió atípico: real 3 goles frente a esperado 1.5",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Botoșani–Voluntari Tarjetas Más 3.5",
+     "causa": "cumplía y tenía colchón (50 %) pero el partido salió atípico: real marca de Betano (Flashscore no trajo tarjetas) frente a esperado 5.25",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 136",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-20",
+   "tipo": "Simple",
+   "nombre": "Athletic Bilbao – Espanyol (0-1)",
+   "cuota": 7.1,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Espanyol tarjetas Menos 3.5",
+     "ok": true,
+     "real": "1 punto",
+     "colchon_rel": 0.2,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Athletic–Espanyol Tiros al arco Más 7.5",
+     "ok": true,
+     "real": "9 tiros al arco (6-3)",
+     "colchon_rel": 0.127,
+     "x10": 0.5,
+     "cumple": "no"
+    },
+    {
+     "pata": "Athletic–Espanyol Córners Menos 10.5",
+     "ok": false,
+     "real": "11 córners (9-2)",
+     "colchon_rel": 0.048,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Athletic remates Menos 17.5",
+     "ok": true,
+     "real": "17 remates",
+     "colchon_rel": 0.151,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Athletic–Espanyol Córners Menos 10.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "boleto 139",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-20",
+   "tipo": "Combinada de 3",
+   "nombre": "Vélez – Belgrano (2-2) · Tijuana – Atlante (1-0) · Juárez – Atlas (3-3)",
+   "cuota": 5.21,
+   "n_patas": 6,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Vélez–Belgrano Córners Más 7.5",
+     "ok": true,
+     "real": "10 córners (6-4)",
+     "colchon_rel": 0.307,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Vélez–Belgrano Tarjetas Más 3.5",
+     "ok": true,
+     "real": "6 puntos",
+     "colchon_rel": 0.506,
+     "x10": 0.8,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tijuana–Atlante Tarjetas Más 2.5",
+     "ok": true,
+     "real": "7 puntos",
+     "colchon_rel": 0.868,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tijuana–Atlante Córners Más 8.5",
+     "ok": true,
+     "real": "14 córners (5-9)",
+     "colchon_rel": 0.429,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Juárez–Atlas Córners Más 9.5",
+     "ok": true,
+     "real": "18 córners (9-9)",
+     "colchon_rel": 0.263,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Atlas tarjetas Más 1.5",
+     "ok": false,
+     "real": "1 punto (2-1)",
+     "colchon_rel": 0.687,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Atlas tarjetas Más 1.5",
+     "causa": "cumplía y tenía colchón (69 %) pero el partido salió atípico: real 1 punto (2-1) frente a esperado 2.53",
+     "tipo": "atipico"
+    }
+   ]
   }
  ],
  "reglas": [
@@ -6235,19 +7419,19 @@
    "id": "pata_mediana",
    "texto": "En una combinada, evitar la pata con colchón < 10 % de la línea (la «pata en la mediana»): es la que más se cae.",
    "umbral_colchon_rel": 0.1,
-   "n_baja": 56,
-   "hit_baja": 0.661,
-   "n_alta": 261,
-   "hit_alta": 0.667,
-   "estado": "en observación"
+   "n_baja": 75,
+   "hit_baja": 0.627,
+   "n_alta": 372,
+   "hit_alta": 0.707,
+   "estado": "activa"
   },
   {
    "id": "pata_sin_cumplir",
    "texto": "En una combinada, todas las patas deben cumplir el 7 de 10 en ambos equipos.",
-   "n_no": 77,
-   "hit_no": 0.571,
-   "n_si": 219,
-   "hit_si": 0.694,
+   "n_no": 122,
+   "hit_no": 0.574,
+   "n_si": 299,
+   "hit_si": 0.746,
    "estado": "activa"
   },
   {
@@ -6260,18 +7444,18 @@
   {
    "id": "patas_max",
    "texto": "Máximo 2 patas por combinada (3 solo como lotería de stake mínimo); 4 o más patas casi nunca se dan.",
-   "n_4mas": 53,
-   "hit_4mas": 0.038,
-   "hit_2": 0.426,
-   "hit_3": 0.305,
+   "n_4mas": 66,
+   "hit_4mas": 0.091,
+   "hit_2": 0.559,
+   "hit_3": 0.325,
    "estado": "activa"
   }
  ],
  "lecciones": [
-  "159 combinadas calificadas (las que te envié y las que jugaste): 40 se dieron (25 %). 72 de 119 perdidas (60 %) cayeron por una sola pata.",
-  "Tamaño: 2 patas se dieron 20 de 47, 3 patas 18 de 59, 4 o más 2 de 53. Cada pata extra pesa más de lo que parece.",
-  "La pata de menor colchón cayó 11 veces de 33 (por azar se esperarían ≈ 12.6): el colchón no predice cuál pata se cae.",
-  "Patas que cumplían el 7 de 10 se dieron 69 % (n 219) frente a 57 % de las que no (n 77): esta sí separa.",
-  "De las patas caídas con dato previo, 72 de 107 cumplían y tenían colchón: el partido salió fuera de lo normal (varianza), no fue una mala elección; 31 no cumplían el 7 de 10 y 2 estaban en la mediana."
+  "211 combinadas calificadas (las que te envié y las que jugaste): 69 se dieron (32 %). 85 de 142 perdidas (59 %) cayeron por una sola pata.",
+  "Tamaño: 2 patas se dieron 38 de 68, 3 patas 25 de 77, 4 o más 6 de 66. Cada pata extra pesa más de lo que parece.",
+  "La pata de menor colchón cayó 17 veces de 42 (por azar se esperarían ≈ 15.8): el colchón no predice cuál pata se cae.",
+  "Patas que cumplían el 7 de 10 se dieron 75 % (n 299) frente a 57 % de las que no (n 122): esta sí separa.",
+  "De las patas caídas con dato previo, 84 de 138 cumplían y tenían colchón: el partido salió fuera de lo normal (varianza), no fue una mala elección; 50 no cumplían el 7 de 10 y 2 estaban en la mediana."
  ]
 }
