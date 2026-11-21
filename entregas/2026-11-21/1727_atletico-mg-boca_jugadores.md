@@ -1,0 +1,4 @@
+# Atlético MG–Boca · ¿combinada con jugadores? (17:27 Bogotá)
+Cuotas de jugador: lectura de ayer 23:08 (Betano); el catálogo de las 17:05 trae mercados de jugador sin precios por selección (Bernard, Montero atajadas…), no releídos. Onces oficiales. NO hay historial por jugador de este partido (no recolectado): ninguna línea de jugador tiene «X de 10».
+Sin respaldo no se recomienda ninguna pata de jugador. Lo único con precio+contexto (no con historial): Merentiel 1+ tiro al arco @1,28 (implícita ≈ 78 %); Villa @1,65, Paredes @1,98, Cuello @1,78, Bernard @1,88 (1+ tiro al arco). Del equipo: se esperan 7,6 tiros al arco totales (Menos 10,5 cumple 8/10 y 10/10): partido de pocos remates a puerta, en contra de patas de «Más tiros» de jugadores y a favor de pocas atajadas.
+Límites: sin historial; la p del modelo para jugadores salió inflada en el balance (no se usa).
