@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-21 | 12:20 | Combinadas de 2, 3 y 4 patas (partidos 1:00–3:30 p. m.) | 12 partidos de la ventana | `entregas/2026-11-21/1220_combinadas_1300-1700.md` |
 | 2026-11-21 | 09:52 | Cambios en mercados de Betano vs. anoche: 64 partidos subieron (+735), 4 de 11 sin mercados de jugador ya los tienen | calendario 21-nov (535 comparables) + 31 del top 40 | entregas/2026-11-21/0950_cambios_mercados_21nov.md |
 | 2026-11-21 | 08:55 | Balance del 20-nov (boletos 132–139, líneas, sugerencias, combos, BB Boost) + cierre de Seattle–RSL | 38 partidos del 20-nov + Seattle–RSL (19-nov) | entregas/2026-11-21/0855_balance_20nov.md · 0855_balance_20nov.html |
 | 2026-11-21 | 08:30 | Análisis del sábado: enfoque, sencillas EV+, combinadas, informe HTML (cuotas 20-nov 23:08) | 40 partidos | entregas/2026-11-21/0830_analisis_21nov.md · 0830_informe_21nov.html |

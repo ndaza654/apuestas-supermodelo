@@ -7,7 +7,7 @@
 "region": "Francia",
 "liga": "Ligue 1",
 "n_mercados": 237,
-"cuotas_leidas": "2026-11-21T04:09:11.895Z"
+"cuotas_leidas": "2026-11-21T17:13:37.640Z"
 },
 "betano": {
 "lineas": [
@@ -15,92 +15,85 @@
 "mercado": "goles",
 "ambito": "total",
 "linea": 0.5,
-"mas": 1.04,
-"menos": 11.0
+"mas": 1.06,
+"menos": 9.75
 },
 {
 "mercado": "goles",
 "ambito": "total",
 "linea": 1.5,
-"mas": 1.22,
-"menos": 4.4
+"mas": 1.27,
+"menos": 3.8
+},
+{
+"mercado": "goles",
+"ambito": "total",
+"linea": 2.0,
+"mas": 1.4,
+"menos": 3.05
 },
 {
 "mercado": "goles",
 "ambito": "total",
 "linea": 2.25,
-"mas": 1.5,
-"menos": 2.7
+"mas": 1.62,
+"menos": 2.37
 },
 {
 "mercado": "goles",
 "ambito": "total",
 "linea": 2.5,
-"mas": 1.65,
-"menos": 2.25
+"mas": 1.8,
+"menos": 2.02
 },
 {
 "mercado": "goles",
 "ambito": "total",
 "linea": 2.75,
-"mas": 1.82,
-"menos": 2.05
+"mas": 2.02,
+"menos": 1.83
 },
 {
 "mercado": "goles",
 "ambito": "total",
 "linea": 3.0,
-"mas": 2.07,
-"menos": 1.8
-},
-{
-"mercado": "goles",
-"ambito": "total",
-"linea": 3.25,
-"mas": 2.35,
+"mas": 2.37,
 "menos": 1.62
 },
 {
 "mercado": "goles",
 "ambito": "total",
-"linea": 3.5,
-"mas": 2.57,
-"menos": 1.52
+"linea": 3.25,
+"mas": 2.7,
+"menos": 1.5
 },
 {
 "mercado": "goles",
 "ambito": "total",
-"linea": 3.75,
-"mas": 3.05,
+"linea": 3.5,
+"mas": 2.95,
 "menos": 1.4
 },
 {
 "mercado": "goles",
 "ambito": "total",
 "linea": 4.5,
-"mas": 4.45,
-"menos": 1.21
+"mas": 5.3,
+"menos": 1.16
 },
 {
 "mercado": "goles",
 "ambito": "total",
 "linea": 5.5,
-"mas": 8.0,
-"menos": 1.08
-},
-{
-"mercado": "goles",
-"ambito": "total",
-"linea": 6.5,
-"mas": 13.0,
-"menos": 1.03
+"mas": 9.5,
+"menos": 1.06
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 5.0,
 "mas": 1.07,
-"menos": 10.5
+"menos": 10.25
 },
 {
 "mercado": "corners",
@@ -113,28 +106,28 @@
 "mercado": "corners",
 "ambito": "total",
 "linea": 6.0,
-"mas": 1.15,
+"mas": 1.16,
 "menos": 7.3
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 6.5,
-"mas": 1.15,
-"menos": 4.9
+"mas": 1.16,
+"menos": 4.85
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 7.0,
-"mas": 1.3,
-"menos": 4.9
+"mas": 1.31,
+"menos": 4.85
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 7.5,
-"mas": 1.3,
+"mas": 1.31,
 "menos": 3.3
 },
 {
@@ -169,22 +162,22 @@
 "mercado": "corners",
 "ambito": "total",
 "linea": 10.0,
-"mas": 2.55,
+"mas": 2.5,
 "menos": 1.82
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 10.5,
-"mas": 2.55,
-"menos": 1.47
+"mas": 2.5,
+"menos": 1.5
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 11.0,
 "mas": 3.45,
-"menos": 1.47
+"menos": 1.5
 },
 {
 "mercado": "corners",
@@ -239,7 +232,7 @@
 "mercado": "corners",
 "ambito": "total",
 "linea": 15.0,
-"mas": 10.5,
+"mas": 10.75,
 "menos": 1.05
 },
 {
@@ -247,13 +240,13 @@
 "ambito": "local",
 "linea": 2.5,
 "mas": 1.08,
-"menos": 6.9
+"menos": 7.0
 },
 {
 "mercado": "corners",
 "ambito": "local",
 "linea": 3.5,
-"mas": 1.22,
+"mas": 1.21,
 "menos": 4.05
 },
 {
@@ -267,7 +260,7 @@
 "mercado": "corners",
 "ambito": "local",
 "linea": 5.5,
-"mas": 1.95,
+"mas": 1.98,
 "menos": 1.78
 },
 {
@@ -323,8 +316,8 @@
 "mercado": "corners",
 "ambito": "visitante",
 "linea": 4.5,
-"mas": 2.4,
-"menos": 1.53
+"mas": 2.42,
+"menos": 1.52
 },
 {
 "mercado": "corners",
@@ -407,57 +400,43 @@
 "mercado": "goles",
 "ambito": "1T",
 "linea": 0.5,
-"mas": 1.34,
-"menos": 3.2
+"mas": 1.39,
+"menos": 2.92
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 0.75,
-"mas": 1.47,
-"menos": 2.72
+"mas": 1.55,
+"menos": 2.5
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 1.0,
-"mas": 1.67,
-"menos": 2.2
+"mas": 1.82,
+"menos": 2.0
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 1.25,
-"mas": 2.1,
-"menos": 1.75
+"mas": 2.27,
+"menos": 1.65
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 1.5,
-"mas": 2.45,
-"menos": 1.53
-},
-{
-"mercado": "goles",
-"ambito": "1T",
-"linea": 1.75,
-"mas": 3.1,
-"menos": 1.37
+"mas": 2.67,
+"menos": 1.45
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 2.5,
-"mas": 5.4,
-"menos": 1.14
-},
-{
-"mercado": "goles",
-"ambito": "1T",
-"linea": 3.5,
-"mas": 10.75,
-"menos": 1.03
+"mas": 6.1,
+"menos": 1.12
 },
 {
 "mercado": "corners",
@@ -485,76 +464,76 @@
 "ambito": "1T",
 "linea": 2.5,
 "mas": 1.16,
-"menos": 4.8
+"menos": 4.75
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 3.0,
 "mas": 1.42,
-"menos": 4.8
+"menos": 4.75
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 3.5,
 "mas": 1.42,
-"menos": 2.75
+"menos": 2.72
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 4.0,
-"mas": 1.91,
-"menos": 2.75
+"mas": 1.93,
+"menos": 2.72
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 4.5,
-"mas": 1.91,
-"menos": 1.83
+"mas": 1.93,
+"menos": 1.8
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 5.0,
-"mas": 2.85,
-"menos": 1.83
+"mas": 2.9,
+"menos": 1.8
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 5.5,
-"mas": 2.85,
-"menos": 1.39
+"mas": 2.9,
+"menos": 1.38
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 6.0,
-"mas": 4.5,
-"menos": 1.39
+"mas": 4.6,
+"menos": 1.38
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 6.5,
-"mas": 4.5,
-"menos": 1.18
+"mas": 4.6,
+"menos": 1.17
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 7.0,
-"mas": 7.0,
-"menos": 1.18
+"mas": 7.1,
+"menos": 1.17
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 7.5,
-"mas": 7.0,
+"mas": 7.1,
 "menos": 1.08
 },
 {
@@ -575,7 +554,7 @@
 "mercado": "corners",
 "ambito": "1T",
 "linea": 9.0,
-"mas": 12.0,
+"mas": 12.5,
 "menos": 1.03
 },
 {
@@ -593,81 +572,81 @@
 "menos": 1.75
 },
 {
-"mercado": "goles",
-"ambito": "local",
-"linea": 0.5,
-"mas": 1.19,
-"menos": 4.4
-},
-{
-"mercado": "goles",
-"ambito": "local",
-"linea": 1.5,
-"mas": 1.83,
-"menos": 1.9
-},
-{
-"mercado": "goles",
-"ambito": "local",
+"mercado": "tarjetas",
+"ambito": "1T",
 "linea": 2.5,
 "mas": 3.5,
-"menos": 1.28
+"menos": 1.27
+},
+{
+"mercado": "goles",
+"ambito": "local",
+"linea": 0.5,
+"mas": 1.23,
+"menos": 3.95
+},
+{
+"mercado": "goles",
+"ambito": "local",
+"linea": 1.5,
+"mas": 2.02,
+"menos": 1.75
+},
+{
+"mercado": "goles",
+"ambito": "local",
+"linea": 2.5,
+"mas": 4.0,
+"menos": 1.22
 },
 {
 "mercado": "goles",
 "ambito": "local",
 "linea": 3.5,
-"mas": 6.9,
-"menos": 1.08
+"mas": 8.0,
+"menos": 1.06
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 0.5,
-"mas": 1.3,
-"menos": 3.3
+"mas": 1.34,
+"menos": 3.1
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 1.5,
-"mas": 2.37,
-"menos": 1.55
+"mas": 2.55,
+"menos": 1.47
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 2.5,
-"mas": 5.1,
-"menos": 1.14
-},
-{
-"mercado": "goles",
-"ambito": "visitante",
-"linea": 3.5,
-"mas": 9.75,
-"menos": 1.03
+"mas": 5.6,
+"menos": 1.12
 },
 {
 "mercado": "goles",
 "ambito": "2T",
 "linea": 0.5,
-"mas": 1.18,
-"menos": 4.65
+"mas": 1.22,
+"menos": 4.2
 },
 {
 "mercado": "goles",
 "ambito": "2T",
 "linea": 1.5,
-"mas": 1.82,
-"menos": 1.95
+"mas": 1.95,
+"menos": 1.82
 },
 {
 "mercado": "goles",
 "ambito": "2T",
 "linea": 2.5,
-"mas": 3.4,
-"menos": 1.3
+"mas": 3.85,
+"menos": 1.25
 },
 {
 "mercado": "al_arco",
@@ -898,21 +877,21 @@
 "ambito": "2T",
 "linea": 1.5,
 "mas": 1.03,
-"menos": 10.0
+"menos": 10.25
 },
 {
 "mercado": "corners",
 "ambito": "2T",
 "linea": 2.5,
 "mas": 1.12,
-"menos": 5.6
+"menos": 5.7
 },
 {
 "mercado": "corners",
 "ambito": "2T",
 "linea": 3.5,
 "mas": 1.31,
-"menos": 3.25
+"menos": 3.3
 },
 {
 "mercado": "corners",
@@ -925,29 +904,36 @@
 "mercado": "corners",
 "ambito": "2T",
 "linea": 5.5,
-"mas": 2.4,
-"menos": 1.53
+"mas": 2.37,
+"menos": 1.55
 },
 {
 "mercado": "corners",
 "ambito": "2T",
 "linea": 6.5,
-"mas": 3.65,
-"menos": 1.25
+"mas": 3.6,
+"menos": 1.26
 },
 {
 "mercado": "corners",
 "ambito": "2T",
 "linea": 7.5,
-"mas": 5.7,
+"mas": 5.6,
 "menos": 1.12
 },
 {
 "mercado": "corners",
 "ambito": "2T",
 "linea": 8.5,
-"mas": 8.75,
+"mas": 8.5,
 "menos": 1.05
+},
+{
+"mercado": "tarjetas",
+"ambito": "local",
+"linea": 0.5,
+"mas": 1.13,
+"menos": 5.5
 },
 {
 "mercado": "tarjetas",
@@ -972,6 +958,20 @@
 },
 {
 "mercado": "tarjetas",
+"ambito": "local",
+"linea": 4.5,
+"mas": 9.0,
+"menos": 1.04
+},
+{
+"mercado": "tarjetas",
+"ambito": "visitante",
+"linea": 0.5,
+"mas": 1.07,
+"menos": 7.2
+},
+{
+"mercado": "tarjetas",
 "ambito": "visitante",
 "linea": 1.5,
 "mas": 1.36,
@@ -990,6 +990,13 @@
 "linea": 3.5,
 "mas": 3.55,
 "menos": 1.27
+},
+{
+"mercado": "tarjetas",
+"ambito": "visitante",
+"linea": 4.5,
+"mas": 6.3,
+"menos": 1.1
 },
 {
 "mercado": "remates",
@@ -1206,36 +1213,36 @@
 {
 "mercado": "resultado",
 "opciones": {
-"1": 2.1,
-"X": 3.75,
-"2": 3.25,
-"1X": 1.37,
-"X2": 1.75,
-"12": 1.27
+"1": 2.22,
+"X": 3.5,
+"2": 3.2,
+"1X": 1.38,
+"X2": 1.7,
+"12": 1.29
 }
 },
 {
 "mercado": "resultado_1t",
 "opciones": {
-"1": 2.65,
-"X": 2.27,
-"2": 3.65
+"1": 2.8,
+"X": 2.18,
+"2": 3.7
 }
 },
 {
 "mercado": "resultado_2t",
 "opciones": {
-"1": 2.37,
-"X": 2.7,
+"1": 2.47,
+"X": 2.57,
 "2": 3.25
 }
 },
 {
 "mercado": "htft_o",
 "opciones": {
-"1": 1.7,
-"X": 1.75,
-"2": 2.32
+"1": 1.78,
+"X": 1.7,
+"2": 2.3
 }
 },
 {
@@ -1259,8 +1266,8 @@
 {
 "mercado": "ambos",
 "opciones": {
-"si": 1.55,
-"no": 2.35
+"si": 1.65,
+"no": 2.15
 }
 },
 {
@@ -1282,14 +1289,14 @@
 {
 "mercado": "htft",
 "opciones": {
-"1/1": 3.3,
+"1/1": 3.5,
 "1/X": 13.5,
 "1/2": 32.0,
 "X/1": 5.3,
-"X/X": 5.9,
-"X/2": 7.5,
-"2/1": 24.0,
-"2/X": 14.0,
+"X/X": 5.4,
+"X/2": 7.1,
+"2/1": 26.0,
+"2/X": 14.5,
 "2/2": 5.3
 }
 },
@@ -1297,35 +1304,35 @@
 "mercado": "handicap",
 "h": -3.0,
 "opciones": {
-"local": 16.5,
-"empate": 9.75,
-"visitante": 1.09
+"local": 19.0,
+"empate": 10.25,
+"visitante": 1.07
 }
 },
 {
 "mercado": "handicap",
 "h": -2.0,
 "opciones": {
-"local": 7.9,
-"empate": 5.9,
-"visitante": 1.28
+"local": 9.0,
+"empate": 6.2,
+"visitante": 1.24
 }
 },
 {
 "mercado": "handicap",
 "h": -1.0,
 "opciones": {
-"local": 3.75,
-"empate": 4.1,
-"visitante": 1.75
+"local": 4.15,
+"empate": 4.0,
+"visitante": 1.7
 }
 },
 {
 "mercado": "handicap",
 "h": 1.0,
 "opciones": {
-"local": 1.37,
-"empate": 5.0,
+"local": 1.38,
+"empate": 4.8,
 "visitante": 6.8
 }
 },
@@ -1334,64 +1341,56 @@
 "h": 2.0,
 "opciones": {
 "local": 1.12,
-"empate": 8.5,
-"visitante": 15.5
-}
-},
-{
-"mercado": "handicap",
-"h": -1.0,
-"opciones": {
-"local": 3.05,
-"visitante": 1.4
+"empate": 8.25,
+"visitante": 16.0
 }
 },
 {
 "mercado": "handicap",
 "h": -0.75,
 "opciones": {
-"local": 2.42,
-"visitante": 1.6
+"local": 2.57,
+"visitante": 1.53
 }
 },
 {
 "mercado": "handicap",
 "h": -0.5,
 "opciones": {
-"local": 2.1,
-"visitante": 1.78
+"local": 2.18,
+"visitante": 1.72
 }
 },
 {
 "mercado": "handicap",
 "h": -0.25,
 "opciones": {
-"local": 1.85,
-"visitante": 2.02
+"local": 1.91,
+"visitante": 1.93
 }
 },
 {
 "mercado": "handicap",
 "h": 0.0,
 "opciones": {
-"local": 1.6,
-"visitante": 2.42
+"local": 1.62,
+"visitante": 2.35
 }
 },
 {
 "mercado": "handicap",
 "h": 0.25,
 "opciones": {
-"local": 1.47,
-"visitante": 2.8
+"local": 1.5,
+"visitante": 2.7
 }
 },
 {
 "mercado": "handicap",
 "h": 0.5,
 "opciones": {
-"local": 1.38,
-"visitante": 3.2
+"local": 1.39,
+"visitante": 3.1
 }
 }
 ],
@@ -1400,7 +1399,7 @@
 "jugador": "Florian Thauvin",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.4
+"cuota": 2.55
 },
 {
 "jugador": "Florian Thauvin",
@@ -1418,7 +1417,7 @@
 "jugador": "Jacen Russell-Rowe",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.05
+"cuota": 3.2
 },
 {
 "jugador": "Jacen Russell-Rowe",
@@ -1436,7 +1435,7 @@
 "jugador": "Santiago Hidalgo",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.05
+"cuota": 3.2
 },
 {
 "jugador": "Santiago Hidalgo",
@@ -1454,7 +1453,7 @@
 "jugador": "Casper Tengstedt",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 2.87
+"cuota": 2.95
 },
 {
 "jugador": "Casper Tengstedt",
@@ -1472,7 +1471,7 @@
 "jugador": "Junior Kadile",
 "lado": "local",
 "stat": "anota",
-"cuota": 4.45
+"cuota": 4.75
 },
 {
 "jugador": "Junior Kadile",
@@ -1490,7 +1489,7 @@
 "jugador": "Florian Sotoca",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.7
+"cuota": 2.95
 },
 {
 "jugador": "Florian Sotoca",
@@ -1508,7 +1507,7 @@
 "jugador": "Julian Vignolo",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.5
+"cuota": 3.65
 },
 {
 "jugador": "Julian Vignolo",
@@ -1526,7 +1525,7 @@
 "jugador": "Moussa Diarra",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.2
+"cuota": 3.5
 },
 {
 "jugador": "Moussa Diarra",
@@ -1544,7 +1543,7 @@
 "jugador": "Michał Skóraś",
 "lado": "local",
 "stat": "anota",
-"cuota": 4.65
+"cuota": 5.0
 },
 {
 "jugador": "Michał Skóraś",
@@ -1561,7 +1560,7 @@
 "jugador": "Thorgan Hazard",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.6
+"cuota": 2.77
 },
 {
 "jugador": "Thorgan Hazard",
@@ -1578,7 +1577,7 @@
 "jugador": "Enzo Faty",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 4.9
+"cuota": 5.1
 },
 {
 "jugador": "Enzo Faty",
@@ -1595,7 +1594,7 @@
 "jugador": "Sion Oppong",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.9
+"cuota": 4.25
 },
 {
 "jugador": "Sion Oppong",
@@ -1612,7 +1611,7 @@
 "jugador": "Matthieu Udol",
 "lado": "local",
 "stat": "anota",
-"cuota": 7.5
+"cuota": 7.8
 },
 {
 "jugador": "Matthieu Udol",
@@ -1629,7 +1628,7 @@
 "jugador": "Ilyas Azizi",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.5
+"cuota": 3.65
 },
 {
 "jugador": "Ilyas Azizi",
@@ -1646,7 +1645,7 @@
 "jugador": "Michael Cuisance",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.5
+"cuota": 3.75
 },
 {
 "jugador": "Michael Cuisance",
@@ -1680,7 +1679,7 @@
 "jugador": "Mezian Soares",
 "lado": "local",
 "stat": "anota",
-"cuota": 4.3
+"cuota": 4.25
 },
 {
 "jugador": "Mezian Soares",
@@ -1697,7 +1696,7 @@
 "jugador": "Amadou Haidara",
 "lado": "local",
 "stat": "anota",
-"cuota": 5.0
+"cuota": 5.4
 },
 {
 "jugador": "Amadou Haidara",
@@ -1713,7 +1712,7 @@
 "jugador": "Yacine Titraoui",
 "lado": "local",
 "stat": "anota",
-"cuota": 4.3
+"cuota": 4.65
 },
 {
 "jugador": "Yacine Titraoui",
@@ -1729,7 +1728,7 @@
 "jugador": "Adam El Ouali",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 9.75
+"cuota": 10.25
 },
 {
 "jugador": "Adam El Ouali",
@@ -1745,7 +1744,7 @@
 "jugador": "Alexis Vossah",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 8.5
+"cuota": 9.25
 },
 {
 "jugador": "Alexis Vossah",
@@ -1761,7 +1760,7 @@
 "jugador": "Aymen Amaaouch",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 5.8
+"cuota": 6.1
 },
 {
 "jugador": "Aymen Amaaouch",
@@ -1777,7 +1776,7 @@
 "jugador": "Cristian Casseres",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 6.1
+"cuota": 6.5
 },
 {
 "jugador": "Cristian Casseres",
@@ -1793,7 +1792,7 @@
 "jugador": "Niklas Schmidt",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.9
+"cuota": 4.25
 },
 {
 "jugador": "Niklas Schmidt",
@@ -1809,7 +1808,7 @@
 "jugador": "Saud Abdulhamid",
 "lado": "local",
 "stat": "anota",
-"cuota": 7.5
+"cuota": 7.8
 },
 {
 "jugador": "Saud Abdulhamid",
@@ -1825,7 +1824,7 @@
 "jugador": "Rubén Aguilar",
 "lado": "local",
 "stat": "anota",
-"cuota": 6.8
+"cuota": 7.2
 },
 {
 "jugador": "Rubén Aguilar",
@@ -1857,7 +1856,7 @@
 "jugador": "Niko Sigur",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 8.5
+"cuota": 9.25
 },
 {
 "jugador": "Niko Sigur",
@@ -1873,7 +1872,7 @@
 "jugador": "Ylies Aradj",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 14.0
+"cuota": 14.5
 },
 {
 "jugador": "Ylies Aradj",
@@ -1905,7 +1904,7 @@
 "jugador": "Thibaud Garondo",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 13.0
+"cuota": 13.5
 },
 {
 "jugador": "Thibaud Garondo",
@@ -1921,7 +1920,7 @@
 "jugador": "Jean-Clair Todibo",
 "lado": "local",
 "stat": "anota",
-"cuota": 11.0
+"cuota": 12.0
 },
 {
 "jugador": "Jean-Clair Todibo",
