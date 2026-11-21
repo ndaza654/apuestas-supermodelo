@@ -20,7 +20,18 @@
   ],
   "cuota": 1.56,
   "p": 0.66,
-  "ev": 0.03
+  "ev": 0.03,
+  "patas_real": [
+   [
+    true,
+    "2 goles"
+   ],
+   [
+    false,
+    "14 córners"
+   ]
+  ],
+  "resultado": "falló"
  },
  {
   "id": "C2",
@@ -43,7 +54,18 @@
   ],
   "cuota": 1.55,
   "p": 0.657,
-  "ev": 0.018
+  "ev": 0.018,
+  "patas_real": [
+   [
+    false,
+    "0 goles (local)"
+   ],
+   [
+    false,
+    "2 goles (visitante)"
+   ]
+  ],
+  "resultado": "falló"
  },
  {
   "id": "C3",
@@ -66,7 +88,18 @@
   ],
   "cuota": 1.52,
   "p": 0.667,
-  "ev": 0.014
+  "ev": 0.014,
+  "patas_real": [
+   [
+    false,
+    "1 goles"
+   ],
+   [
+    false,
+    "17 córners"
+   ]
+  ],
+  "resultado": "falló"
  },
  {
   "id": "C4",
@@ -89,7 +122,18 @@
   ],
   "cuota": 1.6,
   "p": 0.635,
-  "ev": 0.016
+  "ev": 0.016,
+  "patas_real": [
+   [
+    false,
+    "17 córners"
+   ],
+   [
+    true,
+    "15 córners"
+   ]
+  ],
+  "resultado": "falló"
  },
  {
   "id": "T1",
@@ -119,7 +163,22 @@
   ],
   "cuota": 1.92,
   "p": 0.546,
-  "ev": 0.048
+  "ev": 0.048,
+  "patas_real": [
+   [
+    true,
+    "2 goles"
+   ],
+   [
+    false,
+    "0 goles (local)"
+   ],
+   [
+    false,
+    "1 goles"
+   ]
+  ],
+  "resultado": "falló"
  },
  {
   "id": "T2",
@@ -149,7 +208,22 @@
   ],
   "cuota": 1.92,
   "p": 0.538,
-  "ev": 0.033
+  "ev": 0.033,
+  "patas_real": [
+   [
+    true,
+    "9 córners"
+   ],
+   [
+    true,
+    "2 goles"
+   ],
+   [
+    false,
+    "17 córners"
+   ]
+  ],
+  "resultado": "falló"
  },
  {
   "id": "T3",
@@ -179,7 +253,22 @@
   ],
   "cuota": 1.94,
   "p": 0.52,
-  "ev": 0.009
+  "ev": 0.009,
+  "patas_real": [
+   [
+    true,
+    "1 goles"
+   ],
+   [
+    false,
+    "14 córners"
+   ],
+   [
+    false,
+    "2 goles (visitante)"
+   ]
+  ],
+  "resultado": "falló"
  },
  {
   "id": "Q1",
@@ -216,7 +305,26 @@
   ],
   "cuota": 2.33,
   "p": 0.455,
-  "ev": 0.06
+  "ev": 0.06,
+  "patas_real": [
+   [
+    true,
+    "2 goles"
+   ],
+   [
+    false,
+    "0 goles (local)"
+   ],
+   [
+    false,
+    "1 goles"
+   ],
+   [
+    false,
+    "17 córners"
+   ]
+  ],
+  "resultado": "falló"
  },
  {
   "id": "Q2",
@@ -253,7 +361,26 @@
   ],
   "cuota": 2.34,
   "p": 0.43,
-  "ev": 0.006
+  "ev": 0.006,
+  "patas_real": [
+   [
+    true,
+    "1 goles"
+   ],
+   [
+    true,
+    "1 puntos de tarjetas"
+   ],
+   [
+    true,
+    "9 córners"
+   ],
+   [
+    true,
+    "2 goles"
+   ]
+  ],
+  "resultado": "cumplió"
  },
  {
   "id": "B3",
@@ -277,7 +404,18 @@
   "cuota": 1.71,
   "p": 0.5048,
   "ev": -0.137,
-  "nota": "cuota = producto de las cuotas (techo); Betano da un solo precio al grupo: leer en el cupón"
+  "nota": "cuota = producto de las cuotas (techo); Betano da un solo precio al grupo: leer en el cupón",
+  "patas_real": [
+   [
+    true,
+    "2 goles"
+   ],
+   [
+    false,
+    "1 puntos de tarjetas"
+   ]
+  ],
+  "resultado": "falló"
  },
  {
   "id": "B4",
@@ -301,6 +439,17 @@
   "cuota": 1.62,
   "p": 0.504,
   "ev": -0.184,
-  "nota": "cuota = producto de las cuotas (techo); Betano da un solo precio al grupo: leer en el cupón"
+  "nota": "cuota = producto de las cuotas (techo); Betano da un solo precio al grupo: leer en el cupón",
+  "patas_real": [
+   [
+    true,
+    "1 goles"
+   ],
+   [
+    true,
+    "7 córners = línea 7: pata anulada (push)"
+   ]
+  ],
+  "resultado": "cumplió"
  }
 ]
