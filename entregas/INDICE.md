@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-20 | 22:50 | Partidos del sáb 21-nov con más mercados en Betano (1.116 partidos, foto 22:46) | Top 40 + ligas | entregas/2026-11-21/2250_partidos_21nov_mas_mercados.md |
 | 2026-11-20 | 15:52 | Análisis a fondo de los 9 partidos 16:00–22:10 y 12 combinadas cruzadas | Cobresal, Medellín, Vélez, Palestino, Bucaramanga, Puebla, Cali, Tijuana, Juárez | entregas/2026-11-20/1552_analisis_9_partidos_y_combinadas.md |
 | 2026-11-20 | 15:50 | Informe de la jornada con los 9 partidos de 16:00–22:10 recolectados (Betano 14:51, Flashscore, árbitros, tablas, onces) | Vélez–Belgrano, Tijuana–Atlante, Juárez–Atlas, Cobresal–Audax, Palestino–La Calera, Puebla–San Luis, Medellín–Santa Fe, Bucaramanga–América, Cali–Millonarios | entregas/2026-11-20/1550_informe_jornada_16-22h_recoleccion_completa.html |
 | 2026-11-20 | 14:20 | Combinadas entre partidos (2 y 3 patas) + BB Boost resumidas | Cercle, Troyes, Athletic, Cobresal | entregas/2026-11-20/1420_combinadas_cruzadas.md |
