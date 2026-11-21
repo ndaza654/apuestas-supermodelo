@@ -11,7 +11,7 @@
   async function uno([slug, nom, pa]) {
     const parts = nom.split(' '), ap = []; for (const p of parts) { if (/^[A-Z]\.?$/.test(p)) break; ap.push(p); }
     const apellido = ap.join(' '), ini = (nom.slice(apellido.length).trim()[0] || '').toLowerCase();
-    let h = await (await fetch('/en/referees?name=' + encodeURIComponent(ap[0]))).text(); let d = new DOMParser().parseFromString(h, 'text/html');
+    let h = await (await fetch('/en/referees?name=' + encodeURIComponent(ap.find(w => w.length > 3) || ap[0]))).text(); let d = new DOMParser().parseFromString(h, 'text/html');
     if (!d.querySelector('a[href*="/en/referee/"]') && ap[0].length > 4) { h = await (await fetch('/en/referees?name=' + encodeURIComponent(norm(ap[0]).slice(0, 4)))).text(); d = new DOMParser().parseFromString(h, 'text/html'); }   // ñ, tildes: Baliño, Echavarría
     const cand = [], seen = new Set();
     for (const a of d.querySelectorAll('a[href*="/en/referee/"]')) {
