@@ -12,6 +12,7 @@ window.pjEnP = async function (mid, idx) {
   if (!base) return mid + ' sin url';
   const fid = 'pjen' + idx; let f = document.getElementById(fid); if (f) f.remove();
   f = document.createElement('iframe'); f.id = fid; f.style.cssText = 'position:fixed;left:0;top:0;width:1300px;height:1000px;opacity:0.01;pointer-events:none;border:0;z-index:-1';
+  f.setAttribute('sandbox', 'allow-same-origin allow-scripts');   // sin allow-top-navigation: una página que intente redirigir la pestaña no puede (el 21-nov un iframe tumbó la pestaña y se perdió la cola)
   f.src = 'https://www.flashscore.com' + base + '?mid=' + mid; document.body.appendChild(f);
   await new Promise(r => { f.onload = r; setTimeout(r, 12000); });
   let D; try { D = f.contentDocument; } catch (e) { f.remove(); return mid + ' bloqueado'; }
@@ -34,11 +35,13 @@ window.pjEnP = async function (mid, idx) {
   }
   f.remove();
   window.__PJ[mid] = { url: f.src, h: names[0], a: names[1], rows, cols };
+  try { localStorage.setItem('pjE_' + mid, JSON.stringify(window.__PJ[mid])); } catch (e) {}   // respaldo: la pestaña puede recargarse
   return mid + ' ' + names[0] + '-' + names[1] + ' ' + Object.keys(rows).length + ' [' + cols.join(' ') + ']';
 };
 
 window.pjPar = function (n) {
   window.__done = window.__done || 0;
+  window.__LISTA = window.__LISTA.filter(m => { try { const g = localStorage.getItem('pjE_' + m); if (g) { window.__PJ[m] = JSON.parse(g); return false; } } catch (e) {} return true; });   // lo ya leído (localStorage) no se repite
   async function w(idx) {
     while (window.__LISTA.length) {
       const m = window.__LISTA.shift(); let r;
@@ -48,4 +51,13 @@ window.pjPar = function (n) {
   }
   window.__run = Promise.all(Array.from({ length: n }, (_, i) => w(i)));
   return 'lanzado ' + n;
+};
+
+/* Descarga todo lo leído (memoria + localStorage) como un solo JSON: window.pjDescargar('pj_21nov_a.json') → ~/Downloads */
+window.pjDescargar = function (nombre) {
+  const pj = Object.assign({}, window.__PJ);
+  for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (/^pjE_/.test(k) && !pj[k.slice(4)]) { try { pj[k.slice(4)] = JSON.parse(localStorage.getItem(k)); } catch (e) {} } }
+  const s = JSON.stringify({ pj, log: window.__logP || [] }); let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([s], { type: 'application/json' })); a.download = nombre; document.body.appendChild(a); a.click(); a.remove();
+  return { n: Object.keys(pj).length, len: s.length, h };
 };

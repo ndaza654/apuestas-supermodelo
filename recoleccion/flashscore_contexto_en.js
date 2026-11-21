@@ -13,7 +13,7 @@ window.ctxEnP = async function (mid, idx) {
   if (!base) { window.__CTX[mid] = { error: 'sin url' }; return mid + ' sin url'; }
   const cargar = async url => {
     const fid = 'ctx' + idx; let f = document.getElementById(fid); if (f) f.remove();
-    f = document.createElement('iframe'); f.id = fid; f.style.cssText = 'position:fixed;left:0;top:0;width:1300px;height:1000px;opacity:0.01;pointer-events:none;border:0;z-index:-1'; f.src = url; document.body.appendChild(f);
+    f = document.createElement('iframe'); f.id = fid; f.style.cssText = 'position:fixed;left:0;top:0;width:1300px;height:1000px;opacity:0.01;pointer-events:none;border:0;z-index:-1'; f.setAttribute('sandbox', 'allow-same-origin allow-scripts'); f.src = url; document.body.appendChild(f);
     await new Promise(r => { f.onload = r; setTimeout(r, 12000); });
     return f;
   };
