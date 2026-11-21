@@ -1,0 +1,131 @@
+{
+ "leido": "2026-11-21 17:05 Bogotá",
+ "leido_hora": "17:05",
+ "condiciones": "BB BOOST 25 %: ≥3 mercados, cada cuota > 1,50, cuota total > 5,00 (cupón de Betano)",
+ "aviso": "Precios REALES de Betano (mc-leg) 17:05 Bogotá; cuotas de las patas leídas del catálogo (no comprobadas en el cupón). EV con boost = p·(1+1,25·(precio−1))−1 con la p del modelo (sin validar contra el precio: informativo). 3 patas = lotería, stake mínimo. Se evaluaron 60 combos de 3–4 patas sólidas (≥7 de 10 en ambos). Solo el combo A llega a precio ≥5,05.",
+ "clube-atletico-mg-boca-juniors": {
+  "evento": 94493271,
+  "combos": [
+   {
+    "tag": "A · mejor (3 patas sólidas)",
+    "patas": [
+     "Goles Más 1.5",
+     "Fueras de lugar Boca Juniors Menos 1.5",
+     "Faltas Clube Atletico MG Menos 13.5"
+    ],
+    "cuotas_catalogo": [
+     1.6,
+     1.78,
+     1.85
+    ],
+    "producto_catalogo": 5.27,
+    "precio_bb": 5.3,
+    "p_modelo": 0.167,
+    "p_stress": 0.15,
+    "p_prudente": 0.167,
+    "ev_sin_boost": -0.116,
+    "pago_boost": 6.38,
+    "ev_con_boost": 0.063,
+    "p_equilibrio_boost": 0.157,
+    "fragil": "Faltas Clube Atletico MG Menos 13.5",
+    "cumple": true,
+    "ids": [
+     "10670516450",
+     "10842766357",
+     "10871152892"
+    ],
+    "leido": "17:05"
+   },
+   {
+    "tag": "B · 3 patas",
+    "patas": [
+     "Goles Más 1.5",
+     "Saques de meta Más 15.5",
+     "Faltas Clube Atletico MG Menos 13.5"
+    ],
+    "cuotas_catalogo": [
+     1.6,
+     1.75,
+     1.85
+    ],
+    "producto_catalogo": 5.18,
+    "precio_bb": 5.1,
+    "p_modelo": 0.163,
+    "p_stress": 0.147,
+    "p_prudente": 0.163,
+    "ev_sin_boost": -0.169,
+    "pago_boost": 6.12,
+    "ev_con_boost": -0.002,
+    "p_equilibrio_boost": 0.163,
+    "fragil": "Faltas Clube Atletico MG Menos 13.5",
+    "cumple": true,
+    "ids": [
+     "10670516450",
+     "10869917687",
+     "10871152892"
+    ],
+    "leido": "17:05"
+   },
+   {
+    "tag": "C · 3 patas",
+    "patas": [
+     "Saques de meta Boca Juniors Más 6.5",
+     "Fueras de lugar Boca Juniors Menos 1.5",
+     "Faltas Clube Atletico MG Menos 13.5"
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     1.78,
+     1.85
+    ],
+    "producto_catalogo": 5.17,
+    "precio_bb": 5.2,
+    "p_modelo": 0.159,
+    "p_stress": 0.143,
+    "p_prudente": 0.159,
+    "ev_sin_boost": -0.173,
+    "pago_boost": 6.25,
+    "ev_con_boost": -0.006,
+    "p_equilibrio_boost": 0.16,
+    "fragil": "Faltas Clube Atletico MG Menos 13.5",
+    "cumple": true,
+    "ids": [
+     "10842766350",
+     "10842766357",
+     "10871152892"
+    ],
+    "leido": "17:05"
+   },
+   {
+    "tag": "D · 3 patas (precio justo en 5,00)",
+    "patas": [
+     "Remates Clube Atletico MG Más 10.5",
+     "Faltas Clube Atletico MG Menos 13.5",
+     "Remates Más 26.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.85,
+     2.45
+    ],
+    "producto_catalogo": 6.89,
+    "precio_bb": 5,
+    "p_modelo": 0.166,
+    "p_stress": 0.144,
+    "p_prudente": 0.166,
+    "ev_sin_boost": -0.172,
+    "pago_boost": 6.0,
+    "ev_con_boost": -0.006,
+    "p_equilibrio_boost": 0.167,
+    "fragil": "Remates Más 26.5",
+    "cumple": false,
+    "ids": [
+     "10842796440",
+     "10871152892",
+     "10842796434"
+    ],
+    "leido": "17:05"
+   }
+  ]
+ }
+}

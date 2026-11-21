@@ -1,5 +1,5 @@
 # Final Copa Sudamericana · Atlético Mineiro – Boca Juniors (Barranquilla, 17:30 Bogotá) — lectura de última hora
-Entregado 17:15 (Bogotá). Cuotas: lectura de ayer 23:08 (Betano, ≈18 h de antigüedad, NO releídas: tras el corte del navegador no se pudo). Onces: oficiales por prensa (La Nación, Infobae, Río Negro; Mineiro 16:38, Boca 16:49 Bogotá). Límites: ver abajo. La tarea programada de las 4:30 no corrió (equipo desconectado).
+Entregado 17:05 (Bogotá). Cuotas: lectura de ayer 23:08 (Betano, ≈18 h de antigüedad, NO releídas: tras el corte del navegador no se pudo). Onces: oficiales por prensa (La Nación, Infobae, Río Negro; Mineiro 16:38, Boca 16:49 Bogotá). Límites: ver abajo. La tarea programada de las 4:30 no corrió (equipo desconectado).
 
 ## Enfoque de mercados
 Final a partido único (los mercados valen 90 min). Boca llega 5 de 5 (9 goles a favor, 1 en contra); Mineiro P P P E E (1 a favor, 5 en contra). Los datos pesan en saques de meta Más, faltas Menos, tarjetas Menos y remates Más; goles y resultado quedan pegados al precio.
