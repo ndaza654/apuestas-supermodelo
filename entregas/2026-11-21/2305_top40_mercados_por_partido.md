@@ -13,7 +13,7 @@
 ## Tabla
 | # | Hora | Partido | Anunc. | Leídos | Remates | Al arco | Entradas | Faltas | Asist. | Pases | Fuera j. | Córners | Tarjetas | Goleador | Nivel |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 17:30 | Clube Atletico MG - Boca Juniors | 1035 | 239 | 4 | 5 | 3 | 5 | 1 | 4 | 1 | 25 | 31 | 14 | Completo |
+| 1 | 17:30 | Clube Atletico MG - Boca Juniors | 1035 | 239 | 4 | 5 | 3 | 5 | 1 | 4 | 1 | 25 | 31 | 14 | Sin stats de jugador |
 | 2 | 10:00 | Aston Villa - Sunderland | 1006 | 748 | 100 | 102 | 52 | 101 | 50 | 53 | 30 | 26 | 38 | 21 | Completo |
 | 3 | 10:00 | Tottenham Hotspur - Ipswich Town | 956 | 696 | 92 | 94 | 47 | 93 | 45 | 48 | 27 | 26 | 38 | 21 | Completo |
 | 4 | 07:30 | Manchester City - Fulham | 931 | 666 | 84 | 86 | 43 | 85 | 41 | 44 | 30 | 26 | 37 | 21 | Completo |
