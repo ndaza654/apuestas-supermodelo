@@ -15,6 +15,8 @@ window.pjEnP = async function (mid, idx) {
   f.src = 'https://www.flashscore.com' + base + '?mid=' + mid; document.body.appendChild(f);
   await new Promise(r => { f.onload = r; setTimeout(r, 12000); });
   let D; try { D = f.contentDocument; } catch (e) { f.remove(); return mid + ' bloqueado'; }
+  const ok = await until(() => D.querySelectorAll('tr[data-testid="wcl-tableBodyRow"]').length >= 8, 20000);
+  if (!ok) { const n = D.querySelectorAll('tr[data-testid="wcl-tableBodyRow"]').length; f.remove(); return mid + ' sin tabla de jugadores (filas ' + n + ')'; }
   const logos = [...D.querySelectorAll('.participant__image')].map(i => i.src.split('/').pop());
   const names = [...D.querySelectorAll('.participant__participantName')].map(x => x.textContent.trim());
   const rows = {}; const cols = [];
