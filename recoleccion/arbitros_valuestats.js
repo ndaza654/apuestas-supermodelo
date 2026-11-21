@@ -7,11 +7,12 @@
   const CP = { Ger: 'Germany', Eng: 'England', Arg: 'Argentina', Fra: 'France', Sco: 'Scotland', Rou: 'Romania', Bra: 'Brazil', Uru: 'Uruguay', Ita: 'Italy', Esp: 'Spain', Gre: 'Greece', Col: 'Colombia', Por: 'Portugal', Ned: 'Netherlands', Bel: 'Belgium', Tur: 'Turkey', Mex: 'Mexico', Usa: 'United States', Chi: 'Chile', Cze: 'Czech Republic', Pol: 'Poland', Aut: 'Austria', Sui: 'Switzerland', Cro: 'Croatia', Hun: 'Hungary', Den: 'Denmark', Swe: 'Sweden', Nor: 'Norway' };
   const PAISES = Object.values(CP).sort((a, b) => b.length - a.length);
   const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
-  window.__ref = {};
+  window.__ref = window.__ref || {};
   async function uno([slug, nom, pa]) {
     const parts = nom.split(' '), ap = []; for (const p of parts) { if (/^[A-Z]\.?$/.test(p)) break; ap.push(p); }
     const apellido = ap.join(' '), ini = (nom.slice(apellido.length).trim()[0] || '').toLowerCase();
-    const h = await (await fetch('/en/referees?name=' + encodeURIComponent(ap[0]))).text(); const d = new DOMParser().parseFromString(h, 'text/html');
+    let h = await (await fetch('/en/referees?name=' + encodeURIComponent(ap[0]))).text(); let d = new DOMParser().parseFromString(h, 'text/html');
+    if (!d.querySelector('a[href*="/en/referee/"]') && ap[0].length > 4) { h = await (await fetch('/en/referees?name=' + encodeURIComponent(norm(ap[0]).slice(0, 4)))).text(); d = new DOMParser().parseFromString(h, 'text/html'); }   // ñ, tildes: Baliño, Echavarría
     const cand = [], seen = new Set();
     for (const a of d.querySelectorAll('a[href*="/en/referee/"]')) {
       const hr = a.getAttribute('href'); if (seen.has(hr)) continue;
@@ -20,8 +21,8 @@
       for (const p of PAISES) if (rest.endsWith(' ' + p)) { pais = p; rest = rest.slice(0, -p.length - 1); break; }
       cand.push({ hr, tx, pj, pais, nm: rest });
     }
-    let c = cand.filter(x => x.pais === CP[pa] && norm(x.nm).includes(norm(ap[ap.length - 1]).slice(0, 5)));
-    const ci = c.filter(x => ini && norm(x.nm).replace(/[^a-z ]/g, '').split(' ').some(w => w[0] === ini)); if (ci.length) c = ci;
+    let c = cand.filter(x => x.pais === CP[pa] && ap.some(w => norm(x.nm).includes(norm(w).slice(0, 5))));
+    const ci = c.filter(x => ini && (norm(x.nm).replace(/[^a-z ]/g, '').split(' ')[0] || '')[0] === ini);   // inicial del primer nombre if (ci.length) c = ci;
     c.sort((x, y) => y.pj - x.pj);
     if (!c.length) { window.__ref[slug] = { arbitro: nom, error: 'sin candidato', cand: cand.slice(0, 4).map(x => x.tx) }; return; }
     const hr = c[0].hr; const pg = await (await fetch(hr)).text(); const dd = new DOMParser().parseFromString(pg, 'text/html'); dd.querySelectorAll('script,style,noscript').forEach(x => x.remove());
