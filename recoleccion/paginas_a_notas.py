@@ -85,7 +85,7 @@ def nota(p, loc, vis, hora, arb=None, est=None):
         if fl and fv:
             partes.append(f"Diferencia de puntos entre ambos: {abs(fl['pts'] - fv['pts'])}; hay {len(p['filas'])} equipos en la tabla.")
     else:
-        partes.append('Flashscore no muestra tabla para este partido (copa, play-off o liga sin tabla publicada): situación sin leer.')
+        partes.append('La tabla del partido no se pudo leer en esta pasada (copa, play-off o la página no la cargó): posición y puntos sin leer.')
     if p.get('zonas'):
         partes.append('Zonas rotuladas por Flashscore: ' + '; '.join(p['zonas']) + '.')
     n['se_juega'] = ' '.join(partes)
