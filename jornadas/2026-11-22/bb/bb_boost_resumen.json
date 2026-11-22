@@ -233,5 +233,56 @@
   ],
   "veredicto": "BB Boost: sí cumple (1 combos con precio real ≥ 5,05)",
   "nota": "Lotería: stake mínimo."
+ },
+ "getafe-cf-atletico-madrid": {
+  "evento": 91673247,
+  "combos": [
+   {
+    "patas": [
+     "Córners Getafe Más 3.5",
+     "Córners Atlético Menos 5.5",
+     "Remates Getafe Más 8.5"
+    ],
+    "cuotas_catalogo": [
+     1.9,
+     1.91,
+     1.65
+    ],
+    "producto_catalogo": 5.99,
+    "precio_bb": null,
+    "precio_estimado": 5.33,
+    "p_modelo": 0.188,
+    "p_prudente": 0.178,
+    "ev_con_boost_estimado": 0.14,
+    "cumple": null,
+    "fragil": "Córners Atlético Menos 5.5 (colchón 0,25)",
+    "leido": "cuotas 02:08; precio real NO leído",
+    "tag": "A · mejor respaldada con precio ≥5,05 estimado (solo 1 de 3 patas «cumple»)"
+   },
+   {
+    "patas": [
+     "Remates Getafe Más 8.5",
+     "Remates total Más 22.5",
+     "Tiros al arco Getafe Más 2.5",
+     "Tiros al arco total Más 7.5"
+    ],
+    "cuotas_catalogo": [
+     1.65,
+     1.57,
+     1.65,
+     1.72
+    ],
+    "producto_catalogo": 7.35,
+    "precio_bb": null,
+    "precio_estimado": 3.6,
+    "p_modelo": 0.278,
+    "cumple": false,
+    "fragil": "las 4 son del mismo tipo: Betano baja el precio",
+    "leido": "cuotas 02:08; precio real NO leído",
+    "tag": "B · 4 patas con «cumple» completo (precio estimado < 5,05)"
+   }
+  ],
+  "veredicto": "BB Boost: NO se puede confirmar. Con respaldo completo (4 patas «cumple») el precio estimado queda < 5,05; la única opción que llega a ≥ 5,05 tiene solo 1 de 3 patas con «cumple». Precio real sin leer (sin navegador).",
+  "nota": "Lotería: stake mínimo. Releer precio real, cuota de cada pata (>1,50) y % del boost en el cupón antes de jugar."
  }
 }
