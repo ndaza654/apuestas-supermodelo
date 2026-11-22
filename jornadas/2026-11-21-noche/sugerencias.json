@@ -1,0 +1,133 @@
+{
+ "jornada": "2026-11-21-noche",
+ "nota": "Sugerencias del informe de la jornada; la cuota de las combinadas es el producto de las cuotas (techo).",
+ "sugerencias": [
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners Menos 11.5",
+   "partidos": "Once Caldas - Atletico Nacional",
+   "cuota": 1.28,
+   "p": 0.743,
+   "p_modelo": 0.745,
+   "patas": [
+    {
+     "partido": "Once Caldas - Atletico Nacional",
+     "texto": "Córners Menos 11.5",
+     "cuota": 1.28,
+     "clave": [
+      "Once Caldas - Atletico Nacional",
+      "corners",
+      "total",
+      "11.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles Menos 3.5",
+   "partidos": "Once Caldas - Atletico Nacional",
+   "cuota": 1.3,
+   "p": 0.7401,
+   "p_modelo": 0.7401,
+   "patas": [
+    {
+     "partido": "Once Caldas - Atletico Nacional",
+     "texto": "Goles Menos 3.5",
+     "cuota": 1.3,
+     "clave": [
+      "Once Caldas - Atletico Nacional",
+      "goles",
+      "total",
+      "3.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners Más 7.5",
+   "partidos": "Once Caldas - Atletico Nacional",
+   "cuota": 1.3,
+   "p": 0.7311,
+   "p_modelo": 0.7311,
+   "patas": [
+    {
+     "partido": "Once Caldas - Atletico Nacional",
+     "texto": "Córners Más 7.5",
+     "cuota": 1.3,
+     "clave": [
+      "Once Caldas - Atletico Nacional",
+      "corners",
+      "total",
+      "7.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles Más 1.5",
+   "partidos": "Once Caldas - Atletico Nacional",
+   "cuota": 1.33,
+   "p": 0.7207,
+   "p_modelo": 0.7282,
+   "patas": [
+    {
+     "partido": "Once Caldas - Atletico Nacional",
+     "texto": "Goles Más 1.5",
+     "cuota": 1.33,
+     "clave": [
+      "Once Caldas - Atletico Nacional",
+      "goles",
+      "total",
+      "1.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "combinada mismo partido",
+   "etiqueta": "combinada de 2 patas",
+   "nombre": "Córners Menos 11.5 + Goles Más 1.5",
+   "partidos": "Once Caldas - Atletico Nacional",
+   "cuota": 1.7,
+   "p": 0.4533,
+   "p_modelo": 0.5666,
+   "patas": [
+    {
+     "partido": "Once Caldas - Atletico Nacional",
+     "texto": "Córners Menos 11.5",
+     "cuota": 1.28,
+     "clave": [
+      "Once Caldas - Atletico Nacional",
+      "corners",
+      "total",
+      "11.5",
+      "Menos"
+     ]
+    },
+    {
+     "partido": "Once Caldas - Atletico Nacional",
+     "texto": "Goles Más 1.5",
+     "cuota": 1.33,
+     "clave": [
+      "Once Caldas - Atletico Nacional",
+      "goles",
+      "total",
+      "1.5",
+      "Más"
+     ]
+    }
+   ]
+  }
+ ]
+}

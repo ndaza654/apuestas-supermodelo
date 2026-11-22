@@ -1,5 +1,5 @@
 {
- "lineas": 10695,
+ "lineas": 32243,
  "dias": [
   "2026-11-12-noche",
   "2026-11-13",
@@ -7,37 +7,41 @@
   "2026-11-15",
   "2026-11-16",
   "2026-11-17",
-  "2026-11-18"
+  "2026-11-18",
+  "2026-11-19",
+  "2026-11-20",
+  "2026-11-21",
+  "2026-11-21-noche"
  ],
  "modelos": {
   "solo precio de mercado": {
-   "n": 9235,
-   "logloss": 0.5566,
-   "brier": 0.1895
+   "n": 30783,
+   "logloss": 0.5433,
+   "brier": 0.1836
   },
   "+ cumple X de N + colchón + lado": {
-   "n": 9235,
-   "logloss": 0.5583,
-   "brier": 0.1903
+   "n": 30783,
+   "logloss": 0.5449,
+   "brier": 0.1842
   },
   "+ probabilidad del modelo": {
-   "n": 9235,
-   "logloss": 0.5588,
-   "brier": 0.1905
+   "n": 30783,
+   "logloss": 0.5451,
+   "brier": 0.1843
   }
  },
  "por_lado": {
   "Más": {
-   "n": 5537,
-   "acierto": 0.4394,
-   "roi_plano": -0.157,
-   "ic95": 0.0316
+   "n": 16216,
+   "acierto": 0.4658,
+   "roi_plano": -0.089,
+   "ic95": 0.0199
   },
   "Menos": {
-   "n": 5070,
-   "acierto": 0.5643,
-   "roi_plano": -0.0154,
-   "ic95": 0.0312
+   "n": 15238,
+   "acierto": 0.5352,
+   "roi_plano": -0.0866,
+   "ic95": 0.0177
   }
  },
  "nota": "regresión logística entrenada con los días anteriores y probada en el día siguiente; los 2 primeros días solo entrenan",

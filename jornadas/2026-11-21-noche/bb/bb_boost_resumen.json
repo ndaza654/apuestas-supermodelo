@@ -1,6 +1,6 @@
 {
  "leido": "2026-11-21 19:37 Bogotá",
- "leido_hora": "19:37",
+ "leido_hora": "19:40",
  "condiciones": "BB BOOST 25 %: ≥3 mercados, cada cuota > 1,50, cuota total > 5,00",
  "aviso": "Precios REALES de Betano (mc-leg) 19:35; cuotas de pata del catálogo (no comprobadas en el cupón). Solo 2 patas llegan a «cumple» (≥7 de 10 en ambos): córners 2T. Ningún combo es de 3 patas sólidas: todos son lotería, stake mínimo. p prudente = 0,95/precio (techo del precio), no la tasa histórica de 20-26 partidos.",
  "once-caldas-atletico-nacional": {
@@ -25,13 +25,28 @@
      "7/10 y 6/10",
      "9/10 y 5/10"
     ],
-    "cumple": false,
+    "cumple": true,
     "pago_boost": 6.25,
     "p_equilibrio_boost": 0.16,
     "p_prudente": 0.183,
     "ev_con_boost": 0.144,
     "ev_sin_boost": -0.048,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      false,
+      "2 córners 1T"
+     ],
+     [
+      true,
+      "0 goles"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "tag": "B · precio alto (C6)",
@@ -52,13 +67,28 @@
      "9/10 y 5/10",
      "5/6 y 5/10"
     ],
-    "cumple": false,
+    "cumple": true,
     "pago_boost": 7.625,
     "p_equilibrio_boost": 0.131,
     "p_prudente": 0.151,
     "ev_con_boost": 0.151,
     "ev_sin_boost": -0.049,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "3 tarjetas 1T"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "tag": "C · precio alto (C2)",
@@ -79,13 +109,28 @@
      "9/10 y 5/10",
      "7/10 y 5/10"
     ],
-    "cumple": false,
+    "cumple": true,
     "pago_boost": 7.5,
     "p_equilibrio_boost": 0.133,
     "p_prudente": 0.153,
     "ev_con_boost": 0.147,
     "ev_sin_boost": -0.051,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "0 tarjetas Once"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "tag": "D · (C9)",
@@ -106,13 +151,28 @@
      "9/10 y 4/10",
      "7/10 y 5/10"
     ],
-    "cumple": false,
+    "cumple": true,
     "pago_boost": 6.625,
     "p_equilibrio_boost": 0.151,
     "p_prudente": 0.173,
     "ev_con_boost": 0.146,
     "ev_sin_boost": -0.049,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "0 goles Nacional"
+     ],
+     [
+      true,
+      "0 tarjetas Once"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "tag": "E · (C8)",
@@ -133,13 +193,28 @@
      "5/10 y 3/10",
      "7/10 y 5/10"
     ],
-    "cumple": false,
+    "cumple": true,
     "pago_boost": 6.5,
     "p_equilibrio_boost": 0.154,
     "p_prudente": 0.176,
     "ev_con_boost": 0.144,
     "ev_sin_boost": -0.05,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "ambos anotan: No (0-0)"
+     ],
+     [
+      true,
+      "0 tarjetas Once"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "tag": "X5 · con árbitro",
@@ -160,8 +235,23 @@
     "p_prudente": 0.127,
     "ev_con_boost": 0.156,
     "ev_sin_boost": -0.05,
-    "cumple": false,
-    "cumple_condiciones_betano": true
+    "cumple": true,
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "5 tarjetas total"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "tag": "X8 · con árbitro",
@@ -182,8 +272,23 @@
     "p_prudente": 0.14,
     "ev_con_boost": 0.153,
     "ev_sin_boost": -0.05,
-    "cumple": false,
-    "cumple_condiciones_betano": true
+    "cumple": true,
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "5 tarjetas Nacional"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "tag": "X4 · con árbitro",
@@ -204,8 +309,423 @@
     "p_prudente": 0.167,
     "ev_con_boost": 0.146,
     "ev_sin_boost": -0.05,
+    "cumple": true,
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "0 tarjetas Once"
+     ],
+     [
+      false,
+      "5 tarjetas Nacional"
+     ]
+    ],
+    "resultado": "falló"
+   },
+   {
+    "tag": "H1 · súper modelo",
+    "patas": [
+     "Goles Menos 2.5",
+     "Córners 1.er tiempo Menos 4.5",
+     "Tarjetas 1.er tiempo Menos 2.5"
+    ],
+    "cuotas_catalogo": [
+     1.78,
+     1.8,
+     1.75
+    ],
+    "precio_bb": 5.6,
+    "pago_boost": 6.75,
+    "p_modelo": 0.1617,
+    "p_stress": 0.1463,
+    "p_prudente": 0.1617,
+    "p_equilibrio_boost": 0.148,
+    "ev_con_boost": 0.091,
+    "ev_sin_boost": -0.094,
+    "fragil": "Goles Menos 2.5",
+    "cumple": true,
+    "leido": "19:40",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "2 córners 1T"
+     ],
+     [
+      false,
+      "3 tarjetas 1T"
+     ]
+    ],
+    "jugada": true
+   },
+   {
+    "tag": "H2 · súper modelo",
+    "patas": [
+     "Goles Menos 2.5",
+     "Córners 1.er tiempo Menos 4.5",
+     "Tarjetas Once Caldas Menos 3.5"
+    ],
+    "cuotas_catalogo": [
+     1.78,
+     1.8,
+     1.75
+    ],
+    "precio_bb": 5.6,
+    "pago_boost": 6.75,
+    "p_modelo": 0.1514,
+    "p_stress": 0.137,
+    "p_prudente": 0.1514,
+    "p_equilibrio_boost": 0.148,
+    "ev_con_boost": 0.022,
+    "ev_sin_boost": -0.152,
+    "fragil": "Goles Menos 2.5",
+    "cumple": true,
+    "leido": "19:40",
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "2 córners 1T"
+     ],
+     [
+      true,
+      "0 tarjetas Once"
+     ]
+    ],
+    "jugada": false
+   },
+   {
+    "tag": "H3 · súper modelo",
+    "patas": [
+     "Goles Menos 2.5",
+     "Córners Menos 9.5",
+     "Tarjetas 1.er tiempo Menos 2.5"
+    ],
+    "cuotas_catalogo": [
+     1.78,
+     1.82,
+     1.75
+    ],
+    "precio_bb": 5.5,
+    "pago_boost": 6.625,
+    "p_modelo": 0.1485,
+    "p_stress": 0.1342,
+    "p_prudente": 0.1485,
+    "p_equilibrio_boost": 0.151,
+    "ev_con_boost": -0.016,
+    "ev_sin_boost": -0.183,
+    "fragil": "Córners Menos 9.5",
+    "cumple": true,
+    "leido": "19:40",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "10 córners"
+     ],
+     [
+      false,
+      "3 tarjetas 1T"
+     ]
+    ],
+    "jugada": false
+   },
+   {
+    "tag": "H9 · súper modelo",
+    "patas": [
+     "Goles Menos 2.5",
+     "Córners 1.er tiempo Menos 4.5",
+     "Tarjetas Atletico Nacional Menos 3.5"
+    ],
+    "cuotas_catalogo": [
+     1.78,
+     1.8,
+     1.87
+    ],
+    "precio_bb": 6.0,
+    "pago_boost": 7.25,
+    "p_modelo": 0.143,
+    "p_stress": 0.1287,
+    "p_prudente": 0.143,
+    "p_equilibrio_boost": 0.138,
+    "ev_con_boost": 0.037,
+    "ev_sin_boost": -0.142,
+    "fragil": "Tarjetas Atletico Nacional Menos 3.5",
+    "cumple": true,
+    "leido": "19:40",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "2 córners 1T"
+     ],
+     [
+      false,
+      "5 tarjetas Nacional"
+     ]
+    ],
+    "jugada": false
+   },
+   {
+    "tag": "H7 · súper modelo",
+    "patas": [
+     "Goles Menos 2.5",
+     "Córners Menos 9.5",
+     "Tarjetas Once Caldas Menos 3.5"
+    ],
+    "cuotas_catalogo": [
+     1.78,
+     1.82,
+     1.75
+    ],
+    "precio_bb": 5.5,
+    "pago_boost": 6.625,
+    "p_modelo": 0.1399,
+    "p_stress": 0.1264,
+    "p_prudente": 0.1399,
+    "p_equilibrio_boost": 0.151,
+    "ev_con_boost": -0.073,
+    "ev_sin_boost": -0.231,
+    "fragil": "Córners Menos 9.5",
+    "cumple": true,
+    "leido": "19:40",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "10 córners"
+     ],
+     [
+      true,
+      "0 tarjetas Once"
+     ]
+    ],
+    "jugada": false
+   },
+   {
+    "tag": "H6 · súper modelo",
+    "patas": [
+     "Goles Menos 2.5",
+     "Córners 2.º tiempo Menos 4.5",
+     "Córners 1.er tiempo Menos 4.5"
+    ],
+    "cuotas_catalogo": [
+     1.78,
+     2.1,
+     1.8
+    ],
+    "precio_bb": 6.8,
+    "pago_boost": 8.25,
+    "p_modelo": 0.1339,
+    "p_stress": 0.118,
+    "p_prudente": 0.1339,
+    "p_equilibrio_boost": 0.121,
+    "ev_con_boost": 0.105,
+    "ev_sin_boost": -0.089,
+    "fragil": "Córners 2.º tiempo Menos 4.5",
+    "cumple": true,
+    "leido": "19:40",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "2 córners 1T"
+     ]
+    ],
+    "jugada": false
+   },
+   {
+    "tag": "H4 · súper modelo",
+    "patas": [
+     "Goles Menos 2.5",
+     "Córners 1.er tiempo Menos 4.5",
+     "Tarjetas Menos 6.5"
+    ],
+    "cuotas_catalogo": [
+     1.78,
+     1.8,
+     2.07
+    ],
+    "precio_bb": 6.6,
+    "pago_boost": 8.0,
+    "p_modelo": 0.1299,
+    "p_stress": 0.1153,
+    "p_prudente": 0.1299,
+    "p_equilibrio_boost": 0.125,
+    "ev_con_boost": 0.039,
+    "ev_sin_boost": -0.143,
+    "fragil": "Tarjetas Menos 6.5",
+    "cumple": true,
+    "leido": "19:40",
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "2 córners 1T"
+     ],
+     [
+      true,
+      "5 tarjetas total"
+     ]
+    ],
+    "jugada": false
+   },
+   {
+    "tag": "H10 · súper modelo",
+    "patas": [
+     "Goles 1.er tiempo Menos 1.5",
+     "Córners 2.º tiempo Menos 4.5",
+     "Tarjetas Menos 6.5"
+    ],
+    "cuotas_catalogo": [
+     1.42,
+     2.1,
+     2.07
+    ],
+    "precio_bb": 6.1,
+    "pago_boost": 7.375,
+    "p_modelo": 0.1227,
+    "p_stress": 0.1081,
+    "p_prudente": 0.1227,
+    "p_equilibrio_boost": 0.136,
+    "ev_con_boost": -0.095,
+    "ev_sin_boost": -0.252,
+    "fragil": "Córners 2.º tiempo Menos 4.5",
     "cumple": false,
-    "cumple_condiciones_betano": true
+    "leido": "19:40",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "0 goles 1T"
+     ],
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "5 tarjetas total"
+     ]
+    ],
+    "jugada": false
+   },
+   {
+    "tag": "H5 · súper modelo",
+    "patas": [
+     "Goles Menos 2.5",
+     "Córners Menos 9.5",
+     "Tarjetas Menos 6.5"
+    ],
+    "cuotas_catalogo": [
+     1.78,
+     1.82,
+     2.07
+    ],
+    "precio_bb": 6.5,
+    "pago_boost": 7.875,
+    "p_modelo": 0.1201,
+    "p_stress": 0.1066,
+    "p_prudente": 0.1201,
+    "p_equilibrio_boost": 0.127,
+    "ev_con_boost": -0.054,
+    "ev_sin_boost": -0.219,
+    "fragil": "Tarjetas Menos 6.5",
+    "cumple": true,
+    "leido": "19:40",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "10 córners"
+     ],
+     [
+      true,
+      "5 tarjetas total"
+     ]
+    ],
+    "jugada": false
+   },
+   {
+    "tag": "H11 · súper modelo",
+    "patas": [
+     "Córners 2.º tiempo Menos 4.5",
+     "Tarjetas 1.er tiempo Menos 2.5",
+     "Ambos marcan: No"
+    ],
+    "cuotas_catalogo": [
+     2.1,
+     1.75,
+     1.98
+    ],
+    "precio_bb": 7.3,
+    "pago_boost": 8.875,
+    "p_modelo": 0.111,
+    "p_stress": 0.0978,
+    "p_prudente": 0.111,
+    "p_equilibrio_boost": 0.113,
+    "ev_con_boost": -0.015,
+    "ev_sin_boost": -0.19,
+    "fragil": "Córners 2.º tiempo Menos 4.5",
+    "cumple": true,
+    "leido": "19:40",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      false,
+      "3 tarjetas 1T"
+     ],
+     [
+      true,
+      "ambos anotan: No (0-0)"
+     ]
+    ],
+    "jugada": false
    }
   ],
   "veredicto": "BB Boost: cumple formalmente (cuota por pata >1,50 y precio >5,05) en 5 combos; NO hay combo de 3 patas «cumple». Lotería, stake mínimo.",
@@ -236,7 +756,22 @@
     "ev_con_boost": 0.091,
     "ev_stress": -0.012,
     "ev_sin_boost": -0.094,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "2 córners 1T"
+     ],
+     [
+      false,
+      "3 tarjetas 1T"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "H2",
@@ -260,7 +795,22 @@
     "ev_con_boost": 0.022,
     "ev_stress": -0.075,
     "ev_sin_boost": -0.152,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "2 córners 1T"
+     ],
+     [
+      true,
+      "0 tarjetas Once"
+     ]
+    ],
+    "resultado": "cumplió"
    },
    {
     "id": "H3",
@@ -284,7 +834,22 @@
     "ev_con_boost": -0.016,
     "ev_stress": -0.111,
     "ev_sin_boost": -0.183,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "10 córners"
+     ],
+     [
+      false,
+      "3 tarjetas 1T"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "H9",
@@ -308,7 +873,22 @@
     "ev_con_boost": 0.037,
     "ev_stress": -0.067,
     "ev_sin_boost": -0.142,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "2 córners 1T"
+     ],
+     [
+      false,
+      "5 tarjetas Nacional"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "H7",
@@ -332,7 +912,22 @@
     "ev_con_boost": -0.073,
     "ev_stress": -0.163,
     "ev_sin_boost": -0.231,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "10 córners"
+     ],
+     [
+      true,
+      "0 tarjetas Once"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "H6",
@@ -356,7 +951,22 @@
     "ev_con_boost": 0.105,
     "ev_stress": -0.027,
     "ev_sin_boost": -0.089,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "2 córners 1T"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "MA",
@@ -380,7 +990,22 @@
     "ev_con_boost": -0.173,
     "ev_stress": -0.265,
     "ev_sin_boost": -0.312,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      false,
+      "2 córners 1T"
+     ],
+     [
+      true,
+      "0 goles"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "H4",
@@ -404,7 +1029,22 @@
     "ev_con_boost": 0.039,
     "ev_stress": -0.078,
     "ev_sin_boost": -0.143,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "2 córners 1T"
+     ],
+     [
+      true,
+      "5 tarjetas total"
+     ]
+    ],
+    "resultado": "cumplió"
    },
    {
     "id": "MB",
@@ -428,7 +1068,22 @@
     "ev_con_boost": -0.024,
     "ev_stress": -0.141,
     "ev_sin_boost": -0.194,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "3 tarjetas 1T"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "H10",
@@ -452,7 +1107,22 @@
     "ev_con_boost": -0.095,
     "ev_stress": -0.203,
     "ev_sin_boost": -0.252,
-    "cumple_condiciones_betano": false
+    "cumple_condiciones_betano": false,
+    "patas_real": [
+     [
+      true,
+      "0 goles 1T"
+     ],
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "5 tarjetas total"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "H5",
@@ -476,7 +1146,22 @@
     "ev_con_boost": -0.054,
     "ev_stress": -0.161,
     "ev_sin_boost": -0.219,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "10 córners"
+     ],
+     [
+      true,
+      "5 tarjetas total"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "MC2",
@@ -500,7 +1185,22 @@
     "ev_con_boost": -0.072,
     "ev_stress": -0.183,
     "ev_sin_boost": -0.234,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "0 tarjetas Once"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "H11",
@@ -524,7 +1224,22 @@
     "ev_con_boost": -0.015,
     "ev_stress": -0.132,
     "ev_sin_boost": -0.19,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      false,
+      "3 tarjetas 1T"
+     ],
+     [
+      true,
+      "ambos anotan: No (0-0)"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "MX8",
@@ -548,7 +1263,22 @@
     "ev_con_boost": -0.102,
     "ev_stress": -0.208,
     "ev_sin_boost": -0.259,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      false,
+      "5 tarjetas Nacional"
+     ]
+    ],
+    "resultado": "falló"
    },
    {
     "id": "MX5",
@@ -572,7 +1302,22 @@
     "ev_con_boost": -0.067,
     "ev_stress": -0.178,
     "ev_sin_boost": -0.233,
-    "cumple_condiciones_betano": true
+    "cumple_condiciones_betano": true,
+    "patas_real": [
+     [
+      false,
+      "8 córners 2T"
+     ],
+     [
+      true,
+      "0 goles"
+     ],
+     [
+      true,
+      "5 tarjetas total"
+     ]
+    ],
+    "resultado": "falló"
    }
   ],
   "veredicto_modelo": "Mejor por probabilidad con precio ≥5,05: H1 (16,2 %, precio 5,60, EV con boost +9 %, con stress −1 %). Es lotería: se cae 5 de cada 6 veces."
