@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-22 | 11:14 | BB Boost FINAL Liverpool–Man United (4 patas respaldadas, precio real 5,10, p 16,7 %) | Liverpool–Man United 11:30 | `entregas/2026-11-22/1114_bbboost_final_liverpool.md` |
 | 2026-11-22 | 11:12 | Combi Liverpool–Man United con precio real BB y onces oficiales (segura 48 % a 1,95; boost lotería 5,30) | Liverpool–Man United 11:30 | `entregas/2026-11-22/1112_combi_liverpool_precio_real.md` |
 | 2026-11-22 | 11:05 | Combi segura Liverpool–Man United (2 patas 48 %, 3 patas 38 %; BB Boost no cumple precio >5 con patas sólidas) | Liverpool–Man United 11:30 | `entregas/2026-11-22/1105_combi_liverpool-manchester-united.md` |
 | 2026-11-22 | 06:45 | Análisis + combinadas + BB Boost (precio real) de los partidos hasta las 11:00; arreglo de «entradas» (intentadas) | 10 partidos 8:00–10:15 | `entregas/2026-11-22/0645_analisis_manana_hasta11.md`, `0645_informe_manana.html` |
