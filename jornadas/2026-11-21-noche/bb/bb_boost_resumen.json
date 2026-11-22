@@ -1,6 +1,6 @@
 {
- "leido": "2026-11-21 19:35 Bogotá",
- "leido_hora": "19:35",
+ "leido": "2026-11-21 19:50 Bogotá",
+ "leido_hora": "19:50",
  "condiciones": "BB BOOST 25 %: ≥3 mercados, cada cuota > 1,50, cuota total > 5,00",
  "aviso": "Precios REALES de Betano (mc-leg) 19:35; cuotas de pata del catálogo (no comprobadas en el cupón). Solo 2 patas llegan a «cumple» (≥7 de 10 en ambos): córners 2T. Ningún combo es de 3 patas sólidas: todos son lotería, stake mínimo. p prudente = 0,95/precio (techo del precio), no la tasa histórica de 20-26 partidos.",
  "once-caldas-atletico-nacional": {
@@ -140,8 +140,75 @@
     "ev_con_boost": 0.144,
     "ev_sin_boost": -0.05,
     "cumple_condiciones_betano": true
+   },
+   {
+    "tag": "X5 · con árbitro",
+    "patas": [
+     "Córners 2T Menos 4.5",
+     "Goles Menos 2.5",
+     "Tarjetas total Menos 6.5"
+    ],
+    "cuotas_catalogo": [
+     2.1,
+     1.78,
+     2.07
+    ],
+    "precio_bb": 7.5,
+    "hist": "8/26",
+    "pago_boost": 9.125,
+    "p_equilibrio_boost": 0.11,
+    "p_prudente": 0.127,
+    "ev_con_boost": 0.156,
+    "ev_sin_boost": -0.05,
+    "cumple": false,
+    "cumple_condiciones_betano": true
+   },
+   {
+    "tag": "X8 · con árbitro",
+    "patas": [
+     "Córners 2T Menos 4.5",
+     "Goles Menos 2.5",
+     "Nacional Tarjetas Menos 3.5"
+    ],
+    "cuotas_catalogo": [
+     2.1,
+     1.78,
+     1.87
+    ],
+    "precio_bb": 6.8,
+    "hist": "8/26",
+    "pago_boost": 8.25,
+    "p_equilibrio_boost": 0.121,
+    "p_prudente": 0.14,
+    "ev_con_boost": 0.153,
+    "ev_sin_boost": -0.05,
+    "cumple": false,
+    "cumple_condiciones_betano": true
+   },
+   {
+    "tag": "X4 · con árbitro",
+    "patas": [
+     "Córners 2T Menos 4.5",
+     "Once Tarjetas Menos 3.5",
+     "Nacional Tarjetas Menos 3.5"
+    ],
+    "cuotas_catalogo": [
+     2.1,
+     1.75,
+     1.87
+    ],
+    "precio_bb": 5.7,
+    "hist": "6/26",
+    "pago_boost": 6.875,
+    "p_equilibrio_boost": 0.145,
+    "p_prudente": 0.167,
+    "ev_con_boost": 0.146,
+    "ev_sin_boost": -0.05,
+    "cumple": false,
+    "cumple_condiciones_betano": true
    }
   ],
-  "veredicto": "BB Boost: cumple formalmente (cuota por pata >1,50 y precio >5,05) en 5 combos; NO hay combo de 3 patas «cumple». Lotería, stake mínimo."
+  "veredicto": "BB Boost: cumple formalmente (cuota por pata >1,50 y precio >5,05) en 5 combos; NO hay combo de 3 patas «cumple». Lotería, stake mínimo.",
+  "arbitro": "Jhon Alexander Ospina Londoño: 5,4 amarillas/partido en sus últimos 20 (Liga 2026: 6,36 y 0,5 rojas); apoya Once Menos 3.5 (local ≤3 amarillas 16/20) y, a medias, Tarjetas Menos 6.5."
  }
 }
