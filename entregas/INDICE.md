@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-21 | 19:38 | Análisis + BB Boost real (5 combos con precio mc-leg; ninguno con 3 patas «cumple»: lotería) | Once Caldas–Atlético Nacional 20:15 | `entregas/2026-11-21/1938_bbboost_once-caldas-atletico-nacional.md` |
 | 2026-11-21 | 17:30 | Balance PARCIAL del sábado (38 de 40 partidos): líneas, sugerencias, combinadas 12:20 y 3 boletos del usuario (pantallazo) | 38 partidos del 21-nov | `entregas/2026-11-21/1730_balance_parcial_21nov.html` |
 | 2026-11-21 | 17:27 | Atlético MG–Boca: ¿combinada con jugadores? (sin historial: no recomendada) | Atlético MG–Boca | `entregas/2026-11-21/1727_atletico-mg-boca_jugadores.md` |
 | 2026-11-21 | 17:24 | Atlético MG–Boca: revisión pata por pata del combo A y alternativas más seguras | Atlético MG–Boca | `entregas/2026-11-21/1724_atletico-mg-boca_patas_seguras.md` |
