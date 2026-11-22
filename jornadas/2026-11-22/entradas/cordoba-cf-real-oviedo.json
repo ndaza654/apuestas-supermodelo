@@ -317,7 +317,7 @@
 "mercado": "corners",
 "ambito": "visitante",
 "linea": 2.5,
-"mas": 1.22,
+"mas": 1.21,
 "menos": null
 },
 {
@@ -549,20 +549,20 @@
 "ambito": "local",
 "linea": 1.5,
 "mas": 1.75,
-"menos": 2.0
+"menos": 2.02
 },
 {
 "mercado": "goles",
 "ambito": "local",
 "linea": 2.5,
-"mas": 3.25,
-"menos": 1.31
+"mas": 3.2,
+"menos": 1.32
 },
 {
 "mercado": "goles",
 "ambito": "local",
 "linea": 3.5,
-"mas": 6.4,
+"mas": 6.3,
 "menos": 1.1
 },
 {
@@ -576,21 +576,21 @@
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 1.5,
-"mas": 2.42,
+"mas": 2.45,
 "menos": 1.52
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 2.5,
-"mas": 5.3,
+"mas": 5.4,
 "menos": 1.13
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 3.5,
-"mas": 10.0,
+"mas": 10.25,
 "menos": 1.03
 },
 {
@@ -682,11 +682,11 @@
 {
 "mercado": "resultado",
 "opciones": {
-"1": 2.0,
+"1": 1.98,
 "X": 3.75,
-"2": 3.55,
+"2": 3.6,
 "1X": 1.32,
-"X2": 1.85,
+"X2": 1.87,
 "12": 1.26
 }
 },
@@ -695,15 +695,15 @@
 "opciones": {
 "1": 2.52,
 "X": 2.3,
-"2": 3.85
+"2": 3.9
 }
 },
 {
 "mercado": "resultado_2t",
 "opciones": {
-"1": 2.25,
+"1": 2.22,
 "X": 2.75,
-"2": 3.45
+"2": 3.5
 }
 },
 {
@@ -711,7 +711,7 @@
 "opciones": {
 "1": 1.62,
 "X": 1.75,
-"2": 2.45
+"2": 2.47
 }
 },
 {
@@ -773,8 +773,8 @@
 "mercado": "handicap",
 "h": -3.0,
 "opciones": {
-"local": 15.0,
-"empate": 9.25,
+"local": 14.5,
+"empate": 9.0,
 "visitante": 1.11
 }
 },
@@ -782,18 +782,18 @@
 "mercado": "handicap",
 "h": -2.0,
 "opciones": {
-"local": 7.1,
+"local": 7.0,
 "empate": 5.6,
-"visitante": 1.31
+"visitante": 1.32
 }
 },
 {
 "mercado": "handicap",
 "h": -1.0,
 "opciones": {
-"local": 3.5,
+"local": 3.45,
 "empate": 3.95,
-"visitante": 1.85
+"visitante": 1.87
 }
 },
 {
@@ -802,7 +802,7 @@
 "opciones": {
 "local": 1.32,
 "empate": 5.3,
-"visitante": 7.5
+"visitante": 7.6
 }
 },
 {
@@ -818,15 +818,15 @@
 "mercado": "handicap",
 "h": -1.25,
 "opciones": {
-"local": 3.15,
-"visitante": 1.38
+"local": 3.1,
+"visitante": 1.39
 }
 },
 {
 "mercado": "handicap",
 "h": -1.0,
 "opciones": {
-"local": 2.8,
+"local": 2.75,
 "visitante": 1.47
 }
 },
@@ -834,7 +834,7 @@
 "mercado": "handicap",
 "h": -0.75,
 "opciones": {
-"local": 2.27,
+"local": 2.25,
 "visitante": 1.67
 }
 },
@@ -842,16 +842,16 @@
 "mercado": "handicap",
 "h": -0.5,
 "opciones": {
-"local": 1.98,
-"visitante": 1.87
+"local": 1.95,
+"visitante": 1.88
 }
 },
 {
 "mercado": "handicap",
 "h": -0.25,
 "opciones": {
-"local": 1.75,
-"visitante": 2.15
+"local": 1.72,
+"visitante": 2.18
 }
 },
 {
@@ -859,7 +859,7 @@
 "h": 0.0,
 "opciones": {
 "local": 1.5,
-"visitante": 2.65
+"visitante": 2.7
 }
 },
 {
@@ -867,7 +867,7 @@
 "h": 0.25,
 "opciones": {
 "local": 1.4,
-"visitante": 3.05
+"visitante": 3.1
 }
 }
 ],
@@ -876,7 +876,7 @@
 "jugador": "Enol Rodriguez",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.4
+"cuota": 2.3
 },
 {
 "jugador": "Carlos Fernandez",
@@ -885,22 +885,34 @@
 "cuota": 2.95
 },
 {
+"jugador": "Diego Bri",
+"lado": "local",
+"stat": "anota",
+"cuota": 3.2
+},
+{
 "jugador": "Alexandru Isfan",
 "lado": "visitante",
 "stat": "anota",
 "cuota": 3.2
 },
 {
-"jugador": "Diego Bri",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.3
-},
-{
 "jugador": "Theo Zidane",
 "lado": "local",
 "stat": "anota",
 "cuota": 3.5
+},
+{
+"jugador": "Salim El Jebari",
+"lado": "local",
+"stat": "anota",
+"cuota": 3.65
+},
+{
+"jugador": "Eder Garcia",
+"lado": "local",
+"stat": "anota",
+"cuota": 3.65
 },
 {
 "jugador": "Jacobo Gonzalez",
@@ -913,18 +925,6 @@
 "lado": "visitante",
 "stat": "anota",
 "cuota": 3.65
-},
-{
-"jugador": "Salim El Jebari",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.75
-},
-{
-"jugador": "Eder Garcia",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.75
 },
 {
 "jugador": "Dani Villahermosa",
@@ -951,16 +951,16 @@
 "cuota": 5.8
 },
 {
-"jugador": "Carlos Dominguez",
-"lado": "visitante",
+"jugador": "Ruben Alves",
+"lado": "local",
 "stat": "anota",
 "cuota": 7.2
 },
 {
-"jugador": "Ruben Alves",
-"lado": "local",
+"jugador": "Carlos Dominguez",
+"lado": "visitante",
 "stat": "anota",
-"cuota": 7.5
+"cuota": 7.2
 },
 {
 "jugador": "Dani Tasende",
@@ -969,13 +969,13 @@
 "cuota": 7.8
 },
 {
-"jugador": "Egoitz Munoz",
+"jugador": "Carlos Albarran",
 "lado": "local",
 "stat": "anota",
-"cuota": 8.5
+"cuota": 7.8
 },
 {
-"jugador": "Carlos Albarran",
+"jugador": "Egoitz Munoz",
 "lado": "local",
 "stat": "anota",
 "cuota": 8.5
@@ -2219,5 +2219,5 @@
 ]
 },
 "estadio": "Estadio Nuevo Arcángel",
-"cuotas_leidas": "Cuotas de Betano leídas 2026-11-22T07:07:50.259Z · 196 mercados"
+"cuotas_leidas": "Cuotas de Betano leídas 2026-11-22T11:22:33.861Z · 196 mercados"
 }

@@ -148,6 +148,10 @@ def hist_de(jug, betano):
                 pj['atajadas'] = ex[0]
             if len(ex) >= 2:
                 pj['entradas_tot'] = ex[1]
+                # 22-nov-2026: Betano «Tackles totales» cuenta entradas INTENTADAS (denominador «g/e» de Flashscore), no las ganadas. Medido en 200+ jugadores:
+                # con intentadas la frecuencia guarda con los precios la misma relación que remates (implícita/real 1,2–1,6); con ganadas era 1,6–3,7 (subestimaba).
+                pj['entradas_gan'] = en
+                pj['entradas'] = ex[1]
             partidos.append(pj)
         out[cas[0]] = {'pos': d.get('pos'), 'partidos': partidos}
     return out, sin

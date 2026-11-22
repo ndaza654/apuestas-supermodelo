@@ -328,12 +328,14 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Martin Satriano — remates: 1+ @1.09 · col +1.9 · 8 de 9 (titular 0.90)
 - Ramon Terrats — remates: 1+ @1.25 · col +0.9 · 7 de 9 (titular 0.90)
 - Giuliano Simeone — remates: 1+ @1.11 · col +0.4 · 7 de 10 (titular 0.90)
+- Giuliano Simeone — entradas: 1+ @1.08 · col +1.5 · 8 de 10 (titular 0.90)
 - Giuliano Simeone — faltas: 1+ @1.2 · col +1.2 · 9 de 10 (titular 0.90)
 - Jan Oblak — atajadas: 2+ @1.45 · col +1.2 · 9 de 10 (titular 0.90)
+- Marcos Llorente — entradas: 2+ @1.25 · col +1.1 · 7 de 10 (titular 0.90)
 - Álex Baena — al_arco: 1+ @1.75 · col +0.5 · 7 de 10 (titular 0.90)
 - Álex Baena — faltas: 1+ @1.12 · col +1.3 · 7 de 10 (titular 0.90)
 - Álex Grimaldo — remates: 1+ @1.25 · col +0.8 · 7 de 10 (titular 0.90)
-- Álex Grimaldo — entradas: 1+ @1.08 · col +0.6 · 8 de 10 (titular 0.90)
+- Álex Grimaldo — entradas: 1+ @1.08 · col +1.2 · 8 de 10 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos
 

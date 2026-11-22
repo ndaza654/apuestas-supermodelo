@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-22 | 06:45 | Análisis + combinadas + BB Boost (precio real) de los partidos hasta las 11:00; arreglo de «entradas» (intentadas) | 10 partidos 8:00–10:15 | `entregas/2026-11-22/0645_analisis_manana_hasta11.md`, `0645_informe_manana.html` |
 | 2026-11-22 | 01:45 | Balance del 21-nov + histórico 9–21 nov (conclusiones) | 41 partidos | `entregas/2026-11-22/0145_balance_21nov.html`, `0145_balance_21nov_conclusiones.html` |
 | 2026-11-21 | 19:43 | Súper modelo + BB Boost final con precio real (H1 5,60: p modelo 16 %, lotería) | Once Caldas–Atlético Nacional 20:15 | `entregas/2026-11-21/1943_modelo_bbboost_once-caldas-atletico-nacional.md` |
 | 2026-11-21 | 19:37 | Árbitro (J. Ospina) y qué líneas apoya + 3 combos BB con árbitro (precio real) | Once Caldas–Atlético Nacional 20:15 | `entregas/2026-11-21/1937_arbitro_once-caldas-atletico-nacional.md` |

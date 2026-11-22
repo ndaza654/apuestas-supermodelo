@@ -331,18 +331,23 @@ Muestra: local 10, visitante 10, directos 6.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Arsene Kouassi — entradas: 1+ @1.2 · col +0.3 · 7 de 10 (titular 0.90)
+- Arsene Kouassi — entradas: 1+ @1.2 · col +0.6 · 9 de 10 (titular 0.90)
 - Arsene Kouassi — faltas: 1+ @1.57 · col +0.3 · 8 de 10 (titular 0.90)
+- Dembo Sylla — entradas: 1+ @1.11 · col +1.1 · 8 de 10 (titular 0.90)
 - Jean-Victor Makengo — entradas: 1+ @1.19 · col +0.5 · 7 de 10 (titular 0.90)
 - Jean-Victor Makengo — faltas: 1+ @1.45 · col +0.4 · 7 de 10 (titular 0.90)
-- Nathaniel Adjei — entradas: 1+ @1.14 · col +0.4 · 8 de 10 (titular 0.90)
+- Nathaniel Adjei — entradas: 1+ @1.14 · col +0.9 · 9 de 10 (titular 0.90)
 - Noah Cadiou — remates: 1+ @1.26 · col +0.5 · 7 de 10 (titular 0.90)
-- Noah Cadiou — entradas: 1+ @1.13 · col +0.6 · 8 de 10 (titular 0.90)
+- Noah Cadiou — entradas: 1+ @1.13 · col +0.8 · 8 de 10 (titular 0.90)
 - Yvon Mvogo — atajadas: 2+ @1.17 · col +1.4 · 8 de 10 (titular 0.90)
+- Adrien Thomasson — entradas: 1+ @1.11 · col +1.1 · 7 de 9 (titular 0.90)
+- Anthony Rouault — entradas: 1+ @1.1 · col +1.9 · 7 de 7 (titular 0.90)
+- Anthony Rouault — entradas: 2+ @1.55 · col +0.9 · 7 de 7 (titular 0.90)
 - Bryan Reynolds — faltas: 1+ @1.14 · col +0.8 · 7 de 9 (titular 0.90)
 - Charlie Cresswell — remates: 1+ @1.55 · col +0.7 · 7 de 10 (titular 0.90)
 - Charlie Cresswell — faltas: 1+ @1.34 · col +0.4 · 7 de 10 (titular 0.90)
 - Valentin Rongier — remates: 1+ @1.4 · col +1.1 · 8 de 10 (titular 0.90)
+- Valentin Rongier — entradas: 2+ @1.18 · col +1.4 · 7 de 10 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos
 

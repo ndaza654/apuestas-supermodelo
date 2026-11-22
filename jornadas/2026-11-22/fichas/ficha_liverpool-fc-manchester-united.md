@@ -394,15 +394,19 @@ Muestra: local 10, visitante 10, directos 6.
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
 - Alexis Mac Allister — remates: 1+ @1.11 · col +1.7 · 7 de 10 (titular 0.90)
+- Alexis Mac Allister — entradas: 1+ @1.07 · col +0.8 · 7 de 10 (titular 0.90)
 - Bradley Barcola — remates: 1+ @2.22 · col +1.9 · 9 de 10 (titular 0.90)
+- Bradley Barcola — entradas: 1+ @1.7 · col +0.8 · 7 de 10 (titular 0.90)
 - Florian Wirtz — faltas: 1+ @1.2 · col +1.3 · 8 de 10 (titular 0.90)
 - Jeremy Jacquet — faltas: 1+ @1.53 · col +0.4 · 8 de 10 (titular 0.90)
 - Trey Nyoni — faltas: 1+ @1.25 · col — · 7 de 10
 - Amad Diallo — remates: 1+ @1.12 · col +2.0 · 7 de 8 (titular 0.90)
+- Amad Diallo — entradas: 1+ @1.17 · col +1.5 · 7 de 8 (titular 0.90)
 - Bruno Fernandes — remates: 1+ @1.12 · col +2.2 · 8 de 8 (titular 0.90)
 - Bryan Mbeumo — remates: 1+ @1.15 · col +1.5 · 9 de 9 (titular 0.90)
 - Bryan Mbeumo — al_arco: 1+ @1.75 · col +0.4 · 7 de 9 (titular 0.90)
-- Diogo Dalot — entradas: 1+ @1.08 · col +1.0 · 8 de 9 (titular 0.90)
+- Diogo Dalot — entradas: 1+ @1.08 · col +1.9 · 9 de 9 (titular 0.90)
+- Leny Yoro — entradas: 1+ @1.09 · col +1.6 · 7 de 7 (titular 0.90)
 - Matheus Cunha — faltas: 1+ @1.17 · col — · 7 de 9
 
 ## Contexto para juzgar los criterios no numéricos

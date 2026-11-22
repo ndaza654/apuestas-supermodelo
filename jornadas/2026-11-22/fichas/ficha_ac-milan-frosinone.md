@@ -334,14 +334,17 @@ Muestra: local 10, visitante 10, directos 2.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Koni De Winter — entradas: 1+ @1.17 · col +0.4 · 7 de 10 (titular 0.90)
+- Adrien Rabiot — entradas: 1+ @1.1 · col +1.1 · 7 de 8 (titular 0.90)
+- Koni De Winter — entradas: 1+ @1.17 · col +0.9 · 9 de 10 (titular 0.90)
 - Koni De Winter — faltas: 1+ @1.23 · col +0.8 · 9 de 10 (titular 0.90)
 - Farès Ghedjemis — remates: 2+ @1.36 · col +2.0 · 8 de 9 (titular 0.90)
 - Farès Ghedjemis — al_arco: 1+ @1.62 · col +0.9 · 7 de 9 (titular 0.90)
+- Gabriele Calvani — entradas: 2+ @1.22 · col +1.3 · 7 de 8 (titular 0.90)
 - Giacomo Calo — remates: 1+ @1.11 · col +2.5 · 9 de 9 (titular 0.90)
 - Giacomo Calo — remates: 2+ @1.62 · col +1.5 · 8 de 9 (titular 0.90)
 - Giacomo Calo — al_arco: 1+ @1.72 · col +0.8 · 8 de 9 (titular 0.90)
 - Giorgi Kvernadze — remates: 2+ @1.47 · col +1.6 · 8 de 9 (titular 0.90)
+- Giorgi Kvernadze — entradas: 1+ @1.18 · col +0.8 · 7 de 9 (titular 0.90)
 - Patrizio Masini — faltas: 1+ @1.08 · col +2.0 · 7 de 8 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos

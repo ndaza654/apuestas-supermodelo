@@ -154,4 +154,9 @@ import segundo_paso as _SP
 _rr = {'p_mercado': '0.6', 'p_modelo': '0.62', 'colchon': '1.5', 'linea': '9.5', 'cumple_ficha': 'sí', 'reg_local': '8 de 10', 'reg_visitante': '7 de 10', 'lado': 'Menos'}
 check(len(_SP._feat(_rr, 0)) == 1 and len(_SP._feat(_rr, 1)) == 7 and len(_SP._feat(_rr, 2)) == 8 and _SP._x('sin dato') == (0.5, 0), 'segundo paso: variables de la validación (precio, cumple X de N, colchón, lado, modelo)')
 
+# entradas: Betano «Tackles totales» = entradas intentadas (denominador g/e de Flashscore); la ficha las compara con 'entradas' (22-nov-2026)
+_h, _ = A.hist_de({'Juan Perez': {'lado': 'L', 'pid': 'p1', 'p': [['m1', '2026-11-01', 90, 1, 0, 0, 0, 0, 0, 1, 2, 0, 5, 1]]}},
+                  {'jugadores': [{'jugador': 'Juan Perez', 'lado': 'local', 'stat': 'entradas', 'escalera': {1: 1.5}}]})
+check(_h.get('Juan Perez', {}).get('partidos', [{}])[0].get('entradas') == 5 and _h['Juan Perez']['partidos'][0].get('entradas_gan') == 2, 'entradas: el historial usa las intentadas (5) como «entradas» y guarda las ganadas aparte (2)')
+
 print(f'\n{ok} pruebas de recolección superadas')

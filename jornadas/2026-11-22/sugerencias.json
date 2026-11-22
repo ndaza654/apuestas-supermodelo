@@ -31,8 +31,8 @@
    "nombre": "Tarjetas Más 3.5",
    "partidos": "Racing Santander - Real Sociedad",
    "cuota": 1.23,
-   "p": 0.8427,
-   "p_modelo": 0.843,
+   "p": 0.8371,
+   "p_modelo": 0.8374,
    "patas": [
     {
      "partido": "Racing Santander - Real Sociedad",
@@ -74,29 +74,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tarjetas visitante Más 1.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.24,
-   "p": 0.8334,
-   "p_modelo": 0.8337,
-   "patas": [
-    {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Tarjetas visitante Más 1.5",
-     "cuota": 1.24,
-     "clave": [
-      "Racing Santander - Real Sociedad",
-      "tarjetas",
-      "visitante",
-      "1.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Tarjetas Menos 6.5",
    "partidos": "CA Osasuna - Málaga CF",
    "cuota": 1.26,
@@ -123,8 +100,8 @@
    "nombre": "Tarjetas local Más 1.5",
    "partidos": "Racing Santander - Real Sociedad",
    "cuota": 1.24,
-   "p": 0.8293,
-   "p_modelo": 0.8295,
+   "p": 0.8299,
+   "p_modelo": 0.8301,
    "patas": [
     {
      "partido": "Racing Santander - Real Sociedad",
@@ -134,6 +111,29 @@
       "Racing Santander - Real Sociedad",
       "tarjetas",
       "local",
+      "1.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tarjetas visitante Más 1.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.24,
+   "p": 0.8283,
+   "p_modelo": 0.8285,
+   "patas": [
+    {
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Tarjetas visitante Más 1.5",
+     "cuota": 1.24,
+     "clave": [
+      "Racing Santander - Real Sociedad",
+      "tarjetas",
+      "visitante",
       "1.5",
       "Más"
      ]
@@ -166,68 +166,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles Menos 6.5",
-   "partidos": "FC Barcelona - Villarreal CF",
-   "cuota": 1.2,
-   "p": 0.8244,
-   "p_modelo": 0.8246,
+   "nombre": "Córners visitante Más 2.5",
+   "partidos": "Cordoba CF - Real Oviedo",
+   "cuota": 1.21,
+   "p": 0.8144,
+   "p_modelo": 0.8146,
    "patas": [
     {
-     "partido": "FC Barcelona - Villarreal CF",
-     "texto": "Goles Menos 6.5",
-     "cuota": 1.2,
+     "partido": "Cordoba CF - Real Oviedo",
+     "texto": "Córners visitante Más 2.5",
+     "cuota": 1.21,
      "clave": [
-      "FC Barcelona - Villarreal CF",
-      "goles",
-      "total",
-      "6.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles local Menos 3.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.2,
-   "p": 0.8224,
-   "p_modelo": 0.8226,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Goles local Menos 3.5",
-     "cuota": 1.2,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "goles",
-      "local",
-      "3.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles local Menos 2.5",
-   "partidos": "Sporting de Gijón - UD Las Palmas",
-   "cuota": 1.2,
-   "p": 0.8123,
-   "p_modelo": 0.8125,
-   "patas": [
-    {
-     "partido": "Sporting de Gijón - UD Las Palmas",
-     "texto": "Goles local Menos 2.5",
-     "cuota": 1.2,
-     "clave": [
-      "Sporting de Gijón - UD Las Palmas",
-      "goles",
-      "local",
+      "Cordoba CF - Real Oviedo",
+      "corners",
+      "visitante",
       "2.5",
-      "Menos"
+      "Más"
      ]
     }
    ]
@@ -238,8 +192,8 @@
    "nombre": "Tarjetas local Más 0.5",
    "partidos": "FC Barcelona - Villarreal CF",
    "cuota": 1.2,
-   "p": 0.8121,
-   "p_modelo": 0.8123,
+   "p": 0.8127,
+   "p_modelo": 0.8129,
    "patas": [
     {
      "partido": "FC Barcelona - Villarreal CF",
@@ -281,29 +235,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles Más 1.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.2,
-   "p": 0.8086,
-   "p_modelo": 0.8197,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Goles Más 1.5",
-     "cuota": 1.2,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "goles",
-      "total",
-      "1.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Tarjetas Menos 5.5",
    "partidos": "AC Milan - Frosinone",
    "cuota": 1.21,
@@ -327,22 +258,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners visitante Más 2.5",
-   "partidos": "Cordoba CF - Real Oviedo",
-   "cuota": 1.22,
-   "p": 0.8065,
-   "p_modelo": 0.8067,
+   "nombre": "Fueras de juego local Menos 2.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.2,
+   "p": 0.8064,
+   "p_modelo": 0.8066,
    "patas": [
     {
-     "partido": "Cordoba CF - Real Oviedo",
-     "texto": "Córners visitante Más 2.5",
-     "cuota": 1.22,
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Fueras de juego local Menos 2.5",
+     "cuota": 1.2,
      "clave": [
-      "Cordoba CF - Real Oviedo",
-      "corners",
-      "visitante",
+      "Paris FC - Angers SCO",
+      "fueras",
+      "local",
       "2.5",
-      "Más"
+      "Menos"
      ]
     }
    ]
@@ -442,42 +373,19 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles local Más 0.5",
-   "partidos": "Bologna FC - Udinese Calcio",
-   "cuota": 1.2,
-   "p": 0.8039,
-   "p_modelo": 0.815,
+   "nombre": "Goles Menos 4.5",
+   "partidos": "Cordoba CF - Real Oviedo",
+   "cuota": 1.22,
+   "p": 0.8041,
+   "p_modelo": 0.8043,
    "patas": [
     {
-     "partido": "Bologna FC - Udinese Calcio",
-     "texto": "Goles local Más 0.5",
-     "cuota": 1.2,
+     "partido": "Cordoba CF - Real Oviedo",
+     "texto": "Goles Menos 4.5",
+     "cuota": 1.22,
      "clave": [
-      "Bologna FC - Udinese Calcio",
+      "Cordoba CF - Real Oviedo",
       "goles",
-      "local",
-      "0.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tarjetas Menos 4.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.25,
-   "p": 0.8034,
-   "p_modelo": 0.8036,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Tarjetas Menos 4.5",
-     "cuota": 1.25,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "tarjetas",
       "total",
       "4.5",
       "Menos"
@@ -511,52 +419,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles Menos 4.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.23,
-   "p": 0.8023,
-   "p_modelo": 0.8025,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Goles Menos 4.5",
-     "cuota": 1.23,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "goles",
-      "total",
-      "4.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Fueras de juego Más 2.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.21,
-   "p": 0.8023,
-   "p_modelo": 0.8025,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Fueras de juego Más 2.5",
-     "cuota": 1.21,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "fueras",
-      "total",
-      "2.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Fueras de juego visitante Más 0.5",
    "partidos": "Olympique Marseille - Le Mans UC 72",
    "cuota": 1.2,
@@ -580,6 +442,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Tarjetas Menos 4.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.25,
+   "p": 0.8019,
+   "p_modelo": 0.8021,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Tarjetas Menos 4.5",
+     "cuota": 1.25,
+     "clave": [
+      "Juventus FC - Venezia FC",
+      "tarjetas",
+      "total",
+      "4.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Resultado: gana alguno (sin empate)",
    "partidos": "Atalanta - Inter de Milán",
    "cuota": 1.2,
@@ -596,29 +481,6 @@
       "total",
       "",
       "12"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles Más 1.5",
-   "partidos": "Cordoba CF - Real Oviedo",
-   "cuota": 1.2,
-   "p": 0.8014,
-   "p_modelo": 0.8125,
-   "patas": [
-    {
-     "partido": "Cordoba CF - Real Oviedo",
-     "texto": "Goles Más 1.5",
-     "cuota": 1.2,
-     "clave": [
-      "Cordoba CF - Real Oviedo",
-      "goles",
-      "total",
-      "1.5",
-      "Más"
      ]
     }
    ]
@@ -652,8 +514,8 @@
    "nombre": "Tiros al arco visitante Más 2.5",
    "partidos": "US Sassuolo Calcio - Genoa CFC",
    "cuota": 1.2,
-   "p": 0.801,
-   "p_modelo": 0.8012,
+   "p": 0.8007,
+   "p_modelo": 0.8009,
    "patas": [
     {
      "partido": "US Sassuolo Calcio - Genoa CFC",
@@ -664,29 +526,6 @@
       "al_arco",
       "visitante",
       "2.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners Más 7.0",
-   "partidos": "Huachipato - Deportes Concepcion",
-   "cuota": 1.29,
-   "p": 0.8005,
-   "p_modelo": 0.8007,
-   "patas": [
-    {
-     "partido": "Huachipato - Deportes Concepcion",
-     "texto": "Córners Más 7.0",
-     "cuota": 1.29,
-     "clave": [
-      "Huachipato - Deportes Concepcion",
-      "corners",
-      "total",
-      "7.0",
       "Más"
      ]
     }
@@ -718,6 +557,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Resultado: gana alguno (sin empate)",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.2,
+   "p": 0.8,
+   "p_modelo": 0.8002,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Resultado: gana alguno (sin empate)",
+     "cuota": 1.2,
+     "clave": [
+      "Juventus FC - Venezia FC",
+      "resultado",
+      "total",
+      "",
+      "12"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Tiros al arco visitante Más 2.5",
    "partidos": "Guadalajara Chivas - Cruz Azul",
    "cuota": 1.2,
@@ -741,6 +603,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Córners Más 7.0",
+   "partidos": "Huachipato - Deportes Concepcion",
+   "cuota": 1.29,
+   "p": 0.7994,
+   "p_modelo": 0.7996,
+   "patas": [
+    {
+     "partido": "Huachipato - Deportes Concepcion",
+     "texto": "Córners Más 7.0",
+     "cuota": 1.29,
+     "clave": [
+      "Huachipato - Deportes Concepcion",
+      "corners",
+      "total",
+      "7.0",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Goles Más 1.5",
    "partidos": "Deportes Limache - Deportes La Serena",
    "cuota": 1.21,
@@ -753,6 +638,29 @@
      "cuota": 1.21,
      "clave": [
       "Deportes Limache - Deportes La Serena",
+      "goles",
+      "total",
+      "1.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles Más 1.5",
+   "partidos": "Cordoba CF - Real Oviedo",
+   "cuota": 1.2,
+   "p": 0.7989,
+   "p_modelo": 0.8099,
+   "patas": [
+    {
+     "partido": "Cordoba CF - Real Oviedo",
+     "texto": "Goles Más 1.5",
+     "cuota": 1.2,
+     "clave": [
+      "Cordoba CF - Real Oviedo",
       "goles",
       "total",
       "1.5",
@@ -810,22 +718,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles Menos 4.5",
-   "partidos": "Cordoba CF - Real Oviedo",
-   "cuota": 1.22,
-   "p": 0.798,
-   "p_modelo": 0.7982,
+   "nombre": "Goles local Más 0.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.2,
+   "p": 0.7981,
+   "p_modelo": 0.8091,
    "patas": [
     {
-     "partido": "Cordoba CF - Real Oviedo",
-     "texto": "Goles Menos 4.5",
-     "cuota": 1.22,
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Goles local Más 0.5",
+     "cuota": 1.2,
      "clave": [
-      "Cordoba CF - Real Oviedo",
+      "Racing Santander - Real Sociedad",
       "goles",
-      "total",
-      "4.5",
-      "Menos"
+      "local",
+      "0.5",
+      "Más"
      ]
     }
    ]
@@ -849,29 +757,6 @@
       "total",
       "8.0",
       "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Fueras de juego local Menos 2.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.2,
-   "p": 0.7977,
-   "p_modelo": 0.7979,
-   "patas": [
-    {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Fueras de juego local Menos 2.5",
-     "cuota": 1.2,
-     "clave": [
-      "Paris FC - Angers SCO",
-      "fueras",
-      "local",
-      "2.5",
-      "Menos"
      ]
     }
    ]
@@ -905,8 +790,8 @@
    "nombre": "Tarjetas visitante Menos 3.5",
    "partidos": "FC Barcelona - Villarreal CF",
    "cuota": 1.22,
-   "p": 0.797,
-   "p_modelo": 0.7972,
+   "p": 0.7971,
+   "p_modelo": 0.7973,
    "patas": [
     {
      "partido": "FC Barcelona - Villarreal CF",
@@ -941,6 +826,29 @@
       "total",
       "12.5",
       "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners Más 8.0",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.31,
+   "p": 0.7964,
+   "p_modelo": 0.7964,
+   "patas": [
+    {
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Córners Más 8.0",
+     "cuota": 1.31,
+     "clave": [
+      "Racing Santander - Real Sociedad",
+      "corners",
+      "total",
+      "8.0",
+      "Más"
      ]
     }
    ]
@@ -1017,29 +925,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco local Más 1.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.21,
-   "p": 0.7956,
-   "p_modelo": 0.7958,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Tiros al arco local Más 1.5",
-     "cuota": 1.21,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "al_arco",
-      "local",
-      "1.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Córners Menos 12.5",
    "partidos": "Fluminense RJ - Mirassol SP",
    "cuota": 1.21,
@@ -1056,29 +941,6 @@
       "total",
       "12.5",
       "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners Más 8.0",
-   "partidos": "Cordoba CF - Real Oviedo",
-   "cuota": 1.28,
-   "p": 0.7946,
-   "p_modelo": 0.7948,
-   "patas": [
-    {
-     "partido": "Cordoba CF - Real Oviedo",
-     "texto": "Córners Más 8.0",
-     "cuota": 1.28,
-     "clave": [
-      "Cordoba CF - Real Oviedo",
-      "corners",
-      "total",
-      "8.0",
-      "Más"
      ]
     }
    ]
@@ -1109,21 +971,44 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners Más 7.0",
-   "partidos": "Sporting de Gijón - UD Las Palmas",
-   "cuota": 1.3,
-   "p": 0.7943,
-   "p_modelo": 0.7943,
+   "nombre": "Goles visitante Menos 1.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.22,
+   "p": 0.7944,
+   "p_modelo": 0.7946,
    "patas": [
     {
-     "partido": "Sporting de Gijón - UD Las Palmas",
-     "texto": "Córners Más 7.0",
-     "cuota": 1.3,
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Goles visitante Menos 1.5",
+     "cuota": 1.22,
      "clave": [
-      "Sporting de Gijón - UD Las Palmas",
+      "Paris FC - Angers SCO",
+      "goles",
+      "visitante",
+      "1.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners Más 8.0",
+   "partidos": "Cordoba CF - Real Oviedo",
+   "cuota": 1.28,
+   "p": 0.794,
+   "p_modelo": 0.7942,
+   "patas": [
+    {
+     "partido": "Cordoba CF - Real Oviedo",
+     "texto": "Córners Más 8.0",
+     "cuota": 1.28,
+     "clave": [
+      "Cordoba CF - Real Oviedo",
       "corners",
       "total",
-      "7.0",
+      "8.0",
       "Más"
      ]
     }
@@ -1132,21 +1017,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles local Menos 2.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.23,
-   "p": 0.7942,
-   "p_modelo": 0.7944,
+   "nombre": "Tiros al arco local Menos 4.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.2,
+   "p": 0.7938,
+   "p_modelo": 0.8135,
    "patas": [
     {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Goles local Menos 2.5",
-     "cuota": 1.23,
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Tiros al arco local Menos 4.5",
+     "cuota": 1.2,
      "clave": [
-      "Racing Santander - Real Sociedad",
-      "goles",
+      "Hull City - Brighton & Hove Albion",
+      "al_arco",
       "local",
-      "2.5",
+      "4.5",
       "Menos"
      ]
     }
@@ -1201,29 +1086,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners Más 8.0",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.31,
-   "p": 0.7928,
-   "p_modelo": 0.7928,
-   "patas": [
-    {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Córners Más 8.0",
-     "cuota": 1.31,
-     "clave": [
-      "Racing Santander - Real Sociedad",
-      "corners",
-      "total",
-      "8.0",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Córners local Más 2.5",
    "partidos": "FC Lorient - Stade Rennais FC",
    "cuota": 1.2,
@@ -1247,21 +1109,44 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles local Más 0.5",
+   "nombre": "Goles local Menos 2.5",
    "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.21,
-   "p": 0.7911,
-   "p_modelo": 0.802,
+   "cuota": 1.23,
+   "p": 0.7912,
+   "p_modelo": 0.7914,
    "patas": [
     {
      "partido": "Racing Santander - Real Sociedad",
-     "texto": "Goles local Más 0.5",
-     "cuota": 1.21,
+     "texto": "Goles local Menos 2.5",
+     "cuota": 1.23,
      "clave": [
       "Racing Santander - Real Sociedad",
       "goles",
       "local",
-      "0.5",
+      "2.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles Más 1.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.22,
+   "p": 0.791,
+   "p_modelo": 0.8019,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Goles Más 1.5",
+     "cuota": 1.22,
+     "clave": [
+      "Juventus FC - Venezia FC",
+      "goles",
+      "total",
+      "1.5",
       "Más"
      ]
     }
@@ -1362,6 +1247,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Goles local Menos 1.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.23,
+   "p": 0.7901,
+   "p_modelo": 0.7903,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Goles local Menos 1.5",
+     "cuota": 1.23,
+     "clave": [
+      "Hull City - Brighton & Hove Albion",
+      "goles",
+      "local",
+      "1.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Resultado: gana alguno (sin empate)",
    "partidos": "AC Milan - Frosinone",
    "cuota": 1.2,
@@ -1378,29 +1286,6 @@
       "total",
       "",
       "12"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles local Menos 1.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.23,
-   "p": 0.7896,
-   "p_modelo": 0.7898,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Goles local Menos 1.5",
-     "cuota": 1.23,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "goles",
-      "local",
-      "1.5",
-      "Menos"
      ]
     }
    ]
@@ -1446,29 +1331,6 @@
       "goles",
       "local",
       "2.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tiros al arco local Menos 4.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.2,
-   "p": 0.7889,
-   "p_modelo": 0.8085,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Tiros al arco local Menos 4.5",
-     "cuota": 1.2,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "al_arco",
-      "local",
-      "4.5",
       "Menos"
      ]
     }
@@ -1569,6 +1431,52 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Córners visitante Menos 7.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.21,
+   "p": 0.7876,
+   "p_modelo": 0.7878,
+   "patas": [
+    {
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Córners visitante Menos 7.5",
+     "cuota": 1.21,
+     "clave": [
+      "Racing Santander - Real Sociedad",
+      "corners",
+      "visitante",
+      "7.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners Más 7.0",
+   "partidos": "Sporting de Gijón - UD Las Palmas",
+   "cuota": 1.3,
+   "p": 0.7875,
+   "p_modelo": 0.7875,
+   "patas": [
+    {
+     "partido": "Sporting de Gijón - UD Las Palmas",
+     "texto": "Córners Más 7.0",
+     "cuota": 1.3,
+     "clave": [
+      "Sporting de Gijón - UD Las Palmas",
+      "corners",
+      "total",
+      "7.0",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Goles Menos 4.5",
    "partidos": "Olympique Marseille - Le Mans UC 72",
    "cuota": 1.26,
@@ -1638,6 +1546,75 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Fueras de juego Más 2.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.21,
+   "p": 0.7865,
+   "p_modelo": 0.7867,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Fueras de juego Más 2.5",
+     "cuota": 1.21,
+     "clave": [
+      "Hull City - Brighton & Hove Albion",
+      "fueras",
+      "total",
+      "2.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Fueras de juego Más 2.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.24,
+   "p": 0.7859,
+   "p_modelo": 0.7861,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Fueras de juego Más 2.5",
+     "cuota": 1.24,
+     "clave": [
+      "Juventus FC - Venezia FC",
+      "fueras",
+      "total",
+      "2.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tiros al arco local Más 1.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.21,
+   "p": 0.7856,
+   "p_modelo": 0.7858,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Tiros al arco local Más 1.5",
+     "cuota": 1.21,
+     "clave": [
+      "Hull City - Brighton & Hove Albion",
+      "al_arco",
+      "local",
+      "1.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Córners visitante Más 2.5",
    "partidos": "Vancouver Whitecaps FC - Real Salt Lake",
    "cuota": 1.31,
@@ -1654,29 +1631,6 @@
       "visitante",
       "2.5",
       "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners visitante Menos 7.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.21,
-   "p": 0.7852,
-   "p_modelo": 0.7854,
-   "patas": [
-    {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Córners visitante Menos 7.5",
-     "cuota": 1.21,
-     "clave": [
-      "Racing Santander - Real Sociedad",
-      "corners",
-      "visitante",
-      "7.5",
-      "Menos"
      ]
     }
    ]
@@ -1753,29 +1707,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Fueras de juego local Menos 3.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.22,
-   "p": 0.784,
-   "p_modelo": 0.7842,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Fueras de juego local Menos 3.5",
-     "cuota": 1.22,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "fueras",
-      "local",
-      "3.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Córners Más 7.0",
    "partidos": "CA Osasuna - Málaga CF",
    "cuota": 1.3,
@@ -1845,34 +1776,11 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners visitante Menos 8.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.21,
-   "p": 0.7817,
-   "p_modelo": 0.7819,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Córners visitante Menos 8.5",
-     "cuota": 1.21,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "corners",
-      "visitante",
-      "8.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Córners local Menos 6.5",
    "partidos": "FC Augsburg - FSV Mainz 05",
    "cuota": 1.22,
-   "p": 0.7817,
-   "p_modelo": 0.7819,
+   "p": 0.7823,
+   "p_modelo": 0.7825,
    "patas": [
     {
      "partido": "FC Augsburg - FSV Mainz 05",
@@ -1891,21 +1799,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners local Más 4.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.21,
-   "p": 0.7814,
-   "p_modelo": 0.7816,
+   "nombre": "Córners visitante Más 3.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.22,
+   "p": 0.7817,
+   "p_modelo": 0.7819,
    "patas": [
     {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Córners local Más 4.5",
-     "cuota": 1.21,
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Córners visitante Más 3.5",
+     "cuota": 1.22,
      "clave": [
-      "Juventus FC - Venezia FC",
+      "Racing Santander - Real Sociedad",
       "corners",
-      "local",
-      "4.5",
+      "visitante",
+      "3.5",
       "Más"
      ]
     }
@@ -1914,45 +1822,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles local Menos 2.5",
-   "partidos": "Bologna FC - Udinese Calcio",
-   "cuota": 1.25,
-   "p": 0.7814,
-   "p_modelo": 0.7816,
-   "patas": [
-    {
-     "partido": "Bologna FC - Udinese Calcio",
-     "texto": "Goles local Menos 2.5",
-     "cuota": 1.25,
-     "clave": [
-      "Bologna FC - Udinese Calcio",
-      "goles",
-      "local",
-      "2.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners Más 8.0",
+   "nombre": "Córners visitante Menos 8.5",
    "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.32,
+   "cuota": 1.22,
    "p": 0.7812,
-   "p_modelo": 0.7812,
+   "p_modelo": 0.7814,
    "patas": [
     {
      "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Córners Más 8.0",
-     "cuota": 1.32,
+     "texto": "Córners visitante Menos 8.5",
+     "cuota": 1.22,
      "clave": [
       "Hull City - Brighton & Hove Albion",
       "corners",
-      "total",
-      "8.0",
-      "Más"
+      "visitante",
+      "8.5",
+      "Menos"
      ]
     }
    ]
@@ -2052,11 +1937,34 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Córners Más 8.0",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.32,
+   "p": 0.7796,
+   "p_modelo": 0.7796,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Córners Más 8.0",
+     "cuota": 1.32,
+     "clave": [
+      "Hull City - Brighton & Hove Albion",
+      "corners",
+      "total",
+      "8.0",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Fueras de juego Menos 5.5",
    "partidos": "Racing Santander - Real Sociedad",
    "cuota": 1.21,
-   "p": 0.779,
-   "p_modelo": 0.7792,
+   "p": 0.7786,
+   "p_modelo": 0.7788,
    "patas": [
     {
      "partido": "Racing Santander - Real Sociedad",
@@ -2075,22 +1983,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners Menos 12.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.21,
-   "p": 0.7788,
-   "p_modelo": 0.779,
+   "nombre": "Córners visitante Más 2.5",
+   "partidos": "Sporting de Gijón - UD Las Palmas",
+   "cuota": 1.25,
+   "p": 0.7783,
+   "p_modelo": 0.7785,
    "patas": [
     {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Córners Menos 12.5",
-     "cuota": 1.21,
+     "partido": "Sporting de Gijón - UD Las Palmas",
+     "texto": "Córners visitante Más 2.5",
+     "cuota": 1.25,
      "clave": [
-      "Juventus FC - Venezia FC",
+      "Sporting de Gijón - UD Las Palmas",
       "corners",
-      "total",
-      "12.5",
-      "Menos"
+      "visitante",
+      "2.5",
+      "Más"
      ]
     }
    ]
@@ -2144,75 +2052,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Fueras de juego Más 2.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.24,
-   "p": 0.7776,
-   "p_modelo": 0.7778,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Fueras de juego Más 2.5",
-     "cuota": 1.24,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "fueras",
-      "total",
-      "2.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tiros al arco local Menos 10.5",
-   "partidos": "FC Barcelona - Villarreal CF",
-   "cuota": 1.21,
-   "p": 0.7773,
-   "p_modelo": 0.7966,
-   "patas": [
-    {
-     "partido": "FC Barcelona - Villarreal CF",
-     "texto": "Tiros al arco local Menos 10.5",
-     "cuota": 1.21,
-     "clave": [
-      "FC Barcelona - Villarreal CF",
-      "al_arco",
-      "local",
-      "10.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners visitante Más 2.5",
-   "partidos": "Sporting de Gijón - UD Las Palmas",
-   "cuota": 1.25,
-   "p": 0.7772,
-   "p_modelo": 0.7774,
-   "patas": [
-    {
-     "partido": "Sporting de Gijón - UD Las Palmas",
-     "texto": "Córners visitante Más 2.5",
-     "cuota": 1.25,
-     "clave": [
-      "Sporting de Gijón - UD Las Palmas",
-      "corners",
-      "visitante",
-      "2.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Tiros al arco visitante Menos 5.5",
    "partidos": "Liverpool FC - Manchester United",
    "cuota": 1.21,
@@ -2239,8 +2078,8 @@
    "nombre": "Tiros al arco Menos 11.5",
    "partidos": "Paris FC - Angers SCO",
    "cuota": 1.21,
-   "p": 0.7762,
-   "p_modelo": 0.7954,
+   "p": 0.7765,
+   "p_modelo": 0.7958,
    "patas": [
     {
      "partido": "Paris FC - Angers SCO",
@@ -2259,21 +2098,44 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco Menos 14.5",
+   "nombre": "Goles local Menos 2.5",
+   "partidos": "Bologna FC - Udinese Calcio",
+   "cuota": 1.27,
+   "p": 0.7764,
+   "p_modelo": 0.7766,
+   "patas": [
+    {
+     "partido": "Bologna FC - Udinese Calcio",
+     "texto": "Goles local Menos 2.5",
+     "cuota": 1.27,
+     "clave": [
+      "Bologna FC - Udinese Calcio",
+      "goles",
+      "local",
+      "2.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tiros al arco local Menos 10.5",
    "partidos": "FC Barcelona - Villarreal CF",
-   "cuota": 1.22,
-   "p": 0.7747,
-   "p_modelo": 0.7939,
+   "cuota": 1.21,
+   "p": 0.7745,
+   "p_modelo": 0.7937,
    "patas": [
     {
      "partido": "FC Barcelona - Villarreal CF",
-     "texto": "Tiros al arco Menos 14.5",
-     "cuota": 1.22,
+     "texto": "Tiros al arco local Menos 10.5",
+     "cuota": 1.21,
      "clave": [
       "FC Barcelona - Villarreal CF",
       "al_arco",
-      "total",
-      "14.5",
+      "local",
+      "10.5",
       "Menos"
      ]
     }
@@ -2297,29 +2159,6 @@
       "al_arco",
       "total",
       "7.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles local Más 0.5",
-   "partidos": "Sporting de Gijón - UD Las Palmas",
-   "cuota": 1.25,
-   "p": 0.7737,
-   "p_modelo": 0.7844,
-   "patas": [
-    {
-     "partido": "Sporting de Gijón - UD Las Palmas",
-     "texto": "Goles local Más 0.5",
-     "cuota": 1.25,
-     "clave": [
-      "Sporting de Gijón - UD Las Palmas",
-      "goles",
-      "local",
-      "0.5",
       "Más"
      ]
     }
@@ -2352,17 +2191,17 @@
    "tipo": "sencilla",
    "etiqueta": "protección",
    "nombre": "Goles visitante Menos 1.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.25,
-   "p": 0.7731,
-   "p_modelo": 0.7733,
+   "partidos": "Bologna FC - Udinese Calcio",
+   "cuota": 1.26,
+   "p": 0.7726,
+   "p_modelo": 0.7728,
    "patas": [
     {
-     "partido": "Paris FC - Angers SCO",
+     "partido": "Bologna FC - Udinese Calcio",
      "texto": "Goles visitante Menos 1.5",
-     "cuota": 1.25,
+     "cuota": 1.26,
      "clave": [
-      "Paris FC - Angers SCO",
+      "Bologna FC - Udinese Calcio",
       "goles",
       "visitante",
       "1.5",
@@ -2397,22 +2236,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners visitante Más 3.5",
-   "partidos": "Racing Santander - Real Sociedad",
+   "nombre": "Tiros al arco Menos 14.5",
+   "partidos": "FC Barcelona - Villarreal CF",
    "cuota": 1.22,
-   "p": 0.7721,
-   "p_modelo": 0.7723,
+   "p": 0.7722,
+   "p_modelo": 0.7913,
    "patas": [
     {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Córners visitante Más 3.5",
+     "partido": "FC Barcelona - Villarreal CF",
+     "texto": "Tiros al arco Menos 14.5",
      "cuota": 1.22,
      "clave": [
-      "Racing Santander - Real Sociedad",
-      "corners",
-      "visitante",
-      "3.5",
-      "Más"
+      "FC Barcelona - Villarreal CF",
+      "al_arco",
+      "total",
+      "14.5",
+      "Menos"
      ]
     }
    ]
@@ -2459,52 +2298,6 @@
       "total",
       "7.5",
       "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners local Menos 6.5",
-   "partidos": "US Sassuolo Calcio - Genoa CFC",
-   "cuota": 1.24,
-   "p": 0.7715,
-   "p_modelo": 0.7717,
-   "patas": [
-    {
-     "partido": "US Sassuolo Calcio - Genoa CFC",
-     "texto": "Córners local Menos 6.5",
-     "cuota": 1.24,
-     "clave": [
-      "US Sassuolo Calcio - Genoa CFC",
-      "corners",
-      "local",
-      "6.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Fueras de juego local Más 0.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.25,
-   "p": 0.7713,
-   "p_modelo": 0.7715,
-   "patas": [
-    {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Fueras de juego local Más 0.5",
-     "cuota": 1.25,
-     "clave": [
-      "Paris FC - Angers SCO",
-      "fueras",
-      "local",
-      "0.5",
-      "Más"
      ]
     }
    ]
@@ -2607,8 +2400,8 @@
    "nombre": "Tarjetas Más 1.5",
    "partidos": "Juventus FC - Venezia FC",
    "cuota": 1.23,
-   "p": 0.7703,
-   "p_modelo": 0.7705,
+   "p": 0.7699,
+   "p_modelo": 0.7701,
    "patas": [
     {
      "partido": "Juventus FC - Venezia FC",
@@ -2696,45 +2489,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tarjetas Menos 5.5",
-   "partidos": "FC Augsburg - FSV Mainz 05",
-   "cuota": 1.3,
-   "p": 0.7679,
-   "p_modelo": 0.7679,
+   "nombre": "Córners local Menos 6.5",
+   "partidos": "US Sassuolo Calcio - Genoa CFC",
+   "cuota": 1.24,
+   "p": 0.7676,
+   "p_modelo": 0.7678,
    "patas": [
     {
-     "partido": "FC Augsburg - FSV Mainz 05",
-     "texto": "Tarjetas Menos 5.5",
-     "cuota": 1.3,
+     "partido": "US Sassuolo Calcio - Genoa CFC",
+     "texto": "Córners local Menos 6.5",
+     "cuota": 1.24,
      "clave": [
-      "FC Augsburg - FSV Mainz 05",
-      "tarjetas",
-      "total",
-      "5.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tarjetas local Más 0.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.25,
-   "p": 0.7677,
-   "p_modelo": 0.7679,
-   "patas": [
-    {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Tarjetas local Más 0.5",
-     "cuota": 1.25,
-     "clave": [
-      "Paris FC - Angers SCO",
-      "tarjetas",
+      "US Sassuolo Calcio - Genoa CFC",
+      "corners",
       "local",
-      "0.5",
-      "Más"
+      "6.5",
+      "Menos"
      ]
     }
    ]
@@ -2757,6 +2527,29 @@
       "goles",
       "local",
       "2.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tiros al arco Menos 13.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.23,
+   "p": 0.7668,
+   "p_modelo": 0.7858,
+   "patas": [
+    {
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Tiros al arco Menos 13.5",
+     "cuota": 1.23,
+     "clave": [
+      "Racing Santander - Real Sociedad",
+      "al_arco",
+      "total",
+      "13.5",
       "Menos"
      ]
     }
@@ -2857,22 +2650,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco Menos 13.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.23,
-   "p": 0.7656,
-   "p_modelo": 0.7846,
+   "nombre": "Goles local Más 0.5",
+   "partidos": "Sporting de Gijón - UD Las Palmas",
+   "cuota": 1.27,
+   "p": 0.765,
+   "p_modelo": 0.7755,
    "patas": [
     {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Tiros al arco Menos 13.5",
-     "cuota": 1.23,
+     "partido": "Sporting de Gijón - UD Las Palmas",
+     "texto": "Goles local Más 0.5",
+     "cuota": 1.27,
      "clave": [
-      "Racing Santander - Real Sociedad",
-      "al_arco",
-      "total",
-      "13.5",
-      "Menos"
+      "Sporting de Gijón - UD Las Palmas",
+      "goles",
+      "local",
+      "0.5",
+      "Más"
      ]
     }
    ]
@@ -2903,6 +2696,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Tiros al arco local Menos 8.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.23,
+   "p": 0.7642,
+   "p_modelo": 0.7832,
+   "patas": [
+    {
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Tiros al arco local Menos 8.5",
+     "cuota": 1.23,
+     "clave": [
+      "Paris FC - Angers SCO",
+      "al_arco",
+      "local",
+      "8.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Goles local Más 0.5",
    "partidos": "Bragantino SP - Vasco da Gama RJ",
    "cuota": 1.25,
@@ -2919,29 +2735,6 @@
       "local",
       "0.5",
       "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tiros al arco local Menos 8.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.23,
-   "p": 0.7639,
-   "p_modelo": 0.7828,
-   "patas": [
-    {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Tiros al arco local Menos 8.5",
-     "cuota": 1.23,
-     "clave": [
-      "Paris FC - Angers SCO",
-      "al_arco",
-      "local",
-      "8.5",
-      "Menos"
      ]
     }
    ]
@@ -2995,29 +2788,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco local Menos 8.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.22,
-   "p": 0.7636,
-   "p_modelo": 0.7825,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Tiros al arco local Menos 8.5",
-     "cuota": 1.22,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "al_arco",
-      "local",
-      "8.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Tiros al arco visitante Menos 6.5",
    "partidos": "Bragantino SP - Vasco da Gama RJ",
    "cuota": 1.23,
@@ -3033,6 +2803,29 @@
       "al_arco",
       "visitante",
       "6.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tarjetas Menos 5.5",
+   "partidos": "FC Augsburg - FSV Mainz 05",
+   "cuota": 1.3,
+   "p": 0.7632,
+   "p_modelo": 0.7632,
+   "patas": [
+    {
+     "partido": "FC Augsburg - FSV Mainz 05",
+     "texto": "Tarjetas Menos 5.5",
+     "cuota": 1.3,
+     "clave": [
+      "FC Augsburg - FSV Mainz 05",
+      "tarjetas",
+      "total",
+      "5.5",
       "Menos"
      ]
     }
@@ -3064,22 +2857,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Remates Más 26.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.24,
-   "p": 0.7629,
-   "p_modelo": 0.7783,
+   "nombre": "Tiros al arco local Menos 8.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.22,
+   "p": 0.763,
+   "p_modelo": 0.7819,
    "patas": [
     {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Remates Más 26.5",
-     "cuota": 1.24,
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Tiros al arco local Menos 8.5",
+     "cuota": 1.22,
      "clave": [
-      "Racing Santander - Real Sociedad",
-      "remates",
-      "total",
-      "26.5",
-      "Más"
+      "Juventus FC - Venezia FC",
+      "al_arco",
+      "local",
+      "8.5",
+      "Menos"
      ]
     }
    ]
@@ -3110,22 +2903,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Resultado: gana alguno (sin empate)",
+   "nombre": "Remates Más 26.5",
    "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.25,
-   "p": 0.7612,
-   "p_modelo": 0.7614,
+   "cuota": 1.24,
+   "p": 0.7622,
+   "p_modelo": 0.7776,
    "patas": [
     {
      "partido": "Racing Santander - Real Sociedad",
-     "texto": "Resultado: gana alguno (sin empate)",
-     "cuota": 1.25,
+     "texto": "Remates Más 26.5",
+     "cuota": 1.24,
      "clave": [
       "Racing Santander - Real Sociedad",
-      "resultado",
+      "remates",
       "total",
-      "",
-      "12"
+      "26.5",
+      "Más"
      ]
     }
    ]
@@ -3133,21 +2926,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners local Más 2.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.25,
-   "p": 0.7609,
-   "p_modelo": 0.7611,
+   "nombre": "Córners Más 8.0",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.36,
+   "p": 0.7607,
+   "p_modelo": 0.7607,
    "patas": [
     {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Córners local Más 2.5",
-     "cuota": 1.25,
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Córners Más 8.0",
+     "cuota": 1.36,
      "clave": [
-      "Hull City - Brighton & Hove Albion",
+      "Juventus FC - Venezia FC",
       "corners",
-      "local",
-      "2.5",
+      "total",
+      "8.0",
       "Más"
      ]
     }
@@ -3195,6 +2988,29 @@
       "local",
       "6.5",
       "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Resultado: gana alguno (sin empate)",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.24,
+   "p": 0.7596,
+   "p_modelo": 0.7598,
+   "patas": [
+    {
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Resultado: gana alguno (sin empate)",
+     "cuota": 1.24,
+     "clave": [
+      "Racing Santander - Real Sociedad",
+      "resultado",
+      "total",
+      "",
+      "12"
      ]
     }
    ]
@@ -3271,22 +3087,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco visitante Menos 7.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
+   "nombre": "Tarjetas local Más 0.5",
+   "partidos": "Paris FC - Angers SCO",
    "cuota": 1.25,
-   "p": 0.7583,
-   "p_modelo": 0.7771,
+   "p": 0.7587,
+   "p_modelo": 0.7589,
    "patas": [
     {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Tiros al arco visitante Menos 7.5",
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Tarjetas local Más 0.5",
      "cuota": 1.25,
      "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "al_arco",
-      "visitante",
-      "7.5",
-      "Menos"
+      "Paris FC - Angers SCO",
+      "tarjetas",
+      "local",
+      "0.5",
+      "Más"
      ]
     }
    ]
@@ -3340,52 +3156,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners visitante Más 2.5",
-   "partidos": "US Sassuolo Calcio - Genoa CFC",
-   "cuota": 1.25,
-   "p": 0.758,
-   "p_modelo": 0.7582,
-   "patas": [
-    {
-     "partido": "US Sassuolo Calcio - Genoa CFC",
-     "texto": "Córners visitante Más 2.5",
-     "cuota": 1.25,
-     "clave": [
-      "US Sassuolo Calcio - Genoa CFC",
-      "corners",
-      "visitante",
-      "2.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles local Menos 3.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.28,
-   "p": 0.7579,
-   "p_modelo": 0.7581,
-   "patas": [
-    {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Goles local Menos 3.5",
-     "cuota": 1.28,
-     "clave": [
-      "Paris FC - Angers SCO",
-      "goles",
-      "local",
-      "3.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Goles local Menos 2.5",
    "partidos": "Queretaro FC - Club Necaxa",
    "cuota": 1.28,
@@ -3409,21 +3179,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco local Más 3.5",
-   "partidos": "Bologna FC - Udinese Calcio",
-   "cuota": 1.26,
-   "p": 0.7576,
-   "p_modelo": 0.7578,
+   "nombre": "Fueras de juego local Más 0.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.25,
+   "p": 0.7565,
+   "p_modelo": 0.7567,
    "patas": [
     {
-     "partido": "Bologna FC - Udinese Calcio",
-     "texto": "Tiros al arco local Más 3.5",
-     "cuota": 1.26,
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Fueras de juego local Más 0.5",
+     "cuota": 1.25,
      "clave": [
-      "Bologna FC - Udinese Calcio",
-      "al_arco",
+      "Paris FC - Angers SCO",
+      "fueras",
       "local",
-      "3.5",
+      "0.5",
       "Más"
      ]
     }
@@ -3455,29 +3225,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Remates Más 24.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.26,
-   "p": 0.7556,
-   "p_modelo": 0.7709,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Remates Más 24.5",
-     "cuota": 1.26,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "remates",
-      "total",
-      "24.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Córners Menos 11.5",
    "partidos": "CA Osasuna - Málaga CF",
    "cuota": 1.28,
@@ -3494,6 +3241,29 @@
       "total",
       "11.5",
       "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners local Más 2.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.25,
+   "p": 0.7552,
+   "p_modelo": 0.7554,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Córners local Más 2.5",
+     "cuota": 1.25,
+     "clave": [
+      "Hull City - Brighton & Hove Albion",
+      "corners",
+      "local",
+      "2.5",
+      "Más"
      ]
     }
    ]
@@ -3524,29 +3294,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Resultado: gana alguno (sin empate)",
-   "partidos": "FC Augsburg - FSV Mainz 05",
-   "cuota": 1.25,
-   "p": 0.7543,
-   "p_modelo": 0.7545,
-   "patas": [
-    {
-     "partido": "FC Augsburg - FSV Mainz 05",
-     "texto": "Resultado: gana alguno (sin empate)",
-     "cuota": 1.25,
-     "clave": [
-      "FC Augsburg - FSV Mainz 05",
-      "resultado",
-      "total",
-      "",
-      "12"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Córners visitante Menos 5.5",
    "partidos": "Liverpool FC - Manchester United",
    "cuota": 1.27,
@@ -3562,29 +3309,6 @@
       "corners",
       "visitante",
       "5.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Saques de meta Menos 18.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.24,
-   "p": 0.754,
-   "p_modelo": 0.7542,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Saques de meta Menos 18.5",
-     "cuota": 1.24,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "saques_meta",
-      "total",
-      "18.5",
       "Menos"
      ]
     }
@@ -3616,22 +3340,45 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco visitante Más 3.5",
-   "partidos": "FC Augsburg - FSV Mainz 05",
-   "cuota": 1.26,
-   "p": 0.7522,
-   "p_modelo": 0.7524,
+   "nombre": "Córners Menos 12.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.27,
+   "p": 0.7521,
+   "p_modelo": 0.7523,
    "patas": [
     {
-     "partido": "FC Augsburg - FSV Mainz 05",
-     "texto": "Tiros al arco visitante Más 3.5",
-     "cuota": 1.26,
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Córners Menos 12.5",
+     "cuota": 1.27,
      "clave": [
-      "FC Augsburg - FSV Mainz 05",
+      "Juventus FC - Venezia FC",
+      "corners",
+      "total",
+      "12.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tiros al arco visitante Menos 7.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.25,
+   "p": 0.7521,
+   "p_modelo": 0.7708,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Tiros al arco visitante Menos 7.5",
+     "cuota": 1.25,
+     "clave": [
+      "Hull City - Brighton & Hove Albion",
       "al_arco",
       "visitante",
-      "3.5",
-      "Más"
+      "7.5",
+      "Menos"
      ]
     }
    ]
@@ -3662,6 +3409,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Córners visitante Más 2.5",
+   "partidos": "US Sassuolo Calcio - Genoa CFC",
+   "cuota": 1.25,
+   "p": 0.7511,
+   "p_modelo": 0.7513,
+   "patas": [
+    {
+     "partido": "US Sassuolo Calcio - Genoa CFC",
+     "texto": "Córners visitante Más 2.5",
+     "cuota": 1.25,
+     "clave": [
+      "US Sassuolo Calcio - Genoa CFC",
+      "corners",
+      "visitante",
+      "2.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Resultado: gana alguno (sin empate)",
    "partidos": "Getafe CF - Atlético Madrid",
    "cuota": 1.25,
@@ -3685,11 +3455,57 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Tiros al arco visitante Más 3.5",
+   "partidos": "FC Augsburg - FSV Mainz 05",
+   "cuota": 1.26,
+   "p": 0.7508,
+   "p_modelo": 0.751,
+   "patas": [
+    {
+     "partido": "FC Augsburg - FSV Mainz 05",
+     "texto": "Tiros al arco visitante Más 3.5",
+     "cuota": 1.26,
+     "clave": [
+      "FC Augsburg - FSV Mainz 05",
+      "al_arco",
+      "visitante",
+      "3.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tiros al arco local Más 3.5",
+   "partidos": "Bologna FC - Udinese Calcio",
+   "cuota": 1.26,
+   "p": 0.7507,
+   "p_modelo": 0.7509,
+   "patas": [
+    {
+     "partido": "Bologna FC - Udinese Calcio",
+     "texto": "Tiros al arco local Más 3.5",
+     "cuota": 1.26,
+     "clave": [
+      "Bologna FC - Udinese Calcio",
+      "al_arco",
+      "local",
+      "3.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Resultado: gana alguno (sin empate)",
    "partidos": "Cordoba CF - Real Oviedo",
    "cuota": 1.26,
-   "p": 0.7509,
-   "p_modelo": 0.7511,
+   "p": 0.7497,
+   "p_modelo": 0.7499,
    "patas": [
     {
      "partido": "Cordoba CF - Real Oviedo",
@@ -3697,6 +3513,75 @@
      "cuota": 1.26,
      "clave": [
       "Cordoba CF - Real Oviedo",
+      "resultado",
+      "total",
+      "",
+      "12"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Saques de meta Menos 18.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.24,
+   "p": 0.7497,
+   "p_modelo": 0.7499,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Saques de meta Menos 18.5",
+     "cuota": 1.24,
+     "clave": [
+      "Hull City - Brighton & Hove Albion",
+      "saques_meta",
+      "total",
+      "18.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles local Menos 4.5",
+   "partidos": "FC Barcelona - Villarreal CF",
+   "cuota": 1.3,
+   "p": 0.7492,
+   "p_modelo": 0.7492,
+   "patas": [
+    {
+     "partido": "FC Barcelona - Villarreal CF",
+     "texto": "Goles local Menos 4.5",
+     "cuota": 1.3,
+     "clave": [
+      "FC Barcelona - Villarreal CF",
+      "goles",
+      "local",
+      "4.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Resultado: gana alguno (sin empate)",
+   "partidos": "FC Augsburg - FSV Mainz 05",
+   "cuota": 1.25,
+   "p": 0.7492,
+   "p_modelo": 0.7494,
+   "patas": [
+    {
+     "partido": "FC Augsburg - FSV Mainz 05",
+     "texto": "Resultado: gana alguno (sin empate)",
+     "cuota": 1.25,
+     "clave": [
+      "FC Augsburg - FSV Mainz 05",
       "resultado",
       "total",
       "",
@@ -3731,44 +3616,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles Más 1.5",
-   "partidos": "US Sassuolo Calcio - Genoa CFC",
-   "cuota": 1.31,
-   "p": 0.7481,
-   "p_modelo": 0.7584,
+   "nombre": "Tiros al arco visitante Más 1.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.28,
+   "p": 0.7489,
+   "p_modelo": 0.7491,
    "patas": [
     {
-     "partido": "US Sassuolo Calcio - Genoa CFC",
-     "texto": "Goles Más 1.5",
-     "cuota": 1.31,
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Tiros al arco visitante Más 1.5",
+     "cuota": 1.28,
      "clave": [
-      "US Sassuolo Calcio - Genoa CFC",
-      "goles",
-      "total",
-      "1.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles visitante Más 0.5",
-   "partidos": "US Sassuolo Calcio - Genoa CFC",
-   "cuota": 1.3,
-   "p": 0.7479,
-   "p_modelo": 0.7582,
-   "patas": [
-    {
-     "partido": "US Sassuolo Calcio - Genoa CFC",
-     "texto": "Goles visitante Más 0.5",
-     "cuota": 1.3,
-     "clave": [
-      "US Sassuolo Calcio - Genoa CFC",
-      "goles",
+      "Juventus FC - Venezia FC",
+      "al_arco",
       "visitante",
-      "0.5",
+      "1.5",
       "Más"
      ]
     }
@@ -3792,29 +3654,6 @@
       "remates",
       "total",
       "23.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tarjetas Más 2.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.3,
-   "p": 0.7464,
-   "p_modelo": 0.7464,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Tarjetas Más 2.5",
-     "cuota": 1.3,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "tarjetas",
-      "total",
-      "2.5",
       "Más"
      ]
     }
@@ -3869,52 +3708,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco visitante Más 1.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.28,
-   "p": 0.7461,
-   "p_modelo": 0.7463,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Tiros al arco visitante Más 1.5",
-     "cuota": 1.28,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "al_arco",
-      "visitante",
-      "1.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Remates visitante Más 12.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.25,
-   "p": 0.7457,
-   "p_modelo": 0.7608,
-   "patas": [
-    {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Remates visitante Más 12.5",
-     "cuota": 1.25,
-     "clave": [
-      "Racing Santander - Real Sociedad",
-      "remates",
-      "visitante",
-      "12.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Remates visitante Más 7.5",
    "partidos": "Olympique Marseille - Le Mans UC 72",
    "cuota": 1.24,
@@ -3961,6 +3754,52 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Tiros al arco Más 6.5",
+   "partidos": "US Sassuolo Calcio - Genoa CFC",
+   "cuota": 1.3,
+   "p": 0.7437,
+   "p_modelo": 0.7437,
+   "patas": [
+    {
+     "partido": "US Sassuolo Calcio - Genoa CFC",
+     "texto": "Tiros al arco Más 6.5",
+     "cuota": 1.3,
+     "clave": [
+      "US Sassuolo Calcio - Genoa CFC",
+      "al_arco",
+      "total",
+      "6.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles visitante Más 0.5",
+   "partidos": "US Sassuolo Calcio - Genoa CFC",
+   "cuota": 1.3,
+   "p": 0.7437,
+   "p_modelo": 0.754,
+   "patas": [
+    {
+     "partido": "US Sassuolo Calcio - Genoa CFC",
+     "texto": "Goles visitante Más 0.5",
+     "cuota": 1.3,
+     "clave": [
+      "US Sassuolo Calcio - Genoa CFC",
+      "goles",
+      "visitante",
+      "0.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Tiros al arco Más 7.5",
    "partidos": "Olympique Marseille - Le Mans UC 72",
    "cuota": 1.29,
@@ -3984,44 +3823,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners visitante Más 4.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.27,
-   "p": 0.7426,
-   "p_modelo": 0.7428,
+   "nombre": "Goles Menos 3.5",
+   "partidos": "Bologna FC - Udinese Calcio",
+   "cuota": 1.33,
+   "p": 0.7429,
+   "p_modelo": 0.7429,
    "patas": [
     {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Córners visitante Más 4.5",
-     "cuota": 1.27,
+     "partido": "Bologna FC - Udinese Calcio",
+     "texto": "Goles Menos 3.5",
+     "cuota": 1.33,
      "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "corners",
-      "visitante",
-      "4.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles Menos 4.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.31,
-   "p": 0.7426,
-   "p_modelo": 0.7426,
-   "patas": [
-    {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Goles Menos 4.5",
-     "cuota": 1.31,
-     "clave": [
-      "Paris FC - Angers SCO",
+      "Bologna FC - Udinese Calcio",
       "goles",
       "total",
-      "4.5",
+      "3.5",
       "Menos"
      ]
     }
@@ -4076,22 +3892,91 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco Más 6.5",
-   "partidos": "US Sassuolo Calcio - Genoa CFC",
-   "cuota": 1.3,
-   "p": 0.742,
-   "p_modelo": 0.742,
+   "nombre": "Remates visitante Más 12.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.25,
+   "p": 0.7421,
+   "p_modelo": 0.7571,
    "patas": [
     {
-     "partido": "US Sassuolo Calcio - Genoa CFC",
-     "texto": "Tiros al arco Más 6.5",
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Remates visitante Más 12.5",
+     "cuota": 1.25,
+     "clave": [
+      "Racing Santander - Real Sociedad",
+      "remates",
+      "visitante",
+      "12.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Remates Más 24.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.26,
+   "p": 0.7419,
+   "p_modelo": 0.7569,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Remates Más 24.5",
+     "cuota": 1.26,
+     "clave": [
+      "Juventus FC - Venezia FC",
+      "remates",
+      "total",
+      "24.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tarjetas Más 2.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.3,
+   "p": 0.7418,
+   "p_modelo": 0.7418,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Tarjetas Más 2.5",
      "cuota": 1.3,
      "clave": [
-      "US Sassuolo Calcio - Genoa CFC",
-      "al_arco",
+      "Hull City - Brighton & Hove Albion",
+      "tarjetas",
       "total",
-      "6.5",
+      "2.5",
       "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles local Menos 3.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.31,
+   "p": 0.7417,
+   "p_modelo": 0.7417,
+   "patas": [
+    {
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Goles local Menos 3.5",
+     "cuota": 1.31,
+     "clave": [
+      "Paris FC - Angers SCO",
+      "goles",
+      "local",
+      "3.5",
+      "Menos"
      ]
     }
    ]
@@ -4114,29 +3999,6 @@
       "fueras",
       "total",
       "2.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles local Más 0.5",
-   "partidos": "US Sassuolo Calcio - Genoa CFC",
-   "cuota": 1.31,
-   "p": 0.7413,
-   "p_modelo": 0.7515,
-   "patas": [
-    {
-     "partido": "US Sassuolo Calcio - Genoa CFC",
-     "texto": "Goles local Más 0.5",
-     "cuota": 1.31,
-     "clave": [
-      "US Sassuolo Calcio - Genoa CFC",
-      "goles",
-      "local",
-      "0.5",
       "Más"
      ]
     }
@@ -4168,21 +4030,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles visitante Menos 1.5",
-   "partidos": "Bologna FC - Udinese Calcio",
-   "cuota": 1.29,
-   "p": 0.7407,
-   "p_modelo": 0.7409,
+   "nombre": "Córners local Menos 7.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.31,
+   "p": 0.7408,
+   "p_modelo": 0.7408,
    "patas": [
     {
-     "partido": "Bologna FC - Udinese Calcio",
-     "texto": "Goles visitante Menos 1.5",
-     "cuota": 1.29,
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Córners local Menos 7.5",
+     "cuota": 1.31,
      "clave": [
-      "Bologna FC - Udinese Calcio",
-      "goles",
-      "visitante",
-      "1.5",
+      "Paris FC - Angers SCO",
+      "corners",
+      "local",
+      "7.5",
       "Menos"
      ]
     }
@@ -4214,22 +4076,68 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Fueras de juego Menos 5.5",
-   "partidos": "Juventus FC - Venezia FC",
+   "nombre": "Resultado: gana alguno (sin empate)",
+   "partidos": "Bologna FC - Udinese Calcio",
    "cuota": 1.27,
-   "p": 0.7388,
-   "p_modelo": 0.739,
+   "p": 0.7396,
+   "p_modelo": 0.7398,
    "patas": [
     {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Fueras de juego Menos 5.5",
+     "partido": "Bologna FC - Udinese Calcio",
+     "texto": "Resultado: gana alguno (sin empate)",
      "cuota": 1.27,
      "clave": [
-      "Juventus FC - Venezia FC",
-      "fueras",
+      "Bologna FC - Udinese Calcio",
+      "resultado",
       "total",
-      "5.5",
+      "",
+      "12"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners Menos 13.5",
+   "partidos": "FC Barcelona - Villarreal CF",
+   "cuota": 1.28,
+   "p": 0.7394,
+   "p_modelo": 0.7396,
+   "patas": [
+    {
+     "partido": "FC Barcelona - Villarreal CF",
+     "texto": "Córners Menos 13.5",
+     "cuota": 1.28,
+     "clave": [
+      "FC Barcelona - Villarreal CF",
+      "corners",
+      "total",
+      "13.5",
       "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners Más 7.0",
+   "partidos": "US Sassuolo Calcio - Genoa CFC",
+   "cuota": 1.42,
+   "p": 0.7391,
+   "p_modelo": 0.7391,
+   "patas": [
+    {
+     "partido": "US Sassuolo Calcio - Genoa CFC",
+     "texto": "Córners Más 7.0",
+     "cuota": 1.42,
+     "clave": [
+      "US Sassuolo Calcio - Genoa CFC",
+      "corners",
+      "total",
+      "7.0",
+      "Más"
      ]
     }
    ]
@@ -4260,21 +4168,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners Más 7.0",
-   "partidos": "US Sassuolo Calcio - Genoa CFC",
-   "cuota": 1.42,
+   "nombre": "Córners visitante Más 4.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.27,
    "p": 0.7379,
-   "p_modelo": 0.7379,
+   "p_modelo": 0.7381,
    "patas": [
     {
-     "partido": "US Sassuolo Calcio - Genoa CFC",
-     "texto": "Córners Más 7.0",
-     "cuota": 1.42,
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Córners visitante Más 4.5",
+     "cuota": 1.27,
      "clave": [
-      "US Sassuolo Calcio - Genoa CFC",
+      "Hull City - Brighton & Hove Albion",
       "corners",
-      "total",
-      "7.0",
+      "visitante",
+      "4.5",
       "Más"
      ]
     }
@@ -4329,29 +4237,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles local Menos 4.5",
-   "partidos": "FC Barcelona - Villarreal CF",
-   "cuota": 1.33,
-   "p": 0.7362,
-   "p_modelo": 0.7362,
-   "patas": [
-    {
-     "partido": "FC Barcelona - Villarreal CF",
-     "texto": "Goles local Menos 4.5",
-     "cuota": 1.33,
-     "clave": [
-      "FC Barcelona - Villarreal CF",
-      "goles",
-      "local",
-      "4.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Córners visitante Más 2.5",
    "partidos": "Werder Bremen - Hamburger SV",
    "cuota": 1.29,
@@ -4367,6 +4252,75 @@
       "corners",
       "visitante",
       "2.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles Más 1.5",
+   "partidos": "US Sassuolo Calcio - Genoa CFC",
+   "cuota": 1.32,
+   "p": 0.7346,
+   "p_modelo": 0.7447,
+   "patas": [
+    {
+     "partido": "US Sassuolo Calcio - Genoa CFC",
+     "texto": "Goles Más 1.5",
+     "cuota": 1.32,
+     "clave": [
+      "US Sassuolo Calcio - Genoa CFC",
+      "goles",
+      "total",
+      "1.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles Menos 4.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.32,
+   "p": 0.7345,
+   "p_modelo": 0.7345,
+   "patas": [
+    {
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Goles Menos 4.5",
+     "cuota": 1.32,
+     "clave": [
+      "Paris FC - Angers SCO",
+      "goles",
+      "total",
+      "4.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners local Más 3.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.29,
+   "p": 0.7341,
+   "p_modelo": 0.7343,
+   "patas": [
+    {
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Córners local Más 3.5",
+     "cuota": 1.29,
+     "clave": [
+      "Racing Santander - Real Sociedad",
+      "corners",
+      "local",
+      "3.5",
       "Más"
      ]
     }
@@ -4444,45 +4398,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners local Más 3.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.29,
-   "p": 0.7337,
-   "p_modelo": 0.7339,
-   "patas": [
-    {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Córners local Más 3.5",
-     "cuota": 1.29,
-     "clave": [
-      "Racing Santander - Real Sociedad",
-      "corners",
-      "local",
-      "3.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles Menos 3.5",
+   "nombre": "Resultado: Bologna FC o empate",
    "partidos": "Bologna FC - Udinese Calcio",
-   "cuota": 1.33,
+   "cuota": 1.21,
    "p": 0.7335,
-   "p_modelo": 0.7335,
+   "p_modelo": 0.8144,
    "patas": [
     {
      "partido": "Bologna FC - Udinese Calcio",
-     "texto": "Goles Menos 3.5",
-     "cuota": 1.33,
+     "texto": "Resultado: Bologna FC o empate",
+     "cuota": 1.21,
      "clave": [
       "Bologna FC - Udinese Calcio",
-      "goles",
+      "resultado",
       "total",
-      "3.5",
-      "Menos"
+      "",
+      "1X"
      ]
     }
    ]
@@ -4536,22 +4467,137 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles visitante Menos 2.5",
-   "partidos": "FC Augsburg - FSV Mainz 05",
-   "cuota": 1.31,
-   "p": 0.7331,
-   "p_modelo": 0.7331,
+   "nombre": "Fueras de juego Menos 5.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.27,
+   "p": 0.7332,
+   "p_modelo": 0.7334,
    "patas": [
     {
-     "partido": "FC Augsburg - FSV Mainz 05",
-     "texto": "Goles visitante Menos 2.5",
-     "cuota": 1.31,
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Fueras de juego Menos 5.5",
+     "cuota": 1.27,
      "clave": [
-      "FC Augsburg - FSV Mainz 05",
-      "goles",
+      "Juventus FC - Venezia FC",
+      "fueras",
+      "total",
+      "5.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners local Menos 6.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.3,
+   "p": 0.7328,
+   "p_modelo": 0.7328,
+   "patas": [
+    {
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Córners local Menos 6.5",
+     "cuota": 1.3,
+     "clave": [
+      "Racing Santander - Real Sociedad",
+      "corners",
+      "local",
+      "6.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tarjetas visitante Menos 2.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.38,
+   "p": 0.7325,
+   "p_modelo": 0.7325,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Tarjetas visitante Menos 2.5",
+     "cuota": 1.38,
+     "clave": [
+      "Juventus FC - Venezia FC",
+      "tarjetas",
       "visitante",
       "2.5",
       "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners visitante Menos 6.5",
+   "partidos": "FC Augsburg - FSV Mainz 05",
+   "cuota": 1.31,
+   "p": 0.7321,
+   "p_modelo": 0.7321,
+   "patas": [
+    {
+     "partido": "FC Augsburg - FSV Mainz 05",
+     "texto": "Córners visitante Menos 6.5",
+     "cuota": 1.31,
+     "clave": [
+      "FC Augsburg - FSV Mainz 05",
+      "corners",
+      "visitante",
+      "6.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners Menos 12.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.3,
+   "p": 0.732,
+   "p_modelo": 0.732,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Córners Menos 12.5",
+     "cuota": 1.3,
+     "clave": [
+      "Hull City - Brighton & Hove Albion",
+      "corners",
+      "total",
+      "12.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles Más 1.5",
+   "partidos": "Sporting de Gijón - UD Las Palmas",
+   "cuota": 1.33,
+   "p": 0.7316,
+   "p_modelo": 0.7417,
+   "patas": [
+    {
+     "partido": "Sporting de Gijón - UD Las Palmas",
+     "texto": "Goles Más 1.5",
+     "cuota": 1.33,
+     "clave": [
+      "Sporting de Gijón - UD Las Palmas",
+      "goles",
+      "total",
+      "1.5",
+      "Más"
      ]
     }
    ]
@@ -4582,22 +4628,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles Menos 3.75",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.35,
-   "p": 0.7312,
-   "p_modelo": 0.7312,
+   "nombre": "Remates visitante Más 10.5",
+   "partidos": "US Sassuolo Calcio - Genoa CFC",
+   "cuota": 1.26,
+   "p": 0.7311,
+   "p_modelo": 0.7459,
    "patas": [
     {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Goles Menos 3.75",
-     "cuota": 1.35,
+     "partido": "US Sassuolo Calcio - Genoa CFC",
+     "texto": "Remates visitante Más 10.5",
+     "cuota": 1.26,
      "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "goles",
-      "total",
-      "3.75",
-      "Menos"
+      "US Sassuolo Calcio - Genoa CFC",
+      "remates",
+      "visitante",
+      "10.5",
+      "Más"
      ]
     }
    ]
@@ -4674,21 +4720,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles Más 1.5",
-   "partidos": "Bologna FC - Udinese Calcio",
-   "cuota": 1.33,
+   "nombre": "Goles local Más 0.5",
+   "partidos": "US Sassuolo Calcio - Genoa CFC",
+   "cuota": 1.31,
    "p": 0.7302,
    "p_modelo": 0.7403,
    "patas": [
     {
-     "partido": "Bologna FC - Udinese Calcio",
-     "texto": "Goles Más 1.5",
-     "cuota": 1.33,
+     "partido": "US Sassuolo Calcio - Genoa CFC",
+     "texto": "Goles local Más 0.5",
+     "cuota": 1.31,
      "clave": [
-      "Bologna FC - Udinese Calcio",
+      "US Sassuolo Calcio - Genoa CFC",
       "goles",
-      "total",
-      "1.5",
+      "local",
+      "0.5",
       "Más"
      ]
     }
@@ -4698,21 +4744,44 @@
    "tipo": "sencilla",
    "etiqueta": "protección",
    "nombre": "Tarjetas Más 2.5",
-   "partidos": "FC Augsburg - FSV Mainz 05",
-   "cuota": 1.3,
-   "p": 0.7296,
-   "p_modelo": 0.7296,
+   "partidos": "FC Barcelona - Villarreal CF",
+   "cuota": 1.32,
+   "p": 0.7297,
+   "p_modelo": 0.7297,
    "patas": [
     {
-     "partido": "FC Augsburg - FSV Mainz 05",
+     "partido": "FC Barcelona - Villarreal CF",
      "texto": "Tarjetas Más 2.5",
-     "cuota": 1.3,
+     "cuota": 1.32,
      "clave": [
-      "FC Augsburg - FSV Mainz 05",
+      "FC Barcelona - Villarreal CF",
       "tarjetas",
       "total",
       "2.5",
       "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Fueras de juego local Menos 3.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.29,
+   "p": 0.7296,
+   "p_modelo": 0.7298,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Fueras de juego local Menos 3.5",
+     "cuota": 1.29,
+     "clave": [
+      "Juventus FC - Venezia FC",
+      "fueras",
+      "local",
+      "3.5",
+      "Menos"
      ]
     }
    ]
@@ -4766,67 +4835,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles Más 1.5",
-   "partidos": "Sporting de Gijón - UD Las Palmas",
-   "cuota": 1.32,
-   "p": 0.7287,
-   "p_modelo": 0.7387,
-   "patas": [
-    {
-     "partido": "Sporting de Gijón - UD Las Palmas",
-     "texto": "Goles Más 1.5",
-     "cuota": 1.32,
-     "clave": [
-      "Sporting de Gijón - UD Las Palmas",
-      "goles",
-      "total",
-      "1.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners Menos 12.5",
+   "nombre": "Saques de banda visitante Menos 22.5",
    "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.3,
+   "cuota": 1.28,
    "p": 0.7282,
-   "p_modelo": 0.7282,
+   "p_modelo": 0.7284,
    "patas": [
     {
      "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Córners Menos 12.5",
-     "cuota": 1.3,
+     "texto": "Saques de banda visitante Menos 22.5",
+     "cuota": 1.28,
      "clave": [
       "Hull City - Brighton & Hove Albion",
-      "corners",
-      "total",
-      "12.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Remates local Menos 12.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.23,
-   "p": 0.7281,
-   "p_modelo": 0.7791,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Remates local Menos 12.5",
-     "cuota": 1.23,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "remates",
-      "local",
-      "12.5",
+      "saques_banda",
+      "visitante",
+      "22.5",
       "Menos"
      ]
     }
@@ -4858,136 +4881,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Remates visitante Más 10.5",
-   "partidos": "US Sassuolo Calcio - Genoa CFC",
-   "cuota": 1.26,
-   "p": 0.7275,
-   "p_modelo": 0.7422,
+   "nombre": "Goles Menos 3.5",
+   "partidos": "Huachipato - Deportes Concepcion",
+   "cuota": 1.34,
+   "p": 0.7276,
+   "p_modelo": 0.7276,
    "patas": [
     {
-     "partido": "US Sassuolo Calcio - Genoa CFC",
-     "texto": "Remates visitante Más 10.5",
-     "cuota": 1.26,
+     "partido": "Huachipato - Deportes Concepcion",
+     "texto": "Goles Menos 3.5",
+     "cuota": 1.34,
      "clave": [
-      "US Sassuolo Calcio - Genoa CFC",
-      "remates",
-      "visitante",
-      "10.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tarjetas Más 2.5",
-   "partidos": "FC Barcelona - Villarreal CF",
-   "cuota": 1.32,
-   "p": 0.7268,
-   "p_modelo": 0.7268,
-   "patas": [
-    {
-     "partido": "FC Barcelona - Villarreal CF",
-     "texto": "Tarjetas Más 2.5",
-     "cuota": 1.32,
-     "clave": [
-      "FC Barcelona - Villarreal CF",
-      "tarjetas",
+      "Huachipato - Deportes Concepcion",
+      "goles",
       "total",
-      "2.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners local Menos 6.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.3,
-   "p": 0.7267,
-   "p_modelo": 0.7267,
-   "patas": [
-    {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Córners local Menos 6.5",
-     "cuota": 1.3,
-     "clave": [
-      "Racing Santander - Real Sociedad",
-      "corners",
-      "local",
-      "6.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners Más 8.0",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.44,
-   "p": 0.7264,
-   "p_modelo": 0.7264,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Córners Más 8.0",
-     "cuota": 1.44,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "corners",
-      "total",
-      "8.0",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Resultado: gana alguno (sin empate)",
-   "partidos": "Bologna FC - Udinese Calcio",
-   "cuota": 1.28,
-   "p": 0.7264,
-   "p_modelo": 0.7266,
-   "patas": [
-    {
-     "partido": "Bologna FC - Udinese Calcio",
-     "texto": "Resultado: gana alguno (sin empate)",
-     "cuota": 1.28,
-     "clave": [
-      "Bologna FC - Udinese Calcio",
-      "resultado",
-      "total",
-      "",
-      "12"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tarjetas visitante Menos 2.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.38,
-   "p": 0.7261,
-   "p_modelo": 0.7261,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Tarjetas visitante Menos 2.5",
-     "cuota": 1.38,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "tarjetas",
-      "visitante",
-      "2.5",
+      "3.5",
       "Menos"
      ]
     }
@@ -5065,29 +4973,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles visitante Más 0.5",
-   "partidos": "Cordoba CF - Real Oviedo",
-   "cuota": 1.32,
-   "p": 0.7236,
-   "p_modelo": 0.7336,
-   "patas": [
-    {
-     "partido": "Cordoba CF - Real Oviedo",
-     "texto": "Goles visitante Más 0.5",
-     "cuota": 1.32,
-     "clave": [
-      "Cordoba CF - Real Oviedo",
-      "goles",
-      "visitante",
-      "0.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Remates local Menos 16.5",
    "partidos": "FC Lorient - Stade Rennais FC",
    "cuota": 1.23,
@@ -5157,6 +5042,75 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Fueras de juego Menos 5.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.31,
+   "p": 0.7228,
+   "p_modelo": 0.7228,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Fueras de juego Menos 5.5",
+     "cuota": 1.31,
+     "clave": [
+      "Hull City - Brighton & Hove Albion",
+      "fueras",
+      "total",
+      "5.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Remates local Menos 12.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.23,
+   "p": 0.7223,
+   "p_modelo": 0.7729,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Remates local Menos 12.5",
+     "cuota": 1.23,
+     "clave": [
+      "Hull City - Brighton & Hove Albion",
+      "remates",
+      "local",
+      "12.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles visitante Más 0.5",
+   "partidos": "Cordoba CF - Real Oviedo",
+   "cuota": 1.32,
+   "p": 0.7222,
+   "p_modelo": 0.7322,
+   "patas": [
+    {
+     "partido": "Cordoba CF - Real Oviedo",
+     "texto": "Goles visitante Más 0.5",
+     "cuota": 1.32,
+     "clave": [
+      "Cordoba CF - Real Oviedo",
+      "goles",
+      "visitante",
+      "0.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Tarjetas Más 2.5",
    "partidos": "Atalanta - Inter de Milán",
    "cuota": 1.42,
@@ -5173,52 +5127,6 @@
       "total",
       "2.5",
       "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Resultado: gana alguno (sin empate)",
-   "partidos": "Huachipato - Deportes Concepcion",
-   "cuota": 1.3,
-   "p": 0.7219,
-   "p_modelo": 0.7219,
-   "patas": [
-    {
-     "partido": "Huachipato - Deportes Concepcion",
-     "texto": "Resultado: gana alguno (sin empate)",
-     "cuota": 1.3,
-     "clave": [
-      "Huachipato - Deportes Concepcion",
-      "resultado",
-      "total",
-      "",
-      "12"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners visitante Menos 6.5",
-   "partidos": "FC Augsburg - FSV Mainz 05",
-   "cuota": 1.32,
-   "p": 0.7216,
-   "p_modelo": 0.7216,
-   "patas": [
-    {
-     "partido": "FC Augsburg - FSV Mainz 05",
-     "texto": "Córners visitante Menos 6.5",
-     "cuota": 1.32,
-     "clave": [
-      "FC Augsburg - FSV Mainz 05",
-      "corners",
-      "visitante",
-      "6.5",
-      "Menos"
      ]
     }
    ]
@@ -5272,29 +5180,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Resultado: gana alguno (sin empate)",
-   "partidos": "Sporting de Gijón - UD Las Palmas",
-   "cuota": 1.3,
-   "p": 0.721,
-   "p_modelo": 0.721,
-   "patas": [
-    {
-     "partido": "Sporting de Gijón - UD Las Palmas",
-     "texto": "Resultado: gana alguno (sin empate)",
-     "cuota": 1.3,
-     "clave": [
-      "Sporting de Gijón - UD Las Palmas",
-      "resultado",
-      "total",
-      "",
-      "12"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Tiros al arco local Menos 7.5",
    "partidos": "CA Rosario Central - Gimnasia Y Esgrima Mendoza",
    "cuota": 1.3,
@@ -5341,45 +5226,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Fueras de juego Menos 5.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.31,
+   "nombre": "Tarjetas Más 2.5",
+   "partidos": "FC Augsburg - FSV Mainz 05",
+   "cuota": 1.3,
    "p": 0.7206,
    "p_modelo": 0.7206,
    "patas": [
     {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Fueras de juego Menos 5.5",
-     "cuota": 1.31,
+     "partido": "FC Augsburg - FSV Mainz 05",
+     "texto": "Tarjetas Más 2.5",
+     "cuota": 1.3,
      "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "fueras",
+      "FC Augsburg - FSV Mainz 05",
+      "tarjetas",
       "total",
-      "5.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tiros al arco Menos 10.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.32,
-   "p": 0.7205,
-   "p_modelo": 0.7384,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Tiros al arco Menos 10.5",
-     "cuota": 1.32,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "al_arco",
-      "total",
-      "10.5",
-      "Menos"
+      "2.5",
+      "Más"
      ]
     }
    ]
@@ -5403,29 +5265,6 @@
       "total",
       "4.5",
       "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Remates Más 23.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.3,
-   "p": 0.7202,
-   "p_modelo": 0.7347,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Remates Más 23.5",
-     "cuota": 1.3,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "remates",
-      "total",
-      "23.5",
-      "Más"
      ]
     }
    ]
@@ -5479,22 +5318,68 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Fueras de juego Menos 3.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.33,
-   "p": 0.7189,
-   "p_modelo": 0.7189,
+   "nombre": "Remates local Menos 18.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.23,
+   "p": 0.7195,
+   "p_modelo": 0.7699,
    "patas": [
     {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Fueras de juego Menos 3.5",
-     "cuota": 1.33,
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Remates local Menos 18.5",
+     "cuota": 1.23,
      "clave": [
-      "Paris FC - Angers SCO",
-      "fueras",
-      "total",
-      "3.5",
+      "Racing Santander - Real Sociedad",
+      "remates",
+      "local",
+      "18.5",
       "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Resultado: gana alguno (sin empate)",
+   "partidos": "Sporting de Gijón - UD Las Palmas",
+   "cuota": 1.31,
+   "p": 0.7195,
+   "p_modelo": 0.7195,
+   "patas": [
+    {
+     "partido": "Sporting de Gijón - UD Las Palmas",
+     "texto": "Resultado: gana alguno (sin empate)",
+     "cuota": 1.31,
+     "clave": [
+      "Sporting de Gijón - UD Las Palmas",
+      "resultado",
+      "total",
+      "",
+      "12"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Resultado: gana alguno (sin empate)",
+   "partidos": "Huachipato - Deportes Concepcion",
+   "cuota": 1.31,
+   "p": 0.7191,
+   "p_modelo": 0.7191,
+   "patas": [
+    {
+     "partido": "Huachipato - Deportes Concepcion",
+     "texto": "Resultado: gana alguno (sin empate)",
+     "cuota": 1.31,
+     "clave": [
+      "Huachipato - Deportes Concepcion",
+      "resultado",
+      "total",
+      "",
+      "12"
      ]
     }
    ]
@@ -5525,21 +5410,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Fueras de juego visitante Menos 3.5",
+   "nombre": "Goles visitante Menos 2.5",
    "partidos": "FC Augsburg - FSV Mainz 05",
-   "cuota": 1.32,
+   "cuota": 1.34,
    "p": 0.7175,
    "p_modelo": 0.7175,
    "patas": [
     {
      "partido": "FC Augsburg - FSV Mainz 05",
-     "texto": "Fueras de juego visitante Menos 3.5",
-     "cuota": 1.32,
+     "texto": "Goles visitante Menos 2.5",
+     "cuota": 1.34,
      "clave": [
       "FC Augsburg - FSV Mainz 05",
-      "fueras",
+      "goles",
       "visitante",
-      "3.5",
+      "2.5",
       "Menos"
      ]
     }
@@ -5548,21 +5433,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners local Menos 7.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.31,
-   "p": 0.7174,
-   "p_modelo": 0.7174,
+   "nombre": "Tiros al arco Menos 10.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.32,
+   "p": 0.7172,
+   "p_modelo": 0.735,
    "patas": [
     {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Córners local Menos 7.5",
-     "cuota": 1.31,
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Tiros al arco Menos 10.5",
+     "cuota": 1.32,
      "clave": [
-      "Paris FC - Angers SCO",
-      "corners",
-      "local",
-      "7.5",
+      "Hull City - Brighton & Hove Albion",
+      "al_arco",
+      "total",
+      "10.5",
       "Menos"
      ]
     }
@@ -5594,6 +5479,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Resultado: gana alguno (sin empate)",
+   "partidos": "US Sassuolo Calcio - Genoa CFC",
+   "cuota": 1.32,
+   "p": 0.7167,
+   "p_modelo": 0.7167,
+   "patas": [
+    {
+     "partido": "US Sassuolo Calcio - Genoa CFC",
+     "texto": "Resultado: gana alguno (sin empate)",
+     "cuota": 1.32,
+     "clave": [
+      "US Sassuolo Calcio - Genoa CFC",
+      "resultado",
+      "total",
+      "",
+      "12"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Córners local Menos 5.5",
    "partidos": "FC Lorient - Stade Rennais FC",
    "cuota": 1.34,
@@ -5617,22 +5525,45 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Resultado: gana alguno (sin empate)",
-   "partidos": "US Sassuolo Calcio - Genoa CFC",
-   "cuota": 1.32,
+   "nombre": "Tarjetas visitante Menos 2.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.42,
+   "p": 0.7157,
+   "p_modelo": 0.7157,
+   "patas": [
+    {
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Tarjetas visitante Menos 2.5",
+     "cuota": 1.42,
+     "clave": [
+      "Paris FC - Angers SCO",
+      "tarjetas",
+      "visitante",
+      "2.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Fueras de juego Menos 3.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.33,
    "p": 0.7153,
    "p_modelo": 0.7153,
    "patas": [
     {
-     "partido": "US Sassuolo Calcio - Genoa CFC",
-     "texto": "Resultado: gana alguno (sin empate)",
-     "cuota": 1.32,
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Fueras de juego Menos 3.5",
+     "cuota": 1.33,
      "clave": [
-      "US Sassuolo Calcio - Genoa CFC",
-      "resultado",
+      "Paris FC - Angers SCO",
+      "fueras",
       "total",
-      "",
-      "12"
+      "3.5",
+      "Menos"
      ]
     }
    ]
@@ -5663,68 +5594,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Fueras de juego visitante Menos 3.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.33,
+   "nombre": "Remates Más 23.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.3,
    "p": 0.715,
-   "p_modelo": 0.715,
+   "p_modelo": 0.7294,
    "patas": [
     {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Fueras de juego visitante Menos 3.5",
-     "cuota": 1.33,
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Remates Más 23.5",
+     "cuota": 1.3,
      "clave": [
-      "Racing Santander - Real Sociedad",
-      "fueras",
-      "visitante",
-      "3.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Resultado: Bologna FC o empate",
-   "partidos": "Bologna FC - Udinese Calcio",
-   "cuota": 1.23,
-   "p": 0.7145,
-   "p_modelo": 0.7933,
-   "patas": [
-    {
-     "partido": "Bologna FC - Udinese Calcio",
-     "texto": "Resultado: Bologna FC o empate",
-     "cuota": 1.23,
-     "clave": [
-      "Bologna FC - Udinese Calcio",
-      "resultado",
+      "Hull City - Brighton & Hove Albion",
+      "remates",
       "total",
-      "",
-      "1X"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles Menos 3.5",
-   "partidos": "Huachipato - Deportes Concepcion",
-   "cuota": 1.37,
-   "p": 0.7142,
-   "p_modelo": 0.7142,
-   "patas": [
-    {
-     "partido": "Huachipato - Deportes Concepcion",
-     "texto": "Goles Menos 3.5",
-     "cuota": 1.37,
-     "clave": [
-      "Huachipato - Deportes Concepcion",
-      "goles",
-      "total",
-      "3.5",
-      "Menos"
+      "23.5",
+      "Más"
      ]
     }
    ]
@@ -5735,8 +5620,8 @@
    "nombre": "Fueras de juego Menos 6.5",
    "partidos": "FC Barcelona - Villarreal CF",
    "cuota": 1.32,
-   "p": 0.714,
-   "p_modelo": 0.714,
+   "p": 0.7146,
+   "p_modelo": 0.7146,
    "patas": [
     {
      "partido": "FC Barcelona - Villarreal CF",
@@ -5755,22 +5640,91 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Remates local Menos 18.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.23,
-   "p": 0.7131,
-   "p_modelo": 0.7631,
+   "nombre": "Goles Más 1.5",
+   "partidos": "Bologna FC - Udinese Calcio",
+   "cuota": 1.33,
+   "p": 0.7142,
+   "p_modelo": 0.724,
    "patas": [
     {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Remates local Menos 18.5",
-     "cuota": 1.23,
+     "partido": "Bologna FC - Udinese Calcio",
+     "texto": "Goles Más 1.5",
+     "cuota": 1.33,
      "clave": [
-      "Racing Santander - Real Sociedad",
+      "Bologna FC - Udinese Calcio",
+      "goles",
+      "total",
+      "1.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Remates local Menos 20.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.24,
+   "p": 0.7141,
+   "p_modelo": 0.7641,
+   "patas": [
+    {
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Remates local Menos 20.5",
+     "cuota": 1.24,
+     "clave": [
+      "Paris FC - Angers SCO",
       "remates",
       "local",
-      "18.5",
+      "20.5",
       "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Fueras de juego visitante Menos 3.5",
+   "partidos": "FC Augsburg - FSV Mainz 05",
+   "cuota": 1.32,
+   "p": 0.7141,
+   "p_modelo": 0.7141,
+   "patas": [
+    {
+     "partido": "FC Augsburg - FSV Mainz 05",
+     "texto": "Fueras de juego visitante Menos 3.5",
+     "cuota": 1.32,
+     "clave": [
+      "FC Augsburg - FSV Mainz 05",
+      "fueras",
+      "visitante",
+      "3.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tiros al arco Más 8.5",
+   "partidos": "FC Augsburg - FSV Mainz 05",
+   "cuota": 1.34,
+   "p": 0.7128,
+   "p_modelo": 0.7128,
+   "patas": [
+    {
+     "partido": "FC Augsburg - FSV Mainz 05",
+     "texto": "Tiros al arco Más 8.5",
+     "cuota": 1.34,
+     "clave": [
+      "FC Augsburg - FSV Mainz 05",
+      "al_arco",
+      "total",
+      "8.5",
+      "Más"
      ]
     }
    ]
@@ -5824,34 +5778,11 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners local Más 3.5",
-   "partidos": "Sporting de Gijón - UD Las Palmas",
-   "cuota": 1.23,
-   "p": 0.7127,
-   "p_modelo": 0.7129,
-   "patas": [
-    {
-     "partido": "Sporting de Gijón - UD Las Palmas",
-     "texto": "Córners local Más 3.5",
-     "cuota": 1.23,
-     "clave": [
-      "Sporting de Gijón - UD Las Palmas",
-      "corners",
-      "local",
-      "3.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Remates Más 25.5",
    "partidos": "FC Barcelona - Villarreal CF",
    "cuota": 1.31,
-   "p": 0.7124,
-   "p_modelo": 0.7268,
+   "p": 0.7126,
+   "p_modelo": 0.727,
    "patas": [
     {
      "partido": "FC Barcelona - Villarreal CF",
@@ -5916,22 +5847,45 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco visitante Más 1.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.35,
-   "p": 0.7115,
-   "p_modelo": 0.7115,
+   "nombre": "Fueras de juego visitante Menos 3.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.33,
+   "p": 0.7117,
+   "p_modelo": 0.7117,
    "patas": [
     {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Tiros al arco visitante Más 1.5",
-     "cuota": 1.35,
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Fueras de juego visitante Menos 3.5",
+     "cuota": 1.33,
      "clave": [
-      "Paris FC - Angers SCO",
-      "al_arco",
+      "Racing Santander - Real Sociedad",
+      "fueras",
       "visitante",
-      "1.5",
-      "Más"
+      "3.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners Menos 12.5",
+   "partidos": "Cordoba CF - Real Oviedo",
+   "cuota": 1.34,
+   "p": 0.7109,
+   "p_modelo": 0.7109,
+   "patas": [
+    {
+     "partido": "Cordoba CF - Real Oviedo",
+     "texto": "Córners Menos 12.5",
+     "cuota": 1.34,
+     "clave": [
+      "Cordoba CF - Real Oviedo",
+      "corners",
+      "total",
+      "12.5",
+      "Menos"
      ]
     }
    ]
@@ -5985,75 +5939,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco local Menos 6.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.33,
-   "p": 0.7092,
-   "p_modelo": 0.7268,
-   "patas": [
-    {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Tiros al arco local Menos 6.5",
-     "cuota": 1.33,
-     "clave": [
-      "Racing Santander - Real Sociedad",
-      "al_arco",
-      "local",
-      "6.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners local Menos 9.5",
-   "partidos": "FC Barcelona - Villarreal CF",
-   "cuota": 1.33,
-   "p": 0.7091,
-   "p_modelo": 0.7091,
-   "patas": [
-    {
-     "partido": "FC Barcelona - Villarreal CF",
-     "texto": "Córners local Menos 9.5",
-     "cuota": 1.33,
-     "clave": [
-      "FC Barcelona - Villarreal CF",
-      "corners",
-      "local",
-      "9.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Remates visitante Más 7.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.32,
-   "p": 0.7085,
-   "p_modelo": 0.7228,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Remates visitante Más 7.5",
-     "cuota": 1.32,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "remates",
-      "visitante",
-      "7.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Remates local Menos 19.5",
    "partidos": "Fluminense RJ - Mirassol SP",
    "cuota": 1.25,
@@ -6070,29 +5955,6 @@
       "local",
       "19.5",
       "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tiros al arco Más 8.5",
-   "partidos": "FC Augsburg - FSV Mainz 05",
-   "cuota": 1.34,
-   "p": 0.7082,
-   "p_modelo": 0.7082,
-   "patas": [
-    {
-     "partido": "FC Augsburg - FSV Mainz 05",
-     "texto": "Tiros al arco Más 8.5",
-     "cuota": 1.34,
-     "clave": [
-      "FC Augsburg - FSV Mainz 05",
-      "al_arco",
-      "total",
-      "8.5",
-      "Más"
      ]
     }
    ]
@@ -6146,21 +6008,44 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners Menos 12.5",
-   "partidos": "Cordoba CF - Real Oviedo",
-   "cuota": 1.34,
-   "p": 0.7071,
-   "p_modelo": 0.7071,
+   "nombre": "Tiros al arco visitante Más 1.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.35,
+   "p": 0.7073,
+   "p_modelo": 0.7073,
    "patas": [
     {
-     "partido": "Cordoba CF - Real Oviedo",
-     "texto": "Córners Menos 12.5",
-     "cuota": 1.34,
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Tiros al arco visitante Más 1.5",
+     "cuota": 1.35,
      "clave": [
-      "Cordoba CF - Real Oviedo",
-      "corners",
+      "Paris FC - Angers SCO",
+      "al_arco",
+      "visitante",
+      "1.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Remates Menos 32.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.25,
+   "p": 0.7061,
+   "p_modelo": 0.7556,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Remates Menos 32.5",
+     "cuota": 1.25,
+     "clave": [
+      "Juventus FC - Venezia FC",
+      "remates",
       "total",
-      "12.5",
+      "32.5",
       "Menos"
      ]
     }
@@ -6192,6 +6077,29 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Córners local Menos 9.5",
+   "partidos": "FC Barcelona - Villarreal CF",
+   "cuota": 1.33,
+   "p": 0.7057,
+   "p_modelo": 0.7057,
+   "patas": [
+    {
+     "partido": "FC Barcelona - Villarreal CF",
+     "texto": "Córners local Menos 9.5",
+     "cuota": 1.33,
+     "clave": [
+      "FC Barcelona - Villarreal CF",
+      "corners",
+      "local",
+      "9.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Goles Menos 3.75",
    "partidos": "Colo Colo - Universidad Catolica",
    "cuota": 1.39,
@@ -6204,6 +6112,52 @@
      "cuota": 1.39,
      "clave": [
       "Colo Colo - Universidad Catolica",
+      "goles",
+      "total",
+      "3.75",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tiros al arco local Menos 6.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.33,
+   "p": 0.7052,
+   "p_modelo": 0.7227,
+   "patas": [
+    {
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Tiros al arco local Menos 6.5",
+     "cuota": 1.33,
+     "clave": [
+      "Racing Santander - Real Sociedad",
+      "al_arco",
+      "local",
+      "6.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles Menos 3.75",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.4,
+   "p": 0.7047,
+   "p_modelo": 0.7047,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Goles Menos 3.75",
+     "cuota": 1.4,
+     "clave": [
+      "Juventus FC - Venezia FC",
       "goles",
       "total",
       "3.75",
@@ -6238,44 +6192,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Remates local Menos 20.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.24,
-   "p": 0.7042,
-   "p_modelo": 0.7536,
+   "nombre": "Saques de banda Más 31.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.26,
+   "p": 0.7044,
+   "p_modelo": 0.7377,
    "patas": [
     {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Remates local Menos 20.5",
-     "cuota": 1.24,
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Saques de banda Más 31.5",
+     "cuota": 1.26,
      "clave": [
-      "Paris FC - Angers SCO",
-      "remates",
-      "local",
-      "20.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Remates visitante Más 6.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.33,
-   "p": 0.7033,
-   "p_modelo": 0.7175,
-   "patas": [
-    {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Remates visitante Más 6.5",
-     "cuota": 1.33,
-     "clave": [
-      "Paris FC - Angers SCO",
-      "remates",
-      "visitante",
-      "6.5",
+      "Hull City - Brighton & Hove Albion",
+      "saques_banda",
+      "total",
+      "31.5",
       "Más"
      ]
     }
@@ -6284,45 +6215,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners Menos 13.0",
-   "partidos": "FC Barcelona - Villarreal CF",
-   "cuota": 1.45,
-   "p": 0.7018,
-   "p_modelo": 0.7018,
+   "nombre": "Córners local Más 3.5",
+   "partidos": "Sporting de Gijón - UD Las Palmas",
+   "cuota": 1.23,
+   "p": 0.7022,
+   "p_modelo": 0.7024,
    "patas": [
     {
-     "partido": "FC Barcelona - Villarreal CF",
-     "texto": "Córners Menos 13.0",
-     "cuota": 1.45,
+     "partido": "Sporting de Gijón - UD Las Palmas",
+     "texto": "Córners local Más 3.5",
+     "cuota": 1.23,
      "clave": [
-      "FC Barcelona - Villarreal CF",
+      "Sporting de Gijón - UD Las Palmas",
       "corners",
-      "total",
-      "13.0",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tarjetas visitante Menos 2.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.42,
-   "p": 0.7017,
-   "p_modelo": 0.7017,
-   "patas": [
-    {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Tarjetas visitante Menos 2.5",
-     "cuota": 1.42,
-     "clave": [
-      "Paris FC - Angers SCO",
-      "tarjetas",
-      "visitante",
-      "2.5",
-      "Menos"
+      "local",
+      "3.5",
+      "Más"
      ]
     }
    ]
@@ -6398,29 +6306,6 @@
   },
   {
    "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Remates visitante Menos 18.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.24,
-   "p": 0.7001,
-   "p_modelo": 0.7492,
-   "patas": [
-    {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Remates visitante Menos 18.5",
-     "cuota": 1.24,
-     "clave": [
-      "Racing Santander - Real Sociedad",
-      "remates",
-      "visitante",
-      "18.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Córners Más 9.0",
    "partidos": "Guadalajara Chivas - Cruz Azul",
@@ -6448,8 +6333,8 @@
    "nombre": "Tarjetas Más 5.5",
    "partidos": "Cordoba CF - Real Oviedo",
    "cuota": 1.5,
-   "p": 0.6888,
-   "p_modelo": 0.6888,
+   "p": 0.6928,
+   "p_modelo": 0.6928,
    "patas": [
     {
      "partido": "Cordoba CF - Real Oviedo",
@@ -6471,8 +6356,8 @@
    "nombre": "Córners Más 8.0",
    "partidos": "Sporting de Gijón - UD Las Palmas",
    "cuota": 1.55,
-   "p": 0.6768,
-   "p_modelo": 0.6768,
+   "p": 0.6723,
+   "p_modelo": 0.6723,
    "patas": [
     {
      "partido": "Sporting de Gijón - UD Las Palmas",
@@ -6494,8 +6379,8 @@
    "nombre": "Córners Más 9.0",
    "partidos": "Hull City - Brighton & Hove Albion",
    "cuota": 1.55,
-   "p": 0.6751,
-   "p_modelo": 0.6751,
+   "p": 0.6709,
+   "p_modelo": 0.6709,
    "patas": [
     {
      "partido": "Hull City - Brighton & Hove Albion",
@@ -6517,8 +6402,8 @@
    "nombre": "Córners visitante Más 3.5",
    "partidos": "Cordoba CF - Real Oviedo",
    "cuota": 1.52,
-   "p": 0.6661,
-   "p_modelo": 0.6661,
+   "p": 0.6678,
+   "p_modelo": 0.6678,
    "patas": [
     {
      "partido": "Cordoba CF - Real Oviedo",
@@ -6583,6 +6468,52 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Goles Menos 3.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.52,
+   "p": 0.6433,
+   "p_modelo": 0.6433,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Goles Menos 3.5",
+     "cuota": 1.52,
+     "clave": [
+      "Juventus FC - Venezia FC",
+      "goles",
+      "total",
+      "3.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Goles Más 2.0",
+   "partidos": "Sporting de Gijón - UD Las Palmas",
+   "cuota": 1.52,
+   "p": 0.6428,
+   "p_modelo": 0.6517,
+   "patas": [
+    {
+     "partido": "Sporting de Gijón - UD Las Palmas",
+     "texto": "Goles Más 2.0",
+     "cuota": 1.52,
+     "clave": [
+      "Sporting de Gijón - UD Las Palmas",
+      "goles",
+      "total",
+      "2.0",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Tiros al arco Más 8.5",
    "partidos": "Guadalajara Chivas - Cruz Azul",
    "cuota": 1.5,
@@ -6599,29 +6530,6 @@
       "total",
       "8.5",
       "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Tarjetas Menos 7.5",
-   "partidos": "Huachipato - Deportes Concepcion",
-   "cuota": 1.5,
-   "p": 0.6357,
-   "p_modelo": 0.6357,
-   "patas": [
-    {
-     "partido": "Huachipato - Deportes Concepcion",
-     "texto": "Tarjetas Menos 7.5",
-     "cuota": 1.5,
-     "clave": [
-      "Huachipato - Deportes Concepcion",
-      "tarjetas",
-      "total",
-      "7.5",
-      "Menos"
      ]
     }
    ]
@@ -6652,21 +6560,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Tiros al arco visitante Menos 6.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
+   "nombre": "Tarjetas Menos 7.5",
+   "partidos": "Huachipato - Deportes Concepcion",
    "cuota": 1.5,
-   "p": 0.6305,
-   "p_modelo": 0.6461,
+   "p": 0.6312,
+   "p_modelo": 0.6312,
    "patas": [
     {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Tiros al arco visitante Menos 6.5",
+     "partido": "Huachipato - Deportes Concepcion",
+     "texto": "Tarjetas Menos 7.5",
      "cuota": 1.5,
      "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "al_arco",
-      "visitante",
-      "6.5",
+      "Huachipato - Deportes Concepcion",
+      "tarjetas",
+      "total",
+      "7.5",
       "Menos"
      ]
     }
@@ -6678,8 +6586,8 @@
    "nombre": "Tarjetas Menos 4.5",
    "partidos": "FC Augsburg - FSV Mainz 05",
    "cuota": 1.57,
-   "p": 0.629,
-   "p_modelo": 0.629,
+   "p": 0.6296,
+   "p_modelo": 0.6296,
    "patas": [
     {
      "partido": "FC Augsburg - FSV Mainz 05",
@@ -6690,6 +6598,52 @@
       "tarjetas",
       "total",
       "4.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Goles local Menos 2.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.52,
+   "p": 0.6289,
+   "p_modelo": 0.6289,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Goles local Menos 2.5",
+     "cuota": 1.52,
+     "clave": [
+      "Juventus FC - Venezia FC",
+      "goles",
+      "local",
+      "2.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Tiros al arco visitante Menos 6.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.5,
+   "p": 0.6275,
+   "p_modelo": 0.6431,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Tiros al arco visitante Menos 6.5",
+     "cuota": 1.5,
+     "clave": [
+      "Hull City - Brighton & Hove Albion",
+      "al_arco",
+      "visitante",
+      "6.5",
       "Menos"
      ]
     }
@@ -6744,29 +6698,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Goles Menos 3.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.55,
-   "p": 0.6268,
-   "p_modelo": 0.6268,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Goles Menos 3.5",
-     "cuota": 1.55,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "goles",
-      "total",
-      "3.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Tiros al arco visitante Más 3.5",
    "partidos": "Guadalajara Chivas - Cruz Azul",
    "cuota": 1.5,
@@ -6783,6 +6714,29 @@
       "visitante",
       "3.5",
       "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Goles visitante Menos 1.5",
+   "partidos": "Huachipato - Deportes Concepcion",
+   "cuota": 1.52,
+   "p": 0.6257,
+   "p_modelo": 0.6257,
+   "patas": [
+    {
+     "partido": "Huachipato - Deportes Concepcion",
+     "texto": "Goles visitante Menos 1.5",
+     "cuota": 1.52,
+     "clave": [
+      "Huachipato - Deportes Concepcion",
+      "goles",
+      "visitante",
+      "1.5",
+      "Menos"
      ]
     }
    ]
@@ -6859,11 +6813,34 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Córners local Menos 6.5",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.57,
+   "p": 0.6191,
+   "p_modelo": 0.6191,
+   "patas": [
+    {
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Córners local Menos 6.5",
+     "cuota": 1.57,
+     "clave": [
+      "Paris FC - Angers SCO",
+      "corners",
+      "local",
+      "6.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Tiros al arco visitante Más 2.5",
    "partidos": "Bologna FC - Udinese Calcio",
    "cuota": 1.52,
-   "p": 0.6186,
-   "p_modelo": 0.6186,
+   "p": 0.6165,
+   "p_modelo": 0.6165,
    "patas": [
     {
      "partido": "Bologna FC - Udinese Calcio",
@@ -6905,52 +6882,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Goles local Menos 2.5",
-   "partidos": "Juventus FC - Venezia FC",
-   "cuota": 1.55,
-   "p": 0.6128,
-   "p_modelo": 0.6128,
-   "patas": [
-    {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Goles local Menos 2.5",
-     "cuota": 1.55,
-     "clave": [
-      "Juventus FC - Venezia FC",
-      "goles",
-      "local",
-      "2.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Goles visitante Menos 1.5",
-   "partidos": "Huachipato - Deportes Concepcion",
-   "cuota": 1.55,
-   "p": 0.6126,
-   "p_modelo": 0.6126,
-   "patas": [
-    {
-     "partido": "Huachipato - Deportes Concepcion",
-     "texto": "Goles visitante Menos 1.5",
-     "cuota": 1.55,
-     "clave": [
-      "Huachipato - Deportes Concepcion",
-      "goles",
-      "visitante",
-      "1.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Tiros al arco visitante Más 3.5",
    "partidos": "AC Milan - Frosinone",
    "cuota": 1.52,
@@ -6974,21 +6905,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Tiros al arco Menos 9.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
+   "nombre": "Goles local Menos 1.5",
+   "partidos": "Huachipato - Deportes Concepcion",
    "cuota": 1.55,
-   "p": 0.6093,
-   "p_modelo": 0.6244,
+   "p": 0.6096,
+   "p_modelo": 0.6096,
    "patas": [
     {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Tiros al arco Menos 9.5",
+     "partido": "Huachipato - Deportes Concepcion",
+     "texto": "Goles local Menos 1.5",
      "cuota": 1.55,
      "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "al_arco",
-      "total",
-      "9.5",
+      "Huachipato - Deportes Concepcion",
+      "goles",
+      "local",
+      "1.5",
       "Menos"
      ]
     }
@@ -7020,62 +6951,16 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Goles local Menos 1.5",
-   "partidos": "Huachipato - Deportes Concepcion",
-   "cuota": 1.57,
-   "p": 0.6036,
-   "p_modelo": 0.6036,
-   "patas": [
-    {
-     "partido": "Huachipato - Deportes Concepcion",
-     "texto": "Goles local Menos 1.5",
-     "cuota": 1.57,
-     "clave": [
-      "Huachipato - Deportes Concepcion",
-      "goles",
-      "local",
-      "1.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Saques de meta Menos 16.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.55,
-   "p": 0.6007,
-   "p_modelo": 0.6007,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Saques de meta Menos 16.5",
-     "cuota": 1.55,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "saques_meta",
-      "total",
-      "16.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Córners visitante Más 2.5",
    "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.57,
-   "p": 0.6002,
-   "p_modelo": 0.6002,
+   "cuota": 1.55,
+   "p": 0.6083,
+   "p_modelo": 0.6083,
    "patas": [
     {
      "partido": "Paris FC - Angers SCO",
      "texto": "Córners visitante Más 2.5",
-     "cuota": 1.57,
+     "cuota": 1.55,
      "clave": [
       "Paris FC - Angers SCO",
       "corners",
@@ -7089,21 +6974,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Córners local Menos 8.5",
-   "partidos": "FC Barcelona - Villarreal CF",
-   "cuota": 1.57,
-   "p": 0.5993,
-   "p_modelo": 0.5993,
+   "nombre": "Tiros al arco Menos 9.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.55,
+   "p": 0.6071,
+   "p_modelo": 0.6222,
    "patas": [
     {
-     "partido": "FC Barcelona - Villarreal CF",
-     "texto": "Córners local Menos 8.5",
-     "cuota": 1.57,
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Tiros al arco Menos 9.5",
+     "cuota": 1.55,
      "clave": [
-      "FC Barcelona - Villarreal CF",
-      "corners",
-      "local",
-      "8.5",
+      "Hull City - Brighton & Hove Albion",
+      "al_arco",
+      "total",
+      "9.5",
       "Menos"
      ]
     }
@@ -7112,21 +6997,44 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Tiros al arco Menos 12.5",
-   "partidos": "FC Barcelona - Villarreal CF",
-   "cuota": 1.55,
-   "p": 0.5993,
-   "p_modelo": 0.6142,
+   "nombre": "Goles Menos 3.75",
+   "partidos": "Paris FC - Angers SCO",
+   "cuota": 1.6,
+   "p": 0.6054,
+   "p_modelo": 0.6054,
    "patas": [
     {
-     "partido": "FC Barcelona - Villarreal CF",
-     "texto": "Tiros al arco Menos 12.5",
+     "partido": "Paris FC - Angers SCO",
+     "texto": "Goles Menos 3.75",
+     "cuota": 1.6,
+     "clave": [
+      "Paris FC - Angers SCO",
+      "goles",
+      "total",
+      "3.75",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Saques de meta Menos 16.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.55,
+   "p": 0.6039,
+   "p_modelo": 0.6039,
+   "patas": [
+    {
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Saques de meta Menos 16.5",
      "cuota": 1.55,
      "clave": [
-      "FC Barcelona - Villarreal CF",
-      "al_arco",
+      "Hull City - Brighton & Hove Albion",
+      "saques_meta",
       "total",
-      "12.5",
+      "16.5",
       "Menos"
      ]
     }
@@ -7204,22 +7112,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Ambos marcan: Sí",
-   "partidos": "Cordoba CF - Real Oviedo",
-   "cuota": 1.53,
-   "p": 0.5947,
-   "p_modelo": 0.6273,
+   "nombre": "Tiros al arco Menos 12.5",
+   "partidos": "FC Barcelona - Villarreal CF",
+   "cuota": 1.55,
+   "p": 0.5962,
+   "p_modelo": 0.611,
    "patas": [
     {
-     "partido": "Cordoba CF - Real Oviedo",
-     "texto": "Ambos marcan: Sí",
-     "cuota": 1.53,
+     "partido": "FC Barcelona - Villarreal CF",
+     "texto": "Tiros al arco Menos 12.5",
+     "cuota": 1.55,
      "clave": [
-      "Cordoba CF - Real Oviedo",
-      "ambos",
+      "FC Barcelona - Villarreal CF",
+      "al_arco",
       "total",
-      "",
-      "Sí"
+      "12.5",
+      "Menos"
      ]
     }
    ]
@@ -7227,22 +7135,45 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Tiros al arco visitante Más 4.5",
-   "partidos": "FC Augsburg - FSV Mainz 05",
+   "nombre": "Córners local Menos 8.5",
+   "partidos": "FC Barcelona - Villarreal CF",
    "cuota": 1.57,
+   "p": 0.5956,
+   "p_modelo": 0.5956,
+   "patas": [
+    {
+     "partido": "FC Barcelona - Villarreal CF",
+     "texto": "Córners local Menos 8.5",
+     "cuota": 1.57,
+     "clave": [
+      "FC Barcelona - Villarreal CF",
+      "corners",
+      "local",
+      "8.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Faltas Menos 23.5",
+   "partidos": "FC Barcelona - Villarreal CF",
+   "cuota": 1.6,
    "p": 0.5945,
    "p_modelo": 0.5945,
    "patas": [
     {
-     "partido": "FC Augsburg - FSV Mainz 05",
-     "texto": "Tiros al arco visitante Más 4.5",
-     "cuota": 1.57,
+     "partido": "FC Barcelona - Villarreal CF",
+     "texto": "Faltas Menos 23.5",
+     "cuota": 1.6,
      "clave": [
-      "FC Augsburg - FSV Mainz 05",
-      "al_arco",
-      "visitante",
-      "4.5",
-      "Más"
+      "FC Barcelona - Villarreal CF",
+      "faltas",
+      "total",
+      "23.5",
+      "Menos"
      ]
     }
    ]
@@ -7273,21 +7204,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Remates visitante Más 8.5",
-   "partidos": "Juventus FC - Venezia FC",
+   "nombre": "Tiros al arco visitante Más 4.5",
+   "partidos": "FC Augsburg - FSV Mainz 05",
    "cuota": 1.57,
-   "p": 0.5931,
-   "p_modelo": 0.6051,
+   "p": 0.5932,
+   "p_modelo": 0.5932,
    "patas": [
     {
-     "partido": "Juventus FC - Venezia FC",
-     "texto": "Remates visitante Más 8.5",
+     "partido": "FC Augsburg - FSV Mainz 05",
+     "texto": "Tiros al arco visitante Más 4.5",
      "cuota": 1.57,
      "clave": [
-      "Juventus FC - Venezia FC",
-      "remates",
+      "FC Augsburg - FSV Mainz 05",
+      "al_arco",
       "visitante",
-      "8.5",
+      "4.5",
       "Más"
      ]
     }
@@ -7342,22 +7273,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Goles Más 2.5",
+   "nombre": "Ambos marcan: Sí",
    "partidos": "Cordoba CF - Real Oviedo",
-   "cuota": 1.62,
-   "p": 0.5926,
-   "p_modelo": 0.6008,
+   "cuota": 1.53,
+   "p": 0.5921,
+   "p_modelo": 0.6246,
    "patas": [
     {
      "partido": "Cordoba CF - Real Oviedo",
-     "texto": "Goles Más 2.5",
-     "cuota": 1.62,
+     "texto": "Ambos marcan: Sí",
+     "cuota": 1.53,
      "clave": [
       "Cordoba CF - Real Oviedo",
-      "goles",
+      "ambos",
       "total",
-      "2.5",
-      "Más"
+      "",
+      "Sí"
      ]
     }
    ]
@@ -7388,22 +7319,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Córners local Menos 6.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.57,
-   "p": 0.5881,
-   "p_modelo": 0.5881,
+   "nombre": "Goles Más 2.5",
+   "partidos": "Cordoba CF - Real Oviedo",
+   "cuota": 1.62,
+   "p": 0.5849,
+   "p_modelo": 0.593,
    "patas": [
     {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Córners local Menos 6.5",
-     "cuota": 1.57,
+     "partido": "Cordoba CF - Real Oviedo",
+     "texto": "Goles Más 2.5",
+     "cuota": 1.62,
      "clave": [
-      "Paris FC - Angers SCO",
-      "corners",
-      "local",
-      "6.5",
-      "Menos"
+      "Cordoba CF - Real Oviedo",
+      "goles",
+      "total",
+      "2.5",
+      "Más"
      ]
     }
    ]
@@ -7434,11 +7365,57 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Remates visitante Más 8.5",
+   "partidos": "Juventus FC - Venezia FC",
+   "cuota": 1.57,
+   "p": 0.5795,
+   "p_modelo": 0.5912,
+   "patas": [
+    {
+     "partido": "Juventus FC - Venezia FC",
+     "texto": "Remates visitante Más 8.5",
+     "cuota": 1.57,
+     "clave": [
+      "Juventus FC - Venezia FC",
+      "remates",
+      "visitante",
+      "8.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Remates local Menos 16.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.52,
+   "p": 0.5782,
+   "p_modelo": 0.6187,
+   "patas": [
+    {
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Remates local Menos 16.5",
+     "cuota": 1.52,
+     "clave": [
+      "Racing Santander - Real Sociedad",
+      "remates",
+      "local",
+      "16.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Remates visitante Más 7.5",
    "partidos": "Paris FC - Angers SCO",
    "cuota": 1.6,
-   "p": 0.5778,
-   "p_modelo": 0.5895,
+   "p": 0.5768,
+   "p_modelo": 0.5885,
    "patas": [
     {
      "partido": "Paris FC - Angers SCO",
@@ -7449,29 +7426,6 @@
       "remates",
       "visitante",
       "7.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Córners Más 10.0",
-   "partidos": "Cordoba CF - Real Oviedo",
-   "cuota": 1.82,
-   "p": 0.5751,
-   "p_modelo": 0.5751,
-   "patas": [
-    {
-     "partido": "Cordoba CF - Real Oviedo",
-     "texto": "Córners Más 10.0",
-     "cuota": 1.82,
-     "clave": [
-      "Cordoba CF - Real Oviedo",
-      "corners",
-      "total",
-      "10.0",
       "Más"
      ]
     }
@@ -7503,21 +7457,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Remates local Menos 16.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.52,
-   "p": 0.5726,
-   "p_modelo": 0.6127,
+   "nombre": "Goles Menos 2.75",
+   "partidos": "Huachipato - Deportes Concepcion",
+   "cuota": 1.7,
+   "p": 0.5723,
+   "p_modelo": 0.5723,
    "patas": [
     {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Remates local Menos 16.5",
-     "cuota": 1.52,
+     "partido": "Huachipato - Deportes Concepcion",
+     "texto": "Goles Menos 2.75",
+     "cuota": 1.7,
      "clave": [
-      "Racing Santander - Real Sociedad",
-      "remates",
-      "local",
-      "16.5",
+      "Huachipato - Deportes Concepcion",
+      "goles",
+      "total",
+      "2.75",
       "Menos"
      ]
     }
@@ -7572,21 +7526,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Tarjetas local Menos 3.5",
-   "partidos": "Huachipato - Deportes Concepcion",
-   "cuota": 1.65,
-   "p": 0.5713,
-   "p_modelo": 0.5713,
+   "nombre": "Remates Menos 30.5",
+   "partidos": "FC Barcelona - Villarreal CF",
+   "cuota": 1.53,
+   "p": 0.5709,
+   "p_modelo": 0.6109,
    "patas": [
     {
-     "partido": "Huachipato - Deportes Concepcion",
-     "texto": "Tarjetas local Menos 3.5",
-     "cuota": 1.65,
+     "partido": "FC Barcelona - Villarreal CF",
+     "texto": "Remates Menos 30.5",
+     "cuota": 1.53,
      "clave": [
-      "Huachipato - Deportes Concepcion",
-      "tarjetas",
-      "local",
-      "3.5",
+      "FC Barcelona - Villarreal CF",
+      "remates",
+      "total",
+      "30.5",
       "Menos"
      ]
     }
@@ -7618,22 +7572,45 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Remates Menos 30.5",
-   "partidos": "FC Barcelona - Villarreal CF",
-   "cuota": 1.53,
-   "p": 0.5701,
-   "p_modelo": 0.6101,
+   "nombre": "Tarjetas local Menos 3.5",
+   "partidos": "Huachipato - Deportes Concepcion",
+   "cuota": 1.65,
+   "p": 0.5699,
+   "p_modelo": 0.5699,
    "patas": [
     {
-     "partido": "FC Barcelona - Villarreal CF",
-     "texto": "Remates Menos 30.5",
-     "cuota": 1.53,
+     "partido": "Huachipato - Deportes Concepcion",
+     "texto": "Tarjetas local Menos 3.5",
+     "cuota": 1.65,
      "clave": [
-      "FC Barcelona - Villarreal CF",
-      "remates",
-      "total",
-      "30.5",
+      "Huachipato - Deportes Concepcion",
+      "tarjetas",
+      "local",
+      "3.5",
       "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Córners Más 10.0",
+   "partidos": "Cordoba CF - Real Oviedo",
+   "cuota": 1.82,
+   "p": 0.5694,
+   "p_modelo": 0.5694,
+   "patas": [
+    {
+     "partido": "Cordoba CF - Real Oviedo",
+     "texto": "Córners Más 10.0",
+     "cuota": 1.82,
+     "clave": [
+      "Cordoba CF - Real Oviedo",
+      "corners",
+      "total",
+      "10.0",
+      "Más"
      ]
     }
    ]
@@ -7656,6 +7633,29 @@
       "remates",
       "local",
       "14.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Tiros al arco local Menos 5.5",
+   "partidos": "Racing Santander - Real Sociedad",
+   "cuota": 1.65,
+   "p": 0.5686,
+   "p_modelo": 0.5827,
+   "patas": [
+    {
+     "partido": "Racing Santander - Real Sociedad",
+     "texto": "Tiros al arco local Menos 5.5",
+     "cuota": 1.65,
+     "clave": [
+      "Racing Santander - Real Sociedad",
+      "al_arco",
+      "local",
+      "5.5",
       "Menos"
      ]
     }
@@ -7687,21 +7687,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Tiros al arco local Menos 5.5",
-   "partidos": "Racing Santander - Real Sociedad",
-   "cuota": 1.65,
-   "p": 0.5679,
-   "p_modelo": 0.582,
+   "nombre": "Saques de meta visitante Menos 6.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.67,
+   "p": 0.5642,
+   "p_modelo": 0.5642,
    "patas": [
     {
-     "partido": "Racing Santander - Real Sociedad",
-     "texto": "Tiros al arco local Menos 5.5",
-     "cuota": 1.65,
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Saques de meta visitante Menos 6.5",
+     "cuota": 1.67,
      "clave": [
-      "Racing Santander - Real Sociedad",
-      "al_arco",
-      "local",
-      "5.5",
+      "Hull City - Brighton & Hove Albion",
+      "saques_meta",
+      "visitante",
+      "6.5",
       "Menos"
      ]
     }
@@ -7713,8 +7713,8 @@
    "nombre": "Tiros al arco local Menos 8.5",
    "partidos": "FC Barcelona - Villarreal CF",
    "cuota": 1.65,
-   "p": 0.5668,
-   "p_modelo": 0.5809,
+   "p": 0.5629,
+   "p_modelo": 0.5769,
    "patas": [
     {
      "partido": "FC Barcelona - Villarreal CF",
@@ -7725,29 +7725,6 @@
       "al_arco",
       "local",
       "8.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Saques de meta visitante Menos 6.5",
-   "partidos": "Hull City - Brighton & Hove Albion",
-   "cuota": 1.67,
-   "p": 0.564,
-   "p_modelo": 0.564,
-   "patas": [
-    {
-     "partido": "Hull City - Brighton & Hove Albion",
-     "texto": "Saques de meta visitante Menos 6.5",
-     "cuota": 1.67,
-     "clave": [
-      "Hull City - Brighton & Hove Albion",
-      "saques_meta",
-      "visitante",
-      "6.5",
       "Menos"
      ]
     }
@@ -7783,7 +7760,7 @@
    "partidos": "Racing Santander - Real Sociedad",
    "cuota": 1.53,
    "p": 0.5586,
-   "p_modelo": 0.5977,
+   "p_modelo": 0.5978,
    "patas": [
     {
      "partido": "Racing Santander - Real Sociedad",
@@ -7794,29 +7771,6 @@
       "remates",
       "total",
       "32.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Goles Menos 2.75",
-   "partidos": "Huachipato - Deportes Concepcion",
-   "cuota": 1.75,
-   "p": 0.558,
-   "p_modelo": 0.558,
-   "patas": [
-    {
-     "partido": "Huachipato - Deportes Concepcion",
-     "texto": "Goles Menos 2.75",
-     "cuota": 1.75,
-     "clave": [
-      "Huachipato - Deportes Concepcion",
-      "goles",
-      "total",
-      "2.75",
       "Menos"
      ]
     }
@@ -7871,29 +7825,6 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Goles Más 2.25",
-   "partidos": "Sporting de Gijón - UD Las Palmas",
-   "cuota": 1.72,
-   "p": 0.5577,
-   "p_modelo": 0.5654,
-   "patas": [
-    {
-     "partido": "Sporting de Gijón - UD Las Palmas",
-     "texto": "Goles Más 2.25",
-     "cuota": 1.72,
-     "clave": [
-      "Sporting de Gijón - UD Las Palmas",
-      "goles",
-      "total",
-      "2.25",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Goles visitante Más 0.5",
    "partidos": "Instituto AC Cordoba - CA Huracan",
    "cuota": 1.67,
@@ -7938,24 +7869,36 @@
    ]
   },
   {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Goles Menos 3.5",
-   "partidos": "Paris FC - Angers SCO",
-   "cuota": 1.72,
-   "p": 0.5528,
-   "p_modelo": 0.5528,
+   "tipo": "combinada mismo partido",
+   "etiqueta": "combinada de 2 patas",
+   "nombre": "Goles visitante Menos 1.5 + Resultado: Bologna FC o empate",
+   "partidos": "Bologna FC - Udinese Calcio",
+   "cuota": 1.52,
+   "p": 0.5653,
+   "p_modelo": 0.7066,
    "patas": [
     {
-     "partido": "Paris FC - Angers SCO",
-     "texto": "Goles Menos 3.5",
-     "cuota": 1.72,
+     "partido": "Bologna FC - Udinese Calcio",
+     "texto": "Goles visitante Menos 1.5",
+     "cuota": 1.26,
      "clave": [
-      "Paris FC - Angers SCO",
+      "Bologna FC - Udinese Calcio",
       "goles",
-      "total",
-      "3.5",
+      "visitante",
+      "1.5",
       "Menos"
+     ]
+    },
+    {
+     "partido": "Bologna FC - Udinese Calcio",
+     "texto": "Resultado: Bologna FC o empate",
+     "cuota": 1.21,
+     "clave": [
+      "Bologna FC - Udinese Calcio",
+      "resultado",
+      "total",
+      "",
+      "1X"
      ]
     }
    ]
@@ -7963,33 +7906,33 @@
   {
    "tipo": "combinada mismo partido",
    "etiqueta": "combinada de 2 patas",
-   "nombre": "Goles Menos 3.5 + Tiros al arco Menos 11.5",
-   "partidos": "River Plate - CA Lanús",
-   "cuota": 1.49,
-   "p": 0.545,
-   "p_modelo": 0.6812,
+   "nombre": "Tiros al arco local Menos 4.5 + Goles local Menos 1.5",
+   "partidos": "Hull City - Brighton & Hove Albion",
+   "cuota": 1.48,
+   "p": 0.5571,
+   "p_modelo": 0.6964,
    "patas": [
     {
-     "partido": "River Plate - CA Lanús",
-     "texto": "Goles Menos 3.5",
-     "cuota": 1.22,
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Tiros al arco local Menos 4.5",
+     "cuota": 1.2,
      "clave": [
-      "River Plate - CA Lanús",
-      "goles",
-      "total",
-      "3.5",
+      "Hull City - Brighton & Hove Albion",
+      "al_arco",
+      "local",
+      "4.5",
       "Menos"
      ]
     },
     {
-     "partido": "River Plate - CA Lanús",
-     "texto": "Tiros al arco Menos 11.5",
-     "cuota": 1.22,
+     "partido": "Hull City - Brighton & Hove Albion",
+     "texto": "Goles local Menos 1.5",
+     "cuota": 1.23,
      "clave": [
-      "River Plate - CA Lanús",
-      "al_arco",
-      "total",
-      "11.5",
+      "Hull City - Brighton & Hove Albion",
+      "goles",
+      "local",
+      "1.5",
       "Menos"
      ]
     }
@@ -8071,8 +8014,8 @@
    "nombre": "Tarjetas Más 3.5 + Córners Más 8.0",
    "partidos": "Racing Santander - Real Sociedad",
    "cuota": 1.61,
-   "p": 0.535,
-   "p_modelo": 0.6687,
+   "p": 0.5326,
+   "p_modelo": 0.6657,
    "patas": [
     {
      "partido": "Racing Santander - Real Sociedad",
@@ -8206,48 +8149,13 @@
    ]
   },
   {
-   "tipo": "combinada mismo partido",
-   "etiqueta": "combinada de 2 patas",
-   "nombre": "Tarjetas local Más 1.5 + Goles visitante Menos 2.5",
-   "partidos": "Getafe CF - Atlético Madrid",
-   "cuota": 1.61,
-   "p": 0.4942,
-   "p_modelo": 0.6177,
-   "patas": [
-    {
-     "partido": "Getafe CF - Atlético Madrid",
-     "texto": "Tarjetas local Más 1.5",
-     "cuota": 1.24,
-     "clave": [
-      "Getafe CF - Atlético Madrid",
-      "tarjetas",
-      "local",
-      "1.5",
-      "Más"
-     ]
-    },
-    {
-     "partido": "Getafe CF - Atlético Madrid",
-     "texto": "Goles visitante Menos 2.5",
-     "cuota": 1.3,
-     "clave": [
-      "Getafe CF - Atlético Madrid",
-      "goles",
-      "visitante",
-      "2.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
    "tipo": "combinada entre partidos",
    "etiqueta": "lotería (stake mínimo)",
    "nombre": "Lotería de 3 protecciones",
    "partidos": "CA Osasuna - Málaga CF | Werder Bremen - Hamburger SV | Juventus FC - Venezia FC",
    "cuota": 2.02,
-   "p": 0.5377,
-   "p_modelo": 0.5381,
+   "p": 0.5367,
+   "p_modelo": 0.5371,
    "patas": [
     {
      "partido": "CA Osasuna - Málaga CF",

@@ -1,5 +1,5 @@
 # Ficha — Racing Santander - Real Sociedad
-España LaLiga · 2026-11-22 10:15 · cuotas leídas: Cuotas de Betano leídas 2026-11-22T07:08:07.983Z · 592 mercados
+España LaLiga · 2026-11-22 10:15 · cuotas leídas: Cuotas de Betano leídas 2026-11-22T11:22:44.947Z · 595 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -16,7 +16,7 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Córners | visitante | Más 3.5 | 1.22 | +2.3 | 7 de 10 | 7 de 10 |
 | Fueras de juego | total | Menos 5.5 | 1.21 | +1.6 | 8 de 10 | 10 de 10 |
 | Fueras de juego | visitante | Menos 3.5 | 1.33 | +1.1 | 7 de 10 | 9 de 10 |
-| Goles | local | Más 0.5 | 1.21 | +0.8 | 7 de 10 | 8 de 10 |
+| Goles | local | Más 0.5 | 1.2 | +0.8 | 7 de 10 | 8 de 10 |
 | Goles | local | Menos 2.5 | 1.23 | +1.1 | 10 de 10 | 10 de 10 |
 | Goles | total | Más 2.5 | 1.38 | +1.3 | 8 de 10 | 7 de 10 |
 | Remates | local | Menos 18.5 | 1.23 | +4.8 | 7 de 10 | 8 de 10 |
@@ -61,17 +61,17 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 5.05, visitante 5.8
 | 10.0 | @1.87 · col +0.8 · L 5 de 10 · V 6 de 10 | @2.42 · col -0.8 · L 3 de 10 · V 4 de 10 |
 | 10.5 | @1.87 · col +0.3 · L 5 de 10 · V 6 de 10 | @1.87 · col -0.3 · L 5 de 10 · V 4 de 10 |
 | 11.0 | @2.42 · col -0.1 · L 3 de 10 · V 5 de 10 | @1.87 · col +0.1 · L 5 de 10 · V 4 de 10 |
-| 11.5 | @2.42 · col -0.7 · L 3 de 10 · V 5 de 10 | @1.52 · col +0.7 · L 7 de 10 · V 5 de 10 |
-| 12.0 | @3.25 · col -1.1 · L 3 de 10 · V 4 de 10 | @1.52 · col +1.1 · L 7 de 10 · V 5 de 10 |
-| 12.5 | @3.25 · col -1.6 · L 3 de 10 · V 4 de 10 | @1.31 · col +1.6 · L 7 de 10 · V 6 de 10 |
-| 13.0 | @4.35 · col -2.1 · L 2 de 10 · V 1 de 10 | @1.31 · col +2.1 · L 7 de 10 · V 6 de 10 |
+| 11.5 | @2.42 · col -0.7 · L 3 de 10 · V 5 de 10 | @1.53 · col +0.7 · L 7 de 10 · V 5 de 10 |
+| 12.0 | @3.25 · col -1.1 · L 3 de 10 · V 4 de 10 | @1.53 · col +1.1 · L 7 de 10 · V 5 de 10 |
+| 12.5 | @3.25 · col -1.6 · L 3 de 10 · V 4 de 10 | @1.32 · col +1.6 · L 7 de 10 · V 6 de 10 |
+| 13.0 | @4.35 · col -2.1 · L 2 de 10 · V 1 de 10 | @1.32 · col +2.1 · L 7 de 10 · V 6 de 10 |
 | 13.5 | @4.35 · col -2.6 · L 2 de 10 · V 1 de 10 | @1.19 · col +2.6 · L 8 de 10 · V 9 de 10 ✓ |
 | 14.0 | @5.9 · col -3.1 · L 2 de 10 · V 1 de 10 | @1.19 · col +3.1 · L 8 de 10 · V 9 de 10 ✓ |
 | 14.5 | @5.9 · col -3.6 · L 2 de 10 · V 1 de 10 | @1.11 · col +3.6 · L 8 de 10 · V 9 de 10 ✓ |
 | 15.0 | @7.8 · col -4.2 · L 1 de 10 · V 1 de 10 | @1.11 · col +4.2 · L 8 de 10 · V 9 de 10 ✓ |
 | 15.5 | @7.8 · col -4.7 · L 1 de 10 · V 1 de 10 | @1.06 · col +4.7 · L 9 de 10 · V 9 de 10 ✓ |
-| 16.0 | @10.0 · col -5.2 · L 1 de 10 · V 1 de 10 | @1.06 · col +5.2 · L 9 de 10 · V 9 de 10 ✓ |
-| 16.5 | @10.0 · col -5.7 · L 1 de 10 · V 1 de 10 | @1.03 · col +5.7 · L 9 de 10 · V 9 de 10 ✓ |
+| 16.0 | @9.75 · col -5.2 · L 1 de 10 · V 1 de 10 | @1.06 · col +5.2 · L 9 de 10 · V 9 de 10 ✓ |
+| 16.5 | @9.75 · col -5.7 · L 1 de 10 · V 1 de 10 | @1.03 · col +5.7 · L 9 de 10 · V 9 de 10 ✓ |
 | 17.0 | @11.75 · col -6.2 · L 1 de 10 · V 0 de 10 | @1.03 · col +6.2 · L 9 de 10 · V 9 de 10 ✓ |
 
 **local**
@@ -82,7 +82,7 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 5.05, visitante 5.8
 | 2.5 | @1.11 · col +2.5 · L 9 de 10 · V 10 de 10 ✓ | @5.9 · col -2.5 · L 1 de 10 · V 0 de 10 |
 | 3.5 | @1.29 · col +1.6 · L 7 de 10 · V 7 de 10 ✓ | @3.4 · col -1.6 · L 3 de 10 · V 3 de 10 |
 | 4.5 | @1.62 · col +0.6 · L 4 de 10 · V 5 de 10 | @2.2 · col -0.6 · L 6 de 10 · V 5 de 10 |
-| 5.5 | @2.27 · col -0.5 · L 4 de 10 · V 4 de 10 | @1.6 · col +0.5 · L 6 de 10 · V 6 de 10 |
+| 5.5 | @2.25 · col -0.5 · L 4 de 10 · V 4 de 10 | @1.6 · col +0.5 · L 6 de 10 · V 6 de 10 |
 | 6.5 | @3.3 · col -1.4 · L 3 de 10 · V 2 de 10 | @1.3 · col +1.4 · L 7 de 10 · V 8 de 10 ✓ |
 | 7.5 | @5.0 · col -2.5 · L 3 de 10 · V 1 de 10 | @1.15 · col +2.5 · L 7 de 10 · V 9 de 10 ✓ |
 | 8.5 | @7.2 · col -3.5 · L 2 de 10 · V 1 de 10 | @1.07 · col +3.5 · L 8 de 10 · V 9 de 10 ✓ |
@@ -93,10 +93,10 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 5.05, visitante 5.8
 | Línea | Más | Menos |
 |---|---|---|
 | 2.5 | @1.08 · col +3.3 · L 9 de 10 · V 8 de 10 ✓ | @6.8 · col -3.3 · L 1 de 10 · V 2 de 10 |
-| 3.5 | @1.22 · col +2.3 · L 7 de 10 · V 7 de 10 ✓ | @4.0 · col -2.3 · L 3 de 10 · V 3 de 10 |
+| 3.5 | @1.22 · col +2.3 · L 7 de 10 · V 7 de 10 ✓ | @3.95 · col -2.3 · L 3 de 10 · V 3 de 10 |
 | 4.5 | @1.47 · col +1.3 · L 6 de 10 · V 7 de 10 | @2.55 · col -1.3 · L 4 de 10 · V 3 de 10 |
-| 5.5 | @1.95 · col +0.3 · L 6 de 10 · V 4 de 10 | @1.78 · col -0.3 · L 4 de 10 · V 6 de 10 |
-| 6.5 | @2.77 · col -0.7 · L 3 de 10 · V 4 de 10 | @1.42 · col +0.7 · L 7 de 10 · V 6 de 10 |
+| 5.5 | @1.95 · col +0.3 · L 6 de 10 · V 4 de 10 | @1.8 · col -0.3 · L 4 de 10 · V 6 de 10 |
+| 6.5 | @2.75 · col -0.7 · L 3 de 10 · V 4 de 10 | @1.42 · col +0.7 · L 7 de 10 · V 6 de 10 |
 | 7.5 | @4.15 · col -1.7 · L 2 de 10 · V 2 de 10 | @1.21 · col +1.7 · L 8 de 10 · V 8 de 10 ✓ |
 | 8.5 | @6.2 · col -2.7 · L 2 de 10 · V 1 de 10 | @1.1 · col +2.7 · L 8 de 10 · V 9 de 10 ✓ |
 | 9.5 | @8.75 · col -3.7 · L 1 de 10 · V 1 de 10 | @1.05 · col +3.7 · L 9 de 10 · V 9 de 10 ✓ |
@@ -268,19 +268,19 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 1.35, visitante 2.4
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.21 · col +0.8 · L 7 de 10 · V 8 de 10 ✓ | @4.15 · col -0.8 · L 3 de 10 · V 2 de 10 |
+| 0.5 | @1.2 · col +0.8 · L 7 de 10 · V 8 de 10 ✓ | @4.2 · col -0.8 · L 3 de 10 · V 2 de 10 |
 | 1.5 | @1.95 · col -0.1 · L 7 de 10 · V 5 de 10 | @1.8 · col +0.1 · L 3 de 10 · V 5 de 10 |
 | 2.5 | @3.85 · col -1.1 · L 0 de 10 · V 0 de 10 | @1.23 · col +1.1 · L 10 de 10 · V 10 de 10 ✓ |
-| 3.5 | @7.7 · col -2.1 · L 0 de 10 · V 0 de 10 | @1.06 · col +2.1 · L 10 de 10 · V 10 de 10 ✓ |
+| 3.5 | @7.8 · col -2.1 · L 0 de 10 · V 0 de 10 | @1.06 · col +2.1 · L 10 de 10 · V 10 de 10 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.11 · col +1.9 · L 9 de 10 · V 10 de 10 ✓ | @5.8 · col -1.9 · L 1 de 10 · V 0 de 10 |
+| 0.5 | @1.12 · col +1.9 · L 9 de 10 · V 10 de 10 ✓ | @5.7 · col -1.9 · L 1 de 10 · V 0 de 10 |
 | 1.5 | @1.55 · col +0.9 · L 6 de 10 · V 5 de 10 | @2.35 · col -0.9 · L 4 de 10 · V 5 de 10 |
-| 2.5 | @2.67 · col -0.1 · L 4 de 10 · V 4 de 10 | @1.44 · col +0.1 · L 6 de 10 · V 6 de 10 |
-| 3.5 | @5.1 · col -1.1 · L 2 de 10 · V 2 de 10 | @1.14 · col +1.1 · L 8 de 10 · V 8 de 10 ✓ |
+| 2.5 | @2.65 · col -0.1 · L 4 de 10 · V 4 de 10 | @1.44 · col +0.1 · L 6 de 10 · V 6 de 10 |
+| 3.5 | @5.1 · col -1.1 · L 2 de 10 · V 2 de 10 | @1.15 · col +1.1 · L 8 de 10 · V 8 de 10 ✓ |
 | 4.5 | @9.0 · col -2.0 · L 2 de 10 · V 2 de 10 | @1.04 · col +2.0 · L 8 de 10 · V 8 de 10 ✓ |
 
 ### Tarjetas (solo amarillas)
@@ -342,17 +342,19 @@ Muestra: local 10, visitante 10, directos 0.
 | 2 | 2.02 | 5 de 10 | 6 de 10 | — |  |
 | 1X | 1.82 | 5 de 10 | 4 de 10 | — |  |
 | X2 | 1.36 | 6 de 10 | 8 de 10 | — |  |
-| 12 | 1.25 | 9 de 10 | 8 de 10 | — | ✓ |
+| 12 | 1.24 | 9 de 10 | 8 de 10 | — | ✓ |
 
 ## Jugadores (solo líneas que cumplen la regularidad; el JSON trae todas)
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Iñigo Vicente — entradas: 1+ @1.14 · col +0.6 · 7 de 9 (titular 0.90)
+- Iñigo Vicente — entradas: 1+ @1.14 · col +0.8 · 8 de 9 (titular 0.90)
 - Julen Agirrezabala — atajadas: 3+ @1.38 · col +1.1 · 7 de 9 (titular 0.90)
+- Sergio Canales — entradas: 1+ @1.17 · col +0.7 · 7 de 9 (titular 0.90)
 - Gonçalo Guedes — remates: 2+ @1.16 · col +1.3 · 7 de 10 (titular 0.90)
-- Jon Martín — entradas: 1+ @1.12 · col +0.7 · 8 de 10 (titular 0.90)
+- Jon Martín — entradas: 1+ @1.12 · col +1.3 · 8 de 10 (titular 0.90)
 - Orri Steinn Oskarsson — al_arco: 1+ @1.15 · col +0.9 · 7 de 9 (titular 0.90)
+- Sergio Gómez — entradas: 1+ @1.07 · col +0.9 · 7 de 10 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos
 

@@ -185,28 +185,28 @@
 "ambito": "total",
 "linea": 11.5,
 "mas": 2.42,
-"menos": 1.52
+"menos": 1.53
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 12.0,
 "mas": 3.25,
-"menos": 1.52
+"menos": 1.53
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 12.5,
 "mas": 3.25,
-"menos": 1.31
+"menos": 1.32
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 13.0,
 "mas": 4.35,
-"menos": 1.31
+"menos": 1.32
 },
 {
 "mercado": "corners",
@@ -247,14 +247,14 @@
 "mercado": "corners",
 "ambito": "total",
 "linea": 16.0,
-"mas": 10.0,
+"mas": 9.75,
 "menos": 1.06
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 16.5,
-"mas": 10.0,
+"mas": 9.75,
 "menos": 1.03
 },
 {
@@ -296,7 +296,7 @@
 "mercado": "corners",
 "ambito": "local",
 "linea": 5.5,
-"mas": 2.27,
+"mas": 2.25,
 "menos": 1.6
 },
 {
@@ -339,7 +339,7 @@
 "ambito": "visitante",
 "linea": 3.5,
 "mas": 1.22,
-"menos": 4.0
+"menos": 3.95
 },
 {
 "mercado": "corners",
@@ -353,13 +353,13 @@
 "ambito": "visitante",
 "linea": 5.5,
 "mas": 1.95,
-"menos": 1.78
+"menos": 1.8
 },
 {
 "mercado": "corners",
 "ambito": "visitante",
 "linea": 6.5,
-"mas": 2.77,
+"mas": 2.75,
 "menos": 1.42
 },
 {
@@ -622,11 +622,18 @@
 "menos": 1.47
 },
 {
+"mercado": "tarjetas",
+"ambito": "1T",
+"linea": 3.5,
+"mas": 4.35,
+"menos": 1.19
+},
+{
 "mercado": "goles",
 "ambito": "local",
 "linea": 0.5,
-"mas": 1.21,
-"menos": 4.15
+"mas": 1.2,
+"menos": 4.2
 },
 {
 "mercado": "goles",
@@ -646,15 +653,15 @@
 "mercado": "goles",
 "ambito": "local",
 "linea": 3.5,
-"mas": 7.7,
+"mas": 7.8,
 "menos": 1.06
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 0.5,
-"mas": 1.11,
-"menos": 5.8
+"mas": 1.12,
+"menos": 5.7
 },
 {
 "mercado": "goles",
@@ -667,7 +674,7 @@
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 2.5,
-"mas": 2.67,
+"mas": 2.65,
 "menos": 1.44
 },
 {
@@ -675,7 +682,7 @@
 "ambito": "visitante",
 "linea": 3.5,
 "mas": 5.1,
-"menos": 1.14
+"menos": 1.15
 },
 {
 "mercado": "goles",
@@ -1275,7 +1282,7 @@
 "2": 2.02,
 "1X": 1.82,
 "X2": 1.36,
-"12": 1.25
+"12": 1.24
 }
 },
 {
@@ -1289,9 +1296,9 @@
 {
 "mercado": "resultado_2t",
 "opciones": {
-"1": 3.2,
-"X": 2.95,
-"2": 2.22
+"1": 3.15,
+"X": 3.0,
+"2": 2.25
 }
 },
 {
@@ -1348,9 +1355,9 @@
 "opciones": {
 "1/1": 5.3,
 "1/X": 13.5,
-"1/2": 19.0,
+"1/2": 19.5,
 "X/1": 7.9,
-"X/X": 6.9,
+"X/X": 7.0,
 "X/2": 5.5,
 "2/1": 26.0,
 "2/X": 13.0,
@@ -1447,7 +1454,7 @@
 "h": 1.0,
 "opciones": {
 "local": 1.47,
-"visitante": 2.8
+"visitante": 2.77
 }
 },
 {
@@ -1476,7 +1483,7 @@
 "jugador": "Juan Carlos Arana",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 8.5
+"cuota": 8.75
 },
 {
 "jugador": "Juan Carlos Arana",
@@ -1562,7 +1569,7 @@
 "jugador": "Yassir Zabiri",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 11.25
+"cuota": 10.5
 },
 {
 "jugador": "Yassir Zabiri",
@@ -1641,7 +1648,7 @@
 "jugador": "Orri Steinn Oskarsson",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 14.5
+"cuota": 15.0
 },
 {
 "jugador": "Orri Steinn Oskarsson",
@@ -1720,7 +1727,7 @@
 "jugador": "Mikel Oyarzabal",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 17.0
+"cuota": 17.5
 },
 {
 "jugador": "Mikel Oyarzabal",
@@ -1790,10 +1797,16 @@
 "cuota": 2.6
 },
 {
+"jugador": "Luka Sučić",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 16.5
+},
+{
 "jugador": "Asier Villalibre",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.8
+"cuota": 2.77
 },
 {
 "jugador": "Asier Villalibre",
@@ -1805,7 +1818,7 @@
 "jugador": "Asier Villalibre",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 15.5
+"cuota": 16.5
 },
 {
 "jugador": "Asier Villalibre",
@@ -1883,7 +1896,7 @@
 "jugador": "Job Ochieng",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 9.25
+"cuota": 9.5
 },
 {
 "jugador": "Job Ochieng",
@@ -1962,7 +1975,7 @@
 "jugador": "Pablo Garcia",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 13.0
+"cuota": 13.5
 },
 {
 "jugador": "Pablo Garcia",
@@ -2040,7 +2053,7 @@
 "jugador": "Gonçalo Guedes",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 13.0
+"cuota": 13.5
 },
 {
 "jugador": "Gonçalo Guedes",
@@ -2119,7 +2132,7 @@
 "jugador": "Giorgi Guliashvili",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 17.0
+"cuota": 17.5
 },
 {
 "jugador": "Giorgi Guliashvili",
@@ -2196,7 +2209,7 @@
 "jugador": "Takefusa Kubo",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 13.0
+"cuota": 13.5
 },
 {
 "jugador": "Takefusa Kubo",
@@ -2273,7 +2286,7 @@
 "jugador": "Arsen Zakharyan",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 10.75
+"cuota": 11.0
 },
 {
 "jugador": "Arsen Zakharyan",
@@ -2426,7 +2439,7 @@
 "jugador": "Iker Luque",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 14.5
+"cuota": 15.0
 },
 {
 "jugador": "Iker Luque",
@@ -2504,7 +2517,7 @@
 "jugador": "Sergio Canales",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 13.0
+"cuota": 13.5
 },
 {
 "jugador": "Sergio Canales",
@@ -2572,6 +2585,12 @@
 "cuota": 4.25
 },
 {
+"jugador": "Jorge Castellanos",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 12.0
+},
+{
 "jugador": "Iñigo Vicente",
 "lado": "local",
 "stat": "anota",
@@ -2587,7 +2606,7 @@
 "jugador": "Iñigo Vicente",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 9.75
+"cuota": 10.0
 },
 {
 "jugador": "Iñigo Vicente",
@@ -2664,7 +2683,7 @@
 "jugador": "Carlos Soler",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 10.75
+"cuota": 11.0
 },
 {
 "jugador": "Carlos Soler",
@@ -2741,7 +2760,7 @@
 "jugador": "Benat Turrientes",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 9.5
+"cuota": 9.75
 },
 {
 "jugador": "Benat Turrientes",
@@ -2895,7 +2914,7 @@
 "jugador": "Pablo Marin",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 10.75
+"cuota": 11.0
 },
 {
 "jugador": "Pablo Marin",
@@ -2972,7 +2991,7 @@
 "jugador": "Andre Almeida",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 15.5
+"cuota": 16.5
 },
 {
 "jugador": "Andre Almeida",
@@ -3048,7 +3067,7 @@
 "jugador": "Ivan Martin",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 15.5
+"cuota": 16.5
 },
 {
 "jugador": "Ivan Martin",
@@ -3121,7 +3140,7 @@
 "jugador": "Matteo Prati",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 10.75
+"cuota": 11.0
 },
 {
 "jugador": "Matteo Prati",
@@ -3194,7 +3213,7 @@
 "jugador": "Hector Fort",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 14.5
+"cuota": 13.0
 },
 {
 "jugador": "Hector Fort",
@@ -3269,7 +3288,7 @@
 "jugador": "Jon Martín",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 11.25
+"cuota": 11.75
 },
 {
 "jugador": "Jon Martín",
@@ -3332,6 +3351,12 @@
 "cuota": 7.8
 },
 {
+"jugador": "Alex Lebarbier",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 8.75
+},
+{
 "jugador": "Jeanuel Belocian",
 "lado": "local",
 "stat": "anota",
@@ -3347,7 +3372,7 @@
 "jugador": "Jeanuel Belocian",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 12.5
+"cuota": 13.0
 },
 {
 "jugador": "Jeanuel Belocian",
@@ -3419,7 +3444,7 @@
 "jugador": "Pedro Felipe",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 10.25
+"cuota": 10.5
 },
 {
 "jugador": "Pedro Felipe",
@@ -3491,7 +3516,7 @@
 "jugador": "Jorge Salinas Viadero",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 8.75
+"cuota": 9.0
 },
 {
 "jugador": "Jorge Salinas Viadero",
@@ -3564,7 +3589,7 @@
 "jugador": "Jon Gorrotxategi",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 10.5
+"cuota": 10.75
 },
 {
 "jugador": "Jon Gorrotxategi",
@@ -3638,7 +3663,7 @@
 "jugador": "Inigo Sainz Maza",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 9.75
+"cuota": 10.0
 },
 {
 "jugador": "Inigo Sainz Maza",
@@ -3711,7 +3736,7 @@
 "jugador": "Carlos Sanchez",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 8.5
+"cuota": 8.75
 },
 {
 "jugador": "Carlos Sanchez",
@@ -3782,7 +3807,7 @@
 "jugador": "Jon Aramburu",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 7.5
+"cuota": 7.7
 },
 {
 "jugador": "Jon Aramburu",
@@ -3856,7 +3881,7 @@
 "jugador": "Sergio Gómez",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 17.0
+"cuota": 17.5
 },
 {
 "jugador": "Sergio Gómez",
@@ -3919,6 +3944,12 @@
 "cuota": 9.25
 },
 {
+"jugador": "Mamadou Sarr",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 11.0
+},
+{
 "jugador": "Facundo Gonzalez",
 "lado": "local",
 "stat": "anota",
@@ -3934,7 +3965,7 @@
 "jugador": "Facundo Gonzalez",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 8.0
+"cuota": 8.5
 },
 {
 "jugador": "Facundo Gonzalez",
@@ -4005,7 +4036,7 @@
 "jugador": "Manu Hernando",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 10.0
+"cuota": 10.25
 },
 {
 "jugador": "Manu Hernando",
@@ -4077,7 +4108,7 @@
 "jugador": "Pablo Ramon",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 8.25
+"cuota": 8.5
 },
 {
 "jugador": "Pablo Ramon",
@@ -4149,7 +4180,7 @@
 "jugador": "Aihen Munoz",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 10.75
+"cuota": 11.0
 },
 {
 "jugador": "Aihen Munoz",
@@ -4222,7 +4253,7 @@
 "jugador": "Igor Zubeldia",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 8.25
+"cuota": 8.5
 },
 {
 "jugador": "Igor Zubeldia",
@@ -4282,7 +4313,7 @@
 "jugador": "Jon Pacheco",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 12.5
+"cuota": 12.0
 },
 {
 "jugador": "Jon Pacheco",
@@ -4294,7 +4325,7 @@
 "jugador": "Jon Pacheco",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 8.25
+"cuota": 8.5
 },
 {
 "jugador": "Jon Pacheco",
@@ -4353,7 +4384,7 @@
 "jugador": "Julen Agirrezabala",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 19.5
+"cuota": 20.0
 },
 {
 "jugador": "Julen Agirrezabala",
@@ -4371,25 +4402,31 @@
 "jugador": "Laro Gomez",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 14.5
+"cuota": 15.0
 },
 {
 "jugador": "Unai Marrero",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 18.5
+"cuota": 19.0
 },
 {
 "jugador": "Simon Eriksson",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 19.5
+"cuota": 20.0
+},
+{
+"jugador": "Aitor Fraga",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 20.0
 },
 {
 "jugador": "Álex Remiro",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 19.5
+"cuota": 20.0
 },
 {
 "jugador": "Álex Remiro",
@@ -4634,7 +4671,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 7,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -4646,9 +4684,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 5,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-24",
@@ -4662,7 +4701,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -4676,7 +4716,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 5,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -4690,7 +4731,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-19",
@@ -4704,7 +4746,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 4,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-16",
@@ -4718,7 +4761,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 3,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-12",
@@ -4732,7 +4776,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 7,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-05",
@@ -4746,7 +4791,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 6,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -4765,7 +4811,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-11-01",
@@ -4779,7 +4826,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-24",
@@ -4793,7 +4841,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-18",
@@ -4805,9 +4854,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -4821,7 +4871,8 @@
 "faltas": 0,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-09-19",
@@ -4835,7 +4886,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-16",
@@ -4847,9 +4899,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-12",
@@ -4863,7 +4916,8 @@
 "faltas": 5,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-09-05",
@@ -4877,7 +4931,8 @@
 "faltas": 1,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 }
 ]
 },
@@ -4896,7 +4951,8 @@
 "faltas": 0,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-11-01",
@@ -4910,7 +4966,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-24",
@@ -4924,7 +4981,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -4936,9 +4994,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-11",
@@ -4950,9 +5009,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 3,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-19",
@@ -4964,9 +5024,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-12",
@@ -4978,9 +5039,10 @@
 "asist": 0,
 "tarjeta": 1,
 "faltas": 2,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-05",
@@ -4992,9 +5054,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 }
 ]
 },
@@ -5011,9 +5074,10 @@
 "asist": 1,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 3,
+"entradas": 5,
 "atajadas": 0,
-"entradas_tot": 5
+"entradas_tot": 5,
+"entradas_gan": 3
 },
 {
 "fecha": "2026-11-01",
@@ -5025,9 +5089,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-24",
@@ -5039,9 +5104,10 @@
 "asist": 0,
 "tarjeta": 1,
 "faltas": 1,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-18",
@@ -5055,7 +5121,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -5069,7 +5136,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-19",
@@ -5081,9 +5149,10 @@
 "asist": 0,
 "tarjeta": 1,
 "faltas": 1,
-"entradas": 2,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-09-12",
@@ -5095,9 +5164,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-05",
@@ -5111,7 +5181,8 @@
 "faltas": 0,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 }
 ]
 },
@@ -5130,7 +5201,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -5144,7 +5216,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-24",
@@ -5158,7 +5231,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -5172,7 +5246,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -5186,7 +5261,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-19",
@@ -5200,7 +5276,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-12",
@@ -5214,7 +5291,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-05",
@@ -5226,9 +5304,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 }
 ]
 },
@@ -5245,9 +5324,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 2,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-11-01",
@@ -5259,9 +5339,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 2,
+"entradas": 4,
 "atajadas": 0,
-"entradas_tot": 4
+"entradas_tot": 4,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-24",
@@ -5275,7 +5356,8 @@
 "faltas": 2,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-18",
@@ -5287,9 +5369,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 2,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-11",
@@ -5301,9 +5384,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 2,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-09-16",
@@ -5317,7 +5401,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-12",
@@ -5329,9 +5414,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 3,
+"entradas": 4,
 "atajadas": 0,
-"entradas_tot": 4
+"entradas_tot": 4,
+"entradas_gan": 3
 },
 {
 "fecha": "2026-09-05",
@@ -5345,7 +5431,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -5364,7 +5451,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-11-01",
@@ -5378,7 +5466,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-24",
@@ -5390,9 +5479,10 @@
 "asist": 1,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -5406,7 +5496,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -5418,9 +5509,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-19",
@@ -5434,7 +5526,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-16",
@@ -5448,7 +5541,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-12",
@@ -5462,7 +5556,8 @@
 "faltas": 2,
 "entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 3
 },
 {
 "fecha": "2026-09-05",
@@ -5474,9 +5569,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 }
 ]
 },
@@ -5493,9 +5589,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -5509,7 +5606,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-24",
@@ -5523,7 +5621,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-18",
@@ -5537,7 +5636,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -5549,9 +5649,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-19",
@@ -5565,7 +5666,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-16",
@@ -5579,7 +5681,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-12",
@@ -5593,7 +5696,8 @@
 "faltas": 2,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-05",
@@ -5607,7 +5711,8 @@
 "faltas": 5,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 }
 ]
 },
@@ -5626,7 +5731,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -5640,7 +5746,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-24",
@@ -5652,9 +5759,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -5668,7 +5776,8 @@
 "faltas": 2,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-11",
@@ -5682,7 +5791,8 @@
 "faltas": 4,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-19",
@@ -5694,9 +5804,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-12",
@@ -5708,9 +5819,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 2,
+"entradas": 4,
 "atajadas": 0,
-"entradas_tot": 4
+"entradas_tot": 4,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-09-05",
@@ -5722,9 +5834,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 3,
+"entradas": 6,
 "atajadas": 0,
-"entradas_tot": 6
+"entradas_tot": 6,
+"entradas_gan": 3
 }
 ]
 },
@@ -5743,7 +5856,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-11-01",
@@ -5757,7 +5871,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-24",
@@ -5771,7 +5886,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -5785,7 +5901,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -5799,7 +5916,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-19",
@@ -5813,7 +5931,8 @@
 "faltas": 3,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-12",
@@ -5827,7 +5946,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-05",
@@ -5841,7 +5961,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 }
 ]
 },
@@ -5860,7 +5981,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -5874,7 +5996,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -5888,7 +6011,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-19",
@@ -5902,7 +6026,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-16",
@@ -5916,7 +6041,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-12",
@@ -5930,7 +6056,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -5949,7 +6076,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -5961,9 +6089,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-19",
@@ -5977,7 +6106,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-16",
@@ -5991,7 +6121,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-12",
@@ -6005,7 +6136,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -6024,7 +6156,8 @@
 "faltas": 2,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-11-01",
@@ -6038,7 +6171,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-24",
@@ -6050,9 +6184,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-19",
@@ -6066,7 +6201,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-16",
@@ -6080,7 +6216,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-12",
@@ -6094,7 +6231,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -6113,7 +6251,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-11-01",
@@ -6127,7 +6266,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-24",
@@ -6141,7 +6281,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-16",
@@ -6155,7 +6296,8 @@
 "faltas": 3,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-09-12",
@@ -6169,7 +6311,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -6186,9 +6329,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-11-01",
@@ -6202,7 +6346,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-19",
@@ -6214,9 +6359,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-16",
@@ -6230,7 +6376,8 @@
 "faltas": 0,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 }
 ]
 },
@@ -6249,7 +6396,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -6263,7 +6411,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-25",
@@ -6277,7 +6426,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-22",
@@ -6291,7 +6441,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -6305,7 +6456,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-15",
@@ -6319,7 +6471,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-11",
@@ -6333,7 +6486,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-20",
@@ -6347,7 +6501,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-17",
@@ -6361,7 +6516,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -6380,7 +6536,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-11-05",
@@ -6394,7 +6551,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -6408,7 +6566,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-25",
@@ -6420,9 +6579,10 @@
 "asist": 0,
 "tarjeta": 1,
 "faltas": 4,
-"entradas": 2,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-22",
@@ -6434,9 +6594,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 1,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-18",
@@ -6450,7 +6611,8 @@
 "faltas": 1,
 "entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 3
 },
 {
 "fecha": "2026-10-15",
@@ -6464,7 +6626,8 @@
 "faltas": 0,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-11",
@@ -6476,9 +6639,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-20",
@@ -6492,7 +6656,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-17",
@@ -6504,9 +6669,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 2,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 2
 }
 ]
 },
@@ -6525,7 +6691,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-05",
@@ -6539,7 +6706,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -6553,7 +6721,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-25",
@@ -6567,7 +6736,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-22",
@@ -6579,9 +6749,10 @@
 "asist": 1,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -6595,7 +6766,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-15",
@@ -6609,7 +6781,8 @@
 "faltas": 2,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-11",
@@ -6623,7 +6796,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-20",
@@ -6637,7 +6811,8 @@
 "faltas": 2,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-17",
@@ -6651,7 +6826,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 }
 ]
 },
@@ -6668,9 +6844,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 2,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-11-01",
@@ -6684,7 +6861,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-22",
@@ -6698,7 +6876,8 @@
 "faltas": 0,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-18",
@@ -6710,9 +6889,10 @@
 "asist": 1,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-15",
@@ -6726,7 +6906,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-17",
@@ -6740,7 +6921,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -6757,9 +6939,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -6771,9 +6954,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-22",
@@ -6787,7 +6971,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -6799,9 +6984,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -6815,7 +7001,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-20",
@@ -6827,9 +7014,10 @@
 "asist": 1,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 0,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 0
 }
 ]
 },
@@ -6848,7 +7036,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 3,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -6862,7 +7051,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 1,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-25",
@@ -6876,7 +7066,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 1,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -6890,7 +7081,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 4,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -6904,7 +7096,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 6,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-20",
@@ -6918,7 +7111,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 4,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -6935,9 +7129,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -6951,7 +7146,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-25",
@@ -6965,7 +7161,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-18",
@@ -6979,7 +7176,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-11",
@@ -6993,7 +7191,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-17",
@@ -7007,7 +7206,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -7026,7 +7226,8 @@
 "faltas": 0,
 "entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 3
 },
 {
 "fecha": "2026-11-05",
@@ -7038,9 +7239,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -7054,7 +7256,8 @@
 "faltas": 3,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-25",
@@ -7068,7 +7271,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-22",
@@ -7080,9 +7284,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -7096,7 +7301,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-15",
@@ -7110,7 +7316,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-20",
@@ -7124,7 +7331,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-17",
@@ -7138,7 +7346,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -7155,9 +7364,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-05",
@@ -7171,7 +7381,8 @@
 "faltas": 3,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -7183,9 +7394,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 2,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-25",
@@ -7199,7 +7411,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-22",
@@ -7211,9 +7424,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-18",
@@ -7225,9 +7439,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-15",
@@ -7241,7 +7456,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -7253,9 +7469,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 4,
 "atajadas": 0,
-"entradas_tot": 4
+"entradas_tot": 4,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-20",
@@ -7267,9 +7484,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-17",
@@ -7281,9 +7499,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 }
 ]
 },
@@ -7302,7 +7521,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-11-05",
@@ -7316,7 +7536,8 @@
 "faltas": 2,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-11-01",
@@ -7328,9 +7549,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 2,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-25",
@@ -7342,9 +7564,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 2,
+"entradas": 4,
 "atajadas": 0,
-"entradas_tot": 4
+"entradas_tot": 4,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-22",
@@ -7356,9 +7579,10 @@
 "asist": 0,
 "tarjeta": 1,
 "faltas": 1,
-"entradas": 2,
+"entradas": 4,
 "atajadas": 0,
-"entradas_tot": 4
+"entradas_tot": 4,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-18",
@@ -7372,7 +7596,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-15",
@@ -7384,9 +7609,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-20",
@@ -7400,7 +7626,8 @@
 "faltas": 0,
 "entradas": 4,
 "atajadas": 0,
-"entradas_tot": 4
+"entradas_tot": 4,
+"entradas_gan": 4
 },
 {
 "fecha": "2026-09-17",
@@ -7414,7 +7641,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -7433,7 +7661,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -7445,9 +7674,10 @@
 "asist": 0,
 "tarjeta": 1,
 "faltas": 0,
-"entradas": 3,
+"entradas": 5,
 "atajadas": 0,
-"entradas_tot": 5
+"entradas_tot": 5,
+"entradas_gan": 3
 },
 {
 "fecha": "2026-10-25",
@@ -7459,9 +7689,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 2,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-22",
@@ -7473,9 +7704,10 @@
 "asist": 0,
 "tarjeta": 1,
 "faltas": 1,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -7489,7 +7721,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-15",
@@ -7503,7 +7736,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -7515,9 +7749,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 2,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-17",
@@ -7529,9 +7764,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 1
 }
 ]
 },
@@ -7548,9 +7784,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-18",
@@ -7562,9 +7799,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-20",
@@ -7578,7 +7816,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -7597,7 +7836,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-05",
@@ -7609,9 +7849,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-11-01",
@@ -7625,7 +7866,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-25",
@@ -7639,7 +7881,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-18",
@@ -7651,9 +7894,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-15",
@@ -7667,7 +7911,8 @@
 "faltas": 3,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-11",
@@ -7681,7 +7926,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-20",
@@ -7693,9 +7939,10 @@
 "asist": 1,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 }
 ]
 },
@@ -7714,7 +7961,8 @@
 "faltas": 1,
 "entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 3
 },
 {
 "fecha": "2026-11-05",
@@ -7726,9 +7974,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 2,
-"entradas": 2,
+"entradas": 4,
 "atajadas": 0,
-"entradas_tot": 4
+"entradas_tot": 4,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-22",
@@ -7740,9 +7989,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 2,
-"entradas": 2,
+"entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-18",
@@ -7756,7 +8006,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-15",
@@ -7770,7 +8021,8 @@
 "faltas": 2,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -7784,7 +8036,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -7803,7 +8056,8 @@
 "faltas": 1,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-09-05",
@@ -7815,9 +8069,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 3,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 }
 ]
 },
@@ -7836,7 +8091,8 @@
 "faltas": 2,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-05",
@@ -7850,7 +8106,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -7869,7 +8126,8 @@
 "faltas": 1,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-09-05",
@@ -7883,7 +8141,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -7902,7 +8161,8 @@
 "faltas": 1,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-11-05",
@@ -7916,7 +8176,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -7930,7 +8191,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-25",
@@ -7944,7 +8206,8 @@
 "faltas": 0,
 "entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 2
 },
 {
 "fecha": "2026-10-22",
@@ -7958,7 +8221,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-15",
@@ -7972,7 +8236,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -7986,7 +8251,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-20",
@@ -8000,7 +8266,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-17",
@@ -8014,7 +8281,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -8033,7 +8301,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-11-01",
@@ -8047,7 +8316,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-25",
@@ -8059,9 +8329,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 4,
 "atajadas": 0,
-"entradas_tot": 4
+"entradas_tot": 4,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-22",
@@ -8073,9 +8344,10 @@
 "asist": 1,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-10-15",
@@ -8089,7 +8361,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-17",
@@ -8101,9 +8374,10 @@
 "asist": 0,
 "tarjeta": 1,
 "faltas": 2,
-"entradas": 1,
+"entradas": 2,
 "atajadas": 0,
-"entradas_tot": 2
+"entradas_tot": 2,
+"entradas_gan": 1
 }
 ]
 },
@@ -8120,9 +8394,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 3,
-"entradas": 3,
+"entradas": 5,
 "atajadas": 0,
-"entradas_tot": 5
+"entradas_tot": 5,
+"entradas_gan": 3
 },
 {
 "fecha": "2026-11-05",
@@ -8136,7 +8411,8 @@
 "faltas": 3,
 "entradas": 3,
 "atajadas": 0,
-"entradas_tot": 3
+"entradas_tot": 3,
+"entradas_gan": 3
 },
 {
 "fecha": "2026-11-01",
@@ -8148,9 +8424,10 @@
 "asist": 0,
 "tarjeta": 1,
 "faltas": 3,
-"entradas": 3,
+"entradas": 4,
 "atajadas": 0,
-"entradas_tot": 4
+"entradas_tot": 4,
+"entradas_gan": 3
 },
 {
 "fecha": "2026-10-25",
@@ -8164,7 +8441,8 @@
 "faltas": 0,
 "entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 1
 },
 {
 "fecha": "2026-09-20",
@@ -8176,9 +8454,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 1,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 }
 ]
 },
@@ -8197,7 +8476,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 3,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-22",
@@ -8211,7 +8491,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 2,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-15",
@@ -8225,7 +8506,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 4,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-17",
@@ -8239,7 +8521,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 1,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -8256,9 +8539,10 @@
 "asist": 0,
 "tarjeta": 0,
 "faltas": 0,
-"entradas": 0,
+"entradas": 1,
 "atajadas": 0,
-"entradas_tot": 1
+"entradas_tot": 1,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-22",
@@ -8272,7 +8556,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-15",
@@ -8286,7 +8571,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -8300,7 +8586,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -8319,7 +8606,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-22",
@@ -8333,7 +8621,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-10-11",
@@ -8347,7 +8636,8 @@
 "faltas": 1,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-20",
@@ -8361,7 +8651,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 },
 {
 "fecha": "2026-09-17",
@@ -8375,7 +8666,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -8394,7 +8686,8 @@
 "faltas": 0,
 "entradas": 0,
 "atajadas": 0,
-"entradas_tot": 0
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 }
@@ -9383,5 +9676,5 @@
 "faltan": []
 },
 "estadio": "Estadio El Sardinero",
-"cuotas_leidas": "Cuotas de Betano leídas 2026-11-22T07:08:07.983Z · 592 mercados"
+"cuotas_leidas": "Cuotas de Betano leídas 2026-11-22T11:22:44.947Z · 595 mercados"
 }

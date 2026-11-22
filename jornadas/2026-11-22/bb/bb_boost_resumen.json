@@ -1,0 +1,237 @@
+{
+ "leido": "2026-11-22 06:31 Bogotá",
+ "leido_hora": "06:31",
+ "condiciones": "BB BOOST 25 %: ≥3 mercados, cada cuota > 1,50, cuota total > 5,00 (cupón de Betano; margen: patas ≥ 1,51 y precio ≥ 5,05)",
+ "aviso": "Precios REALES de Betano (mc-leg) 06:31 Bogotá, 25 combos de 3–4 patas sólidas (≥7 de 10 en ambos) por partido (Sassuolo: 2). Cuotas de las patas del catálogo (no comprobadas en el cupón: leer el % del boost en el cupón, el 21-nov cobró +50 %). EV con boost = p·(1+1,25·(precio−1))−1 con la p del modelo (sin validar contra el precio: informativo). 3 patas = lotería, stake mínimo. Alineaciones probables.",
+ "bologna-fc-udinese-calcio": {
+  "evento": 95036587,
+  "combos": [],
+  "veredicto": "BB Boost: no cumple (ningún combo de patas sólidas llega a precio real ≥ 5,05)",
+  "nota": "Betano comprime el precio cuando las patas se parecen."
+ },
+ "fc-augsburg-fsv-mainz-05": {
+  "evento": 93994173,
+  "combos": [],
+  "veredicto": "BB Boost: no cumple (ningún combo de patas sólidas llega a precio real ≥ 5,05)",
+  "nota": "Betano comprime el precio cuando las patas se parecen."
+ },
+ "fc-barcelona-villarreal-cf": {
+  "evento": 91673129,
+  "combos": [],
+  "veredicto": "BB Boost: no cumple (ningún combo de patas sólidas llega a precio real ≥ 5,05)",
+  "nota": "Betano comprime el precio cuando las patas se parecen."
+ },
+ "hull-city-brighton-hove-albion": {
+  "evento": 94991435,
+  "combos": [],
+  "veredicto": "BB Boost: no cumple (ningún combo de patas sólidas llega a precio real ≥ 5,05)",
+  "nota": "Betano comprime el precio cuando las patas se parecen."
+ },
+ "paris-fc-angers-sco": {
+  "evento": 95023784,
+  "combos": [
+   {
+    "patas": [
+     "Córners Angers SCO Más 2.5",
+     "Goles Menos 3.5",
+     "Córners Paris FC Menos 5.5"
+    ],
+    "cuotas_catalogo": [
+     1.55,
+     1.75,
+     2.07
+    ],
+    "producto_catalogo": 5.61,
+    "precio_bb": 6.1,
+    "p_modelo": 0.166,
+    "p_stress": 0.148,
+    "p_prudente": 0.148,
+    "ev_sin_boost": 0.01,
+    "pago_boost": 7.38,
+    "ev_con_boost": 0.221,
+    "p_equilibrio_boost": 0.136,
+    "fragil": "Córners Paris FC Menos 5.5",
+    "cumple": true,
+    "ids": [
+     "10832274852",
+     "10741744857",
+     "10832274835"
+    ],
+    "leido": "06:31",
+    "tag": "A · mejor"
+   },
+   {
+    "patas": [
+     "Córners Angers SCO Más 2.5",
+     "Fueras de lugar Paris FC Menos 1.5",
+     "Córners Paris FC Menos 5.5"
+    ],
+    "cuotas_catalogo": [
+     1.55,
+     1.7,
+     2.07
+    ],
+    "producto_catalogo": 5.45,
+    "precio_bb": 5.5,
+    "p_modelo": 0.176,
+    "p_stress": 0.158,
+    "p_prudente": 0.158,
+    "ev_sin_boost": -0.03,
+    "pago_boost": 6.62,
+    "ev_con_boost": 0.168,
+    "p_equilibrio_boost": 0.151,
+    "fragil": "Córners Paris FC Menos 5.5",
+    "cumple": true,
+    "ids": [
+     "10832274852",
+     "10849510928",
+     "10832274835"
+    ],
+    "leido": "06:31",
+    "tag": "B · alternativa"
+   },
+   {
+    "patas": [
+     "Córners Paris FC Menos 6.5",
+     "Remates Angers SCO Más 7.5",
+     "Goles Menos 3.5",
+     "Goles Paris FC Menos 2.5"
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     1.6,
+     1.75,
+     1.8
+    ],
+    "producto_catalogo": 7.91,
+    "precio_bb": 6.1,
+    "p_modelo": 0.158,
+    "p_stress": 0.143,
+    "p_prudente": 0.143,
+    "ev_sin_boost": -0.036,
+    "pago_boost": 7.38,
+    "ev_con_boost": 0.166,
+    "p_equilibrio_boost": 0.136,
+    "fragil": "Goles Paris FC Menos 2.5",
+    "cumple": true,
+    "ids": [
+     "10832274837",
+     "10849515097",
+     "10741744857",
+     "10741744875"
+    ],
+    "leido": "06:31",
+    "tag": "C · alternativa"
+   }
+  ],
+  "veredicto": "BB Boost: sí cumple (16 combos con precio real ≥ 5,05)",
+  "nota": "Lotería: stake mínimo."
+ },
+ "racing-santander-real-sociedad": {
+  "evento": 91673490,
+  "combos": [
+   {
+    "patas": [
+     "Remates Real Sociedad Más 14.5",
+     "Remates Racing Santander Menos 14.5",
+     "Tiros al arco Racing Santander Menos 4.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     2.15,
+     2.3
+    ],
+    "producto_catalogo": 8.01,
+    "precio_bb": 5.8,
+    "p_modelo": 0.182,
+    "p_stress": 0.16,
+    "p_prudente": 0.16,
+    "ev_sin_boost": 0.054,
+    "pago_boost": 7.0,
+    "ev_con_boost": 0.273,
+    "p_equilibrio_boost": 0.143,
+    "fragil": "Tiros al arco Racing Santander Menos 4.5",
+    "cumple": true,
+    "ids": [
+     "10850037072",
+     "10850037065",
+     "10850037051"
+    ],
+    "leido": "06:31",
+    "tag": "A · mejor"
+   },
+   {
+    "patas": [
+     "Córners Más 9.5",
+     "Remates Real Sociedad Más 14.5",
+     "Remates Racing Santander Menos 14.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.62,
+     2.15
+    ],
+    "producto_catalogo": 5.29,
+    "precio_bb": 5.5,
+    "p_modelo": 0.178,
+    "p_stress": 0.158,
+    "p_prudente": 0.158,
+    "ev_sin_boost": -0.02,
+    "pago_boost": 6.62,
+    "ev_con_boost": 0.181,
+    "p_equilibrio_boost": 0.151,
+    "fragil": "Remates Racing Santander Menos 14.5",
+    "cumple": true,
+    "ids": [
+     "10830430319",
+     "10850037072",
+     "10850037065"
+    ],
+    "leido": "06:31",
+    "tag": "B · alternativa"
+   }
+  ],
+  "veredicto": "BB Boost: sí cumple (2 combos con precio real ≥ 5,05)",
+  "nota": "Lotería: stake mínimo."
+ },
+ "us-sassuolo-calcio-genoa-cfc": {
+  "evento": 95036598,
+  "combos": [
+   {
+    "patas": [
+     "Fueras de lugar Más 2.5",
+     "Fueras de lugar US Sassuolo Calcio Más 1.5",
+     "Faltas US Sassuolo Calcio Menos 11.5",
+     "Córners Más 8.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.6,
+     1.75,
+     1.75
+    ],
+    "producto_catalogo": 7.45,
+    "precio_bb": 5.6,
+    "p_modelo": 0.151,
+    "p_stress": 0.137,
+    "p_prudente": 0.137,
+    "ev_sin_boost": -0.157,
+    "pago_boost": 6.75,
+    "ev_con_boost": 0.017,
+    "p_equilibrio_boost": 0.148,
+    "fragil": "Córners Más 8.5",
+    "cumple": true,
+    "ids": [
+     "10875681876",
+     "10849245266",
+     "10849245275",
+     "10836228707"
+    ],
+    "leido": "06:31",
+    "tag": "A · mejor"
+   }
+  ],
+  "veredicto": "BB Boost: sí cumple (1 combos con precio real ≥ 5,05)",
+  "nota": "Lotería: stake mínimo."
+ }
+}

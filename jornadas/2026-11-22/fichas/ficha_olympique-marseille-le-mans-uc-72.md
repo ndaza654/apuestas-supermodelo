@@ -331,6 +331,7 @@ Muestra: local 10, visitante 10, directos 0.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
+- Himad Abdelli — entradas: 1+ @1.15 · col +1.3 · 7 de 10 (titular 0.90)
 - Himad Abdelli — faltas: 1+ @1.45 · col +0.6 · 7 de 10 (titular 0.90)
 - Igor Paixao — remates: 1+ @2.95 · col +2.6 · 9 de 10 (titular 0.90)
 - Igor Paixao — remates: 2+ @11.5 · col +1.6 · 7 de 10 (titular 0.90)
@@ -343,6 +344,7 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Louis Mafouta — remates: 1+ @1.1 · col +1.4 · 8 de 10 (titular 0.90)
 - Louis Mafouta — remates: 2+ @1.55 · col +0.4 · 7 de 10 (titular 0.90)
 - Lucas Bretelle — faltas: 1+ @1.23 · col +0.9 · 8 de 9 (titular 0.90)
+- Lucas Calodat — entradas: 1+ @1.1 · col +1.3 · 8 de 10 (titular 0.90)
 
 ## Contexto para juzgar los criterios no numéricos
 

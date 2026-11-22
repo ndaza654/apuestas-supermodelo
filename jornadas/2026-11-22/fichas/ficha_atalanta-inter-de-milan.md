@@ -316,15 +316,19 @@ Muestra: local 10, visitante 10, directos 6.
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
 - Charles De Ketelaere — remates: 1+ @1.12 · col +1.7 · 8 de 10 (titular 0.90)
+- Charles De Ketelaere — entradas: 1+ @1.23 · col +0.8 · 7 de 10 (titular 0.90)
 - Eljif Elmas — remates: 1+ @1.2 · col +1.1 · 7 de 9 (titular 0.90)
+- Lorenzo Bernasconi — entradas: 1+ @1.19 · col — · 7 de 9
 - Marco Carnesecchi — atajadas: 2+ @1.26 · col +1.7 · 9 de 10 (titular 0.90)
 - Marco Carnesecchi — atajadas: 3+ @1.8 · col +0.7 · 7 de 10 (titular 0.90)
 - Nicola Zalewski — remates: 1+ @1.16 · col — · 8 de 9
 - Nikola Krstovic — al_arco: 1+ @1.27 · col +1.1 · 7 de 9 (titular 0.90)
 - Éderson — remates: 1+ @1.35 · col +0.9 · 8 de 10 (titular 0.90)
+- Éderson — entradas: 1+ @1.08 · col +1.1 · 8 de 10 (titular 0.90)
 - Éderson — faltas: 1+ @1.15 · col +1.4 · 8 de 10 (titular 0.90)
 - Éderson — faltas: 2+ @1.75 · col +0.4 · 7 de 10 (titular 0.90)
 - Alessandro Bastoni — faltas: 1+ @1.22 · col +0.9 · 7 de 8 (titular 0.90)
+- Carlos Augusto — entradas: 1+ @1.17 · col — · 7 de 9
 - Marcus Thuram — al_arco: 1+ @1.26 · col +0.8 · 9 de 10 (titular 0.90)
 - Marcus Thuram — faltas: 1+ @1.13 · col +1.3 · 9 de 10 (titular 0.90)
 - Nicolo Barella — remates: 1+ @1.21 · col +0.9 · 7 de 9 (titular 0.90)

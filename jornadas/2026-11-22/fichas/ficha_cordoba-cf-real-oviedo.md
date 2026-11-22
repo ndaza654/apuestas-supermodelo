@@ -1,5 +1,5 @@
 # Ficha — Cordoba CF - Real Oviedo
-España Segunda División · 2026-11-22 08:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-22T07:07:50.259Z · 196 mercados
+España Segunda División · 2026-11-22 08:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-22T11:22:33.861Z · 196 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -18,7 +18,7 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Córners | total | Más 9.5 | 1.5 | +1.9 | 8 de 10 | 8 de 10 |
 | Córners | total | Más 10.0 | 1.82 | +1.4 | 7 de 10 | 7 de 10 |
 | Córners | total | Más 10.5 | 1.82 | +0.9 | 7 de 10 | 7 de 10 |
-| Córners | visitante | Más 2.5 | 1.22 | +2.8 | 8 de 10 | 8 de 10 |
+| Córners | visitante | Más 2.5 | 1.21 | +2.8 | 8 de 10 | 8 de 10 |
 | Córners | visitante | Más 3.5 | 1.52 | +1.8 | 8 de 10 | 8 de 10 |
 | Goles | total | Más 1.5 | 1.2 | +2.2 | 9 de 10 | 10 de 10 |
 | Goles | total | Menos 4.5 | 1.22 | +0.8 | 8 de 10 | 7 de 10 |
@@ -78,7 +78,7 @@ Muestra: local 10, visitante 10, directos 2. Esperado: local 6.15, visitante 5.2
 | Línea | Más | Menos |
 |---|---|---|
 | 1.5 | @1.06 · col +3.8 · L 10 de 10 · V 9 de 10 · D 2 de 2 ✓ | — |
-| 2.5 | @1.22 · col +2.8 · L 8 de 10 · V 8 de 10 · D 1 de 2 ✓ | — |
+| 2.5 | @1.21 · col +2.8 · L 8 de 10 · V 8 de 10 · D 1 de 2 ✓ | — |
 | 3.5 | @1.52 · col +1.8 · L 8 de 10 · V 8 de 10 · D 1 de 2 ✓ | — |
 | 4.5 | @2.12 · col +0.8 · L 4 de 10 · V 7 de 10 · D 1 de 2 | — |
 | 5.5 | @3.2 · col -0.2 · L 3 de 10 · V 6 de 10 · D 1 de 2 | — |
@@ -133,18 +133,18 @@ Muestra: local 10, visitante 10, directos 2. Esperado: local 2.0, visitante 1.75
 | Línea | Más | Menos |
 |---|---|---|
 | 0.5 | @1.16 · col +1.5 · L 10 de 10 · V 9 de 10 · D 1 de 2 ✓ | @4.8 · col -1.5 · L 0 de 10 · V 1 de 10 · D 1 de 2 |
-| 1.5 | @1.75 · col +0.5 · L 6 de 10 · V 6 de 10 · D 1 de 2 | @2.0 · col -0.5 · L 4 de 10 · V 4 de 10 · D 1 de 2 |
-| 2.5 | @3.25 · col -0.5 · L 3 de 10 · V 4 de 10 · D 1 de 2 | @1.31 · col +0.5 · L 7 de 10 · V 6 de 10 · D 1 de 2 |
-| 3.5 | @6.4 · col -1.5 · L 0 de 10 · V 2 de 10 · D 0 de 2 | @1.1 · col +1.5 · L 10 de 10 · V 8 de 10 · D 2 de 2 ✓ |
+| 1.5 | @1.75 · col +0.5 · L 6 de 10 · V 6 de 10 · D 1 de 2 | @2.02 · col -0.5 · L 4 de 10 · V 4 de 10 · D 1 de 2 |
+| 2.5 | @3.2 · col -0.5 · L 3 de 10 · V 4 de 10 · D 1 de 2 | @1.32 · col +0.5 · L 7 de 10 · V 6 de 10 · D 1 de 2 |
+| 3.5 | @6.3 · col -1.5 · L 0 de 10 · V 2 de 10 · D 0 de 2 | @1.1 · col +1.5 · L 10 de 10 · V 8 de 10 · D 2 de 2 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
 | 0.5 | @1.32 · col +1.2 · L 7 de 10 · V 10 de 10 · D 1 de 2 ✓ | @3.2 · col -1.2 · L 3 de 10 · V 0 de 10 · D 1 de 2 |
-| 1.5 | @2.42 · col +0.2 · L 6 de 10 · V 7 de 10 · D 1 de 2 | @1.52 · col -0.2 · L 4 de 10 · V 3 de 10 · D 1 de 2 |
-| 2.5 | @5.3 · col -0.8 · L 3 de 10 · V 2 de 10 · D 0 de 2 | @1.13 · col +0.8 · L 7 de 10 · V 8 de 10 · D 2 de 2 ✓ |
-| 3.5 | @10.0 · col -1.8 · L 0 de 10 · V 0 de 10 · D 0 de 2 | @1.03 · col +1.8 · L 10 de 10 · V 10 de 10 · D 2 de 2 ✓ |
+| 1.5 | @2.45 · col +0.2 · L 6 de 10 · V 7 de 10 · D 1 de 2 | @1.52 · col -0.2 · L 4 de 10 · V 3 de 10 · D 1 de 2 |
+| 2.5 | @5.4 · col -0.8 · L 3 de 10 · V 2 de 10 · D 0 de 2 | @1.13 · col +0.8 · L 7 de 10 · V 8 de 10 · D 2 de 2 ✓ |
+| 3.5 | @10.25 · col -1.8 · L 0 de 10 · V 0 de 10 · D 0 de 2 | @1.03 · col +1.8 · L 10 de 10 · V 10 de 10 · D 2 de 2 ✓ |
 
 ### Tarjetas (solo amarillas)
 _Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._
@@ -186,11 +186,11 @@ Muestra: local 10, visitante 10, directos 2.
 
 | Selección | Cuota | Local | Visitante | Directos | Cumple |
 |---|---|---|---|---|---|
-| 1 | 2.0 | 5 de 10 | 5 de 10 | 1 de 2 |  |
+| 1 | 1.98 | 5 de 10 | 5 de 10 | 1 de 2 |  |
 | X | 3.75 | 2 de 10 | 1 de 10 | 1 de 2 |  |
-| 2 | 3.55 | 3 de 10 | 4 de 10 | 0 de 2 |  |
+| 2 | 3.6 | 3 de 10 | 4 de 10 | 0 de 2 |  |
 | 1X | 1.32 | 7 de 10 | 6 de 10 | 2 de 2 |  |
-| X2 | 1.85 | 5 de 10 | 5 de 10 | 1 de 2 |  |
+| X2 | 1.87 | 5 de 10 | 5 de 10 | 1 de 2 |  |
 | 12 | 1.26 | 8 de 10 | 9 de 10 | 1 de 2 | ✓ |
 
 ## Jugadores (solo líneas que cumplen la regularidad; el JSON trae todas)

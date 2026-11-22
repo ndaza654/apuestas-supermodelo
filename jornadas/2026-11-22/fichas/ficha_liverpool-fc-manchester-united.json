@@ -10165,30 +10165,30 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "por_90": 0.65,
-   "esperado": 0.57,
+   "por_90": 1.42,
+   "esperado": 1.26,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.7,
+     "reg": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "colchon": 0.76
+    },
+    {
+     "minimo": 2,
+     "cuota": 4.25,
      "reg": {
       "x": 3,
       "n": 10,
       "txt": "3 de 10",
       "cumple": false
      },
-     "colchon": 0.07
-    },
-    {
-     "minimo": 2,
-     "cuota": 4.25,
-     "reg": {
-      "x": 1,
-      "n": 10,
-      "txt": "1 de 10",
-      "cumple": false
-     },
-     "colchon": -0.93
+     "colchon": -0.24
     },
     {
      "minimo": 3,
@@ -10199,7 +10199,7 @@
       "txt": "1 de 10",
       "cumple": false
      },
-     "colchon": -1.93
+     "colchon": -1.24
     },
     {
      "minimo": 4,
@@ -10210,7 +10210,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -2.93
+     "colchon": -2.24
     },
     {
      "minimo": 5,
@@ -10221,7 +10221,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -3.93
+     "colchon": -3.24
     },
     {
      "minimo": 6,
@@ -10232,7 +10232,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -4.93
+     "colchon": -4.24
     }
    ]
   },
@@ -10892,16 +10892,16 @@
    "minutos_esperados": null,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "por_90": 0.0,
+   "por_90": 0.53,
    "esperado": null,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.32,
      "reg": {
-      "x": 0,
+      "x": 2,
       "n": 10,
-      "txt": "0 de 10",
+      "txt": "2 de 10",
       "cumple": false
      },
      "colchon": null
@@ -11261,30 +11261,30 @@
    "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
-   "por_90": 0.51,
-   "esperado": 0.46,
+   "por_90": 1.37,
+   "esperado": 1.21,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.25,
      "reg": {
-      "x": 3,
+      "x": 6,
       "n": 7,
-      "txt": "3 de 7",
+      "txt": "6 de 7",
       "cumple": false
      },
-     "colchon": -0.04
+     "colchon": 0.71
     },
     {
      "minimo": 2,
      "cuota": 2.12,
      "reg": {
-      "x": 0,
+      "x": 2,
       "n": 7,
-      "txt": "0 de 7",
+      "txt": "2 de 7",
       "cumple": false
      },
-     "colchon": -1.04
+     "colchon": -0.29
     },
     {
      "minimo": 3,
@@ -11295,7 +11295,7 @@
       "txt": "0 de 7",
       "cumple": false
      },
-     "colchon": -2.04
+     "colchon": -1.29
     },
     {
      "minimo": 4,
@@ -11306,7 +11306,7 @@
       "txt": "0 de 7",
       "cumple": false
      },
-     "colchon": -3.04
+     "colchon": -2.29
     },
     {
      "minimo": 5,
@@ -11317,7 +11317,7 @@
       "txt": "0 de 7",
       "cumple": false
      },
-     "colchon": -4.04
+     "colchon": -3.29
     }
    ]
   },
@@ -11619,16 +11619,16 @@
    "minutos_esperados": null,
    "partidos_muestra": 7,
    "sin_historial": false,
-   "por_90": 0.6,
+   "por_90": 0.9,
    "esperado": null,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.32,
      "reg": {
-      "x": 2,
+      "x": 3,
       "n": 7,
-      "txt": "2 de 7",
+      "txt": "3 de 7",
       "cumple": false
      },
      "colchon": null
@@ -11966,30 +11966,30 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "por_90": 0.23,
-   "esperado": 0.2,
+   "por_90": 0.9,
+   "esperado": 0.8,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.24,
+     "reg": {
+      "x": 6,
+      "n": 9,
+      "txt": "6 de 9",
+      "cumple": false
+     },
+     "colchon": 0.3
+    },
+    {
+     "minimo": 2,
+     "cuota": 2.07,
      "reg": {
       "x": 2,
       "n": 9,
       "txt": "2 de 9",
       "cumple": false
      },
-     "colchon": -0.3
-    },
-    {
-     "minimo": 2,
-     "cuota": 2.07,
-     "reg": {
-      "x": 0,
-      "n": 9,
-      "txt": "0 de 9",
-      "cumple": false
-     },
-     "colchon": -1.3
+     "colchon": -0.7
     },
     {
      "minimo": 3,
@@ -12000,7 +12000,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -2.3
+     "colchon": -1.7
     },
     {
      "minimo": 4,
@@ -12011,7 +12011,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -3.3
+     "colchon": -2.7
     },
     {
      "minimo": 5,
@@ -12022,7 +12022,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -4.3
+     "colchon": -3.7
     }
    ]
   },
@@ -12660,41 +12660,41 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "por_90": 0.96,
-   "esperado": 0.86,
+   "por_90": 1.79,
+   "esperado": 1.59,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.12,
+     "reg": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "colchon": 1.09
+    },
+    {
+     "minimo": 2,
+     "cuota": 1.62,
      "reg": {
       "x": 4,
       "n": 10,
       "txt": "4 de 10",
       "cumple": false
      },
-     "colchon": 0.36
-    },
-    {
-     "minimo": 2,
-     "cuota": 1.62,
-     "reg": {
-      "x": 2,
-      "n": 10,
-      "txt": "2 de 10",
-      "cumple": false
-     },
-     "colchon": -0.64
+     "colchon": 0.09
     },
     {
      "minimo": 3,
      "cuota": 2.82,
      "reg": {
-      "x": 1,
+      "x": 3,
       "n": 10,
-      "txt": "1 de 10",
+      "txt": "3 de 10",
       "cumple": false
      },
-     "colchon": -1.64
+     "colchon": -0.91
     },
     {
      "minimo": 4,
@@ -12705,7 +12705,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -2.64
+     "colchon": -1.91
     },
     {
      "minimo": 5,
@@ -12716,7 +12716,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -3.64
+     "colchon": -2.91
     }
    ]
   },
@@ -13018,16 +13018,16 @@
    "minutos_esperados": null,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "por_90": 0.22,
+   "por_90": 0.44,
    "esperado": null,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.32,
      "reg": {
-      "x": 1,
+      "x": 2,
       "n": 9,
-      "txt": "1 de 9",
+      "txt": "2 de 9",
       "cumple": false
      },
      "colchon": null
@@ -13365,16 +13365,16 @@
    "minutos_esperados": null,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "por_90": 2.03,
+   "por_90": 2.88,
    "esperado": null,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.13,
      "reg": {
-      "x": 5,
+      "x": 6,
       "n": 9,
-      "txt": "5 de 9",
+      "txt": "6 de 9",
       "cumple": false
      },
      "colchon": null
@@ -13383,9 +13383,9 @@
      "minimo": 2,
      "cuota": 1.65,
      "reg": {
-      "x": 4,
+      "x": 6,
       "n": 9,
-      "txt": "4 de 9",
+      "txt": "6 de 9",
       "cumple": false
      },
      "colchon": null
@@ -13394,9 +13394,9 @@
      "minimo": 3,
      "cuota": 2.95,
      "reg": {
-      "x": 2,
+      "x": 4,
       "n": 9,
-      "txt": "2 de 9",
+      "txt": "4 de 9",
       "cumple": false
      },
      "colchon": null
@@ -14395,19 +14395,19 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "por_90": 0.79,
-   "esperado": 0.7,
+   "por_90": 1.05,
+   "esperado": 0.93,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.21,
      "reg": {
-      "x": 4,
+      "x": 6,
       "n": 8,
-      "txt": "4 de 8",
+      "txt": "6 de 8",
       "cumple": false
      },
-     "colchon": 0.2
+     "colchon": 0.43
     },
     {
      "minimo": 2,
@@ -14418,7 +14418,7 @@
       "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": -0.8
+     "colchon": -0.57
     },
     {
      "minimo": 3,
@@ -14429,7 +14429,7 @@
       "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": -1.8
+     "colchon": -1.57
     },
     {
      "minimo": 4,
@@ -14440,7 +14440,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": -2.8
+     "colchon": -2.57
     },
     {
      "minimo": 5,
@@ -14451,7 +14451,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": -3.8
+     "colchon": -3.57
     }
    ]
   },
@@ -14742,41 +14742,41 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "por_90": 0.98,
-   "esperado": 0.87,
+   "por_90": 1.47,
+   "esperado": 1.31,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.07,
      "reg": {
-      "x": 5,
+      "x": 7,
       "n": 10,
-      "txt": "5 de 10",
-      "cumple": false
+      "txt": "7 de 10",
+      "cumple": true
      },
-     "colchon": 0.37
+     "colchon": 0.81
     },
     {
      "minimo": 2,
      "cuota": 1.45,
      "reg": {
-      "x": 3,
+      "x": 4,
       "n": 10,
-      "txt": "3 de 10",
+      "txt": "4 de 10",
       "cumple": false
      },
-     "colchon": -0.63
+     "colchon": -0.19
     },
     {
      "minimo": 3,
      "cuota": 2.3,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 10,
-      "txt": "0 de 10",
+      "txt": "1 de 10",
       "cumple": false
      },
-     "colchon": -1.63
+     "colchon": -1.19
     },
     {
      "minimo": 4,
@@ -14787,7 +14787,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -2.63
+     "colchon": -2.19
     },
     {
      "minimo": 5,
@@ -14798,7 +14798,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -3.63
+     "colchon": -3.19
     }
    ]
   },
@@ -15100,30 +15100,30 @@
    "minutos_esperados": 80,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "por_90": 0.59,
-   "esperado": 0.53,
+   "por_90": 1.18,
+   "esperado": 1.05,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.22,
      "reg": {
-      "x": 2,
+      "x": 3,
       "n": 5,
-      "txt": "2 de 5",
+      "txt": "3 de 5",
       "cumple": false
      },
-     "colchon": 0.03
+     "colchon": 0.55
     },
     {
      "minimo": 2,
      "cuota": 2.0,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 5,
-      "txt": "0 de 5",
+      "txt": "1 de 5",
       "cumple": false
      },
-     "colchon": -0.97
+     "colchon": -0.45
     },
     {
      "minimo": 3,
@@ -15134,7 +15134,7 @@
       "txt": "0 de 5",
       "cumple": false
      },
-     "colchon": -1.97
+     "colchon": -1.45
     },
     {
      "minimo": 4,
@@ -15145,7 +15145,7 @@
       "txt": "0 de 5",
       "cumple": false
      },
-     "colchon": -2.97
+     "colchon": -2.45
     },
     {
      "minimo": 5,
@@ -15156,7 +15156,7 @@
       "txt": "0 de 5",
       "cumple": false
      },
-     "colchon": -3.97
+     "colchon": -3.45
     }
    ]
   },
@@ -15447,16 +15447,16 @@
    "minutos_esperados": null,
    "partidos_muestra": 4,
    "sin_historial": false,
-   "por_90": 1.64,
+   "por_90": 3.27,
    "esperado": null,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.2,
      "reg": {
-      "x": 1,
+      "x": 2,
       "n": 4,
-      "txt": "1 de 4",
+      "txt": "2 de 4",
       "cumple": false
      },
      "colchon": null
@@ -15794,30 +15794,30 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "por_90": 1.58,
-   "esperado": 1.4,
+   "por_90": 2.28,
+   "esperado": 2.02,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.17,
      "reg": {
-      "x": 6,
+      "x": 7,
       "n": 8,
-      "txt": "6 de 8",
-      "cumple": false
+      "txt": "7 de 8",
+      "cumple": true
      },
-     "colchon": 0.9
+     "colchon": 1.52
     },
     {
      "minimo": 2,
      "cuota": 1.83,
      "reg": {
-      "x": 1,
+      "x": 3,
       "n": 8,
-      "txt": "1 de 8",
+      "txt": "3 de 8",
       "cumple": false
      },
-     "colchon": -0.1
+     "colchon": 0.52
     },
     {
      "minimo": 3,
@@ -15828,7 +15828,7 @@
       "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": -1.1
+     "colchon": -0.48
     },
     {
      "minimo": 4,
@@ -15839,18 +15839,18 @@
       "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": -2.1
+     "colchon": -1.48
     },
     {
      "minimo": 5,
      "cuota": 13.5,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 8,
-      "txt": "0 de 8",
+      "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": -3.1
+     "colchon": -2.48
     }
    ]
   },
@@ -16791,16 +16791,16 @@
    "minutos_esperados": null,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "por_90": 1.17,
+   "por_90": 2.18,
    "esperado": null,
    "escalones": [
     {
      "minimo": 2,
      "cuota": 1.32,
      "reg": {
-      "x": 2,
+      "x": 3,
       "n": 10,
-      "txt": "2 de 10",
+      "txt": "3 de 10",
       "cumple": false
      },
      "colchon": null
@@ -16809,9 +16809,9 @@
      "minimo": 3,
      "cuota": 1.95,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 10,
-      "txt": "0 de 10",
+      "txt": "1 de 10",
       "cumple": false
      },
      "colchon": null
@@ -17138,12 +17138,23 @@
    "minutos_esperados": null,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "por_90": 2.57,
+   "por_90": 4.5,
    "esperado": null,
    "escalones": [
     {
      "minimo": 2,
      "cuota": 1.19,
+     "reg": {
+      "x": 4,
+      "n": 8,
+      "txt": "4 de 8",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 1.62,
      "reg": {
       "x": 2,
       "n": 8,
@@ -17153,23 +17164,12 @@
      "colchon": null
     },
     {
-     "minimo": 3,
-     "cuota": 1.62,
+     "minimo": 4,
+     "cuota": 2.5,
      "reg": {
       "x": 1,
       "n": 8,
       "txt": "1 de 8",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 4,
-     "cuota": 2.5,
-     "reg": {
-      "x": 0,
-      "n": 8,
-      "txt": "0 de 8",
       "cumple": false
      },
      "colchon": null
@@ -17815,19 +17815,19 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "por_90": 1.17,
-   "esperado": 1.04,
+   "por_90": 2.0,
+   "esperado": 1.78,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.1,
      "reg": {
-      "x": 3,
+      "x": 6,
       "n": 8,
-      "txt": "3 de 8",
+      "txt": "6 de 8",
       "cumple": false
      },
-     "colchon": 0.54
+     "colchon": 1.28
     },
     {
      "minimo": 2,
@@ -17838,7 +17838,7 @@
       "txt": "2 de 8",
       "cumple": false
      },
-     "colchon": -0.46
+     "colchon": 0.28
     },
     {
      "minimo": 3,
@@ -17849,29 +17849,29 @@
       "txt": "2 de 8",
       "cumple": false
      },
-     "colchon": -1.46
+     "colchon": -0.72
     },
     {
      "minimo": 4,
      "cuota": 4.85,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 8,
-      "txt": "0 de 8",
+      "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": -2.46
+     "colchon": -1.72
     },
     {
      "minimo": 5,
      "cuota": 9.5,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 8,
-      "txt": "0 de 8",
+      "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": -3.46
+     "colchon": -2.72
     }
    ]
   },
@@ -18151,19 +18151,19 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "por_90": 0.94,
-   "esperado": 0.84,
+   "por_90": 1.21,
+   "esperado": 1.08,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.31,
      "reg": {
-      "x": 4,
+      "x": 5,
       "n": 9,
-      "txt": "4 de 9",
+      "txt": "5 de 9",
       "cumple": false
      },
-     "colchon": 0.34
+     "colchon": 0.58
     },
     {
      "minimo": 2,
@@ -18174,18 +18174,18 @@
       "txt": "3 de 9",
       "cumple": false
      },
-     "colchon": -0.66
+     "colchon": -0.42
     },
     {
      "minimo": 3,
      "cuota": 5.3,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 9,
-      "txt": "0 de 9",
+      "txt": "1 de 9",
       "cumple": false
      },
-     "colchon": -1.66
+     "colchon": -1.42
     },
     {
      "minimo": 4,
@@ -18196,7 +18196,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -2.66
+     "colchon": -2.42
     },
     {
      "minimo": 5,
@@ -18207,7 +18207,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -3.66
+     "colchon": -3.42
     }
    ]
   },
@@ -18465,52 +18465,52 @@
    "minutos_esperados": 80,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "por_90": 1.18,
-   "esperado": 1.05,
+   "por_90": 3.3,
+   "esperado": 2.93,
    "escalones": [
     {
      "minimo": 2,
      "cuota": 1.4,
      "reg": {
-      "x": 1,
+      "x": 3,
       "n": 5,
-      "txt": "1 de 5",
+      "txt": "3 de 5",
       "cumple": false
      },
-     "colchon": -0.45
+     "colchon": 1.43
     },
     {
      "minimo": 3,
      "cuota": 2.15,
      "reg": {
-      "x": 1,
+      "x": 3,
       "n": 5,
-      "txt": "1 de 5",
+      "txt": "3 de 5",
       "cumple": false
      },
-     "colchon": -1.45
+     "colchon": 0.43
     },
     {
      "minimo": 4,
      "cuota": 3.9,
      "reg": {
-      "x": 0,
+      "x": 2,
       "n": 5,
-      "txt": "0 de 5",
+      "txt": "2 de 5",
       "cumple": false
      },
-     "colchon": -2.45
+     "colchon": -0.57
     },
     {
      "minimo": 5,
      "cuota": 7.4,
      "reg": {
-      "x": 0,
+      "x": 2,
       "n": 5,
-      "txt": "0 de 5",
+      "txt": "2 de 5",
       "cumple": false
      },
-     "colchon": -3.45
+     "colchon": -1.57
     },
     {
      "minimo": 6,
@@ -18521,7 +18521,7 @@
       "txt": "0 de 5",
       "cumple": false
      },
-     "colchon": -4.45
+     "colchon": -2.57
     }
    ]
   },
@@ -18768,12 +18768,23 @@
    "minutos_esperados": null,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "por_90": 1.65,
+   "por_90": 3.07,
    "esperado": null,
    "escalones": [
     {
      "minimo": 2,
      "cuota": 1.17,
+     "reg": {
+      "x": 4,
+      "n": 5,
+      "txt": "4 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 1.57,
      "reg": {
       "x": 3,
       "n": 5,
@@ -18783,23 +18794,12 @@
      "colchon": null
     },
     {
-     "minimo": 3,
-     "cuota": 1.57,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
      "minimo": 4,
      "cuota": 2.37,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 5,
-      "txt": "0 de 5",
+      "txt": "1 de 5",
       "cumple": false
      },
      "colchon": null
@@ -19082,8 +19082,8 @@
    "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
-   "por_90": 1.16,
-   "esperado": 1.03,
+   "por_90": 1.33,
+   "esperado": 1.18,
    "escalones": [
     {
      "minimo": 1,
@@ -19094,7 +19094,7 @@
       "txt": "5 de 7",
       "cumple": false
      },
-     "colchon": 0.53
+     "colchon": 0.68
     },
     {
      "minimo": 2,
@@ -19105,18 +19105,18 @@
       "txt": "2 de 7",
       "cumple": false
      },
-     "colchon": -0.47
+     "colchon": -0.32
     },
     {
      "minimo": 3,
      "cuota": 2.55,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 7,
-      "txt": "0 de 7",
+      "txt": "1 de 7",
       "cumple": false
      },
-     "colchon": -1.47
+     "colchon": -1.32
     },
     {
      "minimo": 4,
@@ -19127,7 +19127,7 @@
       "txt": "0 de 7",
       "cumple": false
      },
-     "colchon": -2.47
+     "colchon": -2.32
     },
     {
      "minimo": 5,
@@ -19138,7 +19138,7 @@
       "txt": "0 de 7",
       "cumple": false
      },
-     "colchon": -3.47
+     "colchon": -3.32
     }
    ]
   },
@@ -19715,52 +19715,52 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "por_90": 1.38,
-   "esperado": 1.23,
+   "por_90": 2.76,
+   "esperado": 2.46,
    "escalones": [
     {
      "minimo": 2,
      "cuota": 1.19,
+     "reg": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "colchon": 0.96
+    },
+    {
+     "minimo": 3,
+     "cuota": 1.62,
+     "reg": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "colchon": -0.04
+    },
+    {
+     "minimo": 4,
+     "cuota": 2.52,
      "reg": {
       "x": 3,
       "n": 10,
       "txt": "3 de 10",
       "cumple": false
      },
-     "colchon": -0.27
-    },
-    {
-     "minimo": 3,
-     "cuota": 1.62,
-     "reg": {
-      "x": 2,
-      "n": 10,
-      "txt": "2 de 10",
-      "cumple": false
-     },
-     "colchon": -1.27
-    },
-    {
-     "minimo": 4,
-     "cuota": 2.52,
-     "reg": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "colchon": -2.27
+     "colchon": -1.04
     },
     {
      "minimo": 5,
      "cuota": 4.3,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 10,
-      "txt": "0 de 10",
+      "txt": "1 de 10",
       "cumple": false
      },
-     "colchon": -3.27
+     "colchon": -2.04
     },
     {
      "minimo": 6,
@@ -19771,7 +19771,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -4.27
+     "colchon": -3.04
     }
    ]
   },
@@ -20624,7 +20624,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 7,
    "sin_historial": false,
-   "por_90": 1.26,
+   "por_90": 2.94,
    "esperado": null,
    "escalones": [
     {
@@ -20642,9 +20642,9 @@
      "minimo": 2,
      "cuota": 1.55,
      "reg": {
-      "x": 0,
+      "x": 2,
       "n": 7,
-      "txt": "0 de 7",
+      "txt": "2 de 7",
       "cumple": false
      },
      "colchon": null
@@ -20653,9 +20653,9 @@
      "minimo": 3,
      "cuota": 2.65,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 7,
-      "txt": "0 de 7",
+      "txt": "1 de 7",
       "cumple": false
      },
      "colchon": null
@@ -20664,9 +20664,9 @@
      "minimo": 4,
      "cuota": 5.1,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 7,
-      "txt": "0 de 7",
+      "txt": "1 de 7",
       "cumple": false
      },
      "colchon": null
@@ -21522,52 +21522,52 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "por_90": 1.73,
-   "esperado": 1.54,
+   "por_90": 2.72,
+   "esperado": 2.42,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.08,
      "reg": {
-      "x": 8,
+      "x": 9,
       "n": 9,
-      "txt": "8 de 9",
+      "txt": "9 de 9",
       "cumple": true
      },
-     "colchon": 1.04
+     "colchon": 1.92
     },
     {
      "minimo": 2,
      "cuota": 1.47,
+     "reg": {
+      "x": 6,
+      "n": 9,
+      "txt": "6 de 9",
+      "cumple": false
+     },
+     "colchon": 0.92
+    },
+    {
+     "minimo": 3,
+     "cuota": 2.3,
      "reg": {
       "x": 5,
       "n": 9,
       "txt": "5 de 9",
       "cumple": false
      },
-     "colchon": 0.04
-    },
-    {
-     "minimo": 3,
-     "cuota": 2.3,
-     "reg": {
-      "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
-      "cumple": false
-     },
-     "colchon": -0.96
+     "colchon": -0.08
     },
     {
      "minimo": 4,
      "cuota": 4.3,
      "reg": {
-      "x": 0,
+      "x": 2,
       "n": 9,
-      "txt": "0 de 9",
+      "txt": "2 de 9",
       "cumple": false
      },
-     "colchon": -1.96
+     "colchon": -1.08
     },
     {
      "minimo": 5,
@@ -21578,7 +21578,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -2.96
+     "colchon": -2.08
     }
    ]
   },
@@ -22117,16 +22117,16 @@
    "minutos_esperados": null,
    "partidos_muestra": 6,
    "sin_historial": false,
-   "por_90": 1.55,
+   "por_90": 3.41,
    "esperado": null,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.11,
      "reg": {
-      "x": 4,
+      "x": 5,
       "n": 6,
-      "txt": "4 de 6",
+      "txt": "5 de 6",
       "cumple": false
      },
      "colchon": null
@@ -22135,9 +22135,9 @@
      "minimo": 2,
      "cuota": 1.57,
      "reg": {
-      "x": 1,
+      "x": 3,
       "n": 6,
-      "txt": "1 de 6",
+      "txt": "3 de 6",
       "cumple": false
      },
      "colchon": null
@@ -22146,9 +22146,9 @@
      "minimo": 3,
      "cuota": 2.67,
      "reg": {
-      "x": 0,
+      "x": 2,
       "n": 6,
-      "txt": "0 de 6",
+      "txt": "2 de 6",
       "cumple": false
      },
      "colchon": null
@@ -22157,9 +22157,9 @@
      "minimo": 4,
      "cuota": 5.2,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 6,
-      "txt": "0 de 6",
+      "txt": "1 de 6",
       "cumple": false
      },
      "colchon": null
@@ -22409,7 +22409,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 3,
    "sin_historial": false,
-   "por_90": 0.8,
+   "por_90": 2.4,
    "esperado": null,
    "escalones": [
     {
@@ -22427,9 +22427,9 @@
      "minimo": 3,
      "cuota": 1.7,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 3,
-      "txt": "0 de 3",
+      "txt": "1 de 3",
       "cumple": false
      },
      "colchon": null
@@ -22438,9 +22438,9 @@
      "minimo": 4,
      "cuota": 2.67,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 3,
-      "txt": "0 de 3",
+      "txt": "1 de 3",
       "cumple": false
      },
      "colchon": null
@@ -22701,41 +22701,41 @@
    "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
-   "por_90": 1.39,
-   "esperado": 1.23,
+   "por_90": 2.32,
+   "esperado": 2.06,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.09,
      "reg": {
-      "x": 6,
+      "x": 7,
       "n": 7,
-      "txt": "6 de 7",
-      "cumple": false
+      "txt": "7 de 7",
+      "cumple": true
      },
-     "colchon": 0.73
+     "colchon": 1.56
     },
     {
      "minimo": 2,
      "cuota": 1.52,
+     "reg": {
+      "x": 5,
+      "n": 7,
+      "txt": "5 de 7",
+      "cumple": false
+     },
+     "colchon": 0.56
+    },
+    {
+     "minimo": 3,
+     "cuota": 2.5,
      "reg": {
       "x": 3,
       "n": 7,
       "txt": "3 de 7",
       "cumple": false
      },
-     "colchon": -0.27
-    },
-    {
-     "minimo": 3,
-     "cuota": 2.5,
-     "reg": {
-      "x": 0,
-      "n": 7,
-      "txt": "0 de 7",
-      "cumple": false
-     },
-     "colchon": -1.27
+     "colchon": -0.44
     },
     {
      "minimo": 4,
@@ -22746,7 +22746,7 @@
       "txt": "0 de 7",
       "cumple": false
      },
-     "colchon": -2.27
+     "colchon": -1.44
     },
     {
      "minimo": 5,
@@ -22757,7 +22757,7 @@
       "txt": "0 de 7",
       "cumple": false
      },
-     "colchon": -3.27
+     "colchon": -2.44
     }
    ]
   },

@@ -333,8 +333,11 @@ Muestra: local 10, visitante 10, directos 0.
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
 - Alejandro Catena — faltas: 1+ @1.3 · col +1.1 · 8 de 8 (titular 0.90)
+- Inigo Arguibide — entradas: 1+ @1.08 · col — · 7 de 8
+- Jon Moncayola — entradas: 1+ @1.08 · col +1.0 · 7 de 9 (titular 0.90)
 - Alfonso Herrero — atajadas: 3+ @1.33 · col +0.8 · 8 de 9 (titular 0.90)
 - Carlos Dotor — faltas: 1+ @1.19 · col — · 7 de 8
+- Dani Lorenzo — entradas: 1+ @1.08 · col — · 7 de 9
 
 ## Contexto para juzgar los criterios no numéricos
 
@@ -343,4 +346,4 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Historial: sin casar con Betano → Fernandez A., Garcia R., Bretones A., Osambela A., Boyomo F., Garcia R. #2, Yeboah R., Rafita, Galilea E., Aznou A., Juani, Merino I., Abaida H.', 'Alineación probable: sin casar con Betano → Boyomo F., Garcia R. (ambiguo: Raul Garcia / Ruben Garcia), Lorenzo G., Martinez Andres']
+- Dudas: ['Historial: sin casar con Betano → Fernandez A., Garcia R., Bretones A., Osambela A., Boyomo F., Garcia R. #2, Yeboah R., Rafita, Galilea E., Aznou A., Juani, Merino I., Abaida H.', 'Alineación probable: sin casar con Betano → Boyomo F., Garcia R. (ambiguo: Ruben Garcia / Raul Garcia), Lorenzo G., Martinez Andres']

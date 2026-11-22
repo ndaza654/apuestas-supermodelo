@@ -1,0 +1,20 @@
+# BB Boost · Paris FC - Angers SCO · 25 combos con precio real, 17 cumplen (≥3 patas, cada una ≥ 1.5, precio ≥ 5.0)
+Catálogo leído 2026-11-22T11:31:12.869Z (UTC). p = modelo (ajustada). EV informativo; el bono no está incluido.
+
+- p 0.176 (sim 0.175, stress 0.158) · precio BB **5.5** (producto 5.45) · EV -0.03 · Córners Angers SCO Más 2.5 @1.55 + Fueras de lugar Paris FC Menos 1.5 @1.7 + Córners Paris FC Menos 5.5 @2.07 · frágil: Córners Paris FC Menos 5.5
+- p 0.173 (sim 0.171, stress 0.154) · precio BB **5.5** (producto 6.58) · EV -0.05 · Córners Angers SCO Más 2.5 @1.55 + Córners Paris FC Menos 5.5 @2.07 + Remates Angers SCO Más 8.5 @2.05 · frágil: Remates Angers SCO Más 8.5
+- p 0.173 (sim 0.166, stress 0.156) · precio BB **5.4** (producto 7.67) · EV -0.07 · Córners Paris FC Menos 6.5 @1.57 + Córners Angers SCO Más 2.5 @1.55 + Goles Menos 3.5 @1.75 + Goles Paris FC Menos 2.5 @1.8 · frágil: Goles Paris FC Menos 2.5
+- p 0.172 (sim 0.169, stress 0.155) · precio BB **5.2** (producto 5.03) · EV -0.11 · Córners Paris FC Menos 6.5 @1.57 + Goles Menos 3.5 @1.75 + Faltas Paris FC Más 12.5 @1.83 · frágil: Faltas Paris FC Más 12.5
+- p 0.169 (sim 0.170, stress 0.152) · precio BB **5** (producto 5.12) · EV -0.15 · Tarjetas Angers SCO Más 1.5 @1.6 + Goles Menos 3.5 @1.75 + Faltas Paris FC Más 12.5 @1.83 · frágil: Faltas Paris FC Más 12.5
+- p 0.169 (sim 0.167, stress 0.151) · precio BB **5.3** (producto 5.13) · EV -0.10 · Córners Angers SCO Más 2.5 @1.55 + Tarjetas Angers SCO Más 1.5 @1.6 + Córners Paris FC Menos 5.5 @2.07 · frágil: Córners Paris FC Menos 5.5
+- p 0.168 (sim 0.167, stress 0.150) · precio BB **5.4** (producto 5.47) · EV -0.09 · Córners Paris FC Menos 6.5 @1.57 + Fueras de lugar Paris FC Menos 1.5 @1.7 + Remates Angers SCO Más 8.5 @2.05 · frágil: Remates Angers SCO Más 8.5
+- p 0.167 (sim 0.164, stress 0.150) · precio BB **5.7** (producto 7.91) · EV -0.05 · Córners Paris FC Menos 6.5 @1.57 + Tarjetas Angers SCO Más 1.5 @1.6 + Goles Menos 3.5 @1.75 + Goles Paris FC Menos 2.5 @1.8 · frágil: Goles Paris FC Menos 2.5
+- p 0.166 (sim 0.166, stress 0.148) · precio BB **5.6** (producto 5.63) · EV -0.07 · Remates Angers SCO Más 7.5 @1.6 + Fueras de lugar Paris FC Menos 1.5 @1.7 + Córners Paris FC Menos 5.5 @2.07 · frágil: Córners Paris FC Menos 5.5
+- p 0.166 (sim 0.164, stress 0.148) · precio BB **6.1** (producto 5.61) · EV +0.01 · Córners Angers SCO Más 2.5 @1.55 + Goles Menos 3.5 @1.75 + Córners Paris FC Menos 5.5 @2.07 · frágil: Córners Paris FC Menos 5.5
+- p 0.163 (sim 0.162, stress 0.147) · precio BB **5.2** (producto 5.27) · EV -0.15 · Tarjetas Angers SCO Más 1.5 @1.6 + Goles Paris FC Menos 2.5 @1.8 + Faltas Paris FC Más 12.5 @1.83 · frágil: Faltas Paris FC Más 12.5
+- p 0.163 (sim 0.162, stress 0.145) · precio BB **5.2** (producto 5.15) · EV -0.15 · Córners Paris FC Menos 6.5 @1.57 + Tarjetas Angers SCO Más 1.5 @1.6 + Remates Angers SCO Más 8.5 @2.05 · frágil: Remates Angers SCO Más 8.5
+- p 0.161 (sim 0.157, stress 0.146) · precio BB **5.3** (producto 7.81) · EV -0.14 · Córners Angers SCO Más 2.5 @1.55 + Tarjetas Angers SCO Más 1.5 @1.6 + Goles Menos 3.5 @1.75 + Goles Paris FC Menos 2.5 @1.8 · frágil: Goles Paris FC Menos 2.5
+- p 0.159 (sim 0.156, stress 0.142) · precio BB **5.9** (producto 5.87) · EV -0.06 · Córners Angers SCO Más 2.5 @1.55 + Faltas Paris FC Más 12.5 @1.83 + Córners Paris FC Menos 5.5 @2.07 · frágil: Córners Paris FC Menos 5.5
+- p 0.158 (sim 0.154, stress 0.142) · precio BB **5.6** (producto 5.17) · EV -0.11 · Córners Paris FC Menos 6.5 @1.57 + Goles Paris FC Menos 2.5 @1.8 + Faltas Paris FC Más 12.5 @1.83 · frágil: Faltas Paris FC Más 12.5
+- p 0.158 (sim 0.152, stress 0.143) · precio BB **6.1** (producto 7.91) · EV -0.04 · Córners Paris FC Menos 6.5 @1.57 + Remates Angers SCO Más 7.5 @1.6 + Goles Menos 3.5 @1.75 + Goles Paris FC Menos 2.5 @1.8 · frágil: Goles Paris FC Menos 2.5
+- p 0.158 (sim 0.158, stress 0.141) · precio BB **5.4** (producto 5.3) · EV -0.15 · Remates Angers SCO Más 7.5 @1.6 + Tarjetas Angers SCO Más 1.5 @1.6 + Córners Paris FC Menos 5.5 @2.07 · frágil: Córners Paris FC Menos 5.5

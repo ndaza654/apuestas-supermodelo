@@ -341,8 +341,10 @@ Muestra: local 10, visitante 10, directos 3.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Amos Pieper — entradas: 1+ @1.09 · col +1.1 · 8 de 10 (titular 0.90)
+- Amos Pieper — entradas: 1+ @1.09 · col +1.9 · 9 de 10 (titular 0.90)
+- Chuki — entradas: 1+ @1.23 · col +0.6 · 7 de 10 (titular 0.90)
 - Karl Hein — atajadas: 2+ @1.28 · col +1.4 · 7 de 10 (titular 0.90)
+- Ludovit Reis — entradas: 2+ @1.28 · col +1.6 · 7 de 10 (titular 0.90)
 - Marco Friedl — faltas: 1+ @1.4 · col +0.5 · 7 de 10 (titular 0.90)
 - Niclas Füllkrug — anota: Sí @1.83 · 8 de 10 (titular 0.90)
 - Niclas Füllkrug — anota_o_asiste: Sí @1.65 · 8 de 10 (titular 0.90)
@@ -350,8 +352,10 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Niclas Füllkrug — remates: 2+ @8.0 · col +2.1 · 9 de 10 (titular 0.90)
 - Niclas Füllkrug — al_arco: 1+ @5.4 · col +1.8 · 10 de 10 (titular 0.90)
 - Niclas Füllkrug — al_arco: 2+ @21.0 · col +0.8 · 7 de 10 (titular 0.90)
+- Niclas Füllkrug — entradas: 1+ @1.62 · col +0.5 · 7 de 10 (titular 0.90)
 - Niclas Füllkrug — faltas: 1+ @1.53 · col +1.9 · 8 de 10 (titular 0.90)
 - Niclas Füllkrug — faltas: 2+ @3.45 · col +0.9 · 7 de 10 (titular 0.90)
+- Youri Regeer — entradas: 2+ @1.36 · col +0.9 · 7 de 9 (titular 0.90)
 - Daniel Heuer Fernandes — atajadas: 3+ @1.22 · col +1.2 · 8 de 9 (titular 0.90)
 - David Möller Wolfe — faltas: 1+ @1.44 · col — · 7 de 9
 - Martin Adeline — faltas: 1+ @1.24 · col +1.1 · 7 de 9 (titular 0.90)
