@@ -1,5 +1,5 @@
 # Árbitro Once Caldas – Atlético Nacional · qué líneas apoya
-**Sáb 21-nov-2026 · entrega ~19:50 (Bogotá) · partido 20:15.** Fuente del árbitro: ValueStats (muestra de sus últimos 20 partidos, 3-may al 14-nov-2026; 155 partidos en total) y StatsHub (180 partidos de carrera). Precios Betano mc-leg 19:45.
+**Sáb 21-nov-2026 · entrega 19:37 (Bogotá) · partido 20:15.** Fuente del árbitro: ValueStats (muestra de sus últimos 20 partidos, 3-may al 14-nov-2026; 155 partidos en total) y StatsHub (180 partidos de carrera). Precios Betano mc-leg ~19:36.
 
 **Árbitro:** Jhon Alexander Ospina Londoño (Colombia, FIFA). Alineaciones siguen sin publicarse.
 
@@ -19,7 +19,7 @@
 | Tarjetas total Más 6.5 | 1.70 | 5/10 y 5/10 | solo 5/20 con ≥7 amarillas | **no la apoya** (la media de Liga sí lo haría) |
 | Tarjetas 1T Menos 2.5 | 1.75 | 5/6 y 5/10 | sin dato del 1T | sin respaldo |
 
-## Combos BB con árbitro (precio REAL mc-leg 19:45)
+## Combos BB con árbitro (precio REAL mc-leg ~19:36)
 | Combo | Precio | Pago con boost | Equilibrio | Conjunta histórica* |
 |---|---|---|---|---|
 | **X5:** Córners 2T Menos 4.5 + Goles Menos 2.5 + Tarjetas Menos 6.5 | **7.50** | 9.13 | 11 % | 8 de 26 |
