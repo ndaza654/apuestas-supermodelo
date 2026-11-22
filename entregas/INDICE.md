@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-22 | 12:55 | Buena cuota por línea ≥1,70 con respaldo completo + 3 dobles (Rosario, Marsella, Atalanta–Inter); regla «buena cuota» en CLAUDE.md | Rosario–Gimnasia, Marsella–Le Mans, Atalanta–Inter | `entregas/2026-11-22/1255_buena_cuota_rosario_marsella_atalanta.md` |
 | 2026-11-22 | 11:14 | BB Boost FINAL Liverpool–Man United (4 patas respaldadas, precio real 5,10, p 16,7 %) | Liverpool–Man United 11:30 | `entregas/2026-11-22/1114_bbboost_final_liverpool.md` |
 | 2026-11-22 | 11:12 | Combi Liverpool–Man United con precio real BB y onces oficiales (segura 48 % a 1,95; boost lotería 5,30) | Liverpool–Man United 11:30 | `entregas/2026-11-22/1112_combi_liverpool_precio_real.md` |
 | 2026-11-22 | 11:05 | Combi segura Liverpool–Man United (2 patas 48 %, 3 patas 38 %; BB Boost no cumple precio >5 con patas sólidas) | Liverpool–Man United 11:30 | `entregas/2026-11-22/1105_combi_liverpool-manchester-united.md` |
