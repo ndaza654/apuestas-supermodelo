@@ -32,12 +32,18 @@ async function extraerBetano(slug, id) {
     return (await r.json()).data.event;
   };
   const nUnicos = e => new Set((e.markets || []).map(m => m.id)).size;
+  // 22-nov: desde el 20-nov la pestaña «Todo» (bt=12/13) devuelve como máximo ~160–276 mercados y deja fuera los de jugador (remates, tackles, faltas,
+  // asistencias, tarjeta, anota o asiste, atajadas) y parte de los de equipo; esos viven en las pestañas «Jugadores», «Estadísticas», «Hándicap»… (bt distinto según el partido).
+  // Por eso se lee la UNIÓN de todas las pestañas (bt 0–15), sin repetir mercados por id (en Liverpool–United: 680 mercados frente a 28 de bt=12).
   let ev = await leer(12);
-  for (const bt of [13, 14, 11, 15]) {
-    if (nUnicos(ev) >= 0.5 * (ev.totalMarketsAvailable || 0)) break;
-    const e2 = await leer(bt);
-    if (nUnicos(e2) > nUnicos(ev)) ev = e2;
+  // Un mismo mercado puede venir vacío en una pestaña y completo en otra: se queda con la copia que trae más selecciones / filas de tabla.
+  const riqueza = m => (m.selections || []).length + (((m.tableLayout || {}).rows || []).reduce((a, rw) => a + (rw.groupSelections || []).reduce((b, g) => b + (g.selections || []).length, 0), 0));
+  const unidos = new Map(); const meter = m => { const x = unidos.get(m.id); if (!x || riqueza(m) > riqueza(x)) unidos.set(m.id, m); };
+  for (const m of (ev.markets || [])) meter(m);
+  for (const bt of [13, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 0, 1]) {
+    try { const e2 = await leer(bt); for (const m of (e2.markets || [])) meter(m); } catch (e) { /* una pestaña que no existe en ese partido no es error */ }
   }
+  ev.markets = [...unidos.values()];
   const [P0, P1] = ev.participants, loc = P0.name, vis = P1.name;
   const norm = s => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const nl = norm(loc), nv = norm(vis);
@@ -130,12 +136,12 @@ async function extraerBetano(slug, id) {
   const J = (nombre, ld) => { if (!jug.has(nombre)) jug.set(nombre, { lado: ld, c: {} }); const j = jug.get(nombre); if (!j.lado && ld) j.lado = ld; return j; };
   const limpiar = (s, team) => { const e = ` (${team})`; return team && s.endsWith(e) ? s.slice(0, -e.length) : s.replace(/ \(.*$/, ''); };
   const nomSel = s => { const t = [loc, vis].find(x => s.name.endsWith(` (${x})`)); return { nombre: limpiar(s.name, t), ld: lado(s.teamId, t) }; };
-  const ESC = { PALS: ['sh', 'Remates totales'], PLTA: ['tk', 'Tackles totales'], 1000679: ['fc', 'Faltas cometidas'], PALA: ['as', 'Asistencias totales'], 1000115: ['sv', 'Atajadas de Portero'] };
+  const ESC = { PALS: ['sh', 'Remates totales'], PLTA: ['tk', 'Tackles totales'], 1000679: ['fc', 'Faltas cometidas'], PALA: ['as', 'Asistencias totales'], 1000115: ['sv', 'Atajadas de Portero'], PLST: ['sot', 'Tiros al Arco'] };   // 22-nov: PLST también llega por jugador (pestaña «Jugadores»)
   for (const m of ms) {
     const e = ESC[m.type];
     if (e && m.playerId) {
       const nombre = m.name.replace(new RegExp(' ' + e[1] + '$', 'i'), '');
-      const esc = (m.selections || []).map(s => { const k = parseInt(s.name); return isNaN(k) ? null : `${k}:${num(s.price)}`; }).filter(Boolean);
+      const esc = selsDe(m).map(s => { const k = parseInt(s.name); return isNaN(k) ? null : `${k}:${num(s.price)}`; }).filter(Boolean);
       if (esc.length) J(nombre, lado(m.teamId, null)).c[e[0]] = esc.join(',');
     } else if (m.type === 'PLST' && m.tableLayout) {                    // tiros al arco por jugador (tabla)
       for (const rw of m.tableLayout.rows) {
@@ -151,7 +157,7 @@ async function extraerBetano(slug, id) {
         J(rw.title, ld).c.an = num(s.price);
       }
     } else if (m.type === '1000661' || m.type === 'PTRC') {
-      for (const s of m.selections || []) { const { nombre, ld } = nomSel(s); J(nombre, ld).c[m.type === 'PTRC' ? 'tj' : 'aoa'] = num(s.price); }
+      for (const s of selsDe(m)) { const { nombre, ld } = nomSel(s); J(nombre, ld).c[m.type === 'PTRC' ? 'tj' : 'aoa'] = num(s.price); }
     }
   }
   const P = [];
