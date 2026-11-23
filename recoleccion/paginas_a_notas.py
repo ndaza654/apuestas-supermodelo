@@ -112,6 +112,21 @@ if __name__ == '__main__':
         k = os.path.basename(f)[:-4]
         fs = json.load(open(f'{dia}/flashscore/{k}.json', encoding='utf8'))
         p = parsear(open(f, encoding='utf8').read(), fs['local'], fs['visitante'])
+        if not p.get('local_fila') or not p.get('visitante_fila'):
+            # la tabla no cargó en esta página: se toma de otra página de la misma competición que sí la trae (misma lectura, misma hora)
+            for g in sorted(glob.glob(f'{dia}/paginas/*.txt')):
+                if g == f:
+                    continue
+                fs2 = json.load(open(f'{dia}/flashscore/{os.path.basename(g)[:-4]}.json', encoding='utf8'))
+                q = parsear(open(g, encoding='utf8').read(), fs['local'], fs['visitante'])
+                if q.get('comp') == p.get('comp') and (q.get('local_fila') or q.get('visitante_fila')):
+                    for rol in ('local_fila', 'visitante_fila'):
+                        if not p.get(rol) and q.get(rol):
+                            p[rol] = q[rol]
+                    p.setdefault('filas', q['filas']) if not p.get('filas') else None
+                    p['zonas'] = p.get('zonas') or q.get('zonas')
+                    if p.get('local_fila') and p.get('visitante_fila'):
+                        break
         fecha = '%s-%s' % tuple(os.path.basename(dia.rstrip('/')).split('-')[2:0:-1])   # AAAA-MM-DD → DD-MM
         n = nota(p, fs['local'], fs['visitante'], hora, fs.get('arbitro'), fs.get('estadio'), fecha + ' (día de la jornada; confirmar con la hora de lectura)')
         out = f'{dia}/notas/{k}.json'
