@@ -1,0 +1,5 @@
+Jornada de 12 partidos con dos tipos de lectura (cifras de `goleadores/`, `jugadores/` y `registro/lineas.csv`, cuotas Betano 09:28):
+
+- **AFC Champions League (5) y Gimnasia–Newell's (goleador):** Betano solo ofrece goles, córners y goleador (Gimnasia añade remates/tiros al arco de equipo y tarjetas). Pesa el goleador: goles de cada jugador en sus últimos 10 partidos frente a la cuota, solo titulares (oficiales en los de las 11:00; Quwa e Ittihad sin onces). Lo demás son líneas de goles/córners con «cumple».
+- **Monza, Brentford, Inter, Botafogo, Santos, St. Louis (jugadores completos):** pesan remates, tiros al arco, entradas y faltas por jugador, más goleador/asistencia. Los equipos aportan goles, córners, tarjetas y remates. El modelo de jugadores casi copia al mercado (p modelo ≈ p de la cuota), así que lo que cuenta es el historial y los minutos: solo se miran titulares probables con n ≥ 7 partidos de ≥ 30 min.
+- Cuota por línea ≥ 1,70 con «cumple» en ambos equipos: casi no hay (la regularidad alta vive en cuotas ≤ 1,35). Se declara, no se baja el criterio.

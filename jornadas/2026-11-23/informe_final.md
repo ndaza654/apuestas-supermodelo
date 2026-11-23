@@ -1,10 +1,14 @@
 # Informe de la jornada 2026-11-23
 
-Hecho: 2026-11-23 10:41 (Bogotá) · Cuotas: Betano, leídas 23-nov 09:28 a 23-nov 09:28 (Bogotá), sin releer · Muestra de 10 partidos por equipo: «cumple» = 7 de 10 en ambos (n mínimo 7) · 450 líneas de equipo cumplen. El informe interactivo es `informe.html`.
+Hecho: 2026-11-23 10:49 (Bogotá) · Cuotas: Betano, leídas 23-nov 09:28 a 23-nov 09:28 (Bogotá), sin releer · Muestra de 10 partidos por equipo: «cumple» = 7 de 10 en ambos (n mínimo 7) · 450 líneas de equipo cumplen. El informe interactivo es `informe.html`.
 
 ## Enfoque de mercados
 
-_Sin enfoque.md: falta la lectura de Claude sobre qué mercados pesan en esta jornada._
+Jornada de 12 partidos con dos tipos de lectura (cifras de `goleadores/`, `jugadores/` y `registro/lineas.csv`, cuotas Betano 09:28):
+
+- **AFC Champions League (5) y Gimnasia–Newell's (goleador):** Betano solo ofrece goles, córners y goleador (Gimnasia añade remates/tiros al arco de equipo y tarjetas). Pesa el goleador: goles de cada jugador en sus últimos 10 partidos frente a la cuota, solo titulares (oficiales en los de las 11:00; Quwa e Ittihad sin onces). Lo demás son líneas de goles/córners con «cumple».
+- **Monza, Brentford, Inter, Botafogo, Santos, St. Louis (jugadores completos):** pesan remates, tiros al arco, entradas y faltas por jugador, más goleador/asistencia. Los equipos aportan goles, córners, tarjetas y remates. El modelo de jugadores casi copia al mercado (p modelo ≈ p de la cuota), así que lo que cuenta es el historial y los minutos: solo se miran titulares probables con n ≥ 7 partidos de ≥ 30 min.
+- Cuota por línea ≥ 1,70 con «cumple» en ambos equipos: casi no hay (la regularidad alta vive en cuotas ≤ 1,35). Se declara, no se baja el criterio.
 
 ## Real hasta hoy
 
@@ -198,17 +202,17 @@ Santos SP - Gremio RS: Córners visitante Más 2.5 + Internacional RS - Vitoria 
 
 | Hora | Partido | 1X2 del modelo | Tabla | Árbitro | XI | Cumplen | Alerta del modelo |
 |---|---|---|---|---|---|---|---|
-| 11:00 | Al Ain FC - Esteghlal Tehran | 67 % · 22 % · 12 % | sin tabla | Choi H. | probable | 7 | – |
-| 11:00 | Al Shamal - Al-Ahli SFC | 17 % · 23 % · 60 % | sin tabla | Araki Y. | probable | 13 | – |
-| 11:00 | Tractor Sazi Tabriz FC - Al Wasl SC | 24 % · 28 % · 49 % | sin tabla | Gulmurodi S. | probable | 7 | – |
-| 13:15 | Al Quwa Al Jawiya - Al Gharafa | 39 % · 28 % · 33 % | sin tabla | Nasaruddin M. | sin alineación | 7 | – |
-| 13:15 | Al-Ittihad Club - Pakhtakor Tashkent | 75 % · 16 % · 8 % | sin tabla | Al Ali O. | sin alineación | 12 | – |
-| 14:45 | AC Monza - AC Fiorentina | 25 % · 25 % · 50 % | sin tabla | Doveri D. | probable | 74 | – |
-| 15:00 | Brentford FC - Everton FC | 41 % · 28 % · 31 % | sin tabla | Pawson C. | probable | 74 | Saques de banda |
-| 15:00 | Gimnasia y Esgrima La Plata - Newells Old Boys | 45 % · 30 % · 25 % | sin tabla | Ramirez N. | probable | 49 | – |
-| 17:30 | Internacional RS - Vitoria BA | 59 % · 24 % · 17 % | sin tabla | Lacerda D. | probable | 51 | Córners |
-| 18:00 | Botafogo RJ - Sao Paulo SP | 42 % · 29 % · 29 % | sin tabla | Policarpo Bento A. | probable | 58 | – |
-| 19:00 | Santos SP - Gremio RS | 59 % · 23 % · 18 % | sin tabla | Abatti R. | probable | 58 | Córners |
-| 20:00 | St. Louis City SC - Los Angeles FC | 38 % · 26 % · 35 % | sin tabla | Gonzales G. | probable | 40 | – |
+| 11:00 | Al Ain FC - Esteghlal Tehran | 67 % · 22 % · 12 % | 1. Al Ain 12 pts (4 PJ, 4G 0E 0P, goles 14:3) [WEST] · 3. Esteghlal F.C. 9 pts (4 PJ, 3G 0E 1P, goles 6:3) [WEST] | Choi H. | probable | 7 | – |
+| 11:00 | Al Shamal - Al-Ahli SFC | 17 % · 23 % · 60 % | 8. Shamal 5 pts (4 PJ, 1G 2E 1P, goles 4:3) [WEST] · 6. Al Ahli SC 8 pts (4 PJ, 2G 2E 0P, goles 6:3) [WEST] | Araki Y. | probable | 13 | – |
+| 11:00 | Tractor Sazi Tabriz FC - Al Wasl SC | 24 % · 28 % · 49 % | 13. Tractor 2 pts (4 PJ, 0G 2E 2P, goles 3:5) [WEST] · 11. Al Wasl 3 pts (3 PJ, 1G 0E 2P, goles 6:8) [WEST] | Gulmurodi S. | probable | 7 | – |
+| 13:15 | Al Quwa Al Jawiya - Al Gharafa | 39 % · 28 % · 33 % | 12. Al Quwa Al Jawiya 3 pts (4 PJ, 1G 0E 3P, goles 5:9) [WEST] · 16. Al Gharafa 0 pts (4 PJ, 0G 0E 4P, goles 3:11) [WEST] | Nasaruddin M. | sin alineación | 7 | – |
+| 13:15 | Al-Ittihad Club - Pakhtakor Tashkent | 75 % · 16 % · 8 % | 10. Al Ittihad 4 pts (4 PJ, 1G 1E 2P, goles 5:8) [WEST] · 14. Pakhtakor 2 pts (4 PJ, 0G 2E 2P, goles 4:9) [WEST] | Al Ali O. | sin alineación | 12 | – |
+| 14:45 | AC Monza - AC Fiorentina | 25 % · 25 % · 50 % | 18. Monza 7 pts (11 PJ, 2G 1E 8P, goles 17:25) · 15. Fiorentina 9 pts (11 PJ, 2G 3E 6P, goles 17:25) | Doveri D. | probable | 74 | – |
+| 15:00 | Brentford FC - Everton FC | 41 % · 28 % · 31 % | 10. Brentford 14 pts (10 PJ, 3G 5E 2P, goles 16:11) · 7. Everton 16 pts (10 PJ, 4G 4E 2P, goles 12:10) | Pawson C. | probable | 74 | Saques de banda |
+| 15:00 | Gimnasia y Esgrima La Plata - Newells Old Boys | 45 % · 30 % · 25 % | sin tabla (fase de eliminación) | Ramirez N. | probable | 49 | – |
+| 17:30 | Internacional RS - Vitoria BA | 59 % · 24 % · 17 % | 17. Internacional 38 pts (35 PJ, 9G 11E 15P, goles 39:44) · 14. Vitoria 41 pts (35 PJ, 11G 8E 16P, goles 37:52) | Lacerda D. | probable | 51 | Córners |
+| 18:00 | Botafogo RJ - Sao Paulo SP | 42 % · 29 % · 29 % | 13. Botafogo RJ 42 pts (35 PJ, 11G 9E 15P, goles 46:57) · 12. Sao Paulo 44 pts (35 PJ, 12G 8E 15P, goles 39:40) | Policarpo Bento A. | probable | 58 | – |
+| 19:00 | Santos SP - Gremio RS | 59 % · 23 % · 18 % | 9. Santos 50 pts (35 PJ, 13G 11E 11P, goles 51:49) · 18. Gremio 38 pts (35 PJ, 9G 11E 15P, goles 38:47) | Abatti R. | probable | 58 | Córners |
+| 20:00 | St. Louis City SC - Los Angeles FC | 38 % · 26 % · 35 % | sin tabla (fase de eliminación) | Gonzales G. | probable | 40 | – |
 
 Límites y datos que faltan: ver `ESTADO.md` de la jornada. El detalle por mercado de los agentes está en `agentes/`.

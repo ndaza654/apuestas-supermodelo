@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-23 | 10:49 | Análisis 12 partidos: goleador AFC/Gimnasia + jugadores (Monza, Brentford, Inter, Botafogo, Santos, St. Louis) | 12 | entregas/2026-11-23/1049_analisis_12_partidos.md |
 | 2026-11-23 | 10:41 | Recolección completa 12 partidos (AFC x5, Monza, Gimnasia, Brentford, Inter, Botafogo, Santos, St. Louis) | 12 | entregas/2026-11-23/1041_recoleccion_12_partidos.md |
 | 2026-11-22 | 14:00 | Lectura del cupón BB del usuario (precio real 5,10) | Getafe–Atlético de Madrid | entregas/2026-11-22/1400_lectura_cupon_bb_getafe-atletico.md |
 | 2026-11-22 | 13:55 | BB Boost: análisis a fondo (precio real sin leer) | Getafe–Atlético de Madrid | entregas/2026-11-22/1355_bbboost_getafe-atletico.md |
