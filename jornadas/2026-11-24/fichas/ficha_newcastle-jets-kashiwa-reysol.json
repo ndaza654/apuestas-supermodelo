@@ -1,0 +1,2266 @@
+{
+ "encuentro": "Newcastle Jets - Kashiwa Reysol",
+ "liga": "AFC Clubs AFC Champions League Elite",
+ "fecha": "2026-11-24 02:45",
+ "cuotas_leidas": "Cuotas de Betano leídas 2026-11-23T22:21:44.461Z · 76 mercados",
+ "regla": {
+  "muestra": "últimos 10 de cada equipo (cualquier sede) + hasta 6 directos",
+  "cumple": "7 de 10 (n mínimo 7)",
+  "directos": "hasta 6",
+  "colchon": "informativo: esperado − línea"
+ },
+ "corners": {
+  "mercado": "corners",
+  "titulo": "Córners",
+  "n_local": 10,
+  "n_visitante": 10,
+  "n_directos": 0,
+  "esperado": {
+   "local": 5.0,
+   "visitante": 5.5,
+   "total": 10.5
+  },
+  "promedios": {
+   "local_a_favor": 6.3,
+   "local_en_contra": 5.0,
+   "visitante_a_favor": 6.0,
+   "visitante_en_contra": 3.7
+  },
+  "series": {
+   "local": [
+    [
+     6.0,
+     5.0
+    ],
+    [
+     6.0,
+     5.0
+    ],
+    [
+     8.0,
+     2.0
+    ],
+    [
+     3.0,
+     11.0
+    ],
+    [
+     7.0,
+     5.0
+    ],
+    [
+     9.0,
+     2.0
+    ],
+    [
+     5.0,
+     6.0
+    ],
+    [
+     4.0,
+     3.0
+    ],
+    [
+     7.0,
+     6.0
+    ],
+    [
+     8.0,
+     5.0
+    ]
+   ],
+   "visitante": [
+    [
+     11.0,
+     1.0
+    ],
+    [
+     4.0,
+     3.0
+    ],
+    [
+     3.0,
+     3.0
+    ],
+    [
+     4.0,
+     2.0
+    ],
+    [
+     11.0,
+     4.0
+    ],
+    [
+     5.0,
+     6.0
+    ],
+    [
+     8.0,
+     3.0
+    ],
+    [
+     2.0,
+     9.0
+    ],
+    [
+     5.0,
+     4.0
+    ],
+    [
+     7.0,
+     2.0
+    ]
+   ],
+   "directos": []
+  },
+  "lineas": [
+   {
+    "ambito": "1T",
+    "linea": 4.5,
+    "mas": {
+     "cuota": 1.8
+    },
+    "menos": {
+     "cuota": 1.9
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 5.0,
+    "mas": {
+     "cuota": 2.42
+    },
+    "menos": {
+     "cuota": 1.9
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "total",
+    "linea": 8.5,
+    "esperado": 10.5,
+    "mas": {
+     "cuota": 1.44,
+     "colchon": 2.0,
+     "reg_local": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    },
+    "menos": {
+     "cuota": 2.62,
+     "colchon": -2.0,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 9.0,
+    "esperado": 10.5,
+    "mas": {
+     "cuota": 1.72,
+     "colchon": 1.5,
+     "reg_local": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.62,
+     "colchon": -1.5,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 9.5,
+    "esperado": 10.5,
+    "mas": {
+     "cuota": 1.72,
+     "colchon": 1.0,
+     "reg_local": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.0,
+     "colchon": -1.0,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 10.0,
+    "esperado": 10.5,
+    "mas": {
+     "cuota": 2.2,
+     "colchon": 0.5,
+     "reg_local": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.0,
+     "colchon": -0.5,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 10.5,
+    "esperado": 10.5,
+    "mas": {
+     "cuota": 2.2,
+     "colchon": 0.0,
+     "reg_local": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.6,
+     "colchon": 0.0,
+     "reg_local": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 11.0,
+    "esperado": 10.5,
+    "mas": {
+     "cuota": 2.9,
+     "colchon": -0.5,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.6,
+     "colchon": 0.5,
+     "reg_local": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   }
+  ]
+ },
+ "partido": {
+  "faltas": {
+   "mercado": "faltas",
+   "titulo": "Faltas",
+   "n_local": 10,
+   "n_visitante": 9,
+   "n_directos": 0,
+   "esperado": {
+    "local": 10.3,
+    "visitante": 10.31,
+    "total": 20.61
+   },
+   "promedios": {
+    "local_a_favor": 11.6,
+    "local_en_contra": 11.4,
+    "visitante_a_favor": 9.22,
+    "visitante_en_contra": 9.0
+   },
+   "series": {
+    "local": [
+     [
+      5.0,
+      15.0
+     ],
+     [
+      15.0,
+      13.0
+     ],
+     [
+      8.0,
+      11.0
+     ],
+     [
+      12.0,
+      8.0
+     ],
+     [
+      16.0,
+      8.0
+     ],
+     [
+      17.0,
+      11.0
+     ],
+     [
+      11.0,
+      9.0
+     ],
+     [
+      7.0,
+      11.0
+     ],
+     [
+      7.0,
+      8.0
+     ],
+     [
+      18.0,
+      20.0
+     ]
+    ],
+    "visitante": [
+     [
+      7.0,
+      9.0
+     ],
+     [
+      3.0,
+      11.0
+     ],
+     [
+      5.0,
+      12.0
+     ],
+     [
+      11.0,
+      10.0
+     ],
+     [
+      13.0,
+      7.0
+     ],
+     [
+      12.0,
+      10.0
+     ],
+     [
+      13.0,
+      4.0
+     ],
+     [
+      8.0,
+      8.0
+     ],
+     [
+      11.0,
+      10.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "fueras": {
+   "mercado": "fueras",
+   "titulo": "Fueras de juego",
+   "n_local": 10,
+   "n_visitante": 9,
+   "n_directos": 0,
+   "esperado": {
+    "local": 1.49,
+    "visitante": 1.62,
+    "total": 3.12
+   },
+   "promedios": {
+    "local_a_favor": 2.1,
+    "local_en_contra": 1.8,
+    "visitante_a_favor": 1.44,
+    "visitante_en_contra": 0.89
+   },
+   "series": {
+    "local": [
+     [
+      2.0,
+      2.0
+     ],
+     [
+      3.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      2.0,
+      4.0
+     ],
+     [
+      0.0,
+      3.0
+     ],
+     [
+      2.0,
+      3.0
+     ],
+     [
+      4.0,
+      2.0
+     ],
+     [
+      4.0,
+      0.0
+     ],
+     [
+      3.0,
+      2.0
+     ],
+     [
+      1.0,
+      1.0
+     ]
+    ],
+    "visitante": [
+     [
+      1.0,
+      1.0
+     ],
+     [
+      1.0,
+      1.0
+     ],
+     [
+      1.0,
+      0.0
+     ],
+     [
+      2.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      3.0,
+      2.0
+     ],
+     [
+      3.0,
+      2.0
+     ],
+     [
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "saques_banda": {
+   "mercado": "saques_banda",
+   "titulo": "Saques de banda",
+   "n_local": 10,
+   "n_visitante": 9,
+   "n_directos": 0,
+   "esperado": {
+    "local": 20.39,
+    "visitante": 20.87,
+    "total": 41.26
+   },
+   "promedios": {
+    "local_a_favor": 21.9,
+    "local_en_contra": 20.4,
+    "visitante_a_favor": 21.33,
+    "visitante_en_contra": 18.89
+   },
+   "series": {
+    "local": [
+     [
+      24.0,
+      19.0
+     ],
+     [
+      29.0,
+      17.0
+     ],
+     [
+      24.0,
+      30.0
+     ],
+     [
+      11.0,
+      20.0
+     ],
+     [
+      30.0,
+      33.0
+     ],
+     [
+      22.0,
+      14.0
+     ],
+     [
+      23.0,
+      20.0
+     ],
+     [
+      9.0,
+      19.0
+     ],
+     [
+      13.0,
+      11.0
+     ],
+     [
+      34.0,
+      21.0
+     ]
+    ],
+    "visitante": [
+     [
+      26.0,
+      31.0
+     ],
+     [
+      20.0,
+      12.0
+     ],
+     [
+      19.0,
+      22.0
+     ],
+     [
+      21.0,
+      18.0
+     ],
+     [
+      23.0,
+      23.0
+     ],
+     [
+      19.0,
+      13.0
+     ],
+     [
+      14.0,
+      19.0
+     ],
+     [
+      19.0,
+      18.0
+     ],
+     [
+      31.0,
+      14.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "saques_meta": {
+   "mercado": "saques_meta",
+   "titulo": "Saques de meta",
+   "n_local": 9,
+   "n_visitante": 8,
+   "n_directos": 0,
+   "esperado": {
+    "local": 7.92,
+    "visitante": 8.06,
+    "total": 15.97
+   },
+   "promedios": {
+    "local_a_favor": 9.33,
+    "local_en_contra": 9.11,
+    "visitante_a_favor": 7.0,
+    "visitante_en_contra": 6.5
+   },
+   "series": {
+    "local": [
+     [
+      5.0,
+      11.0
+     ],
+     [
+      8.0,
+      6.0
+     ],
+     [
+      8.0,
+      10.0
+     ],
+     [
+      10.0,
+      7.0
+     ],
+     [
+      9.0,
+      12.0
+     ],
+     [
+      9.0,
+      10.0
+     ],
+     [
+      13.0,
+      9.0
+     ],
+     [
+      11.0,
+      6.0
+     ],
+     [
+      11.0,
+      11.0
+     ]
+    ],
+    "visitante": [
+     [
+      2.0,
+      5.0
+     ],
+     [
+      9.0,
+      8.0
+     ],
+     [
+      4.0,
+      7.0
+     ],
+     [
+      11.0,
+      4.0
+     ],
+     [
+      4.0,
+      12.0
+     ],
+     [
+      9.0,
+      3.0
+     ],
+     [
+      13.0,
+      6.0
+     ],
+     [
+      4.0,
+      7.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "remates": {
+   "mercado": "remates",
+   "titulo": "Remates",
+   "n_local": 10,
+   "n_visitante": 10,
+   "n_directos": 0,
+   "esperado": {
+    "local": 12.45,
+    "visitante": 15.8,
+    "total": 28.25
+   },
+   "promedios": {
+    "local_a_favor": 12.7,
+    "local_en_contra": 16.4,
+    "visitante_a_favor": 15.2,
+    "visitante_en_contra": 12.2
+   },
+   "series": {
+    "local": [
+     [
+      17.0,
+      12.0
+     ],
+     [
+      12.0,
+      14.0
+     ],
+     [
+      13.0,
+      8.0
+     ],
+     [
+      7.0,
+      30.0
+     ],
+     [
+      13.0,
+      7.0
+     ],
+     [
+      18.0,
+      14.0
+     ],
+     [
+      9.0,
+      24.0
+     ],
+     [
+      4.0,
+      18.0
+     ],
+     [
+      12.0,
+      18.0
+     ],
+     [
+      22.0,
+      19.0
+     ]
+    ],
+    "visitante": [
+     [
+      13.0,
+      5.0
+     ],
+     [
+      17.0,
+      13.0
+     ],
+     [
+      17.0,
+      10.0
+     ],
+     [
+      22.0,
+      9.0
+     ],
+     [
+      15.0,
+      9.0
+     ],
+     [
+      16.0,
+      21.0
+     ],
+     [
+      14.0,
+      3.0
+     ],
+     [
+      11.0,
+      24.0
+     ],
+     [
+      12.0,
+      19.0
+     ],
+     [
+      15.0,
+      9.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  },
+  "al_arco": {
+   "mercado": "al_arco",
+   "titulo": "Tiros al arco",
+   "n_local": 10,
+   "n_visitante": 10,
+   "n_directos": 0,
+   "esperado": {
+    "local": 3.2,
+    "visitante": 6.45,
+    "total": 9.65
+   },
+   "promedios": {
+    "local_a_favor": 3.6,
+    "local_en_contra": 6.7,
+    "visitante_a_favor": 6.2,
+    "visitante_en_contra": 2.8
+   },
+   "series": {
+    "local": [
+     [
+      6.0,
+      3.0
+     ],
+     [
+      3.0,
+      5.0
+     ],
+     [
+      5.0,
+      4.0
+     ],
+     [
+      2.0,
+      15.0
+     ],
+     [
+      3.0,
+      4.0
+     ],
+     [
+      5.0,
+      5.0
+     ],
+     [
+      3.0,
+      7.0
+     ],
+     [
+      1.0,
+      10.0
+     ],
+     [
+      2.0,
+      7.0
+     ],
+     [
+      6.0,
+      7.0
+     ]
+    ],
+    "visitante": [
+     [
+      7.0,
+      3.0
+     ],
+     [
+      10.0,
+      6.0
+     ],
+     [
+      5.0,
+      3.0
+     ],
+     [
+      9.0,
+      3.0
+     ],
+     [
+      8.0,
+      2.0
+     ],
+     [
+      9.0,
+      1.0
+     ],
+     [
+      2.0,
+      0.0
+     ],
+     [
+      6.0,
+      3.0
+     ],
+     [
+      3.0,
+      3.0
+     ],
+     [
+      3.0,
+      4.0
+     ]
+    ],
+    "directos": []
+   },
+   "lineas": []
+  }
+ },
+ "goles": {
+  "mercado": "goles",
+  "titulo": "Goles",
+  "n_local": 10,
+  "n_visitante": 10,
+  "n_directos": 0,
+  "nota": "Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T.",
+  "esperado": {
+   "local": 1.25,
+   "visitante": 2.55,
+   "total": 3.8
+  },
+  "promedios": {
+   "local_a_favor": 1.3,
+   "local_en_contra": 3.2,
+   "visitante_a_favor": 1.9,
+   "visitante_en_contra": 1.2
+  },
+  "series": {
+   "local": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     2.0,
+     4.0
+    ],
+    [
+     0.0,
+     3.0
+    ],
+    [
+     2.0,
+     5.0
+    ],
+    [
+     1.0,
+     1.0
+    ],
+    [
+     2.0,
+     2.0
+    ],
+    [
+     1.0,
+     3.0
+    ],
+    [
+     1.0,
+     7.0
+    ],
+    [
+     2.0,
+     3.0
+    ],
+    [
+     1.0,
+     2.0
+    ]
+   ],
+   "visitante": [
+    [
+     0.0,
+     1.0
+    ],
+    [
+     5.0,
+     4.0
+    ],
+    [
+     2.0,
+     1.0
+    ],
+    [
+     2.0,
+     1.0
+    ],
+    [
+     2.0,
+     0.0
+    ],
+    [
+     4.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     3.0,
+     2.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     3.0
+    ]
+   ],
+   "directos": []
+  },
+  "lineas": [
+   {
+    "ambito": "1T",
+    "linea": 0.5,
+    "mas": {
+     "cuota": 1.21
+    },
+    "menos": {
+     "cuota": 3.9
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 1.0,
+    "mas": {
+     "cuota": 1.37
+    },
+    "menos": {
+     "cuota": 2.92
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 1.25,
+    "mas": {
+     "cuota": 1.67
+    },
+    "menos": {
+     "cuota": 2.12
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 1.5,
+    "mas": {
+     "cuota": 1.93
+    },
+    "menos": {
+     "cuota": 1.78
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 1.75,
+    "mas": {
+     "cuota": 2.3
+    },
+    "menos": {
+     "cuota": 1.57
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 2.0,
+    "mas": {
+     "cuota": 3.0
+    },
+    "menos": {
+     "cuota": 1.36
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 2.5,
+    "mas": {
+     "cuota": 3.75
+    },
+    "menos": {
+     "cuota": 1.23
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "1T",
+    "linea": 3.5,
+    "mas": {
+     "cuota": 7.1
+    },
+    "menos": {
+     "cuota": 1.06
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "2T",
+    "linea": 0.5,
+    "mas": {
+     "cuota": 1.11
+    },
+    "menos": {
+     "cuota": 5.7
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "2T",
+    "linea": 1.5,
+    "mas": {
+     "cuota": 1.5
+    },
+    "menos": {
+     "cuota": 2.4
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "2T",
+    "linea": 2.5,
+    "mas": {
+     "cuota": 2.5
+    },
+    "menos": {
+     "cuota": 1.47
+    },
+    "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "local",
+    "linea": 0.5,
+    "esperado": 1.25,
+    "mas": {
+     "cuota": 1.38,
+     "colchon": 0.75,
+     "reg_local": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.87,
+     "colchon": -0.75,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "local",
+    "linea": 1.5,
+    "esperado": 1.25,
+    "mas": {
+     "cuota": 2.7,
+     "colchon": -0.25,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.42,
+     "colchon": 0.25,
+     "reg_local": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "local",
+    "linea": 2.5,
+    "esperado": 1.25,
+    "mas": {
+     "cuota": 6.0,
+     "colchon": -1.25,
+     "reg_local": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.11,
+     "colchon": 1.25,
+     "reg_local": {
+      "x": 10,
+      "n": 10,
+      "txt": "10 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 1.5,
+    "esperado": 3.8,
+    "mas": {
+     "cuota": 1.1,
+     "colchon": 2.3,
+     "reg_local": {
+      "x": 10,
+      "n": 10,
+      "txt": "10 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    },
+    "menos": {
+     "cuota": 5.8,
+     "colchon": -2.3,
+     "reg_local": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 2.5,
+    "esperado": 3.8,
+    "mas": {
+     "cuota": 1.34,
+     "colchon": 1.3,
+     "reg_local": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 3.0,
+     "colchon": -1.3,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 3.0,
+    "esperado": 3.8,
+    "mas": {
+     "cuota": 1.5,
+     "colchon": 0.8,
+     "reg_local": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.5,
+     "colchon": -0.8,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 3.25,
+    "esperado": 3.8,
+    "mas": {
+     "cuota": 1.67,
+     "colchon": 0.55,
+     "reg_local": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 2.12,
+     "colchon": -0.55,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 3.5,
+    "esperado": 3.8,
+    "mas": {
+     "cuota": 1.82,
+     "colchon": 0.3,
+     "reg_local": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.88,
+     "colchon": -0.3,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 3.75,
+    "esperado": 3.8,
+    "mas": {
+     "cuota": 2.05,
+     "colchon": 0.05,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.72,
+     "colchon": -0.05,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 4.0,
+    "esperado": 3.8,
+    "mas": {
+     "cuota": 2.32,
+     "colchon": -0.2,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.57,
+     "colchon": 0.2,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 4.5,
+    "esperado": 3.8,
+    "mas": {
+     "cuota": 2.75,
+     "colchon": -0.7,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.4,
+     "colchon": 0.7,
+     "reg_local": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 5.5,
+    "esperado": 3.8,
+    "mas": {
+     "cuota": 4.4,
+     "colchon": -1.7,
+     "reg_local": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.17,
+     "colchon": 1.7,
+     "reg_local": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    }
+   },
+   {
+    "ambito": "total",
+    "linea": 6.5,
+    "esperado": 3.8,
+    "mas": {
+     "cuota": 6.9,
+     "colchon": -2.7,
+     "reg_local": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.07,
+     "colchon": 2.7,
+     "reg_local": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    }
+   },
+   {
+    "ambito": "visitante",
+    "linea": 0.5,
+    "esperado": 2.55,
+    "mas": {
+     "cuota": 1.07,
+     "colchon": 2.05,
+     "reg_local": {
+      "x": 10,
+      "n": 10,
+      "txt": "10 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    },
+    "menos": {
+     "cuota": 7.5,
+     "colchon": -2.05,
+     "reg_local": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "visitante",
+    "linea": 1.5,
+    "esperado": 2.55,
+    "mas": {
+     "cuota": 1.34,
+     "colchon": 1.05,
+     "reg_local": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 3.1,
+     "colchon": -1.05,
+     "reg_local": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "visitante",
+    "linea": 2.5,
+    "esperado": 2.55,
+    "mas": {
+     "cuota": 2.0,
+     "colchon": 0.05,
+     "reg_local": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.75,
+     "colchon": -0.05,
+     "reg_local": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": false
+    }
+   },
+   {
+    "ambito": "visitante",
+    "linea": 3.5,
+    "esperado": 2.55,
+    "mas": {
+     "cuota": 3.4,
+     "colchon": -0.95,
+     "reg_local": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.29,
+     "colchon": 0.95,
+     "reg_local": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    }
+   },
+   {
+    "ambito": "visitante",
+    "linea": 4.5,
+    "esperado": 2.55,
+    "mas": {
+     "cuota": 6.1,
+     "colchon": -1.95,
+     "reg_local": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "directos": null,
+     "cumple": false
+    },
+    "menos": {
+     "cuota": 1.1,
+     "colchon": 1.95,
+     "reg_local": {
+      "x": 8,
+      "n": 10,
+      "txt": "8 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 9,
+      "n": 10,
+      "txt": "9 de 10",
+      "cumple": true
+     },
+     "directos": null,
+     "cumple": true
+    }
+   }
+  ]
+ },
+ "tarjetas": {
+  "mercado": "tarjetas",
+  "titulo": "Tarjetas (solo amarillas)",
+  "n_local": 10,
+  "n_visitante": 10,
+  "n_directos": 0,
+  "nota": "Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas.",
+  "esperado": {
+   "local": 1.9,
+   "visitante": 1.85,
+   "total": 3.75
+  },
+  "promedios": {
+   "local_a_favor": 1.9,
+   "local_en_contra": 1.9,
+   "visitante_a_favor": 1.8,
+   "visitante_en_contra": 1.9
+  },
+  "series": {
+   "local": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     1.0,
+     2.0
+    ],
+    [
+     0.0,
+     1.0
+    ],
+    [
+     3.0,
+     2.0
+    ],
+    [
+     2.0,
+     1.0
+    ],
+    [
+     2.0,
+     3.0
+    ],
+    [
+     2.0,
+     2.0
+    ],
+    [
+     1.0,
+     2.0
+    ],
+    [
+     1.0,
+     0.0
+    ],
+    [
+     6.0,
+     4.0
+    ]
+   ],
+   "visitante": [
+    [
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     5.0
+    ],
+    [
+     4.0,
+     2.0
+    ],
+    [
+     0.0,
+     1.0
+    ],
+    [
+     3.0,
+     1.0
+    ],
+    [
+     3.0,
+     4.0
+    ],
+    [
+     0.0,
+     3.0
+    ],
+    [
+     1.0,
+     0.0
+    ],
+    [
+     4.0,
+     3.0
+    ],
+    [
+     2.0,
+     0.0
+    ]
+   ],
+   "directos": []
+  },
+  "lineas": []
+ },
+ "resultados": {
+  "n_local": 10,
+  "n_visitante": 10,
+  "n_directos": 0,
+  "nota": "Mercados de una sola cuota: sin línea ni colchón. «L»/«V» = veces que el local/visitante de hoy vivió eso en sus últimos partidos (1 = el local ganó y el visitante perdió; X = ambos empataron; BTTS Sí = marcaron los dos equipos del partido). Los goles son del partido completo.",
+  "ambos": [
+   {
+    "seleccion": "si",
+    "cuota": 1.47,
+    "colchon": null,
+    "reg_local": {
+     "x": 9,
+     "n": 10,
+     "txt": "9 de 10",
+     "cumple": true
+    },
+    "reg_visitante": {
+     "x": 5,
+     "n": 10,
+     "txt": "5 de 10",
+     "cumple": false
+    },
+    "directos": null,
+    "cumple": false
+   },
+   {
+    "seleccion": "no",
+    "cuota": 2.5,
+    "colchon": null,
+    "reg_local": {
+     "x": 1,
+     "n": 10,
+     "txt": "1 de 10",
+     "cumple": false
+    },
+    "reg_visitante": {
+     "x": 5,
+     "n": 10,
+     "txt": "5 de 10",
+     "cumple": false
+    },
+    "directos": null,
+    "cumple": false
+   }
+  ],
+  "resultado": [
+   {
+    "seleccion": "1",
+    "cuota": 5.5,
+    "colchon": null,
+    "reg_local": {
+     "x": 0,
+     "n": 10,
+     "txt": "0 de 10",
+     "cumple": false
+    },
+    "reg_visitante": {
+     "x": 2,
+     "n": 10,
+     "txt": "2 de 10",
+     "cumple": false
+    },
+    "directos": null,
+    "cumple": false
+   },
+   {
+    "seleccion": "X",
+    "cuota": 4.9,
+    "colchon": null,
+    "reg_local": {
+     "x": 2,
+     "n": 10,
+     "txt": "2 de 10",
+     "cumple": false
+    },
+    "reg_visitante": {
+     "x": 2,
+     "n": 10,
+     "txt": "2 de 10",
+     "cumple": false
+    },
+    "directos": null,
+    "cumple": false
+   },
+   {
+    "seleccion": "2",
+    "cuota": 1.44,
+    "colchon": null,
+    "reg_local": {
+     "x": 8,
+     "n": 10,
+     "txt": "8 de 10",
+     "cumple": true
+    },
+    "reg_visitante": {
+     "x": 6,
+     "n": 10,
+     "txt": "6 de 10",
+     "cumple": false
+    },
+    "directos": null,
+    "cumple": false
+   },
+   {
+    "seleccion": "1X",
+    "cuota": 2.75,
+    "colchon": null,
+    "reg_local": {
+     "x": 2,
+     "n": 10,
+     "txt": "2 de 10",
+     "cumple": false
+    },
+    "reg_visitante": {
+     "x": 4,
+     "n": 10,
+     "txt": "4 de 10",
+     "cumple": false
+    },
+    "directos": null,
+    "cumple": false
+   },
+   {
+    "seleccion": "X2",
+    "cuota": 1.14,
+    "colchon": null,
+    "reg_local": {
+     "x": 10,
+     "n": 10,
+     "txt": "10 de 10",
+     "cumple": true
+    },
+    "reg_visitante": {
+     "x": 8,
+     "n": 10,
+     "txt": "8 de 10",
+     "cumple": true
+    },
+    "directos": null,
+    "cumple": true
+   },
+   {
+    "seleccion": "12",
+    "cuota": 1.16,
+    "colchon": null,
+    "reg_local": {
+     "x": 8,
+     "n": 10,
+     "txt": "8 de 10",
+     "cumple": true
+    },
+    "reg_visitante": {
+     "x": 8,
+     "n": 10,
+     "txt": "8 de 10",
+     "cumple": true
+    },
+    "directos": null,
+    "cumple": true
+   }
+  ]
+ },
+ "jugadores": [],
+ "contexto": {
+  "arbitro": "",
+  "clima": null,
+  "tabla": null,
+  "derbi": false,
+  "importancia": "normal",
+  "local": {
+   "estilo": [],
+   "motivacion": "normal",
+   "rotacion": false,
+   "necesita_ganar": true,
+   "perfil_corners": {}
+  },
+  "visitante": {
+   "estilo": [],
+   "motivacion": "normal",
+   "rotacion": false,
+   "necesita_ganar": false,
+   "perfil_corners": {}
+  },
+  "bajas": [],
+  "dudas": [],
+  "fuentes": [
+   "Flashscore, página del partido (tabla, forma, directos) leída 24-11 (día de la jornada; confirmar con la hora de lectura) ~17:35 Bogotá",
+   "Flashscore previa y bajas (misma lectura)",
+   "Flashscore (últimos partidos, estadísticas y H2H)"
+  ]
+ }
+}

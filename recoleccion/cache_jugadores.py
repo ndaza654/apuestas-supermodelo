@@ -12,8 +12,11 @@ Límite: la caché solo cubre equipos y partidos ya leídos; el nombre del equip
 import glob, json, os, re, sys, unicodedata
 
 
+TRANSLIT = str.maketrans({'ø': 'o', 'æ': 'ae', 'œ': 'oe', 'đ': 'd', 'ð': 'd', 'ł': 'l', 'ß': 'ss', 'þ': 'th', 'ı': 'i'})   # NFD no descompone ø/æ/ł
+
+
 def n(s):
-    s = unicodedata.normalize('NFD', (s or '').lower())
+    s = unicodedata.normalize('NFD', (s or '').lower().translate(TRANSLIT))
     return re.sub(r'[^a-z0-9]+', '', ''.join(c for c in s if unicodedata.category(c) != 'Mn'))
 
 
@@ -93,6 +96,30 @@ def fusionar(jor):
                 d['p'].sort(key=lambda r: orden.get(r[0], 99))
         json.dump(J, open(f, 'w', encoding='utf8'), ensure_ascii=False)
     print('filas añadidas desde caché:', tot)
+    cobertura(jor)
+
+
+def cobertura(jor):
+    """Reescribe jugadores/LEEME.md con la cobertura REAL (lo leído ahora + lo traído de la caché): de los 10 partidos de cada equipo, cuántos tienen
+    estadísticas por jugador y cuáles faltan (ligas sin tabla en Flashscore o no leídos). Sin esto el LEEME del decodificador solo cuenta lo leído ahora."""
+    L = ['# Historial por jugador · cobertura real (lo leído en esta jornada + lo traído de la caché de jornadas anteriores)', '',
+         'Fuente: Flashscore, pestaña «Player stats» de cada partido pasado. Una fila por jugador con minutos > 0. Los partidos sin tabla (ligas menores o sin estadísticas en Flashscore) se declaran abajo: no se inventan.', '']
+    for f in sorted(glob.glob(os.path.join(jor, 'jugadores', '*.json'))):
+        clave = os.path.basename(f)[:-5]
+        if clave.startswith('crudo') or clave.startswith('cobertura'):
+            continue
+        J = json.load(open(f, encoding='utf8'))
+        eqs = mids_equipo(jor, clave)
+        L.append(f'## {clave}')
+        for lado, (nom, mids) in eqs.items():
+            vistos = {r[0] for d in J.values() if isinstance(d, dict) and d.get('lado') == lado for r in d.get('p', [])}
+            nj = sum(1 for d in J.values() if isinstance(d, dict) and d.get('lado') == lado)
+            faltan = [m for m in mids if m not in vistos]
+            L.append(f'- {"Local" if lado == "L" else "Visitante"} ({nom}): **{len(mids) - len(faltan)} de {len(mids)}** partidos con estadísticas por jugador, {nj} jugadores.' + (f' Sin tabla/sin leer: {len(faltan)} partidos.' if faltan else ''))
+        L.append('')
+    L += ['## Límites', '- «Tackles won» (entradas ganadas/intentadas de Flashscore) no es idéntico a las entradas totales de Betano.',
+          '- Se guardan solo jugadores con minutos > 0; el rating y el xG de Flashscore van en las posiciones 14 y 15.', '- Lo recogido pasa transcrito por el chat y se verifica con hash.']
+    open(os.path.join(jor, 'jugadores', 'LEEME.md'), 'w', encoding='utf8').write('\n'.join(L) + '\n')
 
 
 if __name__ == '__main__':

@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-23 | 18:55 | Recolección completa + análisis de los 17 partidos del 24-nov (Champions con datos completos; AFC: resultado, hándicap, goles, córners, goleador) | 9 Champions + 8 AFC Elite | entregas/2026-11-23/1855_recoleccion_24nov.md (+ 1855_informe_24nov.html) |
 | 2026-11-23 | 17:00 | BB Boost + contexto de los 4 partidos que faltan (mejor partido) | Inter–Vitória, Botafogo–São Paulo, Santos–Gremio, St. Louis–LAFC | entregas/2026-11-23/1700_bb_4_partidos_restantes.md |
 | 2026-11-23 | 14:35 | BB Brentford–Everton: 5 elegidas y descartadas (precios 14:30) | Brentford–Everton | entregas/2026-11-23/1435_bb_elegidas_brentford_everton.md |
 | 2026-11-23 | 14:00 | Relectura BB Brentford–Everton (onces oficiales, 5,10 real) + combis entre partidos | Brentford–Everton, Monza–Fiorentina, Gimnasia–Newell's | entregas/2026-11-23/1400_relectura_bb_y_combis.md |

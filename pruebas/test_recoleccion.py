@@ -159,4 +159,16 @@ _h, _ = A.hist_de({'Juan Perez': {'lado': 'L', 'pid': 'p1', 'p': [['m1', '2026-1
                   {'jugadores': [{'jugador': 'Juan Perez', 'lado': 'local', 'stat': 'entradas', 'escalera': {1: 1.5}}]})
 check(_h.get('Juan Perez', {}).get('partidos', [{}])[0].get('entradas') == 5 and _h['Juan Perez']['partidos'][0].get('entradas_gan') == 2, 'entradas: el historial usa las intentadas (5) como «entradas» y guarda las ganadas aparte (2)')
 
+# 24-nov-2026: decodificador de jugadores por crudo, bajas de la previa y caché de jugadores
+import jugadores_en_decod as _JD, notas_previa as _NP, cache_jugadores as _CJ
+check(_JD.limpio('RatingRating') == 'Rating' and _JD.limpio('Goals') == 'Goals' and _JD.limpio('Minutes playedMinutes played') == 'Minutes played', 'jugadores: el encabezado repetido de Flashscore («RatingRating») se limpia')
+_o = {'raw': {'general': ['Braude O.Wingback', '7.6', '90', '-'], 'defense': ['Braude O.Wingback', '3/5 (60%)', '-', '3/5 (60%)', '1/2 (50%)', '2']},
+      'v': {}}
+_th = {'general': ['ALL', 'RatingRating', 'Minutes playedMinutes played', 'GoalsGoals'], 'defense': ['ALL', 'Duels wonDuels won', 'Aerial duels wonAerial duels won', 'Ground duels wonGround duels won', 'Tackles wonTackles won', 'Fouls committedFouls committed']}
+_x = _JD.valores(_o, _th)
+check(_x['Minutes played'] == '90' and _x['Tackles won'] == '1/2 (50%)' and _x['Fouls committed'] == '2' and _x['Rating'] == '7.6', 'jugadores: los valores se alinean con el encabezado a partir del crudo (la primera celda es nombre+posición)')
+_b = _NP.bajas('A\nWILL NOT PLAY\nKane H.\nKnee Injury\nSmith J.\nOff the roster\nQUESTIONABLE\nDoe D.\nMuscle Injury\nCOACHES\nX')
+check(_b == {'no_juega': ['Kane H. (Knee Injury)'], 'duda': ['Doe D. (Muscle Injury)']}, 'previa: las bajas salen sin los «Off the roster» y separadas de las dudas')
+check(_CJ.n('Bodø/Glimt') == _CJ.n('bodo glimt') and _CJ.n('Real Madrid') != _CJ.n('Real Betis'), 'caché: el nombre del equipo se compara normalizado (sin acentos ni signos)')
+
 print(f'\n{ok} pruebas de recolección superadas')
