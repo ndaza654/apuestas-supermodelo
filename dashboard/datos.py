@@ -13,6 +13,40 @@ STAT = {'corners': 'c', 'goles': 'g', 'tarjetas': 'y', 'remates': 'sh', 'al_arco
 RS = {'cumplió': 'C', 'falló': 'F', 'media ganada': 'MG', 'media perdida': 'MP', 'nula': 'N'}
 
 
+
+def _norm_nombre(x):
+    import re, unicodedata
+    x = unicodedata.normalize('NFKD', (x or '').lower()).encode('ascii', 'ignore').decode()
+    return re.sub(r'[^a-z ]', '', x)
+
+
+def _goleadores(ruta, ruta_al):
+    """goleadores/<clave>.json (+ alineaciones) -> {l:[[jugador,cuota,partidos_con_gol,goles,penales,asist,n,titular]], v:[...], xi:tipo}.
+    titular: 1 = en el once, 0 = no está, -1 = once sin publicar."""
+    g = json.load(open(ruta, encoding='utf8'))
+    al = json.load(open(ruta_al, encoding='utf8')) if os.path.exists(ruta_al) else {}
+    probables = al.get('probables') or {}
+    out = {'xi': al.get('tipo') or 'sin alineación publicada'}
+    for lado, L in (('l', 'L'), ('v', 'V')):
+        xi = [_norm_nombre(x[0]) for x in probables.get(L, [])]
+        fila = []
+        for l in g['equipos']['local' if lado == 'l' else 'visitante'].get('lineas_betano', []):
+            cu = (l.get('cuotas') or {}).get('anota')
+            if not cu:
+                continue
+            nf = _norm_nombre(l.get('flashscore') or '').split()
+            if not xi:
+                tit = -1
+            elif nf:
+                tit = int(any(nf[0] in x for x in xi))
+            else:                                   # sin nombre de Flashscore (no marcó en 10): cruce por apellidos del nombre de Betano
+                toks = [t for t in _norm_nombre(l['jugador']).split() if len(t) > 3]
+                tit = int(any(t in x.split() for t in toks for x in xi))
+            fila.append([l['jugador'], cu, l.get('partidos_con_gol', 0), l.get('goles', 0), l.get('penales', 0), l.get('asistencias', 0), l.get('n_partidos', 10), tit])
+        fila.sort(key=lambda r: r[1])
+        out[lado] = fila[:14]
+    return out
+
 def f(x, nd=4):
     try:
         return round(float(x), nd)
@@ -130,6 +164,9 @@ def construir(jornadas=None):
                 if os.path.exists(pcx):
                     cxj = json.load(open(pcx, encoding='utf8'))
                     p['cx'] = {'p': cxj['partido'], 'm': cxj['mercados'], 'n': int(cxj.get('con_notas', False)), 'f': cxj.get('falta', []), 'src': cxj.get('fuentes', [])}
+                pgl = os.path.join(base, 'goleadores', sl + '.json')
+                if os.path.exists(pgl):
+                    p['gl'] = _goleadores(pgl, os.path.join(base, 'alineaciones', sl + '.json'))
                 ccj = CAMB.get(j, {}).get(sl)
                 if ccj:
                     utiles = [c for c in ccj['cambios'] if 1.2 <= c[3] <= 4.0]

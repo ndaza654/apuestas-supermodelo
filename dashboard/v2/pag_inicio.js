@@ -14,7 +14,7 @@ PAGES.inicio={render(){const j=ST.jor,ps=P.filter(p=>p.jor===j),rows=stratRows(j
  const pend=ps.filter(p=>p.est==='pend').length,fin=ps.filter(p=>p.est==='final').length,a=agg(rows),jm=ps.filter(p=>G.some(g=>g.p===p.i&&!['anota','tarjeta'].includes(g.m))),jh=jm.filter(p=>DB.HIS[p.i]);
  const leidas=[...new Set(DB.L.filter(r=>P[r[0]].jor===j).map(r=>r[17]))].sort(),avis=[];
  jm.filter(p=>!p.xi).forEach(p=>avis.push(`<b>${esc(p.n)}</b>: Betano ofrece mercados de jugador pero no hay alineación. No apuestes jugadores ahí todavía.`));
- jm.filter(p=>!DB.HIS[p.i]).forEach(p=>avis.push(`<b>${esc(p.n)}</b>: falta el historial de jugadores.`));
+ jm.filter(p=>!DB.HIS[p.i]).forEach(p=>{const nj=new Set(G.filter(g=>g.p===p.i&&!['anota','tarjeta'].includes(g.m)).map(g=>g.j)).size;avis.push(nj<=2?`<b>${esc(p.n)}</b>: Betano solo ofrece estadística para ${nj} jugador${nj===1?'':'es'} (el resto es goleador); no se recolectó su historial.`:`<b>${esc(p.n)}</b>: falta el historial de jugadores.`)});
  ps.forEach(p=>(p.an&&p.an.bajas||[]).slice(0,2).forEach(b=>avis.push(`<b>${esc(p.n)}</b>: ${esc(typeof b==='string'?b:JSON.stringify(b))}`)));
  return`<h1>${jorLong(j)}</h1><p class="mut">${ps.length} partidos · ${pend} por jugar · ${fin} terminados${leidas.length?` · cuotas de Betano leídas el ${esc(bog(leidas[0]))}`:''}</p>
  <div style="margin-bottom:14px">${jorChips('jor')}</div>
