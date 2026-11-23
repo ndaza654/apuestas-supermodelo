@@ -58,7 +58,23 @@
      "10832274835"
     ],
     "leido": "06:31",
-    "tag": "A · mejor"
+    "tag": "A · mejor",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "2 córners (visitante)"
+     ],
+     [
+      false,
+      "4 goles"
+     ],
+     [
+      false,
+      "10 córners (local)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "patas": [
@@ -88,7 +104,23 @@
      "10832274835"
     ],
     "leido": "06:31",
-    "tag": "B · alternativa"
+    "tag": "B · alternativa",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "2 córners (visitante)"
+     ],
+     [
+      true,
+      "0 fueras de juego (local)"
+     ],
+     [
+      false,
+      "10 córners (local)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "patas": [
@@ -121,7 +153,27 @@
      "10741744875"
     ],
     "leido": "06:31",
-    "tag": "C · alternativa"
+    "tag": "C · alternativa",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "10 córners (local)"
+     ],
+     [
+      true,
+      "9 remates (visitante)"
+     ],
+     [
+      false,
+      "4 goles"
+     ],
+     [
+      false,
+      "4 goles (local)"
+     ]
+    ],
+    "jugada": false
    }
   ],
   "veredicto": "BB Boost: sí cumple (16 combos con precio real ≥ 5,05)",
@@ -158,7 +210,23 @@
      "10850037051"
     ],
     "leido": "06:31",
-    "tag": "A · mejor"
+    "tag": "A · mejor",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "31 remates (visitante)"
+     ],
+     [
+      true,
+      "12 remates (local)"
+     ],
+     [
+      false,
+      "8 tiros al arco (local)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "patas": [
@@ -188,7 +256,23 @@
      "10850037065"
     ],
     "leido": "06:31",
-    "tag": "B · alternativa"
+    "tag": "B · alternativa",
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "21 córners"
+     ],
+     [
+      true,
+      "31 remates (visitante)"
+     ],
+     [
+      true,
+      "12 remates (local)"
+     ]
+    ],
+    "jugada": false
    }
   ],
   "veredicto": "BB Boost: sí cumple (2 combos con precio real ≥ 5,05)",
@@ -228,7 +312,27 @@
      "10836228707"
     ],
     "leido": "06:31",
-    "tag": "A · mejor"
+    "tag": "A · mejor",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "2 fueras de juego"
+     ],
+     [
+      true,
+      "2 fueras de juego (local)"
+     ],
+     [
+      true,
+      "11 faltas (local)"
+     ],
+     [
+      false,
+      "8 córners"
+     ]
+    ],
+    "jugada": false
    }
   ],
   "veredicto": "BB Boost: sí cumple (1 combos con precio real ≥ 5,05)",
@@ -257,7 +361,23 @@
     "cumple": null,
     "fragil": "Córners Atlético Menos 5.5 (colchón 0,25)",
     "leido": "cuotas 02:08; precio real NO leído",
-    "tag": "A · mejor respaldada con precio ≥5,05 estimado (solo 1 de 3 patas «cumple»)"
+    "tag": "A · mejor respaldada con precio ≥5,05 estimado (solo 1 de 3 patas «cumple»)",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "2 córners (local)"
+     ],
+     [
+      false,
+      "7 córners (visitante)"
+     ],
+     [
+      true,
+      "11 remates (local)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "patas": [
@@ -279,10 +399,119 @@
     "cumple": false,
     "fragil": "las 4 son del mismo tipo: Betano baja el precio",
     "leido": "cuotas 02:08; precio real NO leído",
-    "tag": "B · 4 patas con «cumple» completo (precio estimado < 5,05)"
+    "tag": "B · 4 patas con «cumple» completo (precio estimado < 5,05)",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "11 remates (local)"
+     ],
+     [
+      true,
+      "31 remates"
+     ],
+     [
+      false,
+      "1 tiros al arco (local)"
+     ],
+     [
+      true,
+      "11 tiros al arco"
+     ]
+    ],
+    "jugada": false
    }
   ],
   "veredicto": "BB Boost: NO se puede confirmar. Con respaldo completo (4 patas «cumple») el precio estimado queda < 5,05; la única opción que llega a ≥ 5,05 tiene solo 1 de 3 patas con «cumple». Precio real sin leer (sin navegador).",
   "nota": "Lotería: stake mínimo. Releer precio real, cuota de cada pata (>1,50) y % del boost en el cupón antes de jugar."
+ },
+ "liverpool-fc-manchester-united": {
+  "partido": "Liverpool FC - Manchester United",
+  "hora": "2026-11-22 11:30",
+  "nota": "Combos enviados en el chat a las 11:05–11:14 (entregas/2026-11-22/1114_bbboost_final_liverpool.md); se agregan aquí el 23-nov al hacer el balance (no se habían registrado). El usuario apostó el de 4 patas (cupón 5,30 con Bet Builder Boost +25 %) y ganó.",
+  "veredicto": "combo de 4 patas: cumple las condiciones; 3 patas alternativa; lotería, stake mínimo",
+  "leido_hora": "11:08",
+  "combos": [
+   {
+    "patas": [
+     "Tiros al arco Liverpool Más 4.5",
+     "Goles Liverpool Más 1.5",
+     "Fueras de juego United Más 1.5",
+     "Saques de meta United Menos 9.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.6,
+     1.62,
+     1.65
+    ],
+    "precio_bb": 5.1,
+    "precio_cupon_usuario": 5.3,
+    "p_modelo": 0.167,
+    "p_stress": 0.153,
+    "p_prudente": 0.153,
+    "ev_con_boost": 0.02,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "Final · 4 patas",
+    "leido": "11:08",
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "11 tiros al arco (local)"
+     ],
+     [
+      true,
+      "4 goles (local)"
+     ],
+     [
+      true,
+      "2 fueras de juego (visitante)"
+     ],
+     [
+      true,
+      "8 saques de meta (visitante)"
+     ]
+    ],
+    "jugada": true,
+    "apostado_por_usuario": true
+   },
+   {
+    "patas": [
+     "Tiros al arco Liverpool Más 4.5",
+     "Fueras de juego Liverpool Más 1.5",
+     "Saques de meta United Menos 8.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.65,
+     2.07
+    ],
+    "precio_bb": 5.1,
+    "p_modelo": 0.161,
+    "p_stress": 0.145,
+    "p_prudente": 0.145,
+    "cumple": true,
+    "tag": "Alternativa · 3 patas",
+    "leido": "11:11",
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "11 tiros al arco (local)"
+     ],
+     [
+      true,
+      "2 fueras de juego (local)"
+     ],
+     [
+      true,
+      "8 saques de meta (visitante)"
+     ]
+    ],
+    "jugada": true
+   }
+  ]
  }
 }

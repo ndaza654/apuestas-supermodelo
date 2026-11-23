@@ -1,0 +1,10 @@
+# Balance 22-nov-2026 + autocrítica del fin de semana (entrega 23-nov, hora en el nombre del archivo)
+Fuente: Betano → Mis apuestas (23-nov ~11:00), resultados Flashscore (29 partidos), tablas de jugadores de 15 de 23 partidos. Límites: ver `jornadas/2026-11-22/balance/LEEME.md` y `pendientes.json`. Informe interactivo: `*_balance_22nov.html`; conclusiones completas: `*_balance_22nov_conclusiones.html`.
+
+**Plata (solo tus boletos):** +$77.501 (+21 u). Propios $129.687 en 5 boletos → cobro $207.188 (Liverpool–Man United BB @5,30 con Boost +25 %: +$34.938). Perdieron #145 (Hull–Brighton), #148 Getafe (Getafe tiros al arco Más 2.5: 1), #149 (River remates 35 vs Menos 29.5; Bragantino córners 9 vs Más 9.5), #150 (Real Salt Lake no marcó) y el gratis #147 (Rosario–Gimnasia Mendoza). 25 de 34 patas se dieron (74 %).
+**Dos días (21 y 22-nov):** +$184.884. **Acumulado 9–22 nov:** −$154.373 (ROI ≈ −11,7 %; era −19,4 %).
+**Bet Builder de un solo partido 2 de 4; combinadas de varios partidos 0 de 7** (con muestra chica).
+**Lo calificado de lo enviado (22-nov):** «cumple» 80,6 % vs 40,3 % (equipo); sencillas 224/333 (67 %); combinadas del mismo partido 6/8; BB Boost 3/10 combos (Liverpool ×2, Racing–R. Sociedad); jugadores: modelo inflado 17–19 pts en las bandas 35–80 %.
+**Sencillas sugeridas por día desde el 13-nov:** 67–74 % siempre (sin mejora); combinadas ≤ 2 patas con «cumple»: 24 % → 55–75 %; BB Boost 19–22 nov: 15 de 64 combos (23 %) vs equilibrio ≈ 16 %.
+**Autocrítica:** el acierto de las sencillas no sube; el filtro estadístico no se degrada con más partidos (12 o 41), pero el contexto (bajas, onces, árbitro) sí se queda superficial; registrar cada combo enviado en el JSON de BB Boost al momento (el de Liverpool no se había registrado; ya está); validar la heurística de goleador/jugador con estas liquidaciones.
+**Pendiente:** boleto abierto del 23-nov (Taremi + Ambos anotan Sí Al Ain–Esteghlal + Córners Menos 9.5 Shamal–Al Ahli, $7.500 @7,38); 8 partidos sin tabla de jugadores; tarjetas de Juventus–Venezia.

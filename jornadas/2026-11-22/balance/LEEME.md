@@ -1,0 +1,5 @@
+# Balance 22-nov-2026 (cerrado 23-nov ~12:00 Bogotá)
+- Boletos: Betano → Mis apuestas (Resueltas y Abiertas), 23-nov ~11:00. Betano no muestra fecha ni número: 145–150 asignados por orden y por los partidos. Abierto: 1 boleto del 23-nov (en `pendientes.json`).
+- Resultados: Flashscore df_st/df_su de los 29 partidos (`resultados/flashscore_crudo.json`, hash 2296847506). Jugadores: tablas «Player stats» de 15 de 23 partidos (`resultados/jugadores_lote_en.json`, hash 894246465); sin tabla: Colo Colo–U. Católica, Augsburg–Mainz, Rosario–Gimnasia Mendoza (no existen en Flashscore) y Instituto–Huracán, Juventus–Venezia, Marseille–Le Mans, Werder–HSV, Sassuolo–Genoa (falló la lectura).
+- La lectura de tablas de jugadores de Flashscore dejó de funcionar con la espera de 20 s: hubo que subirla a 60 s (`window.__esperaTabla = 60000`) y reiniciar la pestaña.
+- Límites: Juventus–Venezia sin tarjetas en Flashscore; línea asiática Under 3.75 (Querétaro–Necaxa) calificada con el marcador; Flashscore sin faltas recibidas; atajadas = atajadas del equipo.
