@@ -37,7 +37,7 @@ def correr(jornada, clave, ratings):
             esp_aj = (eL + eV) / 2
         ok = nL >= 6 and nV >= 6
         cumple_aj = ok and aL / nL >= 0.7 and aV / nV >= 0.7
-        out.append({'mercado': r['mercado'], 'ambito': amb, 'linea': lin, 'lado': lado, 'cuota': float(r['cuota']), 'p_modelo': r['p_modelo'], 'reg_local': r['reg_local'], 'reg_visitante': r['reg_visitante'], 'directos': r['directos'],
+        out.append({'mercado': r['mercado'], 'ambito': amb, 'linea': lin, 'lado': lado, 'cuota': float(r['cuota']), 'p_modelo': r['p_modelo'], 'p_mercado': r['p_mercado'], 'colchon': r['colchon'], 'ev': r['ev_modelo'], 'alerta': r['alerta_modelo'], 'reg_local': r['reg_local'], 'reg_visitante': r['reg_visitante'], 'directos': r['directos'],
                     'cumple_ficha': r['cumple_ficha'], 'esperado': r['esperado'], 'esperado_aj': None if esp_aj is None else round(esp_aj, 2), 'aj_local': f'{aL} de {nL}', 'aj_visitante': f'{aV} de {nV}', 'cumple_aj': bool(cumple_aj)})
     os.makedirs(f'{jornada}/ajustado', exist_ok=True)
     json.dump({'clave': clave, 'ratings': os.path.basename(ratings), 'nota': 'Ajuste por rival SIN validar; excluye rivales de otra división (n menor); informativo.', 'filas': out}, open(f'{jornada}/ajustado/{clave}.json', 'w', encoding='utf8'), ensure_ascii=False, indent=0)

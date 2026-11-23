@@ -1,0 +1,104 @@
+{
+ "CORE (ER+EF+BC5)": {
+  "precio": 5.1,
+  "p_ajust": 0.1793,
+  "p_stress": 0.1619,
+  "p_patas": [
+   0.5737,
+   0.5526,
+   0.5157
+  ],
+  "correlacion": 1.1,
+  "frágil": "Córners Brentford FC Menos 5.5",
+  "avisos": [],
+  "guion": "Partido abierto (ambos marcan y 3+ goles)"
+ },
+ "X1 ER12+EF+BC5": {
+  "precio": 6.2,
+  "p_ajust": 0.149,
+  "p_stress": 0.1331,
+  "p_patas": [
+   0.4669,
+   0.5526,
+   0.5157
+  ],
+  "correlacion": 1.12,
+  "frágil": "Remates Everton FC Más 12.5",
+  "avisos": [],
+  "guion": "Partido abierto (ambos marcan y 3+ goles)"
+ },
+ "X2 core+BR": {
+  "precio": 6.8,
+  "p_ajust": 0.1353,
+  "p_stress": 0.1222,
+  "p_patas": [
+   0.5737,
+   0.5526,
+   0.5157,
+   0.6266
+  ],
+  "correlacion": 1.32,
+  "frágil": "Córners Brentford FC Menos 5.5",
+  "avisos": [],
+  "guion": "Favorito golpea temprano y gana"
+ },
+ "X4 core+BT": {
+  "precio": 8.25,
+  "p_ajust": 0.1037,
+  "p_stress": 0.0937,
+  "p_patas": [
+   0.5737,
+   0.5526,
+   0.5808,
+   0.5157
+  ],
+  "correlacion": 1.09,
+  "frágil": "Córners Brentford FC Menos 5.5",
+  "avisos": [],
+  "guion": "Expulsión antes del 70′"
+ },
+ "X5 core+BSM": {
+  "precio": 7.0,
+  "p_ajust": 0.1054,
+  "p_stress": 0.0952,
+  "p_patas": [
+   0.5737,
+   0.5526,
+   0.5693,
+   0.5157
+  ],
+  "correlacion": 1.13,
+  "frágil": "Córners Brentford FC Menos 5.5",
+  "avisos": [],
+  "guion": "Favorito golpea temprano y gana"
+ },
+ "X8 core+ES": {
+  "precio": 7.0,
+  "p_ajust": 0.1308,
+  "p_stress": 0.1181,
+  "p_patas": [
+   0.5737,
+   0.5526,
+   0.5157,
+   0.5572
+  ],
+  "correlacion": 1.44,
+  "frágil": "Córners Brentford FC Menos 5.5",
+  "avisos": [],
+  "guion": "Partido abierto (ambos marcan y 3+ goles)"
+ },
+ "H2 sin Barry (ER+EF+BR)": {
+  "precio": 3.8,
+  "p_ajust": 0.2099,
+  "p_stress": 0.1909,
+  "p_patas": [
+   0.5737,
+   0.5526,
+   0.6266
+  ],
+  "correlacion": 1.06,
+  "frágil": "Faltas Everton FC Menos 10.5",
+  "avisos": [],
+  "guion": "Favorito golpea temprano y gana"
+ }
+}

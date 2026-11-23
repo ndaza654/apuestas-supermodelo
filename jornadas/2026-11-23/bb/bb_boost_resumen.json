@@ -1,0 +1,776 @@
+{
+ "leido": "2026-11-23 12:05 Bogotá",
+ "leido_hora": "12:05",
+ "condiciones": "BB BOOST: ≥3 mercados, cada cuota > 1,50, cuota total > 5,00 (cupón de Betano; margen: patas ≥ 1,51 y precio ≥ 5,05). El % (+25 % o +50 %) se lee en el cupón.",
+ "aviso": "Precios REALES de Betano (mc-leg) 12:05 Bogotá; onces PROBABLES (se releen 13:55). EV con boost = p·(1+1,25·(precio−1))−1 (con +50 %: 1,5). p del modelo con dependencia medida; combos con jugador usan un factor propio sin validar. Las variantes son el mismo guion.",
+ "brentford-fc-everton-fc": {
+  "partido": "Brentford FC - Everton FC",
+  "hora": "2026-11-23 15:00",
+  "evento": 94991434,
+  "nota": "Prueba del análisis a fondo (entregas/2026-11-23). Núcleo = Everton remates Más 11,5 + Everton faltas Menos 10,5 + Brentford córners Menos 5,5 @5,10 real. Las demás son variantes del mismo guion, no apuestas independientes.",
+  "veredicto": "BB 1 cumple (3 patas, precio real 5,10, patas 1,62/1,70/1,87); lotería ~1 de cada 6; equilibrio con +25 % ≈16 %: EV ≈ 0; stake mínimo. Releer onces y precio a las 13:55.",
+  "leido_hora": "12:05",
+  "combos": [
+   {
+    "patas": [
+     "Remates Everton FC Más 11.5",
+     "Faltas Everton FC Menos 10.5",
+     "Córners Brentford FC Menos 5.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.7,
+     1.87
+    ],
+    "precio_bb": 5.1,
+    "p_modelo": 0.179,
+    "p_stress": 0.162,
+    "p_prudente": 0.179,
+    "ev_con_boost": 0.098,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "BB 1 · núcleo 3 patas (principal)",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Everton FC Más 11.5",
+     "Faltas Everton FC Menos 10.5",
+     "Córners Brentford FC Menos 5.5",
+     "Remates Brentford FC Menos 16.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.7,
+     1.87,
+     1.52
+    ],
+    "precio_bb": 6.8,
+    "p_modelo": 0.135,
+    "p_stress": 0.122,
+    "p_prudente": 0.135,
+    "ev_con_boost": 0.116,
+    "p_equilibrio_boost": 0.121,
+    "cumple": true,
+    "tag": "BB 2 · núcleo + Brentford remates Menos 16,5",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Everton FC Más 11.5",
+     "Faltas Everton FC Menos 10.5",
+     "Thierno Barry Remates 3+ (jugador)",
+     "Remates Brentford FC Menos 16.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.7,
+     1.62,
+     1.52
+    ],
+    "precio_bb": 5.6,
+    "p_modelo": 0.13,
+    "p_stress": 0.103,
+    "p_prudente": 0.13,
+    "ev_con_boost": -0.122,
+    "p_equilibrio_boost": 0.148,
+    "cumple": true,
+    "tag": "BB 3 · con Barry",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Everton FC Más 11.5",
+     "Tiros al arco Everton FC Más 3.5",
+     "Tiros al arco Brentford FC Menos 4.5",
+     "Remates Brentford FC Menos 15.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.67,
+     1.78,
+     1.78
+    ],
+    "precio_bb": 5.9,
+    "p_modelo": 0.181,
+    "p_stress": 0.165,
+    "p_prudente": 0.161,
+    "ev_con_boost": 0.292,
+    "p_equilibrio_boost": 0.14,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Everton FC o empate",
+     "Tarjetas Brentford FC Más 1.5",
+     "Tiros al arco Brentford FC Menos 4.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.62,
+     1.6,
+     1.78
+    ],
+    "precio_bb": 5.1,
+    "p_modelo": 0.18,
+    "p_stress": 0.163,
+    "p_prudente": 0.18,
+    "ev_con_boost": 0.101,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Remates Everton FC Más 11.5",
+     "Tiros al arco Everton FC Más 3.5",
+     "Córners Brentford FC Menos 5.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.62,
+     1.67,
+     1.87
+    ],
+    "precio_bb": 5.4,
+    "p_modelo": 0.18,
+    "p_stress": 0.163,
+    "p_prudente": 0.176,
+    "ev_con_boost": 0.173,
+    "p_equilibrio_boost": 0.154,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Saques de banda Menos 37.5",
+     "Remates Everton FC Más 11.5",
+     "Tiros al arco Everton FC Más 3.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.57,
+     1.62,
+     1.67
+    ],
+    "precio_bb": 5.3,
+    "p_modelo": 0.17,
+    "p_stress": 0.155,
+    "p_prudente": 0.17,
+    "ev_con_boost": 0.086,
+    "p_equilibrio_boost": 0.157,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Tiros al arco Everton FC Más 3.5",
+     "Tiros al arco Brentford FC Menos 4.5",
+     "Remates Everton FC Más 12.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.67,
+     1.78,
+     1.98
+    ],
+    "precio_bb": 6.1,
+    "p_modelo": 0.173,
+    "p_stress": 0.154,
+    "p_prudente": 0.156,
+    "ev_con_boost": 0.276,
+    "p_equilibrio_boost": 0.136,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Saques de banda Everton FC Menos 18.5",
+     "Tiros al arco Everton FC Más 3.5",
+     "Córners Brentford FC Menos 5.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.67,
+     1.87
+    ],
+    "precio_bb": 5.1,
+    "p_modelo": 0.171,
+    "p_stress": 0.154,
+    "p_prudente": 0.171,
+    "ev_con_boost": 0.046,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Tiros al arco Everton FC Más 3.5",
+     "Tarjetas Más 3.5",
+     "Tiros al arco Brentford FC Menos 4.5"
+    ],
+    "cuotas_catalogo": [
+     1.67,
+     1.7,
+     1.78
+    ],
+    "precio_bb": 5.3,
+    "p_modelo": 0.169,
+    "p_stress": 0.154,
+    "p_prudente": 0.169,
+    "ev_con_boost": 0.079,
+    "p_equilibrio_boost": 0.157,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Faltas Everton FC Menos 10.5",
+     "Remates Everton FC Más 12.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.7,
+     1.98
+    ],
+    "precio_bb": 5.1,
+    "p_modelo": 0.172,
+    "p_stress": 0.153,
+    "p_prudente": 0.172,
+    "ev_con_boost": 0.053,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Tarjetas Everton FC Más 1.5",
+     "Remates Everton FC Más 11.5",
+     "Tiros al arco Everton FC Más 3.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.55,
+     1.62,
+     1.67
+    ],
+    "precio_bb": 5.3,
+    "p_modelo": 0.168,
+    "p_stress": 0.153,
+    "p_prudente": 0.168,
+    "ev_con_boost": 0.073,
+    "p_equilibrio_boost": 0.157,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Tiros al arco Brentford FC Menos 4.5",
+     "Remates Everton FC Más 13.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.78,
+     2.5
+    ],
+    "precio_bb": 5.9,
+    "p_modelo": 0.176,
+    "p_stress": 0.152,
+    "p_prudente": 0.161,
+    "ev_con_boost": 0.256,
+    "p_equilibrio_boost": 0.14,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Saques de banda Menos 37.5",
+     "Saques de banda Everton FC Menos 18.5",
+     "Tarjetas Más 3.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.57,
+     1.62,
+     1.7
+    ],
+    "precio_bb": 5.1,
+    "p_modelo": 0.167,
+    "p_stress": 0.152,
+    "p_prudente": 0.167,
+    "ev_con_boost": 0.025,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Tarjetas Brentford FC Más 1.5",
+     "Remates Everton FC Más 11.5",
+     "Tiros al arco Everton FC Más 3.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.6,
+     1.62,
+     1.67
+    ],
+    "precio_bb": 5.4,
+    "p_modelo": 0.166,
+    "p_stress": 0.151,
+    "p_prudente": 0.166,
+    "ev_con_boost": 0.08,
+    "p_equilibrio_boost": 0.154,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Saques de meta Brentford FC Más 6.5",
+     "Tiros al arco Brentford FC Menos 4.5",
+     "Córners Brentford FC Menos 5.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.78,
+     1.87
+    ],
+    "precio_bb": 5.1,
+    "p_modelo": 0.167,
+    "p_stress": 0.151,
+    "p_prudente": 0.167,
+    "ev_con_boost": 0.022,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Everton FC o empate",
+     "Tarjetas Brentford FC Más 1.5",
+     "Remates Everton FC Más 11.5",
+     "Tiros al arco Everton FC Más 3.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.6,
+     1.62,
+     1.67
+    ],
+    "precio_bb": 5.2,
+    "p_modelo": 0.165,
+    "p_stress": 0.15,
+    "p_prudente": 0.165,
+    "ev_con_boost": 0.029,
+    "p_equilibrio_boost": 0.16,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Everton FC o empate",
+     "Remates Brentford FC Menos 15.5",
+     "Remates Everton FC Más 12.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.78,
+     1.98
+    ],
+    "precio_bb": 5.5,
+    "p_modelo": 0.168,
+    "p_stress": 0.15,
+    "p_prudente": 0.168,
+    "ev_con_boost": 0.112,
+    "p_equilibrio_boost": 0.151,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Tiros al arco Más 7.5",
+     "Tiros al arco Everton FC Más 3.5",
+     "Córners Brentford FC Menos 5.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.55,
+     1.67,
+     1.87
+    ],
+    "precio_bb": 5.3,
+    "p_modelo": 0.166,
+    "p_stress": 0.15,
+    "p_prudente": 0.166,
+    "ev_con_boost": 0.056,
+    "p_equilibrio_boost": 0.157,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Saques de banda Everton FC Menos 18.5",
+     "Remates Everton FC Más 11.5",
+     "Tiros al arco Everton FC Más 3.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.62,
+     1.62,
+     1.67
+    ],
+    "precio_bb": 5.4,
+    "p_modelo": 0.164,
+    "p_stress": 0.149,
+    "p_prudente": 0.164,
+    "ev_con_boost": 0.066,
+    "p_equilibrio_boost": 0.154,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Tarjetas Everton FC Más 1.5",
+     "Everton FC o empate",
+     "Tiros al arco Brentford FC Menos 4.5",
+     "Remates Brentford FC Menos 15.5"
+    ],
+    "cuotas_catalogo": [
+     1.55,
+     1.62,
+     1.78,
+     1.78
+    ],
+    "precio_bb": 5.6,
+    "p_modelo": 0.165,
+    "p_stress": 0.149,
+    "p_prudente": 0.165,
+    "ev_con_boost": 0.11,
+    "p_equilibrio_boost": 0.148,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Saques de banda Menos 37.5",
+     "Everton FC o empate",
+     "Tarjetas Brentford FC Más 1.5",
+     "Saques de banda Everton FC Menos 18.5"
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     1.62,
+     1.6,
+     1.62
+    ],
+    "precio_bb": 5.1,
+    "p_modelo": 0.162,
+    "p_stress": 0.148,
+    "p_prudente": 0.162,
+    "ev_con_boost": -0.007,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Saques de banda Menos 37.5",
+     "Everton FC o empate",
+     "Saques de banda Everton FC Menos 18.5",
+     "Remates Brentford FC Menos 15.5"
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     1.62,
+     1.62,
+     1.78
+    ],
+    "precio_bb": 5.4,
+    "p_modelo": 0.163,
+    "p_stress": 0.148,
+    "p_prudente": 0.163,
+    "ev_con_boost": 0.058,
+    "p_equilibrio_boost": 0.154,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Tiros al arco Más 7.5",
+     "Saques de banda Menos 37.5",
+     "Tiros al arco Everton FC Más 3.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.55,
+     1.57,
+     1.67
+    ],
+    "precio_bb": 5.1,
+    "p_modelo": 0.161,
+    "p_stress": 0.147,
+    "p_prudente": 0.161,
+    "ev_con_boost": -0.014,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Everton FC o empate",
+     "Tarjetas Brentford FC Más 1.5",
+     "Tiros al arco Brentford FC Menos 4.5",
+     "Remates Brentford FC Menos 15.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.6,
+     1.78,
+     1.78
+    ],
+    "precio_bb": 5.7,
+    "p_modelo": 0.162,
+    "p_stress": 0.146,
+    "p_prudente": 0.162,
+    "ev_con_boost": 0.11,
+    "p_equilibrio_boost": 0.145,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Saques de meta Brentford FC Más 6.5",
+     "Tarjetas Más 3.5",
+     "Córners Brentford FC Menos 5.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.7,
+     1.87
+    ],
+    "precio_bb": 5.1,
+    "p_modelo": 0.161,
+    "p_stress": 0.146,
+    "p_prudente": 0.161,
+    "ev_con_boost": -0.011,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Tarjetas Everton FC Más 1.5",
+     "Tarjetas Brentford FC Más 1.5",
+     "Tiros al arco Brentford FC Menos 4.5",
+     "Remates Brentford FC Menos 15.5"
+    ],
+    "cuotas_catalogo": [
+     1.55,
+     1.6,
+     1.78,
+     1.78
+    ],
+    "precio_bb": 5.9,
+    "p_modelo": 0.161,
+    "p_stress": 0.146,
+    "p_prudente": 0.161,
+    "ev_con_boost": 0.145,
+    "p_equilibrio_boost": 0.14,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Brentford FC Menos 16.5",
+     "Córners Brentford FC Menos 5.5",
+     "Remates Everton FC Más 13.5"
+    ],
+    "cuotas_catalogo": [
+     1.52,
+     1.87,
+     2.5
+    ],
+    "precio_bb": 6.1,
+    "p_modelo": 0.166,
+    "p_stress": 0.144,
+    "p_prudente": 0.156,
+    "ev_con_boost": 0.227,
+    "p_equilibrio_boost": 0.136,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Tiros al arco Everton FC Más 3.5",
+     "Faltas Everton FC Menos 10.5",
+     "Remates Everton FC Más 13.5"
+    ],
+    "cuotas_catalogo": [
+     1.67,
+     1.7,
+     2.5
+    ],
+    "precio_bb": 5.2,
+    "p_modelo": 0.165,
+    "p_stress": 0.143,
+    "p_prudente": 0.165,
+    "ev_con_boost": 0.033,
+    "p_equilibrio_boost": 0.16,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Everton FC Más 12.5",
+     "Faltas Everton FC Menos 10.5",
+     "Córners Brentford FC Menos 5.5"
+    ],
+    "cuotas_catalogo": [
+     1.98,
+     1.7,
+     1.87
+    ],
+    "precio_bb": 6.2,
+    "p_modelo": 0.149,
+    "p_stress": 0.133,
+    "p_prudente": 0.149,
+    "ev_con_boost": 0.117,
+    "p_equilibrio_boost": 0.133,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Everton FC Más 11.5",
+     "Faltas Everton FC Menos 10.5",
+     "Córners Brentford FC Menos 5.5",
+     "Tiros al arco Everton FC Más 3.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.7,
+     1.87,
+     1.67
+    ],
+    "precio_bb": 7,
+    "p_modelo": 0.131,
+    "p_stress": 0.118,
+    "p_prudente": 0.131,
+    "ev_con_boost": 0.112,
+    "p_equilibrio_boost": 0.118,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Everton FC Más 11.5",
+     "Faltas Everton FC Menos 10.5",
+     "Saques de meta Brentford FC Más 6.5",
+     "Córners Brentford FC Menos 5.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.7,
+     1.62,
+     1.87
+    ],
+    "precio_bb": 7,
+    "p_modelo": 0.105,
+    "p_stress": 0.095,
+    "p_prudente": 0.105,
+    "ev_con_boost": -0.104,
+    "p_equilibrio_boost": 0.118,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Everton FC Más 11.5",
+     "Faltas Everton FC Menos 10.5",
+     "Tarjetas Brentford FC Más 1.5",
+     "Córners Brentford FC Menos 5.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.7,
+     1.6,
+     1.87
+    ],
+    "precio_bb": 8.25,
+    "p_modelo": 0.104,
+    "p_stress": 0.094,
+    "p_prudente": 0.104,
+    "ev_con_boost": 0.043,
+    "p_equilibrio_boost": 0.099,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   },
+   {
+    "patas": [
+     "Remates Everton FC Más 11.5",
+     "Faltas Everton FC Menos 10.5",
+     "Córners Brentford FC Menos 5.5",
+     "Thierno Barry Remates 3+ (jugador)"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.7,
+     1.87,
+     1.62
+    ],
+    "precio_bb": 6.9,
+    "p_modelo": 0.111,
+    "p_stress": 0.087,
+    "p_prudente": 0.111,
+    "ev_con_boost": -0.069,
+    "p_equilibrio_boost": 0.119,
+    "cumple": true,
+    "tag": "variante",
+    "leido": "12:05"
+   }
+  ]
+ }
+}
