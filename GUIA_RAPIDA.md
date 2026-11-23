@@ -1,5 +1,7 @@
 # Supermodelo SM-1.2 — guía rápida para los chats del proyecto (11-nov-2026)
 
+> **Nota del 23-nov-2026:** este documento es de la etapa de diseño del modelo (11-nov). Las reglas vigentes de proceso (muestra de 10, historial de jugadores, árbitro, BB Boost, balances) están en `CLAUDE.md`; donde se contradigan, manda `CLAUDE.md`. Los «hallazgos» de abajo son del 10-nov y se midieron con otra muestra.
+
 Reemplaza a «Modelo v2 (versión final) — guía rápida». Paquete: `supermodelo` (README.md). Un solo paquete: ya no hay v2 ni v3.
 
 ## Reglas fijas del usuario (11-nov-2026)

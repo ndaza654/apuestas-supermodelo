@@ -1,6 +1,6 @@
-# Plan del dashboard y de la automatización (propuesta del 14-nov-2026, sin construir)
+# Plan del dashboard y de la automatización (propuesta del 14-nov-2026 — HISTÓRICO)
 
-Estado: **propuesta para aprobar**. Nada de esto está construido. Reglas que no cambian: el usuario decide y apuesta; Claude no coloca apuestas ni entra a Betano con credenciales; no se toca nada de GitHub fuera de este repo; los datos que faltan se dicen, no se inventan.
+Estado (23-nov-2026): **ya construido y en línea** como dashboard v2 «Mando» (https://ndaza654.github.io/apuestas-supermodelo/, `dashboard/`, reconstruido por GitHub Actions en cada push a `main`). Este texto se conserva como registro de la propuesta; lo vigente está en `CLAUDE.md`. Reglas que no cambian: el usuario decide y apuesta; Claude no coloca apuestas ni entra a Betano con credenciales; no se toca nada de GitHub fuera de este repo; los datos que faltan se dicen, no se inventan.
 
 ## 1. Qué se vio en los tres videos (plantillas de Excel de Etsy)
 - **Modelo de valor esperado:** cuota → probabilidad implícita, quita del margen (vig), «% de banca» por Kelly con factor ajustable, EV por línea. Hojas aparte para arbitraje y parlay (p de cada pata, p conjunta, cuota justa, tamaño de apuesta).

@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-23 | 11:35 | Diseño (propuesta): BB diarias a fondo, regularidad ajustada por rival y recolección más rápida | — | entregas/2026-11-23/1135_diseno_contexto_y_recoleccion.md |
 | 2026-11-23 | 11:16 | Balance del 22-nov + autocrítica (informe HTML y conclusiones) | 29 partidos / 6 boletos | entregas/2026-11-23/1116_balance_22nov.md |
 | 2026-11-23 | 10:49 | Análisis 12 partidos: goleador AFC/Gimnasia + jugadores (Monza, Brentford, Inter, Botafogo, Santos, St. Louis) | 12 | entregas/2026-11-23/1049_analisis_12_partidos.md |
 | 2026-11-23 | 10:41 | Recolección completa 12 partidos (AFC x5, Monza, Gimnasia, Brentford, Inter, Botafogo, Santos, St. Louis) | 12 | entregas/2026-11-23/1041_recoleccion_12_partidos.md |

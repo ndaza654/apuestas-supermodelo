@@ -1,5 +1,7 @@
 # Recolección (desde el navegador del computador del usuario)
 
+> **Actualizado el 23-nov-2026.** Al final hay una sección «Procedimiento probado 22–23-nov» con lo que funciona hoy y los fallos conocidos. Sofascore (sección más abajo) ya no se usa: da 403; la fuente es Flashscore. Si algo de arriba contradice esa sección, manda la sección final.
+
 El shell de la nube no llega a Betano ni a Sofascore; se recolecta con el **navegador integrado** (pestaña ya con sesión) y se guarda JSON en `jornadas/AAAA-MM-DD/`.
 Después `ficha.py` y el modelo trabajan sin red.
 
@@ -73,3 +75,18 @@ Orden y fuente de cada dato (todo se guarda en `jornadas/AAAA-MM-DD/` apenas se 
   Límite: no trae minutos ni titularidad (sin goles por 90; «sin gol» no prueba que jugó). La tabla de jugadores de Flashscore (`flashscore_jugadores_iframe.js`) solo existe para algunos partidos femeninos.
 - **URL de partidos pasados en Flashscore:** `/partido/futbol/<slug-1>-<id>/<slug-2>-<id>/?mid=<mid>` con los dos equipos en ORDEN ALFABÉTICO de slug (no local/visitante). Con otro orden el iframe no carga la tabla de jugadores (falló la mitad de los partidos el 19-nov).
 - **Panel del navegador:** con el panel oculto o la pestaña en segundo plano, los iframes de Flashscore van ~1 min por partido (o se congelan); visible, ~15 s. Guardar el avance en `localStorage` (`pj19_<mid>`) por si la pestaña se cae.
+
+## Procedimiento probado 22–23-nov-2026 (12 partidos en 1 h 15 min; 30+ partidos en 2 días)
+**Lista y mercados.** `mercados_dia.js` lee de Betano qué mercados ofrece cada partido (conteo por tipo: goleador, estadística de jugador, tarjeta) para decidir qué partidos necesitan historial completo y cuáles solo goleador. Betano (`betano_extraer.js`) y Flashscore (`flashscore_extraer.js`) se cargan en la pestaña con `fetch('https://raw.githubusercontent.com/ndaza654/apuestas-supermodelo/main/recoleccion/<archivo>')` + `(0,eval)`.
+**Resultados y goles (rápido, sin iframes).** Los feeds `https://global.flashscore.ninja/2/x/feed/df_st_1_<mid>` (estadísticas), `df_su_1_<mid>` (incidentes/goles) y `df_sui_1_<mid>` (árbitro) con la cabecera `x-fsign: SW9D1eZo` responden en ~0,1 s y no dependen de que el panel esté visible. Todo lo que se pueda sacar de feeds se saca de feeds.
+**Tabla de jugadores (lo lento).** Solo existe en la página renderizada: `flashscore_jugadores_en_par.js` + `flashscore_jugadores_en_lotes.js` (iframe por partido pasado; selector `tr[data-testid="wcl-tableBodyRow"]`).
+- Fijar `window.__esperaTabla = 60000` (con 20 s salían «filas 0»); máximo 3 trabajadores en paralelo; pestaña nueva (se degrada tras ~80–100 cargas); reencolar trabajadores atascados.
+- Orden de slugs en la URL de partidos pasados: alfabético.
+- Fila de jugador: `[mid, fecha, min, remates, al_arco, goles, asist, amarillas, rojas, faltas, entradas_ganadas, atajadas, entradas_tot]`.
+- Ligas menores a veces no publican tabla (el 22-nov faltaron 8 de 23): se declara, no se inventa.
+**Sacar datos del navegador sin pasarlos por el chat:** Blob → `a.download` → `~/mnt/Downloads/<uuid>.tmp` → `device_bash cp` a un nombre → `device_stage_files` → `python3 recoleccion/verificar_hash.py <archivo> <hash>` (h=(h*31+code)>>>0 sobre unidades UTF-16) → copiar al repo. `javascript_tool` corta a ~45 s: esperar con `sleep` en Bash y volver a leer `localStorage`.
+**Alineaciones:** la pestaña de alineaciones de Flashscore no publica el once hasta ~1 h antes; hasta entonces solo «probables». Releer ~1 h antes (también cuotas) y actualizar `raw/lu_<clave>.txt`.
+**Tabla de posiciones (AFC y copas):** `paginas_a_notas.py`; si el texto trae líneas tipo «2-2» que no son tabla, quitarlas antes (`--forzar`).
+**Goleador:** `goleadores.py` (de los incidentes `df_su`); `p mezcla` = (partidos con gol + 10·p_cuota/1,08)/20 es una heurística propia SIN validar.
+**Balance:** Betano → `https://www.betano.co/mybets/` (clic en «Resueltas»; «Abiertas (n)»; no muestra fechas; el boost aparece como «Ganancias $X» + «Bet Builder Boost +25 % +$Y»). La ruta `/myaccount/my-bets/settled` da 404. Resultados: feeds `df_st`/`df_su`; jugadores: `flashscore_jugadores_en_par.js`.
+**Cada combo enviado por el chat** se registra en `jornadas/AAAA-MM-DD/bb/bb_boost_resumen.json` (o `combinadas_enviadas_HHMM.json`) en el momento de enviarlo.

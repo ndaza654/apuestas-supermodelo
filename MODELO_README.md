@@ -1,5 +1,7 @@
 # Supermodelo SM-1.2 — lectura de partidos para Betano (11-nov-2026)
 
+> **Nota del 23-nov-2026:** descripción técnica del modelo SM-1.2 (14-nov). Sigue vigente para el modelo; el proceso de recolección, las fichas y las reglas actuales están en `CLAUDE.md` y `recoleccion/README.md`. Sus probabilidades de jugador están infladas 17–19 puntos según los balances: se usan con cautela.
+
 Un solo paquete (`supermodelo`) que reemplaza a `modelo_v2` y a `modelo_v3_apuestas.zip`. Une el modelo v2, la
 calibración del 9-nov, los combos del 9-nov (joint3) y todo lo investigado: JekeDeportivas, Ingeniero Analista,
 Sharpods, StatArea, fuentes por mercado, papers y, sobre todo, una calibración con **238.858 partidos reales**
