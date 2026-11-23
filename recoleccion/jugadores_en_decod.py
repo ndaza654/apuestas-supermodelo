@@ -29,6 +29,28 @@ def par(s):
     return n, n
 
 
+def limpio(h):
+    """Flashscore (nov-2026) repite el texto del encabezado: «RatingRating» → «Rating»."""
+    h = (h or '').strip()
+    m = len(h) // 2
+    return h[:m] if len(h) % 2 == 0 and m and h[:m] == h[m:] else h
+
+
+def valores(o, th):
+    """Valores por columna a partir del crudo (`raw` por pestaña, la primera celda es nombre+posición y alinea con «ALL»). Si no hay crudo, usa `v`."""
+    raw = o.get('raw')
+    if not raw:
+        return {limpio(k): v for k, v in (o.get('v') or {}).items()}
+    x = {}
+    for tab, celdas in raw.items():
+        cab = th.get(tab) or []
+        for i, h in enumerate(cab):
+            if i == 0 or i >= len(celdas):
+                continue
+            x.setdefault(limpio(h), celdas[i])
+    return x
+
+
 def main(dia, ent):
     D = json.load(open(ent, encoding='utf8'))
     spec, pj = D['spec'], D['pj']
@@ -48,7 +70,7 @@ def main(dia, ent):
             for pid, o in P['rows'].items():
                 if o['eq'] != eq:
                     continue
-                x = o['v']
+                x = valores(o, P.get('th') or {})
                 mn = int(num(x.get('Minutes played')))
                 if not mn:
                     continue
