@@ -392,7 +392,8 @@ def bb_y_misiones():
                 continue
             part = M.get(slug, slug).replace(' - ', '–')
             for c in v['combos']:
-                pr = c.get('precio_bb') or (sum(c['precio_estimado']) / 2 if c.get('precio_estimado') else '')
+                pe = c.get('precio_estimado')
+                pr = c.get('precio_bb') or ((sum(pe) / 2 if isinstance(pe, (list, tuple)) else pe) if pe else '')
                 pr_txt = 'precio BB real leído en el cupón' if c.get('precio_bb') else 'precio BB ESTIMADO (no se leyó en el cupón)'
                 pr_ = c.get('patas_real') or []
                 legs = []
