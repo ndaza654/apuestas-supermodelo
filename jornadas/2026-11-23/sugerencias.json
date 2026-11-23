@@ -8,7 +8,7 @@
    "nombre": "Tarjetas Menos 5.5",
    "partidos": "AC Monza - AC Fiorentina",
    "cuota": 1.24,
-   "p": 0.8344,
+   "p": 0.8324,
    "p_modelo": 0.8347,
    "patas": [
     {
@@ -31,7 +31,7 @@
    "nombre": "Córners Más 8.0",
    "partidos": "Santos SP - Gremio RS",
    "cuota": 1.24,
-   "p": 0.8241,
+   "p": 0.8221,
    "p_modelo": 0.8243,
    "patas": [
     {
@@ -54,7 +54,7 @@
    "nombre": "Resultado: Al-Ahli SFC o empate",
    "partidos": "Al Shamal - Al-Ahli SFC",
    "cuota": 1.2,
-   "p": 0.8203,
+   "p": 0.8183,
    "p_modelo": 0.8205,
    "patas": [
     {
@@ -77,7 +77,7 @@
    "nombre": "Goles visitante Menos 2.5",
    "partidos": "St. Louis City SC - Los Angeles FC",
    "cuota": 1.2,
-   "p": 0.8159,
+   "p": 0.8139,
    "p_modelo": 0.8161,
    "patas": [
     {
@@ -97,22 +97,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles local Menos 2.5",
-   "partidos": "Brentford FC - Everton FC",
+   "nombre": "Goles Más 1.5",
+   "partidos": "Santos SP - Gremio RS",
    "cuota": 1.2,
-   "p": 0.8127,
-   "p_modelo": 0.8129,
+   "p": 0.8131,
+   "p_modelo": 0.8181,
    "patas": [
     {
-     "partido": "Brentford FC - Everton FC",
-     "texto": "Goles local Menos 2.5",
+     "partido": "Santos SP - Gremio RS",
+     "texto": "Goles Más 1.5",
      "cuota": 1.2,
      "clave": [
-      "Brentford FC - Everton FC",
+      "Santos SP - Gremio RS",
       "goles",
-      "local",
-      "2.5",
-      "Menos"
+      "total",
+      "1.5",
+      "Más"
      ]
     }
    ]
@@ -123,7 +123,7 @@
    "nombre": "Goles Menos 4.5",
    "partidos": "St. Louis City SC - Los Angeles FC",
    "cuota": 1.21,
-   "p": 0.811,
+   "p": 0.809,
    "p_modelo": 0.8112,
    "patas": [
     {
@@ -146,7 +146,7 @@
    "nombre": "Tiros al arco local Más 2.5",
    "partidos": "AC Monza - AC Fiorentina",
    "cuota": 1.2,
-   "p": 0.8077,
+   "p": 0.8057,
    "p_modelo": 0.8079,
    "patas": [
     {
@@ -166,33 +166,10 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles Más 1.5",
-   "partidos": "Santos SP - Gremio RS",
-   "cuota": 1.2,
-   "p": 0.807,
-   "p_modelo": 0.8181,
-   "patas": [
-    {
-     "partido": "Santos SP - Gremio RS",
-     "texto": "Goles Más 1.5",
-     "cuota": 1.2,
-     "clave": [
-      "Santos SP - Gremio RS",
-      "goles",
-      "total",
-      "1.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Goles local Menos 2.5",
    "partidos": "St. Louis City SC - Los Angeles FC",
    "cuota": 1.21,
-   "p": 0.8047,
+   "p": 0.8027,
    "p_modelo": 0.8049,
    "patas": [
     {
@@ -215,7 +192,7 @@
    "nombre": "Córners visitante Más 2.5",
    "partidos": "Santos SP - Gremio RS",
    "cuota": 1.27,
-   "p": 0.8044,
+   "p": 0.8024,
    "p_modelo": 0.8046,
    "patas": [
     {
@@ -238,7 +215,7 @@
    "nombre": "Tarjetas visitante Menos 4.5",
    "partidos": "Santos SP - Gremio RS",
    "cuota": 1.22,
-   "p": 0.8031,
+   "p": 0.8011,
    "p_modelo": 0.8033,
    "patas": [
     {
@@ -261,7 +238,7 @@
    "nombre": "Tarjetas Menos 8.5",
    "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
    "cuota": 1.21,
-   "p": 0.8021,
+   "p": 0.8001,
    "p_modelo": 0.8023,
    "patas": [
     {
@@ -284,7 +261,7 @@
    "nombre": "Córners local Más 2.5",
    "partidos": "AC Monza - AC Fiorentina",
    "cuota": 1.2,
-   "p": 0.8008,
+   "p": 0.7988,
    "p_modelo": 0.801,
    "patas": [
     {
@@ -304,33 +281,10 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners visitante Menos 6.5",
-   "partidos": "Brentford FC - Everton FC",
-   "cuota": 1.2,
-   "p": 0.8,
-   "p_modelo": 0.8002,
-   "patas": [
-    {
-     "partido": "Brentford FC - Everton FC",
-     "texto": "Córners visitante Menos 6.5",
-     "cuota": 1.2,
-     "clave": [
-      "Brentford FC - Everton FC",
-      "corners",
-      "visitante",
-      "6.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Goles Menos 4.5",
    "partidos": "Santos SP - Gremio RS",
    "cuota": 1.23,
-   "p": 0.7939,
+   "p": 0.792,
    "p_modelo": 0.7941,
    "patas": [
     {
@@ -350,10 +304,33 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Goles local Más 0.5",
+   "partidos": "St. Louis City SC - Los Angeles FC",
+   "cuota": 1.22,
+   "p": 0.7909,
+   "p_modelo": 0.7958,
+   "patas": [
+    {
+     "partido": "St. Louis City SC - Los Angeles FC",
+     "texto": "Goles local Más 0.5",
+     "cuota": 1.22,
+     "clave": [
+      "St. Louis City SC - Los Angeles FC",
+      "goles",
+      "local",
+      "0.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Goles Menos 3.5",
    "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
    "cuota": 1.24,
-   "p": 0.7912,
+   "p": 0.7893,
    "p_modelo": 0.7914,
    "patas": [
     {
@@ -373,10 +350,56 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Córners visitante Menos 6.5",
+   "partidos": "Brentford FC - Everton FC",
+   "cuota": 1.2,
+   "p": 0.7873,
+   "p_modelo": 0.7947,
+   "patas": [
+    {
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Córners visitante Menos 6.5",
+     "cuota": 1.2,
+     "clave": [
+      "Brentford FC - Everton FC",
+      "corners",
+      "visitante",
+      "6.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Fueras de juego visitante Más 0.5",
+   "partidos": "Brentford FC - Everton FC",
+   "cuota": 1.21,
+   "p": 0.7873,
+   "p_modelo": 0.7926,
+   "patas": [
+    {
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Fueras de juego visitante Más 0.5",
+     "cuota": 1.21,
+     "clave": [
+      "Brentford FC - Everton FC",
+      "fueras",
+      "visitante",
+      "0.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Goles Menos 4.5",
    "partidos": "Al Shamal - Al-Ahli SFC",
    "cuota": 1.23,
-   "p": 0.7891,
+   "p": 0.7872,
    "p_modelo": 0.7893,
    "patas": [
     {
@@ -399,7 +422,7 @@
    "nombre": "Córners visitante Más 2.5",
    "partidos": "Internacional RS - Vitoria BA",
    "cuota": 1.27,
-   "p": 0.7889,
+   "p": 0.787,
    "p_modelo": 0.7891,
    "patas": [
     {
@@ -419,125 +442,10 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco Menos 12.5",
-   "partidos": "St. Louis City SC - Los Angeles FC",
-   "cuota": 1.2,
-   "p": 0.7878,
-   "p_modelo": 0.8073,
-   "patas": [
-    {
-     "partido": "St. Louis City SC - Los Angeles FC",
-     "texto": "Tiros al arco Menos 12.5",
-     "cuota": 1.2,
-     "clave": [
-      "St. Louis City SC - Los Angeles FC",
-      "al_arco",
-      "total",
-      "12.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Fueras de juego visitante Más 0.5",
-   "partidos": "Brentford FC - Everton FC",
-   "cuota": 1.21,
-   "p": 0.7862,
-   "p_modelo": 0.7864,
-   "patas": [
-    {
-     "partido": "Brentford FC - Everton FC",
-     "texto": "Fueras de juego visitante Más 0.5",
-     "cuota": 1.21,
-     "clave": [
-      "Brentford FC - Everton FC",
-      "fueras",
-      "visitante",
-      "0.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tiros al arco Menos 12.5",
-   "partidos": "Santos SP - Gremio RS",
-   "cuota": 1.2,
-   "p": 0.7858,
-   "p_modelo": 0.8053,
-   "patas": [
-    {
-     "partido": "Santos SP - Gremio RS",
-     "texto": "Tiros al arco Menos 12.5",
-     "cuota": 1.2,
-     "clave": [
-      "Santos SP - Gremio RS",
-      "al_arco",
-      "total",
-      "12.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles local Más 0.5",
-   "partidos": "St. Louis City SC - Los Angeles FC",
-   "cuota": 1.22,
-   "p": 0.785,
-   "p_modelo": 0.7958,
-   "patas": [
-    {
-     "partido": "St. Louis City SC - Los Angeles FC",
-     "texto": "Goles local Más 0.5",
-     "cuota": 1.22,
-     "clave": [
-      "St. Louis City SC - Los Angeles FC",
-      "goles",
-      "local",
-      "0.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tiros al arco Menos 11.5",
-   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-   "cuota": 1.2,
-   "p": 0.7846,
-   "p_modelo": 0.8041,
-   "patas": [
-    {
-     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-     "texto": "Tiros al arco Menos 11.5",
-     "cuota": 1.2,
-     "clave": [
-      "Gimnasia y Esgrima La Plata - Newells Old Boys",
-      "al_arco",
-      "total",
-      "11.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Tarjetas local Más 1.5",
    "partidos": "Internacional RS - Vitoria BA",
    "cuota": 1.24,
-   "p": 0.7839,
+   "p": 0.782,
    "p_modelo": 0.7841,
    "patas": [
     {
@@ -560,7 +468,7 @@
    "nombre": "Córners visitante Más 2.5",
    "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
    "cuota": 1.22,
-   "p": 0.7806,
+   "p": 0.7787,
    "p_modelo": 0.7808,
    "patas": [
     {
@@ -580,10 +488,33 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Remates visitante Más 12.5",
+   "partidos": "AC Monza - AC Fiorentina",
+   "cuota": 1.23,
+   "p": 0.7779,
+   "p_modelo": 0.78,
+   "patas": [
+    {
+     "partido": "AC Monza - AC Fiorentina",
+     "texto": "Remates visitante Más 12.5",
+     "cuota": 1.23,
+     "clave": [
+      "AC Monza - AC Fiorentina",
+      "remates",
+      "visitante",
+      "12.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Tarjetas Menos 7.5",
    "partidos": "Santos SP - Gremio RS",
    "cuota": 1.25,
-   "p": 0.7773,
+   "p": 0.7754,
    "p_modelo": 0.7775,
    "patas": [
     {
@@ -606,7 +537,7 @@
    "nombre": "Resultado: gana alguno (sin empate)",
    "partidos": "Al Shamal - Al-Ahli SFC",
    "cuota": 1.22,
-   "p": 0.7763,
+   "p": 0.7744,
    "p_modelo": 0.7765,
    "patas": [
     {
@@ -629,7 +560,7 @@
    "nombre": "Goles Menos 4.5",
    "partidos": "AC Monza - AC Fiorentina",
    "cuota": 1.25,
-   "p": 0.7762,
+   "p": 0.7743,
    "p_modelo": 0.7764,
    "patas": [
     {
@@ -652,7 +583,7 @@
    "nombre": "Tarjetas Menos 7.5",
    "partidos": "Botafogo RJ - Sao Paulo SP",
    "cuota": 1.25,
-   "p": 0.7737,
+   "p": 0.7718,
    "p_modelo": 0.7739,
    "patas": [
     {
@@ -675,8 +606,8 @@
    "nombre": "Córners local Menos 7.5",
    "partidos": "Brentford FC - Everton FC",
    "cuota": 1.23,
-   "p": 0.7716,
-   "p_modelo": 0.7718,
+   "p": 0.7707,
+   "p_modelo": 0.7779,
    "patas": [
     {
      "partido": "Brentford FC - Everton FC",
@@ -695,102 +626,10 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Fueras de juego visitante Menos 2.5",
-   "partidos": "Brentford FC - Everton FC",
-   "cuota": 1.25,
-   "p": 0.7706,
-   "p_modelo": 0.7708,
-   "patas": [
-    {
-     "partido": "Brentford FC - Everton FC",
-     "texto": "Fueras de juego visitante Menos 2.5",
-     "cuota": 1.25,
-     "clave": [
-      "Brentford FC - Everton FC",
-      "fueras",
-      "visitante",
-      "2.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tarjetas Más 3.5",
-   "partidos": "Santos SP - Gremio RS",
-   "cuota": 1.25,
-   "p": 0.7706,
-   "p_modelo": 0.7708,
-   "patas": [
-    {
-     "partido": "Santos SP - Gremio RS",
-     "texto": "Tarjetas Más 3.5",
-     "cuota": 1.25,
-     "clave": [
-      "Santos SP - Gremio RS",
-      "tarjetas",
-      "total",
-      "3.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Remates visitante Más 12.5",
-   "partidos": "AC Monza - AC Fiorentina",
-   "cuota": 1.23,
-   "p": 0.7646,
-   "p_modelo": 0.78,
-   "patas": [
-    {
-     "partido": "AC Monza - AC Fiorentina",
-     "texto": "Remates visitante Más 12.5",
-     "cuota": 1.23,
-     "clave": [
-      "AC Monza - AC Fiorentina",
-      "remates",
-      "visitante",
-      "12.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners Más 8.0",
-   "partidos": "Internacional RS - Vitoria BA",
-   "cuota": 1.36,
-   "p": 0.7641,
-   "p_modelo": 0.7641,
-   "patas": [
-    {
-     "partido": "Internacional RS - Vitoria BA",
-     "texto": "Córners Más 8.0",
-     "cuota": 1.36,
-     "clave": [
-      "Internacional RS - Vitoria BA",
-      "corners",
-      "total",
-      "8.0",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Goles local Más 0.5",
    "partidos": "Botafogo RJ - Sao Paulo SP",
    "cuota": 1.26,
-   "p": 0.7635,
+   "p": 0.7693,
    "p_modelo": 0.774,
    "patas": [
     {
@@ -810,22 +649,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco visitante Menos 5.5",
-   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-   "cuota": 1.23,
-   "p": 0.7634,
-   "p_modelo": 0.7823,
+   "nombre": "Tarjetas Más 3.5",
+   "partidos": "Santos SP - Gremio RS",
+   "cuota": 1.25,
+   "p": 0.7687,
+   "p_modelo": 0.7708,
    "patas": [
     {
-     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-     "texto": "Tiros al arco visitante Menos 5.5",
-     "cuota": 1.23,
+     "partido": "Santos SP - Gremio RS",
+     "texto": "Tarjetas Más 3.5",
+     "cuota": 1.25,
      "clave": [
-      "Gimnasia y Esgrima La Plata - Newells Old Boys",
-      "al_arco",
-      "visitante",
-      "5.5",
-      "Menos"
+      "Santos SP - Gremio RS",
+      "tarjetas",
+      "total",
+      "3.5",
+      "Más"
      ]
     }
    ]
@@ -833,21 +672,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Remates Más 23.5",
+   "nombre": "Remates visitante Más 9.5",
    "partidos": "Brentford FC - Everton FC",
    "cuota": 1.23,
-   "p": 0.7631,
-   "p_modelo": 0.7785,
+   "p": 0.7645,
+   "p_modelo": 0.7666,
    "patas": [
     {
      "partido": "Brentford FC - Everton FC",
-     "texto": "Remates Más 23.5",
+     "texto": "Remates visitante Más 9.5",
      "cuota": 1.23,
      "clave": [
       "Brentford FC - Everton FC",
       "remates",
-      "total",
-      "23.5",
+      "visitante",
+      "9.5",
       "Más"
      ]
     }
@@ -856,22 +695,45 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners Más 7.0",
-   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-   "cuota": 1.37,
-   "p": 0.7618,
-   "p_modelo": 0.7618,
+   "nombre": "Resultado: Santos SP o empate",
+   "partidos": "Santos SP - Gremio RS",
+   "cuota": 1.21,
+   "p": 0.7633,
+   "p_modelo": 0.8096,
    "patas": [
     {
-     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-     "texto": "Córners Más 7.0",
-     "cuota": 1.37,
+     "partido": "Santos SP - Gremio RS",
+     "texto": "Resultado: Santos SP o empate",
+     "cuota": 1.21,
      "clave": [
-      "Gimnasia y Esgrima La Plata - Newells Old Boys",
-      "corners",
+      "Santos SP - Gremio RS",
+      "resultado",
       "total",
-      "7.0",
-      "Más"
+      "",
+      "1X"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Fueras de juego visitante Menos 2.5",
+   "partidos": "Brentford FC - Everton FC",
+   "cuota": 1.25,
+   "p": 0.7609,
+   "p_modelo": 0.763,
+   "patas": [
+    {
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Fueras de juego visitante Menos 2.5",
+     "cuota": 1.25,
+     "clave": [
+      "Brentford FC - Everton FC",
+      "fueras",
+      "visitante",
+      "2.5",
+      "Menos"
      ]
     }
    ]
@@ -882,7 +744,7 @@
    "nombre": "Goles local Menos 3.5",
    "partidos": "Al-Ittihad Club - Pakhtakor Tashkent",
    "cuota": 1.28,
-   "p": 0.7601,
+   "p": 0.7582,
    "p_modelo": 0.7603,
    "patas": [
     {
@@ -905,7 +767,7 @@
    "nombre": "Resultado: Al Wasl SC o empate",
    "partidos": "Tractor Sazi Tabriz FC - Al Wasl SC",
    "cuota": 1.28,
-   "p": 0.7593,
+   "p": 0.7574,
    "p_modelo": 0.7595,
    "patas": [
     {
@@ -925,22 +787,91 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Córners visitante Menos 6.5",
-   "partidos": "AC Monza - AC Fiorentina",
-   "cuota": 1.26,
-   "p": 0.7572,
-   "p_modelo": 0.7574,
+   "nombre": "Córners Más 8.0",
+   "partidos": "Internacional RS - Vitoria BA",
+   "cuota": 1.36,
+   "p": 0.756,
+   "p_modelo": 0.7641,
    "patas": [
     {
-     "partido": "AC Monza - AC Fiorentina",
-     "texto": "Córners visitante Menos 6.5",
+     "partido": "Internacional RS - Vitoria BA",
+     "texto": "Córners Más 8.0",
+     "cuota": 1.36,
+     "clave": [
+      "Internacional RS - Vitoria BA",
+      "corners",
+      "total",
+      "8.0",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Remates Más 26.5",
+   "partidos": "Santos SP - Gremio RS",
+   "cuota": 1.26,
+   "p": 0.754,
+   "p_modelo": 0.756,
+   "patas": [
+    {
+     "partido": "Santos SP - Gremio RS",
+     "texto": "Remates Más 26.5",
      "cuota": 1.26,
      "clave": [
-      "AC Monza - AC Fiorentina",
+      "Santos SP - Gremio RS",
+      "remates",
+      "total",
+      "26.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Fueras de juego Más 1.5",
+   "partidos": "Brentford FC - Everton FC",
+   "cuota": 1.27,
+   "p": 0.7537,
+   "p_modelo": 0.7588,
+   "patas": [
+    {
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Fueras de juego Más 1.5",
+     "cuota": 1.27,
+     "clave": [
+      "Brentford FC - Everton FC",
+      "fueras",
+      "total",
+      "1.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners Más 7.0",
+   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+   "cuota": 1.37,
+   "p": 0.7537,
+   "p_modelo": 0.7618,
+   "patas": [
+    {
+     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+     "texto": "Córners Más 7.0",
+     "cuota": 1.37,
+     "clave": [
+      "Gimnasia y Esgrima La Plata - Newells Old Boys",
       "corners",
-      "visitante",
-      "6.5",
-      "Menos"
+      "total",
+      "7.0",
+      "Más"
      ]
     }
    ]
@@ -951,7 +882,7 @@
    "nombre": "Tarjetas visitante Menos 4.5",
    "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
    "cuota": 1.29,
-   "p": 0.7555,
+   "p": 0.7537,
    "p_modelo": 0.7557,
    "patas": [
     {
@@ -971,22 +902,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco Más 7.5",
-   "partidos": "Santos SP - Gremio RS",
-   "cuota": 1.27,
-   "p": 0.7549,
-   "p_modelo": 0.7551,
+   "nombre": "Tiros al arco Menos 12.5",
+   "partidos": "St. Louis City SC - Los Angeles FC",
+   "cuota": 1.2,
+   "p": 0.7537,
+   "p_modelo": 0.8073,
    "patas": [
     {
-     "partido": "Santos SP - Gremio RS",
-     "texto": "Tiros al arco Más 7.5",
-     "cuota": 1.27,
+     "partido": "St. Louis City SC - Los Angeles FC",
+     "texto": "Tiros al arco Menos 12.5",
+     "cuota": 1.2,
      "clave": [
-      "Santos SP - Gremio RS",
+      "St. Louis City SC - Los Angeles FC",
       "al_arco",
       "total",
-      "7.5",
-      "Más"
+      "12.5",
+      "Menos"
      ]
     }
    ]
@@ -997,8 +928,8 @@
    "nombre": "Córners Menos 12.5",
    "partidos": "Brentford FC - Everton FC",
    "cuota": 1.26,
-   "p": 0.7548,
-   "p_modelo": 0.755,
+   "p": 0.7533,
+   "p_modelo": 0.7604,
    "patas": [
     {
      "partido": "Brentford FC - Everton FC",
@@ -1018,9 +949,32 @@
    "tipo": "sencilla",
    "etiqueta": "protección",
    "nombre": "Tiros al arco Más 7.5",
+   "partidos": "Santos SP - Gremio RS",
+   "cuota": 1.27,
+   "p": 0.7531,
+   "p_modelo": 0.7551,
+   "patas": [
+    {
+     "partido": "Santos SP - Gremio RS",
+     "texto": "Tiros al arco Más 7.5",
+     "cuota": 1.27,
+     "clave": [
+      "Santos SP - Gremio RS",
+      "al_arco",
+      "total",
+      "7.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tiros al arco Más 7.5",
    "partidos": "St. Louis City SC - Los Angeles FC",
    "cuota": 1.27,
-   "p": 0.754,
+   "p": 0.7522,
    "p_modelo": 0.7542,
    "patas": [
     {
@@ -1043,7 +997,7 @@
    "nombre": "Resultado: gana alguno (sin empate)",
    "partidos": "AC Monza - AC Fiorentina",
    "cuota": 1.26,
-   "p": 0.7539,
+   "p": 0.7521,
    "p_modelo": 0.7541,
    "patas": [
     {
@@ -1063,22 +1017,68 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Fueras de juego Más 1.5",
-   "partidos": "Brentford FC - Everton FC",
-   "cuota": 1.27,
+   "nombre": "Tiros al arco Menos 12.5",
+   "partidos": "Santos SP - Gremio RS",
+   "cuota": 1.2,
    "p": 0.7518,
-   "p_modelo": 0.752,
+   "p_modelo": 0.8053,
    "patas": [
     {
-     "partido": "Brentford FC - Everton FC",
-     "texto": "Fueras de juego Más 1.5",
-     "cuota": 1.27,
+     "partido": "Santos SP - Gremio RS",
+     "texto": "Tiros al arco Menos 12.5",
+     "cuota": 1.2,
      "clave": [
-      "Brentford FC - Everton FC",
-      "fueras",
+      "Santos SP - Gremio RS",
+      "al_arco",
       "total",
-      "1.5",
-      "Más"
+      "12.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tiros al arco Menos 11.5",
+   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+   "cuota": 1.2,
+   "p": 0.7507,
+   "p_modelo": 0.8041,
+   "patas": [
+    {
+     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+     "texto": "Tiros al arco Menos 11.5",
+     "cuota": 1.2,
+     "clave": [
+      "Gimnasia y Esgrima La Plata - Newells Old Boys",
+      "al_arco",
+      "total",
+      "11.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Córners visitante Menos 6.5",
+   "partidos": "AC Monza - AC Fiorentina",
+   "cuota": 1.26,
+   "p": 0.7504,
+   "p_modelo": 0.7574,
+   "patas": [
+    {
+     "partido": "AC Monza - AC Fiorentina",
+     "texto": "Córners visitante Menos 6.5",
+     "cuota": 1.26,
+     "clave": [
+      "AC Monza - AC Fiorentina",
+      "corners",
+      "visitante",
+      "6.5",
+      "Menos"
      ]
     }
    ]
@@ -1089,7 +1089,7 @@
    "nombre": "Resultado: gana alguno (sin empate)",
    "partidos": "Internacional RS - Vitoria BA",
    "cuota": 1.26,
-   "p": 0.7515,
+   "p": 0.7497,
    "p_modelo": 0.7517,
    "patas": [
     {
@@ -1109,33 +1109,10 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco local Menos 6.5",
-   "partidos": "St. Louis City SC - Los Angeles FC",
-   "cuota": 1.25,
-   "p": 0.7501,
-   "p_modelo": 0.7687,
-   "patas": [
-    {
-     "partido": "St. Louis City SC - Los Angeles FC",
-     "texto": "Tiros al arco local Menos 6.5",
-     "cuota": 1.25,
-     "clave": [
-      "St. Louis City SC - Los Angeles FC",
-      "al_arco",
-      "local",
-      "6.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Tiros al arco visitante Más 3.5",
    "partidos": "AC Monza - AC Fiorentina",
    "cuota": 1.29,
-   "p": 0.7491,
+   "p": 0.7473,
    "p_modelo": 0.7493,
    "patas": [
     {
@@ -1155,33 +1132,10 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Remates visitante Más 9.5",
-   "partidos": "Brentford FC - Everton FC",
-   "cuota": 1.23,
-   "p": 0.7491,
-   "p_modelo": 0.7642,
-   "patas": [
-    {
-     "partido": "Brentford FC - Everton FC",
-     "texto": "Remates visitante Más 9.5",
-     "cuota": 1.23,
-     "clave": [
-      "Brentford FC - Everton FC",
-      "remates",
-      "visitante",
-      "9.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Goles Menos 4.5",
    "partidos": "Al-Ittihad Club - Pakhtakor Tashkent",
    "cuota": 1.28,
-   "p": 0.7486,
+   "p": 0.7468,
    "p_modelo": 0.7488,
    "patas": [
     {
@@ -1201,11 +1155,34 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Remates visitante Más 8.5",
+   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+   "cuota": 1.26,
+   "p": 0.7468,
+   "p_modelo": 0.7488,
+   "patas": [
+    {
+     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+     "texto": "Remates visitante Más 8.5",
+     "cuota": 1.26,
+     "clave": [
+      "Gimnasia y Esgrima La Plata - Newells Old Boys",
+      "remates",
+      "visitante",
+      "8.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Tiros al arco visitante Más 2.5",
    "partidos": "Brentford FC - Everton FC",
    "cuota": 1.27,
-   "p": 0.7468,
-   "p_modelo": 0.747,
+   "p": 0.7457,
+   "p_modelo": 0.7477,
    "patas": [
     {
      "partido": "Brentford FC - Everton FC",
@@ -1224,10 +1201,33 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Córners Menos 11.5",
+   "partidos": "AC Monza - AC Fiorentina",
+   "cuota": 1.25,
+   "p": 0.745,
+   "p_modelo": 0.752,
+   "patas": [
+    {
+     "partido": "AC Monza - AC Fiorentina",
+     "texto": "Córners Menos 11.5",
+     "cuota": 1.25,
+     "clave": [
+      "AC Monza - AC Fiorentina",
+      "corners",
+      "total",
+      "11.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Goles visitante Menos 1.5",
    "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
    "cuota": 1.3,
-   "p": 0.7453,
+   "p": 0.7374,
    "p_modelo": 0.7453,
    "patas": [
     {
@@ -1250,7 +1250,7 @@
    "nombre": "Goles local Menos 2.5",
    "partidos": "Internacional RS - Vitoria BA",
    "cuota": 1.3,
-   "p": 0.745,
+   "p": 0.7371,
    "p_modelo": 0.745,
    "patas": [
     {
@@ -1270,79 +1270,10 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco local Menos 6.5",
-   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-   "cuota": 1.26,
-   "p": 0.7418,
-   "p_modelo": 0.7602,
-   "patas": [
-    {
-     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-     "texto": "Tiros al arco local Menos 6.5",
-     "cuota": 1.26,
-     "clave": [
-      "Gimnasia y Esgrima La Plata - Newells Old Boys",
-      "al_arco",
-      "local",
-      "6.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Remates Más 26.5",
-   "partidos": "Santos SP - Gremio RS",
-   "cuota": 1.26,
-   "p": 0.741,
-   "p_modelo": 0.756,
-   "patas": [
-    {
-     "partido": "Santos SP - Gremio RS",
-     "texto": "Remates Más 26.5",
-     "cuota": 1.26,
-     "clave": [
-      "Santos SP - Gremio RS",
-      "remates",
-      "total",
-      "26.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners Menos 11.0",
-   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-   "cuota": 1.4,
-   "p": 0.7401,
-   "p_modelo": 0.7401,
-   "patas": [
-    {
-     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-     "texto": "Córners Menos 11.0",
-     "cuota": 1.4,
-     "clave": [
-      "Gimnasia y Esgrima La Plata - Newells Old Boys",
-      "corners",
-      "total",
-      "11.0",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Córners visitante Más 3.5",
    "partidos": "St. Louis City SC - Los Angeles FC",
    "cuota": 1.23,
-   "p": 0.7384,
+   "p": 0.7366,
    "p_modelo": 0.7386,
    "patas": [
     {
@@ -1362,125 +1293,10 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tiros al arco Más 7.5",
-   "partidos": "AC Monza - AC Fiorentina",
-   "cuota": 1.32,
-   "p": 0.7383,
-   "p_modelo": 0.7383,
-   "patas": [
-    {
-     "partido": "AC Monza - AC Fiorentina",
-     "texto": "Tiros al arco Más 7.5",
-     "cuota": 1.32,
-     "clave": [
-      "AC Monza - AC Fiorentina",
-      "al_arco",
-      "total",
-      "7.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Remates visitante Más 8.5",
-   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-   "cuota": 1.26,
-   "p": 0.734,
-   "p_modelo": 0.7488,
-   "patas": [
-    {
-     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-     "texto": "Remates visitante Más 8.5",
-     "cuota": 1.26,
-     "clave": [
-      "Gimnasia y Esgrima La Plata - Newells Old Boys",
-      "remates",
-      "visitante",
-      "8.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Remates local Menos 17.5",
-   "partidos": "St. Louis City SC - Los Angeles FC",
-   "cuota": 1.21,
-   "p": 0.7336,
-   "p_modelo": 0.785,
-   "patas": [
-    {
-     "partido": "St. Louis City SC - Los Angeles FC",
-     "texto": "Remates local Menos 17.5",
-     "cuota": 1.21,
-     "clave": [
-      "St. Louis City SC - Los Angeles FC",
-      "remates",
-      "local",
-      "17.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tiros al arco Más 6.5",
-   "partidos": "Brentford FC - Everton FC",
-   "cuota": 1.3,
-   "p": 0.7327,
-   "p_modelo": 0.7327,
-   "patas": [
-    {
-     "partido": "Brentford FC - Everton FC",
-     "texto": "Tiros al arco Más 6.5",
-     "cuota": 1.3,
-     "clave": [
-      "Brentford FC - Everton FC",
-      "al_arco",
-      "total",
-      "6.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tiros al arco local Menos 6.5",
-   "partidos": "Botafogo RJ - Sao Paulo SP",
-   "cuota": 1.28,
-   "p": 0.7321,
-   "p_modelo": 0.7503,
-   "patas": [
-    {
-     "partido": "Botafogo RJ - Sao Paulo SP",
-     "texto": "Tiros al arco local Menos 6.5",
-     "cuota": 1.28,
-     "clave": [
-      "Botafogo RJ - Sao Paulo SP",
-      "al_arco",
-      "local",
-      "6.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Goles local Más 0.5",
    "partidos": "AC Monza - AC Fiorentina",
    "cuota": 1.31,
-   "p": 0.7318,
+   "p": 0.734,
    "p_modelo": 0.7419,
    "patas": [
     {
@@ -1500,44 +1316,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Fueras de juego local Menos 2.5",
-   "partidos": "AC Monza - AC Fiorentina",
-   "cuota": 1.3,
-   "p": 0.731,
-   "p_modelo": 0.731,
+   "nombre": "Córners Menos 11.0",
+   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+   "cuota": 1.4,
+   "p": 0.7323,
+   "p_modelo": 0.7401,
    "patas": [
     {
-     "partido": "AC Monza - AC Fiorentina",
-     "texto": "Fueras de juego local Menos 2.5",
-     "cuota": 1.3,
+     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+     "texto": "Córners Menos 11.0",
+     "cuota": 1.4,
      "clave": [
-      "AC Monza - AC Fiorentina",
-      "fueras",
-      "local",
-      "2.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles Menos 3.5",
-   "partidos": "Botafogo RJ - Sao Paulo SP",
-   "cuota": 1.33,
-   "p": 0.7302,
-   "p_modelo": 0.7302,
-   "patas": [
-    {
-     "partido": "Botafogo RJ - Sao Paulo SP",
-     "texto": "Goles Menos 3.5",
-     "cuota": 1.33,
-     "clave": [
-      "Botafogo RJ - Sao Paulo SP",
-      "goles",
+      "Gimnasia y Esgrima La Plata - Newells Old Boys",
+      "corners",
       "total",
-      "3.5",
+      "11.0",
       "Menos"
      ]
     }
@@ -1549,7 +1342,7 @@
    "nombre": "Goles Más 1.5",
    "partidos": "Internacional RS - Vitoria BA",
    "cuota": 1.32,
-   "p": 0.7297,
+   "p": 0.732,
    "p_modelo": 0.7398,
    "patas": [
     {
@@ -1569,159 +1362,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Resultado: Santos SP o empate",
-   "partidos": "Santos SP - Gremio RS",
+   "nombre": "Remates local Menos 17.5",
+   "partidos": "St. Louis City SC - Los Angeles FC",
    "cuota": 1.21,
-   "p": 0.7292,
-   "p_modelo": 0.8096,
+   "p": 0.732,
+   "p_modelo": 0.785,
    "patas": [
     {
-     "partido": "Santos SP - Gremio RS",
-     "texto": "Resultado: Santos SP o empate",
+     "partido": "St. Louis City SC - Los Angeles FC",
+     "texto": "Remates local Menos 17.5",
      "cuota": 1.21,
      "clave": [
-      "Santos SP - Gremio RS",
-      "resultado",
-      "total",
-      "",
-      "1X"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Goles Menos 3.5",
-   "partidos": "Internacional RS - Vitoria BA",
-   "cuota": 1.34,
-   "p": 0.7279,
-   "p_modelo": 0.7279,
-   "patas": [
-    {
-     "partido": "Internacional RS - Vitoria BA",
-     "texto": "Goles Menos 3.5",
-     "cuota": 1.34,
-     "clave": [
-      "Internacional RS - Vitoria BA",
-      "goles",
-      "total",
-      "3.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tiros al arco Menos 11.5",
-   "partidos": "Botafogo RJ - Sao Paulo SP",
-   "cuota": 1.29,
-   "p": 0.7277,
-   "p_modelo": 0.7457,
-   "patas": [
-    {
-     "partido": "Botafogo RJ - Sao Paulo SP",
-     "texto": "Tiros al arco Menos 11.5",
-     "cuota": 1.29,
-     "clave": [
-      "Botafogo RJ - Sao Paulo SP",
-      "al_arco",
-      "total",
-      "11.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Resultado: gana alguno (sin empate)",
-   "partidos": "Tractor Sazi Tabriz FC - Al Wasl SC",
-   "cuota": 1.29,
-   "p": 0.7271,
-   "p_modelo": 0.7273,
-   "patas": [
-    {
-     "partido": "Tractor Sazi Tabriz FC - Al Wasl SC",
-     "texto": "Resultado: gana alguno (sin empate)",
-     "cuota": 1.29,
-     "clave": [
-      "Tractor Sazi Tabriz FC - Al Wasl SC",
-      "resultado",
-      "total",
-      "",
-      "12"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Resultado: gana alguno (sin empate)",
-   "partidos": "Al Quwa Al Jawiya - Al Gharafa",
-   "cuota": 1.29,
-   "p": 0.7243,
-   "p_modelo": 0.7245,
-   "patas": [
-    {
-     "partido": "Al Quwa Al Jawiya - Al Gharafa",
-     "texto": "Resultado: gana alguno (sin empate)",
-     "cuota": 1.29,
-     "clave": [
-      "Al Quwa Al Jawiya - Al Gharafa",
-      "resultado",
-      "total",
-      "",
-      "12"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Remates visitante Menos 13.5",
-   "partidos": "Internacional RS - Vitoria BA",
-   "cuota": 1.22,
-   "p": 0.7232,
-   "p_modelo": 0.7739,
-   "patas": [
-    {
-     "partido": "Internacional RS - Vitoria BA",
-     "texto": "Remates visitante Menos 13.5",
-     "cuota": 1.22,
-     "clave": [
-      "Internacional RS - Vitoria BA",
+      "St. Louis City SC - Los Angeles FC",
       "remates",
-      "visitante",
-      "13.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Tiros al arco local Menos 7.5",
-   "partidos": "Internacional RS - Vitoria BA",
-   "cuota": 1.3,
-   "p": 0.7227,
-   "p_modelo": 0.7406,
-   "patas": [
-    {
-     "partido": "Internacional RS - Vitoria BA",
-     "texto": "Tiros al arco local Menos 7.5",
-     "cuota": 1.3,
-     "clave": [
-      "Internacional RS - Vitoria BA",
-      "al_arco",
       "local",
-      "7.5",
+      "17.5",
       "Menos"
      ]
     }
@@ -1730,21 +1385,21 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Goles visitante Más 0.5",
-   "partidos": "Brentford FC - Everton FC",
+   "nombre": "Tiros al arco Más 7.5",
+   "partidos": "AC Monza - AC Fiorentina",
    "cuota": 1.32,
-   "p": 0.722,
-   "p_modelo": 0.732,
+   "p": 0.7305,
+   "p_modelo": 0.7383,
    "patas": [
     {
-     "partido": "Brentford FC - Everton FC",
-     "texto": "Goles visitante Más 0.5",
+     "partido": "AC Monza - AC Fiorentina",
+     "texto": "Tiros al arco Más 7.5",
      "cuota": 1.32,
      "clave": [
-      "Brentford FC - Everton FC",
-      "goles",
-      "visitante",
-      "0.5",
+      "AC Monza - AC Fiorentina",
+      "al_arco",
+      "total",
+      "7.5",
       "Más"
      ]
     }
@@ -1753,45 +1408,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Remates Menos 33.5",
-   "partidos": "Internacional RS - Vitoria BA",
+   "nombre": "Tiros al arco visitante Menos 5.5",
+   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
    "cuota": 1.23,
-   "p": 0.72,
-   "p_modelo": 0.7705,
+   "p": 0.7304,
+   "p_modelo": 0.7823,
    "patas": [
     {
-     "partido": "Internacional RS - Vitoria BA",
-     "texto": "Remates Menos 33.5",
+     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+     "texto": "Tiros al arco visitante Menos 5.5",
      "cuota": 1.23,
      "clave": [
-      "Internacional RS - Vitoria BA",
-      "remates",
-      "total",
-      "33.5",
+      "Gimnasia y Esgrima La Plata - Newells Old Boys",
+      "al_arco",
+      "visitante",
+      "5.5",
       "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Resultado: gana alguno (sin empate)",
-   "partidos": "Botafogo RJ - Sao Paulo SP",
-   "cuota": 1.3,
-   "p": 0.7177,
-   "p_modelo": 0.7177,
-   "patas": [
-    {
-     "partido": "Botafogo RJ - Sao Paulo SP",
-     "texto": "Resultado: gana alguno (sin empate)",
-     "cuota": 1.3,
-     "clave": [
-      "Botafogo RJ - Sao Paulo SP",
-      "resultado",
-      "total",
-      "",
-      "12"
      ]
     }
    ]
@@ -1802,7 +1434,7 @@
    "nombre": "Remates visitante Más 8.5",
    "partidos": "Internacional RS - Vitoria BA",
    "cuota": 1.29,
-   "p": 0.716,
+   "p": 0.7285,
    "p_modelo": 0.7305,
    "patas": [
     {
@@ -1825,7 +1457,7 @@
    "nombre": "Remates visitante Más 10.5",
    "partidos": "Botafogo RJ - Sao Paulo SP",
    "cuota": 1.29,
-   "p": 0.7159,
+   "p": 0.7284,
    "p_modelo": 0.7304,
    "patas": [
     {
@@ -1845,11 +1477,57 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Tiros al arco Más 6.5",
+   "partidos": "Brentford FC - Everton FC",
+   "cuota": 1.3,
+   "p": 0.7258,
+   "p_modelo": 0.7336,
+   "patas": [
+    {
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Tiros al arco Más 6.5",
+     "cuota": 1.3,
+     "clave": [
+      "Brentford FC - Everton FC",
+      "al_arco",
+      "total",
+      "6.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Resultado: gana alguno (sin empate)",
+   "partidos": "Tractor Sazi Tabriz FC - Al Wasl SC",
+   "cuota": 1.29,
+   "p": 0.7253,
+   "p_modelo": 0.7273,
+   "patas": [
+    {
+     "partido": "Tractor Sazi Tabriz FC - Al Wasl SC",
+     "texto": "Resultado: gana alguno (sin empate)",
+     "cuota": 1.29,
+     "clave": [
+      "Tractor Sazi Tabriz FC - Al Wasl SC",
+      "resultado",
+      "total",
+      "",
+      "12"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Remates local Menos 18.5",
    "partidos": "Brentford FC - Everton FC",
    "cuota": 1.23,
-   "p": 0.7158,
-   "p_modelo": 0.766,
+   "p": 0.7249,
+   "p_modelo": 0.7774,
    "patas": [
     {
      "partido": "Brentford FC - Everton FC",
@@ -1868,10 +1546,217 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Fueras de juego local Menos 2.5",
+   "partidos": "AC Monza - AC Fiorentina",
+   "cuota": 1.3,
+   "p": 0.7233,
+   "p_modelo": 0.731,
+   "patas": [
+    {
+     "partido": "AC Monza - AC Fiorentina",
+     "texto": "Fueras de juego local Menos 2.5",
+     "cuota": 1.3,
+     "clave": [
+      "AC Monza - AC Fiorentina",
+      "fueras",
+      "local",
+      "2.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Resultado: gana alguno (sin empate)",
+   "partidos": "Al Quwa Al Jawiya - Al Gharafa",
+   "cuota": 1.29,
+   "p": 0.7225,
+   "p_modelo": 0.7245,
+   "patas": [
+    {
+     "partido": "Al Quwa Al Jawiya - Al Gharafa",
+     "texto": "Resultado: gana alguno (sin empate)",
+     "cuota": 1.29,
+     "clave": [
+      "Al Quwa Al Jawiya - Al Gharafa",
+      "resultado",
+      "total",
+      "",
+      "12"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles Menos 3.5",
+   "partidos": "Botafogo RJ - Sao Paulo SP",
+   "cuota": 1.33,
+   "p": 0.7225,
+   "p_modelo": 0.7302,
+   "patas": [
+    {
+     "partido": "Botafogo RJ - Sao Paulo SP",
+     "texto": "Goles Menos 3.5",
+     "cuota": 1.33,
+     "clave": [
+      "Botafogo RJ - Sao Paulo SP",
+      "goles",
+      "total",
+      "3.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Remates visitante Menos 13.5",
+   "partidos": "Internacional RS - Vitoria BA",
+   "cuota": 1.22,
+   "p": 0.7217,
+   "p_modelo": 0.7739,
+   "patas": [
+    {
+     "partido": "Internacional RS - Vitoria BA",
+     "texto": "Remates visitante Menos 13.5",
+     "cuota": 1.22,
+     "clave": [
+      "Internacional RS - Vitoria BA",
+      "remates",
+      "visitante",
+      "13.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles Menos 3.5",
+   "partidos": "Internacional RS - Vitoria BA",
+   "cuota": 1.34,
+   "p": 0.7202,
+   "p_modelo": 0.7279,
+   "patas": [
+    {
+     "partido": "Internacional RS - Vitoria BA",
+     "texto": "Goles Menos 3.5",
+     "cuota": 1.34,
+     "clave": [
+      "Internacional RS - Vitoria BA",
+      "goles",
+      "total",
+      "3.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Saques de banda visitante Menos 20.5",
+   "partidos": "Brentford FC - Everton FC",
+   "cuota": 1.29,
+   "p": 0.72,
+   "p_modelo": 0.7219,
+   "patas": [
+    {
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Saques de banda visitante Menos 20.5",
+     "cuota": 1.29,
+     "clave": [
+      "Brentford FC - Everton FC",
+      "saques_banda",
+      "visitante",
+      "20.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Remates Menos 33.5",
+   "partidos": "Internacional RS - Vitoria BA",
+   "cuota": 1.23,
+   "p": 0.7185,
+   "p_modelo": 0.7705,
+   "patas": [
+    {
+     "partido": "Internacional RS - Vitoria BA",
+     "texto": "Remates Menos 33.5",
+     "cuota": 1.23,
+     "clave": [
+      "Internacional RS - Vitoria BA",
+      "remates",
+      "total",
+      "33.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tiros al arco local Menos 6.5",
+   "partidos": "St. Louis City SC - Los Angeles FC",
+   "cuota": 1.25,
+   "p": 0.7177,
+   "p_modelo": 0.7687,
+   "patas": [
+    {
+     "partido": "St. Louis City SC - Los Angeles FC",
+     "texto": "Tiros al arco local Menos 6.5",
+     "cuota": 1.25,
+     "clave": [
+      "St. Louis City SC - Los Angeles FC",
+      "al_arco",
+      "local",
+      "6.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tarjetas Más 2.5",
+   "partidos": "Brentford FC - Everton FC",
+   "cuota": 1.32,
+   "p": 0.7147,
+   "p_modelo": 0.7224,
+   "patas": [
+    {
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Tarjetas Más 2.5",
+     "cuota": 1.32,
+     "clave": [
+      "Brentford FC - Everton FC",
+      "tarjetas",
+      "total",
+      "2.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Remates local Menos 21.5",
    "partidos": "Santos SP - Gremio RS",
    "cuota": 1.24,
-   "p": 0.7156,
+   "p": 0.7141,
    "p_modelo": 0.7658,
    "patas": [
     {
@@ -1894,7 +1779,7 @@
    "nombre": "Remates local Menos 16.5",
    "partidos": "AC Monza - AC Fiorentina",
    "cuota": 1.24,
-   "p": 0.7141,
+   "p": 0.7125,
    "p_modelo": 0.7641,
    "patas": [
     {
@@ -1914,22 +1799,22 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tarjetas local Más 1.5",
-   "partidos": "Santos SP - Gremio RS",
-   "cuota": 1.35,
-   "p": 0.712,
-   "p_modelo": 0.712,
+   "nombre": "Resultado: gana alguno (sin empate)",
+   "partidos": "Botafogo RJ - Sao Paulo SP",
+   "cuota": 1.3,
+   "p": 0.7101,
+   "p_modelo": 0.7177,
    "patas": [
     {
-     "partido": "Santos SP - Gremio RS",
-     "texto": "Tarjetas local Más 1.5",
-     "cuota": 1.35,
+     "partido": "Botafogo RJ - Sao Paulo SP",
+     "texto": "Resultado: gana alguno (sin empate)",
+     "cuota": 1.3,
      "clave": [
-      "Santos SP - Gremio RS",
-      "tarjetas",
-      "local",
-      "1.5",
-      "Más"
+      "Botafogo RJ - Sao Paulo SP",
+      "resultado",
+      "total",
+      "",
+      "12"
      ]
     }
    ]
@@ -1937,22 +1822,45 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tarjetas local Menos 3.5",
-   "partidos": "Botafogo RJ - Sao Paulo SP",
-   "cuota": 1.36,
-   "p": 0.7109,
-   "p_modelo": 0.7109,
+   "nombre": "Tiros al arco local Menos 6.5",
+   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+   "cuota": 1.26,
+   "p": 0.7097,
+   "p_modelo": 0.7602,
    "patas": [
     {
-     "partido": "Botafogo RJ - Sao Paulo SP",
-     "texto": "Tarjetas local Menos 3.5",
-     "cuota": 1.36,
+     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+     "texto": "Tiros al arco local Menos 6.5",
+     "cuota": 1.26,
      "clave": [
-      "Botafogo RJ - Sao Paulo SP",
-      "tarjetas",
+      "Gimnasia y Esgrima La Plata - Newells Old Boys",
+      "al_arco",
       "local",
-      "3.5",
+      "6.5",
       "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Goles visitante Más 0.5",
+   "partidos": "Brentford FC - Everton FC",
+   "cuota": 1.32,
+   "p": 0.7084,
+   "p_modelo": 0.716,
+   "patas": [
+    {
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Goles visitante Más 0.5",
+     "cuota": 1.32,
+     "clave": [
+      "Brentford FC - Everton FC",
+      "goles",
+      "visitante",
+      "0.5",
+      "Más"
      ]
     }
    ]
@@ -1963,7 +1871,7 @@
    "nombre": "Remates local Menos 18.5",
    "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
    "cuota": 1.24,
-   "p": 0.7099,
+   "p": 0.7084,
    "p_modelo": 0.7597,
    "patas": [
     {
@@ -1983,56 +1891,10 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
-   "nombre": "Tarjetas visitante Menos 4.5",
-   "partidos": "Internacional RS - Vitoria BA",
-   "cuota": 1.37,
-   "p": 0.7089,
-   "p_modelo": 0.7089,
-   "patas": [
-    {
-     "partido": "Internacional RS - Vitoria BA",
-     "texto": "Tarjetas visitante Menos 4.5",
-     "cuota": 1.37,
-     "clave": [
-      "Internacional RS - Vitoria BA",
-      "tarjetas",
-      "visitante",
-      "4.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
-   "nombre": "Córners Menos 11.0",
-   "partidos": "AC Monza - AC Fiorentina",
-   "cuota": 1.44,
-   "p": 0.7074,
-   "p_modelo": 0.7074,
-   "patas": [
-    {
-     "partido": "AC Monza - AC Fiorentina",
-     "texto": "Córners Menos 11.0",
-     "cuota": 1.44,
-     "clave": [
-      "AC Monza - AC Fiorentina",
-      "corners",
-      "total",
-      "11.0",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "protección",
    "nombre": "Remates Menos 32.5",
    "partidos": "St. Louis City SC - Los Angeles FC",
    "cuota": 1.26,
-   "p": 0.7062,
+   "p": 0.7047,
    "p_modelo": 0.7557,
    "patas": [
     {
@@ -2052,10 +1914,125 @@
   {
    "tipo": "sencilla",
    "etiqueta": "protección",
+   "nombre": "Tarjetas local Más 1.5",
+   "partidos": "Santos SP - Gremio RS",
+   "cuota": 1.35,
+   "p": 0.7045,
+   "p_modelo": 0.712,
+   "patas": [
+    {
+     "partido": "Santos SP - Gremio RS",
+     "texto": "Tarjetas local Más 1.5",
+     "cuota": 1.35,
+     "clave": [
+      "Santos SP - Gremio RS",
+      "tarjetas",
+      "local",
+      "1.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Resultado: Gimnasia y Esgrima La Plata o empate",
+   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+   "cuota": 1.31,
+   "p": 0.7042,
+   "p_modelo": 0.7469,
+   "patas": [
+    {
+     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+     "texto": "Resultado: Gimnasia y Esgrima La Plata o empate",
+     "cuota": 1.31,
+     "clave": [
+      "Gimnasia y Esgrima La Plata - Newells Old Boys",
+      "resultado",
+      "total",
+      "",
+      "1X"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tarjetas local Menos 3.5",
+   "partidos": "Botafogo RJ - Sao Paulo SP",
+   "cuota": 1.36,
+   "p": 0.7034,
+   "p_modelo": 0.7109,
+   "patas": [
+    {
+     "partido": "Botafogo RJ - Sao Paulo SP",
+     "texto": "Tarjetas local Menos 3.5",
+     "cuota": 1.36,
+     "clave": [
+      "Botafogo RJ - Sao Paulo SP",
+      "tarjetas",
+      "local",
+      "3.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Remates Más 24.5",
+   "partidos": "Brentford FC - Everton FC",
+   "cuota": 1.33,
+   "p": 0.7016,
+   "p_modelo": 0.7091,
+   "patas": [
+    {
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Remates Más 24.5",
+     "cuota": 1.33,
+     "clave": [
+      "Brentford FC - Everton FC",
+      "remates",
+      "total",
+      "24.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tarjetas visitante Menos 4.5",
+   "partidos": "Internacional RS - Vitoria BA",
+   "cuota": 1.37,
+   "p": 0.7014,
+   "p_modelo": 0.7089,
+   "patas": [
+    {
+     "partido": "Internacional RS - Vitoria BA",
+     "texto": "Tarjetas visitante Menos 4.5",
+     "cuota": 1.37,
+     "clave": [
+      "Internacional RS - Vitoria BA",
+      "tarjetas",
+      "visitante",
+      "4.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
    "nombre": "Remates local Menos 21.5",
    "partidos": "Internacional RS - Vitoria BA",
    "cuota": 1.25,
-   "p": 0.702,
+   "p": 0.7005,
    "p_modelo": 0.7512,
    "patas": [
     {
@@ -2067,6 +2044,29 @@
       "remates",
       "local",
       "21.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "protección",
+   "nombre": "Tiros al arco local Menos 6.5",
+   "partidos": "Botafogo RJ - Sao Paulo SP",
+   "cuota": 1.28,
+   "p": 0.7005,
+   "p_modelo": 0.7503,
+   "patas": [
+    {
+     "partido": "Botafogo RJ - Sao Paulo SP",
+     "texto": "Tiros al arco local Menos 6.5",
+     "cuota": 1.28,
+     "clave": [
+      "Botafogo RJ - Sao Paulo SP",
+      "al_arco",
+      "local",
+      "6.5",
       "Menos"
      ]
     }
@@ -2144,33 +2144,10 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Ambos marcan: Sí",
-   "partidos": "AC Monza - AC Fiorentina",
-   "cuota": 1.5,
-   "p": 0.6111,
-   "p_modelo": 0.6446,
-   "patas": [
-    {
-     "partido": "AC Monza - AC Fiorentina",
-     "texto": "Ambos marcan: Sí",
-     "cuota": 1.5,
-     "clave": [
-      "AC Monza - AC Fiorentina",
-      "ambos",
-      "total",
-      "",
-      "Sí"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Goles Más 2.5",
    "partidos": "AC Monza - AC Fiorentina",
    "cuota": 1.57,
-   "p": 0.6103,
+   "p": 0.6149,
    "p_modelo": 0.6187,
    "patas": [
     {
@@ -2190,79 +2167,10 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Tiros al arco local Menos 5.5",
-   "partidos": "Botafogo RJ - Sao Paulo SP",
-   "cuota": 1.55,
-   "p": 0.5998,
-   "p_modelo": 0.6147,
-   "patas": [
-    {
-     "partido": "Botafogo RJ - Sao Paulo SP",
-     "texto": "Tiros al arco local Menos 5.5",
-     "cuota": 1.55,
-     "clave": [
-      "Botafogo RJ - Sao Paulo SP",
-      "al_arco",
-      "local",
-      "5.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Tiros al arco local Menos 6.5",
-   "partidos": "Internacional RS - Vitoria BA",
-   "cuota": 1.57,
-   "p": 0.5948,
-   "p_modelo": 0.6096,
-   "patas": [
-    {
-     "partido": "Internacional RS - Vitoria BA",
-     "texto": "Tiros al arco local Menos 6.5",
-     "cuota": 1.57,
-     "clave": [
-      "Internacional RS - Vitoria BA",
-      "al_arco",
-      "local",
-      "6.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Remates local Menos 15.5",
-   "partidos": "St. Louis City SC - Los Angeles FC",
-   "cuota": 1.5,
-   "p": 0.5894,
-   "p_modelo": 0.6307,
-   "patas": [
-    {
-     "partido": "St. Louis City SC - Los Angeles FC",
-     "texto": "Remates local Menos 15.5",
-     "cuota": 1.5,
-     "clave": [
-      "St. Louis City SC - Los Angeles FC",
-      "remates",
-      "local",
-      "15.5",
-      "Menos"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Goles visitante Más 0.5",
    "partidos": "Internacional RS - Vitoria BA",
    "cuota": 1.6,
-   "p": 0.5863,
+   "p": 0.5908,
    "p_modelo": 0.5944,
    "patas": [
     {
@@ -2282,16 +2190,85 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Saques de banda Menos 37.5",
+   "partidos": "Brentford FC - Everton FC",
+   "cuota": 1.57,
+   "p": 0.5899,
+   "p_modelo": 0.591,
+   "patas": [
+    {
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Saques de banda Menos 37.5",
+     "cuota": 1.57,
+     "clave": [
+      "Brentford FC - Everton FC",
+      "saques_banda",
+      "total",
+      "37.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Ambos marcan: Sí",
+   "partidos": "AC Monza - AC Fiorentina",
+   "cuota": 1.5,
+   "p": 0.5894,
+   "p_modelo": 0.6446,
+   "patas": [
+    {
+     "partido": "AC Monza - AC Fiorentina",
+     "texto": "Ambos marcan: Sí",
+     "cuota": 1.5,
+     "clave": [
+      "AC Monza - AC Fiorentina",
+      "ambos",
+      "total",
+      "",
+      "Sí"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Remates local Menos 15.5",
+   "partidos": "St. Louis City SC - Los Angeles FC",
+   "cuota": 1.5,
+   "p": 0.5881,
+   "p_modelo": 0.6307,
+   "patas": [
+    {
+     "partido": "St. Louis City SC - Los Angeles FC",
+     "texto": "Remates local Menos 15.5",
+     "cuota": 1.5,
+     "clave": [
+      "St. Louis City SC - Los Angeles FC",
+      "remates",
+      "local",
+      "15.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Resultado: Everton FC o empate",
    "partidos": "Brentford FC - Everton FC",
-   "cuota": 1.65,
-   "p": 0.5811,
-   "p_modelo": 0.5811,
+   "cuota": 1.62,
+   "p": 0.5819,
+   "p_modelo": 0.5819,
    "patas": [
     {
      "partido": "Brentford FC - Everton FC",
      "texto": "Resultado: Everton FC o empate",
-     "cuota": 1.65,
+     "cuota": 1.62,
      "clave": [
       "Brentford FC - Everton FC",
       "resultado",
@@ -2308,7 +2285,7 @@
    "nombre": "Goles visitante Más 0.5",
    "partidos": "Al-Ittihad Club - Pakhtakor Tashkent",
    "cuota": 1.65,
-   "p": 0.5737,
+   "p": 0.5781,
    "p_modelo": 0.5816,
    "patas": [
     {
@@ -2328,22 +2305,68 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Córners Menos 9.5",
-   "partidos": "Al Shamal - Al-Ahli SFC",
+   "nombre": "Saques de banda visitante Menos 18.5",
+   "partidos": "Brentford FC - Everton FC",
    "cuota": 1.62,
-   "p": 0.5733,
-   "p_modelo": 0.5733,
+   "p": 0.5774,
+   "p_modelo": 0.5785,
    "patas": [
     {
-     "partido": "Al Shamal - Al-Ahli SFC",
-     "texto": "Córners Menos 9.5",
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Saques de banda visitante Menos 18.5",
      "cuota": 1.62,
      "clave": [
-      "Al Shamal - Al-Ahli SFC",
-      "corners",
-      "total",
-      "9.5",
+      "Brentford FC - Everton FC",
+      "saques_banda",
+      "visitante",
+      "18.5",
       "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Tiros al arco local Menos 5.5",
+   "partidos": "Botafogo RJ - Sao Paulo SP",
+   "cuota": 1.55,
+   "p": 0.5739,
+   "p_modelo": 0.6147,
+   "patas": [
+    {
+     "partido": "Botafogo RJ - Sao Paulo SP",
+     "texto": "Tiros al arco local Menos 5.5",
+     "cuota": 1.55,
+     "clave": [
+      "Botafogo RJ - Sao Paulo SP",
+      "al_arco",
+      "local",
+      "5.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Remates visitante Más 11.5",
+   "partidos": "Brentford FC - Everton FC",
+   "cuota": 1.62,
+   "p": 0.5737,
+   "p_modelo": 0.5737,
+   "patas": [
+    {
+     "partido": "Brentford FC - Everton FC",
+     "texto": "Remates visitante Más 11.5",
+     "cuota": 1.62,
+     "clave": [
+      "Brentford FC - Everton FC",
+      "remates",
+      "visitante",
+      "11.5",
+      "Más"
      ]
     }
    ]
@@ -2374,10 +2397,56 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Tiros al arco local Menos 6.5",
+   "partidos": "Internacional RS - Vitoria BA",
+   "cuota": 1.57,
+   "p": 0.5691,
+   "p_modelo": 0.6096,
+   "patas": [
+    {
+     "partido": "Internacional RS - Vitoria BA",
+     "texto": "Tiros al arco local Menos 6.5",
+     "cuota": 1.57,
+     "clave": [
+      "Internacional RS - Vitoria BA",
+      "al_arco",
+      "local",
+      "6.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
+   "nombre": "Córners Menos 9.5",
+   "partidos": "Al Shamal - Al-Ahli SFC",
+   "cuota": 1.62,
+   "p": 0.568,
+   "p_modelo": 0.5733,
+   "patas": [
+    {
+     "partido": "Al Shamal - Al-Ahli SFC",
+     "texto": "Córners Menos 9.5",
+     "cuota": 1.62,
+     "clave": [
+      "Al Shamal - Al-Ahli SFC",
+      "corners",
+      "total",
+      "9.5",
+      "Menos"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "sencilla",
+   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Remates local Menos 16.5",
    "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
    "cuota": 1.55,
-   "p": 0.5677,
+   "p": 0.5665,
    "p_modelo": 0.6075,
    "patas": [
     {
@@ -2397,34 +2466,11 @@
   {
    "tipo": "sencilla",
    "etiqueta": "sencilla 1,50–1,99",
-   "nombre": "Remates visitante Más 11.5",
-   "partidos": "Brentford FC - Everton FC",
-   "cuota": 1.62,
-   "p": 0.5571,
-   "p_modelo": 0.5684,
-   "patas": [
-    {
-     "partido": "Brentford FC - Everton FC",
-     "texto": "Remates visitante Más 11.5",
-     "cuota": 1.62,
-     "clave": [
-      "Brentford FC - Everton FC",
-      "remates",
-      "visitante",
-      "11.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "sencilla",
-   "etiqueta": "sencilla 1,50–1,99",
    "nombre": "Faltas visitante Menos 10.5",
    "partidos": "Brentford FC - Everton FC",
    "cuota": 1.7,
-   "p": 0.5559,
-   "p_modelo": 0.5559,
+   "p": 0.5526,
+   "p_modelo": 0.5526,
    "patas": [
     {
      "partido": "Brentford FC - Everton FC",
@@ -2478,6 +2524,76 @@
   {
    "tipo": "combinada mismo partido",
    "etiqueta": "combinada de 2 patas",
+   "nombre": "Tiros al arco local Más 2.5 + Goles local Más 0.5",
+   "partidos": "AC Monza - AC Fiorentina",
+   "cuota": 1.57,
+   "p": 0.5272,
+   "p_modelo": 0.659,
+   "patas": [
+    {
+     "partido": "AC Monza - AC Fiorentina",
+     "texto": "Tiros al arco local Más 2.5",
+     "cuota": 1.2,
+     "clave": [
+      "AC Monza - AC Fiorentina",
+      "al_arco",
+      "local",
+      "2.5",
+      "Más"
+     ]
+    },
+    {
+     "partido": "AC Monza - AC Fiorentina",
+     "texto": "Goles local Más 0.5",
+     "cuota": 1.31,
+     "clave": [
+      "AC Monza - AC Fiorentina",
+      "goles",
+      "local",
+      "0.5",
+      "Más"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "combinada mismo partido",
+   "etiqueta": "combinada de 2 patas",
+   "nombre": "Goles visitante Menos 1.5 + Resultado: Gimnasia y Esgrima La Plata o empate",
+   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+   "cuota": 1.7,
+   "p": 0.5253,
+   "p_modelo": 0.6566,
+   "patas": [
+    {
+     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+     "texto": "Goles visitante Menos 1.5",
+     "cuota": 1.3,
+     "clave": [
+      "Gimnasia y Esgrima La Plata - Newells Old Boys",
+      "goles",
+      "visitante",
+      "1.5",
+      "Menos"
+     ]
+    },
+    {
+     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
+     "texto": "Resultado: Gimnasia y Esgrima La Plata o empate",
+     "cuota": 1.31,
+     "clave": [
+      "Gimnasia y Esgrima La Plata - Newells Old Boys",
+      "resultado",
+      "total",
+      "",
+      "1X"
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "combinada mismo partido",
+   "etiqueta": "combinada de 2 patas",
    "nombre": "Resultado: Al-Ahli SFC o empate + Goles Menos 4.5",
    "partidos": "Al Shamal - Al-Ahli SFC",
    "cuota": 1.48,
@@ -2513,103 +2629,33 @@
   {
    "tipo": "combinada mismo partido",
    "etiqueta": "combinada de 2 patas",
-   "nombre": "Goles Menos 3.5 + Córners Más 7.0",
-   "partidos": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-   "cuota": 1.7,
-   "p": 0.504,
-   "p_modelo": 0.63,
+   "nombre": "Tarjetas local Más 1.5 + Goles local Menos 2.5",
+   "partidos": "Internacional RS - Vitoria BA",
+   "cuota": 1.61,
+   "p": 0.4795,
+   "p_modelo": 0.5994,
    "patas": [
     {
-     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-     "texto": "Goles Menos 3.5",
+     "partido": "Internacional RS - Vitoria BA",
+     "texto": "Tarjetas local Más 1.5",
      "cuota": 1.24,
      "clave": [
-      "Gimnasia y Esgrima La Plata - Newells Old Boys",
-      "goles",
-      "total",
-      "3.5",
-      "Menos"
-     ]
-    },
-    {
-     "partido": "Gimnasia y Esgrima La Plata - Newells Old Boys",
-     "texto": "Córners Más 7.0",
-     "cuota": 1.37,
-     "clave": [
-      "Gimnasia y Esgrima La Plata - Newells Old Boys",
-      "corners",
-      "total",
-      "7.0",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "combinada mismo partido",
-   "etiqueta": "combinada de 2 patas",
-   "nombre": "Tiros al arco visitante Más 2.5 + Goles visitante Más 0.5",
-   "partidos": "Brentford FC - Everton FC",
-   "cuota": 1.68,
-   "p": 0.4935,
-   "p_modelo": 0.6169,
-   "patas": [
-    {
-     "partido": "Brentford FC - Everton FC",
-     "texto": "Tiros al arco visitante Más 2.5",
-     "cuota": 1.27,
-     "clave": [
-      "Brentford FC - Everton FC",
-      "al_arco",
-      "visitante",
-      "2.5",
-      "Más"
-     ]
-    },
-    {
-     "partido": "Brentford FC - Everton FC",
-     "texto": "Goles visitante Más 0.5",
-     "cuota": 1.32,
-     "clave": [
-      "Brentford FC - Everton FC",
-      "goles",
-      "visitante",
-      "0.5",
-      "Más"
-     ]
-    }
-   ]
-  },
-  {
-   "tipo": "combinada mismo partido",
-   "etiqueta": "combinada de 2 patas",
-   "nombre": "Tarjetas Menos 5.5 + Córners Menos 11.0",
-   "partidos": "AC Monza - AC Fiorentina",
-   "cuota": 1.79,
-   "p": 0.4711,
-   "p_modelo": 0.5889,
-   "patas": [
-    {
-     "partido": "AC Monza - AC Fiorentina",
-     "texto": "Tarjetas Menos 5.5",
-     "cuota": 1.24,
-     "clave": [
-      "AC Monza - AC Fiorentina",
+      "Internacional RS - Vitoria BA",
       "tarjetas",
-      "total",
-      "5.5",
-      "Menos"
+      "local",
+      "1.5",
+      "Más"
      ]
     },
     {
-     "partido": "AC Monza - AC Fiorentina",
-     "texto": "Córners Menos 11.0",
-     "cuota": 1.44,
+     "partido": "Internacional RS - Vitoria BA",
+     "texto": "Goles local Menos 2.5",
+     "cuota": 1.3,
      "clave": [
-      "AC Monza - AC Fiorentina",
-      "corners",
-      "total",
-      "11.0",
+      "Internacional RS - Vitoria BA",
+      "goles",
+      "local",
+      "2.5",
       "Menos"
      ]
     }
@@ -2621,7 +2667,7 @@
    "nombre": "Lotería de 3 protecciones",
    "partidos": "Santos SP - Gremio RS | Internacional RS - Vitoria BA | AC Monza - AC Fiorentina",
    "cuota": 2.02,
-   "p": 0.4926,
+   "p": 0.489,
    "p_modelo": 0.4929,
    "patas": [
     {

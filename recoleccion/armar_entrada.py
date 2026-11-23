@@ -303,7 +303,15 @@ def main(argv):
         if fs is not None and al is not None and not fs.get('lineups'):
             lu = lineups_de(al)
             if lu:
-                fs['lineups'], fs['lineups_leidas'] = lu, f"{LECTURA_ALINEACIONES} · XI oficial se publica ~1 h antes del inicio"
+                lectura = LECTURA_ALINEACIONES
+                if al.get('lectura_utc'):                      # hora real de la lectura (antes salía siempre la del 13-nov)
+                    from datetime import datetime, timedelta
+                    try:
+                        t = datetime.strptime(al['lectura_utc'], '%Y-%m-%dT%H:%MZ') - timedelta(hours=5)
+                        lectura = t.strftime('%d-%m ~%H:%M') + ' Bogotá'
+                    except ValueError:
+                        pass
+                fs['lineups'], fs['lineups_leidas'] = lu, f"{lectura} · XI oficial se publica ~1 h antes del inicio"
             else:
                 fs['avisos'] = list(fs.get('avisos', [])) + ['Flashscore no muestra pestaña de alineaciones para este partido: sin XI ni bajas con fuente']
         e = armar(b, fs, cargar('notas', k), cargar('jugadores', k))

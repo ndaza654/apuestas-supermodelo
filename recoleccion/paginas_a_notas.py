@@ -67,7 +67,7 @@ def parsear(txt, loc, vis):
     return o
 
 
-def nota(p, loc, vis, hora, arb=None, est=None):
+def nota(p, loc, vis, hora, arb=None, est=None, fecha_lectura='el día de la jornada'):
     n = {}
     partes = []
     if p.get('comp'):
@@ -99,7 +99,7 @@ def nota(p, loc, vis, hora, arb=None, est=None):
         n['arbitro'] = arb
     if est:
         n['estadio'] = est
-    n['fuentes'] = [f'Flashscore, página del partido (tabla, forma, directos) leída 19-nov ~{hora} Bogotá']
+    n['fuentes'] = [f'Flashscore, página del partido (tabla, forma, directos) leída {fecha_lectura} ~{hora} Bogotá']
     return n
 
 
@@ -112,7 +112,8 @@ if __name__ == '__main__':
         k = os.path.basename(f)[:-4]
         fs = json.load(open(f'{dia}/flashscore/{k}.json', encoding='utf8'))
         p = parsear(open(f, encoding='utf8').read(), fs['local'], fs['visitante'])
-        n = nota(p, fs['local'], fs['visitante'], hora, fs.get('arbitro'), fs.get('estadio'))
+        fecha = '%s-%s' % tuple(os.path.basename(dia.rstrip('/')).split('-')[2:0:-1])   # AAAA-MM-DD → DD-MM
+        n = nota(p, fs['local'], fs['visitante'], hora, fs.get('arbitro'), fs.get('estadio'), fecha + ' (día de la jornada; confirmar con la hora de lectura)')
         out = f'{dia}/notas/{k}.json'
         if os.path.exists(out) and not forzar:
             print('existe', k)

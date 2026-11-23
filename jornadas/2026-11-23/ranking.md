@@ -4,7 +4,7 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 
 | # | Partido | Situación | Estado | Córners (datos · cumplen) | Partido (datos · cumplen) | Jugadores (datos · cumplen) | Motivo |
 |---|---|---|---|---|---|---|---|
-| 1 | Brentford FC - Everton FC | sin leer | reserva | reserva (100 · 5) | reserva (100 · 19) | reserva (93 · 17) | situación sin leer |
+| 1 | Brentford FC - Everton FC | sin leer | reserva | reserva (100 · 5) | reserva (100 · 25) | reserva (93 · 17) | situación sin leer |
 | 2 | AC Monza - AC Fiorentina | sin leer | reserva | reserva (100 · 6) | reserva (90 · 14) | reserva (79 · 10) | situación sin leer |
 | 3 | Santos SP - Gremio RS | sin leer | reserva | reserva (100 · 4) | reserva (80 · 19) | reserva (75 · 1) | situación sin leer |
 | 4 | Internacional RS - Vitoria BA | sin leer | reserva | reserva (100 · 5) | reserva (80 · 16) | reserva (90 · 2) | situación sin leer |
@@ -18,7 +18,7 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 | 12 | Al Quwa Al Jawiya - Al Gharafa | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
 
 ## Brentford FC - Everton FC (Inglaterra Premier League)
-Datos 100 · Situación sin leer · por mercado: {'Córners': 5, 'Faltas': 1, 'Fueras de juego': 3, 'Saques de meta': 3, 'Remates': 7, 'Tiros al arco': 2, 'Goles': 2, 'Tarjetas': 1}
+Datos 100 · Situación sin leer · por mercado: {'Córners': 5, 'Faltas': 1, 'Fueras de juego': 3, 'Saques de banda': 7, 'Saques de meta': 3, 'Remates': 7, 'Tiros al arco': 2, 'Goles': 1, 'Tarjetas': 1}
 
 **Datos:** Córners: 39 líneas, muestra de 10 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 100% → 100 | Jugadores: 22 con línea, 85% con ≥7 partidos de historial, 100% titulares probables → 93 | Árbitro con promedio: +5; directos con estadística: 6 (+5)
 
