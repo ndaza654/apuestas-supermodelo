@@ -1,15 +1,15 @@
 {
- "leido": "2026-11-23 12:05 Bogotá",
- "leido_hora": "12:05",
+ "leido": "2026-11-23 13:58 Bogotá",
+ "leido_hora": "13:58",
  "condiciones": "BB BOOST: ≥3 mercados, cada cuota > 1,50, cuota total > 5,00 (cupón de Betano; margen: patas ≥ 1,51 y precio ≥ 5,05). El % (+25 % o +50 %) se lee en el cupón.",
- "aviso": "Precios REALES de Betano (mc-leg) 12:05 Bogotá; onces PROBABLES (se releen 13:55). EV con boost = p·(1+1,25·(precio−1))−1 (con +50 %: 1,5). p del modelo con dependencia medida; combos con jugador usan un factor propio sin validar. Las variantes son el mismo guion.",
+ "aviso": "Relectura 13:58 Bogotá con onces OFICIALES; precios REALES mc-leg. EV con boost = p·(1+1,25·(precio−1))−1; con +50 % usa 1,5. Las variantes son el mismo guion.",
  "brentford-fc-everton-fc": {
   "partido": "Brentford FC - Everton FC",
   "hora": "2026-11-23 15:00",
   "evento": 94991434,
-  "nota": "Prueba del análisis a fondo (entregas/2026-11-23). Núcleo = Everton remates Más 11,5 + Everton faltas Menos 10,5 + Brentford córners Menos 5,5 @5,10 real. Las demás son variantes del mismo guion, no apuestas independientes.",
-  "veredicto": "BB 1 cumple (3 patas, precio real 5,10, patas 1,62/1,70/1,87); lotería ~1 de cada 6; equilibrio con +25 % ≈16 %: EV ≈ 0; stake mínimo. Releer onces y precio a las 13:55.",
-  "leido_hora": "12:05",
+  "nota": "Relectura 13:58: onces oficiales publicados (Everton: Barry, Dewsbury-Hall, George, Garner, Rohl; Brentford: Wilson, Ouattara, Damsgaard, Anthony; Schade y Grealish no están). Precios sin cambios: núcleo 5,10; +Brentford remates Menos 16,5 6,80; +Barry 6,90; con Barry y remates 5,70. Las demás son variantes del mismo guion.",
+  "veredicto": "BB Boost: SÍ cumple. Núcleo 3 patas a 5,10 real (1,62/1,70/1,87), onces oficiales con Barry y Wilson titulares; ≈1 de cada 6; lotería, stake mínimo.",
+  "leido_hora": "13:58",
   "combos": [
    {
     "patas": [
@@ -30,7 +30,15 @@
     "p_equilibrio_boost": 0.163,
     "cumple": true,
     "tag": "BB 1 · núcleo 3 patas (principal)",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.12,
+    "producto_cupon": 5.15,
+    "cuotas_cupon": [
+     1.62,
+     1.7,
+     1.87
+    ],
+    "ev_sin_boost": -0.087
    },
    {
     "patas": [
@@ -53,7 +61,16 @@
     "p_equilibrio_boost": 0.121,
     "cumple": true,
     "tag": "BB 2 · núcleo + Brentford remates Menos 16,5",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 8.25,
+    "producto_cupon": 7.83,
+    "cuotas_cupon": [
+     1.62,
+     1.7,
+     1.87,
+     1.52
+    ],
+    "ev_sin_boost": -0.082
    },
    {
     "patas": [
@@ -68,15 +85,24 @@
      1.62,
      1.52
     ],
-    "precio_bb": 5.6,
+    "precio_bb": 5.7,
     "p_modelo": 0.13,
     "p_stress": 0.103,
     "p_prudente": 0.13,
-    "ev_con_boost": -0.122,
-    "p_equilibrio_boost": 0.148,
+    "ev_con_boost": -0.106,
+    "p_equilibrio_boost": 0.145,
     "cumple": true,
     "tag": "BB 3 · con Barry",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.88,
+    "producto_cupon": 6.78,
+    "cuotas_cupon": [
+     1.62,
+     1.7,
+     1.62,
+     1.52
+    ],
+    "ev_sin_boost": -0.259
    },
    {
     "patas": [
@@ -99,7 +125,16 @@
     "p_equilibrio_boost": 0.14,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 7.12,
+    "producto_cupon": 8.57,
+    "cuotas_cupon": [
+     1.62,
+     1.67,
+     1.78,
+     1.78
+    ],
+    "ev_sin_boost": 0.068
    },
    {
     "patas": [
@@ -122,7 +157,16 @@
     "p_equilibrio_boost": 0.163,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.12,
+    "producto_cupon": 7.01,
+    "cuotas_cupon": [
+     1.52,
+     1.62,
+     1.6,
+     1.78
+    ],
+    "ev_sin_boost": -0.082
    },
    {
     "patas": [
@@ -145,7 +189,16 @@
     "p_equilibrio_boost": 0.154,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.5,
+    "producto_cupon": 7.69,
+    "cuotas_cupon": [
+     1.52,
+     1.62,
+     1.67,
+     1.87
+    ],
+    "ev_sin_boost": -0.028
    },
    {
     "patas": [
@@ -168,7 +221,16 @@
     "p_equilibrio_boost": 0.157,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.38,
+    "producto_cupon": 6.46,
+    "cuotas_cupon": [
+     1.52,
+     1.57,
+     1.62,
+     1.67
+    ],
+    "ev_sin_boost": -0.099
    },
    {
     "patas": [
@@ -191,7 +253,16 @@
     "p_equilibrio_boost": 0.136,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 7.38,
+    "producto_cupon": 8.95,
+    "cuotas_cupon": [
+     1.52,
+     1.67,
+     1.78,
+     1.98
+    ],
+    "ev_sin_boost": 0.055
    },
    {
     "patas": [
@@ -212,7 +283,15 @@
     "p_equilibrio_boost": 0.163,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.12,
+    "producto_cupon": 5.06,
+    "cuotas_cupon": [
+     1.62,
+     1.67,
+     1.87
+    ],
+    "ev_sin_boost": -0.128
    },
    {
     "patas": [
@@ -233,7 +312,15 @@
     "p_equilibrio_boost": 0.157,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.38,
+    "producto_cupon": 5.05,
+    "cuotas_cupon": [
+     1.67,
+     1.7,
+     1.78
+    ],
+    "ev_sin_boost": -0.104
    },
    {
     "patas": [
@@ -254,7 +341,15 @@
     "p_equilibrio_boost": 0.163,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.12,
+    "producto_cupon": 5.12,
+    "cuotas_cupon": [
+     1.52,
+     1.7,
+     1.98
+    ],
+    "ev_sin_boost": -0.123
    },
    {
     "patas": [
@@ -277,7 +372,16 @@
     "p_equilibrio_boost": 0.157,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.38,
+    "producto_cupon": 6.37,
+    "cuotas_cupon": [
+     1.52,
+     1.55,
+     1.62,
+     1.67
+    ],
+    "ev_sin_boost": -0.11
    },
    {
     "patas": [
@@ -298,7 +402,15 @@
     "p_equilibrio_boost": 0.14,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 7.12,
+    "producto_cupon": 6.76,
+    "cuotas_cupon": [
+     1.52,
+     1.78,
+     2.5
+    ],
+    "ev_sin_boost": 0.038
    },
    {
     "patas": [
@@ -321,7 +433,16 @@
     "p_equilibrio_boost": 0.163,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.12,
+    "producto_cupon": 6.57,
+    "cuotas_cupon": [
+     1.52,
+     1.57,
+     1.62,
+     1.7
+    ],
+    "ev_sin_boost": -0.148
    },
    {
     "patas": [
@@ -344,7 +465,16 @@
     "p_equilibrio_boost": 0.154,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.5,
+    "producto_cupon": 6.58,
+    "cuotas_cupon": [
+     1.52,
+     1.6,
+     1.62,
+     1.67
+    ],
+    "ev_sin_boost": -0.104
    },
    {
     "patas": [
@@ -365,7 +495,15 @@
     "p_equilibrio_boost": 0.163,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.12,
+    "producto_cupon": 5.39,
+    "cuotas_cupon": [
+     1.62,
+     1.78,
+     1.87
+    ],
+    "ev_sin_boost": -0.148
    },
    {
     "patas": [
@@ -388,7 +526,16 @@
     "p_equilibrio_boost": 0.16,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.25,
+    "producto_cupon": 7.01,
+    "cuotas_cupon": [
+     1.62,
+     1.6,
+     1.62,
+     1.67
+    ],
+    "ev_sin_boost": -0.142
    },
    {
     "patas": [
@@ -409,7 +556,15 @@
     "p_equilibrio_boost": 0.151,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.62,
+    "producto_cupon": 5.71,
+    "cuotas_cupon": [
+     1.62,
+     1.78,
+     1.98
+    ],
+    "ev_sin_boost": -0.076
    },
    {
     "patas": [
@@ -432,7 +587,16 @@
     "p_equilibrio_boost": 0.157,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.38,
+    "producto_cupon": 7.36,
+    "cuotas_cupon": [
+     1.52,
+     1.55,
+     1.67,
+     1.87
+    ],
+    "ev_sin_boost": -0.12
    },
    {
     "patas": [
@@ -455,7 +619,16 @@
     "p_equilibrio_boost": 0.154,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.5,
+    "producto_cupon": 6.66,
+    "cuotas_cupon": [
+     1.52,
+     1.62,
+     1.62,
+     1.67
+    ],
+    "ev_sin_boost": -0.114
    },
    {
     "patas": [
@@ -478,7 +651,16 @@
     "p_equilibrio_boost": 0.148,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.75,
+    "producto_cupon": 7.96,
+    "cuotas_cupon": [
+     1.55,
+     1.62,
+     1.78,
+     1.78
+    ],
+    "ev_sin_boost": -0.076
    },
    {
     "patas": [
@@ -501,7 +683,16 @@
     "p_equilibrio_boost": 0.163,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.12,
+    "producto_cupon": 6.59,
+    "cuotas_cupon": [
+     1.57,
+     1.62,
+     1.6,
+     1.62
+    ],
+    "ev_sin_boost": -0.174
    },
    {
     "patas": [
@@ -524,7 +715,16 @@
     "p_equilibrio_boost": 0.154,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.5,
+    "producto_cupon": 7.33,
+    "cuotas_cupon": [
+     1.57,
+     1.62,
+     1.62,
+     1.78
+    ],
+    "ev_sin_boost": -0.12
    },
    {
     "patas": [
@@ -547,7 +747,16 @@
     "p_equilibrio_boost": 0.163,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.12,
+    "producto_cupon": 6.18,
+    "cuotas_cupon": [
+     1.52,
+     1.55,
+     1.57,
+     1.67
+    ],
+    "ev_sin_boost": -0.179
    },
    {
     "patas": [
@@ -570,7 +779,16 @@
     "p_equilibrio_boost": 0.145,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.88,
+    "producto_cupon": 8.21,
+    "cuotas_cupon": [
+     1.62,
+     1.6,
+     1.78,
+     1.78
+    ],
+    "ev_sin_boost": -0.077
    },
    {
     "patas": [
@@ -591,7 +809,15 @@
     "p_equilibrio_boost": 0.163,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.12,
+    "producto_cupon": 5.15,
+    "cuotas_cupon": [
+     1.62,
+     1.7,
+     1.87
+    ],
+    "ev_sin_boost": -0.179
    },
    {
     "patas": [
@@ -614,7 +840,16 @@
     "p_equilibrio_boost": 0.14,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 7.12,
+    "producto_cupon": 7.86,
+    "cuotas_cupon": [
+     1.55,
+     1.6,
+     1.78,
+     1.78
+    ],
+    "ev_sin_boost": -0.05
    },
    {
     "patas": [
@@ -635,7 +870,15 @@
     "p_equilibrio_boost": 0.136,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 7.38,
+    "producto_cupon": 7.11,
+    "cuotas_cupon": [
+     1.52,
+     1.87,
+     2.5
+    ],
+    "ev_sin_boost": 0.013
    },
    {
     "patas": [
@@ -656,7 +899,15 @@
     "p_equilibrio_boost": 0.16,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 6.25,
+    "producto_cupon": 7.1,
+    "cuotas_cupon": [
+     1.67,
+     1.7,
+     2.5
+    ],
+    "ev_sin_boost": -0.142
    },
    {
     "patas": [
@@ -677,7 +928,15 @@
     "p_equilibrio_boost": 0.133,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 7.5,
+    "producto_cupon": 6.29,
+    "cuotas_cupon": [
+     1.98,
+     1.7,
+     1.87
+    ],
+    "ev_sin_boost": -0.076
    },
    {
     "patas": [
@@ -700,7 +959,16 @@
     "p_equilibrio_boost": 0.118,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 8.5,
+    "producto_cupon": 8.6,
+    "cuotas_cupon": [
+     1.62,
+     1.7,
+     1.87,
+     1.67
+    ],
+    "ev_sin_boost": -0.083
    },
    {
     "patas": [
@@ -723,7 +991,16 @@
     "p_equilibrio_boost": 0.118,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 8.5,
+    "producto_cupon": 8.34,
+    "cuotas_cupon": [
+     1.62,
+     1.7,
+     1.62,
+     1.87
+    ],
+    "ev_sin_boost": -0.265
    },
    {
     "patas": [
@@ -746,7 +1023,16 @@
     "p_equilibrio_boost": 0.099,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 10.06,
+    "producto_cupon": 8.24,
+    "cuotas_cupon": [
+     1.62,
+     1.7,
+     1.6,
+     1.87
+    ],
+    "ev_sin_boost": -0.142
    },
    {
     "patas": [
@@ -769,8 +1055,23 @@
     "p_equilibrio_boost": 0.119,
     "cumple": true,
     "tag": "variante",
-    "leido": "12:05"
+    "leido": "13:58",
+    "pago_boost": 8.38,
+    "producto_cupon": 8.34,
+    "cuotas_cupon": [
+     1.62,
+     1.7,
+     1.87,
+     1.62
+    ],
+    "ev_sin_boost": -0.234
    }
   ]
- }
+ },
+ "condiciones_lista": [
+  "≥ 3 mercados del mismo partido",
+  "cada cuota > 1,50",
+  "cuota total > 5,00",
+  "bono +25 % (el % real se lee en el cupón)"
+ ]
 }

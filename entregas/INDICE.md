@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-23 | 14:00 | Relectura BB Brentford–Everton (onces oficiales, 5,10 real) + combis entre partidos | Brentford–Everton, Monza–Fiorentina, Gimnasia–Newell's | entregas/2026-11-23/1400_relectura_bb_y_combis.md |
 | 2026-11-23 | 12:15 | Análisis a fondo + BB Boost (núcleo 5,10 real; HTML interactivo) | Brentford FC – Everton FC | entregas/2026-11-23/1215_analisis_bb_brentford_everton.md (+ .html) |
 | 2026-11-23 | 11:35 | Diseño (propuesta): BB diarias a fondo, regularidad ajustada por rival y recolección más rápida | — | entregas/2026-11-23/1135_diseno_contexto_y_recoleccion.md |
 | 2026-11-23 | 11:16 | Balance del 22-nov + autocrítica (informe HTML y conclusiones) | 29 partidos / 6 boletos | entregas/2026-11-23/1116_balance_22nov.md |
