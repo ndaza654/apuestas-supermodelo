@@ -7,20 +7,22 @@ Apto = datos ≥ 60 **y** situación ≥ 45; reserva = datos suficientes y situa
 | 1 | RB Leipzig - RC Lens | 79 | apto | apto (100 · 10) | apto (100 · 34) | apto (93 · 15) |  |
 | 2 | Manchester City - SSC Napoli | 79 | apto | apto (100 · 9) | apto (100 · 31) | apto (89 · 7) |  |
 | 3 | Real Madrid - PSV Eindhoven | 72 | apto | apto (100 · 6) | apto (100 · 34) | apto (82 · 4) |  |
-| 4 | Arsenal FC - Borussia Dortmund | 69 | apto | apto (100 · 4) | apto (100 · 28) | apto (91 · 10) |  |
-| 5 | SK Slovan Bratislava - Real Betis Balompié | 64 | apto | apto (100 · 3) | apto (99 · 29) | apto (90 · 10) |  |
-| 6 | Como 1907 - AEK Atenas | 79 | apto | apto (100 · 5) | apto (100 · 33) | apto (76 · 4) |  |
+| 4 | SK Slovan Bratislava - Real Betis Balompié | 64 | apto | apto (100 · 3) | apto (99 · 29) | apto (90 · 10) |  |
+| 5 | Como 1907 - AEK Atenas | 79 | apto | apto (100 · 5) | apto (100 · 33) | apto (76 · 4) |  |
+| 6 | Arsenal FC - Borussia Dortmund | 69 | apto | apto (100 · 4) | apto (100 · 25) | apto (91 · 10) |  |
 | 7 | Galatasaray SK - Aston Villa | 59 | apto | apto (100 · 5) | apto (100 · 22) | apto (93 · 5) |  |
 | 8 | Feyenoord Rotterdam - FC Porto | 74 | apto | apto (100 · 6) | apto (99 · 24) | apto (95 · 2) |  |
 | 9 | FK Bodo/Glimt - Linzer ASK | 76 | apto | apto (96 · 4) | apto (96 · 15) | apto (96 · 12) |  |
-| 10 | Cong An Ha Noi - Vissel Kobe | 60 | apto | apto (92 · 0) | no lo ofrece | no lo ofrece | partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 11 | Al-Nassr FC - Al-Sadd SC | 70 | apto | apto (92 · 0) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
-| 12 | Kyoto Sanga FC - Pohang Steelers | 60 | apto | apto (92 · 0) | no lo ofrece | no lo ofrece | partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 13 | Daejeon Citizen - Beijing Guoan | 60 | apto | apto (92 · 0) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
-| 14 | Newcastle Jets - Kashiwa Reysol | 70 | apto | apto (92 · 1) | no lo ofrece | no lo ofrece | partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
-| 15 | Ratchaburi FC - Johor Darul Takzim | 60 | apto | apto (92 · 0) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
-| 16 | Shanghai Port - Buriram United | 60 | apto | apto (92 · 0) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
-| 17 | Shabab Al Ahli Dubai - Al-Qadsiah FC | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 10 | Millonarios FC - Atlético Bucaramanga | 75 | apto | apto (100 · 4) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 11 | América de Cali - Deportivo Cali | 80 | apto | apto (100 · 5) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 12 | Cong An Ha Noi - Vissel Kobe | 60 | apto | apto (92 · 0) | no lo ofrece | no lo ofrece | partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 13 | Al-Nassr FC - Al-Sadd SC | 70 | apto | apto (92 · 0) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 14 | Kyoto Sanga FC - Pohang Steelers | 60 | apto | apto (92 · 0) | no lo ofrece | no lo ofrece | partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 15 | Daejeon Citizen - Beijing Guoan | 60 | apto | apto (92 · 0) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 16 | Newcastle Jets - Kashiwa Reysol | 70 | apto | apto (92 · 1) | no lo ofrece | no lo ofrece | partido: Betano no lo ofrece; jugadores: Betano no lo ofrece |
+| 17 | Ratchaburi FC - Johor Darul Takzim | 60 | apto | apto (92 · 0) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 18 | Shanghai Port - Buriram United | 60 | apto | apto (92 · 0) | no lo ofrece | no apto (20 · 0) | partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
+| 19 | Shabab Al Ahli Dubai - Al-Qadsiah FC | sin leer | reserva | reserva (92 · 0) | no lo ofrece | no apto (20 · 0) | situación sin leer; partido: Betano no lo ofrece; jugadores: datos 20 < 60 |
 
 ## RB Leipzig - RC Lens (Champions League Champions League)
 Datos 98 · Situación 79 · por mercado: {'Córners': 10, 'Faltas': 1, 'Fueras de juego': 1, 'Saques de meta': 9, 'Remates': 11, 'Tiros al arco': 5, 'Goles': 1, 'Tarjetas': 6}
@@ -43,13 +45,6 @@ Datos 94 · Situación 72 · por mercado: {'Córners': 6, 'Saques de meta': 5, '
 
 **Situación:** +15 importancia alta; +10 favorito claro (81%, según cuotas); -3 1 duda(s) abierta(s) en la ficha
 
-## Arsenal FC - Borussia Dortmund (Champions League Champions League)
-Datos 100 · Situación 69 · por mercado: {'Córners': 4, 'Fueras de juego': 3, 'Saques de meta': 4, 'Remates': 8, 'Tiros al arco': 5, 'Goles': 4, 'Tarjetas': 4}
-
-**Datos:** Córners: 38 líneas, muestra de 10 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 100% → 100 | Jugadores: 20 con línea, 82% con ≥7 partidos de historial, 100% titulares probables → 91 | Árbitro con promedio: +5; directos con estadística: 1 (0)
-
-**Situación:** +15 importancia alta; +10 favorito claro (66%, según cuotas); -6 2 duda(s) abierta(s) en la ficha
-
 ## SK Slovan Bratislava - Real Betis Balompié (Champions League Champions League)
 Datos 100 · Situación 64 · por mercado: {'Córners': 3, 'Saques de banda': 1, 'Saques de meta': 4, 'Remates': 12, 'Tiros al arco': 9, 'Goles': 3}
 
@@ -63,6 +58,13 @@ Datos 97 · Situación 79 · por mercado: {'Córners': 5, 'Fueras de juego': 2, 
 **Datos:** Córners: 39 líneas, muestra de 10 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 100% → 100 | Jugadores: 19 con línea, 54% con ≥7 partidos de historial, 100% titulares probables → 76 | Árbitro con promedio: +5; directos con estadística: 0 (0)
 
 **Situación:** +15 importancia alta; +10 un equipo necesita ganar; +10 favorito claro (75%, según cuotas); -6 2 duda(s) abierta(s) en la ficha
+
+## Arsenal FC - Borussia Dortmund (Champions League Champions League)
+Datos 100 · Situación 69 · por mercado: {'Córners': 4, 'Fueras de juego': 3, 'Saques de meta': 4, 'Remates': 8, 'Tiros al arco': 5, 'Goles': 2, 'Tarjetas': 3}
+
+**Datos:** Córners: 38 líneas, muestra de 10 al 100% → 100 | Partido: 6/6 familias ofrecidas, muestra al 100% → 100 | Jugadores: 20 con línea, 82% con ≥7 partidos de historial, 100% titulares probables → 91 | Árbitro con promedio: +5; directos con estadística: 1 (0)
+
+**Situación:** +15 importancia alta; +10 favorito claro (65%, según cuotas); -6 2 duda(s) abierta(s) en la ficha
 
 ## Galatasaray SK - Aston Villa (Champions League Champions League)
 Datos 100 · Situación 59 · por mercado: {'Córners': 5, 'Fueras de juego': 2, 'Saques de meta': 6, 'Remates': 5, 'Tiros al arco': 5, 'Goles': 3, 'Tarjetas': 1}
@@ -84,6 +86,20 @@ Datos 96 · Situación 76 · por mercado: {'Córners': 4, 'Saques de meta': 1, '
 **Datos:** Córners: 39 líneas, muestra de 10 al 95% → 96 | Partido: 6/6 familias ofrecidas, muestra al 94% → 96 | Jugadores: 19 con línea, 94% con ≥7 partidos de historial, 100% titulares probables → 96 | Árbitro con promedio: 0 (sin dato); directos con estadística: 0 (0)
 
 **Situación:** +15 importancia alta; +10 un equipo necesita ganar; +10 favorito claro (63%, según cuotas); -9 3 duda(s) abierta(s) en la ficha
+
+## Millonarios FC - Atlético Bucaramanga (Colombia Categoría Primera A)
+Datos 65 · Situación 75 · por mercado: {'Córners': 4, 'Goles': 5, 'Tarjetas': 1}
+
+**Datos:** Córners: 12 líneas, muestra de 10 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 45 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 4 (+5)
+
+**Situación:** +15 importancia alta; +10 favorito claro (62%, según cuotas)
+
+## América de Cali - Deportivo Cali (Colombia Categoría Primera A)
+Datos 65 · Situación 80 · por mercado: {'Córners': 5, 'Tarjetas': 1}
+
+**Datos:** Córners: 12 líneas, muestra de 10 al 100% → 100 | Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco | Jugadores: 49 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20 | Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)
+
+**Situación:** +15 importancia alta; +10 derbi; +5 partido parejo (según cuotas)
 
 ## Cong An Ha Noi - Vissel Kobe (AFC Clubs AFC Champions League Elite)
 Datos 92 · Situación 60 · por mercado: {'Goles': 4}

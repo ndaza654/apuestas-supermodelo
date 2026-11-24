@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-24 | 11:10 | BB Boost: Arsenal–Dortmund vs Millonarios–Bucaramanga vs América–Cali (gana Millonarios) | 3 partidos | entregas/2026-11-24/1110_bb_boost_arsenal_vs_colombia.md |
 | 2026-11-24 | 08:45 | Líneas de jugador calificadas 12–23 nov (63 partidos) y cómo le fue al modelo | varios | `entregas/2026-11-24/0845_calificacion_jugadores_12-23nov.md` |
 | 2026-11-24 | 07:45 | Balance del 23-nov (+$1.200) y análisis del historial de boletos 4–23 nov: cómo se pierden, mercados con más acierto y foco | 12 partidos del 23-nov | entregas/2026-11-24/0745_balance_23nov_historial.md (+ 0745_balance_23nov.html y _conclusiones.html) |
 | 2026-11-23 | 22:40 | Análisis de los 17 partidos del 24-nov: mejores líneas por partido, combinadas, lotería | 9 Champions + 8 AFC Elite | entregas/2026-11-23/2235_analisis_24nov.md |
