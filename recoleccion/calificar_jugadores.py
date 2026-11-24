@@ -64,6 +64,13 @@ def casar(nombre, plantel):
     m = casar_flashscore(nombre, plantel)
     if m:
         return m
+    # variantes de escritura del apellido (Abdullazade/Abdullazada, Khaybulayev/Khaybulaev): apellido largo casi igual + la inicial coincide
+    for cand in plantel:
+        c = norm(cand)
+        ap = [t for t in c if len(t) > 5]
+        ini = [t for t in c if len(t) == 1]
+        if any(SequenceMatcher(None, a_, t).ratio() >= 0.88 for a_ in n for t in ap) and (not ini or any(t[0] == ini[0] for t in n if len(t) > 1)):
+            return cand
     mejor, ms = None, 0
     for cand in plantel:
         c = norm(cand)
@@ -122,6 +129,7 @@ def main(jornada, ruta):
             continue
         m = r['mercado'].split(':', 1)[1]
         plantel = P[r['partido']]
+        r['nota'] = (r['nota'] or '').replace(' · no jugó (sin minutos en la fuente): Betano la anula', '').replace('no jugó (sin minutos en la fuente): Betano la anula', '').strip(' ·')
         # conjunto de nombres para tarjeta (incluye quienes vieron tarjeta)
         nom = casar(r['jugador'], plantel)
         try:

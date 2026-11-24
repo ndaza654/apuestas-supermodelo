@@ -179,4 +179,9 @@ check(_AH.unidades_falta({'valor': 10, 'linea': 11.5, 'lado': 'Más'}) == 2 and 
 _RH = _AH.main()
 check(_RH['boletos'] >= 160 and _RH['perdidas_por_patas_caidas']['total'] == sum(v for k, v in _RH['perdidas_por_patas_caidas'].items() if k != 'total'), 'historial: las pérdidas por 1, 2 o 3+ patas suman el total')
 
+# 24-nov-2026: calificación de jugadores pendientes (variantes de apellido)
+import calificar_jugadores as _CJP
+_pl = {'Abdullazada R.': 1, 'Khaybulaev A.': 2, 'Muric A.': 3}
+check(_CJP.casar('Rufat Abdullazade', _pl) == 'Abdullazada R.' and _CJP.casar('Abdulakh Khaybulayev', _pl) == 'Khaybulaev A.' and _CJP.casar('Ayden Abdullazade', _pl) is None and _CJP.casar('Mario Mitaj', _pl) is None, 'jugadores: casa variantes de apellido (Abdullazade/Abdullazada) pero no a otro jugador con otra inicial')
+
 print(f'\n{ok} pruebas de recolección superadas')
