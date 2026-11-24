@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-24 | 14:40 | Combinadas D1/D2/D3 cuota 4,25–4,89 | Champions 15:00 + Millonarios | entregas/2026-11-24/1440_combinadas_cuota4_champions.md |
 | 2026-11-24 | 14:25 | BB Boost Arsenal–Dortmund (relectura con onces) | Arsenal–Dortmund | entregas/2026-11-24/1425_bb_boost_arsenal_dortmund.md |
 | 2026-11-24 | 12:35 | Combinadas A/B/C (cuota 2,06–3,97) | Glimt–LASK + Galatasaray–Villa | entregas/2026-11-24/1235_combinadas_glimt_lask_galatasaray_villa.md |
 | 2026-11-24 | 11:10 | BB Boost: Arsenal–Dortmund vs Millonarios–Bucaramanga vs América–Cali (gana Millonarios) | 3 partidos | entregas/2026-11-24/1110_bb_boost_arsenal_vs_colombia.md |
