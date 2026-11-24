@@ -1,6 +1,6 @@
 {
- "leido": "2026-11-24 11:10 Bogotá",
- "leido_hora": "11:10",
+ "leido": "2026-11-24 14:25 Bogotá",
+ "leido_hora": "14:25",
  "condiciones": "BB BOOST: ≥3 mercados, cada cuota > 1,50, cuota total > 5,00 (cupón de Betano; margen: patas ≥ 1,51 y precio ≥ 5,05). El % (+25 % o +50 %) se lee en el cupón.",
  "condiciones_lista": [
   "≥ 3 mercados del mismo partido",
@@ -83,10 +83,75 @@
   "partido": "Arsenal FC - Borussia Dortmund",
   "hora": "2026-11-24 15:00",
   "evento": 91588027,
-  "leido_hora": "11:05",
-  "veredicto": "BB Boost: sí cumple solo con patas flojas. Con patas sólidas (X de 10 ≥ 7 en ambos) el máximo real es 4,90: NO llega a 5,00. Los que sí pasan de 5 tienen 1–2 patas con «cumple» y EV sin boost negativo.",
-  "nota": "Champions; bajas Raya y Zubimendi (Arsenal), Guirassy (Dortmund) según Flashscore; onces oficiales sin leer.",
+  "leido_hora": "14:23",
+  "veredicto": "BB Boost: SÍ cumple. Con onces (Raya, Saka y Zubimendi fuera; Arrizabalaga) y precio real 14:23: elegida 4 de 4 patas con «cumple», precio 6,00. Riesgo: las 3 patas «Arsenal Menos» se caen juntas si Arsenal domina (favorito 1,47, 12 victorias seguidas de local en Champions).",
+  "nota": "Onces Flashscore 14:20: Arsenal 4-2-3-1 (Arrizabalaga; White, Gabriel, Hincapié, Lewis-Skelly; Rice, Odegaard; Madueke, Tzolis…, Gyökeres); Dortmund 3-4-2-1 (Kobel; Anton, Schlotterbeck, Ryerson…). Cuotas por pata en el cupón sin leer.",
   "combos": [
+   {
+    "patas": [
+     "Córners Arsenal FC Menos 6.5",
+     "Remates Arsenal FC Menos 17.5",
+     "Tiros al arco Arsenal FC Menos 6.5",
+     "Córners Borussia Dortmund Más 2.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.82,
+     1.91,
+     1.62
+    ],
+    "cuotas_cupon": [
+     1.62,
+     1.82,
+     1.91,
+     1.62
+    ],
+    "precio_bb": 6.0,
+    "producto_cupon": 9.12,
+    "p_modelo": 0.175,
+    "p_stress": 0.158,
+    "p_prudente": 0.158,
+    "ev_sin_boost": 0.05,
+    "ev_con_boost": 0.269,
+    "pago_boost": 7.25,
+    "p_equilibrio_boost": 0.138,
+    "cumple": true,
+    "tag": "ELEGIDA · 4 de 4 patas cumplen ≥7 de 10",
+    "leido": "14:23",
+    "patas_cumple_regularidad": 4
+   },
+   {
+    "patas": [
+     "Córners Arsenal FC Menos 6.5",
+     "Remates Arsenal FC Menos 17.5",
+     "Remates Borussia Dortmund Más 9.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.82,
+     1.95
+    ],
+    "cuotas_cupon": [
+     1.62,
+     1.82,
+     1.95
+    ],
+    "precio_bb": 5.1,
+    "producto_cupon": 5.75,
+    "p_modelo": 0.202,
+    "p_stress": 0.181,
+    "p_prudente": 0.186,
+    "ev_sin_boost": 0.03,
+    "ev_con_boost": 0.236,
+    "pago_boost": 6.12,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "Mayor p · 2 de 3 cumplen (remates Dortmund 6 de 10 local)",
+    "leido": "14:23",
+    "patas_cumple_regularidad": 2
+   }
+  ],
+  "combos_1105": [
    {
     "patas": [
      "Córners Arsenal FC Menos 6.5",
