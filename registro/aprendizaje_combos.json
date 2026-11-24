@@ -1,103 +1,107 @@
 {
  "generado": "recoleccion/aprender_combos.py",
- "n_combinadas": 283,
- "se_dieron": 92,
- "perdidas": 191,
- "perdidas_por_una_pata": 108,
+ "n_combinadas": 344,
+ "se_dieron": 102,
+ "perdidas": 242,
+ "perdidas_por_una_pata": 119,
  "patas": {
-  "n": 928,
-  "hit": 0.663,
-  "con_dato_previo": 592
+  "n": 1136,
+  "hit": 0.613,
+  "con_dato_previo": 782
  },
  "pata_mas_floja": {
-  "combinadas_perdidas_por_una_pata_con_dato": 51,
-  "la_que_cayo_era_la_mas_floja": 23,
-  "por_azar_esperado": 19.6
+  "combinadas_perdidas_por_una_pata_con_dato": 60,
+  "la_que_cayo_era_la_mas_floja": 25,
+  "por_azar_esperado": 22.8
  },
  "por_banda_colchon": {
   "10–20 %": {
-   "n": 87,
-   "hit": 0.483
+   "n": 151,
+   "hit": 0.344
   },
   "5–10 %": {
-   "n": 33,
-   "hit": 0.636
+   "n": 59,
+   "hit": 0.712
   },
   "< 5 %": {
-   "n": 62,
-   "hit": 0.581
+   "n": 67,
+   "hit": 0.597
   },
   "sin dato": {
-   "n": 336,
-   "hit": 0.643
+   "n": 354,
+   "hit": 0.636
   },
   "≥ 20 %": {
-   "n": 410,
-   "hit": 0.732
+   "n": 505,
+   "hit": 0.667
   }
  },
  "por_cumple": {
   "no": {
-   "n": 162,
-   "hit": 0.593
+   "n": 271,
+   "hit": 0.432
   },
   "sí": {
-   "n": 403,
-   "hit": 0.71
+   "n": 477,
+   "hit": 0.696
   }
  },
  "por_mercado_lado": {
   "corners Más": {
-   "n": 106,
-   "hit": 0.698
+   "n": 117,
+   "hit": 0.684
   },
   "goles Menos": {
-   "n": 80,
-   "hit": 0.613
+   "n": 87,
+   "hit": 0.598
   },
   "goles Más": {
-   "n": 75,
-   "hit": 0.747
-  },
-  "corners Menos": {
-   "n": 57,
-   "hit": 0.456
-  },
-  "al_arco Más": {
-   "n": 44,
-   "hit": 0.818
+   "n": 84,
+   "hit": 0.762
   },
   "remates Menos": {
-   "n": 44,
-   "hit": 0.705
+   "n": 76,
+   "hit": 0.487
+  },
+  "corners Menos": {
+   "n": 71,
+   "hit": 0.38
+  },
+  "al_arco Más": {
+   "n": 71,
+   "hit": 0.648
   },
   "remates Más": {
-   "n": 39,
-   "hit": 0.692
+   "n": 70,
+   "hit": 0.486
   },
   "tarjetas Más": {
-   "n": 38,
-   "hit": 0.711
+   "n": 53,
+   "hit": 0.604
   },
   "al_arco Menos": {
-   "n": 24,
-   "hit": 0.667
+   "n": 43,
+   "hit": 0.488
   },
   "tarjetas Menos": {
-   "n": 24,
-   "hit": 0.875
+   "n": 25,
+   "hit": 0.84
+  },
+  "faltas Menos": {
+   "n": 21,
+   "hit": 0.905
   },
   "fueras Menos": {
    "n": 19,
    "hit": 0.632
   },
   "saques_meta Más": {
-   "n": 10,
-   "hit": 0.6
+   "n": 13,
+   "hit": 0.462
   },
-  "faltas Menos": {
+  "saques_banda Menos": {
    "n": 10,
-   "hit": 0.8
+   "hit": 1.0
   },
   "fueras Más": {
    "n": 9,
@@ -106,33 +110,33 @@
  },
  "por_n_patas": {
   "2": {
-   "combinadas": 91,
-   "se_dieron": 50,
-   "hit": 0.549,
-   "hit_pata": 0.731,
-   "si_independientes": 0.534
+   "combinadas": 99,
+   "se_dieron": 54,
+   "hit": 0.545,
+   "hit_pata": 0.727,
+   "si_independientes": 0.529
   },
   "3": {
-   "combinadas": 111,
-   "se_dieron": 33,
-   "hit": 0.297,
-   "hit_pata": 0.649,
-   "si_independientes": 0.273
+   "combinadas": 138,
+   "se_dieron": 38,
+   "hit": 0.275,
+   "hit_pata": 0.614,
+   "si_independientes": 0.231
   },
   "4+": {
-   "combinadas": 81,
-   "se_dieron": 9,
-   "hit": 0.111,
-   "hit_pata": 0.64,
-   "si_independientes": 0.109
+   "combinadas": 107,
+   "se_dieron": 10,
+   "hit": 0.093,
+   "hit_pata": 0.567,
+   "si_independientes": 0.068
   }
  },
  "por_fuente": {
   "BB Boost": {
-   "combinadas": 64,
-   "se_dieron": 15,
+   "combinadas": 108,
+   "se_dieron": 18,
    "patas_prom": 3.4,
-   "hit_pata": 0.637
+   "hit_pata": 0.493
   },
   "Misión": {
    "combinadas": 7,
@@ -141,40 +145,40 @@
    "hit_pata": 0.833
   },
   "sugerida": {
-   "combinadas": 135,
-   "se_dieron": 61,
-   "patas_prom": 2.5,
-   "hit_pata": 0.699
+   "combinadas": 145,
+   "se_dieron": 65,
+   "patas_prom": 2.4,
+   "hit_pata": 0.698
   },
   "tu boleto": {
-   "combinadas": 77,
-   "se_dieron": 11,
-   "patas_prom": 4.6,
-   "hit_pata": 0.632
+   "combinadas": 84,
+   "se_dieron": 14,
+   "patas_prom": 4.5,
+   "hit_pata": 0.639
   }
  },
  "por_cuota_pata": {
   "< 1,30": {
-   "n": 139,
-   "hit": 0.755
+   "n": 148,
+   "hit": 0.743
   },
   "1,50–1,79": {
-   "n": 141,
-   "hit": 0.723
+   "n": 276,
+   "hit": 0.533
   },
   "1,30–1,49": {
-   "n": 75,
+   "n": 79,
    "hit": 0.747
   },
   "1,80 o más": {
-   "n": 45,
-   "hit": 0.511
+   "n": 75,
+   "hit": 0.413
   }
  },
  "causas": {
-  "sin_cumplir": 64,
-  "atipico": 124,
-  "sin_datos": 116,
+  "sin_cumplir": 150,
+  "atipico": 152,
+  "sin_datos": 125,
   "ambos": 3,
   "mediana": 4
  },
@@ -2258,7 +2262,160 @@
    ]
   },
   {
-   "id": "S2105",
+   "id": "S2097",
+   "fuente": "sugerida",
+   "jornada": "2026-11-23",
+   "tipo": "combinada mismo partido",
+   "nombre": "Goles Menos 4.5 + Tiros al arco Menos 12.5",
+   "cuota": 1.45,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Menos 4.5",
+     "ok": false,
+     "real": "5 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": 0.322,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Menos 12.5",
+     "ok": true,
+     "real": "10 (Flashscore (feeds df_st/df_su, leído",
+     "colchon_rel": 0.196,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Menos 4.5",
+     "causa": "cumplía y tenía colchón (32 %) pero el partido salió atípico: real 5 (Flashscore (feeds df_st/df_su, leído  frente a esperado 3.05",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S2099",
+   "fuente": "sugerida",
+   "jornada": "2026-11-23",
+   "tipo": "combinada mismo partido",
+   "nombre": "Goles visitante Menos 1.5 + Resultado: Gimnasia y Esgrima La Plata o empate",
+   "cuota": 1.7,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles visitante Menos 1.5",
+     "ok": false,
+     "real": "2 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": -0.4,
+     "x10": 0.0,
+     "cumple": "no"
+    },
+    {
+     "pata": "Resultado: Gimnasia y Esgrima La Plata o empate",
+     "ok": true,
+     "real": "2-2 (Flashscore (feeds df_st/df_su, leíd",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles visitante Menos 1.5",
+     "causa": "no cumplía el 7 de 10 (0.0); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2100",
+   "fuente": "sugerida",
+   "jornada": "2026-11-23",
+   "tipo": "combinada mismo partido",
+   "nombre": "Resultado: Al-Ahli SFC o empate + Goles Menos 4.5",
+   "cuota": 1.48,
+   "n_patas": 2,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Resultado: Al-Ahli SFC o empate",
+     "ok": false,
+     "real": "3-2 (Flashscore (feeds df_st/df_su, leíd",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles Menos 4.5",
+     "ok": false,
+     "real": "5 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": 0.267,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Resultado: Al-Ahli SFC o empate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Goles Menos 4.5",
+     "causa": "cumplía y tenía colchón (27 %) pero el partido salió atípico: real 5 (Flashscore (feeds df_st/df_su, leído  frente a esperado 3.3",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S2102",
+   "fuente": "sugerida",
+   "jornada": "2026-11-23",
+   "tipo": "combinada entre partidos",
+   "nombre": "Lotería de 3 protecciones",
+   "cuota": 2.02,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners visitante Más 2.5 (Santos SP - Gremio RS)",
+     "ok": false,
+     "real": "2 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners visitante Más 2.5 (Internacional RS - Vitoria BA)",
+     "ok": true,
+     "real": "5 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles Menos 4.5 (AC Monza - AC Fiorentina)",
+     "ok": true,
+     "real": "3 (Flashscore (feeds df_st/df_su, leído ",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners visitante Más 2.5 (Santos SP - Gremio RS)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "S2277",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2314,7 +2471,7 @@
    ]
   },
   {
-   "id": "S2106",
+   "id": "S2278",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2365,7 +2522,7 @@
    ]
   },
   {
-   "id": "S2108",
+   "id": "S2280",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2416,7 +2573,7 @@
    ]
   },
   {
-   "id": "S2109",
+   "id": "S2281",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2480,7 +2637,7 @@
    ]
   },
   {
-   "id": "S2110",
+   "id": "S2282",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2528,7 +2685,7 @@
    ]
   },
   {
-   "id": "S2111",
+   "id": "S2283",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2576,7 +2733,7 @@
    ]
   },
   {
-   "id": "S2112",
+   "id": "S2284",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2627,7 +2784,7 @@
    ]
   },
   {
-   "id": "S2113",
+   "id": "S2285",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2678,7 +2835,7 @@
    ]
   },
   {
-   "id": "S2114",
+   "id": "S2286",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2729,7 +2886,7 @@
    ]
   },
   {
-   "id": "S2115",
+   "id": "S2287",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2780,7 +2937,7 @@
    ]
   },
   {
-   "id": "S2116",
+   "id": "S2288",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2831,7 +2988,7 @@
    ]
   },
   {
-   "id": "S2117",
+   "id": "S2289",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2882,7 +3039,7 @@
    ]
   },
   {
-   "id": "S2120",
+   "id": "S2292",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -2933,7 +3090,7 @@
    ]
   },
   {
-   "id": "S2121",
+   "id": "S2293",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -2976,7 +3133,7 @@
    ]
   },
   {
-   "id": "S2123",
+   "id": "S2295",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3024,7 +3181,7 @@
    ]
   },
   {
-   "id": "S2124",
+   "id": "S2296",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3072,7 +3229,7 @@
    ]
   },
   {
-   "id": "S2125",
+   "id": "S2297",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3120,7 +3277,7 @@
    ]
   },
   {
-   "id": "S2126",
+   "id": "S2298",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3181,7 +3338,7 @@
    ]
   },
   {
-   "id": "S2127",
+   "id": "S2299",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3237,7 +3394,7 @@
    ]
   },
   {
-   "id": "S2128",
+   "id": "S2300",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3298,7 +3455,7 @@
    ]
   },
   {
-   "id": "S2129",
+   "id": "S2301",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3341,7 +3498,7 @@
    ]
   },
   {
-   "id": "S2130",
+   "id": "S2302",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3384,7 +3541,7 @@
    ]
   },
   {
-   "id": "S2131",
+   "id": "S2303",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3437,7 +3594,7 @@
    ]
   },
   {
-   "id": "S2132",
+   "id": "S2304",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3485,7 +3642,7 @@
    ]
   },
   {
-   "id": "S2133",
+   "id": "S2305",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -3533,7 +3690,7 @@
    ]
   },
   {
-   "id": "S2134",
+   "id": "S2306",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -3581,7 +3738,7 @@
    ]
   },
   {
-   "id": "S2135",
+   "id": "S2307",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -3624,7 +3781,7 @@
    ]
   },
   {
-   "id": "S2136",
+   "id": "S2308",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -3667,7 +3824,7 @@
    ]
   },
   {
-   "id": "S2137",
+   "id": "S2309",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -3710,7 +3867,7 @@
    ]
   },
   {
-   "id": "S2138",
+   "id": "S2310",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -3753,7 +3910,7 @@
    ]
   },
   {
-   "id": "S2139",
+   "id": "S2311",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -3801,7 +3958,7 @@
    ]
   },
   {
-   "id": "S2140",
+   "id": "S2312",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -3849,7 +4006,7 @@
    ]
   },
   {
-   "id": "S2141",
+   "id": "S2313",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -3892,7 +4049,7 @@
    ]
   },
   {
-   "id": "S2143",
+   "id": "S2315",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -3940,7 +4097,7 @@
    ]
   },
   {
-   "id": "S2144",
+   "id": "S2316",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -3983,7 +4140,7 @@
    ]
   },
   {
-   "id": "S2145",
+   "id": "S2317",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4026,7 +4183,7 @@
    ]
   },
   {
-   "id": "S2146",
+   "id": "S2318",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4069,7 +4226,7 @@
    ]
   },
   {
-   "id": "S2148",
+   "id": "S2320",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4112,7 +4269,7 @@
    ]
   },
   {
-   "id": "S2149",
+   "id": "S2321",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4155,7 +4312,7 @@
    ]
   },
   {
-   "id": "S2150",
+   "id": "S2322",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4203,7 +4360,7 @@
    ]
   },
   {
-   "id": "S2152",
+   "id": "S2324",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4246,7 +4403,7 @@
    ]
   },
   {
-   "id": "S2154",
+   "id": "S2326",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4294,7 +4451,7 @@
    ]
   },
   {
-   "id": "S2155",
+   "id": "S2327",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -4347,7 +4504,7 @@
    ]
   },
   {
-   "id": "S2156",
+   "id": "S2328",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -4395,7 +4552,7 @@
    ]
   },
   {
-   "id": "S2157",
+   "id": "S2329",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -4456,7 +4613,7 @@
    ]
   },
   {
-   "id": "S2158",
+   "id": "S2330",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -4499,7 +4656,7 @@
    ]
   },
   {
-   "id": "S2160",
+   "id": "S2332",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -4555,7 +4712,7 @@
    ]
   },
   {
-   "id": "S2161",
+   "id": "S2333",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -4603,7 +4760,7 @@
    ]
   },
   {
-   "id": "S2162",
+   "id": "S2334",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -4654,7 +4811,2307 @@
    ]
   },
   {
-   "id": "S2166",
+   "id": "S2337",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost ELEGIDA 1 · mayor EV (poca regularidad) · Brentford FC–Everton FC",
+   "cuota": 5.7,
+   "n_patas": 4,
+   "patas_falladas": 4,
+   "detalle": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.111,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.106,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2338",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost ELEGIDA 2 · equilibrio EV / regularidad · Brentford FC–Everton FC",
+   "cuota": 5.4,
+   "n_patas": 4,
+   "patas_falladas": 4,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2339",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost ELEGIDA 3 · más respaldada de 4 patas · Brentford FC–Everton FC",
+   "cuota": 6.8,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Faltas Everton FC Menos 10.5",
+     "ok": true,
+     "real": "9 faltas (visitante)",
+     "colchon_rel": 0.071,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2340",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost ELEGIDA 4 · núcleo (la más probable) · Brentford FC–Everton FC",
+   "cuota": 5.2,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Faltas Everton FC Menos 10.5",
+     "ok": true,
+     "real": "9 faltas (visitante)",
+     "colchon_rel": 0.071,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2341",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost ELEGIDA 5 · núcleo + tiros al arco (más pago) · Brentford FC–Everton FC",
+   "cuota": 7.1,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Faltas Everton FC Menos 10.5",
+     "ok": true,
+     "real": "9 faltas (visitante)",
+     "colchon_rel": 0.071,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2342",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 5.1,
+   "n_patas": 4,
+   "patas_falladas": 4,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Everton FC o empate",
+     "ok": false,
+     "real": "4-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "ok": false,
+     "real": "0 puntos de tarjetas (local)",
+     "colchon_rel": 0.94,
+     "x10": 0.67,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.111,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Everton FC o empate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "causa": "no cumplía el 7 de 10 (0.67); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2343",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 5.3,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Saques de banda Menos 37.5",
+     "ok": true,
+     "real": "25 saques de banda",
+     "colchon_rel": 0.052,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2344",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 6.1,
+   "n_patas": 4,
+   "patas_falladas": 4,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.111,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Everton FC Más 12.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.184,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 12.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2345",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 5.3,
+   "n_patas": 3,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tarjetas Más 3.5",
+     "ok": false,
+     "real": "3 puntos de tarjetas",
+     "colchon_rel": 0.463,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.111,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tarjetas Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2346",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 5.3,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tarjetas Everton FC Más 1.5",
+     "ok": true,
+     "real": "3 puntos de tarjetas (visitante)",
+     "colchon_rel": 0.473,
+     "x10": 0.67,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2347",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 5.9,
+   "n_patas": 3,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.111,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Everton FC Más 13.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.096,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 13.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2348",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 5.4,
+   "n_patas": 4,
+   "patas_falladas": 4,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "ok": false,
+     "real": "0 puntos de tarjetas (local)",
+     "colchon_rel": 0.94,
+     "x10": 0.67,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "causa": "no cumplía el 7 de 10 (0.67); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2349",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 5.5,
+   "n_patas": 3,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Everton FC o empate",
+     "ok": false,
+     "real": "4-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.106,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Everton FC Más 12.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.184,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Everton FC o empate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 12.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2350",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 5.6,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Tarjetas Everton FC Más 1.5",
+     "ok": true,
+     "real": "3 puntos de tarjetas (visitante)",
+     "colchon_rel": 0.473,
+     "x10": 0.67,
+     "cumple": "no"
+    },
+    {
+     "pata": "Everton FC o empate",
+     "ok": false,
+     "real": "4-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.111,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.106,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Everton FC o empate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2351",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 5.7,
+   "n_patas": 4,
+   "patas_falladas": 4,
+   "detalle": [
+    {
+     "pata": "Everton FC o empate",
+     "ok": false,
+     "real": "4-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "ok": false,
+     "real": "0 puntos de tarjetas (local)",
+     "colchon_rel": 0.94,
+     "x10": 0.67,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.111,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.106,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Everton FC o empate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "causa": "no cumplía el 7 de 10 (0.67); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2352",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 5.9,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Tarjetas Everton FC Más 1.5",
+     "ok": true,
+     "real": "3 puntos de tarjetas (visitante)",
+     "colchon_rel": 0.473,
+     "x10": 0.67,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "ok": false,
+     "real": "0 puntos de tarjetas (local)",
+     "colchon_rel": 0.94,
+     "x10": 0.67,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.111,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.106,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "causa": "no cumplía el 7 de 10 (0.67); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2353",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 6.1,
+   "n_patas": 3,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Everton FC Más 13.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.096,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 13.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2354",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost variante (no elegida) · Brentford FC–Everton FC",
+   "cuota": 6.2,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Remates Everton FC Más 12.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.184,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Faltas Everton FC Menos 10.5",
+     "ok": true,
+     "real": "9 faltas (visitante)",
+     "colchon_rel": 0.071,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Everton FC Más 12.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2356",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.1,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Saques de banda Everton FC Menos 18.5",
+     "ok": true,
+     "real": "8 saques de banda (visitante)",
+     "colchon_rel": 0.092,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2357",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.1,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Faltas Everton FC Menos 10.5",
+     "ok": true,
+     "real": "9 faltas (visitante)",
+     "colchon_rel": 0.071,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Everton FC Más 12.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.184,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 12.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2358",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.1,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Saques de banda Menos 37.5",
+     "ok": true,
+     "real": "25 saques de banda",
+     "colchon_rel": 0.052,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Saques de banda Everton FC Menos 18.5",
+     "ok": true,
+     "real": "8 saques de banda (visitante)",
+     "colchon_rel": 0.092,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tarjetas Más 3.5",
+     "ok": false,
+     "real": "3 puntos de tarjetas",
+     "colchon_rel": 0.463,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tarjetas Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2359",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.1,
+   "n_patas": 3,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Saques de meta Brentford FC Más 6.5",
+     "ok": false,
+     "real": "3 saques de meta (local)",
+     "colchon_rel": 0.269,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.111,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Saques de meta Brentford FC Más 6.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Brentford FC Menos 4.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2360",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.2,
+   "n_patas": 4,
+   "patas_falladas": 4,
+   "detalle": [
+    {
+     "pata": "Everton FC o empate",
+     "ok": false,
+     "real": "4-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "ok": false,
+     "real": "0 puntos de tarjetas (local)",
+     "colchon_rel": 0.94,
+     "x10": 0.67,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Everton FC o empate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "causa": "no cumplía el 7 de 10 (0.67); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2361",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.3,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Más 7.5",
+     "ok": true,
+     "real": "9 tiros al arco",
+     "colchon_rel": 0.16,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2362",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.4,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Saques de banda Everton FC Menos 18.5",
+     "ok": true,
+     "real": "8 saques de banda (visitante)",
+     "colchon_rel": 0.092,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2363",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.1,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Saques de banda Menos 37.5",
+     "ok": true,
+     "real": "25 saques de banda",
+     "colchon_rel": 0.052,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Everton FC o empate",
+     "ok": false,
+     "real": "4-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "ok": false,
+     "real": "0 puntos de tarjetas (local)",
+     "colchon_rel": 0.94,
+     "x10": 0.67,
+     "cumple": "no"
+    },
+    {
+     "pata": "Saques de banda Everton FC Menos 18.5",
+     "ok": true,
+     "real": "8 saques de banda (visitante)",
+     "colchon_rel": 0.092,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Everton FC o empate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "causa": "no cumplía el 7 de 10 (0.67); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2364",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.4,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Saques de banda Menos 37.5",
+     "ok": true,
+     "real": "25 saques de banda",
+     "colchon_rel": 0.052,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Everton FC o empate",
+     "ok": false,
+     "real": "4-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Saques de banda Everton FC Menos 18.5",
+     "ok": true,
+     "real": "8 saques de banda (visitante)",
+     "colchon_rel": 0.092,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.106,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Everton FC o empate",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Remates Brentford FC Menos 15.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2365",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.1,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "ok": false,
+     "real": "21 remates (local)",
+     "colchon_rel": 0.161,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Más 7.5",
+     "ok": true,
+     "real": "9 tiros al arco",
+     "colchon_rel": 0.16,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Saques de banda Menos 37.5",
+     "ok": true,
+     "real": "25 saques de banda",
+     "colchon_rel": 0.052,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Brentford FC Menos 16.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2366",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.1,
+   "n_patas": 3,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Saques de meta Brentford FC Más 6.5",
+     "ok": false,
+     "real": "3 saques de meta (local)",
+     "colchon_rel": 0.269,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tarjetas Más 3.5",
+     "ok": false,
+     "real": "3 puntos de tarjetas",
+     "colchon_rel": 0.463,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Saques de meta Brentford FC Más 6.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tarjetas Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2367",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 5.2,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "ok": false,
+     "real": "2 tiros al arco (visitante)",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Faltas Everton FC Menos 10.5",
+     "ok": true,
+     "real": "9 faltas (visitante)",
+     "colchon_rel": 0.071,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Everton FC Más 13.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.096,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco Everton FC Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Everton FC Más 13.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2368",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 7.0,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Faltas Everton FC Menos 10.5",
+     "ok": true,
+     "real": "9 faltas (visitante)",
+     "colchon_rel": 0.071,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Saques de meta Brentford FC Más 6.5",
+     "ok": false,
+     "real": "3 saques de meta (local)",
+     "colchon_rel": 0.269,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Saques de meta Brentford FC Más 6.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2369",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost descartada (EV con p prudente ≤ 0) · Brentford FC–Everton FC",
+   "cuota": 8.25,
+   "n_patas": 4,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Faltas Everton FC Menos 10.5",
+     "ok": true,
+     "real": "9 faltas (visitante)",
+     "colchon_rel": 0.071,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "ok": false,
+     "real": "0 puntos de tarjetas (local)",
+     "colchon_rel": 0.94,
+     "x10": 0.67,
+     "cumple": "no"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "ok": false,
+     "real": "6 córners (local)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Everton FC Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tarjetas Brentford FC Más 1.5",
+     "causa": "no cumplía el 7 de 10 (0.67); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Córners Brentford FC Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2374",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost ELEGIDA · 4 de 4 patas cumplen ≥7 de 10 · Botafogo RJ–Sao Paulo SP",
+   "cuota": 5.3,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Tiros al arco Botafogo RJ Menos 5.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.273,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles Botafogo RJ Menos 1.5",
+     "ok": true,
+     "real": "1 goles (local)",
+     "colchon_rel": 0.333,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Botafogo RJ Menos 15.5",
+     "ok": false,
+     "real": "23 remates (local)",
+     "colchon_rel": 0.126,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Sao Paulo SP Más 12.5",
+     "ok": true,
+     "real": "13 remates (visitante)",
+     "colchon_rel": 0.144,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco Botafogo RJ Menos 5.5",
+     "causa": "cumplía y tenía colchón (27 %) pero el partido salió atípico: real 7 tiros al arco (local) frente a esperado 4.0",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Remates Botafogo RJ Menos 15.5",
+     "causa": "cumplía y tenía colchón (13 %) pero el partido salió atípico: real 23 remates (local) frente a esperado 13.55",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S2375",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost alternativa · 3 de 3 patas cumplen ≥7 de 10 · Botafogo RJ–Sao Paulo SP",
+   "cuota": 5.3,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Remates Botafogo RJ Menos 15.5",
+     "ok": false,
+     "real": "23 remates (local)",
+     "colchon_rel": 0.126,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Sao Paulo SP Más 12.5",
+     "ok": true,
+     "real": "13 remates (visitante)",
+     "colchon_rel": 0.144,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tarjetas Menos 5.5",
+     "ok": false,
+     "real": "9 puntos de tarjetas",
+     "colchon_rel": 0.245,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Botafogo RJ Menos 15.5",
+     "causa": "cumplía y tenía colchón (13 %) pero el partido salió atípico: real 23 remates (local) frente a esperado 13.55",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tarjetas Menos 5.5",
+     "causa": "cumplía y tenía colchón (24 %) pero el partido salió atípico: real 9 puntos de tarjetas frente a esperado 4.15",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S2376",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost alternativa · 2 de 3 patas cumplen ≥7 de 10 · Botafogo RJ–Sao Paulo SP",
+   "cuota": 5.5,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Botafogo RJ Menos 1.5",
+     "ok": true,
+     "real": "1 goles (local)",
+     "colchon_rel": 0.333,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Sao Paulo SP Más 12.5",
+     "ok": true,
+     "real": "13 remates (visitante)",
+     "colchon_rel": 0.144,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Botafogo RJ Menos 14.5",
+     "ok": false,
+     "real": "23 remates (local)",
+     "colchon_rel": 0.066,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Remates Botafogo RJ Menos 14.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2377",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost ELEGIDA · 2 de 3 patas cumplen ≥7 de 10 · Santos SP–Gremio RS",
+   "cuota": 5.1,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Córners Gremio RS Más 3.5",
+     "ok": false,
+     "real": "2 córners (visitante)",
+     "colchon_rel": 0.714,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Santos SP Menos 6.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.154,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Gremio RS Más 3.5",
+     "ok": true,
+     "real": "5 tiros al arco (visitante)",
+     "colchon_rel": 0.257,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Gremio RS Más 3.5",
+     "causa": "cumplía y tenía colchón (71 %) pero el partido salió atípico: real 2 córners (visitante) frente a esperado 6.0",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Tiros al arco Santos SP Menos 6.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2378",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost alternativa · 2 de 3 patas cumplen ≥7 de 10 · Santos SP–Gremio RS",
+   "cuota": 5.6,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Córners Gremio RS Más 3.5",
+     "ok": false,
+     "real": "2 córners (visitante)",
+     "colchon_rel": 0.714,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Santos SP Menos 18.5",
+     "ok": false,
+     "real": "22 remates (local)",
+     "colchon_rel": 0.086,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Gremio RS Más 3.5",
+     "ok": true,
+     "real": "5 tiros al arco (visitante)",
+     "colchon_rel": 0.257,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Gremio RS Más 3.5",
+     "causa": "cumplía y tenía colchón (71 %) pero el partido salió atípico: real 2 córners (visitante) frente a esperado 6.0",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Remates Santos SP Menos 18.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2379",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost alternativa · 1 de 4 patas cumplen ≥7 de 10 · Santos SP–Gremio RS",
+   "cuota": 5.5,
+   "n_patas": 4,
+   "patas_falladas": 4,
+   "detalle": [
+    {
+     "pata": "Córners Gremio RS Más 3.5",
+     "ok": false,
+     "real": "2 córners (visitante)",
+     "colchon_rel": 0.714,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Remates Santos SP Menos 19.5",
+     "ok": false,
+     "real": "22 remates (local)",
+     "colchon_rel": 0.133,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Santos SP Menos 6.5",
+     "ok": false,
+     "real": "7 tiros al arco (local)",
+     "colchon_rel": 0.154,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Gremio RS Más 11.5",
+     "ok": false,
+     "real": "8 remates (visitante)",
+     "colchon_rel": 0.217,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Gremio RS Más 3.5",
+     "causa": "cumplía y tenía colchón (71 %) pero el partido salió atípico: real 2 córners (visitante) frente a esperado 6.0",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Remates Santos SP Menos 19.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Tiros al arco Santos SP Menos 6.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "Remates Gremio RS Más 11.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2380",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost ELEGIDA · 0 de 3 patas cumplen ≥7 de 10 · St. Louis City SC–Los Angeles FC",
+   "cuota": 5.7,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tiros al arco Los Angeles FC Más 4.5",
+     "ok": false,
+     "real": "4 tiros al arco (visitante)",
+     "colchon_rel": 0.211,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Los Angeles FC Más 14.5",
+     "ok": true,
+     "real": "17 remates (visitante)",
+     "colchon_rel": 0.145,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates St. Louis City SC Menos 13.5",
+     "ok": true,
+     "real": "10 remates (local)",
+     "colchon_rel": 0.122,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco Los Angeles FC Más 4.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2381",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost alternativa · 0 de 4 patas cumplen ≥7 de 10 · St. Louis City SC–Los Angeles FC",
+   "cuota": 6.0,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Más 2.5",
+     "ok": true,
+     "real": "5 goles",
+     "colchon_rel": 0.22,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates Los Angeles FC Más 13.5",
+     "ok": true,
+     "real": "17 remates (visitante)",
+     "colchon_rel": 0.23,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates St. Louis City SC Menos 14.5",
+     "ok": true,
+     "real": "10 remates (local)",
+     "colchon_rel": 0.183,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Tiros al arco Los Angeles FC Más 4.5",
+     "ok": false,
+     "real": "4 tiros al arco (visitante)",
+     "colchon_rel": 0.211,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco Los Angeles FC Más 4.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2382",
+   "fuente": "BB Boost",
+   "jornada": "2026-11-23",
+   "tipo": "Bet Builder (BB Boost)",
+   "nombre": "BB Boost alternativa · 0 de 3 patas cumplen ≥7 de 10 · St. Louis City SC–Los Angeles FC",
+   "cuota": 5.4,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Remates Los Angeles FC Más 13.5",
+     "ok": true,
+     "real": "17 remates (visitante)",
+     "colchon_rel": 0.23,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Goles Los Angeles FC Menos 1.5",
+     "ok": false,
+     "real": "2 goles (visitante)",
+     "colchon_rel": 0.1,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Remates St. Louis City SC Menos 14.5",
+     "ok": true,
+     "real": "10 remates (local)",
+     "colchon_rel": 0.183,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles Los Angeles FC Menos 1.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S2384",
    "fuente": "Misión",
    "jornada": "2026-11-19",
    "tipo": "Misión 1 · Bet Builder",
@@ -4702,7 +7159,7 @@
    ]
   },
   {
-   "id": "S2167",
+   "id": "S2385",
    "fuente": "Misión",
    "jornada": "2026-11-19",
    "tipo": "Misión 1 · Bet Builder",
@@ -4745,7 +7202,7 @@
    ]
   },
   {
-   "id": "S2178",
+   "id": "S2396",
    "fuente": "sugerida",
    "jornada": "2026-11-20",
    "tipo": "combinada entre partidos",
@@ -4780,7 +7237,7 @@
    ]
   },
   {
-   "id": "S2182",
+   "id": "S2400",
    "fuente": "sugerida",
    "jornada": "2026-11-20",
    "tipo": "combinada entre partidos",
@@ -4815,7 +7272,7 @@
    ]
   },
   {
-   "id": "S2183",
+   "id": "S2401",
    "fuente": "sugerida",
    "jornada": "2026-11-20",
    "tipo": "combinada entre partidos",
@@ -4850,7 +7307,7 @@
    ]
   },
   {
-   "id": "S2187",
+   "id": "S2405",
    "fuente": "sugerida",
    "jornada": "2026-11-20",
    "tipo": "combinada entre partidos",
@@ -4893,7 +7350,7 @@
    ]
   },
   {
-   "id": "S2188",
+   "id": "S2406",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -4928,7 +7385,7 @@
    ]
   },
   {
-   "id": "S2189",
+   "id": "S2407",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -4968,7 +7425,7 @@
    ]
   },
   {
-   "id": "S2190",
+   "id": "S2408",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -5008,7 +7465,7 @@
    ]
   },
   {
-   "id": "S2191",
+   "id": "S2409",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -5043,7 +7500,7 @@
    ]
   },
   {
-   "id": "S2192",
+   "id": "S2410",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -5091,7 +7548,7 @@
    ]
   },
   {
-   "id": "S2193",
+   "id": "S2411",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -5134,7 +7591,7 @@
    ]
   },
   {
-   "id": "S2194",
+   "id": "S2412",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -5182,7 +7639,7 @@
    ]
   },
   {
-   "id": "S2195",
+   "id": "S2413",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -5243,7 +7700,7 @@
    ]
   },
   {
-   "id": "S2197",
+   "id": "S2415",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -5278,7 +7735,85 @@
    ]
   },
   {
-   "id": "S2256",
+   "id": "S2417",
+   "fuente": "sugerida",
+   "jornada": "2026-11-23",
+   "tipo": "combinada entre partidos",
+   "nombre": "C1 · 2 patas · entre partidos",
+   "cuota": 2.54,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "AC Monza–AC Fiorentina: Tiros al arco Más 8.5",
+     "ok": true,
+     "real": "13 tiros al arco",
+     "colchon_rel": 0.276,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Brentford FC–Everton FC: Remates visitante Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 1.491,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Brentford FC–Everton FC: Remates visitante Más 11.5",
+     "causa": "cumplía y tenía colchón (149 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 28.65",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S2420",
+   "fuente": "sugerida",
+   "jornada": "2026-11-23",
+   "tipo": "combinada entre partidos",
+   "nombre": "T1 · 3 patas · lotería",
+   "cuota": 3.94,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "AC Monza–AC Fiorentina: Tiros al arco Más 8.5",
+     "ok": true,
+     "real": "13 tiros al arco",
+     "colchon_rel": 0.276,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Brentford FC–Everton FC: Remates visitante Más 11.5",
+     "ok": false,
+     "real": "4 remates (visitante)",
+     "colchon_rel": 1.491,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Gimnasia y Esgrima La Plata–Newells Old Boys: Remates local Menos 16.5",
+     "ok": true,
+     "real": "11 remates (local)",
+     "colchon_rel": -0.524,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Brentford FC–Everton FC: Remates visitante Más 11.5",
+     "causa": "cumplía y tenía colchón (149 %) pero el partido salió atípico: real 4 remates (visitante) frente a esperado 28.65",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S2478",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -5329,7 +7864,7 @@
    ]
   },
   {
-   "id": "S2257",
+   "id": "S2479",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -5372,7 +7907,7 @@
    ]
   },
   {
-   "id": "S2259",
+   "id": "S2481",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -5415,7 +7950,7 @@
    ]
   },
   {
-   "id": "S2260",
+   "id": "S2482",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -5458,7 +7993,7 @@
    ]
   },
   {
-   "id": "S2262",
+   "id": "S2484",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada mismo partido",
@@ -5506,7 +8041,7 @@
    ]
   },
   {
-   "id": "S2263",
+   "id": "S2485",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada mismo partido",
@@ -5549,7 +8084,7 @@
    ]
   },
   {
-   "id": "S2264",
+   "id": "S2486",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada mismo partido",
@@ -5592,7 +8127,7 @@
    ]
   },
   {
-   "id": "S2272",
+   "id": "S2494",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "Bet Builder",
@@ -5635,7 +8170,7 @@
    ]
   },
   {
-   "id": "S2273",
+   "id": "S2495",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "Bet Builder",
@@ -5678,7 +8213,7 @@
    ]
   },
   {
-   "id": "S2274",
+   "id": "S2496",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "Bet Builder",
@@ -9846,6 +12381,196 @@
      "tipo": "atipico"
     }
    ]
+  },
+  {
+   "id": "boleto 151",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-23",
+   "tipo": "Simple (Bet Builder 3 patas)",
+   "nombre": "Botafogo–São Paulo (1-1)",
+   "cuota": 2.4,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Botafogo tiros al arco Menos 6.5",
+     "ok": false,
+     "real": "7",
+     "colchon_rel": 0.385,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Botafogo remates Menos 16.5",
+     "ok": false,
+     "real": "23",
+     "colchon_rel": 0.179,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "São Paulo remates Más 11.5",
+     "ok": true,
+     "real": "13",
+     "colchon_rel": 0.243,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Botafogo tiros al arco Menos 6.5",
+     "causa": "cumplía y tenía colchón (38 %) pero el partido salió atípico: real 7 frente a esperado 4.0",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Botafogo remates Menos 16.5",
+     "causa": "cumplía y tenía colchón (18 %) pero el partido salió atípico: real 23 frente a esperado 13.55",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 153",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-23",
+   "tipo": "Simple (Bet Builder 3 patas)",
+   "nombre": "Santos–Gremio (0-2)",
+   "cuota": 3.0,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Gremio córners Más 3.5",
+     "ok": false,
+     "real": "2",
+     "colchon_rel": 0.714,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Santos tiros al arco Menos 7.5",
+     "ok": true,
+     "real": "7",
+     "colchon_rel": 0.267,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Gremio tiros al arco Más 2.5",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": 0.76,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Gremio córners Más 3.5",
+     "causa": "cumplía y tenía colchón (71 %) pero el partido salió atípico: real 2 frente a esperado 6.0",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 157",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-23",
+   "tipo": "Simple (Bet Builder 4 patas)",
+   "nombre": "Brentford–Everton (4-0)",
+   "cuota": 5.9,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Everton faltas Menos 10.5",
+     "ok": true,
+     "real": "9",
+     "colchon_rel": 0.071,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Everton remates Más 11.5",
+     "ok": false,
+     "real": "4",
+     "colchon_rel": 0.287,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Brentford córners Menos 6.5",
+     "ok": true,
+     "real": "6",
+     "colchon_rel": 0.277,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Everton tiros al arco Más 3.5",
+     "ok": false,
+     "real": "2",
+     "colchon_rel": 0.343,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Everton remates Más 11.5",
+     "causa": "cumplía y tenía colchón (29 %) pero el partido salió atípico: real 4 frente a esperado 14.8",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Everton tiros al arco Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "boleto 159",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-23",
+   "tipo": "Doble (BB + simple)",
+   "nombre": "Al Quwa–Al Gharafa (2-1) · Al-Ittihad–Pakhtakor (2-0)",
+   "cuota": 2.91,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Al Quwa–Gharafa córners Más 7.5",
+     "ok": true,
+     "real": "10",
+     "colchon_rel": 0.247,
+     "x10": 0.5,
+     "cumple": "no"
+    },
+    {
+     "pata": "Al Quwa goles Más 0.5",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": 2.2,
+     "x10": 0.6,
+     "cumple": "no"
+    },
+    {
+     "pata": "Pakhtakor goles Más 0.5",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": 2.0,
+     "x10": 0.9,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Pakhtakor goles Más 0.5",
+     "causa": "cumplía y tenía colchón (200 %) pero el partido salió atípico: real 0 frente a esperado 1.5",
+     "tipo": "atipico"
+    }
+   ]
   }
  ],
  "reglas": [
@@ -9853,19 +12578,19 @@
    "id": "pata_mediana",
    "texto": "En una combinada, evitar la pata con colchón < 10 % de la línea (la «pata en la mediana»): es la que más se cae.",
    "umbral_colchon_rel": 0.1,
-   "n_baja": 95,
-   "hit_baja": 0.6,
-   "n_alta": 497,
-   "hit_alta": 0.688,
-   "estado": "activa"
+   "n_baja": 126,
+   "hit_baja": 0.651,
+   "n_alta": 656,
+   "hit_alta": 0.593,
+   "estado": "en observación"
   },
   {
    "id": "pata_sin_cumplir",
    "texto": "En una combinada, todas las patas deben cumplir el 7 de 10 en ambos equipos.",
-   "n_no": 162,
-   "hit_no": 0.593,
-   "n_si": 403,
-   "hit_si": 0.71,
+   "n_no": 271,
+   "hit_no": 0.432,
+   "n_si": 477,
+   "hit_si": 0.696,
    "estado": "activa"
   },
   {
@@ -9878,18 +12603,18 @@
   {
    "id": "patas_max",
    "texto": "Máximo 2 patas por combinada (3 solo como lotería de stake mínimo); 4 o más patas casi nunca se dan.",
-   "n_4mas": 81,
-   "hit_4mas": 0.111,
-   "hit_2": 0.549,
-   "hit_3": 0.297,
+   "n_4mas": 107,
+   "hit_4mas": 0.093,
+   "hit_2": 0.545,
+   "hit_3": 0.275,
    "estado": "activa"
   }
  ],
  "lecciones": [
-  "283 combinadas calificadas (las que te envié y las que jugaste): 92 se dieron (32 %). 108 de 191 perdidas (56 %) cayeron por una sola pata.",
-  "Tamaño: 2 patas se dieron 50 de 91, 3 patas 33 de 111, 4 o más 9 de 81. Cada pata extra pesa más de lo que parece.",
-  "La pata de menor colchón cayó 23 veces de 51 (por azar se esperarían ≈ 19.6): el colchón no predice cuál pata se cae.",
-  "Patas que cumplían el 7 de 10 se dieron 71 % (n 403) frente a 59 % de las que no (n 162): esta sí separa.",
-  "De las patas caídas con dato previo, 124 de 195 cumplían y tenían colchón: el partido salió fuera de lo normal (varianza), no fue una mala elección; 64 no cumplían el 7 de 10 y 4 estaban en la mediana."
+  "344 combinadas calificadas (las que te envié y las que jugaste): 102 se dieron (29 %). 119 de 242 perdidas (49 %) cayeron por una sola pata.",
+  "Tamaño: 2 patas se dieron 54 de 99, 3 patas 38 de 138, 4 o más 10 de 107. Cada pata extra pesa más de lo que parece.",
+  "La pata de menor colchón cayó 25 veces de 60 (por azar se esperarían ≈ 22.8): el colchón no predice cuál pata se cae.",
+  "Patas que cumplían el 7 de 10 se dieron 70 % (n 477) frente a 43 % de las que no (n 271): esta sí separa.",
+  "De las patas caídas con dato previo, 152 de 309 cumplían y tenían colchón: el partido salió fuera de lo normal (varianza), no fue una mala elección; 150 no cumplían el 7 de 10 y 4 estaban en la mediana."
  ]
 }

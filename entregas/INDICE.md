@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-24 | 07:45 | Balance del 23-nov (+$1.200) y análisis del historial de boletos 4–23 nov: cómo se pierden, mercados con más acierto y foco | 12 partidos del 23-nov | entregas/2026-11-24/0745_balance_23nov_historial.md (+ 0745_balance_23nov.html y _conclusiones.html) |
 | 2026-11-23 | 22:40 | Análisis de los 17 partidos del 24-nov: mejores líneas por partido, combinadas, lotería | 9 Champions + 8 AFC Elite | entregas/2026-11-23/2235_analisis_24nov.md |
 | 2026-11-23 | 18:55 | Recolección completa + análisis de los 17 partidos del 24-nov (Champions con datos completos; AFC: resultado, hándicap, goles, córners, goleador) | 9 Champions + 8 AFC Elite | entregas/2026-11-23/1855_recoleccion_24nov.md (+ 1855_informe_24nov.html) |
 | 2026-11-23 | 17:00 | BB Boost + contexto de los 4 partidos que faltan (mejor partido) | Inter–Vitória, Botafogo–São Paulo, Santos–Gremio, St. Louis–LAFC | entregas/2026-11-23/1700_bb_4_partidos_restantes.md |

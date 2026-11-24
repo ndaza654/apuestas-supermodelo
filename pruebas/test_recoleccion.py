@@ -171,4 +171,12 @@ _b = _NP.bajas('A\nWILL NOT PLAY\nKane H.\nKnee Injury\nSmith J.\nOff the roster
 check(_b == {'no_juega': ['Kane H. (Knee Injury)'], 'duda': ['Doe D. (Muscle Injury)']}, 'previa: las bajas salen sin los «Off the roster» y separadas de las dudas')
 check(_CJ.n('Bodø/Glimt') == _CJ.n('bodo glimt') and _CJ.n('Real Madrid') != _CJ.n('Real Betis'), 'caché: el nombre del equipo se compara normalizado (sin acentos ni signos)')
 
+# 24-nov-2026: análisis del historial de boletos (clasificación de patas y unidades que faltaron)
+import analisis_historial_boletos as _AH
+check(_AH.familia('Hull tiros al arco Menos 4.5') == 'Tiros al arco' and _AH.familia('Everton remates Más 11.5') == 'Remates' and _AH.familia('Córners Más 8.5') == 'Córners', 'historial: la familia del mercado sale del texto de la pata')
+check(_AH.lado_linea('Menos de 9.5') == ('Menos', 9.5) and _AH.lado_linea('Alesson remates 2+') == ('Más', 1.5), 'historial: lado y línea salen del texto («2+» = Más 1.5)')
+check(_AH.unidades_falta({'valor': 10, 'linea': 11.5, 'lado': 'Más'}) == 2 and _AH.unidades_falta({'valor': 5, 'linea': 4.5, 'lado': 'Menos'}) == 1 and _AH.unidades_falta({'valor': 12, 'linea': 11.5, 'lado': 'Más'}) is None, 'historial: unidades que faltaron o sobraron en una pata caída (nada si la pata se dio)')
+_RH = _AH.main()
+check(_RH['boletos'] >= 160 and _RH['perdidas_por_patas_caidas']['total'] == sum(v for k, v in _RH['perdidas_por_patas_caidas'].items() if k != 'total'), 'historial: las pérdidas por 1, 2 o 3+ patas suman el total')
+
 print(f'\n{ok} pruebas de recolección superadas')
