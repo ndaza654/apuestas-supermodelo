@@ -21,3 +21,9 @@
 
 ## Cómo se recogió (prueba del método nuevo, 23-nov)
 Betano y el historial de equipos por feeds (segundos/minutos); goleadores por feeds `df_su` (306 partidos en ≈8 s); tablas de jugadores con iframe + caché de jornadas anteriores (52 de 180 partidos-equipo ya estaban); previas de Flashscore navegando cada partido. Detalle y lecciones: `recoleccion/README.md`.
+
+## Actualización 24-nov 08:00 (Bogotá)
+- Análisis offline entregado el 23-nov 22:40 (`entregas/2026-11-23/2235_analisis_24nov.md`); cuotas de la única lectura del 23-nov 17:21.
+- **Pendiente:** releer cuotas y once oficial ~1 h antes (Champions 12:45 y 15:00 Bogotá) y armar BB Boost con el precio real del cupón; árbitros de la AFC si ya los anunciaron. Los partidos de la AFC de la madrugada ya se jugaron: se califican en el balance del 24-nov.
+- Foco desde el historial del usuario (24-nov): ver `CLAUDE.md` → «Foco por mercados según el historial del usuario».
+

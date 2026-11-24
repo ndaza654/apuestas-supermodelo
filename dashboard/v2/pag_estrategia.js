@@ -36,7 +36,7 @@ PAGES.estrategia={render(){const S=ST.est,j=ST.jor,eo=getp('f.eo','s'),ed=getp('
    <div class="sm mut" style="margin-top:4px">Sin filtro, las líneas de esa cuota: ${pc(base_.hit)} (${base_.n}), ROI ${sg(base_.roi)}.</div>
    <div class="note ${a.n<60||nP<25?'warn':''}" style="margin-top:10px">${nP} partidos distintos. ${a.n<60||nP<25?'Es muy poco para concluir: una sola jornada buena o mala lo mueve todo.':'Las líneas de un mismo partido se parecen, así que cuentan menos de lo que parece.'}</div>
    <h3 style="margin-top:12px">Por mercado</h3>${hitBars(porM)}<h3 style="margin-top:14px">Por jornada</h3>${hitBars(porJ)}`:'<div class="empty sm">Ninguna línea ya jugada pasa este filtro. No hay con qué medirlo todavía.</div>'}</div>
- </div></div>${cardRendimiento()}${cardCombos()}`}};
+ </div></div>${cardRendimiento()}${cardCombos()}${cardHistorial()}`}};
 
 /* ---- piezas del filtro de Mi estrategia ---- */
 const selN=(path,opts,lab)=>`<label class="f">${lab}<select data-bind="${path}" data-num>${opts.map(([v,t])=>`<option value="${v}" ${String(getp(path,''))===String(v)?'selected':''}>${esc(t)}</option>`).join('')}</select></label>`;

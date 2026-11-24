@@ -22,3 +22,6 @@ Apuestas de fútbol en Betano.co (COP; 1 u = 3.700 COP). **El usuario decide y a
 `python3 pruebas/test_modelo.py`, `test_ficha.py`, `test_betano.py`, `test_recoleccion.py`, `test_dashboard.py`; y `python3 dashboard/construir_v2.py /tmp/d.html`.
 
 Los criterios de filtro (X de 10, colchón, contexto) vienen de tipsters y medios y **no tienen resultados verificados**; el modelo y las heurísticas de jugadores/goleador se declaran como no validadas hasta que los balances lo demuestren.
+
+## Análisis del historial de boletos
+`python3 recoleccion/analisis_historial_boletos.py` lee los boletos del usuario (4-nov en adelante) y escribe `registro/analisis_historial_boletos.json`: cómo se pierden (una pata o varias), cuántas patas conviene, mercados con más acierto. Se ve en el dashboard (Mi estrategia → «Tu historial de boletos») y su foco está en `CLAUDE.md`.
