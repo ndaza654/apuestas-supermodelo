@@ -112,6 +112,8 @@ La combinada que el usuario pide como «BB Boost»: **Bet Builder del mismo part
 5. Releer el precio real y las alineaciones oficiales ≈ 1 h antes del partido. 3 patas = lotería: stake mínimo.
 6. **Dashboard:** la página «BB Boost» y la tarjeta de Inicio salen de `jornadas/AAAA-MM-DD/bb/bb_boost_resumen.json` (`dashboard/v2/pag_bb.js`). Cada vez que se entreguen o actualicen combos BB, dejar ese JSON al día (combos, precio real, `veredicto`, `nota`, `leido_hora`) antes del push; si no está, el dashboard no los muestra.
 
+7. **Autocrítica 25-nov (`entregas/2026-11-25/1310_autocritica_bb_boost.md`):** 25 partidos, principal ganado 5 (20 % frente a ≈ 18 % esperado); el positivo lo pone el boost, no el análisis (patas 56 % contra ≈ 57 % del precio). Reglas: 1 combo por partido (como mucho 1 alternativa; las variantes no cuentan como acierto); máximo una pata de «remates/tiros al arco Menos de un equipo» por combo (se dieron 8 de 17 y caen juntas cuando el guion se invierte); si menos de 2 de 3 patas cumplen el 7 de 10, «no recomendado» aunque el boost dé EV (los 4 sin respaldo perdieron); pata que el contexto leído contradice, fuera; córners de un equipo fuera salvo «cumple» y colchón ≥ 2 (3 de 12). Funcionan: goles Más, tarjetas, faltas, fueras de juego Menos, remates/tiros al arco Más de un equipo.
+
 ## Contexto de la sesión (que no se llene)
 - Una sesión por jornada. Empezar leyendo `jornadas/AAAA-MM-DD/ranking.md` y `ESTADO.md`; la ficha de un partido solo cuando se va a analizar. No abrir los JSON crudos de `flashscore/` ni `betano/`.
 - Los agentes escriben su detalle en archivos (`jornadas/AAAA-MM-DD/agentes/<partido>_<agente>.md`) y devuelven al chat solo un resumen corto (las 5 mejores líneas y los límites).

@@ -383,3 +383,6 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Relectura de Betano 11:25 (5 partidos; previas en `betano_previo/` y `raw/previo_1130/`) y catálogo BB `bb/bb_catalogo_1140.json`; precios reales con mc-leg.
 - Enviados: combi 2 BB ≈ 3,71 (`combinadas_enviadas_1155.json`); BB Boost PSG–Roma 5,70 y Nacional–Medellín 5,70 (`bb/bb_boost_resumen.json`; Santa Fe–Once Caldas descartado).
 - Mantenimiento: real − precio ≈ −2 puntos sin efecto del volumen; LaLiga −17; tiros al arco Menos 1,5–3 +11,6 (n 66); tus boletos de 2 patas 40 % ganados. Reglas nuevas en CLAUDE.md («Mantenimiento 25-nov»).
+
+## 25-nov-2026 (13:10) · autocrítica BB Boost 19–24 nov
+- 25 partidos, principal ganado 5 (20 %; esperado ≈ 18 %); +32 % con boost, +10 % sin él; patas 45 de 80 (56 %, ≈ precio). Causas de pérdida: guion invertido (6), sin respaldo (4), contexto no respetado (2), varianza por una unidad (5). Reglas nuevas en CLAUDE.md → BB Boost punto 7.

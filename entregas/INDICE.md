@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-25 | 13:10 | Autocrítica de los BB Boost 19–24 nov: por qué se ganaron y perdieron, reglas nuevas | 25 partidos con BB Boost | `entregas/2026-11-25/1310_autocritica_bb_boost.md` |
 | 2026-11-25 | 12:40 | Combi 12:45 (≈3,71), BB Boost PSG–Roma (5,70) y Nacional–Medellín (5,70), mantenimiento de estrategias y método para escoger 10 de 100 | Sabah–Barça, Slavia–Villarreal, PSG–Roma, Santa Fe–Once Caldas, Nacional–Medellín | `entregas/2026-11-25/1240_mantenimiento_estrategias.md` |
 | 2026-11-25 | 11:15 | Informe + recolección Europa League y Conference League (36 partidos): enfoque, sencillas, combinadas de 2 patas, estado y límites | 36 partidos del 26-nov | `entregas/2026-11-25/1115_informe_26nov_europa_conference.md` (+ `.html`) |
 | 2026-11-25 | 08:50 | Balance parcial de la mañana (11 partidos terminados: Melbourne, Gamba, Kashima, J1 ×6 y Sabah U19): combis 0 de 3, sencillas 21 de 28, «cumple» 84,5 %, goleador 9,6 % | 11 de la mañana del 25-nov | entregas/2026-11-25/0850_balance_25nov_manana.md · entregas/2026-11-25/0850_balance_25nov_manana.html |
