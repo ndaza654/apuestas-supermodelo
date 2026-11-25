@@ -1,0 +1,18 @@
+{"data":{"event":{"id":"1","name":"Local FC - Visita FC","startTime":1795636800000,"regionName":"Prueba","leagueName":"Liga de prueba","totalMarketsAvailable":4,
+ "participants":[{"id":"107168","name":"Local FC"},{"id":"108800","name":"Visita FC"}],
+ "markets":[
+  {"id":"M1","type":"PALS","name":"Julián Álvarez Remates totales","playerId":"111","teamId":"107168","selections":[],
+   "tableLayout":{"rows":[
+     {"groupId":"108800","title":"Alexander Sörloth","participantId":"222","groupSelections":[{"selections":[{"name":"2+","price":1.2},{"name":"3+","price":1.7},{"name":"4+","price":2.6}]}]},
+     {"groupId":"107168","title":"Julián Álvarez","participantId":"111","groupSelections":[{"selections":[{"name":"5+","price":1.45},{"name":"6+","price":1.93},{"name":"7+","price":2.77}]}]},
+     {"groupId":"107168","title":"Defensa Raro","participantId":"333","groupSelections":[{"selections":[{"name":"1+","price":3.2},{"name":"2+","price":13},{"name":"3+","price":23}]}]}
+   ]}},
+  {"id":"M2","type":"PALS","name":"Alexander Sörloth Remates totales","playerId":"222","teamId":"108800","tableLayout":null,
+   "selections":[{"name":"2+","price":1.2},{"name":"3+","price":1.7},{"name":"4+","price":2.6}]},
+  {"id":"M3","type":"1000115","name":"Portero Uno Atajadas de Portero","playerId":"444","teamId":"107168","selections":[],
+   "tableLayout":{"rows":[
+     {"groupId":"107168","title":"Portero Uno","participantId":"444","groupSelections":[{"selections":[{"name":"2+","price":1.3},{"name":"3+","price":1.9}]}]},
+     {"groupId":"108800","title":"Portero Dos","participantId":"555","groupSelections":[{"selections":[{"name":"2+","price":1.5},{"name":"3+","price":2.3}]}]}
+   ]}},
+  {"id":"M4","type":"PLST","name":"Mal Ordenado Tiros al Arco","playerId":"666","teamId":"107168","selections":[{"name":"1+","price":2.0},{"name":"2+","price":1.5}]}
+ ]}}}

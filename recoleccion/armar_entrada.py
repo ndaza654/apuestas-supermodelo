@@ -309,6 +309,8 @@ def armar(b, fs=None, notas=None, jug=None):
     notas = notas or {}
     ini = dt.datetime.fromisoformat(meta['inicio_utc'].replace('Z', '+00:00')) - dt.timedelta(hours=5)     # hora de Bogotá
     faltan, dudas = [], list(notas.get('dudas', []))
+    if bet.get('avisos'):                                                      # escaleras de jugador que betano.py descartó por no ser reales (error de tablas, 25-nov)
+        dudas.append(f"Betano: {len(bet['avisos'])} escalera(s) de jugador descartada(s) por no ser reales (" + '; '.join(a.split(': escalera')[0] for a in bet['avisos'][:6]) + '): esas líneas no se analizan')
     ficha = {'derbi': notas.get('derbi', False), 'importancia': notas.get('importancia', 'normal'), 'eliminatoria': notas.get('eliminatoria'),
              'local': _equipo(notas.get('local')), 'visitante': _equipo(notas.get('visitante')),
              'bajas': notas.get('bajas', []), 'dudas': dudas, 'fuentes': notas.get('fuentes', []), 'jugadores_hist': notas.get('jugadores_hist', {})}

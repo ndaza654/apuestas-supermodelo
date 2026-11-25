@@ -22,8 +22,21 @@ def kv(txt):
     return [(a.rsplit('=', 1)[0], float(a.rsplit('=', 1)[1])) for a in txt.split(';') if '=' in a]
 
 
+def escalera_invalida(pares):
+    """None si es una escalera «N+» real de UN jugador; si no, el motivo. Real = líneas distintas y la cuota no baja al subir la línea
+    (21.964 escaleras guardadas: las 414 con líneas repetidas eran tablas de todos los jugadores pegadas a nombre de uno; ninguna otra rompía la regla).
+    Error del 22 al 25-nov-2026: «Julián Álvarez remates 1+ @3,20» no existía en Betano."""
+    ks = [k for k, _ in pares]
+    if len(ks) != len(set(ks)):
+        return 'líneas repetidas: son varias escaleras (la tabla de todos los jugadores) pegadas a un solo nombre'
+    ps = sorted(pares)
+    if any(ps[i][1] < ps[i - 1][1] - 1e-9 for i in range(1, len(ps))):
+        return 'la cuota baja al subir la línea'
+    return None
+
+
 def parse_texto(texto):
-    lineas, unicos, jug, parejas, meta, res = [], [], [], [], {}, {}
+    lineas, unicos, jug, parejas, meta, res, avisos = [], [], [], [], {}, {}, []
     for ln in texto.splitlines():
         if not ln.strip():
             continue
@@ -90,16 +103,19 @@ def parse_texto(texto):
                 if k in SIMPLES:
                     jug.append(dict(jugador=nm, lado=lado, stat=SIMPLES[k], cuota=float(val)))
                 elif k in ESCALERAS:
-                    esc = {int(a.split(':')[0]): float(a.split(':')[1]) for a in val.split(',') if ':' in a}
-                    if esc:
-                        jug.append(dict(jugador=nm, lado=lado, stat=ESCALERAS[k], escalera=esc))
+                    pares = [(int(a.split(':')[0]), float(a.split(':')[1])) for a in val.split(',') if ':' in a]
+                    motivo = escalera_invalida(pares)
+                    if motivo:                  # 25-nov-2026: una escalera con líneas repetidas o cuota que baja NO es de un jugador (ver escalera_invalida): se descarta y se avisa
+                        avisos.append(f'{nm} · {ESCALERAS[k]}: escalera descartada ({motivo})')
+                    elif pares:
+                        jug.append(dict(jugador=nm, lado=lado, stat=ESCALERAS[k], escalera=dict(pares)))
         elif t[0] == 'R':
             for nm, c in kv('|'.join(t[2:])):
                 a, b = [x.strip() for x in nm.split(' o ', 1)]
                 parejas.append(dict(jugadores=[a, b], stat=t[1], cuota=c))
     if res:
         unicos.insert(0, dict(mercado='resultado', opciones=res))
-    return meta, dict(lineas=lineas, unicos=unicos, jugadores=jug, parejas=parejas)
+    return meta, dict(lineas=lineas, unicos=unicos, jugadores=jug, parejas=parejas, **({'avisos': avisos} if avisos else {}))
 
 
 def clave(meta):

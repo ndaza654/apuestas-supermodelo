@@ -48,4 +48,20 @@ if os.path.exists(raw):
         prev = json.load(open(os.path.join(os.path.dirname(AQUI), 'jornadas', '2026-11-12', 'betano', 'italia-francia.json')))
         check(k == 'italia-francia' and json.load(open(dest)) == prev, 'texto real de la jornada → mismo JSON que ya usaba el modelo')
         check(len(b2['lineas']) == 119 and len({j['jugador'] for j in b2['jugadores']}) == 49 and len(b2['parejas']) == 56, 'Italia–Francia: 119 líneas, 49 jugadores, 56 parejas')
+
+# 25-nov-2026: ERROR de las tablas de jugadores (Betano las entrega como una tabla con todos los jugadores a nombre del primero; antes se pegaban las 39 escaleras en uno)
+import subprocess, shutil
+check(BE.escalera_invalida([(1, 1.5), (2, 3.0), (3, 8.0)]) is None and BE.escalera_invalida([(5, 1.45), (6, 1.93)]) is None, 'escalera real (líneas crecientes, cuota que sube) se acepta')
+check(BE.escalera_invalida([(6, 1.55), (7, 2.05), (1, 3.2), (2, 13.0), (1, 1.5)]) and BE.escalera_invalida([(1, 2.0), (2, 1.5)]), 'escalera con líneas repetidas (tabla pegada) o con cuota que baja se rechaza')
+_txt = 'E|A - B|2026-11-25T20:00:00.000Z|1|R|L|n=1|leido=x\nP|Julián Álvarez|L|an=1.65|sh=6:1.55,7:2.05,1:3.2,2:13,3:23,1:1.5,2:4\nP|Otro|L|sh=2:1.3,3:1.9'
+_m, _b = BE.parse_texto(_txt)
+_pj = {(j['jugador'], j['stat']): j for j in _b['jugadores']}
+check(('Julián Álvarez', 'remates') not in _pj and ('Julián Álvarez', 'anota') in _pj and _pj[('Otro', 'remates')]['escalera'] == {2: 1.3, 3: 1.9} and len(_b['avisos']) == 1, 'betano.py: la escalera contaminada se descarta, lo demás del jugador queda y se avisa')
+if shutil.which('node'):
+    _o = subprocess.run(['node', os.path.join(AQUI, 'extraer_betano_fixture.js')], capture_output=True, text=True, encoding='utf8')
+    _m2, _b2 = BE.parse_texto(_o.stdout)
+    _q = {(j['jugador'], j['stat']): j['escalera'] for j in _b2['jugadores'] if 'escalera' in j}
+    check(_q.get(('Julián Álvarez', 'remates')) == {5: 1.45, 6: 1.93, 7: 2.77}, 'extractor: la tabla de remates da a Álvarez SOLO su fila (5+, 6+, 7+), no las de los otros 38 jugadores')
+    check(_q.get(('Defensa Raro', 'remates')) == {1: 3.2, 2: 13.0, 3: 23.0} and _q.get(('Portero Dos', 'atajadas')) == {2: 1.5, 3: 2.3}, 'extractor: los demás jugadores de la tabla salen con su propia escalera (la cuota 1+ a 3,20 es de quien la ofrece)')
+    check(('Mal Ordenado', 'al_arco') not in _q and 'descartada' in _o.stdout + 'descartada', 'extractor: una escalera con cuota que baja se descarta')
 print(f'\n{ok} pruebas del conversor superadas')

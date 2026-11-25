@@ -137,17 +137,39 @@ async function extraerBetano(slug, id) {
   const limpiar = (s, team) => { const e = ` (${team})`; return team && s.endsWith(e) ? s.slice(0, -e.length) : s.replace(/ \(.*$/, ''); };
   const nomSel = s => { const t = [loc, vis].find(x => s.name.endsWith(` (${x})`)); return { nombre: limpiar(s.name, t), ld: lado(s.teamId, t) }; };
   const ESC = { PALS: ['sh', 'Remates totales'], PLTA: ['tk', 'Tackles totales'], 1000679: ['fc', 'Faltas cometidas'], PALA: ['as', 'Asistencias totales'], 1000115: ['sv', 'Atajadas de Portero'], PLST: ['sot', 'Tiros al Arco'] };   // 22-nov: PLST también llega por jugador (pestaña «Jugadores»)
+  // 25-nov-2026: ERROR CORREGIDO. Desde el 22-nov Betano entrega los mercados de jugador (remates, tiros al arco, faltas, tackles, asistencias, atajadas…) como UNA TABLA con
+  // todos los jugadores del partido (≈39 filas) cuyo mercado lleva el nombre y el playerId del PRIMERO («Julián Álvarez Remates totales»). Antes `selsDe(m)` aplanaba las 39
+  // filas y las pegaba todas bajo ese jugador: al decodificar quedaba la última cuota de cada línea (la de otro jugador): «Álvarez remates 1+ @3,20» no existe en Betano.
+  // Ahora cada fila de la tabla es UN jugador (rw.title, rw.groupId = equipo) y solo se usan sus selecciones; el mercado de un jugador sin tabla sigue leyéndose por `selections`.
+  const escalaOk = esc => {           // una escalera «N+» real: líneas distintas y crecientes, cuota que no baja al subir la línea
+    const k = esc.map(a => +a.split(':')[0]), c = esc.map(a => +a.split(':')[1]);
+    return k.every((x, i) => i === 0 || x > k[i - 1]) && c.every((x, i) => i === 0 || x >= c[i - 1] - 1e-9);
+  };
+  window.__betanoAvisos = [];
+  const poner = (nombre, ld, k, selecciones, donde) => {
+    const esc = (selecciones || []).map(s => { const n = parseInt(s.name); return isNaN(n) ? null : [n, s.price]; }).filter(Boolean)
+      .sort((a, b) => a[0] - b[0]).map(([n, pr]) => `${n}:${num(pr)}`);
+    if (!esc.length) return;
+    if (!escalaOk(esc)) { window.__betanoAvisos.push(`escalera descartada: ${nombre} ${k} (${donde})`); return; }
+    J(nombre, ld).c[k] = esc.join(',');
+  };
+  const tablas = [];
   for (const m of ms) {
     const e = ESC[m.type];
     if (e && m.playerId) {
       const nombre = m.name.replace(new RegExp(' ' + e[1] + '$', 'i'), '');
-      const esc = selsDe(m).map(s => { const k = parseInt(s.name); return isNaN(k) ? null : `${k}:${num(s.price)}`; }).filter(Boolean);
-      if (esc.length) J(nombre, lado(m.teamId, null)).c[e[0]] = esc.join(',');
+      const filas = (m.tableLayout && m.tableLayout.rows) || [];
+      if (filas.length && !(m.selections && m.selections.length)) {                 // tabla de todos los jugadores a nombre del primero
+        tablas.push([e[0], m]);
+        const propia = filas.find(rw => String(rw.participantId) === String(m.playerId)) || filas.find(rw => norm(rw.title) === norm(nombre));
+        if (propia) poner(propia.title, lado(propia.groupId, null), e[0], (propia.groupSelections || []).flatMap(g => g.selections || []), 'tabla');
+      } else {
+        poner(nombre, lado(m.teamId, null), e[0], selsDe(m), 'mercado del jugador');
+      }
     } else if (m.type === 'PLST' && m.tableLayout) {                    // tiros al arco por jugador (tabla)
       for (const rw of m.tableLayout.rows) {
         const ld = rw.groupId === String(P0.id) ? 'L' : rw.groupId === String(P1.id) ? 'V' : null;
-        const esc = ((rw.groupSelections[0] || {}).selections || []).map(s => { const k = parseInt(s.name); return isNaN(k) ? null : `${k}:${num(s.price)}`; }).filter(Boolean);
-        if (esc.length) J(rw.title, ld).c.sot = esc.join(',');
+        poner(rw.title, ld, 'sot', ((rw.groupSelections[0] || {}).selections || []), 'tabla PLST');
       }
     } else if (m.type === 'PSCR' && m.tableLayout) {                    // anota en cualquier momento (1.ª columna)
       for (const rw of m.tableLayout.rows) {
@@ -158,6 +180,13 @@ async function extraerBetano(slug, id) {
       }
     } else if (m.type === '1000661' || m.type === 'PTRC') {
       for (const s of selsDe(m)) { const { nombre, ld } = nomSel(s); J(nombre, ld).c[m.type === 'PTRC' ? 'tj' : 'aoa'] = num(s.price); }
+    }
+  }
+  for (const [k, m] of tablas) {                                       // jugadores de la tabla que no traen mercado propio: se llenan con su fila
+    for (const rw of m.tableLayout.rows) {
+      const j = jug.get(rw.title);
+      if (j && j.c[k] != null) continue;
+      poner(rw.title, lado(rw.groupId, null), k, (rw.groupSelections || []).flatMap(g => g.selections || []), 'tabla (fila)');
     }
   }
   const P = [];
