@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-25 | 13:50 | Catálogo de datos por mercado (para aprobar) + extractor y ficha ampliados | todos los mercados | `2026-11-25/1350_datos_por_mercado.md` |
 | 2026-11-25 | 13:30 | Videos de estrategias (@ingenieroanalista10): goles, córners y 2 previas, con medición | Palmeiras–Cruzeiro, Atlético-MG–Boca | `2026-11-25/1330_videos_estrategias.md` |
 | 2026-11-25 | 12:15 | Medición: ¿el contexto separa aciertos de fallos? (35.611 líneas, 12–25 nov) y regla «contexto manda» | todas las jornadas calificadas | `entregas/2026-11-25/1215_medicion_contexto.md` |
 | 2026-11-25 | 12:35 | Auditoría de puntos flojos (recolección, análisis, apuestas) y guion comprobable | todas las jornadas calificadas | `entregas/2026-11-25/1235_auditoria_puntos_flojos.md` |

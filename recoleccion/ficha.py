@@ -293,6 +293,41 @@ def _tabla_txt(t):
     f = lambda x: f"{x['pos']}.º {x['equipo']} {x['pts']} pts en {x['pj']} PJ (DG {x['dg']:+d}){' · ' + x['grupo'] if x.get('grupo') else ''}"
     return ' | '.join(f"{k}: {f(v)}" for k, v in t.items())
 
+# ---------- estilo de juego: medias de las estadísticas de contexto (desde el 25-nov-2026; informativo, no entra en «cumple») ----------
+# clave del extractor -> etiqueta. Cada equipo: media de los últimos N partidos «a favor» y «en contra» (lo que concede el rival).
+ESTILO = [('pos', 'Posesión %'), ('box', 'Toques en el área rival'), ('cr', 'Centros (intentos)'), ('crw', 'Centros acertados'), ('shi', 'Remates dentro del área'),
+          ('blk', 'Remates bloqueados'), ('xg', 'xG'), ('xgot', 'xG a puerta (xGOT)'), ('big', 'Ocasiones claras'), ('tk', 'Entradas (intentos)'), ('du', 'Duelos ganados'),
+          ('cl', 'Despejes'), ('it', 'Intercepciones'), ('fk', 'Tiros libres a favor (= faltas recibidas)'), ('pf3', 'Pases en el último tercio'), ('lp', 'Pases largos'),
+          ('f', 'Faltas cometidas'), ('y', 'Tarjetas (pts)'), ('c', 'Córners'), ('sh', 'Remates'), ('sot', 'Tiros al arco'), ('off', 'Fueras de juego'),
+          ('ti', 'Saques de banda'), ('gk', 'Saques de meta'), ('sv', 'Atajadas'), ('es', 'Errores que terminan en remate')]
+
+def ficha_estilo(e):
+    F = (e.get('ficha') or {})
+    forma = F.get('forma') or {}
+    out = {'etiquetas': dict(ESTILO), 'n_min': 5}
+    for lado in ('local', 'visitante'):
+        d = {}
+        for clave, _ in ESTILO:
+            sr = serie(forma.get(lado), clave)
+            if len(sr) >= 5:
+                d[clave] = {'fav': round(media([a for a, _ in sr]), 2), 'con': round(media([b for _, b in sr]), 2), 'n': len(sr)}
+        out[lado] = d
+    out['hay'] = bool(out['local'].get('pos') or out['local'].get('cr') or out['visitante'].get('pos') or out['visitante'].get('cr'))
+    return out
+
+def md_estilo(r):
+    if not r.get('hay'):
+        return '## Estilo de juego (posesión, centros, toques en el área…)\n\nSin datos: la recolección de este partido es anterior al 25-nov (el extractor no guardaba estas estadísticas).\n'
+    L = ['## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)', '',
+         '| Dato | Local fav | Local con | Visitante fav | Visitante con | n L/V |', '|---|---|---|---|---|---|']
+    for clave, nombre in ESTILO:
+        a, b = r['local'].get(clave), r['visitante'].get(clave)
+        if not a and not b:
+            continue
+        f = lambda x, k: '—' if not x else f"{x[k]:.1f}"
+        L.append(f"| {nombre} | {f(a, 'fav')} | {f(a, 'con')} | {f(b, 'fav')} | {f(b, 'con')} | {(a or {}).get('n', '—')}/{(b or {}).get('n', '—')} |")
+    return '\n'.join(L) + '\n'
+
 def construir(e):
     return {'encuentro': f"{e.get('local')} - {e.get('visitante')}", 'liga': e.get('liga'), 'fecha': e.get('fecha'),
             'cuotas_leidas': e.get('cuotas_leidas'),
@@ -304,6 +339,7 @@ def construir(e):
             'tarjetas': ficha_estadistica(e, 'tarjetas'),
             'resultados': ficha_resultados(e),
             'jugadores': ficha_jugadores(e),
+            'estilo': ficha_estilo(e),
             'contexto': contexto(e)}
 
 # ---------- Markdown ----------
@@ -407,6 +443,7 @@ def markdown(F):
           md_estadistica(F['goles']), md_estadistica(F['tarjetas'])]
     L.append(md_resultados(F['resultados']))
     L.append(md_jugadores(F['jugadores']))
+    L.append(md_estilo(F['estilo']))
     c = F['contexto']
     L += ['## Contexto para juzgar los criterios no numéricos', '', f"- Árbitro: {c['arbitro']}; derbi: {c['derbi']}; importancia: {c['importancia']}; clima: {c['clima']}",
           f"- Tabla (Flashscore, antes de la jornada): {_tabla_txt(c.get('tabla'))}",

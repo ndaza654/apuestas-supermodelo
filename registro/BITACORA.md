@@ -398,3 +398,6 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 
 ## 25-nov-2026 (13:30) · videos de estrategias de @ingenieroanalista10
 - 4 videos transcritos (Whisper small): Más 2,5 con 2 filtros, córners con 4 filtros, previas Palmeiras–Cruzeiro (2–1, ambos Sí ✓, Más 2,5 ✓) y Atlético-MG–Boca (0–0, penales 3–1). Estrategias pasadas a `estrategias/corners.md` y `goles_resultado.md`. Filtro de goles: 59,7 % con local ≤ 1,50 (n 7.986) y 62,5 % con el filtro completo (n 24); no reproduce el 75 %. Córners: centros ↔ córners r = 0,66 (descriptivo). Pendiente: recolectar centros/toques en el área/posesión de los últimos 10. Detalle: `entregas/2026-11-25/1330_videos_estrategias.md`.
+
+## 25-nov-2026 (13:50) · datos por mercado
+- Extractor de Flashscore ampliado con 25 estadísticas (posesión, centros, toques en el área, remates dentro/fuera del área, bloqueos, xG/xGOT/xA, ocasiones claras, entradas, duelos, despejes, intercepciones, tiros libres, pases, errores, atajadas, goles evitados…); `ficha.py` suma la sección «Estilo de juego». Catálogo por mercado en `estrategias/datos_por_mercado.md` (pendiente de aprobación del usuario). Hallazgos (171 partidos): entradas ≈ 0 con faltas y tarjetas; tiros libres = faltas del rival (r 0,99); centros ↔ córners 0,66; fueras de juego no se explican con estadísticas de equipo.

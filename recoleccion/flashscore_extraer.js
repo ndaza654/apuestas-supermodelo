@@ -12,7 +12,7 @@
  *     h2h:   [partido…],                                           // estadísticas orientadas al local/visitante ACTUAL: [local_actual, visitante_actual]
  *     avisos: [..] }
  *   partido = { fecha:'AAAA-MM-DD', rival, comp, v:'L'|'V' (sede del equipo), mid, g:[a_favor,en_contra],
- *               stats:{ c, sh, sot, f, off, ti, gk, y, xg }  cada una [a_favor, en_contra]  (y = amarillas + 2·rojas, puntos de Betano),
+ *               stats:{ c, sh, sot, f, off, ti, gk, y, xg, + contexto 25-nov: pos, xgot, xa, big, blk, shi, sho, box, fk, du, cl, it, wd, hg, sv, xgotf, gp, es, eg, tp, r, cr/crw, tk/tkw, pas, lp, pf3 }  cada una [a_favor, en_contra]  (y = amarillas + 2·rojas, puntos de Betano),
  *               stats_1t:{ …mismas claves… } }
  * Solo partidos oficiales terminados (se excluyen amistosos). Si Flashscore no trae estadísticas de un partido, `stats` queda vacío y se avisa.
  */
@@ -37,7 +37,17 @@ function listarPartidosFlashscore() {
 const FS_STATS = { c: ['Corner kicks', 'Tiros de esquina'], sh: ['Total shots', 'Tiros totales'], sot: ['Shots on target', 'Tiros a puerta', 'Tiros al arco'],
   f: ['Fouls', 'Faltas'], off: ['Offsides', 'Fuera de juego', 'Fueras de juego'], ti: ['Throw ins', 'Saques de banda'], gk: ['Goal kicks', 'Saques de puerta', 'Saques de meta'],
   xg: ['Expected goals (xG)', 'Goles esperados (xG)'] };
+// Desde el 25-nov-2026: datos de contexto por mercado (ver estrategias/datos_por_mercado.md). Números simples (se toma el primer número).
+const FS_EXTRA = { pos: ['Ball possession', 'Posesión de balón'], xgot: ['xG on target (xGOT)'], xa: ['Expected assists (xA)'], big: ['Big chances', 'Ocasiones claras'],
+  blk: ['Blocked shots', 'Tiros bloqueados'], shi: ['Shots inside the box', 'Tiros dentro del área'], sho: ['Shots outside the box', 'Tiros fuera del área'],
+  box: ['Touches in opposition box', 'Toques en el área rival'], fk: ['Free kicks', 'Tiros libres'], du: ['Duels won', 'Duelos ganados'],
+  cl: ['Clearances', 'Despejes'], it: ['Interceptions', 'Intercepciones'], wd: ['Hit the woodwork', 'Palos'], hg: ['Headed goals', 'Goles de cabeza'],
+  sv: ['Goalkeeper saves', 'Paradas del portero', 'Atajadas'], xgotf: ['xGOT faced'], gp: ['Goals prevented'], es: ['Errors leading to shot'], eg: ['Errors leading to goal'],
+  tp: ['Accurate through passes'], r: ['Red cards', 'Tarjetas rojas'] };
+// Con formato «40% (6/15)»: se guardan intentos (clave) y acertados (clave + 'w'); para pases, sólo intentos.
+const FS_RATIO = { cr: ['Crosses', 'Centros'], tk: ['Tackles', 'Entradas'], pas: ['Passes', 'Pases'], lp: ['Long passes', 'Pases largos'], pf3: ['Passes in final third', 'Pases en el último tercio'] };
 const fsNum = s => { const m = String(s == null ? '' : s).match(/-?\d+(\.\d+)?/); return m ? parseFloat(m[0]) : null; };
+const fsRatio = s => { const m = String(s == null ? '' : s).match(/\((\d+)\/(\d+)\)/); return m ? [parseInt(m[1], 10), parseInt(m[2], 10)] : null; };   // [acertados, intentos]
 function fsParseStats(texto) {                               // { 'Match': {nombre:[h,a]}, '1st Half': {...}, ... }
   const per = {}; let p = null;
   for (const r of texto.split('~').map(fsRec)) { if (r.SE) { p = r.SE.toLowerCase(); per[p] = {}; } else if (r.SG && p) per[p][r.SG] = [r.SH, r.SI]; }
@@ -48,6 +58,15 @@ function fsTomar(periodo) {                                  // → { c:[h,a], �
   for (const [k, nombres] of Object.entries(FS_STATS)) {
     const n = nombres.find(x => periodo[x]); if (!n) continue;
     const h = fsNum(periodo[n][0]), a = fsNum(periodo[n][1]); if (h != null && a != null) o[k] = [h, a];
+  }
+  for (const [k, nombres] of Object.entries(FS_EXTRA)) {
+    const n = nombres.find(x => periodo[x]); if (!n) continue;
+    const h = fsNum(periodo[n][0]), a = fsNum(periodo[n][1]); if (h != null && a != null) o[k] = [h, a];
+  }
+  for (const [k, nombres] of Object.entries(FS_RATIO)) {
+    const n = nombres.find(x => periodo[x]); if (!n) continue;
+    const h = fsRatio(periodo[n][0]), a = fsRatio(periodo[n][1]); if (!h || !a) continue;
+    o[k] = [h[1], a[1]]; if (k !== 'pas' && k !== 'lp' && k !== 'pf3') o[k + 'w'] = [h[0], a[0]];
   }
   const am = periodo['Yellow cards'] || periodo['Tarjetas amarillas'], ro = periodo['Red cards'] || periodo['Tarjetas rojas'];
   if (am) { const h = fsNum(am[0]), a = fsNum(am[1]); if (h != null && a != null) o.y = [h + 2 * (ro ? fsNum(ro[0]) || 0 : 0), a + 2 * (ro ? fsNum(ro[1]) || 0 : 0)]; }

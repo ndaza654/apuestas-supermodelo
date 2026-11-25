@@ -129,4 +129,10 @@ check({(x['mercado'], x['lado']) for x in filas_r if x['mercado'] in ('ambos', '
 check(CL.calificar_unico({'g': [2, 1]}, 'ambos', 'Sí')[0] == 'cumplió' and CL.calificar_unico({'g': [1, 1]}, 'resultado', '1')[0] == 'falló'
       and CL.calificar_unico({'g': [1, 1]}, 'resultado', 'X2')[0] == 'cumplió' and CL.calificar_unico({}, 'ambos', 'Sí') == (None, None), 'calificación de ambos marcan y resultado con los goles del partido')
 
+# estilo de juego (25-nov): medias de las estadísticas de contexto, sin dato en jornadas viejas
+_e = {'local': 'A', 'visitante': 'B', 'ficha': {'forma': {'local': [{'stats': {'pos': [60, 40], 'cr': [20, 10]}}] * 8, 'visitante': [{'stats': {'pos': [40, 60]}}] * 8}}}
+_r = FI.ficha_estilo(_e)
+check(_r['hay'] and _r['local']['pos'] == {'fav': 60.0, 'con': 40.0, 'n': 8} and 'cr' not in _r['visitante'], 'ficha_estilo: media a favor/en contra y n mínimo 5')
+check(not FI.ficha_estilo({'ficha': {'forma': {'local': [{'stats': {'c': [5, 4]}}] * 8}}})['hay'] and 'sin datos' in FI.md_estilo({'hay': False}).lower(), 'ficha_estilo: jornadas anteriores salen «sin datos»')
+
 print(f'\n{ok} pruebas de la ficha superadas')
