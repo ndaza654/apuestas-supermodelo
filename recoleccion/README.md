@@ -39,13 +39,14 @@ Regla (CLAUDE.md, desde el 14-nov-2026): si Betano ofrece en un partido remates,
 - Se pregunta la tabla de jugadores al abrir cada partido; si Flashscore no la publica (p. ej. un amistoso menor) se declara la ausencia, no se rellena.
 - Límites: sin «faltas recibidas»; «entradas» = entradas ganadas (la columna también trae el total); las atajadas salen de «Paradas del arquero».
 
-## Sofascore  (⚠ NO verificado hoy)
-Endpoints usados en la sesión del 12-nov desde una pestaña de sofascore.com: `event/<id>`, `event/<id>/lineups` (probables),
-`event/<id>/h2h/events`, `team/<id>/events/last/0`, `event/<id>/statistics`, `event/<id>/pregame-form`, `referee/<id>/statistics`,
-`unique-tournament/<id>/season/<id>/standings/total` (prefijo `https://api.sofascore.com/api/v1/`).
-**Estado al escribir esto:** `api.sofascore.com` respondió **403** (también navegando directo) y desde la pestaña de www.sofascore.com las rutas relativas dan 404.
-Probable bloqueo por exceso de llamadas; reintentar más tarde, con pausas entre llamadas, y no insistir si sigue el 403
-(no se evade el bloqueo). Alternativas: leer la página del partido con `get_page_text`, o pedir al usuario que abra la página.
+## Sofascore  (FUENTE PRINCIPAL de equipo y jugadores desde el 25-nov-2026; Flashscore/ESPN/Opta de respaldo y contraste)
+Funciona desde una pestaña de `www.sofascore.com` con `fetch('/api/v1/...')` (ruta del MISMO sitio; `api.sofascore.com` da 403). El navegador integrado pide `request_access` en cada uso.
+1. Abrir una pestaña en www.sofascore.com (aprobar el acceso). Lista de partidos: `window.__M = [[clave, local_flashscore, visitante_flashscore, 'AAAA-MM-DD', local_betano, visitante_betano], ...]` (los nombres de Betano son alternos si los de Flashscore, abreviados, no casan).
+2. Cargar y correr: `(0,eval)(await (await fetch('https://raw.githubusercontent.com/ndaza654/apuestas-supermodelo/<commit>/recoleccion/sofascore_extraer.js')).text()); window.__run = sfCorrer(window.__M, 3)` **sin esperar** (≈40 s por partido con 3 trabajadores; ≈8 min para 36 partidos) y consultar `window.__sfLog` / `Object.keys(window.__sf).length`. Usar el hash del commit en la URL (la caché de raw.githubusercontent tarda minutos en actualizar).
+3. `sfExportar()` → Blob + `a.download` (queda en Descargas) → moverlo con `device_bash` a `Documents\Claude-Apuestas\recoleccion\` → `device_stage_files` → `python3 recoleccion/sofascore_decod.py jornadas/AAAA-MM-DD <export.json>`.
+4. El decodificador escribe `sofascore/<clave>.json` (misma forma que `flashscore/<clave>.json` + once y ausentes + árbitro de Sofascore), `jugadores_sofascore/<clave>.json` (filas de `jugadores_decod` + faltas recibidas, centros, xA y rating; nombres «Apellido I.»), `alineaciones_sofascore/<clave>.json`, `sofascore/LEEME.md` (cobertura) y `sofascore/contraste.json` (cifras de Sofascore frente a las de Flashscore en los partidos que ambos traen).
+5. `armar_entrada.py` usa Sofascore si trae ≥ 8 partidos por equipo y deja a Flashscore de respaldo: sin Sofascore (o con menos) el flujo sigue como antes. **Dos onces:** si Sofascore y Flashscore publican el once, el titular que figura en los dos va con 0,9 y el que figura en uno solo con 0,5 (se declara en `dudas`); una baja en cualquiera manda.
+Prueba del 25-nov (Union SG–Lech y Besiktas–Beer Sheva): 616 de 626 cifras iguales a Flashscore; 3 difieren más de 1 (copa belga, 18-oct: remates 23 contra 13; no se sabe cuál es la correcta, se declara). Límites: API no oficial (pausas, parar ante 403/429; no se evade); el árbitro sale con partidos/amarillas/rojas de carrera, no faltas por partido (ValueStats); las líneas de jugador de Betano se liquidan con Opta.
 
 ## Clima
 Open-Meteo (`api.open-meteo.com/v1/forecast?latitude=..&longitude=..&hourly=temperature_2m,precipitation,wind_speed_10m`) desde la pestaña de open-meteo.com.
