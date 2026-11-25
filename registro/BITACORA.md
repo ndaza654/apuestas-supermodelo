@@ -378,3 +378,8 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Historial por jugador **incompleto**: 136 partidos pasados leídos de 492 (más caché: 315 partidos-equipo con tabla); completo solo en 5 partidos. Control de sumas 309/315 exacto (se quitaron 110 filas de 5 partidos que no cuadraban). El método de iframes dio falsos «sin tabla» en lecturas largas; el método de pestaña de nivel superior sí funcionó pero es ~7 s por partido. Pendiente: ~350 partidos (`flashscore/jugadores_cola.json`).
 - Análisis (etapa 2): 1526 líneas de equipo con «cumple», 104 sencillas 1,50–1,99, 8 combinadas de 2 patas, 1 lotería; 362 sugerencias registradas como pendientes. Cuotas sin releer.
 - Archivos: `jornadas/2026-11-26/` (ESTADO.md, enfoque.md, informe.html), `entregas/2026-11-25/1115_informe_26nov_europa_conference.*`.
+
+## 25-nov-2026 (12:40) · combi 12:45, BB Boost PSG–Roma y Primera A, mantenimiento
+- Relectura de Betano 11:25 (5 partidos; previas en `betano_previo/` y `raw/previo_1130/`) y catálogo BB `bb/bb_catalogo_1140.json`; precios reales con mc-leg.
+- Enviados: combi 2 BB ≈ 3,71 (`combinadas_enviadas_1155.json`); BB Boost PSG–Roma 5,70 y Nacional–Medellín 5,70 (`bb/bb_boost_resumen.json`; Santa Fe–Once Caldas descartado).
+- Mantenimiento: real − precio ≈ −2 puntos sin efecto del volumen; LaLiga −17; tiros al arco Menos 1,5–3 +11,6 (n 66); tus boletos de 2 patas 40 % ganados. Reglas nuevas en CLAUDE.md («Mantenimiento 25-nov»).

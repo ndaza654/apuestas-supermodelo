@@ -1,0 +1,120 @@
+{
+ "leido": "2026-11-25 11:50 Bogotá",
+ "leido_hora": "11:50",
+ "condiciones": "BB BOOST (captura del usuario 11:16): mínimo 1 partido, cuota total ≥ 5,00, cuota mínima por selección 1,50, +25 % (Champions: PSG–Roma; Primera A: Santa Fe–Once Caldas o Nacional–Medellín). Margen propio: patas ≥ 1,51 y precio ≥ 5,05; mínimo 3 mercados.",
+ "condiciones_lista": [
+  "≥ 3 mercados del mismo partido",
+  "cada cuota > 1,50",
+  "cuota total > 5,00",
+  "bono +25 % (leer el % en el cupón)"
+ ],
+ "aviso": "Precios REALES (mc-leg) leídos ~11:50 Bogotá con el catálogo de 11:24; onces oficiales sin publicar a esa hora (PSG–Roma salen ~14:00). p propia por conteos y correlación aproximada; en cuotas 1,5–2,6 las líneas con «cumple» aciertan ≈ lo que dice el precio (sin ventaja medida).",
+ "paris-saint-germain-as-roma": {
+  "partido": "Paris Saint-Germain - AS Roma",
+  "hora": "2026-11-25 15:00",
+  "evento": 91595817,
+  "leido_hora": "11:50",
+  "veredicto": "BB Boost: SÍ cumple. 3 patas, las 3 con «cumple» en ambos equipos; precio real 5,70.",
+  "nota": "PSG 2.º (4 de 4 ganados, 20:5), Roma 23.º; bajas PSG Doué y Kvaratskhelia, Roma Pellegrini y Rensch; árbitro Nyberg G. (2,85 tarjetas/partido en sus últimos 20).",
+  "combos": [
+   {
+    "patas": [
+     "Goles total Más 3.5",
+     "Córners AS Roma Más 2.5",
+     "Saques de meta total Menos 16.5"
+    ],
+    "cuotas_catalogo": [
+     1.83,
+     1.57,
+     1.98
+    ],
+    "cuotas_cupon": null,
+    "precio_bb": 5.7,
+    "producto_cupon": 5.69,
+    "p_modelo": 0.21,
+    "p_prudente": 0.167,
+    "ev_sin_boost": -0.05,
+    "ev_con_boost": 0.15,
+    "pago_boost": 6.875,
+    "p_equilibrio_boost": 0.145,
+    "cumple": true,
+    "tag": "ELEGIDA · 3 de 3 patas cumplen ≥7 de 10",
+    "leido": "11:50",
+    "patas_cumple_regularidad": 3,
+    "evidencia": [
+     "Goles ≥4: PSG 7 de 10, Roma 7 de 10; esperado 4,5",
+     "Córners de Roma ≥3: Roma 8 de 10, rivales de PSG 8 de 10; esperado 5,1",
+     "Saques de meta ≤16: PSG 8 de 10, Roma 8 de 10; esperado 13,4"
+    ]
+   }
+  ]
+ },
+ "atletico-nacional-independiente-medellin": {
+  "partido": "Atletico Nacional - Independiente Medellín",
+  "hora": "2026-11-25 20:30",
+  "evento": 95845964,
+  "leido_hora": "12:20",
+  "veredicto": "BB Boost: SÍ cumple (precio 5,70). ELEGIDO para la promo de Primera A frente a Santa Fe–Once Caldas, con poca regularidad: solo 1 de 3 patas con «cumple».",
+  "nota": "Clásico de Medellín, cuadrangular A fecha 2: Medellín 3 pts (ganó 4 de sus últimos 5), Nacional 1 pt y obligado en casa; árbitro Betancur (≈4,75 amarillas + 0,25 rojas por partido en sus últimos 20). Nacional jugó 4 seguidos contra Once Caldas (copa y liga): su muestra reciente está sesgada a partidos cerrados.",
+  "combos": [
+   {
+    "patas": [
+     "Goles Independiente Medellín Más 0.5",
+     "Tarjetas total Más 6.5",
+     "Córners total Más 9.5"
+    ],
+    "cuotas_catalogo": [
+     1.62,
+     1.85,
+     1.93
+    ],
+    "cuotas_cupon": null,
+    "precio_bb": 5.7,
+    "producto_cupon": 5.78,
+    "p_modelo": 0.17,
+    "p_prudente": 0.167,
+    "ev_sin_boost": -0.03,
+    "ev_con_boost": 0.15,
+    "pago_boost": 6.875,
+    "p_equilibrio_boost": 0.145,
+    "cumple": true,
+    "tag": "ELEGIDA · 1 de 3 patas cumple ≥7 de 10 (Medellín anota 7 y 8 de 10)",
+    "leido": "12:20",
+    "patas_cumple_regularidad": 1,
+    "evidencia": [
+     "Medellín marcó en 8 de 10 (6 de 6 de visitante)",
+     "Tarjetas ≥7: Nacional 5 de 10, Medellín 4 de 10 (Flashscore solo amarillas); árbitro y clásico a favor",
+     "Córners ≥10: Nacional 4 de 10, Medellín 7 de 10"
+    ]
+   }
+  ]
+ },
+ "independiente-santa-fe-once-caldas": {
+  "partido": "Independiente Santa Fe - Once Caldas",
+  "hora": "2026-11-25 18:20",
+  "evento": 95845965,
+  "leido_hora": "12:20",
+  "veredicto": "No elegido. Mejor combo: Once Caldas tarjetas Menos 3.5 + Ambos marcan No + Once Caldas o empate, precio real 5,50; 1 de 3 patas cumple, y el contexto se contradice (árbitro Ruiz saca 5,5 tarjetas por partido; Santa Fe ganó 4 de 5 en casa).",
+  "nota": "Santa Fe 0 pts y obligado en El Campín; Once Caldas invicto en 10.",
+  "combos": [
+   {
+    "patas": [
+     "Tarjetas Once Caldas Menos 3.5",
+     "Ambos marcan No",
+     "Once Caldas o empate"
+    ],
+    "cuotas_catalogo": [
+     1.6,
+     1.82,
+     1.7
+    ],
+    "precio_bb": 5.5,
+    "producto_cupon": 4.95,
+    "p_modelo": 0.13,
+    "cumple": true,
+    "tag": "no elegida",
+    "patas_cumple_regularidad": 1
+   }
+  ]
+ }
+}
