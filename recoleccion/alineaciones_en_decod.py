@@ -9,7 +9,7 @@ import sys, os, json, datetime
 def nombre(n, slug):
     t = slug.split('-')
     k = len(n.split())
-    ini = t[k][0].upper() if len(t) > k else ''
+    ini = t[k][0].upper() if len(t) > k and t[k] else ''
     return (n + ' ' + ini + '.').strip() if ini else n
 
 
