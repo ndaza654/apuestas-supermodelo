@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-25 | 17:35 | Combinadas de 2 patas para lo que queda | Atlético-MG–Corinthians, Boca–Rivadavia, Toluca–Atlas, Monterrey–América | `2026-11-25/1735_combinadas_restantes.md` |
 | 2026-11-25 | 17:16 | BB Boost Colombia (elegido Santa Fe–Once Caldas 5,10; Nacional–Medellín no recomendado) | Santa Fe–Once Caldas, Nacional–Medellín | `2026-11-25/1716_bb_boost_colombia.md` |
 | 2026-11-25 | 15:10 | Mantenimiento: cuotas de jugador inventadas (tablas de Betano), limpieza 22–26-nov | todos | `2026-11-25/1510_mantenimiento_cuotas_jugador_inventadas.md` |
 | 2026-11-25 | 14:58 | BB Boost final (once oficial, precio real 5,40; alternativa 6,60) | PSG–Roma | `2026-11-25/1458_bb_boost_final_psg_roma.md` |
