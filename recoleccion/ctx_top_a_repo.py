@@ -45,6 +45,8 @@ def lu_de(o):
             slug, pid = hrefs.get(n, ('', ''))
             r.append({'n': n, 'slug': slug, 'pid': pid})
         return r
+    if len(forma) < 2:
+        return {'mid': o['mid'], 'url': o.get('url'), 'tipo': None, 'sin_pestana': True, 'probables': {'L': [], 'V': []}, 'bajas': {'L': [], 'V': []}}
     tipo = 'Predicted lineups' if 'PREDICTED' in o['lu_texto'].upper() else 'Confirmed lineups'
     return {'mid': o['mid'], 'url': o.get('url'), 'tipo': tipo, 'probables': {'L': lado(forma[0]), 'V': lado(forma[1])}, 'bajas': {'L': [], 'V': []}}
 
@@ -66,7 +68,7 @@ def main(dia, ent, hora):
             if isinstance(d, dict) and d.get('lado'):
                 por.setdefault(nz(re.sub(r'\s*#\d+$', '', nom)), d['lado'])
         sl = []
-        bt = bajas_texto(o['lu_texto'])
+        bt = [] if lu.get('sin_pestana') else bajas_texto(o['lu_texto'])
         lados = [por.get(nz(n)) for n, _, _ in bt]
         # El texto trae primero el bloque del local y luego el del visitante: un jugador sin historial toma el lado de sus vecinos si ambos coinciden.
         for i, l in enumerate(lados):
