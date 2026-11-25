@@ -9,8 +9,8 @@ Patas que entiende: `<mercado> [local|visitante|<equipo>] Más|Menos <línea>` (
 Lo que no entiende o no tiene resultado queda «sin resultado» (la combinada queda pendiente): no se inventa."""
 import glob, json, os, re, sys, unicodedata
 
-ETQ = {'sot': 'tiros al arco', 'sh': 'remates', 'c': 'córners', 'g': 'goles', 'y': 'puntos de tarjetas', 'f': 'faltas', 'off': 'fueras de juego'}
-MERC = [('tiros al arco', 'sot'), ('remates', 'sh'), ('corners', 'c'), ('goles', 'g'), ('tarjetas', 'y'), ('faltas', 'f'), ('fueras', 'off')]
+ETQ = {'gk': 'saques de meta', 'ti': 'saques de banda', 'sot': 'tiros al arco', 'sh': 'remates', 'c': 'córners', 'g': 'goles', 'y': 'puntos de tarjetas', 'f': 'faltas', 'off': 'fueras de juego'}
+MERC = [('saques de meta', 'gk'), ('saques de banda', 'ti'), ('tiros al arco', 'sot'), ('remates', 'sh'), ('corners', 'c'), ('goles', 'g'), ('tarjetas', 'y'), ('faltas', 'f'), ('fueras', 'off')]
 
 
 def n(s):

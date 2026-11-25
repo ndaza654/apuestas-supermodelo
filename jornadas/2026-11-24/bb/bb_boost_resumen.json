@@ -45,7 +45,23 @@
     "cumple": true,
     "tag": "ELEGIDA · 3 de 3 patas cumplen ≥7 de 10",
     "leido": "11:05",
-    "patas_cumple_regularidad": 3
+    "patas_cumple_regularidad": 3,
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "2 puntos de tarjetas (local)"
+     ],
+     [
+      true,
+      "1 goles (visitante)"
+     ],
+     [
+      false,
+      "4-1"
+     ]
+    ],
+    "jugada": false
    },
    {
     "patas": [
@@ -75,7 +91,23 @@
     "cumple": true,
     "tag": "Alternativa · mayor p; 2 de 3 cumplen (córners Bucaramanga 6 de 10)",
     "leido": "11:05",
-    "patas_cumple_regularidad": 2
+    "patas_cumple_regularidad": 2,
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "7 córners (visitante)"
+     ],
+     [
+      false,
+      "2 puntos de tarjetas (local)"
+     ],
+     [
+      false,
+      "4 goles (local)"
+     ]
+    ],
+    "jugada": false
    }
   ]
  },
@@ -118,7 +150,27 @@
     "cumple": true,
     "tag": "ELEGIDA · 4 de 4 patas cumplen ≥7 de 10",
     "leido": "14:23",
-    "patas_cumple_regularidad": 4
+    "patas_cumple_regularidad": 4,
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "8 córners (local)"
+     ],
+     [
+      false,
+      "30 remates (local)"
+     ],
+     [
+      true,
+      "4 tiros al arco (local)"
+     ],
+     [
+      true,
+      "5 córners (visitante)"
+     ]
+    ],
+    "jugada": false
    },
    {
     "patas": [
@@ -148,7 +200,23 @@
     "cumple": true,
     "tag": "Mayor p · 2 de 3 cumplen (remates Dortmund 6 de 10 local)",
     "leido": "14:23",
-    "patas_cumple_regularidad": 2
+    "patas_cumple_regularidad": 2,
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "8 córners (local)"
+     ],
+     [
+      false,
+      "30 remates (local)"
+     ],
+     [
+      true,
+      "13 remates (visitante)"
+     ]
+    ],
+    "jugada": false
    }
   ],
   "combos_1105": [
@@ -242,7 +310,23 @@
     "p_modelo": 0.202,
     "cumple": false,
     "tag": "No cumple (precio < 5,00)",
-    "leido": "11:05"
+    "leido": "11:05",
+    "resultado": "pendiente",
+    "patas_real": [
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ]
+    ],
+    "jugada": false
    }
   ],
   "en_vivo_2140": {

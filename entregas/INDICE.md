@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-24 | 22:00 | Balance del día: 2 BB perdidos (−$71.046), combinadas cuota 4 (2 de 3), Menos +22 % / Más −31 % | Champions + Colombia + AFC (18 partidos; América–Cali pendiente) | `entregas/2026-11-24/2200_balance_24nov.md` (+ `.html`) |
 | 2026-11-24 | 21:40 | BB Boost en vivo América–Cali (descanso) | América–Deportivo Cali | entregas/2026-11-24/2140_bb_en_vivo_america_cali.md |
 | 2026-11-24 | 15:45 | Lectura en vivo Champions (descanso), estado de BB Arsenal y D1–D3 | 7 partidos Champions | entregas/2026-11-24/1545_lectura_en_vivo_champions_descanso.md |
 | 2026-11-24 | 14:40 | Combinadas D1/D2/D3 cuota 4,25–4,89 | Champions 15:00 + Millonarios | entregas/2026-11-24/1440_combinadas_cuota4_champions.md |
