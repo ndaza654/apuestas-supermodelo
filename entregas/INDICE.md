@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-25 | 00:45 | Recolección de la noche (9 partidos: Championship, Brasileirão, Colombia, Boca, Liga MX) + informe de 44 partidos + mercados de Betano por liga | 9 nuevos del 25-nov | entregas/2026-11-25/0045_estado_recoleccion_tanda2.md · 0045_informe_25nov_44partidos.html |
 | 2026-11-24 | 23:55 | Informe interactivo de la jornada 25-nov (con Enfoque de mercados) + balance 24-nov completado (América–Cali y jugadores) | 35 partidos 25-nov; 16 partidos 24-nov | entregas/2026-11-24/2355_informe_25nov.html · jornadas/2026-11-24/balance/balance.html |
 | 2026-11-24 | 23:40 | 3 combis de la mañana (3 patas, cuota ~3) | J1 y ACL 05:00–07:15 | entregas/2026-11-24/2340_combis_manana_25nov.md |
 | 2026-11-25 | 00:30 | Estado de la recolección del 25-nov (Champions completa salvo Sabah/Shakhtar en jugadores; J1/ACL sin árbitro) | 35 partidos (Champions, Youth, J1, ACL) | entregas/2026-11-25/0030_estado_recoleccion_25nov.md |

@@ -116,3 +116,12 @@ Orden y fuente de cada dato (todo se guarda en `jornadas/AAAA-MM-DD/` apenas se 
 - **Adaptador:** `ctx_top_a_repo.py` convierte `recp_*` en `paginas/`, `alineaciones/`, `notas/` (las bajas se asignan por nombre contra `jugadores/<clave>.json`; las que no calzan quedan en `bajas_sin_lado`). `jugadores_en_decod.py` pide además un `spec` {mid: [[clave:L|V, L|V, fecha, rival]]} que se arma de `flashscore/<clave>.json → forma`.
 - **ValueStats (árbitros):** buscar con tilde y sin país; se parcheó `arbitros_valuestats.js` (CP, acentos, sin país) y `arbitros_vs_decod.py` (`D.get(c) or D.get(c[:12])`).
 - **Avance guardado:** `flashscore/jugadores_progreso.json` (hechos / sin tabla) para retomar sin repetir.
+
+## Lecciones del 25-nov (segunda tanda, modelo Opus 5.5): controles que encontraron errores
+- **Mercados por liga:** `python3 recoleccion/mercados_por_liga.py` → `registro/mercados_betano_por_liga.{json,md}` (44 ligas). Leer ANTES de recolectar para saber qué traer: si la liga trae estadística de jugador en la mayoría de partidos, historial por jugador; si pocas veces (Liga MX 50 %), releer Betano el día del partido. J1 y ACL: 0 % tarjetas.
+- **Control remates jugador = remates equipo** (por partido y lado) después de `cache_jugadores.py fusionar`: detectó 3 partidos de caché incompletos (Corinthians). La caché no es infalible: comprobar siempre.
+- **ValueStats:** el filtro por inicial nunca se aplicaba (estaba dentro de un comentario `//`). Comprobar siempre que la inicial de Flashscore coincida con `vs_nombre`.
+- **`ctx_top_a_repo.py --hora`:** la hora se perdía. Corregido.
+- **No pisar archivos de la tanda anterior:** `cache_jugadores.py cola` reescribe `jugadores_cola.json` y `jugadores_en_decod.py` reescribe `jugadores/crudo_flashscore_en.json`: renombrarlos antes (`*_champions.json`).
+- **Playoffs sin tabla:** en Flashscore la pestaña «Standings» de un playoff es el cuadro; la fase sale en el rótulo del resumen («QUARTER-FINALS», «First leg»): anotarla a mano en `notas/<clave>.json → se_juega`.
+- **Ritmo medido:** 86 partidos de jugadores en 11 rondas de 4 pestañas × 2 partidos (≈ 25 min), 0 fallos.

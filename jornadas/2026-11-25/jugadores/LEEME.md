@@ -6,9 +6,25 @@ Fuente: Flashscore, pestaña «Player stats» de cada partido pasado. Una fila p
 - Local (Atl. Madrid): **10 de 10** partidos con estadísticas por jugador, 21 jugadores.
 - Visitante (Viking): **9 de 10** partidos con estadísticas por jugador, 22 jugadores. Sin tabla/sin leer: 1 partidos.
 
+## boca-juniors-independiente-rivadavia
+- Local (Boca Juniors): **10 de 10** partidos con estadísticas por jugador, 25 jugadores.
+- Visitante (Ind. Rivadavia): **10 de 10** partidos con estadísticas por jugador, 27 jugadores.
+
+## bolton-west-bromwich-albion
+- Local (Bolton): **10 de 10** partidos con estadísticas por jugador, 23 jugadores.
+- Visitante (West Brom): **10 de 10** partidos con estadísticas por jugador, 20 jugadores.
+
+## burnley-birmingham
+- Local (Burnley): **10 de 10** partidos con estadísticas por jugador, 24 jugadores.
+- Visitante (Birmingham): **10 de 10** partidos con estadísticas por jugador, 22 jugadores.
+
 ## club-brugge-kv-liverpool-fc
 - Local (Club Brugge KV): **9 de 10** partidos con estadísticas por jugador, 20 jugadores. Sin tabla/sin leer: 1 partidos.
 - Visitante (Liverpool): **10 de 10** partidos con estadísticas por jugador, 23 jugadores.
+
+## clube-atletico-mg-corinthians-sp
+- Local (Atletico-MG): **10 de 10** partidos con estadísticas por jugador, 31 jugadores.
+- Visitante (Corinthians): **10 de 10** partidos con estadísticas por jugador, 27 jugadores.
 
 ## fc-sabah-fc-barcelona
 - Local (Sabah FC): **3 de 10** partidos con estadísticas por jugador, 18 jugadores. Sin tabla/sin leer: 7 partidos.
@@ -37,6 +53,10 @@ Fuente: Flashscore, pestaña «Player stats» de cada partido pasado. Una fila p
 ## sporting-cp-manchester-united
 - Local (Sporting CP): **9 de 10** partidos con estadísticas por jugador, 30 jugadores. Sin tabla/sin leer: 1 partidos.
 - Visitante (Manchester Utd): **10 de 10** partidos con estadísticas por jugador, 23 jugadores.
+
+## watford-blackburn-rovers
+- Local (Watford): **10 de 10** partidos con estadísticas por jugador, 22 jugadores.
+- Visitante (Blackburn): **10 de 10** partidos con estadísticas por jugador, 22 jugadores.
 
 ## Límites
 - «Tackles won» (entradas ganadas/intentadas de Flashscore) no es idéntico a las entradas totales de Betano.

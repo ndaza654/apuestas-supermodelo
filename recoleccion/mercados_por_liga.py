@@ -29,7 +29,7 @@ def familias(b):
 
 
 def construir():
-    L = collections.defaultdict(lambda: {'partidos': 0, 'familias': collections.Counter(), 'ultima': '', 'ejemplos': []})
+    L = collections.defaultdict(lambda: {'partidos': 0, 'con_stat': 0, 'familias': collections.Counter(), 'ultima': '', 'ejemplos': []})
     for f in sorted(glob.glob(os.path.join(RAIZ, 'jornadas/*/betano/*.json'))):
         try:
             d = json.load(open(f, encoding='utf8'))
@@ -41,8 +41,10 @@ def construir():
         x = L[liga]; x['partidos'] += 1; x['ultima'] = max(x['ultima'], jor)
         if len(x['ejemplos']) < 3:
             x['ejemplos'].append(f"{jor} {m.get('local')}–{m.get('visitante')}")
-        for fa in familias(b):
+        fs = familias(b)
+        for fa in fs:
             x['familias'][fa] += 1
+        x['con_stat'] += any(f.startswith('jugador:') and f.split(':', 1)[1] in STAT_JUG for f in fs)
     out = {}
     for liga, x in sorted(L.items()):
         n = x['partidos']; fam = {k: round(v / n, 2) for k, v in sorted(x['familias'].items())}
@@ -51,14 +53,16 @@ def construir():
                      'jugador_estadistica': stat, 'goleador': fam.get('jugador:anota', 0), 'tarjeta_jugador': fam.get('jugador:tarjeta', 0),
                      'tarjetas_equipo': max([v for k, v in fam.items() if k.startswith('tarjetas:')] or [0]),
                      'corners': max([v for k, v in fam.items() if k.startswith('corners:')] or [0]),
+                     'con_jugador_estadistica': round(x['con_stat'] / n, 2),
                      'necesita_historial_jugador': bool(stat), 'familias': fam}
     json.dump(out, open(os.path.join(RAIZ, 'registro/mercados_betano_por_liga.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=1)
     md = ['# Mercados que ofrece Betano por liga (aprendido de las recolecciones)', '',
           'Se regenera con `python3 recoleccion/mercados_por_liga.py`. Fracción = en qué parte de los partidos vistos apareció la familia la noche anterior '
-          '(el día del partido Betano puede abrir más, sobre todo de jugador).', '',
-          '| Liga | Partidos | Córners | Tarjetas equipo | Goleador | Tarjeta jugador | Estadística de jugador (→ historial por jugador) | Última |', '|---|---|---|---|---|---|---|---|']
+          '(el día del partido Betano puede abrir más, sobre todo de jugador). Regla: si una liga trae estadística de jugador en la mayoría de partidos, '
+          'traer el historial por jugador aunque esa noche no salga; si la trae pocas veces, releer Betano el día del partido y traerlo solo si aparece.', '',
+          '| Liga | Partidos | Córners | Tarjetas equipo | Goleador | Tarjeta jugador | Partidos con estadística de jugador | Cuáles (→ historial por jugador) | Última |', '|---|---|---|---|---|---|---|---|---|']
     for liga, o in sorted(out.items(), key=lambda kv: -kv[1]['partidos_vistos']):
-        md.append(f"| {liga} | {o['partidos_vistos']} | {o['corners']:.0%} | {o['tarjetas_equipo']:.0%} | {o['goleador']:.0%} | {o['tarjeta_jugador']:.0%} | {', '.join(o['jugador_estadistica']) or '—'} | {o['ultima_jornada']} |")
+        md.append(f"| {liga} | {o['partidos_vistos']} | {o['corners']:.0%} | {o['tarjetas_equipo']:.0%} | {o['goleador']:.0%} | {o['tarjeta_jugador']:.0%} | {o['con_jugador_estadistica']:.0%} | {', '.join(o['jugador_estadistica']) or '—'} | {o['ultima_jornada']} |")
     open(os.path.join(RAIZ, 'registro/mercados_betano_por_liga.md'), 'w', encoding='utf8').write('\n'.join(md) + '\n')
     return out
 

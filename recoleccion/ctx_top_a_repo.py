@@ -97,6 +97,6 @@ def main(dia, ent, hora):
 
 
 if __name__ == '__main__':
-    a = [x for x in sys.argv[1:] if not x.startswith('--')]
     h = sys.argv[sys.argv.index('--hora') + 1] if '--hora' in sys.argv else '22:30'
-    main(a[0], a[1], h if h not in a else '22:30')
+    a = [x for i, x in enumerate(sys.argv[1:], 1) if not x.startswith('--') and not (sys.argv[i - 1] == '--hora')]
+    main(a[0], a[1], h)   # antes la hora se perdía (quedaba en a y se usaba 22:30 siempre)

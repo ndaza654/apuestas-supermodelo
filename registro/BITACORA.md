@@ -362,3 +362,8 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Combis de la mañana (C1–C3, 3 patas, cuota 2,97–3,26, p modelo 27–33 %): `jornadas/2026-11-25/combinadas_enviadas_2340.json`. Con «cumple» y cuota ≥ 1,60 solo había 2 líneas (mismo partido): no se pudo hacer de 2 patas a cuota 3.
 - 24-nov completado: América 2-1 Cali calificado (equipo 48/46; cumple 8 de 10) y 8.955 líneas de jugador con las tablas Player stats de los 16 partidos (`resultados/jugadores_resultado.txt`, nuevo `recoleccion/jugadores_resultado_top.py` para las tablas leídas con `pjTop`). Jugador con «cumple»: 42 de 63 (67 %) contra 74 % del precio. Balance, libro (Líneas/Sugeridas 24-nov), sugerencias, aprendizaje de combos e historial de boletos rehechos.
 - Informe 25-nov con «Enfoque de mercados» (`enfoque.md`) regenerado y revisado sin errores de consola.
+
+## 25-nov-2026 (00:45) · segunda tanda de la recolección del 25-nov (modelo Opus 5.5)
+- 9 partidos de la noche (Championship ×3, Brasileirão, Colombia ×2, Boca, Liga MX ×2): Betano, Flashscore (10 + directos), árbitros 7/9, jugadores 10 de 10 en los 10 equipos que lo necesitan (86 partidos leídos, 0 fallos), onces probables, bajas, tabla/fase. Detalle: `jornadas/2026-11-25/ESTADO.md`.
+- Nuevo `recoleccion/mercados_por_liga.py` → `registro/mercados_betano_por_liga.{json,md}` (qué mercados da Betano por liga, 44 ligas).
+- Errores encontrados y corregidos: filtro por inicial de `arbitros_valuestats.js` (estaba comentado: 2 árbitros del 22-nov mal emparejados, marcados); `ctx_top_a_repo.py --hora` se perdía; enfoque del 25-nov decía que J1/ACL tenían tarjetas en Betano (no las tienen); 3 partidos de Corinthians en la caché con remates incompletos (releídos; control jugador = equipo ahora 100 de 100).

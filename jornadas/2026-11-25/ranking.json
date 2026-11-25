@@ -1,5 +1,117 @@
 [
  {
+  "partido": "Clube Atletico MG - Corinthians SP",
+  "liga": "Brasil Brasileirao - Serie A",
+  "fecha": "2026-11-25 18:00",
+  "datos": 97,
+  "situacion": 59,
+  "estado": "apto",
+  "apto": true,
+  "mercados": {
+   "córners": {
+    "datos": 100,
+    "estado": "apto",
+    "cumplen": 2
+   },
+   "partido": {
+    "datos": 80,
+    "estado": "apto",
+    "cumplen": 8
+   },
+   "jugadores": {
+    "datos": 80,
+    "estado": "apto",
+    "cumplen": 3
+   }
+  },
+  "familias_datos": {
+   "córners": 100,
+   "partido": 80,
+   "jugadores": 80
+  },
+  "motivos": [],
+  "detalle_datos": [
+   "Córners: 43 líneas, muestra de 10 al 100% → 100",
+   "Partido: 2/6 familias ofrecidas, muestra al 100% → 80",
+   "Jugadores: 17 con línea, 66% con ≥7 partidos de historial, 100% titulares probables → 80",
+   "Árbitro con promedio: +5; directos con estadística: 6 (+5)"
+  ],
+  "detalle_situacion": [
+   "+10 un equipo necesita ganar",
+   "+5 partido parejo (según cuotas)",
+   "-6 2 duda(s) abierta(s) en la ficha"
+  ],
+  "lineas_que_cumplen": 10,
+  "por_mercado": {
+   "Córners": 2,
+   "Remates": 3,
+   "Tiros al arco": 2,
+   "Goles": 1,
+   "Tarjetas": 2
+  },
+  "jugadores_que_cumplen": 3,
+  "probabilidades_1x2": {
+   "1": 0.39739027283511275,
+   "X": 0.2846975088967971,
+   "2": 0.31791221826809013
+  }
+ },
+ {
+  "partido": "Atletico Nacional - Independiente Medellín",
+  "liga": "Colombia Categoría Primera A",
+  "fecha": "2026-11-25 20:30",
+  "datos": 70,
+  "situacion": 57,
+  "estado": "apto",
+  "apto": true,
+  "mercados": {
+   "córners": {
+    "datos": 100,
+    "estado": "apto",
+    "cumplen": 1
+   },
+   "partido": {
+    "datos": null,
+    "estado": "no ofrece",
+    "cumplen": 5
+   },
+   "jugadores": {
+    "datos": 20,
+    "estado": "no apto",
+    "cumplen": 0
+   }
+  },
+  "familias_datos": {
+   "córners": 100,
+   "jugadores": 20
+  },
+  "motivos": [
+   "partido: Betano no lo ofrece",
+   "jugadores: datos 20 < 60"
+  ],
+  "detalle_datos": [
+   "Córners: 12 líneas, muestra de 10 al 100% → 100",
+   "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
+   "Jugadores: 57 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20",
+   "Árbitro con promedio: +5; directos con estadística: 6 (+5)"
+  ],
+  "detalle_situacion": [
+   "+10 derbi",
+   "-3 1 duda(s) abierta(s) en la ficha"
+  ],
+  "lineas_que_cumplen": 6,
+  "por_mercado": {
+   "Córners": 1,
+   "Goles": 5
+  },
+  "jugadores_que_cumplen": 0,
+  "probabilidades_1x2": {
+   "1": 0.5235602094240838,
+   "X": 0.26468877254217577,
+   "2": 0.21175101803374058
+  }
+ },
+ {
   "partido": "Atlético Madrid - Viking FK",
   "liga": "Champions League Champions League",
   "fecha": "2026-11-25 15:00",
@@ -482,6 +594,179 @@
   }
  },
  {
+  "partido": "Burnley - Birmingham",
+  "liga": "Inglaterra Championship",
+  "fecha": "2026-11-25 14:45",
+  "datos": 93,
+  "situacion": null,
+  "estado": "reserva",
+  "apto": false,
+  "mercados": {
+   "córners": {
+    "datos": 100,
+    "estado": "reserva",
+    "cumplen": 4
+   },
+   "partido": {
+    "datos": 80,
+    "estado": "reserva",
+    "cumplen": 18
+   },
+   "jugadores": {
+    "datos": 83,
+    "estado": "reserva",
+    "cumplen": 4
+   }
+  },
+  "familias_datos": {
+   "córners": 100,
+   "partido": 80,
+   "jugadores": 83
+  },
+  "motivos": [
+   "situación sin leer"
+  ],
+  "detalle_datos": [
+   "Córners: 37 líneas, muestra de 10 al 100% → 100",
+   "Partido: 2/6 familias ofrecidas, muestra al 100% → 80",
+   "Jugadores: 17 con línea, 73% con ≥7 partidos de historial, 100% titulares probables → 83",
+   "Árbitro con promedio: +5; directos con estadística: 2 (0)"
+  ],
+  "detalle_situacion": [
+   "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
+   "+5 partido parejo (según cuotas)",
+   "-6 2 duda(s) abierta(s) en la ficha"
+  ],
+  "lineas_que_cumplen": 22,
+  "por_mercado": {
+   "Córners": 4,
+   "Remates": 7,
+   "Tiros al arco": 6,
+   "Goles": 5
+  },
+  "jugadores_que_cumplen": 4,
+  "probabilidades_1x2": {
+   "1": 0.3503612174805574,
+   "X": 0.2684457779005961,
+   "2": 0.3811930046188465
+  }
+ },
+ {
+  "partido": "Bolton - West Bromwich Albion",
+  "liga": "Inglaterra Championship",
+  "fecha": "2026-11-25 14:45",
+  "datos": 96,
+  "situacion": null,
+  "estado": "reserva",
+  "apto": false,
+  "mercados": {
+   "córners": {
+    "datos": 100,
+    "estado": "reserva",
+    "cumplen": 4
+   },
+   "partido": {
+    "datos": 80,
+    "estado": "reserva",
+    "cumplen": 14
+   },
+   "jugadores": {
+    "datos": 93,
+    "estado": "reserva",
+    "cumplen": 7
+   }
+  },
+  "familias_datos": {
+   "córners": 100,
+   "partido": 80,
+   "jugadores": 93
+  },
+  "motivos": [
+   "situación sin leer"
+  ],
+  "detalle_datos": [
+   "Córners: 37 líneas, muestra de 10 al 100% → 100",
+   "Partido: 2/6 familias ofrecidas, muestra al 100% → 80",
+   "Jugadores: 17 con línea, 93% con ≥7 partidos de historial, 100% titulares probables → 93",
+   "Árbitro con promedio: +5; directos con estadística: 0 (0)"
+  ],
+  "detalle_situacion": [
+   "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
+   "-6 2 duda(s) abierta(s) en la ficha"
+  ],
+  "lineas_que_cumplen": 18,
+  "por_mercado": {
+   "Córners": 4,
+   "Remates": 5,
+   "Tiros al arco": 6,
+   "Goles": 3
+  },
+  "jugadores_que_cumplen": 7,
+  "probabilidades_1x2": {
+   "1": 0.26535900665826884,
+   "X": 0.2617239517725391,
+   "2": 0.47291704156919195
+  }
+ },
+ {
+  "partido": "Boca Juniors - Independiente Rivadavia",
+  "liga": "Argentina Liga Profesional",
+  "fecha": "2026-11-25 19:00",
+  "datos": 100,
+  "situacion": null,
+  "estado": "reserva",
+  "apto": false,
+  "mercados": {
+   "córners": {
+    "datos": 100,
+    "estado": "reserva",
+    "cumplen": 4
+   },
+   "partido": {
+    "datos": 80,
+    "estado": "reserva",
+    "cumplen": 20
+   },
+   "jugadores": {
+    "datos": 95,
+    "estado": "reserva",
+    "cumplen": 0
+   }
+  },
+  "familias_datos": {
+   "córners": 100,
+   "partido": 80,
+   "jugadores": 95
+  },
+  "motivos": [
+   "situación sin leer"
+  ],
+  "detalle_datos": [
+   "Córners: 23 líneas, muestra de 10 al 100% → 100",
+   "Partido: 2/6 familias ofrecidas, muestra al 100% → 80",
+   "Jugadores: 18 con línea, 94% con ≥7 partidos de historial, 100% titulares probables → 95",
+   "Árbitro con promedio: +5; directos con estadística: 3 (+5)"
+  ],
+  "detalle_situacion": [
+   "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
+   "-6 2 duda(s) abierta(s) en la ficha"
+  ],
+  "lineas_que_cumplen": 24,
+  "por_mercado": {
+   "Córners": 4,
+   "Remates": 10,
+   "Tiros al arco": 6,
+   "Goles": 2,
+   "Tarjetas": 2
+  },
+  "jugadores_que_cumplen": 0,
+  "probabilidades_1x2": {
+   "1": 0.5695576454197144,
+   "X": 0.26059212817833505,
+   "2": 0.16985022640195052
+  }
+ },
+ {
   "partido": "FC Shakhtar Donetsk - Fenerbahce SK",
   "liga": "Champions League Champions League",
   "fecha": "2026-11-25 15:00",
@@ -537,6 +822,235 @@
    "1": 0.31696532464510124,
    "X": 0.2641377705375844,
    "2": 0.4188969048173144
+  }
+ },
+ {
+  "partido": "CF Monterrey - Club América",
+  "liga": "México Liga MX",
+  "fecha": "2026-11-25 22:00",
+  "datos": 78,
+  "situacion": null,
+  "estado": "reserva",
+  "apto": false,
+  "mercados": {
+   "córners": {
+    "datos": 100,
+    "estado": "reserva",
+    "cumplen": 12
+   },
+   "partido": {
+    "datos": null,
+    "estado": "no ofrece",
+    "cumplen": 3
+   },
+   "jugadores": {
+    "datos": 45,
+    "estado": "no apto",
+    "cumplen": 0
+   }
+  },
+  "familias_datos": {
+   "córners": 100,
+   "jugadores": 45
+  },
+  "motivos": [
+   "situación sin leer",
+   "partido: Betano no lo ofrece",
+   "jugadores: datos 45 < 60"
+  ],
+  "detalle_datos": [
+   "Córners: 37 líneas, muestra de 10 al 100% → 100",
+   "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
+   "Jugadores: 15 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 45",
+   "Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)"
+  ],
+  "detalle_situacion": [
+   "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
+   "+5 partido parejo (según cuotas)",
+   "-3 1 duda(s) abierta(s) en la ficha"
+  ],
+  "lineas_que_cumplen": 15,
+  "por_mercado": {
+   "Córners": 12,
+   "Goles": 3
+  },
+  "jugadores_que_cumplen": 0,
+  "probabilidades_1x2": {
+   "1": 0.4072181411689556,
+   "X": 0.27786649632705207,
+   "2": 0.31491536250399227
+  }
+ },
+ {
+  "partido": "Watford - Blackburn Rovers",
+  "liga": "Inglaterra Championship",
+  "fecha": "2026-11-25 14:45",
+  "datos": 100,
+  "situacion": null,
+  "estado": "reserva",
+  "apto": false,
+  "mercados": {
+   "córners": {
+    "datos": 100,
+    "estado": "reserva",
+    "cumplen": 0
+   },
+   "partido": {
+    "datos": 80,
+    "estado": "reserva",
+    "cumplen": 8
+   },
+   "jugadores": {
+    "datos": 97,
+    "estado": "reserva",
+    "cumplen": 4
+   }
+  },
+  "familias_datos": {
+   "córners": 100,
+   "partido": 80,
+   "jugadores": 97
+  },
+  "motivos": [
+   "situación sin leer"
+  ],
+  "detalle_datos": [
+   "Córners: 37 líneas, muestra de 10 al 100% → 100",
+   "Partido: 2/6 familias ofrecidas, muestra al 100% → 80",
+   "Jugadores: 21 con línea, 94% con ≥7 partidos de historial, 100% titulares probables → 97",
+   "Árbitro con promedio: +5; directos con estadística: 6 (+5)"
+  ],
+  "detalle_situacion": [
+   "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
+   "+5 partido parejo (según cuotas)",
+   "-6 2 duda(s) abierta(s) en la ficha"
+  ],
+  "lineas_que_cumplen": 8,
+  "por_mercado": {
+   "Remates": 4,
+   "Tiros al arco": 2,
+   "Goles": 1,
+   "Tarjetas": 1
+  },
+  "jugadores_que_cumplen": 4,
+  "probabilidades_1x2": {
+   "1": 0.37177755151361486,
+   "X": 0.2769473354753595,
+   "2": 0.35127511301102576
+  }
+ },
+ {
+  "partido": "Deportivo Toluca FC - Atlas FC",
+  "liga": "México Liga MX",
+  "fecha": "2026-11-25 20:00",
+  "datos": 77,
+  "situacion": null,
+  "estado": "reserva",
+  "apto": false,
+  "mercados": {
+   "córners": {
+    "datos": 100,
+    "estado": "reserva",
+    "cumplen": 9
+   },
+   "partido": {
+    "datos": null,
+    "estado": "no ofrece",
+    "cumplen": 2
+   },
+   "jugadores": {
+    "datos": 44,
+    "estado": "no apto",
+    "cumplen": 0
+   }
+  },
+  "familias_datos": {
+   "córners": 100,
+   "jugadores": 44
+  },
+  "motivos": [
+   "situación sin leer",
+   "partido: Betano no lo ofrece",
+   "jugadores: datos 44 < 60"
+  ],
+  "detalle_datos": [
+   "Córners: 38 líneas, muestra de 10 al 100% → 100",
+   "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
+   "Jugadores: 14 con línea, 0% con ≥7 partidos de historial, 100% titulares probables → 44",
+   "Árbitro con promedio: 0 (sin dato); directos con estadística: 6 (+5)"
+  ],
+  "detalle_situacion": [
+   "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
+   "+10 favorito claro (64%, según cuotas)",
+   "-3 1 duda(s) abierta(s) en la ficha"
+  ],
+  "lineas_que_cumplen": 11,
+  "por_mercado": {
+   "Córners": 9,
+   "Goles": 2
+  },
+  "jugadores_que_cumplen": 0,
+  "probabilidades_1x2": {
+   "1": 0.6419449566345694,
+   "X": 0.20077852898996107,
+   "2": 0.1572765143754695
+  }
+ },
+ {
+  "partido": "Independiente Santa Fe - Once Caldas",
+  "liga": "Colombia Categoría Primera A",
+  "fecha": "2026-11-25 18:20",
+  "datos": 70,
+  "situacion": null,
+  "estado": "reserva",
+  "apto": false,
+  "mercados": {
+   "córners": {
+    "datos": 100,
+    "estado": "reserva",
+    "cumplen": 5
+   },
+   "partido": {
+    "datos": null,
+    "estado": "no ofrece",
+    "cumplen": 5
+   },
+   "jugadores": {
+    "datos": 20,
+    "estado": "no apto",
+    "cumplen": 0
+   }
+  },
+  "familias_datos": {
+   "córners": 100,
+   "jugadores": 20
+  },
+  "motivos": [
+   "situación sin leer",
+   "partido: Betano no lo ofrece",
+   "jugadores: datos 20 < 60"
+  ],
+  "detalle_datos": [
+   "Córners: 12 líneas, muestra de 10 al 100% → 100",
+   "Partido: Betano no ofrece faltas, fueras, saques, remates ni tiros al arco",
+   "Jugadores: 49 con línea, 0% con ≥7 partidos de historial, 0% titulares probables → 20",
+   "Árbitro con promedio: +5; directos con estadística: 6 (+5)"
+  ],
+  "detalle_situacion": [
+   "sin señales de situación en la ficha (todo por defecto): hay que leer tabla, motivación, rotación y previa",
+   "-3 1 duda(s) abierta(s) en la ficha"
+  ],
+  "lineas_que_cumplen": 10,
+  "por_mercado": {
+   "Córners": 5,
+   "Goles": 4,
+   "Tarjetas": 1
+  },
+  "jugadores_que_cumplen": 0,
+  "probabilidades_1x2": {
+   "1": 0.42818963513827557,
+   "X": 0.28805484545665816,
+   "2": 0.2837555194050662
   }
  },
  {
