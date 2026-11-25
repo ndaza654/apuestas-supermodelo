@@ -136,7 +136,7 @@
         for (const j of js) { const R = out.jugadores[lado]; (R[j.nombre] = R[j.nombre] || { lado: lado === 'local' ? 'L' : 'V', pos: j.pos, pid: j.pid, p: [] }).p.push(j.fila); }
       }
     }
-    const h = await sfGet('/event/' + ev.id + '/h2h/events');
+    const h = await sfGet('/event/' + (E.customId || ev.customId) + '/h2h/events');      // el h2h va por customId, no por id numérico
     for (const pe of ((h && h.events) || []).filter(oficial).sort((a, b) => b.startTimestamp - a.startTimestamp).slice(0, 6)) {
       const C = W.__sfCache[pe.id] || (W.__sfCache[pe.id] = {}); if (!C.st) C.st = await estadisticas(pe.id) || { all: {}, h1: {} };
       const eLocal = pe.homeTeam.id === ev.homeTeam.id;       // orientado a [local_actual, visitante_actual]
