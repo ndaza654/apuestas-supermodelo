@@ -1,7 +1,7 @@
 /* Sofascore → estadísticas de equipo, historial por jugador y árbitro, en el MISMO formato que flashscore/<clave>.json y jugadores/<clave>.json.
  * Se corre en una pestaña de https://www.sofascore.com (el navegador integrado pide request_access en cada uso). Rutas del MISMO sitio (/api/v1/...):
  * api.sofascore.com da 403. ≈0,1 s por llamada; ≈60–90 llamadas por partido (10 partidos × 2 equipos × estadísticas + once + incidentes, y 6 directos).
- *   window.__M = [[clave, 'Royale Union SG', 'Lech Poznan', '2026-11-26'], ...]      // clave de la jornada, nombres (Flashscore/Betano), fecha AAAA-MM-DD (Bogotá)
+ *   window.__M = [[clave, 'Royale Union SG', 'Lech Poznan', '2026-11-26', 'Union Saint-Gilloise', 'Lech Poznan'], ...]      // clave, nombres de Flashscore, fecha AAAA-MM-DD (Bogotá) y, opcional, los de Betano como alternos
  *   (0,eval)(await (await fetch('https://raw.githubusercontent.com/ndaza654/apuestas-supermodelo/main/recoleccion/sofascore_extraer.js')).text());
  *   await sfCorrer(window.__M)           // ≈15–30 s por partido; resultado en window.__sf[clave]; progreso en window.__sfLog
  *   sfExportar()                         // JSON (string) para bajar con Blob + a.download → recoleccion/sofascore_decod.py
@@ -94,7 +94,12 @@
     return { e: { fecha: dia(ev.startTimestamp), rival: esLocal ? ev.awayTeam.name : ev.homeTeam.name, comp: (ev.tournament.uniqueTournament || ev.tournament).name, v: esLocal ? 'L' : 'V', mid: String(ev.id), g,
       stats: orienta(C.st.all, esLocal), stats_1t: orienta(C.st.h1, esLocal) }, esLocal };
   }
-  async function buscarEvento(local, visita, fecha) {     // por equipo: búsqueda → próximos partidos → el que enfrenta al rival ese día (±1)
+  async function buscarEvento(local, visita, fecha, localAlt, visitaAlt) {     // por equipo: búsqueda → próximos partidos → el que enfrenta al rival ese día (±1); con nombres alternos (Betano) si los de Flashscore no casan
+    const nombres = [[local, visita]].concat(localAlt && visitaAlt ? [[localAlt, visitaAlt]] : []);
+    for (const [l, v] of nombres) { const ev = await buscarEvento1(l, v, fecha); if (ev) return ev; }
+    return null;
+  }
+  async function buscarEvento1(local, visita, fecha) {
     const intentos = [[local, visita], [visita, local]];
     for (const [a, b] of intentos) {
       const q = (toks(a).join(' ') || a);
@@ -109,9 +114,9 @@
     }
     return null;
   }
-  async function unPartido([clave, local, visita, fecha]) {
+  async function unPartido([clave, local, visita, fecha, localAlt, visitaAlt]) {
     const t0 = Date.now(), avisos = [];
-    const ev = await buscarEvento(local, visita, fecha);
+    const ev = await buscarEvento(local, visita, fecha, localAlt, visitaAlt);
     if (!ev) { W.__sf[clave] = { clave, error: 'sin evento en Sofascore', local, visitante: visita, fecha }; return; }
     const det = await sfGet('/event/' + ev.id); const E = (det && det.event) || ev;
     const out = { clave, sofa_id: ev.id, mid: String(ev.id), local: ev.homeTeam.name, visitante: ev.awayTeam.name, fecha, n: 10, forma: { local: [], visitante: [] }, h2h: [], avisos, jugadores: { local: {}, visitante: {} },

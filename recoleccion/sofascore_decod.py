@@ -44,7 +44,7 @@ def alineacion_flashscore(q):
     if not a or not a['local']['xi']:
         return None
     pr = lambda l: [[corto(n), '', 's' + pid, 1 if pos == 'G' else 0] for n, pid, pos in l['xi']]
-    ba = lambda l: [[corto(n), 's' + pid, ('duda' if tipo == 'doubtful' else 'baja') + (f' (Sofascore: {razon})' if razon else '')] for n, pid, tipo, razon in l['ausentes']]
+    ba = lambda l: [[corto(n), 's' + pid, ('duda' if tipo == 'doubtful' else 'baja') + ' (Sofascore, sin detalle del motivo)'] for n, pid, tipo, razon in l['ausentes']]
     return {'mid': q.get('mid'), 'tipo': 'Alineaciones ' + ('oficiales' if a['confirmada'] else 'probables') + ' (Sofascore)',
             'lectura_utc': (a.get('leida') or '')[:16] + 'Z', 'probables': {'L': pr(a['local']), 'V': pr(a['visitante'])},
             'bajas': {'L': ba(a['local']), 'V': ba(a['visitante'])}, 'formacion': {'L': a['local']['formacion'], 'V': a['visitante']['formacion']},

@@ -184,4 +184,28 @@ import calificar_jugadores as _CJP
 _pl = {'Abdullazada R.': 1, 'Khaybulaev A.': 2, 'Muric A.': 3}
 check(_CJP.casar('Rufat Abdullazade', _pl) == 'Abdullazada R.' and _CJP.casar('Abdulakh Khaybulayev', _pl) == 'Khaybulaev A.' and _CJP.casar('Ayden Abdullazade', _pl) is None and _CJP.casar('Mario Mitaj', _pl) is None, 'jugadores: casa variantes de apellido (Abdullazade/Abdullazada) pero no a otro jugador con otra inicial')
 
+# 25-nov-2026: Sofascore como fuente principal (nombres, contraste, fusión, dos onces, columnas nuevas de jugador)
+import sofascore_decod as _SD
+check(_SD.corto('Hervé Koffi') == 'Koffi H.' and _SD.corto('Jan Paul van Hecke') == 'van Hecke J.' and _SD.corto('Neymar') == 'Neymar', 'sofascore: el nombre completo pasa al formato «Apellido I.» de Flashscore (con partículas)')
+check(A.coincide('Allister K.', 'Kevin Mac Allister') and A.coincide('Murillo A.', 'Michael Amir Murillo') and not A.coincide('Murillo J.', 'Michael Amir Murillo'), 'coincide: la inicial puede ser la de cualquier nombre de pila, nunca otra letra')
+_par = lambda g, c: {'fecha': '2026-11-01', 'rival': 'X', 'g': g, 'stats': {'c': c, 'sh': [10, 8]}}
+_a = {'forma': {'local': [_par([1, 0], [5, 3])], 'visitante': []}}
+_b = {'forma': {'local': [_par([1, 0], [5, 6])], 'visitante': []}}
+_c = _SD.contraste(_a, _b)
+check(_c['partidos_comunes'] == 1 and _c['celdas'] == 4 and _c['iguales'] == 3 and _c['dif_mayor'] == 1 and 'c[1]' in _c['mayores'][0], 'sofascore: el contraste cuenta cifras iguales y diferencias mayores que 1 entre dos fuentes por (fecha, marcador)')
+_sf = {'mid': '1', 'forma': {'local': [_par([1, 0], [5, 3])] * 8, 'visitante': [_par([0, 0], [4, 4])] * 8}, 'h2h': [], 'avisos': [], 'arbitro': 'Árbitro Uno', 'arbitro_pais': 'España', 'arbitro_sofa': {'partidos': 100, 'amarillas': 480, 'rojas': 5}}
+_fs0 = {'mid': 'f', 'local': 'A', 'visitante': 'B', 'forma': {'local': [_par([1, 0], [5, 6])] * 10, 'visitante': [_par([0, 0], [4, 4])] * 10}, 'h2h': [{'fecha': '2025-01-01', 'g': [1, 1], 'stats': {}}], 'arbitro': 'Flashscore Ref', 'avisos': ['viejo']}
+_m, _ = A.fusionar_sofascore(_fs0, _sf)
+check(_m['fuente_forma'] == 'Sofascore' and len(_m['forma']['local']) == 8 and _m['arbitro'] == 'Flashscore Ref' and _m['h2h'] == _fs0['h2h'] and any('Contraste' in x for x in _m['avisos']) and 'viejo' not in _m['avisos'], 'sofascore: sustituye la forma, conserva directos y árbitro de Flashscore si Sofascore no los trae y declara el contraste')
+_m2, _ = A.fusionar_sofascore(None, _sf)
+_m3, _ = A.fusionar_sofascore(_fs0, {'forma': {'local': [_par([1, 0], [5, 3])] * 3, 'visitante': [_par([1, 0], [5, 3])] * 9}})
+check(_m2['arbitro'] == 'Árbitro Uno' and _m2['forma']['visitante'] and _m3 is _fs0, 'sofascore: funciona sin Flashscore; con menos de 8 partidos por equipo se queda la fuente de respaldo (Flashscore)')
+_jx = lambda n, f='x': {'nombre': n, 'lado': 'local', 'titular': 0.9, 'minutos': 80, 'fuente': f}
+_xi, _tx = A.combinar_xi([_jx('Ana'), _jx('Bea'), dict(_jx('Cora'), titular=0.0, fuera=True)], [_jx('Ana'), _jx('Dina'), _jx('Cora')], 'Sofascore', 'Flashscore')
+_t = {j['nombre']: (j['titular'], j.get('fuentes_xi')) for j in _xi}
+check(_t['Ana'] == (0.9, '2/2') and _t['Bea'] == (0.5, '1/2') and _t['Dina'] == (0.5, '1/2') and _t['Cora'][0] == 0.0 and 'Bea' in _tx and 'Dina' in _tx, 'dos onces: titular 0,9 si están en los dos, 0,5 si solo en uno (declarado) y la baja de cualquier fuente manda')
+_hh, _ = A.hist_de({'Juan Perez': {'lado': 'L', 'pid': 's1', 'p': [['m1', '2026-11-01', 90, 1, 0, 0, 0, 0, 0, 1, 2, 0, 5, 3, 4, 0.2, 7.1]]}}, {'jugadores': [{'jugador': 'Juan Perez', 'lado': 'local', 'stat': 'faltas', 'escalera': {1: 1.5}}]})
+_p0 = _hh['Juan Perez']['partidos'][0]
+check(_p0['faltas_rec'] == 3 and _p0['centros'] == 4 and _p0['xa'] == 0.2 and _p0['rating'] == 7.1 and _p0['entradas'] == 5, 'jugadores: las columnas de Sofascore (faltas recibidas, centros, xA, rating) entran al historial sin romper las de Flashscore')
+
 print(f'\n{ok} pruebas de recolección superadas')

@@ -2,7 +2,9 @@
 """Une lo recolectado de un partido en la ENTRADA que leen el modelo y las fichas.
 
 Entradas:  betano/<clave>.json   (recoleccion/betano.py: {meta, betano})
-           flashscore/<clave>.json (recoleccion/flashscore_extraer.js: contexto del partido)  [opcional]
+           sofascore/<clave>.json (recoleccion/sofascore_extraer.js + sofascore_decod.py: FUENTE PRINCIPAL de equipo desde el 25-nov-2026; misma forma que flashscore)  [opcional]
+           flashscore/<clave>.json (recoleccion/flashscore_extraer.js: contexto del partido; respaldo y contraste de Sofascore)  [opcional]
+           jugadores_sofascore/<clave>.json y alineaciones_sofascore/<clave>.json (Sofascore; si faltan se usan jugadores/ y alineaciones/ de Flashscore)  [opcional]
            jugadores/<clave>.json (historial por jugador de la alineación probable, de Flashscore)  [opcional]
            alineaciones/<clave>.json (Flashscore: XI probable y bajas; formato compacto de alineaciones/LEEME.md)  [opcional]
            clima/clima.json y clasificacion/clasificacion.json (Open-Meteo y tablas de Flashscore, por clave)  [opcional]
@@ -65,6 +67,57 @@ def h2h_de(directos, hoy=None, anos=H2H_ANOS):
     return out
 
 
+def fusionar_sofascore(fs, sf):
+    """Sofascore es la fuente principal de equipo (desde el 25-nov-2026): si trae ≥ 8 partidos por equipo, sustituye `forma` (y `h2h` si trae directos)
+    del Flashscore y deja a Flashscore de respaldo y de contraste. Devuelve (fs_fusionado, resumen_del_contraste | None); sin Sofascore devuelve (fs, None)."""
+    if not sf or sf.get('error') or min(len(sf.get('forma', {}).get('local', [])), len(sf.get('forma', {}).get('visitante', []))) < 8:
+        return fs, None
+    out = dict(fs or {})
+    out.setdefault('mid', sf.get('mid'))
+    out['forma'] = sf['forma']
+    if sf.get('h2h') or not out.get('h2h'):
+        out['h2h'] = sf.get('h2h', [])
+    if not out.get('arbitro') and sf.get('arbitro'):
+        out['arbitro'], out['arbitro_pais'] = sf['arbitro'], sf.get('arbitro_pais')
+    out['arbitro_sofa'] = sf.get('arbitro_sofa')
+    out['estadio'] = out.get('estadio') or sf.get('estadio')
+    out['avisos'] = list(sf.get('avisos', []))
+    out['fuente_forma'] = 'Sofascore'
+    ctr = None
+    if fs and fs.get('forma'):
+        import sofascore_decod as SD
+        ctr = SD.contraste(sf, fs)
+        if ctr['celdas']:
+            out['avisos'].append(f"Contraste con Flashscore ({ctr['partidos_comunes']} partidos comunes): {ctr['iguales']}/{ctr['celdas']} cifras iguales, {ctr['dif_mayor']} con diferencia > 1"
+                                 + (' → ' + '; '.join(ctr['mayores'][:4]) if ctr['mayores'] else ''))
+    return out, ctr
+
+
+def combinar_xi(j1, j2, f1, f2):
+    """Dos once probables (de dos fuentes) → uno: en los DOS → titular 0,9 (fuentes_xi 2/2); en uno solo → titular 0,5 (1/2) y se declara; una baja en cualquiera de las dos manda.
+    Devuelve (jugadores, texto_de_la_divergencia | None)."""
+    a = {j['nombre']: j for j in j1 if not j.get('fuera')}
+    b = {j['nombre']: j for j in j2 if not j.get('fuera')}
+    bajas = {j['nombre']: j for j in j1 + j2 if j.get('fuera')}
+    out = []
+    for n in list(a) + [n for n in b if n not in a]:
+        if n in bajas:
+            continue
+        base = dict(a.get(n) or b[n])
+        if n in a and n in b:
+            base.update(titular=0.9, fuentes_xi='2/2', fuente=base['fuente'] + ' · coincide con ' + f2)
+        else:
+            base.update(titular=0.5, fuentes_xi='1/2', fuente=base['fuente'] + f' · solo figura en el once de {f1 if n in a else f2}')
+        out.append(base)
+    out += list(bajas.values())
+    solo1, solo2 = sorted(n for n in a if n not in b and n not in bajas), sorted(n for n in b if n not in a and n not in bajas)
+    texto = None
+    if solo1 or solo2:
+        texto = (f'Once probable distinto entre {f1} y {f2} (titular 0,5 a quien figura en uno solo; esperar el once oficial): '
+                 f'solo {f1}: {", ".join(solo1) or "—"} · solo {f2}: {", ".join(solo2) or "—"}')
+    return out, texto
+
+
 def _norm(x):
     x = unicodedata.normalize('NFD', x or '')
     return re.sub(r'[^a-z0-9 ]+', ' ', ''.join(c for c in x if unicodedata.category(c) != 'Mn').lower().replace('đ', 'd').replace('ł', 'l').replace('ı', 'i').replace('ø', 'o').replace('ß', 'ss')).split()
@@ -97,7 +150,7 @@ def coincide(nombre_flashscore, nombre_betano):
     if b[-len(t):] != t:
         return False
     resto = b[:-len(t)]
-    return not iniciales or (bool(resto) and resto[0][0] == iniciales[0])
+    return not iniciales or (bool(resto) and any(r[0] == iniciales[0] for r in resto))     # inicial de cualquier nombre de pila («Michael Amir Murillo» ≈ «Murillo A.»)
 
 
 def jugadores_de(lu, betano, hora_lectura=''):
@@ -106,7 +159,7 @@ def jugadores_de(lu, betano, hora_lectura=''):
     if not lu or not lu.get('probables'):
         return out, sin_casar
     nombres = {(j['jugador'], j.get('lado')) for j in betano.get('jugadores', [])}
-    fuente = f"Flashscore «{lu.get('tipo') or 'alineaciones probables'}»" + (f' leída {hora_lectura}' if hora_lectura else '')
+    fuente = ('Sofascore' if 'Sofascore' in (lu.get('tipo') or '') else 'Flashscore') + f" «{lu.get('tipo') or 'alineaciones probables'}»" + (f' leída {hora_lectura}' if hora_lectura else '')
     for lado_fs, lado in (('L', 'local'), ('V', 'visitante')):
         for p in lu['probables'].get(lado_fs, []):
             cas = candidatos(p['n'], p.get('pid'), [n for n, ld in nombres if ld in (lado, lado[0].upper(), None)])
@@ -125,7 +178,7 @@ def jugadores_de(lu, betano, hora_lectura=''):
 
 
 def hist_de(jug, betano):
-    """Historial por jugador de Flashscore (jugadores/<clave>.json) → ficha.jugadores_hist con los nombres de Betano.
+    """Historial por jugador (Sofascore jugadores_sofascore/<clave>.json o, de respaldo, Flashscore jugadores/<clave>.json) → ficha.jugadores_hist con los nombres de Betano.
     Cada aparición: [mid, fecha, min, remates, al_arco, goles, asist, amarillas, rojas, faltas, entradas] (la más reciente primero).
     Solo cuenta lo jugado dentro de los últimos 10 partidos oficiales del equipo; el resto no se inventa."""
     out, sin = {}, []
@@ -146,6 +199,8 @@ def hist_de(jug, betano):
                   'tarjeta': (am or 0) + (ro or 0), 'faltas': fa, 'entradas': en}
             if len(ex) >= 1:
                 pj['atajadas'] = ex[0]
+            if len(ex) >= 6:                              # Sofascore (25-nov): faltas recibidas, centros, xA, rating
+                pj['faltas_rec'], pj['centros'], pj['xa'], pj['rating'] = ex[2:6]
             if len(ex) >= 2:
                 pj['entradas_tot'] = ex[1]
                 # 22-nov-2026: Betano «Tackles totales» cuenta entradas INTENTADAS (denominador «g/e» de Flashscore), no las ganadas. Medido en 200+ jugadores:
@@ -250,11 +305,18 @@ def armar(b, fs=None, notas=None, jug=None):
     if fs:
         ficha['forma'] = {'local': forma_de(fs['forma']['local']), 'visitante': forma_de(fs['forma']['visitante'])}
         ficha['h2h'] = h2h_de(fs.get('h2h', []), ini.strftime('%Y-%m-%d'))
+        fte = fs.get('fuente_forma') or 'Flashscore'
         ficha['arbitro'] = {'nombre': fs.get('arbitro') or '', 'pais': fs.get('arbitro_pais'), 'tarjetas_por_partido': None, 'partidos': None,
-                            'nota': 'Nombre anunciado por Flashscore; las estadísticas del árbitro (B-Soccer) no están recolectadas.'}
-        ficha['fuentes'] = ficha['fuentes'] + ['Flashscore (últimos partidos, estadísticas y H2H)']
+                            'nota': f'Nombre anunciado por {fte}; las estadísticas del árbitro (ValueStats) no están recolectadas.'}
+        asf = fs.get('arbitro_sofa')
+        if asf and asf.get('partidos'):
+            n = asf['partidos']
+            ficha['arbitro'].update({'partidos': n, 'amarillas_pp_historial': round(asf['amarillas'] / n, 2), 'rojas_pp_historial': round((asf.get('rojas') or 0) / n, 3),
+                                     'tarjetas_por_partido': round(asf['amarillas'] / n, 2), 'fuente': 'Sofascore (ficha del árbitro)',
+                                     'nota': f"Sofascore: {n} partidos, {asf['amarillas']} amarillas, {asf.get('rojas') or 0} rojas y {asf.get('doble_amarilla') or 0} dobles amarillas en su carrera; sin faltas por partido (ValueStats con cuenta)."})
+        ficha['fuentes'] = ficha['fuentes'] + [f'{fte} (últimos partidos, estadísticas y H2H)' + (' · Flashscore de respaldo y contraste' if fte == 'Sofascore' else '')]
         for av in fs.get('avisos', []):
-            dudas.append('Flashscore: ' + av)
+            dudas.append(('Sofascore: ' if fte == 'Sofascore' and not av.startswith('Contraste') else ('' if av.startswith('Contraste') else 'Flashscore: ')) + av)
     else:
         ficha['forma'] = {'local': [], 'visitante': []}
         ficha['arbitro'] = {'nombre': '', 'tarjetas_por_partido': None, 'partidos': None}
@@ -263,7 +325,7 @@ def armar(b, fs=None, notas=None, jug=None):
         faltan.append('lectura de la situación (importancia, motivación, rotación, tabla)')
     if not ficha['jugadores_hist'] and jug:
         ficha['jugadores_hist'], sin_h = hist_de(jug, bet)
-        ficha['fuentes'] = ficha['fuentes'] + ['Flashscore (estadísticas de jugadores de los últimos 10 partidos de cada selección; solo jugadores de la alineación probable)']
+        ficha['fuentes'] = ficha['fuentes'] + [('Sofascore' if any(str(v.get('pid', '')).startswith('s') for v in jug.values()) else 'Flashscore') + ' (estadísticas de jugadores de los últimos 10 partidos de cada equipo; solo jugadores de la alineación probable)']
         if sin_h:
             dudas.append('Historial: sin casar con Betano → ' + ', '.join(sin_h))
     if not ficha['jugadores_hist']:
@@ -272,13 +334,20 @@ def armar(b, fs=None, notas=None, jug=None):
     jugadores = notas.get('jugadores', [])
     if not jugadores and fs and fs.get('lineups'):
         jugadores, sin = jugadores_de(fs['lineups'], bet, fs.get('lineups_leidas', ''))
+        if fs.get('lineups2'):                                  # segundo once (Flashscore, de respaldo): se contrasta, no se escoge en silencio
+            j2, sin2 = jugadores_de(fs['lineups2'], bet, fs.get('lineups2_leidas', ''))
+            jugadores, nota_xi = combinar_xi(jugadores, j2, 'Sofascore' if 'Sofascore' in (fs['lineups'].get('tipo') or '') else 'Flashscore',
+                                             'Flashscore' if 'Sofascore' in (fs['lineups'].get('tipo') or '') else 'Sofascore')
+            if nota_xi:
+                dudas.append(nota_xi)
+            sin = sin + [x for x in sin2 if x not in sin]
         if sin:
             dudas.append('Alineación probable: sin casar con Betano → ' + ', '.join(sin))
         for j in jugadores:
             if j.get('conflicto_xi'):
                 dudas.append(f"{j['nombre']}: Flashscore lo lista en el XI probable y también como baja; se toma como baja")
         if jugadores:
-            ficha['fuentes'] = ficha['fuentes'] + ['Flashscore (alineaciones probables y bajas)']
+            ficha['fuentes'] = ficha['fuentes'] + [('Sofascore' if 'Sofascore' in (fs['lineups'].get('tipo') or '') else 'Flashscore') + ' (alineaciones probables y bajas)']
     if not jugadores and bet.get('jugadores'):
         faltan.append('alineación probable (titularidad de cada jugador)')
     return {'local': meta['local'], 'visitante': meta['visitante'], 'liga': f"{meta['region']} {meta['liga']}",
@@ -299,9 +368,20 @@ def main(argv):
         if not b:
             print(f'{k}: sin betano/{k}.json'); continue
         fs = cargar('flashscore', k)
-        al = cargar('alineaciones', k)
+        sf = cargar('sofascore', k)
+        fs, _ctr = fusionar_sofascore(fs, sf)                        # Sofascore principal; Flashscore respaldo y contraste
+        al = cargar('alineaciones_sofascore', k) or cargar('alineaciones', k)
         if fs is not None and al is not None and not fs.get('lineups'):
             lu = lineups_de(al)
+            al2 = cargar('alineaciones', k) if (al.get('tipo') or '').find('Sofascore') >= 0 else None
+            lu2 = lineups_de(al2) if al2 else None
+            if lu and lu2:
+                fs['lineups2'] = lu2
+                try:
+                    from datetime import datetime as _dt, timedelta as _td
+                    fs['lineups2_leidas'] = (_dt.strptime(al2['lectura_utc'], '%Y-%m-%dT%H:%MZ') - _td(hours=5)).strftime('%d-%m ~%H:%M') + ' Bogotá'
+                except (KeyError, ValueError):
+                    fs['lineups2_leidas'] = ''
             if lu:
                 lectura = LECTURA_ALINEACIONES
                 if al.get('lectura_utc'):                      # hora real de la lectura (antes salía siempre la del 13-nov)
@@ -314,7 +394,8 @@ def main(argv):
                 fs['lineups'], fs['lineups_leidas'] = lu, f"{lectura} · XI oficial se publica ~1 h antes del inicio"
             else:
                 fs['avisos'] = list(fs.get('avisos', [])) + ['Flashscore no muestra pestaña de alineaciones para este partido: sin XI ni bajas con fuente']
-        e = armar(b, fs, cargar('notas', k), cargar('jugadores', k))
+        jug_sf = cargar('jugadores_sofascore', k) if fs and fs.get('fuente_forma') == 'Sofascore' else None
+        e = armar(b, fs, cargar('notas', k), jug_sf or cargar('jugadores', k))
         F = e['ficha']
         arb = cargar('arbitros', k)
         if arb:
