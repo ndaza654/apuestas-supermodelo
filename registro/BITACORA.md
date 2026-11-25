@@ -386,3 +386,6 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 
 ## 25-nov-2026 (13:10) · autocrítica BB Boost 19–24 nov
 - 25 partidos, principal ganado 5 (20 %; esperado ≈ 18 %); +32 % con boost, +10 % sin él; patas 45 de 80 (56 %, ≈ precio). Causas de pérdida: guion invertido (6), sin respaldo (4), contexto no respetado (2), varianza por una unidad (5). Reglas nuevas en CLAUDE.md → BB Boost punto 7.
+
+## 25-nov-2026 (12:15) · medición del contexto y regla «contexto manda»
+- 35.611 líneas calificadas: situación a favor en totales −6,7 pts frente al precio (67 partidos, IC −13,3 a −0,4); en líneas de equipo +0,9 (IC −5,4 a +7,2); «necesita ganar» no aumenta lo producido sobre el esperado (−0,04 en 52 partidos). Datos a favor +1,6 (dentro del ruido). No se confirma ni se descarta: pocas banderas (20–23 nov sin banderas). Propuesta pendiente: guion comprobable en cada nota. Regla del usuario guardada. Detalle: `entregas/2026-11-25/1215_medicion_contexto.md`.

@@ -1,0 +1,997 @@
+{
+ "lineas": 35611,
+ "cobertura": [
+  {
+   "jornada": "2026-11-12-noche",
+   "partidos": 3,
+   "con_notas": 3,
+   "con_banderas": 3
+  },
+  {
+   "jornada": "2026-11-13",
+   "partidos": 9,
+   "con_notas": 9,
+   "con_banderas": 9
+  },
+  {
+   "jornada": "2026-11-14",
+   "partidos": 21,
+   "con_notas": 0,
+   "con_banderas": 0
+  },
+  {
+   "jornada": "2026-11-15",
+   "partidos": 13,
+   "con_notas": 4,
+   "con_banderas": 4
+  },
+  {
+   "jornada": "2026-11-16",
+   "partidos": 10,
+   "con_notas": 10,
+   "con_banderas": 8
+  },
+  {
+   "jornada": "2026-11-17",
+   "partidos": 13,
+   "con_notas": 13,
+   "con_banderas": 8
+  },
+  {
+   "jornada": "2026-11-18",
+   "partidos": 11,
+   "con_notas": 11,
+   "con_banderas": 8
+  },
+  {
+   "jornada": "2026-11-19",
+   "partidos": 10,
+   "con_notas": 10,
+   "con_banderas": 10
+  },
+  {
+   "jornada": "2026-11-20",
+   "partidos": 37,
+   "con_notas": 37,
+   "con_banderas": 12
+  },
+  {
+   "jornada": "2026-11-21",
+   "partidos": 40,
+   "con_notas": 40,
+   "con_banderas": 21
+  },
+  {
+   "jornada": "2026-11-21-noche",
+   "partidos": 1,
+   "con_notas": 1,
+   "con_banderas": 0
+  },
+  {
+   "jornada": "2026-11-22",
+   "partidos": 29,
+   "con_notas": 29,
+   "con_banderas": 15
+  },
+  {
+   "jornada": "2026-11-23",
+   "partidos": 12,
+   "con_notas": 12,
+   "con_banderas": 5
+  },
+  {
+   "jornada": "2026-11-24",
+   "partidos": 19,
+   "con_notas": 19,
+   "con_banderas": 18
+  },
+  {
+   "jornada": "2026-11-25",
+   "partidos": 11,
+   "con_notas": 11,
+   "con_banderas": 1
+  }
+ ],
+ "total": {
+  "todas": {
+   "n": 18494,
+   "acierto": 0.5,
+   "precio": 0.5002,
+   "dif": -0.0002,
+   "se": 0.0037
+  },
+  "sit": {
+   "a favor": {
+    "n": 1833,
+    "acierto": 0.3972,
+    "precio": 0.4751,
+    "dif": -0.078,
+    "se": 0.0114
+   },
+   "sin factor": {
+    "n": 14828,
+    "acierto": 0.5,
+    "precio": 0.5002,
+    "dif": -0.0002,
+    "se": 0.0041
+   },
+   "en contra": {
+    "n": 1833,
+    "acierto": 0.6028,
+    "precio": 0.5252,
+    "dif": 0.0776,
+    "se": 0.0114
+   }
+  },
+  "sit_cuota_1.50+": {
+   "a favor": {
+    "n": 1339,
+    "acierto": 0.289,
+    "precio": 0.3538,
+    "dif": -0.0648,
+    "se": 0.0124
+   },
+   "sin factor": {
+    "n": 10013,
+    "acierto": 0.3495,
+    "precio": 0.3483,
+    "dif": 0.0013,
+    "se": 0.0048
+   },
+   "en contra": {
+    "n": 1200,
+    "acierto": 0.4858,
+    "precio": 0.3744,
+    "dif": 0.1115,
+    "se": 0.0144
+   }
+  },
+  "sit_cumple": {
+   "a favor": {
+    "n": 357,
+    "acierto": 0.7731,
+    "precio": 0.8186,
+    "dif": -0.0455,
+    "se": 0.0222
+   },
+   "sin factor": {
+    "n": 3431,
+    "acierto": 0.8403,
+    "precio": 0.8365,
+    "dif": 0.0038,
+    "se": 0.0063
+   },
+   "en contra": {
+    "n": 436,
+    "acierto": 0.8761,
+    "precio": 0.8264,
+    "dif": 0.0497,
+    "se": 0.0158
+   }
+  },
+  "sit_por_mercado": {
+   "corners": {
+    "a favor": {
+     "n": 584,
+     "acierto": 0.4058,
+     "precio": 0.4808,
+     "dif": -0.075,
+     "se": 0.0203
+    },
+    "en contra": {
+     "n": 584,
+     "acierto": 0.5942,
+     "precio": 0.5184,
+     "dif": 0.0758,
+     "se": 0.0203
+    }
+   },
+   "goles": {
+    "a favor": {
+     "n": 462,
+     "acierto": 0.3701,
+     "precio": 0.4697,
+     "dif": -0.0996,
+     "se": 0.0225
+    },
+    "en contra": {
+     "n": 462,
+     "acierto": 0.6299,
+     "precio": 0.5328,
+     "dif": 0.0971,
+     "se": 0.0225
+    }
+   },
+   "tarjetas": {
+    "a favor": {
+     "n": 229,
+     "acierto": 0.441,
+     "precio": 0.4567,
+     "dif": -0.0157,
+     "se": 0.0328
+    },
+    "en contra": {
+     "n": 229,
+     "acierto": 0.559,
+     "precio": 0.5433,
+     "dif": 0.0157,
+     "se": 0.0328
+    }
+   },
+   "remates": {
+    "a favor": {
+     "n": 159,
+     "acierto": 0.3962,
+     "precio": 0.511,
+     "dif": -0.1148,
+     "se": 0.0388
+    },
+    "en contra": {
+     "n": 159,
+     "acierto": 0.6038,
+     "precio": 0.489,
+     "dif": 0.1148,
+     "se": 0.0388
+    }
+   },
+   "al_arco": {
+    "a favor": {
+     "n": 159,
+     "acierto": 0.3585,
+     "precio": 0.4723,
+     "dif": -0.1138,
+     "se": 0.038
+    },
+    "en contra": {
+     "n": 159,
+     "acierto": 0.6415,
+     "precio": 0.5277,
+     "dif": 0.1138,
+     "se": 0.038
+    }
+   },
+   "faltas": {
+    "a favor": {
+     "n": 29,
+     "acierto": 0.4483,
+     "precio": 0.5014,
+     "dif": -0.0531,
+     "se": 0.0923
+    },
+    "en contra": {
+     "n": 29,
+     "acierto": 0.5517,
+     "precio": 0.4986,
+     "dif": 0.0531,
+     "se": 0.0923
+    }
+   },
+   "fueras": {
+    "a favor": {
+     "n": 79,
+     "acierto": 0.443,
+     "precio": 0.4593,
+     "dif": -0.0162,
+     "se": 0.0559
+    },
+    "en contra": {
+     "n": 79,
+     "acierto": 0.557,
+     "precio": 0.5407,
+     "dif": 0.0162,
+     "se": 0.0559
+    }
+   },
+   "saques_banda": {
+    "a favor": null,
+    "en contra": null
+   },
+   "saques_meta": {
+    "a favor": {
+     "n": 132,
+     "acierto": 0.3864,
+     "precio": 0.4648,
+     "dif": -0.0785,
+     "se": 0.0424
+    },
+    "en contra": {
+     "n": 132,
+     "acierto": 0.6136,
+     "precio": 0.5352,
+     "dif": 0.0785,
+     "se": 0.0424
+    }
+   }
+  },
+  "dat": {
+   "a favor": {
+    "n": 6168,
+    "acierto": 0.5112,
+    "precio": 0.4948,
+    "dif": 0.0164,
+    "se": 0.0064
+   },
+   "sin factor": {
+    "n": 6158,
+    "acierto": 0.5,
+    "precio": 0.5002,
+    "dif": -0.0002,
+    "se": 0.0064
+   },
+   "en contra": {
+    "n": 6168,
+    "acierto": 0.4888,
+    "precio": 0.5055,
+    "dif": -0.0167,
+    "se": 0.0064
+   }
+  },
+  "dat_cuota_1.50+": {
+   "a favor": {
+    "n": 4214,
+    "acierto": 0.365,
+    "precio": 0.3475,
+    "dif": 0.0174,
+    "se": 0.0074
+   },
+   "sin factor": {
+    "n": 4196,
+    "acierto": 0.3613,
+    "precio": 0.3534,
+    "dif": 0.0079,
+    "se": 0.0074
+   },
+   "en contra": {
+    "n": 4142,
+    "acierto": 0.3419,
+    "precio": 0.3532,
+    "dif": -0.0114,
+    "se": 0.0074
+   }
+  },
+  "dat_cumple": {
+   "a favor": {
+    "n": 1643,
+    "acierto": 0.8363,
+    "precio": 0.815,
+    "dif": 0.0213,
+    "se": 0.0091
+   },
+   "sin factor": {
+    "n": 1393,
+    "acierto": 0.8263,
+    "precio": 0.8343,
+    "dif": -0.008,
+    "se": 0.0102
+   },
+   "en contra": {
+    "n": 1188,
+    "acierto": 0.8552,
+    "precio": 0.8598,
+    "dif": -0.0046,
+    "se": 0.0102
+   }
+  },
+  "dat_por_mercado": {
+   "corners": {
+    "a favor": {
+     "n": 2263,
+     "acierto": 0.5347,
+     "precio": 0.4949,
+     "dif": 0.0398,
+     "se": 0.0105
+    },
+    "en contra": {
+     "n": 2263,
+     "acierto": 0.4653,
+     "precio": 0.5043,
+     "dif": -0.039,
+     "se": 0.0105
+    }
+   },
+   "goles": {
+    "a favor": {
+     "n": 1502,
+     "acierto": 0.494,
+     "precio": 0.4987,
+     "dif": -0.0047,
+     "se": 0.0129
+    },
+    "en contra": {
+     "n": 1502,
+     "acierto": 0.506,
+     "precio": 0.5037,
+     "dif": 0.0023,
+     "se": 0.0129
+    }
+   },
+   "tarjetas": {
+    "a favor": {
+     "n": 582,
+     "acierto": 0.4691,
+     "precio": 0.463,
+     "dif": 0.006,
+     "se": 0.0207
+    },
+    "en contra": {
+     "n": 582,
+     "acierto": 0.5309,
+     "precio": 0.537,
+     "dif": -0.006,
+     "se": 0.0207
+    }
+   },
+   "remates": {
+    "a favor": {
+     "n": 639,
+     "acierto": 0.4523,
+     "precio": 0.5021,
+     "dif": -0.0498,
+     "se": 0.0197
+    },
+    "en contra": {
+     "n": 639,
+     "acierto": 0.5477,
+     "precio": 0.4979,
+     "dif": 0.0498,
+     "se": 0.0197
+    }
+   },
+   "al_arco": {
+    "a favor": {
+     "n": 711,
+     "acierto": 0.5654,
+     "precio": 0.4999,
+     "dif": 0.0655,
+     "se": 0.0186
+    },
+    "en contra": {
+     "n": 711,
+     "acierto": 0.4346,
+     "precio": 0.5001,
+     "dif": -0.0655,
+     "se": 0.0186
+    }
+   },
+   "faltas": {
+    "a favor": {
+     "n": 54,
+     "acierto": 0.6111,
+     "precio": 0.4998,
+     "dif": 0.1113,
+     "se": 0.0663
+    },
+    "en contra": {
+     "n": 54,
+     "acierto": 0.3889,
+     "precio": 0.5002,
+     "dif": -0.1113,
+     "se": 0.0663
+    }
+   },
+   "fueras": {
+    "a favor": {
+     "n": 250,
+     "acierto": 0.52,
+     "precio": 0.5166,
+     "dif": 0.0034,
+     "se": 0.0316
+    },
+    "en contra": {
+     "n": 250,
+     "acierto": 0.48,
+     "precio": 0.4834,
+     "dif": -0.0034,
+     "se": 0.0316
+    }
+   },
+   "saques_banda": {
+    "a favor": {
+     "n": 35,
+     "acierto": 0.3429,
+     "precio": 0.5111,
+     "dif": -0.1683,
+     "se": 0.0802
+    },
+    "en contra": {
+     "n": 35,
+     "acierto": 0.6571,
+     "precio": 0.4889,
+     "dif": 0.1683,
+     "se": 0.0802
+    }
+   },
+   "saques_meta": {
+    "a favor": {
+     "n": 132,
+     "acierto": 0.4697,
+     "precio": 0.4767,
+     "dif": -0.007,
+     "se": 0.0434
+    },
+    "en contra": {
+     "n": 132,
+     "acierto": 0.5303,
+     "precio": 0.5233,
+     "dif": 0.007,
+     "se": 0.0434
+    }
+   }
+  },
+  "ambos_a_favor": {
+   "n": 687,
+   "acierto": 0.4512,
+   "precio": 0.474,
+   "dif": -0.0228,
+   "se": 0.019
+  },
+  "sit_favor_dat_contra": {
+   "n": 460,
+   "acierto": 0.3478,
+   "precio": 0.4713,
+   "dif": -0.1235,
+   "se": 0.0222
+  },
+  "sit_a_favor_cumple_1.50+": {
+   "n": 29,
+   "acierto": 0.4483,
+   "precio": 0.5798,
+   "dif": -0.1315,
+   "se": 0.0923
+  },
+  "sit_a_favor_cumple_1.70+": {
+   "n": 12,
+   "acierto": 0.3333,
+   "precio": 0.5172,
+   "dif": -0.1839,
+   "se": 0.1361
+  },
+  "dat_a_favor_cumple_1.50+": {
+   "n": 165,
+   "acierto": 0.6364,
+   "precio": 0.5743,
+   "dif": 0.062,
+   "se": 0.0374
+  },
+  "cumple_1.50+ (referencia)": {
+   "n": 303,
+   "acierto": 0.6337,
+   "precio": 0.5803,
+   "dif": 0.0534,
+   "se": 0.0277
+  }
+ },
+ "equipo": {
+  "todas": {
+   "n": 17117,
+   "acierto": 0.4977,
+   "precio": 0.4967,
+   "dif": 0.001,
+   "se": 0.0038
+  },
+  "sit": {
+   "a favor": {
+    "n": 1122,
+    "acierto": 0.4679,
+    "precio": 0.4592,
+    "dif": 0.0087,
+    "se": 0.0149
+   },
+   "sin factor": {
+    "n": 15009,
+    "acierto": 0.4974,
+    "precio": 0.497,
+    "dif": 0.0004,
+    "se": 0.0041
+   },
+   "en contra": {
+    "n": 986,
+    "acierto": 0.5355,
+    "precio": 0.5353,
+    "dif": 0.0002,
+    "se": 0.0159
+   }
+  },
+  "sit_cuota_1.50+": {
+   "a favor": {
+    "n": 805,
+    "acierto": 0.3342,
+    "precio": 0.3286,
+    "dif": 0.0055,
+    "se": 0.0166
+   },
+   "sin factor": {
+    "n": 10083,
+    "acierto": 0.36,
+    "precio": 0.348,
+    "dif": 0.012,
+    "se": 0.0048
+   },
+   "en contra": {
+    "n": 605,
+    "acierto": 0.3554,
+    "precio": 0.3616,
+    "dif": -0.0062,
+    "se": 0.0195
+   }
+  },
+  "sit_cumple": {
+   "a favor": {
+    "n": 220,
+    "acierto": 0.7909,
+    "precio": 0.7787,
+    "dif": 0.0122,
+    "se": 0.0274
+   },
+   "sin factor": {
+    "n": 3337,
+    "acierto": 0.7821,
+    "precio": 0.7982,
+    "dif": -0.0161,
+    "se": 0.0071
+   },
+   "en contra": {
+    "n": 244,
+    "acierto": 0.8074,
+    "precio": 0.8062,
+    "dif": 0.0012,
+    "se": 0.0252
+   }
+  },
+  "sit_por_mercado": {
+   "corners": {
+    "a favor": {
+     "n": 329,
+     "acierto": 0.5046,
+     "precio": 0.4632,
+     "dif": 0.0413,
+     "se": 0.0276
+    },
+    "en contra": {
+     "n": 193,
+     "acierto": 0.487,
+     "precio": 0.506,
+     "dif": -0.0189,
+     "se": 0.036
+    }
+   },
+   "goles": {
+    "a favor": {
+     "n": 287,
+     "acierto": 0.4077,
+     "precio": 0.4161,
+     "dif": -0.0084,
+     "se": 0.029
+    },
+    "en contra": {
+     "n": 287,
+     "acierto": 0.5923,
+     "precio": 0.5839,
+     "dif": 0.0084,
+     "se": 0.029
+    }
+   },
+   "tarjetas": {
+    "a favor": null,
+    "en contra": null
+   },
+   "remates": {
+    "a favor": {
+     "n": 218,
+     "acierto": 0.4725,
+     "precio": 0.5002,
+     "dif": -0.0277,
+     "se": 0.0338
+    },
+    "en contra": {
+     "n": 218,
+     "acierto": 0.5275,
+     "precio": 0.4998,
+     "dif": 0.0277,
+     "se": 0.0338
+    }
+   },
+   "al_arco": {
+    "a favor": {
+     "n": 214,
+     "acierto": 0.4533,
+     "precio": 0.4613,
+     "dif": -0.008,
+     "se": 0.034
+    },
+    "en contra": {
+     "n": 214,
+     "acierto": 0.5467,
+     "precio": 0.5387,
+     "dif": 0.008,
+     "se": 0.034
+    }
+   },
+   "faltas": {
+    "a favor": null,
+    "en contra": null
+   },
+   "fueras": {
+    "a favor": {
+     "n": 74,
+     "acierto": 0.5676,
+     "precio": 0.4814,
+     "dif": 0.0861,
+     "se": 0.0576
+    },
+    "en contra": {
+     "n": 74,
+     "acierto": 0.4324,
+     "precio": 0.5186,
+     "dif": -0.0861,
+     "se": 0.0576
+    }
+   },
+   "saques_banda": {
+    "a favor": null,
+    "en contra": null
+   },
+   "saques_meta": {
+    "a favor": null,
+    "en contra": null
+   }
+  },
+  "dat": {
+   "a favor": {
+    "n": 5838,
+    "acierto": 0.4966,
+    "precio": 0.4878,
+    "dif": 0.0088,
+    "se": 0.0065
+   },
+   "sin factor": {
+    "n": 5840,
+    "acierto": 0.4976,
+    "precio": 0.4972,
+    "dif": 0.0004,
+    "se": 0.0065
+   },
+   "en contra": {
+    "n": 5439,
+    "acierto": 0.499,
+    "precio": 0.5059,
+    "dif": -0.0069,
+    "se": 0.0068
+   }
+  },
+  "dat_cuota_1.50+": {
+   "a favor": {
+    "n": 3967,
+    "acierto": 0.3537,
+    "precio": 0.3407,
+    "dif": 0.013,
+    "se": 0.0076
+   },
+   "sin factor": {
+    "n": 3958,
+    "acierto": 0.3676,
+    "precio": 0.3522,
+    "dif": 0.0154,
+    "se": 0.0077
+   },
+   "en contra": {
+    "n": 3568,
+    "acierto": 0.352,
+    "precio": 0.3493,
+    "dif": 0.0027,
+    "se": 0.008
+   }
+  },
+  "dat_cumple": {
+   "a favor": {
+    "n": 1426,
+    "acierto": 0.784,
+    "precio": 0.7819,
+    "dif": 0.0021,
+    "se": 0.0109
+   },
+   "sin factor": {
+    "n": 1270,
+    "acierto": 0.7748,
+    "precio": 0.7951,
+    "dif": -0.0203,
+    "se": 0.0117
+   },
+   "en contra": {
+    "n": 1105,
+    "acierto": 0.7955,
+    "precio": 0.8207,
+    "dif": -0.0252,
+    "se": 0.0121
+   }
+  },
+  "dat_por_mercado": {
+   "corners": {
+    "a favor": {
+     "n": 1341,
+     "acierto": 0.5056,
+     "precio": 0.4774,
+     "dif": 0.0282,
+     "se": 0.0137
+    },
+    "en contra": {
+     "n": 942,
+     "acierto": 0.465,
+     "precio": 0.4903,
+     "dif": -0.0253,
+     "se": 0.0163
+    }
+   },
+   "goles": {
+    "a favor": {
+     "n": 1150,
+     "acierto": 0.48,
+     "precio": 0.4877,
+     "dif": -0.0077,
+     "se": 0.0147
+    },
+    "en contra": {
+     "n": 1150,
+     "acierto": 0.52,
+     "precio": 0.5123,
+     "dif": 0.0077,
+     "se": 0.0147
+    }
+   },
+   "tarjetas": {
+    "a favor": {
+     "n": 539,
+     "acierto": 0.4601,
+     "precio": 0.4628,
+     "dif": -0.0027,
+     "se": 0.0215
+    },
+    "en contra": {
+     "n": 539,
+     "acierto": 0.5399,
+     "precio": 0.5372,
+     "dif": 0.0027,
+     "se": 0.0215
+    }
+   },
+   "remates": {
+    "a favor": {
+     "n": 1010,
+     "acierto": 0.4693,
+     "precio": 0.5041,
+     "dif": -0.0348,
+     "se": 0.0157
+    },
+    "en contra": {
+     "n": 1010,
+     "acierto": 0.5307,
+     "precio": 0.4959,
+     "dif": 0.0348,
+     "se": 0.0157
+    }
+   },
+   "al_arco": {
+    "a favor": {
+     "n": 1108,
+     "acierto": 0.5352,
+     "precio": 0.4942,
+     "dif": 0.041,
+     "se": 0.015
+    },
+    "en contra": {
+     "n": 1108,
+     "acierto": 0.4648,
+     "precio": 0.5058,
+     "dif": -0.041,
+     "se": 0.015
+    }
+   },
+   "faltas": {
+    "a favor": {
+     "n": 108,
+     "acierto": 0.6019,
+     "precio": 0.5042,
+     "dif": 0.0976,
+     "se": 0.0471
+    },
+    "en contra": {
+     "n": 108,
+     "acierto": 0.3981,
+     "precio": 0.4958,
+     "dif": -0.0976,
+     "se": 0.0471
+    }
+   },
+   "fueras": {
+    "a favor": {
+     "n": 308,
+     "acierto": 0.5097,
+     "precio": 0.5005,
+     "dif": 0.0092,
+     "se": 0.0285
+    },
+    "en contra": {
+     "n": 308,
+     "acierto": 0.4903,
+     "precio": 0.4995,
+     "dif": -0.0092,
+     "se": 0.0285
+    }
+   },
+   "saques_banda": {
+    "a favor": {
+     "n": 66,
+     "acierto": 0.4394,
+     "precio": 0.4964,
+     "dif": -0.057,
+     "se": 0.0611
+    },
+    "en contra": {
+     "n": 66,
+     "acierto": 0.5606,
+     "precio": 0.5036,
+     "dif": 0.057,
+     "se": 0.0611
+    }
+   },
+   "saques_meta": {
+    "a favor": {
+     "n": 208,
+     "acierto": 0.4952,
+     "precio": 0.4756,
+     "dif": 0.0196,
+     "se": 0.0347
+    },
+    "en contra": {
+     "n": 208,
+     "acierto": 0.5048,
+     "precio": 0.5244,
+     "dif": -0.0196,
+     "se": 0.0347
+    }
+   }
+  },
+  "ambos_a_favor": {
+   "n": 416,
+   "acierto": 0.5,
+   "precio": 0.4428,
+   "dif": 0.0572,
+   "se": 0.0245
+  },
+  "sit_favor_dat_contra": {
+   "n": 303,
+   "acierto": 0.4389,
+   "precio": 0.4717,
+   "dif": -0.0328,
+   "se": 0.0285
+  },
+  "sit_a_favor_cumple_1.50+": {
+   "n": 38,
+   "acierto": 0.5263,
+   "precio": 0.5447,
+   "dif": -0.0183,
+   "se": 0.081
+  },
+  "sit_a_favor_cumple_1.70+": {
+   "n": 15,
+   "acierto": 0.4,
+   "precio": 0.4525,
+   "dif": -0.0525,
+   "se": 0.1265
+  },
+  "dat_a_favor_cumple_1.50+": {
+   "n": 233,
+   "acierto": 0.5579,
+   "precio": 0.543,
+   "dif": 0.0149,
+   "se": 0.0325
+  },
+  "cumple_1.50+ (referencia)": {
+   "n": 510,
+   "acierto": 0.5569,
+   "precio": 0.5472,
+   "dif": 0.0097,
+   "se": 0.022
+  }
+ }
+}
