@@ -10,7 +10,7 @@
 "ambito": "total",
 "linea": 0.5,
 "mas": 1.06,
-"menos": 9.5
+"menos": 9.75
 },
 {
 "mercado": "goles",
@@ -170,14 +170,14 @@
 "mercado": "corners",
 "ambito": "total",
 "linea": 11.0,
-"mas": 3.35,
+"mas": 3.3,
 "menos": 1.52
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 11.5,
-"mas": 3.35,
+"mas": 3.3,
 "menos": 1.3
 },
 {
@@ -388,14 +388,14 @@
 "ambito": "1T",
 "linea": 0.75,
 "mas": 1.55,
-"menos": 2.47
+"menos": 2.5
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 1.0,
 "mas": 1.83,
-"menos": 1.98
+"menos": 2.0
 },
 {
 "mercado": "goles",
@@ -450,22 +450,22 @@
 "mercado": "corners",
 "ambito": "1T",
 "linea": 3.0,
-"mas": 1.42,
+"mas": 1.4,
 "menos": 4.8
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 3.5,
-"mas": 1.42,
-"menos": 2.77
+"mas": 1.4,
+"menos": 2.8
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 4.0,
 "mas": 1.91,
-"menos": 2.77
+"menos": 2.8
 },
 {
 "mercado": "corners",
@@ -506,14 +506,14 @@
 "mercado": "corners",
 "ambito": "1T",
 "linea": 7.0,
-"mas": 7.0,
+"mas": 6.9,
 "menos": 1.18
 },
 {
 "mercado": "corners",
 "ambito": "1T",
 "linea": 7.5,
-"mas": 7.0,
+"mas": 6.9,
 "menos": 1.08
 },
 {
@@ -569,7 +569,7 @@
 "mercado": "goles",
 "ambito": "local",
 "linea": 2.5,
-"mas": 4.0,
+"mas": 3.95,
 "menos": 1.22
 },
 {
@@ -583,14 +583,14 @@
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 0.5,
-"mas": 1.34,
-"menos": 3.1
+"mas": 1.35,
+"menos": 3.05
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 1.5,
-"mas": 2.55,
+"mas": 2.57,
 "menos": 1.47
 },
 {
@@ -910,7 +910,7 @@
 "X": 3.5,
 "2": 3.25,
 "1X": 1.36,
-"X2": 1.7,
+"X2": 1.72,
 "12": 1.29
 }
 },
@@ -934,7 +934,7 @@
 "mercado": "htft_o",
 "opciones": {
 "1": 1.75,
-"X": 1.67,
+"X": 1.7,
 "2": 2.35
 }
 },
@@ -942,9 +942,9 @@
 "mercado": "mas_que",
 "stat": "corners",
 "opciones": {
-"local": 1.87,
+"local": 1.88,
 "empate": 6.3,
-"visitante": 2.3
+"visitante": 2.27
 }
 },
 {
@@ -982,22 +982,22 @@
 {
 "mercado": "htft",
 "opciones": {
-"1/1": 3.5,
+"1/1": 3.45,
 "1/X": 13.5,
-"1/2": 32.0,
+"1/2": 35.0,
 "X/1": 5.2,
 "X/X": 5.3,
-"X/2": 7.2,
+"X/2": 7.3,
 "2/1": 26.0,
-"2/X": 14.5,
-"2/2": 5.4
+"2/X": 14.0,
+"2/2": 5.5
 }
 },
 {
 "mercado": "handicap",
 "h": -3.0,
 "opciones": {
-"local": 19.0,
+"local": 18.5,
 "empate": 10.25,
 "visitante": 1.08
 }
@@ -1008,16 +1008,16 @@
 "opciones": {
 "local": 9.0,
 "empate": 6.1,
-"visitante": 1.24
+"visitante": 1.25
 }
 },
 {
 "mercado": "handicap",
 "h": -1.0,
 "opciones": {
-"local": 4.15,
+"local": 4.05,
 "empate": 3.95,
-"visitante": 1.7
+"visitante": 1.72
 }
 },
 {
@@ -1025,7 +1025,7 @@
 "h": 1.0,
 "opciones": {
 "local": 1.36,
-"empate": 4.85,
+"empate": 4.9,
 "visitante": 7.1
 }
 },
@@ -1042,7 +1042,7 @@
 "mercado": "handicap",
 "h": -1.0,
 "opciones": {
-"local": 3.3,
+"local": 3.25,
 "visitante": 1.36
 }
 },
@@ -1050,7 +1050,7 @@
 "mercado": "handicap",
 "h": -0.75,
 "opciones": {
-"local": 2.55,
+"local": 2.52,
 "visitante": 1.55
 }
 },
@@ -1058,16 +1058,16 @@
 "mercado": "handicap",
 "h": -0.5,
 "opciones": {
-"local": 2.18,
-"visitante": 1.72
+"local": 2.15,
+"visitante": 1.75
 }
 },
 {
 "mercado": "handicap",
 "h": -0.25,
 "opciones": {
-"local": 1.9,
-"visitante": 1.95
+"local": 1.88,
+"visitante": 1.98
 }
 },
 {
@@ -1100,13 +1100,13 @@
 "jugador": "Abubakar Abdullahi",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.9
+"cuota": 2.95
 },
 {
 "jugador": "Abubakar Abdullahi",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.42
+"cuota": 2.45
 },
 {
 "jugador": "Abubakar Abdullahi",
@@ -1119,9 +1119,8 @@
 "lado": "local",
 "stat": "asiste",
 "escalera": {
-"1": 10.75,
-"2": 24.0,
-"3": 20.0
+"1": 6.4,
+"2": 22.0
 }
 },
 {
@@ -1129,15 +1128,12 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"3": 17.5,
-"4": 24.0,
-"5": 23.0,
-"6": 23.0,
-"7": 23.0,
-"8": 22.0,
-"9": 22.0,
-"2": 7.2,
-"1": 2.2
+"2": 1.47,
+"3": 2.37,
+"4": 4.55,
+"5": 9.0,
+"6": 15.5,
+"7": 21.0
 }
 },
 {
@@ -1145,38 +1141,10 @@
 "lado": "local",
 "stat": "al_arco",
 "escalera": {
-"1": 5.3,
-"2": 20.0,
-"3": 25.0,
-"4": 24.0,
-"5": 24.0
-}
-},
-{
-"jugador": "Josue Vergara",
-"lado": "local",
-"stat": "anota",
-"cuota": 2.2
-},
-{
-"jugador": "Josue Vergara",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 1.95
-},
-{
-"jugador": "Josue Vergara",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 18.0
-},
-{
-"jugador": "Josue Vergara",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 6.4,
-"2": 22.0
+"1": 1.78,
+"2": 4.7,
+"3": 12.5,
+"4": 21.0
 }
 },
 {
@@ -1207,6 +1175,85 @@
 }
 },
 {
+"jugador": "Ibrahima Cisse",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"2": 1.22,
+"3": 1.7,
+"4": 2.72,
+"5": 4.85,
+"6": 9.0,
+"7": 14.5,
+"8": 20.0
+}
+},
+{
+"jugador": "Ibrahima Cisse",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.6,
+"2": 3.85,
+"3": 10.0,
+"4": 19.0,
+"5": 24.0
+}
+},
+{
+"jugador": "Josue Vergara",
+"lado": "local",
+"stat": "anota",
+"cuota": 2.3
+},
+{
+"jugador": "Josue Vergara",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 2.02
+},
+{
+"jugador": "Josue Vergara",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 18.0
+},
+{
+"jugador": "Josue Vergara",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 6.4,
+"2": 22.0
+}
+},
+{
+"jugador": "Josue Vergara",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"3": 1.45,
+"4": 2.15,
+"5": 3.55,
+"6": 6.2,
+"7": 10.75,
+"8": 16.5,
+"9": 21.0
+}
+},
+{
+"jugador": "Josue Vergara",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.45,
+"2": 3.05,
+"3": 7.5,
+"4": 16.0,
+"5": 22.0
+}
+},
+{
 "jugador": "Bamba Dieng",
 "lado": "visitante",
 "stat": "anota",
@@ -1216,7 +1263,7 @@
 "jugador": "Bamba Dieng",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.35
+"cuota": 2.37
 },
 {
 "jugador": "Bamba Dieng",
@@ -1234,16 +1281,42 @@
 }
 },
 {
+"jugador": "Bamba Dieng",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"3": 1.5,
+"4": 2.25,
+"5": 3.8,
+"6": 6.7,
+"7": 11.5,
+"8": 17.5,
+"9": 22.0
+}
+},
+{
+"jugador": "Bamba Dieng",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.42,
+"2": 2.9,
+"3": 7.1,
+"4": 15.0,
+"5": 22.0
+}
+},
+{
 "jugador": "Marko Arnautović",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.15
+"cuota": 3.1
 },
 {
 "jugador": "Marko Arnautović",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.67
+"cuota": 2.65
 },
 {
 "jugador": "Marko Arnautović",
@@ -1261,43 +1334,41 @@
 }
 },
 {
-"jugador": "Momodou Sonko",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.5
-},
-{
-"jugador": "Momodou Sonko",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 2.62
-},
-{
-"jugador": "Momodou Sonko",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 14.0
-},
-{
-"jugador": "Momodou Sonko",
-"lado": "local",
-"stat": "asiste",
+"jugador": "Marko Arnautović",
+"lado": "visitante",
+"stat": "remates",
 "escalera": {
-"1": 5.5,
-"2": 21.0
+"1": 1.11,
+"2": 1.6,
+"3": 2.75,
+"4": 5.5,
+"5": 10.75,
+"6": 17.5,
+"7": 22.0
+}
+},
+{
+"jugador": "Marko Arnautović",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.78,
+"2": 4.7,
+"3": 12.5,
+"4": 21.0
 }
 },
 {
 "jugador": "Mirko Ivanic",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.5
+"cuota": 3.35
 },
 {
 "jugador": "Mirko Ivanic",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.8
+"cuota": 2.72
 },
 {
 "jugador": "Mirko Ivanic",
@@ -1312,6 +1383,30 @@
 "escalera": {
 "1": 6.5,
 "2": 23.0
+}
+},
+{
+"jugador": "Mirko Ivanic",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.2,
+"2": 1.98,
+"3": 4.0,
+"4": 8.75,
+"5": 16.0,
+"6": 22.0
+}
+},
+{
+"jugador": "Mirko Ivanic",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.18,
+"2": 7.1,
+"3": 17.5,
+"4": 24.0
 }
 },
 {
@@ -1339,6 +1434,85 @@
 "escalera": {
 "1": 5.2,
 "2": 20.0
+}
+},
+{
+"jugador": "Max Dean",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"3": 1.39,
+"4": 1.98,
+"5": 3.15,
+"6": 5.5,
+"7": 9.5,
+"8": 15.0,
+"9": 20.0
+}
+},
+{
+"jugador": "Max Dean",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.38,
+"2": 2.72,
+"3": 6.7,
+"4": 14.5,
+"5": 22.0
+}
+},
+{
+"jugador": "Momodou Sonko",
+"lado": "local",
+"stat": "anota",
+"cuota": 3.65
+},
+{
+"jugador": "Momodou Sonko",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 2.7
+},
+{
+"jugador": "Momodou Sonko",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 14.0
+},
+{
+"jugador": "Momodou Sonko",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 5.5,
+"2": 21.0
+}
+},
+{
+"jugador": "Momodou Sonko",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"2": 1.32,
+"3": 1.98,
+"4": 3.45,
+"5": 6.5,
+"6": 12.0,
+"7": 18.0,
+"8": 22.0
+}
+},
+{
+"jugador": "Momodou Sonko",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.65,
+"2": 4.0,
+"3": 10.5,
+"4": 19.5,
+"5": 24.0
 }
 },
 {
@@ -1375,6 +1549,30 @@
 }
 },
 {
+"jugador": "László Bénes",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.21,
+"2": 2.0,
+"3": 4.1,
+"4": 9.0,
+"5": 16.5,
+"6": 22.0
+}
+},
+{
+"jugador": "László Bénes",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.0,
+"2": 6.0,
+"3": 15.5,
+"4": 23.0
+}
+},
+{
 "jugador": "Hyllarion Goore",
 "lado": "local",
 "stat": "anota",
@@ -1399,6 +1597,33 @@
 "escalera": {
 "1": 5.7,
 "2": 21.0
+}
+},
+{
+"jugador": "Hyllarion Goore",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"2": 1.17,
+"3": 1.57,
+"4": 2.4,
+"5": 4.1,
+"6": 7.4,
+"7": 12.5,
+"8": 18.5,
+"9": 22.0
+}
+},
+{
+"jugador": "Hyllarion Goore",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.53,
+"2": 3.5,
+"3": 9.0,
+"4": 18.0,
+"5": 23.0
 }
 },
 {
@@ -1429,6 +1654,30 @@
 }
 },
 {
+"jugador": "Aime Omgba",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.16,
+"2": 1.8,
+"3": 3.45,
+"4": 7.3,
+"5": 14.0,
+"6": 21.0
+}
+},
+{
+"jugador": "Aime Omgba",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.18,
+"2": 7.1,
+"3": 17.5,
+"4": 24.0
+}
+},
+{
 "jugador": "Abdelkahar Kadri",
 "lado": "local",
 "stat": "anota",
@@ -1453,6 +1702,30 @@
 "escalera": {
 "1": 5.7,
 "2": 21.0
+}
+},
+{
+"jugador": "Abdelkahar Kadri",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.16,
+"2": 1.8,
+"3": 3.45,
+"4": 7.3,
+"5": 14.0,
+"6": 21.0
+}
+},
+{
+"jugador": "Abdelkahar Kadri",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.88,
+"2": 5.4,
+"3": 14.0,
+"4": 22.0
 }
 },
 {
@@ -1483,6 +1756,31 @@
 }
 },
 {
+"jugador": "Osman Bukari",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.14,
+"2": 1.72,
+"3": 3.2,
+"4": 6.7,
+"5": 13.0,
+"6": 20.0,
+"7": 23.0
+}
+},
+{
+"jugador": "Osman Bukari",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.95,
+"2": 5.8,
+"3": 15.0,
+"4": 23.0
+}
+},
+{
 "jugador": "Loizos Loizou",
 "lado": "visitante",
 "stat": "anota",
@@ -1492,7 +1790,7 @@
 "jugador": "Loizos Loizou",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 3.0
+"cuota": 3.05
 },
 {
 "jugador": "Loizos Loizou",
@@ -1507,6 +1805,31 @@
 "escalera": {
 "1": 5.7,
 "2": 21.0
+}
+},
+{
+"jugador": "Loizos Loizou",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.11,
+"2": 1.6,
+"3": 2.75,
+"4": 5.5,
+"5": 10.75,
+"6": 17.5,
+"7": 22.0
+}
+},
+{
+"jugador": "Loizos Loizou",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.7,
+"2": 4.25,
+"3": 11.25,
+"4": 20.0
 }
 },
 {
@@ -1537,6 +1860,28 @@
 }
 },
 {
+"jugador": "Mohammad Abu Fani",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.42,
+"2": 2.9,
+"3": 7.0,
+"4": 15.0,
+"5": 22.0
+}
+},
+{
+"jugador": "Mohammad Abu Fani",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.95,
+"2": 11.5,
+"3": 22.0
+}
+},
+{
 "jugador": "Vasilije Kostov",
 "lado": "visitante",
 "stat": "anota",
@@ -1561,6 +1906,30 @@
 "escalera": {
 "1": 6.5,
 "2": 23.0
+}
+},
+{
+"jugador": "Vasilije Kostov",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.2,
+"2": 1.98,
+"3": 4.0,
+"4": 8.75,
+"5": 16.0,
+"6": 22.0
+}
+},
+{
+"jugador": "Vasilije Kostov",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.98,
+"2": 5.9,
+"3": 15.5,
+"4": 23.0
 }
 },
 {
@@ -1591,6 +1960,30 @@
 }
 },
 {
+"jugador": "Kristiyan Balov",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.17,
+"2": 1.85,
+"3": 3.6,
+"4": 7.6,
+"5": 14.5,
+"6": 21.0
+}
+},
+{
+"jugador": "Kristiyan Balov",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.07,
+"2": 6.4,
+"3": 16.5,
+"4": 23.0
+}
+},
+{
 "jugador": "Dimitrije Saric",
 "lado": "visitante",
 "stat": "anota",
@@ -1615,6 +2008,30 @@
 "escalera": {
 "1": 6.5,
 "2": 23.0
+}
+},
+{
+"jugador": "Dimitrije Saric",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.2,
+"2": 1.98,
+"3": 4.0,
+"4": 8.75,
+"5": 16.0,
+"6": 22.0
+}
+},
+{
+"jugador": "Dimitrije Saric",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.18,
+"2": 7.1,
+"3": 17.5,
+"4": 24.0
 }
 },
 {
@@ -1645,6 +2062,30 @@
 }
 },
 {
+"jugador": "Timi Max Elšnik",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.2,
+"2": 1.98,
+"3": 4.0,
+"4": 8.75,
+"5": 16.0,
+"6": 22.0
+}
+},
+{
+"jugador": "Timi Max Elšnik",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.18,
+"2": 7.1,
+"3": 17.5,
+"4": 24.0
+}
+},
+{
 "jugador": "Moctar Diop",
 "lado": "local",
 "stat": "anota",
@@ -1672,30 +2113,27 @@
 }
 },
 {
-"jugador": "Muhammed Cham",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 4.6
-},
-{
-"jugador": "Muhammed Cham",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 3.4
-},
-{
-"jugador": "Muhammed Cham",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 15.0
-},
-{
-"jugador": "Muhammed Cham",
-"lado": "visitante",
-"stat": "asiste",
+"jugador": "Moctar Diop",
+"lado": "local",
+"stat": "remates",
 "escalera": {
-"1": 6.5,
-"2": 23.0
+"2": 1.47,
+"3": 2.37,
+"4": 4.55,
+"5": 9.0,
+"6": 15.5,
+"7": 21.0
+}
+},
+{
+"jugador": "Moctar Diop",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.78,
+"2": 4.7,
+"3": 12.5,
+"4": 21.0
 }
 },
 {
@@ -1726,6 +2164,31 @@
 }
 },
 {
+"jugador": "El Hadji Seck",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.13,
+"2": 1.7,
+"3": 3.1,
+"4": 6.4,
+"5": 12.5,
+"6": 19.5,
+"7": 23.0
+}
+},
+{
+"jugador": "El Hadji Seck",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.07,
+"2": 6.4,
+"3": 16.5,
+"4": 23.0
+}
+},
+{
 "jugador": "Kyrell Wilson",
 "lado": "local",
 "stat": "anota",
@@ -1750,6 +2213,30 @@
 "escalera": {
 "1": 5.4,
 "2": 21.0
+}
+},
+{
+"jugador": "Kyrell Wilson",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"2": 1.42,
+"3": 2.25,
+"4": 4.15,
+"5": 8.0,
+"6": 14.5,
+"7": 20.0
+}
+},
+{
+"jugador": "Kyrell Wilson",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.8,
+"2": 4.85,
+"3": 13.0,
+"4": 21.0
 }
 },
 {
@@ -1780,6 +2267,79 @@
 }
 },
 {
+"jugador": "Tibe De Vlieger",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.34,
+"2": 2.55,
+"3": 6.0,
+"4": 13.0,
+"5": 21.0
+}
+},
+{
+"jugador": "Tibe De Vlieger",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.95,
+"2": 11.5,
+"3": 22.0
+}
+},
+{
+"jugador": "Muhammed Cham",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 4.65
+},
+{
+"jugador": "Muhammed Cham",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 3.4
+},
+{
+"jugador": "Muhammed Cham",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 15.0
+},
+{
+"jugador": "Muhammed Cham",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 6.5,
+"2": 23.0
+}
+},
+{
+"jugador": "Muhammed Cham",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.2,
+"2": 1.98,
+"3": 4.0,
+"4": 8.75,
+"5": 16.0,
+"6": 22.0
+}
+},
+{
+"jugador": "Muhammed Cham",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.18,
+"2": 7.1,
+"3": 17.5,
+"4": 24.0
+}
+},
+{
 "jugador": "Kim Ye-geon",
 "lado": "visitante",
 "stat": "anota",
@@ -1789,7 +2349,7 @@
 "jugador": "Kim Ye-geon",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 3.55
+"cuota": 3.6
 },
 {
 "jugador": "Kim Ye-geon",
@@ -1804,6 +2364,30 @@
 "escalera": {
 "1": 6.5,
 "2": 23.0
+}
+},
+{
+"jugador": "Kim Ye-geon",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.2,
+"2": 1.98,
+"3": 4.0,
+"4": 8.75,
+"5": 16.0,
+"6": 22.0
+}
+},
+{
+"jugador": "Kim Ye-geon",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.18,
+"2": 7.1,
+"3": 17.5,
+"4": 24.0
 }
 },
 {
@@ -1834,6 +2418,30 @@
 }
 },
 {
+"jugador": "Pieter Gerkens",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.16,
+"2": 1.8,
+"3": 3.45,
+"4": 7.3,
+"5": 14.0,
+"6": 21.0
+}
+},
+{
+"jugador": "Pieter Gerkens",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.18,
+"2": 7.1,
+"3": 17.5,
+"4": 24.0
+}
+},
+{
 "jugador": "Matisse Samoise",
 "lado": "local",
 "stat": "anota",
@@ -1858,6 +2466,28 @@
 "escalera": {
 "1": 6.7,
 "2": 23.0
+}
+},
+{
+"jugador": "Matisse Samoise",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.34,
+"2": 2.55,
+"3": 6.0,
+"4": 13.0,
+"5": 21.0
+}
+},
+{
+"jugador": "Matisse Samoise",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.95,
+"2": 11.5,
+"3": 22.0
 }
 },
 {
@@ -1889,6 +2519,29 @@
 }
 },
 {
+"jugador": "Tiago Araujo",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.24,
+"2": 2.12,
+"3": 4.55,
+"4": 10.0,
+"5": 17.5,
+"6": 23.0
+}
+},
+{
+"jugador": "Tiago Araujo",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 3.55,
+"2": 14.5,
+"3": 24.0
+}
+},
+{
 "jugador": "Gilles De Meyer",
 "lado": "local",
 "stat": "anota",
@@ -1913,6 +2566,27 @@
 "escalera": {
 "1": 6.9,
 "2": 23.0
+}
+},
+{
+"jugador": "Gilles De Meyer",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.78,
+"2": 4.75,
+"3": 12.5,
+"4": 21.0
+}
+},
+{
+"jugador": "Gilles De Meyer",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 4.55,
+"2": 18.5,
+"3": 24.0
 }
 },
 {
@@ -1943,6 +2617,28 @@
 }
 },
 {
+"jugador": "Mohammed El Adfaoui",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.5,
+"2": 3.25,
+"3": 8.25,
+"4": 16.5,
+"5": 23.0
+}
+},
+{
+"jugador": "Mohammed El Adfaoui",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 3.65,
+"2": 15.0,
+"3": 24.0
+}
+},
+{
 "jugador": "Vladimir Lucic",
 "lado": "visitante",
 "stat": "anota",
@@ -1970,42 +2666,41 @@
 }
 },
 {
-"jugador": "Maksim Paskotsi",
-"lado": "local",
-"stat": "anota",
-"cuota": 6.1
-},
-{
-"jugador": "Maksim Paskotsi",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 5.4
-},
-{
-"jugador": "Maksim Paskotsi",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 12.5
-},
-{
-"jugador": "Maksim Paskotsi",
-"lado": "local",
-"stat": "asiste",
+"jugador": "Vladimir Lucic",
+"lado": "visitante",
+"stat": "remates",
 "escalera": {
-"1": 10.25
+"1": 1.1,
+"2": 1.55,
+"3": 2.65,
+"4": 5.2,
+"5": 10.25,
+"6": 17.0,
+"7": 22.0
+}
+},
+{
+"jugador": "Vladimir Lucic",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.85,
+"2": 5.1,
+"3": 13.5,
+"4": 22.0
 }
 },
 {
 "jugador": "Rade Krunic",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 6.1
+"cuota": 5.8
 },
 {
 "jugador": "Rade Krunic",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 4.35
+"cuota": 4.2
 },
 {
 "jugador": "Rade Krunic",
@@ -2020,6 +2715,28 @@
 "escalera": {
 "1": 7.4,
 "2": 23.0
+}
+},
+{
+"jugador": "Rade Krunic",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.53,
+"2": 3.45,
+"3": 8.75,
+"4": 17.5,
+"5": 23.0
+}
+},
+{
+"jugador": "Rade Krunic",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.85,
+"2": 11.0,
+"3": 22.0
 }
 },
 {
@@ -2050,16 +2767,86 @@
 }
 },
 {
+"jugador": "Aleksandar Katai",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.18,
+"2": 1.87,
+"3": 3.65,
+"4": 7.8,
+"5": 15.0,
+"6": 21.0
+}
+},
+{
+"jugador": "Aleksandar Katai",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.07,
+"2": 6.5,
+"3": 16.5,
+"4": 23.0
+}
+},
+{
+"jugador": "Maksim Paskotsi",
+"lado": "local",
+"stat": "anota",
+"cuota": 6.5
+},
+{
+"jugador": "Maksim Paskotsi",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 5.6
+},
+{
+"jugador": "Maksim Paskotsi",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 12.5
+},
+{
+"jugador": "Maksim Paskotsi",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 10.25
+}
+},
+{
+"jugador": "Maksim Paskotsi",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.98,
+"2": 5.9,
+"3": 15.0,
+"4": 23.0
+}
+},
+{
+"jugador": "Maksim Paskotsi",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 5.3,
+"2": 20.0
+}
+},
+{
 "jugador": "Tomas Handel",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 6.4
+"cuota": 6.5
 },
 {
 "jugador": "Tomas Handel",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 4.25
+"cuota": 4.3
 },
 {
 "jugador": "Tomas Handel",
@@ -2077,16 +2864,38 @@
 }
 },
 {
+"jugador": "Tomas Handel",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.57,
+"2": 3.6,
+"3": 9.25,
+"4": 18.5,
+"5": 23.0
+}
+},
+{
+"jugador": "Tomas Handel",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 3.35,
+"2": 13.5,
+"3": 23.0
+}
+},
+{
 "jugador": "Abdoul Ayinde",
 "lado": "local",
 "stat": "anota",
-"cuota": 6.8
+"cuota": 7.2
 },
 {
 "jugador": "Abdoul Ayinde",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 4.35
+"cuota": 4.45
 },
 {
 "jugador": "Abdoul Ayinde",
@@ -2104,16 +2913,37 @@
 }
 },
 {
+"jugador": "Abdoul Ayinde",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.82,
+"2": 5.0,
+"3": 13.0,
+"4": 22.0
+}
+},
+{
+"jugador": "Abdoul Ayinde",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 4.6,
+"2": 18.5,
+"3": 25.0
+}
+},
+{
 "jugador": "Mihailo Ristic",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 7.1
+"cuota": 7.2
 },
 {
 "jugador": "Mihailo Ristic",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 4.55
+"cuota": 4.6
 },
 {
 "jugador": "Mihailo Ristic",
@@ -2131,16 +2961,37 @@
 }
 },
 {
+"jugador": "Mihailo Ristic",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.9,
+"2": 5.4,
+"3": 14.5,
+"4": 22.0
+}
+},
+{
+"jugador": "Mihailo Ristic",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 4.15,
+"2": 17.0,
+"3": 24.0
+}
+},
+{
 "jugador": "Matej Gashtarov",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 7.1
+"cuota": 7.2
 },
 {
 "jugador": "Matej Gashtarov",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 5.1
+"cuota": 5.2
 },
 {
 "jugador": "Matej Gashtarov",
@@ -2155,6 +3006,28 @@
 "escalera": {
 "1": 8.25,
 "2": 24.0
+}
+},
+{
+"jugador": "Matej Gashtarov",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.57,
+"2": 3.6,
+"3": 9.25,
+"4": 18.5,
+"5": 23.0
+}
+},
+{
+"jugador": "Matej Gashtarov",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 3.65,
+"2": 15.0,
+"3": 24.0
 }
 },
 {
@@ -2185,6 +3058,28 @@
 }
 },
 {
+"jugador": "Leonardo Lopes",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.34,
+"2": 2.55,
+"3": 6.0,
+"4": 13.0,
+"5": 21.0
+}
+},
+{
+"jugador": "Leonardo Lopes",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.95,
+"2": 11.5,
+"3": 22.0
+}
+},
+{
 "jugador": "Matties Volckaert",
 "lado": "local",
 "stat": "anota",
@@ -2209,6 +3104,27 @@
 "escalera": {
 "1": 6.8,
 "2": 23.0
+}
+},
+{
+"jugador": "Matties Volckaert",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.93,
+"2": 5.7,
+"3": 15.0,
+"4": 23.0
+}
+},
+{
+"jugador": "Matties Volckaert",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.95,
+"2": 11.5,
+"3": 22.0
 }
 },
 {
@@ -2239,6 +3155,28 @@
 }
 },
 {
+"jugador": "Mathias Delorge",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.34,
+"2": 2.55,
+"3": 6.0,
+"4": 13.0,
+"5": 21.0
+}
+},
+{
+"jugador": "Mathias Delorge",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.95,
+"2": 11.5,
+"3": 22.0
+}
+},
+{
 "jugador": "Mahmudu Bajo",
 "lado": "visitante",
 "stat": "anota",
@@ -2266,56 +3204,25 @@
 }
 },
 {
-"jugador": "Derrick Luckassen",
+"jugador": "Mahmudu Bajo",
 "lado": "visitante",
-"stat": "anota",
-"cuota": 9.0
-},
-{
-"jugador": "Derrick Luckassen",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 7.8
-},
-{
-"jugador": "Derrick Luckassen",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 13.5
-},
-{
-"jugador": "Derrick Luckassen",
-"lado": "visitante",
-"stat": "asiste",
+"stat": "remates",
 "escalera": {
-"1": 10.75
+"1": 1.57,
+"2": 3.6,
+"3": 9.25,
+"4": 18.5,
+"5": 23.0
 }
 },
 {
-"jugador": "Yuta Nakayama",
+"jugador": "Mahmudu Bajo",
 "lado": "visitante",
-"stat": "anota",
-"cuota": 9.0
-},
-{
-"jugador": "Yuta Nakayama",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 5.9
-},
-{
-"jugador": "Yuta Nakayama",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 13.5
-},
-{
-"jugador": "Yuta Nakayama",
-"lado": "visitante",
-"stat": "asiste",
+"stat": "al_arco",
 "escalera": {
-"1": 7.9,
-"2": 24.0
+"1": 3.65,
+"2": 15.0,
+"3": 24.0
 }
 },
 {
@@ -2345,6 +3252,119 @@
 }
 },
 {
+"jugador": "Siebe Van der Heyden",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.93,
+"2": 5.6,
+"3": 14.5,
+"4": 23.0
+}
+},
+{
+"jugador": "Siebe Van der Heyden",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 5.3,
+"2": 20.0
+}
+},
+{
+"jugador": "Derrick Luckassen",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 9.25
+},
+{
+"jugador": "Derrick Luckassen",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 7.8
+},
+{
+"jugador": "Derrick Luckassen",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 13.5
+},
+{
+"jugador": "Derrick Luckassen",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 10.75
+}
+},
+{
+"jugador": "Derrick Luckassen",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 2.2,
+"2": 7.2,
+"3": 17.5,
+"4": 24.0
+}
+},
+{
+"jugador": "Derrick Luckassen",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 5.3,
+"2": 20.0
+}
+},
+{
+"jugador": "Yuta Nakayama",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 9.25
+},
+{
+"jugador": "Yuta Nakayama",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 5.9
+},
+{
+"jugador": "Yuta Nakayama",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 13.5
+},
+{
+"jugador": "Yuta Nakayama",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 7.9,
+"2": 24.0
+}
+},
+{
+"jugador": "Yuta Nakayama",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 2.05,
+"2": 6.3,
+"3": 16.0,
+"4": 23.0
+}
+},
+{
+"jugador": "Yuta Nakayama",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 5.3,
+"2": 20.0
+}
+},
+{
 "jugador": "Mamadou Aliou Diallo",
 "lado": "local",
 "stat": "anota",
@@ -2368,6 +3388,26 @@
 "stat": "asiste",
 "escalera": {
 "1": 10.25
+}
+},
+{
+"jugador": "Mamadou Aliou Diallo",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 2.07,
+"2": 6.4,
+"3": 16.5,
+"4": 23.0
+}
+},
+{
+"jugador": "Mamadou Aliou Diallo",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 5.3,
+"2": 20.0
 }
 },
 {
@@ -2398,6 +3438,72 @@
 }
 },
 {
+"jugador": "Miloš Veljković",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 2.2,
+"2": 7.2,
+"3": 17.5,
+"4": 24.0
+}
+},
+{
+"jugador": "Miloš Veljković",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 5.3,
+"2": 20.0
+}
+},
+{
+"jugador": "Stefan Gudelj",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 12.0
+},
+{
+"jugador": "Stefan Gudelj",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 10.0
+},
+{
+"jugador": "Stefan Gudelj",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 11.5
+},
+{
+"jugador": "Stefan Gudelj",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 10.75
+}
+},
+{
+"jugador": "Stefan Gudelj",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 2.18,
+"2": 7.1,
+"3": 17.5,
+"4": 24.0
+}
+},
+{
+"jugador": "Stefan Gudelj",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 5.3,
+"2": 20.0
+}
+},
+{
 "jugador": "Franklin Tebo Uchenna",
 "lado": "visitante",
 "stat": "anota",
@@ -2424,29 +3530,23 @@
 }
 },
 {
-"jugador": "Stefan Gudelj",
+"jugador": "Franklin Tebo Uchenna",
 "lado": "visitante",
-"stat": "anota",
-"cuota": 13.5
-},
-{
-"jugador": "Stefan Gudelj",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 10.75
-},
-{
-"jugador": "Stefan Gudelj",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 11.5
-},
-{
-"jugador": "Stefan Gudelj",
-"lado": "visitante",
-"stat": "asiste",
+"stat": "remates",
 "escalera": {
-"1": 10.75
+"1": 2.2,
+"2": 7.2,
+"3": 17.5,
+"4": 24.0
+}
+},
+{
+"jugador": "Franklin Tebo Uchenna",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 5.3,
+"2": 20.0
 }
 },
 {
@@ -2476,6 +3576,26 @@
 }
 },
 {
+"jugador": "Andrej Sibinovic",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 2.2,
+"2": 7.2,
+"3": 17.5,
+"4": 24.0
+}
+},
+{
+"jugador": "Andrej Sibinovic",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 5.3,
+"2": 20.0
+}
+},
+{
 "jugador": "Adem Avdic",
 "lado": "visitante",
 "stat": "anota",
@@ -2503,6 +3623,27 @@
 }
 },
 {
+"jugador": "Adem Avdic",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.93,
+"2": 5.6,
+"3": 14.5,
+"4": 23.0
+}
+},
+{
+"jugador": "Adem Avdic",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 4.6,
+"2": 18.5,
+"3": 25.0
+}
+},
+{
 "jugador": "Matej Strika",
 "lado": "visitante",
 "stat": "anota",
@@ -2527,6 +3668,27 @@
 "escalera": {
 "1": 7.4,
 "2": 23.0
+}
+},
+{
+"jugador": "Matej Strika",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.93,
+"2": 5.6,
+"3": 14.5,
+"4": 23.0
+}
+},
+{
+"jugador": "Matej Strika",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 4.6,
+"2": 18.5,
+"3": 25.0
 }
 },
 {
@@ -2540,11 +3702,11 @@
 "lado": "local",
 "stat": "atajadas",
 "escalera": {
-"2": 1.28,
-"3": 1.87,
-"4": 3.15,
-"5": 5.8,
-"6": 10.75
+"2": 1.19,
+"3": 1.62,
+"4": 2.52,
+"5": 4.4,
+"6": 8.0
 }
 },
 {
@@ -2558,6 +3720,18 @@
 "lado": "visitante",
 "stat": "tarjeta",
 "cuota": 22.0
+},
+{
+"jugador": "Matheus",
+"lado": "visitante",
+"stat": "atajadas",
+"escalera": {
+"2": 1.28,
+"3": 1.87,
+"4": 3.15,
+"5": 5.9,
+"6": 10.75
+}
 },
 {
 "jugador": "Savo Radanovic",
@@ -10859,5 +12033,5 @@
 "faltan": []
 },
 "estadio": "Planet Group Arena",
-"cuotas_leidas": "Cuotas de Betano leídas 2026-11-25T13:59:43.683Z · 385 mercados"
+"cuotas_leidas": "Cuotas de Betano leídas 2026-11-25T19:54:36.390Z · 385 mercados"
 }

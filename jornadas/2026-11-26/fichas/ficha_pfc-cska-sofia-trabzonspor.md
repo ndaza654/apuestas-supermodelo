@@ -1,5 +1,5 @@
 # Ficha — PFC CSKA Sofia - Trabzonspor
-UEFA Conference League Conference League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T13:59:30.335Z · 373 mercados
+UEFA Conference League Conference League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T19:55:26.261Z · 373 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -282,7 +282,14 @@ Muestra: local 10, visitante 10, directos 0.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Fedor Lapoukhov — atajadas: 2+ @1.16 · col +1.6 · 9 de 9 (titular 0.90)
+- Angelo Martino — remates: 1+ @1.65 · col +1.1 · 7 de 9 (titular 0.90)
+- Ioannis Pittas — remates: 2+ @1.33 · col +1.6 · 8 de 9 (titular 0.90)
+- Ioannis Pittas — al_arco: 1+ @1.52 · col +0.6 · 7 de 9 (titular 0.90)
+- Santiago Leandro Godoy — remates: 2+ @1.25 · col +2.1 · 7 de 9 (titular 0.90)
+- Stefano Sensi — remates: 1+ @1.33 · col +1.3 · 8 de 9 (titular 0.90)
+- André Onana — atajadas: 2+ @1.16 · col +2.0 · 8 de 10 (titular 0.90)
+- Mohamed Salah — al_arco: 1+ @1.19 · col +1.1 · 9 de 10 (titular 0.90)
+- Ozan Tufan — remates: 1+ @1.25 · col +1.7 · 7 de 10 (titular 0.90)
 
 ## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
 

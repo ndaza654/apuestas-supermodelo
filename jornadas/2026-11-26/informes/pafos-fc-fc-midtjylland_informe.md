@@ -65,7 +65,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates Pafos FC Más 12.5 | 1.47 | 64 % | 56 % | Partido abierto (ambos marcan y 3+ goles) (70 %) | Favorito gana en partido trabado (53 %) | Cara |
 | Tiros al arco | Tiros al arco Pafos FC Menos 6.5 | 1.32 | 72 % | 58 % | Favorito gana en partido trabado (90 %) | Sorpresa: gana el no favorito (58 %) | Alta probabilidad · cuota por debajo de la justa |
 | Fueras de lugar | Fueras de lugar Pafos FC Más 0.5 | 1.47 | 66 % | 65 % | Favorito golpea temprano y gana (68 %) | Expulsión antes del 70′ (64 %) | Alta probabilidad |
-| Jugadores | Radoslaw Majecki atajadas 6+ | 4.65 | 20 % | 20 % | Partido abierto (ambos marcan y 3+ goles) (22 %) | Expulsión antes del 70′ (18 %) | Cara |
+| Jugadores | Alexandre Brito anota o asiste | 4.65 | 20 % | 10 % | Sorpresa: gana el no favorito (32 %) | Favorito golpea temprano y gana (0 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 
@@ -92,11 +92,11 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Tiros al arco Pafos FC Menos 6.5 | 1.32 | 72 % | 73 % | 72 % | +0 pts | -5 % | 58 % | +0.5 | 1.43 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
 | Córners 1.er tiempo Menos 5.5 | 1.39 | 71 % | 69 % | 71 % | +0 pts | -2 % | 70 % | +0.5 | 1.46 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
 | Tarjetas Pafos FC Menos 2.5 | 1.38 | 70 % | 70 % | 70 % | +0 pts | -3 % | 71 % | +0.4 | 1.46 | Expulsión antes del 70′ | Alta probabilidad |
+| Philip Billing remates 1+ | 1.26 | 70 % | 71 % | 70 % | +0 pts | -11 % | 69 % | — | 1.46 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
+| Radoslaw Majecki atajadas 3+ | 1.29 | 70 % | 69 % | 70 % | +0 pts | -10 % | 70 % | +0.6 | 1.47 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
 | Córners Más 8.0 | 1.52 | 70 % | 69 % | 70 % | +0 pts | +6 % | 61 % | +0.5 | 1.48 | Favorito golpea temprano y gana | Alta probabilidad · Valor · asiática: devuelve 11 % |
-| Tarjetas 1.er tiempo Más 0.5 | 1.40 | 69 % | 69 % | 69 % | +0 pts | -3 % | 67 % | +0.7 | 1.48 | Sorpresa: gana el no favorito | Alta probabilidad |
-| Radoslaw Majecki atajadas 3+ | 1.31 | 69 % | 68 % | 69 % | +0 pts | -9 % | 69 % | +0.6 | 1.49 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
-| Goles 1.er tiempo Menos 1.75 | 1.39 | 69 % | 70 % | 69 % | +0 pts | -4 % | 69 % | +0.3 | 1.49 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 12 % · ★ enfoque a favor |
-| Tarjetas Más 2.5 | 1.40 | 69 % | 69 % | 69 % | +0 pts | -3 % | 66 % | +0.6 | 1.49 | Favorito golpea temprano y gana | Alta probabilidad |
+| Anderson Silva remates 2+ | 1.26 | 70 % | 71 % | 70 % | +0 pts | -12 % | 66 % | — | 1.48 | Empate | Alta probabilidad · cuota por debajo de la justa |
+| Frederik Vestergaard remates 1+ | 1.26 | 70 % | 71 % | 70 % | +0 pts | -12 % | 68 % | — | 1.48 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |

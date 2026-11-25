@@ -412,3 +412,8 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Regla fija en CLAUDE.md: Betano = cuotas; Flashscore + ESPN + Opta (+ Sofascore) = equipos y jugadores; ValueStats = árbitros. Sofascore funciona desde `www.sofascore.com` con `/api/v1/...` del mismo sitio (≈0,1 s; `api.sofascore.com` sigue dando 403): estadísticas de equipo (≈55), ≈70 por jugador, últimos 30 partidos, ficha del árbitro; cifras idénticas a ESPN y Opta en la final. Detalle: `estrategias/stack_de_fuentes.md`.
 
 - 25-nov 14:58 · BB Boost final PSG–Roma: Goles Más 3.5 + Córners Roma Más 2.5 + Saques de meta Menos 17.5 = 5,40 real (alternativa con Menos 16.5 = 6,60). Once oficial y últimos 10 leídos en Sofascore (fuente principal desde las 14:10); 3 de 3 patas con «cumple». Además: Sofascore integrado en armar_entrada (Flashscore de respaldo) y jornada 26-nov leída completa con Sofascore (36 partidos).
+
+## 2026-11-25 · Mantenimiento: cuotas de jugador inventadas (tablas de Betano)
+- **Qué pasó:** desde ~22-nov las líneas de jugador (remates, tiros al arco, entradas, faltas, atajadas, asistencias) salían con cuotas de otros jugadores; Betano las entrega en una tabla por mercado y el extractor las pegaba a un solo jugador.
+- **Arreglo:** `betano_extraer.js` + `betano.py` (validez: líneas crecientes, precio no decreciente) + pruebas; limpieza 22–25-nov (`limpiar_escaleras_invalidas.py`, 1.623 filas a `registro/lineas_invalidas.csv`), 26-nov releído (36 partidos). Detalle: `entregas/2026-11-25/1510_mantenimiento_cuotas_jugador_inventadas.md`.
+- **Límite:** las calibraciones de jugador del 21–24-nov usaron esas filas; repetir la medición. Boletos del usuario: solo 1 pata afectada (Soria, atajadas 3).

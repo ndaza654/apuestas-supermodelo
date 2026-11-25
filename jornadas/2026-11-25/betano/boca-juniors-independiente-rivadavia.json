@@ -1070,45 +1070,6 @@
 "cuota": 2.95
 },
 {
-"jugador": "Rodrigo Bacidalupe",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 5.9,
-"2": 23.0,
-"3": 23.0
-}
-},
-{
-"jugador": "Rodrigo Bacidalupe",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"3": 14.5,
-"4": 22.0,
-"5": 22.0,
-"6": 21.0,
-"7": 21.0,
-"8": 20.0,
-"9": 21.0,
-"10": 18.5,
-"2": 5.8,
-"1": 1.98
-}
-},
-{
-"jugador": "Rodrigo Bacidalupe",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 3.65,
-"2": 17.5,
-"3": 24.0,
-"4": 23.0,
-"5": 22.0
-}
-},
-{
 "jugador": "Miguel Merentiel",
 "lado": "local",
 "stat": "anota",
@@ -1821,21 +1782,14 @@
 "lado": "visitante",
 "stat": "anota_o_asiste",
 "cuota": 17.5
-},
-{
-"jugador": "Álvaro Montero",
-"lado": "local",
-"stat": "atajadas",
-"escalera": {
-"3": 1.98,
-"4": 3.45,
-"5": 6.5,
-"6": 11.75,
-"7": 6.2,
-"2": 1.31
-}
 }
 ],
-"parejas": []
+"parejas": [],
+"avisos": [
+"Rodrigo Bacidalupe · asiste: escalera descartada (tabla de jugadores mal leída; limpiado el 25-nov-2026)",
+"Rodrigo Bacidalupe · remates: escalera descartada (tabla de jugadores mal leída; limpiado el 25-nov-2026)",
+"Rodrigo Bacidalupe · al_arco: escalera descartada (tabla de jugadores mal leída; limpiado el 25-nov-2026)",
+"Álvaro Montero · atajadas: escalera descartada (tabla de jugadores mal leída; limpiado el 25-nov-2026)"
+]
 }
 }

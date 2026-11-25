@@ -68,7 +68,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Fueras de lugar | Fueras de lugar Real Sociedad Menos 1.5 | 1.40 | 69 % | 68 % | Favorito gana en partido trabado (70 %) | Favorito golpea temprano y gana (65 %) | Alta probabilidad |
 | Saques de meta | Saques de meta Crystal Palace FC Menos 7.5 | 1.67 | 57 % | 55 % | Sorpresa: gana el no favorito (65 %) | Favorito golpea temprano y gana (49 %) | Justa |
 | Saques de banda | Saques de banda 1.er tiempo Menos 18.5 | 1.87 | 61 % | 60 % | Favorito gana en partido trabado (63 %) | Expulsión antes del 70′ (59 %) | Valor · ⚠ Revisar: la simulación sin contexto se aleja 21 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
-| Jugadores | Jon Martín anota o asiste | 5.70 | 17 % | 10 % | Sorpresa: gana el no favorito (27 %) | Favorito golpea temprano y gana (0 %) | Justa |
+| Jugadores | Jon Martín anota o asiste | 5.70 | 17 % | 9 % | Sorpresa: gana el no favorito (28 %) | Favorito golpea temprano y gana (0 %) | Justa |
 | Quién saca más | Más tarjetas: empate | 4.10 | 23 % | 24 % | Favorito golpea temprano y gana (25 %) | Expulsión antes del 70′ (10 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.

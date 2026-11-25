@@ -1,5 +1,5 @@
 # Ficha — NEC Nijmegen - Stade Rennais FC
-UEFA Europa League Europa League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T13:57:23.452Z · 416 mercados
+UEFA Europa League Europa League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T19:54:46.758Z · 416 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -281,7 +281,7 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Ahmetcan Kaplan — remates: 1+ @1.44 · col +1.0 · 7 de 9 (titular 0.90)
 - Bryan Linssen — remates: 1+ @1.09 · col +1.6 · 9 de 10 (titular 0.90)
 - Bryan Linssen — remates: 2+ @1.53 · col +0.6 · 8 de 10 (titular 0.90)
-- Kevin Kers — remates: 1+ @2.22 · col +1.7 · 8 de 10 (titular 0.50)
+- Kevin Kers — remates: 1+ @1.09 · col +1.7 · 8 de 10 (titular 0.50)
 - Noé Lebreton — remates: 1+ @1.14 · col +1.7 · 9 de 10 (titular 0.90)
 - Tjaronn Chery — remates: 2+ @1.29 · col +1.1 · 8 de 9 (titular 0.90)
 - Tjaronn Chery — al_arco: 1+ @1.47 · col +0.7 · 8 de 9 (titular 0.90)

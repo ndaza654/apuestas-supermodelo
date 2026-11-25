@@ -63,7 +63,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates PFC CSKA Sofia Menos 14.5 | 1.47 | 64 % | 58 % | Favorito gana en partido trabado (76 %) | Partido abierto (ambos marcan y 3+ goles) (58 %) | Cara |
 | Tiros al arco | Tiros al arco PFC CSKA Sofia Menos 5.5 | 1.35 | 71 % | 54 % | Favorito gana en partido trabado (89 %) | Sorpresa: gana el no favorito (54 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar PFC CSKA Sofia Menos 1.5 | 1.40 | 69 % | 68 % | Favorito gana en partido trabado (70 %) | Favorito golpea temprano y gana (66 %) | Alta probabilidad |
-| Jugadores | Fedor Lapoukhov atajadas 3+ | 1.55 | 62 % | 59 % | Favorito gana en partido trabado (64 %) | Expulsión antes del 70′ (59 %) | Justa |
+| Jugadores | Angelo Martino anota o asiste | 5.50 | 17 % | 11 % | Sorpresa: gana el no favorito (31 %) | Favorito golpea temprano y gana (0 %) | Cara |
 | Quién saca más | Más tarjetas: empate | 4.45 | 21 % | 12 % | Favorito golpea temprano y gana (25 %) | Expulsión antes del 70′ (12 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
@@ -91,11 +91,11 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Hándicap PFC CSKA Sofia +1.5 | 1.38 | 71 % | 71 % | 71 % | +0 pts | -2 % | 71 % | — | 1.44 | Favorito golpea temprano y gana | Alta probabilidad |
 | Hándicap PFC CSKA Sofia +2 | 1.37 | 71 % | 71 % | 71 % | +0 pts | -2 % | 71 % | — | 1.45 | Favorito golpea temprano y gana | Alta probabilidad |
 | Goles PFC CSKA Sofia Más 0.5 | 1.36 | 71 % | 71 % | 71 % | +0 pts | -4 % | 71 % | +0.7 | 1.45 | Favorito golpea temprano y gana | Alta probabilidad · ★ enfoque a favor |
+| Ozan Tufan remates 1+ | 1.25 | 71 % | 71 % | 71 % | +0 pts | -11 % | 69 % | — | 1.45 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
 | Tiros al arco PFC CSKA Sofia Menos 5.5 | 1.35 | 71 % | 71 % | 71 % | +0 pts | -4 % | 54 % | +0.4 | 1.45 | Sorpresa: gana el no favorito | Alta probabilidad |
+| Santiago Leandro Godoy remates 2+ | 1.25 | 70 % | 71 % | 70 % | +0 pts | -12 % | 68 % | — | 1.46 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Hándicap Trabzonspor -0 | 1.40 | 70 % | 70 % | 70 % | +0 pts | -2 % | 70 % | — | 1.47 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 24 % |
 | Córners 1.er tiempo Menos 5.5 | 1.40 | 70 % | 69 % | 70 % | +0 pts | -2 % | 68 % | +0.5 | 1.47 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Córners Más 8.0 | 1.52 | 70 % | 69 % | 70 % | +0 pts | +6 % | 58 % | +0.5 | 1.48 | Favorito golpea temprano y gana | Alta probabilidad · Valor · asiática: devuelve 11 % |
-| Goles 1.er tiempo Menos 1.75 | 1.39 | 69 % | 70 % | 69 % | +0 pts | -4 % | 69 % | +0.3 | 1.49 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 12 % |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |

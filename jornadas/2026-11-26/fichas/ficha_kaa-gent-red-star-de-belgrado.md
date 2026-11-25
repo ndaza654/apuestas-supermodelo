@@ -1,5 +1,5 @@
 # Ficha — KAA Gent - Red Star de Belgrado
-UEFA Conference League Conference League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T13:59:43.683Z · 385 mercados
+UEFA Conference League Conference League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T19:54:36.390Z · 385 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -42,8 +42,8 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 5.0, visitante 4.8,
 | 9.5 | @1.87 · col +0.3 · L 5 de 10 · V 3 de 10 | @1.87 · col -0.3 · L 5 de 10 · V 7 de 10 |
 | 10.0 | @2.45 · col -0.2 · L 4 de 10 · V 2 de 10 | @1.87 · col +0.2 · L 5 de 10 · V 7 de 10 |
 | 10.5 | @2.45 · col -0.7 · L 4 de 10 · V 2 de 10 | @1.52 · col +0.7 · L 6 de 10 · V 8 de 10 |
-| 11.0 | @3.35 · col -1.2 · L 3 de 10 · V 1 de 10 | @1.52 · col +1.2 · L 6 de 10 · V 8 de 10 |
-| 11.5 | @3.35 · col -1.7 · L 3 de 10 · V 1 de 10 | @1.3 · col +1.7 · L 7 de 10 · V 9 de 10 ✓ |
+| 11.0 | @3.3 · col -1.2 · L 3 de 10 · V 1 de 10 | @1.52 · col +1.2 · L 6 de 10 · V 8 de 10 |
+| 11.5 | @3.3 · col -1.7 · L 3 de 10 · V 1 de 10 | @1.3 · col +1.7 · L 7 de 10 · V 9 de 10 ✓ |
 | 12.0 | @4.6 · col -2.2 · L 3 de 10 · V 1 de 10 | @1.3 · col +2.2 · L 7 de 10 · V 9 de 10 ✓ |
 | 12.5 | @4.6 · col -2.7 · L 3 de 10 · V 1 de 10 | @1.17 · col +2.7 · L 7 de 10 · V 9 de 10 ✓ |
 | 13.0 | @6.3 · col -3.2 · L 2 de 10 · V 1 de 10 | @1.17 · col +3.2 · L 7 de 10 · V 9 de 10 ✓ |
@@ -192,7 +192,7 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 1.3, visitante 2.0,
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.06 · col +2.8 · L 9 de 10 · V 10 de 10 ✓ | @9.5 · col -2.8 · L 1 de 10 · V 0 de 10 |
+| 0.5 | @1.06 · col +2.8 · L 9 de 10 · V 10 de 10 ✓ | @9.75 · col -2.8 · L 1 de 10 · V 0 de 10 |
 | 1.5 | @1.27 · col +1.8 · L 6 de 10 · V 8 de 10 | @3.8 · col -1.8 · L 4 de 10 · V 2 de 10 |
 | 2.0 | @1.4 · col +1.3 · L 3 de 10 · V 7 de 10 | @3.05 · col -1.3 · L 4 de 10 · V 2 de 10 |
 | 2.25 | @1.62 · col +1.1 · L 3 de 10 · V 7 de 10 | @2.37 · col -1.1 · L 4 de 10 · V 2 de 10 |
@@ -210,15 +210,15 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 1.3, visitante 2.0,
 |---|---|---|
 | 0.5 | @1.22 · col +0.8 · L 6 de 10 · V 6 de 10 | @4.0 · col -0.8 · L 4 de 10 · V 4 de 10 |
 | 1.5 | @2.0 · col -0.2 · L 4 de 10 · V 3 de 10 | @1.75 · col +0.2 · L 6 de 10 · V 7 de 10 |
-| 2.5 | @4.0 · col -1.2 · L 2 de 10 · V 1 de 10 | @1.22 · col +1.2 · L 8 de 10 · V 9 de 10 ✓ |
+| 2.5 | @3.95 · col -1.2 · L 2 de 10 · V 1 de 10 | @1.22 · col +1.2 · L 8 de 10 · V 9 de 10 ✓ |
 | 3.5 | @7.9 · col -2.2 · L 2 de 10 · V 0 de 10 | @1.06 · col +2.2 · L 8 de 10 · V 10 de 10 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.34 · col +1.5 · L 5 de 10 · V 10 de 10 | @3.1 · col -1.5 · L 5 de 10 · V 0 de 10 |
-| 1.5 | @2.55 · col +0.5 · L 3 de 10 · V 8 de 10 | @1.47 · col -0.5 · L 7 de 10 · V 2 de 10 |
+| 0.5 | @1.35 · col +1.5 · L 5 de 10 · V 10 de 10 | @3.05 · col -1.5 · L 5 de 10 · V 0 de 10 |
+| 1.5 | @2.57 · col +0.5 · L 3 de 10 · V 8 de 10 | @1.47 · col -0.5 · L 7 de 10 · V 2 de 10 |
 | 2.5 | @5.7 · col -0.5 · L 1 de 10 · V 4 de 10 | @1.12 · col +0.5 · L 9 de 10 · V 6 de 10 |
 
 ### Tarjetas (solo amarillas)
@@ -271,15 +271,17 @@ Muestra: local 10, visitante 10, directos 0.
 | X | 3.5 | 1 de 10 | 1 de 10 | — |  |
 | 2 | 3.25 | 4 de 10 | 8 de 10 | — |  |
 | 1X | 1.36 | 6 de 10 | 2 de 10 | — |  |
-| X2 | 1.7 | 5 de 10 | 9 de 10 | — |  |
+| X2 | 1.72 | 5 de 10 | 9 de 10 | — |  |
 | 12 | 1.29 | 9 de 10 | 9 de 10 | — | ✓ |
 
 ## Jugadores (solo líneas que cumplen la regularidad; el JSON trae todas)
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Davy Roef — atajadas: 2+ @1.28 · col +2.1 · 7 de 9 (titular 0.90)
-- Davy Roef — atajadas: 3+ @1.87 · col +1.1 · 7 de 9 (titular 0.90)
+- Davy Roef — atajadas: 2+ @1.19 · col +2.1 · 7 de 9 (titular 0.90)
+- Davy Roef — atajadas: 3+ @1.62 · col +1.1 · 7 de 9 (titular 0.90)
+- Mathias Delorge — remates: 1+ @1.34 · col +0.7 · 9 de 10 (titular 0.50)
+- Vasilije Kostov — remates: 1+ @1.2 · col +1.0 · 8 de 8 (titular 0.90)
 
 ## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
 

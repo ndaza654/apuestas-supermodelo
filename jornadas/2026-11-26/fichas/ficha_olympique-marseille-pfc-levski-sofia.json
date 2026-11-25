@@ -2,7 +2,7 @@
  "encuentro": "Olympique Marseille - PFC Levski Sofia",
  "liga": "UEFA Europa League Europa League",
  "fecha": "2026-11-26 12:45",
- "cuotas_leidas": "Cuotas de Betano leídas 2026-11-25T13:56:36.523Z · 438 mercados",
+ "cuotas_leidas": "Cuotas de Betano leídas 2026-11-25T19:55:14.091Z · 438 mercados",
  "regla": {
   "muestra": "últimos 10 de cada equipo (cualquier sede) + hasta 6 directos",
   "cumple": "7 de 10 (n mínimo 7)",
@@ -330,7 +330,7 @@
      "cuota": 3.0
     },
     "menos": {
-     "cuota": 1.35
+     "cuota": 1.36
     },
     "nota": "sin estadística por tiempo en la muestra"
    },
@@ -1550,7 +1550,7 @@
     "linea": 0.5,
     "esperado": 4.55,
     "mas": {
-     "cuota": 1.04,
+     "cuota": 1.03,
      "colchon": 4.05,
      "reg_local": {
       "x": 10,
@@ -1568,7 +1568,7 @@
      "cumple": true
     },
     "menos": {
-     "cuota": 9.5,
+     "cuota": 9.75,
      "colchon": -4.05,
      "reg_local": {
       "x": 0,
@@ -1609,7 +1609,7 @@
      "cumple": true
     },
     "menos": {
-     "cuota": 4.3,
+     "cuota": 4.35,
      "colchon": -3.05,
      "reg_local": {
       "x": 1,
@@ -2171,6 +2171,47 @@
     },
     {
      "ambito": "local",
+     "linea": 0.5,
+     "esperado": 1.38,
+     "mas": {
+      "cuota": 1.35,
+      "colchon": 0.88,
+      "reg_local": {
+       "x": 7,
+       "n": 8,
+       "txt": "7 de 8",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 9,
+       "txt": "5 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 3.05,
+      "colchon": -0.88,
+      "reg_local": {
+       "x": 1,
+       "n": 8,
+       "txt": "1 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 4,
+       "n": 9,
+       "txt": "4 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "local",
      "linea": 1.5,
      "esperado": 1.38,
      "mas": {
@@ -2205,6 +2246,88 @@
        "n": 9,
        "txt": "7 de 9",
        "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "local",
+     "linea": 2.5,
+     "esperado": 1.38,
+     "mas": {
+      "cuota": 5.5,
+      "colchon": -1.12,
+      "reg_local": {
+       "x": 3,
+       "n": 8,
+       "txt": "3 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 9,
+       "txt": "1 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.13,
+      "colchon": 1.12,
+      "reg_local": {
+       "x": 5,
+       "n": 8,
+       "txt": "5 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 9,
+       "txt": "8 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 1.5,
+     "esperado": 2.94,
+     "mas": {
+      "cuota": 1.25,
+      "colchon": 1.44,
+      "reg_local": {
+       "x": 7,
+       "n": 8,
+       "txt": "7 de 8",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 9,
+       "txt": "5 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 3.75,
+      "colchon": -1.44,
+      "reg_local": {
+       "x": 1,
+       "n": 8,
+       "txt": "1 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 4,
+       "n": 9,
+       "txt": "4 de 9",
+       "cumple": false
       },
       "directos": null,
       "cumple": false
@@ -2252,6 +2375,170 @@
      }
     },
     {
+     "ambito": "total",
+     "linea": 3.5,
+     "esperado": 2.94,
+     "mas": {
+      "cuota": 2.8,
+      "colchon": -0.56,
+      "reg_local": {
+       "x": 6,
+       "n": 8,
+       "txt": "6 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 9,
+       "txt": "2 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.4,
+      "colchon": 0.56,
+      "reg_local": {
+       "x": 2,
+       "n": 8,
+       "txt": "2 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 9,
+       "txt": "7 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 4.5,
+     "esperado": 2.94,
+     "mas": {
+      "cuota": 4.8,
+      "colchon": -1.56,
+      "reg_local": {
+       "x": 2,
+       "n": 8,
+       "txt": "2 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 9,
+       "txt": "1 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.16,
+      "colchon": 1.56,
+      "reg_local": {
+       "x": 6,
+       "n": 8,
+       "txt": "6 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 9,
+       "txt": "8 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 5.5,
+     "esperado": 2.94,
+     "mas": {
+      "cuota": 8.0,
+      "colchon": -2.56,
+      "reg_local": {
+       "x": 1,
+       "n": 8,
+       "txt": "1 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 9,
+       "txt": "0 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.06,
+      "colchon": 2.56,
+      "reg_local": {
+       "x": 7,
+       "n": 8,
+       "txt": "7 de 8",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 9,
+       "txt": "9 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 0.5,
+     "esperado": 1.56,
+     "mas": {
+      "cuota": 1.22,
+      "colchon": 1.06,
+      "reg_local": {
+       "x": 7,
+       "n": 8,
+       "txt": "7 de 8",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 9,
+       "txt": "7 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 4.05,
+      "colchon": -1.06,
+      "reg_local": {
+       "x": 1,
+       "n": 8,
+       "txt": "1 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 9,
+       "txt": "2 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
      "ambito": "visitante",
      "linea": 1.5,
      "esperado": 1.56,
@@ -2287,6 +2574,47 @@
        "n": 9,
        "txt": "6 de 9",
        "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 2.5,
+     "esperado": 1.56,
+     "mas": {
+      "cuota": 3.8,
+      "colchon": -0.94,
+      "reg_local": {
+       "x": 3,
+       "n": 8,
+       "txt": "3 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 9,
+       "txt": "0 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.24,
+      "colchon": 0.94,
+      "reg_local": {
+       "x": 5,
+       "n": 8,
+       "txt": "5 de 8",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 9,
+       "txt": "9 de 9",
+       "cumple": true
       },
       "directos": null,
       "cumple": false
@@ -2605,10 +2933,92 @@
    "lineas": [
     {
      "ambito": "local",
+     "linea": 13.5,
+     "esperado": 11.38,
+     "mas": {
+      "cuota": 1.26,
+      "colchon": -2.12,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 9,
+       "txt": "1 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 3.65,
+      "colchon": 2.12,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 9,
+       "txt": "8 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "local",
+     "linea": 14.5,
+     "esperado": 11.38,
+     "mas": {
+      "cuota": 1.4,
+      "colchon": -3.12,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 9,
+       "txt": "1 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 2.8,
+      "colchon": 3.12,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 9,
+       "txt": "8 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "local",
      "linea": 15.5,
      "esperado": 11.38,
      "mas": {
-      "cuota": 1.65,
+      "cuota": 1.6,
       "colchon": -4.12,
       "reg_local": {
        "x": 2,
@@ -2626,7 +3036,7 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 2.15,
+      "cuota": 2.25,
       "colchon": 4.12,
       "reg_local": {
        "x": 8,
@@ -2649,7 +3059,7 @@
      "linea": 16.5,
      "esperado": 11.38,
      "mas": {
-      "cuota": 1.95,
+      "cuota": 1.9,
       "colchon": -5.12,
       "reg_local": {
        "x": 1,
@@ -2667,7 +3077,7 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 1.8,
+      "cuota": 1.85,
       "colchon": 5.12,
       "reg_local": {
        "x": 9,
@@ -2690,7 +3100,7 @@
      "linea": 17.5,
      "esperado": 11.38,
      "mas": {
-      "cuota": 2.4,
+      "cuota": 2.3,
       "colchon": -6.12,
       "reg_local": {
        "x": 1,
@@ -2708,7 +3118,7 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 1.53,
+      "cuota": 1.57,
       "colchon": 6.12,
       "reg_local": {
        "x": 9,
@@ -2727,11 +3137,175 @@
      }
     },
     {
+     "ambito": "local",
+     "linea": 18.5,
+     "esperado": 11.38,
+     "mas": {
+      "cuota": 2.87,
+      "colchon": -7.12,
+      "reg_local": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 9,
+       "txt": "0 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.39,
+      "colchon": 7.12,
+      "reg_local": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 9,
+       "txt": "9 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "local",
+     "linea": 19.5,
+     "esperado": 11.38,
+     "mas": {
+      "cuota": 3.65,
+      "colchon": -8.12,
+      "reg_local": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 9,
+       "txt": "0 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.26,
+      "colchon": 8.12,
+      "reg_local": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 9,
+       "txt": "9 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 21.5,
+     "esperado": 25.34,
+     "mas": {
+      "cuota": 1.27,
+      "colchon": 3.84,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 9,
+       "txt": "5 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 3.5,
+      "colchon": -3.84,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 4,
+       "n": 9,
+       "txt": "4 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 22.5,
+     "esperado": 25.34,
+     "mas": {
+      "cuota": 1.39,
+      "colchon": 2.84,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 9,
+       "txt": "5 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 2.85,
+      "colchon": -2.84,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 4,
+       "n": 9,
+       "txt": "4 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
      "ambito": "total",
      "linea": 23.5,
      "esperado": 25.34,
      "mas": {
-      "cuota": 1.6,
+      "cuota": 1.55,
       "colchon": 1.84,
       "reg_local": {
        "x": 7,
@@ -2749,7 +3323,7 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 2.25,
+      "cuota": 2.37,
       "colchon": -1.84,
       "reg_local": {
        "x": 3,
@@ -2772,7 +3346,7 @@
      "linea": 24.5,
      "esperado": 25.34,
      "mas": {
-      "cuota": 1.82,
+      "cuota": 1.75,
       "colchon": 0.84,
       "reg_local": {
        "x": 7,
@@ -2790,7 +3364,7 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 1.91,
+      "cuota": 2.0,
       "colchon": -0.84,
       "reg_local": {
        "x": 3,
@@ -2813,7 +3387,7 @@
      "linea": 25.5,
      "esperado": 25.34,
      "mas": {
-      "cuota": 2.12,
+      "cuota": 2.02,
       "colchon": -0.16,
       "reg_local": {
        "x": 7,
@@ -2831,7 +3405,7 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 1.67,
+      "cuota": 1.75,
       "colchon": 0.16,
       "reg_local": {
        "x": 3,
@@ -2850,11 +3424,257 @@
      }
     },
     {
+     "ambito": "total",
+     "linea": 26.5,
+     "esperado": 25.34,
+     "mas": {
+      "cuota": 2.4,
+      "colchon": -1.16,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 9,
+       "txt": "1 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.53,
+      "colchon": 1.16,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 9,
+       "txt": "8 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 27.5,
+     "esperado": 25.34,
+     "mas": {
+      "cuota": 2.85,
+      "colchon": -2.16,
+      "reg_local": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 9,
+       "txt": "1 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.39,
+      "colchon": 2.16,
+      "reg_local": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 9,
+       "txt": "8 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 28.5,
+     "esperado": 25.34,
+     "mas": {
+      "cuota": 3.45,
+      "colchon": -3.16,
+      "reg_local": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 9,
+       "txt": "1 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.28,
+      "colchon": 3.16,
+      "reg_local": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 9,
+       "txt": "8 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 29.5,
+     "esperado": 25.34,
+     "mas": {
+      "cuota": 4.25,
+      "colchon": -4.16,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 9,
+       "txt": "1 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.2,
+      "colchon": 4.16,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 9,
+       "txt": "8 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 5.5,
+     "esperado": 13.97,
+     "mas": {
+      "cuota": 1.14,
+      "colchon": 8.47,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 9,
+       "txt": "9 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 5.1,
+      "colchon": -8.47,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 9,
+       "txt": "0 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 6.5,
+     "esperado": 13.97,
+     "mas": {
+      "cuota": 1.29,
+      "colchon": 7.47,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 9,
+       "txt": "8 de 9",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 3.4,
+      "colchon": -7.47,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 9,
+       "txt": "1 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
      "ambito": "visitante",
      "linea": 7.5,
      "esperado": 13.97,
      "mas": {
-      "cuota": 1.57,
+      "cuota": 1.53,
       "colchon": 6.47,
       "reg_local": {
        "x": 10,
@@ -2872,7 +3692,7 @@
       "cumple": true
      },
      "menos": {
-      "cuota": 2.3,
+      "cuota": 2.4,
       "colchon": -6.47,
       "reg_local": {
        "x": 0,
@@ -2895,7 +3715,7 @@
      "linea": 8.5,
      "esperado": 13.97,
      "mas": {
-      "cuota": 2.0,
+      "cuota": 1.93,
       "colchon": 5.47,
       "reg_local": {
        "x": 10,
@@ -2913,7 +3733,7 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 1.75,
+      "cuota": 1.82,
       "colchon": -5.47,
       "reg_local": {
        "x": 0,
@@ -2936,7 +3756,7 @@
      "linea": 9.5,
      "esperado": 13.97,
      "mas": {
-      "cuota": 2.65,
+      "cuota": 2.55,
       "colchon": 4.47,
       "reg_local": {
        "x": 9,
@@ -2954,7 +3774,7 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 1.45,
+      "cuota": 1.47,
       "colchon": -4.47,
       "reg_local": {
        "x": 1,
@@ -2966,6 +3786,88 @@
        "x": 3,
        "n": 9,
        "txt": "3 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 10.5,
+     "esperado": 13.97,
+     "mas": {
+      "cuota": 3.5,
+      "colchon": 3.47,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 9,
+       "txt": "5 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.28,
+      "colchon": -3.47,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 4,
+       "n": 9,
+       "txt": "4 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 11.5,
+     "esperado": 13.97,
+     "mas": {
+      "cuota": 4.9,
+      "colchon": 2.47,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 9,
+       "txt": "5 de 9",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.16,
+      "colchon": -2.47,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 4,
+       "n": 9,
+       "txt": "4 de 9",
        "cumple": false
       },
       "directos": null,
@@ -3092,6 +3994,88 @@
     },
     {
      "ambito": "local",
+     "linea": 2.5,
+     "esperado": 4.2,
+     "mas": {
+      "cuota": 1.08,
+      "colchon": 1.7,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 6.9,
+      "colchon": -1.7,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "local",
+     "linea": 3.5,
+     "esperado": 4.2,
+     "mas": {
+      "cuota": 1.22,
+      "colchon": 0.7,
+      "reg_local": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 3.95,
+      "colchon": -0.7,
+      "reg_local": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "local",
      "linea": 4.5,
      "esperado": 4.2,
      "mas": {
@@ -3207,6 +4191,211 @@
        "x": 6,
        "n": 10,
        "txt": "6 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "local",
+     "linea": 7.5,
+     "esperado": 4.2,
+     "mas": {
+      "cuota": 4.3,
+      "colchon": -3.3,
+      "reg_local": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.19,
+      "colchon": 3.3,
+      "reg_local": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "local",
+     "linea": 8.5,
+     "esperado": 4.2,
+     "mas": {
+      "cuota": 6.5,
+      "colchon": -4.3,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.09,
+      "colchon": 4.3,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 4.5,
+     "esperado": 9.05,
+     "mas": {
+      "cuota": 1.08,
+      "colchon": 4.55,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 6.9,
+      "colchon": -4.55,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 5.5,
+     "esperado": 9.05,
+     "mas": {
+      "cuota": 1.18,
+      "colchon": 3.55,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 4.45,
+      "colchon": -3.55,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 6.5,
+     "esperado": 9.05,
+     "mas": {
+      "cuota": 1.37,
+      "colchon": 2.55,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 2.95,
+      "colchon": -2.55,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
        "cumple": false
       },
       "directos": null,
@@ -3337,6 +4526,211 @@
      }
     },
     {
+     "ambito": "total",
+     "linea": 10.5,
+     "esperado": 9.05,
+     "mas": {
+      "cuota": 4.05,
+      "colchon": -1.45,
+      "reg_local": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.21,
+      "colchon": 1.45,
+      "reg_local": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 11.5,
+     "esperado": 9.05,
+     "mas": {
+      "cuota": 5.8,
+      "colchon": -2.45,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.12,
+      "colchon": 2.45,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 12.5,
+     "esperado": 9.05,
+     "mas": {
+      "cuota": 7.9,
+      "colchon": -3.45,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.06,
+      "colchon": 3.45,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 0.5,
+     "esperado": 4.85,
+     "mas": {
+      "cuota": 1.06,
+      "colchon": 4.35,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 8.0,
+      "colchon": -4.35,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 1.5,
+     "esperado": 4.85,
+     "mas": {
+      "cuota": 1.29,
+      "colchon": 3.35,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 3.4,
+      "colchon": -3.35,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
      "ambito": "visitante",
      "linea": 2.5,
      "esperado": 4.85,
@@ -3372,6 +4766,129 @@
        "n": 10,
        "txt": "4 de 10",
        "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 3.5,
+     "esperado": 4.85,
+     "mas": {
+      "cuota": 3.05,
+      "colchon": 1.35,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.35,
+      "colchon": -1.35,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 4.5,
+     "esperado": 4.85,
+     "mas": {
+      "cuota": 5.3,
+      "colchon": 0.35,
+      "reg_local": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.13,
+      "colchon": -0.35,
+      "reg_local": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 5.5,
+     "esperado": 4.85,
+     "mas": {
+      "cuota": 8.75,
+      "colchon": -0.65,
+      "reg_local": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.05,
+      "colchon": 0.65,
+      "reg_local": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
       },
       "directos": null,
       "cumple": false
@@ -3534,7 +5051,7 @@
     "ambito": "1T",
     "linea": 1.5,
     "mas": {
-     "cuota": 2.37
+     "cuota": 2.35
     },
     "menos": {
      "cuota": 1.57
@@ -3600,7 +5117,7 @@
     "ambito": "2T",
     "linea": 2.5,
     "mas": {
-     "cuota": 3.55
+     "cuota": 3.5
     },
     "menos": {
      "cuota": 1.29
@@ -3630,7 +5147,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 6.4,
+     "cuota": 6.6,
      "colchon": -0.85,
      "reg_local": {
       "x": 2,
@@ -3653,7 +5170,7 @@
     "linea": 1.5,
     "esperado": 1.35,
     "mas": {
-     "cuota": 1.45,
+     "cuota": 1.44,
      "colchon": -0.15,
      "reg_local": {
       "x": 6,
@@ -3671,7 +5188,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 2.62,
+     "cuota": 2.65,
      "colchon": 0.15,
      "reg_local": {
       "x": 4,
@@ -3694,7 +5211,7 @@
     "linea": 2.5,
     "esperado": 1.35,
     "mas": {
-     "cuota": 2.35,
+     "cuota": 2.32,
      "colchon": -1.15,
      "reg_local": {
       "x": 2,
@@ -3712,7 +5229,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 1.55,
+     "cuota": 1.57,
      "colchon": 1.15,
      "reg_local": {
       "x": 8,
@@ -3776,7 +5293,7 @@
     "linea": 4.5,
     "esperado": 1.35,
     "mas": {
-     "cuota": 7.6,
+     "cuota": 7.7,
      "colchon": -3.15,
      "reg_local": {
       "x": 1,
@@ -3794,7 +5311,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 1.07,
+     "cuota": 1.06,
      "colchon": 3.15,
      "reg_local": {
       "x": 9,
@@ -3835,7 +5352,7 @@
      "cumple": true
     },
     "menos": {
-     "cuota": 11.5,
+     "cuota": 11.25,
      "colchon": -2.2,
      "reg_local": {
       "x": 0,
@@ -3876,7 +5393,7 @@
      "cumple": true
     },
     "menos": {
-     "cuota": 4.45,
+     "cuota": 4.5,
      "colchon": -1.2,
      "reg_local": {
       "x": 3,
@@ -3940,7 +5457,7 @@
     "linea": 2.5,
     "esperado": 2.7,
     "mas": {
-     "cuota": 1.65,
+     "cuota": 1.62,
      "colchon": 0.2,
      "reg_local": {
       "x": 5,
@@ -3958,7 +5475,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 2.27,
+     "cuota": 2.3,
      "colchon": -0.2,
      "reg_local": {
       "x": 5,
@@ -4227,7 +5744,7 @@
     "linea": 5.5,
     "esperado": 2.7,
     "mas": {
-     "cuota": 8.0,
+     "cuota": 7.9,
      "colchon": -2.8,
      "reg_local": {
       "x": 2,
@@ -4350,7 +5867,7 @@
     "linea": 1.5,
     "esperado": 1.35,
     "mas": {
-     "cuota": 4.2,
+     "cuota": 4.25,
      "colchon": -0.15,
      "reg_local": {
       "x": 4,
@@ -5160,7 +6677,7 @@
    },
    {
     "seleccion": "no",
-    "cuota": 1.85,
+    "cuota": 1.87,
     "colchon": null,
     "reg_local": {
      "x": 5,
@@ -5200,7 +6717,7 @@
    },
    {
     "seleccion": "X",
-    "cuota": 5.0,
+    "cuota": 4.85,
     "colchon": null,
     "reg_local": {
      "x": 0,
@@ -5219,7 +6736,7 @@
    },
    {
     "seleccion": "2",
-    "cuota": 7.6,
+    "cuota": 8.25,
     "colchon": null,
     "reg_local": {
      "x": 4,
@@ -5238,7 +6755,7 @@
    },
    {
     "seleccion": "1X",
-    "cuota": 1.11,
+    "cuota": 1.1,
     "colchon": null,
     "reg_local": {
      "x": 6,
@@ -5304,7 +6821,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 2.55,
+   "cuota": 2.52,
    "reg": {
     "x": 3,
     "n": 10,
@@ -5352,7 +6869,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 9.75,
+   "cuota": 4.5,
    "reg": {
     "x": 1,
     "n": 10,
@@ -5372,30 +6889,8 @@
    "esperado": 3.01,
    "escalones": [
     {
-     "minimo": 1,
-     "cuota": 3.0,
-     "reg": {
-      "x": 9,
-      "n": 10,
-      "txt": "9 de 10",
-      "cumple": true
-     },
-     "colchon": 2.51
-    },
-    {
-     "minimo": 2,
-     "cuota": 12.0,
-     "reg": {
-      "x": 7,
-      "n": 10,
-      "txt": "7 de 10",
-      "cumple": true
-     },
-     "colchon": 1.51
-    },
-    {
      "minimo": 3,
-     "cuota": 22.0,
+     "cuota": 1.26,
      "reg": {
       "x": 5,
       "n": 10,
@@ -5406,7 +6901,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 24.0,
+     "cuota": 1.7,
      "reg": {
       "x": 4,
       "n": 10,
@@ -5417,7 +6912,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 24.0,
+     "cuota": 2.5,
      "reg": {
       "x": 1,
       "n": 10,
@@ -5428,7 +6923,7 @@
     },
     {
      "minimo": 6,
-     "cuota": 23.0,
+     "cuota": 4.05,
      "reg": {
       "x": 1,
       "n": 10,
@@ -5439,7 +6934,7 @@
     },
     {
      "minimo": 7,
-     "cuota": 22.0,
+     "cuota": 6.9,
      "reg": {
       "x": 1,
       "n": 10,
@@ -5450,7 +6945,7 @@
     },
     {
      "minimo": 8,
-     "cuota": 23.0,
+     "cuota": 11.5,
      "reg": {
       "x": 1,
       "n": 10,
@@ -5461,7 +6956,7 @@
     },
     {
      "minimo": 9,
-     "cuota": 23.0,
+     "cuota": 17.0,
      "reg": {
       "x": 0,
       "n": 10,
@@ -5496,7 +6991,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 7.0,
+     "cuota": 1.32,
      "reg": {
       "x": 6,
       "n": 10,
@@ -5507,7 +7002,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 23.0,
+     "cuota": 2.5,
      "reg": {
       "x": 4,
       "n": 10,
@@ -5518,7 +7013,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 25.0,
+     "cuota": 5.8,
      "reg": {
       "x": 0,
       "n": 10,
@@ -5529,7 +7024,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 24.0,
+     "cuota": 12.5,
      "reg": {
       "x": 0,
       "n": 10,
@@ -5540,7 +7035,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 23.0,
+     "cuota": 20.0,
      "reg": {
       "x": 0,
       "n": 10,
@@ -5628,7 +7123,7 @@
    "escalones": [
     {
      "minimo": 2,
-     "cuota": 1.2,
+     "cuota": 1.19,
      "reg": {
       "x": 5,
       "n": 10,
@@ -5650,7 +7145,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 2.62,
+     "cuota": 2.57,
      "reg": {
       "x": 2,
       "n": 10,
@@ -5661,7 +7156,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 4.6,
+     "cuota": 4.5,
      "reg": {
       "x": 0,
       "n": 10,
@@ -5672,7 +7167,7 @@
     },
     {
      "minimo": 6,
-     "cuota": 8.5,
+     "cuota": 8.25,
      "reg": {
       "x": 0,
       "n": 10,
@@ -5861,7 +7356,7 @@
    "escalones": [
     {
      "minimo": 2,
-     "cuota": 1.35,
+     "cuota": 1.34,
      "reg": {
       "x": 2,
       "n": 8,
@@ -5872,7 +7367,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 2.05,
+     "cuota": 2.02,
      "reg": {
       "x": 0,
       "n": 8,
@@ -5883,7 +7378,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 3.65,
+     "cuota": 3.6,
      "reg": {
       "x": 0,
       "n": 8,
@@ -5894,7 +7389,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 7.0,
+     "cuota": 6.9,
      "reg": {
       "x": 0,
       "n": 8,
@@ -5916,7 +7411,7 @@
     },
     {
      "minimo": 7,
-     "cuota": 19.0,
+     "cuota": 18.5,
      "reg": {
       "x": 0,
       "n": 8,
@@ -6014,7 +7509,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 2.55,
+   "cuota": 2.52,
    "reg": {
     "x": 1,
     "n": 9,
@@ -6094,7 +7589,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 1.57,
+     "cuota": 1.55,
      "reg": {
       "x": 1,
       "n": 9,
@@ -6105,7 +7600,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 2.7,
+     "cuota": 2.67,
      "reg": {
       "x": 0,
       "n": 9,
@@ -6116,7 +7611,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 5.3,
+     "cuota": 5.2,
      "reg": {
       "x": 0,
       "n": 9,
@@ -6127,7 +7622,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 10.5,
+     "cuota": 10.25,
      "reg": {
       "x": 0,
       "n": 9,
@@ -6138,7 +7633,7 @@
     },
     {
      "minimo": 6,
-     "cuota": 17.5,
+     "cuota": 17.0,
      "reg": {
       "x": 0,
       "n": 9,
@@ -6305,7 +7800,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 2.25,
+     "cuota": 2.2,
      "reg": {
       "x": 0,
       "n": 8,
@@ -6316,7 +7811,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 3.8,
+     "cuota": 3.7,
      "reg": {
       "x": 0,
       "n": 8,
@@ -6327,7 +7822,7 @@
     },
     {
      "minimo": 6,
-     "cuota": 6.7,
+     "cuota": 6.6,
      "reg": {
       "x": 0,
       "n": 8,
@@ -6338,7 +7833,7 @@
     },
     {
      "minimo": 7,
-     "cuota": 11.5,
+     "cuota": 11.25,
      "reg": {
       "x": 0,
       "n": 8,
@@ -6349,7 +7844,7 @@
     },
     {
      "minimo": 8,
-     "cuota": 17.5,
+     "cuota": 17.0,
      "reg": {
       "x": 0,
       "n": 8,
@@ -6447,7 +7942,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 3.1,
+   "cuota": 3.0,
    "reg": {
     "x": 3,
     "n": 10,
@@ -6463,7 +7958,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 2.27,
+   "cuota": 2.25,
    "reg": {
     "x": 3,
     "n": 10,
@@ -6527,7 +8022,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 1.57,
+     "cuota": 1.55,
      "reg": {
       "x": 3,
       "n": 10,
@@ -6538,7 +8033,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 2.7,
+     "cuota": 2.67,
      "reg": {
       "x": 1,
       "n": 10,
@@ -6549,7 +8044,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 5.3,
+     "cuota": 5.2,
      "reg": {
       "x": 0,
       "n": 10,
@@ -6560,7 +8055,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 10.5,
+     "cuota": 10.25,
      "reg": {
       "x": 0,
       "n": 10,
@@ -6571,7 +8066,7 @@
     },
     {
      "minimo": 6,
-     "cuota": 17.5,
+     "cuota": 17.0,
      "reg": {
       "x": 0,
       "n": 10,
@@ -6651,228 +8146,6 @@
    ]
   },
   {
-   "jugador": "Antoine Valero",
-   "lado": "local",
-   "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 3.2,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Antoine Valero",
-   "lado": "local",
-   "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 2.45,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Antoine Valero",
-   "lado": "local",
-   "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 19.5,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Antoine Valero",
-   "lado": "local",
-   "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 5.4,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Antoine Valero",
-   "lado": "local",
-   "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "por_90": null,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 2,
-     "cuota": 1.35,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 2.05,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 4,
-     "cuota": 3.65,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 5,
-     "cuota": 7.0,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 6,
-     "cuota": 12.5,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 7,
-     "cuota": 19.0,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 8,
-     "cuota": 23.0,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
-   "jugador": "Antoine Valero",
-   "lado": "local",
-   "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "por_90": null,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 1.53,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 3.45,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 8.75,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 4,
-     "cuota": 17.5,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 5,
-     "cuota": 23.0,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
    "jugador": "Amine Harit",
    "lado": "local",
    "stat": "anota",
@@ -6880,7 +8153,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 3.3,
+   "cuota": 3.2,
    "reg": {
     "x": 3,
     "n": 8,
@@ -6896,7 +8169,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 2.18,
+   "cuota": 2.15,
    "reg": {
     "x": 3,
     "n": 8,
@@ -6949,7 +8222,7 @@
    "escalones": [
     {
      "minimo": 2,
-     "cuota": 1.5,
+     "cuota": 1.47,
      "reg": {
       "x": 2,
       "n": 8,
@@ -6960,7 +8233,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 2.42,
+     "cuota": 2.4,
      "reg": {
       "x": 0,
       "n": 8,
@@ -6971,7 +8244,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 4.7,
+     "cuota": 4.6,
      "reg": {
       "x": 0,
       "n": 8,
@@ -6982,7 +8255,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 9.25,
+     "cuota": 9.0,
      "reg": {
       "x": 0,
       "n": 8,
@@ -6993,7 +8266,7 @@
     },
     {
      "minimo": 6,
-     "cuota": 16.0,
+     "cuota": 15.5,
      "reg": {
       "x": 0,
       "n": 8,
@@ -7091,7 +8364,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 1,
    "sin_historial": false,
-   "cuota": 3.3,
+   "cuota": 3.2,
    "reg": {
     "x": 0,
     "n": 1,
@@ -7107,7 +8380,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 1,
    "sin_historial": false,
-   "cuota": 2.37,
+   "cuota": 2.32,
    "reg": {
     "x": 0,
     "n": 1,
@@ -7160,7 +8433,7 @@
    "escalones": [
     {
      "minimo": 2,
-     "cuota": 1.5,
+     "cuota": 1.47,
      "reg": {
       "x": 0,
       "n": 1,
@@ -7171,7 +8444,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 2.42,
+     "cuota": 2.4,
      "reg": {
       "x": 0,
       "n": 1,
@@ -7182,7 +8455,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 4.7,
+     "cuota": 4.6,
      "reg": {
       "x": 0,
       "n": 1,
@@ -7193,7 +8466,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 9.25,
+     "cuota": 9.0,
      "reg": {
       "x": 0,
       "n": 1,
@@ -7204,7 +8477,7 @@
     },
     {
      "minimo": 6,
-     "cuota": 16.0,
+     "cuota": 15.5,
      "reg": {
       "x": 0,
       "n": 1,
@@ -7277,6 +8550,228 @@
       "x": 0,
       "n": 1,
       "txt": "0 de 1",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
+   "jugador": "Antoine Valero",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 3.2,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Antoine Valero",
+   "lado": "local",
+   "stat": "anota_o_asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 2.45,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Antoine Valero",
+   "lado": "local",
+   "stat": "tarjeta",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 19.5,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Antoine Valero",
+   "lado": "local",
+   "stat": "asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 5.4,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Antoine Valero",
+   "lado": "local",
+   "stat": "remates",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "por_90": null,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 2,
+     "cuota": 1.34,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 2.02,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 4,
+     "cuota": 3.6,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 5,
+     "cuota": 6.9,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 6,
+     "cuota": 12.5,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 7,
+     "cuota": 18.5,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 8,
+     "cuota": 23.0,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
+   "jugador": "Antoine Valero",
+   "lado": "local",
+   "stat": "al_arco",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "por_90": null,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 1.53,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 3.45,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 8.75,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 4,
+     "cuota": 17.5,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 5,
+     "cuota": 23.0,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
       "cumple": false
      },
      "colchon": null
@@ -7360,7 +8855,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 1.32,
+     "cuota": 1.31,
      "reg": {
       "x": 2,
       "n": 8,
@@ -7371,7 +8866,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 2.5,
+     "cuota": 2.42,
      "reg": {
       "x": 0,
       "n": 8,
@@ -7382,7 +8877,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 5.8,
+     "cuota": 5.6,
      "reg": {
       "x": 0,
       "n": 8,
@@ -7480,7 +8975,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 4.25,
+   "cuota": 4.3,
    "reg": {
     "x": 2,
     "n": 9,
@@ -7549,7 +9044,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 1.21,
+     "cuota": 1.2,
      "reg": {
       "x": 6,
       "n": 9,
@@ -7560,7 +9055,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 2.02,
+     "cuota": 1.98,
      "reg": {
       "x": 5,
       "n": 9,
@@ -7571,7 +9066,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 4.15,
+     "cuota": 4.05,
      "reg": {
       "x": 3,
       "n": 9,
@@ -7582,7 +9077,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 9.0,
+     "cuota": 8.75,
      "reg": {
       "x": 2,
       "n": 9,
@@ -7593,7 +9088,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 16.5,
+     "cuota": 16.0,
      "reg": {
       "x": 2,
       "n": 9,
@@ -7680,7 +9175,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 0,
    "sin_historial": true,
-   "cuota": 4.25,
+   "cuota": 4.3,
    "reg": {
     "x": 0,
     "n": 0,
@@ -7760,7 +9255,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 2.18,
+     "cuota": 2.15,
      "reg": {
       "x": 0,
       "n": 0,
@@ -7771,7 +9266,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 4.75,
+     "cuota": 4.65,
      "reg": {
       "x": 0,
       "n": 0,
@@ -7782,7 +9277,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 10.5,
+     "cuota": 10.25,
      "reg": {
       "x": 0,
       "n": 0,
@@ -7949,7 +9444,7 @@
    "escalones": [
     {
      "minimo": 2,
-     "cuota": 1.5,
+     "cuota": 1.47,
      "reg": {
       "x": 1,
       "n": 9,
@@ -7960,7 +9455,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 2.42,
+     "cuota": 2.4,
      "reg": {
       "x": 1,
       "n": 9,
@@ -7971,7 +9466,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 4.7,
+     "cuota": 4.65,
      "reg": {
       "x": 0,
       "n": 9,
@@ -7982,7 +9477,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 9.25,
+     "cuota": 9.0,
      "reg": {
       "x": 0,
       "n": 9,
@@ -7993,7 +9488,7 @@
     },
     {
      "minimo": 6,
-     "cuota": 16.0,
+     "cuota": 15.5,
      "reg": {
       "x": 0,
       "n": 9,
@@ -8149,7 +9644,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 1.35,
+     "cuota": 1.34,
      "reg": {
       "x": 6,
       "n": 8,
@@ -8160,7 +9655,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 2.6,
+     "cuota": 2.55,
      "reg": {
       "x": 3,
       "n": 8,
@@ -8171,7 +9666,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 6.2,
+     "cuota": 6.1,
      "reg": {
       "x": 0,
       "n": 8,
@@ -8327,7 +9822,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 1.32,
+     "cuota": 1.31,
      "reg": {
       "x": 1,
       "n": 5,
@@ -8338,7 +9833,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 2.5,
+     "cuota": 2.42,
      "reg": {
       "x": 1,
       "n": 5,
@@ -8349,7 +9844,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 5.8,
+     "cuota": 5.6,
      "reg": {
       "x": 0,
       "n": 5,
@@ -8527,7 +10022,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 2.92,
+     "cuota": 2.9,
      "reg": {
       "x": 0,
       "n": 5,
@@ -8538,7 +10033,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 7.1,
+     "cuota": 7.0,
      "reg": {
       "x": 0,
       "n": 5,
@@ -8694,7 +10189,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 1.33,
+     "cuota": 1.32,
      "reg": {
       "x": 2,
       "n": 3,
@@ -8705,7 +10200,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 2.52,
+     "cuota": 2.5,
      "reg": {
       "x": 2,
       "n": 3,
@@ -8716,7 +10211,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 5.9,
+     "cuota": 5.8,
      "reg": {
       "x": 0,
       "n": 3,
@@ -8727,7 +10222,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 13.0,
+     "cuota": 12.5,
      "reg": {
       "x": 0,
       "n": 3,
@@ -8883,7 +10378,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 4.9,
+     "cuota": 4.85,
      "reg": {
       "x": 1,
       "n": 7,
@@ -8905,7 +10400,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 22.0,
+     "cuota": 21.0,
      "reg": {
       "x": 1,
       "n": 7,
@@ -9039,7 +10534,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 1.44,
+     "cuota": 1.42,
      "reg": {
       "x": 3,
       "n": 8,
@@ -9050,7 +10545,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 2.95,
+     "cuota": 2.92,
      "reg": {
       "x": 0,
       "n": 8,
@@ -9061,7 +10556,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 7.3,
+     "cuota": 7.1,
      "reg": {
       "x": 0,
       "n": 8,
@@ -9072,7 +10567,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 15.5,
+     "cuota": 15.0,
      "reg": {
       "x": 0,
       "n": 8,
@@ -9217,7 +10712,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 1.23,
+     "cuota": 1.22,
      "reg": {
       "x": 3,
       "n": 6,
@@ -9239,7 +10734,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 4.35,
+     "cuota": 4.3,
      "reg": {
       "x": 1,
       "n": 6,
@@ -9272,7 +10767,7 @@
     },
     {
      "minimo": 6,
-     "cuota": 23.0,
+     "cuota": 22.0,
      "reg": {
       "x": 0,
       "n": 6,
@@ -9428,7 +10923,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 3.1,
+     "cuota": 3.05,
      "reg": {
       "x": 0,
       "n": 8,
@@ -9439,7 +10934,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 7.7,
+     "cuota": 7.5,
      "reg": {
       "x": 0,
       "n": 8,
@@ -9526,7 +11021,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 7.8,
+   "cuota": 7.5,
    "reg": {
     "x": 0,
     "n": 8,
@@ -9542,7 +11037,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 4.6,
+   "cuota": 4.5,
    "reg": {
     "x": 0,
     "n": 8,
@@ -9606,7 +11101,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 3.1,
+     "cuota": 3.05,
      "reg": {
       "x": 0,
       "n": 8,
@@ -9617,7 +11112,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 7.7,
+     "cuota": 7.5,
      "reg": {
       "x": 0,
       "n": 8,
@@ -9704,7 +11199,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 7.8,
+   "cuota": 7.5,
    "reg": {
     "x": 0,
     "n": 10,
@@ -9720,7 +11215,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 6.1,
+   "cuota": 5.9,
    "reg": {
     "x": 0,
     "n": 10,
@@ -9784,7 +11279,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 3.7,
+     "cuota": 3.65,
      "reg": {
       "x": 2,
       "n": 10,
@@ -9882,7 +11377,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 7.8,
+   "cuota": 7.5,
    "reg": {
     "x": 0,
     "n": 9,
@@ -9898,7 +11393,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 3.3,
+   "cuota": 3.25,
    "reg": {
     "x": 1,
     "n": 9,
@@ -9984,7 +11479,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 19.5,
+     "cuota": 19.0,
      "reg": {
       "x": 0,
       "n": 9,
@@ -10060,7 +11555,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "cuota": 7.8,
+   "cuota": 7.5,
    "reg": {
     "x": 0,
     "n": 5,
@@ -10076,7 +11571,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "cuota": 4.1,
+   "cuota": 4.0,
    "reg": {
     "x": 0,
     "n": 5,
@@ -10140,7 +11635,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 4.2,
+     "cuota": 4.15,
      "reg": {
       "x": 0,
       "n": 5,
@@ -10163,6 +11658,17 @@
     {
      "minimo": 4,
      "cuota": 20.0,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 5,
+     "cuota": 24.0,
      "reg": {
       "x": 0,
       "n": 5,
@@ -10213,6 +11719,151 @@
       "x": 0,
       "n": 5,
       "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
+   "jugador": "Hevertton",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 7.8,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Hevertton",
+   "lado": "visitante",
+   "stat": "anota_o_asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 5.9,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Hevertton",
+   "lado": "visitante",
+   "stat": "tarjeta",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 12.0,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Hevertton",
+   "lado": "visitante",
+   "stat": "asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 9.0,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Hevertton",
+   "lado": "visitante",
+   "stat": "remates",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "por_90": null,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 2.55,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 9.25,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 20.0,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
+   "jugador": "Hevertton",
+   "lado": "visitante",
+   "stat": "al_arco",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "por_90": null,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 5.9,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 22.0,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
       "cumple": false
      },
      "colchon": null
@@ -10307,7 +11958,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 4.9,
+     "cuota": 4.85,
      "reg": {
       "x": 0,
       "n": 3,
@@ -10329,7 +11980,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 22.0,
+     "cuota": 21.0,
      "reg": {
       "x": 0,
       "n": 3,
@@ -10463,7 +12114,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 2.18,
+     "cuota": 2.15,
      "reg": {
       "x": 3,
       "n": 8,
@@ -10474,7 +12125,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 7.0,
+     "cuota": 6.9,
      "reg": {
       "x": 1,
       "n": 8,
@@ -10485,7 +12136,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 17.5,
+     "cuota": 17.0,
      "reg": {
       "x": 0,
       "n": 8,
@@ -10566,7 +12217,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 6,
    "sin_historial": false,
-   "cuota": 6.2,
+   "cuota": 6.3,
    "reg": {
     "x": 1,
     "n": 6,
@@ -10630,7 +12281,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 8.75,
+     "cuota": 8.5,
      "reg": {
       "x": 1,
       "n": 6,
@@ -10692,151 +12343,6 @@
       "x": 0,
       "n": 6,
       "txt": "0 de 6",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
-   "jugador": "Hevertton",
-   "lado": "visitante",
-   "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 8.5,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Hevertton",
-   "lado": "visitante",
-   "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 6.2,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Hevertton",
-   "lado": "visitante",
-   "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 12.0,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Hevertton",
-   "lado": "visitante",
-   "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 9.0,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Hevertton",
-   "lado": "visitante",
-   "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "por_90": null,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 2.57,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 9.25,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 20.0,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
-   "jugador": "Hevertton",
-   "lado": "visitante",
-   "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "por_90": null,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 5.9,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 22.0,
-     "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
       "cumple": false
      },
      "colchon": null
@@ -10920,7 +12426,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 2.18,
+     "cuota": 2.15,
      "reg": {
       "x": 0,
       "n": 0,
@@ -10931,7 +12437,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 7.0,
+     "cuota": 6.9,
      "reg": {
       "x": 0,
       "n": 0,
@@ -10942,7 +12448,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 17.5,
+     "cuota": 17.0,
      "reg": {
       "x": 0,
       "n": 0,
@@ -11109,7 +12615,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 23.0,
+     "cuota": 22.0,
      "reg": {
       "x": 0,
       "n": 9,
@@ -11276,7 +12782,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 23.0,
+     "cuota": 22.0,
      "reg": {
       "x": 0,
       "n": 2,
@@ -11421,7 +12927,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 4.2,
+     "cuota": 4.15,
      "reg": {
       "x": 0,
       "n": 2,
@@ -11444,6 +12950,17 @@
     {
      "minimo": 4,
      "cuota": 20.0,
+     "reg": {
+      "x": 0,
+      "n": 2,
+      "txt": "0 de 2",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 5,
+     "cuota": 24.0,
      "reg": {
       "x": 0,
       "n": 2,
@@ -11494,6 +13011,162 @@
       "x": 0,
       "n": 2,
       "txt": "0 de 2",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
+   "jugador": "Gašper Trdin",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "cuota": 9.75,
+   "reg": {
+    "x": 0,
+    "n": 6,
+    "txt": "0 de 6",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Gašper Trdin",
+   "lado": "visitante",
+   "stat": "anota_o_asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "cuota": 7.4,
+   "reg": {
+    "x": 0,
+    "n": 6,
+    "txt": "0 de 6",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Gašper Trdin",
+   "lado": "visitante",
+   "stat": "tarjeta",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "cuota": 9.0,
+   "reg": {
+    "x": 1,
+    "n": 6,
+    "txt": "1 de 6",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Gašper Trdin",
+   "lado": "visitante",
+   "stat": "asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "cuota": 9.75,
+   "reg": {
+    "x": 0,
+    "n": 6,
+    "txt": "0 de 6",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Gašper Trdin",
+   "lado": "visitante",
+   "stat": "remates",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "por_90": 0.0,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 2.15,
+     "reg": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 6.9,
+     "reg": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 17.0,
+     "reg": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 4,
+     "cuota": 24.0,
+     "reg": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
+   "jugador": "Gašper Trdin",
+   "lado": "visitante",
+   "stat": "al_arco",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "por_90": 0.0,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 5.3,
+     "reg": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 20.0,
+     "reg": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
       "cumple": false
      },
      "colchon": null
@@ -11572,7 +13245,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 12.0,
+     "cuota": 11.75,
      "reg": {
       "x": 1,
       "n": 9,
@@ -11626,162 +13299,6 @@
       "cumple": false
      },
      "colchon": -1.5
-    }
-   ]
-  },
-  {
-   "jugador": "Gašper Trdin",
-   "lado": "visitante",
-   "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 6,
-   "sin_historial": false,
-   "cuota": 11.0,
-   "reg": {
-    "x": 0,
-    "n": 6,
-    "txt": "0 de 6",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Gašper Trdin",
-   "lado": "visitante",
-   "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 6,
-   "sin_historial": false,
-   "cuota": 8.0,
-   "reg": {
-    "x": 0,
-    "n": 6,
-    "txt": "0 de 6",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Gašper Trdin",
-   "lado": "visitante",
-   "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 6,
-   "sin_historial": false,
-   "cuota": 9.0,
-   "reg": {
-    "x": 1,
-    "n": 6,
-    "txt": "1 de 6",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Gašper Trdin",
-   "lado": "visitante",
-   "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 6,
-   "sin_historial": false,
-   "cuota": 9.75,
-   "reg": {
-    "x": 0,
-    "n": 6,
-    "txt": "0 de 6",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Gašper Trdin",
-   "lado": "visitante",
-   "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 6,
-   "sin_historial": false,
-   "por_90": 0.0,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 2.18,
-     "reg": {
-      "x": 0,
-      "n": 6,
-      "txt": "0 de 6",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 7.0,
-     "reg": {
-      "x": 0,
-      "n": 6,
-      "txt": "0 de 6",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 17.5,
-     "reg": {
-      "x": 0,
-      "n": 6,
-      "txt": "0 de 6",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 4,
-     "cuota": 24.0,
-     "reg": {
-      "x": 0,
-      "n": 6,
-      "txt": "0 de 6",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
-   "jugador": "Gašper Trdin",
-   "lado": "visitante",
-   "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 6,
-   "sin_historial": false,
-   "por_90": 0.0,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 5.3,
-     "reg": {
-      "x": 0,
-      "n": 6,
-      "txt": "0 de 6",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 20.0,
-     "reg": {
-      "x": 0,
-      "n": 6,
-      "txt": "0 de 6",
-      "cumple": false
-     },
-     "colchon": null
     }
    ]
   },
@@ -11862,7 +13379,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 2.52,
+     "cuota": 2.5,
      "reg": {
       "x": 0,
       "n": 0,
@@ -11885,6 +13402,17 @@
     {
      "minimo": 3,
      "cuota": 20.0,
+     "reg": {
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 4,
+     "cuota": 24.0,
      "reg": {
       "x": 0,
       "n": 0,
@@ -12051,7 +13579,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 23.0,
+     "cuota": 22.0,
      "reg": {
       "x": 0,
       "n": 0,
@@ -12218,7 +13746,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 23.0,
+     "cuota": 22.0,
      "reg": {
       "x": 0,
       "n": 0,
@@ -12352,7 +13880,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 2.57,
+     "cuota": 2.55,
      "reg": {
       "x": 2,
       "n": 9,
@@ -12481,7 +14009,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 2.92,
+     "cuota": 2.87,
      "reg": {
       "x": 4,
       "n": 7,
@@ -12621,7 +14149,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 12.0,
+     "cuota": 11.75,
      "reg": {
       "x": 0,
       "n": 1,
@@ -12755,7 +14283,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 2.57,
+     "cuota": 2.55,
      "reg": {
       "x": 0,
       "n": 2,
@@ -12863,7 +14391,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 1.7,
+     "cuota": 1.67,
      "reg": {
       "x": 9,
       "n": 10,
@@ -12904,17 +14432,6 @@
       "cumple": false
      },
      "colchon": -0.77
-    },
-    {
-     "minimo": 6,
-     "cuota": 7.4,
-     "reg": {
-      "x": 3,
-      "n": 10,
-      "txt": "3 de 10",
-      "cumple": false
-     },
-     "colchon": -1.77
     }
    ]
   },
@@ -12985,7 +14502,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 2.4,
+     "cuota": 2.42,
      "reg": {
       "x": 3,
       "n": 5,
@@ -13007,7 +14524,7 @@
     },
     {
      "minimo": 6,
-     "cuota": 7.4,
+     "cuota": 7.5,
      "reg": {
       "x": 3,
       "n": 5,

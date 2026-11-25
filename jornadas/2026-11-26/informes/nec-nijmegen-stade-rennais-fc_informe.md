@@ -65,7 +65,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates NEC Nijmegen Menos 14.5 | 1.50 | 63 % | 57 % | Favorito gana en partido trabado (76 %) | Partido abierto (ambos marcan y 3+ goles) (57 %) | Cara |
 | Tiros al arco | Tiros al arco NEC Nijmegen Menos 5.5 | 1.40 | 68 % | 52 % | Favorito gana en partido trabado (90 %) | Sorpresa: gana el no favorito (52 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar Stade Rennais FC Menos 2.5 | 1.52 | 63 % | 60 % | Favorito golpea temprano y gana (66 %) | Sorpresa: gana el no favorito (60 %) | Justa |
-| Jugadores | Gonzalo Crettaz atajadas 4+ | 2.40 | 40 % | 40 % | Favorito gana en partido trabado (42 %) | Expulsión antes del 70′ (38 %) | Justa |
+| Jugadores | Anthony Rouault anota o asiste | 6.20 | 16 % | 8 % | Partido abierto (ambos marcan y 3+ goles) (24 %) | Empate (8 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 

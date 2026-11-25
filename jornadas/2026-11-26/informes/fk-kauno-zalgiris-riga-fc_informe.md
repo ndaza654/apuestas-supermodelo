@@ -62,7 +62,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates FK Kauno Zalgiris Menos 11.5 | 1.45 | 65 % | 58 % | Favorito gana en partido trabado (76 %) | Partido abierto (ambos marcan y 3+ goles) (58 %) | Alta probabilidad · cuota por debajo de la justa |
 | Tiros al arco | Tiros al arco Riga FC Más 3.5 | 1.35 | 70 % | 54 % | Partido abierto (ambos marcan y 3+ goles) (90 %) | Sorpresa: gana el no favorito (54 %) | Alta probabilidad · cuota por debajo de la justa |
 | Fueras de lugar | Fueras de lugar FK Kauno Zalgiris Más 0.5 | 1.50 | 64 % | 62 % | Favorito golpea temprano y gana (67 %) | Sorpresa: gana el no favorito (62 %) | Justa |
-| Jugadores | Tomas Svedkauskas atajadas 2+ | 1.62 | 63 % | 62 % | Favorito gana en partido trabado (64 %) | Expulsión antes del 70′ (62 %) | Justa |
+| Jugadores | Vykintas Slivka anota o asiste | 5.50 | 17 % | 11 % | Sorpresa: gana el no favorito (30 %) | Favorito golpea temprano y gana (0 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 
@@ -88,20 +88,17 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Tiros al arco Riga FC Más 3.5 | 1.35 | 70 % | 71 % | 70 % | +0 pts | -5 % | 54 % | +0.6 | 1.47 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
 | Tarjetas Más 2.5 | 1.39 | 70 % | 69 % | 70 % | +0 pts | -3 % | 67 % | +0.6 | 1.48 | Favorito golpea temprano y gana | Alta probabilidad |
 | Córners Más 7.5 | 1.37 | 70 % | 70 % | 70 % | +0 pts | -5 % | 68 % | +0.5 | 1.48 | Expulsión antes del 70′ | Alta probabilidad |
+| Motiejus Burba remates 1+ | 1.26 | 70 % | 71 % | 70 % | +0 pts | -12 % | 68 % | — | 1.48 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Córners Riga FC Más 3.5 | 1.35 | 69 % | 71 % | 69 % | +0 pts | -7 % | 69 % | +0.5 | 1.49 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
 | Hándicap Riga FC +0.25 | 1.42 | 69 % | 69 % | 69 % | +0 pts | -2 % | 69 % | — | 1.49 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 14 % |
 | Goles FK Kauno Zalgiris Más 0.5 | 1.39 | 69 % | 69 % | 69 % | +0 pts | -4 % | 69 % | +0.6 | 1.49 | Favorito golpea temprano y gana | Alta probabilidad |
 | Goles 1.er tiempo Más 0.5 | 1.42 | 69 % | 68 % | 69 % | +0 pts | -2 % | 69 % | +0.6 | 1.49 | Favorito gana en partido trabado | Alta probabilidad |
 | Goles Menos 3.25 | 1.44 | 68 % | 68 % | 68 % | +0 pts | -1 % | 68 % | +0.4 | 1.50 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 11 % |
-| Goles FK Kauno Zalgiris Menos 1.5 | 1.42 | 68 % | 68 % | 68 % | +0 pts | -3 % | 68 % | +0.3 | 1.51 | Sorpresa: gana el no favorito | Alta probabilidad |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Tomas Svedkauskas atajadas 5+ | 11.50 | 13 % | 8 % | 13 % | +0 pts | +52 % | 13 % | -0.5 | 8.89 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
-| Tomas Svedkauskas atajadas 4+ | 5.80 | 23 % | 15 % | 23 % | +0 pts | +36 % | 23 % | -0.1 | 4.67 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
 | Córners 1.er tiempo Menos 4.0 | 2.50 | 47 % | 44 % | 47 % | +0 pts | +16 % | 38 % | -0.1 | 2.24 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 19 % |
-| Tomas Svedkauskas atajadas 3+ | 2.90 | 40 % | 31 % | 40 % | +0 pts | +16 % | 39 % | +0.4 | 2.63 | Expulsión antes del 70′ | Valor |
 | Córners 1.er tiempo Menos 5.0 | 1.70 | 67 % | 64 % | 67 % | +0 pts | +14 % | 56 % | +0.4 | 1.54 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 16 % |
 | Córners 1.er tiempo Menos 3.0 | 4.35 | 26 % | 25 % | 26 % | +0 pts | +12 % | 21 % | -0.6 | 4.20 | Partido abierto (ambos marcan y 3+ goles) | Valor frágil (depende de un guion) · asiática: devuelve 19 % |
 | Córners 1.er tiempo Menos 6.0 | 1.33 | 82 % | 79 % | 82 % | +0 pts | +9 % | 72 % | +0.9 | 1.26 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 11 % |
@@ -116,19 +113,19 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Córners Menos 11.0 | 1.40 | 74 % | 73 % | 74 % | +0 pts | +3 % | 64 % | +0.6 | 1.39 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 10 % |
 | Córners 1.er tiempo Menos 7.0 | 1.15 | 90 % | 87 % | 90 % | +0 pts | +3 % | 83 % | +1.4 | 1.15 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 6 % |
 
-Kelly ¼ (dato informativo, no una orden de stake): Tomas Svedkauskas atajadas 5+ 1.2 % de la banca; Tomas Svedkauskas atajadas 4+ 1.9 % de la banca; Córners 1.er tiempo Menos 4.0 2.7 % de la banca; Tomas Svedkauskas atajadas 3+ 2.1 % de la banca; Córners 1.er tiempo Menos 5.0 4.9 % de la banca; Córners 1.er tiempo Menos 3.0 0.9 % de la banca; Córners 1.er tiempo Menos 6.0 6.5 % de la banca; Córners 1.er tiempo Más 3.0 4.2 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+Kelly ¼ (dato informativo, no una orden de stake): Córners 1.er tiempo Menos 4.0 2.7 % de la banca; Córners 1.er tiempo Menos 5.0 4.9 % de la banca; Córners 1.er tiempo Menos 3.0 0.9 % de la banca; Córners 1.er tiempo Menos 6.0 6.5 % de la banca; Córners 1.er tiempo Más 3.0 4.2 % de la banca; Córners 1.er tiempo Más 4.0 1.4 % de la banca; Córners Más 8.0 2.2 % de la banca; Córners Menos 9.0 1.2 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
 
 ## Builders del mismo guion
 | Patas | Prob. ajustada | Prob. simulación | Si una pata está 5 pts peor | Cuota justa | Cuota mínima en Betano | Correlación | Margen acumulado | Guion común | Robustez |
 |---|---|---|---|---|---|---|---|---|---|
 | Córners 2.º tiempo Más 2.5 + Tarjetas Riga FC Más 0.5 + Ambos 1+ tarjetas: Sí | 62 % | 64 % | 57 % | 1.62 | 1.67 | 1.28 | 9 % | Expulsión antes del 70′ | 61 % |
 | Goles 2.º tiempo Menos 2.5 + Tarjetas Riga FC Más 0.5 + Ambos 1+ tarjetas: Sí | 58 % | 60 % | 54 % | 1.73 | 1.78 | 1.29 | 9 % | Empate | 41 % |
-| Córners 2.º tiempo Más 2.5 + Goles FK Kauno Zalgiris Menos 2.5 + Riga FC o empate | 61 % | 62 % | 57 % | 1.63 | 1.68 | 1.08 | 6 % | Favorito gana en partido trabado | 0 % |
-| Tarjetas Más 1.5 + Goles FK Kauno Zalgiris Menos 2.5 + Riga FC o empate | 61 % | 62 % | 57 % | 1.64 | 1.69 | 1.08 | 7 % | Empate | 0 % |
+| Goles FK Kauno Zalgiris Menos 2.5 + Riga FC o empate + Tiros al arco FK Kauno Zalgiris Menos 4.5 | 61 % | 62 % | 57 % | 1.63 | 1.68 | 1.19 | 7 % | Favorito gana en partido trabado | 0 % |
+| Riga FC o empate + Tiros al arco FK Kauno Zalgiris Menos 4.5 | 62 % | 63 % | 58 % | 1.61 | 1.65 | 1.08 | 5 % | Favorito gana en partido trabado | 0 % |
 | Hándicap FK Kauno Zalgiris +3 + Córners 1.er tiempo Menos 5.5 + Goles 1.er tiempo Menos 2.5 | 61 % | 63 % | 57 % | 1.63 | 1.68 | 1.02 | 7 % | Empate | 50 % |
+| Córners 2.º tiempo Más 2.5 + Goles 1.er tiempo Menos 2.5 + Tarjetas FK Kauno Zalgiris Menos 3.5 | 62 % | 63 % | 58 % | 1.62 | 1.67 | 1.0 | 6 % | Favorito gana en partido trabado | 54 % |
 | Córners Menos 14.5 + Goles 2.º tiempo Menos 2.5 + Tarjetas FK Kauno Zalgiris Menos 3.5 | 62 % | 63 % | 58 % | 1.62 | 1.67 | 1.0 | 6 % | Favorito golpea temprano y gana | 46 % |
 | Goles Menos 5.5 + Córners 1.er tiempo Menos 5.5 + Tarjetas Más 1.5 | 61 % | 63 % | 57 % | 1.64 | 1.69 | 1.01 | 7 % | Expulsión antes del 70′ | 53 % |
-| Tomas Svedkauskas atajadas 2+ + Córners Riga FC Más 1.5 | 60 % | 76 % | 55 % | 1.67 | 1.72 | 1.01 | 12 % | Favorito gana en partido trabado | 60 % |
 
 Prob. ajustada: la conjunta de la simulación llevando cada pata a su probabilidad de decisión y corrigiendo la dependencia entre patas que se midió con 62 000 partidos (p. ej. «gana el favorito + sus córners Más» se estorban más de lo que creía el simulador). Margen acumulado: lo que la casa cobra por pata, multiplicado.
 

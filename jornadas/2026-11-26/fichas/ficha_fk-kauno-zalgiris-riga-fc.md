@@ -1,5 +1,5 @@
 # Ficha — FK Kauno Zalgiris - Riga FC
-UEFA Conference League Conference League · 2026-11-26 12:45 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T13:58:02.087Z · 379 mercados
+UEFA Conference League Conference League · 2026-11-26 12:45 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T19:54:03.409Z · 379 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -279,7 +279,13 @@ Muestra: local 10, visitante 10, directos 0.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Motiejus Burba — remates: 1+ @2.6 · col — · 8 de 9
+- Gabriel Debeljuh — remates: 1+ @1.15 · col +1.8 · 7 de 10 (titular 0.90)
+- Leon Krekovic — remates: 1+ @1.3 · col +1.8 · 7 de 10 (titular 0.90)
+- Leon Krekovic — al_arco: 1+ @2.55 · col +0.9 · 7 de 10 (titular 0.90)
+- Motiejus Burba — remates: 1+ @1.26 · col — · 8 de 9
+- Iago Siqueira — remates: 2+ @1.42 · col +1.2 · 7 de 10 (titular 0.50)
+- Mohamed Badamosi — al_arco: 1+ @1.55 · col +1.1 · 7 de 10 (titular 0.50)
+- Raki Aouani — remates: 2+ @1.33 · col +0.8 · 7 de 9 (titular 0.90)
 
 ## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
 

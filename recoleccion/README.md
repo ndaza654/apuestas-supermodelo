@@ -133,3 +133,12 @@ Orden y fuente de cada dato (todo se guarda en `jornadas/AAAA-MM-DD/` apenas se 
 - No usar `__descargarLote` (borra todos los `pjE_`); bajar con Blob propio + hash.
 - Orden de la cola: priorizar por hora del partido deja primero ligas sin tabla (Kazajistán, Bosnia, Copa de Suiza): mejor leer primero equipos de ligas grandes. El orden de `forma[..].stats` es [equipo, rival], no [local, visitante].
 - Ligas probadas sin «Player stats»: Kazajistán, Bosnia, Copa de Suiza.
+
+
+## Tablas de jugadores de Betano (error corregido el 25-nov-2026)
+- Desde ~22-nov Betano entrega los mercados de jugador (remates `PALS`, tiros al arco `PLST`, asistencias `PALA`, entradas `PLTA`, faltas `1000679`, atajadas `1000115`…) como **UNA tabla por mercado** (`tableLayout.rows[]`, una fila por jugador con `groupId` = equipo, `participantId` y `groupSelections[0].selections` «N+»). El mercado lleva el nombre y el `playerId` del primer jugador y `selections: []`.
+- El extractor viejo leía eso como «escalera del primer jugador» y sumaba las ~39 escaleras en una sola; `betano.py` se quedaba con la **última** cuota repetida de cada línea → cuotas inventadas («Julián Álvarez · Remates 1+ @3,20»). Afectó a 22–26-nov (414 escaleras, 1.623 filas de `registro/lineas.csv`).
+- Arreglo: `betano_extraer.js` lee una escalera por fila de la tabla (`poner`, `escalaOk`; `window.__betanoAvisos`); `betano.py` descarta toda escalera con líneas repetidas o precio que baja al subir la línea (`escalera_invalida`, campo `avisos`; `armar_entrada.py` lo declara en `dudas`). Pruebas: `pruebas/test_betano.py` (+ `pruebas/extraer_betano_fixture.js`, con respuesta real de Betano simulada).
+- **Regla de validez de una escalera de jugador:** líneas distintas y crecientes, cuota que no baja al subir la línea. Si falla, no se usa: se declara.
+- Limpieza de lo ya guardado: `python3 recoleccion/limpiar_escaleras_invalidas.py AAAA-MM-DD …` (quita de `betano/*.json` y de `registro/lineas.csv` las escaleras con huella del error, copia las filas a `registro/lineas_invalidas.csv`; no toca resultados de las demás). Las filas quitadas no cuentan en calibraciones.
+- **Antes de dar una cuota de jugador al usuario, comprobar que sale de una escalera creciente y, si hay duda, contrastar con la tabla de Betano.**

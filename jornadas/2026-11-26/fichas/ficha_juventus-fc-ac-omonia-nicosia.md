@@ -1,5 +1,5 @@
 # Ficha — Juventus FC - AC Omonia Nicosia
-UEFA Europa League Europa League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T13:57:17.450Z · 395 mercados
+UEFA Europa League Europa League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T19:54:31.025Z · 395 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -15,7 +15,7 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Córners | visitante | Más 3.5 | 3.2 | +1.4 | 7 de 10 | 8 de 10 |
 | Fueras de juego | total | Más 2.5 | 1.88 | +0.9 | 8 de 9 | 7 de 10 |
 | Goles | local | Menos 3.5 | 1.42 | +2.0 | 9 de 10 | 9 de 10 |
-| Goles | local | Menos 2.5 | 2.05 | +1.0 | 9 de 10 | 8 de 10 |
+| Goles | local | Menos 2.5 | 2.07 | +1.0 | 9 de 10 | 8 de 10 |
 | Goles | total | Menos 4.5 | 1.36 | +1.4 | 10 de 10 | 8 de 10 |
 | Goles | visitante | Más 0.5 | 1.91 | +1.1 | 7 de 10 | 9 de 10 |
 | Remates | local | Menos 20.5 | 1.57 | +7.1 | 8 de 10 | 9 de 10 |
@@ -67,11 +67,11 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 5.3, visitante 4.9,
 | Línea | Más | Menos |
 |---|---|---|
 | 3.5 | @1.08 · col +1.8 · L 8 de 10 · V 6 de 10 | @6.9 · col -1.8 · L 2 de 10 · V 4 de 10 |
-| 4.5 | @1.19 · col +0.8 · L 8 de 10 · V 3 de 10 | @4.35 · col -0.8 · L 2 de 10 · V 7 de 10 |
+| 4.5 | @1.19 · col +0.8 · L 8 de 10 · V 3 de 10 | @4.3 · col -0.8 · L 2 de 10 · V 7 de 10 |
 | 5.5 | @1.4 · col -0.2 · L 6 de 10 · V 0 de 10 | @2.8 · col +0.2 · L 4 de 10 · V 10 de 10 |
 | 6.5 | @1.78 · col -1.2 · L 6 de 10 · V 0 de 10 | @1.98 · col +1.2 · L 4 de 10 · V 10 de 10 |
 | 7.5 | @2.37 · col -2.2 · L 4 de 10 · V 0 de 10 | @1.55 · col +2.2 · L 6 de 10 · V 10 de 10 |
-| 8.5 | @3.3 · col -3.2 · L 4 de 10 · V 0 de 10 | @1.3 · col +3.2 · L 6 de 10 · V 10 de 10 |
+| 8.5 | @3.35 · col -3.2 · L 4 de 10 · V 0 de 10 | @1.3 · col +3.2 · L 6 de 10 · V 10 de 10 |
 | 9.5 | @4.85 · col -4.2 · L 2 de 10 · V 0 de 10 | @1.16 · col +4.2 · L 8 de 10 · V 10 de 10 ✓ |
 | 10.5 | @6.9 · col -5.2 · L 2 de 10 · V 0 de 10 | @1.08 · col +5.2 · L 8 de 10 · V 10 de 10 ✓ |
 | 11.5 | @9.0 · col -6.2 · L 2 de 10 · V 0 de 10 | @1.04 · col +6.2 · L 8 de 10 · V 10 de 10 ✓ |
@@ -80,12 +80,12 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 5.3, visitante 4.9,
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.06 · col +4.4 · L 10 de 10 · V 10 de 10 ✓ | @7.8 · col -4.4 · L 0 de 10 · V 0 de 10 |
+| 0.5 | @1.06 · col +4.4 · L 10 de 10 · V 10 de 10 ✓ | @7.9 · col -4.4 · L 0 de 10 · V 0 de 10 |
 | 1.5 | @1.3 · col +3.4 · L 9 de 10 · V 9 de 10 ✓ | @3.3 · col -3.4 · L 1 de 10 · V 1 de 10 |
-| 2.5 | @1.9 · col +2.4 · L 7 de 10 · V 8 de 10 ✓ | @1.83 · col -2.4 · L 3 de 10 · V 2 de 10 |
+| 2.5 | @1.9 · col +2.4 · L 7 de 10 · V 8 de 10 ✓ | @1.85 · col -2.4 · L 3 de 10 · V 2 de 10 |
 | 3.5 | @3.2 · col +1.4 · L 7 de 10 · V 8 de 10 ✓ | @1.32 · col -1.4 · L 3 de 10 · V 2 de 10 |
 | 4.5 | @5.6 · col +0.4 · L 5 de 10 · V 5 de 10 | @1.12 · col -0.4 · L 5 de 10 · V 5 de 10 |
-| 5.5 | @9.0 · col -0.6 · L 2 de 10 · V 4 de 10 | @1.04 · col +0.6 · L 8 de 10 · V 6 de 10 |
+| 5.5 | @9.25 · col -0.6 · L 2 de 10 · V 4 de 10 | @1.04 · col +0.6 · L 8 de 10 · V 6 de 10 |
 
 ## Estadísticas del partido
 
@@ -96,19 +96,19 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 11.95, visitante 11
 
 | Línea | Más | Menos |
 |---|---|---|
-| 25.5 | @1.75 · col -1.8 · L 3 de 10 · V 5 de 10 | @2.0 · col +1.8 · L 7 de 10 · V 5 de 10 |
+| 25.5 | @1.87 · col -1.8 · L 3 de 10 · V 5 de 10 | @1.87 · col +1.8 · L 7 de 10 · V 5 de 10 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 12.5 | @1.72 · col -0.6 · L 4 de 10 · V 2 de 10 | @2.05 · col +0.6 · L 6 de 10 · V 8 de 10 |
+| 12.5 | @1.78 · col -0.6 · L 4 de 10 · V 2 de 10 | @1.95 · col +0.6 · L 6 de 10 · V 8 de 10 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 12.5 | @1.72 · col -0.7 · L 2 de 10 · V 5 de 10 | @2.05 · col +0.7 · L 8 de 10 · V 5 de 10 |
+| 12.5 | @1.82 · col -0.7 · L 2 de 10 · V 5 de 10 | @1.93 · col +0.7 · L 8 de 10 · V 5 de 10 |
 
 ### Fueras de juego
 Muestra: local 9, visitante 10, directos 0. Esperado: local 1.93, visitante 1.47, **total 3.39** (local 2.56 a favor / 1.33 en contra; visitante 1.6 / 1.3).
@@ -199,35 +199,35 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 1.5, visitante 1.55
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.13 · col +1.6 · L 10 de 10 · V 10 de 10 ✓ | @6.1 · col -1.6 · L 0 de 10 · V 0 de 10 |
-| 2.5 | @1.42 · col +0.6 · L 6 de 10 · V 6 de 10 | @2.92 · col -0.6 · L 4 de 10 · V 4 de 10 |
+| 1.5 | @1.13 · col +1.6 · L 10 de 10 · V 10 de 10 ✓ | @6.0 · col -1.6 · L 0 de 10 · V 0 de 10 |
+| 2.5 | @1.4 · col +0.6 · L 6 de 10 · V 6 de 10 | @2.95 · col -0.6 · L 4 de 10 · V 4 de 10 |
 | 2.75 | @1.5 · col +0.3 · L 3 de 10 · V 4 de 10 | @2.7 · col -0.3 · L 4 de 10 · V 4 de 10 |
-| 3.0 | @1.62 · col +0.1 · L 3 de 10 · V 4 de 10 | @2.37 · col -0.1 · L 4 de 10 · V 4 de 10 |
+| 3.0 | @1.6 · col +0.1 · L 3 de 10 · V 4 de 10 | @2.4 · col -0.1 · L 4 de 10 · V 4 de 10 |
 | 3.25 | @1.82 · col -0.2 · L 3 de 10 · V 4 de 10 | @2.05 · col +0.2 · L 4 de 10 · V 4 de 10 |
 | 3.5 | @2.0 · col -0.5 · L 3 de 10 · V 4 de 10 | @1.82 · col +0.5 · L 7 de 10 · V 6 de 10 |
 | 3.75 | @2.27 · col -0.7 · L 0 de 10 · V 2 de 10 | @1.67 · col +0.7 · L 7 de 10 · V 6 de 10 |
-| 4.0 | @2.7 · col -0.9 · L 0 de 10 · V 2 de 10 | @1.5 · col +0.9 · L 7 de 10 · V 6 de 10 |
-| 4.25 | @3.0 · col -1.2 · L 0 de 10 · V 2 de 10 | @1.42 · col +1.2 · L 7 de 10 · V 6 de 10 |
-| 4.5 | @3.2 · col -1.4 · L 0 de 10 · V 2 de 10 | @1.36 · col +1.4 · L 10 de 10 · V 8 de 10 ✓ |
-| 5.5 | @5.5 · col -2.5 · L 0 de 10 · V 0 de 10 | @1.15 · col +2.5 · L 10 de 10 · V 10 de 10 ✓ |
-| 6.5 | @9.5 · col -3.5 · L 0 de 10 · V 0 de 10 | @1.06 · col +3.5 · L 10 de 10 · V 10 de 10 ✓ |
+| 4.0 | @2.67 · col -0.9 · L 0 de 10 · V 2 de 10 | @1.5 · col +0.9 · L 7 de 10 · V 6 de 10 |
+| 4.25 | @2.95 · col -1.2 · L 0 de 10 · V 2 de 10 | @1.42 · col +1.2 · L 7 de 10 · V 6 de 10 |
+| 4.5 | @3.15 · col -1.4 · L 0 de 10 · V 2 de 10 | @1.36 · col +1.4 · L 10 de 10 · V 8 de 10 ✓ |
+| 5.5 | @5.4 · col -2.5 · L 0 de 10 · V 0 de 10 | @1.15 · col +2.5 · L 10 de 10 · V 10 de 10 ✓ |
+| 6.5 | @9.25 · col -3.5 · L 0 de 10 · V 0 de 10 | @1.06 · col +3.5 · L 10 de 10 · V 10 de 10 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
 | 0.5 | @1.04 · col +1.0 · L 8 de 10 · V 6 de 10 | @9.0 · col -1.0 · L 2 de 10 · V 4 de 10 |
-| 1.5 | @1.23 · col +0.0 · L 7 de 10 · V 4 de 10 | @3.85 · col +0.0 · L 3 de 10 · V 6 de 10 |
-| 2.5 | @1.72 · col -1.0 · L 1 de 10 · V 2 de 10 | @2.05 · col +1.0 · L 9 de 10 · V 8 de 10 ✓ |
-| 3.5 | @2.75 · col -2.0 · L 1 de 10 · V 1 de 10 | @1.42 · col +2.0 · L 9 de 10 · V 9 de 10 ✓ |
-| 4.5 | @4.75 · col -3.0 · L 0 de 10 · V 0 de 10 | @1.16 · col +3.0 · L 10 de 10 · V 10 de 10 ✓ |
-| 5.5 | @8.0 · col -4.0 · L 0 de 10 · V 0 de 10 | @1.06 · col +4.0 · L 10 de 10 · V 10 de 10 ✓ |
+| 1.5 | @1.24 · col +0.0 · L 7 de 10 · V 4 de 10 | @3.85 · col +0.0 · L 3 de 10 · V 6 de 10 |
+| 2.5 | @1.7 · col -1.0 · L 1 de 10 · V 2 de 10 | @2.07 · col +1.0 · L 9 de 10 · V 8 de 10 ✓ |
+| 3.5 | @2.7 · col -2.0 · L 1 de 10 · V 1 de 10 | @1.42 · col +2.0 · L 9 de 10 · V 9 de 10 ✓ |
+| 4.5 | @4.65 · col -3.0 · L 0 de 10 · V 0 de 10 | @1.17 · col +3.0 · L 10 de 10 · V 10 de 10 ✓ |
+| 5.5 | @7.8 · col -4.0 · L 0 de 10 · V 0 de 10 | @1.06 · col +4.0 · L 10 de 10 · V 10 de 10 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.91 · col +1.1 · L 7 de 10 · V 9 de 10 ✓ | @1.83 · col -1.1 · L 3 de 10 · V 1 de 10 |
+| 0.5 | @1.91 · col +1.1 · L 7 de 10 · V 9 de 10 ✓ | @1.82 · col -1.1 · L 3 de 10 · V 1 de 10 |
 | 1.5 | @5.2 · col +0.1 · L 4 de 10 · V 6 de 10 | @1.14 · col -0.1 · L 6 de 10 · V 4 de 10 |
 
 ### Tarjetas (solo amarillas)
@@ -272,7 +272,7 @@ Muestra: local 10, visitante 10, directos 0.
 
 | Selección | Cuota | Local | Visitante | Directos | Cumple |
 |---|---|---|---|---|---|
-| si | 2.0 | 5 de 10 | 5 de 10 | — |  |
+| si | 2.02 | 5 de 10 | 5 de 10 | — |  |
 | no | 1.75 | 5 de 10 | 5 de 10 | — |  |
 
 **Resultado del partido**
@@ -280,8 +280,8 @@ Muestra: local 10, visitante 10, directos 0.
 | Selección | Cuota | Local | Visitante | Directos | Cumple |
 |---|---|---|---|---|---|
 | 1 | 1.19 | 5 de 10 | 3 de 10 | — |  |
-| X | 7.0 | 3 de 10 | 2 de 10 | — |  |
-| 2 | 15.0 | 2 de 10 | 5 de 10 | — |  |
+| X | 7.2 | 3 de 10 | 2 de 10 | — |  |
+| 2 | 14.5 | 2 de 10 | 5 de 10 | — |  |
 | 1X | 1.04 | 8 de 10 | 5 de 10 | — |  |
 | X2 | 5.0 | 5 de 10 | 7 de 10 | — |  |
 | 12 | 1.1 | 7 de 10 | 8 de 10 | — | ✓ |

@@ -14,7 +14,7 @@ Enfoque: mirar primero Goles del partido (Más), Ambos marcan, Córners de Celti
 | Resultado / hándicap | ➖ neutro | Celtic FC favorito leve: el precio ya lo recoge |
 | Córners totales | ➖ neutro | ni a favor ni en contra |
 | Tarjetas y faltas | ➖ neutro | árbitro sin dato |
-| Líneas de jugador | ➖ neutro | 13 jugadores con titularidad dudosa: esperar el once |
+| Líneas de jugador | ➖ neutro | 14 jugadores con titularidad dudosa: esperar el once |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
 
@@ -64,7 +64,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates Más 29.5 | 1.65 | 58 % | 47 % | Partido abierto (ambos marcan y 3+ goles) (68 %) | Empate (47 %) | Justa |
 | Tiros al arco | Tiros al arco SC Uniao Torreense Menos 5.5 | 1.27 | 76 % | 58 % | Favorito golpea temprano y gana (90 %) | Sorpresa: gana el no favorito (58 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar Celtic FC Más 1.5 | 1.70 | 56 % | 53 % | Sorpresa: gana el no favorito (57 %) | Favorito golpea temprano y gana (53 %) | Cara |
-| Jugadores | Lucas Paes atajadas 3+ | 1.65 | 61 % | 59 % | Favorito gana en partido trabado (63 %) | Expulsión antes del 70′ (59 %) | Justa |
+| Jugadores | Amine Oudrhiri anota o asiste | 7.30 | 13 % | 0 % | Sorpresa: gana el no favorito (26 %) | Favorito golpea temprano y gana (0 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 
@@ -88,7 +88,7 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Tarjetas Más 3.5 | 1.37 | 71 % | 70 % | 71 % | +0 pts | -3 % | 59 % | +0.6 | 1.46 | Favorito golpea temprano y gana | Alta probabilidad |
 | Tarjetas SC Uniao Torreense Menos 3.5 | 1.37 | 71 % | 70 % | 71 % | +0 pts | -3 % | 70 % | +0.4 | 1.46 | Expulsión antes del 70′ | Alta probabilidad |
 | Córners 2.º tiempo Menos 6.5 | 1.33 | 70 % | 73 % | 70 % | +0 pts | -6 % | 66 % | +0.4 | 1.46 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
-| Alejandro Alfaro Cascales remates 1+ | 1.25 | 70 % | 71 % | 70 % | +0 pts | -12 % | 68 % | — | 1.47 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| Alejandro Alfaro Cascales remates 1+ | 1.25 | 70 % | 71 % | 70 % | +0 pts | -12 % | 70 % | — | 1.47 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Córners 1.er tiempo Más 3.5 | 1.34 | 69 % | 72 % | 69 % | +0 pts | -7 % | 67 % | +0.5 | 1.48 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | Goles 1.er tiempo Más 0.75 | 1.42 | 69 % | 69 % | 69 % | +0 pts | -2 % | 69 % | +0.6 | 1.49 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 17 % · ★ enfoque a favor |
 | Goles SC Uniao Torreense Menos 1.5 | 1.39 | 69 % | 69 % | 69 % | +0 pts | -4 % | 69 % | +0.4 | 1.49 | Sorpresa: gana el no favorito | Alta probabilidad |
@@ -100,12 +100,9 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Lucas Paes atajadas 6+ | 8.50 | 16 % | 10 % | 16 % | +0 pts | +35 % | 14 % | -0.5 | 7.19 | Empate | Valor frágil (depende de un guion) |
-| Lucas Paes atajadas 5+ | 4.65 | 26 % | 19 % | 26 % | +0 pts | +22 % | 24 % | -0.1 | 4.13 | Empate | Valor frágil (depende de un guion) |
 | Córners 1.er tiempo Menos 4.0 | 3.10 | 37 % | 35 % | 37 % | +0 pts | +16 % | 30 % | -0.3 | 2.83 | Partido abierto (ambos marcan y 3+ goles) | Valor frágil (depende de un guion) · asiática: devuelve 19 % |
 | Córners 1.er tiempo Menos 5.0 | 2.00 | 58 % | 55 % | 58 % | +0 pts | +15 % | 48 % | +0.2 | 1.80 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 17 % |
 | Córners 1.er tiempo Menos 6.0 | 1.47 | 75 % | 72 % | 75 % | +0 pts | +10 % | 65 % | +0.6 | 1.38 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 13 % |
-| Lucas Paes atajadas 4+ | 2.62 | 42 % | 34 % | 42 % | +0 pts | +9 % | 41 % | +0.3 | 2.51 | Empate | Valor |
 | Córners Menos 10.0 | 2.10 | 51 % | 50 % | 51 % | +0 pts | +6 % | 42 % | -0.0 | 2.06 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 12 % |
 | Córners 1.er tiempo Más 4.0 | 1.75 | 61 % | 63 % | 61 % | +0 pts | +6 % | 48 % | +0.3 | 1.70 | Expulsión antes del 70′ | Valor · asiática: devuelve 19 % |
 | Córners 1.er tiempo Más 3.0 | 1.34 | 79 % | 79 % | 79 % | +0 pts | +6 % | 65 % | +0.7 | 1.30 | Empate | Alta probabilidad · Valor · asiática: devuelve 16 % |
@@ -115,7 +112,7 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Córners Más 9.0 | 1.67 | 62 % | 62 % | 62 % | +0 pts | +4 % | 51 % | +0.3 | 1.67 | Favorito golpea temprano y gana | Valor · asiática: devuelve 12 % |
 | Córners Menos 12.0 | 1.40 | 74 % | 73 % | 74 % | +0 pts | +3 % | 65 % | +0.6 | 1.40 | Sorpresa: gana el no favorito | Alta probabilidad · Valor · asiática: devuelve 9 % |
 
-Kelly ¼ (dato informativo, no una orden de stake): Lucas Paes atajadas 6+ 1.2 % de la banca; Lucas Paes atajadas 5+ 1.5 % de la banca; Córners 1.er tiempo Menos 4.0 1.9 % de la banca; Córners 1.er tiempo Menos 5.0 3.8 % de la banca; Córners 1.er tiempo Menos 6.0 5.2 % de la banca; Lucas Paes atajadas 4+ 1.5 % de la banca; Córners Menos 10.0 1.4 % de la banca; Córners 1.er tiempo Más 4.0 2.1 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+Kelly ¼ (dato informativo, no una orden de stake): Córners 1.er tiempo Menos 4.0 1.9 % de la banca; Córners 1.er tiempo Menos 5.0 3.8 % de la banca; Córners 1.er tiempo Menos 6.0 5.2 % de la banca; Córners Menos 10.0 1.4 % de la banca; Córners 1.er tiempo Más 4.0 2.1 % de la banca; Córners 1.er tiempo Más 3.0 4.3 % de la banca; Córners 1.er tiempo Menos 7.0 5.9 % de la banca; Córners Menos 11.0 2.0 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
 
 ## Sistemas de tipsters que este partido cumple (solo para medir, no para decidir)
 | Sistema | Regla | Selección que propone | Historial con cuotas reales |
@@ -126,14 +123,13 @@ Kelly ¼ (dato informativo, no una orden de stake): Lucas Paes atajadas 6+ 1.2 %
 ## Builders del mismo guion
 | Patas | Prob. ajustada | Prob. simulación | Si una pata está 5 pts peor | Cuota justa | Cuota mínima en Betano | Correlación | Margen acumulado | Guion común | Robustez |
 |---|---|---|---|---|---|---|---|---|---|
+| Goles 1.er tiempo Menos 3.5 + Celtic FC o empate + Tiros al arco SC Uniao Torreense Menos 5.5 | 62 % | 62 % | 58 % | 1.62 | 1.66 | 1.06 | 7 % | Favorito gana en partido trabado | 0 % |
+| Ambos 1+ tarjetas: Sí + Goles SC Uniao Torreense Menos 2.5 + Tiros al arco SC Uniao Torreense Menos 5.5 | 61 % | 62 % | 57 % | 1.63 | 1.68 | 1.05 | 7 % | Favorito gana en partido trabado | 40 % |
 | Hándicap SC Uniao Torreense +4 + Ambos 1+ tarjetas: Sí + Goles 2.º tiempo Menos 2.5 | 62 % | 64 % | 58 % | 1.62 | 1.67 | 1.03 | 7 % | Empate | 46 % |
 | Goles SC Uniao Torreense Menos 2.5 + Celtic FC o empate + Tarjetas SC Uniao Torreense Más 1.5 | 60 % | 61 % | 56 % | 1.67 | 1.72 | 1.06 | 8 % | Empate | 0 % |
 | Goles Menos 5.5 + Tarjetas 1.er tiempo Menos 2.5 + Córners Menos 15.5 | 62 % | 64 % | 58 % | 1.60 | 1.65 | 1.0 | 6 % | Empate | 59 % |
 | Hándicap SC Uniao Torreense +4 + Tarjetas 1.er tiempo Menos 2.5 + Córners 2.º tiempo Más 2.5 | 62 % | 64 % | 58 % | 1.61 | 1.65 | 1.0 | 7 % | Sorpresa: gana el no favorito | 54 % |
-| Goles Celtic FC Menos 4.5 + Celtic FC o empate + Tarjetas Celtic FC Menos 3.5 | 62 % | 63 % | 58 % | 1.60 | 1.65 | 0.99 | 7 % | Favorito gana en partido trabado | 0 % |
-| Ambos 1+ tarjetas: Sí + Goles 2.º tiempo Menos 2.5 + Córners Menos 15.5 | 60 % | 62 % | 56 % | 1.66 | 1.71 | 1.01 | 7 % | Empate | 44 % |
-| Lucas Paes atajadas 3+ + Goles Celtic FC Menos 4.5 | 58 % | 73 % | 53 % | 1.73 | 1.78 | 1.0 | 12 % | Favorito gana en partido trabado | 55 % |
-| Lucas Paes atajadas 3+ + Goles 1.er tiempo Menos 3.5 | 58 % | 72 % | 53 % | 1.73 | 1.78 | 1.0 | 12 % | Favorito gana en partido trabado | 55 % |
+| Goles 2.º tiempo Menos 2.5 + Tarjetas Celtic FC Menos 3.5 | 60 % | 61 % | 56 % | 1.67 | 1.72 | 0.99 | 6 % | Empate | 46 % |
 
 Prob. ajustada: la conjunta de la simulación llevando cada pata a su probabilidad de decisión y corrigiendo la dependencia entre patas que se midió con 62 000 partidos (p. ej. «gana el favorito + sus córners Más» se estorban más de lo que creía el simulador). Margen acumulado: lo que la casa cobra por pata, multiplicado.
 

@@ -1,5 +1,5 @@
-# Ficha — Nordsjaelland - Panathinaikos
-UEFA Conference League Conference League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T13:59:03.454Z · 400 mercados
+# Ficha — Nordsjælland - Panathinaikos
+UEFA Conference League Conference League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T19:54:52.495Z · 400 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -62,7 +62,7 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 4.05, visitante 5.0
 | 3.5 | @1.47 · col +0.6 · L 8 de 10 · V 4 de 10 | @2.57 · col -0.6 · L 2 de 10 · V 6 de 10 |
 | 4.5 | @2.0 · col -0.5 · L 7 de 10 · V 2 de 10 | @1.75 · col +0.5 · L 3 de 10 · V 8 de 10 |
 | 5.5 | @3.0 · col -1.4 · L 5 de 10 · V 1 de 10 | @1.36 · col +1.4 · L 5 de 10 · V 9 de 10 |
-| 6.5 | @4.6 · col -2.5 · L 4 de 10 · V 0 de 10 | @1.17 · col +2.5 · L 6 de 10 · V 10 de 10 |
+| 6.5 | @4.55 · col -2.5 · L 4 de 10 · V 0 de 10 | @1.17 · col +2.5 · L 6 de 10 · V 10 de 10 |
 | 7.5 | @7.0 · col -3.5 · L 1 de 10 · V 0 de 10 | @1.08 · col +3.5 · L 9 de 10 · V 10 de 10 ✓ |
 | 8.5 | @10.0 · col -4.5 · L 1 de 10 · V 0 de 10 | @1.03 · col +4.5 · L 9 de 10 · V 10 de 10 ✓ |
 
@@ -74,7 +74,7 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 4.05, visitante 5.0
 | 2.5 | @1.24 · col +2.5 · L 5 de 10 · V 9 de 10 | @3.8 · col -2.5 · L 5 de 10 · V 1 de 10 |
 | 3.5 | @1.57 · col +1.6 · L 4 de 10 · V 9 de 10 | @2.3 · col -1.6 · L 6 de 10 · V 1 de 10 |
 | 4.5 | @2.25 · col +0.6 · L 2 de 10 · V 6 de 10 | @1.6 · col -0.6 · L 8 de 10 · V 4 de 10 |
-| 5.5 | @3.45 · col -0.5 · L 2 de 10 · V 6 de 10 | @1.29 · col +0.5 · L 8 de 10 · V 4 de 10 |
+| 5.5 | @3.45 · col -0.5 · L 2 de 10 · V 6 de 10 | @1.28 · col +0.5 · L 8 de 10 · V 4 de 10 |
 | 6.5 | @5.4 · col -1.4 · L 1 de 10 · V 5 de 10 | @1.13 · col +1.4 · L 9 de 10 · V 5 de 10 |
 | 7.5 | @8.25 · col -2.5 · L 1 de 10 · V 4 de 10 | @1.05 · col +2.5 · L 9 de 10 · V 6 de 10 |
 
@@ -210,7 +210,7 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 1.4, visitante 1.8,
 |---|---|---|
 | 0.5 | @1.23 · col +0.9 · L 8 de 10 · V 7 de 10 ✓ | @3.85 · col -0.9 · L 2 de 10 · V 3 de 10 |
 | 1.5 | @2.05 · col -0.1 · L 5 de 10 · V 0 de 10 | @1.72 · col +0.1 · L 5 de 10 · V 10 de 10 |
-| 2.5 | @4.15 · col -1.1 · L 3 de 10 · V 0 de 10 | @1.2 · col +1.1 · L 7 de 10 · V 10 de 10 ✓ |
+| 2.5 | @4.2 · col -1.1 · L 3 de 10 · V 0 de 10 | @1.2 · col +1.1 · L 7 de 10 · V 10 de 10 ✓ |
 | 3.5 | @8.25 · col -2.1 · L 2 de 10 · V 0 de 10 | @1.05 · col +2.1 · L 8 de 10 · V 10 de 10 ✓ |
 
 **visitante**
@@ -219,7 +219,7 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 1.4, visitante 1.8,
 |---|---|---|
 | 0.5 | @1.25 · col +1.3 · L 7 de 10 · V 9 de 10 ✓ | @3.7 · col -1.3 · L 3 de 10 · V 1 de 10 |
 | 1.5 | @2.12 · col +0.3 · L 4 de 10 · V 8 de 10 | @1.67 · col -0.3 · L 6 de 10 · V 2 de 10 |
-| 2.5 | @4.45 · col -0.7 · L 2 de 10 · V 2 de 10 | @1.18 · col +0.7 · L 8 de 10 · V 8 de 10 ✓ |
+| 2.5 | @4.4 · col -0.7 · L 2 de 10 · V 2 de 10 | @1.18 · col +0.7 · L 8 de 10 · V 8 de 10 ✓ |
 | 3.5 | @8.75 · col -1.7 · L 0 de 10 · V 2 de 10 | @1.05 · col +1.7 · L 10 de 10 · V 8 de 10 ✓ |
 
 ### Tarjetas (solo amarillas)
@@ -262,15 +262,15 @@ Muestra: local 10, visitante 10, directos 0.
 | Selección | Cuota | Local | Visitante | Directos | Cumple |
 |---|---|---|---|---|---|
 | si | 1.55 | 6 de 10 | 6 de 10 | — |  |
-| no | 2.37 | 4 de 10 | 4 de 10 | — |  |
+| no | 2.35 | 4 de 10 | 4 de 10 | — |  |
 
 **Resultado del partido**
 
 | Selección | Cuota | Local | Visitante | Directos | Cumple |
 |---|---|---|---|---|---|
-| 1 | 2.5 | 3 de 10 | 1 de 10 | — |  |
+| 1 | 2.52 | 3 de 10 | 1 de 10 | — |  |
 | X | 3.6 | 5 de 10 | 0 de 10 | — |  |
-| 2 | 2.7 | 2 de 10 | 9 de 10 | — |  |
+| 2 | 2.67 | 2 de 10 | 9 de 10 | — |  |
 | 1X | 1.5 | 8 de 10 | 1 de 10 | — |  |
 | X2 | 1.55 | 7 de 10 | 9 de 10 | — | ✓ |
 | 12 | 1.28 | 5 de 10 | 10 de 10 | — |  |
@@ -279,11 +279,12 @@ Muestra: local 10, visitante 10, directos 0.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Andreas Hansen — atajadas: 2+ @1.2 · col +1.7 · 9 de 10 (titular 0.90)
-- Andreas Hansen — atajadas: 3+ @1.65 · col +0.7 · 7 de 10 (titular 0.90)
-- Ibrahim Adel — remates: 1+ @2.37 · col — · 10 de 10
-- Ibrahim Adel — remates: 2+ @8.25 · col — · 7 de 10
-- Ibrahim Adel — al_arco: 1+ @5.1 · col — · 7 de 10
+- A. Lind — remates: 2+ @1.47 · col +1.0 · 7 de 9 (titular 0.50)
+- A. Lind — al_arco: 1+ @1.55 · col +0.8 · 9 de 9 (titular 0.50)
+- Andreas Hansen — atajadas: 3+ @1.31 · col +0.7 · 7 de 10 (titular 0.90)
+- Hjalte Rasmussen — remates: 1+ @1.09 · col +2.1 · 8 de 10 (titular 0.50)
+- Ibrahim Adel — remates: 2+ @1.2 · col — · 7 de 10
+- Ibrahim Adel — al_arco: 1+ @1.26 · col — · 7 de 10
 
 ## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
 

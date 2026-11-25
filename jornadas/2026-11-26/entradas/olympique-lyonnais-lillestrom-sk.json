@@ -883,23 +883,23 @@
 {
 "mercado": "faltas",
 "ambito": "total",
-"linea": 23.5,
-"mas": 1.8,
-"menos": 1.95
+"linea": 22.5,
+"mas": 1.75,
+"menos": 2.0
 },
 {
 "mercado": "faltas",
 "ambito": "local",
 "linea": 9.5,
-"mas": 1.75,
-"menos": 2.02
+"mas": 1.72,
+"menos": 2.05
 },
 {
 "mercado": "faltas",
 "ambito": "visitante",
-"linea": 13.5,
-"mas": 1.75,
-"menos": 2.0
+"linea": 12.5,
+"mas": 1.7,
+"menos": 2.07
 },
 {
 "mercado": "fueras",
@@ -1154,8 +1154,8 @@
 "lado": "local",
 "stat": "asiste",
 "escalera": {
-"1": 9.75,
-"2": 24.0,
+"1": 3.8,
+"2": 15.5,
 "3": 24.0
 }
 },
@@ -1164,15 +1164,13 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"3": 23.0,
-"4": 24.0,
-"5": 23.0,
-"6": 24.0,
-"7": 20.0,
-"8": 23.0,
-"9": 23.0,
-"2": 12.5,
-"1": 3.15
+"2": 1.33,
+"3": 2.0,
+"4": 3.55,
+"5": 6.7,
+"6": 12.0,
+"7": 18.5,
+"8": 23.0
 }
 },
 {
@@ -1180,24 +1178,36 @@
 "lado": "local",
 "stat": "al_arco",
 "escalera": {
-"1": 7.1,
-"2": 23.0,
-"3": 25.0,
-"4": 24.0,
-"5": 24.0
+"1": 1.5,
+"2": 3.3,
+"3": 8.25,
+"4": 17.0,
+"5": 23.0
 }
+},
+{
+"jugador": "Ernest Nuamah",
+"lado": "local",
+"stat": "anota",
+"cuota": 1.8
+},
+{
+"jugador": "Ernest Nuamah",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 17.5
 },
 {
 "jugador": "Khalis Merah",
 "lado": "local",
 "stat": "anota",
-"cuota": 1.91
+"cuota": 1.87
 },
 {
 "jugador": "Khalis Merah",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 1.6
+"cuota": 1.57
 },
 {
 "jugador": "Khalis Merah",
@@ -1220,8 +1230,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"3": 2.18,
 "2": 1.39,
+"3": 2.18,
 "4": 4.0,
 "5": 7.8,
 "6": 14.0,
@@ -1274,8 +1284,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"4": 2.2,
 "3": 1.5,
+"4": 2.2,
 "5": 3.7,
 "6": 6.6,
 "7": 11.25,
@@ -1327,8 +1337,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"3": 1.72,
 "2": 1.23,
+"3": 1.72,
 "4": 2.8,
 "5": 5.0,
 "6": 9.25,
@@ -1381,8 +1391,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"3": 1.57,
 "2": 1.17,
+"3": 1.57,
 "4": 2.4,
 "5": 4.1,
 "6": 7.4,
@@ -1436,8 +1446,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"3": 2.18,
 "2": 1.39,
+"3": 2.18,
 "4": 4.0,
 "5": 7.8,
 "6": 14.0,
@@ -1504,8 +1514,8 @@
 "lado": "local",
 "stat": "al_arco",
 "escalera": {
-"2": 2.05,
 "1": 1.22,
+"2": 2.05,
 "3": 4.25,
 "4": 9.25,
 "5": 17.0
@@ -1544,8 +1554,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"3": 1.6,
 "2": 1.18,
+"3": 1.6,
 "4": 2.47,
 "5": 4.25,
 "6": 7.7,
@@ -1648,8 +1658,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"3": 2.18,
 "2": 1.39,
+"3": 2.18,
 "4": 4.0,
 "5": 7.8,
 "6": 14.0,
@@ -1701,8 +1711,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"2": 2.02,
 "1": 1.21,
+"2": 2.02,
 "3": 4.2,
 "4": 9.0,
 "5": 16.5,
@@ -1752,8 +1762,8 @@
 "lado": "visitante",
 "stat": "remates",
 "escalera": {
-"2": 2.27,
 "1": 1.27,
+"2": 2.27,
 "3": 5.0,
 "4": 11.25,
 "5": 19.0,
@@ -1803,8 +1813,8 @@
 "lado": "visitante",
 "stat": "remates",
 "escalera": {
-"2": 2.18,
 "1": 1.25,
+"2": 2.18,
 "3": 4.75,
 "4": 10.5,
 "5": 18.0,
@@ -1820,6 +1830,54 @@
 "2": 7.1,
 "3": 17.5,
 "4": 24.0
+}
+},
+{
+"jugador": "Moussa Niakhaté",
+"lado": "local",
+"stat": "anota",
+"cuota": 4.65
+},
+{
+"jugador": "Moussa Niakhaté",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 3.85
+},
+{
+"jugador": "Moussa Niakhaté",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 17.5
+},
+{
+"jugador": "Moussa Niakhaté",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 8.5,
+"2": 24.0
+}
+},
+{
+"jugador": "Moussa Niakhaté",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.78,
+"2": 4.7,
+"3": 12.5,
+"4": 21.0
+}
+},
+{
+"jugador": "Moussa Niakhaté",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 3.95,
+"2": 16.5,
+"3": 24.0
 }
 },
 {
@@ -1872,54 +1930,6 @@
 }
 },
 {
-"jugador": "Moussa Niakhaté",
-"lado": "local",
-"stat": "anota",
-"cuota": 5.0
-},
-{
-"jugador": "Moussa Niakhaté",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 4.1
-},
-{
-"jugador": "Moussa Niakhaté",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 17.5
-},
-{
-"jugador": "Moussa Niakhaté",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 8.5,
-"2": 24.0
-}
-},
-{
-"jugador": "Moussa Niakhaté",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"1": 1.78,
-"2": 4.7,
-"3": 12.5,
-"4": 21.0
-}
-},
-{
-"jugador": "Moussa Niakhaté",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 3.95,
-"2": 16.5,
-"3": 24.0
-}
-},
-{
 "jugador": "Mads Bidstrup",
 "lado": "local",
 "stat": "anota",
@@ -1951,8 +1961,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"2": 1.91,
 "1": 1.19,
+"2": 1.91,
 "3": 3.8,
 "4": 8.25,
 "5": 15.5,
@@ -2003,8 +2013,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"2": 2.37,
 "1": 1.3,
+"2": 2.37,
 "3": 5.4,
 "4": 12.0,
 "5": 19.5,
@@ -2593,8 +2603,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"2": 2.15,
 "1": 1.24,
+"2": 2.15,
 "3": 4.6,
 "4": 10.0,
 "5": 18.0,
@@ -3329,13 +3339,11 @@
 "lado": "local",
 "stat": "atajadas",
 "escalera": {
+"1": 1.15,
+"2": 1.75,
 "3": 3.3,
 "4": 6.9,
-"5": 13.5,
-"6": 3.65,
-"7": 6.1,
-"1": 1.15,
-"2": 1.75
+"5": 13.5
 }
 },
 {
@@ -3349,8 +3357,8 @@
 "lado": "visitante",
 "stat": "atajadas",
 "escalera": {
-"4": 1.6,
 "3": 1.22,
+"4": 1.6,
 "5": 2.3,
 "6": 3.65,
 "7": 6.1
@@ -3453,6 +3461,14 @@
 "minutos": 80,
 "fuentes_xi": "2/2",
 "fuente": "Sofascore «Alineaciones probables (Sofascore)» leída 25-11 ~14:22 Bogotá · XI oficial se publica ~1 h antes del inicio · coincide con Flashscore"
+},
+{
+"nombre": "Ernest Nuamah",
+"lado": "local",
+"titular": 0.5,
+"minutos": 80,
+"fuentes_xi": "1/2",
+"fuente": "Sofascore «Alineaciones probables (Sofascore)» leída 25-11 ~14:22 Bogotá · XI oficial se publica ~1 h antes del inicio · solo figura en el once de Sofascore"
 },
 {
 "nombre": "Khalis Merah",
@@ -3664,9 +3680,9 @@
 "bajas": [],
 "dudas": [
 "Contraste con Flashscore (20 partidos comunes): 301/310 cifras iguales, 3 con diferencia > 1 → 2026-10-28 Sogndal IL sh[1] Sofascore 9 · Flashscore 5; 2026-10-28 Sogndal IL sot[1] Sofascore 4 · Flashscore 2; 2026-10-11 Molde FK sh[1] Sofascore 29 · Flashscore 27",
-"Historial: sin casar con Betano → Nuamah E., Morton T., Himbert R., Kango S., Mata C., Šulc P., Openda L., Elkær F., Bassi D.",
-"Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Abner Vinicius, Eric Kitolano, Felix Va, Fredrik Gulbrandsen, Gustav Nyheim, Keito Nakamura, Khalis Merah, Lars Mogstad Ranger, Stian Kristiansen · solo Flashscore: Alejandro Gomes Rodriguez, Camil Jebara, Gustav Nordh, Julien Duranville, Kail Boudache, Nicolás Tagliafico, Sander Foss, Sturla Ottesen, Thomas Lehne Olsen, Yaw Paintsil",
-"Alineación probable: sin casar con Betano → Nuamah E., Elkær F., Nyheim N."
+"Historial: sin casar con Betano → Morton T., Himbert R., Kango S., Mata C., Šulc P., Openda L., Elkær F., Bassi D.",
+"Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Abner Vinicius, Eric Kitolano, Ernest Nuamah, Felix Va, Fredrik Gulbrandsen, Gustav Nyheim, Keito Nakamura, Khalis Merah, Lars Mogstad Ranger, Stian Kristiansen · solo Flashscore: Alejandro Gomes Rodriguez, Camil Jebara, Gustav Nordh, Julien Duranville, Kail Boudache, Nicolás Tagliafico, Sander Foss, Sturla Ottesen, Thomas Lehne Olsen, Yaw Paintsil",
+"Alineación probable: sin casar con Betano → Elkær F., Nyheim N."
 ],
 "fuentes": [
 "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá",
@@ -5081,6 +5097,163 @@
 "rating": 9.2,
 "entradas_tot": 3,
 "entradas_gan": 2
+}
+]
+},
+"Ernest Nuamah": {
+"pos": "F",
+"partidos": [
+{
+"fecha": "2026-11-21",
+"mid": "16311012",
+"min": 82,
+"remates": 2,
+"al_arco": 2,
+"goles": 0,
+"asist": 0,
+"tarjeta": 0,
+"faltas": 0,
+"entradas": 0,
+"atajadas": 0,
+"faltas_rec": 3,
+"centros": 8,
+"xa": 0.03,
+"rating": 6.7,
+"entradas_tot": 0,
+"entradas_gan": 0
+},
+{
+"fecha": "2026-11-08",
+"mid": "16311004",
+"min": 23,
+"remates": 1,
+"al_arco": 0,
+"goles": 0,
+"asist": 0,
+"tarjeta": 0,
+"faltas": 0,
+"entradas": 0,
+"atajadas": 0,
+"faltas_rec": 2,
+"centros": 2,
+"xa": 0.03,
+"rating": 6.6,
+"entradas_tot": 0,
+"entradas_gan": 0
+},
+{
+"fecha": "2026-11-01",
+"mid": "16310996",
+"min": 75,
+"remates": 4,
+"al_arco": 2,
+"goles": 1,
+"asist": 0,
+"tarjeta": 0,
+"faltas": 1,
+"entradas": 0,
+"atajadas": 0,
+"faltas_rec": 1,
+"centros": 2,
+"xa": 0.07,
+"rating": 7.4,
+"entradas_tot": 0,
+"entradas_gan": 0
+},
+{
+"fecha": "2026-10-26",
+"mid": "16310990",
+"min": 90,
+"remates": 2,
+"al_arco": 2,
+"goles": 0,
+"asist": 0,
+"tarjeta": 1,
+"faltas": 0,
+"entradas": 0,
+"atajadas": 0,
+"faltas_rec": 1,
+"centros": 4,
+"xa": 0.24,
+"rating": 7.2,
+"entradas_tot": 0,
+"entradas_gan": 0
+},
+{
+"fecha": "2026-10-22",
+"mid": "16945531",
+"min": 15,
+"remates": 0,
+"al_arco": 0,
+"goles": 0,
+"asist": 0,
+"tarjeta": 0,
+"faltas": 0,
+"entradas": 0,
+"atajadas": 0,
+"faltas_rec": 0,
+"centros": 0,
+"xa": 0.04,
+"rating": 6.8,
+"entradas_tot": 0,
+"entradas_gan": 0
+},
+{
+"fecha": "2026-10-15",
+"mid": "16943989",
+"min": 70,
+"remates": 3,
+"al_arco": 1,
+"goles": 1,
+"asist": 0,
+"tarjeta": 0,
+"faltas": 1,
+"entradas": 0,
+"atajadas": 0,
+"faltas_rec": 1,
+"centros": 3,
+"xa": 0.15,
+"rating": 7.5,
+"entradas_tot": 0,
+"entradas_gan": 0
+},
+{
+"fecha": "2026-10-09",
+"mid": "16310967",
+"min": 71,
+"remates": 0,
+"al_arco": 0,
+"goles": 0,
+"asist": 0,
+"tarjeta": 0,
+"faltas": 0,
+"entradas": 0,
+"atajadas": 0,
+"faltas_rec": 3,
+"centros": 2,
+"xa": 0.01,
+"rating": 6.8,
+"entradas_tot": 0,
+"entradas_gan": 0
+},
+{
+"fecha": "2026-09-19",
+"mid": "16310959",
+"min": 73,
+"remates": 6,
+"al_arco": 4,
+"goles": 2,
+"asist": 0,
+"tarjeta": 0,
+"faltas": 1,
+"entradas": 0,
+"atajadas": 0,
+"faltas_rec": 1,
+"centros": 5,
+"xa": 0.1,
+"rating": 9.3,
+"entradas_tot": 0,
+"entradas_gan": 0
 }
 ]
 },
@@ -12020,5 +12193,5 @@
 "faltan": []
 },
 "estadio": "Parc Olympique Lyonnais",
-"cuotas_leidas": "Cuotas de Betano leídas 2026-11-25T13:57:07.481Z · 451 mercados"
+"cuotas_leidas": "Cuotas de Betano leídas 2026-11-25T19:55:08.784Z · 451 mercados"
 }

@@ -63,7 +63,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates FC Twente Enschede Menos 15.5 | 1.47 | 64 % | 58 % | Favorito gana en partido trabado (77 %) | Partido abierto (ambos marcan y 3+ goles) (58 %) | Cara |
 | Tiros al arco | Tiros al arco FC Twente Enschede Más 3.5 | 1.36 | 69 % | 57 % | Sorpresa: gana el no favorito (87 %) | Favorito gana en partido trabado (43 %) | Alta probabilidad · cuota por debajo de la justa |
 | Fueras de lugar | Fueras de lugar SC Friburgo Menos 1.5 | 1.47 | 65 % | 62 % | Expulsión antes del 70′ (67 %) | Sorpresa: gana el no favorito (62 %) | Cara |
-| Jugadores | Mio Backhaus atajadas 4+ | 2.62 | 37 % | 36 % | Sorpresa: gana el no favorito (38 %) | Expulsión antes del 70′ (34 %) | Justa |
+| Jugadores | Aske Adelgaard anota o asiste | 5.40 | 18 % | 10 % | Sorpresa: gana el no favorito (29 %) | Favorito golpea temprano y gana (0 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 

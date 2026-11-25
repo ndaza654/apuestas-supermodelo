@@ -30,3 +30,8 @@ Recolectado el 25-nov-2026 (cuotas ~08:56–08:59 Bogotá; previas, alineaciones
 - Contraste con Flashscore en los mismos partidos: ≈ 97 % de las cifras iguales; 222 celdas difieren en más de 1 (sobre todo remates y tiros al arco en copas y ligas menores: Bosnia, Kazajistán, Albania, Armenia, Georgia). No se sabe cuál fuente acierta: se declara en las dudas de cada ficha. 8 partidos pasados sin estadísticas en Sofascore se rellenaron con las de Flashscore.
 - Once: cuando Sofascore y Flashscore no coinciden, el jugador que figura en uno solo va con titular 0,5 (declarado); esperar el once oficial.
 - Pipeline corrido de nuevo (`correr_jornada.py`); `registro/sugerencias.csv` no se tocó. Cuotas siguen siendo las de las 08:56–08:59 del 25-nov.
+
+## Corrección 25-nov ~15:10 Bogotá: cuotas de jugador mal leídas (error de la tabla de Betano)
+- Las cuotas de jugador (remates, tiros al arco, entradas, faltas, atajadas, asistencias) que había hasta aquí estaban **mal**: Betano ya las entrega como una tabla por mercado y el extractor las pegaba todas a un solo jugador. Corregido en `betano_extraer.js` (commit 35c17ad) y **releídos los 36 partidos** con el extractor nuevo (hash 8c7e13e5…; ~15:00). 0 escaleras repetidas o con precio que baja; 0 avisos.
+- Respaldo de lo anterior en `betano_previo/` y `raw/previo_1500/`. «Cuotas que se movieron» del Resumen mezcla movimiento real de mercado con esta corrección: en jugadores no son comparables con la lectura de la mañana.
+- Líneas de jugador del 26-nov: de 14.465 (contaminadas) a 22.554 (cada jugador con su propia escalera). Una sola lectura de cuotas (15:00).

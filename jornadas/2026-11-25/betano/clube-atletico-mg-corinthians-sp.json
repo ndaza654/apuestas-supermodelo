@@ -1281,44 +1281,6 @@
 "cuota": 32.0
 },
 {
-"jugador": "Bernard",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 6.2,
-"2": 22.0,
-"3": 21.0
-}
-},
-{
-"jugador": "Bernard",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"2": 4.85,
-"3": 12.5,
-"4": 21.0,
-"5": 22.0,
-"6": 21.0,
-"7": 21.0,
-"8": 21.0,
-"9": 19.5,
-"1": 1.82
-}
-},
-{
-"jugador": "Bernard",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 3.3,
-"2": 15.5,
-"3": 24.0,
-"4": 23.0,
-"5": 22.0
-}
-},
-{
 "jugador": "Memphis Depay",
 "lado": "visitante",
 "stat": "anota",
@@ -3439,18 +3401,6 @@
 "cuota": 45.0
 },
 {
-"jugador": "Everson",
-"lado": "local",
-"stat": "atajadas",
-"escalera": {
-"3": 1.45,
-"4": 2.12,
-"5": 3.5,
-"6": 6.2,
-"7": 10.75
-}
-},
-{
 "jugador": "Felipe Longo",
 "lado": "visitante",
 "stat": "tarjeta",
@@ -3493,6 +3443,12 @@
 "cuota": 45.0
 }
 ],
-"parejas": []
+"parejas": [],
+"avisos": [
+"Bernard · asiste: escalera descartada (tabla de jugadores mal leída; limpiado el 25-nov-2026)",
+"Bernard · remates: escalera descartada (tabla de jugadores mal leída; limpiado el 25-nov-2026)",
+"Bernard · al_arco: escalera descartada (tabla de jugadores mal leída; limpiado el 25-nov-2026)",
+"Everson · atajadas: escalera descartada (tabla de jugadores mal leída; limpiado el 25-nov-2026)"
+]
 }
 }

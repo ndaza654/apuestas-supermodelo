@@ -2,7 +2,7 @@
  "encuentro": "FC Red Bull Salzburg - FC Ararat-Armenia",
  "liga": "UEFA Europa League Europa League",
  "fecha": "2026-11-26 12:45",
- "cuotas_leidas": "Cuotas de Betano leídas 2026-11-25T13:56:31.227Z · 417 mercados",
+ "cuotas_leidas": "Cuotas de Betano leídas 2026-11-25T19:53:41.327Z · 417 mercados",
  "regla": {
   "muestra": "últimos 10 de cada equipo (cualquier sede) + hasta 6 directos",
   "cumple": "7 de 10 (n mínimo 7)",
@@ -2057,39 +2057,39 @@
    "lineas": [
     {
      "ambito": "local",
-     "linea": 13.5,
+     "linea": 12.5,
      "esperado": 14.0,
      "mas": {
-      "cuota": 1.93,
-      "colchon": 0.5,
+      "cuota": 1.75,
+      "colchon": 1.5,
       "reg_local": {
-       "x": 2,
+       "x": 4,
        "n": 10,
-       "txt": "2 de 10",
+       "txt": "4 de 10",
        "cumple": false
       },
       "reg_visitante": {
-       "x": 6,
+       "x": 7,
        "n": 10,
-       "txt": "6 de 10",
-       "cumple": false
+       "txt": "7 de 10",
+       "cumple": true
       },
       "directos": null,
       "cumple": false
      },
      "menos": {
-      "cuota": 1.8,
-      "colchon": -0.5,
+      "cuota": 2.0,
+      "colchon": -1.5,
       "reg_local": {
-       "x": 8,
+       "x": 6,
        "n": 10,
-       "txt": "8 de 10",
-       "cumple": true
+       "txt": "6 de 10",
+       "cumple": false
       },
       "reg_visitante": {
-       "x": 4,
+       "x": 3,
        "n": 10,
-       "txt": "4 de 10",
+       "txt": "3 de 10",
        "cumple": false
       },
       "directos": null,
@@ -2098,11 +2098,11 @@
     },
     {
      "ambito": "total",
-     "linea": 26.5,
+     "linea": 25.5,
      "esperado": 28.1,
      "mas": {
       "cuota": 1.8,
-      "colchon": 1.6,
+      "colchon": 2.6,
       "reg_local": {
        "x": 4,
        "n": 10,
@@ -2120,7 +2120,7 @@
      },
      "menos": {
       "cuota": 1.93,
-      "colchon": -1.6,
+      "colchon": -2.6,
       "reg_local": {
        "x": 6,
        "n": 10,
@@ -2139,11 +2139,11 @@
     },
     {
      "ambito": "visitante",
-     "linea": 13.5,
+     "linea": 12.5,
      "esperado": 14.1,
      "mas": {
-      "cuota": 1.93,
-      "colchon": 0.6,
+      "cuota": 1.75,
+      "colchon": 1.6,
       "reg_local": {
        "x": 6,
        "n": 10,
@@ -2160,8 +2160,8 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 1.8,
-      "colchon": -0.6,
+      "cuota": 2.0,
+      "colchon": -1.6,
       "reg_local": {
        "x": 4,
        "n": 10,
@@ -2298,10 +2298,51 @@
     },
     {
      "ambito": "local",
+     "linea": 0.5,
+     "esperado": 1.95,
+     "mas": {
+      "cuota": 1.18,
+      "colchon": 1.45,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 4.55,
+      "colchon": -1.45,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "local",
      "linea": 1.5,
      "esperado": 1.95,
      "mas": {
-      "cuota": 1.9,
+      "cuota": 1.8,
       "colchon": 0.45,
       "reg_local": {
        "x": 3,
@@ -2319,7 +2360,7 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 1.83,
+      "cuota": 1.95,
       "colchon": -0.45,
       "reg_local": {
        "x": 7,
@@ -2338,11 +2379,134 @@
      }
     },
     {
+     "ambito": "local",
+     "linea": 2.5,
+     "esperado": 1.95,
+     "mas": {
+      "cuota": 3.3,
+      "colchon": -0.55,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.3,
+      "colchon": 0.55,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 1.5,
+     "esperado": 4.1,
+     "mas": {
+      "cuota": 1.13,
+      "colchon": 2.6,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 5.4,
+      "colchon": -2.6,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 2.5,
+     "esperado": 4.1,
+     "mas": {
+      "cuota": 1.42,
+      "colchon": 1.6,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 2.75,
+      "colchon": -1.6,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
      "ambito": "total",
      "linea": 3.5,
      "esperado": 4.1,
      "mas": {
-      "cuota": 2.2,
+      "cuota": 2.0,
       "colchon": 0.6,
       "reg_local": {
        "x": 6,
@@ -2360,7 +2524,7 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 1.62,
+      "cuota": 1.75,
       "colchon": -0.6,
       "reg_local": {
        "x": 4,
@@ -2379,11 +2543,134 @@
      }
     },
     {
+     "ambito": "total",
+     "linea": 4.5,
+     "esperado": 4.1,
+     "mas": {
+      "cuota": 3.15,
+      "colchon": -0.4,
+      "reg_local": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.33,
+      "colchon": 0.4,
+      "reg_local": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 5.5,
+     "esperado": 4.1,
+     "mas": {
+      "cuota": 5.2,
+      "colchon": -1.4,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.14,
+      "colchon": 1.4,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 0.5,
+     "esperado": 2.15,
+     "mas": {
+      "cuota": 1.18,
+      "colchon": 1.65,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 4.5,
+      "colchon": -1.65,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
      "ambito": "visitante",
      "linea": 1.5,
      "esperado": 2.15,
      "mas": {
-      "cuota": 1.9,
+      "cuota": 1.8,
       "colchon": 0.65,
       "reg_local": {
        "x": 7,
@@ -2401,7 +2688,7 @@
       "cumple": false
      },
      "menos": {
-      "cuota": 1.83,
+      "cuota": 1.93,
       "colchon": -0.65,
       "reg_local": {
        "x": 3,
@@ -2414,6 +2701,47 @@
        "n": 10,
        "txt": "6 de 10",
        "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 2.5,
+     "esperado": 2.15,
+     "mas": {
+      "cuota": 3.35,
+      "colchon": -0.35,
+      "reg_local": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.3,
+      "colchon": 0.35,
+      "reg_local": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
       },
       "directos": null,
       "cumple": false
@@ -2740,6 +3068,88 @@
    "lineas": [
     {
      "ambito": "local",
+     "linea": 16.5,
+     "esperado": 12.75,
+     "mas": {
+      "cuota": 1.33,
+      "colchon": -3.75,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 3.15,
+      "colchon": 3.75,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "local",
+     "linea": 17.5,
+     "esperado": 12.75,
+     "mas": {
+      "cuota": 1.5,
+      "colchon": -4.75,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 2.5,
+      "colchon": 4.75,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "local",
      "linea": 18.5,
      "esperado": 12.75,
      "mas": {
@@ -2862,6 +3272,211 @@
      }
     },
     {
+     "ambito": "local",
+     "linea": 21.5,
+     "esperado": 12.75,
+     "mas": {
+      "cuota": 3.0,
+      "colchon": -8.75,
+      "reg_local": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.36,
+      "colchon": 8.75,
+      "reg_local": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "local",
+     "linea": 22.5,
+     "esperado": 12.75,
+     "mas": {
+      "cuota": 3.75,
+      "colchon": -9.75,
+      "reg_local": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.25,
+      "colchon": 9.75,
+      "reg_local": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 22.5,
+     "esperado": 27.5,
+     "mas": {
+      "cuota": 1.21,
+      "colchon": 5.0,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 4.1,
+      "colchon": -5.0,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 23.5,
+     "esperado": 27.5,
+     "mas": {
+      "cuota": 1.3,
+      "colchon": 4.0,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 3.3,
+      "colchon": -4.0,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 24.5,
+     "esperado": 27.5,
+     "mas": {
+      "cuota": 1.42,
+      "colchon": 3.0,
+      "reg_local": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 2.72,
+      "colchon": -3.0,
+      "reg_local": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
      "ambito": "total",
      "linea": 25.5,
      "esperado": 27.5,
@@ -2978,6 +3593,211 @@
        "x": 5,
        "n": 10,
        "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 28.5,
+     "esperado": 27.5,
+     "mas": {
+      "cuota": 2.42,
+      "colchon": -1.0,
+      "reg_local": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.52,
+      "colchon": 1.0,
+      "reg_local": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 29.5,
+     "esperado": 27.5,
+     "mas": {
+      "cuota": 2.87,
+      "colchon": -2.0,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.38,
+      "colchon": 2.0,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 30.5,
+     "esperado": 27.5,
+     "mas": {
+      "cuota": 3.5,
+      "colchon": -3.0,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.28,
+      "colchon": 3.0,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 4.5,
+     "esperado": 14.75,
+     "mas": {
+      "cuota": 1.11,
+      "colchon": 10.25,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 6.0,
+      "colchon": -10.25,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 5.5,
+     "esperado": 14.75,
+     "mas": {
+      "cuota": 1.24,
+      "colchon": 9.25,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 3.85,
+      "colchon": -9.25,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
        "cumple": false
       },
       "directos": null,
@@ -3106,6 +3926,88 @@
       "directos": null,
       "cumple": false
      }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 9.5,
+     "esperado": 14.75,
+     "mas": {
+      "cuota": 3.35,
+      "colchon": 5.25,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 1.29,
+      "colchon": -5.25,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 10.5,
+     "esperado": 14.75,
+     "mas": {
+      "cuota": 4.8,
+      "colchon": 4.25,
+      "reg_local": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.16,
+      "colchon": -4.25,
+      "reg_local": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
     }
    ]
   },
@@ -3224,6 +4126,47 @@
       "cuota": 1.75
      },
      "nota": "sin estadística por tiempo en la muestra"
+    },
+    {
+     "ambito": "local",
+     "linea": 4.5,
+     "esperado": 4.35,
+     "mas": {
+      "cuota": 1.17,
+      "colchon": -0.15,
+      "reg_local": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 4.7,
+      "colchon": 0.15,
+      "reg_local": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     }
     },
     {
      "ambito": "local",
@@ -3346,6 +4289,252 @@
       },
       "directos": null,
       "cumple": true
+     }
+    },
+    {
+     "ambito": "local",
+     "linea": 8.5,
+     "esperado": 4.35,
+     "mas": {
+      "cuota": 3.1,
+      "colchon": -4.15,
+      "reg_local": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.34,
+      "colchon": 4.15,
+      "reg_local": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "local",
+     "linea": 9.5,
+     "esperado": 4.35,
+     "mas": {
+      "cuota": 4.45,
+      "colchon": -5.15,
+      "reg_local": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.18,
+      "colchon": 5.15,
+      "reg_local": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "local",
+     "linea": 10.5,
+     "esperado": 4.35,
+     "mas": {
+      "cuota": 6.4,
+      "colchon": -6.15,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.1,
+      "colchon": 6.15,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 5.5,
+     "esperado": 9.6,
+     "mas": {
+      "cuota": 1.07,
+      "colchon": 4.1,
+      "reg_local": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 7.4,
+      "colchon": -4.1,
+      "reg_local": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 6.5,
+     "esperado": 9.6,
+     "mas": {
+      "cuota": 1.15,
+      "colchon": 3.1,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 5.0,
+      "colchon": -3.1,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 7.5,
+     "esperado": 9.6,
+     "mas": {
+      "cuota": 1.29,
+      "colchon": 2.1,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 3.4,
+      "colchon": -2.1,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
      }
     },
     {
@@ -3472,6 +4661,211 @@
      }
     },
     {
+     "ambito": "total",
+     "linea": 11.5,
+     "esperado": 9.6,
+     "mas": {
+      "cuota": 3.25,
+      "colchon": -1.9,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.32,
+      "colchon": 1.9,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 5,
+       "n": 10,
+       "txt": "5 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 12.5,
+     "esperado": 9.6,
+     "mas": {
+      "cuota": 4.45,
+      "colchon": -2.9,
+      "reg_local": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.18,
+      "colchon": 2.9,
+      "reg_local": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "total",
+     "linea": 13.5,
+     "esperado": 9.6,
+     "mas": {
+      "cuota": 6.1,
+      "colchon": -3.9,
+      "reg_local": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.1,
+      "colchon": 3.9,
+      "reg_local": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 0.5,
+     "esperado": 5.25,
+     "mas": {
+      "cuota": 1.06,
+      "colchon": 4.75,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 7.7,
+      "colchon": -4.75,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 1.5,
+     "esperado": 5.25,
+     "mas": {
+      "cuota": 1.32,
+      "colchon": 3.75,
+      "reg_local": {
+       "x": 10,
+       "n": 10,
+       "txt": "10 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 9,
+       "n": 10,
+       "txt": "9 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": true
+     },
+     "menos": {
+      "cuota": 3.2,
+      "colchon": -3.75,
+      "reg_local": {
+       "x": 0,
+       "n": 10,
+       "txt": "0 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 1,
+       "n": 10,
+       "txt": "1 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
      "ambito": "visitante",
      "linea": 2.5,
      "esperado": 5.25,
@@ -3506,6 +4900,129 @@
        "x": 2,
        "n": 10,
        "txt": "2 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 3.5,
+     "esperado": 5.25,
+     "mas": {
+      "cuota": 3.3,
+      "colchon": 1.75,
+      "reg_local": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.31,
+      "colchon": -1.75,
+      "reg_local": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 4.5,
+     "esperado": 5.25,
+     "mas": {
+      "cuota": 5.8,
+      "colchon": 0.75,
+      "reg_local": {
+       "x": 3,
+       "n": 10,
+       "txt": "3 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.11,
+      "colchon": -0.75,
+      "reg_local": {
+       "x": 7,
+       "n": 10,
+       "txt": "7 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     }
+    },
+    {
+     "ambito": "visitante",
+     "linea": 5.5,
+     "esperado": 5.25,
+     "mas": {
+      "cuota": 9.5,
+      "colchon": -0.25,
+      "reg_local": {
+       "x": 2,
+       "n": 10,
+       "txt": "2 de 10",
+       "cumple": false
+      },
+      "reg_visitante": {
+       "x": 6,
+       "n": 10,
+       "txt": "6 de 10",
+       "cumple": false
+      },
+      "directos": null,
+      "cumple": false
+     },
+     "menos": {
+      "cuota": 1.04,
+      "colchon": 0.25,
+      "reg_local": {
+       "x": 8,
+       "n": 10,
+       "txt": "8 de 10",
+       "cumple": true
+      },
+      "reg_visitante": {
+       "x": 4,
+       "n": 10,
+       "txt": "4 de 10",
        "cumple": false
       },
       "directos": null,
@@ -5521,7 +7038,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 2.18,
+   "cuota": 2.12,
    "reg": {
     "x": 0,
     "n": 9,
@@ -5537,7 +7054,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 1.7,
+   "cuota": 1.67,
    "reg": {
     "x": 2,
     "n": 9,
@@ -5569,7 +7086,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 10.0,
+   "cuota": 3.55,
    "reg": {
     "x": 2,
     "n": 9,
@@ -5589,19 +7106,8 @@
    "esperado": 1.07,
    "escalones": [
     {
-     "minimo": 1,
-     "cuota": 3.2,
-     "reg": {
-      "x": 4,
-      "n": 9,
-      "txt": "4 de 9",
-      "cumple": false
-     },
-     "colchon": 0.57
-    },
-    {
      "minimo": 2,
-     "cuota": 13.0,
+     "cuota": 1.17,
      "reg": {
       "x": 2,
       "n": 9,
@@ -5612,7 +7118,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 23.0,
+     "cuota": 1.6,
      "reg": {
       "x": 1,
       "n": 9,
@@ -5623,7 +7129,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 24.0,
+     "cuota": 2.45,
      "reg": {
       "x": 0,
       "n": 9,
@@ -5634,7 +7140,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 23.0,
+     "cuota": 4.2,
      "reg": {
       "x": 0,
       "n": 9,
@@ -5645,7 +7151,7 @@
     },
     {
      "minimo": 6,
-     "cuota": 23.0,
+     "cuota": 7.6,
      "reg": {
       "x": 0,
       "n": 9,
@@ -5656,7 +7162,7 @@
     },
     {
      "minimo": 7,
-     "cuota": 23.0,
+     "cuota": 13.0,
      "reg": {
       "x": 0,
       "n": 9,
@@ -5667,7 +7173,7 @@
     },
     {
      "minimo": 8,
-     "cuota": 23.0,
+     "cuota": 18.5,
      "reg": {
       "x": 0,
       "n": 9,
@@ -5686,17 +7192,6 @@
       "cumple": false
      },
      "colchon": -7.43
-    },
-    {
-     "minimo": 10,
-     "cuota": 23.0,
-     "reg": {
-      "x": 0,
-      "n": 9,
-      "txt": "0 de 9",
-      "cumple": false
-     },
-     "colchon": -8.43
     }
    ]
   },
@@ -5713,7 +7208,7 @@
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 7.1,
+     "cuota": 1.31,
      "reg": {
       "x": 2,
       "n": 9,
@@ -5724,7 +7219,7 @@
     },
     {
      "minimo": 2,
-     "cuota": 23.0,
+     "cuota": 2.42,
      "reg": {
       "x": 0,
       "n": 9,
@@ -5735,7 +7230,7 @@
     },
     {
      "minimo": 3,
-     "cuota": 25.0,
+     "cuota": 5.6,
      "reg": {
       "x": 0,
       "n": 9,
@@ -5746,7 +7241,7 @@
     },
     {
      "minimo": 4,
-     "cuota": 24.0,
+     "cuota": 12.5,
      "reg": {
       "x": 0,
       "n": 9,
@@ -5757,7 +7252,7 @@
     },
     {
      "minimo": 5,
-     "cuota": 24.0,
+     "cuota": 20.0,
      "reg": {
       "x": 0,
       "n": 9,
@@ -7130,7 +8625,7 @@
    "minutos_esperados": 0,
    "partidos_muestra": 6,
    "sin_historial": false,
-   "cuota": 2.18,
+   "cuota": 2.12,
    "reg": {
     "x": 2,
     "n": 6,
@@ -7146,7 +8641,7 @@
    "minutos_esperados": 0,
    "partidos_muestra": 6,
    "sin_historial": false,
-   "cuota": 1.62,
+   "cuota": 1.6,
    "reg": {
     "x": 3,
     "n": 6,
@@ -7745,195 +9240,6 @@
    ]
   },
   {
-   "jugador": "Alioune Ndour",
-   "lado": "visitante",
-   "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 2,
-   "sin_historial": false,
-   "cuota": 3.9,
-   "reg": {
-    "x": 1,
-    "n": 2,
-    "txt": "1 de 2",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Alioune Ndour",
-   "lado": "visitante",
-   "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 2,
-   "sin_historial": false,
-   "cuota": 3.4,
-   "reg": {
-    "x": 1,
-    "n": 2,
-    "txt": "1 de 2",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Alioune Ndour",
-   "lado": "visitante",
-   "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 2,
-   "sin_historial": false,
-   "cuota": 13.5,
-   "reg": {
-    "x": 1,
-    "n": 2,
-    "txt": "1 de 2",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Alioune Ndour",
-   "lado": "visitante",
-   "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 2,
-   "sin_historial": false,
-   "cuota": 9.0,
-   "reg": {
-    "x": 0,
-    "n": 2,
-    "txt": "0 de 2",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Alioune Ndour",
-   "lado": "visitante",
-   "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 2,
-   "sin_historial": false,
-   "por_90": 7.35,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 1.39,
-     "reg": {
-      "x": 2,
-      "n": 2,
-      "txt": "2 de 2",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 2.7,
-     "reg": {
-      "x": 2,
-      "n": 2,
-      "txt": "2 de 2",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 6.6,
-     "reg": {
-      "x": 2,
-      "n": 2,
-      "txt": "2 de 2",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 4,
-     "cuota": 14.0,
-     "reg": {
-      "x": 1,
-      "n": 2,
-      "txt": "1 de 2",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 5,
-     "cuota": 21.0,
-     "reg": {
-      "x": 1,
-      "n": 2,
-      "txt": "1 de 2",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
-   "jugador": "Alioune Ndour",
-   "lado": "visitante",
-   "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 2,
-   "sin_historial": false,
-   "por_90": 0.92,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 2.42,
-     "reg": {
-      "x": 1,
-      "n": 2,
-      "txt": "1 de 2",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 8.5,
-     "reg": {
-      "x": 0,
-      "n": 2,
-      "txt": "0 de 2",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 19.5,
-     "reg": {
-      "x": 0,
-      "n": 2,
-      "txt": "0 de 2",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 4,
-     "cuota": 24.0,
-     "reg": {
-      "x": 0,
-      "n": 2,
-      "txt": "0 de 2",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
    "jugador": "Sandro Lima",
    "lado": "visitante",
    "stat": "anota",
@@ -8297,6 +9603,195 @@
       "cumple": false
      },
      "colchon": -2.35
+    }
+   ]
+  },
+  {
+   "jugador": "Alioune Ndour",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 2,
+   "sin_historial": false,
+   "cuota": 4.25,
+   "reg": {
+    "x": 1,
+    "n": 2,
+    "txt": "1 de 2",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Alioune Ndour",
+   "lado": "visitante",
+   "stat": "anota_o_asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 2,
+   "sin_historial": false,
+   "cuota": 3.7,
+   "reg": {
+    "x": 1,
+    "n": 2,
+    "txt": "1 de 2",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Alioune Ndour",
+   "lado": "visitante",
+   "stat": "tarjeta",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 2,
+   "sin_historial": false,
+   "cuota": 13.5,
+   "reg": {
+    "x": 1,
+    "n": 2,
+    "txt": "1 de 2",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Alioune Ndour",
+   "lado": "visitante",
+   "stat": "asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 2,
+   "sin_historial": false,
+   "cuota": 9.0,
+   "reg": {
+    "x": 0,
+    "n": 2,
+    "txt": "0 de 2",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Alioune Ndour",
+   "lado": "visitante",
+   "stat": "remates",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 2,
+   "sin_historial": false,
+   "por_90": 7.35,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 1.39,
+     "reg": {
+      "x": 2,
+      "n": 2,
+      "txt": "2 de 2",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 2.7,
+     "reg": {
+      "x": 2,
+      "n": 2,
+      "txt": "2 de 2",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 6.6,
+     "reg": {
+      "x": 2,
+      "n": 2,
+      "txt": "2 de 2",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 4,
+     "cuota": 14.0,
+     "reg": {
+      "x": 1,
+      "n": 2,
+      "txt": "1 de 2",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 5,
+     "cuota": 21.0,
+     "reg": {
+      "x": 1,
+      "n": 2,
+      "txt": "1 de 2",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
+   "jugador": "Alioune Ndour",
+   "lado": "visitante",
+   "stat": "al_arco",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 2,
+   "sin_historial": false,
+   "por_90": 0.92,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 2.42,
+     "reg": {
+      "x": 1,
+      "n": 2,
+      "txt": "1 de 2",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 8.5,
+     "reg": {
+      "x": 0,
+      "n": 2,
+      "txt": "0 de 2",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 19.5,
+     "reg": {
+      "x": 0,
+      "n": 2,
+      "txt": "0 de 2",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 4,
+     "cuota": 24.0,
+     "reg": {
+      "x": 0,
+      "n": 2,
+      "txt": "0 de 2",
+      "cumple": false
+     },
+     "colchon": null
     }
    ]
   },
@@ -9268,184 +10763,6 @@
    ]
   },
   {
-   "jugador": "Z. Banjaqui",
-   "lado": "visitante",
-   "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "cuota": 5.0,
-   "reg": {
-    "x": 1,
-    "n": 5,
-    "txt": "1 de 5",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Z. Banjaqui",
-   "lado": "visitante",
-   "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "cuota": 4.05,
-   "reg": {
-    "x": 2,
-    "n": 5,
-    "txt": "2 de 5",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Z. Banjaqui",
-   "lado": "visitante",
-   "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "cuota": 11.75,
-   "reg": {
-    "x": 2,
-    "n": 5,
-    "txt": "2 de 5",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Z. Banjaqui",
-   "lado": "visitante",
-   "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "cuota": 8.25,
-   "reg": {
-    "x": 1,
-    "n": 5,
-    "txt": "1 de 5",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Z. Banjaqui",
-   "lado": "visitante",
-   "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "por_90": 3.27,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 1.38,
-     "reg": {
-      "x": 4,
-      "n": 5,
-      "txt": "4 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 2.67,
-     "reg": {
-      "x": 4,
-      "n": 5,
-      "txt": "4 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 6.4,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 4,
-     "cuota": 14.0,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 5,
-     "cuota": 21.0,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
-   "jugador": "Z. Banjaqui",
-   "lado": "visitante",
-   "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "por_90": 2.05,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 2.62,
-     "reg": {
-      "x": 4,
-      "n": 5,
-      "txt": "4 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 9.75,
-     "reg": {
-      "x": 1,
-      "n": 5,
-      "txt": "1 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 21.0,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
    "jugador": "Artur Serobyan",
    "lado": "visitante",
    "stat": "anota",
@@ -9646,120 +10963,131 @@
    ]
   },
   {
-   "jugador": "Armen Ambartsumyan",
+   "jugador": "Z. Banjaqui",
    "lado": "visitante",
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 6,
+   "partidos_muestra": 5,
    "sin_historial": false,
    "cuota": 5.4,
    "reg": {
-    "x": 0,
-    "n": 6,
-    "txt": "0 de 6",
+    "x": 1,
+    "n": 5,
+    "txt": "1 de 5",
     "cumple": false
    }
   },
   {
-   "jugador": "Armen Ambartsumyan",
+   "jugador": "Z. Banjaqui",
    "lado": "visitante",
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 6,
+   "partidos_muestra": 5,
    "sin_historial": false,
-   "cuota": 4.45,
+   "cuota": 4.25,
    "reg": {
-    "x": 0,
-    "n": 6,
-    "txt": "0 de 6",
+    "x": 2,
+    "n": 5,
+    "txt": "2 de 5",
     "cumple": false
    }
   },
   {
-   "jugador": "Armen Ambartsumyan",
+   "jugador": "Z. Banjaqui",
    "lado": "visitante",
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 6,
+   "partidos_muestra": 5,
    "sin_historial": false,
-   "cuota": 10.5,
+   "cuota": 11.75,
    "reg": {
     "x": 2,
-    "n": 6,
-    "txt": "2 de 6",
+    "n": 5,
+    "txt": "2 de 5",
     "cumple": false
    }
   },
   {
-   "jugador": "Armen Ambartsumyan",
+   "jugador": "Z. Banjaqui",
    "lado": "visitante",
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 6,
+   "partidos_muestra": 5,
    "sin_historial": false,
-   "cuota": 9.0,
+   "cuota": 8.25,
    "reg": {
-    "x": 0,
-    "n": 6,
-    "txt": "0 de 6",
+    "x": 1,
+    "n": 5,
+    "txt": "1 de 5",
     "cumple": false
    }
   },
   {
-   "jugador": "Armen Ambartsumyan",
+   "jugador": "Z. Banjaqui",
    "lado": "visitante",
    "stat": "remates",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 6,
+   "partidos_muestra": 5,
    "sin_historial": false,
-   "por_90": 1.01,
+   "por_90": 3.27,
    "esperado": null,
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 1.87,
+     "cuota": 1.38,
      "reg": {
-      "x": 3,
-      "n": 6,
-      "txt": "3 de 6",
+      "x": 4,
+      "n": 5,
+      "txt": "4 de 5",
       "cumple": false
      },
      "colchon": null
     },
     {
      "minimo": 2,
-     "cuota": 5.3,
+     "cuota": 2.67,
      "reg": {
-      "x": 1,
-      "n": 6,
-      "txt": "1 de 6",
+      "x": 4,
+      "n": 5,
+      "txt": "4 de 5",
       "cumple": false
      },
      "colchon": null
     },
     {
      "minimo": 3,
-     "cuota": 14.0,
+     "cuota": 6.4,
      "reg": {
       "x": 0,
-      "n": 6,
-      "txt": "0 de 6",
+      "n": 5,
+      "txt": "0 de 5",
       "cumple": false
      },
      "colchon": null
     },
     {
      "minimo": 4,
-     "cuota": 22.0,
+     "cuota": 14.0,
      "reg": {
       "x": 0,
-      "n": 6,
-      "txt": "0 de 6",
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 5,
+     "cuota": 21.0,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
       "cumple": false
      },
      "colchon": null
@@ -9767,45 +11095,45 @@
    ]
   },
   {
-   "jugador": "Armen Ambartsumyan",
+   "jugador": "Z. Banjaqui",
    "lado": "visitante",
    "stat": "al_arco",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 6,
+   "partidos_muestra": 5,
    "sin_historial": false,
-   "por_90": 0.25,
+   "por_90": 2.05,
    "esperado": null,
    "escalones": [
     {
      "minimo": 1,
-     "cuota": 4.1,
+     "cuota": 2.62,
      "reg": {
-      "x": 1,
-      "n": 6,
-      "txt": "1 de 6",
+      "x": 4,
+      "n": 5,
+      "txt": "4 de 5",
       "cumple": false
      },
      "colchon": null
     },
     {
      "minimo": 2,
-     "cuota": 17.0,
+     "cuota": 9.75,
      "reg": {
-      "x": 0,
-      "n": 6,
-      "txt": "0 de 6",
+      "x": 1,
+      "n": 5,
+      "txt": "1 de 5",
       "cumple": false
      },
      "colchon": null
     },
     {
      "minimo": 3,
-     "cuota": 24.0,
+     "cuota": 21.0,
      "reg": {
       "x": 0,
-      "n": 6,
-      "txt": "0 de 6",
+      "n": 5,
+      "txt": "0 de 5",
       "cumple": false
      },
      "colchon": null
@@ -9987,6 +11315,173 @@
       "cumple": false
      },
      "colchon": -2.1
+    }
+   ]
+  },
+  {
+   "jugador": "Armen Ambartsumyan",
+   "lado": "visitante",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "cuota": 5.8,
+   "reg": {
+    "x": 0,
+    "n": 6,
+    "txt": "0 de 6",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Armen Ambartsumyan",
+   "lado": "visitante",
+   "stat": "anota_o_asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "cuota": 4.7,
+   "reg": {
+    "x": 0,
+    "n": 6,
+    "txt": "0 de 6",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Armen Ambartsumyan",
+   "lado": "visitante",
+   "stat": "tarjeta",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "cuota": 10.5,
+   "reg": {
+    "x": 2,
+    "n": 6,
+    "txt": "2 de 6",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Armen Ambartsumyan",
+   "lado": "visitante",
+   "stat": "asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "cuota": 9.0,
+   "reg": {
+    "x": 0,
+    "n": 6,
+    "txt": "0 de 6",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Armen Ambartsumyan",
+   "lado": "visitante",
+   "stat": "remates",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "por_90": 1.01,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 1.87,
+     "reg": {
+      "x": 3,
+      "n": 6,
+      "txt": "3 de 6",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 5.3,
+     "reg": {
+      "x": 1,
+      "n": 6,
+      "txt": "1 de 6",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 14.0,
+     "reg": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 4,
+     "cuota": 22.0,
+     "reg": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
+   "jugador": "Armen Ambartsumyan",
+   "lado": "visitante",
+   "stat": "al_arco",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 6,
+   "sin_historial": false,
+   "por_90": 0.25,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 4.1,
+     "reg": {
+      "x": 1,
+      "n": 6,
+      "txt": "1 de 6",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 17.0,
+     "reg": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 24.0,
+     "reg": {
+      "x": 0,
+      "n": 6,
+      "txt": "0 de 6",
+      "cumple": false
+     },
+     "colchon": null
     }
    ]
   },
@@ -11189,7 +12684,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 9.25,
+   "cuota": 9.75,
    "reg": {
     "x": 2,
     "n": 10,
@@ -11205,7 +12700,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 7.2,
+   "cuota": 7.6,
    "reg": {
     "x": 2,
     "n": 10,
@@ -12552,28 +14047,6 @@
       "cumple": false
      },
      "colchon": -1.83
-    },
-    {
-     "minimo": 6,
-     "cuota": 4.1,
-     "reg": {
-      "x": 0,
-      "n": 8,
-      "txt": "0 de 8",
-      "cumple": false
-     },
-     "colchon": -2.83
-    },
-    {
-     "minimo": 7,
-     "cuota": 7.0,
-     "reg": {
-      "x": 0,
-      "n": 8,
-      "txt": "0 de 8",
-      "cumple": false
-     },
-     "colchon": -3.83
     }
    ]
   },

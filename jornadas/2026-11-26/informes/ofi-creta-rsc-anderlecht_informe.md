@@ -62,7 +62,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates RSC Anderlecht Menos 16.5 | 1.50 | 64 % | 57 % | Empate (71 %) | Partido abierto (ambos marcan y 3+ goles) (57 %) | Justa |
 | Tiros al arco | Tiros al arco OFI Creta Menos 5.5 | 1.30 | 74 % | 57 % | Favorito gana en partido trabado (89 %) | Sorpresa: gana el no favorito (57 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar RSC Anderlecht Más 1.5 | 1.65 | 57 % | 56 % | Sorpresa: gana el no favorito (61 %) | Expulsión antes del 70′ (55 %) | Cara |
-| Jugadores | Klidman Lilo atajadas 3+ | 1.60 | 62 % | 60 % | Partido abierto (ambos marcan y 3+ goles) (63 %) | Favorito golpea temprano y gana (60 %) | Justa |
+| Jugadores | Leo Petrot anota o asiste | 4.90 | 19 % | 8 % | Partido abierto (ambos marcan y 3+ goles) (29 %) | Empate (8 %) | Cara |
 | Quién saca más | Más tarjetas: empate | 4.25 | 22 % | 23 % | Partido abierto (ambos marcan y 3+ goles) (24 %) | Expulsión antes del 70′ (12 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
@@ -99,13 +99,10 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Klidman Lilo atajadas 6+ | 7.70 | 17 % | 12 % | 17 % | +0 pts | +30 % | 15 % | -0.4 | 6.74 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
-| Klidman Lilo atajadas 5+ | 4.25 | 28 % | 21 % | 28 % | +0 pts | +18 % | 26 % | -0.0 | 3.89 | Empate | Valor frágil (depende de un guion) |
 | Córners 1.er tiempo Menos 4.0 | 2.80 | 41 % | 39 % | 41 % | +0 pts | +16 % | 34 % | -0.2 | 2.54 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 19 % |
 | Córners 1.er tiempo Menos 5.0 | 1.85 | 62 % | 59 % | 62 % | +0 pts | +14 % | 51 % | +0.3 | 1.67 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 17 % |
 | Córners 1.er tiempo Menos 6.0 | 1.40 | 78 % | 75 % | 78 % | +0 pts | +9 % | 68 % | +0.8 | 1.32 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 12 % |
 | Córners 1.er tiempo Más 3.0 | 1.40 | 76 % | 77 % | 76 % | +0 pts | +7 % | 61 % | +0.7 | 1.35 | Favorito golpea temprano y gana | Alta probabilidad · Valor · asiática: devuelve 18 % |
-| Klidman Lilo atajadas 4+ | 2.45 | 44 % | 36 % | 44 % | +0 pts | +7 % | 42 % | +0.4 | 2.41 | Favorito golpea temprano y gana | Valor |
 | Córners 1.er tiempo Más 4.0 | 1.88 | 57 % | 59 % | 57 % | +0 pts | +6 % | 44 % | +0.2 | 1.83 | Favorito gana en partido trabado | Valor · asiática: devuelve 19 % |
 | Córners Menos 10.0 | 1.87 | 56 % | 56 % | 56 % | +0 pts | +6 % | 47 % | +0.1 | 1.84 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 11 % |
 | Córners Menos 9.0 | 2.45 | 43 % | 43 % | 43 % | +0 pts | +5 % | 35 % | -0.2 | 2.44 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 13 % |
@@ -116,7 +113,7 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Córners 1.er tiempo Más 2.0 | 1.16 | 90 % | 89 % | 90 % | +0 pts | +4 % | 78 % | +1.1 | 1.15 | Favorito gana en partido trabado | Alta probabilidad · Valor · asiática: devuelve 12 % |
 | Córners Menos 11.0 | 1.52 | 68 % | 68 % | 68 % | +0 pts | +4 % | 58 % | +0.4 | 1.51 | Sorpresa: gana el no favorito | Alta probabilidad · Valor · asiática: devuelve 10 % |
 
-Kelly ¼ (dato informativo, no una orden de stake): Klidman Lilo atajadas 6+ 1.1 % de la banca; Klidman Lilo atajadas 5+ 1.4 % de la banca; Córners 1.er tiempo Menos 4.0 2.2 % de la banca; Córners 1.er tiempo Menos 5.0 4.3 % de la banca; Córners 1.er tiempo Menos 6.0 5.8 % de la banca; Córners 1.er tiempo Más 3.0 4.2 % de la banca; Klidman Lilo atajadas 4+ 1.2 % de la banca; Córners 1.er tiempo Más 4.0 1.8 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+Kelly ¼ (dato informativo, no una orden de stake): Córners 1.er tiempo Menos 4.0 2.2 % de la banca; Córners 1.er tiempo Menos 5.0 4.3 % de la banca; Córners 1.er tiempo Menos 6.0 5.8 % de la banca; Córners 1.er tiempo Más 3.0 4.2 % de la banca; Córners 1.er tiempo Más 4.0 1.8 % de la banca; Córners Menos 10.0 1.6 % de la banca; Córners Menos 9.0 0.9 % de la banca; Córners Más 9.0 1.5 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
 
 ## Sistemas de tipsters que este partido cumple (solo para medir, no para decidir)
 | Sistema | Regla | Selección que propone | Historial con cuotas reales |
@@ -126,14 +123,14 @@ Kelly ¼ (dato informativo, no una orden de stake): Klidman Lilo atajadas 6+ 1.1
 ## Builders del mismo guion
 | Patas | Prob. ajustada | Prob. simulación | Si una pata está 5 pts peor | Cuota justa | Cuota mínima en Betano | Correlación | Margen acumulado | Guion común | Robustez |
 |---|---|---|---|---|---|---|---|---|---|
+| Hándicap RSC Anderlecht +2 + RSC Anderlecht o empate + Tiros al arco OFI Creta Menos 5.5 | 61 % | 62 % | 57 % | 1.63 | 1.68 | 1.14 | 7 % | Favorito gana en partido trabado | 0 % |
+| RSC Anderlecht o empate + Goles OFI Creta Menos 2.5 + Tiros al arco OFI Creta Menos 5.5 | 61 % | 61 % | 56 % | 1.65 | 1.70 | 1.15 | 7 % | Favorito gana en partido trabado | 0 % |
 | Ambos 1+ tarjetas: Sí + Goles RSC Anderlecht Menos 3.5 + Tarjetas RSC Anderlecht Más 1.5 | 62 % | 64 % | 58 % | 1.60 | 1.65 | 1.11 | 8 % | Expulsión antes del 70′ | 52 % |
 | Ambos 1+ tarjetas: Sí + Córners Más 5.5 + Tarjetas RSC Anderlecht Más 1.5 | 62 % | 63 % | 58 % | 1.61 | 1.66 | 1.09 | 8 % | Expulsión antes del 70′ | 54 % |
-| Goles 2.º tiempo Menos 2.5 + Hándicap RSC Anderlecht +2 + RSC Anderlecht o empate | 61 % | 63 % | 57 % | 1.64 | 1.69 | 1.07 | 6 % | Empate | 0 % |
-| Hándicap RSC Anderlecht +2 + RSC Anderlecht o empate + Tarjetas OFI Creta Más 1.5 | 60 % | 62 % | 56 % | 1.67 | 1.72 | 1.07 | 7 % | Empate | 0 % |
+| Hándicap RSC Anderlecht +2 + Tarjetas 1.er tiempo Menos 2.5 + Goles Más 0.5 | 62 % | 65 % | 58 % | 1.60 | 1.65 | 1.0 | 6 % | Favorito golpea temprano y gana | 49 % |
 | Tarjetas 1.er tiempo Menos 2.5 + Goles Más 0.5 + Córners RSC Anderlecht Menos 9.5 | 62 % | 63 % | 58 % | 1.61 | 1.65 | 1.0 | 6 % | Favorito golpea temprano y gana | 47 % |
-| Córners 1.er tiempo Menos 8.5 + Tarjetas 1.er tiempo Menos 2.5 + Goles OFI Creta Menos 2.5 | 62 % | 64 % | 58 % | 1.61 | 1.66 | 1.0 | 7 % | Favorito golpea temprano y gana | 48 % |
-| Klidman Lilo atajadas 3+ + Córners 2.º tiempo Más 1.5 | 60 % | 74 % | 55 % | 1.67 | 1.72 | 1.0 | 12 % | Partido abierto (ambos marcan y 3+ goles) | 57 % |
-| Klidman Lilo atajadas 3+ + Goles 1.er tiempo Menos 3.5 | 60 % | 74 % | 55 % | 1.67 | 1.72 | 1.0 | 12 % | Favorito gana en partido trabado | 58 % |
+| Goles 2.º tiempo Menos 2.5 + Tarjetas OFI Creta Más 1.5 | 60 % | 62 % | 56 % | 1.68 | 1.73 | 1.0 | 6 % | Empate | 43 % |
+| Goles 2.º tiempo Menos 2.5 + Córners 2.º tiempo Más 1.5 + Tarjetas OFI Creta Más 1.5 | 57 % | 59 % | 54 % | 1.75 | 1.80 | 1.0 | 7 % | Empate | 41 % |
 
 Prob. ajustada: la conjunta de la simulación llevando cada pata a su probabilidad de decisión y corrigiendo la dependencia entre patas que se midió con 62 000 partidos (p. ej. «gana el favorito + sus córners Más» se estorban más de lo que creía el simulador). Margen acumulado: lo que la casa cobra por pata, multiplicado.
 

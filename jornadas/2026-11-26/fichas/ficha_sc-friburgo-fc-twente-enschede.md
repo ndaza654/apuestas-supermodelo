@@ -1,5 +1,5 @@
 # Ficha — SC Friburgo - FC Twente Enschede
-UEFA Conference League Conference League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T13:59:24.096Z · 370 mercados
+UEFA Conference League Conference League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T19:55:42.592Z · 370 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -289,7 +289,17 @@ Muestra: local 10, visitante 10, directos 0.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
+- Igor Matanovic — al_arco: 1+ @1.24 · col +0.8 · 7 de 10 (titular 0.90)
+- Maximilian Eggestein — remates: 1+ @1.24 · col +0.7 · 8 de 10 (titular 0.90)
+- Daan Rots — remates: 1+ @1.12 · col +1.9 · 9 de 10 (titular 0.90)
+- Daouda Weidmann — remates: 2+ @1.42 · col +2.2 · 8 de 9 (titular 0.90)
+- Daouda Weidmann — al_arco: 1+ @1.53 · col +1.1 · 9 de 9 (titular 0.90)
+- Ramiz Zerrouki — remates: 1+ @1.5 · col +1.1 · 7 de 10 (titular 0.90)
+- Robin Propper — remates: 1+ @1.62 · col +0.8 · 7 de 10 (titular 0.90)
+- Wout Weghorst — remates: 2+ @1.4 · col +1.9 · 10 de 10 (titular 0.90)
+- Wout Weghorst — al_arco: 1+ @1.38 · col +0.9 · 9 de 10 (titular 0.90)
+- Younes Taha — remates: 1+ @1.12 · col +2.0 · 9 de 10 (titular 0.50)
+- Younes Taha — remates: 2+ @1.65 · col +1.0 · 7 de 10 (titular 0.50)
 
 ## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
 

@@ -1,7 +1,7 @@
 # SC Braga - Kuopio PS
 UEFA Conference League Conference League · 2026-11-26 15:00
 
-**Tipo de partido:** Favorito claro · abierto · normal · **Favorito:** SC Braga · primer gol: local 86 %, visitante 11 %, nadie 3 % · gol del favorito antes del 35′: 64 %
+**Tipo de partido:** Favorito claro · abierto · normal · **Favorito:** SC Braga · primer gol: local 86 %, visitante 12 %, nadie 2 % · gol del favorito antes del 35′: 64 %
 
 ## Enfoque de mercados (qué mercados le quedan bien al contexto)
 Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de SC Braga, Goles de SC Braga (Más), Remates / tiros al arco de SC Braga, Córners de SC Braga (Más) / Más córners: SC Braga, Tarjetas (Menos), Faltas (Menos). Poco favorecidos: Ambos marcan.
@@ -24,8 +24,8 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 ## Guiones del partido (solo para medir qué línea aguanta; el enfoque de arriba es lo que orienta)
 | Guion | Probabilidad |
 |---|---|
-| Favorito golpea temprano y gana | 38 % |
-| Partido abierto (ambos marcan y 3+ goles) | 29 % |
+| Favorito golpea temprano y gana | 36 % |
+| Partido abierto (ambos marcan y 3+ goles) | 31 % |
 | Favorito gana en partido trabado | 16 % |
 | Expulsión antes del 70′ | 9 % |
 | Empate | 6 % |
@@ -38,37 +38,37 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 ## Medias esperadas (con contexto)
 | | Goles | Remates | Al arco | Córners | Faltas | Tarjetas |
 |---|---|---|---|---|---|---|
-| local | 2.98 | 23.4 | 8.2 | 6.7 | 12.3 | 1.4 |
-| visitante | 0.50 | 7.7 | 2.6 | 2.5 | 10.7 | 2.0 |
+| local | 2.99 | 23.4 | 8.2 | 6.7 | 12.3 | 1.4 |
+| visitante | 0.51 | 7.7 | 2.6 | 2.5 | 10.7 | 2.0 |
 
 ## Media esperada por mercado (modelo con contexto; entre paréntesis lo que espera Betano; rango del 80 % de los partidos simulados)
 | Mercado | Total | Local | Visitante | 1.er tiempo | 2.º tiempo |
 |---|---|---|---|---|---|
 | Goles | 3.5 (3.5) · 1–6 | 3.0 (3.0) · 1–5 | 0.5 (0.5) · 0–1 | 1.7 (1.5) · 0–3 | 1.8 (2.0) · 0–4 |
-| Córners | 9.3 (9.2) · 5–14 | 6.8 (6.7) · 3–11 | 2.5 (2.5) · 1–5 | 4.4 (4.6) · 2–7 | 4.9 (4.7) · 2–8 |
+| Córners | 9.2 (9.1) · 5–14 | 6.8 (6.7) · 3–11 | 2.5 (2.5) · 0–5 | 4.3 (4.5) · 2–7 | 4.9 (4.7) · 2–8 |
 | Tarjetas (amarilla 1, roja 2) | 3.4 (3.3) · 1–6 | 1.4 (1.4) · 0–3 | 2.0 (2.0) · 0–4 | 1.2 (1.1) · 0–3 | 2.1 · 0–4 |
-| Remates | 31.1 (31.0) · 23–40 | 23.4 (23.4) · 16–32 | 7.6 (7.7) · 4–12 | 14.6 · 9–20 | 16.5 · 11–22 |
-| Tiros al arco | 10.8 (10.8) · 7–15 | 8.2 (8.2) · 4–13 | 2.6 (2.6) · 1–5 | 5.1 (5.0) · 2–8 | 5.7 · 3–9 |
+| Remates | 31.2 (31.0) · 23–40 | 23.5 (23.4) · 16–32 | 7.6 (7.7) · 4–12 | 14.6 · 9–20 | 16.5 · 11–23 |
+| Tiros al arco | 10.8 (10.8) · 7–15 | 8.3 (8.2) · 4–13 | 2.6 (2.6) · 1–5 | 5.1 (5.0) · 2–8 | 5.7 · 3–9 |
 | Faltas | 23.1 (23.0) · 17–29 | 12.3 (12.3) · 8–17 | 10.8 (10.7) · 7–15 | 10.4 · 6–15 | 12.7 · 8–17 |
-| Fueras de lugar | 3.1 (3.0) · 1–6 | 1.9 (1.9) · 0–4 | 1.2 (1.2) · 0–3 | 1.4 (1.6) · 0–3 | 1.7 · 0–4 |
-| Saques de meta | 16.0 · 10–23 | 8.0 · 4–13 | 8.0 · 4–13 | 7.2 · 3–11 | 8.8 · 5–13 |
-| Saques de banda | 40.0 · 29–52 | 20.0 · 12–28 | 20.0 · 12–28 | 17.9 · 12–25 | 22.2 · 15–30 |
-| Atajadas del portero | — | 2.1 · 0–4 | 5.2 · 2–9 | — | — |
+| Fueras de lugar | 3.1 (3.0) · 1–6 | 1.9 (1.9) · 0–4 | 1.2 (1.2) · 0–3 | 1.4 (1.6) · 0–3 | 1.7 · 0–3 |
+| Saques de meta | 16.0 · 10–23 | 8.1 · 4–13 | 8.0 · 4–13 | 7.2 · 3–11 | 8.8 · 5–14 |
+| Saques de banda | 40.0 · 29–52 | 19.9 · 12–28 | 20.0 · 13–28 | 17.9 · 12–25 | 22.1 · 15–30 |
+| Atajadas del portero | — | 2.0 · 0–4 | 5.3 · 2–9 | — | — |
 
 ## Lectura por mercado (la línea que mejor encaja con este partido en cada mercado)
 | Mercado | Línea | Cuota | Prob. | Robustez | Brilla si… | La mata si… | Etiqueta |
 |---|---|---|---|---|---|---|---|
-| Goles | Goles 1.er tiempo Más 0.5 | 1.25 | 80 % | (lo define el marcador) | Favorito golpea temprano y gana (100 %) | Favorito gana en partido trabado (34 %) | Alta probabilidad · ★ enfoque a favor |
-| Ambos marcan | Ambos marcan: No | 1.55 | 62 % | (lo define el marcador) | Favorito golpea temprano y gana (100 %) | Partido abierto (ambos marcan y 3+ goles) (0 %) | Justa |
+| Goles | Goles 1.er tiempo Más 0.5 | 1.25 | 80 % | (lo define el marcador) | Favorito golpea temprano y gana (100 %) | Favorito gana en partido trabado (36 %) | Alta probabilidad · ★ enfoque a favor |
+| Ambos marcan | Ambos marcan: No | 1.55 | 61 % | (lo define el marcador) | Favorito golpea temprano y gana (100 %) | Partido abierto (ambos marcan y 3+ goles) (0 %) | Cara |
 | Resultado y hándicap | Hándicap Kuopio PS +4 | 1.33 | 74 % | (lo define el marcador) | Sorpresa: gana el no favorito (100 %) | Favorito golpea temprano y gana (57 %) | Alta probabilidad · ★ enfoque a favor |
-| Córners | Córners 1.er tiempo Menos 6.0 | 1.37 | 79 % | 69 % | Expulsión antes del 70′ (72 %) | Favorito gana en partido trabado (69 %) | Alta probabilidad · Valor · asiática: devuelve 11 % |
+| Córners | Córners 1.er tiempo Menos 6.0 | 1.37 | 79 % | 69 % | Expulsión antes del 70′ (72 %) | Sorpresa: gana el no favorito (69 %) | Alta probabilidad · Valor · asiática: devuelve 11 % |
 | Tarjetas | Tarjetas Menos 4.5 | 1.29 | 74 % | 75 % | Favorito golpea temprano y gana (83 %) | Expulsión antes del 70′ (32 %) | Alta probabilidad · ★ enfoque a favor |
-| Faltas | Faltas SC Braga Menos 12.5 | 1.75 | 54 % | 53 % | Sorpresa: gana el no favorito (58 %) | Expulsión antes del 70′ (52 %) | Cara · ★ enfoque a favor |
-| Remates | Remates Kuopio PS Menos 8.5 | 1.47 | 65 % | 54 % | Favorito gana en partido trabado (73 %) | Partido abierto (ambos marcan y 3+ goles) (54 %) | Cara |
-| Tiros al arco | Tiros al arco SC Braga Menos 9.5 | 1.39 | 69 % | 64 % | Empate (93 %) | Partido abierto (ambos marcan y 3+ goles) (64 %) | Alta probabilidad |
-| Fueras de lugar | Fueras de lugar Kuopio PS Más 0.5 | 1.42 | 67 % | 66 % | Favorito golpea temprano y gana (69 %) | Empate (63 %) | Alta probabilidad |
-| Jugadores | Gustaf Lagerbielke anota o asiste | 5.00 | 19 % | 14 % | Partido abierto (ambos marcan y 3+ goles) (22 %) | Sorpresa: gana el no favorito (3 %) | Cara |
-| Quién saca más | Más tarjetas: Kuopio PS | 1.83 | 52 % | 49 % | Expulsión antes del 70′ (59 %) | Favorito golpea temprano y gana (49 %) | Cara |
+| Faltas | Faltas SC Braga Menos 12.5 | 1.75 | 54 % | 53 % | Sorpresa: gana el no favorito (59 %) | Expulsión antes del 70′ (52 %) | Cara · ★ enfoque a favor |
+| Remates | Remates Kuopio PS Menos 8.5 | 1.47 | 65 % | 54 % | Favorito gana en partido trabado (75 %) | Partido abierto (ambos marcan y 3+ goles) (54 %) | Cara |
+| Tiros al arco | Tiros al arco Kuopio PS Menos 3.5 | 1.31 | 74 % | 58 % | Favorito gana en partido trabado (84 %) | Sorpresa: gana el no favorito (44 %) | Alta probabilidad |
+| Fueras de lugar | Fueras de lugar Kuopio PS Más 0.5 | 1.42 | 67 % | 65 % | Favorito golpea temprano y gana (69 %) | Sorpresa: gana el no favorito (63 %) | Alta probabilidad |
+| Jugadores | Gustaf Lagerbielke anota o asiste | 5.00 | 19 % | 14 % | Partido abierto (ambos marcan y 3+ goles) (23 %) | Sorpresa: gana el no favorito (4 %) | Cara |
+| Quién saca más | Más tarjetas: Kuopio PS | 1.83 | 52 % | 49 % | Expulsión antes del 70′ (58 %) | Favorito golpea temprano y gana (49 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 
@@ -76,48 +76,49 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Goles 1.er tiempo Más 0.5 | 1.25 | 80 % | 78 % | 80 % | +0 pts | -0 % | 80 % | +0.9 | 1.29 | Favorito gana en partido trabado | Alta probabilidad · ★ enfoque a favor |
-| Córners 1.er tiempo Menos 6.0 | 1.37 | 79 % | 77 % | 79 % | +0 pts | +8 % | 69 % | +0.7 | 1.31 | Favorito gana en partido trabado | Alta probabilidad · Valor · asiática: devuelve 11 % |
+| Córners 1.er tiempo Menos 6.0 | 1.37 | 79 % | 77 % | 79 % | +0 pts | +8 % | 69 % | +0.8 | 1.30 | Sorpresa: gana el no favorito | Alta probabilidad · Valor · asiática: devuelve 11 % |
+| Córners Kuopio PS Menos 3.5 | 1.26 | 76 % | 77 % | 76 % | +0 pts | -4 % | 74 % | +0.6 | 1.35 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
 | Goles 1.er tiempo Más 0.75 | 1.33 | 76 % | 74 % | 76 % | +0 pts | +1 % | 76 % | +0.7 | 1.36 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 16 % · ★ enfoque a favor |
-| Córners Kuopio PS Menos 3.5 | 1.27 | 76 % | 76 % | 76 % | +0 pts | -4 % | 73 % | +0.6 | 1.36 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Córners Más 7.0 | 1.38 | 75 % | 75 % | 75 % | +0 pts | +4 % | 64 % | +0.7 | 1.36 | Favorito golpea temprano y gana | Alta probabilidad · Valor · asiática: devuelve 11 % |
-| Córners SC Braga Menos 8.5 | 1.26 | 75 % | 77 % | 75 % | +0 pts | -5 % | 72 % | +0.6 | 1.37 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
-| Córners 1.er tiempo Más 3.0 | 1.44 | 75 % | 75 % | 75 % | +0 pts | +8 % | 61 % | +0.6 | 1.38 | Expulsión antes del 70′ | Alta probabilidad · Valor · asiática: devuelve 17 % |
+| Córners SC Braga Menos 8.5 | 1.25 | 76 % | 78 % | 76 % | +0 pts | -5 % | 72 % | +0.6 | 1.36 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
+| Córners Más 7.0 | 1.39 | 75 % | 75 % | 75 % | +0 pts | +4 % | 64 % | +0.7 | 1.37 | Expulsión antes del 70′ | Alta probabilidad · Valor · asiática: devuelve 11 % |
 | Tarjetas SC Braga Más 0.5 | 1.30 | 74 % | 74 % | 74 % | +0 pts | -3 % | 70 % | +0.7 | 1.38 | Favorito golpea temprano y gana | Alta probabilidad |
 | Tarjetas Menos 4.5 | 1.29 | 74 % | 75 % | 74 % | +0 pts | -4 % | 75 % | +0.6 | 1.39 | Expulsión antes del 70′ | Alta probabilidad · ★ enfoque a favor |
-| Hándicap Kuopio PS +4 | 1.33 | 74 % | 73 % | 74 % | +0 pts | -2 % | 74 % | — | 1.40 | Favorito golpea temprano y gana | Alta probabilidad · ★ enfoque a favor |
-| Córners Menos 11.0 | 1.39 | 73 % | 74 % | 73 % | +0 pts | +2 % | 64 % | +0.5 | 1.40 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 9 % |
-| Tiros al arco Kuopio PS Menos 3.5 | 1.31 | 73 % | 74 % | 73 % | +0 pts | -4 % | 57 % | +0.5 | 1.40 | Sorpresa: gana el no favorito | Alta probabilidad |
-| Goles Menos 4.5 | 1.34 | 73 % | 73 % | 73 % | +0 pts | -2 % | 73 % | +0.6 | 1.40 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Ambos 2+ tarjetas: No | 1.32 | 73 % | 73 % | 73 % | +0 pts | -4 % | 71 % | — | 1.42 | Expulsión antes del 70′ | Alta probabilidad |
-| Tiros al arco Kuopio PS Más 1.5 | 1.32 | 72 % | 73 % | 72 % | +0 pts | -5 % | 60 % | +0.6 | 1.43 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
-| 2.º tiempo: SC Braga | 1.32 | 72 % | 73 % | 72 % | +0 pts | -6 % | 72 % | — | 1.44 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
-| Córners 1.er tiempo Menos 5.5 | 1.37 | 71 % | 70 % | 71 % | +0 pts | -2 % | 70 % | +0.5 | 1.45 | Favorito gana en partido trabado | Alta probabilidad |
-| Goles 2.º tiempo Menos 2.5 | 1.42 | 70 % | 68 % | 70 % | +0 pts | -0 % | 70 % | +0.5 | 1.46 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Córners Kuopio PS Más 1.5 | 1.36 | 70 % | 71 % | 70 % | +0 pts | -5 % | 68 % | +0.6 | 1.47 | Sorpresa: gana el no favorito | Alta probabilidad |
-| Hándicap SC Braga -1.5 | 1.42 | 70 % | 69 % | 70 % | +0 pts | -1 % | 70 % | — | 1.48 | Sorpresa: gana el no favorito | Alta probabilidad · ★ enfoque a favor |
-| Córners 2.º tiempo Más 3.5 | 1.40 | 70 % | 69 % | 70 % | +0 pts | -3 % | 67 % | +0.6 | 1.48 | Expulsión antes del 70′ | Alta probabilidad |
-| Goles 1.er tiempo Más 1.0 | 1.45 | 70 % | 67 % | 70 % | +0 pts | +1 % | 70 % | +0.5 | 1.48 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 32 % · ★ enfoque a favor |
-| Hándicap SC Braga -1 | 1.42 | 69 % | 68 % | 69 % | +0 pts | -1 % | 69 % | — | 1.48 | Sorpresa: gana el no favorito | Alta probabilidad · ★ enfoque a favor |
-| Tiros al arco SC Braga Menos 9.5 | 1.39 | 69 % | 69 % | 69 % | +0 pts | -4 % | 64 % | +0.4 | 1.49 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Tarjetas Kuopio PS Menos 2.5 | 1.39 | 69 % | 69 % | 69 % | +0 pts | -4 % | 70 % | +0.3 | 1.49 | Expulsión antes del 70′ | Alta probabilidad · ★ enfoque a favor |
+| Córners 1.er tiempo Más 3.0 | 1.44 | 74 % | 75 % | 74 % | +0 pts | +7 % | 61 % | +0.6 | 1.39 | Empate | Alta probabilidad · Valor · asiática: devuelve 17 % |
+| Córners Menos 11.0 | 1.39 | 74 % | 74 % | 74 % | +0 pts | +3 % | 65 % | +0.5 | 1.39 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 9 % |
+| Hándicap Kuopio PS +4 | 1.33 | 74 % | 73 % | 74 % | +0 pts | -2 % | 74 % | — | 1.39 | Favorito golpea temprano y gana | Alta probabilidad · ★ enfoque a favor |
+| Tiros al arco Kuopio PS Menos 3.5 | 1.31 | 74 % | 74 % | 74 % | +0 pts | -4 % | 58 % | +0.5 | 1.40 | Sorpresa: gana el no favorito | Alta probabilidad |
+| Goles Menos 4.5 | 1.34 | 73 % | 73 % | 73 % | +0 pts | -2 % | 73 % | +0.6 | 1.41 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Ambos 2+ tarjetas: No | 1.32 | 73 % | 73 % | 73 % | +0 pts | -4 % | 73 % | — | 1.41 | Expulsión antes del 70′ | Alta probabilidad |
+| Tiros al arco Kuopio PS Más 1.5 | 1.32 | 72 % | 73 % | 72 % | +0 pts | -5 % | 58 % | +0.6 | 1.44 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
+| Córners 1.er tiempo Menos 5.5 | 1.37 | 71 % | 70 % | 71 % | +0 pts | -2 % | 70 % | +0.5 | 1.44 | Sorpresa: gana el no favorito | Alta probabilidad |
+| 2.º tiempo: SC Braga | 1.32 | 71 % | 73 % | 71 % | +0 pts | -6 % | 71 % | — | 1.45 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
+| Johannes Kreidl atajadas 4+ | 1.26 | 71 % | 71 % | 71 % | +0 pts | -10 % | 71 % | +0.6 | 1.45 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| Goles 2.º tiempo Menos 2.5 | 1.42 | 70 % | 68 % | 70 % | +0 pts | -0 % | 70 % | +0.5 | 1.47 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Goles 1.er tiempo Más 1.0 | 1.45 | 70 % | 68 % | 70 % | +0 pts | +1 % | 70 % | +0.5 | 1.47 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 31 % · ★ enfoque a favor |
+| Hándicap SC Braga -1 | 1.42 | 69 % | 68 % | 69 % | +0 pts | -2 % | 69 % | — | 1.49 | Sorpresa: gana el no favorito | Alta probabilidad · ★ enfoque a favor |
+| Córners 2.º tiempo Más 3.5 | 1.40 | 69 % | 69 % | 69 % | +0 pts | -3 % | 66 % | +0.6 | 1.49 | Favorito golpea temprano y gana | Alta probabilidad |
+| Hándicap SC Braga -1.5 | 1.44 | 69 % | 68 % | 69 % | +0 pts | -1 % | 69 % | — | 1.49 | Sorpresa: gana el no favorito | Alta probabilidad · ★ enfoque a favor |
+| Jonas Wind remates 3+ | 1.25 | 69 % | 71 % | 69 % | +0 pts | -14 % | 68 % | — | 1.49 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| Tarjetas Kuopio PS Menos 2.5 | 1.39 | 69 % | 69 % | 69 % | +0 pts | -4 % | 68 % | +0.3 | 1.50 | Expulsión antes del 70′ | Alta probabilidad · ★ enfoque a favor |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Córners 1.er tiempo Menos 4.0 | 2.67 | 43 % | 41 % | 43 % | +0 pts | +15 % | 34 % | -0.2 | 2.44 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 18 % |
-| Córners 1.er tiempo Menos 5.0 | 1.78 | 63 % | 61 % | 63 % | +0 pts | +12 % | 53 % | +0.3 | 1.63 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 16 % |
-| Córners 1.er tiempo Menos 3.0 | 4.70 | 24 % | 23 % | 24 % | +0 pts | +11 % | 19 % | -0.6 | 4.63 | Empate | Valor frágil (depende de un guion) · asiática: devuelve 17 % |
-| Córners 1.er tiempo Menos 6.0 | 1.37 | 79 % | 77 % | 79 % | +0 pts | +8 % | 69 % | +0.7 | 1.31 | Favorito gana en partido trabado | Alta probabilidad · Valor · asiática: devuelve 11 % |
-| Córners 1.er tiempo Más 3.0 | 1.44 | 75 % | 75 % | 75 % | +0 pts | +8 % | 61 % | +0.6 | 1.38 | Expulsión antes del 70′ | Alta probabilidad · Valor · asiática: devuelve 17 % |
-| Córners 1.er tiempo Más 4.0 | 1.95 | 55 % | 57 % | 55 % | +0 pts | +7 % | 44 % | +0.2 | 1.89 | Expulsión antes del 70′ | Valor · asiática: devuelve 18 % |
-| Córners Más 9.0 | 2.12 | 50 % | 50 % | 50 % | +0 pts | +5 % | 40 % | +0.1 | 2.09 | Favorito golpea temprano y gana | Valor · asiática: devuelve 12 % |
-| Córners Más 8.0 | 1.67 | 63 % | 63 % | 63 % | +0 pts | +5 % | 52 % | +0.4 | 1.64 | Favorito golpea temprano y gana | Valor · asiática: devuelve 12 % |
-| Córners Menos 9.0 | 2.12 | 50 % | 50 % | 50 % | +0 pts | +5 % | 41 % | -0.1 | 2.10 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 12 % |
-| Córners Menos 10.0 | 1.67 | 62 % | 62 % | 62 % | +0 pts | +4 % | 53 % | +0.2 | 1.66 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 11 % |
-| Córners Más 7.0 | 1.38 | 75 % | 75 % | 75 % | +0 pts | +4 % | 64 % | +0.7 | 1.36 | Favorito golpea temprano y gana | Alta probabilidad · Valor · asiática: devuelve 11 % |
-| Córners 1.er tiempo Más 2.0 | 1.17 | 89 % | 88 % | 89 % | +0 pts | +4 % | 77 % | +1.1 | 1.16 | Expulsión antes del 70′ | Alta probabilidad · Valor · asiática: devuelve 12 % |
+| Córners 1.er tiempo Menos 4.0 | 2.65 | 44 % | 42 % | 44 % | +0 pts | +15 % | 35 % | -0.1 | 2.41 | Favorito gana en partido trabado | Valor · asiática: devuelve 18 % |
+| Córners 1.er tiempo Menos 5.0 | 1.78 | 64 % | 61 % | 64 % | +0 pts | +13 % | 53 % | +0.3 | 1.63 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 16 % |
+| Córners 1.er tiempo Menos 3.0 | 4.65 | 24 % | 23 % | 24 % | +0 pts | +12 % | 19 % | -0.6 | 4.53 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · asiática: devuelve 17 % |
+| Córners 1.er tiempo Menos 6.0 | 1.37 | 79 % | 77 % | 79 % | +0 pts | +8 % | 69 % | +0.8 | 1.30 | Sorpresa: gana el no favorito | Alta probabilidad · Valor · asiática: devuelve 11 % |
+| Córners 1.er tiempo Más 4.0 | 1.98 | 54 % | 56 % | 54 % | +0 pts | +8 % | 44 % | +0.1 | 1.91 | Expulsión antes del 70′ | Valor · asiática: devuelve 18 % |
+| Córners 1.er tiempo Más 3.0 | 1.44 | 74 % | 75 % | 74 % | +0 pts | +7 % | 61 % | +0.6 | 1.39 | Empate | Alta probabilidad · Valor · asiática: devuelve 17 % |
+| Córners Menos 9.0 | 2.10 | 50 % | 50 % | 50 % | +0 pts | +6 % | 42 % | -0.1 | 2.07 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 12 % |
+| Córners Más 9.0 | 2.15 | 49 % | 49 % | 49 % | +0 pts | +5 % | 40 % | +0.1 | 2.13 | Favorito golpea temprano y gana | Valor · asiática: devuelve 12 % |
+| Córners Más 8.0 | 1.67 | 63 % | 63 % | 63 % | +0 pts | +5 % | 52 % | +0.4 | 1.65 | Favorito golpea temprano y gana | Valor · asiática: devuelve 12 % |
+| Córners Menos 10.0 | 1.65 | 63 % | 63 % | 63 % | +0 pts | +4 % | 54 % | +0.2 | 1.63 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 11 % |
+| Córners Más 7.0 | 1.39 | 75 % | 75 % | 75 % | +0 pts | +4 % | 64 % | +0.7 | 1.37 | Expulsión antes del 70′ | Alta probabilidad · Valor · asiática: devuelve 11 % |
+| Córners 1.er tiempo Más 2.0 | 1.17 | 89 % | 88 % | 89 % | +0 pts | +4 % | 77 % | +1.1 | 1.16 | Expulsión antes del 70′ | Alta probabilidad · Valor · asiática: devuelve 13 % |
+| Córners 1.er tiempo Menos 7.0 | 1.17 | 88 % | 86 % | 88 % | +0 pts | +3 % | 81 % | +1.2 | 1.17 | Favorito gana en partido trabado | Alta probabilidad · Valor · asiática: devuelve 7 % |
 
-Kelly ¼ (dato informativo, no una orden de stake): Córners 1.er tiempo Menos 4.0 2.2 % de la banca; Córners 1.er tiempo Menos 5.0 4.0 % de la banca; Córners 1.er tiempo Menos 3.0 0.7 % de la banca; Córners 1.er tiempo Menos 6.0 5.2 % de la banca; Córners 1.er tiempo Más 3.0 4.4 % de la banca; Córners 1.er tiempo Más 4.0 1.9 % de la banca; Córners Más 9.0 1.2 % de la banca; Córners Más 8.0 2.0 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+Kelly ¼ (dato informativo, no una orden de stake): Córners 1.er tiempo Menos 4.0 2.3 % de la banca; Córners 1.er tiempo Menos 5.0 4.2 % de la banca; Córners 1.er tiempo Menos 3.0 0.8 % de la banca; Córners 1.er tiempo Menos 6.0 5.5 % de la banca; Córners 1.er tiempo Más 4.0 1.9 % de la banca; Córners 1.er tiempo Más 3.0 4.0 % de la banca; Córners Menos 9.0 1.3 % de la banca; Córners Más 9.0 1.1 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
 
 ## Sistemas de tipsters que este partido cumple (solo para medir, no para decidir)
 | Sistema | Regla | Selección que propone | Historial con cuotas reales |
@@ -130,14 +131,14 @@ Kelly ¼ (dato informativo, no una orden de stake): Córners 1.er tiempo Menos 4
 ## Builders del mismo guion
 | Patas | Prob. ajustada | Prob. simulación | Si una pata está 5 pts peor | Cuota justa | Cuota mínima en Betano | Correlación | Margen acumulado | Guion común | Robustez |
 |---|---|---|---|---|---|---|---|---|---|
-| 1.er tiempo: SC Braga + Goles SC Braga Más 0.5 + Descanso/final: SC Braga / SC Braga | 62 % | 69 % | 58 % | 1.60 | 1.65 | 1.46 | 12 % | Favorito golpea temprano y gana | 31 % |
-| Gana SC Braga + 1.er tiempo: SC Braga + Descanso/final: SC Braga / SC Braga | 62 % | 69 % | 57 % | 1.61 | 1.66 | 1.58 | 12 % | Favorito golpea temprano y gana | 31 % |
-| Goles Menos 6.5 + Tarjetas Más 1.5 + Ambos 1+ tarjetas: Sí | 62 % | 64 % | 57 % | 1.61 | 1.66 | 1.22 | 8 % | Expulsión antes del 70′ | 58 % |
-| Córners Más 4.5 + Tarjetas Más 1.5 + Ambos 1+ tarjetas: Sí | 62 % | 63 % | 57 % | 1.61 | 1.66 | 1.22 | 8 % | Expulsión antes del 70′ | 56 % |
-| Gana SC Braga + Goles 1.er tiempo Más 0.5 + Hándicap SC Braga -1.5 | 60 % | 63 % | 56 % | 1.67 | 1.72 | 1.23 | 6 % | Favorito golpea temprano y gana | 26 % |
-| Goles 1.er tiempo Más 0.5 + Hándicap SC Braga -1.5 | 61 % | 63 % | 56 % | 1.65 | 1.70 | 1.09 | 5 % | Favorito golpea temprano y gana | 27 % |
-| Goles 2.º tiempo Menos 2.5 + Tarjetas Kuopio PS Más 0.5 | 61 % | 64 % | 57 % | 1.63 | 1.68 | 1.01 | 6 % | Empate | 44 % |
-| Goles SC Braga Más 0.5 + Tarjetas 1.er tiempo Más 0.5 + Córners 1.er tiempo Menos 8.5 | 62 % | 64 % | 57 % | 1.62 | 1.67 | 1.0 | 7 % | Expulsión antes del 70′ | 62 % |
+| 1.er tiempo: SC Braga + Goles SC Braga Más 0.5 + Descanso/final: SC Braga / SC Braga | 62 % | 68 % | 58 % | 1.60 | 1.65 | 1.47 | 12 % | Favorito golpea temprano y gana | 32 % |
+| 1.er tiempo: SC Braga + Gana SC Braga + Descanso/final: SC Braga / SC Braga | 62 % | 68 % | 57 % | 1.61 | 1.66 | 1.6 | 12 % | Favorito golpea temprano y gana | 32 % |
+| Goles Menos 6.5 + Tarjetas Más 1.5 + Ambos 1+ tarjetas: Sí | 62 % | 64 % | 57 % | 1.61 | 1.66 | 1.23 | 8 % | Expulsión antes del 70′ | 57 % |
+| Córners 2.º tiempo Más 1.5 + Tarjetas Más 1.5 + Ambos 1+ tarjetas: Sí | 62 % | 64 % | 58 % | 1.61 | 1.65 | 1.22 | 8 % | Expulsión antes del 70′ | 57 % |
+| Goles 1.er tiempo Más 0.5 + Gana SC Braga + Hándicap SC Braga -1.5 | 59 % | 63 % | 55 % | 1.68 | 1.73 | 1.23 | 6 % | Favorito golpea temprano y gana | 28 % |
+| Hándicap SC Braga -1.5 + Goles Kuopio PS Menos 1.5 + Córners Kuopio PS Menos 5.5 | 62 % | 63 % | 58 % | 1.60 | 1.65 | 1.05 | 5 % | Favorito golpea temprano y gana | 51 % |
+| Goles 2.º tiempo Menos 2.5 + Tarjetas Kuopio PS Más 0.5 | 61 % | 64 % | 57 % | 1.63 | 1.68 | 1.01 | 6 % | Empate | 45 % |
+| Goles SC Braga Más 0.5 + Córners 1.er tiempo Menos 8.5 + Tarjetas 1.er tiempo Más 0.5 | 61 % | 63 % | 57 % | 1.63 | 1.68 | 1.0 | 7 % | Expulsión antes del 70′ | 61 % |
 
 Prob. ajustada: la conjunta de la simulación llevando cada pata a su probabilidad de decisión y corrigiendo la dependencia entre patas que se midió con 62 000 partidos (p. ej. «gana el favorito + sus córners Más» se estorban más de lo que creía el simulador). Margen acumulado: lo que la casa cobra por pata, multiplicado.
 

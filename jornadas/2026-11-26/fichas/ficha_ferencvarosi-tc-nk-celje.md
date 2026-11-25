@@ -1,5 +1,5 @@
 # Ficha — Ferencvarosi TC - NK Celje
-UEFA Europa League Europa League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T13:57:01.652Z · 551 mercados
+UEFA Europa League Europa League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T19:53:53.051Z · 516 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -86,19 +86,19 @@ Muestra: local 9, visitante 10, directos 0. Esperado: local 11.49, visitante 11.
 
 | Línea | Más | Menos |
 |---|---|---|
-| 24.5 | @1.8 · col -1.8 · L 6 de 9 · V 3 de 10 | @1.95 · col +1.8 · L 3 de 9 · V 7 de 10 |
+| 25.5 | @1.93 · col -2.8 · L 6 de 9 · V 3 de 10 | @1.82 · col +2.8 · L 3 de 9 · V 7 de 10 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 12.5 | @2.05 · col -1.0 · L 6 de 9 · V 2 de 10 | @1.72 · col +1.0 · L 3 de 9 · V 8 de 10 |
+| 12.5 | @1.93 · col -1.0 · L 6 de 9 · V 2 de 10 | @1.8 · col +1.0 · L 3 de 9 · V 8 de 10 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 12.5 | @1.83 · col -1.3 · L 5 de 9 · V 4 de 10 | @1.9 · col +1.3 · L 4 de 9 · V 6 de 10 |
+| 12.5 | @1.75 · col -1.3 · L 5 de 9 · V 4 de 10 | @2.0 · col +1.3 · L 4 de 9 · V 6 de 10 |
 
 ### Fueras de juego
 Muestra: local 10, visitante 10, directos 0. Esperado: local 1.6, visitante 1.35, **total 2.95** (local 1.9 a favor / 1.0 en contra; visitante 1.7 / 1.3).
@@ -319,4 +319,4 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Contraste con Flashscore (20 partidos comunes): 251/292 cifras iguales, 20 con diferencia > 1 → 2026-11-22 Brinje Grosuplje sh[0] Sofascore 19 · Flashscore 17; 2026-11-22 Brinje Grosuplje sot[0] Sofascore 10 · Flashscore 8; 2026-11-22 Brinje Grosuplje f[1] Sofascore 14 · Flashscore 12; 2026-11-19 Beltinci Klima Tratnjek sot[0] Sofascore 1 · Flashscore 3', "Historial: sin casar con Betano → Bamidele Y., Kovačević F., O'Dowda C., Lisztes K., Letonja T., Tičić L.", 'Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Cadu, Habib Maiga, Matúš Bero, Papa Daniel, Ádám Nagy · solo Flashscore: Adam Madarasz, Marius Corbu', 'Alineación probable: sin casar con Betano → Cadu C., Maiga D., Daniel D.']
+- Dudas: ['Contraste con Flashscore (20 partidos comunes): 251/292 cifras iguales, 20 con diferencia > 1 → 2026-11-22 Brinje Grosuplje sh[0] Sofascore 19 · Flashscore 17; 2026-11-22 Brinje Grosuplje sot[0] Sofascore 10 · Flashscore 8; 2026-11-22 Brinje Grosuplje f[1] Sofascore 14 · Flashscore 12; 2026-11-19 Beltinci Klima Tratnjek sot[0] Sofascore 1 · Flashscore 3', "Historial: sin casar con Betano → Bamidele Y., Kovačević F., Radnóti D., O'Dowda C., Lisztes K., Ćalušić I., Letonja T., Tičić L.", 'Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Cadu, Habib Maiga, Matúš Bero, Papa Daniel, Ádám Nagy · solo Flashscore: Adam Madarasz, Marius Corbu', 'Alineación probable: sin casar con Betano → Cadu C., Maiga D., Daniel D.']

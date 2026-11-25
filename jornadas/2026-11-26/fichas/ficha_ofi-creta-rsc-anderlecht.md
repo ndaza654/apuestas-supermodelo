@@ -1,5 +1,5 @@
 # Ficha — OFI Creta - RSC Anderlecht
-UEFA Europa League Europa League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T13:57:39.689Z · 441 mercados
+UEFA Europa League Europa League · 2026-11-26 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-25T19:54:57.992Z · 446 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -284,7 +284,6 @@ Muestra: local 10, visitante 10, directos 0.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Klidman Lilo — atajadas: 2+ @1.18 · col +2.8 · 7 de 8 (titular 0.90)
 - Colin Coosemans — atajadas: 2+ @1.18 · col +1.8 · 8 de 9 (titular 0.90)
 - Colin Coosemans — atajadas: 3+ @1.6 · col +0.8 · 7 de 9 (titular 0.90)
 - Mihajlo Cvetkovic — remates: 2+ @1.25 · col +1.0 · 7 de 10 (titular 0.90)
@@ -326,4 +325,4 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Contraste con Flashscore (20 partidos comunes): 304/316 cifras iguales, 2 con diferencia > 1 → 2026-10-18 K. Beerschot V.A. sh[0] Sofascore 20 · Flashscore 12; 2026-10-18 K. Beerschot V.A. sh[1] Sofascore 7 · Flashscore 9', 'Historial: sin casar con Betano → Athanasiou N., Chatzigiovanis T., Apostolakis G., Krizmanić K., Kodro K., Christogeorgos N., Aasgaard T., Koutsoupias I., Cobiella N., Kalonji N.', 'Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: C. Sielis, Danylo Sikan, Enric Llansana, Lukas Ambros · solo Flashscore: Aitor Cantalapiedra, Konstantinos Kostoulas, Marten Winkler, Tawfik Bentayeb', 'Alineación probable: sin casar con Betano → Athanasiou N., Iseka A., Aasgaard T.']
+- Dudas: ['Contraste con Flashscore (20 partidos comunes): 304/316 cifras iguales, 2 con diferencia > 1 → 2026-10-18 K. Beerschot V.A. sh[0] Sofascore 20 · Flashscore 12; 2026-10-18 K. Beerschot V.A. sh[1] Sofascore 7 · Flashscore 9', 'Historial: sin casar con Betano → Chatzigiovanis T., Apostolakis G., Krizmanić K., Kodro K., Christogeorgos N., Aasgaard T., Koutsoupias I., Cobiella N., Kalonji N.', 'Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: C. Sielis, Danylo Sikan, Enric Llansana, Lukas Ambros · solo Flashscore: Aitor Cantalapiedra, Konstantinos Kostoulas, Marten Winkler, Tawfik Bentayeb', 'Alineación probable: sin casar con Betano → Iseka A., Aasgaard T.']
