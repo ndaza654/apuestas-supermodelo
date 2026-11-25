@@ -1,5 +1,5 @@
 {
- "leido": "2026-11-25 11:50 Bogotá",
+ "leido": "2026-11-25 17:14 Bogotá (Colombia)",
  "leido_hora": "11:50",
  "condiciones": "BB BOOST (captura del usuario 11:16): mínimo 1 partido, cuota total ≥ 5,00, cuota mínima por selección 1,50, +25 % (Champions: PSG–Roma; Primera A: Santa Fe–Once Caldas o Nacional–Medellín). Margen propio: patas ≥ 1,51 y precio ≥ 5,05; mínimo 3 mercados.",
  "condiciones_lista": [
@@ -121,8 +121,8 @@
   "partido": "Atletico Nacional - Independiente Medellín",
   "hora": "2026-11-25 20:30",
   "evento": 95845964,
-  "leido_hora": "12:20",
-  "veredicto": "BB Boost: el precio cumple (5,70), pero con la regla nueva de la autocrítica (13:10) queda NO RECOMENDADO: solo 1 de 3 patas cumple el 7 de 10. Si se juega, apuesta mínima.",
+  "leido_hora": "17:14",
+  "veredicto": "BB Boost: el precio cumple (5,10 / 5,50) pero sigue NO RECOMENDADO (17:14): solo Medellín marca cumple el 7 de 10; las tarjetas del clásico dependen del árbitro y del derbi, no de la serie. Si se juega, apuesta mínima.",
   "nota": "Clásico de Medellín, cuadrangular A fecha 2: Medellín 3 pts (ganó 4 de sus últimos 5), Nacional 1 pt y obligado en casa; árbitro Betancur (≈4,75 amarillas + 0,25 rojas por partido en sus últimos 20). Nacional jugó 4 seguidos contra Once Caldas (copa y liga): su muestra reciente está sesgada a partidos cerrados.",
   "combos": [
    {
@@ -146,7 +146,7 @@
     "pago_boost": 6.875,
     "p_equilibrio_boost": 0.145,
     "cumple": true,
-    "tag": "NO RECOMENDADA (13:10) · 1 de 3 patas cumple",
+    "tag": "NO RECOMENDADA (13:10) · 1 de 3 patas cumple · superada por la relectura de 17:14",
     "leido": "12:20",
     "patas_cumple_regularidad": 1,
     "evidencia": [
@@ -154,6 +154,76 @@
      "Tarjetas ≥7: Nacional 5 de 10, Medellín 4 de 10 (Flashscore solo amarillas); árbitro y clásico a favor",
      "Córners ≥10: Nacional 4 de 10, Medellín 7 de 10"
     ]
+   },
+   {
+    "patas": [
+     "Goles Independiente Medellín Más 0.5",
+     "Tarjetas Atletico Nacional Más 2.5",
+     "Córners total Más 8.5",
+     "Tarjetas total Más 6.5"
+    ],
+    "ids": [
+     10878496546,
+     10890987259,
+     10883352907,
+     10890987255
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     1.6,
+     1.55,
+     1.85
+    ],
+    "cuotas_cupon": null,
+    "precio_bb": 5.1,
+    "producto_cupon": 7.2,
+    "p_modelo": 0.197,
+    "p_prudente": 0.186,
+    "ev_sin_boost": 0.0,
+    "ev_con_boost": 0.21,
+    "pago_boost": 6.125,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "NO RECOMENDADA · 1 de 4 patas cumple (regla 25-nov)",
+    "leido": "17:14",
+    "patas_cumple_regularidad": 1,
+    "evidencia": [
+     "Medellín marcó en 8 de 10; Nacional recibió en 7 de 10",
+     "Tarjetas de Nacional ≥3: Nacional 8 de 10, rivales de Medellín 5 de 10",
+     "Córners ≥9: Nacional 6 de 10, Medellín 8 de 10",
+     "Tarjetas ≥7: Nacional 5 de 10, Medellín 4 de 10 (solo amarillas); clásico y árbitro Betancur (5,0 por partido) a favor"
+    ]
+   },
+   {
+    "patas": [
+     "Goles Independiente Medellín Más 0.5",
+     "Tarjetas total Más 6.5",
+     "Córners total Más 9.5"
+    ],
+    "ids": [
+     10878496546,
+     10890987255,
+     10883352905
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     1.85,
+     1.93
+    ],
+    "cuotas_cupon": null,
+    "precio_bb": 5.5,
+    "producto_cupon": 5.61,
+    "p_modelo": 0.177,
+    "p_prudente": 0.173,
+    "ev_sin_boost": -0.03,
+    "ev_con_boost": 0.17,
+    "pago_boost": 6.625,
+    "p_equilibrio_boost": 0.151,
+    "cumple": true,
+    "tag": "NO RECOMENDADA (relectura de la de 12:20; bajó de 5,70 a 5,50)",
+    "leido": "17:14",
+    "patas_cumple_regularidad": 1,
+    "evidencia": []
    }
   ]
  },
@@ -161,9 +231,9 @@
   "partido": "Independiente Santa Fe - Once Caldas",
   "hora": "2026-11-25 18:20",
   "evento": 95845965,
-  "leido_hora": "12:20",
-  "veredicto": "No elegido. Mejor combo: Once Caldas tarjetas Menos 3.5 + Ambos marcan No + Once Caldas o empate, precio real 5,50; 1 de 3 patas cumple, y el contexto se contradice (árbitro Ruiz saca 5,5 tarjetas por partido; Santa Fe ganó 4 de 5 en casa).",
-  "nota": "Santa Fe 0 pts y obligado en El Campín; Once Caldas invicto en 10.",
+  "leido_hora": "17:14",
+  "veredicto": "BB Boost: SÍ cumple (17:14) y es el ELEGIDO del día entre los dos colombianos. Once Caldas marca + Tarjetas Once Caldas Menos 3.5 + Córners Más 8.5 + Gol en el 1.er tiempo = 5,10 real en Betano (p ≈ 18 %, equilibrio con +25 % ≈ 16 %). 2 de 4 patas cumplen el 7 de 10.",
+  "nota": "Santa Fe 0 pts y obligado en El Campín; Once Caldas invicto en 10. · 17:14: catálogo BB y precios mc-leg releídos; onces no verificados a esa hora (verificar ~17:20).",
   "combos": [
    {
     "patas": [
@@ -180,8 +250,117 @@
     "producto_cupon": 4.95,
     "p_modelo": 0.13,
     "cumple": true,
-    "tag": "no elegida",
+    "tag": "no elegida · superada por la relectura de 17:14",
     "patas_cumple_regularidad": 1
+   },
+   {
+    "patas": [
+     "Goles Once Caldas Más 0.5",
+     "Tarjetas Once Caldas Menos 3.5",
+     "Córners total Más 8.5",
+     "Goles 1.er tiempo Más 0.5"
+    ],
+    "ids": [
+     10878496121,
+     10890986874,
+     10883342606,
+     10878496032
+    ],
+    "cuotas_catalogo": [
+     1.53,
+     1.6,
+     1.55,
+     1.52
+    ],
+    "cuotas_cupon": null,
+    "precio_bb": 5.1,
+    "producto_cupon": 5.77,
+    "p_modelo": 0.179,
+    "p_prudente": 0.179,
+    "ev_sin_boost": -0.09,
+    "ev_con_boost": 0.1,
+    "pago_boost": 6.125,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "ELEGIDA (17:14) · 2 de 4 patas cumplen ≥7 de 10",
+    "leido": "17:14",
+    "patas_cumple_regularidad": 2,
+    "evidencia": [
+     "Once Caldas marcó en 9 de 10; Santa Fe recibió gol en 8 de 10; directos 5 de 6; esperado 1,2",
+     "Tarjetas de Once Caldas ≤3: Once Caldas 7 de 10, rivales de Santa Fe 9 de 10; esperado 2,6 (ojo: el árbitro Ruiz saca 3,05 amarillas de media al visitante)",
+     "Córners ≥9: Santa Fe 5 de 10, Once Caldas 6 de 10, directos 3 de 6; esperado 9,3 (Santa Fe obligado a atacar)",
+     "Gol en el 1.er tiempo: sin dato por tiempo en la muestra; solo p del modelo 0,63"
+    ]
+   },
+   {
+    "patas": [
+     "Goles Once Caldas Más 0.5",
+     "Tarjetas Once Caldas Menos 3.5",
+     "Córners total Más 8.5",
+     "Ambos marcan Sí"
+    ],
+    "ids": [
+     10878496121,
+     10890986874,
+     10883342606,
+     10848434136
+    ],
+    "cuotas_catalogo": [
+     1.53,
+     1.6,
+     1.55,
+     1.98
+    ],
+    "cuotas_cupon": null,
+    "precio_bb": 5.2,
+    "producto_cupon": 7.51,
+    "p_modelo": 0.17,
+    "p_prudente": 0.17,
+    "ev_sin_boost": -0.12,
+    "ev_con_boost": 0.06,
+    "pago_boost": 6.25,
+    "p_equilibrio_boost": 0.16,
+    "cumple": true,
+    "tag": "alternativa",
+    "leido": "17:14",
+    "patas_cumple_regularidad": 2,
+    "evidencia": [
+     "Ambos marcan: Santa Fe marcó en 5 de 10"
+    ]
+   },
+   {
+    "patas": [
+     "Goles Once Caldas Más 0.5",
+     "Tarjetas Once Caldas Menos 3.5",
+     "Once Caldas o empate",
+     "Córners total Más 8.5"
+    ],
+    "ids": [
+     10878496121,
+     10890986874,
+     10848434126,
+     10883342606
+    ],
+    "cuotas_catalogo": [
+     1.53,
+     1.6,
+     1.65,
+     1.55
+    ],
+    "cuotas_cupon": null,
+    "precio_bb": 5.3,
+    "producto_cupon": 6.26,
+    "p_modelo": 0.175,
+    "p_prudente": 0.175,
+    "ev_sin_boost": -0.07,
+    "ev_con_boost": 0.12,
+    "pago_boost": 6.375,
+    "p_equilibrio_boost": 0.157,
+    "cumple": true,
+    "tag": "descartada: la doble oportunidad X2 choca con el contexto (Santa Fe ganó 4 de 5 en casa y está obligado)",
+    "leido": "17:14",
+    "patas_cumple_regularidad": 2,
+    "evidencia": []
    }
   ]
  }
