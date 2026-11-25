@@ -28,3 +28,13 @@
 
 ## Pendiente de recolección (para que los puntos 1 y 2 tengan dato)
 Añadir al extractor de Flashscore **posesión** y **centros** (y xG por equipo si no está) de los últimos 10 partidos de cada equipo.
+
+## Estrategia del video @ingenieroanalista10 (cuenta nueva; recibido 25-nov-2026) — «4 filtros para partidos con muchos córners»
+Origen: video del usuario, transcrito con Whisper small (puede haber errores en cifras). **Tipster sin resultados verificados.** Sus 4 filtros:
+1. **Centros al área:** equipos que promedian > 20 centros por partido; mejor si ambos > 25 (cita estudios de Mundiales con relación «moderada y significativa» entre centros y córners; no verificado).
+2. **Dominio territorial:** no importa la posesión sino dónde se tiene: > ≈ 55 % de las acciones en campo rival → más centros, remates bloqueados y córners.
+3. **Favorito con intención ofensiva** (necesita ganar); evitar partidos intrascendentes.
+4. **Proyección de 9–10 córners** (promedio habitual del fútbol profesional).
+Extra en vivo: favorito empatando o perdiendo → empuja, más centros y córners. Ligas que favorecen los córners suman.
+**Cómo encaja con la lectura de arriba:** filtro 1 = punto 2; filtro 2 = punto 1 (dominio); filtro 3 = puntos 4 y 7; filtro 4 = línea del punto 11.
+**Medición con el repo (165 partidos con estadísticas de Flashscore, 330 equipo-partido; descriptiva, no predictiva):** centros ↔ córners propios r = 0,66; toques en el área rival r = 0,58; remates r = 0,60; posesión r = 0,46 (la posesión sirve menos que el dónde, como dice el video). Equipos con > 20 centros sacaron 7,1 córners contra 4,0 los de ≤ 20; partidos con ambos > 20 centros: 11,9 córners (n 7) contra 9,8 el resto. **Qué NO prueba:** son los centros *del mismo partido* (no se conocen antes) y el equipo que centra mucho suele ser el fuerte; falta medir si el promedio de centros de los últimos 10 predice los córners del siguiente. Dato que falta en la recolección: centros y toques en el área de los últimos 10 (el feed `df_st` los trae: `Crosses`, `Touches in opposition box`, `Ball possession`).

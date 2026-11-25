@@ -395,3 +395,6 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 
 ## 25-nov-2026 (12:45) · estrategias por mercado
 - Carpeta `estrategias/` con una ficha por mercado; los agentes la leen antes de analizar y escriben la «Lectura de <mercado>» por partido. Córners: 11 puntos. Faltan: posesión y centros (recolección), estrategia de saques de banda, y los videos del usuario.
+
+## 25-nov-2026 (13:30) · videos de estrategias de @ingenieroanalista10
+- 4 videos transcritos (Whisper small): Más 2,5 con 2 filtros, córners con 4 filtros, previas Palmeiras–Cruzeiro (2–1, ambos Sí ✓, Más 2,5 ✓) y Atlético-MG–Boca (0–0, penales 3–1). Estrategias pasadas a `estrategias/corners.md` y `goles_resultado.md`. Filtro de goles: 59,7 % con local ≤ 1,50 (n 7.986) y 62,5 % con el filtro completo (n 24); no reproduce el 75 %. Córners: centros ↔ córners r = 0,66 (descriptivo). Pendiente: recolectar centros/toques en el área/posesión de los últimos 10. Detalle: `entregas/2026-11-25/1330_videos_estrategias.md`.
