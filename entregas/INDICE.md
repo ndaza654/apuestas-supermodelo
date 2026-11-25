@@ -7,6 +7,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 |---|---|---|---|---|
 | 2026-11-25 | 12:15 | Medición: ¿el contexto separa aciertos de fallos? (35.611 líneas, 12–25 nov) y regla «contexto manda» | todas las jornadas calificadas | `entregas/2026-11-25/1215_medicion_contexto.md` |
 | 2026-11-25 | 12:35 | Auditoría de puntos flojos (recolección, análisis, apuestas) y guion comprobable | todas las jornadas calificadas | `entregas/2026-11-25/1235_auditoria_puntos_flojos.md` |
+| 2026-11-25 | 12:45 | Estrategias por mercado (córners, tarjetas/faltas, goles, remates, saques/fueras, jugadores) | — | `entregas/2026-11-25/1245_estrategias_por_mercado.md` |
 | 2026-11-25 | 13:10 | Autocrítica de los BB Boost 19–24 nov: por qué se ganaron y perdieron, reglas nuevas | 25 partidos con BB Boost | `entregas/2026-11-25/1310_autocritica_bb_boost.md` |
 | 2026-11-25 | 12:40 | Combi 12:45 (≈3,71), BB Boost PSG–Roma (5,70) y Nacional–Medellín (5,70), mantenimiento de estrategias y método para escoger 10 de 100 | Sabah–Barça, Slavia–Villarreal, PSG–Roma, Santa Fe–Once Caldas, Nacional–Medellín | `entregas/2026-11-25/1240_mantenimiento_estrategias.md` |
 | 2026-11-25 | 11:15 | Informe + recolección Europa League y Conference League (36 partidos): enfoque, sencillas, combinadas de 2 patas, estado y límites | 36 partidos del 26-nov | `entregas/2026-11-25/1115_informe_26nov_europa_conference.md` (+ `.html`) |
