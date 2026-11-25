@@ -107,7 +107,12 @@ def main(jor, resf, mapaf=None):
             if isinstance(v, dict) and 'combos' in v:
                 part = M.get(slug)
                 for c in v['combos']:
-                    c['resultado'], c['patas_real'] = combo(c['patas'], part, R, kw, equipos, fijo=part)
+                    if not part or part not in R:
+                        # partido sin resultado todavía: NO buscar el partido por palabras sueltas de la pata
+                        # («Atletico», «Independiente»… casaban con otro partido y daban «falló»; error del 25-nov-2026)
+                        c['resultado'], c['patas_real'] = 'pendiente', [[None, 'sin resultado'] for _ in c['patas']]
+                    else:
+                        c['resultado'], c['patas_real'] = combo(c['patas'], part, R, kw, equipos, fijo=part)
                     c['jugada'] = c.get('jugada', False)
                     pend += c['resultado'] == 'pendiente'
         json.dump(B, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

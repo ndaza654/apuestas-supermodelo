@@ -417,3 +417,10 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - **Qué pasó:** desde ~22-nov las líneas de jugador (remates, tiros al arco, entradas, faltas, atajadas, asistencias) salían con cuotas de otros jugadores; Betano las entrega en una tabla por mercado y el extractor las pegaba a un solo jugador.
 - **Arreglo:** `betano_extraer.js` + `betano.py` (validez: líneas crecientes, precio no decreciente) + pruebas; limpieza 22–25-nov (`limpiar_escaleras_invalidas.py`, 1.623 filas a `registro/lineas_invalidas.csv`), 26-nov releído (36 partidos). Detalle: `entregas/2026-11-25/1510_mantenimiento_cuotas_jugador_inventadas.md`.
 - **Límite:** las calibraciones de jugador del 21–24-nov usaron esas filas; repetir la medición. Boletos del usuario: solo 1 pata afectada (Soria, atajadas 3).
+
+## 25-nov-2026 (18:10) · balance de la tarde (38 de 44 partidos)
+- Calificados los 27 de la tarde (Champions ×9, Youth ×7, ACL ×7, Championship ×3, Persib–Seoul) + jugadores de 12 partidos (Flashscore EN). BB Boost PSG–Roma se dio (1 de 1 partido). Sencillas 184/230 (80 %, ROI plano +6,5 %); combinadas mismo partido 5/6; entre partidos 1/5.
+- «Cumple» por precio: 1,30–1,50 80 % (precio 73 %), 1,50–2,00 72 % (precio 60 %), < 1,30 −2,4 pts. Tarjetas Más y fueras Más por debajo del precio; Menos de goles/tarjetas/saques/remates por encima. Una sola jornada: pistas.
+- Modelo de jugador inflado ≈ 20 pts aun sin las escaleras contaminadas: el problema es del modelo; jugadores fuera de sugerencias hasta recalibrar.
+- Arreglo: `calificar_bb.py` ya no busca el partido por palabras sueltas cuando no hay resultado (marcaba «falló» en Santa Fe y Nacional antes de jugarse).
+- Pendiente: boletos del usuario (sin sesión de Betano), 6 partidos de la noche, BB de Santa Fe/Nacional y K1–K4.
