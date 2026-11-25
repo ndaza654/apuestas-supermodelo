@@ -407,3 +407,6 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 
 ## 25-nov-2026 (14:30) · stack de fuentes
 - Opta (Betting Showcase) probado: mismas cifras de equipo que ESPN en la final (remates 9–16, centros 20–16, entradas 13–17…); por jugador trae centros, entradas, faltas cometidas y recibidas, minutos; árbitro y estadio. Los widgets solo cargan con la pestaña «visible» (truco documentado). ESPN trae por jugador faltas recibidas, titularidad y posición. Clima descartado por el usuario. Reparto en `estrategias/stack_de_fuentes.md` y regla en CLAUDE.md.
+
+## 25-nov-2026 (14:25) · regla de páginas y Sofascore
+- Regla fija en CLAUDE.md: Betano = cuotas; Flashscore + ESPN + Opta (+ Sofascore) = equipos y jugadores; ValueStats = árbitros. Sofascore funciona desde `www.sofascore.com` con `/api/v1/...` del mismo sitio (≈0,1 s; `api.sofascore.com` sigue dando 403): estadísticas de equipo (≈55), ≈70 por jugador, últimos 30 partidos, ficha del árbitro; cifras idénticas a ESPN y Opta en la final. Detalle: `estrategias/stack_de_fuentes.md`.
