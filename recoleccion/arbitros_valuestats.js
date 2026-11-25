@@ -4,7 +4,7 @@
  *   progreso: Object.keys(window.__ref).length ; resultado: window.__ref[clave] = {arbitro, pais, vs, vs_nombre, pj_vs, otros, temporada, faq, leido} o {error}
  * Búsqueda /en/referees?name=<apellido>; se elige por país + inicial + apellido (el de más partidos). `temporada` = tabla «Statistics by Season»; `faq` = muestra de los últimos 20 (amarillas, rojas, penales, % de superar 3,5/4,5/5,5). */
 (function () {
-  const CP = { Ger: 'Germany', Eng: 'England', Arg: 'Argentina', Fra: 'France', Sco: 'Scotland', Rou: 'Romania', Bra: 'Brazil', Uru: 'Uruguay', Ita: 'Italy', Esp: 'Spain', Gre: 'Greece', Col: 'Colombia', Por: 'Portugal', Ned: 'Netherlands', Bel: 'Belgium', Tur: 'Turkey', Mex: 'Mexico', Usa: 'United States', Chi: 'Chile', Cze: 'Czech Republic', Pol: 'Poland', Aut: 'Austria', Sui: 'Switzerland', Cro: 'Croatia', Hun: 'Hungary', Den: 'Denmark', Swe: 'Sweden', Nor: 'Norway' };
+  const CP = { Ger: 'Germany', Eng: 'England', Arg: 'Argentina', Fra: 'France', Sco: 'Scotland', Rou: 'Romania', Bra: 'Brazil', Uru: 'Uruguay', Ita: 'Italy', Esp: 'Spain', Gre: 'Greece', Col: 'Colombia', Por: 'Portugal', Ned: 'Netherlands', Bel: 'Belgium', Tur: 'Turkey', Mex: 'Mexico', Usa: 'United States', Chi: 'Chile', Cze: 'Czech Republic', Pol: 'Poland', Aut: 'Austria', Sui: 'Switzerland', Cro: 'Croatia', Hun: 'Hungary', Den: 'Denmark', Swe: 'Sweden', Nor: 'Norway', Slo: 'Slovenia', Aus: 'Australia', Jpn: 'Japan', Kor: 'South Korea', Alb: 'Albania', Fin: 'Finland', Geo: 'Georgia', Fai: 'Faroe Islands', Isr: 'Israel', Ukr: 'Ukraine', Ser: 'Serbia', Bul: 'Bulgaria', Kaz: 'Kazakhstan', Aze: 'Azerbaijan', Cyp: 'Cyprus', Irl: 'Republic of Ireland', Wal: 'Wales', Svk: 'Slovakia', Slk: 'Slovakia', Bih: 'Bosnia and Herzegovina', Mkd: 'North Macedonia', Mne: 'Montenegro', Lat: 'Latvia', Lit: 'Lithuania', Est: 'Estonia', Isl: 'Iceland', Lux: 'Luxembourg', Mda: 'Moldova', Arm: 'Armenia', Bhr: 'Bahrain', Uae: 'United Arab Emirates', Qat: 'Qatar', Ksa: 'Saudi Arabia', Sau: 'Saudi Arabia', Irn: 'Iran', Uzb: 'Uzbekistan', Chn: 'China', Tha: 'Thailand', Mas: 'Malaysia', Ina: 'Indonesia', Vie: 'Vietnam', Jor: 'Jordan', Kuw: 'Kuwait', Omn: 'Oman', Ind: 'India', Nzl: 'New Zealand', Can: 'Canada', Par: 'Paraguay', Per: 'Peru', Ecu: 'Ecuador', Ven: 'Venezuela', Bol: 'Bolivia', Crc: 'Costa Rica', Egy: 'Egypt', Mor: 'Morocco', Alg: 'Algeria', Tun: 'Tunisia', Rsa: 'South Africa' };
   const PAISES = Object.values(CP).sort((a, b) => b.length - a.length);
   const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   window.__ref = window.__ref || {};
@@ -21,7 +21,10 @@
       for (const p of PAISES) if (rest.endsWith(' ' + p)) { pais = p; rest = rest.slice(0, -p.length - 1); break; }
       cand.push({ hr, tx, pj, pais, nm: rest });
     }
-    let c = cand.filter(x => x.pais === CP[pa] && ap.some(w => norm(x.nm).includes(norm(w).slice(0, 5))));
+    if (ap[0].length > 4) { const h2 = await (await fetch('/en/referees?name=' + encodeURIComponent(norm(ap[0]).slice(0, 4)))).text(); const d2 = new DOMParser().parseFromString(h2, 'text/html');
+      for (const a of d2.querySelectorAll('a[href*="/en/referee/"]')) { const hr = a.getAttribute('href'); if (seen.has(hr)) continue; const tx = (a.closest('tr,li,div') || a).textContent.replace(/\s+/g, ' ').trim(); if (/Calculated from|View profile/.test(tx)) continue; seen.add(hr);
+        const m = tx.match(/^(.*?) (\d+) PJ/); const pj = m ? +m[2] : 0; let rest = m ? m[1] : tx, pais = null; for (const p of PAISES) if (rest.endsWith(' ' + p)) { pais = p; rest = rest.slice(0, -p.length - 1); break; } cand.push({ hr, tx, pj, pais, nm: rest }); } }
+    let c = cand.filter(x => (!CP[pa] || x.pais === CP[pa]) && ap.some(w => norm(x.nm).includes(norm(w).slice(0, 5))));
     const ci = c.filter(x => ini && (norm(x.nm).replace(/[^a-z ]/g, '').split(' ')[0] || '')[0] === ini);   // inicial del primer nombre if (ci.length) c = ci;
     c.sort((x, y) => y.pj - x.pj);
     if (!c.length) { window.__ref[slug] = { arbitro: nom, error: 'sin candidato', cand: cand.slice(0, 4).map(x => x.tx) }; return; }
