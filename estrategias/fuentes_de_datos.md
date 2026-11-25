@@ -29,7 +29,7 @@ Prueba hecha **en el navegador integrado del usuario** (la misma vía de la reco
 - **xG por jugador**: la última columna de la tabla de Flashscore parece xG; por confirmar.
 
 ## Propuesta (el usuario aprueba cada una)
-1. **Clima en la ficha** con ESPN (ciudad) + Open-Meteo, a la hora del partido: lluvia (mm) y viento (km/h); entra como factor de córners, saques y remates.
+1. ~~Clima en la ficha~~ — **descartado por el usuario (25-nov 13:38): no aporta; no se recolecta.**
 2. **ESPN como segunda fuente de resultados**: en cada balance, contrastar el marcador y las estadísticas de Flashscore con ESPN y declarar las diferencias antes de calificar (hoy hubiera evitado el error de la final).
 3. **ESPN como respaldo de alineaciones y de estadísticas** cuando Flashscore no traiga tabla (ligas menores, como los 8 de 23 del 22-nov), solo en las ligas que ESPN cubre.
 4. Pedir cuenta gratuita de ValueStats solo si el usuario quiere faltas por árbitro (no se crea sin su permiso).

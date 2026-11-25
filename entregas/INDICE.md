@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-25 | 14:30 | Stack de fuentes (Betano + Flashscore + ESPN + Opta): qué sirve para qué | todos | `2026-11-25/1430_stack_de_fuentes.md` |
 | 2026-11-25 | 14:00 | Fuentes de datos probadas (árbitros, clima, estadísticas) + corrección del resultado de la final | Atlético-MG–Boca | `2026-11-25/1400_fuentes_de_datos.md` |
 | 2026-11-25 | 13:50 | Catálogo de datos por mercado (para aprobar) + extractor y ficha ampliados | todos los mercados | `2026-11-25/1350_datos_por_mercado.md` |
 | 2026-11-25 | 13:30 | Videos de estrategias (@ingenieroanalista10): goles, córners y 2 previas, con medición | Palmeiras–Cruzeiro, Atlético-MG–Boca | `2026-11-25/1330_videos_estrategias.md` |

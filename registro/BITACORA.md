@@ -404,3 +404,6 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 
 ## 25-nov-2026 (14:00) · fuentes de datos
 - Probadas en el navegador integrado: funcionan Flashscore, ESPN (API pública, 28 estadísticas, once, ciudad), Open-Meteo (clima) y ValueStats; no sirven Transfermarkt (CAPTCHA), Understat (caído), StatsHub (bloqueado), FootyStats árbitros (desactualizado). **Corrección:** la final Atlético-MG–Boca fue 2–0 de Boca en 90 min (ESPN), no 0–0 con penales. Detalle: `estrategias/fuentes_de_datos.md`.
+
+## 25-nov-2026 (14:30) · stack de fuentes
+- Opta (Betting Showcase) probado: mismas cifras de equipo que ESPN en la final (remates 9–16, centros 20–16, entradas 13–17…); por jugador trae centros, entradas, faltas cometidas y recibidas, minutos; árbitro y estadio. Los widgets solo cargan con la pestaña «visible» (truco documentado). ESPN trae por jugador faltas recibidas, titularidad y posición. Clima descartado por el usuario. Reparto en `estrategias/stack_de_fuentes.md` y regla en CLAUDE.md.
