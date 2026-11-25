@@ -118,6 +118,13 @@
       arbitro: null, arbitro_pais: null, arbitro_sofa: null, estadio: (E.venue && E.venue.name) || null, capacidad: (E.venue && E.venue.stadium && E.venue.stadium.capacity) || null, fuente: 'Sofascore /api/v1', leido: new Date().toISOString() };
     if (E.referee) { out.arbitro = E.referee.name; out.arbitro_pais = (E.referee.country && E.referee.country.name) || null; out.arbitro_sofa = { id: E.referee.id, partidos: E.referee.games, amarillas: E.referee.yellowCards, rojas: E.referee.redCards, doble_amarilla: E.referee.yellowRedCards }; }
     else avisos.push('árbitro no anunciado en Sofascore');
+    const lu0 = await sfGet('/event/' + ev.id + '/lineups');      // once probable/oficial + ausentes (solo si Sofascore ya lo tiene)
+    if (lu0 && lu0.home && (lu0.home.players || []).length) {
+      const cut = l => ({ formacion: l.formation || null, xi: (l.players || []).filter(x => !x.substitute).map(x => [x.player.name, String(x.player.id), x.position || '']),
+        banca: (l.players || []).filter(x => x.substitute).map(x => [x.player.name, String(x.player.id), x.position || '']),
+        ausentes: (l.missingPlayers || []).map(m => [m.player.name, String(m.player.id), m.type, m.reason == null ? '' : String(m.reason)]) });
+      out.alineacion = { confirmada: !!lu0.confirmed, local: cut(lu0.home), visitante: cut(lu0.away), leida: new Date().toISOString() };
+    } else avisos.push('Sofascore aún no publica once ni ausentes');
     for (const [lado, team] of [['local', ev.homeTeam], ['visitante', ev.awayTeam]]) {
       const pasados = await ultimos(team.id, 10);
       if (pasados.length < 10) avisos.push(`${lado}: solo ${pasados.length} partidos oficiales terminados`);
