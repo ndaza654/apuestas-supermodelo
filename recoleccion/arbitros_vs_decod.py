@@ -15,7 +15,7 @@ def main(dia, ent):
     os.makedirs(os.path.join(dia, 'arbitros'), exist_ok=True)
     n = 0
     for c in sorted(claves):
-        r = D.get(c[:12])
+        r = D.get(c) or D.get(c[:12])
         if not r:
             continue
         leido = ''
