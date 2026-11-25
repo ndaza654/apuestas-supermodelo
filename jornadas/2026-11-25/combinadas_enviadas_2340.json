@@ -29,7 +29,21 @@
   "p": 0.27,
   "ev": -0.12,
   "nota": "cuotas Betano leídas 24-nov 21:53 Bogotá (sin releer); p = producto de la p recortada del modelo (partidos distintos, sin correlación); árbitros y onces de J1/ACL sin publicar; 3 patas = lotería según las reglas del repo",
-  "resultado": "pendiente"
+  "resultado": "falló",
+  "patas_real": [
+   [
+    true,
+    "3 goles"
+   ],
+   [
+    false,
+    "0 goles (visitante)"
+   ],
+   [
+    null,
+    "sin resultado"
+   ]
+  ]
  },
  {
   "id": "C2",
@@ -61,7 +75,21 @@
   "p": 0.333,
   "ev": -0.011,
   "nota": "cuotas Betano leídas 24-nov 21:53 Bogotá (sin releer); p = producto de la p recortada del modelo (partidos distintos, sin correlación); árbitros y onces de J1/ACL sin publicar; 3 patas = lotería según las reglas del repo",
-  "resultado": "pendiente"
+  "resultado": "falló",
+  "patas_real": [
+   [
+    false,
+    "1 goles"
+   ],
+   [
+    true,
+    "10 córners"
+   ],
+   [
+    false,
+    "13 córners"
+   ]
+  ]
  },
  {
   "id": "C3",
@@ -93,6 +121,20 @@
   "p": 0.318,
   "ev": 0.014,
   "nota": "cuotas Betano leídas 24-nov 21:53 Bogotá (sin releer); p = producto de la p recortada del modelo (partidos distintos, sin correlación); árbitros y onces de J1/ACL sin publicar; 3 patas = lotería según las reglas del repo",
-  "resultado": "pendiente"
+  "resultado": "falló",
+  "patas_real": [
+   [
+    true,
+    "12 córners"
+   ],
+   [
+    false,
+    "0 goles (visitante)"
+   ],
+   [
+    true,
+    "12 córners = línea 12: pata anulada (push)"
+   ]
+  ]
  }
 ]
