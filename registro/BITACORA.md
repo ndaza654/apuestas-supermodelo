@@ -410,3 +410,5 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 
 ## 25-nov-2026 (14:25) · regla de páginas y Sofascore
 - Regla fija en CLAUDE.md: Betano = cuotas; Flashscore + ESPN + Opta (+ Sofascore) = equipos y jugadores; ValueStats = árbitros. Sofascore funciona desde `www.sofascore.com` con `/api/v1/...` del mismo sitio (≈0,1 s; `api.sofascore.com` sigue dando 403): estadísticas de equipo (≈55), ≈70 por jugador, últimos 30 partidos, ficha del árbitro; cifras idénticas a ESPN y Opta en la final. Detalle: `estrategias/stack_de_fuentes.md`.
+
+- 25-nov 14:58 · BB Boost final PSG–Roma: Goles Más 3.5 + Córners Roma Más 2.5 + Saques de meta Menos 17.5 = 5,40 real (alternativa con Menos 16.5 = 6,60). Once oficial y últimos 10 leídos en Sofascore (fuente principal desde las 14:10); 3 de 3 patas con «cumple». Además: Sofascore integrado en armar_entrada (Flashscore de respaldo) y jornada 26-nov leída completa con Sofascore (36 partidos).

@@ -13,9 +13,9 @@
   "partido": "Paris Saint-Germain - AS Roma",
   "hora": "2026-11-25 15:00",
   "evento": 91595817,
-  "leido_hora": "11:50",
-  "veredicto": "BB Boost: SÍ cumple. 3 patas, las 3 con «cumple» en ambos equipos; precio real 5,70.",
-  "nota": "PSG 2.º (4 de 4 ganados, 20:5), Roma 23.º; bajas PSG Doué y Kvaratskhelia, Roma Pellegrini y Rensch; árbitro Nyberg G. (2,85 tarjetas/partido en sus últimos 20).",
+  "leido_hora": "14:57",
+  "veredicto": "BB Boost: SÍ cumple (final 14:57). Goles Más 3.5 + Córners Roma Más 2.5 + Saques de meta Menos 17.5 = 5,40 real en Betano; 3 de 3 patas con «cumple».",
+  "nota": "PSG 2.º (4 de 4 ganados, 20:5), Roma 23.º; bajas PSG Doué y Kvaratskhelia, Roma Pellegrini y Rensch; árbitro Nyberg G. (2,85 tarjetas/partido en sus últimos 20). · 14:57: once oficial (Sofascore, confirmado): PSG 4-3-3 Safonov; Hakimi, Zabarnyi, Pacho, N. Mendes; J. Neves, Vitinha, Fabián; Akliouche, Ferran Torres, Mayulu (sin Doué ni Kvaratskhelia). Roma 3-4-2-1 Svilar; Mancini, Ndicka, Hermoso; Wesley, De Roon, Koné, Molina; Pisilli, Soulé; Castro (sin Pellegrini ni Rensch). Árbitro Glenn Nyberg (Sofascore: 392 partidos, 3,3 amarillas por partido).",
   "combos": [
    {
     "patas": [
@@ -38,12 +38,80 @@
     "pago_boost": 6.875,
     "p_equilibrio_boost": 0.145,
     "cumple": true,
-    "tag": "ELEGIDA · 3 de 3 patas cumplen ≥7 de 10",
+    "tag": "ELEGIDA · 3 de 3 patas cumplen ≥7 de 10 · REEMPLAZADA a las 14:58 por la versión final",
     "leido": "11:50",
     "patas_cumple_regularidad": 3,
     "evidencia": [
      "Goles ≥4: PSG 7 de 10, Roma 7 de 10; esperado 4,5",
      "Córners de Roma ≥3: Roma 8 de 10, rivales de PSG 8 de 10; esperado 5,1",
+     "Saques de meta ≤16: PSG 8 de 10, Roma 8 de 10; esperado 13,4"
+    ]
+   },
+   {
+    "patas": [
+     "Goles total Más 3.5",
+     "Córners AS Roma Más 2.5",
+     "Saques de meta total Menos 17.5"
+    ],
+    "ids": [
+     10307814311,
+     10883060445,
+     10897364978
+    ],
+    "cuotas_catalogo": [
+     2.02,
+     1.6,
+     1.67
+    ],
+    "cuotas_cupon": null,
+    "precio_bb": 5.4,
+    "producto_cupon": 5.4,
+    "p_modelo": 0.159,
+    "p_prudente": 0.159,
+    "ev_sin_boost": -0.141,
+    "ev_con_boost": 0.034,
+    "pago_boost": 6.5,
+    "p_equilibrio_boost": 0.154,
+    "cumple": true,
+    "tag": "FINAL 14:58 · ELEGIDA · 3 de 3 patas cumplen ≥7 de 10",
+    "leido": "14:57",
+    "patas_cumple_regularidad": 3,
+    "evidencia": [
+     "Goles ≥4: PSG 7 de 10, Roma 7 de 10 (Sofascore y Flashscore); esperado 4,45",
+     "Córners de Roma ≥3: Roma 8 de 10, rivales de PSG 8 de 10; esperado 5,1",
+     "Saques de meta ≤17: PSG 9 de 10, Roma 8 de 10; esperado 13,4"
+    ]
+   },
+   {
+    "patas": [
+     "Goles total Más 3.5",
+     "Córners AS Roma Más 2.5",
+     "Saques de meta total Menos 16.5"
+    ],
+    "ids": [
+     10307814311,
+     10883060445,
+     10890564666
+    ],
+    "cuotas_catalogo": [
+     2.02,
+     1.6,
+     1.98
+    ],
+    "cuotas_cupon": null,
+    "precio_bb": 6.6,
+    "producto_cupon": 6.4,
+    "p_modelo": 0.135,
+    "p_prudente": 0.135,
+    "ev_sin_boost": -0.109,
+    "ev_con_boost": 0.08,
+    "pago_boost": 8.0,
+    "p_equilibrio_boost": 0.125,
+    "cumple": true,
+    "tag": "FINAL 14:58 · alternativa (más precio, menos margen) · 3 de 3 cumplen",
+    "leido": "14:57",
+    "patas_cumple_regularidad": 3,
+    "evidencia": [
      "Saques de meta ≤16: PSG 8 de 10, Roma 8 de 10; esperado 13,4"
     ]
    }

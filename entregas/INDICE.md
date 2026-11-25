@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-25 | 14:58 | BB Boost final (once oficial, precio real 5,40; alternativa 6,60) | PSG–Roma | `2026-11-25/1458_bb_boost_final_psg_roma.md` |
 | 2026-11-25 | 14:25 | Regla de uso de páginas + prueba de Sofascore (funciona, ≈0,1 s) | Atlético-MG–Boca (caso) | `2026-11-25/1425_regla_de_paginas_y_sofascore.md` |
 | 2026-11-25 | 14:30 | Stack de fuentes (Betano + Flashscore + ESPN + Opta): qué sirve para qué | todos | `2026-11-25/1430_stack_de_fuentes.md` |
 | 2026-11-25 | 14:00 | Fuentes de datos probadas (árbitros, clima, estadísticas) + corrección del resultado de la final | Atlético-MG–Boca | `2026-11-25/1400_fuentes_de_datos.md` |
