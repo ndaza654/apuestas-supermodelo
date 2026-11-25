@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-25 | 11:15 | Informe + recolección Europa League y Conference League (36 partidos): enfoque, sencillas, combinadas de 2 patas, estado y límites | 36 partidos del 26-nov | `entregas/2026-11-25/1115_informe_26nov_europa_conference.md` (+ `.html`) |
 | 2026-11-25 | 08:50 | Balance parcial de la mañana (11 partidos terminados: Melbourne, Gamba, Kashima, J1 ×6 y Sabah U19): combis 0 de 3, sencillas 21 de 28, «cumple» 84,5 %, goleador 9,6 % | 11 de la mañana del 25-nov | entregas/2026-11-25/0850_balance_25nov_manana.md · entregas/2026-11-25/0850_balance_25nov_manana.html |
 | 2026-11-25 | 00:45 | Recolección de la noche (9 partidos: Championship, Brasileirão, Colombia, Boca, Liga MX) + informe de 44 partidos + mercados de Betano por liga | 9 nuevos del 25-nov | entregas/2026-11-25/0045_estado_recoleccion_tanda2.md · 0045_informe_25nov_44partidos.html |
 | 2026-11-24 | 23:55 | Informe interactivo de la jornada 25-nov (con Enfoque de mercados) + balance 24-nov completado (América–Cali y jugadores) | 35 partidos 25-nov; 16 partidos 24-nov | entregas/2026-11-24/2355_informe_25nov.html · jornadas/2026-11-24/balance/balance.html |

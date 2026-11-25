@@ -125,3 +125,10 @@ Orden y fuente de cada dato (todo se guarda en `jornadas/AAAA-MM-DD/` apenas se 
 - **No pisar archivos de la tanda anterior:** `cache_jugadores.py cola` reescribe `jugadores_cola.json` y `jugadores_en_decod.py` reescribe `jugadores/crudo_flashscore_en.json`: renombrarlos antes (`*_champions.json`).
 - **Playoffs sin tabla:** en Flashscore la pestaña «Standings» de un playoff es el cuadro; la fase sale en el rótulo del resumen («QUARTER-FINALS», «First leg»): anotarla a mano en `notas/<clave>.json → se_juega`.
 - **Ritmo medido:** 86 partidos de jugadores en 11 rondas de 4 pestañas × 2 partidos (≈ 25 min), 0 fallos.
+
+## Lecciones 25-nov (historial por jugador, 492 partidos)
+- El iframe (`pjPar`) da falsos «sin tabla de jugadores (filas 0)» en lecturas largas (comprobado a mano: Zagreb–Anderlecht, Riga, Sunderland–Zagreb sí tienen tabla). Solo fiarse de él en las primeras ~40 lecturas con la página recién cargada, ≤ 4 trabajadores; la pestaña se cae a los ~10 min («page load failed»): navegar de nuevo y relanzar (lo leído sigue en localStorage).
+- Lectura fiable: pestaña de nivel superior, `navigate` a `/match/football/<mid>/?mid=<mid>` + `(0,eval)(localStorage.pjsrc); await window.pjTop()` (guarda `pjE_<mid>`; ~7 s por partido; hasta 3 pestañas en paralelo, 3 partidos por llamada). La URL con otro slug da 404.
+- No usar `__descargarLote` (borra todos los `pjE_`); bajar con Blob propio + hash.
+- Orden de la cola: priorizar por hora del partido deja primero ligas sin tabla (Kazajistán, Bosnia, Copa de Suiza): mejor leer primero equipos de ligas grandes. El orden de `forma[..].stats` es [equipo, rival], no [local, visitante].
+- Ligas probadas sin «Player stats»: Kazajistán, Bosnia, Copa de Suiza.
