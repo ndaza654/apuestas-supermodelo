@@ -25,7 +25,7 @@
       for (const a of d2.querySelectorAll('a[href*="/en/referee/"]')) { const hr = a.getAttribute('href'); if (seen.has(hr)) continue; const tx = (a.closest('tr,li,div') || a).textContent.replace(/\s+/g, ' ').trim(); if (/Calculated from|View profile/.test(tx)) continue; seen.add(hr);
         const m = tx.match(/^(.*?) (\d+) PJ/); const pj = m ? +m[2] : 0; let rest = m ? m[1] : tx, pais = null; for (const p of PAISES) if (rest.endsWith(' ' + p)) { pais = p; rest = rest.slice(0, -p.length - 1); break; } cand.push({ hr, tx, pj, pais, nm: rest }); } }
     let c = cand.filter(x => (!CP[pa] || x.pais === CP[pa]) && ap.some(w => norm(x.nm).includes(norm(w).slice(0, 5))));
-    const ci = c.filter(x => ini && (norm(x.nm).replace(/[^a-z ]/g, '').split(' ')[0] || '')[0] === ini);   // inicial del primer nombre if (ci.length) c = ci;
+    const ci = c.filter(x => ini && (norm(x.nm).replace(/[^a-z ]/g, '').split(' ')[0] || '')[0] === ini); if (ci.length) c = ci;   // inicial del primer nombre (antes esta instrucción quedaba dentro del comentario y no se aplicaba: 25-nov, Bell E. → J. Bell)
     c.sort((x, y) => y.pj - x.pj);
     if (!c.length) { window.__ref[slug] = { arbitro: nom, error: 'sin candidato', cand: cand.slice(0, 4).map(x => x.tx) }; return; }
     const hr = c[0].hr; const pg = await (await fetch(hr)).text(); const dd = new DOMParser().parseFromString(pg, 'text/html'); dd.querySelectorAll('script,style,noscript').forEach(x => x.remove());
