@@ -7,6 +7,8 @@ Se regenera con `python3 recoleccion/mercados_por_liga.py`. Fracción = en qué 
 | Liga de Naciones | 46 | 91% | 96% | 91% | 91% | 70% | al_arco, anota_o_asiste, asiste, atajadas, entradas, faltas, remates | 2026-11-17 |
 | Brasileirao - Serie A | 19 | 100% | 100% | 100% | 84% | 100% | al_arco, anota_o_asiste, asiste, atajadas, entradas, faltas, remates | 2026-11-25 |
 | Champions League | 18 | 100% | 100% | 100% | 100% | 100% | al_arco, anota_o_asiste, asiste, atajadas, entradas, faltas, remates | 2026-11-25 |
+| Conference League | 18 | 100% | 100% | 100% | 100% | 100% | al_arco, anota_o_asiste, asiste, atajadas, remates | 2026-11-26 |
+| Europa League | 18 | 100% | 100% | 100% | 100% | 100% | al_arco, anota_o_asiste, asiste, atajadas, remates | 2026-11-26 |
 | AFC Champions League Elite | 15 | 100% | 0% | 80% | 0% | 0% | — | 2026-11-25 |
 | Categoría Primera A | 12 | 100% | 92% | 67% | 0% | 0% | — | 2026-11-25 |
 | Ligue 1 | 12 | 100% | 75% | 75% | 25% | 75% | al_arco, anota_o_asiste, asiste, atajadas, entradas, faltas, remates | 2026-11-22 |
