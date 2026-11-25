@@ -389,3 +389,6 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 
 ## 25-nov-2026 (12:15) · medición del contexto y regla «contexto manda»
 - 35.611 líneas calificadas: situación a favor en totales −6,7 pts frente al precio (67 partidos, IC −13,3 a −0,4); en líneas de equipo +0,9 (IC −5,4 a +7,2); «necesita ganar» no aumenta lo producido sobre el esperado (−0,04 en 52 partidos). Datos a favor +1,6 (dentro del ruido). No se confirma ni se descarta: pocas banderas (20–23 nov sin banderas). Propuesta pendiente: guion comprobable en cada nota. Regla del usuario guardada. Detalle: `entregas/2026-11-25/1215_medicion_contexto.md`.
+
+## 25-nov-2026 (12:35) · auditoría de puntos flojos y guion comprobable
+- Regla del usuario corregida (la prioridad no es ganarle a la casa; sin ejemplos). Guion aprobado: `recoleccion/calificar_guion.py` (probado con un caso sintético). Auditoría: banderas de contexto casi ausentes del 20 al 26-nov (4 de 181 partidos salvo 24-nov), cuotas con una sola lectura en 10 de 17 jornadas, modelo = precio (Brier 0,1836 ambos), líneas de jugador ROI plano −61,6 %, boletos de cuota 5–8 −17,8 % con 45 % de lo jugado. Detalle: `entregas/2026-11-25/1235_auditoria_puntos_flojos.md`.

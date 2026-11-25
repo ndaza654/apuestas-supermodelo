@@ -15,7 +15,9 @@ NOTAS (jornadas/<día>/notas/<clave>.json), todos los campos opcionales:
   {"se_juega": "texto corto", "tabla": "texto corto", "importancia": "alta|normal|baja", "decisivo": true, "derbi": false, "nada_en_juego": false,
    "local":     {"necesita_ganar": true, "le_sirve_empate": false, "rotacion": false, "animo": "texto corto"},
    "visitante": {...igual...},
-   "arbitro": "texto corto si se leyó algo del árbitro", "onces": "texto corto", "fuentes": ["Flashscore tabla 13:50"]}
+   "arbitro": "texto corto si se leyó algo del árbitro", "onces": "texto corto", "fuentes": ["Flashscore tabla 13:50"],
+   "guion": {"resumen": "...", "domina": "local|visitante|parejo", "ritmo": "abierto|cerrado", "predicciones": [{"tipo": "mas_remates", "equipo": "local"}]}}
+  El «guion» (desde el 25-nov-2026) se escribe ANTES del partido y se califica después con recoleccion/calificar_guion.py (formato completo allí).
 """
 import os, sys, json, glob
 
