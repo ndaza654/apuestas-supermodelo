@@ -74,14 +74,24 @@ def fusionar_sofascore(fs, sf):
         return fs, None
     out = dict(fs or {})
     out.setdefault('mid', sf.get('mid'))
-    out['forma'] = sf['forma']
+    out['forma'] = {l: [dict(e) for e in sf['forma'][l]] for l in ('local', 'visitante')}
+    rell = 0
+    for l in ('local', 'visitante'):                             # partido sin estadísticas en Sofascore y con ellas en Flashscore (misma fecha y marcador): se rellena y se declara
+        idx = {(e['fecha'], tuple(e['g'])): e for e in ((fs or {}).get('forma') or {}).get(l, []) if e.get('stats')}
+        for e in out['forma'][l]:
+            o = None if e.get('stats') else idx.get((e['fecha'], tuple(e['g'])))
+            if o:
+                e['stats'], e['stats_1t'], e['fuente'] = o['stats'], o.get('stats_1t', {}), 'Flashscore'
+                rell += 1
     if sf.get('h2h') or not out.get('h2h'):
         out['h2h'] = sf.get('h2h', [])
     if not out.get('arbitro') and sf.get('arbitro'):
         out['arbitro'], out['arbitro_pais'] = sf['arbitro'], sf.get('arbitro_pais')
     out['arbitro_sofa'] = sf.get('arbitro_sofa')
     out['estadio'] = out.get('estadio') or sf.get('estadio')
-    out['avisos'] = list(sf.get('avisos', []))
+    out['avisos'] = [a for a in sf.get('avisos', []) if not (rell and a.startswith(('local: sin estadísticas', 'visitante: sin estadísticas')))]
+    if rell:
+        out['avisos'].append(f'{rell} partido(s) sin estadísticas en Sofascore se rellenaron con las de Flashscore (misma fecha y marcador)')
     out['fuente_forma'] = 'Sofascore'
     ctr = None
     if fs and fs.get('forma'):

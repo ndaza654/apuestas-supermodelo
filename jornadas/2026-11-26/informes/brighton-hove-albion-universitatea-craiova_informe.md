@@ -16,7 +16,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de Brighto
 | Tarjetas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 5 jugadores con titularidad dudosa: esperar el once |
 | Ambos marcan | ⛔ en contra | Universitatea Craiova marca poco en este partido |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -67,7 +67,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates Más 28.5 | 1.60 | 59 % | 54 % | Partido abierto (ambos marcan y 3+ goles) (68 %) | Empate (50 %) | Cara |
 | Tiros al arco | Tiros al arco Brighton & Hove Albion Más 5.5 | 1.36 | 69 % | 60 % | Partido abierto (ambos marcan y 3+ goles) (78 %) | Sorpresa: gana el no favorito (32 %) | Alta probabilidad · cuota por debajo de la justa |
 | Fueras de lugar | Fueras de lugar Universitatea Craiova Más 1.5 | 1.55 | 62 % | 61 % | Favorito golpea temprano y gana (63 %) | Sorpresa: gana el no favorito (54 %) | Justa |
-| Jugadores | Lewis Dunk anota o asiste | 5.00 | 19 % | 15 % | Partido abierto (ambos marcan y 3+ goles) (22 %) | Sorpresa: gana el no favorito (4 %) | Cara |
+| Jugadores | Michael Svoboda anota o asiste | 5.40 | 18 % | 14 % | Favorito golpea temprano y gana (20 %) | Empate (4 %) | Cara |
 | Quién saca más | Más tarjetas: Universitatea Craiova | 1.57 | 61 % | 59 % | Expulsión antes del 70′ (65 %) | Favorito golpea temprano y gana (59 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.

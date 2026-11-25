@@ -13,7 +13,7 @@ Enfoque: mirar primero Goles del partido (Más), Ambos marcan.
 | Resultado / hándicap | ➖ neutro | Bayer 04 Leverkusen favorito leve: el precio ya lo recoge |
 | Córners totales | ➖ neutro | ni a favor ni en contra |
 | Tarjetas y faltas | ➖ neutro | árbitro sin dato |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 9 jugadores con titularidad dudosa: esperar el once |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
 
@@ -94,7 +94,7 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Tarjetas Menos 4.5 | 1.38 | 70 % | 70 % | 70 % | +0 pts | -4 % | 69 % | +0.4 | 1.47 | Expulsión antes del 70′ | Alta probabilidad |
 | Córners 1.er tiempo Menos 5.5 | 1.40 | 70 % | 69 % | 70 % | +0 pts | -2 % | 68 % | +0.5 | 1.48 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
 | Córners Más 8.0 | 1.52 | 70 % | 69 % | 70 % | +0 pts | +6 % | 57 % | +0.5 | 1.48 | Favorito golpea temprano y gana | Alta probabilidad · Valor · asiática: devuelve 11 % |
-| Naba Mensah remates 1+ | 1.26 | 70 % | 71 % | 70 % | +0 pts | -12 % | 68 % | — | 1.48 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| Naba Mensah remates 1+ | 1.26 | 69 % | 71 % | 69 % | +0 pts | -13 % | 67 % | — | 1.49 | Empate | Alta probabilidad · cuota por debajo de la justa |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |

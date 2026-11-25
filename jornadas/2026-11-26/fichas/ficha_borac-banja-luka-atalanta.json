@@ -12,17 +12,17 @@
  "corners": {
   "mercado": "corners",
   "titulo": "Córners",
-  "n_local": 9,
+  "n_local": 8,
   "n_visitante": 10,
   "n_directos": 0,
   "esperado": {
-   "local": 5.86,
-   "visitante": 4.45,
-   "total": 10.31
+   "local": 6.12,
+   "visitante": 4.58,
+   "total": 10.7
   },
   "promedios": {
-   "local_a_favor": 6.22,
-   "local_en_contra": 3.0,
+   "local_a_favor": 6.75,
+   "local_en_contra": 3.25,
    "visitante_a_favor": 5.9,
    "visitante_en_contra": 5.5
   },
@@ -34,7 +34,7 @@
     ],
     [
      9.0,
-     1.0
+     2.0
     ],
     [
      6.0,
@@ -58,10 +58,6 @@
     ],
     [
      7.0,
-     2.0
-    ],
-    [
-     2.0,
      2.0
     ]
    ],
@@ -366,14 +362,14 @@
    {
     "ambito": "local",
     "linea": 1.5,
-    "esperado": 5.86,
+    "esperado": 6.12,
     "mas": {
      "cuota": 1.09,
-     "colchon": 4.36,
+     "colchon": 4.62,
      "reg_local": {
-      "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "x": 7,
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -387,11 +383,11 @@
     },
     "menos": {
      "cuota": 6.6,
-     "colchon": -4.36,
+     "colchon": -4.62,
      "reg_local": {
       "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -407,14 +403,14 @@
    {
     "ambito": "local",
     "linea": 2.5,
-    "esperado": 5.86,
+    "esperado": 6.12,
     "mas": {
      "cuota": 1.29,
-     "colchon": 3.36,
+     "colchon": 3.62,
      "reg_local": {
       "x": 7,
-      "n": 9,
-      "txt": "7 de 9",
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -428,11 +424,11 @@
     },
     "menos": {
      "cuota": 3.4,
-     "colchon": -3.36,
+     "colchon": -3.62,
      "reg_local": {
-      "x": 2,
-      "n": 9,
-      "txt": "2 de 9",
+      "x": 1,
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -448,14 +444,14 @@
    {
     "ambito": "local",
     "linea": 3.5,
-    "esperado": 5.86,
+    "esperado": 6.12,
     "mas": {
      "cuota": 1.67,
-     "colchon": 2.36,
+     "colchon": 2.62,
      "reg_local": {
       "x": 7,
-      "n": 9,
-      "txt": "7 de 9",
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -469,11 +465,11 @@
     },
     "menos": {
      "cuota": 2.1,
-     "colchon": -2.36,
+     "colchon": -2.62,
      "reg_local": {
-      "x": 2,
-      "n": 9,
-      "txt": "2 de 9",
+      "x": 1,
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -489,14 +485,14 @@
    {
     "ambito": "local",
     "linea": 4.5,
-    "esperado": 5.86,
+    "esperado": 6.12,
     "mas": {
      "cuota": 2.47,
-     "colchon": 1.36,
+     "colchon": 1.62,
      "reg_local": {
       "x": 7,
-      "n": 9,
-      "txt": "7 de 9",
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -510,11 +506,11 @@
     },
     "menos": {
      "cuota": 1.5,
-     "colchon": -1.36,
+     "colchon": -1.62,
      "reg_local": {
-      "x": 2,
-      "n": 9,
-      "txt": "2 de 9",
+      "x": 1,
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -530,14 +526,14 @@
    {
     "ambito": "local",
     "linea": 5.5,
-    "esperado": 5.86,
+    "esperado": 6.12,
     "mas": {
      "cuota": 3.9,
-     "colchon": 0.36,
+     "colchon": 0.62,
      "reg_local": {
       "x": 6,
-      "n": 9,
-      "txt": "6 de 9",
+      "n": 8,
+      "txt": "6 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -551,11 +547,11 @@
     },
     "menos": {
      "cuota": 1.23,
-     "colchon": -0.36,
+     "colchon": -0.62,
      "reg_local": {
-      "x": 3,
-      "n": 9,
-      "txt": "3 de 9",
+      "x": 2,
+      "n": 8,
+      "txt": "2 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -571,14 +567,14 @@
    {
     "ambito": "local",
     "linea": 6.5,
-    "esperado": 5.86,
+    "esperado": 6.12,
     "mas": {
      "cuota": 6.1,
-     "colchon": -0.64,
+     "colchon": -0.38,
      "reg_local": {
       "x": 5,
-      "n": 9,
-      "txt": "5 de 9",
+      "n": 8,
+      "txt": "5 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -592,11 +588,11 @@
     },
     "menos": {
      "cuota": 1.1,
-     "colchon": 0.64,
+     "colchon": 0.38,
      "reg_local": {
-      "x": 4,
-      "n": 9,
-      "txt": "4 de 9",
+      "x": 3,
+      "n": 8,
+      "txt": "3 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -612,14 +608,14 @@
    {
     "ambito": "local",
     "linea": 7.5,
-    "esperado": 5.86,
+    "esperado": 6.12,
     "mas": {
      "cuota": 9.25,
-     "colchon": -1.64,
+     "colchon": -1.38,
      "reg_local": {
       "x": 3,
-      "n": 9,
-      "txt": "3 de 9",
+      "n": 8,
+      "txt": "3 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -633,11 +629,11 @@
     },
     "menos": {
      "cuota": 1.04,
-     "colchon": 1.64,
+     "colchon": 1.38,
      "reg_local": {
-      "x": 6,
-      "n": 9,
-      "txt": "6 de 9",
+      "x": 5,
+      "n": 8,
+      "txt": "5 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -653,14 +649,14 @@
    {
     "ambito": "total",
     "linea": 4.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 1.04,
-     "colchon": 6.31,
+     "colchon": 6.7,
      "reg_local": {
       "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -674,11 +670,11 @@
     },
     "menos": {
      "cuota": 12.5,
-     "colchon": -6.31,
+     "colchon": -6.7,
      "reg_local": {
       "x": 0,
-      "n": 9,
-      "txt": "0 de 9",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -694,14 +690,14 @@
    {
     "ambito": "total",
     "linea": 4.5,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 1.04,
-     "colchon": 5.81,
+     "colchon": 6.2,
      "reg_local": {
       "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -715,11 +711,11 @@
     },
     "menos": {
      "cuota": 9.5,
-     "colchon": -5.81,
+     "colchon": -6.2,
      "reg_local": {
-      "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "x": 0,
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -735,14 +731,14 @@
    {
     "ambito": "total",
     "linea": 5.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 1.09,
-     "colchon": 5.31,
+     "colchon": 5.7,
      "reg_local": {
       "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -756,11 +752,11 @@
     },
     "menos": {
      "cuota": 9.5,
-     "colchon": -5.31,
+     "colchon": -5.7,
      "reg_local": {
-      "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "x": 0,
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -776,14 +772,14 @@
    {
     "ambito": "total",
     "linea": 5.5,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 1.09,
-     "colchon": 4.81,
+     "colchon": 5.2,
      "reg_local": {
       "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -797,11 +793,11 @@
     },
     "menos": {
      "cuota": 6.6,
-     "colchon": -4.81,
+     "colchon": -5.2,
      "reg_local": {
-      "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "x": 0,
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -817,14 +813,14 @@
    {
     "ambito": "total",
     "linea": 6.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 1.19,
-     "colchon": 4.31,
+     "colchon": 4.7,
      "reg_local": {
       "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -838,11 +834,11 @@
     },
     "menos": {
      "cuota": 6.6,
-     "colchon": -4.31,
+     "colchon": -4.7,
      "reg_local": {
-      "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "x": 0,
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -858,14 +854,14 @@
    {
     "ambito": "total",
     "linea": 6.5,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 1.19,
-     "colchon": 3.81,
+     "colchon": 4.2,
      "reg_local": {
       "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -879,11 +875,11 @@
     },
     "menos": {
      "cuota": 4.3,
-     "colchon": -3.81,
+     "colchon": -4.2,
      "reg_local": {
-      "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "x": 0,
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -899,14 +895,14 @@
    {
     "ambito": "total",
     "linea": 7.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 1.37,
-     "colchon": 3.31,
+     "colchon": 3.7,
      "reg_local": {
       "x": 7,
-      "n": 9,
-      "txt": "7 de 9",
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -920,11 +916,11 @@
     },
     "menos": {
      "cuota": 4.3,
-     "colchon": -3.31,
+     "colchon": -3.7,
      "reg_local": {
-      "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "x": 0,
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -940,14 +936,14 @@
    {
     "ambito": "total",
     "linea": 7.5,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 1.37,
-     "colchon": 2.81,
+     "colchon": 3.2,
      "reg_local": {
       "x": 7,
-      "n": 9,
-      "txt": "7 de 9",
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -961,11 +957,11 @@
     },
     "menos": {
      "cuota": 2.95,
-     "colchon": -2.81,
+     "colchon": -3.2,
      "reg_local": {
-      "x": 2,
-      "n": 9,
-      "txt": "2 de 9",
+      "x": 1,
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -981,14 +977,14 @@
    {
     "ambito": "total",
     "linea": 8.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 1.65,
-     "colchon": 2.31,
+     "colchon": 2.7,
      "reg_local": {
       "x": 7,
-      "n": 9,
-      "txt": "7 de 9",
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1002,11 +998,11 @@
     },
     "menos": {
      "cuota": 2.95,
-     "colchon": -2.31,
+     "colchon": -2.7,
      "reg_local": {
-      "x": 2,
-      "n": 9,
-      "txt": "2 de 9",
+      "x": 1,
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1022,14 +1018,14 @@
    {
     "ambito": "total",
     "linea": 8.5,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 1.65,
-     "colchon": 1.81,
+     "colchon": 2.2,
      "reg_local": {
       "x": 7,
-      "n": 9,
-      "txt": "7 de 9",
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1043,11 +1039,11 @@
     },
     "menos": {
      "cuota": 2.15,
-     "colchon": -1.81,
+     "colchon": -2.2,
      "reg_local": {
-      "x": 2,
-      "n": 9,
-      "txt": "2 de 9",
+      "x": 1,
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1063,14 +1059,14 @@
    {
     "ambito": "total",
     "linea": 9.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 2.1,
-     "colchon": 1.31,
+     "colchon": 1.7,
      "reg_local": {
       "x": 5,
-      "n": 9,
-      "txt": "5 de 9",
+      "n": 8,
+      "txt": "5 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1084,11 +1080,11 @@
     },
     "menos": {
      "cuota": 2.15,
-     "colchon": -1.31,
+     "colchon": -1.7,
      "reg_local": {
-      "x": 2,
-      "n": 9,
-      "txt": "2 de 9",
+      "x": 1,
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1104,14 +1100,14 @@
    {
     "ambito": "total",
     "linea": 9.5,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 2.1,
-     "colchon": 0.81,
+     "colchon": 1.2,
      "reg_local": {
       "x": 5,
-      "n": 9,
-      "txt": "5 de 9",
+      "n": 8,
+      "txt": "5 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1125,11 +1121,11 @@
     },
     "menos": {
      "cuota": 1.67,
-     "colchon": -0.81,
+     "colchon": -1.2,
      "reg_local": {
-      "x": 4,
-      "n": 9,
-      "txt": "4 de 9",
+      "x": 3,
+      "n": 8,
+      "txt": "3 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1145,14 +1141,14 @@
    {
     "ambito": "total",
     "linea": 10.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 2.82,
-     "colchon": 0.31,
+     "colchon": 0.7,
      "reg_local": {
-      "x": 3,
-      "n": 9,
-      "txt": "3 de 9",
+      "x": 4,
+      "n": 8,
+      "txt": "4 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1166,11 +1162,11 @@
     },
     "menos": {
      "cuota": 1.67,
-     "colchon": -0.31,
+     "colchon": -0.7,
      "reg_local": {
-      "x": 4,
-      "n": 9,
-      "txt": "4 de 9",
+      "x": 3,
+      "n": 8,
+      "txt": "3 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1186,14 +1182,14 @@
    {
     "ambito": "total",
     "linea": 10.5,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 2.82,
-     "colchon": -0.19,
+     "colchon": 0.2,
      "reg_local": {
-      "x": 3,
-      "n": 9,
-      "txt": "3 de 9",
+      "x": 4,
+      "n": 8,
+      "txt": "4 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1207,11 +1203,11 @@
     },
     "menos": {
      "cuota": 1.4,
-     "colchon": 0.19,
+     "colchon": -0.2,
      "reg_local": {
-      "x": 6,
-      "n": 9,
-      "txt": "6 de 9",
+      "x": 4,
+      "n": 8,
+      "txt": "4 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1227,14 +1223,14 @@
    {
     "ambito": "total",
     "linea": 11.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 3.9,
-     "colchon": -0.69,
+     "colchon": -0.3,
      "reg_local": {
       "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1248,11 +1244,11 @@
     },
     "menos": {
      "cuota": 1.4,
-     "colchon": 0.69,
+     "colchon": 0.3,
      "reg_local": {
-      "x": 6,
-      "n": 9,
-      "txt": "6 de 9",
+      "x": 4,
+      "n": 8,
+      "txt": "4 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1268,14 +1264,14 @@
    {
     "ambito": "total",
     "linea": 11.5,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 3.9,
-     "colchon": -1.19,
+     "colchon": -0.8,
      "reg_local": {
       "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1289,11 +1285,11 @@
     },
     "menos": {
      "cuota": 1.23,
-     "colchon": 1.19,
+     "colchon": 0.8,
      "reg_local": {
-      "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "x": 7,
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1309,14 +1305,14 @@
    {
     "ambito": "total",
     "linea": 12.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 5.4,
-     "colchon": -1.69,
+     "colchon": -1.3,
      "reg_local": {
       "x": 0,
-      "n": 9,
-      "txt": "0 de 9",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1330,11 +1326,11 @@
     },
     "menos": {
      "cuota": 1.23,
-     "colchon": 1.69,
+     "colchon": 1.3,
      "reg_local": {
-      "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "x": 7,
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1350,14 +1346,14 @@
    {
     "ambito": "total",
     "linea": 12.5,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 5.4,
-     "colchon": -2.19,
+     "colchon": -1.8,
      "reg_local": {
       "x": 0,
-      "n": 9,
-      "txt": "0 de 9",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1371,11 +1367,11 @@
     },
     "menos": {
      "cuota": 1.13,
-     "colchon": 2.19,
+     "colchon": 1.8,
      "reg_local": {
-      "x": 9,
-      "n": 9,
-      "txt": "9 de 9",
+      "x": 8,
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1391,14 +1387,14 @@
    {
     "ambito": "total",
     "linea": 13.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 7.3,
-     "colchon": -2.69,
+     "colchon": -2.3,
      "reg_local": {
       "x": 0,
-      "n": 9,
-      "txt": "0 de 9",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1412,11 +1408,11 @@
     },
     "menos": {
      "cuota": 1.13,
-     "colchon": 2.69,
+     "colchon": 2.3,
      "reg_local": {
-      "x": 9,
-      "n": 9,
-      "txt": "9 de 9",
+      "x": 8,
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1432,14 +1428,14 @@
    {
     "ambito": "total",
     "linea": 13.5,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 7.3,
-     "colchon": -3.19,
+     "colchon": -2.8,
      "reg_local": {
       "x": 0,
-      "n": 9,
-      "txt": "0 de 9",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1453,11 +1449,11 @@
     },
     "menos": {
      "cuota": 1.07,
-     "colchon": 3.19,
+     "colchon": 2.8,
      "reg_local": {
-      "x": 9,
-      "n": 9,
-      "txt": "9 de 9",
+      "x": 8,
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1473,14 +1469,14 @@
    {
     "ambito": "total",
     "linea": 14.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 9.5,
-     "colchon": -3.69,
+     "colchon": -3.3,
      "reg_local": {
       "x": 0,
-      "n": 9,
-      "txt": "0 de 9",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1494,11 +1490,11 @@
     },
     "menos": {
      "cuota": 1.07,
-     "colchon": 3.69,
+     "colchon": 3.3,
      "reg_local": {
-      "x": 9,
-      "n": 9,
-      "txt": "9 de 9",
+      "x": 8,
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1514,14 +1510,14 @@
    {
     "ambito": "total",
     "linea": 14.5,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 9.5,
-     "colchon": -4.19,
+     "colchon": -3.8,
      "reg_local": {
       "x": 0,
-      "n": 9,
-      "txt": "0 de 9",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1535,11 +1531,11 @@
     },
     "menos": {
      "cuota": 1.04,
-     "colchon": 4.19,
+     "colchon": 3.8,
      "reg_local": {
-      "x": 9,
-      "n": 9,
-      "txt": "9 de 9",
+      "x": 8,
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1555,14 +1551,14 @@
    {
     "ambito": "total",
     "linea": 15.0,
-    "esperado": 10.31,
+    "esperado": 10.7,
     "mas": {
      "cuota": 11.5,
-     "colchon": -4.69,
+     "colchon": -4.3,
      "reg_local": {
       "x": 0,
-      "n": 9,
-      "txt": "0 de 9",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1576,11 +1572,11 @@
     },
     "menos": {
      "cuota": 1.04,
-     "colchon": 4.69,
+     "colchon": 4.3,
      "reg_local": {
-      "x": 9,
-      "n": 9,
-      "txt": "9 de 9",
+      "x": 8,
+      "n": 8,
+      "txt": "8 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1596,14 +1592,14 @@
    {
     "ambito": "visitante",
     "linea": 2.5,
-    "esperado": 4.45,
+    "esperado": 4.58,
     "mas": {
      "cuota": 1.1,
-     "colchon": 1.95,
+     "colchon": 2.08,
      "reg_local": {
       "x": 3,
-      "n": 9,
-      "txt": "3 de 9",
+      "n": 8,
+      "txt": "3 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1617,11 +1613,11 @@
     },
     "menos": {
      "cuota": 6.3,
-     "colchon": -1.95,
+     "colchon": -2.08,
      "reg_local": {
-      "x": 6,
-      "n": 9,
-      "txt": "6 de 9",
+      "x": 5,
+      "n": 8,
+      "txt": "5 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1637,14 +1633,14 @@
    {
     "ambito": "visitante",
     "linea": 3.5,
-    "esperado": 4.45,
+    "esperado": 4.58,
     "mas": {
      "cuota": 1.27,
-     "colchon": 0.95,
+     "colchon": 1.08,
      "reg_local": {
       "x": 3,
-      "n": 9,
-      "txt": "3 de 9",
+      "n": 8,
+      "txt": "3 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1658,11 +1654,11 @@
     },
     "menos": {
      "cuota": 3.55,
-     "colchon": -0.95,
+     "colchon": -1.08,
      "reg_local": {
-      "x": 6,
-      "n": 9,
-      "txt": "6 de 9",
+      "x": 5,
+      "n": 8,
+      "txt": "5 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1678,14 +1674,14 @@
    {
     "ambito": "visitante",
     "linea": 4.5,
-    "esperado": 4.45,
+    "esperado": 4.58,
     "mas": {
      "cuota": 1.6,
-     "colchon": -0.05,
+     "colchon": 0.08,
      "reg_local": {
       "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1699,11 +1695,11 @@
     },
     "menos": {
      "cuota": 2.27,
-     "colchon": 0.05,
+     "colchon": -0.08,
      "reg_local": {
-      "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "x": 7,
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1719,14 +1715,14 @@
    {
     "ambito": "visitante",
     "linea": 5.5,
-    "esperado": 4.45,
+    "esperado": 4.58,
     "mas": {
      "cuota": 2.15,
-     "colchon": -1.05,
+     "colchon": -0.92,
      "reg_local": {
       "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1740,11 +1736,11 @@
     },
     "menos": {
      "cuota": 1.65,
-     "colchon": 1.05,
+     "colchon": 0.92,
      "reg_local": {
-      "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "x": 7,
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1760,14 +1756,14 @@
    {
     "ambito": "visitante",
     "linea": 6.5,
-    "esperado": 4.45,
+    "esperado": 4.58,
     "mas": {
      "cuota": 3.2,
-     "colchon": -2.05,
+     "colchon": -1.92,
      "reg_local": {
       "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1781,11 +1777,11 @@
     },
     "menos": {
      "cuota": 1.32,
-     "colchon": 2.05,
+     "colchon": 1.92,
      "reg_local": {
-      "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "x": 7,
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1801,14 +1797,14 @@
    {
     "ambito": "visitante",
     "linea": 7.5,
-    "esperado": 4.45,
+    "esperado": 4.58,
     "mas": {
      "cuota": 4.75,
-     "colchon": -3.05,
+     "colchon": -2.92,
      "reg_local": {
       "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1822,11 +1818,11 @@
     },
     "menos": {
      "cuota": 1.16,
-     "colchon": 3.05,
+     "colchon": 2.92,
      "reg_local": {
-      "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "x": 7,
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1842,14 +1838,14 @@
    {
     "ambito": "visitante",
     "linea": 8.5,
-    "esperado": 4.45,
+    "esperado": 4.58,
     "mas": {
      "cuota": 7.1,
-     "colchon": -4.05,
+     "colchon": -3.92,
      "reg_local": {
       "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1863,11 +1859,11 @@
     },
     "menos": {
      "cuota": 1.08,
-     "colchon": 4.05,
+     "colchon": 3.92,
      "reg_local": {
-      "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "x": 7,
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1883,14 +1879,14 @@
    {
     "ambito": "visitante",
     "linea": 9.5,
-    "esperado": 4.45,
+    "esperado": 4.58,
     "mas": {
      "cuota": 9.75,
-     "colchon": -5.05,
+     "colchon": -4.92,
      "reg_local": {
       "x": 1,
-      "n": 9,
-      "txt": "1 de 9",
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -1904,11 +1900,11 @@
     },
     "menos": {
      "cuota": 1.03,
-     "colchon": 5.05,
+     "colchon": 4.92,
      "reg_local": {
-      "x": 8,
-      "n": 9,
-      "txt": "8 de 9",
+      "x": 7,
+      "n": 8,
+      "txt": "7 de 8",
       "cumple": true
      },
      "reg_visitante": {
@@ -1927,25 +1923,41 @@
   "faltas": {
    "mercado": "faltas",
    "titulo": "Faltas",
-   "n_local": 3,
+   "n_local": 8,
    "n_visitante": 10,
    "n_directos": 0,
    "esperado": {
-    "local": 12.27,
-    "visitante": 12.65,
-    "total": 24.92
+    "local": 10.47,
+    "visitante": 12.84,
+    "total": 23.31
    },
    "promedios": {
-    "local_a_favor": 15.33,
-    "local_en_contra": 15.0,
+    "local_a_favor": 11.75,
+    "local_en_contra": 15.38,
     "visitante_a_favor": 10.3,
     "visitante_en_contra": 9.2
    },
    "series": {
     "local": [
      [
+      10.0,
+      22.0
+     ],
+     [
+      9.0,
+      12.0
+     ],
+     [
       12.0,
       16.0
+     ],
+     [
+      10.0,
+      9.0
+     ],
+     [
+      10.0,
+      19.0
      ],
      [
       17.0,
@@ -1954,6 +1966,10 @@
      [
       17.0,
       19.0
+     ],
+     [
+      9.0,
+      16.0
      ]
     ],
     "visitante": [
@@ -2004,14 +2020,14 @@
     {
      "ambito": "local",
      "linea": 11.5,
-     "esperado": 12.27,
+     "esperado": 10.47,
      "mas": {
       "cuota": 1.88,
-      "colchon": 0.77,
+      "colchon": -1.03,
       "reg_local": {
        "x": 3,
-       "n": 3,
-       "txt": "3 de 3",
+       "n": 8,
+       "txt": "3 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2025,11 +2041,11 @@
      },
      "menos": {
       "cuota": 1.87,
-      "colchon": -0.77,
+      "colchon": 1.03,
       "reg_local": {
-       "x": 0,
-       "n": 3,
-       "txt": "0 de 3",
+       "x": 5,
+       "n": 8,
+       "txt": "5 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2045,14 +2061,14 @@
     {
      "ambito": "total",
      "linea": 23.5,
-     "esperado": 24.92,
+     "esperado": 23.31,
      "mas": {
       "cuota": 1.75,
-      "colchon": 1.42,
+      "colchon": -0.19,
       "reg_local": {
-       "x": 3,
-       "n": 3,
-       "txt": "3 de 3",
+       "x": 6,
+       "n": 8,
+       "txt": "6 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2066,11 +2082,11 @@
      },
      "menos": {
       "cuota": 2.0,
-      "colchon": -1.42,
+      "colchon": 0.19,
       "reg_local": {
-       "x": 0,
-       "n": 3,
-       "txt": "0 de 3",
+       "x": 2,
+       "n": 8,
+       "txt": "2 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2086,14 +2102,14 @@
     {
      "ambito": "visitante",
      "linea": 12.5,
-     "esperado": 12.65,
+     "esperado": 12.84,
      "mas": {
       "cuota": 1.91,
-      "colchon": 0.15,
+      "colchon": 0.34,
       "reg_local": {
-       "x": 2,
-       "n": 3,
-       "txt": "2 de 3",
+       "x": 5,
+       "n": 8,
+       "txt": "5 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2107,11 +2123,11 @@
      },
      "menos": {
       "cuota": 1.83,
-      "colchon": -0.15,
+      "colchon": -0.34,
       "reg_local": {
-       "x": 1,
-       "n": 3,
-       "txt": "1 de 3",
+       "x": 3,
+       "n": 8,
+       "txt": "3 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2129,24 +2145,36 @@
   "fueras": {
    "mercado": "fueras",
    "titulo": "Fueras de juego",
-   "n_local": 3,
+   "n_local": 7,
    "n_visitante": 10,
    "n_directos": 0,
    "esperado": {
-    "local": 1.05,
-    "visitante": 1.45,
-    "total": 2.5
+    "local": 1.41,
+    "visitante": 1.38,
+    "total": 2.79
    },
    "promedios": {
-    "local_a_favor": 1.0,
-    "local_en_contra": 1.0,
+    "local_a_favor": 1.71,
+    "local_en_contra": 0.86,
     "visitante_a_favor": 1.9,
     "visitante_en_contra": 1.1
    },
    "series": {
     "local": [
      [
-      0.0,
+      1.0,
+      2.0
+     ],
+     [
+      1.0,
+      0.0
+     ],
+     [
+      4.0,
+      1.0
+     ],
+     [
+      2.0,
       0.0
      ],
      [
@@ -2156,6 +2184,10 @@
      [
       1.0,
       2.0
+     ],
+     [
+      1.0,
+      0.0
      ]
     ],
     "visitante": [
@@ -2217,15 +2249,15 @@
     {
      "ambito": "local",
      "linea": 0.5,
-     "esperado": 1.05,
+     "esperado": 1.41,
      "mas": {
       "cuota": 1.55,
-      "colchon": 0.55,
+      "colchon": 0.91,
       "reg_local": {
-       "x": 2,
-       "n": 3,
-       "txt": "2 de 3",
-       "cumple": false
+       "x": 7,
+       "n": 7,
+       "txt": "7 de 7",
+       "cumple": true
       },
       "reg_visitante": {
        "x": 5,
@@ -2238,11 +2270,11 @@
      },
      "menos": {
       "cuota": 2.35,
-      "colchon": -0.55,
+      "colchon": -0.91,
       "reg_local": {
-       "x": 1,
-       "n": 3,
-       "txt": "1 de 3",
+       "x": 0,
+       "n": 7,
+       "txt": "0 de 7",
        "cumple": false
       },
       "reg_visitante": {
@@ -2258,14 +2290,14 @@
     {
      "ambito": "total",
      "linea": 2.5,
-     "esperado": 2.5,
+     "esperado": 2.79,
      "mas": {
       "cuota": 1.78,
-      "colchon": 0.0,
+      "colchon": 0.29,
       "reg_local": {
-       "x": 2,
-       "n": 3,
-       "txt": "2 de 3",
+       "x": 4,
+       "n": 7,
+       "txt": "4 de 7",
        "cumple": false
       },
       "reg_visitante": {
@@ -2279,11 +2311,11 @@
      },
      "menos": {
       "cuota": 1.98,
-      "colchon": 0.0,
+      "colchon": -0.29,
       "reg_local": {
-       "x": 1,
-       "n": 3,
-       "txt": "1 de 3",
+       "x": 3,
+       "n": 7,
+       "txt": "3 de 7",
        "cumple": false
       },
       "reg_visitante": {
@@ -2299,14 +2331,14 @@
     {
      "ambito": "visitante",
      "linea": 1.5,
-     "esperado": 1.45,
+     "esperado": 1.38,
      "mas": {
       "cuota": 1.7,
-      "colchon": -0.05,
+      "colchon": -0.12,
       "reg_local": {
-       "x": 1,
-       "n": 3,
-       "txt": "1 de 3",
+       "x": 2,
+       "n": 7,
+       "txt": "2 de 7",
        "cumple": false
       },
       "reg_visitante": {
@@ -2320,11 +2352,11 @@
      },
      "menos": {
       "cuota": 2.07,
-      "colchon": 0.05,
+      "colchon": 0.12,
       "reg_local": {
-       "x": 2,
-       "n": 3,
-       "txt": "2 de 3",
+       "x": 5,
+       "n": 7,
+       "txt": "5 de 7",
        "cumple": false
       },
       "reg_visitante": {
@@ -2342,25 +2374,41 @@
   "saques_banda": {
    "mercado": "saques_banda",
    "titulo": "Saques de banda",
-   "n_local": 3,
+   "n_local": 8,
    "n_visitante": 10,
    "n_directos": 0,
    "esperado": {
-    "local": 16.03,
-    "visitante": 15.82,
-    "total": 31.85
+    "local": 16.51,
+    "visitante": 14.96,
+    "total": 31.48
    },
    "promedios": {
-    "local_a_favor": 16.67,
-    "local_en_contra": 15.33,
+    "local_a_favor": 17.62,
+    "local_en_contra": 13.62,
     "visitante_a_favor": 16.3,
     "visitante_en_contra": 15.4
    },
    "series": {
     "local": [
      [
+      17.0,
+      11.0
+     ],
+     [
+      15.0,
+      12.0
+     ],
+     [
       18.0,
       11.0
+     ],
+     [
+      26.0,
+      10.0
+     ],
+     [
+      17.0,
+      13.0
      ],
      [
       17.0,
@@ -2368,6 +2416,10 @@
      ],
      [
       15.0,
+      17.0
+     ],
+     [
+      16.0,
       17.0
      ]
     ],
@@ -2420,25 +2472,41 @@
   "saques_meta": {
    "mercado": "saques_meta",
    "titulo": "Saques de meta",
-   "n_local": 3,
+   "n_local": 8,
    "n_visitante": 10,
    "n_directos": 0,
    "esperado": {
-    "local": 7.62,
-    "visitante": 7.37,
-    "total": 14.98
+    "local": 6.45,
+    "visitante": 8.32,
+    "total": 14.77
    },
    "promedios": {
-    "local_a_favor": 7.33,
-    "local_en_contra": 6.33,
+    "local_a_favor": 5.0,
+    "local_en_contra": 8.25,
     "visitante_a_favor": 8.4,
     "visitante_en_contra": 7.9
    },
    "series": {
     "local": [
      [
+      8.0,
+      11.0
+     ],
+     [
+      2.0,
+      14.0
+     ],
+     [
       4.0,
       8.0
+     ],
+     [
+      2.0,
+      7.0
+     ],
+     [
+      1.0,
+      5.0
      ],
      [
       6.0,
@@ -2447,6 +2515,10 @@
      [
       12.0,
       3.0
+     ],
+     [
+      5.0,
+      10.0
      ]
     ],
     "visitante": [
@@ -2498,29 +2570,29 @@
   "remates": {
    "mercado": "remates",
    "titulo": "Remates",
-   "n_local": 9,
+   "n_local": 8,
    "n_visitante": 10,
    "n_directos": 0,
    "esperado": {
-    "local": 16.33,
-    "visitante": 13.3,
-    "total": 29.63
+    "local": 17.75,
+    "visitante": 13.68,
+    "total": 31.43
    },
    "promedios": {
-    "local_a_favor": 16.67,
-    "local_en_contra": 10.0,
+    "local_a_favor": 19.5,
+    "local_en_contra": 10.75,
     "visitante_a_favor": 16.6,
     "visitante_en_contra": 16.0
    },
    "series": {
     "local": [
      [
-      21.0,
-      6.0
+      25.0,
+      5.0
      ],
      [
-      22.0,
-      3.0
+      26.0,
+      7.0
      ],
      [
       15.0,
@@ -2528,11 +2600,11 @@
      ],
      [
       17.0,
-      11.0
+      9.0
      ],
      [
-      11.0,
-      0.0
+      20.0,
+      1.0
      ],
      [
       24.0,
@@ -2543,12 +2615,8 @@
       31.0
      ],
      [
-      21.0,
+      25.0,
       10.0
-     ],
-     [
-      15.0,
-      6.0
      ]
     ],
     "visitante": [
@@ -2599,14 +2667,14 @@
     {
      "ambito": "local",
      "linea": 10.5,
-     "esperado": 16.33,
+     "esperado": 17.75,
      "mas": {
       "cuota": 1.53,
-      "colchon": 5.83,
+      "colchon": 7.25,
       "reg_local": {
-       "x": 8,
-       "n": 9,
-       "txt": "8 de 9",
+       "x": 7,
+       "n": 8,
+       "txt": "7 de 8",
        "cumple": true
       },
       "reg_visitante": {
@@ -2620,11 +2688,11 @@
      },
      "menos": {
       "cuota": 2.4,
-      "colchon": -5.83,
+      "colchon": -7.25,
       "reg_local": {
        "x": 1,
-       "n": 9,
-       "txt": "1 de 9",
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2640,14 +2708,14 @@
     {
      "ambito": "local",
      "linea": 11.5,
-     "esperado": 16.33,
+     "esperado": 17.75,
      "mas": {
       "cuota": 1.85,
-      "colchon": 4.83,
+      "colchon": 6.25,
       "reg_local": {
        "x": 7,
-       "n": 9,
-       "txt": "7 de 9",
+       "n": 8,
+       "txt": "7 de 8",
        "cumple": true
       },
       "reg_visitante": {
@@ -2661,11 +2729,11 @@
      },
      "menos": {
       "cuota": 1.88,
-      "colchon": -4.83,
+      "colchon": -6.25,
       "reg_local": {
-       "x": 2,
-       "n": 9,
-       "txt": "2 de 9",
+       "x": 1,
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2681,14 +2749,14 @@
     {
      "ambito": "local",
      "linea": 12.5,
-     "esperado": 16.33,
+     "esperado": 17.75,
      "mas": {
       "cuota": 2.35,
-      "colchon": 3.83,
+      "colchon": 5.25,
       "reg_local": {
        "x": 7,
-       "n": 9,
-       "txt": "7 de 9",
+       "n": 8,
+       "txt": "7 de 8",
        "cumple": true
       },
       "reg_visitante": {
@@ -2702,11 +2770,11 @@
      },
      "menos": {
       "cuota": 1.55,
-      "colchon": -3.83,
+      "colchon": -5.25,
       "reg_local": {
-       "x": 2,
-       "n": 9,
-       "txt": "2 de 9",
+       "x": 1,
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2722,14 +2790,14 @@
     {
      "ambito": "total",
      "linea": 28.5,
-     "esperado": 29.63,
+     "esperado": 31.43,
      "mas": {
       "cuota": 1.6,
-      "colchon": 1.13,
+      "colchon": 2.93,
       "reg_local": {
-       "x": 3,
-       "n": 9,
-       "txt": "3 de 9",
+       "x": 5,
+       "n": 8,
+       "txt": "5 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2743,11 +2811,11 @@
      },
      "menos": {
       "cuota": 2.27,
-      "colchon": -1.13,
+      "colchon": -2.93,
       "reg_local": {
-       "x": 6,
-       "n": 9,
-       "txt": "6 de 9",
+       "x": 3,
+       "n": 8,
+       "txt": "3 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2763,14 +2831,14 @@
     {
      "ambito": "total",
      "linea": 29.5,
-     "esperado": 29.63,
+     "esperado": 31.43,
      "mas": {
       "cuota": 1.8,
-      "colchon": 0.13,
+      "colchon": 1.93,
       "reg_local": {
-       "x": 3,
-       "n": 9,
-       "txt": "3 de 9",
+       "x": 5,
+       "n": 8,
+       "txt": "5 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2784,11 +2852,11 @@
      },
      "menos": {
       "cuota": 1.95,
-      "colchon": -0.13,
+      "colchon": -1.93,
       "reg_local": {
-       "x": 6,
-       "n": 9,
-       "txt": "6 de 9",
+       "x": 3,
+       "n": 8,
+       "txt": "3 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2804,14 +2872,14 @@
     {
      "ambito": "total",
      "linea": 30.5,
-     "esperado": 29.63,
+     "esperado": 31.43,
      "mas": {
       "cuota": 2.05,
-      "colchon": -0.87,
+      "colchon": 0.93,
       "reg_local": {
-       "x": 3,
-       "n": 9,
-       "txt": "3 de 9",
+       "x": 4,
+       "n": 8,
+       "txt": "4 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2825,11 +2893,11 @@
      },
      "menos": {
       "cuota": 1.72,
-      "colchon": 0.87,
+      "colchon": -0.93,
       "reg_local": {
-       "x": 6,
-       "n": 9,
-       "txt": "6 de 9",
+       "x": 4,
+       "n": 8,
+       "txt": "4 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2845,14 +2913,14 @@
     {
      "ambito": "visitante",
      "linea": 17.5,
-     "esperado": 13.3,
+     "esperado": 13.68,
      "mas": {
       "cuota": 1.7,
-      "colchon": -4.2,
+      "colchon": -3.82,
       "reg_local": {
        "x": 1,
-       "n": 9,
-       "txt": "1 de 9",
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2866,11 +2934,11 @@
      },
      "menos": {
       "cuota": 2.07,
-      "colchon": 4.2,
+      "colchon": 3.82,
       "reg_local": {
-       "x": 8,
-       "n": 9,
-       "txt": "8 de 9",
+       "x": 7,
+       "n": 8,
+       "txt": "7 de 8",
        "cumple": true
       },
       "reg_visitante": {
@@ -2886,14 +2954,14 @@
     {
      "ambito": "visitante",
      "linea": 18.5,
-     "esperado": 13.3,
+     "esperado": 13.68,
      "mas": {
       "cuota": 2.0,
-      "colchon": -5.2,
+      "colchon": -4.82,
       "reg_local": {
        "x": 1,
-       "n": 9,
-       "txt": "1 de 9",
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2907,11 +2975,11 @@
      },
      "menos": {
       "cuota": 1.75,
-      "colchon": 5.2,
+      "colchon": 4.82,
       "reg_local": {
-       "x": 8,
-       "n": 9,
-       "txt": "8 de 9",
+       "x": 7,
+       "n": 8,
+       "txt": "7 de 8",
        "cumple": true
       },
       "reg_visitante": {
@@ -2927,14 +2995,14 @@
     {
      "ambito": "visitante",
      "linea": 19.5,
-     "esperado": 13.3,
+     "esperado": 13.68,
      "mas": {
       "cuota": 2.4,
-      "colchon": -6.2,
+      "colchon": -5.82,
       "reg_local": {
        "x": 1,
-       "n": 9,
-       "txt": "1 de 9",
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2948,11 +3016,11 @@
      },
      "menos": {
       "cuota": 1.53,
-      "colchon": 6.2,
+      "colchon": 5.82,
       "reg_local": {
-       "x": 8,
-       "n": 9,
-       "txt": "8 de 9",
+       "x": 7,
+       "n": 8,
+       "txt": "7 de 8",
        "cumple": true
       },
       "reg_visitante": {
@@ -2970,17 +3038,17 @@
   "al_arco": {
    "mercado": "al_arco",
    "titulo": "Tiros al arco",
-   "n_local": 9,
+   "n_local": 8,
    "n_visitante": 10,
    "n_directos": 0,
    "esperado": {
-    "local": 6.64,
-    "visitante": 5.41,
-    "total": 12.04
+    "local": 6.44,
+    "visitante": 5.47,
+    "total": 11.91
    },
    "promedios": {
-    "local_a_favor": 7.78,
-    "local_en_contra": 4.11,
+    "local_a_favor": 7.38,
+    "local_en_contra": 4.25,
     "visitante_a_favor": 6.7,
     "visitante_en_contra": 5.5
    },
@@ -2991,8 +3059,8 @@
       2.0
      ],
      [
-      11.0,
-      1.0
+      10.0,
+      3.0
      ],
      [
       4.0,
@@ -3000,7 +3068,7 @@
      ],
      [
       7.0,
-      8.0
+      6.0
      ],
      [
       6.0,
@@ -3015,12 +3083,8 @@
       9.0
      ],
      [
-      12.0,
-      7.0
-     ],
-     [
-      9.0,
-      2.0
+      11.0,
+      6.0
      ]
     ],
     "visitante": [
@@ -3082,14 +3146,14 @@
     {
      "ambito": "local",
      "linea": 2.5,
-     "esperado": 6.64,
+     "esperado": 6.44,
      "mas": {
       "cuota": 1.28,
-      "colchon": 4.14,
+      "colchon": 3.94,
       "reg_local": {
-       "x": 8,
-       "n": 9,
-       "txt": "8 de 9",
+       "x": 7,
+       "n": 8,
+       "txt": "7 de 8",
        "cumple": true
       },
       "reg_visitante": {
@@ -3103,11 +3167,11 @@
      },
      "menos": {
       "cuota": 3.45,
-      "colchon": -4.14,
+      "colchon": -3.94,
       "reg_local": {
        "x": 1,
-       "n": 9,
-       "txt": "1 de 9",
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3123,14 +3187,14 @@
     {
      "ambito": "local",
      "linea": 3.5,
-     "esperado": 6.64,
+     "esperado": 6.44,
      "mas": {
       "cuota": 1.7,
-      "colchon": 3.14,
+      "colchon": 2.94,
       "reg_local": {
-       "x": 8,
-       "n": 9,
-       "txt": "8 de 9",
+       "x": 7,
+       "n": 8,
+       "txt": "7 de 8",
        "cumple": true
       },
       "reg_visitante": {
@@ -3144,11 +3208,11 @@
      },
      "menos": {
       "cuota": 2.07,
-      "colchon": -3.14,
+      "colchon": -2.94,
       "reg_local": {
        "x": 1,
-       "n": 9,
-       "txt": "1 de 9",
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3164,15 +3228,15 @@
     {
      "ambito": "local",
      "linea": 4.5,
-     "esperado": 6.64,
+     "esperado": 6.44,
      "mas": {
       "cuota": 2.5,
-      "colchon": 2.14,
+      "colchon": 1.94,
       "reg_local": {
-       "x": 7,
-       "n": 9,
-       "txt": "7 de 9",
-       "cumple": true
+       "x": 6,
+       "n": 8,
+       "txt": "6 de 8",
+       "cumple": false
       },
       "reg_visitante": {
        "x": 6,
@@ -3185,11 +3249,11 @@
      },
      "menos": {
       "cuota": 1.5,
-      "colchon": -2.14,
+      "colchon": -1.94,
       "reg_local": {
        "x": 2,
-       "n": 9,
-       "txt": "2 de 9",
+       "n": 8,
+       "txt": "2 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3205,15 +3269,15 @@
     {
      "ambito": "total",
      "linea": 9.5,
-     "esperado": 12.04,
+     "esperado": 11.91,
      "mas": {
       "cuota": 1.67,
-      "colchon": 2.54,
+      "colchon": 2.41,
       "reg_local": {
-       "x": 7,
-       "n": 9,
-       "txt": "7 de 9",
-       "cumple": true
+       "x": 6,
+       "n": 8,
+       "txt": "6 de 8",
+       "cumple": false
       },
       "reg_visitante": {
        "x": 7,
@@ -3222,15 +3286,15 @@
        "cumple": true
       },
       "directos": null,
-      "cumple": true
+      "cumple": false
      },
      "menos": {
       "cuota": 2.12,
-      "colchon": -2.54,
+      "colchon": -2.41,
       "reg_local": {
        "x": 2,
-       "n": 9,
-       "txt": "2 de 9",
+       "n": 8,
+       "txt": "2 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3246,14 +3310,14 @@
     {
      "ambito": "total",
      "linea": 10.5,
-     "esperado": 12.04,
+     "esperado": 11.91,
      "mas": {
       "cuota": 2.07,
-      "colchon": 1.54,
+      "colchon": 1.41,
       "reg_local": {
-       "x": 6,
-       "n": 9,
-       "txt": "6 de 9",
+       "x": 5,
+       "n": 8,
+       "txt": "5 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3267,11 +3331,11 @@
      },
      "menos": {
       "cuota": 1.7,
-      "colchon": -1.54,
+      "colchon": -1.41,
       "reg_local": {
        "x": 3,
-       "n": 9,
-       "txt": "3 de 9",
+       "n": 8,
+       "txt": "3 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3287,14 +3351,14 @@
     {
      "ambito": "total",
      "linea": 11.5,
-     "esperado": 12.04,
+     "esperado": 11.91,
      "mas": {
       "cuota": 2.72,
-      "colchon": 0.54,
+      "colchon": 0.41,
       "reg_local": {
        "x": 4,
-       "n": 9,
-       "txt": "4 de 9",
+       "n": 8,
+       "txt": "4 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3308,11 +3372,11 @@
      },
      "menos": {
       "cuota": 1.42,
-      "colchon": -0.54,
+      "colchon": -0.41,
       "reg_local": {
-       "x": 5,
-       "n": 9,
-       "txt": "5 de 9",
+       "x": 4,
+       "n": 8,
+       "txt": "4 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3328,14 +3392,14 @@
     {
      "ambito": "visitante",
      "linea": 5.5,
-     "esperado": 5.41,
+     "esperado": 5.47,
      "mas": {
       "cuota": 1.6,
-      "colchon": -0.09,
+      "colchon": -0.03,
       "reg_local": {
        "x": 3,
-       "n": 9,
-       "txt": "3 de 9",
+       "n": 8,
+       "txt": "3 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3349,11 +3413,11 @@
      },
      "menos": {
       "cuota": 2.25,
-      "colchon": 0.09,
+      "colchon": 0.03,
       "reg_local": {
-       "x": 6,
-       "n": 9,
-       "txt": "6 de 9",
+       "x": 5,
+       "n": 8,
+       "txt": "5 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3369,14 +3433,14 @@
     {
      "ambito": "visitante",
      "linea": 6.5,
-     "esperado": 5.41,
+     "esperado": 5.47,
      "mas": {
       "cuota": 2.12,
-      "colchon": -1.09,
+      "colchon": -1.03,
       "reg_local": {
-       "x": 3,
-       "n": 9,
-       "txt": "3 de 9",
+       "x": 1,
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3390,12 +3454,12 @@
      },
      "menos": {
       "cuota": 1.67,
-      "colchon": 1.09,
+      "colchon": 1.03,
       "reg_local": {
-       "x": 6,
-       "n": 9,
-       "txt": "6 de 9",
-       "cumple": false
+       "x": 7,
+       "n": 8,
+       "txt": "7 de 8",
+       "cumple": true
       },
       "reg_visitante": {
        "x": 4,
@@ -3410,14 +3474,14 @@
     {
      "ambito": "visitante",
      "linea": 7.5,
-     "esperado": 5.41,
+     "esperado": 5.47,
      "mas": {
       "cuota": 3.0,
-      "colchon": -2.09,
+      "colchon": -2.03,
       "reg_local": {
-       "x": 2,
-       "n": 9,
-       "txt": "2 de 9",
+       "x": 1,
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -3431,11 +3495,11 @@
      },
      "menos": {
       "cuota": 1.36,
-      "colchon": 2.09,
+      "colchon": 2.03,
       "reg_local": {
        "x": 7,
-       "n": 9,
-       "txt": "7 de 9",
+       "n": 8,
+       "txt": "7 de 8",
        "cumple": true
       },
       "reg_visitante": {
@@ -3460,12 +3524,12 @@
   "nota": "Los goles de la muestra son del partido completo (90 min + descuento); sin goles por tiempo no hay ficha de 1T/2T.",
   "esperado": {
    "local": 2.25,
-   "visitante": 1.45,
-   "total": 3.7
+   "visitante": 1.35,
+   "total": 3.6
   },
   "promedios": {
    "local_a_favor": 2.4,
-   "local_en_contra": 0.9,
+   "local_en_contra": 0.7,
    "visitante_a_favor": 2.0,
    "visitante_en_contra": 2.1
   },
@@ -3473,6 +3537,10 @@
    "local": [
     [
      4.0,
+     0.0
+    ],
+    [
+     3.0,
      0.0
     ],
     [
@@ -3506,10 +3574,6 @@
     [
      2.0,
      0.0
-    ],
-    [
-     3.0,
-     2.0
     ]
    ],
    "visitante": [
@@ -3804,10 +3868,10 @@
    {
     "ambito": "total",
     "linea": 0.5,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 1.03,
-     "colchon": 3.2,
+     "colchon": 3.1,
      "reg_local": {
       "x": 10,
       "n": 10,
@@ -3825,7 +3889,7 @@
     },
     "menos": {
      "cuota": 12.5,
-     "colchon": -3.2,
+     "colchon": -3.1,
      "reg_local": {
       "x": 0,
       "n": 10,
@@ -3845,10 +3909,10 @@
    {
     "ambito": "total",
     "linea": 1.5,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 1.17,
-     "colchon": 2.2,
+     "colchon": 2.1,
      "reg_local": {
       "x": 10,
       "n": 10,
@@ -3866,7 +3930,7 @@
     },
     "menos": {
      "cuota": 5.1,
-     "colchon": -2.2,
+     "colchon": -2.1,
      "reg_local": {
       "x": 0,
       "n": 10,
@@ -3886,10 +3950,10 @@
    {
     "ambito": "total",
     "linea": 2.25,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 1.39,
-     "colchon": 1.45,
+     "colchon": 1.35,
      "reg_local": {
       "x": 5,
       "n": 10,
@@ -3907,7 +3971,7 @@
     },
     "menos": {
      "cuota": 3.15,
-     "colchon": -1.45,
+     "colchon": -1.35,
      "reg_local": {
       "x": 0,
       "n": 10,
@@ -3927,10 +3991,10 @@
    {
     "ambito": "total",
     "linea": 2.5,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 1.53,
-     "colchon": 1.2,
+     "colchon": 1.1,
      "reg_local": {
       "x": 5,
       "n": 10,
@@ -3948,7 +4012,7 @@
     },
     "menos": {
      "cuota": 2.52,
-     "colchon": -1.2,
+     "colchon": -1.1,
      "reg_local": {
       "x": 5,
       "n": 10,
@@ -3968,14 +4032,14 @@
    {
     "ambito": "total",
     "linea": 2.75,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 1.65,
-     "colchon": 0.95,
+     "colchon": 0.85,
      "reg_local": {
-      "x": 4,
+      "x": 3,
       "n": 10,
-      "txt": "4 de 10",
+      "txt": "3 de 10",
       "cumple": false
      },
      "reg_visitante": {
@@ -3989,7 +4053,7 @@
     },
     "menos": {
      "cuota": 2.3,
-     "colchon": -0.95,
+     "colchon": -0.85,
      "reg_local": {
       "x": 5,
       "n": 10,
@@ -4009,14 +4073,14 @@
    {
     "ambito": "total",
     "linea": 3.0,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 1.83,
-     "colchon": 0.7,
+     "colchon": 0.6,
      "reg_local": {
-      "x": 4,
+      "x": 3,
       "n": 10,
-      "txt": "4 de 10",
+      "txt": "3 de 10",
       "cumple": false
      },
      "reg_visitante": {
@@ -4030,7 +4094,7 @@
     },
     "menos": {
      "cuota": 2.02,
-     "colchon": -0.7,
+     "colchon": -0.6,
      "reg_local": {
       "x": 5,
       "n": 10,
@@ -4050,14 +4114,14 @@
    {
     "ambito": "total",
     "linea": 3.25,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 2.07,
-     "colchon": 0.45,
+     "colchon": 0.35,
      "reg_local": {
-      "x": 4,
+      "x": 3,
       "n": 10,
-      "txt": "4 de 10",
+      "txt": "3 de 10",
       "cumple": false
      },
      "reg_visitante": {
@@ -4071,7 +4135,7 @@
     },
     "menos": {
      "cuota": 1.8,
-     "colchon": -0.45,
+     "colchon": -0.35,
      "reg_local": {
       "x": 5,
       "n": 10,
@@ -4091,14 +4155,14 @@
    {
     "ambito": "total",
     "linea": 3.5,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 2.3,
-     "colchon": 0.2,
+     "colchon": 0.1,
      "reg_local": {
-      "x": 4,
+      "x": 3,
       "n": 10,
-      "txt": "4 de 10",
+      "txt": "3 de 10",
       "cumple": false
      },
      "reg_visitante": {
@@ -4112,12 +4176,12 @@
     },
     "menos": {
      "cuota": 1.62,
-     "colchon": -0.2,
+     "colchon": -0.1,
      "reg_local": {
-      "x": 6,
+      "x": 7,
       "n": 10,
-      "txt": "6 de 10",
-      "cumple": false
+      "txt": "7 de 10",
+      "cumple": true
      },
      "reg_visitante": {
       "x": 4,
@@ -4132,14 +4196,14 @@
    {
     "ambito": "total",
     "linea": 3.75,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 2.67,
-     "colchon": -0.05,
+     "colchon": -0.15,
      "reg_local": {
-      "x": 3,
+      "x": 2,
       "n": 10,
-      "txt": "3 de 10",
+      "txt": "2 de 10",
       "cumple": false
      },
      "reg_visitante": {
@@ -4153,12 +4217,12 @@
     },
     "menos": {
      "cuota": 1.5,
-     "colchon": 0.05,
+     "colchon": 0.15,
      "reg_local": {
-      "x": 6,
+      "x": 7,
       "n": 10,
-      "txt": "6 de 10",
-      "cumple": false
+      "txt": "7 de 10",
+      "cumple": true
      },
      "reg_visitante": {
       "x": 4,
@@ -4173,14 +4237,14 @@
    {
     "ambito": "total",
     "linea": 4.5,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 3.85,
-     "colchon": -0.8,
+     "colchon": -0.9,
      "reg_local": {
-      "x": 3,
+      "x": 2,
       "n": 10,
-      "txt": "3 de 10",
+      "txt": "2 de 10",
       "cumple": false
      },
      "reg_visitante": {
@@ -4194,11 +4258,11 @@
     },
     "menos": {
      "cuota": 1.27,
-     "colchon": 0.8,
+     "colchon": 0.9,
      "reg_local": {
-      "x": 7,
+      "x": 8,
       "n": 10,
-      "txt": "7 de 10",
+      "txt": "8 de 10",
       "cumple": true
      },
      "reg_visitante": {
@@ -4214,10 +4278,10 @@
    {
     "ambito": "total",
     "linea": 5.5,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 6.8,
-     "colchon": -1.8,
+     "colchon": -1.9,
      "reg_local": {
       "x": 1,
       "n": 10,
@@ -4235,7 +4299,7 @@
     },
     "menos": {
      "cuota": 1.11,
-     "colchon": 1.8,
+     "colchon": 1.9,
      "reg_local": {
       "x": 9,
       "n": 10,
@@ -4255,10 +4319,10 @@
    {
     "ambito": "total",
     "linea": 6.5,
-    "esperado": 3.7,
+    "esperado": 3.6,
     "mas": {
      "cuota": 11.25,
-     "colchon": -2.8,
+     "colchon": -2.9,
      "reg_local": {
       "x": 0,
       "n": 10,
@@ -4276,7 +4340,7 @@
     },
     "menos": {
      "cuota": 1.04,
-     "colchon": 2.8,
+     "colchon": 2.9,
      "reg_local": {
       "x": 10,
       "n": 10,
@@ -4296,14 +4360,14 @@
    {
     "ambito": "visitante",
     "linea": 0.5,
-    "esperado": 1.45,
+    "esperado": 1.35,
     "mas": {
      "cuota": 1.09,
-     "colchon": 0.95,
+     "colchon": 0.85,
      "reg_local": {
-      "x": 5,
+      "x": 4,
       "n": 10,
-      "txt": "5 de 10",
+      "txt": "4 de 10",
       "cumple": false
      },
      "reg_visitante": {
@@ -4317,11 +4381,11 @@
     },
     "menos": {
      "cuota": 6.5,
-     "colchon": -0.95,
+     "colchon": -0.85,
      "reg_local": {
-      "x": 5,
+      "x": 6,
       "n": 10,
-      "txt": "5 de 10",
+      "txt": "6 de 10",
       "cumple": false
      },
      "reg_visitante": {
@@ -4337,14 +4401,14 @@
    {
     "ambito": "visitante",
     "linea": 1.5,
-    "esperado": 1.45,
+    "esperado": 1.35,
     "mas": {
      "cuota": 1.44,
-     "colchon": -0.05,
+     "colchon": -0.15,
      "reg_local": {
-      "x": 4,
+      "x": 3,
       "n": 10,
-      "txt": "4 de 10",
+      "txt": "3 de 10",
       "cumple": false
      },
      "reg_visitante": {
@@ -4358,12 +4422,12 @@
     },
     "menos": {
      "cuota": 2.67,
-     "colchon": 0.05,
+     "colchon": 0.15,
      "reg_local": {
-      "x": 6,
+      "x": 7,
       "n": 10,
-      "txt": "6 de 10",
-      "cumple": false
+      "txt": "7 de 10",
+      "cumple": true
      },
      "reg_visitante": {
       "x": 4,
@@ -4378,10 +4442,10 @@
    {
     "ambito": "visitante",
     "linea": 2.5,
-    "esperado": 1.45,
+    "esperado": 1.35,
     "mas": {
      "cuota": 2.27,
-     "colchon": -1.05,
+     "colchon": -1.15,
      "reg_local": {
       "x": 0,
       "n": 10,
@@ -4399,7 +4463,7 @@
     },
     "menos": {
      "cuota": 1.6,
-     "colchon": 1.05,
+     "colchon": 1.15,
      "reg_local": {
       "x": 10,
       "n": 10,
@@ -4419,10 +4483,10 @@
    {
     "ambito": "visitante",
     "linea": 3.5,
-    "esperado": 1.45,
+    "esperado": 1.35,
     "mas": {
      "cuota": 4.1,
-     "colchon": -2.05,
+     "colchon": -2.15,
      "reg_local": {
       "x": 0,
       "n": 10,
@@ -4440,7 +4504,7 @@
     },
     "menos": {
      "cuota": 1.21,
-     "colchon": 2.05,
+     "colchon": 2.15,
      "reg_local": {
       "x": 10,
       "n": 10,
@@ -4460,10 +4524,10 @@
    {
     "ambito": "visitante",
     "linea": 4.5,
-    "esperado": 1.45,
+    "esperado": 1.35,
     "mas": {
      "cuota": 7.4,
-     "colchon": -3.05,
+     "colchon": -3.15,
      "reg_local": {
       "x": 0,
       "n": 10,
@@ -4481,7 +4545,7 @@
     },
     "menos": {
      "cuota": 1.07,
-     "colchon": 3.05,
+     "colchon": 3.15,
      "reg_local": {
       "x": 10,
       "n": 10,
@@ -4509,13 +4573,13 @@
   "nota": "Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas.",
   "esperado": {
    "local": 1.88,
-   "visitante": 1.81,
-   "total": 3.69
+   "visitante": 1.75,
+   "total": 3.62
   },
   "promedios": {
    "local_a_favor": 1.12,
-   "local_en_contra": 1.62,
-   "visitante_a_favor": 2.0,
+   "local_en_contra": 1.38,
+   "visitante_a_favor": 2.12,
    "visitante_en_contra": 2.62
   },
   "series": {
@@ -4550,7 +4614,7 @@
     ],
     [
      0.0,
-     2.0
+     0.0
     ]
    ],
    "visitante": [
@@ -4583,7 +4647,7 @@
      1.0
     ],
     [
-     2.0,
+     3.0,
      2.0
     ]
    ],
@@ -4738,15 +4802,15 @@
    {
     "ambito": "total",
     "linea": 1.5,
-    "esperado": 3.69,
+    "esperado": 3.62,
     "mas": {
      "cuota": 1.21,
-     "colchon": 2.19,
+     "colchon": 2.12,
      "reg_local": {
-      "x": 7,
+      "x": 6,
       "n": 8,
-      "txt": "7 de 8",
-      "cumple": true
+      "txt": "6 de 8",
+      "cumple": false
      },
      "reg_visitante": {
       "x": 8,
@@ -4755,15 +4819,15 @@
       "cumple": true
      },
      "directos": null,
-     "cumple": true
+     "cumple": false
     },
     "menos": {
      "cuota": 4.15,
-     "colchon": -2.19,
+     "colchon": -2.12,
      "reg_local": {
-      "x": 1,
+      "x": 2,
       "n": 8,
-      "txt": "1 de 8",
+      "txt": "2 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -4779,10 +4843,10 @@
    {
     "ambito": "total",
     "linea": 2.5,
-    "esperado": 3.69,
+    "esperado": 3.62,
     "mas": {
      "cuota": 1.55,
-     "colchon": 1.19,
+     "colchon": 1.12,
      "reg_local": {
       "x": 4,
       "n": 8,
@@ -4800,7 +4864,7 @@
     },
     "menos": {
      "cuota": 2.35,
-     "colchon": -1.19,
+     "colchon": -1.12,
      "reg_local": {
       "x": 4,
       "n": 8,
@@ -4820,10 +4884,10 @@
    {
     "ambito": "total",
     "linea": 3.5,
-    "esperado": 3.69,
+    "esperado": 3.62,
     "mas": {
      "cuota": 2.2,
-     "colchon": 0.19,
+     "colchon": 0.12,
      "reg_local": {
       "x": 2,
       "n": 8,
@@ -4841,7 +4905,7 @@
     },
     "menos": {
      "cuota": 1.62,
-     "colchon": -0.19,
+     "colchon": -0.12,
      "reg_local": {
       "x": 6,
       "n": 8,
@@ -4861,10 +4925,10 @@
    {
     "ambito": "total",
     "linea": 4.5,
-    "esperado": 3.69,
+    "esperado": 3.62,
     "mas": {
      "cuota": 3.35,
-     "colchon": -0.81,
+     "colchon": -0.88,
      "reg_local": {
       "x": 1,
       "n": 8,
@@ -4872,9 +4936,9 @@
       "cumple": false
      },
      "reg_visitante": {
-      "x": 4,
+      "x": 5,
       "n": 8,
-      "txt": "4 de 8",
+      "txt": "5 de 8",
       "cumple": false
      },
      "directos": null,
@@ -4882,7 +4946,7 @@
     },
     "menos": {
      "cuota": 1.29,
-     "colchon": 0.81,
+     "colchon": 0.88,
      "reg_local": {
       "x": 7,
       "n": 8,
@@ -4890,9 +4954,9 @@
       "cumple": true
      },
      "reg_visitante": {
-      "x": 4,
+      "x": 3,
       "n": 8,
-      "txt": "4 de 8",
+      "txt": "3 de 8",
       "cumple": false
      },
      "directos": null,
@@ -4902,10 +4966,10 @@
    {
     "ambito": "total",
     "linea": 5.5,
-    "esperado": 3.69,
+    "esperado": 3.62,
     "mas": {
      "cuota": 5.3,
-     "colchon": -1.81,
+     "colchon": -1.88,
      "reg_local": {
       "x": 0,
       "n": 8,
@@ -4923,7 +4987,7 @@
     },
     "menos": {
      "cuota": 1.14,
-     "colchon": 1.81,
+     "colchon": 1.88,
      "reg_local": {
       "x": 8,
       "n": 8,
@@ -4943,14 +5007,14 @@
    {
     "ambito": "visitante",
     "linea": 0.5,
-    "esperado": 1.81,
+    "esperado": 1.75,
     "mas": {
      "cuota": 1.28,
-     "colchon": 1.31,
+     "colchon": 1.25,
      "reg_local": {
-      "x": 6,
+      "x": 5,
       "n": 8,
-      "txt": "6 de 8",
+      "txt": "5 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -4964,11 +5028,11 @@
     },
     "menos": {
      "cuota": 3.45,
-     "colchon": -1.31,
+     "colchon": -1.25,
      "reg_local": {
-      "x": 2,
+      "x": 3,
       "n": 8,
-      "txt": "2 de 8",
+      "txt": "3 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -4984,14 +5048,14 @@
    {
     "ambito": "visitante",
     "linea": 1.5,
-    "esperado": 1.81,
+    "esperado": 1.75,
     "mas": {
      "cuota": 2.25,
-     "colchon": 0.31,
+     "colchon": 0.25,
      "reg_local": {
-      "x": 4,
+      "x": 3,
       "n": 8,
-      "txt": "4 de 8",
+      "txt": "3 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -5005,11 +5069,11 @@
     },
     "menos": {
      "cuota": 1.6,
-     "colchon": -0.31,
+     "colchon": -0.25,
      "reg_local": {
-      "x": 4,
+      "x": 5,
       "n": 8,
-      "txt": "4 de 8",
+      "txt": "5 de 8",
       "cumple": false
      },
      "reg_visitante": {
@@ -5025,10 +5089,10 @@
    {
     "ambito": "visitante",
     "linea": 2.5,
-    "esperado": 1.81,
+    "esperado": 1.75,
     "mas": {
      "cuota": 4.65,
-     "colchon": -0.69,
+     "colchon": -0.75,
      "reg_local": {
       "x": 2,
       "n": 8,
@@ -5036,9 +5100,9 @@
       "cumple": false
      },
      "reg_visitante": {
-      "x": 1,
+      "x": 2,
       "n": 8,
-      "txt": "1 de 8",
+      "txt": "2 de 8",
       "cumple": false
      },
      "directos": null,
@@ -5046,7 +5110,7 @@
     },
     "menos": {
      "cuota": 1.17,
-     "colchon": 0.69,
+     "colchon": 0.75,
      "reg_local": {
       "x": 6,
       "n": 8,
@@ -5054,10 +5118,10 @@
       "cumple": false
      },
      "reg_visitante": {
-      "x": 7,
+      "x": 6,
       "n": 8,
-      "txt": "7 de 8",
-      "cumple": true
+      "txt": "6 de 8",
+      "cumple": false
      },
      "directos": null,
      "cumple": false
@@ -5076,9 +5140,9 @@
     "cuota": 1.7,
     "colchon": null,
     "reg_local": {
-     "x": 4,
+     "x": 3,
      "n": 10,
-     "txt": "4 de 10",
+     "txt": "3 de 10",
      "cumple": false
     },
     "reg_visitante": {
@@ -5095,10 +5159,10 @@
     "cuota": 2.07,
     "colchon": null,
     "reg_local": {
-     "x": 6,
+     "x": 7,
      "n": 10,
-     "txt": "6 de 10",
-     "cumple": false
+     "txt": "7 de 10",
+     "cumple": true
     },
     "reg_visitante": {
      "x": 3,
@@ -5234,13 +5298,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 1,
+   "sin_historial": false,
    "cuota": 15.5,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 1,
+    "txt": "0 de 1",
     "cumple": false
    }
   },
@@ -5250,13 +5314,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 1,
+   "sin_historial": false,
    "cuota": 8.75,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 1,
+    "txt": "0 de 1",
     "cumple": false
    }
   },
@@ -5266,13 +5330,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 1,
+   "sin_historial": false,
    "cuota": 16.5,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 1,
+    "txt": "0 de 1",
     "cumple": false
    }
   },
@@ -5282,13 +5346,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 1,
+   "sin_historial": false,
    "cuota": 11.25,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 1,
+    "txt": "0 de 1",
     "cumple": false
    }
   },
@@ -5298,9 +5362,9 @@
    "stat": "remates",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "por_90": null,
+   "partidos_muestra": 1,
+   "sin_historial": false,
+   "por_90": 0.0,
    "esperado": null,
    "escalones": [
     {
@@ -5308,8 +5372,8 @@
      "cuota": 2.4,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5319,8 +5383,8 @@
      "cuota": 8.25,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5330,8 +5394,8 @@
      "cuota": 19.5,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5341,8 +5405,8 @@
      "cuota": 24.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5352,8 +5416,8 @@
      "cuota": 24.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5363,8 +5427,8 @@
      "cuota": 23.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5374,8 +5438,8 @@
      "cuota": 23.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5385,8 +5449,8 @@
      "cuota": 23.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5396,8 +5460,8 @@
      "cuota": 22.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5407,8 +5471,8 @@
      "cuota": 22.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5418,8 +5482,8 @@
      "cuota": 17.5,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5429,8 +5493,8 @@
      "cuota": 21.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5443,9 +5507,9 @@
    "stat": "al_arco",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "por_90": null,
+   "partidos_muestra": 1,
+   "sin_historial": false,
+   "por_90": 0.0,
    "esperado": null,
    "escalones": [
     {
@@ -5453,8 +5517,8 @@
      "cuota": 5.5,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5464,8 +5528,8 @@
      "cuota": 21.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5475,8 +5539,8 @@
      "cuota": 25.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5486,8 +5550,8 @@
      "cuota": 24.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5497,8 +5561,8 @@
      "cuota": 24.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5508,8 +5572,8 @@
      "cuota": 16.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 1,
+      "txt": "0 de 1",
       "cumple": false
      },
      "colchon": null
@@ -5520,7 +5584,7 @@
    "jugador": "Nikola Krstovic",
    "lado": "visitante",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -5536,7 +5600,7 @@
    "jugador": "Nikola Krstovic",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -5552,7 +5616,7 @@
    "jugador": "Nikola Krstovic",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -5568,7 +5632,7 @@
    "jugador": "Nikola Krstovic",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -5584,8 +5648,8 @@
    "jugador": "Gianluca Scamacca",
    "lado": "visitante",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 1.85,
@@ -5600,8 +5664,8 @@
    "jugador": "Gianluca Scamacca",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 1.65,
@@ -5616,8 +5680,8 @@
    "jugador": "Gianluca Scamacca",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 15.5,
@@ -5632,8 +5696,8 @@
    "jugador": "Gianluca Scamacca",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 5.2,
@@ -5712,7 +5776,7 @@
    "jugador": "Charles De Ketelaere",
    "lado": "visitante",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -5728,7 +5792,7 @@
    "jugador": "Charles De Ketelaere",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -5744,7 +5808,7 @@
    "jugador": "Charles De Ketelaere",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -5760,7 +5824,7 @@
    "jugador": "Charles De Ketelaere",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -5776,8 +5840,8 @@
    "jugador": "Kamaldeen Sulemana",
    "lado": "visitante",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 2.27,
@@ -5792,8 +5856,8 @@
    "jugador": "Kamaldeen Sulemana",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 1.85,
@@ -5808,8 +5872,8 @@
    "jugador": "Kamaldeen Sulemana",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 18.5,
@@ -5824,8 +5888,8 @@
    "jugador": "Kamaldeen Sulemana",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 4.45,
@@ -5904,8 +5968,8 @@
    "jugador": "Lazar Samardzic",
    "lado": "visitante",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 2.57,
@@ -5920,8 +5984,8 @@
    "jugador": "Lazar Samardzic",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 2.05,
@@ -5936,8 +6000,8 @@
    "jugador": "Lazar Samardzic",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 22.0,
@@ -5952,8 +6016,8 @@
    "jugador": "Lazar Samardzic",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 4.65,
@@ -5970,13 +6034,13 @@
    "stat": "anota",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 3.15,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 3,
+    "n": 7,
+    "txt": "3 de 7",
     "cumple": false
    }
   },
@@ -5986,13 +6050,13 @@
    "stat": "anota_o_asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 2.52,
    "reg": {
-    "x": 2,
-    "n": 3,
-    "txt": "2 de 3",
+    "x": 5,
+    "n": 7,
+    "txt": "5 de 7",
     "cumple": false
    }
   },
@@ -6002,13 +6066,13 @@
    "stat": "tarjeta",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 16.0,
    "reg": {
     "x": 1,
-    "n": 3,
-    "txt": "1 de 3",
+    "n": 7,
+    "txt": "1 de 7",
     "cumple": false
    }
   },
@@ -6018,13 +6082,13 @@
    "stat": "asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 6.0,
    "reg": {
-    "x": 2,
-    "n": 3,
-    "txt": "2 de 3",
+    "x": 4,
+    "n": 7,
+    "txt": "4 de 7",
     "cumple": false
    }
   },
@@ -6288,7 +6352,7 @@
    "jugador": "Gianluca Gaetano",
    "lado": "visitante",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -6306,13 +6370,13 @@
    "stat": "anota",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 3.85,
    "reg": {
-    "x": 1,
-    "n": 3,
-    "txt": "1 de 3",
+    "x": 3,
+    "n": 8,
+    "txt": "3 de 8",
     "cumple": false
    }
   },
@@ -6322,13 +6386,13 @@
    "stat": "anota_o_asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 3.2,
    "reg": {
-    "x": 1,
-    "n": 3,
-    "txt": "1 de 3",
+    "x": 3,
+    "n": 8,
+    "txt": "3 de 8",
     "cumple": false
    }
   },
@@ -6338,13 +6402,13 @@
    "stat": "tarjeta",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 20.0,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 8,
+    "txt": "0 de 8",
     "cumple": false
    }
   },
@@ -6354,13 +6418,13 @@
    "stat": "asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 7.8,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 8,
+    "txt": "0 de 8",
     "cumple": false
    }
   },
@@ -6370,13 +6434,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 1,
+   "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 3.85,
    "reg": {
-    "x": 0,
-    "n": 1,
-    "txt": "0 de 1",
+    "x": 1,
+    "n": 3,
+    "txt": "1 de 3",
     "cumple": false
    }
   },
@@ -6386,13 +6450,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 1,
+   "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 3.2,
    "reg": {
-    "x": 0,
-    "n": 1,
-    "txt": "0 de 1",
+    "x": 1,
+    "n": 3,
+    "txt": "1 de 3",
     "cumple": false
    }
   },
@@ -6402,13 +6466,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 1,
+   "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 20.0,
    "reg": {
     "x": 0,
-    "n": 1,
-    "txt": "0 de 1",
+    "n": 3,
+    "txt": "0 de 3",
     "cumple": false
    }
   },
@@ -6418,13 +6482,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 1,
+   "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 7.8,
    "reg": {
     "x": 0,
-    "n": 1,
-    "txt": "0 de 1",
+    "n": 3,
+    "txt": "0 de 3",
     "cumple": false
    }
   },
@@ -6626,13 +6690,13 @@
    "stat": "anota",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 4.6,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 8,
+    "txt": "1 de 8",
     "cumple": false
    }
   },
@@ -6642,13 +6706,13 @@
    "stat": "anota_o_asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 3.5,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 8,
+    "txt": "1 de 8",
     "cumple": false
    }
   },
@@ -6658,13 +6722,13 @@
    "stat": "tarjeta",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 17.0,
    "reg": {
     "x": 1,
-    "n": 3,
-    "txt": "1 de 3",
+    "n": 8,
+    "txt": "1 de 8",
     "cumple": false
    }
   },
@@ -6674,13 +6738,13 @@
    "stat": "asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 7.1,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 8,
+    "txt": "0 de 8",
     "cumple": false
    }
   },
@@ -6690,13 +6754,13 @@
    "stat": "anota",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 5.0,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 8,
+    "txt": "1 de 8",
     "cumple": false
    }
   },
@@ -6706,13 +6770,13 @@
    "stat": "anota_o_asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 3.7,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 2,
+    "n": 8,
+    "txt": "2 de 8",
     "cumple": false
    }
   },
@@ -6722,13 +6786,13 @@
    "stat": "tarjeta",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 20.0,
    "reg": {
     "x": 2,
-    "n": 3,
-    "txt": "2 de 3",
+    "n": 8,
+    "txt": "2 de 8",
     "cumple": false
    }
   },
@@ -6738,13 +6802,13 @@
    "stat": "asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 6.9,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 8,
+    "txt": "1 de 8",
     "cumple": false
    }
   },
@@ -6754,13 +6818,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 5.0,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 8,
+    "txt": "1 de 8",
     "cumple": false
    }
   },
@@ -6770,13 +6834,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 3.7,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 8,
+    "txt": "1 de 8",
     "cumple": false
    }
   },
@@ -6786,13 +6850,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 20.0,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 8,
+    "txt": "1 de 8",
     "cumple": false
    }
   },
@@ -6802,13 +6866,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 6.9,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 8,
+    "txt": "0 de 8",
     "cumple": false
    }
   },
@@ -6818,13 +6882,13 @@
    "stat": "anota",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 5.0,
    "reg": {
-    "x": 1,
-    "n": 3,
-    "txt": "1 de 3",
+    "x": 2,
+    "n": 7,
+    "txt": "2 de 7",
     "cumple": false
    }
   },
@@ -6834,13 +6898,13 @@
    "stat": "anota_o_asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 3.75,
    "reg": {
-    "x": 1,
-    "n": 3,
-    "txt": "1 de 3",
+    "x": 2,
+    "n": 7,
+    "txt": "2 de 7",
     "cumple": false
    }
   },
@@ -6850,13 +6914,13 @@
    "stat": "tarjeta",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 19.5,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 7,
+    "txt": "0 de 7",
     "cumple": false
    }
   },
@@ -6866,13 +6930,13 @@
    "stat": "asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 7.2,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 7,
+    "txt": "0 de 7",
     "cumple": false
    }
   },
@@ -7138,13 +7202,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 5.3,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 4,
+    "txt": "0 de 4",
     "cumple": false
    }
   },
@@ -7154,13 +7218,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 3.5,
    "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "x": 1,
+    "n": 4,
+    "txt": "1 de 4",
     "cumple": false
    }
   },
@@ -7170,13 +7234,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 17.5,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 4,
+    "txt": "0 de 4",
     "cumple": false
    }
   },
@@ -7186,13 +7250,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 5.9,
    "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "x": 1,
+    "n": 4,
+    "txt": "1 de 4",
     "cumple": false
    }
   },
@@ -7586,13 +7650,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 2,
+   "sin_historial": false,
    "cuota": 6.1,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -7602,13 +7666,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 2,
+   "sin_historial": false,
    "cuota": 4.15,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -7618,13 +7682,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 2,
+   "sin_historial": false,
    "cuota": 20.0,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -7634,13 +7698,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 2,
+   "sin_historial": false,
    "cuota": 6.9,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -7650,13 +7714,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 2,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 6.1,
    "reg": {
     "x": 0,
-    "n": 2,
-    "txt": "0 de 2",
+    "n": 6,
+    "txt": "0 de 6",
     "cumple": false
    }
   },
@@ -7666,13 +7730,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 2,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 4.15,
    "reg": {
     "x": 0,
-    "n": 2,
-    "txt": "0 de 2",
+    "n": 6,
+    "txt": "0 de 6",
     "cumple": false
    }
   },
@@ -7682,13 +7746,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 2,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 20.0,
    "reg": {
     "x": 0,
-    "n": 2,
-    "txt": "0 de 2",
+    "n": 6,
+    "txt": "0 de 6",
     "cumple": false
    }
   },
@@ -7698,13 +7762,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 2,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 6.9,
    "reg": {
     "x": 0,
-    "n": 2,
-    "txt": "0 de 2",
+    "n": 6,
+    "txt": "0 de 6",
     "cumple": false
    }
   },
@@ -7778,13 +7842,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 6.3,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 4,
+    "txt": "0 de 4",
     "cumple": false
    }
   },
@@ -7794,13 +7858,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 4.6,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 4,
+    "txt": "0 de 4",
     "cumple": false
    }
   },
@@ -7810,13 +7874,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 20.0,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 4,
+    "txt": "0 de 4",
     "cumple": false
    }
   },
@@ -7826,13 +7890,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 7.8,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 4,
+    "txt": "0 de 4",
     "cumple": false
    }
   },
@@ -7842,13 +7906,13 @@
    "stat": "anota",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 6.4,
    "reg": {
     "x": 1,
-    "n": 3,
-    "txt": "1 de 3",
+    "n": 7,
+    "txt": "1 de 7",
     "cumple": false
    }
   },
@@ -7858,13 +7922,13 @@
    "stat": "anota_o_asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 4.75,
    "reg": {
-    "x": 1,
-    "n": 3,
-    "txt": "1 de 3",
+    "x": 4,
+    "n": 7,
+    "txt": "4 de 7",
     "cumple": false
    }
   },
@@ -7874,13 +7938,13 @@
    "stat": "tarjeta",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 18.0,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 7,
+    "txt": "0 de 7",
     "cumple": false
    }
   },
@@ -7890,13 +7954,13 @@
    "stat": "asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 8.0,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 3,
+    "n": 7,
+    "txt": "3 de 7",
     "cumple": false
    }
   },
@@ -7970,13 +8034,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 1,
+   "sin_historial": false,
    "cuota": 7.1,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 1,
+    "txt": "0 de 1",
     "cumple": false
    }
   },
@@ -7986,13 +8050,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 1,
+   "sin_historial": false,
    "cuota": 5.4,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 1,
+    "txt": "0 de 1",
     "cumple": false
    }
   },
@@ -8002,13 +8066,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 1,
+   "sin_historial": false,
    "cuota": 16.5,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 1,
+    "txt": "0 de 1",
     "cumple": false
    }
   },
@@ -8018,13 +8082,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 1,
+   "sin_historial": false,
    "cuota": 8.75,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 1,
+    "txt": "0 de 1",
     "cumple": false
    }
   },
@@ -8034,13 +8098,13 @@
    "stat": "anota",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 7.4,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 6,
+    "txt": "1 de 6",
     "cumple": false
    }
   },
@@ -8050,13 +8114,13 @@
    "stat": "anota_o_asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 5.2,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 6,
+    "txt": "1 de 6",
     "cumple": false
    }
   },
@@ -8066,13 +8130,13 @@
    "stat": "tarjeta",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 15.5,
    "reg": {
     "x": 2,
-    "n": 3,
-    "txt": "2 de 3",
+    "n": 6,
+    "txt": "2 de 6",
     "cumple": false
    }
   },
@@ -8082,13 +8146,13 @@
    "stat": "asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 8.0,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 6,
+    "txt": "0 de 6",
     "cumple": false
    }
   },
@@ -8306,13 +8370,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 1,
+   "partidos_muestra": 2,
    "sin_historial": false,
    "cuota": 9.0,
    "reg": {
     "x": 0,
-    "n": 1,
-    "txt": "0 de 1",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -8322,13 +8386,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 1,
+   "partidos_muestra": 2,
    "sin_historial": false,
    "cuota": 8.0,
    "reg": {
     "x": 0,
-    "n": 1,
-    "txt": "0 de 1",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -8338,13 +8402,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 1,
+   "partidos_muestra": 2,
    "sin_historial": false,
    "cuota": 18.5,
    "reg": {
     "x": 0,
-    "n": 1,
-    "txt": "0 de 1",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -8354,13 +8418,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 1,
+   "partidos_muestra": 2,
    "sin_historial": false,
    "cuota": 11.25,
    "reg": {
     "x": 0,
-    "n": 1,
-    "txt": "0 de 1",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -8370,13 +8434,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 2,
+   "sin_historial": false,
    "cuota": 9.75,
    "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "x": 2,
+    "n": 2,
+    "txt": "2 de 2",
     "cumple": false
    }
   },
@@ -8386,13 +8450,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 2,
+   "sin_historial": false,
    "cuota": 8.5,
    "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "x": 2,
+    "n": 2,
+    "txt": "2 de 2",
     "cumple": false
    }
   },
@@ -8402,13 +8466,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 2,
+   "sin_historial": false,
    "cuota": 18.5,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -8418,13 +8482,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 2,
+   "sin_historial": false,
    "cuota": 11.25,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -8818,13 +8882,13 @@
    "stat": "anota",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 11.0,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 6,
+    "txt": "0 de 6",
     "cumple": false
    }
   },
@@ -8834,13 +8898,13 @@
    "stat": "anota_o_asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 9.5,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 6,
+    "txt": "0 de 6",
     "cumple": false
    }
   },
@@ -8850,13 +8914,13 @@
    "stat": "tarjeta",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 15.0,
    "reg": {
     "x": 1,
-    "n": 3,
-    "txt": "1 de 3",
+    "n": 6,
+    "txt": "1 de 6",
     "cumple": false
    }
   },
@@ -8866,13 +8930,13 @@
    "stat": "asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 11.25,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 6,
+    "txt": "0 de 6",
     "cumple": false
    }
   },
@@ -9010,13 +9074,13 @@
    "stat": "anota",
    "titular": 0.0,
    "minutos_esperados": 0,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 12.0,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 7,
+    "txt": "0 de 7",
     "cumple": false
    }
   },
@@ -9026,13 +9090,13 @@
    "stat": "anota_o_asiste",
    "titular": 0.0,
    "minutos_esperados": 0,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 7.3,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 7,
+    "txt": "1 de 7",
     "cumple": false
    }
   },
@@ -9042,13 +9106,13 @@
    "stat": "tarjeta",
    "titular": 0.0,
    "minutos_esperados": 0,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 19.0,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 7,
+    "txt": "1 de 7",
     "cumple": false
    }
   },
@@ -9058,13 +9122,13 @@
    "stat": "asiste",
    "titular": 0.0,
    "minutos_esperados": 0,
-   "partidos_muestra": 3,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 8.25,
    "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "x": 1,
+    "n": 7,
+    "txt": "1 de 7",
     "cumple": false
    }
   },
@@ -9138,13 +9202,13 @@
    "stat": "anota",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 2,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 14.5,
    "reg": {
     "x": 0,
-    "n": 2,
-    "txt": "0 de 2",
+    "n": 7,
+    "txt": "0 de 7",
     "cumple": false
    }
   },
@@ -9154,13 +9218,13 @@
    "stat": "anota_o_asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 2,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 8.0,
    "reg": {
     "x": 0,
-    "n": 2,
-    "txt": "0 de 2",
+    "n": 7,
+    "txt": "0 de 7",
     "cumple": false
    }
   },
@@ -9170,13 +9234,13 @@
    "stat": "tarjeta",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 2,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 19.0,
    "reg": {
     "x": 0,
-    "n": 2,
-    "txt": "0 de 2",
+    "n": 7,
+    "txt": "0 de 7",
     "cumple": false
    }
   },
@@ -9186,9 +9250,217 @@
    "stat": "asiste",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 2,
+   "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 8.25,
+   "reg": {
+    "x": 0,
+    "n": 7,
+    "txt": "0 de 7",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Srdjan Grahovac",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 14.5,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Srdjan Grahovac",
+   "lado": "local",
+   "stat": "anota_o_asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.5,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Srdjan Grahovac",
+   "lado": "local",
+   "stat": "tarjeta",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 16.5,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Srdjan Grahovac",
+   "lado": "local",
+   "stat": "asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Danko Radic",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 14.5,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Danko Radic",
+   "lado": "local",
+   "stat": "anota_o_asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.5,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Danko Radic",
+   "lado": "local",
+   "stat": "tarjeta",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 16.5,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Danko Radic",
+   "lado": "local",
+   "stat": "asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "cuota": 8.75,
+   "reg": {
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Siniša Saničanin",
+   "lado": "local",
+   "stat": "anota",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 4,
+   "sin_historial": false,
+   "cuota": 15.5,
+   "reg": {
+    "x": 0,
+    "n": 4,
+    "txt": "0 de 4",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Siniša Saničanin",
+   "lado": "local",
+   "stat": "anota_o_asiste",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 4,
+   "sin_historial": false,
+   "cuota": 12.5,
+   "reg": {
+    "x": 1,
+    "n": 4,
+    "txt": "1 de 4",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Siniša Saničanin",
+   "lado": "local",
+   "stat": "tarjeta",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 4,
+   "sin_historial": false,
+   "cuota": 18.5,
+   "reg": {
+    "x": 0,
+    "n": 4,
+    "txt": "0 de 4",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Siniša Saničanin",
+   "lado": "local",
+   "stat": "asiste",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 4,
+   "sin_historial": false,
+   "cuota": 11.25,
+   "reg": {
+    "x": 1,
+    "n": 4,
+    "txt": "1 de 4",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Jurich Carolina",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 2,
+   "sin_historial": false,
+   "cuota": 15.5,
    "reg": {
     "x": 0,
     "n": 2,
@@ -9197,226 +9469,18 @@
    }
   },
   {
-   "jugador": "Srdjan Grahovac",
-   "lado": "local",
-   "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 14.5,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Srdjan Grahovac",
+   "jugador": "Jurich Carolina",
    "lado": "local",
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 8.5,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Srdjan Grahovac",
-   "lado": "local",
-   "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 16.5,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Srdjan Grahovac",
-   "lado": "local",
-   "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 8.75,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Danko Radic",
-   "lado": "local",
-   "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 14.5,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Danko Radic",
-   "lado": "local",
-   "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 8.5,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Danko Radic",
-   "lado": "local",
-   "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 16.5,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Danko Radic",
-   "lado": "local",
-   "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 8.75,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Siniša Saničanin",
-   "lado": "local",
-   "stat": "anota",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 3,
-   "sin_historial": false,
-   "cuota": 15.5,
-   "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Siniša Saničanin",
-   "lado": "local",
-   "stat": "anota_o_asiste",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 2,
    "sin_historial": false,
    "cuota": 12.5,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Siniša Saničanin",
-   "lado": "local",
-   "stat": "tarjeta",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 3,
-   "sin_historial": false,
-   "cuota": 18.5,
-   "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Siniša Saničanin",
-   "lado": "local",
-   "stat": "asiste",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 3,
-   "sin_historial": false,
-   "cuota": 11.25,
-   "reg": {
-    "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Jurich Carolina",
-   "lado": "local",
-   "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 15.5,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Jurich Carolina",
-   "lado": "local",
-   "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "cuota": 12.5,
-   "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -9426,13 +9490,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 2,
+   "sin_historial": false,
    "cuota": 18.5,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -9442,13 +9506,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 2,
+   "sin_historial": false,
    "cuota": 11.25,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 2,
+    "txt": "0 de 2",
     "cumple": false
    }
   },
@@ -9778,13 +9842,13 @@
    "stat": "tarjeta",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 30.0,
    "reg": {
     "x": 0,
-    "n": 3,
-    "txt": "0 de 3",
+    "n": 8,
+    "txt": "0 de 8",
     "cumple": false
    }
   },
@@ -9794,76 +9858,76 @@
    "stat": "atajadas",
    "titular": 0.9,
    "minutos_esperados": 80,
-   "partidos_muestra": 3,
+   "partidos_muestra": 8,
    "sin_historial": false,
-   "por_90": 4.67,
-   "esperado": 4.15,
+   "por_90": 3.5,
+   "esperado": 3.11,
    "escalones": [
     {
      "minimo": 2,
      "cuota": 1.22,
      "reg": {
-      "x": 3,
-      "n": 3,
-      "txt": "3 de 3",
-      "cumple": false
+      "x": 7,
+      "n": 8,
+      "txt": "7 de 8",
+      "cumple": true
      },
-     "colchon": 2.65
+     "colchon": 1.61
     },
     {
      "minimo": 3,
      "cuota": 1.7,
      "reg": {
-      "x": 3,
-      "n": 3,
-      "txt": "3 de 3",
+      "x": 5,
+      "n": 8,
+      "txt": "5 de 8",
       "cumple": false
      },
-     "colchon": 1.65
+     "colchon": 0.61
     },
     {
      "minimo": 4,
      "cuota": 2.72,
      "reg": {
-      "x": 1,
-      "n": 3,
-      "txt": "1 de 3",
+      "x": 3,
+      "n": 8,
+      "txt": "3 de 8",
       "cumple": false
      },
-     "colchon": 0.65
+     "colchon": -0.39
     },
     {
      "minimo": 5,
      "cuota": 4.85,
      "reg": {
-      "x": 1,
-      "n": 3,
-      "txt": "1 de 3",
+      "x": 2,
+      "n": 8,
+      "txt": "2 de 8",
       "cumple": false
      },
-     "colchon": -0.35
+     "colchon": -1.39
     },
     {
      "minimo": 6,
      "cuota": 9.0,
      "reg": {
-      "x": 1,
-      "n": 3,
-      "txt": "1 de 3",
+      "x": 2,
+      "n": 8,
+      "txt": "2 de 8",
       "cumple": false
      },
-     "colchon": -1.35
+     "colchon": -2.39
     },
     {
      "minimo": 7,
      "cuota": 7.3,
      "reg": {
       "x": 1,
-      "n": 3,
-      "txt": "1 de 3",
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": -2.35
+     "colchon": -3.39
     }
    ]
   },
@@ -9980,6 +10044,272 @@
    }
   }
  ],
+ "estilo": {
+  "etiquetas": {
+   "pos": "Posesión %",
+   "box": "Toques en el área rival",
+   "cr": "Centros (intentos)",
+   "crw": "Centros acertados",
+   "shi": "Remates dentro del área",
+   "blk": "Remates bloqueados",
+   "xg": "xG",
+   "xgot": "xG a puerta (xGOT)",
+   "big": "Ocasiones claras",
+   "tk": "Entradas (intentos)",
+   "du": "Duelos ganados",
+   "cl": "Despejes",
+   "it": "Intercepciones",
+   "fk": "Tiros libres a favor (= faltas recibidas)",
+   "pf3": "Pases en el último tercio",
+   "lp": "Pases largos",
+   "f": "Faltas cometidas",
+   "y": "Tarjetas (pts)",
+   "c": "Córners",
+   "sh": "Remates",
+   "sot": "Tiros al arco",
+   "off": "Fueras de juego",
+   "ti": "Saques de banda",
+   "gk": "Saques de meta",
+   "sv": "Atajadas",
+   "es": "Errores que terminan en remate"
+  },
+  "n_min": 5,
+  "local": {
+   "pos": {
+    "fav": 57.12,
+    "con": 42.88,
+    "n": 8
+   },
+   "cr": {
+    "fav": 19.25,
+    "con": 12.5,
+    "n": 8
+   },
+   "crw": {
+    "fav": 6.25,
+    "con": 3.75,
+    "n": 8
+   },
+   "shi": {
+    "fav": 11.62,
+    "con": 6.38,
+    "n": 8
+   },
+   "blk": {
+    "fav": 5.12,
+    "con": 3.38,
+    "n": 8
+   },
+   "xg": {
+    "fav": 2.64,
+    "con": 1.24,
+    "n": 8
+   },
+   "tk": {
+    "fav": 7.0,
+    "con": 6.5,
+    "n": 8
+   },
+   "du": {
+    "fav": 62.62,
+    "con": 57.12,
+    "n": 8
+   },
+   "cl": {
+    "fav": 17.25,
+    "con": 26.38,
+    "n": 8
+   },
+   "it": {
+    "fav": 11.25,
+    "con": 11.25,
+    "n": 8
+   },
+   "fk": {
+    "fav": 8.0,
+    "con": 6.0,
+    "n": 8
+   },
+   "lp": {
+    "fav": 36.5,
+    "con": 35.62,
+    "n": 8
+   },
+   "f": {
+    "fav": 11.75,
+    "con": 15.38,
+    "n": 8
+   },
+   "y": {
+    "fav": 1.12,
+    "con": 1.38,
+    "n": 8
+   },
+   "c": {
+    "fav": 6.75,
+    "con": 3.25,
+    "n": 8
+   },
+   "sh": {
+    "fav": 19.5,
+    "con": 10.75,
+    "n": 8
+   },
+   "sot": {
+    "fav": 7.38,
+    "con": 4.25,
+    "n": 8
+   },
+   "off": {
+    "fav": 1.71,
+    "con": 0.86,
+    "n": 7
+   },
+   "ti": {
+    "fav": 17.62,
+    "con": 13.62,
+    "n": 8
+   },
+   "gk": {
+    "fav": 5.0,
+    "con": 8.25,
+    "n": 8
+   },
+   "sv": {
+    "fav": 3.5,
+    "con": 5.0,
+    "n": 8
+   }
+  },
+  "visitante": {
+   "pos": {
+    "fav": 51.2,
+    "con": 48.8,
+    "n": 10
+   },
+   "box": {
+    "fav": 31.6,
+    "con": 30.2,
+    "n": 10
+   },
+   "cr": {
+    "fav": 19.2,
+    "con": 17.9,
+    "n": 10
+   },
+   "crw": {
+    "fav": 5.4,
+    "con": 3.7,
+    "n": 10
+   },
+   "shi": {
+    "fav": 11.7,
+    "con": 10.1,
+    "n": 10
+   },
+   "blk": {
+    "fav": 4.2,
+    "con": 4.9,
+    "n": 10
+   },
+   "xg": {
+    "fav": 2.19,
+    "con": 1.72,
+    "n": 10
+   },
+   "xgot": {
+    "fav": 2.41,
+    "con": 1.62,
+    "n": 10
+   },
+   "big": {
+    "fav": 3.5,
+    "con": 2.9,
+    "n": 10
+   },
+   "tk": {
+    "fav": 15.3,
+    "con": 17.2,
+    "n": 10
+   },
+   "du": {
+    "fav": 42.0,
+    "con": 40.4,
+    "n": 10
+   },
+   "cl": {
+    "fav": 24.5,
+    "con": 20.9,
+    "n": 10
+   },
+   "it": {
+    "fav": 10.1,
+    "con": 11.7,
+    "n": 10
+   },
+   "fk": {
+    "fav": 8.9,
+    "con": 10.0,
+    "n": 10
+   },
+   "lp": {
+    "fav": 40.8,
+    "con": 46.3,
+    "n": 10
+   },
+   "f": {
+    "fav": 10.3,
+    "con": 9.2,
+    "n": 10
+   },
+   "y": {
+    "fav": 2.12,
+    "con": 2.62,
+    "n": 8
+   },
+   "c": {
+    "fav": 5.9,
+    "con": 5.5,
+    "n": 10
+   },
+   "sh": {
+    "fav": 16.6,
+    "con": 16.0,
+    "n": 10
+   },
+   "sot": {
+    "fav": 6.7,
+    "con": 5.5,
+    "n": 10
+   },
+   "off": {
+    "fav": 1.9,
+    "con": 1.1,
+    "n": 10
+   },
+   "ti": {
+    "fav": 16.3,
+    "con": 15.4,
+    "n": 10
+   },
+   "gk": {
+    "fav": 8.4,
+    "con": 7.9,
+    "n": 10
+   },
+   "sv": {
+    "fav": 3.5,
+    "con": 4.4,
+    "n": 10
+   },
+   "es": {
+    "fav": 1.0,
+    "con": 0.71,
+    "n": 7
+   }
+  },
+  "hay": true
+ },
  "contexto": {
   "arbitro": "Verboomen N.",
   "clima": null,
@@ -10002,13 +10332,17 @@
   },
   "bajas": [],
   "dudas": [
-   "Flashscore: sin estadísticas: Borac Banja Luka 2026-10-28 vs Cazin (Bosnia and Herzegovina Cup)"
+   "Sofascore: local: sin estadísticas 2026-11-17 vs FK Omarska",
+   "Sofascore: local: sin estadísticas 2026-10-28 vs FK Krajina Cazin",
+   "Contraste con Flashscore (19 partidos comunes): 225/240 cifras iguales, 8 con diferencia > 1 → 2026-11-21 FK Željezničar sh[0] Sofascore 25 · Flashscore 21; 2026-11-08 FK Radnik Bijeljina sh[0] Sofascore 26 · Flashscore 22; 2026-11-08 FK Radnik Bijeljina sh[1] Sofascore 7 · Flashscore 3; 2026-11-08 FK Radnik Bijeljina sot[1] Sofascore 3 · Flashscore 1",
+   "Historial: sin casar con Betano → Riđan E.",
+   "Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Gianluca Scamacca, Kamaldeen Sulemana, Lazar Samardzic · solo Flashscore: Charles De Ketelaere, Gianluca Gaetano, Nikola Krstovic"
   ],
   "fuentes": [
    "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá",
-   "Flashscore (últimos partidos, estadísticas y H2H)",
-   "Flashscore (estadísticas de jugadores de los últimos 10 partidos de cada selección; solo jugadores de la alineación probable)",
-   "Flashscore (alineaciones probables y bajas)",
+   "Sofascore (últimos partidos, estadísticas y H2H) · Flashscore de respaldo y contraste",
+   "Sofascore (estadísticas de jugadores de los últimos 10 partidos de cada equipo; solo jugadores de la alineación probable)",
+   "Sofascore (alineaciones probables y bajas)",
    "ValueStats (árbitro)"
   ]
  }

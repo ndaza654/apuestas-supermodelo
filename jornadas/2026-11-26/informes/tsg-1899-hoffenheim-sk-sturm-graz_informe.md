@@ -17,7 +17,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de TSG 189
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Ambos marcan | ➖ neutro | sin ventaja clara para ninguna de las dos opciones |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 4 jugadores con titularidad dudosa: esperar el once |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
 

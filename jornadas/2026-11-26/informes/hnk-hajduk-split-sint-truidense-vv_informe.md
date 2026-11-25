@@ -14,7 +14,7 @@ Enfoque: mirar primero 1.er tiempo (Menos) y empate al descanso, Ambos marcan, E
 | Goles del partido | ➖ neutro | ni muchos ni pocos goles esperados |
 | Córners totales | ➖ neutro | ni a favor ni en contra |
 | Tarjetas y faltas | ➖ neutro | árbitro sin dato; parejo: más duelos y más faltas |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 3 jugadores con titularidad dudosa: esperar el once |
 | Hándicap y victoria | ⛔ en contra | partido parejo: ningún equipo manda |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -65,7 +65,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates HNK Hajduk Split Más 11.5 | 1.47 | 64 % | 56 % | Partido abierto (ambos marcan y 3+ goles) (74 %) | Empate (56 %) | Cara |
 | Tiros al arco | Tiros al arco Sint-Truidense VV Más 2.5 | 1.31 | 73 % | 62 % | Sorpresa: gana el no favorito (91 %) | Favorito gana en partido trabado (45 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar Sint-Truidense VV Menos 1.5 | 1.50 | 64 % | 63 % | Sorpresa: gana el no favorito (66 %) | Favorito golpea temprano y gana (62 %) | Justa |
-| Jugadores | Mathieu Acapandie anota o asiste | 4.80 | 20 % | 9 % | Partido abierto (ambos marcan y 3+ goles) (32 %) | Empate (9 %) | Cara |
+| Jugadores | Simun Hrgovic anota o asiste | 5.50 | 17 % | 8 % | Partido abierto (ambos marcan y 3+ goles) (29 %) | Empate (8 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 

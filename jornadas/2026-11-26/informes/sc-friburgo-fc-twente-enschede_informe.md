@@ -13,7 +13,7 @@ Enfoque: mirar primero Goles del partido (Más), Ambos marcan.
 | Resultado / hándicap | ➖ neutro | SC Friburgo favorito leve: el precio ya lo recoge |
 | Córners totales | ➖ neutro | ni a favor ni en contra |
 | Tarjetas y faltas | ➖ neutro | árbitro sin dato |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 7 jugadores con titularidad dudosa: esperar el once |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
 

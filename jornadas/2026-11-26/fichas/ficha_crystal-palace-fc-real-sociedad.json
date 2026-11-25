@@ -5814,8 +5814,8 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "por_90": 1.01,
-   "esperado": 0.9,
+   "por_90": 1.0,
+   "esperado": 0.89,
    "escalones": [
     {
      "minimo": 1,
@@ -5826,7 +5826,7 @@
       "txt": "4 de 9",
       "cumple": false
      },
-     "colchon": 0.4
+     "colchon": 0.39
     },
     {
      "minimo": 2,
@@ -5837,7 +5837,7 @@
       "txt": "2 de 9",
       "cumple": false
      },
-     "colchon": -0.6
+     "colchon": -0.61
     },
     {
      "minimo": 3,
@@ -5848,7 +5848,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -1.6
+     "colchon": -1.61
     },
     {
      "minimo": 4,
@@ -5859,7 +5859,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -2.6
+     "colchon": -2.61
     },
     {
      "minimo": 5,
@@ -5870,7 +5870,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -3.6
+     "colchon": -3.61
     },
     {
      "minimo": 6,
@@ -5881,7 +5881,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -4.6
+     "colchon": -4.61
     },
     {
      "minimo": 7,
@@ -5892,7 +5892,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -5.6
+     "colchon": -5.61
     },
     {
      "minimo": 8,
@@ -5903,7 +5903,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -6.6
+     "colchon": -6.61
     },
     {
      "minimo": 9,
@@ -5914,7 +5914,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -7.6
+     "colchon": -7.61
     },
     {
      "minimo": 10,
@@ -5925,7 +5925,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": -8.6
+     "colchon": -8.61
     }
    ]
   },
@@ -6001,7 +6001,7 @@
    "jugador": "Jean-Philippe Mateta",
    "lado": "local",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 5,
    "sin_historial": false,
@@ -6017,7 +6017,7 @@
    "jugador": "Jean-Philippe Mateta",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 5,
    "sin_historial": false,
@@ -6033,15 +6033,15 @@
    "jugador": "Jean-Philippe Mateta",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 5,
    "sin_historial": false,
    "cuota": 17.5,
    "reg": {
-    "x": 0,
+    "x": 1,
     "n": 5,
-    "txt": "0 de 5",
+    "txt": "1 de 5",
     "cumple": false
    }
   },
@@ -6049,7 +6049,7 @@
    "jugador": "Jean-Philippe Mateta",
    "lado": "local",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 5,
    "sin_historial": false,
@@ -6065,7 +6065,7 @@
    "jugador": "Jean-Philippe Mateta",
    "lado": "local",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 5,
    "sin_historial": false,
@@ -6166,7 +6166,7 @@
    "jugador": "Jean-Philippe Mateta",
    "lado": "local",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 5,
    "sin_historial": false,
@@ -6234,8 +6234,8 @@
    "jugador": "Jorgen Strand Larsen",
    "lado": "local",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 2.05,
@@ -6250,8 +6250,8 @@
    "jugador": "Jorgen Strand Larsen",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 1.82,
@@ -6266,8 +6266,8 @@
    "jugador": "Jorgen Strand Larsen",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 15.0,
@@ -6282,8 +6282,8 @@
    "jugador": "Jorgen Strand Larsen",
    "lado": "local",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 5.8,
@@ -6298,12 +6298,12 @@
    "jugador": "Jorgen Strand Larsen",
    "lado": "local",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "por_90": 2.83,
-   "esperado": null,
+   "esperado": 2.52,
    "escalones": [
     {
      "minimo": 3,
@@ -6314,7 +6314,7 @@
       "txt": "3 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.02
     },
     {
      "minimo": 4,
@@ -6325,7 +6325,7 @@
       "txt": "2 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.98
     },
     {
      "minimo": 5,
@@ -6336,7 +6336,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.98
     },
     {
      "minimo": 6,
@@ -6347,7 +6347,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.98
     },
     {
      "minimo": 7,
@@ -6358,7 +6358,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.98
     },
     {
      "minimo": 8,
@@ -6369,7 +6369,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -4.98
     },
     {
      "minimo": 9,
@@ -6380,7 +6380,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -5.98
     }
    ]
   },
@@ -6388,12 +6388,12 @@
    "jugador": "Jorgen Strand Larsen",
    "lado": "local",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "por_90": 0.94,
-   "esperado": null,
+   "esperado": 0.84,
    "escalones": [
     {
      "minimo": 1,
@@ -6404,7 +6404,7 @@
       "txt": "2 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.34
     },
     {
      "minimo": 2,
@@ -6415,7 +6415,7 @@
       "txt": "2 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.66
     },
     {
      "minimo": 3,
@@ -6426,7 +6426,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.66
     },
     {
      "minimo": 4,
@@ -6437,7 +6437,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.66
     },
     {
      "minimo": 5,
@@ -6448,7 +6448,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.66
     }
    ]
   },
@@ -6524,7 +6524,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "por_90": 1.72,
+   "por_90": 1.65,
    "esperado": null,
    "escalones": [
     {
@@ -6614,7 +6614,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "por_90": 0.69,
+   "por_90": 0.66,
    "esperado": null,
    "escalones": [
     {
@@ -6746,7 +6746,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "por_90": 4.3,
+   "por_90": 4.25,
    "esperado": null,
    "escalones": [
     {
@@ -6836,7 +6836,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "por_90": 1.25,
+   "por_90": 1.24,
    "esperado": null,
    "escalones": [
     {
@@ -7755,7 +7755,7 @@
    "jugador": "Dwight McNeil",
    "lado": "local",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -7771,7 +7771,7 @@
    "jugador": "Dwight McNeil",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -7787,7 +7787,7 @@
    "jugador": "Dwight McNeil",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -7803,7 +7803,7 @@
    "jugador": "Dwight McNeil",
    "lado": "local",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -7819,12 +7819,12 @@
    "jugador": "Dwight McNeil",
    "lado": "local",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "por_90": 1.67,
-   "esperado": 1.49,
+   "por_90": 1.63,
+   "esperado": 1.45,
    "escalones": [
     {
      "minimo": 2,
@@ -7835,7 +7835,7 @@
       "txt": "1 de 10",
       "cumple": false
      },
-     "colchon": -0.01
+     "colchon": -0.05
     },
     {
      "minimo": 3,
@@ -7846,7 +7846,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -1.01
+     "colchon": -1.05
     },
     {
      "minimo": 4,
@@ -7857,7 +7857,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -2.01
+     "colchon": -2.05
     },
     {
      "minimo": 5,
@@ -7868,7 +7868,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -3.01
+     "colchon": -3.05
     },
     {
      "minimo": 6,
@@ -7879,7 +7879,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -4.01
+     "colchon": -4.05
     },
     {
      "minimo": 7,
@@ -7890,7 +7890,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -5.01
+     "colchon": -5.05
     },
     {
      "minimo": 8,
@@ -7901,7 +7901,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -6.01
+     "colchon": -6.05
     }
    ]
   },
@@ -7909,12 +7909,12 @@
    "jugador": "Dwight McNeil",
    "lado": "local",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "por_90": 0.48,
-   "esperado": 0.42,
+   "por_90": 0.47,
+   "esperado": 0.41,
    "escalones": [
     {
      "minimo": 1,
@@ -7925,7 +7925,7 @@
       "txt": "1 de 10",
       "cumple": false
      },
-     "colchon": -0.08
+     "colchon": -0.09
     },
     {
      "minimo": 2,
@@ -7936,7 +7936,7 @@
       "txt": "1 de 10",
       "cumple": false
      },
-     "colchon": -1.08
+     "colchon": -1.09
     },
     {
      "minimo": 3,
@@ -7947,7 +7947,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -2.08
+     "colchon": -2.09
     },
     {
      "minimo": 4,
@@ -7958,7 +7958,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -3.08
+     "colchon": -3.09
     }
    ]
   },
@@ -9300,7 +9300,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 6,
    "sin_historial": false,
-   "por_90": 2.35,
+   "por_90": 2.3,
    "esperado": null,
    "escalones": [
     {
@@ -9379,7 +9379,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 6,
    "sin_historial": false,
-   "por_90": 1.17,
+   "por_90": 1.15,
    "esperado": null,
    "escalones": [
     {
@@ -10279,7 +10279,7 @@
    "partidos_muestra": 10,
    "sin_historial": false,
    "por_90": 0.62,
-   "esperado": 0.56,
+   "esperado": 0.55,
    "escalones": [
     {
      "minimo": 1,
@@ -10290,7 +10290,7 @@
       "txt": "4 de 10",
       "cumple": false
      },
-     "colchon": 0.06
+     "colchon": 0.05
     },
     {
      "minimo": 2,
@@ -10301,7 +10301,7 @@
       "txt": "1 de 10",
       "cumple": false
      },
-     "colchon": -0.94
+     "colchon": -0.95
     },
     {
      "minimo": 3,
@@ -10312,7 +10312,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -1.94
+     "colchon": -1.95
     },
     {
      "minimo": 4,
@@ -10323,7 +10323,7 @@
       "txt": "0 de 10",
       "cumple": false
      },
-     "colchon": -2.94
+     "colchon": -2.95
     }
    ]
   },
@@ -10700,7 +10700,7 @@
    "jugador": "Axel Disasi",
    "lado": "local",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -10716,7 +10716,7 @@
    "jugador": "Axel Disasi",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -10732,7 +10732,7 @@
    "jugador": "Axel Disasi",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -10748,7 +10748,7 @@
    "jugador": "Axel Disasi",
    "lado": "local",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -10764,7 +10764,7 @@
    "jugador": "Axel Disasi",
    "lado": "local",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -10821,7 +10821,7 @@
    "jugador": "Axel Disasi",
    "lado": "local",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -10935,8 +10935,8 @@
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
-   "por_90": 1.21,
-   "esperado": 1.08,
+   "por_90": 1.17,
+   "esperado": 1.04,
    "escalones": [
     {
      "minimo": 1,
@@ -10947,7 +10947,7 @@
       "txt": "2 de 6",
       "cumple": false
      },
-     "colchon": 0.58
+     "colchon": 0.54
     },
     {
      "minimo": 2,
@@ -10958,7 +10958,7 @@
       "txt": "1 de 6",
       "cumple": false
      },
-     "colchon": -0.42
+     "colchon": -0.46
     },
     {
      "minimo": 3,
@@ -10969,7 +10969,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": -1.42
+     "colchon": -1.46
     },
     {
      "minimo": 4,
@@ -10980,7 +10980,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": -2.42
+     "colchon": -2.46
     }
    ]
   },
@@ -11546,8 +11546,8 @@
    "jugador": "Honest Ahanor",
    "lado": "local",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "cuota": 11.0,
@@ -11562,8 +11562,8 @@
    "jugador": "Honest Ahanor",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "cuota": 8.25,
@@ -11578,8 +11578,8 @@
    "jugador": "Honest Ahanor",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "cuota": 13.5,
@@ -11594,8 +11594,8 @@
    "jugador": "Honest Ahanor",
    "lado": "local",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "cuota": 9.75,
@@ -11610,12 +11610,12 @@
    "jugador": "Honest Ahanor",
    "lado": "local",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "por_90": 0.0,
-   "esperado": null,
+   "esperado": 0.0,
    "escalones": [
     {
      "minimo": 1,
@@ -11626,7 +11626,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.5
     },
     {
      "minimo": 2,
@@ -11637,7 +11637,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.5
     },
     {
      "minimo": 3,
@@ -11648,7 +11648,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.5
     },
     {
      "minimo": 4,
@@ -11659,7 +11659,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.5
     }
    ]
   },
@@ -11667,12 +11667,12 @@
    "jugador": "Honest Ahanor",
    "lado": "local",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "por_90": 0.0,
-   "esperado": null,
+   "esperado": 0.0,
    "escalones": [
     {
      "minimo": 1,
@@ -11683,7 +11683,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.5
     },
     {
      "minimo": 2,
@@ -11694,7 +11694,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.5
     },
     {
      "minimo": 3,
@@ -11705,7 +11705,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.5
     }
    ]
   },
@@ -11713,8 +11713,8 @@
    "jugador": "Jaydee Canvot",
    "lado": "local",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 11.0,
@@ -11729,8 +11729,8 @@
    "jugador": "Jaydee Canvot",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 8.25,
@@ -11745,8 +11745,8 @@
    "jugador": "Jaydee Canvot",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 13.5,
@@ -11761,8 +11761,8 @@
    "jugador": "Jaydee Canvot",
    "lado": "local",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 9.75,
@@ -11777,12 +11777,12 @@
    "jugador": "Jaydee Canvot",
    "lado": "local",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "por_90": 0.0,
-   "esperado": null,
+   "esperado": 0.0,
    "escalones": [
     {
      "minimo": 1,
@@ -11793,7 +11793,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.5
     },
     {
      "minimo": 2,
@@ -11804,7 +11804,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.5
     },
     {
      "minimo": 3,
@@ -11815,7 +11815,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.5
     },
     {
      "minimo": 4,
@@ -11826,7 +11826,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.5
     }
    ]
   },
@@ -11834,12 +11834,12 @@
    "jugador": "Jaydee Canvot",
    "lado": "local",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "por_90": 0.0,
-   "esperado": null,
+   "esperado": 0.0,
    "escalones": [
     {
      "minimo": 1,
@@ -11850,7 +11850,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.5
     },
     {
      "minimo": 2,
@@ -11861,7 +11861,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.5
     },
     {
      "minimo": 3,
@@ -11872,7 +11872,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.5
     }
    ]
   },
@@ -11880,7 +11880,7 @@
    "jugador": "Mamadou Sarr",
    "lado": "visitante",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -11896,7 +11896,7 @@
    "jugador": "Mamadou Sarr",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -11912,7 +11912,7 @@
    "jugador": "Mamadou Sarr",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -11928,7 +11928,7 @@
    "jugador": "Mamadou Sarr",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -11944,7 +11944,7 @@
    "jugador": "Mamadou Sarr",
    "lado": "visitante",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -12001,7 +12001,7 @@
    "jugador": "Mamadou Sarr",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -12036,8 +12036,8 @@
    "jugador": "Igor Zubeldia",
    "lado": "visitante",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 11.0,
@@ -12052,8 +12052,8 @@
    "jugador": "Igor Zubeldia",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 8.75,
@@ -12068,8 +12068,8 @@
    "jugador": "Igor Zubeldia",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 8.75,
@@ -12084,8 +12084,8 @@
    "jugador": "Igor Zubeldia",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 10.5,
@@ -12100,12 +12100,12 @@
    "jugador": "Igor Zubeldia",
    "lado": "visitante",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
    "por_90": 0.72,
-   "esperado": null,
+   "esperado": 0.64,
    "escalones": [
     {
      "minimo": 1,
@@ -12116,7 +12116,7 @@
       "txt": "4 de 7",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.14
     },
     {
      "minimo": 2,
@@ -12127,7 +12127,7 @@
       "txt": "0 de 7",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.86
     },
     {
      "minimo": 3,
@@ -12138,7 +12138,7 @@
       "txt": "0 de 7",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.86
     },
     {
      "minimo": 4,
@@ -12149,7 +12149,7 @@
       "txt": "0 de 7",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.86
     }
    ]
   },
@@ -12157,12 +12157,12 @@
    "jugador": "Igor Zubeldia",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
    "por_90": 0.18,
-   "esperado": null,
+   "esperado": 0.16,
    "escalones": [
     {
      "minimo": 1,
@@ -12173,7 +12173,7 @@
       "txt": "1 de 7",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.34
     },
     {
      "minimo": 2,
@@ -12184,7 +12184,7 @@
       "txt": "0 de 7",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.34
     }
    ]
   },
@@ -12260,7 +12260,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 4,
    "sin_historial": false,
-   "por_90": 1.0,
+   "por_90": 0.97,
    "esperado": null,
    "escalones": [
     {
@@ -12535,74 +12535,74 @@
    "minutos_esperados": 80,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "por_90": 0.8,
-   "esperado": 0.71,
+   "por_90": 4.8,
+   "esperado": 4.27,
    "escalones": [
     {
      "minimo": 2,
      "cuota": 1.32,
      "reg": {
-      "x": 1,
+      "x": 5,
       "n": 5,
-      "txt": "1 de 5",
+      "txt": "5 de 5",
       "cumple": false
      },
-     "colchon": -0.79
+     "colchon": 2.77
     },
     {
      "minimo": 3,
      "cuota": 2.0,
      "reg": {
-      "x": 1,
+      "x": 5,
       "n": 5,
-      "txt": "1 de 5",
+      "txt": "5 de 5",
       "cumple": false
      },
-     "colchon": -1.79
+     "colchon": 1.77
     },
     {
      "minimo": 4,
      "cuota": 3.5,
      "reg": {
-      "x": 1,
+      "x": 5,
       "n": 5,
-      "txt": "1 de 5",
+      "txt": "5 de 5",
       "cumple": false
      },
-     "colchon": -2.79
+     "colchon": 0.77
     },
     {
      "minimo": 5,
      "cuota": 6.6,
      "reg": {
-      "x": 0,
+      "x": 2,
       "n": 5,
-      "txt": "0 de 5",
+      "txt": "2 de 5",
       "cumple": false
      },
-     "colchon": -3.79
+     "colchon": -0.23
     },
     {
      "minimo": 6,
      "cuota": 12.0,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 5,
-      "txt": "0 de 5",
+      "txt": "1 de 5",
       "cumple": false
      },
-     "colchon": -4.79
+     "colchon": -1.23
     },
     {
      "minimo": 7,
      "cuota": 7.4,
      "reg": {
-      "x": 0,
+      "x": 1,
       "n": 5,
-      "txt": "0 de 5",
+      "txt": "1 de 5",
       "cumple": false
      },
-     "colchon": -5.79
+     "colchon": -2.23
     }
    ]
   },
@@ -12710,8 +12710,8 @@
    "jugador": "Álex Remiro",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
    "cuota": 22.0,
@@ -12739,6 +12739,292 @@
    }
   }
  ],
+ "estilo": {
+  "etiquetas": {
+   "pos": "Posesión %",
+   "box": "Toques en el área rival",
+   "cr": "Centros (intentos)",
+   "crw": "Centros acertados",
+   "shi": "Remates dentro del área",
+   "blk": "Remates bloqueados",
+   "xg": "xG",
+   "xgot": "xG a puerta (xGOT)",
+   "big": "Ocasiones claras",
+   "tk": "Entradas (intentos)",
+   "du": "Duelos ganados",
+   "cl": "Despejes",
+   "it": "Intercepciones",
+   "fk": "Tiros libres a favor (= faltas recibidas)",
+   "pf3": "Pases en el último tercio",
+   "lp": "Pases largos",
+   "f": "Faltas cometidas",
+   "y": "Tarjetas (pts)",
+   "c": "Córners",
+   "sh": "Remates",
+   "sot": "Tiros al arco",
+   "off": "Fueras de juego",
+   "ti": "Saques de banda",
+   "gk": "Saques de meta",
+   "sv": "Atajadas",
+   "es": "Errores que terminan en remate"
+  },
+  "n_min": 5,
+  "local": {
+   "pos": {
+    "fav": 44.4,
+    "con": 55.6,
+    "n": 10
+   },
+   "box": {
+    "fav": 20.9,
+    "con": 30.8,
+    "n": 10
+   },
+   "cr": {
+    "fav": 15.0,
+    "con": 21.5,
+    "n": 10
+   },
+   "crw": {
+    "fav": 3.4,
+    "con": 5.9,
+    "n": 10
+   },
+   "shi": {
+    "fav": 7.5,
+    "con": 11.4,
+    "n": 10
+   },
+   "blk": {
+    "fav": 2.7,
+    "con": 5.2,
+    "n": 10
+   },
+   "xg": {
+    "fav": 1.32,
+    "con": 2.04,
+    "n": 10
+   },
+   "xgot": {
+    "fav": 1.31,
+    "con": 1.86,
+    "n": 9
+   },
+   "big": {
+    "fav": 2.8,
+    "con": 4.0,
+    "n": 10
+   },
+   "tk": {
+    "fav": 18.6,
+    "con": 13.2,
+    "n": 10
+   },
+   "du": {
+    "fav": 49.6,
+    "con": 47.3,
+    "n": 10
+   },
+   "cl": {
+    "fav": 30.3,
+    "con": 26.3,
+    "n": 10
+   },
+   "it": {
+    "fav": 9.8,
+    "con": 10.5,
+    "n": 10
+   },
+   "fk": {
+    "fav": 11.1,
+    "con": 11.7,
+    "n": 10
+   },
+   "lp": {
+    "fav": 49.6,
+    "con": 54.2,
+    "n": 10
+   },
+   "f": {
+    "fav": 11.7,
+    "con": 11.2,
+    "n": 10
+   },
+   "y": {
+    "fav": 2.7,
+    "con": 2.2,
+    "n": 10
+   },
+   "c": {
+    "fav": 3.8,
+    "con": 7.0,
+    "n": 10
+   },
+   "sh": {
+    "fav": 10.7,
+    "con": 16.1,
+    "n": 10
+   },
+   "sot": {
+    "fav": 4.0,
+    "con": 5.6,
+    "n": 10
+   },
+   "off": {
+    "fav": 2.0,
+    "con": 1.0,
+    "n": 10
+   },
+   "ti": {
+    "fav": 16.4,
+    "con": 18.3,
+    "n": 10
+   },
+   "gk": {
+    "fav": 9.2,
+    "con": 5.3,
+    "n": 10
+   },
+   "sv": {
+    "fav": 3.4,
+    "con": 2.8,
+    "n": 10
+   },
+   "es": {
+    "fav": 1.6,
+    "con": 0.4,
+    "n": 5
+   }
+  },
+  "visitante": {
+   "pos": {
+    "fav": 53.8,
+    "con": 46.2,
+    "n": 10
+   },
+   "box": {
+    "fav": 26.5,
+    "con": 26.5,
+    "n": 10
+   },
+   "cr": {
+    "fav": 14.5,
+    "con": 17.1,
+    "n": 10
+   },
+   "crw": {
+    "fav": 3.1,
+    "con": 3.5,
+    "n": 10
+   },
+   "shi": {
+    "fav": 10.7,
+    "con": 9.5,
+    "n": 10
+   },
+   "blk": {
+    "fav": 5.2,
+    "con": 4.5,
+    "n": 10
+   },
+   "xg": {
+    "fav": 1.97,
+    "con": 1.81,
+    "n": 10
+   },
+   "xgot": {
+    "fav": 1.94,
+    "con": 1.44,
+    "n": 10
+   },
+   "big": {
+    "fav": 3.8,
+    "con": 3.3,
+    "n": 10
+   },
+   "tk": {
+    "fav": 18.6,
+    "con": 18.8,
+    "n": 10
+   },
+   "du": {
+    "fav": 44.3,
+    "con": 48.4,
+    "n": 10
+   },
+   "cl": {
+    "fav": 21.2,
+    "con": 19.7,
+    "n": 10
+   },
+   "it": {
+    "fav": 10.7,
+    "con": 10.6,
+    "n": 10
+   },
+   "fk": {
+    "fav": 10.0,
+    "con": 12.1,
+    "n": 10
+   },
+   "lp": {
+    "fav": 47.0,
+    "con": 48.5,
+    "n": 10
+   },
+   "f": {
+    "fav": 12.5,
+    "con": 10.1,
+    "n": 10
+   },
+   "y": {
+    "fav": 2.5,
+    "con": 2.3,
+    "n": 10
+   },
+   "c": {
+    "fav": 5.8,
+    "con": 5.5,
+    "n": 10
+   },
+   "sh": {
+    "fav": 16.6,
+    "con": 14.4,
+    "n": 10
+   },
+   "sot": {
+    "fav": 5.0,
+    "con": 4.5,
+    "n": 10
+   },
+   "off": {
+    "fav": 1.8,
+    "con": 1.1,
+    "n": 10
+   },
+   "ti": {
+    "fav": 18.7,
+    "con": 17.4,
+    "n": 10
+   },
+   "gk": {
+    "fav": 7.4,
+    "con": 8.1,
+    "n": 10
+   },
+   "sv": {
+    "fav": 3.1,
+    "con": 2.6,
+    "n": 10
+   },
+   "es": {
+    "fav": 1.14,
+    "con": 1.29,
+    "n": 7
+   }
+  },
+  "hay": true
+ },
  "contexto": {
   "arbitro": "Saggi R.",
   "clima": null,
@@ -12761,14 +13047,16 @@
   },
   "bajas": [],
   "dudas": [
-   "Historial: sin casar con Betano → Wharton A., Sarr I., Guessand E., Lerma J., Zakharyan A., Aramburu J., Mingueza O., Hughes W., Doucoure C., Chilwell B., Barrenetxea A., Herrera Y., Marchal A., Beitia L.",
+   "Contraste con Flashscore (20 partidos comunes): 320/320 cifras iguales, 0 con diferencia > 1",
+   "Historial: sin casar con Betano → Wharton A., Lerma J., Guessand E., Mingueza Ó., Hughes W., Doucouré C., Chilwell B., Sarr I., Aramburu J., Zakharyan A., Barrenetxea A., Herrera Y., Marchal A., Beitia L.",
+   "Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Honest Ahanor, Igor Zubeldia, Jaydee Canvot, Jorgen Strand Larsen, Álex Remiro · solo Flashscore: Axel Disasi, Dwight McNeil, Jean-Philippe Mateta, Mamadou Sarr",
    "Alineación probable: sin casar con Betano → Hughes W., Marrero L."
   ],
   "fuentes": [
    "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá",
-   "Flashscore (últimos partidos, estadísticas y H2H)",
-   "Flashscore (estadísticas de jugadores de los últimos 10 partidos de cada selección; solo jugadores de la alineación probable)",
-   "Flashscore (alineaciones probables y bajas)",
+   "Sofascore (últimos partidos, estadísticas y H2H) · Flashscore de respaldo y contraste",
+   "Sofascore (estadísticas de jugadores de los últimos 10 partidos de cada equipo; solo jugadores de la alineación probable)",
+   "Sofascore (alineaciones probables y bajas)",
    "ValueStats (árbitro)"
   ]
  }

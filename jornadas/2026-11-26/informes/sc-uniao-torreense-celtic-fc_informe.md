@@ -14,7 +14,7 @@ Enfoque: mirar primero Goles del partido (Más), Ambos marcan, Córners de Celti
 | Resultado / hándicap | ➖ neutro | Celtic FC favorito leve: el precio ya lo recoge |
 | Córners totales | ➖ neutro | ni a favor ni en contra |
 | Tarjetas y faltas | ➖ neutro | árbitro sin dato |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 13 jugadores con titularidad dudosa: esperar el once |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
 
@@ -88,14 +88,14 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Tarjetas Más 3.5 | 1.37 | 71 % | 70 % | 71 % | +0 pts | -3 % | 59 % | +0.6 | 1.46 | Favorito golpea temprano y gana | Alta probabilidad |
 | Tarjetas SC Uniao Torreense Menos 3.5 | 1.37 | 71 % | 70 % | 71 % | +0 pts | -3 % | 70 % | +0.4 | 1.46 | Expulsión antes del 70′ | Alta probabilidad |
 | Córners 2.º tiempo Menos 6.5 | 1.33 | 70 % | 73 % | 70 % | +0 pts | -6 % | 66 % | +0.4 | 1.46 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
-| Alejandro Alfaro Cascales remates 1+ | 1.25 | 70 % | 71 % | 70 % | +0 pts | -13 % | 68 % | — | 1.47 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
-| Callum Osmand tiros al arco 1+ | 1.27 | 70 % | 70 % | 70 % | +0 pts | -12 % | 60 % | — | 1.48 | Empate | Alta probabilidad · cuota por debajo de la justa |
+| Alejandro Alfaro Cascales remates 1+ | 1.25 | 70 % | 71 % | 70 % | +0 pts | -12 % | 68 % | — | 1.47 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
 | Córners 1.er tiempo Más 3.5 | 1.34 | 69 % | 72 % | 69 % | +0 pts | -7 % | 67 % | +0.5 | 1.48 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | Goles 1.er tiempo Más 0.75 | 1.42 | 69 % | 69 % | 69 % | +0 pts | -2 % | 69 % | +0.6 | 1.49 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 17 % · ★ enfoque a favor |
 | Goles SC Uniao Torreense Menos 1.5 | 1.39 | 69 % | 69 % | 69 % | +0 pts | -4 % | 69 % | +0.4 | 1.49 | Sorpresa: gana el no favorito | Alta probabilidad |
 | Córners Menos 11.5 | 1.40 | 68 % | 69 % | 68 % | +0 pts | -5 % | 66 % | +0.4 | 1.51 | Sorpresa: gana el no favorito | Alta probabilidad |
 | Goles 1.er tiempo Menos 1.75 | 1.42 | 68 % | 69 % | 68 % | +0 pts | -3 % | 68 % | +0.3 | 1.51 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 12 % |
 | Goles Menos 3.75 | 1.45 | 68 % | 67 % | 68 % | +0 pts | -1 % | 68 % | +0.4 | 1.51 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 9 % |
+| Córners Celtic FC Más 4.5 | 1.37 | 68 % | 70 % | 68 % | +0 pts | -7 % | 59 % | +0.5 | 1.52 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |

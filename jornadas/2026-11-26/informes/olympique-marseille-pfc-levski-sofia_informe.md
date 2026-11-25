@@ -16,7 +16,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de Olympiq
 | Tarjetas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 4 jugadores con titularidad dudosa: esperar el once |
 | Ambos marcan | ⛔ en contra | PFC Levski Sofia marca poco en este partido |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -66,7 +66,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates PFC Levski Sofia Menos 9.5 | 1.45 | 66 % | 57 % | Favorito gana en partido trabado (76 %) | Partido abierto (ambos marcan y 3+ goles) (57 %) | Alta probabilidad |
 | Tiros al arco | Tiros al arco Olympique Marseille Menos 6.5 | 1.39 | 69 % | 58 % | Empate (90 %) | Partido abierto (ambos marcan y 3+ goles) (58 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar Olympique Marseille Menos 1.5 | 1.47 | 65 % | 64 % | Favorito gana en partido trabado (67 %) | Sorpresa: gana el no favorito (60 %) | Justa |
-| Jugadores | Nayef Aguerd anota o asiste | 6.10 | 16 % | 14 % | Partido abierto (ambos marcan y 3+ goles) (21 %) | Sorpresa: gana el no favorito (5 %) | Justa |
+| Jugadores | Geoffrey Kondogbia anota o asiste | 4.60 | 20 % | 18 % | Partido abierto (ambos marcan y 3+ goles) (27 %) | Sorpresa: gana el no favorito (7 %) | Cara |
 | Quién saca más | Más tarjetas: empate | 3.85 | 25 % | 26 % | Sorpresa: gana el no favorito (27 %) | Expulsión antes del 70′ (10 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.

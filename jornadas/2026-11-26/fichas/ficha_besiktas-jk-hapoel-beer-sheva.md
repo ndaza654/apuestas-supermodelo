@@ -107,25 +107,25 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 12.0, visitante 14.
 | 14.5 | @1.93 · col +0.1 · L 6 de 10 · V 4 de 10 | @1.82 · col -0.1 · L 4 de 10 · V 6 de 10 |
 
 ### Fueras de juego
-Muestra: local 10, visitante 10, directos 0. Esperado: local 1.95, visitante 1.6, **total 3.55** (local 2.4 a favor / 1.9 en contra; visitante 1.3 / 1.5).
+Muestra: local 8, visitante 10, directos 0. Esperado: local 2.25, visitante 1.84, **total 4.09** (local 3.0 a favor / 2.38 en contra; visitante 1.3 / 1.5).
 
 **total**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.65 · col +1.1 · L 6 de 10 · V 3 de 10 | @2.15 · col -1.1 · L 4 de 10 · V 7 de 10 |
+| 2.5 | @1.65 · col +1.6 · L 6 de 8 · V 3 de 10 | @2.15 · col -1.6 · L 2 de 8 · V 7 de 10 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @2.8 · col +0.5 · L 7 de 10 · V 4 de 10 | @1.4 · col -0.5 · L 3 de 10 · V 6 de 10 |
+| 1.5 | @2.8 · col +0.8 · L 7 de 8 · V 4 de 10 | @1.4 · col -0.8 · L 1 de 8 · V 6 de 10 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.7 · col +0.1 · L 7 de 10 · V 4 de 10 | @2.07 · col -0.1 · L 3 de 10 · V 6 de 10 |
+| 1.5 | @1.7 · col +0.3 · L 7 de 8 · V 4 de 10 | @2.07 · col -0.3 · L 1 de 8 · V 6 de 10 |
 
 ### Saques de banda
 Muestra: local 10, visitante 10, directos 0. Esperado: local 19.65, visitante 17.3, **total 36.95** (local 20.4 a favor / 16.1 en contra; visitante 18.5 / 18.9).
@@ -291,11 +291,40 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Alexander Nubel — atajadas: 1+ @1.15 · col +2.5 · 10 de 10 (titular 0.90)
 - Alexander Nubel — atajadas: 2+ @1.75 · col +1.5 · 7 de 10 (titular 0.90)
 - Alexander Nubel — atajadas: 3+ @3.25 · col +0.5 · 7 de 10 (titular 0.90)
-- Dušan Vlahović — al_arco: 1+ @1.14 · col — · 7 de 9
+- Dušan Vlahović — al_arco: 1+ @1.14 · col +1.1 · 7 de 9 (titular 0.50)
 - Leandro Trossard — remates: 3+ @1.24 · col +0.2 · 7 de 9 (titular 0.90)
-- Amankwah Forson — remates: 1+ @1.32 · col — · 10 de 10
-- Amir Ganah — remates: 1+ @1.15 · col +2.6 · 7 de 9 (titular 0.90)
-- Igor Zlatanovic — remates: 1+ @1.36 · col +1.1 · 7 de 10 (titular 0.90)
+- Amir Ganah — remates: 1+ @1.15 · col +2.6 · 7 de 9 (titular 0.50)
+- Igor Zlatanovic — remates: 1+ @1.36 · col +1.1 · 7 de 10 (titular 0.50)
+
+## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
+
+| Dato | Local fav | Local con | Visitante fav | Visitante con | n L/V |
+|---|---|---|---|---|---|
+| Posesión % | 59.7 | 40.3 | 61.2 | 38.8 | 10/10 |
+| Toques en el área rival | 27.8 | 14.8 | 27.4 | 22.3 | 10/10 |
+| Centros (intentos) | 17.6 | 12.6 | 14.1 | 12.3 | 10/10 |
+| Centros acertados | 3.1 | 2.7 | 3.3 | 3.0 | 10/10 |
+| Remates dentro del área | 9.7 | 6.3 | 7.5 | 8.3 | 10/10 |
+| Remates bloqueados | 4.0 | 1.5 | 3.2 | 2.8 | 10/10 |
+| xG | 2.0 | 1.1 | — | — | 10/— |
+| xG a puerta (xGOT) | 2.0 | 1.3 | — | — | 10/— |
+| Ocasiones claras | 3.2 | 2.8 | 2.4 | 2.4 | 10/10 |
+| Entradas (intentos) | 14.4 | 17.7 | 19.0 | 18.6 | 10/10 |
+| Duelos ganados | 47.9 | 47.9 | 48.4 | 53.1 | 10/10 |
+| Despejes | 19.1 | 25.4 | 19.3 | 21.5 | 10/10 |
+| Intercepciones | 9.3 | 12.0 | 7.8 | 10.9 | 10/10 |
+| Tiros libres a favor (= faltas recibidas) | 15.2 | 12.3 | 11.4 | 13.4 | 10/10 |
+| Pases largos | 55.5 | 58.2 | 38.1 | 52.8 | 10/10 |
+| Faltas cometidas | 12.3 | 15.5 | 13.7 | 11.7 | 10/10 |
+| Tarjetas (pts) | 2.6 | 3.0 | 3.0 | 3.0 | 10/9 |
+| Córners | 4.7 | 3.7 | 4.2 | 3.6 | 10/10 |
+| Remates | 15.6 | 10.3 | 12.5 | 12.4 | 10/10 |
+| Tiros al arco | 5.9 | 5.1 | 4.6 | 4.6 | 10/10 |
+| Fueras de juego | 3.0 | 2.4 | 1.3 | 1.5 | 8/10 |
+| Saques de banda | 20.4 | 16.1 | 18.5 | 18.9 | 10/10 |
+| Saques de meta | 5.8 | 9.1 | 6.7 | 8.3 | 10/10 |
+| Atajadas | 3.4 | 3.5 | 3.2 | 3.1 | 10/10 |
+| Errores que terminan en remate | — | — | 1.3 | 0.5 | —/10 |
 
 ## Contexto para juzgar los criterios no numéricos
 
@@ -304,4 +333,4 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Historial: sin casar con Betano → Lucas Ventura, Peretz E., Miretti F., Akdag U., Oh Hyeon-Gyu, Kayra Yilmaz K., Rashica M., Stoyanov Y., Kanaan H., Ohana A.', 'Alineación probable: sin casar con Betano → Forson F.']
+- Dudas: ['Contraste con Flashscore (20 partidos comunes): 314/314 cifras iguales, 0 con diferencia > 1', 'Historial: sin casar con Betano → Miretti F., Akdağ Ü., Rashica M., Amankwah F., Stoyanov Y., Kanaan H., Peretz E., Ventura L., Ohana A.', 'Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Adrian Ugarriza, Djibril Diop, Dušan Vlahović, Emirhan Topcu, Ilhan Fakili, Marco Wolff, Muhammad Abu Rumi, Taylan Bulut, Yonas Malede · solo Flashscore: Amir Ganah, Emmanuel Agbadou, Hyeon-gyu Oh, Igor Zlatanovic, Javon East, Miguel Vitor, P. Amador, Tiago Djaló, Václav Černý', 'Alineación probable: sin casar con Betano → Amankwah F., Forson F.', 'Matan Baltaxa: Flashscore lo lista en el XI probable y también como baja; se toma como baja']

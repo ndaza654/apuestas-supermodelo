@@ -17,7 +17,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de Ferencv
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Ambos marcan | ➖ neutro | sin ventaja clara para ninguna de las dos opciones |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 7 jugadores con titularidad dudosa: esperar el once |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
 
@@ -67,7 +67,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates NK Celje Menos 10.5 | 1.42 | 67 % | 59 % | Favorito gana en partido trabado (78 %) | Sorpresa: gana el no favorito (58 %) | Alta probabilidad · cuota por debajo de la justa |
 | Tiros al arco | Tiros al arco Ferencvarosi TC Más 4.5 | 1.35 | 71 % | 67 % | Partido abierto (ambos marcan y 3+ goles) (84 %) | Empate (42 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar Ferencvarosi TC Menos 1.5 | 1.50 | 64 % | 63 % | Empate (65 %) | Sorpresa: gana el no favorito (57 %) | Justa |
-| Jugadores | David Castro anota o asiste | 18.00 | 7 % | 0 % | Sorpresa: gana el no favorito (16 %) | Favorito golpea temprano y gana (0 %) | Justa |
+| Jugadores | Ivan Calusic anota o asiste | 18.00 | 7 % | 0 % | Sorpresa: gana el no favorito (17 %) | Favorito golpea temprano y gana (0 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 

@@ -14,7 +14,6 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Córners | total | Menos 12.0 | 1.25 | +3.0 | 9 de 10 | 8 de 10 |
 | Faltas | local | Menos 13.5 | 2.0 | +1.9 | 8 de 10 | 7 de 10 |
 | Faltas | total | Menos 26.5 | 1.82 | +2.9 | 7 de 10 | 8 de 10 |
-| Fueras de juego | local | Menos 1.5 | 1.47 | +0.4 | 7 de 10 | 7 de 10 |
 | Goles | local | Menos 2.5 | 1.31 | +1.2 | 8 de 10 | 10 de 10 |
 | Goles | total | Menos 4.5 | 1.24 | +1.1 | 8 de 10 | 7 de 10 |
 | Goles | total | Más 2.25 | 1.42 | +1.1 | 7 de 10 | 7 de 10 |
@@ -112,25 +111,25 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 11.65, visitante 12
 | 12.5 | @1.93 · col -0.5 · L 5 de 10 · V 4 de 10 | @1.8 · col +0.5 · L 5 de 10 · V 6 de 10 |
 
 ### Fueras de juego
-Muestra: local 10, visitante 10, directos 0. Esperado: local 1.1, visitante 1.75, **total 2.85** (local 1.3 a favor / 1.7 en contra; visitante 1.8 / 0.9).
+Muestra: local 10, visitante 8, directos 0. Esperado: local 1.21, visitante 1.98, **total 3.19** (local 1.3 a favor / 1.7 en contra; visitante 2.25 / 1.12).
 
 **total**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.65 · col +0.3 · L 5 de 10 · V 5 de 10 | @2.15 · col -0.3 · L 5 de 10 · V 5 de 10 |
+| 2.5 | @1.65 · col +0.7 · L 5 de 10 · V 5 de 8 | @2.15 · col -0.7 · L 5 de 10 · V 3 de 8 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @2.55 · col -0.4 · L 3 de 10 · V 3 de 10 | @1.47 · col +0.4 · L 7 de 10 · V 7 de 10 ✓ |
+| 1.5 | @2.55 · col -0.3 · L 3 de 10 · V 3 de 8 | @1.47 · col +0.3 · L 7 de 10 · V 5 de 8 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.8 · col +0.2 · L 4 de 10 · V 6 de 10 | @1.95 · col -0.2 · L 6 de 10 · V 4 de 10 |
+| 1.5 | @1.8 · col +0.5 · L 4 de 10 · V 6 de 8 | @1.95 · col -0.5 · L 6 de 10 · V 2 de 8 |
 
 ### Saques de banda
 Muestra: local 10, visitante 10, directos 0. Esperado: local 15.65, visitante 17.45, **total 33.1** (local 15.9 a favor / 16.8 en contra; visitante 18.1 / 15.4).
@@ -139,14 +138,14 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 15.65, visitante 17
 Muestra: local 10, visitante 10, directos 0. Esperado: local 8.9, visitante 5.8, **total 14.7** (local 5.8 a favor / 7.2 en contra; visitante 4.4 / 12.0).
 
 ### Remates
-Muestra: local 10, visitante 10, directos 0. Esperado: local 10.95, visitante 16.9, **total 27.85** (local 14.0 a favor / 10.6 en contra; visitante 23.2 / 7.9).
+Muestra: local 10, visitante 10, directos 0. Esperado: local 11.0, visitante 16.85, **total 27.85** (local 14.0 a favor / 10.6 en contra; visitante 23.1 / 8.0).
 
 **total**
 
 | Línea | Más | Menos |
 |---|---|---|
 | 27.5 | @1.62 · col +0.3 · L 2 de 10 · V 9 de 10 | @2.2 · col -0.3 · L 8 de 10 · V 1 de 10 |
-| 28.5 | @1.83 · col -0.7 · L 2 de 10 · V 7 de 10 | @1.9 · col +0.7 · L 8 de 10 · V 3 de 10 |
+| 28.5 | @1.83 · col -0.7 · L 2 de 10 · V 6 de 10 | @1.9 · col +0.7 · L 8 de 10 · V 4 de 10 |
 | 29.5 | @2.12 · col -1.6 · L 2 de 10 · V 5 de 10 | @1.67 · col +1.6 · L 8 de 10 · V 5 de 10 |
 
 **local**
@@ -154,7 +153,7 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 10.95, visitante 16
 | Línea | Más | Menos |
 |---|---|---|
 | 13.5 | @1.57 · col -2.5 · L 4 de 10 · V 2 de 10 | @2.3 · col +2.5 · L 6 de 10 · V 8 de 10 |
-| 14.5 | @1.88 · col -3.5 · L 4 de 10 · V 1 de 10 | @1.87 · col +3.5 · L 6 de 10 · V 9 de 10 |
+| 14.5 | @1.88 · col -3.5 · L 4 de 10 · V 2 de 10 | @1.87 · col +3.5 · L 6 de 10 · V 8 de 10 |
 | 15.5 | @2.3 · col -4.5 · L 4 de 10 · V 1 de 10 | @1.57 · col +4.5 · L 6 de 10 · V 9 de 10 |
 
 **visitante**
@@ -292,6 +291,36 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
 _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 
+## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
+
+| Dato | Local fav | Local con | Visitante fav | Visitante con | n L/V |
+|---|---|---|---|---|---|
+| Posesión % | 50.5 | 49.5 | 64.3 | 35.7 | 10/10 |
+| Toques en el área rival | 26.7 | 18.7 | 47.1 | 12.8 | 10/10 |
+| Centros (intentos) | 20.3 | 13.5 | 26.3 | 10.3 | 10/10 |
+| Centros acertados | 4.7 | 3.4 | 6.5 | 2.0 | 10/10 |
+| Remates dentro del área | 9.2 | 7.8 | 15.8 | 4.5 | 10/10 |
+| Remates bloqueados | 4.5 | 2.8 | 6.7 | 2.3 | 10/10 |
+| xG | 1.4 | 1.3 | 3.1 | 0.7 | 9/10 |
+| xG a puerta (xGOT) | 1.3 | 1.5 | 2.6 | 0.8 | 9/10 |
+| Ocasiones claras | 2.6 | 2.4 | 4.4 | 1.4 | 10/10 |
+| Entradas (intentos) | 15.8 | 13.7 | 15.3 | 14.2 | 10/10 |
+| Duelos ganados | 50.4 | 43.9 | 45.4 | 44.5 | 10/10 |
+| Despejes | 24.3 | 29.6 | 15.3 | 31.5 | 10/10 |
+| Intercepciones | 8.8 | 7.4 | 6.9 | 10.6 | 10/10 |
+| Tiros libres a favor (= faltas recibidas) | 12.3 | 11.6 | 11.4 | 11.6 | 10/10 |
+| Pases largos | 44.4 | 54.5 | 43.9 | 54.8 | 10/10 |
+| Faltas cometidas | 11.6 | 12.4 | 11.6 | 11.7 | 10/10 |
+| Tarjetas (pts) | 2.4 | 1.5 | 1.6 | 2.8 | 10/10 |
+| Córners | 5.2 | 3.5 | 7.1 | 2.2 | 10/10 |
+| Remates | 14.0 | 10.6 | 23.1 | 8.0 | 10/10 |
+| Tiros al arco | 4.0 | 3.5 | 7.6 | 2.8 | 10/10 |
+| Fueras de juego | 1.3 | 1.7 | 2.2 | 1.1 | 10/8 |
+| Saques de banda | 15.9 | 16.8 | 18.1 | 15.4 | 10/10 |
+| Saques de meta | 5.8 | 7.2 | 4.4 | 12.0 | 10/10 |
+| Atajadas | 2.4 | 3.2 | 1.7 | 4.9 | 9/10 |
+| Errores que terminan en remate | 0.2 | 0.8 | 0.4 | 1.0 | 8/5 |
+
 ## Contexto para juzgar los criterios no numéricos
 
 - Árbitro: Lukjancukas M.; derbi: False; importancia: normal; clima: None
@@ -299,4 +328,4 @@ _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Historial: sin casar con Betano → Beste N.', 'Alineación probable: sin casar con Betano → Taha E., Orjasaeter O.']
+- Dudas: ['Contraste con Flashscore (20 partidos comunes): 314/316 cifras iguales, 0 con diferencia > 1', 'Historial: sin casar con Betano → Ørjasæter S., Unnerstall L., Bruns M.', 'Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Cyriaque Irie, Lukas Kubler, Vincenzo Grifo, Younes Taha · solo Flashscore: Derry Scherhant, Jan Niklas Beste, Philipp Treu', 'Alineación probable: sin casar con Betano → Ørjasæter S., Taha E., Orjasaeter O.']

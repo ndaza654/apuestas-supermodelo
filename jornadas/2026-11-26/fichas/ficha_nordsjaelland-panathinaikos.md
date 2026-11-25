@@ -129,23 +129,23 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 17.55, visitante 19
 Muestra: local 10, visitante 10, directos 0. Esperado: local 8.2, visitante 5.75, **total 13.95** (local 6.6 a favor / 6.3 en contra; visitante 5.2 / 9.8).
 
 ### Remates
-Muestra: local 10, visitante 10, directos 0. Esperado: local 11.0, visitante 15.3, **total 26.3** (local 13.9 a favor / 11.8 en contra; visitante 18.8 / 8.1).
+Muestra: local 10, visitante 10, directos 0. Esperado: local 10.9, visitante 15.25, **total 26.15** (local 13.7 a favor / 11.7 en contra; visitante 18.8 / 8.1).
 
 **total**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 26.5 | @1.72 · col -0.2 · L 5 de 10 · V 4 de 10 | @2.05 · col +0.2 · L 5 de 10 · V 6 de 10 |
-| 27.5 | @1.98 · col -1.2 · L 5 de 10 · V 4 de 10 | @1.78 · col +1.2 · L 5 de 10 · V 6 de 10 |
-| 28.5 | @2.3 · col -2.2 · L 5 de 10 · V 4 de 10 | @1.57 · col +2.2 · L 5 de 10 · V 6 de 10 |
+| 26.5 | @1.72 · col -0.3 · L 5 de 10 · V 4 de 10 | @2.05 · col +0.3 · L 5 de 10 · V 6 de 10 |
+| 27.5 | @1.98 · col -1.4 · L 5 de 10 · V 4 de 10 | @1.78 · col +1.4 · L 5 de 10 · V 6 de 10 |
+| 28.5 | @2.3 · col -2.4 · L 5 de 10 · V 4 de 10 | @1.57 · col +2.4 · L 5 de 10 · V 6 de 10 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 10.5 | @1.47 · col +0.5 · L 9 de 10 · V 3 de 10 | @2.55 · col -0.5 · L 1 de 10 · V 7 de 10 |
-| 11.5 | @1.78 · col -0.5 · L 7 de 10 · V 3 de 10 | @1.98 · col +0.5 · L 3 de 10 · V 7 de 10 |
-| 12.5 | @2.2 · col -1.5 · L 6 de 10 · V 1 de 10 | @1.62 · col +1.5 · L 4 de 10 · V 9 de 10 |
+| 10.5 | @1.47 · col +0.4 · L 9 de 10 · V 3 de 10 | @2.55 · col -0.4 · L 1 de 10 · V 7 de 10 |
+| 11.5 | @1.78 · col -0.6 · L 7 de 10 · V 3 de 10 | @1.98 · col +0.6 · L 3 de 10 · V 7 de 10 |
+| 12.5 | @2.2 · col -1.6 · L 5 de 10 · V 1 de 10 | @1.62 · col +1.6 · L 5 de 10 · V 9 de 10 |
 
 **visitante**
 
@@ -279,7 +279,41 @@ Muestra: local 10, visitante 10, directos 0.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
+- Andreas Hansen — atajadas: 2+ @1.2 · col +1.7 · 9 de 10 (titular 0.90)
+- Andreas Hansen — atajadas: 3+ @1.65 · col +0.7 · 7 de 10 (titular 0.90)
+- Ibrahim Adel — remates: 1+ @2.37 · col — · 10 de 10
+- Ibrahim Adel — remates: 2+ @8.25 · col — · 7 de 10
+- Ibrahim Adel — al_arco: 1+ @5.1 · col — · 7 de 10
+
+## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
+
+| Dato | Local fav | Local con | Visitante fav | Visitante con | n L/V |
+|---|---|---|---|---|---|
+| Posesión % | 54.4 | 45.6 | 59.8 | 40.2 | 10/10 |
+| Toques en el área rival | 33.2 | 20.4 | 33.4 | 10.9 | 9/9 |
+| Centros (intentos) | 14.3 | 13.5 | 21.1 | 12.1 | 10/10 |
+| Centros acertados | 3.6 | 3.8 | 6.0 | 3.4 | 10/10 |
+| Remates dentro del área | 10.2 | 7.3 | 12.0 | 5.1 | 10/10 |
+| Remates bloqueados | 3.8 | 2.2 | 4.5 | 2.0 | 10/10 |
+| xG | 1.9 | 1.4 | 2.4 | 0.8 | 10/10 |
+| xG a puerta (xGOT) | 2.3 | 1.4 | 2.2 | 0.6 | 9/9 |
+| Ocasiones claras | 3.4 | 2.4 | 4.6 | 1.2 | 9/8 |
+| Entradas (intentos) | 14.2 | 15.9 | 17.2 | 18.7 | 10/10 |
+| Duelos ganados | 45.2 | 46.0 | 56.5 | 57.3 | 10/10 |
+| Despejes | 19.3 | 23.8 | 17.2 | 27.0 | 10/10 |
+| Intercepciones | 8.2 | 11.9 | 10.3 | 11.1 | 10/10 |
+| Tiros libres a favor (= faltas recibidas) | 10.7 | 9.7 | 12.6 | 14.6 | 10/10 |
+| Pases largos | 46.1 | 53.6 | 43.6 | 55.6 | 10/10 |
+| Faltas cometidas | 10.4 | 11.8 | 15.9 | 14.6 | 10/10 |
+| Tarjetas (pts) | 3.0 | 2.4 | 2.6 | 2.9 | 9/9 |
+| Córners | 5.4 | 3.1 | 7.0 | 2.7 | 10/10 |
+| Remates | 13.7 | 11.7 | 18.8 | 8.1 | 10/10 |
+| Tiros al arco | 5.6 | 4.6 | 6.3 | 2.3 | 10/10 |
+| Fueras de juego | 1.9 | 1.9 | 1.8 | 1.7 | 10/10 |
+| Saques de banda | 17.3 | 15.9 | 22.6 | 17.8 | 10/10 |
+| Saques de meta | 6.6 | 6.3 | 5.2 | 9.8 | 10/10 |
+| Atajadas | 3.6 | 3.3 | 1.7 | 3.9 | 10/10 |
+| Errores que terminan en remate | 1.4 | 0.8 | 0.6 | 0.6 | 5/7 |
 
 ## Contexto para juzgar los criterios no numéricos
 
@@ -288,4 +322,4 @@ _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Historial: sin casar con Betano → Ounahi A., Andino S., Kyriakopoulos G., de Vrij S.', 'Alineación probable: sin casar con Betano → Adel A., de Vrij S., Kyriakopoulos G.']
+- Dudas: ['Contraste con Flashscore (20 partidos comunes): 314/316 cifras iguales, 1 con diferencia > 1 → 2026-10-28 Esbjerg FB sh[0] Sofascore 12 · Flashscore 14', 'Historial: sin casar con Betano → Røjkjær N., de Vrij S., Kyriakopoulos G., Andino S., Salah-Eddine A., Nebis I., Ounahi A.', 'Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Adriano Jagusic, Elmin Rastoder, Lamine Sadio, M. Brink, Malte Heyde, Markus Walker, Ola Solbakken, Tobias Salquist, Villum Berthelsen · solo Flashscore: A. Lind, Andrews Tetteh, Cyriel Dessers, Hjalte Rasmussen, Justin Janssen, N. Röjkjaer, Peter Ankersen, Runar Norheim', 'Alineación probable: sin casar con Betano → de Vrij S., Kyriakopoulos G., Adel A.']

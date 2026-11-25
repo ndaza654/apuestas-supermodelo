@@ -17,7 +17,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de SL Benf
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Ambos marcan | ➖ neutro | sin ventaja clara para ninguna de las dos opciones |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 12 jugadores con titularidad dudosa: esperar el once |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
 
@@ -98,8 +98,8 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Córners Más 8.0 | 1.50 | 71 % | 70 % | 71 % | +0 pts | +6 % | 59 % | +0.6 | 1.46 | Expulsión antes del 70′ | Alta probabilidad · Valor · asiática: devuelve 11 % |
 | Goles 2.º tiempo Menos 2.5 | 1.42 | 70 % | 68 % | 70 % | +0 pts | -1 % | 70 % | +0.5 | 1.47 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
 | Goles SL Benfica Más 1.5 | 1.39 | 70 % | 69 % | 70 % | +0 pts | -3 % | 70 % | +0.6 | 1.48 | Empate | Alta probabilidad · ★ enfoque a favor |
-| João Palhinha remates 1+ | 1.28 | 69 % | 70 % | 69 % | +0 pts | -12 % | 67 % | — | 1.49 | Empate | Alta probabilidad · cuota por debajo de la justa |
-| Andreas Schjelderup remates 2+ | 1.28 | 69 % | 70 % | 69 % | +0 pts | -12 % | 67 % | — | 1.50 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| Córners 1.er tiempo Menos 5.5 | 1.42 | 69 % | 68 % | 69 % | +0 pts | -2 % | 68 % | +0.5 | 1.50 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Anisse Saidi tiros al arco 1+ | 1.27 | 69 % | 70 % | 69 % | +0 pts | -13 % | 60 % | — | 1.50 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |

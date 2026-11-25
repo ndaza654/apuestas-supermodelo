@@ -17,7 +17,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de AFC Aja
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Ambos marcan | ➖ neutro | sin ventaja clara para ninguna de las dos opciones |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 9 jugadores con titularidad dudosa: esperar el once |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
 
@@ -67,7 +67,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates FC Thun Menos 9.5 | 1.53 | 62 % | 53 % | Favorito gana en partido trabado (74 %) | Sorpresa: gana el no favorito (50 %) | Cara |
 | Tiros al arco | Tiros al arco AFC Ajax Más 6.5 | 1.42 | 66 % | 72 % | Partido abierto (ambos marcan y 3+ goles) (74 %) | Empate (31 %) | Alta probabilidad · cuota por debajo de la justa |
 | Fueras de lugar | Fueras de lugar Más 3.5 | 1.60 | 59 % | 60 % | Favorito golpea temprano y gana (60 %) | Empate (56 %) | Cara |
-| Jugadores | Kennynho Kasanwirjo anota o asiste | 5.70 | 17 % | 18 % | Partido abierto (ambos marcan y 3+ goles) (19 %) | Empate (4 %) | Cara |
+| Jugadores | Marvyn Muzungu anota o asiste | 5.70 | 17 % | 19 % | Favorito golpea temprano y gana (19 %) | Empate (4 %) | Cara |
 | Quién saca más | Más tarjetas: FC Thun | 1.55 | 62 % | 59 % | Empate (66 %) | Favorito golpea temprano y gana (59 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.

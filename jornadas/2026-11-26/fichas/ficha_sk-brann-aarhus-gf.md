@@ -15,7 +15,6 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Goles | local | Menos 2.5 | 1.32 | +1.1 | 7 de 10 | 10 de 10 |
 | Goles | visitante | Menos 2.5 | 1.21 | +0.9 | 7 de 10 | 9 de 10 |
 | Goles | visitante | Más 0.5 | 1.23 | +1.1 | 9 de 10 | 7 de 10 |
-| Remates | total | Más 26.5 | 1.6 | +3.8 | 7 de 10 | 7 de 10 |
 | Tarjetas | total | Menos 6.5 | 1.3 | +2.2 | 8 de 10 | 8 de 10 |
 | Tarjetas | visitante | Menos 3.5 | 1.39 | +1.5 | 7 de 10 | 9 de 10 |
 | Tiros al arco | total | Más 8.5 | 1.5 | +1.9 | 10 de 10 | 8 de 10 |
@@ -86,13 +85,13 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 7.1, visitante 4.2,
 ## Estadísticas del partido
 
 ### Faltas
-Muestra: local 9, visitante 10, directos 0. Esperado: local 13.29, visitante 11.54, **total 24.83** (local 11.89 a favor / 12.78 en contra; visitante 10.3 / 14.7).
+Muestra: local 9, visitante 10, directos 0. Esperado: local 13.29, visitante 11.59, **total 24.89** (local 11.89 a favor / 12.89 en contra; visitante 10.3 / 14.7).
 
 **total**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 24.5 | @1.8 · col +0.3 · L 5 de 9 · V 5 de 10 | @1.95 · col -0.3 · L 4 de 9 · V 5 de 10 |
+| 24.5 | @1.8 · col +0.4 · L 5 de 9 · V 5 de 10 | @1.95 · col -0.4 · L 4 de 9 · V 5 de 10 |
 
 **local**
 
@@ -104,28 +103,28 @@ Muestra: local 9, visitante 10, directos 0. Esperado: local 13.29, visitante 11.
 
 | Línea | Más | Menos |
 |---|---|---|
-| 11.5 | @1.78 · col +0.0 · L 7 de 9 · V 3 de 10 | @1.95 · col -0.0 · L 2 de 9 · V 7 de 10 |
+| 11.5 | @1.78 · col +0.1 · L 7 de 9 · V 3 de 10 | @1.95 · col -0.1 · L 2 de 9 · V 7 de 10 |
 
 ### Fueras de juego
-Muestra: local 9, visitante 10, directos 0. Esperado: local 1.44, visitante 1.34, **total 2.79** (local 1.89 a favor / 1.89 en contra; visitante 0.8 / 1.0).
+Muestra: local 9, visitante 8, directos 0. Esperado: local 1.62, visitante 1.44, **total 3.07** (local 2.0 a favor / 1.89 en contra; visitante 1.0 / 1.25).
 
 **total**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 3.5 | @2.3 · col -0.7 · L 4 de 9 · V 2 de 10 | @1.57 · col +0.7 · L 5 de 9 · V 8 de 10 |
+| 3.5 | @2.3 · col -0.4 · L 4 de 9 · V 2 de 8 | @1.57 · col +0.4 · L 5 de 9 · V 6 de 8 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.53 · col -0.1 · L 4 de 9 · V 2 de 10 | @2.4 · col +0.1 · L 5 de 9 · V 8 de 10 |
+| 1.5 | @1.53 · col +0.1 · L 4 de 9 · V 2 de 8 | @2.4 · col -0.1 · L 5 de 9 · V 6 de 8 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.44 · col +0.8 · L 8 de 9 · V 4 de 10 | @2.67 · col -0.8 · L 1 de 9 · V 6 de 10 |
+| 0.5 | @1.44 · col +0.9 · L 8 de 9 · V 4 de 8 | @2.67 · col -0.9 · L 1 de 9 · V 4 de 8 |
 
 ### Saques de banda
 Muestra: local 9, visitante 10, directos 0. Esperado: local 22.12, visitante 17.7, **total 39.82** (local 24.33 a favor / 19.0 en contra; visitante 16.4 / 19.9).
@@ -134,34 +133,34 @@ Muestra: local 9, visitante 10, directos 0. Esperado: local 22.12, visitante 17.
 Muestra: local 9, visitante 10, directos 0. Esperado: local 7.0, visitante 8.14, **total 15.14** (local 7.0 a favor / 7.89 en contra; visitante 8.4 / 7.0).
 
 ### Remates
-Muestra: local 10, visitante 10, directos 0. Esperado: local 16.3, visitante 13.95, **total 30.25** (local 17.0 a favor / 14.2 en contra; visitante 13.7 / 15.6).
+Muestra: local 10, visitante 10, directos 0. Esperado: local 16.35, visitante 13.75, **total 30.1** (local 17.1 a favor / 14.2 en contra; visitante 13.3 / 15.6).
 
 **total**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 26.5 | @1.6 · col +3.8 · L 7 de 10 · V 7 de 10 ✓ | @2.25 · col -3.8 · L 3 de 10 · V 3 de 10 |
-| 27.5 | @1.82 · col +2.8 · L 6 de 10 · V 7 de 10 | @1.93 · col -2.8 · L 4 de 10 · V 3 de 10 |
-| 28.5 | @2.07 · col +1.8 · L 6 de 10 · V 6 de 10 | @1.7 · col -1.8 · L 4 de 10 · V 4 de 10 |
+| 26.5 | @1.6 · col +3.6 · L 7 de 10 · V 6 de 10 | @2.25 · col -3.6 · L 3 de 10 · V 4 de 10 |
+| 27.5 | @1.82 · col +2.6 · L 6 de 10 · V 6 de 10 | @1.93 · col -2.6 · L 4 de 10 · V 4 de 10 |
+| 28.5 | @2.07 · col +1.6 · L 6 de 10 · V 5 de 10 | @1.7 · col -1.6 · L 4 de 10 · V 5 de 10 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
 | 15.5 | @1.52 · col +0.8 · L 5 de 10 · V 3 de 10 | @2.42 · col -0.8 · L 5 de 10 · V 7 de 10 |
-| 16.5 | @1.78 · col -0.2 · L 5 de 10 · V 3 de 10 | @1.98 · col +0.2 · L 5 de 10 · V 7 de 10 |
-| 17.5 | @2.12 · col -1.2 · L 5 de 10 · V 3 de 10 | @1.67 · col +1.2 · L 5 de 10 · V 7 de 10 |
+| 16.5 | @1.78 · col -0.1 · L 5 de 10 · V 3 de 10 | @1.98 · col +0.1 · L 5 de 10 · V 7 de 10 |
+| 17.5 | @2.12 · col -1.1 · L 5 de 10 · V 3 de 10 | @1.67 · col +1.1 · L 5 de 10 · V 7 de 10 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 9.5 | @1.47 · col +4.5 · L 7 de 10 · V 6 de 10 | @2.55 · col -4.5 · L 3 de 10 · V 4 de 10 |
-| 10.5 | @1.78 · col +3.5 · L 7 de 10 · V 6 de 10 | @1.98 · col -3.5 · L 3 de 10 · V 4 de 10 |
-| 11.5 | @2.25 · col +2.5 · L 7 de 10 · V 6 de 10 | @1.6 · col -2.5 · L 3 de 10 · V 4 de 10 |
+| 9.5 | @1.47 · col +4.2 · L 7 de 10 · V 6 de 10 | @2.55 · col -4.2 · L 3 de 10 · V 4 de 10 |
+| 10.5 | @1.78 · col +3.2 · L 7 de 10 · V 6 de 10 | @1.98 · col -3.2 · L 3 de 10 · V 4 de 10 |
+| 11.5 | @2.25 · col +2.2 · L 7 de 10 · V 6 de 10 | @1.6 · col -2.2 · L 3 de 10 · V 4 de 10 |
 
 ### Tiros al arco
-Muestra: local 10, visitante 10, directos 0. Esperado: local 5.8, visitante 4.65, **total 10.45** (local 6.4 a favor / 5.1 en contra; visitante 4.2 / 5.2).
+Muestra: local 10, visitante 10, directos 0. Esperado: local 5.75, visitante 4.65, **total 10.4** (local 6.3 a favor / 5.1 en contra; visitante 4.2 / 5.2).
 
 **total**
 
@@ -175,9 +174,9 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 5.8, visitante 4.65
 
 | Línea | Más | Menos |
 |---|---|---|
-| 4.5 | @1.36 · col +1.3 · L 9 de 10 · V 6 de 10 | @3.0 · col -1.3 · L 1 de 10 · V 4 de 10 |
-| 5.5 | @1.72 · col +0.3 · L 7 de 10 · V 4 de 10 | @2.05 · col -0.3 · L 3 de 10 · V 6 de 10 |
-| 6.5 | @2.35 · col -0.7 · L 4 de 10 · V 4 de 10 | @1.55 · col +0.7 · L 6 de 10 · V 6 de 10 |
+| 4.5 | @1.36 · col +1.2 · L 9 de 10 · V 6 de 10 | @3.0 · col -1.2 · L 1 de 10 · V 4 de 10 |
+| 5.5 | @1.72 · col +0.2 · L 7 de 10 · V 4 de 10 | @2.05 · col -0.2 · L 3 de 10 · V 6 de 10 |
+| 6.5 | @2.35 · col -0.8 · L 3 de 10 · V 4 de 10 | @1.55 · col +0.8 · L 7 de 10 · V 6 de 10 |
 
 **visitante**
 
@@ -285,7 +284,37 @@ Muestra: local 10, visitante 10, directos 0.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
+- Simen Vidtun Nilsen — atajadas: 2+ @1.5 · col — · 7 de 8 (titular 0.00)
+
+## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
+
+| Dato | Local fav | Local con | Visitante fav | Visitante con | n L/V |
+|---|---|---|---|---|---|
+| Posesión % | 62.3 | 37.7 | 52.3 | 47.7 | 9/10 |
+| Toques en el área rival | 39.2 | 24.9 | 24.3 | 29.3 | 9/9 |
+| Centros (intentos) | 22.4 | 15.0 | 17.5 | 20.8 | 9/10 |
+| Centros acertados | 5.4 | 4.7 | 4.0 | 4.9 | 9/10 |
+| Remates dentro del área | 12.8 | 11.1 | 8.8 | 10.9 | 9/10 |
+| Remates bloqueados | 4.6 | 3.4 | 3.4 | 3.4 | 9/10 |
+| xG | 2.2 | 2.1 | 1.6 | 1.5 | 9/10 |
+| xG a puerta (xGOT) | 1.8 | 1.9 | 1.2 | 1.4 | 9/9 |
+| Ocasiones claras | 2.4 | 4.0 | 2.0 | 2.7 | 9/9 |
+| Entradas (intentos) | 16.9 | 20.2 | 11.7 | 14.6 | 9/10 |
+| Duelos ganados | 50.9 | 54.6 | 51.3 | 46.7 | 9/10 |
+| Despejes | 16.9 | 35.3 | 27.8 | 22.6 | 9/10 |
+| Intercepciones | 9.2 | 13.0 | 8.9 | 8.3 | 9/10 |
+| Tiros libres a favor (= faltas recibidas) | 12.7 | 11.7 | 13.6 | 9.7 | 9/10 |
+| Pases largos | 50.8 | 57.6 | 46.1 | 51.7 | 9/10 |
+| Faltas cometidas | 11.9 | 12.9 | 10.3 | 14.7 | 9/10 |
+| Tarjetas (pts) | 2.3 | 2.5 | 1.5 | 2.2 | 10/10 |
+| Córners | 8.3 | 3.3 | 5.1 | 5.9 | 10/10 |
+| Remates | 17.1 | 14.2 | 13.3 | 15.6 | 10/10 |
+| Tiros al arco | 6.3 | 5.1 | 4.2 | 5.2 | 10/10 |
+| Fueras de juego | 2.0 | 1.9 | 1.0 | 1.2 | 9/8 |
+| Saques de banda | 24.3 | 19.0 | 16.4 | 19.9 | 9/10 |
+| Saques de meta | 7.0 | 7.9 | 8.4 | 7.0 | 9/10 |
+| Atajadas | 3.0 | 4.3 | 4.2 | 2.8 | 9/10 |
+| Errores que terminan en remate | 1.2 | 0.4 | 1.5 | 0.3 | 5/6 |
 
 ## Contexto para juzgar los criterios no numéricos
 
@@ -294,4 +323,4 @@ _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Historial: sin casar con Betano → Bech T.', 'Alineación probable: sin casar con Betano → Knudsen F., Bech T.']
+- Dudas: ['Sofascore: 1 partido(s) sin estadísticas en Sofascore se rellenaron con las de Flashscore (misma fecha y marcador)', 'Contraste con Flashscore (20 partidos comunes): 293/300 cifras iguales, 1 con diferencia > 1 → 2026-10-28 FC Roskilde sh[0] Sofascore 18 · Flashscore 22', 'Historial: sin casar con Betano → Lægreid J., Guðmundsson E., Bech T.', 'Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Gift Links, Luka Callø, Mads Hedenstad, Magnus Knudsen, R. Carstensen, S. Jörgensen · solo Flashscore: Eric Kahl, Frederik Emmery, Jacob Andersen, Jesper Hansen, Mathias Dyngeland', 'Alineación probable: sin casar con Betano → Knudsen F., Bech T.']

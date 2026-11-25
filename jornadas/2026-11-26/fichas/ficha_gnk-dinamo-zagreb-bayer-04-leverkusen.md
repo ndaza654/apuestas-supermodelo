@@ -97,58 +97,58 @@ Muestra: local 9, visitante 10, directos 0. Esperado: local 11.43, visitante 11.
 | 12.5 | @1.83 · col -0.8 · L 4 de 9 · V 2 de 10 | @1.9 · col +0.8 · L 5 de 9 · V 8 de 10 |
 
 ### Fueras de juego
-Muestra: local 9, visitante 10, directos 0. Esperado: local 0.48, visitante 1.16, **total 1.64** (local 0.67 a favor / 1.22 en contra; visitante 1.1 / 0.3).
+Muestra: local 7, visitante 9, directos 0. Esperado: local 1.17, visitante 1.47, **total 2.63** (local 2.0 a favor / 1.71 en contra; visitante 1.22 / 0.33).
 
 **total**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.75 · col -0.9 · L 3 de 9 · V 1 de 10 | @2.02 · col +0.9 · L 6 de 9 · V 9 de 10 |
+| 2.5 | @1.75 · col +0.1 · L 4 de 7 · V 1 de 9 | @2.02 · col -0.1 · L 3 de 7 · V 8 de 9 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.47 · col -0.0 · L 4 de 9 · V 3 de 10 | @2.57 · col +0.0 · L 5 de 9 · V 7 de 10 |
+| 0.5 | @1.47 · col +0.7 · L 5 de 7 · V 3 de 9 | @2.57 · col -0.7 · L 2 de 7 · V 6 de 9 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.75 · col -0.3 · L 3 de 9 · V 2 de 10 | @2.0 · col +0.3 · L 6 de 9 · V 8 de 10 |
+| 1.5 | @1.75 · col -0.0 · L 3 de 7 · V 2 de 9 | @2.0 · col +0.0 · L 4 de 7 · V 7 de 9 |
 
 ### Saques de banda
-Muestra: local 9, visitante 10, directos 0. Esperado: local 18.66, visitante 18.96, **total 37.61** (local 24.11 a favor / 19.11 en contra; visitante 18.8 / 13.2).
+Muestra: local 10, visitante 10, directos 0. Esperado: local 18.5, visitante 19.1, **total 37.6** (local 23.8 a favor / 19.4 en contra; visitante 18.8 / 13.2).
 
 ### Saques de meta
-Muestra: local 9, visitante 10, directos 0. Esperado: local 8.11, visitante 7.14, **total 15.25** (local 6.22 a favor / 8.78 en contra; visitante 5.5 / 10.0).
+Muestra: local 10, visitante 10, directos 0. Esperado: local 8.1, visitante 7.25, **total 15.35** (local 6.2 a favor / 9.0 en contra; visitante 5.5 / 10.0).
 
 ### Remates
-Muestra: local 10, visitante 10, directos 0. Esperado: local 15.0, visitante 14.35, **total 29.35** (local 18.2 a favor / 10.2 en contra; visitante 18.5 / 11.8).
+Muestra: local 9, visitante 10, directos 0. Esperado: local 15.12, visitante 14.58, **total 29.71** (local 18.44 a favor / 10.67 en contra; visitante 18.5 / 11.8).
 
 **total**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 27.5 | @1.72 · col +1.9 · L 6 de 10 · V 7 de 10 | @2.05 · col -1.9 · L 4 de 10 · V 3 de 10 |
-| 28.5 | @1.98 · col +0.8 · L 4 de 10 · V 6 de 10 | @1.78 · col -0.8 · L 6 de 10 · V 4 de 10 |
-| 29.5 | @2.3 · col -0.1 · L 4 de 10 · V 5 de 10 | @1.57 · col +0.1 · L 6 de 10 · V 5 de 10 |
+| 27.5 | @1.72 · col +2.2 · L 6 de 9 · V 7 de 10 | @2.05 · col -2.2 · L 3 de 9 · V 3 de 10 |
+| 28.5 | @1.98 · col +1.2 · L 4 de 9 · V 6 de 10 | @1.78 · col -1.2 · L 5 de 9 · V 4 de 10 |
+| 29.5 | @2.3 · col +0.2 · L 4 de 9 · V 5 de 10 | @1.57 · col -0.2 · L 5 de 9 · V 5 de 10 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 10.5 | @1.5 · col +4.5 · L 9 de 10 · V 5 de 10 | @2.5 · col -4.5 · L 1 de 10 · V 5 de 10 |
-| 11.5 | @1.78 · col +3.5 · L 9 de 10 · V 4 de 10 | @1.95 · col -3.5 · L 1 de 10 · V 6 de 10 |
-| 12.5 | @2.22 · col +2.5 · L 9 de 10 · V 3 de 10 | @1.62 · col -2.5 · L 1 de 10 · V 7 de 10 |
+| 10.5 | @1.5 · col +4.6 · L 8 de 9 · V 5 de 10 | @2.5 · col -4.6 · L 1 de 9 · V 5 de 10 |
+| 11.5 | @1.78 · col +3.6 · L 8 de 9 · V 4 de 10 | @1.95 · col -3.6 · L 1 de 9 · V 6 de 10 |
+| 12.5 | @2.22 · col +2.6 · L 8 de 9 · V 3 de 10 | @1.62 · col -2.6 · L 1 de 9 · V 7 de 10 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 15.5 | @1.65 · col -1.1 · L 1 de 10 · V 6 de 10 | @2.15 · col +1.1 · L 9 de 10 · V 4 de 10 |
-| 16.5 | @1.95 · col -2.1 · L 1 de 10 · V 5 de 10 | @1.78 · col +2.1 · L 9 de 10 · V 5 de 10 |
-| 17.5 | @2.4 · col -3.1 · L 0 de 10 · V 5 de 10 | @1.53 · col +3.1 · L 10 de 10 · V 5 de 10 |
+| 15.5 | @1.65 · col -0.9 · L 1 de 9 · V 6 de 10 | @2.15 · col +0.9 · L 8 de 9 · V 4 de 10 |
+| 16.5 | @1.95 · col -1.9 · L 1 de 9 · V 5 de 10 | @1.78 · col +1.9 · L 8 de 9 · V 5 de 10 |
+| 17.5 | @2.4 · col -2.9 · L 0 de 9 · V 5 de 10 | @1.53 · col +2.9 · L 9 de 9 · V 5 de 10 |
 
 ### Tiros al arco
 Muestra: local 10, visitante 10, directos 0. Esperado: local 5.05, visitante 5.8, **total 10.85** (local 6.4 a favor / 3.9 en contra; visitante 7.7 / 3.7).
@@ -276,8 +276,49 @@ Muestra: local 10, visitante 10, directos 0.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Miguel Gutierrez — remates: 1+ @1.45 · col +0.5 · 7 de 9 (titular 0.90)
-- Patrik Schick — al_arco: 1+ @1.18 · col +1.2 · 8 de 9 (titular 0.90)
+- Dani Rodríguez — al_arco: 1+ @1.62 · col +1.4 · 7 de 9 (titular 0.50)
+- Dion Beljo — anota_o_asiste: Sí @2.0 · 7 de 9 (titular 0.50)
+- Dion Beljo — remates: 1+ @2.37 · col +3.0 · 9 de 9 (titular 0.50)
+- Dion Beljo — remates: 2+ @8.25 · col +2.0 · 7 de 9 (titular 0.50)
+- Dion Beljo — al_arco: 1+ @5.6 · col +1.2 · 7 de 9 (titular 0.50)
+- Luka Stojkovic — remates: 2+ @1.39 · col +2.3 · 7 de 10 (titular 0.90)
+- Luka Stojkovic — remates: 3+ @2.18 · col +1.3 · 7 de 10 (titular 0.90)
+- Niko Galesic — remates: 1+ @1.75 · col +0.6 · 7 de 10 (titular 0.90)
+- Miguel Gutierrez — remates: 1+ @1.45 · col +0.4 · 7 de 10 (titular 0.90)
+- Patrik Schick — anota: Sí @1.7 · 7 de 10 (titular 0.90)
+- Patrik Schick — anota_o_asiste: Sí @1.53 · 7 de 10 (titular 0.90)
+- Patrik Schick — remates: 3+ @1.38 · col +1.1 · 7 de 10 (titular 0.90)
+- Patrik Schick — al_arco: 1+ @1.18 · col +1.3 · 9 de 10 (titular 0.90)
+
+## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
+
+| Dato | Local fav | Local con | Visitante fav | Visitante con | n L/V |
+|---|---|---|---|---|---|
+| Posesión % | 55.8 | 44.2 | 59.1 | 40.9 | 10/10 |
+| Toques en el área rival | 33.3 | 17.6 | 34.2 | 18.3 | 9/10 |
+| Centros (intentos) | 21.1 | 14.2 | 22.8 | 14.0 | 9/10 |
+| Centros acertados | 5.1 | 3.4 | 5.6 | 4.3 | 9/10 |
+| Remates dentro del área | 12.0 | 6.9 | 13.5 | 7.5 | 9/10 |
+| Remates bloqueados | 4.3 | 1.9 | 3.7 | 3.1 | 9/10 |
+| xG | 2.3 | 1.2 | 2.4 | 1.6 | 9/9 |
+| xG a puerta (xGOT) | 2.0 | 1.1 | 2.7 | 1.2 | 9/9 |
+| Ocasiones claras | 4.2 | 2.4 | 4.6 | 2.3 | 9/10 |
+| Entradas (intentos) | 16.6 | 18.4 | 14.1 | 14.6 | 9/10 |
+| Duelos ganados | 48.6 | 50.1 | 38.9 | 40.0 | 9/10 |
+| Despejes | 21.8 | 29.6 | 17.4 | 27.4 | 9/10 |
+| Intercepciones | 8.6 | 9.6 | 8.4 | 10.8 | 9/10 |
+| Tiros libres a favor (= faltas recibidas) | 12.3 | 13.1 | 9.0 | 11.1 | 10/10 |
+| Pases largos | 51.7 | 53.9 | 48.1 | 42.7 | 9/10 |
+| Faltas cometidas | 13.6 | 12.1 | 11.2 | 9.3 | 9/10 |
+| Tarjetas (pts) | 1.7 | 2.9 | 2.4 | 2.6 | 9/10 |
+| Córners | 5.5 | 3.2 | 7.0 | 3.4 | 10/10 |
+| Remates | 18.4 | 10.7 | 18.5 | 11.8 | 9/10 |
+| Tiros al arco | 6.4 | 3.9 | 7.7 | 3.7 | 10/10 |
+| Fueras de juego | 2.0 | 1.7 | 1.2 | 0.3 | 7/9 |
+| Saques de banda | 23.8 | 19.4 | 18.8 | 13.2 | 10/10 |
+| Saques de meta | 6.2 | 9.0 | 5.5 | 10.0 | 10/10 |
+| Atajadas | 3.0 | 3.7 | 2.1 | 5.3 | 9/10 |
+| Errores que terminan en remate | — | — | 0.7 | 1.7 | —/6 |
 
 ## Contexto para juzgar los criterios no numéricos
 
@@ -286,4 +327,4 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Historial: sin casar con Betano → Topic F., Orsic M., Stojakovic A., Vazquez L., Terrier M., Boniface V.', 'Alineación probable: sin casar con Betano → Beljo B., Vazquez']
+- Dudas: ['Contraste con Flashscore (20 partidos comunes): 300/300 cifras iguales, 0 con diferencia > 1', 'Historial: sin casar con Betano → Topić F., Oršić M., Stojaković A., McKenna S., Kravtsov K., Tabinas P., Mudražija R., Kofane C., Oermann T., Vázquez L., Boniface V., Terrier M.', 'Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Dion Beljo, Ibrahim Maza, Jarell Quansah, Lukas Kacavenda, Mateo Lisica · solo Flashscore: Dani Rodríguez, Luka Ivanušec, Malik Tillman, Miha Zajc', 'Alineación probable: sin casar con Betano → Oršić M., Beljo B., Vazquez']

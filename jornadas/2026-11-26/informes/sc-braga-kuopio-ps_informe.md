@@ -16,7 +16,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de SC Brag
 | Tarjetas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 7 jugadores con titularidad dudosa: esperar el once |
 | Ambos marcan | ⛔ en contra | Kuopio PS marca poco en este partido |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -67,7 +67,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates Kuopio PS Menos 8.5 | 1.47 | 65 % | 54 % | Favorito gana en partido trabado (73 %) | Partido abierto (ambos marcan y 3+ goles) (54 %) | Cara |
 | Tiros al arco | Tiros al arco SC Braga Menos 9.5 | 1.39 | 69 % | 64 % | Empate (93 %) | Partido abierto (ambos marcan y 3+ goles) (64 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar Kuopio PS Más 0.5 | 1.42 | 67 % | 66 % | Favorito golpea temprano y gana (69 %) | Empate (63 %) | Alta probabilidad |
-| Jugadores | Gustaf Lagerbielke anota o asiste | 5.00 | 19 % | 14 % | Partido abierto (ambos marcan y 3+ goles) (22 %) | Empate (5 %) | Cara |
+| Jugadores | Gustaf Lagerbielke anota o asiste | 5.00 | 19 % | 14 % | Partido abierto (ambos marcan y 3+ goles) (22 %) | Sorpresa: gana el no favorito (3 %) | Cara |
 | Quién saca más | Más tarjetas: Kuopio PS | 1.83 | 52 % | 49 % | Expulsión antes del 70′ (59 %) | Favorito golpea temprano y gana (49 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.

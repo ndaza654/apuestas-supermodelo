@@ -16,6 +16,7 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Goles | total | Menos 4.5 | 1.25 | +0.8 | 7 de 10 | 7 de 10 |
 | Goles | visitante | Menos 2.5 | 1.29 | +0.8 | 9 de 10 | 7 de 10 |
 | Remates | total | Más 26.5 | 1.57 | +1.9 | 7 de 10 | 7 de 10 |
+| Tarjetas | total | Menos 5.5 | 1.27 | +1.8 | 9 de 10 | 7 de 10 |
 | Tiros al arco | total | Más 8.5 | 1.44 | +2.1 | 8 de 10 | 7 de 10 |
 
 ## Córners
@@ -220,27 +221,27 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 1.9, visitante 1.75
 
 ### Tarjetas (solo amarillas)
 _Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._
-Muestra: local 10, visitante 10, directos 0. Esperado: local 1.8, visitante 2.0, **total 3.8** (local 1.4 a favor / 1.8 en contra; visitante 2.2 / 2.2).
+Muestra: local 10, visitante 10, directos 0. Esperado: local 1.75, visitante 2.0, **total 3.75** (local 1.4 a favor / 1.8 en contra; visitante 2.2 / 2.1).
 
 **total**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.12 · col +2.3 · L 8 de 10 · V 9 de 10 ✓ | @5.7 · col -2.3 · L 2 de 10 · V 1 de 10 |
-| 2.5 | @1.33 · col +1.3 · L 6 de 10 · V 8 de 10 | @3.15 · col -1.3 · L 4 de 10 · V 2 de 10 |
-| 3.5 | @1.72 · col +0.3 · L 4 de 10 · V 6 de 10 | @2.05 · col -0.3 · L 6 de 10 · V 4 de 10 |
-| 4.5 | @2.42 · col -0.7 · L 3 de 10 · V 5 de 10 | @1.52 · col +0.7 · L 7 de 10 · V 5 de 10 |
-| 5.5 | @3.55 · col -1.7 · L 1 de 10 · V 4 de 10 | @1.27 · col +1.7 · L 9 de 10 · V 6 de 10 |
-| 6.5 | @5.4 · col -2.7 · L 0 de 10 · V 2 de 10 | @1.13 · col +2.7 · L 10 de 10 · V 8 de 10 ✓ |
-| 7.5 | @7.8 · col -3.7 · L 0 de 10 · V 0 de 10 | @1.06 · col +3.7 · L 10 de 10 · V 10 de 10 ✓ |
+| 1.5 | @1.12 · col +2.2 · L 8 de 10 · V 9 de 10 ✓ | @5.7 · col -2.2 · L 2 de 10 · V 1 de 10 |
+| 2.5 | @1.33 · col +1.2 · L 6 de 10 · V 8 de 10 | @3.15 · col -1.2 · L 4 de 10 · V 2 de 10 |
+| 3.5 | @1.72 · col +0.2 · L 4 de 10 · V 6 de 10 | @2.05 · col -0.2 · L 6 de 10 · V 4 de 10 |
+| 4.5 | @2.42 · col -0.8 · L 3 de 10 · V 5 de 10 | @1.52 · col +0.8 · L 7 de 10 · V 5 de 10 |
+| 5.5 | @3.55 · col -1.8 · L 1 de 10 · V 3 de 10 | @1.27 · col +1.8 · L 9 de 10 · V 7 de 10 ✓ |
+| 6.5 | @5.4 · col -2.8 · L 0 de 10 · V 2 de 10 | @1.13 · col +2.8 · L 10 de 10 · V 8 de 10 ✓ |
+| 7.5 | @7.8 · col -3.8 · L 0 de 10 · V 0 de 10 | @1.06 · col +3.8 · L 10 de 10 · V 10 de 10 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.52 · col +0.3 · L 5 de 10 · V 7 de 10 | @2.42 · col -0.3 · L 5 de 10 · V 3 de 10 |
-| 2.5 | @2.5 · col -0.7 · L 2 de 10 · V 5 de 10 | @1.5 · col +0.7 · L 8 de 10 · V 5 de 10 |
-| 3.5 | @4.65 · col -1.7 · L 0 de 10 · V 2 de 10 | @1.17 · col +1.7 · L 10 de 10 · V 8 de 10 ✓ |
+| 1.5 | @1.52 · col +0.2 · L 5 de 10 · V 7 de 10 | @2.42 · col -0.2 · L 5 de 10 · V 3 de 10 |
+| 2.5 | @2.5 · col -0.8 · L 2 de 10 · V 5 de 10 | @1.5 · col +0.8 · L 8 de 10 · V 5 de 10 |
+| 3.5 | @4.65 · col -1.8 · L 0 de 10 · V 1 de 10 | @1.17 · col +1.8 · L 10 de 10 · V 9 de 10 ✓ |
 
 **visitante**
 
@@ -277,7 +278,44 @@ Muestra: local 10, visitante 10, directos 0.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-_Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
+- Ahmetcan Kaplan — remates: 1+ @1.44 · col +1.0 · 7 de 9 (titular 0.90)
+- Bryan Linssen — remates: 1+ @1.09 · col +1.6 · 9 de 10 (titular 0.90)
+- Bryan Linssen — remates: 2+ @1.53 · col +0.6 · 8 de 10 (titular 0.90)
+- Kevin Kers — remates: 1+ @2.22 · col +1.7 · 8 de 10 (titular 0.50)
+- Noé Lebreton — remates: 1+ @1.14 · col +1.7 · 9 de 10 (titular 0.90)
+- Tjaronn Chery — remates: 2+ @1.29 · col +1.1 · 8 de 9 (titular 0.90)
+- Tjaronn Chery — al_arco: 1+ @1.47 · col +0.7 · 8 de 9 (titular 0.90)
+- Brice Samba — atajadas: 2+ @1.17 · col +0.9 · 7 de 9 (titular 0.90)
+
+## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
+
+| Dato | Local fav | Local con | Visitante fav | Visitante con | n L/V |
+|---|---|---|---|---|---|
+| Posesión % | 53.7 | 46.3 | 52.1 | 47.9 | 10/10 |
+| Toques en el área rival | 34.7 | 20.8 | 28.0 | 23.6 | 10/10 |
+| Centros (intentos) | 24.9 | 11.6 | 20.1 | 15.1 | 10/10 |
+| Centros acertados | 7.0 | 2.7 | 5.1 | 3.0 | 10/10 |
+| Remates dentro del área | 11.7 | 8.3 | 10.0 | 7.5 | 10/10 |
+| Remates bloqueados | 4.2 | 2.6 | 3.7 | 2.8 | 10/10 |
+| xG | 1.7 | 1.8 | 1.8 | 1.8 | 10/10 |
+| xG a puerta (xGOT) | 2.0 | 1.7 | 2.1 | 1.6 | 10/10 |
+| Ocasiones claras | 3.0 | 4.3 | 2.4 | 2.7 | 10/10 |
+| Entradas (intentos) | 17.7 | 17.6 | 16.1 | 17.2 | 10/10 |
+| Duelos ganados | 49.8 | 48.7 | 48.9 | 48.3 | 10/10 |
+| Despejes | 20.0 | 30.3 | 23.7 | 24.8 | 10/10 |
+| Intercepciones | 9.3 | 10.6 | 11.2 | 9.1 | 10/10 |
+| Tiros libres a favor (= faltas recibidas) | 10.8 | 10.8 | 11.9 | 12.1 | 10/10 |
+| Pases largos | 54.8 | 61.5 | 44.4 | 53.3 | 10/10 |
+| Faltas cometidas | 10.9 | 11.0 | 12.6 | 12.4 | 10/10 |
+| Tarjetas (pts) | 1.4 | 1.8 | 2.2 | 2.1 | 10/10 |
+| Córners | 6.6 | 3.2 | 6.6 | 4.1 | 10/10 |
+| Remates | 17.2 | 11.6 | 15.7 | 12.3 | 10/10 |
+| Tiros al arco | 6.2 | 4.3 | 5.8 | 4.9 | 10/10 |
+| Fueras de juego | 1.9 | 1.1 | 1.7 | 1.4 | 10/10 |
+| Saques de banda | 19.1 | 19.9 | 20.8 | 20.3 | 10/10 |
+| Saques de meta | 6.2 | 7.9 | 5.6 | 7.7 | 10/10 |
+| Atajadas | 2.6 | 4.3 | 2.7 | 4.0 | 10/10 |
+| Errores que terminan en remate | 0.7 | 0.7 | 0.7 | 0.8 | 6/10 |
 
 ## Contexto para juzgar los criterios no numéricos
 
@@ -286,4 +324,4 @@ _Ninguna línea de jugador cumple 7 de 10 con muestra suficiente._
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Historial: sin casar con Betano → Schuurs P., Storm T., Bakker M., Rongier V., Tamari M., Frankowski P., Lepaul E.', 'Alineación probable: sin casar con Betano → Storm T., Lepaul E.']
+- Dudas: ['Contraste con Flashscore (20 partidos comunes): 319/320 cifras iguales, 0 con diferencia > 1', 'Historial: sin casar con Betano → Bakker M., Storm T., Sandler P., Schuurs P., Moslih Y., Nuytinck B., Rongier V., Al-Tamari M., Lepaul E., Frankowski P.', 'Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Ayodele Thomas, Gabriel Bras, Jamiro Monteiro, W.T. Willumsson · solo Flashscore: Boulaye Dia, Deveron Fonville, Dušan Tadić, Kevin Kers', 'Alineación probable: sin casar con Betano → Al-Tamari M., Lepaul E., Storm T.']

@@ -19,7 +19,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de Sunderl
 | Tarjetas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 13 jugadores con titularidad dudosa: esperar el once |
 | Ambos marcan | ⛔ en contra | Jagiellonia Bialystok marca poco en este partido |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -71,7 +71,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Fueras de lugar | Fueras de lugar Sunderland Más 0.5 | 1.44 | 67 % | 65 % | Empate (69 %) | Favorito golpea temprano y gana (65 %) | Alta probabilidad |
 | Saques de meta | Saques de meta Jagiellonia Bialystok Menos 10.5 | 1.70 | 56 % | 55 % | Favorito golpea temprano y gana (62 %) | Sorpresa: gana el no favorito (46 %) | Cara |
 | Saques de banda | Saques de banda 1.er tiempo Menos 19.5 | 1.75 | 65 % | 64 % | Favorito gana en partido trabado (66 %) | Expulsión antes del 70′ (63 %) | Valor · ⚠ Revisar: la simulación sin contexto se aleja 21 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
-| Jugadores | Omar Alderete anota o asiste | 4.85 | 19 % | 15 % | Partido abierto (ambos marcan y 3+ goles) (25 %) | Empate (5 %) | Cara |
+| Jugadores | Ben Kindon anota o asiste | 7.00 | 14 % | 12 % | Partido abierto (ambos marcan y 3+ goles) (17 %) | Empate (3 %) | Justa |
 | Quién saca más | Más tarjetas: empate | 3.90 | 24 % | 25 % | Favorito golpea temprano y gana (27 %) | Expulsión antes del 70′ (9 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
@@ -98,12 +98,12 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Hándicap Jagiellonia Bialystok +2.75 | 1.37 | 72 % | 72 % | 72 % | +0 pts | -1 % | 72 % | — | 1.42 | Favorito golpea temprano y gana | Alta probabilidad · asiática: devuelve 9 % · ★ enfoque a favor |
 | Goles 1.er tiempo Más 0.75 | 1.39 | 72 % | 70 % | 72 % | +0 pts | -1 % | 72 % | +0.6 | 1.44 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 17 % · ★ enfoque a favor |
 | Tiros al arco Sunderland Menos 7.5 | 1.36 | 71 % | 71 % | 71 % | +0 pts | -4 % | 63 % | +0.5 | 1.45 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Timur Tuterov remates 2+ | 1.25 | 70 % | 71 % | 70 % | +0 pts | -12 % | 69 % | — | 1.47 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
-| Jeremy Agbonifo remates 1+ | 1.25 | 70 % | 71 % | 70 % | +0 pts | -13 % | 67 % | — | 1.48 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
 | Tarjetas Sunderland Menos 2.5 | 1.40 | 69 % | 69 % | 69 % | +0 pts | -3 % | 70 % | +0.4 | 1.49 | Expulsión antes del 70′ | Alta probabilidad · ★ enfoque a favor |
 | Córners Más 8.0 | 1.53 | 69 % | 69 % | 69 % | +0 pts | +6 % | 57 % | +0.5 | 1.49 | Favorito golpea temprano y gana | Alta probabilidad · Valor · asiática: devuelve 12 % |
-| Ousmane Sow remates 1+ | 1.28 | 69 % | 70 % | 69 % | +0 pts | -12 % | 66 % | — | 1.49 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
 | Goles Más 2.25 | 1.42 | 69 % | 69 % | 69 % | +0 pts | -2 % | 69 % | +0.5 | 1.49 | Empate | Alta probabilidad · asiática: devuelve 11 % · ★ enfoque a favor |
+| Kevin Danso remates 1+ | 1.30 | 68 % | 69 % | 68 % | +0 pts | -12 % | 67 % | — | 1.51 | Empate | Alta probabilidad · cuota por debajo de la justa |
+| Córners Menos 11.0 | 1.52 | 68 % | 68 % | 68 % | +0 pts | +3 % | 58 % | +0.3 | 1.52 | Sorpresa: gana el no favorito | Alta probabilidad · Valor · asiática: devuelve 10 % |
+| Córners 1.er tiempo Menos 5.5 | 1.44 | 68 % | 67 % | 68 % | +0 pts | -2 % | 66 % | +0.4 | 1.52 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |

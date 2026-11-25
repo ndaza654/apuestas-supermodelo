@@ -14,7 +14,7 @@ Enfoque: mirar primero Goles del partido (Más), 1.er tiempo (Menos) y empate al
 | Empate / doble oportunidad / HT-FT X | ✅ favorece | sin dominador claro el empate pesa más |
 | Córners totales | ➖ neutro | ni a favor ni en contra |
 | Tarjetas y faltas | ➖ neutro | árbitro sin dato; parejo: más duelos y más faltas |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 17 jugadores con titularidad dudosa: esperar el once |
 | Hándicap y victoria | ⛔ en contra | partido parejo: ningún equipo manda |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -65,7 +65,6 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Tiros al arco | Tiros al arco Panathinaikos Menos 6.5 | 1.33 | 73 % | 59 % | Favorito gana en partido trabado (91 %) | Sorpresa: gana el no favorito (59 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar Panathinaikos Menos 3.5 | 1.70 | 56 % | 54 % | Sorpresa: gana el no favorito (57 %) | Favorito golpea temprano y gana (51 %) | Cara |
 | Jugadores | Andreas Hansen atajadas 3+ | 1.65 | 58 % | 58 % | Partido abierto (ambos marcan y 3+ goles) (59 %) | Expulsión antes del 70′ (56 %) | Justa |
-| Parejas de jugadores | Hjalte Rasmussen o Kings Kangwa (da una asistencia) | 3.50 | 27 % | 14 % | Partido abierto (ambos marcan y 3+ goles) (39 %) | Empate (14 %) | Justa |
 | Quién saca más | Más tarjetas: empate | 4.20 | 22 % | 24 % | Favorito golpea temprano y gana (27 %) | Expulsión antes del 70′ (10 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.

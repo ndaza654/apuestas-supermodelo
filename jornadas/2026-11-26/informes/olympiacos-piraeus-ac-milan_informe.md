@@ -15,7 +15,7 @@ Enfoque: mirar primero 1.er tiempo (Menos) y empate al descanso, Ambos marcan, E
 | Goles del partido | ➖ neutro | ni muchos ni pocos goles esperados |
 | Córners totales | ➖ neutro | ni a favor ni en contra |
 | Tarjetas y faltas | ➖ neutro | árbitro sin dato; parejo: más duelos y más faltas |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 11 jugadores con titularidad dudosa: esperar el once |
 | Hándicap y victoria | ⛔ en contra | partido parejo: ningún equipo manda |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -66,8 +66,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates AC Milan Menos 13.5 | 1.52 | 62 % | 52 % | Empate (69 %) | Partido abierto (ambos marcan y 3+ goles) (52 %) | Cara |
 | Tiros al arco | Tiros al arco Olympiacos Piraeus Menos 5.5 | 1.30 | 74 % | 59 % | Favorito gana en partido trabado (91 %) | Sorpresa: gana el no favorito (59 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar AC Milan Más 1.5 | 1.70 | 56 % | 56 % | Sorpresa: gana el no favorito (57 %) | Favorito gana en partido trabado (52 %) | Cara |
-| Jugadores | Nair Tiknizyan anota o asiste | 5.20 | 18 % | 11 % | Sorpresa: gana el no favorito (30 %) | Favorito golpea temprano y gana (0 %) | Cara |
-| Parejas de jugadores | Omari Hutchinson o Konstantinos Fortounis (da una asistencia) | 3.80 | 25 % | 13 % | Partido abierto (ambos marcan y 3+ goles) (36 %) | Empate (13 %) | Cara |
+| Jugadores | Pervis Estupiñán anota o asiste | 5.50 | 17 % | 8 % | Partido abierto (ambos marcan y 3+ goles) (30 %) | Sorpresa: gana el no favorito (8 %) | Cara |
 | Quién saca más | Más tarjetas: empate | 4.10 | 23 % | 24 % | Favorito gana en partido trabado (26 %) | Expulsión antes del 70′ (10 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.

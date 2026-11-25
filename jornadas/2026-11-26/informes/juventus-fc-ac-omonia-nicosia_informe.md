@@ -16,7 +16,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de Juventu
 | Tarjetas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 6 jugadores con titularidad dudosa: esperar el once |
 | Ambos marcan | ⛔ en contra | AC Omonia Nicosia marca poco en este partido |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -67,7 +67,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates AC Omonia Nicosia Más 6.5 | 1.40 | 68 % | 56 % | Partido abierto (ambos marcan y 3+ goles) (78 %) | Favorito gana en partido trabado (56 %) | Alta probabilidad |
 | Tiros al arco | Tiros al arco Juventus FC Menos 7.5 | 1.36 | 70 % | 64 % | Empate (94 %) | Partido abierto (ambos marcan y 3+ goles) (64 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar AC Omonia Nicosia Menos 1.5 | 1.45 | 67 % | 65 % | Sorpresa: gana el no favorito (71 %) | Favorito golpea temprano y gana (65 %) | Alta probabilidad |
-| Jugadores | Jhon Lucumí anota o asiste | 5.80 | 16 % | 13 % | Partido abierto (ambos marcan y 3+ goles) (20 %) | Empate (5 %) | Justa |
+| Jugadores | Lloyd Kelly anota o asiste | 6.00 | 16 % | 13 % | Partido abierto (ambos marcan y 3+ goles) (19 %) | Empate (4 %) | Cara |
 | Quién saca más | Más tarjetas: empate | 3.85 | 25 % | 25 % | Sorpresa: gana el no favorito (28 %) | Expulsión antes del 70′ (11 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
@@ -97,9 +97,9 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Córners Menos 11.0 | 1.47 | 70 % | 70 % | 70 % | +0 pts | +3 % | 61 % | +0.4 | 1.47 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 10 % |
 | Goles 2.º tiempo Menos 2.5 | 1.42 | 70 % | 68 % | 70 % | +0 pts | -1 % | 70 % | +0.5 | 1.47 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
 | Goles Menos 4.25 | 1.42 | 70 % | 69 % | 70 % | +0 pts | -1 % | 70 % | +0.4 | 1.48 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 10 % |
-| Lois Diony remates 1+ | 1.28 | 69 % | 70 % | 69 % | +0 pts | -11 % | 65 % | — | 1.49 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
+| Lois Diony remates 1+ | 1.28 | 69 % | 70 % | 69 % | +0 pts | -11 % | 64 % | — | 1.49 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Córners 1.er tiempo Menos 5.5 | 1.42 | 69 % | 67 % | 69 % | +0 pts | -2 % | 68 % | +0.5 | 1.50 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Bremer remates 1+ | 1.29 | 69 % | 69 % | 69 % | +0 pts | -11 % | 68 % | — | 1.50 | Empate | Alta probabilidad · cuota por debajo de la justa |
+| Goles Más 2.5 | 1.42 | 69 % | 69 % | 69 % | +0 pts | -2 % | 69 % | +0.6 | 1.50 | Empate | Alta probabilidad · ★ enfoque a favor |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |

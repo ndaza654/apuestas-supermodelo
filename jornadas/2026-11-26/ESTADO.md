@@ -23,3 +23,10 @@ Recolectado el 25-nov-2026 (cuotas ~08:56–08:59 Bogotá; previas, alineaciones
 - Situación (`notas/`): solo hechos de la página de Flashscore (tabla, forma, zonas); sin lectura de rotaciones, derbis ni motivación fuera de eso. El ranking marca «situación sin leer» → todos «reserva».
 - Tarjetas: Flashscore solo trae amarillas; Betano cuenta en puntos.
 - Criterios de tipsters sin resultados verificados.
+
+## Actualización 25-nov ~14:30 Bogotá: Sofascore como fuente principal (decisión del usuario 14:10)
+- Leídos con Sofascore (`sofascore_extraer.js`, 3 trabajadores, ≈8 min) los **36 de 36 partidos**: últimos 10 oficiales de cada equipo (10/10 en todos), estadísticas por partido y 1T, historial por jugador de esos 10 partidos (≈31–40 jugadores con ≥ 5 apariciones por partido), once probable + ausentes, árbitro y estadio. Cobertura y diferencias: `sofascore/LEEME.md` y `sofascore/contraste.json`.
+- **El historial por jugador ya no está incompleto**: los 30 partidos que antes no tenían historial ahora lo tienen (Sofascore), con faltas recibidas, centros, xA y rating que Flashscore no trae.
+- Contraste con Flashscore en los mismos partidos: ≈ 97 % de las cifras iguales; 222 celdas difieren en más de 1 (sobre todo remates y tiros al arco en copas y ligas menores: Bosnia, Kazajistán, Albania, Armenia, Georgia). No se sabe cuál fuente acierta: se declara en las dudas de cada ficha. 8 partidos pasados sin estadísticas en Sofascore se rellenaron con las de Flashscore.
+- Once: cuando Sofascore y Flashscore no coinciden, el jugador que figura en uno solo va con titular 0,5 (declarado); esperar el once oficial.
+- Pipeline corrido de nuevo (`correr_jornada.py`); `registro/sugerencias.csv` no se tocó. Cuotas siguen siendo las de las 08:56–08:59 del 25-nov.

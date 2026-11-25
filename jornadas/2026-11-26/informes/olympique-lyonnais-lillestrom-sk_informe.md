@@ -16,7 +16,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de Olympiq
 | Tarjetas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 19 jugadores con titularidad dudosa: esperar el once |
 | Ambos marcan | ⛔ en contra | Lillestrom SK marca poco en este partido |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -67,7 +67,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates Lillestrom SK Más 6.5 | 1.40 | 67 % | 55 % | Partido abierto (ambos marcan y 3+ goles) (78 %) | Favorito gana en partido trabado (55 %) | Alta probabilidad · cuota por debajo de la justa |
 | Tiros al arco | Tiros al arco Olympique Lyonnais Menos 7.5 | 1.62 | 59 % | 52 % | Empate (86 %) | Partido abierto (ambos marcan y 3+ goles) (52 %) | Justa |
 | Fueras de lugar | Fueras de lugar Lillestrom SK Más 1.5 | 1.80 | 52 % | 53 % | Favorito golpea temprano y gana (54 %) | Sorpresa: gana el no favorito (47 %) | Cara |
-| Jugadores | Noham Kamara anota o asiste | 5.90 | 16 % | 13 % | Favorito golpea temprano y gana (19 %) | Empate (5 %) | Justa |
+| Jugadores | John Kitolano anota o asiste | 12.00 | 9 % | 0 % | Sorpresa: gana el no favorito (23 %) | Favorito golpea temprano y gana (0 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 
@@ -89,7 +89,6 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Goles 1.er tiempo Menos 2.0 | 1.34 | 71 % | 73 % | 71 % | +0 pts | -5 % | 71 % | +0.2 | 1.45 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 27 % |
 | Goles 1.er tiempo Más 1.0 | 1.42 | 71 % | 69 % | 71 % | +0 pts | +1 % | 71 % | +0.5 | 1.45 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 31 % · ★ enfoque a favor |
 | Córners 1.er tiempo Más 3.5 | 1.30 | 71 % | 74 % | 71 % | +0 pts | -8 % | 70 % | +0.5 | 1.45 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
-| Thomas Lehne Olsen remates 1+ | 1.25 | 71 % | 71 % | 71 % | +0 pts | -11 % | 68 % | — | 1.45 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | Goles Más 2.5 | 1.39 | 71 % | 70 % | 71 % | +0 pts | -2 % | 70 % | +0.6 | 1.46 | Empate | Alta probabilidad · ★ enfoque a favor |
 | Goles Menos 4.5 | 1.38 | 71 % | 70 % | 71 % | +0 pts | -3 % | 70 % | +0.5 | 1.46 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
 | Córners Olympique Lyonnais Menos 8.5 | 1.35 | 70 % | 71 % | 70 % | +0 pts | -5 % | 67 % | +0.4 | 1.47 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
@@ -97,8 +96,9 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Tiros al arco Olympique Lyonnais Más 5.5 | 1.35 | 69 % | 71 % | 69 % | +0 pts | -6 % | 60 % | +0.5 | 1.49 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | Córners Olympique Lyonnais Más 5.5 | 1.35 | 69 % | 71 % | 69 % | +0 pts | -7 % | 64 % | +0.5 | 1.50 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
 | Tarjetas Olympique Lyonnais Menos 2.5 | 1.40 | 69 % | 69 % | 69 % | +0 pts | -4 % | 71 % | +0.4 | 1.50 | Expulsión antes del 70′ | Alta probabilidad · ★ enfoque a favor |
-| Fredrik Gulbrandsen remates 1+ | 1.27 | 69 % | 70 % | 69 % | +0 pts | -13 % | 64 % | — | 1.50 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
-| Felix Bacher remates 1+ | 1.30 | 68 % | 69 % | 68 % | +0 pts | -12 % | 66 % | — | 1.52 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
+| Felix Bacher remates 1+ | 1.30 | 68 % | 69 % | 68 % | +0 pts | -11 % | 67 % | — | 1.51 | Empate | Alta probabilidad · cuota por debajo de la justa |
+| Córners Menos 11.5 | 1.40 | 68 % | 69 % | 68 % | +0 pts | -5 % | 65 % | +0.4 | 1.52 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
+| Goles Olympique Lyonnais Menos 3.5 | 1.42 | 68 % | 67 % | 68 % | +0 pts | -4 % | 68 % | +0.4 | 1.52 | Favorito golpea temprano y gana | Alta probabilidad |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |

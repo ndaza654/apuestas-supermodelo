@@ -15,7 +15,7 @@ Enfoque: mirar primero Goles del partido (Más), 1.er tiempo (Menos) y empate al
 | Córners de SK Brann (Más) / Más córners: SK Brann | ✅ favorece | SK Brann empuja más y el rival se encierra o cede territorio |
 | Córners totales | ➖ neutro | ni a favor ni en contra |
 | Tarjetas y faltas | ➖ neutro | árbitro sin dato; parejo: más duelos y más faltas |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 11 jugadores con titularidad dudosa: esperar el once |
 | Hándicap y victoria | ⛔ en contra | partido parejo: ningún equipo manda |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -66,7 +66,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates Aarhus GF Más 9.5 | 1.47 | 64 % | 54 % | Partido abierto (ambos marcan y 3+ goles) (71 %) | Favorito gana en partido trabado (48 %) | Cara |
 | Tiros al arco | Tiros al arco Aarhus GF Más 2.5 | 1.33 | 72 % | 56 % | Sorpresa: gana el no favorito (90 %) | Favorito gana en partido trabado (38 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar Aarhus GF Más 0.5 | 1.44 | 67 % | 65 % | Favorito golpea temprano y gana (69 %) | Sorpresa: gana el no favorito (65 %) | Alta probabilidad |
-| Jugadores | Frederik Tingager anota o asiste | 6.00 | 16 % | 9 % | Sorpresa: gana el no favorito (26 %) | Favorito golpea temprano y gana (0 %) | Cara |
+| Jugadores | Hamza Sengooba anota o asiste | 6.20 | 16 % | 9 % | Sorpresa: gana el no favorito (24 %) | Favorito golpea temprano y gana (0 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 

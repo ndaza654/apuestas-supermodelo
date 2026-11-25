@@ -197,6 +197,10 @@ _sf = {'mid': '1', 'forma': {'local': [_par([1, 0], [5, 3])] * 8, 'visitante': [
 _fs0 = {'mid': 'f', 'local': 'A', 'visitante': 'B', 'forma': {'local': [_par([1, 0], [5, 6])] * 10, 'visitante': [_par([0, 0], [4, 4])] * 10}, 'h2h': [{'fecha': '2025-01-01', 'g': [1, 1], 'stats': {}}], 'arbitro': 'Flashscore Ref', 'avisos': ['viejo']}
 _m, _ = A.fusionar_sofascore(_fs0, _sf)
 check(_m['fuente_forma'] == 'Sofascore' and len(_m['forma']['local']) == 8 and _m['arbitro'] == 'Flashscore Ref' and _m['h2h'] == _fs0['h2h'] and any('Contraste' in x for x in _m['avisos']) and 'viejo' not in _m['avisos'], 'sofascore: sustituye la forma, conserva directos y árbitro de Flashscore si Sofascore no los trae y declara el contraste')
+_sf_v = {**_sf, 'forma': {'local': [dict(_par([2, 2], [1, 1]), stats={})] + [_par([1, 0], [5, 3])] * 7, 'visitante': _sf['forma']['visitante']}}
+_fs_v = {**_fs0, 'forma': {'local': [dict(_par([2, 2], [7, 7]))] + _fs0['forma']['local'][1:], 'visitante': _fs0['forma']['visitante']}}
+_mv, _ = A.fusionar_sofascore(_fs_v, _sf_v)
+check(_mv['forma']['local'][0]['stats']['c'] == [7, 7] and _mv['forma']['local'][0]['fuente'] == 'Flashscore' and any('rellenaron' in x for x in _mv['avisos']), 'sofascore: un partido sin estadísticas se rellena con las de Flashscore (misma fecha y marcador) y se declara')
 _m2, _ = A.fusionar_sofascore(None, _sf)
 _m3, _ = A.fusionar_sofascore(_fs0, {'forma': {'local': [_par([1, 0], [5, 3])] * 3, 'visitante': [_par([1, 0], [5, 3])] * 9}})
 check(_m2['arbitro'] == 'Árbitro Uno' and _m2['forma']['visitante'] and _m3 is _fs0, 'sofascore: funciona sin Flashscore; con menos de 8 partidos por equipo se queda la fuente de respaldo (Flashscore)')

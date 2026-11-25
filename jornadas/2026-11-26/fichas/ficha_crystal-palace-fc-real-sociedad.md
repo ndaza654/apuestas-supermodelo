@@ -334,6 +334,36 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Luka Sučić — remates: 1+ @1.1 · col +1.7 · 7 de 9 (titular 0.90)
 - Mikel Oyarzabal — remates: 1+ @1.08 · col +2.3 · 9 de 9 (titular 0.90)
 
+## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
+
+| Dato | Local fav | Local con | Visitante fav | Visitante con | n L/V |
+|---|---|---|---|---|---|
+| Posesión % | 44.4 | 55.6 | 53.8 | 46.2 | 10/10 |
+| Toques en el área rival | 20.9 | 30.8 | 26.5 | 26.5 | 10/10 |
+| Centros (intentos) | 15.0 | 21.5 | 14.5 | 17.1 | 10/10 |
+| Centros acertados | 3.4 | 5.9 | 3.1 | 3.5 | 10/10 |
+| Remates dentro del área | 7.5 | 11.4 | 10.7 | 9.5 | 10/10 |
+| Remates bloqueados | 2.7 | 5.2 | 5.2 | 4.5 | 10/10 |
+| xG | 1.3 | 2.0 | 2.0 | 1.8 | 10/10 |
+| xG a puerta (xGOT) | 1.3 | 1.9 | 1.9 | 1.4 | 9/10 |
+| Ocasiones claras | 2.8 | 4.0 | 3.8 | 3.3 | 10/10 |
+| Entradas (intentos) | 18.6 | 13.2 | 18.6 | 18.8 | 10/10 |
+| Duelos ganados | 49.6 | 47.3 | 44.3 | 48.4 | 10/10 |
+| Despejes | 30.3 | 26.3 | 21.2 | 19.7 | 10/10 |
+| Intercepciones | 9.8 | 10.5 | 10.7 | 10.6 | 10/10 |
+| Tiros libres a favor (= faltas recibidas) | 11.1 | 11.7 | 10.0 | 12.1 | 10/10 |
+| Pases largos | 49.6 | 54.2 | 47.0 | 48.5 | 10/10 |
+| Faltas cometidas | 11.7 | 11.2 | 12.5 | 10.1 | 10/10 |
+| Tarjetas (pts) | 2.7 | 2.2 | 2.5 | 2.3 | 10/10 |
+| Córners | 3.8 | 7.0 | 5.8 | 5.5 | 10/10 |
+| Remates | 10.7 | 16.1 | 16.6 | 14.4 | 10/10 |
+| Tiros al arco | 4.0 | 5.6 | 5.0 | 4.5 | 10/10 |
+| Fueras de juego | 2.0 | 1.0 | 1.8 | 1.1 | 10/10 |
+| Saques de banda | 16.4 | 18.3 | 18.7 | 17.4 | 10/10 |
+| Saques de meta | 9.2 | 5.3 | 7.4 | 8.1 | 10/10 |
+| Atajadas | 3.4 | 2.8 | 3.1 | 2.6 | 10/10 |
+| Errores que terminan en remate | 1.6 | 0.4 | 1.1 | 1.3 | 5/7 |
+
 ## Contexto para juzgar los criterios no numéricos
 
 - Árbitro: Saggi R.; derbi: False; importancia: normal; clima: None
@@ -341,4 +371,4 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': False, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Historial: sin casar con Betano → Wharton A., Sarr I., Guessand E., Lerma J., Zakharyan A., Aramburu J., Mingueza O., Hughes W., Doucoure C., Chilwell B., Barrenetxea A., Herrera Y., Marchal A., Beitia L.', 'Alineación probable: sin casar con Betano → Hughes W., Marrero L.']
+- Dudas: ['Contraste con Flashscore (20 partidos comunes): 320/320 cifras iguales, 0 con diferencia > 1', 'Historial: sin casar con Betano → Wharton A., Lerma J., Guessand E., Mingueza Ó., Hughes W., Doucouré C., Chilwell B., Sarr I., Aramburu J., Zakharyan A., Barrenetxea A., Herrera Y., Marchal A., Beitia L.', 'Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Honest Ahanor, Igor Zubeldia, Jaydee Canvot, Jorgen Strand Larsen, Álex Remiro · solo Flashscore: Axel Disasi, Dwight McNeil, Jean-Philippe Mateta, Mamadou Sarr', 'Alineación probable: sin casar con Betano → Hughes W., Marrero L.']

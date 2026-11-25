@@ -14,7 +14,7 @@ Enfoque: mirar primero 1.er tiempo (Menos) y empate al descanso, Ambos marcan, E
 | Goles del partido | ➖ neutro | ni muchos ni pocos goles esperados |
 | Córners totales | ➖ neutro | ni a favor ni en contra |
 | Tarjetas y faltas | ➖ neutro | árbitro sin dato; parejo: más duelos y más faltas |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 11 jugadores con titularidad dudosa: esperar el once |
 | Hándicap y victoria | ⛔ en contra | partido parejo: ningún equipo manda |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.

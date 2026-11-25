@@ -17,7 +17,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de Union S
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Ambos marcan | ➖ neutro | sin ventaja clara para ninguna de las dos opciones |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 1 jugadores con titularidad dudosa: esperar el once |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
 
@@ -66,7 +66,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates Lech Poznan Más 8.5 | 1.50 | 63 % | 56 % | Partido abierto (ambos marcan y 3+ goles) (72 %) | Favorito gana en partido trabado (51 %) | Cara |
 | Tiros al arco | Tiros al arco Union Saint-Gilloise Menos 8.5 | 1.52 | 62 % | 53 % | Empate (84 %) | Partido abierto (ambos marcan y 3+ goles) (53 %) | Cara |
 | Fueras de lugar | Fueras de lugar Lech Poznan Más 0.5 | 1.47 | 65 % | 66 % | Partido abierto (ambos marcan y 3+ goles) (66 %) | Sorpresa: gana el no favorito (61 %) | Justa |
-| Jugadores | Nohim Chibani anota o asiste | 5.50 | 17 % | 21 % | Partido abierto (ambos marcan y 3+ goles) (21 %) | Empate (6 %) | Justa |
+| Jugadores | Nohim Chibani anota o asiste | 5.50 | 17 % | 20 % | Partido abierto (ambos marcan y 3+ goles) (22 %) | Empate (6 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 

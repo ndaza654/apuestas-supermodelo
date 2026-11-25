@@ -16,7 +16,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de Besikta
 | Tarjetas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 18 jugadores con titularidad dudosa: esperar el once |
 | Ambos marcan | ⛔ en contra | Hapoel Beer Sheva marca poco en este partido |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -66,7 +66,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates Hapoel Beer Sheva Más 6.5 | 1.40 | 68 % | 56 % | Sorpresa: gana el no favorito (78 %) | Favorito gana en partido trabado (56 %) | Alta probabilidad · cuota por debajo de la justa |
 | Tiros al arco | Tiros al arco Besiktas JK Menos 7.5 | 1.47 | 65 % | 57 % | Empate (93 %) | Partido abierto (ambos marcan y 3+ goles) (57 %) | Justa |
 | Fueras de lugar | Fueras de lugar Besiktas JK Menos 1.5 | 1.40 | 69 % | 68 % | Expulsión antes del 70′ (71 %) | Empate (64 %) | Alta probabilidad |
-| Jugadores | Tiago Djaló anota o asiste | 6.00 | 16 % | 13 % | Partido abierto (ambos marcan y 3+ goles) (19 %) | Sorpresa: gana el no favorito (4 %) | Justa |
+| Jugadores | Roy Levy anota o asiste | 11.00 | 10 % | 0 % | Sorpresa: gana el no favorito (24 %) | Favorito golpea temprano y gana (0 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 
@@ -89,14 +89,14 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Córners Menos 11.0 | 1.44 | 71 % | 72 % | 71 % | +0 pts | +3 % | 64 % | +0.4 | 1.44 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 9 % |
 | Córners Más 7.5 | 1.34 | 71 % | 72 % | 71 % | +0 pts | -5 % | 69 % | +0.6 | 1.45 | Expulsión antes del 70′ | Alta probabilidad |
 | Córners 1.er tiempo Menos 5.5 | 1.39 | 70 % | 69 % | 70 % | +0 pts | -3 % | 69 % | +0.5 | 1.47 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Wilfred Ndidi remates 1+ | 1.27 | 70 % | 70 % | 70 % | +0 pts | -12 % | 69 % | — | 1.48 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | Córners Hapoel Beer Sheva Menos 3.5 | 1.36 | 70 % | 71 % | 70 % | +0 pts | -5 % | 68 % | +0.4 | 1.48 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
 | Tarjetas Más 3.5 | 1.37 | 70 % | 70 % | 70 % | +0 pts | -5 % | 58 % | +0.6 | 1.48 | Favorito golpea temprano y gana | Alta probabilidad |
 | Goles Menos 4.5 | 1.40 | 70 % | 70 % | 70 % | +0 pts | -3 % | 70 % | +0.4 | 1.48 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Wilfred Ndidi remates 1+ | 1.27 | 70 % | 70 % | 70 % | +0 pts | -12 % | 69 % | — | 1.48 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | Goles 1.er tiempo Menos 2.0 | 1.38 | 70 % | 71 % | 70 % | +0 pts | -4 % | 70 % | +0.2 | 1.48 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 27 % |
 | Fueras de lugar Besiktas JK Menos 1.5 | 1.40 | 69 % | 69 % | 69 % | +0 pts | -4 % | 68 % | +0.3 | 1.50 | Empate | Alta probabilidad |
 | Hándicap Besiktas JK -1.25 | 1.45 | 69 % | 67 % | 69 % | +0 pts | -1 % | 68 % | — | 1.50 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 10 % · ★ enfoque a favor |
-| Orkun Kökçü tiros al arco 1+ | 1.30 | 68 % | 69 % | 68 % | +0 pts | -11 % | 65 % | — | 1.51 | Empate | Alta probabilidad · cuota por debajo de la justa |
+| Goles Más 2.75 | 1.45 | 68 % | 68 % | 68 % | +0 pts | -1 % | 68 % | +0.5 | 1.51 | Empate | Alta probabilidad · asiática: devuelve 11 % · ★ enfoque a favor |
 | Junior Olaitan remates 2+ | 1.29 | 68 % | 69 % | 68 % | +0 pts | -12 % | 68 % | — | 1.51 | Empate | Alta probabilidad · cuota por debajo de la justa |
 
 ## Con valor según el modelo

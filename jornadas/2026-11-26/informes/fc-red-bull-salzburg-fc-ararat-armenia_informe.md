@@ -16,7 +16,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de FC Red 
 | Tarjetas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 10 jugadores con titularidad dudosa: esperar el once |
 | Ambos marcan | ⛔ en contra | FC Ararat-Armenia marca poco en este partido |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
@@ -66,7 +66,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates FC Red Bull Salzburg Menos 20.5 | 1.52 | 62 % | 58 % | Empate (74 %) | Partido abierto (ambos marcan y 3+ goles) (58 %) | Cara |
 | Tiros al arco | Tiros al arco FC Red Bull Salzburg Más 5.5 | 1.36 | 69 % | 67 % | Partido abierto (ambos marcan y 3+ goles) (77 %) | Empate (32 %) | Alta probabilidad · cuota por debajo de la justa |
 | Fueras de lugar | Fueras de lugar 1.er tiempo Menos 1.5 | 1.90 | 52 % | 52 % | Sorpresa: gana el no favorito (55 %) | Partido abierto (ambos marcan y 3+ goles) (52 %) | Justa |
-| Jugadores | Tim Drexler anota o asiste | 5.50 | 17 % | 18 % | Partido abierto (ambos marcan y 3+ goles) (20 %) | Empate (5 %) | Justa |
+| Jugadores | Tim Drexler anota o asiste | 5.50 | 18 % | 18 % | Partido abierto (ambos marcan y 3+ goles) (20 %) | Sorpresa: gana el no favorito (5 %) | Justa |
 | Quién saca más | Más tarjetas: FC Ararat-Armenia | 1.60 | 59 % | 56 % | Expulsión antes del 70′ (66 %) | Favorito golpea temprano y gana (56 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
@@ -93,12 +93,12 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Artur Serobyan remates 1+ | 1.26 | 70 % | 71 % | 70 % | +0 pts | -12 % | 67 % | — | 1.47 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Córners 1.er tiempo Más 3.5 | 1.34 | 69 % | 72 % | 69 % | +0 pts | -7 % | 68 % | +0.5 | 1.48 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
 | Tiros al arco FC Red Bull Salzburg Más 5.5 | 1.36 | 69 % | 71 % | 69 % | +0 pts | -6 % | 67 % | +0.5 | 1.48 | Empate | Alta probabilidad · cuota por debajo de la justa |
-| Damir Redzic remates 2+ | 1.25 | 69 % | 71 % | 69 % | +0 pts | -13 % | 67 % | — | 1.49 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | 2.º tiempo: FC Red Bull Salzburg | 1.40 | 68 % | 68 % | 68 % | +0 pts | -5 % | 68 % | — | 1.52 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
 | Córners FC Red Bull Salzburg Más 5.5 | 1.38 | 67 % | 70 % | 67 % | +0 pts | -7 % | 62 % | +0.5 | 1.53 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
 | Córners FC Ararat-Armenia Menos 3.5 | 1.42 | 67 % | 67 % | 67 % | +0 pts | -5 % | 65 % | +0.3 | 1.53 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
 | Goles Más 3.0 | 1.47 | 67 % | 67 % | 67 % | +0 pts | -1 % | 67 % | +0.4 | 1.54 | Empate | Alta probabilidad · asiática: devuelve 21 % · ★ enfoque a favor |
 | Goles Menos 4.5 | 1.45 | 67 % | 67 % | 67 % | +0 pts | -3 % | 67 % | +0.4 | 1.54 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Karim Konate tiros al arco 1+ | 1.33 | 67 % | 67 % | 67 % | +0 pts | -12 % | 66 % | — | 1.55 | Empate | Alta probabilidad · cuota por debajo de la justa |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |

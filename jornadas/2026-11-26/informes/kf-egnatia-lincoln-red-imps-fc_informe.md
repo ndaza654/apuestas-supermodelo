@@ -17,7 +17,7 @@ Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de KF Egna
 | Faltas (Menos) | ✅ favorece | árbitro sin dato; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
 | Ambos marcan | ➖ neutro | sin ventaja clara para ninguna de las dos opciones |
 | Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
-| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Líneas de jugador | ➖ neutro | 6 jugadores con titularidad dudosa: esperar el once |
 
 Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
 
@@ -67,7 +67,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Remates | Remates Lincoln Red Imps FC Más 7.5 | 1.44 | 66 % | 60 % | Partido abierto (ambos marcan y 3+ goles) (74 %) | Favorito gana en partido trabado (51 %) | Alta probabilidad · cuota por debajo de la justa |
 | Tiros al arco | Tiros al arco KF Egnatia Menos 7.5 | 1.33 | 72 % | 61 % | Empate (88 %) | Partido abierto (ambos marcan y 3+ goles) (61 %) | Alta probabilidad |
 | Fueras de lugar | Fueras de lugar Lincoln Red Imps FC Más 1.5 | 1.72 | 55 % | 52 % | Favorito golpea temprano y gana (59 %) | Empate (52 %) | Cara |
-| Jugadores | Numan Ajetovikj anota o asiste | 4.85 | 20 % | 7 % | Partido abierto (ambos marcan y 3+ goles) (28 %) | Empate (7 %) | Justa |
+| Jugadores | Zamiq Aliyev anota o asiste | 5.60 | 17 % | 6 % | Partido abierto (ambos marcan y 3+ goles) (24 %) | Empate (6 %) | Justa |
 | Quién saca más | Más tarjetas: empate | 4.40 | 22 % | 10 % | Favorito golpea temprano y gana (25 %) | Expulsión antes del 70′ (10 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.

@@ -2183,17 +2183,17 @@
   "fueras": {
    "mercado": "fueras",
    "titulo": "Fueras de juego",
-   "n_local": 10,
+   "n_local": 8,
    "n_visitante": 10,
    "n_directos": 0,
    "esperado": {
-    "local": 1.95,
-    "visitante": 1.6,
-    "total": 3.55
+    "local": 2.25,
+    "visitante": 1.84,
+    "total": 4.09
    },
    "promedios": {
-    "local_a_favor": 2.4,
-    "local_en_contra": 1.9,
+    "local_a_favor": 3.0,
+    "local_en_contra": 2.38,
     "visitante_a_favor": 1.3,
     "visitante_en_contra": 1.5
    },
@@ -2212,10 +2212,6 @@
       2.0
      ],
      [
-      0.0,
-      0.0
-     ],
-     [
       7.0,
       3.0
      ],
@@ -2226,10 +2222,6 @@
      [
       5.0,
       2.0
-     ],
-     [
-      0.0,
-      0.0
      ],
      [
       2.0,
@@ -2299,14 +2291,14 @@
     {
      "ambito": "local",
      "linea": 1.5,
-     "esperado": 1.95,
+     "esperado": 2.25,
      "mas": {
       "cuota": 2.8,
-      "colchon": 0.45,
+      "colchon": 0.75,
       "reg_local": {
        "x": 7,
-       "n": 10,
-       "txt": "7 de 10",
+       "n": 8,
+       "txt": "7 de 8",
        "cumple": true
       },
       "reg_visitante": {
@@ -2320,11 +2312,11 @@
      },
      "menos": {
       "cuota": 1.4,
-      "colchon": -0.45,
+      "colchon": -0.75,
       "reg_local": {
-       "x": 3,
-       "n": 10,
-       "txt": "3 de 10",
+       "x": 1,
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2340,14 +2332,14 @@
     {
      "ambito": "total",
      "linea": 2.5,
-     "esperado": 3.55,
+     "esperado": 4.09,
      "mas": {
       "cuota": 1.65,
-      "colchon": 1.05,
+      "colchon": 1.59,
       "reg_local": {
        "x": 6,
-       "n": 10,
-       "txt": "6 de 10",
+       "n": 8,
+       "txt": "6 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2361,11 +2353,11 @@
      },
      "menos": {
       "cuota": 2.15,
-      "colchon": -1.05,
+      "colchon": -1.59,
       "reg_local": {
-       "x": 4,
-       "n": 10,
-       "txt": "4 de 10",
+       "x": 2,
+       "n": 8,
+       "txt": "2 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -2381,14 +2373,14 @@
     {
      "ambito": "visitante",
      "linea": 1.5,
-     "esperado": 1.6,
+     "esperado": 1.84,
      "mas": {
       "cuota": 1.7,
-      "colchon": 0.1,
+      "colchon": 0.34,
       "reg_local": {
        "x": 7,
-       "n": 10,
-       "txt": "7 de 10",
+       "n": 8,
+       "txt": "7 de 8",
        "cumple": true
       },
       "reg_visitante": {
@@ -2402,11 +2394,11 @@
      },
      "menos": {
       "cuota": 2.07,
-      "colchon": -0.1,
+      "colchon": -0.34,
       "reg_local": {
-       "x": 3,
-       "n": 10,
-       "txt": "3 de 10",
+       "x": 1,
+       "n": 8,
+       "txt": "1 de 8",
        "cumple": false
       },
       "reg_visitante": {
@@ -5513,8 +5505,8 @@
    "jugador": "Ilhan Fakili",
    "lado": "local",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 2.3,
@@ -5529,8 +5521,8 @@
    "jugador": "Ilhan Fakili",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 1.72,
@@ -5545,8 +5537,8 @@
    "jugador": "Ilhan Fakili",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 28.0,
@@ -5561,8 +5553,8 @@
    "jugador": "Ilhan Fakili",
    "lado": "local",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 9.0,
@@ -5577,12 +5569,12 @@
    "jugador": "Ilhan Fakili",
    "lado": "local",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "por_90": 1.89,
-   "esperado": null,
+   "por_90": 1.86,
+   "esperado": 1.66,
    "escalones": [
     {
      "minimo": 1,
@@ -5593,7 +5585,7 @@
       "txt": "6 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 1.16
     },
     {
      "minimo": 2,
@@ -5604,7 +5596,7 @@
       "txt": "2 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.16
     },
     {
      "minimo": 3,
@@ -5615,7 +5607,7 @@
       "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.84
     },
     {
      "minimo": 4,
@@ -5626,7 +5618,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.84
     },
     {
      "minimo": 5,
@@ -5637,7 +5629,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.84
     },
     {
      "minimo": 6,
@@ -5648,7 +5640,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.84
     },
     {
      "minimo": 7,
@@ -5659,7 +5651,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -4.84
     },
     {
      "minimo": 8,
@@ -5670,7 +5662,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -5.84
     },
     {
      "minimo": 9,
@@ -5681,7 +5673,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -6.84
     },
     {
      "minimo": 10,
@@ -5692,7 +5684,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -7.84
     },
     {
      "minimo": 11,
@@ -5703,7 +5695,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -8.84
     }
    ]
   },
@@ -5711,12 +5703,12 @@
    "jugador": "Ilhan Fakili",
    "lado": "local",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "por_90": 1.05,
-   "esperado": null,
+   "por_90": 1.03,
+   "esperado": 0.92,
    "escalones": [
     {
      "minimo": 1,
@@ -5727,7 +5719,7 @@
       "txt": "4 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.42
     },
     {
      "minimo": 2,
@@ -5738,7 +5730,7 @@
       "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.58
     },
     {
      "minimo": 3,
@@ -5749,7 +5741,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.58
     },
     {
      "minimo": 4,
@@ -5760,7 +5752,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.58
     },
     {
      "minimo": 5,
@@ -5771,7 +5763,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.58
     }
    ]
   },
@@ -5779,8 +5771,8 @@
    "jugador": "Dušan Vlahović",
    "lado": "local",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
    "cuota": 1.5,
@@ -5795,8 +5787,8 @@
    "jugador": "Dušan Vlahović",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
    "cuota": 1.39,
@@ -5811,8 +5803,8 @@
    "jugador": "Dušan Vlahović",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
    "cuota": 17.5,
@@ -5827,8 +5819,8 @@
    "jugador": "Dušan Vlahović",
    "lado": "local",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
    "cuota": 4.45,
@@ -5843,12 +5835,12 @@
    "jugador": "Dušan Vlahović",
    "lado": "local",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
    "por_90": 3.95,
-   "esperado": null,
+   "esperado": 3.52,
    "escalones": [
     {
      "minimo": 4,
@@ -5859,7 +5851,7 @@
       "txt": "3 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.02
     },
     {
      "minimo": 5,
@@ -5870,7 +5862,7 @@
       "txt": "3 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.98
     },
     {
      "minimo": 6,
@@ -5881,7 +5873,7 @@
       "txt": "3 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.98
     },
     {
      "minimo": 7,
@@ -5892,7 +5884,7 @@
       "txt": "1 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.98
     },
     {
      "minimo": 8,
@@ -5903,7 +5895,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.98
     },
     {
      "minimo": 9,
@@ -5914,7 +5906,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -4.98
     },
     {
      "minimo": 10,
@@ -5925,7 +5917,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -5.98
     },
     {
      "minimo": 11,
@@ -5936,7 +5928,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -6.98
     }
    ]
   },
@@ -5944,12 +5936,12 @@
    "jugador": "Dušan Vlahović",
    "lado": "local",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
    "por_90": 1.77,
-   "esperado": null,
+   "esperado": 1.58,
    "escalones": [
     {
      "minimo": 1,
@@ -5960,7 +5952,7 @@
       "txt": "7 de 9",
       "cumple": true
      },
-     "colchon": null
+     "colchon": 1.08
     },
     {
      "minimo": 2,
@@ -5971,7 +5963,7 @@
       "txt": "3 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.08
     },
     {
      "minimo": 3,
@@ -5982,7 +5974,7 @@
       "txt": "2 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.92
     },
     {
      "minimo": 4,
@@ -5993,7 +5985,7 @@
       "txt": "1 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.92
     },
     {
      "minimo": 5,
@@ -6004,7 +5996,7 @@
       "txt": "0 de 9",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.92
     }
    ]
   },
@@ -6012,15 +6004,15 @@
    "jugador": "Hyeon-gyu Oh",
    "lado": "local",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 8,
+   "sin_historial": false,
    "cuota": 1.7,
    "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "x": 2,
+    "n": 8,
+    "txt": "2 de 8",
     "cumple": false
    }
   },
@@ -6028,15 +6020,15 @@
    "jugador": "Hyeon-gyu Oh",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 8,
+   "sin_historial": false,
    "cuota": 1.42,
    "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "x": 2,
+    "n": 8,
+    "txt": "2 de 8",
     "cumple": false
    }
   },
@@ -6044,15 +6036,15 @@
    "jugador": "Hyeon-gyu Oh",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 8,
+   "sin_historial": false,
    "cuota": 15.0,
    "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "x": 1,
+    "n": 8,
+    "txt": "1 de 8",
     "cumple": false
    }
   },
@@ -6060,15 +6052,15 @@
    "jugador": "Hyeon-gyu Oh",
    "lado": "local",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 8,
+   "sin_historial": false,
    "cuota": 3.05,
    "reg": {
-    "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "x": 1,
+    "n": 8,
+    "txt": "1 de 8",
     "cumple": false
    }
   },
@@ -6076,100 +6068,100 @@
    "jugador": "Hyeon-gyu Oh",
    "lado": "local",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "por_90": null,
-   "esperado": null,
+   "partidos_muestra": 8,
+   "sin_historial": false,
+   "por_90": 4.1,
+   "esperado": 3.65,
    "escalones": [
     {
      "minimo": 3,
      "cuota": 1.3,
      "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "x": 2,
+      "n": 8,
+      "txt": "2 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 1.15
     },
     {
      "minimo": 4,
      "cuota": 1.78,
      "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "x": 1,
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.15
     },
     {
      "minimo": 5,
      "cuota": 2.72,
      "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "x": 1,
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.85
     },
     {
      "minimo": 6,
      "cuota": 4.55,
      "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "x": 1,
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.85
     },
     {
      "minimo": 7,
      "cuota": 7.8,
      "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "x": 1,
+      "n": 8,
+      "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.85
     },
     {
      "minimo": 8,
      "cuota": 12.5,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.85
     },
     {
      "minimo": 9,
      "cuota": 18.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -4.85
     },
     {
      "minimo": 10,
      "cuota": 22.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -5.85
     }
    ]
   },
@@ -6177,67 +6169,67 @@
    "jugador": "Hyeon-gyu Oh",
    "lado": "local",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "por_90": null,
-   "esperado": null,
+   "partidos_muestra": 8,
+   "sin_historial": false,
+   "por_90": 1.47,
+   "esperado": 1.3,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.24,
      "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "x": 3,
+      "n": 8,
+      "txt": "3 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.8
     },
     {
      "minimo": 2,
      "cuota": 2.12,
      "reg": {
-      "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "x": 2,
+      "n": 8,
+      "txt": "2 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.2
     },
     {
      "minimo": 3,
      "cuota": 4.5,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.2
     },
     {
      "minimo": 4,
      "cuota": 10.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.2
     },
     {
      "minimo": 5,
      "cuota": 17.5,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 8,
+      "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.2
     }
    ]
   },
@@ -6313,7 +6305,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 2,
    "sin_historial": false,
-   "por_90": 10.0,
+   "por_90": 6.43,
    "esperado": null,
    "escalones": [
     {
@@ -6922,7 +6914,7 @@
    "jugador": "Václav Černý",
    "lado": "local",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -6938,7 +6930,7 @@
    "jugador": "Václav Černý",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -6954,7 +6946,7 @@
    "jugador": "Václav Černý",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -6970,7 +6962,7 @@
    "jugador": "Václav Černý",
    "lado": "local",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -6986,7 +6978,7 @@
    "jugador": "Václav Černý",
    "lado": "local",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -7076,7 +7068,7 @@
    "jugador": "Václav Černý",
    "lado": "local",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
@@ -8210,8 +8202,8 @@
    "jugador": "Adrian Ugarriza",
    "lado": "visitante",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 3.85,
@@ -8226,8 +8218,8 @@
    "jugador": "Adrian Ugarriza",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 3.35,
@@ -8242,8 +8234,8 @@
    "jugador": "Adrian Ugarriza",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 15.0,
@@ -8258,8 +8250,8 @@
    "jugador": "Adrian Ugarriza",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 9.0,
@@ -8274,12 +8266,12 @@
    "jugador": "Adrian Ugarriza",
    "lado": "visitante",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "por_90": 2.98,
-   "esperado": null,
+   "esperado": 2.65,
    "escalones": [
     {
      "minimo": 1,
@@ -8290,7 +8282,7 @@
       "txt": "6 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 2.15
     },
     {
      "minimo": 2,
@@ -8301,7 +8293,7 @@
       "txt": "4 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 1.15
     },
     {
      "minimo": 3,
@@ -8312,7 +8304,7 @@
       "txt": "1 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.15
     },
     {
      "minimo": 4,
@@ -8323,7 +8315,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.85
     },
     {
      "minimo": 5,
@@ -8334,7 +8326,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.85
     },
     {
      "minimo": 6,
@@ -8345,7 +8337,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.85
     }
    ]
   },
@@ -8353,12 +8345,12 @@
    "jugador": "Adrian Ugarriza",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "por_90": 0.81,
-   "esperado": null,
+   "esperado": 0.72,
    "escalones": [
     {
      "minimo": 1,
@@ -8369,7 +8361,7 @@
       "txt": "3 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.22
     },
     {
      "minimo": 2,
@@ -8380,7 +8372,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.78
     },
     {
      "minimo": 3,
@@ -8391,7 +8383,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.78
     },
     {
      "minimo": 4,
@@ -8402,7 +8394,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.78
     }
    ]
   },
@@ -8410,7 +8402,7 @@
    "jugador": "Igor Zlatanovic",
    "lado": "visitante",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -8426,7 +8418,7 @@
    "jugador": "Igor Zlatanovic",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -8442,7 +8434,7 @@
    "jugador": "Igor Zlatanovic",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -8458,7 +8450,7 @@
    "jugador": "Igor Zlatanovic",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -8474,7 +8466,7 @@
    "jugador": "Igor Zlatanovic",
    "lado": "visitante",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -8542,7 +8534,7 @@
    "jugador": "Igor Zlatanovic",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
@@ -8601,13 +8593,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 4.3,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 4,
+    "txt": "0 de 4",
     "cumple": false
    }
   },
@@ -8617,13 +8609,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 2.75,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 4,
+    "txt": "0 de 4",
     "cumple": false
    }
   },
@@ -8633,13 +8625,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 11.5,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 4,
+    "txt": "0 de 4",
     "cumple": false
    }
   },
@@ -8649,13 +8641,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
+   "partidos_muestra": 4,
+   "sin_historial": false,
    "cuota": 4.6,
    "reg": {
     "x": 0,
-    "n": 0,
-    "txt": "0 de 0",
+    "n": 4,
+    "txt": "0 de 4",
     "cumple": false
    }
   },
@@ -8665,9 +8657,9 @@
    "stat": "remates",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "por_90": null,
+   "partidos_muestra": 4,
+   "sin_historial": false,
+   "por_90": 0.0,
    "esperado": null,
    "escalones": [
     {
@@ -8675,8 +8667,8 @@
      "cuota": 1.34,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 4,
+      "txt": "0 de 4",
       "cumple": false
      },
      "colchon": null
@@ -8686,8 +8678,8 @@
      "cuota": 2.55,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 4,
+      "txt": "0 de 4",
       "cumple": false
      },
      "colchon": null
@@ -8697,8 +8689,8 @@
      "cuota": 6.1,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 4,
+      "txt": "0 de 4",
       "cumple": false
      },
      "colchon": null
@@ -8708,8 +8700,8 @@
      "cuota": 13.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 4,
+      "txt": "0 de 4",
       "cumple": false
      },
      "colchon": null
@@ -8719,8 +8711,8 @@
      "cuota": 21.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 4,
+      "txt": "0 de 4",
       "cumple": false
      },
      "colchon": null
@@ -8733,9 +8725,9 @@
    "stat": "al_arco",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 0,
-   "sin_historial": true,
-   "por_90": null,
+   "partidos_muestra": 4,
+   "sin_historial": false,
+   "por_90": 0.0,
    "esperado": null,
    "escalones": [
     {
@@ -8743,8 +8735,8 @@
      "cuota": 2.9,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 4,
+      "txt": "0 de 4",
       "cumple": false
      },
      "colchon": null
@@ -8754,8 +8746,8 @@
      "cuota": 11.25,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 4,
+      "txt": "0 de 4",
       "cumple": false
      },
      "colchon": null
@@ -8765,8 +8757,8 @@
      "cuota": 22.0,
      "reg": {
       "x": 0,
-      "n": 0,
-      "txt": "0 de 0",
+      "n": 4,
+      "txt": "0 de 4",
       "cumple": false
      },
      "colchon": null
@@ -9177,7 +9169,7 @@
    "jugador": "Javon East",
    "lado": "visitante",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -9193,7 +9185,7 @@
    "jugador": "Javon East",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -9209,7 +9201,7 @@
    "jugador": "Javon East",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -9225,7 +9217,7 @@
    "jugador": "Javon East",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -9241,7 +9233,7 @@
    "jugador": "Javon East",
    "lado": "visitante",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -9309,7 +9301,7 @@
    "jugador": "Javon East",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -9733,8 +9725,8 @@
    "jugador": "Yonas Malede",
    "lado": "visitante",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "cuota": 5.3,
@@ -9749,8 +9741,8 @@
    "jugador": "Yonas Malede",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "cuota": 4.35,
@@ -9765,8 +9757,8 @@
    "jugador": "Yonas Malede",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "cuota": 15.0,
@@ -9781,8 +9773,8 @@
    "jugador": "Yonas Malede",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "cuota": 9.0,
@@ -9797,12 +9789,12 @@
    "jugador": "Yonas Malede",
    "lado": "visitante",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "por_90": 1.58,
-   "esperado": null,
+   "esperado": 1.4,
    "escalones": [
     {
      "minimo": 1,
@@ -9813,7 +9805,7 @@
       "txt": "2 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.9
     },
     {
      "minimo": 2,
@@ -9824,7 +9816,7 @@
       "txt": "1 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.1
     },
     {
      "minimo": 3,
@@ -9835,7 +9827,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.1
     },
     {
      "minimo": 4,
@@ -9846,7 +9838,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.1
     },
     {
      "minimo": 5,
@@ -9857,7 +9849,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.1
     }
    ]
   },
@@ -9865,12 +9857,12 @@
    "jugador": "Yonas Malede",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 4,
    "sin_historial": false,
    "por_90": 1.05,
-   "esperado": null,
+   "esperado": 0.94,
    "escalones": [
     {
      "minimo": 1,
@@ -9881,7 +9873,7 @@
       "txt": "2 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.44
     },
     {
      "minimo": 2,
@@ -9892,7 +9884,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.56
     },
     {
      "minimo": 3,
@@ -9903,7 +9895,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.56
     },
     {
      "minimo": 4,
@@ -9914,7 +9906,7 @@
       "txt": "0 de 4",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.56
     }
    ]
   },
@@ -10168,8 +10160,8 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "por_90": 1.42,
-   "esperado": 1.26,
+   "por_90": 1.41,
+   "esperado": 1.25,
    "escalones": [
     {
      "minimo": 1,
@@ -10180,7 +10172,7 @@
       "txt": "4 de 8",
       "cumple": false
      },
-     "colchon": 0.76
+     "colchon": 0.75
     },
     {
      "minimo": 2,
@@ -10191,7 +10183,7 @@
       "txt": "2 de 8",
       "cumple": false
      },
-     "colchon": -0.24
+     "colchon": -0.25
     },
     {
      "minimo": 3,
@@ -10202,7 +10194,7 @@
       "txt": "2 de 8",
       "cumple": false
      },
-     "colchon": -1.24
+     "colchon": -1.25
     },
     {
      "minimo": 4,
@@ -10213,7 +10205,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": -2.24
+     "colchon": -2.25
     },
     {
      "minimo": 5,
@@ -10224,7 +10216,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": -3.24
+     "colchon": -3.25
     },
     {
      "minimo": 6,
@@ -10235,7 +10227,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": -4.24
+     "colchon": -4.25
     }
    ]
   },
@@ -10289,7 +10281,7 @@
    "jugador": "Amir Ganah",
    "lado": "visitante",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -10305,7 +10297,7 @@
    "jugador": "Amir Ganah",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -10321,7 +10313,7 @@
    "jugador": "Amir Ganah",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -10337,7 +10329,7 @@
    "jugador": "Amir Ganah",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -10353,7 +10345,7 @@
    "jugador": "Amir Ganah",
    "lado": "visitante",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -10432,7 +10424,7 @@
    "jugador": "Amir Ganah",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -10489,8 +10481,8 @@
    "jugador": "Muhammad Abu Rumi",
    "lado": "visitante",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 6.4,
@@ -10505,8 +10497,8 @@
    "jugador": "Muhammad Abu Rumi",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 3.7,
@@ -10521,8 +10513,8 @@
    "jugador": "Muhammad Abu Rumi",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 9.5,
@@ -10537,8 +10529,8 @@
    "jugador": "Muhammad Abu Rumi",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 5.4,
@@ -10553,12 +10545,12 @@
    "jugador": "Muhammad Abu Rumi",
    "lado": "visitante",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "por_90": 1.67,
-   "esperado": null,
+   "esperado": 1.48,
    "escalones": [
     {
      "minimo": 1,
@@ -10569,7 +10561,7 @@
       "txt": "5 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.98
     },
     {
      "minimo": 2,
@@ -10580,7 +10572,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.02
     },
     {
      "minimo": 3,
@@ -10591,7 +10583,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.02
     },
     {
      "minimo": 4,
@@ -10602,7 +10594,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.02
     },
     {
      "minimo": 5,
@@ -10613,7 +10605,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.02
     }
    ]
   },
@@ -10621,12 +10613,12 @@
    "jugador": "Muhammad Abu Rumi",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "por_90": 0.67,
-   "esperado": null,
+   "esperado": 0.59,
    "escalones": [
     {
      "minimo": 1,
@@ -10637,7 +10629,7 @@
       "txt": "2 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": 0.09
     },
     {
      "minimo": 2,
@@ -10648,7 +10640,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.91
     },
     {
      "minimo": 3,
@@ -10659,7 +10651,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.91
     }
    ]
   },
@@ -10847,13 +10839,13 @@
    "stat": "anota",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 10,
-   "sin_historial": false,
+   "partidos_muestra": 0,
+   "sin_historial": true,
    "cuota": 6.4,
    "reg": {
-    "x": 3,
-    "n": 10,
-    "txt": "3 de 10",
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
     "cumple": false
    }
   },
@@ -10863,13 +10855,13 @@
    "stat": "anota_o_asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 10,
-   "sin_historial": false,
+   "partidos_muestra": 0,
+   "sin_historial": true,
    "cuota": 4.6,
    "reg": {
-    "x": 3,
-    "n": 10,
-    "txt": "3 de 10",
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
     "cumple": false
    }
   },
@@ -10879,13 +10871,13 @@
    "stat": "tarjeta",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 10,
-   "sin_historial": false,
+   "partidos_muestra": 0,
+   "sin_historial": true,
    "cuota": 15.0,
    "reg": {
-    "x": 1,
-    "n": 10,
-    "txt": "1 de 10",
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
     "cumple": false
    }
   },
@@ -10895,13 +10887,13 @@
    "stat": "asiste",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 10,
-   "sin_historial": false,
+   "partidos_muestra": 0,
+   "sin_historial": true,
    "cuota": 7.7,
    "reg": {
-    "x": 1,
-    "n": 10,
-    "txt": "1 de 10",
+    "x": 0,
+    "n": 0,
+    "txt": "0 de 0",
     "cumple": false
    }
   },
@@ -10911,19 +10903,19 @@
    "stat": "remates",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 10,
-   "sin_historial": false,
-   "por_90": 1.99,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "por_90": null,
    "esperado": null,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 1.32,
      "reg": {
-      "x": 10,
-      "n": 10,
-      "txt": "10 de 10",
-      "cumple": true
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
+      "cumple": false
      },
      "colchon": null
     },
@@ -10931,9 +10923,9 @@
      "minimo": 2,
      "cuota": 2.42,
      "reg": {
-      "x": 4,
-      "n": 10,
-      "txt": "4 de 10",
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
       "cumple": false
      },
      "colchon": null
@@ -10942,9 +10934,9 @@
      "minimo": 3,
      "cuota": 5.7,
      "reg": {
-      "x": 2,
-      "n": 10,
-      "txt": "2 de 10",
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
       "cumple": false
      },
      "colchon": null
@@ -10954,8 +10946,8 @@
      "cuota": 12.5,
      "reg": {
       "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
+      "n": 0,
+      "txt": "0 de 0",
       "cumple": false
      },
      "colchon": null
@@ -10965,8 +10957,8 @@
      "cuota": 20.0,
      "reg": {
       "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
+      "n": 0,
+      "txt": "0 de 0",
       "cumple": false
      },
      "colchon": null
@@ -10979,18 +10971,18 @@
    "stat": "al_arco",
    "titular": null,
    "minutos_esperados": null,
-   "partidos_muestra": 10,
-   "sin_historial": false,
-   "por_90": 0.75,
+   "partidos_muestra": 0,
+   "sin_historial": true,
+   "por_90": null,
    "esperado": null,
    "escalones": [
     {
      "minimo": 1,
      "cuota": 2.6,
      "reg": {
-      "x": 4,
-      "n": 10,
-      "txt": "4 de 10",
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
       "cumple": false
      },
      "colchon": null
@@ -10999,9 +10991,9 @@
      "minimo": 2,
      "cuota": 9.5,
      "reg": {
-      "x": 2,
-      "n": 10,
-      "txt": "2 de 10",
+      "x": 0,
+      "n": 0,
+      "txt": "0 de 0",
       "cumple": false
      },
      "colchon": null
@@ -11011,8 +11003,8 @@
      "cuota": 21.0,
      "reg": {
       "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
+      "n": 0,
+      "txt": "0 de 0",
       "cumple": false
      },
      "colchon": null
@@ -11546,8 +11538,8 @@
    "jugador": "Taylan Bulut",
    "lado": "local",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 6.5,
@@ -11562,8 +11554,8 @@
    "jugador": "Taylan Bulut",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 3.3,
@@ -11578,8 +11570,8 @@
    "jugador": "Taylan Bulut",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 24.0,
@@ -11594,8 +11586,8 @@
    "jugador": "Taylan Bulut",
    "lado": "local",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 3,
    "sin_historial": false,
    "cuota": 4.6,
@@ -11610,12 +11602,12 @@
    "jugador": "Taylan Bulut",
    "lado": "local",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 3,
    "sin_historial": false,
    "por_90": 0.0,
-   "esperado": null,
+   "esperado": 0.0,
    "escalones": [
     {
      "minimo": 1,
@@ -11626,7 +11618,7 @@
       "txt": "0 de 3",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.5
     },
     {
      "minimo": 2,
@@ -11637,7 +11629,7 @@
       "txt": "0 de 3",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.5
     },
     {
      "minimo": 3,
@@ -11648,7 +11640,7 @@
       "txt": "0 de 3",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.5
     },
     {
      "minimo": 4,
@@ -11659,7 +11651,7 @@
       "txt": "0 de 3",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.5
     },
     {
      "minimo": 5,
@@ -11670,7 +11662,7 @@
       "txt": "0 de 3",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -4.5
     }
    ]
   },
@@ -11678,12 +11670,12 @@
    "jugador": "Taylan Bulut",
    "lado": "local",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 3,
    "sin_historial": false,
    "por_90": 0.0,
-   "esperado": null,
+   "esperado": 0.0,
    "escalones": [
     {
      "minimo": 1,
@@ -11694,7 +11686,7 @@
       "txt": "0 de 3",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.5
     },
     {
      "minimo": 2,
@@ -11705,7 +11697,7 @@
       "txt": "0 de 3",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.5
     },
     {
      "minimo": 3,
@@ -11716,7 +11708,7 @@
       "txt": "0 de 3",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.5
     }
    ]
   },
@@ -12291,7 +12283,7 @@
    "jugador": "Emmanuel Agbadou",
    "lado": "local",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -12307,7 +12299,7 @@
    "jugador": "Emmanuel Agbadou",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -12323,7 +12315,7 @@
    "jugador": "Emmanuel Agbadou",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -12339,7 +12331,7 @@
    "jugador": "Emmanuel Agbadou",
    "lado": "local",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -12355,7 +12347,7 @@
    "jugador": "Emmanuel Agbadou",
    "lado": "local",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -12412,7 +12404,7 @@
    "jugador": "Emmanuel Agbadou",
    "lado": "local",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -12458,7 +12450,7 @@
    "jugador": "Tiago Djaló",
    "lado": "local",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -12474,7 +12466,7 @@
    "jugador": "Tiago Djaló",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -12490,7 +12482,7 @@
    "jugador": "Tiago Djaló",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -12506,7 +12498,7 @@
    "jugador": "Tiago Djaló",
    "lado": "local",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -12522,7 +12514,7 @@
    "jugador": "Tiago Djaló",
    "lado": "local",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -12579,7 +12571,7 @@
    "jugador": "Tiago Djaló",
    "lado": "local",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
@@ -12625,8 +12617,8 @@
    "jugador": "Emirhan Topcu",
    "lado": "local",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 8.5,
@@ -12641,8 +12633,8 @@
    "jugador": "Emirhan Topcu",
    "lado": "local",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 6.0,
@@ -12657,8 +12649,8 @@
    "jugador": "Emirhan Topcu",
    "lado": "local",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 10.75,
@@ -12673,8 +12665,8 @@
    "jugador": "Emirhan Topcu",
    "lado": "local",
    "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "cuota": 8.5,
@@ -12689,12 +12681,12 @@
    "jugador": "Emirhan Topcu",
    "lado": "local",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "por_90": 0.0,
-   "esperado": null,
+   "esperado": 0.0,
    "escalones": [
     {
      "minimo": 1,
@@ -12705,7 +12697,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.5
     },
     {
      "minimo": 2,
@@ -12716,7 +12708,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.5
     },
     {
      "minimo": 3,
@@ -12727,7 +12719,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.5
     },
     {
      "minimo": 4,
@@ -12738,7 +12730,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -3.5
     }
    ]
   },
@@ -12746,12 +12738,12 @@
    "jugador": "Emirhan Topcu",
    "lado": "local",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
    "por_90": 0.0,
-   "esperado": null,
+   "esperado": 0.0,
    "escalones": [
     {
      "minimo": 1,
@@ -12762,7 +12754,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.5
     },
     {
      "minimo": 2,
@@ -12773,7 +12765,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.5
     },
     {
      "minimo": 3,
@@ -12784,7 +12776,7 @@
       "txt": "0 de 8",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.5
     }
    ]
   },
@@ -13148,8 +13140,8 @@
    "jugador": "Djibril Diop",
    "lado": "visitante",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 12.0,
@@ -13164,8 +13156,8 @@
    "jugador": "Djibril Diop",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 10.75,
@@ -13180,8 +13172,8 @@
    "jugador": "Djibril Diop",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "cuota": 11.0,
@@ -13196,12 +13188,12 @@
    "jugador": "Djibril Diop",
    "lado": "visitante",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "por_90": 0.41,
-   "esperado": null,
+   "esperado": 0.36,
    "escalones": [
     {
      "minimo": 1,
@@ -13212,7 +13204,7 @@
       "txt": "1 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.14
     },
     {
      "minimo": 2,
@@ -13223,7 +13215,7 @@
       "txt": "1 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.14
     },
     {
      "minimo": 3,
@@ -13234,7 +13226,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -2.14
     }
    ]
   },
@@ -13242,12 +13234,12 @@
    "jugador": "Djibril Diop",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
    "por_90": 0.2,
-   "esperado": null,
+   "esperado": 0.18,
    "escalones": [
     {
      "minimo": 1,
@@ -13258,7 +13250,7 @@
       "txt": "1 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -0.32
     },
     {
      "minimo": 2,
@@ -13269,7 +13261,7 @@
       "txt": "0 de 6",
       "cumple": false
      },
-     "colchon": null
+     "colchon": -1.32
     }
    ]
   },
@@ -13567,7 +13559,7 @@
    "jugador": "Miguel Vitor",
    "lado": "visitante",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -13583,7 +13575,7 @@
    "jugador": "Miguel Vitor",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -13599,7 +13591,7 @@
    "jugador": "Miguel Vitor",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -13615,7 +13607,7 @@
    "jugador": "Miguel Vitor",
    "lado": "visitante",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -13672,7 +13664,7 @@
    "jugador": "Miguel Vitor",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -13707,8 +13699,8 @@
    "jugador": "Matan Baltaxa",
    "lado": "visitante",
    "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.0,
+   "minutos_esperados": 0,
    "partidos_muestra": 5,
    "sin_historial": false,
    "cuota": 14.5,
@@ -13723,8 +13715,8 @@
    "jugador": "Matan Baltaxa",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.0,
+   "minutos_esperados": 0,
    "partidos_muestra": 5,
    "sin_historial": false,
    "cuota": 12.5,
@@ -13739,8 +13731,8 @@
    "jugador": "Matan Baltaxa",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.0,
+   "minutos_esperados": 0,
    "partidos_muestra": 5,
    "sin_historial": false,
    "cuota": 13.0,
@@ -13755,8 +13747,8 @@
    "jugador": "Matan Baltaxa",
    "lado": "visitante",
    "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.0,
+   "minutos_esperados": 0,
    "partidos_muestra": 5,
    "sin_historial": false,
    "por_90": 0.0,
@@ -13801,8 +13793,8 @@
    "jugador": "Matan Baltaxa",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.0,
+   "minutos_esperados": 0,
    "partidos_muestra": 5,
    "sin_historial": false,
    "por_90": 0.0,
@@ -14094,7 +14086,7 @@
    "jugador": "P. Amador",
    "lado": "visitante",
    "stat": "anota",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -14110,7 +14102,7 @@
    "jugador": "P. Amador",
    "lado": "visitante",
    "stat": "anota_o_asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -14126,7 +14118,7 @@
    "jugador": "P. Amador",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -14142,7 +14134,7 @@
    "jugador": "P. Amador",
    "lado": "visitante",
    "stat": "asiste",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -14158,7 +14150,7 @@
    "jugador": "P. Amador",
    "lado": "visitante",
    "stat": "remates",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -14204,7 +14196,7 @@
    "jugador": "P. Amador",
    "lado": "visitante",
    "stat": "al_arco",
-   "titular": 0.9,
+   "titular": 0.5,
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
@@ -14635,8 +14627,8 @@
    "jugador": "Ofir Marciano",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": 0.9,
-   "minutos_esperados": 80,
+   "titular": 0.0,
+   "minutos_esperados": 0,
    "partidos_muestra": 10,
    "sin_historial": false,
    "cuota": 22.0,
@@ -14651,12 +14643,12 @@
    "jugador": "Ofir Marciano",
    "lado": "visitante",
    "stat": "atajadas",
-   "titular": 0.9,
-   "minutos_esperados": 80,
+   "titular": 0.0,
+   "minutos_esperados": 0,
    "partidos_muestra": 10,
    "sin_historial": false,
    "por_90": 3.2,
-   "esperado": 2.84,
+   "esperado": null,
    "escalones": [
     {
      "minimo": 3,
@@ -14667,7 +14659,7 @@
       "txt": "4 de 10",
       "cumple": false
      },
-     "colchon": 0.34
+     "colchon": null
     },
     {
      "minimo": 4,
@@ -14678,7 +14670,7 @@
       "txt": "3 de 10",
       "cumple": false
      },
-     "colchon": -0.66
+     "colchon": null
     },
     {
      "minimo": 5,
@@ -14689,7 +14681,7 @@
       "txt": "2 de 10",
       "cumple": false
      },
-     "colchon": -1.66
+     "colchon": null
     },
     {
      "minimo": 6,
@@ -14700,7 +14692,7 @@
       "txt": "1 de 10",
       "cumple": false
      },
-     "colchon": -2.66
+     "colchon": null
     },
     {
      "minimo": 7,
@@ -14711,7 +14703,7 @@
       "txt": "1 de 10",
       "cumple": false
      },
-     "colchon": -3.66
+     "colchon": null
     }
    ]
   },
@@ -14735,8 +14727,8 @@
    "jugador": "Marco Wolff",
    "lado": "visitante",
    "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
+   "titular": 0.5,
+   "minutos_esperados": 80,
    "partidos_muestra": 0,
    "sin_historial": true,
    "cuota": 22.0,
@@ -14764,6 +14756,277 @@
    }
   }
  ],
+ "estilo": {
+  "etiquetas": {
+   "pos": "Posesión %",
+   "box": "Toques en el área rival",
+   "cr": "Centros (intentos)",
+   "crw": "Centros acertados",
+   "shi": "Remates dentro del área",
+   "blk": "Remates bloqueados",
+   "xg": "xG",
+   "xgot": "xG a puerta (xGOT)",
+   "big": "Ocasiones claras",
+   "tk": "Entradas (intentos)",
+   "du": "Duelos ganados",
+   "cl": "Despejes",
+   "it": "Intercepciones",
+   "fk": "Tiros libres a favor (= faltas recibidas)",
+   "pf3": "Pases en el último tercio",
+   "lp": "Pases largos",
+   "f": "Faltas cometidas",
+   "y": "Tarjetas (pts)",
+   "c": "Córners",
+   "sh": "Remates",
+   "sot": "Tiros al arco",
+   "off": "Fueras de juego",
+   "ti": "Saques de banda",
+   "gk": "Saques de meta",
+   "sv": "Atajadas",
+   "es": "Errores que terminan en remate"
+  },
+  "n_min": 5,
+  "local": {
+   "pos": {
+    "fav": 59.7,
+    "con": 40.3,
+    "n": 10
+   },
+   "box": {
+    "fav": 27.8,
+    "con": 14.8,
+    "n": 10
+   },
+   "cr": {
+    "fav": 17.6,
+    "con": 12.6,
+    "n": 10
+   },
+   "crw": {
+    "fav": 3.1,
+    "con": 2.7,
+    "n": 10
+   },
+   "shi": {
+    "fav": 9.7,
+    "con": 6.3,
+    "n": 10
+   },
+   "blk": {
+    "fav": 4.0,
+    "con": 1.5,
+    "n": 10
+   },
+   "xg": {
+    "fav": 1.97,
+    "con": 1.12,
+    "n": 10
+   },
+   "xgot": {
+    "fav": 2.01,
+    "con": 1.34,
+    "n": 10
+   },
+   "big": {
+    "fav": 3.2,
+    "con": 2.8,
+    "n": 10
+   },
+   "tk": {
+    "fav": 14.4,
+    "con": 17.7,
+    "n": 10
+   },
+   "du": {
+    "fav": 47.9,
+    "con": 47.9,
+    "n": 10
+   },
+   "cl": {
+    "fav": 19.1,
+    "con": 25.4,
+    "n": 10
+   },
+   "it": {
+    "fav": 9.3,
+    "con": 12.0,
+    "n": 10
+   },
+   "fk": {
+    "fav": 15.2,
+    "con": 12.3,
+    "n": 10
+   },
+   "lp": {
+    "fav": 55.5,
+    "con": 58.2,
+    "n": 10
+   },
+   "f": {
+    "fav": 12.3,
+    "con": 15.5,
+    "n": 10
+   },
+   "y": {
+    "fav": 2.6,
+    "con": 3.0,
+    "n": 10
+   },
+   "c": {
+    "fav": 4.7,
+    "con": 3.7,
+    "n": 10
+   },
+   "sh": {
+    "fav": 15.6,
+    "con": 10.3,
+    "n": 10
+   },
+   "sot": {
+    "fav": 5.9,
+    "con": 5.1,
+    "n": 10
+   },
+   "off": {
+    "fav": 3.0,
+    "con": 2.38,
+    "n": 8
+   },
+   "ti": {
+    "fav": 20.4,
+    "con": 16.1,
+    "n": 10
+   },
+   "gk": {
+    "fav": 5.8,
+    "con": 9.1,
+    "n": 10
+   },
+   "sv": {
+    "fav": 3.4,
+    "con": 3.5,
+    "n": 10
+   }
+  },
+  "visitante": {
+   "pos": {
+    "fav": 61.2,
+    "con": 38.8,
+    "n": 10
+   },
+   "box": {
+    "fav": 27.4,
+    "con": 22.3,
+    "n": 10
+   },
+   "cr": {
+    "fav": 14.1,
+    "con": 12.3,
+    "n": 10
+   },
+   "crw": {
+    "fav": 3.3,
+    "con": 3.0,
+    "n": 10
+   },
+   "shi": {
+    "fav": 7.5,
+    "con": 8.3,
+    "n": 10
+   },
+   "blk": {
+    "fav": 3.2,
+    "con": 2.8,
+    "n": 10
+   },
+   "big": {
+    "fav": 2.4,
+    "con": 2.4,
+    "n": 10
+   },
+   "tk": {
+    "fav": 19.0,
+    "con": 18.6,
+    "n": 10
+   },
+   "du": {
+    "fav": 48.4,
+    "con": 53.1,
+    "n": 10
+   },
+   "cl": {
+    "fav": 19.3,
+    "con": 21.5,
+    "n": 10
+   },
+   "it": {
+    "fav": 7.8,
+    "con": 10.9,
+    "n": 10
+   },
+   "fk": {
+    "fav": 11.4,
+    "con": 13.4,
+    "n": 10
+   },
+   "lp": {
+    "fav": 38.1,
+    "con": 52.8,
+    "n": 10
+   },
+   "f": {
+    "fav": 13.7,
+    "con": 11.7,
+    "n": 10
+   },
+   "y": {
+    "fav": 3.0,
+    "con": 3.0,
+    "n": 9
+   },
+   "c": {
+    "fav": 4.2,
+    "con": 3.6,
+    "n": 10
+   },
+   "sh": {
+    "fav": 12.5,
+    "con": 12.4,
+    "n": 10
+   },
+   "sot": {
+    "fav": 4.6,
+    "con": 4.6,
+    "n": 10
+   },
+   "off": {
+    "fav": 1.3,
+    "con": 1.5,
+    "n": 10
+   },
+   "ti": {
+    "fav": 18.5,
+    "con": 18.9,
+    "n": 10
+   },
+   "gk": {
+    "fav": 6.7,
+    "con": 8.3,
+    "n": 10
+   },
+   "sv": {
+    "fav": 3.2,
+    "con": 3.1,
+    "n": 10
+   },
+   "es": {
+    "fav": 1.3,
+    "con": 0.5,
+    "n": 10
+   }
+  },
+  "hay": true
+ },
  "contexto": {
   "arbitro": "Krogh M.",
   "clima": null,
@@ -14786,14 +15049,17 @@
   },
   "bajas": [],
   "dudas": [
-   "Historial: sin casar con Betano → Lucas Ventura, Peretz E., Miretti F., Akdag U., Oh Hyeon-Gyu, Kayra Yilmaz K., Rashica M., Stoyanov Y., Kanaan H., Ohana A.",
-   "Alineación probable: sin casar con Betano → Forson F."
+   "Contraste con Flashscore (20 partidos comunes): 314/314 cifras iguales, 0 con diferencia > 1",
+   "Historial: sin casar con Betano → Miretti F., Akdağ Ü., Rashica M., Amankwah F., Stoyanov Y., Kanaan H., Peretz E., Ventura L., Ohana A.",
+   "Once probable distinto entre Sofascore y Flashscore (titular 0,5 a quien figura en uno solo; esperar el once oficial): solo Sofascore: Adrian Ugarriza, Djibril Diop, Dušan Vlahović, Emirhan Topcu, Ilhan Fakili, Marco Wolff, Muhammad Abu Rumi, Taylan Bulut, Yonas Malede · solo Flashscore: Amir Ganah, Emmanuel Agbadou, Hyeon-gyu Oh, Igor Zlatanovic, Javon East, Miguel Vitor, P. Amador, Tiago Djaló, Václav Černý",
+   "Alineación probable: sin casar con Betano → Amankwah F., Forson F.",
+   "Matan Baltaxa: Flashscore lo lista en el XI probable y también como baja; se toma como baja"
   ],
   "fuentes": [
    "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá",
-   "Flashscore (últimos partidos, estadísticas y H2H)",
-   "Flashscore (estadísticas de jugadores de los últimos 10 partidos de cada selección; solo jugadores de la alineación probable)",
-   "Flashscore (alineaciones probables y bajas)",
+   "Sofascore (últimos partidos, estadísticas y H2H) · Flashscore de respaldo y contraste",
+   "Sofascore (estadísticas de jugadores de los últimos 10 partidos de cada equipo; solo jugadores de la alineación probable)",
+   "Sofascore (alineaciones probables y bajas)",
    "ValueStats (árbitro)"
   ]
  }
