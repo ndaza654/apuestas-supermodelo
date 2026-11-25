@@ -114,9 +114,9 @@
     }
     return null;
   }
-  async function unPartido([clave, local, visita, fecha, localAlt, visitaAlt]) {
+  async function unPartido([clave, local, visita, fecha, localAlt, visitaAlt, evId]) {      // evId (opcional): id de Sofascore si los nombres no casan (AGF, FC København…)
     const t0 = Date.now(), avisos = [];
-    const ev = await buscarEvento(local, visita, fecha, localAlt, visitaAlt);
+    const ev = evId ? ((await sfGet('/event/' + evId)) || {}).event : await buscarEvento(local, visita, fecha, localAlt, visitaAlt);
     if (!ev) { W.__sf[clave] = { clave, error: 'sin evento en Sofascore', local, visitante: visita, fecha }; return; }
     const det = await sfGet('/event/' + ev.id); const E = (det && det.event) || ev;
     const out = { clave, sofa_id: ev.id, mid: String(ev.id), local: ev.homeTeam.name, visitante: ev.awayTeam.name, fecha, n: 10, forma: { local: [], visitante: [] }, h2h: [], avisos, jugadores: { local: {}, visitante: {} },
