@@ -450,3 +450,6 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - El usuario pidió un BB para cada partido (no elegir partido) y aclaró que el contexto pesa al menos tanto como los números y que el objetivo es ganar las apuestas, no a la casa (regla en CLAUDE.md, «Prioridad»).
 - Once oficial 11:33 (Milan sin Pulisic, Modrić, Loftus-Cheek, Saelemaekers); Kavanagh confirmado. 22 combos con precio real.
 - PRINCIPAL 5,20: Más córners Olympiacos + Milan menos de 1,5 goles + Tarjetas Más 4,5 (en casa de Olympiacos 3 de 5 juntas). Alternativa 5,30 con remates de Milan Menos 12,5. Las de 10:45 quedan «superadas».
+
+## 26-nov-2026 12:30 · Combis de las 12:45
+- 3 combinadas entre partidos (3,65 / 3,65 / 3,81), 16 patas distintas de 15 partidos, todas con 7 de 10 en ambos y colchón ≥ 1,8; `combinadas_enviadas_1230.json`.
