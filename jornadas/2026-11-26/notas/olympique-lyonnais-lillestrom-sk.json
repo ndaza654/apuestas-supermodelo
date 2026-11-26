@@ -14,27 +14,23 @@
   "Guion escrito por Claude 25-nov 22:50 con fichas (últimos 10 Sofascore/Flashscore), tabla de la fase y árbitro (ValueStats); no se releyó la previa"
  ],
  "guion": {
-  "resumen": "Lyon (7 pts) contra el penúltimo Lillestrom (1 pt, 2:10): Lyon con la pelota y córners; árbitro Gishamer 3,5 tarjetas por partido.",
+  "resumen": "Lyon (1,21) gana sin goleada y con pocas tarjetas (Gishamer 3,5; faltas esperadas 21,6). Córners: Lyon saca solo 5,1 de media y 14 centros; los números de Lillestrom vienen de una liga más débil: no hay lectura clara de córners.",
   "domina": "local",
   "ritmo": "cerrado",
   "predicciones": [
-   {
-    "tipo": "mas_corners",
-    "equipo": "local"
-   },
    {
     "tipo": "tarjetas_menos_que",
     "linea": 5.5
    },
    {
-    "tipo": "corners_mas",
-    "linea": 8.0
+    "tipo": "goles_menos",
+    "linea": 4.5
    },
    {
     "tipo": "gana",
     "equipo": "local"
    }
   ],
-  "escrito": "2026-11-25 22:50 Bogotá, antes del partido; solo con datos del repo (sin onces oficiales)"
+  "escrito": "2026-11-25 22:50 Bogotá, antes del partido; solo con datos del repo (sin onces oficiales) · revisado 23:25 con estrategias/corners.md (punto 5: total con dominador claro)"
  }
 }

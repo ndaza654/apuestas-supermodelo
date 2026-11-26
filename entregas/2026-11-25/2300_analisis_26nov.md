@@ -29,3 +29,9 @@ Señal en vigilancia (apuesta chica): Tiros al arco Menos 10,5 Friburgo–Twente
 
 ## Guion comprobable
 Escrito antes del partido en `notas/<clave>.json` de los 12 partidos (quién domina, ritmo y predicciones); se califica en el balance con `calificar_guion.py`.
+
+## Revisión 23:25 con las fichas de estrategia de córners y tarjetas
+El usuario preguntó si se aplicaron `estrategias/corners.md` y `tarjetas_faltas.md`: a las 23:00 solo en parte (árbitro, qué se juega, regularidad). A las 23:25 se hizo la lectura completa (`jornadas/2026-11-26/agentes/lectura_corners_tarjetas_2325.md`) y cambió:
+- D2 → D2b: Getafe Menos 2,5 goles + Tiros al arco Iberia Más 1,5 ≈ 1,77 (árbitro Fesnic sin historial: la ficha dice no sugerir tarjetas).
+- D3 → D3b: Tarjetas Menos 5,5 + Goles Menos 4,5 ≈ 1,85 (Córners Más 8,0 sale: favorito muy claro, punto 5).
+- Se mantienen Córners Más en Kairat, Plzen–Benfica y Hoffenheim (este último con un punto en contra) y Tarjetas Menos en Kairat (faltas altas en contra) y Lyon.
