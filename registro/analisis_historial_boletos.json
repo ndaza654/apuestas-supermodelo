@@ -1,16 +1,16 @@
 {
  "periodo": "2026-11-04 a 2026-11-26",
- "boletos": 183,
+ "boletos": 193,
  "global": {
-  "boletos": 183,
-  "ganadas": 33,
+  "boletos": 193,
+  "ganadas": 37,
   "cash_out": 8,
-  "perdidas": 142,
-  "acierto": 18.0,
-  "apostado": 2988623,
-  "cobrado": 2831375,
-  "neto": -157248,
-  "roi": -5.3
+  "perdidas": 148,
+  "acierto": 19.2,
+  "apostado": 3138623,
+  "cobrado": 3164375,
+  "neto": 25752,
+  "roi": 0.8
  },
  "por_dia": {
   "2026-11-04": {
@@ -256,15 +256,15 @@
    "roi": 9.6
   },
   "2026-11-26": {
-   "boletos": 6,
-   "ganadas": 1,
+   "boletos": 16,
+   "ganadas": 5,
    "cash_out": 0,
-   "perdidas": 5,
-   "acierto": 16.7,
-   "apostado": 110000,
-   "cobrado": 90000,
-   "neto": -20000,
-   "roi": -18.2
+   "perdidas": 11,
+   "acierto": 31.2,
+   "apostado": 260000,
+   "cobrado": 423000,
+   "neto": 163000,
+   "roi": 62.7
   }
  },
  "por_npatas": {
@@ -280,26 +280,26 @@
    "roi": -14.6
   },
   "2": {
-   "boletos": 23,
-   "ganadas": 8,
+   "boletos": 29,
+   "ganadas": 10,
    "cash_out": 0,
-   "perdidas": 15,
-   "acierto": 34.8,
-   "apostado": 399267,
-   "cobrado": 290727,
-   "neto": -108540,
-   "roi": -27.2
+   "perdidas": 19,
+   "acierto": 34.5,
+   "apostado": 482267,
+   "cobrado": 356077,
+   "neto": -126190,
+   "roi": -26.2
   },
   "3": {
-   "boletos": 51,
-   "ganadas": 9,
+   "boletos": 55,
+   "ganadas": 11,
    "cash_out": 4,
-   "perdidas": 38,
-   "acierto": 17.6,
-   "apostado": 887777,
-   "cobrado": 938104,
-   "neto": 50327,
-   "roi": 5.7
+   "perdidas": 40,
+   "acierto": 20.0,
+   "apostado": 954777,
+   "cobrado": 1205754,
+   "neto": 250977,
+   "roi": 26.3
   },
   "4": {
    "boletos": 41,
@@ -337,26 +337,26 @@
    "roi": 5.8
   },
   "5–8": {
-   "boletos": 63,
-   "ganadas": 8,
+   "boletos": 64,
+   "ganadas": 9,
    "cash_out": 5,
    "perdidas": 50,
-   "acierto": 12.7,
-   "apostado": 1243858,
-   "cobrado": 1171360,
-   "neto": -72498,
-   "roi": -5.8
+   "acierto": 14.1,
+   "apostado": 1278858,
+   "cobrado": 1398860,
+   "neto": 120002,
+   "roi": 9.4
   },
   "3–5": {
-   "boletos": 51,
-   "ganadas": 11,
+   "boletos": 54,
+   "ganadas": 12,
    "cash_out": 1,
-   "perdidas": 39,
-   "acierto": 21.6,
-   "apostado": 835801,
-   "cobrado": 766733,
-   "neto": -69068,
-   "roi": -8.3
+   "perdidas": 41,
+   "acierto": 22.2,
+   "apostado": 867801,
+   "cobrado": 806883,
+   "neto": -60918,
+   "roi": -7.0
   },
   "< 2": {
    "boletos": 4,
@@ -370,15 +370,15 @@
    "roi": -16.5
   },
   "2–3": {
-   "boletos": 24,
-   "ganadas": 8,
+   "boletos": 30,
+   "ganadas": 10,
    "cash_out": 1,
-   "perdidas": 15,
+   "perdidas": 19,
    "acierto": 33.3,
-   "apostado": 367423,
-   "cobrado": 337180,
-   "neto": -30243,
-   "roi": -8.2
+   "apostado": 450423,
+   "cobrado": 402530,
+   "neto": -47893,
+   "roi": -10.6
   }
  },
  "por_tipo": {
@@ -394,15 +394,15 @@
    "roi": -12.4
   },
   "Bet Builder (varias patas, 1 partido)": {
-   "boletos": 66,
-   "ganadas": 13,
+   "boletos": 76,
+   "ganadas": 17,
    "cash_out": 5,
-   "perdidas": 48,
-   "acierto": 19.7,
-   "apostado": 1370888,
-   "cobrado": 1417471,
-   "neto": 46583,
-   "roi": 3.4
+   "perdidas": 54,
+   "acierto": 22.4,
+   "apostado": 1520888,
+   "cobrado": 1750471,
+   "neto": 229583,
+   "roi": 15.1
   },
   "simple de 1 pata": {
    "boletos": 12,
@@ -417,10 +417,10 @@
   }
  },
  "perdidas_por_patas_caidas": {
-  "2": 47,
-  "1": 64,
+  "2": 48,
+  "1": 69,
   "3+": 30,
-  "total": 141
+  "total": 147
  },
  "perdidas_una_pata_segun_npatas": {
   "4+ patas": {
@@ -432,19 +432,19 @@
    "por_una_pata": 8
   },
   "3 patas": {
-   "perdidas": 37,
-   "por_una_pata": 14
+   "perdidas": 39,
+   "por_una_pata": 15
   },
   "2 patas": {
-   "perdidas": 15,
-   "por_una_pata": 11
+   "perdidas": 19,
+   "por_una_pata": 15
   }
  },
  "pata_que_tumba_cuando_cae_una": [
   {
    "mercado": "Córners Más",
    "veces": 18,
-   "de_patas_apostadas": 149
+   "de_patas_apostadas": 152
   },
   {
    "mercado": "Goles Más",
@@ -458,33 +458,38 @@
   },
   {
    "mercado": "Goles Menos",
-   "veces": 4,
-   "de_patas_apostadas": 41
+   "veces": 5,
+   "de_patas_apostadas": 43
   },
   {
    "mercado": "Tarjetas Más",
    "veces": 4,
-   "de_patas_apostadas": 57
+   "de_patas_apostadas": 60
+  },
+  {
+   "mercado": "Tiros al arco Más",
+   "veces": 4,
+   "de_patas_apostadas": 49
+  },
+  {
+   "mercado": "Córners Menos",
+   "veces": 4,
+   "de_patas_apostadas": 40
   },
   {
    "mercado": "Tarjetas Menos",
    "veces": 3,
-   "de_patas_apostadas": 25
-  },
-  {
-   "mercado": "Tiros al arco Más",
-   "veces": 3,
-   "de_patas_apostadas": 47
-  },
-  {
-   "mercado": "Córners Menos",
-   "veces": 3,
-   "de_patas_apostadas": 39
+   "de_patas_apostadas": 28
   },
   {
    "mercado": "Fueras de juego Más",
    "veces": 2,
    "de_patas_apostadas": 3
+  },
+  {
+   "mercado": "Remates Menos",
+   "veces": 2,
+   "de_patas_apostadas": 25
   },
   {
    "mercado": "Jugador anota ?",
@@ -505,17 +510,12 @@
    "mercado": "Jugador: atajadas Línea jugador",
    "veces": 1,
    "de_patas_apostadas": 9
-  },
-  {
-   "mercado": "Resultado / hándicap Selección",
-   "veces": 1,
-   "de_patas_apostadas": 13
   }
  ],
  "perdidas_una_pata_margen": {
-  "1 unidad": 28,
-  "2 unidades": 11,
-  "3+ unidades": 16,
+  "1 unidad": 30,
+  "2 unidades": 12,
+  "3+ unidades": 18,
   "sin dato": 9
  },
  "ejemplos_cayo_por_1_unidad": [
@@ -545,7 +545,7 @@
   },
   {
    "mercado": "Tarjetas Más",
-   "veces": 18
+   "veces": 19
   },
   {
    "mercado": "Córners Menos",
@@ -579,9 +579,9 @@
  "patas_por_mercado_lado": [
   {
    "mercado": "Córners Más",
-   "patas": 149,
-   "acertadas": 77,
-   "acierto": 51.7
+   "patas": 152,
+   "acertadas": 80,
+   "acierto": 52.6
   },
   {
    "mercado": "Goles Más",
@@ -591,15 +591,21 @@
   },
   {
    "mercado": "Tarjetas Más",
-   "patas": 57,
-   "acertadas": 35,
-   "acierto": 61.4
+   "patas": 60,
+   "acertadas": 37,
+   "acierto": 61.7
   },
   {
    "mercado": "Tiros al arco Más",
-   "patas": 47,
-   "acertadas": 34,
-   "acierto": 72.3
+   "patas": 49,
+   "acertadas": 35,
+   "acierto": 71.4
+  },
+  {
+   "mercado": "Goles Menos",
+   "patas": 43,
+   "acertadas": 25,
+   "acierto": 58.1
   },
   {
    "mercado": "Remates Más",
@@ -608,28 +614,22 @@
    "acierto": 53.7
   },
   {
-   "mercado": "Goles Menos",
-   "patas": 41,
-   "acertadas": 24,
-   "acierto": 58.5
-  },
-  {
    "mercado": "Córners Menos",
-   "patas": 39,
+   "patas": 40,
    "acertadas": 22,
-   "acierto": 56.4
+   "acierto": 55.0
   },
   {
    "mercado": "Tarjetas Menos",
-   "patas": 25,
-   "acertadas": 20,
-   "acierto": 80.0
+   "patas": 28,
+   "acertadas": 23,
+   "acierto": 82.1
   },
   {
    "mercado": "Remates Menos",
-   "patas": 21,
-   "acertadas": 12,
-   "acierto": 57.1
+   "patas": 25,
+   "acertadas": 15,
+   "acierto": 60.0
   },
   {
    "mercado": "Jugador anota ?",
@@ -656,22 +656,28 @@
    "acierto": 69.2
   },
   {
+   "mercado": "Faltas Menos",
+   "patas": 13,
+   "acertadas": 10,
+   "acierto": 76.9
+  },
+  {
    "mercado": "Saques de meta Más",
    "patas": 12,
    "acertadas": 10,
    "acierto": 83.3
   },
   {
-   "mercado": "Faltas Menos",
-   "patas": 11,
-   "acertadas": 9,
-   "acierto": 81.8
-  },
-  {
    "mercado": "Atajadas Más",
    "patas": 11,
    "acertadas": 7,
    "acierto": 63.6
+  },
+  {
+   "mercado": "Tiros al arco Menos",
+   "patas": 10,
+   "acertadas": 7,
+   "acierto": 70.0
   },
   {
    "mercado": "Jugador: atajadas Línea jugador",
@@ -681,12 +687,6 @@
   },
   {
    "mercado": "Faltas Más",
-   "patas": 8,
-   "acertadas": 5,
-   "acierto": 62.5
-  },
-  {
-   "mercado": "Tiros al arco Menos",
    "patas": 8,
    "acertadas": 5,
    "acierto": 62.5
@@ -738,44 +738,50 @@
    "patas": 5,
    "acertadas": 4,
    "acierto": 80.0
+  },
+  {
+   "mercado": "Fueras de juego Menos",
+   "patas": 5,
+   "acertadas": 3,
+   "acierto": 60.0
   }
  ],
  "patas_por_mercado": [
   {
    "mercado": "Córners",
-   "patas": 191,
-   "acertadas": 101,
-   "acierto": 52.9
+   "patas": 195,
+   "acertadas": 104,
+   "acierto": 53.3
   },
   {
    "mercado": "Goles",
-   "patas": 136,
-   "acertadas": 91,
-   "acierto": 66.9
+   "patas": 138,
+   "acertadas": 92,
+   "acierto": 66.7
   },
   {
    "mercado": "Tarjetas",
-   "patas": 82,
-   "acertadas": 55,
-   "acierto": 67.1
+   "patas": 88,
+   "acertadas": 60,
+   "acierto": 68.2
   },
   {
    "mercado": "Remates",
-   "patas": 62,
-   "acertadas": 34,
-   "acierto": 54.8
+   "patas": 66,
+   "acertadas": 37,
+   "acierto": 56.1
   },
   {
    "mercado": "Tiros al arco",
-   "patas": 55,
-   "acertadas": 39,
-   "acierto": 70.9
+   "patas": 59,
+   "acertadas": 42,
+   "acierto": 71.2
   },
   {
    "mercado": "Faltas",
-   "patas": 19,
-   "acertadas": 14,
-   "acierto": 73.7
+   "patas": 21,
+   "acertadas": 15,
+   "acierto": 71.4
   },
   {
    "mercado": "Saques de meta",
@@ -832,6 +838,12 @@
    "acierto": 62.5
   },
   {
+   "mercado": "Fueras de juego",
+   "patas": 8,
+   "acertadas": 4,
+   "acierto": 50.0
+  },
+  {
    "mercado": "Jugador: tiros al arco",
    "patas": 7,
    "acertadas": 5,
@@ -842,12 +854,6 @@
    "patas": 6,
    "acertadas": 6,
    "acierto": 100.0
-  },
-  {
-   "mercado": "Fueras de juego",
-   "patas": 6,
-   "acertadas": 3,
-   "acierto": 50.0
   },
   {
    "mercado": "Jugador: remates",
@@ -864,8 +870,8 @@
  ],
  "patas_por_lado": {
   "Más": {
-   "patas": 438,
-   "acierto": 61.2
+   "patas": 446,
+   "acierto": 61.4
   },
   "Selección": {
    "patas": 17,
@@ -880,8 +886,8 @@
    "acierto": 69.2
   },
   "Menos": {
-   "patas": 160,
-   "acierto": 65.0
+   "patas": 176,
+   "acierto": 65.3
   },
   "No": {
    "patas": 1,
@@ -889,48 +895,48 @@
   }
  },
  "ganadas": {
-  "n": 33,
-  "patas_prom": 3.12,
+  "n": 37,
+  "patas_prom": 3.05,
   "por_npatas": {
    "6": 3,
    "1": 4,
    "5": 2,
-   "2": 8,
+   "2": 10,
    "4": 7,
-   "3": 9
+   "3": 11
   },
-  "cuota_mediana": 4.21,
+  "cuota_mediana": 3.9975,
   "familias": [
    [
     "Córners",
-    28
+    29
    ],
    [
     "Goles",
-    18
+    19
    ],
    [
     "Tarjetas",
-    13
+    17
    ],
    [
     "Tiros al arco",
-    9
+    10
+   ],
+   [
+    "Faltas",
+    4
    ],
    [
     "Saques de meta",
     4
    ],
    [
-    "Faltas",
-    3
+    "Remates",
+    4
    ],
    [
     "Jugador: tiros al arco",
-    3
-   ],
-   [
-    "Ambos marcan",
     3
    ]
   ],
@@ -1231,45 +1237,81 @@
     "stake": 30000.0,
     "cobrado": 90000.0,
     "patas": 4
+   },
+   {
+    "n": 184,
+    "fecha": "2026-11-26",
+    "tipo": "Doble (D2 enviada 12:40)",
+    "cuota": 2.32,
+    "stake": 15000.0,
+    "cobrado": 34800.0,
+    "patas": 2
+   },
+   {
+    "n": 187,
+    "fecha": "2026-11-26",
+    "tipo": "Simple (Bet Builder 3 patas, BB Boost +25 %) Palace–Real Sociedad",
+    "cuota": 5.4,
+    "stake": 35000.0,
+    "cobrado": 227500.0,
+    "patas": 3
+   },
+   {
+    "n": 188,
+    "fecha": "2026-11-26",
+    "tipo": "Doble (B1 enviada 14:20)",
+    "cuota": 2.35,
+    "stake": 13000.0,
+    "cobrado": 30550.0,
+    "patas": 2
+   },
+   {
+    "n": 191,
+    "fecha": "2026-11-26",
+    "tipo": "Combinada de 3 (A3 enviada 14:20)",
+    "cuota": 3.65,
+    "stake": 11000.0,
+    "cobrado": 40150.0,
+    "patas": 3
    }
   ]
  },
  "presencia_en_boletos": [
   {
    "mercado": "Córners",
-   "boletos": 130,
-   "ganados": 22,
-   "acierto": 16.9
+   "boletos": 134,
+   "ganados": 23,
+   "acierto": 17.2
   },
   {
    "mercado": "Goles",
-   "boletos": 85,
-   "ganados": 16,
-   "acierto": 18.8
+   "boletos": 87,
+   "ganados": 17,
+   "acierto": 19.5
   },
   {
    "mercado": "Tarjetas",
-   "boletos": 68,
-   "ganados": 12,
-   "acierto": 17.6
+   "boletos": 72,
+   "ganados": 14,
+   "acierto": 19.4
   },
   {
    "mercado": "Remates",
-   "boletos": 44,
-   "ganados": 2,
-   "acierto": 4.5
+   "boletos": 48,
+   "ganados": 4,
+   "acierto": 8.3
   },
   {
    "mercado": "Tiros al arco",
-   "boletos": 38,
-   "ganados": 6,
-   "acierto": 15.8
+   "boletos": 41,
+   "ganados": 7,
+   "acierto": 17.1
   },
   {
    "mercado": "Faltas",
-   "boletos": 19,
-   "ganados": 3,
-   "acierto": 15.8
+   "boletos": 21,
+   "ganados": 4,
+   "acierto": 19.0
   },
   {
    "mercado": "Saques de meta",
@@ -1326,6 +1368,12 @@
    "acierto": 0.0
   },
   {
+   "mercado": "Fueras de juego",
+   "boletos": 8,
+   "ganados": 2,
+   "acierto": 25.0
+  },
+  {
    "mercado": "Jugador: anota o asiste",
    "boletos": 6,
    "ganados": 2,
@@ -1336,12 +1384,6 @@
    "boletos": 6,
    "ganados": 3,
    "acierto": 50.0
-  },
-  {
-   "mercado": "Fueras de juego",
-   "boletos": 6,
-   "ganados": 2,
-   "acierto": 33.3
   },
   {
    "mercado": "Jugador: remates",
@@ -1410,13 +1452,13 @@
    "acierto": 0.0
   },
   {
-   "mercado": "Tarjetas: equipo con más",
+   "mercado": "Goles 1er tiempo",
    "boletos": 1,
    "ganados": 0,
    "acierto": 0.0
   },
   {
-   "mercado": "Goles 1er tiempo",
+   "mercado": "Tarjetas: equipo con más",
    "boletos": 1,
    "ganados": 0,
    "acierto": 0.0

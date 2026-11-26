@@ -1,99 +1,99 @@
 {
  "generado": "recoleccion/aprender_combos.py",
- "n_combinadas": 429,
- "se_dieron": 130,
- "perdidas": 299,
- "perdidas_por_una_pata": 153,
+ "n_combinadas": 458,
+ "se_dieron": 144,
+ "perdidas": 314,
+ "perdidas_por_una_pata": 165,
  "patas": {
-  "n": 1398,
-  "hit": 0.626,
-  "con_dato_previo": 959
+  "n": 1471,
+  "hit": 0.632,
+  "con_dato_previo": 1030
  },
  "pata_mas_floja": {
-  "combinadas_perdidas_por_una_pata_con_dato": 81,
-  "la_que_cayo_era_la_mas_floja": 29,
-  "por_azar_esperado": 31.0
+  "combinadas_perdidas_por_una_pata_con_dato": 94,
+  "la_que_cayo_era_la_mas_floja": 38,
+  "por_azar_esperado": 36.9
  },
  "por_banda_colchon": {
   "10–20 %": {
-   "n": 173,
-   "hit": 0.382
+   "n": 182,
+   "hit": 0.401
   },
   "5–10 %": {
    "n": 68,
    "hit": 0.75
   },
   "< 5 %": {
-   "n": 88,
-   "hit": 0.659
+   "n": 102,
+   "hit": 0.667
   },
   "sin dato": {
-   "n": 439,
-   "hit": 0.638
+   "n": 441,
+   "hit": 0.639
   },
   "≥ 20 %": {
-   "n": 630,
-   "hit": 0.667
+   "n": 678,
+   "hit": 0.673
   }
  },
  "por_cumple": {
   "no": {
-   "n": 309,
-   "hit": 0.472
+   "n": 317,
+   "hit": 0.479
   },
   "sí": {
-   "n": 606,
-   "hit": 0.693
+   "n": 654,
+   "hit": 0.697
   }
  },
  "por_mercado_lado": {
   "corners Más": {
-   "n": 158,
-   "hit": 0.69
+   "n": 169,
+   "hit": 0.704
   },
   "goles Más": {
-   "n": 118,
-   "hit": 0.729
+   "n": 120,
+   "hit": 0.733
   },
   "goles Menos": {
-   "n": 100,
-   "hit": 0.6
-  },
-  "corners Menos": {
-   "n": 88,
-   "hit": 0.409
+   "n": 106,
+   "hit": 0.613
   },
   "remates Menos": {
-   "n": 88,
-   "hit": 0.523
+   "n": 97,
+   "hit": 0.546
+  },
+  "corners Menos": {
+   "n": 93,
+   "hit": 0.409
+  },
+  "al_arco Más": {
+   "n": 79,
+   "hit": 0.658
+  },
+  "tarjetas Más": {
+   "n": 79,
+   "hit": 0.633
   },
   "remates Más": {
    "n": 76,
    "hit": 0.513
   },
-  "al_arco Más": {
-   "n": 73,
-   "hit": 0.658
-  },
-  "tarjetas Más": {
-   "n": 73,
-   "hit": 0.63
-  },
   "al_arco Menos": {
-   "n": 52,
-   "hit": 0.538
+   "n": 57,
+   "hit": 0.561
   },
   "tarjetas Menos": {
-   "n": 38,
-   "hit": 0.842
+   "n": 48,
+   "hit": 0.833
   },
   "faltas Menos": {
-   "n": 21,
-   "hit": 0.905
+   "n": 28,
+   "hit": 0.857
   },
   "fueras Menos": {
-   "n": 19,
-   "hit": 0.632
+   "n": 23,
+   "hit": 0.609
   },
   "saques_meta Más": {
    "n": 15,
@@ -114,33 +114,33 @@
  },
  "por_n_patas": {
   "2": {
-   "combinadas": 128,
-   "se_dieron": 69,
-   "hit": 0.539,
-   "hit_pata": 0.727,
-   "si_independientes": 0.528
+   "combinadas": 146,
+   "se_dieron": 77,
+   "hit": 0.527,
+   "hit_pata": 0.726,
+   "si_independientes": 0.527
   },
   "3": {
-   "combinadas": 173,
-   "se_dieron": 48,
-   "hit": 0.277,
-   "hit_pata": 0.624,
-   "si_independientes": 0.243
+   "combinadas": 182,
+   "se_dieron": 54,
+   "hit": 0.297,
+   "hit_pata": 0.634,
+   "si_independientes": 0.254
   },
   "4+": {
-   "combinadas": 128,
+   "combinadas": 130,
    "se_dieron": 13,
-   "hit": 0.102,
-   "hit_pata": 0.585,
-   "si_independientes": 0.079
+   "hit": 0.1,
+   "hit_pata": 0.587,
+   "si_independientes": 0.08
   }
  },
  "por_fuente": {
   "BB Boost": {
-   "combinadas": 127,
-   "se_dieron": 24,
+   "combinadas": 130,
+   "se_dieron": 27,
    "patas_prom": 3.4,
-   "hit_pata": 0.522
+   "hit_pata": 0.533
   },
   "Misión": {
    "combinadas": 10,
@@ -149,39 +149,39 @@
    "hit_pata": 0.828
   },
   "sugerida": {
-   "combinadas": 185,
-   "se_dieron": 83,
+   "combinadas": 201,
+   "se_dieron": 90,
    "patas_prom": 2.5,
-   "hit_pata": 0.7
+   "hit_pata": 0.702
   },
   "tu boleto": {
-   "combinadas": 107,
-   "se_dieron": 17,
-   "patas_prom": 4.3,
-   "hit_pata": 0.637
+   "combinadas": 117,
+   "se_dieron": 21,
+   "patas_prom": 4.2,
+   "hit_pata": 0.641
   }
  },
  "por_cuota_pata": {
   "< 1,30": {
-   "n": 190,
-   "hit": 0.753
+   "n": 203,
+   "hit": 0.749
   },
   "1,50–1,79": {
-   "n": 310,
-   "hit": 0.529
+   "n": 337,
+   "hit": 0.546
   },
   "1,30–1,49": {
-   "n": 129,
-   "hit": 0.744
+   "n": 134,
+   "hit": 0.754
   },
   "1,80 o más": {
-   "n": 91,
-   "hit": 0.473
+   "n": 95,
+   "hit": 0.495
   }
  },
  "causas": {
-  "sin_cumplir": 158,
-  "atipico": 197,
+  "sin_cumplir": 160,
+  "atipico": 213,
   "sin_datos": 154,
   "ambos": 4,
   "mediana": 4
@@ -2607,7 +2607,42 @@
    ]
   },
   {
-   "id": "S3077",
+   "id": "S3129",
+   "fuente": "sugerida",
+   "jornada": "2026-11-26",
+   "tipo": "combinada mismo partido",
+   "nombre": "Goles Menos 4.5 + Tiros al arco Menos 11.5",
+   "cuota": 1.5,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles Menos 4.5",
+     "ok": true,
+     "real": "2 (Sofascore /event/16945034 + /statisti",
+     "colchon_rel": 0.444,
+     "x10": 0.9,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Tiros al arco Menos 11.5",
+     "ok": false,
+     "real": "12 (Sofascore /event/16945034 + /statist",
+     "colchon_rel": 0.204,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco Menos 11.5",
+     "causa": "cumplía y tenía colchón (20 %) pero el partido salió atípico: real 12 (Sofascore /event/16945034 + /statist frente a esperado 9.15",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S3131",
    "fuente": "sugerida",
    "jornada": "2026-11-26",
    "tipo": "combinada mismo partido",
@@ -2642,7 +2677,7 @@
    ]
   },
   {
-   "id": "S3079",
+   "id": "S3133",
    "fuente": "sugerida",
    "jornada": "2026-11-26",
    "tipo": "combinada mismo partido",
@@ -2682,7 +2717,42 @@
    ]
   },
   {
-   "id": "S3082",
+   "id": "S3135",
+   "fuente": "sugerida",
+   "jornada": "2026-11-26",
+   "tipo": "combinada mismo partido",
+   "nombre": "Tarjetas local Más 1.5 + Córners Más 7.0",
+   "cuota": 1.55,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Tarjetas local Más 1.5",
+     "ok": true,
+     "real": "3 (Sofascore /event/16945713 + /statisti",
+     "colchon_rel": 2.633,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners Más 7.0",
+     "ok": false,
+     "real": "5 (Sofascore /event/16945713 + /statisti",
+     "colchon_rel": 0.521,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners Más 7.0",
+     "causa": "cumplía y tenía colchón (52 %) pero el partido salió atípico: real 5 (Sofascore /event/16945713 + /statisti frente a esperado 10.65",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S3136",
    "fuente": "sugerida",
    "jornada": "2026-11-26",
    "tipo": "combinada entre partidos",
@@ -2725,7 +2795,7 @@
    ]
   },
   {
-   "id": "S3087",
+   "id": "S3141",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2781,7 +2851,7 @@
    ]
   },
   {
-   "id": "S3088",
+   "id": "S3142",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2832,7 +2902,7 @@
    ]
   },
   {
-   "id": "S3090",
+   "id": "S3144",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2883,7 +2953,7 @@
    ]
   },
   {
-   "id": "S3091",
+   "id": "S3145",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2947,7 +3017,7 @@
    ]
   },
   {
-   "id": "S3092",
+   "id": "S3146",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -2995,7 +3065,7 @@
    ]
   },
   {
-   "id": "S3093",
+   "id": "S3147",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -3043,7 +3113,7 @@
    ]
   },
   {
-   "id": "S3094",
+   "id": "S3148",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -3094,7 +3164,7 @@
    ]
   },
   {
-   "id": "S3095",
+   "id": "S3149",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -3145,7 +3215,7 @@
    ]
   },
   {
-   "id": "S3096",
+   "id": "S3150",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -3196,7 +3266,7 @@
    ]
   },
   {
-   "id": "S3097",
+   "id": "S3151",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -3247,7 +3317,7 @@
    ]
   },
   {
-   "id": "S3098",
+   "id": "S3152",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -3298,7 +3368,7 @@
    ]
   },
   {
-   "id": "S3099",
+   "id": "S3153",
    "fuente": "BB Boost",
    "jornada": "2026-11-19",
    "tipo": "Bet Builder (BB Boost)",
@@ -3349,7 +3419,7 @@
    ]
   },
   {
-   "id": "S3102",
+   "id": "S3156",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3400,7 +3470,7 @@
    ]
   },
   {
-   "id": "S3103",
+   "id": "S3157",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3443,7 +3513,7 @@
    ]
   },
   {
-   "id": "S3105",
+   "id": "S3159",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3491,7 +3561,7 @@
    ]
   },
   {
-   "id": "S3106",
+   "id": "S3160",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3539,7 +3609,7 @@
    ]
   },
   {
-   "id": "S3107",
+   "id": "S3161",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3587,7 +3657,7 @@
    ]
   },
   {
-   "id": "S3108",
+   "id": "S3162",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3648,7 +3718,7 @@
    ]
   },
   {
-   "id": "S3109",
+   "id": "S3163",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3704,7 +3774,7 @@
    ]
   },
   {
-   "id": "S3110",
+   "id": "S3164",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3765,7 +3835,7 @@
    ]
   },
   {
-   "id": "S3111",
+   "id": "S3165",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3808,7 +3878,7 @@
    ]
   },
   {
-   "id": "S3112",
+   "id": "S3166",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3851,7 +3921,7 @@
    ]
   },
   {
-   "id": "S3113",
+   "id": "S3167",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3904,7 +3974,7 @@
    ]
   },
   {
-   "id": "S3114",
+   "id": "S3168",
    "fuente": "BB Boost",
    "jornada": "2026-11-20",
    "tipo": "Bet Builder (BB Boost)",
@@ -3952,7 +4022,7 @@
    ]
   },
   {
-   "id": "S3115",
+   "id": "S3169",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4000,7 +4070,7 @@
    ]
   },
   {
-   "id": "S3116",
+   "id": "S3170",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4048,7 +4118,7 @@
    ]
   },
   {
-   "id": "S3117",
+   "id": "S3171",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4091,7 +4161,7 @@
    ]
   },
   {
-   "id": "S3118",
+   "id": "S3172",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4134,7 +4204,7 @@
    ]
   },
   {
-   "id": "S3119",
+   "id": "S3173",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4177,7 +4247,7 @@
    ]
   },
   {
-   "id": "S3120",
+   "id": "S3174",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4220,7 +4290,7 @@
    ]
   },
   {
-   "id": "S3121",
+   "id": "S3175",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4268,7 +4338,7 @@
    ]
   },
   {
-   "id": "S3122",
+   "id": "S3176",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4316,7 +4386,7 @@
    ]
   },
   {
-   "id": "S3123",
+   "id": "S3177",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4359,7 +4429,7 @@
    ]
   },
   {
-   "id": "S3125",
+   "id": "S3179",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4407,7 +4477,7 @@
    ]
   },
   {
-   "id": "S3126",
+   "id": "S3180",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4450,7 +4520,7 @@
    ]
   },
   {
-   "id": "S3127",
+   "id": "S3181",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4493,7 +4563,7 @@
    ]
   },
   {
-   "id": "S3128",
+   "id": "S3182",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4536,7 +4606,7 @@
    ]
   },
   {
-   "id": "S3130",
+   "id": "S3184",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4579,7 +4649,7 @@
    ]
   },
   {
-   "id": "S3131",
+   "id": "S3185",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4622,7 +4692,7 @@
    ]
   },
   {
-   "id": "S3132",
+   "id": "S3186",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4670,7 +4740,7 @@
    ]
   },
   {
-   "id": "S3134",
+   "id": "S3188",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4713,7 +4783,7 @@
    ]
   },
   {
-   "id": "S3136",
+   "id": "S3190",
    "fuente": "BB Boost",
    "jornada": "2026-11-21",
    "tipo": "Bet Builder (BB Boost)",
@@ -4761,7 +4831,7 @@
    ]
   },
   {
-   "id": "S3137",
+   "id": "S3191",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -4814,7 +4884,7 @@
    ]
   },
   {
-   "id": "S3138",
+   "id": "S3192",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -4862,7 +4932,7 @@
    ]
   },
   {
-   "id": "S3139",
+   "id": "S3193",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -4923,7 +4993,7 @@
    ]
   },
   {
-   "id": "S3140",
+   "id": "S3194",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -4966,7 +5036,7 @@
    ]
   },
   {
-   "id": "S3142",
+   "id": "S3196",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -5022,7 +5092,7 @@
    ]
   },
   {
-   "id": "S3143",
+   "id": "S3197",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -5070,7 +5140,7 @@
    ]
   },
   {
-   "id": "S3144",
+   "id": "S3198",
    "fuente": "BB Boost",
    "jornada": "2026-11-22",
    "tipo": "Bet Builder (BB Boost)",
@@ -5121,7 +5191,7 @@
    ]
   },
   {
-   "id": "S3147",
+   "id": "S3201",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5187,7 +5257,7 @@
    ]
   },
   {
-   "id": "S3148",
+   "id": "S3202",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5253,7 +5323,7 @@
    ]
   },
   {
-   "id": "S3149",
+   "id": "S3203",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5314,7 +5384,7 @@
    ]
   },
   {
-   "id": "S3150",
+   "id": "S3204",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5362,7 +5432,7 @@
    ]
   },
   {
-   "id": "S3151",
+   "id": "S3205",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5423,7 +5493,7 @@
    ]
   },
   {
-   "id": "S3152",
+   "id": "S3206",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5489,7 +5559,7 @@
    ]
   },
   {
-   "id": "S3153",
+   "id": "S3207",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5550,7 +5620,7 @@
    ]
   },
   {
-   "id": "S3154",
+   "id": "S3208",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5616,7 +5686,7 @@
    ]
   },
   {
-   "id": "S3155",
+   "id": "S3209",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5669,7 +5739,7 @@
    ]
   },
   {
-   "id": "S3156",
+   "id": "S3210",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5730,7 +5800,7 @@
    ]
   },
   {
-   "id": "S3157",
+   "id": "S3211",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5783,7 +5853,7 @@
    ]
   },
   {
-   "id": "S3158",
+   "id": "S3212",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5849,7 +5919,7 @@
    ]
   },
   {
-   "id": "S3159",
+   "id": "S3213",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5902,7 +5972,7 @@
    ]
   },
   {
-   "id": "S3160",
+   "id": "S3214",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -5963,7 +6033,7 @@
    ]
   },
   {
-   "id": "S3161",
+   "id": "S3215",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6029,7 +6099,7 @@
    ]
   },
   {
-   "id": "S3162",
+   "id": "S3216",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6090,7 +6160,7 @@
    ]
   },
   {
-   "id": "S3163",
+   "id": "S3217",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6143,7 +6213,7 @@
    ]
   },
   {
-   "id": "S3164",
+   "id": "S3218",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6191,7 +6261,7 @@
    ]
   },
   {
-   "id": "S3166",
+   "id": "S3220",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6239,7 +6309,7 @@
    ]
   },
   {
-   "id": "S3167",
+   "id": "S3221",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6287,7 +6357,7 @@
    ]
   },
   {
-   "id": "S3168",
+   "id": "S3222",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6343,7 +6413,7 @@
    ]
   },
   {
-   "id": "S3169",
+   "id": "S3223",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6396,7 +6466,7 @@
    ]
   },
   {
-   "id": "S3170",
+   "id": "S3224",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6462,7 +6532,7 @@
    ]
   },
   {
-   "id": "S3171",
+   "id": "S3225",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6523,7 +6593,7 @@
    ]
   },
   {
-   "id": "S3172",
+   "id": "S3226",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6584,7 +6654,7 @@
    ]
   },
   {
-   "id": "S3173",
+   "id": "S3227",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6640,7 +6710,7 @@
    ]
   },
   {
-   "id": "S3174",
+   "id": "S3228",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6696,7 +6766,7 @@
    ]
   },
   {
-   "id": "S3175",
+   "id": "S3229",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6752,7 +6822,7 @@
    ]
   },
   {
-   "id": "S3176",
+   "id": "S3230",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6805,7 +6875,7 @@
    ]
   },
   {
-   "id": "S3177",
+   "id": "S3231",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6853,7 +6923,7 @@
    ]
   },
   {
-   "id": "S3178",
+   "id": "S3232",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6914,7 +6984,7 @@
    ]
   },
   {
-   "id": "S3179",
+   "id": "S3233",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -6975,7 +7045,7 @@
    ]
   },
   {
-   "id": "S3184",
+   "id": "S3238",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -7031,7 +7101,7 @@
    ]
   },
   {
-   "id": "S3185",
+   "id": "S3239",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -7079,7 +7149,7 @@
    ]
   },
   {
-   "id": "S3186",
+   "id": "S3240",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -7122,7 +7192,7 @@
    ]
   },
   {
-   "id": "S3187",
+   "id": "S3241",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -7170,7 +7240,7 @@
    ]
   },
   {
-   "id": "S3188",
+   "id": "S3242",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -7218,7 +7288,7 @@
    ]
   },
   {
-   "id": "S3189",
+   "id": "S3243",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -7284,7 +7354,7 @@
    ]
   },
   {
-   "id": "S3190",
+   "id": "S3244",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -7327,7 +7397,7 @@
    ]
   },
   {
-   "id": "S3191",
+   "id": "S3245",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -7378,7 +7448,7 @@
    ]
   },
   {
-   "id": "S3192",
+   "id": "S3246",
    "fuente": "BB Boost",
    "jornada": "2026-11-23",
    "tipo": "Bet Builder (BB Boost)",
@@ -7421,7 +7491,7 @@
    ]
   },
   {
-   "id": "S3193",
+   "id": "S3247",
    "fuente": "BB Boost",
    "jornada": "2026-11-24",
    "tipo": "Bet Builder (BB Boost)",
@@ -7469,7 +7539,7 @@
    ]
   },
   {
-   "id": "S3194",
+   "id": "S3248",
    "fuente": "BB Boost",
    "jornada": "2026-11-24",
    "tipo": "Bet Builder (BB Boost)",
@@ -7517,7 +7587,7 @@
    ]
   },
   {
-   "id": "S3195",
+   "id": "S3249",
    "fuente": "BB Boost",
    "jornada": "2026-11-24",
    "tipo": "Bet Builder (BB Boost)",
@@ -7573,7 +7643,7 @@
    ]
   },
   {
-   "id": "S3196",
+   "id": "S3250",
    "fuente": "BB Boost",
    "jornada": "2026-11-24",
    "tipo": "Bet Builder (BB Boost)",
@@ -7621,7 +7691,7 @@
    ]
   },
   {
-   "id": "S3201",
+   "id": "S3255",
    "fuente": "BB Boost",
    "jornada": "2026-11-25",
    "tipo": "Bet Builder (BB Boost)",
@@ -7664,7 +7734,7 @@
    ]
   },
   {
-   "id": "S3203",
+   "id": "S3257",
    "fuente": "BB Boost",
    "jornada": "2026-11-25",
    "tipo": "Bet Builder (BB Boost)",
@@ -7707,7 +7777,7 @@
    ]
   },
   {
-   "id": "S3204",
+   "id": "S3258",
    "fuente": "BB Boost",
    "jornada": "2026-11-25",
    "tipo": "Bet Builder (BB Boost)",
@@ -7750,7 +7820,7 @@
    ]
   },
   {
-   "id": "S3205",
+   "id": "S3259",
    "fuente": "BB Boost",
    "jornada": "2026-11-25",
    "tipo": "Bet Builder (BB Boost)",
@@ -7801,7 +7871,7 @@
    ]
   },
   {
-   "id": "S3206",
+   "id": "S3260",
    "fuente": "BB Boost",
    "jornada": "2026-11-25",
    "tipo": "Bet Builder (BB Boost)",
@@ -7857,7 +7927,7 @@
    ]
   },
   {
-   "id": "S3207",
+   "id": "S3261",
    "fuente": "BB Boost",
    "jornada": "2026-11-25",
    "tipo": "Bet Builder (BB Boost)",
@@ -7913,50 +7983,58 @@
    ]
   },
   {
-   "id": "S3212",
+   "id": "S3265",
    "fuente": "BB Boost",
    "jornada": "2026-11-26",
    "tipo": "Bet Builder (BB Boost)",
-   "nombre": "BB Boost PRINCIPAL 11:35 · por contexto (0 de 3 patas con 7 de 10 en ambos; en casa de Olympiacos 4 de 5 cada una) · Olympiacos Piraeus–AC Milan",
-   "cuota": 5.2,
-   "n_patas": 3,
+   "nombre": "BB Boost ALTERNATIVA 14:20 · 4 patas (más pago, menos probable) · Crystal Palace FC–Real Sociedad",
+   "cuota": 6.1,
+   "n_patas": 4,
    "patas_falladas": 1,
    "detalle": [
     {
-     "pata": "Más corners: Olympiacos Piraeus",
+     "pata": "Córners Más 8.5",
      "ok": true,
-     "real": "6-1 córners (Olympiacos)",
-     "colchon_rel": "",
-     "x10": "",
-     "cumple": ""
+     "real": "9 córners",
+     "colchon_rel": 0.3,
+     "x10": 0.7,
+     "cumple": "sí"
     },
     {
-     "pata": "Goles AC Milan Menos 1.5",
+     "pata": "Tarjetas Menos 5.5",
      "ok": false,
-     "real": "4 goles (visitante)",
-     "colchon_rel": 0.1,
-     "x10": 0.3,
+     "real": "9 puntos de tarjetas",
+     "colchon_rel": 0.118,
+     "x10": 0.6,
      "cumple": "no"
     },
     {
-     "pata": "Tarjetas Más 4.5",
+     "pata": "Remates Crystal Palace FC Menos 16.5",
      "ok": true,
-     "real": "5 puntos de tarjetas",
-     "colchon_rel": 0.067,
-     "x10": 0.5,
-     "cumple": "no"
+     "real": "16 remates (local)",
+     "colchon_rel": 0.239,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Faltas Crystal Palace FC Menos 13.5",
+     "ok": true,
+     "real": "10 faltas (local)",
+     "colchon_rel": 0.193,
+     "x10": 0.8,
+     "cumple": "sí"
     }
    ],
    "causas": [
     {
-     "pata": "Goles AC Milan Menos 1.5",
-     "causa": "no cumplía el 7 de 10 (0.3); era una pata que el filtro ya dudaba",
+     "pata": "Tarjetas Menos 5.5",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
      "tipo": "sin_cumplir"
     }
    ]
   },
   {
-   "id": "S3213",
+   "id": "S3269",
    "fuente": "BB Boost",
    "jornada": "2026-11-26",
    "tipo": "Bet Builder (BB Boost)",
@@ -7999,7 +8077,7 @@
    ]
   },
   {
-   "id": "S3215",
+   "id": "S3271",
    "fuente": "BB Boost",
    "jornada": "2026-11-26",
    "tipo": "Bet Builder (BB Boost)",
@@ -8042,7 +8120,7 @@
    ]
   },
   {
-   "id": "S3217",
+   "id": "S3273",
    "fuente": "Misión",
    "jornada": "2026-11-19",
    "tipo": "Misión 1 · Bet Builder",
@@ -8090,7 +8168,7 @@
    ]
   },
   {
-   "id": "S3218",
+   "id": "S3274",
    "fuente": "Misión",
    "jornada": "2026-11-19",
    "tipo": "Misión 1 · Bet Builder",
@@ -8133,7 +8211,7 @@
    ]
   },
   {
-   "id": "S3224",
+   "id": "S3280",
    "fuente": "Misión",
    "jornada": "2026-11-26",
    "tipo": "Misión 1 · Bet Builder",
@@ -8176,7 +8254,7 @@
    ]
   },
   {
-   "id": "S3225",
+   "id": "S3281",
    "fuente": "Misión",
    "jornada": "2026-11-26",
    "tipo": "Misión 1 · Bet Builder",
@@ -8227,7 +8305,7 @@
    ]
   },
   {
-   "id": "S3232",
+   "id": "S3288",
    "fuente": "sugerida",
    "jornada": "2026-11-20",
    "tipo": "combinada entre partidos",
@@ -8262,7 +8340,7 @@
    ]
   },
   {
-   "id": "S3236",
+   "id": "S3292",
    "fuente": "sugerida",
    "jornada": "2026-11-20",
    "tipo": "combinada entre partidos",
@@ -8297,7 +8375,7 @@
    ]
   },
   {
-   "id": "S3237",
+   "id": "S3293",
    "fuente": "sugerida",
    "jornada": "2026-11-20",
    "tipo": "combinada entre partidos",
@@ -8332,7 +8410,7 @@
    ]
   },
   {
-   "id": "S3241",
+   "id": "S3297",
    "fuente": "sugerida",
    "jornada": "2026-11-20",
    "tipo": "combinada entre partidos",
@@ -8375,7 +8453,7 @@
    ]
   },
   {
-   "id": "S3242",
+   "id": "S3298",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -8410,7 +8488,7 @@
    ]
   },
   {
-   "id": "S3243",
+   "id": "S3299",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -8450,7 +8528,7 @@
    ]
   },
   {
-   "id": "S3244",
+   "id": "S3300",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -8490,7 +8568,7 @@
    ]
   },
   {
-   "id": "S3245",
+   "id": "S3301",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -8525,7 +8603,7 @@
    ]
   },
   {
-   "id": "S3246",
+   "id": "S3302",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -8573,7 +8651,7 @@
    ]
   },
   {
-   "id": "S3247",
+   "id": "S3303",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -8616,7 +8694,7 @@
    ]
   },
   {
-   "id": "S3248",
+   "id": "S3304",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -8664,7 +8742,7 @@
    ]
   },
   {
-   "id": "S3249",
+   "id": "S3305",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -8725,7 +8803,7 @@
    ]
   },
   {
-   "id": "S3251",
+   "id": "S3307",
    "fuente": "sugerida",
    "jornada": "2026-11-21",
    "tipo": "combinada entre partidos",
@@ -8760,7 +8838,7 @@
    ]
   },
   {
-   "id": "S3253",
+   "id": "S3309",
    "fuente": "sugerida",
    "jornada": "2026-11-23",
    "tipo": "combinada entre partidos",
@@ -8795,7 +8873,7 @@
    ]
   },
   {
-   "id": "S3256",
+   "id": "S3312",
    "fuente": "sugerida",
    "jornada": "2026-11-23",
    "tipo": "combinada entre partidos",
@@ -8838,7 +8916,7 @@
    ]
   },
   {
-   "id": "S3257",
+   "id": "S3313",
    "fuente": "sugerida",
    "jornada": "2026-11-24",
    "tipo": "combinada entre partidos",
@@ -8886,7 +8964,7 @@
    ]
   },
   {
-   "id": "S3258",
+   "id": "S3314",
    "fuente": "sugerida",
    "jornada": "2026-11-24",
    "tipo": "combinada entre partidos",
@@ -8942,7 +9020,7 @@
    ]
   },
   {
-   "id": "S3259",
+   "id": "S3315",
    "fuente": "sugerida",
    "jornada": "2026-11-24",
    "tipo": "combinada entre partidos",
@@ -8977,7 +9055,7 @@
    ]
   },
   {
-   "id": "S3262",
+   "id": "S3318",
    "fuente": "sugerida",
    "jornada": "2026-11-24",
    "tipo": "combinada entre partidos",
@@ -9020,7 +9098,7 @@
    ]
   },
   {
-   "id": "S3263",
+   "id": "S3319",
    "fuente": "sugerida",
    "jornada": "2026-11-25",
    "tipo": "combinada entre partidos",
@@ -9105,7 +9183,7 @@
    ]
   },
   {
-   "id": "S3265",
+   "id": "S3321",
    "fuente": "sugerida",
    "jornada": "2026-11-25",
    "tipo": "combinada entre partidos",
@@ -9140,7 +9218,7 @@
    ]
   },
   {
-   "id": "S3266",
+   "id": "S3322",
    "fuente": "sugerida",
    "jornada": "2026-11-25",
    "tipo": "combinada entre partidos",
@@ -9175,7 +9253,7 @@
    ]
   },
   {
-   "id": "S3267",
+   "id": "S3323",
    "fuente": "sugerida",
    "jornada": "2026-11-25",
    "tipo": "combinada entre partidos",
@@ -9210,7 +9288,7 @@
    ]
   },
   {
-   "id": "S3268",
+   "id": "S3324",
    "fuente": "sugerida",
    "jornada": "2026-11-25",
    "tipo": "combinada entre partidos",
@@ -9253,7 +9331,7 @@
    ]
   },
   {
-   "id": "S3269",
+   "id": "S3325",
    "fuente": "sugerida",
    "jornada": "2026-11-25",
    "tipo": "combinada entre partidos",
@@ -9301,7 +9379,7 @@
    ]
   },
   {
-   "id": "S3270",
+   "id": "S3326",
    "fuente": "sugerida",
    "jornada": "2026-11-25",
    "tipo": "combinada entre partidos",
@@ -9344,7 +9422,79 @@
    ]
   },
   {
-   "id": "S3272",
+   "id": "S3327",
+   "fuente": "sugerida",
+   "jornada": "2026-11-26",
+   "tipo": "combinada entre partidos",
+   "nombre": "C1 · combinada entre partidos (6 patas, una por partido)",
+   "cuota": 3.65,
+   "n_patas": 6,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "AFC Ajax–FC Thun: Goles total Más 2.5",
+     "ok": true,
+     "real": "4 goles",
+     "colchon_rel": 0.9,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "FC Viktoria Plzen–SL Benfica: Córners total Más 7.5",
+     "ok": true,
+     "real": "14 córners",
+     "colchon_rel": 0.44,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Besiktas JK–Hapoel Beer Sheva: Córners total Menos 11.5",
+     "ok": false,
+     "real": "15 córners",
+     "colchon_rel": 0.296,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Heart of Midlothian–AS Mónaco: Córners total Menos 12.5",
+     "ok": true,
+     "real": "11 córners",
+     "colchon_rel": 0.244,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Brighton–Universitatea Craiova: Córners total Menos 12.5",
+     "ok": true,
+     "real": "9 córners",
+     "colchon_rel": 0.288,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "RC Celta de Vigo–AFC Bournemouth: Tarjetas total Menos 6.5",
+     "ok": false,
+     "real": "7 puntos de tarjetas",
+     "colchon_rel": 0.315,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Besiktas JK–Hapoel Beer Sheva: Córners total Menos 11.5",
+     "causa": "cumplía y tenía colchón (30 %) pero el partido salió atípico: real 15 córners frente a esperado 8.1",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "RC Celta de Vigo–AFC Bournemouth: Tarjetas total Menos 6.5",
+     "causa": "cumplía y tenía colchón (32 %) pero el partido salió atípico: real 7 puntos de tarjetas frente a esperado 4.45",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S3328",
    "fuente": "sugerida",
    "jornada": "2026-11-26",
    "tipo": "combinada entre partidos",
@@ -9403,7 +9553,7 @@
    ]
   },
   {
-   "id": "S3273",
+   "id": "S3329",
    "fuente": "sugerida",
    "jornada": "2026-11-26",
    "tipo": "combinada entre partidos",
@@ -9467,7 +9617,77 @@
    ]
   },
   {
-   "id": "S3277",
+   "id": "S3330",
+   "fuente": "sugerida",
+   "jornada": "2026-11-26",
+   "tipo": "combinada entre partidos",
+   "nombre": "D1 · combinada",
+   "cuota": 2.28,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "SK Brann–Aarhus GF: Tiros al arco total Más 8.5",
+     "ok": true,
+     "real": "9 tiros al arco",
+     "colchon_rel": 0.224,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "KAA Gent–Red Star de Belgrado: Tiros al arco total Más 7.5",
+     "ok": false,
+     "real": "6 tiros al arco",
+     "colchon_rel": 0.26,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "KAA Gent–Red Star de Belgrado: Tiros al arco total Más 7.5",
+     "causa": "cumplía y tenía colchón (26 %) pero el partido salió atípico: real 6 tiros al arco frente a esperado 9.45",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S3332",
+   "fuente": "sugerida",
+   "jornada": "2026-11-26",
+   "tipo": "combinada entre partidos",
+   "nombre": "D3 · combinada",
+   "cuota": 2.29,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "SC Friburgo–FC Twente Enschede: Tiros al arco total Menos 10.5",
+     "ok": true,
+     "real": "9 tiros al arco",
+     "colchon_rel": 0.148,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "TSG 1899 Hoffenheim–SK Sturm Graz: Córners Hoffenheim Menos 7.5",
+     "ok": false,
+     "real": "10 córners (local)",
+     "colchon_rel": -0.453,
+     "x10": 0.0,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "TSG 1899 Hoffenheim–SK Sturm Graz: Córners Hoffenheim Menos 7.5",
+     "causa": "no cumplía el 7 de 10 (0.0); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "S3333",
    "fuente": "sugerida",
    "jornada": "2026-11-26",
    "tipo": "combinada entre partidos",
@@ -9502,7 +9722,168 @@
    ]
   },
   {
-   "id": "S3346",
+   "id": "S3334",
+   "fuente": "sugerida",
+   "jornada": "2026-11-26",
+   "tipo": "combinada entre partidos",
+   "nombre": "A1 · cuota ≥ 3,50 (3 patas)",
+   "cuota": 3.83,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "TSG 1899 Hoffenheim–SK Sturm Graz: Tarjetas total Más 3.5",
+     "ok": false,
+     "real": "3 puntos de tarjetas",
+     "colchon_rel": 0.571,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Borac Banja Luka–Atalanta: Córners total Más 8.5",
+     "ok": true,
+     "real": "10 córners",
+     "colchon_rel": 0.259,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "NEC Nijmegen–Stade Rennais FC: Faltas total Menos 27.5",
+     "ok": false,
+     "real": "29 faltas",
+     "colchon_rel": 0.147,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "TSG 1899 Hoffenheim–SK Sturm Graz: Tarjetas total Más 3.5",
+     "causa": "cumplía y tenía colchón (57 %) pero el partido salió atípico: real 3 puntos de tarjetas frente a esperado 5.5",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "NEC Nijmegen–Stade Rennais FC: Faltas total Menos 27.5",
+     "causa": "cumplía y tenía colchón (15 %) pero el partido salió atípico: real 29 faltas frente a esperado 23.45",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S3335",
+   "fuente": "sugerida",
+   "jornada": "2026-11-26",
+   "tipo": "combinada entre partidos",
+   "nombre": "A2 · cuota ≥ 3,50 (3 patas)",
+   "cuota": 4.19,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "SC Braga–Kuopio PS: Goles total Menos 3.5",
+     "ok": false,
+     "real": "4 goles",
+     "colchon_rel": 0.3,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Ferencvarosi TC–NK Celje: Tarjetas total Menos 4.5",
+     "ok": true,
+     "real": "1 puntos de tarjetas",
+     "colchon_rel": 0.189,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Sunderland–Jagiellonia Bialystok: Córners Jagiellonia Más 2.5",
+     "ok": true,
+     "real": "3 córners (visitante)",
+     "colchon_rel": 2.78,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "SC Braga–Kuopio PS: Goles total Menos 3.5",
+     "causa": "cumplía y tenía colchón (30 %) pero el partido salió atípico: real 4 goles frente a esperado 2.45",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S3338",
+   "fuente": "sugerida",
+   "jornada": "2026-11-26",
+   "tipo": "combinada entre partidos",
+   "nombre": "B2 · patas ≥ 1,50 (doble)",
+   "cuota": 2.66,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Juventus FC–AC Omonia Nicosia: Remates Juventus Menos 20.5",
+     "ok": false,
+     "real": "23 remates (local)",
+     "colchon_rel": -0.307,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Nordsjaelland–Panathinaikos: Fueras de juego Panathinaikos Menos 3.5",
+     "ok": true,
+     "real": "1 fueras de juego (visitante)",
+     "colchon_rel": 0.471,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Juventus FC–AC Omonia Nicosia: Remates Juventus Menos 20.5",
+     "causa": "cumplía y tenía colchón (-31 %) pero el partido salió atípico: real 23 remates (local) frente a esperado 26.8",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S3339",
+   "fuente": "sugerida",
+   "jornada": "2026-11-26",
+   "tipo": "combinada entre partidos",
+   "nombre": "B3 · patas ≥ 1,50 (doble)",
+   "cuota": 2.29,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "OFI Creta–RSC Anderlecht: Remates total Menos 28.5",
+     "ok": true,
+     "real": "23 remates",
+     "colchon_rel": 0.056,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Ferencvarosi TC–NK Celje: Fueras de juego total Menos 3.5",
+     "ok": false,
+     "real": "4 fueras de juego",
+     "colchon_rel": 0.157,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Ferencvarosi TC–NK Celje: Fueras de juego total Menos 3.5",
+     "causa": "cumplía y tenía colchón (16 %) pero el partido salió atípico: real 4 fueras de juego frente a esperado 2.95",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "S3402",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -9553,7 +9934,7 @@
    ]
   },
   {
-   "id": "S3347",
+   "id": "S3403",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -9596,7 +9977,7 @@
    ]
   },
   {
-   "id": "S3349",
+   "id": "S3405",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -9639,7 +10020,7 @@
    ]
   },
   {
-   "id": "S3350",
+   "id": "S3406",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada entre partidos",
@@ -9682,7 +10063,7 @@
    ]
   },
   {
-   "id": "S3352",
+   "id": "S3408",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada mismo partido",
@@ -9730,7 +10111,7 @@
    ]
   },
   {
-   "id": "S3353",
+   "id": "S3409",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada mismo partido",
@@ -9773,7 +10154,7 @@
    ]
   },
   {
-   "id": "S3354",
+   "id": "S3410",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "combinada mismo partido",
@@ -9816,7 +10197,7 @@
    ]
   },
   {
-   "id": "S3362",
+   "id": "S3418",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "Bet Builder",
@@ -9859,7 +10240,7 @@
    ]
   },
   {
-   "id": "S3363",
+   "id": "S3419",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "Bet Builder",
@@ -9902,7 +10283,7 @@
    ]
   },
   {
-   "id": "S3364",
+   "id": "S3420",
    "fuente": "sugerida",
    "jornada": "2026-11-15",
    "tipo": "Bet Builder",
@@ -15308,6 +15689,237 @@
      "tipo": "atipico"
     }
    ]
+  },
+  {
+   "id": "boleto 183",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-26",
+   "tipo": "Doble (D1 enviada 12:40)",
+   "nombre": "",
+   "cuota": 2.28,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "SK Brann… Tiros al arco total Más 8.5",
+     "ok": true,
+     "real": "9 tiros al arco",
+     "colchon_rel": -0.324,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "KAA Gent… Tiros al arco total Más 7.5",
+     "ok": false,
+     "real": "6 tiros al arco",
+     "colchon_rel": -0.493,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "KAA Gent… Tiros al arco total Más 7.5",
+     "causa": "cumplía y tenía colchón (-49 %) pero el partido salió atípico: real 6 tiros al arco frente a esperado 3.8",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 185",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-26",
+   "tipo": "Doble (D3 enviada 12:40)",
+   "nombre": "",
+   "cuota": 2.29,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "SC Friburgo… Tiros al arco total Menos 10.5",
+     "ok": true,
+     "real": "9 tiros al arco",
+     "colchon_rel": 0.676,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "TSG 1899 Hoffenheim… Córners Hoffenheim Menos 7.5",
+     "ok": false,
+     "real": "10 córners (local)",
+     "colchon_rel": 0.313,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "TSG 1899 Hoffenheim… Córners Hoffenheim Menos 7.5",
+     "causa": "cumplía y tenía colchón (31 %) pero el partido salió atípico: real 10 córners (local) frente a esperado 5.15",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 189",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-26",
+   "tipo": "Doble (B2 enviada 14:20)",
+   "nombre": "",
+   "cuota": 2.66,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Juventus FC… Remates Juventus Menos 20.5",
+     "ok": false,
+     "real": "23 remates (local)",
+     "colchon_rel": 0.346,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Nordsjaelland… Fueras de juego Panathinaikos Menos 3.5",
+     "ok": true,
+     "real": "1 fueras de juego (visitante)",
+     "colchon_rel": 0.471,
+     "x10": 0.8,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Juventus FC… Remates Juventus Menos 20.5",
+     "causa": "cumplía y tenía colchón (35 %) pero el partido salió atípico: real 23 remates (local) frente a esperado 13.4",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 190",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-26",
+   "tipo": "Combinada de 3 (A1 enviada 14:20)",
+   "nombre": "",
+   "cuota": 3.83,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "TSG 1899 Hoffenheim… Tarjetas total Más 3.5",
+     "ok": false,
+     "real": "3 puntos de tarjetas",
+     "colchon_rel": -0.186,
+     "x10": 0.1,
+     "cumple": "no"
+    },
+    {
+     "pata": "Borac Banja Luka… Córners total Más 8.5",
+     "ok": true,
+     "real": "10 córners",
+     "colchon_rel": -0.28,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "NEC Nijmegen… Faltas total Menos 27.5",
+     "ok": false,
+     "real": "29 faltas",
+     "colchon_rel": 0.576,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "TSG 1899 Hoffenheim… Tarjetas total Más 3.5",
+     "causa": "no cumplía el 7 de 10 (0.1); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    },
+    {
+     "pata": "NEC Nijmegen… Faltas total Menos 27.5",
+     "causa": "cumplía y tenía colchón (58 %) pero el partido salió atípico: real 29 faltas frente a esperado 11.65",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 192",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-26",
+   "tipo": "Combinada de 3 (A2 enviada 14:20)",
+   "nombre": "",
+   "cuota": 4.19,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "SC Braga… Goles total Menos 3.5",
+     "ok": false,
+     "real": "4 goles",
+     "colchon_rel": 0.6,
+     "x10": 0.9,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Ferencvarosi TC… Tarjetas total Menos 4.5",
+     "ok": true,
+     "real": "1 puntos de tarjetas",
+     "colchon_rel": 0.589,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Sunderland… Córners Jagiellonia Más 2.5",
+     "ok": true,
+     "real": "3 córners (visitante)",
+     "colchon_rel": 2.78,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "SC Braga… Goles total Menos 3.5",
+     "causa": "cumplía y tenía colchón (60 %) pero el partido salió atípico: real 4 goles frente a esperado 1.4",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 193",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-26",
+   "tipo": "Doble (B3 enviada 14:20)",
+   "nombre": "",
+   "cuota": 2.29,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "OFI Creta… Remates total Menos 28.5",
+     "ok": true,
+     "real": "23 remates",
+     "colchon_rel": 0.637,
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Ferencvarosi TC… Fueras de juego total Menos 3.5",
+     "ok": false,
+     "real": "4 fueras de juego",
+     "colchon_rel": 0.543,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Ferencvarosi TC… Fueras de juego total Menos 3.5",
+     "causa": "cumplía y tenía colchón (54 %) pero el partido salió atípico: real 4 fueras de juego frente a esperado 1.6",
+     "tipo": "atipico"
+    }
+   ]
   }
  ],
  "reglas": [
@@ -15315,19 +15927,19 @@
    "id": "pata_mediana",
    "texto": "En una combinada, evitar la pata con colchón < 10 % de la línea (la «pata en la mediana»): es la que más se cae.",
    "umbral_colchon_rel": 0.1,
-   "n_baja": 156,
-   "hit_baja": 0.699,
-   "n_alta": 803,
-   "hit_alta": 0.606,
+   "n_baja": 170,
+   "hit_baja": 0.7,
+   "n_alta": 860,
+   "hit_alta": 0.615,
    "estado": "en observación"
   },
   {
    "id": "pata_sin_cumplir",
    "texto": "En una combinada, todas las patas deben cumplir el 7 de 10 en ambos equipos.",
-   "n_no": 309,
-   "hit_no": 0.472,
-   "n_si": 606,
-   "hit_si": 0.693,
+   "n_no": 317,
+   "hit_no": 0.479,
+   "n_si": 654,
+   "hit_si": 0.697,
    "estado": "activa"
   },
   {
@@ -15340,18 +15952,18 @@
   {
    "id": "patas_max",
    "texto": "Máximo 2 patas por combinada (3 solo como lotería de stake mínimo); 4 o más patas casi nunca se dan.",
-   "n_4mas": 128,
-   "hit_4mas": 0.102,
-   "hit_2": 0.539,
-   "hit_3": 0.277,
+   "n_4mas": 130,
+   "hit_4mas": 0.1,
+   "hit_2": 0.527,
+   "hit_3": 0.297,
    "estado": "activa"
   }
  ],
  "lecciones": [
-  "429 combinadas calificadas (las que te envié y las que jugaste): 130 se dieron (30 %). 153 de 299 perdidas (51 %) cayeron por una sola pata.",
-  "Tamaño: 2 patas se dieron 69 de 128, 3 patas 48 de 173, 4 o más 13 de 128. Cada pata extra pesa más de lo que parece.",
-  "La pata de menor colchón cayó 29 veces de 81 (por azar se esperarían ≈ 31.0): el colchón no predice cuál pata se cae.",
-  "Patas que cumplían el 7 de 10 se dieron 69 % (n 606) frente a 47 % de las que no (n 309): esta sí separa.",
-  "De las patas caídas con dato previo, 197 de 363 cumplían y tenían colchón: el partido salió fuera de lo normal (varianza), no fue una mala elección; 158 no cumplían el 7 de 10 y 4 estaban en la mediana."
+  "458 combinadas calificadas (las que te envié y las que jugaste): 144 se dieron (31 %). 165 de 314 perdidas (52 %) cayeron por una sola pata.",
+  "Tamaño: 2 patas se dieron 77 de 146, 3 patas 54 de 182, 4 o más 13 de 130. Cada pata extra pesa más de lo que parece.",
+  "La pata de menor colchón cayó 38 veces de 94 (por azar se esperarían ≈ 36.9): el colchón no predice cuál pata se cae.",
+  "Patas que cumplían el 7 de 10 se dieron 70 % (n 654) frente a 48 % de las que no (n 317): esta sí separa.",
+  "De las patas caídas con dato previo, 213 de 381 cumplían y tenían colchón: el partido salió fuera de lo normal (varianza), no fue una mala elección; 160 no cumplían el 7 de 10 y 4 estaban en la mediana."
  ]
 }

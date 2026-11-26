@@ -464,3 +464,8 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 
 ## 26-nov-2026 17:25 · BB Boost São Paulo–Remo
 - Onces oficiales 17:11; Betano subió los remates de Remo tras los onces. PRINCIPAL 5,70 (Tarjetas Más 4.5 + Remates Remo Más 8.5 + Córners Remo Más 3.5; 2 de 3 cumplen); alternativa 5,20. bb/bb_boost_resumen.json de la noche.
+
+## 26-nov-2026 18:00 · Balance completo del 26-nov
+- 36 de 36 partidos terminados (Sofascore). 16 boletos: 5 ganados, apostado $260.000, cobrado $423.000, **neto +$163.000**; los 3 BB +$225.000 (Palace BB Boost 5,40 → $227.500), combinadas entre partidos −$62.000 (5–6 patas 0 de 3). Histórico desde el 4-nov: 193 boletos, **neto +$25.752 (ROI +0,8 %)**.
+- Tus patas 35 de 49 (71 %); 9 de 14 caídas por 1–2 unidades. Líneas que cumplen: 82,6 %; modelo calibrado en equipo. Guion 42 de 57. Combinadas enviadas 8 de 18; sencillas sugeridas 365 de 486.
+- Los 10 boletos de la tarde se liquidaron por cálculo (Betano cerró la sesión del navegador). Líneas de jugador sin calificar.

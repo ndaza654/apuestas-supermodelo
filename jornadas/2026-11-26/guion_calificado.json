@@ -7,24 +7,34 @@
     {
      "tipo": "mas_remates",
      "equipo": "local",
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "28-9"
     },
     {
      "tipo": "gana",
      "equipo": "local",
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "2-1"
     },
     {
      "tipo": "goles_menos",
      "linea": 4.5,
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "3"
     }
    ],
-   "domina": null,
-   "ritmo": null
+   "domina": {
+    "pedido": "local",
+    "real": "local",
+    "remates": "28-9",
+    "resultado": "cumplió"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "abierto",
+    "goles": 3,
+    "resultado": "falló"
+   }
   },
   "brighton-hove-albion-universitatea-craiova": {
    "resumen": "Brighton (7 pts, 5:0) domina en casa a Craiova (7 pts); sin goleada (Menos 4,5 en 8 y 8 de 10).",
@@ -195,30 +205,40 @@
     {
      "tipo": "mas_remates",
      "equipo": "local",
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "23-13"
     },
     {
      "tipo": "gana",
      "equipo": "local",
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "4-1"
     },
     {
      "tipo": "corners_mas",
      "linea": 7.0,
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "8"
     },
     {
      "tipo": "goles_menos",
      "linea": 4.5,
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "falló",
+     "valor_real": "5"
     }
    ],
-   "domina": null,
-   "ritmo": null
+   "domina": {
+    "pedido": "local",
+    "real": "local",
+    "remates": "23-13",
+    "resultado": "cumplió"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "abierto",
+    "goles": 5,
+    "resultado": "falló"
+   }
   },
   "olympiacos-piraeus-ac-milan": {
    "resumen": "Olympiacos (10 pts, 4:1) en casa contra un Milan de 3 pts: Olympiacos remata más; Milan limitado (remates Menos 14,5 en 9 y 7 de 10). Kavanagh saca 5,5 tarjetas: no ir a tarjetas Menos.",
@@ -255,24 +275,34 @@
     {
      "tipo": "tarjetas_menos_que",
      "linea": 5.5,
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "4"
     },
     {
      "tipo": "goles_menos",
      "linea": 4.5,
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "0"
     },
     {
      "tipo": "gana",
      "equipo": "local",
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "falló",
+     "valor_real": "0-0"
     }
    ],
-   "domina": null,
-   "ritmo": null
+   "domina": {
+    "pedido": "local",
+    "real": "local",
+    "remates": "22-10",
+    "resultado": "cumplió"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "cerrado",
+    "goles": 0,
+    "resultado": "cumplió"
+   }
   },
   "sc-braga-kuopio-ps": {
    "resumen": "Braga (4 pts) en casa contra KuPS (1 pt): Braga domina, poco gol (Menos 4,5 en 9 y 9 de 10), árbitro de 3,5 tarjetas.",
@@ -280,30 +310,40 @@
     {
      "tipo": "mas_remates",
      "equipo": "local",
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "23-4"
     },
     {
      "tipo": "no_pierde",
      "equipo": "local",
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "4-0"
     },
     {
      "tipo": "goles_menos",
      "linea": 4.5,
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "4"
     },
     {
      "tipo": "corners_mas",
      "linea": 7.0,
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "10"
     }
    ],
-   "domina": null,
-   "ritmo": null
+   "domina": {
+    "pedido": "local",
+    "real": "local",
+    "remates": "23-4",
+    "resultado": "cumplió"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "abierto",
+    "goles": 4,
+    "resultado": "falló"
+   }
   },
   "sc-friburgo-fc-twente-enschede": {
    "resumen": "Twente llega 3 de 3 (8:2) y Friburgo 6 pts: partido parejo; Friburgo marca poco (Menos 2,5 en 8 y 10 de 10).",
@@ -311,18 +351,28 @@
     {
      "tipo": "no_pierde",
      "equipo": "visitante",
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "falló",
+     "valor_real": "2-1"
     },
     {
      "tipo": "tarjetas_mas_que",
      "linea": 2.5,
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "7"
     }
    ],
-   "domina": null,
-   "ritmo": null
+   "domina": {
+    "pedido": "parejo",
+    "real": "local",
+    "remates": "15-10",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "abierto",
+    "goles": 3,
+    "resultado": "falló"
+   }
   },
   "tsg-1899-hoffenheim-sk-sturm-graz": {
    "resumen": "Hoffenheim y Sturm con 4 pts: Hoffenheim en casa empuja y suma córners (Más 8 en 9 y 7 de 10).",
@@ -330,23 +380,33 @@
     {
      "tipo": "mas_corners",
      "equipo": "local",
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "10-4"
     },
     {
      "tipo": "corners_mas",
      "linea": 8.0,
-     "resultado": "sin resultado",
-     "valor_real": ""
+     "resultado": "cumplió",
+     "valor_real": "14"
     }
    ],
-   "domina": null,
-   "ritmo": null
+   "domina": {
+    "pedido": "local",
+    "real": "local",
+    "remates": "24-12",
+    "resultado": "cumplió"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "abierto",
+    "goles": 4,
+    "resultado": "cumplió"
+   }
   }
  },
  "resumen": {
-  "cumplió": 20,
-  "falló": 7,
-  "sin resultado": 18
+  "cumplió": 42,
+  "falló": 15,
+  "sin resultado": 0
  }
 }

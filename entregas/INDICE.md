@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-26 | 18:00 | Balance COMPLETO del 26-nov (16 boletos, neto +$163.000; histórico +$25.752) | 36 partidos | entregas/2026-11-26/1800_balance_26nov.md (+ .html) |
 | 2026-11-26 | 17:25 | BB Boost São Paulo–Remo (principal 5,70; alternativa 5,20) | São Paulo–Remo | entregas/2026-11-26/1725_bb_boost_saopaulo_remo.md |
 | 2026-11-26 | 16:50 | Recolección de datos de los 4 partidos de la noche (Betano, Sofascore, árbitros, contexto, guion) | São Paulo–Remo, Pachuca–Chivas, Montevideo City–Nacional, León–Cruz Azul | entregas/2026-11-26/1650_recoleccion_noche.md |
 | 2026-11-26 | 15:55 | Pasada en vivo de las 15:00 (estado de los boletos abiertos, sin recomendación en vivo) | 18 partidos de las 15:00 | entregas/2026-11-26/1555_pasada_vivo_1500.md |
