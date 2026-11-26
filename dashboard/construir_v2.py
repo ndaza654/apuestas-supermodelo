@@ -8,7 +8,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
 import datos
 
-SRC = ['core.js', 'charts.js', 'ui.js', 'pag_inicio.js', 'pag_partido.js', 'pag_estrategia.js', 'pag_cupon.js', 'pag_bb.js', 'pag_aprender.js', 'pag_historico.js', 'pag_datos.js', 'pag_backtest.js', 'app.js']
+SRC = ['core.js', 'charts.js', 'ui.js', 'pag_inicio.js', 'pag_partido.js', 'pag_estrategia.js', 'pag_cupon.js', 'pag_bb.js', 'pag_pronosticos.js', 'pag_aprender.js', 'pag_historico.js', 'pag_datos.js', 'pag_backtest.js', 'app.js']
 
 
 def extras(d):
@@ -43,6 +43,21 @@ def extras(d):
         fm = os.path.join(datos.RAIZ, 'jornadas', j, 'misiones', 'misiones.json')
         if os.path.exists(fm):
             MIS[j] = json.load(open(fm, encoding='utf8'))
+    PRON = {}
+    for fdir in sorted(glob.glob(os.path.join(datos.RAIZ, 'jornadas', '*'))):
+        j = os.path.basename(fdir)
+        ent = {'previas': [], 'noticias': [], 'lista': None}
+        for f in sorted(glob.glob(os.path.join(fdir, 'previas_flashscore', '*.json'))):
+            x = json.load(open(f, encoding='utf8'))
+            if os.path.basename(f).startswith('_'):
+                ent['lista'] = x
+            else:
+                ent['previas'].append(x)
+        for f in sorted(glob.glob(os.path.join(fdir, 'noticias', '*.json'))):
+            ent['noticias'].append(json.load(open(f, encoding='utf8')))
+        if ent['previas'] or ent['noticias'] or ent['lista']:
+            PRON[j] = ent
+    d['PRON'] = PRON
     d.update({'AN': AN, 'XI': XI, 'EST': EST, 'BB': BB, 'MIS': MIS})
     fca = os.path.join(datos.RAIZ, 'registro', 'aprendizaje_combos.json')
     d['CA'] = json.load(open(fca, encoding='utf8')) if os.path.exists(fca) else None

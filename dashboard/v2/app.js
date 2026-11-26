@@ -10,7 +10,7 @@ function chrome(){const r=route(),pg=r.pg==='partido'?'partidos':r.pg;
  $('#topcup').innerHTML=`${ic('ticket')} Cupón ${ST.cup.length?`<b class="num">${ST.cup.length}</b>`:''}`}
 function render(keep){const r=route(),ae=document.activeElement,fb=ae&&ae.dataset&&ae.dataset.bind,ss=fb?ae.selectionStart:null,sy=scrollY;
  try{$('#main').innerHTML=PAGES[r.pg].render(r.arg)}catch(e){$('#main').innerHTML=`<div class="card"><div class="empty">No se pudo mostrar esta página (${esc(e.message)}). <a href="#/inicio">Volver al inicio</a></div></div>`;console.error(e)}
- chrome();document.title=({inicio:'Inicio',partidos:'Partidos',partido:'Partido',estrategia:'Mi estrategia',cupon:'Cupón',bb:'BB Boost',lineas:'Líneas',jugadores:'Jugadores',backtest:'Backtest histórico',apuestas:'Mis apuestas',aprender:'Qué funciona',enviadas:'Lo que te envié',datos:'Datos',docs:'Documentos'}[r.pg]||'Mando')+' · Mando';
+ chrome();document.title=({inicio:'Inicio',partidos:'Partidos',partido:'Partido',estrategia:'Mi estrategia',cupon:'Cupón',bb:'BB Boost',lineas:'Líneas',jugadores:'Jugadores',pronosticos:'Pronósticos Flashscore',backtest:'Backtest histórico',apuestas:'Mis apuestas',aprender:'Qué funciona',enviadas:'Lo que te envié',datos:'Datos',docs:'Documentos'}[r.pg]||'Mando')+' · Mando';
  if(fb){const el=$(`#main [data-bind="${fb}"]`);if(el){el.focus();try{el.setSelectionRange(ss,ss)}catch(e){}}}
  if(keep)scrollTo(0,sy);else scrollTo(0,0);if(DR&&DR.t==='line'&&$('#dr').classList.contains('on')){const st=$('#dr').scrollTop;openLine(DR.key);$('#dr').scrollTop=st}}
 const upd=()=>{save();render(true)};

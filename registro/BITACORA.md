@@ -474,3 +474,6 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - El usuario notó que el balance de las 18:00 dejó fuera las líneas de jugador (la regla 4b ya existía; se había dejado «pendiente»). Rehecho: Sofascore lineups/incidents de 35 partidos → `jornadas/2026-11-26/resultados/jugadores_resultado.txt` (+ crudo `jug26_sofa.json`) → `calificar_jugadores.py`: 21.855 líneas (13.962 resueltas, 1.773 cumplidas, 7.893 nulas).
 - Hallazgo de proceso: `resultados_por_partido.json` tenía «Nordsjaelland» sin tilde y `lineas.csv` «Nordsjælland»: 270 líneas de equipo de ese partido no se habían calificado; corregido (quedan 86 sin dato: 1T de Nordsjælland, Sunderland, Jablonec).
 - Jugadores: tasa real de titular remates 1+ 38,6 %, tiros al arco 1+ 23,3 %; modelo inflado 14–17 pts; precios de jugador del 26-nov con señales de lectura mala (Arokodare «5+ remates @1,31», tarjeta @15,5): sin conclusiones de ROI. Regla nueva en CLAUDE.md.
+
+## 26-nov 18:37 — Pronósticos de Flashscore
+Regla nueva en CLAUDE.md (apuesta de la previa solo en partidos con Preview + noticias de pronósticos). Guardados: previa Forest–Chelsea (ambos marcan No) y 6 picks de la noticia Premier J12; página «Pronósticos Flashscore» en el dashboard y `calificar_pronosticos.py`. Pendiente: 10 previas y recolección completa del 27-nov con el computador conectado.
