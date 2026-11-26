@@ -1,0 +1,216 @@
+{
+ "leido": "2026-11-26 10:39 Bogotá",
+ "leido_hora": "10:39",
+ "condiciones": "BB BOOST (captura del usuario 10:35): Mejora diaria Europa League +25 %, mínimo 1 partido, cuota total ≥ 5,00, cuota mínima por selección 1,50 (Olympiacos–Milan 12:45; Crystal Palace–Real Sociedad 15:00). Margen propio: patas ≥ 1,51 y precio ≥ 5,05; mínimo 3 mercados.",
+ "condiciones_lista": [
+  "≥ 3 mercados del mismo partido",
+  "cada cuota > 1,50",
+  "cuota total > 5,00",
+  "bono +25 % (leer el % en el cupón)"
+ ],
+ "aviso": "Precios REALES (mc-leg) y cuotas de cada pata en el cupón leídos 10:39 Bogotá (catálogo de 10:36). Onces PROBABLES de Sofascore (sin confirmar). p del modelo (simulación + dependencia); «conjunto» = en cuántos de los últimos 10 de cada equipo se dieron TODAS las patas a la vez (contra rivales distintos: es una medida de facilidad, no una probabilidad).",
+ "crystal-palace-fc-real-sociedad": {
+  "partido": "Crystal Palace FC - Real Sociedad",
+  "hora": "2026-11-26 15:00",
+  "evento": 91652105,
+  "leido_hora": "10:39",
+  "veredicto": "BB Boost: SÍ cumple. Córners Real Sociedad Más 3.5 + Faltas Crystal Palace Menos 12.5 + Tiros al arco Crystal Palace Menos 5.5 = 5,30 real; 3 de 3 patas con «cumple».",
+  "nota": "Tabla: Palace 21.º y Real Sociedad 20.º (5 pts cada uno). Bajas (Sofascore, probable): Palace sin I. Sarr, C. Riad, Tomiyasu (Mingueza duda); Real Sociedad sin Barrenetxea, Aramburu, Odriozola. Palace 3-4-2-1 concede 7,0 córners por partido; Real Sociedad hace 5,8. Árbitro Saggi R. (3,9 tarjetas por partido en sus últimos 20). Releer precio y onces oficiales ≈ 14:00.",
+  "combos": [
+   {
+    "patas": [
+     "Córners Real Sociedad Más 3.5",
+     "Faltas Crystal Palace FC Menos 12.5",
+     "Tiros al arco Crystal Palace FC Menos 5.5"
+    ],
+    "ids": [
+     "10878230485",
+     "10894029100",
+     "10894019799"
+    ],
+    "cuotas_catalogo": [
+     1.53,
+     1.8,
+     1.9
+    ],
+    "cuotas_cupon": [
+     1.53,
+     1.8,
+     1.9
+    ],
+    "precio_bb": 5.3,
+    "producto_cupon": 5.23,
+    "p_modelo": 0.161,
+    "p_prudente": 0.161,
+    "ev_sin_boost": -0.147,
+    "ev_con_boost": 0.026,
+    "pago_boost": 6.375,
+    "p_equilibrio_boost": 0.157,
+    "cumple": true,
+    "tag": "PRINCIPAL · 3 de 3 patas cumplen ≥7 de 10",
+    "leido": "10:39",
+    "patas_cumple_regularidad": 3,
+    "conjunto_10": [
+     "5 de 10",
+     "4 de 10"
+    ],
+    "pata_mas_fragil": "Tiros al arco Crystal Palace FC Menos 5.5",
+    "evidencia": [
+     "Córners de Real Sociedad ≥4: Palace (rivales) 9 de 10, Real Sociedad 7 de 10; esperado 6,4",
+     "Faltas de Palace ≤12: 7 de 10 y 7 de 10; esperado 10,9",
+     "Tiros al arco de Palace ≤5: 8 de 10 y 7 de 10; esperado 4,25 (sin Sarr)"
+    ],
+    "resultado": null,
+    "jugada": false
+   },
+   {
+    "patas": [
+     "Córners Real Sociedad Más 4.5",
+     "Tiros al arco Real Sociedad Más 3.5",
+     "Faltas Crystal Palace FC Menos 12.5"
+    ],
+    "ids": [
+     "10878230483",
+     "10894019796",
+     "10894029100"
+    ],
+    "cuotas_catalogo": [
+     2.15,
+     1.67,
+     1.8
+    ],
+    "cuotas_cupon": [
+     2.15,
+     1.67,
+     1.8
+    ],
+    "precio_bb": 6,
+    "producto_cupon": 6.46,
+    "p_modelo": 0.136,
+    "p_prudente": 0.136,
+    "ev_sin_boost": -0.184,
+    "ev_con_boost": -0.011,
+    "pago_boost": 7.25,
+    "p_equilibrio_boost": 0.138,
+    "cumple": true,
+    "tag": "ALTERNATIVA · 3 de 3 patas cumplen; más precio y el mejor «conjunto», más frágil la de córners 4.5",
+    "leido": "10:39",
+    "patas_cumple_regularidad": 3,
+    "conjunto_10": [
+     "6 de 10",
+     "5 de 10"
+    ],
+    "pata_mas_fragil": "Córners Real Sociedad Más 4.5",
+    "evidencia": [
+     "Córners de Real Sociedad ≥5: 7 de 10 y 7 de 10",
+     "Tiros al arco de Real Sociedad ≥4: 8 de 10 y 7 de 10; esperado 5,3",
+     "Faltas de Palace ≤12: 7 de 10 y 7 de 10"
+    ],
+    "resultado": null,
+    "jugada": false
+   }
+  ]
+ },
+ "olympiacos-piraeus-ac-milan": {
+  "partido": "Olympiacos Piraeus - AC Milan",
+  "hora": "2026-11-26 12:45",
+  "evento": 91652099,
+  "leido_hora": "10:39",
+  "veredicto": "BB Boost: NO RECOMENDADO. Solo una pata ≥ 1,51 cumple el 7 de 10 sin chocar con el contexto (Remates Milan Menos 13.5). Tarjetas Olympiacos Menos 2.5 cumple pero el árbitro Kavanagh saca 5,5 tarjetas por partido (75 % por encima de 4,5): fuera. Si se juega, apuesta mínima con la de abajo (5,20).",
+  "nota": "Tabla: Olympiacos 6.º (10 pts, 4:1), Milan 28.º (3 pts). Bajas (Sofascore, probable): Milan sin Modrić, Saelemaekers, Loftus-Cheek, Gabbia, Camarda, Chukwueze, Bartesaghi (Pavlović duda); Olympiacos sin El Kaabi, Chiquinho, Hezze, Puerta. Betano igual ve a Milan favorito (Olympiacos o empate 1,60). Releer con onces oficiales ≈ 11:50.",
+  "combos": [
+   {
+    "patas": [
+     "Remates AC Milan Menos 13.5",
+     "Tarjetas Más 4.5",
+     "Faltas Olympiacos Piraeus Más 12.5"
+    ],
+    "ids": [
+     "10888080105",
+     "10888050249",
+     "10888080135"
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     1.95,
+     1.95
+    ],
+    "cuotas_cupon": [
+     1.57,
+     1.95,
+     1.95
+    ],
+    "precio_bb": 5.2,
+    "producto_cupon": 5.97,
+    "p_modelo": 0.155,
+    "p_prudente": 0.155,
+    "ev_sin_boost": -0.194,
+    "ev_con_boost": -0.03,
+    "pago_boost": 6.25,
+    "p_equilibrio_boost": 0.16,
+    "cumple": false,
+    "tag": "SI SE JUEGA (no recomendado) · 1 de 3 cumple · apuesta mínima",
+    "leido": "10:39",
+    "patas_cumple_regularidad": 1,
+    "conjunto_10": [
+     "3 de 10",
+     "4 de 10"
+    ],
+    "pata_mas_fragil": "Tarjetas Más 4.5",
+    "evidencia": [
+     "Remates de Milan ≤13: 8 de 10 y 7 de 10; esperado 10,05",
+     "Tarjetas ≥5 (puntos): 5 de 10 y 5 de 10; árbitro Kavanagh 5,5 por partido",
+     "Faltas de Olympiacos ≥13: 6 de 10 y 8 de 10; esperado 14,2"
+    ],
+    "resultado": null,
+    "jugada": false
+   },
+   {
+    "patas": [
+     "Remates AC Milan Menos 13.5",
+     "Tarjetas Olympiacos Piraeus Menos 2.5",
+     "Faltas Olympiacos Piraeus Más 12.5"
+    ],
+    "ids": [
+     "10888080105",
+     "10888050266",
+     "10888080135"
+    ],
+    "cuotas_catalogo": [
+     1.57,
+     1.6,
+     1.95
+    ],
+    "cuotas_cupon": [
+     1.57,
+     1.6,
+     1.95
+    ],
+    "precio_bb": 5.9,
+    "producto_cupon": 4.9,
+    "p_modelo": 0.146,
+    "p_prudente": 0.146,
+    "ev_sin_boost": -0.139,
+    "ev_con_boost": 0.044,
+    "pago_boost": 7.125,
+    "p_equilibrio_boost": 0.14,
+    "cumple": true,
+    "tag": "DESCARTADA · Tarjetas Olympiacos Menos 2.5 choca con el árbitro (Kavanagh)",
+    "leido": "10:39",
+    "patas_cumple_regularidad": 2,
+    "conjunto_10": [
+     "4 de 10",
+     "5 de 10"
+    ],
+    "pata_mas_fragil": "Faltas Olympiacos Piraeus Más 12.5",
+    "evidencia": [
+     "Remates de Milan ≤13: 8 de 10 y 7 de 10",
+     "Tarjetas de Olympiacos ≤2: 9 de 10 y 8 de 10, pero Kavanagh 5,2 amarillas por partido",
+     "Faltas de Olympiacos ≥13: 6 de 10 y 8 de 10"
+    ],
+    "resultado": null,
+    "jugada": false
+   }
+  ]
+ }
+}

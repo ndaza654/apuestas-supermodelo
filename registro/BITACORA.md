@@ -439,3 +439,9 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 
 ## 26-nov-2026 (10:10) · misión Betano con Kairat–Mjallby
 - Bet Builder de 4 patas (córners Más 7,5, tarjetas Menos 6,5, goles Menos 3,5, Kairat o empate) a precio real 3,15 (p ≈ 27–30 %); alternativa de 3 patas a 3,30. Detalle: `entregas/2026-11-26/1010_mision_kairat_mjallby.md`, `jornadas/2026-11-26/misiones/misiones.json`.
+
+## 26-nov-2026 10:45 · BB Boost Europa League (Olympiacos–Milan, Crystal Palace–Real Sociedad)
+- Catálogo BB 10:36 y precios reales mc-leg 10:39 (29 combos); onces probables Sofascore. `jornadas/2026-11-26/bb/bb_boost_resumen.json` (registrado antes de enviarlo).
+- Palace–Real Sociedad: PRINCIPAL 5,30 (Córners RS Más 3.5 + Faltas Palace Menos 12.5 + Tiros al arco Palace Menos 5.5; 3 de 3 cumplen; p 16,1 %); alternativa 6,00 (Córners RS Más 4.5 + Tiros al arco RS Más 3.5 + Faltas Palace Menos 12.5).
+- Olympiacos–Milan: NO RECOMENDADO (solo 1 pata que cumple sin chocar con el árbitro Kavanagh); si se juega, 5,20 con apuesta mínima.
+- Nuevo: `recoleccion/bb_conjunto.py` («X de 10 conjunto») y regla 8 del BB Boost en CLAUDE.md (no cambiar la primera elección sin dato nuevo; contexto = números; fuera gol/resultado del débil).
