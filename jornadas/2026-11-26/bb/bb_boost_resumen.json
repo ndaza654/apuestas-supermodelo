@@ -115,10 +115,102 @@
   "partido": "Olympiacos Piraeus - AC Milan",
   "hora": "2026-11-26 12:45",
   "evento": 91652099,
-  "leido_hora": "10:39",
-  "veredicto": "BB Boost: NO RECOMENDADO. Solo una pata ≥ 1,51 cumple el 7 de 10 sin chocar con el contexto (Remates Milan Menos 13.5). Tarjetas Olympiacos Menos 2.5 cumple pero el árbitro Kavanagh saca 5,5 tarjetas por partido (75 % por encima de 4,5): fuera. Si se juega, apuesta mínima con la de abajo (5,20).",
-  "nota": "Tabla: Olympiacos 6.º (10 pts, 4:1), Milan 28.º (3 pts). Bajas (Sofascore, probable): Milan sin Modrić, Saelemaekers, Loftus-Cheek, Gabbia, Camarda, Chukwueze, Bartesaghi (Pavlović duda); Olympiacos sin El Kaabi, Chiquinho, Hezze, Puerta. Betano igual ve a Milan favorito (Olympiacos o empate 1,60). Releer con onces oficiales ≈ 11:50.",
+  "leido_hora": "11:33",
+  "veredicto": "BB Boost: SÍ cumple el precio (11:35, once oficial). Más córners Olympiacos + Milan menos de 1.5 goles + Tarjetas Más 4.5 = 5,20 real. Elegida por contexto: ninguna pata llega al 7 de 10 en ambos equipos; en casa de Olympiacos se dio cada una 4 de 5 y las tres juntas 3 de 5.",
+  "nota": "Once oficial (Sofascore 11:33): Olympiacos Ortega; Smajlović, Retsos, Pirola, Bruno; Freuler, G. Sá, Pedersen; Jota Silva, Gelson Martins, A. González. Milan Maignan; Gila, De Winter, Diawara, Estupiñán; Hutchinson, Jashari, Cissé, Moreira, Rabiot; G. Ramos (sin Pulisic, Modrić, Loftus-Cheek, Saelemaekers, Gabbia). Árbitro Kavanagh confirmado. Tabla: Olympiacos 6.º (10 pts, 4:1), Milan 28.º (3 pts). Precio real 11:33.",
   "combos": [
+   {
+    "patas": [
+     "Más corners: Olympiacos Piraeus",
+     "Goles AC Milan Menos 1.5",
+     "Tarjetas Más 4.5"
+    ],
+    "ids": [
+     "10309299107",
+     "10350463753",
+     "10888050249"
+    ],
+    "cuotas_catalogo": [
+     1.53,
+     1.62,
+     1.95
+    ],
+    "cuotas_cupon": [
+     1.53,
+     1.62,
+     1.95
+    ],
+    "precio_bb": 5.2,
+    "producto_cupon": 4.83,
+    "p_modelo": 0.172,
+    "p_prudente": 0.172,
+    "ev_sin_boost": -0.106,
+    "ev_con_boost": 0.075,
+    "pago_boost": 6.25,
+    "p_equilibrio_boost": 0.16,
+    "cumple": false,
+    "tag": "PRINCIPAL 11:35 · por contexto (0 de 3 patas con 7 de 10 en ambos; en casa de Olympiacos 4 de 5 cada una)",
+    "leido": "11:33",
+    "patas_cumple_regularidad": 0,
+    "conjunto_10": [
+     "3 de 10",
+     "2 de 10"
+    ],
+    "pata_mas_fragil": "Tarjetas Más 4.5",
+    "evidencia": [
+     "Más córners Olympiacos: en casa 4 de 5 (solo perdió con Panathinaikos); Milan tuvo menos córners que su rival en 8 de 10 (saca 2,6 por partido)",
+     "Milan ≤ 1 gol: Olympiacos recibió ≤ 1 en 8 de 10 (en casa 4 de 5; 1 gol en 4 partidos de la Europa League); Milan sin Pulisic, Modrić, Loftus-Cheek ni Saelemaekers (once oficial)",
+     "Tarjetas ≥ 5 (puntos): árbitro Kavanagh 5,5 por partido y 75 % de sus partidos > 4,5; Olympiacos en casa contra grandes: PAOK 7, Sparta 6, Panathinaikos 13"
+    ],
+    "resultado": null,
+    "jugada": false
+   },
+   {
+    "patas": [
+     "Remates AC Milan Menos 12.5",
+     "Goles AC Milan Menos 1.5",
+     "Tarjetas Más 4.5"
+    ],
+    "ids": [
+     "10888080101",
+     "10350463753",
+     "10888050249"
+    ],
+    "cuotas_catalogo": [
+     1.9,
+     1.62,
+     1.95
+    ],
+    "cuotas_cupon": [
+     1.9,
+     1.62,
+     1.95
+    ],
+    "precio_bb": 5.3,
+    "producto_cupon": 6.0,
+    "p_modelo": 0.161,
+    "p_prudente": 0.161,
+    "ev_sin_boost": -0.147,
+    "ev_con_boost": 0.026,
+    "pago_boost": 6.375,
+    "p_equilibrio_boost": 0.157,
+    "cumple": false,
+    "tag": "ALTERNATIVA 11:35 · 1 de 3 con 7 de 10 (remates de Milan); mismo guion",
+    "leido": "11:33",
+    "patas_cumple_regularidad": 1,
+    "conjunto_10": [
+     "3 de 10",
+     "2 de 10"
+    ],
+    "pata_mas_fragil": "Tarjetas Más 4.5",
+    "evidencia": [
+     "Remates de Milan ≤ 12: 7 de 10 y 7 de 10; esperado 10,05",
+     "Milan ≤ 1 gol: ver principal",
+     "Tarjetas ≥ 5: ver principal"
+    ],
+    "resultado": null,
+    "jugada": false
+   },
    {
     "patas": [
      "Remates AC Milan Menos 13.5",
@@ -149,7 +241,7 @@
     "pago_boost": 6.25,
     "p_equilibrio_boost": 0.16,
     "cumple": false,
-    "tag": "SI SE JUEGA (no recomendado) · 1 de 3 cumple · apuesta mínima",
+    "tag": "SUPERADA 11:35 · SI SE JUEGA (no recomendado) · 1 de 3 cumple · apuesta mínima",
     "leido": "10:39",
     "patas_cumple_regularidad": 1,
     "conjunto_10": [
@@ -195,7 +287,7 @@
     "pago_boost": 7.125,
     "p_equilibrio_boost": 0.14,
     "cumple": true,
-    "tag": "DESCARTADA · Tarjetas Olympiacos Menos 2.5 choca con el árbitro (Kavanagh)",
+    "tag": "SUPERADA 11:35 · DESCARTADA · Tarjetas Olympiacos Menos 2.5 choca con el árbitro (Kavanagh)",
     "leido": "10:39",
     "patas_cumple_regularidad": 2,
     "conjunto_10": [

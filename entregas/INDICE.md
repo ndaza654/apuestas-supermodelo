@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-26 | 11:38 | BB Boost Olympiacos–Milan por contexto (5,20 y 5,30, once oficial) | Olympiacos–Milan | `2026-11-26/1135_bb_boost_olympiacos_milan.md` |
 | 2026-11-26 | 10:45 | BB Boost Europa League (principal + alternativa; Olympiacos no recomendado) | Crystal Palace–Real Sociedad, Olympiacos–Milan | `2026-11-26/1045_bb_boost_olympiacos_palace.md` |
 | 2026-11-26 | 10:10 | Misión Betano: Bet Builder ≥ 3,00 (recomendada precio real 3,15; 4 patas) | Kairat–Mjallby | `2026-11-26/1010_mision_kairat_mjallby.md` |
 | 2026-11-26 | 10:45 | Balance 25-nov COMPLETO + tus boletos (+$20.000: 1 de 11, el BB PSG–Roma; completados 4 boletos del 24-nov) | Champions, Youth, ACL, Championship, J1 + 6 de la noche | `2026-11-25/1030_balance_25nov_completo.md` + `.html` |

@@ -445,3 +445,8 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Palace–Real Sociedad: PRINCIPAL 5,30 (Córners RS Más 3.5 + Faltas Palace Menos 12.5 + Tiros al arco Palace Menos 5.5; 3 de 3 cumplen; p 16,1 %); alternativa 6,00 (Córners RS Más 4.5 + Tiros al arco RS Más 3.5 + Faltas Palace Menos 12.5).
 - Olympiacos–Milan: NO RECOMENDADO (solo 1 pata que cumple sin chocar con el árbitro Kavanagh); si se juega, 5,20 con apuesta mínima.
 - Nuevo: `recoleccion/bb_conjunto.py` («X de 10 conjunto») y regla 8 del BB Boost en CLAUDE.md (no cambiar la primera elección sin dato nuevo; contexto = números; fuera gol/resultado del débil).
+
+## 26-nov-2026 11:38 · BB Boost Olympiacos–Milan rehecho por contexto
+- El usuario pidió un BB para cada partido (no elegir partido) y aclaró que el contexto pesa al menos tanto como los números y que el objetivo es ganar las apuestas, no a la casa (regla en CLAUDE.md, «Prioridad»).
+- Once oficial 11:33 (Milan sin Pulisic, Modrić, Loftus-Cheek, Saelemaekers); Kavanagh confirmado. 22 combos con precio real.
+- PRINCIPAL 5,20: Más córners Olympiacos + Milan menos de 1,5 goles + Tarjetas Más 4,5 (en casa de Olympiacos 3 de 5 juntas). Alternativa 5,30 con remates de Milan Menos 12,5. Las de 10:45 quedan «superadas».
