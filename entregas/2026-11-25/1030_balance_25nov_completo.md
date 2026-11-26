@@ -1,6 +1,6 @@
-# Balance del 25-nov-2026 (día completo, 44 de 44 partidos)
-Fecha de la entrega: 26-nov-2026 ~10:30 Bogotá. Cuotas: las leídas en Betano el 25-nov (mañana, 15:00 y 17:14/17:30; una lectura por tramo, sin relectura del 26-nov). Fuentes de resultado: Flashscore (feeds `df_st`/`df_su`, equipo) y Sofascore `/api/v1` (marcador y jugadores de la noche). Límites: sin tus boletos (Betano sin sesión), tarjetas 1T de 4 partidos sin calificar, nombres de jugador que no casan = «nula».
-Informe interactivo: `jornadas/2026-11-25/balance/balance.html` (copia en `entregas/2026-11-25/1030_balance_25nov_completo.html`).
+# Balance del 25-nov-2026 (día completo, 44 de 44 partidos) — con tus boletos
+Fecha de la entrega: 26-nov-2026 ~10:45 Bogotá (actualiza la de las 10:30). Cuotas: las leídas en Betano el 25-nov (una lectura por tramo). Resultados: Flashscore (equipo) y Sofascore (marcador y jugadores de la noche). Boletos: Betano «Mis apuestas» leído 26-nov ~10:00 con la sesión del usuario (solo lectura). Límites: tarjetas 1T de 4 partidos sin calificar, nombres de jugador que no casan = «nula», numeración de boletos por orden de lista.
+Informe interactivo: `jornadas/2026-11-25/balance/balance.html` (copia `entregas/2026-11-25/1030_balance_25nov_completo.html`).
 
 ## Enfoque de mercados de este balance
 
@@ -8,7 +8,9 @@ El día pesó en la **Champions** (9 partidos con todas las familias), la **Cham
 
 ## Cómo nos fue
 
-- **En plata:** sin dato de tus boletos (Betano en el navegador integrado sigue sin tu sesión; Claude no escribe contraseñas). Si apostaste, manda capturas de «Resueltas» o inicia sesión en ese navegador y se completa.
+- **En plata (tus boletos, Betano «Mis apuestas», leído 26-nov ~10:00):** 11 boletos, apostado **$207.500**, cobrado **$227.500**, neto **+$20.000 (+9,6 %)**. Ganó 1 de 11: el BB de PSG–Roma ($35.000 a 5,40 con boost: $189.000 + $38.500). Los otros 10 perdieron, 5 de ellos por una sola pata y 4 por dos. Sin ese BB habrías perdido $187.500 en el día: el resultado lo puso un solo boleto.
+
+- **Tus patas, por boleto:** la combinada de 3 BB del Burnley/Watford/Bolton cayó por una (córners Bolton–WBA 5 contra Más 8,5); la de 4 de J1 por «Menos de 6» en Sabah Sub-19–Barça (7 goles); las de 3 de J1/K League por «visitante marca» (Port, Jeonbuk) y por «Menos de 11,5 córners» (Urawa–Cerezo 13, V-Varen 12); la de 42.500 por dos de jugador (Forbs al arco 0, Kimmich remates 0); la de 5 BB por Chambers/Barcola (Brugge) y Mukau (Lille); el BB de Santa Fe ($22.500 a 5,20) por «Ambos anotan Sí».
 
 - **Sencillas sugeridas:** 213 de 277 resueltas (77 %), p media del modelo 72 %, cuota media 1,33 → a cuota plana **+2,3 %**. Los 6 partidos de la noche: 29 de 47.
 
@@ -56,4 +58,4 @@ El día pesó en la **Champions** (9 partidos con todas las familias), la **Cham
 
 ## Límites
 
-Es un solo día con muchas líneas del mismo partido (no independientes): las cifras son pistas, no reglas. Sin boletos tuyos no hay balance en plata. Las 16 líneas de tarjetas 1T de 4 partidos quedan sin calificar (Flashscore no trae estadística por tiempo). Jugadores de la noche calificados con Sofascore (entradas = tackles totales; Flashscore estuvo congelado en el navegador integrado); los nombres que no casan quedan «nula»/sin calificar. Los criterios de tipsters no tienen resultados verificados.
+Es un solo día con muchas líneas del mismo partido (no independientes): las cifras son pistas, no reglas. Betano no muestra fecha ni número: los boletos 167–177 se asignaron por el orden de la lista. De los 10 boletos que cayeron no se lee cuál pata cayó primero salvo por el valor real; los boletos con jugadores (Forbs, Kimmich, Chambers, Barcola, Mukau) se calificaron con Flashscore/Sofascore. Las 16 líneas de tarjetas 1T de 4 partidos quedan sin calificar (Flashscore no trae estadística por tiempo). Jugadores de la noche calificados con Sofascore (entradas = tackles totales; Flashscore estuvo congelado en el navegador integrado); los nombres que no casan quedan «nula»/sin calificar. Los criterios de tipsters no tienen resultados verificados.

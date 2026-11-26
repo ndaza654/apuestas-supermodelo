@@ -1,21 +1,21 @@
 {
- "fuente": "Capturas del cupón que el usuario envió por el chat (14:28 y 17:07 Bogotá). Betano «Mis apuestas» NO se pudo leer: el navegador integrado quedó sin sesión (aparece «Iniciar sesión»); el resultado se calcula con los datos reales de Flashscore, no con la liquidación de Betano.",
+ "fuente": "Capturas del cupón que el usuario envió por el chat (14:28 y 17:07 Bogotá). Betano «Mis apuestas» NO se pudo leer: el navegador integrado quedó sin sesión (aparece «Iniciar sesión»); el resultado se calcula con los datos reales de Flashscore, no con la liquidación de Betano. | 26-nov ~10:00: Betano «Mis apuestas» (Resueltas) ya se pudo leer con la sesión del usuario y mostró 4 boletos más del 24-nov (163–166) y que el 161 fue de $27.500 a BB 5,60 (no 37.500 a 5,00 como en la captura). Totales corregidos.",
  "abiertas": 0,
- "total_apostado": 71046,
- "total_cobrado": 0,
- "neto": -71046,
+ "total_apostado": 174746,
+ "total_cobrado": 96046,
+ "neto": -78700,
  "boletos": [
   {
    "n": 161,
    "fecha": "2026-11-24",
-   "tipo": "Simple (Bet Builder 4 patas, BB Boost +25 %)",
-   "stake": 37500,
+   "tipo": "Simple (Bet Builder 4 patas)",
+   "stake": 27500,
    "gratis": false,
-   "cuota": 5.0,
+   "cuota": 5.6,
    "resultado": "Perdida",
    "cobrado": 0,
    "partidos": "Arsenal–Dortmund (1-1)",
-   "patas": "BB 5,00: Arsenal remates Menos 18.5 + Arsenal córners Menos 6.5 + Dortmund córners Más 2.5 + Dortmund remates Más 8.5"
+   "patas": "BB 5,60: Arsenal remates Menos 18.5 + Arsenal córners Menos 6.5 + Dortmund córners Más 2.5 + Dortmund remates Más 8.5"
   },
   {
    "n": 162,
@@ -28,6 +28,54 @@
    "cobrado": 0,
    "partidos": "Millonarios–Bucaramanga (4-1)",
    "patas": "BB 5,00: Bucaramanga córners Más 2.5 + Millonarios tarjetas Más 2.5 + córners totales Menos 9.5"
+  },
+  {
+   "n": 163,
+   "fecha": "2026-11-24",
+   "tipo": "Combinada de 3 (3 BB)",
+   "stake": 18700,
+   "gratis": false,
+   "cuota": 8.32,
+   "resultado": "Perdida",
+   "cobrado": 0,
+   "partidos": "Al-Nassr–Al-Sadd (2-1) · Bodo/Glimt–Linz (1-0) · Galatasaray–Aston Villa (1-0)",
+   "patas": "BB 2,25: goles Más 2.5 (3) + Al-Nassr goles Menos 3.5 (2) · BB 1,72: Bodo córners Menos 7.5 (4) + Haikin atajadas 2+ (Bodo 0 atajadas) · BB 2,15: saques de meta Más 12.5 (9) + remates Más 25.5 (13) + córners Más 7.5 (6)"
+  },
+  {
+   "n": 164,
+   "fecha": "2026-11-24",
+   "tipo": "Doble (Bodo remates + BB)",
+   "stake": 60000,
+   "gratis": false,
+   "cuota": 3.39,
+   "resultado": "Perdida",
+   "cobrado": 0,
+   "partidos": "Bodo/Glimt–Linz (1-0) · Galatasaray–Aston Villa (1-0)",
+   "patas": "Bodo remates totales Menos 18.5 (14) @1,60 · BB 2,12: córners Más 8.5 (6) + saques de meta Más 12.5 (9)"
+  },
+  {
+   "n": 165,
+   "fecha": "2026-11-24",
+   "tipo": "Combinada de 3",
+   "stake": 22500,
+   "gratis": false,
+   "cuota": 4.27,
+   "resultado": "Ganada",
+   "cobrado": 96046,
+   "partidos": "Real Madrid–PSV (5-1) · Man City–Napoli (2-2) · Leipzig–Lens (3-1)",
+   "patas": "Tarjetas Más 2.5 (4 puntos) @1,53 · córners Más 8.5 (12) @1,55 · faltas Más 22.5 (25) @1,80. Ganancias $96.046"
+  },
+  {
+   "n": 166,
+   "fecha": "2026-11-24",
+   "tipo": "Combinada de 3 (2 BB)",
+   "stake": 12500,
+   "gratis": false,
+   "cuota": 21.65,
+   "resultado": "Perdida",
+   "cobrado": 0,
+   "partidos": "Feyenoord–Porto (0-1) · Real Madrid–PSV (5-1) · Como–AEK (1-0)",
+   "patas": "Córners Más 8.5 (12) @1,62 · BB 5,20: córners Más 6.5 + Brahim Díaz o Diomande anota o asiste («Ganado gracias al Suplente de Oro») · BB 2,57: córners Más 6.5 (3) + resultado Como. No se sabe con seguridad qué pata cayó: los córners de Como–AEK fueron 3 (Más 6.5)."
   }
  ]
 }

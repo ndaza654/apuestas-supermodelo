@@ -1,18 +1,18 @@
 {
  "generado": "recoleccion/aprender_combos.py",
- "n_combinadas": 390,
- "se_dieron": 120,
- "perdidas": 270,
- "perdidas_por_una_pata": 134,
+ "n_combinadas": 405,
+ "se_dieron": 122,
+ "perdidas": 283,
+ "perdidas_por_una_pata": 140,
  "patas": {
-  "n": 1267,
-  "hit": 0.62,
-  "con_dato_previo": 889
+  "n": 1322,
+  "hit": 0.619,
+  "con_dato_previo": 904
  },
  "pata_mas_floja": {
-  "combinadas_perdidas_por_una_pata_con_dato": 71,
-  "la_que_cayo_era_la_mas_floja": 26,
-  "por_azar_esperado": 27.2
+  "combinadas_perdidas_por_una_pata_con_dato": 73,
+  "la_que_cayo_era_la_mas_floja": 27,
+  "por_azar_esperado": 28.2
  },
  "por_banda_colchon": {
   "10–20 %": {
@@ -20,72 +20,72 @@
    "hit": 0.377
   },
   "5–10 %": {
-   "n": 64,
-   "hit": 0.734
+   "n": 65,
+   "hit": 0.738
   },
   "< 5 %": {
    "n": 85,
    "hit": 0.647
   },
   "sin dato": {
-   "n": 378,
-   "hit": 0.632
+   "n": 418,
+   "hit": 0.627
   },
   "≥ 20 %": {
-   "n": 578,
-   "hit": 0.663
+   "n": 592,
+   "hit": 0.662
   }
  },
  "por_cumple": {
   "no": {
-   "n": 295,
-   "hit": 0.464
+   "n": 297,
+   "hit": 0.465
   },
   "sí": {
-   "n": 552,
-   "hit": 0.69
+   "n": 564,
+   "hit": 0.691
   }
  },
  "por_mercado_lado": {
   "corners Más": {
-   "n": 141,
-   "hit": 0.702
+   "n": 144,
+   "hit": 0.694
   },
   "goles Más": {
-   "n": 107,
-   "hit": 0.729
+   "n": 114,
+   "hit": 0.728
   },
   "goles Menos": {
    "n": 94,
    "hit": 0.606
   },
   "remates Menos": {
-   "n": 84,
-   "hit": 0.5
+   "n": 85,
+   "hit": 0.506
   },
   "corners Menos": {
    "n": 80,
    "hit": 0.375
   },
   "remates Más": {
-   "n": 73,
-   "hit": 0.507
+   "n": 74,
+   "hit": 0.5
   },
   "al_arco Más": {
-   "n": 71,
-   "hit": 0.648
+   "n": 72,
+   "hit": 0.653
   },
   "tarjetas Más": {
-   "n": 64,
-   "hit": 0.609
+   "n": 65,
+   "hit": 0.615
   },
   "al_arco Menos": {
    "n": 51,
    "hit": 0.549
   },
   "tarjetas Menos": {
-   "n": 31,
-   "hit": 0.871
+   "n": 32,
+   "hit": 0.875
   },
   "faltas Menos": {
    "n": 21,
@@ -114,24 +114,24 @@
  },
  "por_n_patas": {
   "2": {
-   "combinadas": 117,
+   "combinadas": 119,
    "se_dieron": 64,
-   "hit": 0.547,
-   "hit_pata": 0.731,
-   "si_independientes": 0.534
+   "hit": 0.538,
+   "hit_pata": 0.727,
+   "si_independientes": 0.528
   },
   "3": {
-   "combinadas": 158,
-   "se_dieron": 45,
-   "hit": 0.285,
-   "hit_pata": 0.622,
-   "si_independientes": 0.241
+   "combinadas": 166,
+   "se_dieron": 47,
+   "hit": 0.283,
+   "hit_pata": 0.62,
+   "si_independientes": 0.239
   },
   "4+": {
-   "combinadas": 115,
+   "combinadas": 120,
    "se_dieron": 11,
-   "hit": 0.096,
-   "hit_pata": 0.569,
+   "hit": 0.092,
+   "hit_pata": 0.572,
    "si_independientes": 0.07
   }
  },
@@ -155,10 +155,10 @@
    "hit_pata": 0.699
   },
   "tu boleto": {
-   "combinadas": 86,
-   "se_dieron": 14,
-   "patas_prom": 4.5,
-   "hit_pata": 0.635
+   "combinadas": 101,
+   "se_dieron": 16,
+   "patas_prom": 4.3,
+   "hit_pata": 0.631
   }
  },
  "por_cuota_pata": {
@@ -180,9 +180,9 @@
   }
  },
  "causas": {
-  "sin_cumplir": 153,
-  "atipico": 181,
-  "sin_datos": 134,
+  "sin_cumplir": 154,
+  "atipico": 185,
+  "sin_datos": 151,
   "ambos": 4,
   "mediana": 4
  },
@@ -13766,9 +13766,9 @@
    "id": "boleto 161",
    "fuente": "tu boleto",
    "jornada": "2026-11-24",
-   "tipo": "Simple (Bet Builder 4 patas, BB Boost +25 %)",
+   "tipo": "Simple (Bet Builder 4 patas)",
    "nombre": "Arsenal–Dortmund (1-1)",
-   "cuota": 5.0,
+   "cuota": 5.6,
    "n_patas": 4,
    "patas_falladas": 2,
    "detalle": [
@@ -13865,6 +13865,690 @@
      "tipo": "sin_datos"
     }
    ]
+  },
+  {
+   "id": "boleto 163",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-24",
+   "tipo": "Combinada de 3 (3 BB)",
+   "nombre": "Al-Nassr–Al-Sadd (2-1) · Bodo/Glimt–Linz (1-0) · Galatasaray–Aston Villa (1-0)",
+   "cuota": 8.32,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "BB Al-Nassr–Al-Sadd (goles Más 2.5 + Al-Nassr Menos 3.5)",
+     "ok": true,
+     "real": "3 goles; 2",
+     "colchon_rel": 0.58,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "BB Bodo–Linz (córners Menos 7.5 + Haikin atajadas 2+)",
+     "ok": false,
+     "real": "4 córners; 0 atajadas",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "BB Galatasaray–Villa (saques de meta Más 12.5, remates Más 25.5, córners Más 7.5)",
+     "ok": false,
+     "real": "9; 13; 6",
+     "colchon_rel": 1.36,
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "BB Bodo–Linz (córners Menos 7.5 + Haikin atajadas 2+)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "BB Galatasaray–Villa (saques de meta Más 12.5, remates Más 25.5, córners Más 7.5)",
+     "causa": "cumplía y tenía colchón (136 %) pero el partido salió atípico: real 9; 13; 6 frente a esperado 29.5",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 164",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-24",
+   "tipo": "Doble (Bodo remates + BB)",
+   "nombre": "Bodo/Glimt–Linz (1-0) · Galatasaray–Aston Villa (1-0)",
+   "cuota": 3.39,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Bodo remates totales Menos 18.5",
+     "ok": true,
+     "real": "14",
+     "colchon_rel": 0.274,
+     "x10": 0.78,
+     "cumple": "sí"
+    },
+    {
+     "pata": "BB Galatasaray–Villa (córners Más 8.5 + saques de meta Más 12.5)",
+     "ok": false,
+     "real": "6 córners; 9 saques de meta",
+     "colchon_rel": 0.241,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "BB Galatasaray–Villa (córners Más 8.5 + saques de meta Más 12.5)",
+     "causa": "cumplía y tenía colchón (24 %) pero el partido salió atípico: real 6 córners; 9 saques de meta frente a esperado 10.55",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 166",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-24",
+   "tipo": "Combinada de 3 (2 BB)",
+   "nombre": "Feyenoord–Porto (0-1) · Real Madrid–PSV (5-1) · Como–AEK (1-0)",
+   "cuota": 21.65,
+   "n_patas": 2,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Feyenoord–Porto córners Más 8.5",
+     "ok": true,
+     "real": "12",
+     "colchon_rel": 0.053,
+     "x10": 0.5,
+     "cumple": "no"
+    },
+    {
+     "pata": "BB Como–AEK (córners Más 6.5 + resultado)",
+     "ok": false,
+     "real": "3 córners",
+     "colchon_rel": 0.477,
+     "x10": 0.6,
+     "cumple": "no"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "BB Como–AEK (córners Más 6.5 + resultado)",
+     "causa": "no cumplía el 7 de 10 (0.6); era una pata que el filtro ya dudaba",
+     "tipo": "sin_cumplir"
+    }
+   ]
+  },
+  {
+   "id": "boleto 167",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-25",
+   "tipo": "Combinada de 3",
+   "nombre": "Avispa–Yokohama (1-2) · Persib–Seoul (3-1) · Gamba–Port (2-0)",
+   "cuota": 3.26,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles total Más 2 (asiático)",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Persib goles Más 0.5",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": 2.3,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Port FC goles Más 0.5",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": 2.9,
+     "x10": 0.9,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Port FC goles Más 0.5",
+     "causa": "cumplía y tenía colchón (290 %) pero el partido salió atípico: real 0 frente a esperado 1.95",
+     "tipo": "atipico"
+    }
+   ]
+  },
+  {
+   "id": "boleto 168",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-25",
+   "tipo": "Combinada de 3",
+   "nombre": "Fagiano–Shimizu (2-0) · Mito–Verdy (1-0) · Urawa–Cerezo (2-2)",
+   "cuota": 2.97,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Córners total Más 8.5",
+     "ok": true,
+     "real": "10",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles total Más 1.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners total Menos 11.5",
+     "ok": false,
+     "real": "13",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles total Más 1.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Córners total Menos 11.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 169",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-25",
+   "tipo": "Combinada de 3",
+   "nombre": "JEF–Nagoya (1-2) · Kashima–Jeonbuk (3-0) · V-Varen–Kawasaki (1-2)",
+   "cuota": 2.69,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Córners total Más 7.5",
+     "ok": true,
+     "real": "12",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Jeonbuk goles Más 0.5",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": 1.6,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners total Menos 11.5",
+     "ok": false,
+     "real": "12",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Jeonbuk goles Más 0.5",
+     "causa": "cumplía y tenía colchón (160 %) pero el partido salió atípico: real 0 frente a esperado 1.3",
+     "tipo": "atipico"
+    },
+    {
+     "pata": "Córners total Menos 11.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 170",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-25",
+   "tipo": "Combinada de 4",
+   "nombre": "Avispa–Yokohama (1-2) · Fagiano–Shimizu (2-0) · JEF–Nagoya (1-2) · Sabah–Barcelo",
+   "cuota": 4.27,
+   "n_patas": 4,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Goles total Más 1.5",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles total Más 1.5",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "JEF goles Más 0.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 1.8,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Goles total Menos 6 (asiático)",
+     "ok": false,
+     "real": "7",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles total Menos 6 (asiático)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 171",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-25",
+   "tipo": "Combinada de 4",
+   "nombre": "Inter–Stuttgart Sub-19 (0-3) · Lille–Bayern Sub-19 (2-3) · Nasaf–Al Khalidiyah (",
+   "cuota": 4.8,
+   "n_patas": 5,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Goles total Más 2.5",
+     "ok": true,
+     "real": "3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles total Menos 2.5",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles total Más 1.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Atlético Sub-19 goles Menos 4.5",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Viking Sub-19 goles Más 0.5",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles total Menos 2.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Goles total Más 1.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Viking Sub-19 goles Más 0.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 172",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-25",
+   "tipo": "Doble (2 BB)",
+   "nombre": "Slavia–Villarreal (0-1) · Sabah–Barcelona (1-4)",
+   "cuota": 3.76,
+   "n_patas": 7,
+   "patas_falladas": 3,
+   "detalle": [
+    {
+     "pata": "Córners total Más 7.5",
+     "ok": true,
+     "real": "13",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles total Más 1.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Villarreal saques de meta Más 5.5",
+     "ok": true,
+     "real": "9",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Slavia tiros al arco Más 2.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles total Más 2.5",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Barcelona tiros al arco Más 6.5",
+     "ok": true,
+     "real": "14",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas total Más 2.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles total Más 1.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Slavia tiros al arco Más 2.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Tarjetas total Más 2.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 173",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-25",
+   "tipo": "Combinada de 3 (3 BB)",
+   "nombre": "Burnley–Birmingham (0-2) · Watford–Blackburn (0-1) · Bolton–WBA (1-3)",
+   "cuota": 6.91,
+   "n_patas": 6,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners total Más 7.5",
+     "ok": true,
+     "real": "16",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Birmingham tiros al arco Más 3.5",
+     "ok": true,
+     "real": "8",
+     "colchon_rel": 0.714,
+     "x10": 0.8,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Watford tarjetas Más 1.5",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": 0.853,
+     "x10": 0.78,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Blackburn goles Más 0.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 2.7,
+     "x10": 0.7,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Bolton goles Más 0.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 1.6,
+     "x10": 0.9,
+     "cumple": "sí"
+    },
+    {
+     "pata": "Córners total Más 8.5",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Córners total Más 8.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 174",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-25",
+   "tipo": "Combinada de 5 (5 BB)",
+   "nombre": "Inter–Stuttgart (2-0) · Atlético–Viking (2-0) · Sporting–ManU (2-2) · Brugge–Liv",
+   "cuota": 55.57,
+   "n_patas": 5,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "BB Inter–Stuttgart (faltas Carlos Augusto + tarjetas Más 2.5)",
+     "ok": true,
+     "real": "1 falta; 3 puntos",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "BB Atlético–Viking (tarjetas Más 2.5 + goles Atlético Menos 4.5)",
+     "ok": true,
+     "real": "3 puntos; 2 goles",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "BB Sporting–ManU (Suárez anota o asiste + goles Sporting Más 1.5)",
+     "ok": true,
+     "real": "2 goles de Suárez; 2 goles",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "BB Brugge–Liverpool (Jacquet, Chambers, Barcola faltas 1+)",
+     "ok": false,
+     "real": "3 / 0 / 0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "BB Lille–Bayern (Mukau faltas 1+ + tarjetas Más 2.5)",
+     "ok": false,
+     "real": "0 faltas; 1 punto",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "BB Brugge–Liverpool (Jacquet, Chambers, Barcola faltas 1+)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "BB Lille–Bayern (Mukau faltas 1+ + tarjetas Más 2.5)",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 175",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-25",
+   "tipo": "Combinada de 3",
+   "nombre": "Atlético–Viking (2-0) · Brugge–Liverpool (0-3) · Lille–Bayern (2-1)",
+   "cuota": 4.6,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "BB Atlético–Viking (Atlético al arco Menos 10.5 + Viking remates Más 6.5)",
+     "ok": true,
+     "real": "9 al arco; 9 remates",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Carlos Forbs tiros al arco 1+",
+     "ok": false,
+     "real": "0 (1 remate)",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Joshua Kimmich remates 1+",
+     "ok": false,
+     "real": "0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Carlos Forbs tiros al arco 1+",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Joshua Kimmich remates 1+",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 177",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-25",
+   "tipo": "Simple (Bet Builder 3 patas)",
+   "nombre": "Santa Fe–Once Caldas (3-0)",
+   "cuota": 5.2,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Ambos equipos anotan Sí",
+     "ok": false,
+     "real": "3-0",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners total Más 8.5",
+     "ok": true,
+     "real": "13",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Once Caldas tarjetas Menos 3.5",
+     "ok": true,
+     "real": "1",
+     "colchon_rel": 0.257,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Ambos equipos anotan Sí",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
   }
  ],
  "reglas": [
@@ -13872,19 +14556,19 @@
    "id": "pata_mediana",
    "texto": "En una combinada, evitar la pata con colchón < 10 % de la línea (la «pata en la mediana»): es la que más se cae.",
    "umbral_colchon_rel": 0.1,
-   "n_baja": 149,
-   "hit_baja": 0.684,
-   "n_alta": 740,
-   "hit_alta": 0.6,
+   "n_baja": 150,
+   "hit_baja": 0.686,
+   "n_alta": 754,
+   "hit_alta": 0.601,
    "estado": "en observación"
   },
   {
    "id": "pata_sin_cumplir",
    "texto": "En una combinada, todas las patas deben cumplir el 7 de 10 en ambos equipos.",
-   "n_no": 295,
-   "hit_no": 0.464,
-   "n_si": 552,
-   "hit_si": 0.69,
+   "n_no": 297,
+   "hit_no": 0.465,
+   "n_si": 564,
+   "hit_si": 0.691,
    "estado": "activa"
   },
   {
@@ -13897,18 +14581,18 @@
   {
    "id": "patas_max",
    "texto": "Máximo 2 patas por combinada (3 solo como lotería de stake mínimo); 4 o más patas casi nunca se dan.",
-   "n_4mas": 115,
-   "hit_4mas": 0.096,
-   "hit_2": 0.547,
-   "hit_3": 0.285,
+   "n_4mas": 120,
+   "hit_4mas": 0.092,
+   "hit_2": 0.538,
+   "hit_3": 0.283,
    "estado": "activa"
   }
  ],
  "lecciones": [
-  "390 combinadas calificadas (las que te envié y las que jugaste): 120 se dieron (30 %). 134 de 270 perdidas (49 %) cayeron por una sola pata.",
-  "Tamaño: 2 patas se dieron 64 de 117, 3 patas 45 de 158, 4 o más 11 de 115. Cada pata extra pesa más de lo que parece.",
-  "La pata de menor colchón cayó 26 veces de 71 (por azar se esperarían ≈ 27.2): el colchón no predice cuál pata se cae.",
-  "Patas que cumplían el 7 de 10 se dieron 69 % (n 552) frente a 46 % de las que no (n 295): esta sí separa.",
-  "De las patas caídas con dato previo, 181 de 342 cumplían y tenían colchón: el partido salió fuera de lo normal (varianza), no fue una mala elección; 153 no cumplían el 7 de 10 y 4 estaban en la mediana."
+  "405 combinadas calificadas (las que te envié y las que jugaste): 122 se dieron (30 %). 140 de 283 perdidas (49 %) cayeron por una sola pata.",
+  "Tamaño: 2 patas se dieron 64 de 119, 3 patas 47 de 166, 4 o más 11 de 120. Cada pata extra pesa más de lo que parece.",
+  "La pata de menor colchón cayó 27 veces de 73 (por azar se esperarían ≈ 28.2): el colchón no predice cuál pata se cae.",
+  "Patas que cumplían el 7 de 10 se dieron 69 % (n 564) frente a 46 % de las que no (n 297): esta sí separa.",
+  "De las patas caídas con dato previo, 185 de 347 cumplían y tenían colchón: el partido salió fuera de lo normal (varianza), no fue una mala elección; 154 no cumplían el 7 de 10 y 4 estaban en la mediana."
  ]
 }
