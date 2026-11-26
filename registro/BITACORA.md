@@ -461,3 +461,6 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 ## 26-nov-2026 16:50 · Recolección de los 4 partidos de la noche
 - A petición del usuario: São Paulo–Remo (18:00), Montevideo City–Nacional (19:30), Pachuca–Chivas (20:00) y León–Cruz Azul (22:10) en `jornadas/2026-11-26-noche/`. Betano 15:54 (3 con mercados de jugador, 1 sin), Sofascore 10/10 partidos por equipo con jugadores y onces probables, árbitros (ValueStats; Montevideo solo nombre), notas con tabla/bajas/guion; ESTADO.md con límites.
 - Hallazgo: Pachuca–Chivas y León–Cruz Azul son ida de cuartos de la Liguilla (empate global favorece a Chivas y a Cruz Azul); Montevideo City–Nacional es semifinal a partido único de la Copa AUF en Durazno; São Paulo–Remo es la fecha 37 con Remo descendido.
+
+## 26-nov-2026 17:25 · BB Boost São Paulo–Remo
+- Onces oficiales 17:11; Betano subió los remates de Remo tras los onces. PRINCIPAL 5,70 (Tarjetas Más 4.5 + Remates Remo Más 8.5 + Córners Remo Más 3.5; 2 de 3 cumplen); alternativa 5,20. bb/bb_boost_resumen.json de la noche.
