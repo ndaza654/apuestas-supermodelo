@@ -453,3 +453,4 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 
 ## 26-nov-2026 12:30 · Combis de las 12:45
 - 3 combinadas entre partidos (3,65 / 3,65 / 3,81), 16 patas distintas de 15 partidos, todas con 7 de 10 en ambos y colchón ≥ 1,8; `combinadas_enviadas_1230.json`.
+- 26-nov 12:40: 4 dobles con patas ≥ 1,50 (combinadas_enviadas_1240.json); C1–C3 de las 12:30 cargadas en el cupón por Claude y apostadas por el usuario (C3 entró a 3,71, no 3,81).

@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-26 | 12:40 | Dobles con patas ≥ 1,50 | Brann, Gent, Iberia, Braga, Friburgo, Hoffenheim, Plzen, Celta | entregas/2026-11-26/1240_dobles_150.md |
 | 2026-11-26 | 12:30 | 3 combinadas entre partidos ≥ 3,50 (sin líneas repetidas) | 16 partidos de las 12:45 | `2026-11-26/1230_combis_1245.md` |
 | 2026-11-26 | 11:38 | BB Boost Olympiacos–Milan por contexto (5,20 y 5,30, once oficial) | Olympiacos–Milan | `2026-11-26/1135_bb_boost_olympiacos_milan.md` |
 | 2026-11-26 | 10:45 | BB Boost Europa League (principal + alternativa; Olympiacos no recomendado) | Crystal Palace–Real Sociedad, Olympiacos–Milan | `2026-11-26/1045_bb_boost_olympiacos_palace.md` |
