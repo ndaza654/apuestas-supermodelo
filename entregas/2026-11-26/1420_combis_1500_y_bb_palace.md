@@ -25,3 +25,15 @@ Evidencia pata por pata: `jornadas/2026-11-26/combinadas_enviadas_1420.json`.
 **PRINCIPAL 5,10 real:** Córners Más 8,5 (1,55) + Faltas Crystal Palace Menos 12,5 (1,80) + Remates Crystal Palace Menos 16,5 (1,65). 3 de 3 patas cumplen ≥ 7 de 10; «conjunto» 4 de 10 y 4 de 10; p modelo 16,9 %; con boost +25 % paga 6,13 (equilibrio 16,3 %).
 **ALTERNATIVA 6,10 real:** Córners Más 8,5 + Tarjetas Menos 5,5 + Remates Palace Menos 16,5 + Faltas Palace Menos 13,5 (p 13,5 %; conjunto 4 y 2 de 10).
 Por qué cambió frente a la mañana: Real Sociedad sale con suplentes (Marrero, M. Sarr, A. Muñoz, Ochieng, Turrientes, Zakharyan; sin Remiro, Zubeldia, Kubo, Soler, Sučić) y Palace con su once fuerte (Mateta, Nketiah, Kamada, Pino): se quitaron «Real Sociedad ataca» y «Palace no tira al arco». Palace es un equipo de pocas faltas (11,7) y pocos remates (10,7) que concede córners (7,0). Árbitro Saggi 3,81 amarillas/partido.
+
+## Reparto de $100.000 pedido por el usuario (14:22): 35 % al BB y 65 % al resto
+| Apuesta | Monto | Cuota | Cobro si se da | p modelo |
+|---|---|---|---|---|
+| BB Boost Palace (5,10 + 25 %) | $35.000 | 6,13 efectiva | $214.375 | 17 % |
+| B1 | $13.000 | 2,39 | $31.070 | 37 % |
+| B2 | $12.000 | 2,67 | $32.040 | 33 % |
+| A1 | $11.000 | 3,83 | $42.130 | 22 % |
+| A3 | $11.000 | 3,65 | $40.150 | 24 % |
+| A2 | $10.000 | 4,15 | $41.500 | 21 % |
+| B3 | $8.000 | 2,29 | $18.320 | 39 % |
+Criterio: más monto a las dobles (más probables) y a A1/A3; menos a B3 (la más floja) y A2 (la menos probable). Esperado con p del modelo ≈ $93.000 de vuelta (≈ −$7.000); el modelo suele inflar p.
