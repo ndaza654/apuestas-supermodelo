@@ -18,7 +18,29 @@
     "p_ajust": 0.296,
     "stake": 30000,
     "estado": "RECOMENDADA (precio real 10:08)",
-    "jugada": false
+    "jugada": true,
+    "resultado": "cumplió",
+    "patas_real": [
+     [
+      true,
+      "8 córners"
+     ],
+     [
+      true,
+      "3 puntos de tarjetas"
+     ],
+     [
+      true,
+      "1 goles"
+     ],
+     [
+      true,
+      "1-0"
+     ]
+    ],
+    "stake_usuario": 30000,
+    "precio_bb_cupon": 3.0,
+    "nota_cupon": "Apostada por el usuario ($30.000 a 3,00): se dio completa (1-0; córners 8, tarjetas 3). Cobró $90.000."
    },
    {
     "partido": "FC Kairat–Mjallby · 10:30",
@@ -33,7 +55,22 @@
     "p_ajust": 0.283,
     "stake": 30000,
     "estado": "ALTERNATIVA 3 patas (más margen sobre 3,00; la pata de tarjetas es la más floja)",
-    "jugada": false
+    "jugada": false,
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "8 córners"
+     ],
+     [
+      true,
+      "3 puntos de tarjetas"
+     ],
+     [
+      true,
+      "1 goles"
+     ]
+    ]
    },
    {
     "partido": "FC Kairat–Mjallby · 10:30",
@@ -49,7 +86,26 @@
     "p_ajust": 0.329,
     "stake": 30000,
     "estado": "DESCARTADA: precio real justo 3,00, sin margen",
-    "jugada": false
+    "jugada": false,
+    "resultado": "falló",
+    "patas_real": [
+     [
+      true,
+      "8 córners"
+     ],
+     [
+      true,
+      "3 puntos de tarjetas"
+     ],
+     [
+      true,
+      "1 goles"
+     ],
+     [
+      false,
+      "6 tiros al arco (local)"
+     ]
+    ]
    }
   ]
  }

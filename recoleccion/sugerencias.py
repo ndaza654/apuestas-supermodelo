@@ -431,12 +431,14 @@ def cruzadas():
             pr_ = c.get('patas_real') or []
             legs, partidos = [], []
             for i, pt in enumerate(c['patas']):
-                part = re.sub(r'\s+\d{2}:\d{2}$', '', pt[0]).replace(' - ', '–')
+                # dos formatos de pata: lista [«partido HH:MM», texto, cuota, p, detalle] o dict {partido, seleccion, cuota, p, evidencia} (desde el 26-nov)
+                pa, se, cu = (pt['partido'], pt['seleccion'], pt.get('cuota_cupon', pt.get('cuota'))) if isinstance(pt, dict) else (pt[0], pt[1], pt[2])
+                part = re.sub(r'\s+\d{2}:\d{2}$', '', pa).replace(' - ', '–')
                 partidos.append(part)
                 ok, real = pr_[i] if i < len(pr_) else (None, 'pendiente')
-                legs.append((part, f'{part}: {pt[1]}', pt[2], ('C' if ok is True else 'F' if ok is False else 'P', real)))
-            add(f'{jor} · combinadas entre partidos ({hora})', jor, hora, 'combinada entre partidos', f"{c['id']} · {c['tipo']}", ' + '.join(partidos), legs, c.get('cuota', ''),
-                c.get('p', ''), 'jugada' if c.get('jugada') else 'no jugada', f"Cuotas Betano leídas ese día; p recortada del modelo, sin validar frente al precio; EV {c.get('ev', '')}.", os.path.relpath(rc, RAIZ))
+                legs.append((part, f'{part}: {se}', cu, ('C' if ok is True else 'F' if ok is False else 'P', real)))
+            add(f'{jor} · combinadas entre partidos ({hora})', jor, hora, 'combinada entre partidos', f"{c['id']} · {c.get('tipo', 'combinada')}", ' + '.join(partidos), legs, c.get('cuota_cupon') or c.get('cuota') or c.get('cuota_total', ''),
+                c.get('p', c.get('p_modelo', '')), 'jugada' if (c.get('jugada') or c.get('apostada')) else 'no jugada', f"Cuotas Betano leídas ese día; p recortada del modelo, sin validar frente al precio; EV {c.get('ev', '')}.", os.path.relpath(rc, RAIZ))
 
 
 def quince(rows):

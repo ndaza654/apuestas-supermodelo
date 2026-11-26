@@ -59,12 +59,26 @@
      "Faltas de Palace ≤12: 7 y 7 de 10; esperado 10,9",
      "Remates de Palace ≤16: 8 y 7 de 10; esperado 12,55 (Palace promedia 10,7)"
     ],
-    "resultado": null,
+    "resultado": "pendiente",
     "jugada": true,
     "precio_bb_cupon": 5.4,
     "stake_usuario": 35000,
     "boost_cupon": "+25 %",
-    "nota_cupon": "Apostada 14:25 a 5,40 (faltas de Palace subió a 1,90); boost +25 % activado en el cupón."
+    "nota_cupon": "Apostada 14:25 a 5,40 (faltas de Palace subió a 1,90); boost +25 % activado en el cupón.",
+    "patas_real": [
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ]
+    ]
    },
    {
     "patas": [
@@ -110,8 +124,26 @@
     "evidencia": [
      "Tarjetas ≤5: árbitro Saggi 3,81 amarillas/partido"
     ],
-    "resultado": null,
-    "jugada": false
+    "resultado": "pendiente",
+    "jugada": false,
+    "patas_real": [
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ]
+    ]
    },
    {
     "patas": [
@@ -156,8 +188,22 @@
      "Faltas de Palace ≤12: 7 de 10 y 7 de 10; esperado 10,9",
      "Tiros al arco de Palace ≤5: 8 de 10 y 7 de 10; esperado 4,25 (sin Sarr)"
     ],
-    "resultado": null,
-    "jugada": false
+    "resultado": "pendiente",
+    "jugada": false,
+    "patas_real": [
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ]
+    ]
    },
    {
     "patas": [
@@ -202,8 +248,22 @@
      "Tiros al arco de Real Sociedad ≥4: 8 de 10 y 7 de 10; esperado 5,3",
      "Faltas de Palace ≤12: 7 de 10 y 7 de 10"
     ],
-    "resultado": null,
-    "jugada": false
+    "resultado": "pendiente",
+    "jugada": false,
+    "patas_real": [
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ]
+    ]
    }
   ]
  },
@@ -258,8 +318,26 @@
      "Milan ≤ 1 gol: Olympiacos recibió ≤ 1 en 8 de 10 (en casa 4 de 5; 1 gol en 4 partidos de la Europa League); Milan sin Pulisic, Modrić, Loftus-Cheek ni Saelemaekers (once oficial)",
      "Tarjetas ≥ 5 (puntos): árbitro Kavanagh 5,5 por partido y 75 % de sus partidos > 4,5; Olympiacos en casa contra grandes: PAOK 7, Sparta 6, Panathinaikos 13"
     ],
-    "resultado": null,
-    "jugada": false
+    "resultado": "falló",
+    "jugada": true,
+    "patas_real": [
+     [
+      true,
+      "6-1 córners (Olympiacos)"
+     ],
+     [
+      false,
+      "4 goles (visitante)"
+     ],
+     [
+      true,
+      "5 puntos de tarjetas"
+     ]
+    ],
+    "stake_usuario": 27500,
+    "precio_bb_cupon": 5.0,
+    "boost_cupon": "+25 %",
+    "nota_cupon": "Apostada ~11:40 a 5,00 (el catálogo daba 5,20); boost +25 %. Cayó por Milan goles Menos 1.5 → 4 (2-4). Las otras dos patas se dieron."
    },
    {
     "patas": [
@@ -304,8 +382,22 @@
      "Milan ≤ 1 gol: ver principal",
      "Tarjetas ≥ 5: ver principal"
     ],
-    "resultado": null,
-    "jugada": false
+    "resultado": "falló",
+    "jugada": false,
+    "patas_real": [
+     [
+      true,
+      "12 remates (visitante)"
+     ],
+     [
+      false,
+      "4 goles (visitante)"
+     ],
+     [
+      true,
+      "5 puntos de tarjetas"
+     ]
+    ]
    },
    {
     "patas": [
@@ -350,8 +442,22 @@
      "Tarjetas ≥5 (puntos): 5 de 10 y 5 de 10; árbitro Kavanagh 5,5 por partido",
      "Faltas de Olympiacos ≥13: 6 de 10 y 8 de 10; esperado 14,2"
     ],
-    "resultado": null,
-    "jugada": false
+    "resultado": "cumplió",
+    "jugada": false,
+    "patas_real": [
+     [
+      true,
+      "12 remates (visitante)"
+     ],
+     [
+      true,
+      "5 puntos de tarjetas"
+     ],
+     [
+      true,
+      "13 faltas (local)"
+     ]
+    ]
    },
    {
     "patas": [
@@ -396,8 +502,22 @@
      "Tarjetas de Olympiacos ≤2: 9 de 10 y 8 de 10, pero Kavanagh 5,2 amarillas por partido",
      "Faltas de Olympiacos ≥13: 6 de 10 y 8 de 10"
     ],
-    "resultado": null,
-    "jugada": false
+    "resultado": "falló",
+    "jugada": false,
+    "patas_real": [
+     [
+      true,
+      "12 remates (visitante)"
+     ],
+     [
+      false,
+      "3 puntos de tarjetas (local)"
+     ],
+     [
+      true,
+      "13 faltas (local)"
+     ]
+    ]
    }
   ]
  }

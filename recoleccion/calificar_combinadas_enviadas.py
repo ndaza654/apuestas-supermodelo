@@ -23,7 +23,8 @@ def partido(txt, R):
         if n(p) == t:
             return p
     pal = [w for w in re.split(r'\W+', t) if len(w) > 3 and w not in ('club', 'real', 'city')]
-    c = [p for p in R if all(any(w in x for x in re.split(r' - ', n(p))) for w in pal[:1])] if pal else []
+    # el respaldo de «una sola palabra» solo vale si el nombre trae UNA palabra distintiva (el 26-nov «Olympique Lyonnais» caía en «Olympique Marseille»)
+    c = [p for p in R if all(any(w in x for x in re.split(r' - ', n(p))) for w in pal[:1])] if len(pal) == 1 else []
     c = [p for p in R if sum(w in n(p) for w in pal) >= min(2, len(pal))] or c
     return c[0] if c else None
 
@@ -73,8 +74,10 @@ def main(jor, resf):
         for c in C:
             out = []
             for pt in c['patas']:
-                p = partido(pt[0], R)
-                out.append(list(evaluar(pt[1], p, R)) if p else [None, 'sin resultado'])
+                # dos formatos: lista [partido, selección, ...] o dict {"partido": ..., "seleccion": ...} (desde el 26-nov)
+                pa, se = (pt['partido'], pt['seleccion']) if isinstance(pt, dict) else (pt[0], pt[1])
+                p = partido(pa, R)
+                out.append(list(evaluar(se, p, R)) if p else [None, 'sin resultado'])
             c['patas_real'] = out
             oks = [o[0] for o in out]
             c['resultado'] = 'falló' if any(o is False for o in oks) else ('cumplió' if all(o is True for o in oks) else 'pendiente')
