@@ -10,6 +10,27 @@
  "arbitro": "Visser L.",
  "estadio": "Red Bull Arena",
  "fuentes": [
-  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá"
- ]
+  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá",
+  "Guion escrito por Claude 25-nov 22:50 con fichas (últimos 10 Sofascore/Flashscore), tabla de la fase y árbitro (ValueStats); no se releyó la previa"
+ ],
+ "guion": {
+  "resumen": "Salzburg (4 pts) obligado contra el colista Ararat (0 pts, 4:14): Salzburg domina pero sin goleada (Salzburg Menos 3,5 goles en 8 y 9 de 10).",
+  "domina": "local",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "mas_remates",
+    "equipo": "local"
+   },
+   {
+    "tipo": "gana",
+    "equipo": "local"
+   },
+   {
+    "tipo": "goles_menos",
+    "linea": 4.5
+   }
+  ],
+  "escrito": "2026-11-25 22:50 Bogotá, antes del partido; solo con datos del repo (sin onces oficiales)"
+ }
 }

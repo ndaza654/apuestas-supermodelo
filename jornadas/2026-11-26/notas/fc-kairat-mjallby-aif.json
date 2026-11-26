@@ -10,6 +10,27 @@
  "arbitro": "Raczkowski P.",
  "estadio": "Almaty Central Stadium",
  "fuentes": [
-  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá"
- ]
+  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá",
+  "Guion escrito por Claude 25-nov 22:50 con fichas (últimos 10 Sofascore/Flashscore), tabla de la fase y árbitro (ValueStats); no se releyó la previa"
+ ],
+ "guion": {
+  "resumen": "Parejo y trabado: Kairat (2 pts) necesita puntos en casa, Mjallby (7 pts, 5:1 en goles) llega sólido. Árbitro Raczkowski 4,1 tarjetas por partido.",
+  "domina": "parejo",
+  "ritmo": "cerrado",
+  "predicciones": [
+   {
+    "tipo": "tarjetas_menos_que",
+    "linea": 6.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 7.0
+   },
+   {
+    "tipo": "goles_menos",
+    "linea": 3.5
+   }
+  ],
+  "escrito": "2026-11-25 22:50 Bogotá, antes del partido; solo con datos del repo (sin onces oficiales)"
+ }
 }

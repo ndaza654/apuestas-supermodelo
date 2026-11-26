@@ -10,6 +10,27 @@
  "arbitro": "Pajac I.",
  "estadio": "Doosan Arena",
  "fuentes": [
-  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá"
- ]
+  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá",
+  "Guion escrito por Claude 25-nov 22:50 con fichas (últimos 10 Sofascore/Flashscore), tabla de la fase y árbitro (ValueStats); no se releyó la previa"
+ ],
+ "guion": {
+  "resumen": "Benfica (12 pts, 13:3) domina, Plzen (3 pts) marca en casa (10 de 10): partido abierto con córners.",
+  "domina": "visitante",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "mas_remates",
+    "equipo": "visitante"
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 8.0
+   },
+   {
+    "tipo": "no_pierde",
+    "equipo": "visitante"
+   }
+  ],
+  "escrito": "2026-11-25 22:50 Bogotá, antes del partido; solo con datos del repo (sin onces oficiales)"
+ }
 }

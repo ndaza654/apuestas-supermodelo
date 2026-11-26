@@ -10,6 +10,23 @@
  "arbitro": "Kavanagh C.",
  "estadio": "Georgios Karaiskakis Stadium",
  "fuentes": [
-  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá"
- ]
+  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá",
+  "Guion escrito por Claude 25-nov 22:50 con fichas (últimos 10 Sofascore/Flashscore), tabla de la fase y árbitro (ValueStats); no se releyó la previa"
+ ],
+ "guion": {
+  "resumen": "Olympiacos (10 pts, 4:1) en casa contra un Milan de 3 pts: Olympiacos remata más; Milan limitado (remates Menos 14,5 en 9 y 7 de 10). Kavanagh saca 5,5 tarjetas: no ir a tarjetas Menos.",
+  "domina": "local",
+  "ritmo": "cerrado",
+  "predicciones": [
+   {
+    "tipo": "mas_remates",
+    "equipo": "local"
+   },
+   {
+    "tipo": "goles_menos",
+    "linea": 3.5
+   }
+  ],
+  "escrito": "2026-11-25 22:50 Bogotá, antes del partido; solo con datos del repo (sin onces oficiales)"
+ }
 }

@@ -10,6 +10,31 @@
  "arbitro": "Gishamer S.",
  "estadio": "Parc Olympique Lyonnais",
  "fuentes": [
-  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá"
- ]
+  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá",
+  "Guion escrito por Claude 25-nov 22:50 con fichas (últimos 10 Sofascore/Flashscore), tabla de la fase y árbitro (ValueStats); no se releyó la previa"
+ ],
+ "guion": {
+  "resumen": "Lyon (7 pts) contra el penúltimo Lillestrom (1 pt, 2:10): Lyon con la pelota y córners; árbitro Gishamer 3,5 tarjetas por partido.",
+  "domina": "local",
+  "ritmo": "cerrado",
+  "predicciones": [
+   {
+    "tipo": "mas_corners",
+    "equipo": "local"
+   },
+   {
+    "tipo": "tarjetas_menos_que",
+    "linea": 5.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 8.0
+   },
+   {
+    "tipo": "gana",
+    "equipo": "local"
+   }
+  ],
+  "escrito": "2026-11-25 22:50 Bogotá, antes del partido; solo con datos del repo (sin onces oficiales)"
+ }
 }

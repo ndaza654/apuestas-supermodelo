@@ -10,6 +10,31 @@
  "arbitro": "Derevinskyi O.",
  "estadio": "Estádio Municipal de Braga",
  "fuentes": [
-  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá"
- ]
+  "Flashscore, página del partido (tabla, forma, directos) leída 26-11 (día de la jornada; confirmar con la hora de lectura) ~10:25 Bogotá",
+  "Guion escrito por Claude 25-nov 22:50 con fichas (últimos 10 Sofascore/Flashscore), tabla de la fase y árbitro (ValueStats); no se releyó la previa"
+ ],
+ "guion": {
+  "resumen": "Braga (4 pts) en casa contra KuPS (1 pt): Braga domina, poco gol (Menos 4,5 en 9 y 9 de 10), árbitro de 3,5 tarjetas.",
+  "domina": "local",
+  "ritmo": "cerrado",
+  "predicciones": [
+   {
+    "tipo": "mas_remates",
+    "equipo": "local"
+   },
+   {
+    "tipo": "no_pierde",
+    "equipo": "local"
+   },
+   {
+    "tipo": "goles_menos",
+    "linea": 4.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 7.0
+   }
+  ],
+  "escrito": "2026-11-25 22:50 Bogotá, antes del partido; solo con datos del repo (sin onces oficiales)"
+ }
 }

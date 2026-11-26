@@ -424,3 +424,7 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - Modelo de jugador inflado ≈ 20 pts aun sin las escaleras contaminadas: el problema es del modelo; jugadores fuera de sugerencias hasta recalibrar.
 - Arreglo: `calificar_bb.py` ya no busca el partido por palabras sueltas cuando no hay resultado (marcaba «falló» en Santa Fe y Nacional antes de jugarse).
 - Pendiente: boletos del usuario (sin sesión de Betano), 6 partidos de la noche, BB de Santa Fe/Nacional y K1–K4.
+
+## 25-nov-2026 (23:00) · análisis del 26-nov
+- 12 de 36 partidos a fondo (regularidad en familias distintas, sin alertas del modelo, árbitro leído). Sencillas «cumple» a cuota 1,30–1,50 con goles Menos como eje; tarjetas Menos solo con árbitro a favor; córners Más del favorito local; sin tarjetas Más, fueras Más, córners Menos ni jugadores (lecciones del 25-nov). 3 combinadas de 2 patas, una por bloque (D1–D3). Guion comprobable escrito en los 12 (`notas/`).
+- Límites: una lectura de cuotas (25-nov 15:00), sin onces oficiales ni BB Boost (no hay navegador conectado). Detalle: `entregas/2026-11-25/2300_analisis_26nov.md`.

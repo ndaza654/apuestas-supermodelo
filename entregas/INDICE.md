@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-25 | 23:00 | Análisis 26-nov: 12 sencillas, 3 combinadas, guion de 12 partidos | Europa League y Conference (12 de 36) | `2026-11-25/2300_analisis_26nov.md` + `2300_informe_26nov.html` |
 | 2026-11-25 | 18:10 | Balance 25-nov (38 de 44 partidos; BB PSG–Roma ✓; sencillas 80 %) | Champions, Youth, ACL, Championship, J1 | `2026-11-25/1810_balance_25nov_tarde.md` + `.html` |
 | 2026-11-25 | 17:35 | Combinadas de 2 patas para lo que queda | Atlético-MG–Corinthians, Boca–Rivadavia, Toluca–Atlas, Monterrey–América | `2026-11-25/1735_combinadas_restantes.md` |
 | 2026-11-25 | 17:16 | BB Boost Colombia (elegido Santa Fe–Once Caldas 5,10; Nacional–Medellín no recomendado) | Santa Fe–Once Caldas, Nacional–Medellín | `2026-11-25/1716_bb_boost_colombia.md` |
