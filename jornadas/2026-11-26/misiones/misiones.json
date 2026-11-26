@@ -1,0 +1,56 @@
+{
+ "actualizado": "10:10",
+ "nota": "Misión Betano (23/11 09:00 – 26/11 23:59): Bet Builder, mínimo 3 selecciones, monto mínimo $30.000 por apuesta, cuota total 3,00. Precios Bet Builder REALES leídos en Betano (mc-leg) a las ≈10:08 Bogotá en el navegador integrado; cuotas de cada pata releídas en el mismo momento. Una sola lectura: revisar el precio en el cupón antes de apostar (si baja de 3,00 no cuenta).",
+ "m1": {
+  "titulo": "Misión Betano · Bet Builder, mínimo 3 selecciones, cuota total ≥ 3,00, mínimo $30.000 por apuesta",
+  "combos": [
+   {
+    "partido": "FC Kairat–Mjallby · 10:30",
+    "patas": [
+     "Córners Más 7.5 @1,30",
+     "Tarjetas Menos 6.5 @1,35",
+     "Goles Menos 3.5 @1,32",
+     "Kairat o empate @1,33"
+    ],
+    "producto": 3.08,
+    "precio_real": 3.15,
+    "p": 0.268,
+    "p_ajust": 0.296,
+    "stake": 30000,
+    "estado": "RECOMENDADA (precio real 10:08)",
+    "jugada": false
+   },
+   {
+    "partido": "FC Kairat–Mjallby · 10:30",
+    "patas": [
+     "Córners Más 8.5 @1,55",
+     "Tarjetas Menos 5.5 @1,62",
+     "Goles Menos 3.5 @1,32"
+    ],
+    "producto": 3.31,
+    "precio_real": 3.3,
+    "p": 0.255,
+    "p_ajust": 0.283,
+    "stake": 30000,
+    "estado": "ALTERNATIVA 3 patas (más margen sobre 3,00; la pata de tarjetas es la más floja)",
+    "jugada": false
+   },
+   {
+    "partido": "FC Kairat–Mjallby · 10:30",
+    "patas": [
+     "Córners Más 7.5 @1,30",
+     "Tarjetas Menos 6.5 @1,35",
+     "Goles Menos 3.5 @1,32",
+     "Kairat tiros al arco Menos 5.5 @1,38"
+    ],
+    "producto": 3.2,
+    "precio_real": 3.0,
+    "p": 0.294,
+    "p_ajust": 0.329,
+    "stake": 30000,
+    "estado": "DESCARTADA: precio real justo 3,00, sin margen",
+    "jugada": false
+   }
+  ]
+ }
+}
