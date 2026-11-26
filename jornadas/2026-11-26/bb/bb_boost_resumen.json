@@ -13,10 +13,102 @@
   "partido": "Crystal Palace FC - Real Sociedad",
   "hora": "2026-11-26 15:00",
   "evento": 91652105,
-  "leido_hora": "10:39",
-  "veredicto": "BB Boost: SÍ cumple. Córners Real Sociedad Más 3.5 + Faltas Crystal Palace Menos 12.5 + Tiros al arco Crystal Palace Menos 5.5 = 5,30 real; 3 de 3 patas con «cumple».",
-  "nota": "Tabla: Palace 21.º y Real Sociedad 20.º (5 pts cada uno). Bajas (Sofascore, probable): Palace sin I. Sarr, C. Riad, Tomiyasu (Mingueza duda); Real Sociedad sin Barrenetxea, Aramburu, Odriozola. Palace 3-4-2-1 concede 7,0 córners por partido; Real Sociedad hace 5,8. Árbitro Saggi R. (3,9 tarjetas por partido en sus últimos 20). Releer precio y onces oficiales ≈ 14:00.",
+  "leido_hora": "14:15",
+  "veredicto": "BB Boost: SÍ cumple. Córners Más 8.5 + Faltas Crystal Palace Menos 12.5 + Remates Crystal Palace Menos 16.5 = 5,10 real (mc-leg 14:15); 3 de 3 patas con «cumple».",
+  "nota": "Onces OFICIALES (Sofascore 14:15): Palace Henderson; Richards, Disasi, Canvot; Timber, Hughes, Kamada, Chilwell; Nketiah, Pino; Mateta. Real Sociedad ROTA: Marrero; Fort, J. Martin, M. Sarr, A. Muñoz; Ochieng, Gorrotxategi, Turrientes, Guedes; Oyarzabal, Zakharyan (sin Remiro, Zubeldia, Kubo, Soler, Sučić en el once). Por la rotación se sacaron las patas de «Real Sociedad ataca» y «Palace no remata al arco» del combo de la mañana. Árbitro Saggi 3,81 amarillas/partido. Precio real Betano 14:15.",
   "combos": [
+   {
+    "patas": [
+     "Córners Más 8.5",
+     "Faltas Crystal Palace FC Menos 12.5",
+     "Remates Crystal Palace FC Menos 16.5"
+    ],
+    "ids": [
+     "10878002244",
+     "10894029100",
+     "10894019815"
+    ],
+    "cuotas_catalogo": [
+     1.55,
+     1.8,
+     1.65
+    ],
+    "cuotas_cupon": [
+     1.55,
+     1.8,
+     1.65
+    ],
+    "precio_bb": 5.1,
+    "producto_cupon": 4.6,
+    "p_modelo": 0.169,
+    "p_prudente": 0.169,
+    "ev_sin_boost": -0.138,
+    "ev_con_boost": 0.035,
+    "pago_boost": 6.125,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "PRINCIPAL 14:20 · 3 de 3 patas cumplen ≥7 de 10",
+    "leido": "14:15",
+    "patas_cumple_regularidad": 3,
+    "conjunto_10": [
+     "4 de 10",
+     "4 de 10"
+    ],
+    "evidencia": [
+     "Córners ≥9: 8 y 7 de 10; esperado 11,05 (Palace concede 7,0)",
+     "Faltas de Palace ≤12: 7 y 7 de 10; esperado 10,9",
+     "Remates de Palace ≤16: 8 y 7 de 10; esperado 12,55 (Palace promedia 10,7)"
+    ],
+    "resultado": null,
+    "jugada": false
+   },
+   {
+    "patas": [
+     "Córners Más 8.5",
+     "Tarjetas Menos 5.5",
+     "Remates Crystal Palace FC Menos 16.5",
+     "Faltas Crystal Palace FC Menos 13.5"
+    ],
+    "ids": [
+     "10878002244",
+     "10894024905",
+     "10894019815",
+     "10909776264"
+    ],
+    "cuotas_catalogo": [
+     1.55,
+     1.55,
+     1.65,
+     1.52
+    ],
+    "cuotas_cupon": [
+     1.55,
+     1.55,
+     1.65,
+     1.52
+    ],
+    "precio_bb": 6.1,
+    "producto_cupon": 6.03,
+    "p_modelo": 0.135,
+    "p_prudente": 0.135,
+    "ev_sin_boost": -0.176,
+    "ev_con_boost": -0.004,
+    "pago_boost": 7.375,
+    "p_equilibrio_boost": 0.136,
+    "cumple": true,
+    "tag": "ALTERNATIVA 14:20 · 4 patas (más pago, menos probable)",
+    "leido": "14:15",
+    "patas_cumple_regularidad": 4,
+    "conjunto_10": [
+     "4 de 10",
+     "2 de 10"
+    ],
+    "evidencia": [
+     "Tarjetas ≤5: árbitro Saggi 3,81 amarillas/partido"
+    ],
+    "resultado": null,
+    "jugada": false
+   },
    {
     "patas": [
      "Córners Real Sociedad Más 3.5",
@@ -47,7 +139,7 @@
     "pago_boost": 6.375,
     "p_equilibrio_boost": 0.157,
     "cumple": true,
-    "tag": "PRINCIPAL · 3 de 3 patas cumplen ≥7 de 10",
+    "tag": "SUPERADA 14:20 (onces oficiales) · PRINCIPAL · 3 de 3 patas cumplen ≥7 de 10",
     "leido": "10:39",
     "patas_cumple_regularidad": 3,
     "conjunto_10": [
@@ -93,7 +185,7 @@
     "pago_boost": 7.25,
     "p_equilibrio_boost": 0.138,
     "cumple": true,
-    "tag": "ALTERNATIVA · 3 de 3 patas cumplen; más precio y el mejor «conjunto», más frágil la de córners 4.5",
+    "tag": "SUPERADA 14:20 (onces oficiales) · ALTERNATIVA · 3 de 3 patas cumplen; más precio y el mejor «conjunto», más frágil la de córners 4.5",
     "leido": "10:39",
     "patas_cumple_regularidad": 3,
     "conjunto_10": [

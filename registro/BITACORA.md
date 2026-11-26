@@ -454,3 +454,4 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 ## 26-nov-2026 12:30 · Combis de las 12:45
 - 3 combinadas entre partidos (3,65 / 3,65 / 3,81), 16 patas distintas de 15 partidos, todas con 7 de 10 en ambos y colchón ≥ 1,8; `combinadas_enviadas_1230.json`.
 - 26-nov 12:40: 4 dobles con patas ≥ 1,50 (combinadas_enviadas_1240.json); C1–C3 de las 12:30 cargadas en el cupón por Claude y apostadas por el usuario (C3 entró a 3,71, no 3,81).
+- 26-nov 14:20: relectura de Betano 14:10 y onces oficiales (18 partidos de las 15:00), correr_jornada; combis A1–A3 (≥3,50) y B1–B3 (dobles ≥1,50) en combinadas_enviadas_1420.json; BB Palace final 5,10 (Real Sociedad rota). Entrega 1420.
