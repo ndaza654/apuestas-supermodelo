@@ -24,5 +24,25 @@
   "Sofascore 15:55 (forma, jugadores, once probable)",
   "ValueStats 16:00 (árbitro)",
   "Terra, O Tempo, Lance, Itatiaia, ArqTricolor, GC Mais 26-nov (fecha, hora, bajas, tabla)"
- ]
+ ],
+ "guion": {
+  "resumen": "São Paulo (11.º, 5 partidos sin ganar, 9 bajas) recibe a un Remo ya descendido: remates parejos (14,6 contra 14,8 esperados), partido de pocos goles (2,45 esperados) pero con córners (11,7 esperados) y tarjetas por encima de 2,5 (árbitro con 5,3 amarillas).",
+  "domina": "parejo",
+  "ritmo": "cerrado",
+  "predicciones": [
+   {
+    "tipo": "goles_menos",
+    "linea": 3.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 8.5
+   },
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 2.5
+   }
+  ],
+  "escrito": "2026-11-26 ~16:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos), notas leídas y sin onces oficiales"
+ }
 }
