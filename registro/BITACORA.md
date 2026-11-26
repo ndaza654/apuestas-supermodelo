@@ -469,3 +469,8 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 - 36 de 36 partidos terminados (Sofascore). 16 boletos: 5 ganados, apostado $260.000, cobrado $423.000, **neto +$163.000**; los 3 BB +$225.000 (Palace BB Boost 5,40 → $227.500), combinadas entre partidos −$62.000 (5–6 patas 0 de 3). Histórico desde el 4-nov: 193 boletos, **neto +$25.752 (ROI +0,8 %)**.
 - Tus patas 35 de 49 (71 %); 9 de 14 caídas por 1–2 unidades. Líneas que cumplen: 82,6 %; modelo calibrado en equipo. Guion 42 de 57. Combinadas enviadas 8 de 18; sencillas sugeridas 365 de 486.
 - Los 10 boletos de la tarde se liquidaron por cálculo (Betano cerró la sesión del navegador). Líneas de jugador sin calificar.
+
+## 26-nov 17:35 · Balance con líneas de jugador y regla «balance = todo»
+- El usuario notó que el balance de las 18:00 dejó fuera las líneas de jugador (la regla 4b ya existía; se había dejado «pendiente»). Rehecho: Sofascore lineups/incidents de 35 partidos → `jornadas/2026-11-26/resultados/jugadores_resultado.txt` (+ crudo `jug26_sofa.json`) → `calificar_jugadores.py`: 21.855 líneas (13.962 resueltas, 1.773 cumplidas, 7.893 nulas).
+- Hallazgo de proceso: `resultados_por_partido.json` tenía «Nordsjaelland» sin tilde y `lineas.csv` «Nordsjælland»: 270 líneas de equipo de ese partido no se habían calificado; corregido (quedan 86 sin dato: 1T de Nordsjælland, Sunderland, Jablonec).
+- Jugadores: tasa real de titular remates 1+ 38,6 %, tiros al arco 1+ 23,3 %; modelo inflado 14–17 pts; precios de jugador del 26-nov con señales de lectura mala (Arokodare «5+ remates @1,31», tarjeta @15,5): sin conclusiones de ROI. Regla nueva en CLAUDE.md.
