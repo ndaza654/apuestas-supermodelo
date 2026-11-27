@@ -1,0 +1,48 @@
+{
+ "se_juega": "Süper Lig, viernes 27-nov. Duelo de la zona baja: Alanyaspor 14.º y Konyaspor 15.º.",
+ "tabla": "Alanyaspor 14.º, 12 pts (3G 3E 6P, 10:20, 5 derrotas seguidas); Konyaspor 15.º, 8 pts (2G 2E 8P, 8:18).",
+ "importancia": "alta",
+ "decisivo": true,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Cinco derrotas seguidas; bajas: ninguna leída del local."
+ },
+ "visitante": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Demirbag lesionado y Awaziem en duda (previa de Flashscore)."
+ },
+ "arbitro": "Sen A.: sin historial en ValueStats (no se encontró su página); no se estima.",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Duelo de equipos que no marcan (10 y 8 goles): pocos goles (2,4) y muchas tarjetas esperadas (4,5) por la urgencia.",
+  "domina": "parejo",
+  "ritmo": "cerrado",
+  "predicciones": [
+   {
+    "tipo": "goles_menos",
+    "linea": 3.5
+   },
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 3.5
+   },
+   {
+    "tipo": "corners_menos",
+    "linea": 10.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

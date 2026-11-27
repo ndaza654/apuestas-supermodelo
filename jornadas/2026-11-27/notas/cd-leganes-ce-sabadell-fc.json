@@ -1,0 +1,48 @@
+{
+ "se_juega": "LaLiga2, viernes 27-nov. Leganés (15.º) contra Sabadell (14.º): zona media-baja, un punto de diferencia.",
+ "tabla": "Sabadell 14.º, 19 pts (4G 7E 4P, 13:14, 15 PJ); Leganés 15.º, 18 pts (5G 3E 7P, 17:25, 15 PJ).",
+ "importancia": "normal",
+ "decisivo": false,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Peña y Pulido fuera."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Gioacchini y Moreno fuera; Bonaldo y Orriols en duda."
+ },
+ "arbitro": "Villalobos J. A.: 5.93 amarillas y 0.2 rojas por partido en 54 partidos (ValueStats).",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Pocos goles (13 y 17 en 15 partidos) y árbitro de muchas tarjetas (5,9 amarillas por partido): tarjetas altas (7,0 esperadas) y Sabadell con más remates.",
+  "domina": "visitante",
+  "ritmo": "cerrado",
+  "predicciones": [
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 4.5
+   },
+   {
+    "tipo": "goles_menos",
+    "linea": 3.5
+   },
+   {
+    "tipo": "mas_remates",
+    "equipo": "visitante"
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

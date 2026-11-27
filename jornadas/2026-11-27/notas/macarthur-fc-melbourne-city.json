@@ -1,0 +1,48 @@
+{
+ "se_juega": "A-League, viernes 27-nov 03:40 Bogotá (hora Flashscore 03:40). Temporada regular, 4-5 partidos jugados.",
+ "tabla": "Macarthur 5.º, 8 pts (5 PJ, 6:5); Melbourne City 7.º, 7 pts (4 PJ, 6:6). Tabla muy apretada: de 1.º a 7.º hay 3 puntos.",
+ "importancia": "normal",
+ "decisivo": false,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": false,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Un partido más que City; sin dato de bajas leído."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Un partido menos; sin dato de bajas leído."
+ },
+ "arbitro": "King A.: 3.79 amarillas y 0.15 rojas por partido en 105 partidos (ValueStats).",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Partido parejo de tabla apretada: goles altos para su liga (3,9 esperados), córners 10,45 y árbitro de tarjetas medias.",
+  "domina": "parejo",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 9.5
+   },
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 3.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

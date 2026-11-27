@@ -1,0 +1,44 @@
+{
+ "se_juega": "Saudi Pro League, fecha 13, viernes 27-nov 07:15 Bogotá. Al-Kholood busca cortar una racha de cinco derrotas.",
+ "tabla": "Al Khaleej 10.º, 15 pts (3G 6E 3P, 14:19); Al Kholood 11.º, 12 pts (3G 3E 5P, 17:26, 5 derrotas seguidas). Zona de descenso a 3-4 puntos.",
+ "importancia": "normal",
+ "decisivo": false,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Cinco derrotas seguidas; ataque alto (17 goles) pero defensa de 26 en contra."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": true,
+  "rotacion": false,
+  "animo": "Muchos empates (6); sin derrota en 3 de los últimos 5 según la forma."
+ },
+ "arbitro": "Árbitro sin leer.",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Kholood (5 derrotas, 26 goles en contra) recibe a un Khaleej de muchos empates: se espera partido abierto (3,7 goles) y tarjetas medias.",
+  "domina": "parejo",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 8.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

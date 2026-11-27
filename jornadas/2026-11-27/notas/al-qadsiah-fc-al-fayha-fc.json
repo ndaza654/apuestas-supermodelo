@@ -1,0 +1,48 @@
+{
+ "se_juega": "Saudi Pro League, fecha 13, viernes 27-nov 09:20 Bogotá. Al-Qadsiah, 2.º, recibe a Al-Fayha (13.º).",
+ "tabla": "Al-Qadsiah 2.º, 28 pts (9G 1E 2P, 32:12); Al Fayha 13.º, 11 pts (2G 5E 5P, 16:20). Al Hilal lidera con 30.",
+ "importancia": "alta",
+ "decisivo": false,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Cuatro victorias en los últimos cinco; pelea el liderato con Al Hilal."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": true,
+  "rotacion": false,
+  "animo": "Pocos goles (16) y muchos empates; sin victoria clara reciente."
+ },
+ "arbitro": "Árbitro sin leer.",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Qadsiah (2.º, 32 goles) domina la posesión y los remates (16,2 contra 12,1): goles 3,4 esperados y córners del local 6,0.",
+  "domina": "local",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "mas_remates",
+    "equipo": "local"
+   },
+   {
+    "tipo": "gana",
+    "equipo": "local"
+   },
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "se_juega": "Bundesliga, viernes 27-nov. Werder (6.º) recibe al Gladbach (18.º, 1 victoria).",
+ "tabla": "Werder Bremen 6.º, 18 pts (5G 3E 2P, 21:15); Borussia M'gladbach 18.º, 4 pts (1G 1E 8P, 12:26).",
+ "importancia": "alta",
+ "decisivo": false,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Grüll fuera por lesión; Njinmah en duda."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Sin varios titulares (Agu, Alvero, Musah, N'Diaye, Stage, Topp, Hashioka, Leopold, Leszczynski, Ullrich según Flashscore)."
+ },
+ "arbitro": "Zwayer F.: 4.75 amarillas y 0.12 rojas por partido en 166 partidos (ValueStats).",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Werder (21 goles) contra el penúltimo con 10 bajas: el local domina remates (16,1 contra 14,3) y goles 3,65 esperados; previa: Werder y ambos marcan.",
+  "domina": "local",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "gana",
+    "equipo": "local"
+   },
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 9.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

@@ -486,3 +486,6 @@ Con onces oficiales y catálogo releído: se mantiene Tarjetas Más 4.5 + Goles 
 
 ## 26-nov 21:55 · Mantenimiento
 Dashboard lee Sofascore (jornada noche visible con once, historial y árbitro); 245 vistas sin errores; calificadas tarjetas 1T del 24-nov, Nordsjælland 1T, São Paulo–Remo (equipo, jugador, BB: falló) y Montevideo–Nacional. Pendientes: Pachuca, León. Sin dato: fueras de Jablonec y Sunderland. Detalle: entregas/2026-11-26/2155_mantenimiento_dashboard_y_calificacion.md
+
+## 26-nov 23:45 · Recolección completa del 27-nov + Pronósticos con filtros
+19 partidos: Betano (una lectura 22:20–22:22), Sofascore (10+10, directos, once probable, ≈41–76 jugadores por partido), árbitro ValueStats (12 con historial; Sen y Taskinsoy sin página; 5 sin anunciar), notas de contexto + guion, fichas, informe y 205 sugerencias pendientes. 11 previas Flashscore (6 con apuesta, 5 IA sin apuesta) y la noticia Premier J12 contrastada. Página «Pronósticos Flashscore» con filtros (jornada, tipo, estado, origen, mercado, cuota, búsqueda). Parche: `arbitros_vs_decod.py` lee también jornadas solo-Sofascore.

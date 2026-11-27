@@ -1,0 +1,48 @@
+{
+ "se_juega": "MLS playoffs, 1/8 de final (serie), partido 2, viernes 27-nov 22:00 (Bogotá). Vancouver gana la serie 1-0; Real Salt Lake debe ganar.",
+ "tabla": "Playoffs: Vancouver 1-0 en la serie. Sin tabla de liga.",
+ "importancia": "alta",
+ "decisivo": true,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Debe ganar para forzar el tercer partido."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": true,
+  "rotacion": false,
+  "animo": "Ventaja 1-0 en la serie."
+ },
+ "arbitro": "Mendoza R.: 4.81 amarillas y 0.11 rojas por partido en 114 partidos (ValueStats).",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Partido de serie con el local obligado: córners altos (10,95 esperados), árbitro de muchas amarillas (4,8) y goles 3,25.",
+  "domina": "parejo",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "corners_mas",
+    "linea": 9.5
+   },
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 3.5
+   },
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

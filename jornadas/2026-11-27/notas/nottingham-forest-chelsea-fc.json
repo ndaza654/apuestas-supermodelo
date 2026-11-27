@@ -1,0 +1,52 @@
+{
+ "se_juega": "Premier League, fecha 12, viernes 27-nov 15:00 (Bogotá). Forest, en zona de descenso, recibe a un Chelsea irregular.",
+ "tabla": "Nottingham Forest 17.º, 9 pts (2G 3E 6P, 9:15, 11 PJ); Chelsea 8.º, 16 pts (5G 1E 5P, 20:20, 11 PJ).",
+ "importancia": "alta",
+ "decisivo": false,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Hudson-Odoi se espera disponible; mala forma (P G P E P)."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": true,
+  "rotacion": false,
+  "animo": "Caicedo en duda por espalda; sin perder en las últimas 5 visitas a Forest (noticia Apuestas CO)."
+ },
+ "arbitro": "Madley A.: 3.73 amarillas y 0.08 rojas por partido en 125 partidos (ValueStats).",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Forest con el peor ataque (9 goles) pero muchos remates (14,8); Chelsea (20 a favor y 20 en contra): 3,5 goles esperados. La previa pide ambos No y la noticia Más 2,5: se contradicen.",
+  "domina": "parejo",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 9.5
+   },
+   {
+    "tipo": "mas_remates",
+    "equipo": "local"
+   },
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 3.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "se_juega": "Saudi Pro League, fecha 13, viernes 27-nov 12:30 Bogotá. Duelo directo por los puestos de Champions asiática: Al-Ittihad 5.º y Neom 6.º (2 puntos).",
+ "tabla": "Al-Ittihad 5.º, 24 pts (7G 3E 1P, 21:11, 11 PJ); Neom SC 6.º, 22 pts (7G 1E 4P, 18:10, 12 PJ).",
+ "importancia": "alta",
+ "decisivo": true,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Un partido menos que Neom; ataque medio y defensa de 11."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": true,
+  "rotacion": false,
+  "animo": "Mejor defensa de ese bloque (10 goles en contra)."
+ },
+ "arbitro": "Árbitro sin leer.",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Dos defensas sólidas pero el modelo ve 3,2 goles y córners 9,3: partido parejo de tabla.",
+  "domina": "parejo",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 8.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

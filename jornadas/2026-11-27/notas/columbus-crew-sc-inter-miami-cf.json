@@ -1,0 +1,48 @@
+{
+ "se_juega": "MLS playoffs, 1/8 de final (serie), partido 2, viernes 27-nov 20:00 (Bogotá). Columbus gana la serie 1-0 tras el 3-0 del 21-nov: Inter Miami está contra la pared.",
+ "tabla": "Playoffs: Columbus 1-0 en la serie. Forma: Columbus G G G G G (5 victorias); Inter Miami P E G E P. Directos recientes: 3-0 (21-nov), 2-1 (27-sep), 2-2 (1-ago).",
+ "importancia": "alta",
+ "decisivo": true,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": false,
+  "le_sirve_empate": true,
+  "rotacion": false,
+  "animo": "5 victorias seguidas; ventaja 1-0 en la serie."
+ },
+ "visitante": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Debe ganar para no quedar eliminado; Messi como figura (Flashscore)."
+ },
+ "arbitro": "Fischer D.: 3.89 amarillas y 0.09 rojas por partido en 114 partidos (ValueStats).",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Columbus domina la serie y los remates (14,2 contra 12,6); Inter Miami debe arriesgar: partido abierto (3,9 goles esperados) y tarjetas altas (5,4).",
+  "domina": "local",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "mas_remates",
+    "equipo": "local"
+   },
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   },
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 3.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

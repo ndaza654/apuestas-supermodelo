@@ -1,0 +1,48 @@
+{
+ "se_juega": "Cuadrangular semifinal del Clausura, Grupo B, fecha 3, viernes 27-nov 18:35 (Bogotá). Quien pierde queda casi fuera de la final.",
+ "tabla": "Grupo B tras 2 fechas: Millonarios 4, América 4, Deportivo Cali 1 (P E, 1:2), Atl. Bucaramanga 1 (P E, 3:6).",
+ "importancia": "alta",
+ "decisivo": true,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Perdió el clásico con América 2-1 y empató la otra; árbitro sin anunciar."
+ },
+ "visitante": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Perdió 4-1 con Millonarios; peor defensa del grupo (6 en contra)."
+ },
+ "arbitro": "Árbitro sin leer.",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Dos equipos de 1 punto que no pueden perder: tarjetas altas (7,0 esperadas), pocos goles (2,25) y córners bajos (7,95).",
+  "domina": "parejo",
+  "ritmo": "cerrado",
+  "predicciones": [
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 4.5
+   },
+   {
+    "tipo": "goles_menos",
+    "linea": 2.5
+   },
+   {
+    "tipo": "corners_menos",
+    "linea": 9.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

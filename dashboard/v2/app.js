@@ -30,6 +30,7 @@ const ACT={home(){go('inicio')},close(){closeDr()},line(el){openLine(el.dataset.
  estppend(){ST.estp=P.map((p,i)=>[p,i]).filter(e=>e[0].jor===ST.jor&&e[0].est!=='final').map(e=>String(e[1]));upd()},
  usarest(){ST.strat=JSON.parse(JSON.stringify(ST.est));toast('Las demás pestañas ahora usan este filtro');upd()},
  volverest(){ST.est=JSON.parse(JSON.stringify(ST.strat));toast('Filtro vuelto al de las demás pestañas');upd()},
+ prlimpiar(){['prj','prt','pro','prm','pre','prc','prq'].forEach(k=>setp('f.'+k,''));upd()},
  clearf(el){const d={'f.lr':'','f.le':'','f.lk0':'','f.lk1':'','f.ls':'','f.lm':'','f.la':'','f.lp':''};String(el.dataset.keys||'').split(',').forEach(k=>{if(k in d)setp(k,d[k])});upd()},
  loadcup(el){const ks=JSON.parse(el.dataset.keys).filter(k=>BYKEY.has(k));ST.cup=ks;save();toast(ks.length+' patas cargadas');if(route().pg==='cupon')render();else go('cupon')},
  clearcup(){ST.cup=[];toast('Cupón vacío');upd()},

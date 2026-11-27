@@ -1,0 +1,48 @@
+{
+ "se_juega": "LaLiga, viernes 27-nov. Levante (15.º) contra Racing de Santander (7.º).",
+ "tabla": "Racing 7.º, 17 pts (5G 2E 6P, 20:32); Levante 15.º, 12 pts (2G 6E 5P, 17:22).",
+ "importancia": "normal",
+ "decisivo": false,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Manu Sánchez (cruzado) y Toljan lesionados."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Gueye ausente en el último partido."
+ },
+ "arbitro": "Sesma M.: 4.45 amarillas y 0.17 rojas por partido en 75 partidos (ValueStats).",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Dos equipos que reciben muchos goles (22 y 32): partido abierto (3,55 esperados); previa de Flashscore: empate y más de 2,5 goles.",
+  "domina": "parejo",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 9.5
+   },
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 3.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

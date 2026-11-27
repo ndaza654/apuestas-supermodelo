@@ -1,0 +1,48 @@
+{
+ "se_juega": "Brasileirão Serie A, fecha 37, viernes 27-nov 18:00 (Bogotá, hora Flashscore 18:00). Duelo directo por la Libertadores: Cruzeiro 3.º y Fluminense 4.º (3 puntos); el título ya es de Flamengo.",
+ "tabla": "Cruzeiro 3.º, 66 pts (20G 6E 10P, 59:50, 5 victorias seguidas); Fluminense 4.º, 63 pts (18G 9E 9P, 57:42, 4 victorias y 1 derrota). Athletico-PR 5.º con 57.",
+ "importancia": "alta",
+ "decisivo": true,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Cuatro victorias en los últimos cinco; si gana iguala en puntos a Cruzeiro."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": true,
+  "rotacion": false,
+  "animo": "Cinco victorias seguidas; un empate le mantiene el tercer puesto."
+ },
+ "arbitro": "Delgado M.: 4.58 amarillas y 0.2 rojas por partido en 150 partidos (ValueStats).",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Duelo directo por Libertadores entre dos equipos en racha: remates parejos (14,9 contra 13,8 esperados), goles por encima de 3 (3,25) y córners altos (10,8).",
+  "domina": "parejo",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 9.5
+   },
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 3.5
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

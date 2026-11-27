@@ -1,0 +1,47 @@
+{
+ "se_juega": "Serie A, viernes 27-nov. El colista Venezia recibe a un Bologna sólido de visitante.",
+ "tabla": "Venezia 20.º, 6 pts (2G 0E 10P, 8:25, peor ataque); Bolonia 9.º, 18 pts (5G 3E 4P, 17:15).",
+ "importancia": "normal",
+ "decisivo": false,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Colista, peor ataque (8 goles; sin marcar en 4 de los últimos 5); sin lesiones nuevas."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": true,
+  "rotacion": false,
+  "animo": "Ganó sus 4 partidos de visitante con Palladino marcando al menos 2 (previa de Flashscore)."
+ },
+ "arbitro": "Colombo A.: 4.99 amarillas y 0.19 rojas por partido en 108 partidos (ValueStats).",
+ "onces": "Probables de Sofascore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 22:20-22:22 Bogotá del 26-nov (mercados)",
+  "Sofascore 26-nov noche (forma, jugadores, once probable)",
+  "ValueStats 26-nov (árbitro)",
+  "Flashscore tabla y previa 26-nov noche"
+ ],
+ "guion": {
+  "resumen": "Venezia casi no marca; Bologna domina fuera (remates 14,9 contra 12,8) y el gol del local es lo difícil: ambos no.",
+  "domina": "visitante",
+  "ritmo": "cerrado",
+  "predicciones": [
+   {
+    "tipo": "mas_remates",
+    "equipo": "visitante"
+   },
+   {
+    "tipo": "no_pierde",
+    "equipo": "visitante"
+   },
+   {
+    "tipo": "ambos_no"
+   }
+  ],
+  "escrito": "2026-11-26 ~23:30 Bogotá, antes del partido; solo con datos del repo (fichas de 10 partidos de Sofascore), tabla/previa de Flashscore leídas y sin onces oficiales"
+ }
+}

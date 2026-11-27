@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 
 def main(dia, ent):
     D = json.load(open(ent, encoding='utf-8'))
-    claves = [os.path.basename(f)[:-5] for f in glob.glob(os.path.join(dia, 'flashscore', '*.json')) if not os.path.basename(f).startswith('jugadores')]
+    claves = sorted({os.path.basename(f)[:-5] for c in ('flashscore', 'sofascore', 'betano') for f in glob.glob(os.path.join(dia, c, '*.json')) if not os.path.basename(f).startswith(('jugadores', 'contraste'))})   # Sofascore es la fuente principal desde el 25-nov
     os.makedirs(os.path.join(dia, 'arbitros'), exist_ok=True)
     n = 0
     for c in sorted(claves):
