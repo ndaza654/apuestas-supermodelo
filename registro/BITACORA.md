@@ -477,3 +477,6 @@ Prueba de la pila de recolección «todo el día»: 13 partidos (8 Nations Leagu
 
 ## 26-nov 18:37 — Pronósticos de Flashscore
 Regla nueva en CLAUDE.md (apuesta de la previa solo en partidos con Preview + noticias de pronósticos). Guardados: previa Forest–Chelsea (ambos marcan No) y 6 picks de la noticia Premier J12; página «Pronósticos Flashscore» en el dashboard y `calificar_pronosticos.py`. Pendiente: 10 previas y recolección completa del 27-nov con el computador conectado.
+
+## 26-nov 21:13 — BB Boost León–Cruz Azul
+Principal Tarjetas Más 4.5 + Goles Más 2.5 + Córners Menos 10.5 = 5,10 real; alternativa con Tiros al arco Más 9.5 = 5,80. 1 de 3 patas cumple el 7 de 10. Pachuca–Chivas ya en juego (sin BB). Pendiente: calificar en el balance.

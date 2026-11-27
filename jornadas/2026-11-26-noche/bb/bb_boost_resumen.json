@@ -1,6 +1,6 @@
 {
- "leido": "2026-11-26 17:22 Bogotá",
- "leido_hora": "17:22",
+ "leido": "2026-11-26 21:15 Bogotá",
+ "leido_hora": "21:15",
  "condiciones": "BB Boost: Bet Builder del mismo partido, ≥ 3 mercados, cada cuota > 1,50, total > 5,00, bono +25 % (leer el % en el cupón). Margen propio: patas ≥ 1,51 y precio ≥ 5,05.",
  "condiciones_lista": [
   "≥ 3 mercados del mismo partido",
@@ -103,6 +103,104 @@
     ],
     "resultado": "pendiente",
     "jugada": false
+   }
+  ]
+ },
+ "club-leon-cruz-azul": {
+  "partido": "Club León - Cruz Azul",
+  "hora": "2026-11-26 22:10",
+  "evento": 96155068,
+  "leido_hora": "21:12",
+  "veredicto": "BB Boost: SÍ cumple (precio real 5,10 > 5,00 y todas las patas > 1,50), pero la regularidad es floja: solo córners Menos 10.5 cumple el 7 de 10. Ningún combo con patas > 1,50 tiene 2 de 3 patas que cumplan (no hay más líneas con 7 de 10 en ambos a cuota ≥ 1,51). Se entrega el mejor por probabilidad, como pidió el usuario.",
+  "nota": "Onces PROBABLES (Sofascore 21:13, sin confirmar): León 4-1-4-1 Herrera; Moreno, Romaña, Guevara, Vegas; J. Rodríguez; Arcila, Echeverría, Beltrán, Díaz; Cambindo. Cruz Azul 4-2-3-1 Gudiño; Mozo, Ditta, Piovi, Campos; Palavecino, Lira; Paradela, C. Rodríguez, Rotondi; G. Fernández. Sin ausentes listados. Árbitro sin anunciar. Precio 5,10 con margen mínimo sobre 5,00: si baja a 5,00 o menos, el boost no aplica; leer el % de boost en el cupón.",
+  "combos": [
+   {
+    "patas": [
+     "Tarjetas Más 4.5",
+     "Goles Más 2.5",
+     "Córners Menos 10.5"
+    ],
+    "ids": [
+     "10900943455",
+     "10889187230",
+     "10889707126"
+    ],
+    "cuotas_catalogo": [
+     1.7,
+     1.72,
+     1.75
+    ],
+    "cuotas_cupon": [
+     1.7,
+     1.72,
+     1.75
+    ],
+    "precio_bb": 5.1,
+    "p_modelo": 0.182,
+    "p_prudente": 0.182,
+    "ev_sin_boost": -0.07,
+    "ev_con_boost": 0.11,
+    "pago_boost": 6.125,
+    "p_equilibrio_boost": 0.163,
+    "cumple": true,
+    "tag": "PRINCIPAL 21:15 · 1 de 3 patas cumple ≥7 de 10; mayor probabilidad entre los combos con precio real > 5,05",
+    "leido": "21:12",
+    "patas_cumple_regularidad": 1,
+    "conjunto_10": [
+     "2 de 10",
+     "5 de 10"
+    ],
+    "resultado": "pendiente",
+    "jugada": false,
+    "evidencia": [
+     "Córners Menos 10.5: 8 y 8 de 10 (cumple), esperado 10,1; directos 8,3 de promedio",
+     "Goles Más 2.5: León 4 de 10, Cruz Azul 7 de 10 (no cumple); esperado 3,25; guion escrito 16:30 con goles Más 2.5 y ambos marcan",
+     "Tarjetas Más 4.5: 5 y 7 de 10 (no cumple); esperado 5,2 (solo amarillas); Cruz Azul 7,0 en los últimos 3; liguilla ida y León necesita ganar; árbitro sin anunciar (promedio de Ramos Palazuelos 3,90 amarillas + 0,15 rojas)"
+    ]
+   },
+   {
+    "patas": [
+     "Tarjetas Más 4.5",
+     "Córners Menos 10.5",
+     "Tiros al arco Más 9.5"
+    ],
+    "ids": [
+     "10900943455",
+     "10889707126",
+     "10901220222"
+    ],
+    "cuotas_catalogo": [
+     1.7,
+     1.75,
+     1.85
+    ],
+    "cuotas_cupon": [
+     1.7,
+     1.75,
+     1.85
+    ],
+    "precio_bb": 5.8,
+    "p_modelo": 0.143,
+    "p_prudente": 0.143,
+    "ev_sin_boost": -0.17,
+    "ev_con_boost": 0.0,
+    "pago_boost": 7.0,
+    "p_equilibrio_boost": 0.143,
+    "cumple": true,
+    "tag": "ALTERNATIVA 21:15 · 1 de 3 patas cumple; precio más alto, probabilidad menor",
+    "leido": "21:12",
+    "patas_cumple_regularidad": 1,
+    "conjunto_10": [
+     "4 de 10",
+     "5 de 10"
+    ],
+    "resultado": "pendiente",
+    "jugada": false,
+    "evidencia": [
+     "Tiros al arco Más 9.5: 6 y 7 de 10 (no cumple); esperado 10,6, colchón 1,1",
+     "Córners Menos 10.5: 8 y 8 de 10 (cumple)",
+     "Tarjetas Más 4.5: 5 y 7 de 10 (no cumple)"
+    ]
    }
   ]
  }

@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-26 | 21:13 | BB Boost León–Cruz Azul (principal 5,10 + alternativa 5,80) | Club León - Cruz Azul | entregas/2026-11-26/2113_bb_boost_leon_cruz_azul.md |
 | 2026-11-26 | 18:37 | Pronósticos Flashscore (previa Forest–Chelsea + noticia Premier J12) | 27–29-nov | entregas/2026-11-26/1837_pronosticos_flashscore_27nov.md |
 | 2026-11-26 | 17:35 | Balance 26-nov con líneas de JUGADOR calificadas (21.855 líneas; regla «balance = todo») | 36 partidos | entregas/2026-11-26/1735_balance_26nov_con_jugadores.md (+ 1800_balance_26nov.html actualizado) |
 | 2026-11-26 | 18:00 | Balance COMPLETO del 26-nov (16 boletos, neto +$163.000; histórico +$25.752) | 36 partidos | entregas/2026-11-26/1800_balance_26nov.md (+ .html) |
