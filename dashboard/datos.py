@@ -47,6 +47,15 @@ def _goleadores(ruta, ruta_al):
         out[lado] = fila[:14]
     return out
 
+def _ruta(base, carpetas, sl):
+    """Primer archivo <carpeta>/<sl>.json que exista (Flashscore primero, Sofascore de respaldo desde el 25-nov-2026); None si ninguno."""
+    for c in carpetas:
+        r = os.path.join(base, c, (sl or '_') + '.json')
+        if os.path.exists(r):
+            return r
+    return None
+
+
 def f(x, nd=4):
     try:
         return round(float(x), nd)
@@ -154,10 +163,10 @@ def construir(jornadas=None):
             fsj = None
             if sl:
                 D['B'] = int(os.path.exists(os.path.join(base, 'betano', sl + '.json')))
-                fp = os.path.join(base, 'flashscore', sl + '.json')
-                D['F'] = int(os.path.exists(fp))
-                D['A'] = int(os.path.exists(os.path.join(base, 'alineaciones', sl + '.json')))
-                D['J'] = int(os.path.exists(os.path.join(base, 'jugadores', sl + '.json')))
+                fp = _ruta(base, ('flashscore', 'sofascore'), sl)
+                D['F'] = int(fp is not None)
+                D['A'] = int(_ruta(base, ('alineaciones', 'alineaciones_sofascore'), sl) is not None)
+                D['J'] = int(_ruta(base, ('jugadores', 'jugadores_sofascore'), sl) is not None)
                 D['C'] = int(any(sl in k or k in sl for k in clima))
                 D['E'] = int(os.path.exists(os.path.join(base, 'entradas', sl + '.json')))
                 pcx = os.path.join(base, 'contexto', sl + '.json')
@@ -166,7 +175,7 @@ def construir(jornadas=None):
                     p['cx'] = {'p': cxj['partido'], 'm': cxj['mercados'], 'n': int(cxj.get('con_notas', False)), 'f': cxj.get('falta', []), 'src': cxj.get('fuentes', [])}
                 pgl = os.path.join(base, 'goleadores', sl + '.json')
                 if os.path.exists(pgl):
-                    p['gl'] = _goleadores(pgl, os.path.join(base, 'alineaciones', sl + '.json'))
+                    p['gl'] = _goleadores(pgl, _ruta(base, ('alineaciones', 'alineaciones_sofascore'), sl) or os.path.join(base, 'alineaciones', sl + '.json'))
                 ccj = CAMB.get(j, {}).get(sl)
                 if ccj:
                     utiles = [c for c in ccj['cambios'] if 1.2 <= c[3] <= 4.0]
@@ -174,8 +183,10 @@ def construir(jornadas=None):
                                'nv': ccj.get('nuevas', [])[:12], 'q': ccj.get('quitadas', [])[:12]}
                 if D['F']:
                     fsj = json.load(open(fp, encoding='utf8'))
-                    D['R'] = int(bool(fsj.get('arbitro')))
-                    p['arb'] = fsj.get('arbitro') or ''
+                    par = os.path.join(base, 'arbitros', sl + '.json')
+                    arb = fsj.get('arbitro') or (json.load(open(par, encoding='utf8')).get('arbitro') if os.path.exists(par) else '')
+                    D['R'] = int(bool(arb))
+                    p['arb'] = arb or ''
                     p['estadio'] = fsj.get('estadio') or ''
             p['dat'] = D
             p['gradas'] = graded.get(n, 0)
@@ -193,8 +204,8 @@ def construir(jornadas=None):
                     SER[i][mk]['h'] = serie(h2h[:FI.N_H2H], k)[0]
                 META[i]['h'] = [[m.get('fecha', ''), m.get('comp', ''), '', (m.get('g') or [None, None])[0], (m.get('g') or [None, None])[1]] for m in h2h[:FI.N_H2H]]
             # historial de jugadores (Flashscore) casado con los nombres de Betano
-            pj = os.path.join(base, 'jugadores', (sl or '_') + '.json')
-            if os.path.exists(pj):
+            pj = _ruta(base, ('jugadores', 'jugadores_sofascore'), sl)
+            if pj:
                 H = json.load(open(pj, encoding='utf8'))
                 por_lado = {'L': sorted({r['jugador'] for r in filas if r['jornada'] == j and r['partido'] == n and r['jugador'] and r['ambito'] == 'local'}),
                             'V': sorted({r['jugador'] for r in filas if r['jornada'] == j and r['partido'] == n and r['jugador'] and r['ambito'] == 'visitante'})}

@@ -58,8 +58,22 @@
      "Córners de Remo ≥4: 8 y 7 de 10; de visitante 4 de 5",
      "Tarjetas ≥5: 5 y 4 de 10 (no cumple); árbitro Arleu: 12 de 20 con más de 4,5, 5,45 tarjetas por partido"
     ],
-    "resultado": "pendiente",
-    "jugada": false
+    "resultado": "falló",
+    "jugada": false,
+    "patas_real": [
+     [
+      false,
+      "4 puntos de tarjetas"
+     ],
+     [
+      false,
+      "6 remates (visitante)"
+     ],
+     [
+      false,
+      "3 córners (visitante)"
+     ]
+    ]
    },
    {
     "patas": [
@@ -101,8 +115,22 @@
      "Remates de Remo ≥10: 8 y 8 de 10, pero de visitante 3 de 5 y Betano lo subió de 2,07 a 2,40 tras los onces",
      "Tarjetas ≥4: 8 y 6 de 10"
     ],
-    "resultado": "pendiente",
-    "jugada": false
+    "resultado": "falló",
+    "jugada": false,
+    "patas_real": [
+     [
+      true,
+      "4 puntos de tarjetas"
+     ],
+     [
+      false,
+      "6 remates (visitante)"
+     ],
+     [
+      false,
+      "3 córners (visitante)"
+     ]
+    ]
    }
   ]
  },
@@ -156,6 +184,20 @@
      "Córners Menos 10.5: 8 y 8 de 10 (cumple), esperado 10,1; directos 8,3 de promedio",
      "Goles Más 2.5: León 4 de 10, Cruz Azul 7 de 10 (no cumple); esperado 3,25; guion escrito 16:30 con goles Más 2.5 y ambos marcan",
      "Tarjetas Más 4.5: 5 y 7 de 10 (no cumple); esperado 5,2 (solo amarillas); Cruz Azul 7,0 en los últimos 3; liguilla ida y León necesita ganar; árbitro sin anunciar (promedio de Ramos Palazuelos 3,90 amarillas + 0,15 rojas)"
+    ],
+    "patas_real": [
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ]
     ]
    },
    {
@@ -200,6 +242,20 @@
      "Tiros al arco Más 9.5: 6 y 7 de 10 (no cumple); esperado 10,6, colchón 1,1",
      "Córners Menos 10.5: 8 y 8 de 10 (cumple)",
      "Tarjetas Más 4.5: 5 y 7 de 10 (no cumple)"
+    ],
+    "patas_real": [
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ],
+     [
+      null,
+      "sin resultado"
+     ]
     ]
    }
   ]

@@ -2,7 +2,7 @@
 let _sc={k:'',v:null};
 function stratRows(jor,S){S=S||ST.strat;const k=jor+JSON.stringify(S);if(_sc.k===k)return _sc.v;let r=ALL.filter(x=>enJor(x,jor)&&pasa(x,S));if(S.uno)r=unoPor(r);r.sort((a,b)=>sentido(b)-sentido(a)||b.c-a.c);_sc={k,v:r};return r}
 const estTag=p=>p.est==='final'?`<span class="tag">final</span>`:p.est==='vivo'?`<span class="tag bad">sin cerrar${p.min?' '+esc(p.min):''}</span>`:`<span class="tag blue">${p.hh}</span>`;
-const cover=p=>{const d=p.dat||{};return`<span class="dots" data-tip="${esc(`Betano ${d.B?'✓':'✗'} · Flashscore ${d.F?'✓':'✗'} · alineación ${d.A?'✓':'✗'} · historial de jugadores ${d.J?'✓':'✗'} · árbitro ${d.R?'✓':'✗'}`)}">${'BFAJR'.split('').map(k=>`<i class="${d[k]?'y':''}"></i>`).join('')}</span>`};
+const cover=p=>{const d=p.dat||{};return`<span class="dots" data-tip="${esc(`Betano ${d.B?'✓':'✗'} · equipo (Sofascore/Flashscore) ${d.F?'✓':'✗'} · alineación ${d.A?'✓':'✗'} · historial de jugadores ${d.J?'✓':'✗'} · árbitro ${d.R?'✓':'✗'}`)}">${'BFAJR'.split('').map(k=>`<i class="${d[k]?'y':''}"></i>`).join('')}</span>`};
 function matchRow(p,n){return`<a class="match" href="#/partido/${p.i}"><div class="c"><div class="b num">${p.hh}</div><div class="xs mut">${jorLab(p.jor).split(' ')[0]}</div></div>
  <div style="min-width:0"><div class="t">${esc(p.loc)} <span class="mut" style="font-weight:400">vs</span> ${esc(p.vis)}</div><div class="xs mut" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(p.liga)} · ${cover(p)}</div></div>
  <div class="r">${p.g?`<div class="sc num">${p.g[0]}–${p.g[1]}</div>`:''}${n!=null&&n>0?`<span class="tag blue">${n} pasan</span>`:p.g?'':'<span class="tag">0 pasan</span>'}</div></a>`}

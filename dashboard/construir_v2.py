@@ -16,8 +16,8 @@ def extras(d):
     for i, p in enumerate(d['P']):
         base = os.path.join(datos.RAIZ, 'jornadas', p['jor'])
         if p.get('slug'):
-            fa = os.path.join(base, 'alineaciones', p['slug'] + '.json')
-            if os.path.exists(fa):
+            fa = datos._ruta(base, ('alineaciones', 'alineaciones_sofascore'), p['slug'])
+            if fa:
                 a = json.load(open(fa, encoding='utf8'))
                 pr = a.get('probables') or a.get('confirmadas') or {}
                 XI[i] = {'tipo': a.get('tipo', ''), 'leida': a.get('lectura_utc', ''), 'L': [x[0] for x in pr.get('L', [])], 'V': [x[0] for x in pr.get('V', [])]}

@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-26 | 21:55 | Mantenimiento dashboard (lee Sofascore) + calificación 24/26-nov | todos | entregas/2026-11-26/2155_mantenimiento_dashboard_y_calificacion.md |
 | 2026-11-26 | 21:33 | BB Boost FINAL León–Cruz Azul (onces oficiales, 63 combos con precio real) | Club León - Cruz Azul | entregas/2026-11-26/2133_bb_boost_final_leon_cruz_azul.md |
 | 2026-11-26 | 21:25 | Comparación BB: Pachuca–Chivas vs León–Cruz Azul (datos recolectados) | 2 partidos | entregas/2026-11-26/2125_comparacion_pachuca_vs_leon_bb.md |
 | 2026-11-26 | 21:13 | BB Boost León–Cruz Azul (principal 5,10 + alternativa 5,80) | Club León - Cruz Azul | entregas/2026-11-26/2113_bb_boost_leon_cruz_azul.md |

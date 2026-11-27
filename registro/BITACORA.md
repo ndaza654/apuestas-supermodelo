@@ -483,3 +483,6 @@ Principal Tarjetas Más 4.5 + Goles Más 2.5 + Córners Menos 10.5 = 5,10 real; 
 
 ## 26-nov 21:33 — BB Boost final León–Cruz Azul
 Con onces oficiales y catálogo releído: se mantiene Tarjetas Más 4.5 + Goles Más 2.5 + Córners Menos 10.5 = 5,10. 63 combos con mc-leg. Sin línea de jugador mejor. Árbitro sin anunciar.
+
+## 26-nov 21:55 · Mantenimiento
+Dashboard lee Sofascore (jornada noche visible con once, historial y árbitro); 245 vistas sin errores; calificadas tarjetas 1T del 24-nov, Nordsjælland 1T, São Paulo–Remo (equipo, jugador, BB: falló) y Montevideo–Nacional. Pendientes: Pachuca, León. Sin dato: fueras de Jablonec y Sunderland. Detalle: entregas/2026-11-26/2155_mantenimiento_dashboard_y_calificacion.md
