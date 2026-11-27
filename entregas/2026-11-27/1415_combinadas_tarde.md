@@ -13,3 +13,8 @@ Cambia la pata 3 por Southampton–Middlesbrough (15:00) · Tiros al arco Menos 
 
 ## No entran
 Brest faltas Más 25.5 (1,93) y fueras Brest Menos 1.5 (1,75): directos 0 de 2. Forest faltas Menos 24.5 (1,95): el modelo le da 43 % (mercado 48 %). En 2 patas ninguna pareja con respaldo completo llega a 3,5 (la mejor, Leganés tarjetas + Brest faltas, 3,38, tiene los directos en contra).
+
+## Añadido 14:12 (el usuario pidió más opciones)
+- **V2 ≈ 4,10:** Leganés tarjetas Leganés Más 2.5 @1,80 (9 y 6 de 10) + Brest córners Brest Menos 4.5 @1,52 (8 y 8) + Forest tarjetas Más 3.5 @1,50 (7 y 8; directos 6 de 6). Conjunta ≈ 22 %.
+- **V3 ≈ 3,41:** Werder goles Werder Más 1.5 @1,57 (8 y 7) + Southampton tiros al arco Menos 10.5 @1,53 (7 y 8; directos 6 de 6) + Racing tiros al arco Más 3.5 @1,42 (7 y 7; directos 5 de 6). Conjunta ≈ 24 %.
+Groningen–Willem II ya empezó (14:00); quedan 7 partidos antes de las 17:30.
