@@ -492,3 +492,6 @@ Dashboard lee Sofascore (jornada noche visible con once, historial y árbitro); 
 
 ## 27-nov 14:00 · BB Boost Forest–Chelsea (sin navegador)
 Principal Faltas Menos 24.5 + Fueras Más 2.5 + Goles Más 2.5 (producto 5,43, precio real sin leer); alternativa con Saques de meta Forest Más 6.5 en lugar de fueras. Tarjetas Menos descartadas por directos y Madley. Registrado en `bb/bb_boost_resumen.json`.
+
+## 27-nov 14:15 · Combinadas de la tarde
+V1: Leganés tarjetas Más 5.5 + Werder goles Más 2.5 + Forest fueras Más 2.5 (≈4,15, p ≈22 %); V1b cambia Forest por Southampton tiros al arco Menos 10.5. Guardadas en `combinadas_enviadas_1415.json`.
