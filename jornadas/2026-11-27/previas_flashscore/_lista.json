@@ -1,6 +1,53 @@
 {
- "nota": "Partidos del 27-nov de las capturas de Flashscore (app, 18:28 del 26-nov). Con PREVIEW se recolecta la apuesta de la previa; sin PREVIEW no se recolecta.",
- "con_preview_pendientes_de_leer": [
+ "nota": "Partidos del 27-nov de las capturas de Flashscore (app, 18:28 del 26-nov). Con PREVIEW se recolecta la apuesta de la previa; sin PREVIEW no se recolecta. Las 10 se leyeron el 26-nov 22:40; Forest–Chelsea 18:40. Solo las previas escritas por una persona (Premier, Bundesliga, Ligue 1, Serie A, LaLiga, Primera A) traen apuesta; las generadas con IA (Süper Lig, Eredivisie, LaLiga2, Championship) solo traen probabilidades.",
+ "sin_preview_no_se_recolecta": [
+  {
+   "partido": "Macarthur FC - Melbourne City",
+   "liga": "A-League",
+   "hora_bogota": "03:40"
+  },
+  {
+   "partido": "Al Kholood - Al Khaleej",
+   "liga": "Saudi Pro League",
+   "hora_bogota": "07:15"
+  },
+  {
+   "partido": "Azam - Al Ahly Tripoli",
+   "liga": "Copa Confederaciones CAF",
+   "hora_bogota": "08:00"
+  },
+  {
+   "partido": "Al Qadsiah - Al Fayha",
+   "liga": "Saudi Pro League",
+   "hora_bogota": "09:20"
+  },
+  {
+   "partido": "Al-Ittihad FC - Neom SC",
+   "liga": "Saudi Pro League",
+   "hora_bogota": "12:30"
+  },
+  {
+   "partido": "Fluminense - Cruzeiro",
+   "liga": "Brasil Serie A",
+   "hora_bogota": "18:00"
+  },
+  {
+   "partido": "Deportivo Cali - Atl. Bucaramanga",
+   "liga": "Primera A · cuadrangular",
+   "hora_bogota": "18:35"
+  },
+  {
+   "partido": "Columbus Crew - Inter Miami",
+   "liga": "MLS playoffs",
+   "hora_bogota": "20:00"
+  },
+  {
+   "partido": "Real Salt Lake - Vancouver Whitecaps",
+   "liga": "MLS playoffs",
+   "hora_bogota": "22:00"
+  }
+ ],
+ "leidas": [
   {
    "partido": "Alanyaspor - Konyaspor",
    "liga": "Süper Lig",
@@ -50,53 +97,6 @@
    "partido": "Millonarios - América de Cali",
    "liga": "Primera A · cuadrangular",
    "hora_bogota": "20:40"
-  }
- ],
- "sin_preview_no_se_recolecta": [
-  {
-   "partido": "Macarthur FC - Melbourne City",
-   "liga": "A-League",
-   "hora_bogota": "03:40"
-  },
-  {
-   "partido": "Al Kholood - Al Khaleej",
-   "liga": "Saudi Pro League",
-   "hora_bogota": "07:15"
-  },
-  {
-   "partido": "Azam - Al Ahly Tripoli",
-   "liga": "Copa Confederaciones CAF",
-   "hora_bogota": "08:00"
-  },
-  {
-   "partido": "Al Qadsiah - Al Fayha",
-   "liga": "Saudi Pro League",
-   "hora_bogota": "09:20"
-  },
-  {
-   "partido": "Al-Ittihad FC - Neom SC",
-   "liga": "Saudi Pro League",
-   "hora_bogota": "12:30"
-  },
-  {
-   "partido": "Fluminense - Cruzeiro",
-   "liga": "Brasil Serie A",
-   "hora_bogota": "18:00"
-  },
-  {
-   "partido": "Deportivo Cali - Atl. Bucaramanga",
-   "liga": "Primera A · cuadrangular",
-   "hora_bogota": "18:35"
-  },
-  {
-   "partido": "Columbus Crew - Inter Miami",
-   "liga": "MLS playoffs",
-   "hora_bogota": "20:00"
-  },
-  {
-   "partido": "Real Salt Lake - Vancouver Whitecaps",
-   "liga": "MLS playoffs",
-   "hora_bogota": "22:00"
   }
  ]
 }

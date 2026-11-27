@@ -31,7 +31,12 @@ def buscar(partido, res):
 
 
 def evaluar(p, r):
-    """p = dict con mercado/lado/línea; r = resultado del partido. Devuelve (True/False/None, texto real)."""
+    """p = dict con mercado/lado/línea (o `patas` = lista de patas que deben darse TODAS); r = resultado del partido. Devuelve (True/False/None, texto real)."""
+    if p.get('patas'):
+        res = [evaluar(dict(q, partido=p.get('partido')), r) for q in p['patas']]
+        if any(x[0] is None for x in res):
+            return None, res[0][1]
+        return all(x[0] for x in res), res[0][1]
     g = r.get('g')
     if not g:
         return None, None
@@ -41,8 +46,11 @@ def evaluar(p, r):
         ok = {'1': h > a, 'X': h == a, '2': a > h, '1X': h >= a, 'X2': a >= h, '12': h != a}.get(str(lado))
         return ok, f'{h}-{a}'
     if m == 'goles' and p.get('linea') is not None:
-        t = h + a
+        t = {'local': h, 'visitante': a, 'total': h + a}.get(p.get('ambito') or 'total')
         return (t > p['linea']) if lado == 'Más' else (t < p['linea']), f'{t} goles ({h}-{a})'
+    if m == 'goles' and p.get('rango'):
+        v = {'local': h, 'visitante': a, 'total': h + a}.get(p.get('ambito') or 'total')
+        return p['rango'][0] <= v <= p['rango'][1], f'{v} goles ({h}-{a})'
     if m == 'ambos':
         amb = h > 0 and a > 0
         return (amb if lado == 'Sí' else not amb), f'{h}-{a}'
