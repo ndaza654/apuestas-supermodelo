@@ -489,3 +489,6 @@ Dashboard lee Sofascore (jornada noche visible con once, historial y árbitro); 
 
 ## 26-nov 23:45 · Recolección completa del 27-nov + Pronósticos con filtros
 19 partidos: Betano (una lectura 22:20–22:22), Sofascore (10+10, directos, once probable, ≈41–76 jugadores por partido), árbitro ValueStats (12 con historial; Sen y Taskinsoy sin página; 5 sin anunciar), notas de contexto + guion, fichas, informe y 205 sugerencias pendientes. 11 previas Flashscore (6 con apuesta, 5 IA sin apuesta) y la noticia Premier J12 contrastada. Página «Pronósticos Flashscore» con filtros (jornada, tipo, estado, origen, mercado, cuota, búsqueda). Parche: `arbitros_vs_decod.py` lee también jornadas solo-Sofascore.
+
+## 27-nov 14:00 · BB Boost Forest–Chelsea (sin navegador)
+Principal Faltas Menos 24.5 + Fueras Más 2.5 + Goles Más 2.5 (producto 5,43, precio real sin leer); alternativa con Saques de meta Forest Más 6.5 en lugar de fueras. Tarjetas Menos descartadas por directos y Madley. Registrado en `bb/bb_boost_resumen.json`.

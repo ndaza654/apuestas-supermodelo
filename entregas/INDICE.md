@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-27 | 14:00 | BB Boost Forest–Chelsea sin navegador (Faltas Menos 24.5 + Fueras Más 2.5 + Goles Más 2.5, producto 5,43) | Nottingham Forest - Chelsea FC | entregas/2026-11-27/1400_bb_boost_forest_chelsea.md |
 | 2026-11-27 | 03:45 | Lectura de la combinada de 3 BB del usuario (5,30) | Macarthur–City, Kholood–Khaleej, Qadsiah–Fayha | entregas/2026-11-27/0345_lectura_combinada_3_bb.md |
 | 2026-11-26 | 23:45 | Recolección completa del 27-nov (19 partidos) + Pronósticos Flashscore con filtros | 19 partidos | entregas/2026-11-26/2345_recoleccion_27nov_y_pronosticos_filtros.md |
 | 2026-11-26 | 21:55 | Mantenimiento dashboard (lee Sofascore) + calificación 24/26-nov | todos | entregas/2026-11-26/2155_mantenimiento_dashboard_y_calificacion.md |
