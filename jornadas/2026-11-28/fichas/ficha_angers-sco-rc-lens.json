@@ -2,7 +2,7 @@
  "encuentro": "Angers SCO - RC Lens",
  "liga": "Francia Ligue 1",
  "fecha": "2026-11-28 11:15",
- "cuotas_leidas": "Cuotas de Betano leídas 2026-11-27T23:47:02.124Z · 564 mercados",
+ "cuotas_leidas": "Cuotas de Betano leídas 2026-11-28T06:16:21.774Z · 564 mercados",
  "regla": {
   "muestra": "últimos 10 de cada equipo (cualquier sede) + hasta 6 directos",
   "cumple": "7 de 10 (n mínimo 7)",
@@ -7559,10 +7559,10 @@
     "ambito": "1T",
     "linea": 0.5,
     "mas": {
-     "cuota": 1.33
+     "cuota": 1.37
     },
     "menos": {
-     "cuota": 3.1
+     "cuota": 2.95
     },
     "nota": "sin estadística por tiempo en la muestra"
    },
@@ -7570,19 +7570,70 @@
     "ambito": "1T",
     "linea": 1.5,
     "mas": {
-     "cuota": 2.15
+     "cuota": 2.25
     },
     "menos": {
-     "cuota": 1.65
+     "cuota": 1.6
     },
     "nota": "sin estadística por tiempo en la muestra"
+   },
+   {
+    "ambito": "local",
+    "linea": 0.5,
+    "esperado": 1.6,
+    "mas": {
+     "cuota": 1.14,
+     "colchon": 1.1,
+     "reg_local": {
+      "x": 10,
+      "n": 10,
+      "txt": "10 de 10",
+      "cumple": true
+     },
+     "reg_visitante": {
+      "x": 7,
+      "n": 10,
+      "txt": "7 de 10",
+      "cumple": true
+     },
+     "directos": {
+      "x": 4,
+      "n": 4,
+      "txt": "4 de 4",
+      "cumple": false
+     },
+     "cumple": true
+    },
+    "menos": {
+     "cuota": 5.2,
+     "colchon": -1.1,
+     "reg_local": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "reg_visitante": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "directos": {
+      "x": 0,
+      "n": 4,
+      "txt": "0 de 4",
+      "cumple": false
+     },
+     "cumple": false
+    }
    },
    {
     "ambito": "local",
     "linea": 1.5,
     "esperado": 1.6,
     "mas": {
-     "cuota": 1.55,
+     "cuota": 1.65,
      "colchon": 0.1,
      "reg_local": {
       "x": 5,
@@ -7605,7 +7656,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 2.35,
+     "cuota": 2.15,
      "colchon": -0.1,
      "reg_local": {
       "x": 5,
@@ -7633,7 +7684,7 @@
     "linea": 2.5,
     "esperado": 1.6,
     "mas": {
-     "cuota": 2.6,
+     "cuota": 2.87,
      "colchon": -0.9,
      "reg_local": {
       "x": 3,
@@ -7656,7 +7707,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 1.45,
+     "cuota": 1.39,
      "colchon": 0.9,
      "reg_local": {
       "x": 7,
@@ -7680,62 +7731,11 @@
     }
    },
    {
-    "ambito": "local",
-    "linea": 3.5,
-    "esperado": 1.6,
-    "mas": {
-     "cuota": 4.85,
-     "colchon": -1.9,
-     "reg_local": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "reg_visitante": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "directos": {
-      "x": 0,
-      "n": 4,
-      "txt": "0 de 4",
-      "cumple": false
-     },
-     "cumple": false
-    },
-    "menos": {
-     "cuota": 1.16,
-     "colchon": 1.9,
-     "reg_local": {
-      "x": 10,
-      "n": 10,
-      "txt": "10 de 10",
-      "cumple": true
-     },
-     "reg_visitante": {
-      "x": 10,
-      "n": 10,
-      "txt": "10 de 10",
-      "cumple": true
-     },
-     "directos": {
-      "x": 4,
-      "n": 4,
-      "txt": "4 de 4",
-      "cumple": false
-     },
-     "cumple": true
-    }
-   },
-   {
     "ambito": "total",
     "linea": 1.5,
     "esperado": 3.25,
     "mas": {
-     "cuota": 1.11,
+     "cuota": 1.13,
      "colchon": 1.75,
      "reg_local": {
       "x": 10,
@@ -7758,7 +7758,7 @@
      "cumple": true
     },
     "menos": {
-     "cuota": 6.0,
+     "cuota": 5.5,
      "colchon": -1.75,
      "reg_local": {
       "x": 0,
@@ -7786,7 +7786,7 @@
     "linea": 2.5,
     "esperado": 3.25,
     "mas": {
-     "cuota": 1.3,
+     "cuota": 1.35,
      "colchon": 0.75,
      "reg_local": {
       "x": 4,
@@ -7809,7 +7809,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 3.3,
+     "cuota": 3.05,
      "colchon": -0.75,
      "reg_local": {
       "x": 6,
@@ -7837,7 +7837,7 @@
     "linea": 3.5,
     "esperado": 3.25,
     "mas": {
-     "cuota": 1.65,
+     "cuota": 1.78,
      "colchon": -0.25,
      "reg_local": {
       "x": 4,
@@ -7860,7 +7860,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 2.15,
+     "cuota": 1.98,
      "colchon": 0.25,
      "reg_local": {
       "x": 6,
@@ -7888,7 +7888,7 @@
     "linea": 4.5,
     "esperado": 3.25,
     "mas": {
-     "cuota": 2.3,
+     "cuota": 2.5,
      "colchon": -1.25,
      "reg_local": {
       "x": 1,
@@ -7911,7 +7911,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 1.57,
+     "cuota": 1.5,
      "colchon": 1.25,
      "reg_local": {
       "x": 9,
@@ -7939,7 +7939,7 @@
     "linea": 5.5,
     "esperado": 3.25,
     "mas": {
-     "cuota": 3.3,
+     "cuota": 3.7,
      "colchon": -2.25,
      "reg_local": {
       "x": 0,
@@ -7962,7 +7962,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 1.3,
+     "cuota": 1.25,
      "colchon": 2.25,
      "reg_local": {
       "x": 10,
@@ -7990,7 +7990,7 @@
     "linea": 6.5,
     "esperado": 3.25,
     "mas": {
-     "cuota": 4.9,
+     "cuota": 5.5,
      "colchon": -3.25,
      "reg_local": {
       "x": 0,
@@ -8013,7 +8013,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 1.15,
+     "cuota": 1.12,
      "colchon": 3.25,
      "reg_local": {
       "x": 10,
@@ -8041,7 +8041,7 @@
     "linea": 7.5,
     "esperado": 3.25,
     "mas": {
-     "cuota": 7.2,
+     "cuota": 8.0,
      "colchon": -4.25,
      "reg_local": {
       "x": 0,
@@ -8064,59 +8064,8 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 1.07,
+     "cuota": 1.06,
      "colchon": 4.25,
-     "reg_local": {
-      "x": 10,
-      "n": 10,
-      "txt": "10 de 10",
-      "cumple": true
-     },
-     "reg_visitante": {
-      "x": 10,
-      "n": 10,
-      "txt": "10 de 10",
-      "cumple": true
-     },
-     "directos": {
-      "x": 4,
-      "n": 4,
-      "txt": "4 de 4",
-      "cumple": false
-     },
-     "cumple": true
-    }
-   },
-   {
-    "ambito": "total",
-    "linea": 8.5,
-    "esperado": 3.25,
-    "mas": {
-     "cuota": 9.75,
-     "colchon": -5.25,
-     "reg_local": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "reg_visitante": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "directos": {
-      "x": 0,
-      "n": 4,
-      "txt": "0 de 4",
-      "cumple": false
-     },
-     "cumple": false
-    },
-    "menos": {
-     "cuota": 1.03,
-     "colchon": 5.25,
      "reg_local": {
       "x": 10,
       "n": 10,
@@ -8143,7 +8092,7 @@
     "linea": 1.5,
     "esperado": 1.65,
     "mas": {
-     "cuota": 1.55,
+     "cuota": 1.6,
      "colchon": 0.15,
      "reg_local": {
       "x": 1,
@@ -8166,7 +8115,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 2.35,
+     "cuota": 2.25,
      "colchon": -0.15,
      "reg_local": {
       "x": 9,
@@ -8194,7 +8143,7 @@
     "linea": 2.5,
     "esperado": 1.65,
     "mas": {
-     "cuota": 2.6,
+     "cuota": 2.75,
      "colchon": -0.85,
      "reg_local": {
       "x": 1,
@@ -8217,7 +8166,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 1.45,
+     "cuota": 1.42,
      "colchon": 0.85,
      "reg_local": {
       "x": 9,
@@ -8245,7 +8194,7 @@
     "linea": 3.5,
     "esperado": 1.65,
     "mas": {
-     "cuota": 4.85,
+     "cuota": 5.2,
      "colchon": -1.85,
      "reg_local": {
       "x": 0,
@@ -8268,7 +8217,7 @@
      "cumple": false
     },
     "menos": {
-     "cuota": 1.16,
+     "cuota": 1.14,
      "colchon": 1.85,
      "reg_local": {
       "x": 10,
@@ -8504,7 +8453,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 3.45,
+   "cuota": 3.35,
    "reg": {
     "x": 2,
     "n": 8,
@@ -8520,7 +8469,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 2.15,
+   "cuota": 2.12,
    "reg": {
     "x": 3,
     "n": 8,
@@ -8536,7 +8485,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 19.0,
+   "cuota": 20.0,
    "reg": {
     "x": 0,
     "n": 8,
@@ -8840,7 +8789,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 2.18,
+   "cuota": 2.2,
    "reg": {
     "x": 2,
     "n": 10,
@@ -8856,7 +8805,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 1.44,
+   "cuota": 1.45,
    "reg": {
     "x": 5,
     "n": 10,
@@ -9198,7 +9147,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 2,
    "sin_historial": false,
-   "cuota": 2.42,
+   "cuota": 2.4,
    "reg": {
     "x": 0,
     "n": 2,
@@ -9214,7 +9163,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 2,
    "sin_historial": false,
-   "cuota": 1.93,
+   "cuota": 1.91,
    "reg": {
     "x": 0,
     "n": 2,
@@ -9230,7 +9179,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 2,
    "sin_historial": false,
-   "cuota": 16.5,
+   "cuota": 17.0,
    "reg": {
     "x": 0,
     "n": 2,
@@ -9578,7 +9527,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "cuota": 2.42,
+   "cuota": 2.4,
    "reg": {
     "x": 1,
     "n": 5,
@@ -9594,7 +9543,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "cuota": 1.83,
+   "cuota": 1.82,
    "reg": {
     "x": 1,
     "n": 5,
@@ -9610,7 +9559,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "cuota": 20.0,
+   "cuota": 21.0,
    "reg": {
     "x": 0,
     "n": 5,
@@ -9947,7 +9896,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
-   "cuota": 2.52,
+   "cuota": 2.5,
    "reg": {
     "x": 1,
     "n": 7,
@@ -9979,7 +9928,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
-   "cuota": 15.0,
+   "cuota": 15.5,
    "reg": {
     "x": 1,
     "n": 7,
@@ -10305,7 +10254,7 @@
    "minutos_esperados": 0,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 3.25,
+   "cuota": 3.2,
    "reg": {
     "x": 1,
     "n": 8,
@@ -10321,7 +10270,7 @@
    "minutos_esperados": 0,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 2.57,
+   "cuota": 2.52,
    "reg": {
     "x": 1,
     "n": 8,
@@ -10337,7 +10286,7 @@
    "minutos_esperados": 0,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 12.0,
+   "cuota": 12.5,
    "reg": {
     "x": 2,
     "n": 8,
@@ -10652,7 +10601,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 3.45,
+   "cuota": 3.35,
    "reg": {
     "x": 2,
     "n": 9,
@@ -10668,7 +10617,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 2.82,
+   "cuota": 2.75,
    "reg": {
     "x": 2,
     "n": 9,
@@ -10684,7 +10633,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 17.5,
+   "cuota": 18.5,
    "reg": {
     "x": 1,
     "n": 9,
@@ -10999,7 +10948,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 3.6,
+   "cuota": 3.65,
    "reg": {
     "x": 0,
     "n": 8,
@@ -11015,7 +10964,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 2.9,
+   "cuota": 2.92,
    "reg": {
     "x": 0,
     "n": 8,
@@ -11031,7 +10980,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 16.5,
+   "cuota": 17.0,
    "reg": {
     "x": 0,
     "n": 8,
@@ -11346,7 +11295,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 3.85,
+   "cuota": 3.9,
    "reg": {
     "x": 1,
     "n": 10,
@@ -11362,7 +11311,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 2.85,
+   "cuota": 2.87,
    "reg": {
     "x": 1,
     "n": 10,
@@ -11378,7 +11327,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 17.5,
+   "cuota": 18.5,
    "reg": {
     "x": 1,
     "n": 10,
@@ -11686,6 +11635,331 @@
    ]
   },
   {
+   "jugador": "Louis Mouton",
+   "lado": "local",
+   "stat": "anota",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 5,
+   "sin_historial": false,
+   "cuota": 3.9,
+   "reg": {
+    "x": 0,
+    "n": 5,
+    "txt": "0 de 5",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Louis Mouton",
+   "lado": "local",
+   "stat": "anota_o_asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 5,
+   "sin_historial": false,
+   "cuota": 3.2,
+   "reg": {
+    "x": 0,
+    "n": 5,
+    "txt": "0 de 5",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Louis Mouton",
+   "lado": "local",
+   "stat": "tarjeta",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 5,
+   "sin_historial": false,
+   "cuota": 14.5,
+   "reg": {
+    "x": 0,
+    "n": 5,
+    "txt": "0 de 5",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Louis Mouton",
+   "lado": "local",
+   "stat": "asiste",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 5,
+   "sin_historial": false,
+   "cuota": 7.7,
+   "reg": {
+    "x": 0,
+    "n": 5,
+    "txt": "0 de 5",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Louis Mouton",
+   "lado": "local",
+   "stat": "remates",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 5,
+   "sin_historial": false,
+   "por_90": 0.93,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 1.26,
+     "reg": {
+      "x": 1,
+      "n": 5,
+      "txt": "1 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 2.22,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 4.85,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 4,
+     "cuota": 10.75,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 5,
+     "cuota": 18.5,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 6,
+     "cuota": 23.0,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
+   "jugador": "Louis Mouton",
+   "lado": "local",
+   "stat": "al_arco",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 5,
+   "sin_historial": false,
+   "por_90": 0.0,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 2.65,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 9.75,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 21.0,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
+   "jugador": "Louis Mouton",
+   "lado": "local",
+   "stat": "entradas",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 5,
+   "sin_historial": false,
+   "por_90": 3.71,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 1.15,
+     "reg": {
+      "x": 3,
+      "n": 5,
+      "txt": "3 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 1.75,
+     "reg": {
+      "x": 1,
+      "n": 5,
+      "txt": "1 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 3.25,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 4,
+     "cuota": 6.6,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 5,
+     "cuota": 12.5,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
+   "jugador": "Louis Mouton",
+   "lado": "local",
+   "stat": "faltas",
+   "titular": null,
+   "minutos_esperados": null,
+   "partidos_muestra": 5,
+   "sin_historial": false,
+   "por_90": 1.86,
+   "esperado": null,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 1.45,
+     "reg": {
+      "x": 2,
+      "n": 5,
+      "txt": "2 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 2,
+     "cuota": 3.05,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 3,
+     "cuota": 7.6,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 4,
+     "cuota": 16.0,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    },
+    {
+     "minimo": 5,
+     "cuota": 22.0,
+     "reg": {
+      "x": 0,
+      "n": 5,
+      "txt": "0 de 5",
+      "cumple": false
+     },
+     "colchon": null
+    }
+   ]
+  },
+  {
    "jugador": "Mezian Soares",
    "lado": "visitante",
    "stat": "anota",
@@ -11693,7 +11967,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 0,
    "sin_historial": true,
-   "cuota": 3.85,
+   "cuota": 3.9,
    "reg": {
     "x": 0,
     "n": 0,
@@ -11709,7 +11983,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 0,
    "sin_historial": true,
-   "cuota": 2.62,
+   "cuota": 2.65,
    "reg": {
     "x": 0,
     "n": 0,
@@ -11725,7 +11999,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 0,
    "sin_historial": true,
-   "cuota": 20.0,
+   "cuota": 21.0,
    "reg": {
     "x": 0,
     "n": 0,
@@ -12029,7 +12303,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 3.85,
+   "cuota": 3.9,
    "reg": {
     "x": 0,
     "n": 9,
@@ -12061,7 +12335,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 20.0,
+   "cuota": 21.0,
    "reg": {
     "x": 1,
     "n": 9,
@@ -12397,7 +12671,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 22.0,
+   "cuota": 23.0,
    "reg": {
     "x": 0,
     "n": 8,
@@ -12727,331 +13001,6 @@
    ]
   },
   {
-   "jugador": "Louis Mouton",
-   "lado": "local",
-   "stat": "anota",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "cuota": 4.25,
-   "reg": {
-    "x": 0,
-    "n": 5,
-    "txt": "0 de 5",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Louis Mouton",
-   "lado": "local",
-   "stat": "anota_o_asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "cuota": 3.4,
-   "reg": {
-    "x": 0,
-    "n": 5,
-    "txt": "0 de 5",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Louis Mouton",
-   "lado": "local",
-   "stat": "tarjeta",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "cuota": 13.5,
-   "reg": {
-    "x": 0,
-    "n": 5,
-    "txt": "0 de 5",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Louis Mouton",
-   "lado": "local",
-   "stat": "asiste",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "cuota": 7.7,
-   "reg": {
-    "x": 0,
-    "n": 5,
-    "txt": "0 de 5",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Louis Mouton",
-   "lado": "local",
-   "stat": "remates",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "por_90": 0.93,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 1.26,
-     "reg": {
-      "x": 1,
-      "n": 5,
-      "txt": "1 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 2.22,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 4.85,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 4,
-     "cuota": 10.75,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 5,
-     "cuota": 18.5,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 6,
-     "cuota": 23.0,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
-   "jugador": "Louis Mouton",
-   "lado": "local",
-   "stat": "al_arco",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "por_90": 0.0,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 2.65,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 9.75,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 21.0,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
-   "jugador": "Louis Mouton",
-   "lado": "local",
-   "stat": "entradas",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "por_90": 3.71,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 1.15,
-     "reg": {
-      "x": 3,
-      "n": 5,
-      "txt": "3 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 1.75,
-     "reg": {
-      "x": 1,
-      "n": 5,
-      "txt": "1 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 3.25,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 4,
-     "cuota": 6.6,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 5,
-     "cuota": 12.5,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
-   "jugador": "Louis Mouton",
-   "lado": "local",
-   "stat": "faltas",
-   "titular": null,
-   "minutos_esperados": null,
-   "partidos_muestra": 5,
-   "sin_historial": false,
-   "por_90": 1.86,
-   "esperado": null,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 1.45,
-     "reg": {
-      "x": 2,
-      "n": 5,
-      "txt": "2 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 2,
-     "cuota": 3.05,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 3,
-     "cuota": 7.6,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 4,
-     "cuota": 16.0,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    },
-    {
-     "minimo": 5,
-     "cuota": 22.0,
-     "reg": {
-      "x": 0,
-      "n": 5,
-      "txt": "0 de 5",
-      "cumple": false
-     },
-     "colchon": null
-    }
-   ]
-  },
-  {
    "jugador": "Michał Skóraś",
    "lado": "visitante",
    "stat": "anota",
@@ -13091,7 +13040,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 12.0,
+   "cuota": 12.5,
    "reg": {
     "x": 3,
     "n": 8,
@@ -13421,353 +13370,6 @@
    ]
   },
   {
-   "jugador": "Jim Allevinah",
-   "lado": "local",
-   "stat": "anota",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 10,
-   "sin_historial": false,
-   "cuota": 4.6,
-   "reg": {
-    "x": 0,
-    "n": 10,
-    "txt": "0 de 10",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Jim Allevinah",
-   "lado": "local",
-   "stat": "anota_o_asiste",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 10,
-   "sin_historial": false,
-   "cuota": 3.3,
-   "reg": {
-    "x": 0,
-    "n": 10,
-    "txt": "0 de 10",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Jim Allevinah",
-   "lado": "local",
-   "stat": "tarjeta",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 10,
-   "sin_historial": false,
-   "cuota": 19.0,
-   "reg": {
-    "x": 2,
-    "n": 10,
-    "txt": "2 de 10",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Jim Allevinah",
-   "lado": "local",
-   "stat": "asiste",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 10,
-   "sin_historial": false,
-   "cuota": 6.1,
-   "reg": {
-    "x": 0,
-    "n": 10,
-    "txt": "0 de 10",
-    "cumple": false
-   }
-  },
-  {
-   "jugador": "Jim Allevinah",
-   "lado": "local",
-   "stat": "remates",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 10,
-   "sin_historial": false,
-   "por_90": 2.3,
-   "esperado": 2.05,
-   "escalones": [
-    {
-     "minimo": 2,
-     "cuota": 1.36,
-     "reg": {
-      "x": 3,
-      "n": 10,
-      "txt": "3 de 10",
-      "cumple": false
-     },
-     "colchon": 0.55
-    },
-    {
-     "minimo": 3,
-     "cuota": 2.07,
-     "reg": {
-      "x": 2,
-      "n": 10,
-      "txt": "2 de 10",
-      "cumple": false
-     },
-     "colchon": -0.45
-    },
-    {
-     "minimo": 4,
-     "cuota": 3.75,
-     "reg": {
-      "x": 2,
-      "n": 10,
-      "txt": "2 de 10",
-      "cumple": false
-     },
-     "colchon": -1.45
-    },
-    {
-     "minimo": 5,
-     "cuota": 7.2,
-     "reg": {
-      "x": 1,
-      "n": 10,
-      "txt": "1 de 10",
-      "cumple": false
-     },
-     "colchon": -2.45
-    },
-    {
-     "minimo": 6,
-     "cuota": 13.0,
-     "reg": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "colchon": -3.45
-    },
-    {
-     "minimo": 7,
-     "cuota": 19.0,
-     "reg": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "colchon": -4.45
-    },
-    {
-     "minimo": 8,
-     "cuota": 23.0,
-     "reg": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "colchon": -5.45
-    }
-   ]
-  },
-  {
-   "jugador": "Jim Allevinah",
-   "lado": "local",
-   "stat": "al_arco",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 10,
-   "sin_historial": false,
-   "por_90": 0.72,
-   "esperado": 0.64,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 1.75,
-     "reg": {
-      "x": 5,
-      "n": 10,
-      "txt": "5 de 10",
-      "cumple": false
-     },
-     "colchon": 0.14
-    },
-    {
-     "minimo": 2,
-     "cuota": 4.55,
-     "reg": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "colchon": -0.86
-    },
-    {
-     "minimo": 3,
-     "cuota": 12.0,
-     "reg": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "colchon": -1.86
-    },
-    {
-     "minimo": 4,
-     "cuota": 21.0,
-     "reg": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "colchon": -2.86
-    }
-   ]
-  },
-  {
-   "jugador": "Jim Allevinah",
-   "lado": "local",
-   "stat": "entradas",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 10,
-   "sin_historial": false,
-   "por_90": 1.01,
-   "esperado": 0.9,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 1.26,
-     "reg": {
-      "x": 4,
-      "n": 10,
-      "txt": "4 de 10",
-      "cumple": false
-     },
-     "colchon": 0.4
-    },
-    {
-     "minimo": 2,
-     "cuota": 2.18,
-     "reg": {
-      "x": 2,
-      "n": 10,
-      "txt": "2 de 10",
-      "cumple": false
-     },
-     "colchon": -0.6
-    },
-    {
-     "minimo": 3,
-     "cuota": 4.7,
-     "reg": {
-      "x": 1,
-      "n": 10,
-      "txt": "1 de 10",
-      "cumple": false
-     },
-     "colchon": -1.6
-    },
-    {
-     "minimo": 4,
-     "cuota": 10.25,
-     "reg": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "colchon": -2.6
-    },
-    {
-     "minimo": 5,
-     "cuota": 17.5,
-     "reg": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "colchon": -3.6
-    }
-   ]
-  },
-  {
-   "jugador": "Jim Allevinah",
-   "lado": "local",
-   "stat": "faltas",
-   "titular": 0.9,
-   "minutos_esperados": 80,
-   "partidos_muestra": 10,
-   "sin_historial": false,
-   "por_90": 1.3,
-   "esperado": 1.15,
-   "escalones": [
-    {
-     "minimo": 1,
-     "cuota": 1.35,
-     "reg": {
-      "x": 6,
-      "n": 10,
-      "txt": "6 de 10",
-      "cumple": false
-     },
-     "colchon": 0.65
-    },
-    {
-     "minimo": 2,
-     "cuota": 2.57,
-     "reg": {
-      "x": 2,
-      "n": 10,
-      "txt": "2 de 10",
-      "cumple": false
-     },
-     "colchon": -0.35
-    },
-    {
-     "minimo": 3,
-     "cuota": 6.1,
-     "reg": {
-      "x": 1,
-      "n": 10,
-      "txt": "1 de 10",
-      "cumple": false
-     },
-     "colchon": -1.35
-    },
-    {
-     "minimo": 4,
-     "cuota": 13.5,
-     "reg": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "colchon": -2.35
-    },
-    {
-     "minimo": 5,
-     "cuota": 21.0,
-     "reg": {
-      "x": 0,
-      "n": 10,
-      "txt": "0 de 10",
-      "cumple": false
-     },
-     "colchon": -3.35
-    }
-   ]
-  },
-  {
    "jugador": "Anthony Bermont",
    "lado": "local",
    "stat": "anota",
@@ -13807,7 +13409,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 7,
    "sin_historial": false,
-   "cuota": 19.0,
+   "cuota": 20.0,
    "reg": {
     "x": 0,
     "n": 7,
@@ -14126,6 +13728,353 @@
    ]
   },
   {
+   "jugador": "Jim Allevinah",
+   "lado": "local",
+   "stat": "anota",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 10,
+   "sin_historial": false,
+   "cuota": 4.65,
+   "reg": {
+    "x": 0,
+    "n": 10,
+    "txt": "0 de 10",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Jim Allevinah",
+   "lado": "local",
+   "stat": "anota_o_asiste",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 10,
+   "sin_historial": false,
+   "cuota": 3.3,
+   "reg": {
+    "x": 0,
+    "n": 10,
+    "txt": "0 de 10",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Jim Allevinah",
+   "lado": "local",
+   "stat": "tarjeta",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 10,
+   "sin_historial": false,
+   "cuota": 20.0,
+   "reg": {
+    "x": 2,
+    "n": 10,
+    "txt": "2 de 10",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Jim Allevinah",
+   "lado": "local",
+   "stat": "asiste",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 10,
+   "sin_historial": false,
+   "cuota": 6.1,
+   "reg": {
+    "x": 0,
+    "n": 10,
+    "txt": "0 de 10",
+    "cumple": false
+   }
+  },
+  {
+   "jugador": "Jim Allevinah",
+   "lado": "local",
+   "stat": "remates",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 10,
+   "sin_historial": false,
+   "por_90": 2.3,
+   "esperado": 2.05,
+   "escalones": [
+    {
+     "minimo": 2,
+     "cuota": 1.36,
+     "reg": {
+      "x": 3,
+      "n": 10,
+      "txt": "3 de 10",
+      "cumple": false
+     },
+     "colchon": 0.55
+    },
+    {
+     "minimo": 3,
+     "cuota": 2.07,
+     "reg": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "colchon": -0.45
+    },
+    {
+     "minimo": 4,
+     "cuota": 3.75,
+     "reg": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "colchon": -1.45
+    },
+    {
+     "minimo": 5,
+     "cuota": 7.2,
+     "reg": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "colchon": -2.45
+    },
+    {
+     "minimo": 6,
+     "cuota": 13.0,
+     "reg": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "colchon": -3.45
+    },
+    {
+     "minimo": 7,
+     "cuota": 19.0,
+     "reg": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "colchon": -4.45
+    },
+    {
+     "minimo": 8,
+     "cuota": 23.0,
+     "reg": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "colchon": -5.45
+    }
+   ]
+  },
+  {
+   "jugador": "Jim Allevinah",
+   "lado": "local",
+   "stat": "al_arco",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 10,
+   "sin_historial": false,
+   "por_90": 0.72,
+   "esperado": 0.64,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 1.75,
+     "reg": {
+      "x": 5,
+      "n": 10,
+      "txt": "5 de 10",
+      "cumple": false
+     },
+     "colchon": 0.14
+    },
+    {
+     "minimo": 2,
+     "cuota": 4.55,
+     "reg": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "colchon": -0.86
+    },
+    {
+     "minimo": 3,
+     "cuota": 12.0,
+     "reg": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "colchon": -1.86
+    },
+    {
+     "minimo": 4,
+     "cuota": 21.0,
+     "reg": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "colchon": -2.86
+    }
+   ]
+  },
+  {
+   "jugador": "Jim Allevinah",
+   "lado": "local",
+   "stat": "entradas",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 10,
+   "sin_historial": false,
+   "por_90": 1.01,
+   "esperado": 0.9,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 1.26,
+     "reg": {
+      "x": 4,
+      "n": 10,
+      "txt": "4 de 10",
+      "cumple": false
+     },
+     "colchon": 0.4
+    },
+    {
+     "minimo": 2,
+     "cuota": 2.18,
+     "reg": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "colchon": -0.6
+    },
+    {
+     "minimo": 3,
+     "cuota": 4.7,
+     "reg": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "colchon": -1.6
+    },
+    {
+     "minimo": 4,
+     "cuota": 10.25,
+     "reg": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "colchon": -2.6
+    },
+    {
+     "minimo": 5,
+     "cuota": 17.5,
+     "reg": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "colchon": -3.6
+    }
+   ]
+  },
+  {
+   "jugador": "Jim Allevinah",
+   "lado": "local",
+   "stat": "faltas",
+   "titular": 0.9,
+   "minutos_esperados": 80,
+   "partidos_muestra": 10,
+   "sin_historial": false,
+   "por_90": 1.3,
+   "esperado": 1.15,
+   "escalones": [
+    {
+     "minimo": 1,
+     "cuota": 1.35,
+     "reg": {
+      "x": 6,
+      "n": 10,
+      "txt": "6 de 10",
+      "cumple": false
+     },
+     "colchon": 0.65
+    },
+    {
+     "minimo": 2,
+     "cuota": 2.57,
+     "reg": {
+      "x": 2,
+      "n": 10,
+      "txt": "2 de 10",
+      "cumple": false
+     },
+     "colchon": -0.35
+    },
+    {
+     "minimo": 3,
+     "cuota": 6.1,
+     "reg": {
+      "x": 1,
+      "n": 10,
+      "txt": "1 de 10",
+      "cumple": false
+     },
+     "colchon": -1.35
+    },
+    {
+     "minimo": 4,
+     "cuota": 13.5,
+     "reg": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "colchon": -2.35
+    },
+    {
+     "minimo": 5,
+     "cuota": 21.0,
+     "reg": {
+      "x": 0,
+      "n": 10,
+      "txt": "0 de 10",
+      "cumple": false
+     },
+     "colchon": -3.35
+    }
+   ]
+  },
+  {
    "jugador": "Amadou Haidara",
    "lado": "visitante",
    "stat": "anota",
@@ -14133,7 +14082,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 4.6,
+   "cuota": 4.65,
    "reg": {
     "x": 0,
     "n": 10,
@@ -14149,7 +14098,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 3.15,
+   "cuota": 3.2,
    "reg": {
     "x": 0,
     "n": 10,
@@ -14165,7 +14114,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 12.0,
+   "cuota": 12.5,
    "reg": {
     "x": 2,
     "n": 10,
@@ -14501,7 +14450,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 1,
    "sin_historial": false,
-   "cuota": 11.5,
+   "cuota": 12.0,
    "reg": {
     "x": 0,
     "n": 1,
@@ -14783,7 +14732,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 5.3,
+   "cuota": 5.4,
    "reg": {
     "x": 1,
     "n": 10,
@@ -14799,7 +14748,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 3.4,
+   "cuota": 3.45,
    "reg": {
     "x": 2,
     "n": 10,
@@ -14815,7 +14764,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 13.5,
+   "cuota": 14.5,
    "reg": {
     "x": 3,
     "n": 10,
@@ -15108,7 +15057,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 5.7,
+   "cuota": 5.8,
    "reg": {
     "x": 0,
     "n": 10,
@@ -15140,7 +15089,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 10.5,
+   "cuota": 11.0,
    "reg": {
     "x": 2,
     "n": 10,
@@ -15433,7 +15382,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 6.0,
+   "cuota": 6.1,
    "reg": {
     "x": 2,
     "n": 9,
@@ -15769,7 +15718,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 6.7,
+   "cuota": 6.8,
    "reg": {
     "x": 1,
     "n": 9,
@@ -15801,7 +15750,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 16.5,
+   "cuota": 17.0,
    "reg": {
     "x": 0,
     "n": 9,
@@ -16083,7 +16032,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 7.1,
+   "cuota": 7.2,
    "reg": {
     "x": 0,
     "n": 9,
@@ -16099,7 +16048,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 4.05,
+   "cuota": 4.1,
    "reg": {
     "x": 0,
     "n": 9,
@@ -16115,7 +16064,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 15.0,
+   "cuota": 15.5,
    "reg": {
     "x": 1,
     "n": 9,
@@ -16397,7 +16346,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "cuota": 7.1,
+   "cuota": 7.2,
    "reg": {
     "x": 0,
     "n": 5,
@@ -16413,7 +16362,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "cuota": 5.7,
+   "cuota": 5.8,
    "reg": {
     "x": 0,
     "n": 5,
@@ -16429,7 +16378,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 5,
    "sin_historial": false,
-   "cuota": 12.0,
+   "cuota": 12.5,
    "reg": {
     "x": 1,
     "n": 5,
@@ -16711,7 +16660,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
-   "cuota": 7.7,
+   "cuota": 7.8,
    "reg": {
     "x": 0,
     "n": 6,
@@ -16743,7 +16692,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 6,
    "sin_historial": false,
-   "cuota": 13.5,
+   "cuota": 14.5,
    "reg": {
     "x": 0,
     "n": 6,
@@ -17052,7 +17001,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 6.5,
+   "cuota": 6.6,
    "reg": {
     "x": 0,
     "n": 10,
@@ -17068,7 +17017,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 15.0,
+   "cuota": 15.5,
    "reg": {
     "x": 3,
     "n": 10,
@@ -17371,7 +17320,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 7,
    "sin_historial": false,
-   "cuota": 11.5,
+   "cuota": 12.0,
    "reg": {
     "x": 0,
     "n": 7,
@@ -17658,7 +17607,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 0,
    "sin_historial": true,
-   "cuota": 13.5,
+   "cuota": 14.0,
    "reg": {
     "x": 0,
     "n": 0,
@@ -17690,7 +17639,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
-   "cuota": 7.2,
+   "cuota": 7.3,
    "reg": {
     "x": 0,
     "n": 7,
@@ -17706,7 +17655,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 7,
    "sin_historial": false,
-   "cuota": 13.5,
+   "cuota": 14.0,
    "reg": {
     "x": 0,
     "n": 7,
@@ -18009,7 +17958,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 3,
    "sin_historial": false,
-   "cuota": 19.0,
+   "cuota": 20.0,
    "reg": {
     "x": 1,
     "n": 3,
@@ -18301,7 +18250,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 19.0,
+   "cuota": 20.0,
    "reg": {
     "x": 1,
     "n": 10,
@@ -18588,7 +18537,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 7.4,
+   "cuota": 7.5,
    "reg": {
     "x": 1,
     "n": 9,
@@ -18604,7 +18553,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 13.5,
+   "cuota": 14.5,
    "reg": {
     "x": 1,
     "n": 9,
@@ -18907,7 +18856,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 9,
    "sin_historial": false,
-   "cuota": 13.5,
+   "cuota": 14.5,
    "reg": {
     "x": 2,
     "n": 9,
@@ -19172,7 +19121,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 3,
    "sin_historial": false,
-   "cuota": 11.75,
+   "cuota": 12.0,
    "reg": {
     "x": 0,
     "n": 3,
@@ -19188,7 +19137,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 3,
    "sin_historial": false,
-   "cuota": 19.0,
+   "cuota": 20.0,
    "reg": {
     "x": 0,
     "n": 3,
@@ -19469,7 +19418,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 8,
    "sin_historial": false,
-   "cuota": 15.0,
+   "cuota": 16.0,
    "reg": {
     "x": 3,
     "n": 8,
@@ -19750,7 +19699,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 2,
    "sin_historial": false,
-   "cuota": 18.0,
+   "cuota": 19.0,
    "reg": {
     "x": 0,
     "n": 2,
@@ -20021,7 +19970,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 23.0,
+   "cuota": 24.0,
    "reg": {
     "x": 0,
     "n": 10,
@@ -20105,7 +20054,7 @@
    "minutos_esperados": 80,
    "partidos_muestra": 10,
    "sin_historial": false,
-   "cuota": 24.0,
+   "cuota": 25.0,
    "reg": {
     "x": 0,
     "n": 10,
@@ -20189,7 +20138,7 @@
    "minutos_esperados": null,
    "partidos_muestra": 0,
    "sin_historial": true,
-   "cuota": 25.0,
+   "cuota": 26.0,
    "reg": {
     "x": 0,
     "n": 0,

@@ -1229,7 +1229,7 @@
 "jugador": "Martin Boyle",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 2.5
+"cuota": 2.45
 },
 {
 "jugador": "Martin Boyle",
@@ -1282,13 +1282,13 @@
 "jugador": "Nathan Lowe",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 2.5
+"cuota": 2.45
 },
 {
 "jugador": "Nathan Lowe",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.02
+"cuota": 2.0
 },
 {
 "jugador": "Nathan Lowe",
@@ -1335,13 +1335,13 @@
 "jugador": "Seb Palmer Houlden",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.6
+"cuota": 2.55
 },
 {
 "jugador": "Seb Palmer Houlden",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.22
+"cuota": 2.18
 },
 {
 "jugador": "Seb Palmer Houlden",
@@ -1442,13 +1442,13 @@
 "jugador": "Callum Hendry",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.77
+"cuota": 2.7
 },
 {
 "jugador": "Callum Hendry",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.35
+"cuota": 2.3
 },
 {
 "jugador": "Callum Hendry",
@@ -1495,13 +1495,13 @@
 "jugador": "Owen Elding",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 2.87
+"cuota": 2.77
 },
 {
 "jugador": "Owen Elding",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.37
+"cuota": 2.32
 },
 {
 "jugador": "Owen Elding",
@@ -1546,13 +1546,13 @@
 "jugador": "Eythor Bjorgolfsson",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.9
+"cuota": 2.87
 },
 {
 "jugador": "Eythor Bjorgolfsson",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.42
+"cuota": 2.4
 },
 {
 "jugador": "Eythor Bjorgolfsson",
@@ -1599,13 +1599,13 @@
 "jugador": "Thibault Klidje",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 2.95
+"cuota": 2.9
 },
 {
 "jugador": "Thibault Klidje",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.42
+"cuota": 2.4
 },
 {
 "jugador": "Thibault Klidje",
@@ -1652,13 +1652,13 @@
 "jugador": "Ante Suto",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 2.95
+"cuota": 2.9
 },
 {
 "jugador": "Ante Suto",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.42
+"cuota": 2.4
 },
 {
 "jugador": "Ante Suto",
@@ -1705,13 +1705,13 @@
 "jugador": "Callum Wright",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.35
+"cuota": 3.3
 },
 {
 "jugador": "Callum Wright",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.45
+"cuota": 2.42
 },
 {
 "jugador": "Callum Wright",
@@ -1758,13 +1758,13 @@
 "jugador": "Willy Vogt",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.75
+"cuota": 3.65
 },
 {
 "jugador": "Willy Vogt",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.92
+"cuota": 2.87
 },
 {
 "jugador": "Willy Vogt",
@@ -1810,13 +1810,13 @@
 "jugador": "Jamie McGrath",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.75
+"cuota": 3.65
 },
 {
 "jugador": "Jamie McGrath",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.72
+"cuota": 2.67
 },
 {
 "jugador": "Jamie McGrath",
@@ -1856,6 +1856,58 @@
 "2": 3.85,
 "3": 9.75,
 "4": 18.5
+}
+},
+{
+"jugador": "Ibrahim Said",
+"lado": "local",
+"stat": "anota",
+"cuota": 3.9
+},
+{
+"jugador": "Ibrahim Said",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 3.0
+},
+{
+"jugador": "Ibrahim Said",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 26.0
+},
+{
+"jugador": "Ibrahim Said",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 3.9,
+"2": 19.5
+}
+},
+{
+"jugador": "Ibrahim Said",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.09,
+"2": 1.52,
+"3": 2.47,
+"4": 4.6,
+"5": 8.75,
+"6": 15.0,
+"7": 20.0
+}
+},
+{
+"jugador": "Ibrahim Said",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.6,
+"2": 3.75,
+"3": 9.25,
+"4": 18.0
 }
 },
 {
@@ -1913,55 +1965,54 @@
 }
 },
 {
-"jugador": "Ibrahim Said",
+"jugador": "Lukas Fadinger",
 "lado": "local",
 "stat": "anota",
 "cuota": 4.25
 },
 {
-"jugador": "Ibrahim Said",
+"jugador": "Lukas Fadinger",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 3.2
+"cuota": 3.15
 },
 {
-"jugador": "Ibrahim Said",
+"jugador": "Lukas Fadinger",
 "lado": "local",
 "stat": "tarjeta",
 "cuota": 26.0
 },
 {
-"jugador": "Ibrahim Said",
+"jugador": "Lukas Fadinger",
 "lado": "local",
 "stat": "asiste",
 "escalera": {
-"1": 3.9,
+"1": 3.85,
 "2": 19.5
 }
 },
 {
-"jugador": "Ibrahim Said",
+"jugador": "Lukas Fadinger",
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"1": 1.09,
-"2": 1.52,
-"3": 2.47,
-"4": 4.6,
-"5": 8.75,
-"6": 15.0,
-"7": 20.0
+"1": 1.15,
+"2": 1.72,
+"3": 3.1,
+"4": 6.1,
+"5": 11.75,
+"6": 18.5
 }
 },
 {
-"jugador": "Ibrahim Said",
+"jugador": "Lukas Fadinger",
 "lado": "local",
 "stat": "al_arco",
 "escalera": {
-"1": 1.6,
-"2": 3.75,
-"3": 9.25,
-"4": 18.0
+"1": 1.8,
+"2": 4.8,
+"3": 12.5,
+"4": 21.0
 }
 },
 {
@@ -2016,54 +2067,55 @@
 }
 },
 {
-"jugador": "Lukas Fadinger",
-"lado": "local",
+"jugador": "Josh Mulligan",
+"lado": "visitante",
 "stat": "anota",
-"cuota": 4.65
+"cuota": 4.25
 },
 {
-"jugador": "Lukas Fadinger",
-"lado": "local",
+"jugador": "Josh Mulligan",
+"lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 3.35
+"cuota": 2.8
 },
 {
-"jugador": "Lukas Fadinger",
-"lado": "local",
+"jugador": "Josh Mulligan",
+"lado": "visitante",
 "stat": "tarjeta",
-"cuota": 26.0
+"cuota": 28.0
 },
 {
-"jugador": "Lukas Fadinger",
-"lado": "local",
+"jugador": "Josh Mulligan",
+"lado": "visitante",
 "stat": "asiste",
 "escalera": {
-"1": 3.85,
-"2": 19.5
+"1": 3.35,
+"2": 15.5
 }
 },
 {
-"jugador": "Lukas Fadinger",
-"lado": "local",
+"jugador": "Josh Mulligan",
+"lado": "visitante",
 "stat": "remates",
 "escalera": {
-"1": 1.15,
-"2": 1.72,
-"3": 3.1,
-"4": 6.1,
-"5": 11.75,
-"6": 18.5
+"1": 1.07,
+"2": 1.42,
+"3": 2.2,
+"4": 3.9,
+"5": 7.2,
+"6": 12.5,
+"7": 18.5
 }
 },
 {
-"jugador": "Lukas Fadinger",
-"lado": "local",
+"jugador": "Josh Mulligan",
+"lado": "visitante",
 "stat": "al_arco",
 "escalera": {
-"1": 1.8,
-"2": 4.8,
-"3": 12.5,
-"4": 21.0
+"1": 1.67,
+"2": 4.2,
+"3": 10.75,
+"4": 19.5
 }
 },
 {
@@ -2117,58 +2169,6 @@
 "3": 7.8,
 "4": 16.0,
 "5": 22.0
-}
-},
-{
-"jugador": "Josh Mulligan",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 4.65
-},
-{
-"jugador": "Josh Mulligan",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 2.92
-},
-{
-"jugador": "Josh Mulligan",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 28.0
-},
-{
-"jugador": "Josh Mulligan",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 3.35,
-"2": 15.5
-}
-},
-{
-"jugador": "Josh Mulligan",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"1": 1.07,
-"2": 1.42,
-"3": 2.2,
-"4": 3.9,
-"5": 7.2,
-"6": 12.5,
-"7": 18.5
-}
-},
-{
-"jugador": "Josh Mulligan",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 1.67,
-"2": 4.2,
-"3": 10.75,
-"4": 19.5
 }
 },
 {
@@ -2482,13 +2482,13 @@
 "jugador": "Dylan Levitt",
 "lado": "local",
 "stat": "anota",
-"cuota": 6.1
+"cuota": 5.8
 },
 {
 "jugador": "Dylan Levitt",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 4.1
+"cuota": 3.95
 },
 {
 "jugador": "Dylan Levitt",
@@ -2674,6 +2674,54 @@
 }
 },
 {
+"jugador": "Ewan Wilson",
+"lado": "local",
+"stat": "anota",
+"cuota": 7.5
+},
+{
+"jugador": "Ewan Wilson",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 4.2
+},
+{
+"jugador": "Ewan Wilson",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 35.0
+},
+{
+"jugador": "Ewan Wilson",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 3.75,
+"2": 18.5
+}
+},
+{
+"jugador": "Ewan Wilson",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.62,
+"2": 3.8,
+"3": 9.5,
+"4": 18.0
+}
+},
+{
+"jugador": "Ewan Wilson",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.87,
+"2": 11.75,
+"3": 22.0
+}
+},
+{
 "jugador": "Joe Newell",
 "lado": "visitante",
 "stat": "anota",
@@ -2720,6 +2768,55 @@
 "1": 2.35,
 "2": 8.25,
 "3": 18.5
+}
+},
+{
+"jugador": "Jacob Devaney",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 7.5
+},
+{
+"jugador": "Jacob Devaney",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 4.45
+},
+{
+"jugador": "Jacob Devaney",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 24.0
+},
+{
+"jugador": "Jacob Devaney",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 3.9,
+"2": 19.5
+}
+},
+{
+"jugador": "Jacob Devaney",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.36,
+"2": 2.55,
+"3": 5.7,
+"4": 12.0,
+"5": 19.5
+}
+},
+{
+"jugador": "Jacob Devaney",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.65,
+"2": 10.25,
+"3": 21.0
 }
 },
 {
@@ -2770,54 +2867,6 @@
 "1": 2.32,
 "2": 7.9,
 "3": 18.5
-}
-},
-{
-"jugador": "Ewan Wilson",
-"lado": "local",
-"stat": "anota",
-"cuota": 7.8
-},
-{
-"jugador": "Ewan Wilson",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 4.3
-},
-{
-"jugador": "Ewan Wilson",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 35.0
-},
-{
-"jugador": "Ewan Wilson",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 3.75,
-"2": 18.5
-}
-},
-{
-"jugador": "Ewan Wilson",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"1": 1.62,
-"2": 3.8,
-"3": 9.5,
-"4": 18.0
-}
-},
-{
-"jugador": "Ewan Wilson",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 2.87,
-"2": 11.75,
-"3": 22.0
 }
 },
 {
@@ -2915,55 +2964,6 @@
 "1": 2.8,
 "2": 11.25,
 "3": 22.0
-}
-},
-{
-"jugador": "Jacob Devaney",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 7.8
-},
-{
-"jugador": "Jacob Devaney",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 4.55
-},
-{
-"jugador": "Jacob Devaney",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 24.0
-},
-{
-"jugador": "Jacob Devaney",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 3.9,
-"2": 19.5
-}
-},
-{
-"jugador": "Jacob Devaney",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"1": 1.36,
-"2": 2.55,
-"3": 5.7,
-"4": 12.0,
-"5": 19.5
-}
-},
-{
-"jugador": "Jacob Devaney",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 2.65,
-"2": 10.25,
-"3": 21.0
 }
 },
 {
@@ -3598,6 +3598,54 @@
 }
 },
 {
+"jugador": "Jordan Obita",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 9.75
+},
+{
+"jugador": "Jordan Obita",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 3.8
+},
+{
+"jugador": "Jordan Obita",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 30.0
+},
+{
+"jugador": "Jordan Obita",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 3.25,
+"2": 14.5
+}
+},
+{
+"jugador": "Jordan Obita",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.57,
+"2": 3.6,
+"3": 9.0,
+"4": 17.5
+}
+},
+{
+"jugador": "Jordan Obita",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.92,
+"2": 12.5,
+"3": 22.0
+}
+},
+{
 "jugador": "Jamie Knight-Lebel",
 "lado": "local",
 "stat": "anota",
@@ -3784,54 +3832,6 @@
 "1": 3.15,
 "2": 14.0,
 "3": 23.0
-}
-},
-{
-"jugador": "Jordan Obita",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 11.0
-},
-{
-"jugador": "Jordan Obita",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 3.95
-},
-{
-"jugador": "Jordan Obita",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 30.0
-},
-{
-"jugador": "Jordan Obita",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 3.25,
-"2": 14.5
-}
-},
-{
-"jugador": "Jordan Obita",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"1": 1.57,
-"2": 3.6,
-"3": 9.0,
-"4": 17.5
-}
-},
-{
-"jugador": "Jordan Obita",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 2.92,
-"2": 12.5,
-"3": 22.0
 }
 },
 {
@@ -13958,5 +13958,5 @@
 "faltan": []
 },
 "estadio": "",
-"cuotas_leidas": "Cuotas de Betano leídas 2026-11-27T23:49:07.034Z · 380 mercados"
+"cuotas_leidas": "Cuotas de Betano leídas 2026-11-28T06:17:42.559Z · 380 mercados"
 }

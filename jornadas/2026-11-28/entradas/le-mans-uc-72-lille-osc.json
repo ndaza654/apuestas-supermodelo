@@ -30,14 +30,14 @@
 "mercado": "goles",
 "ambito": "total",
 "linea": 2.0,
-"mas": 1.62,
-"menos": 2.37
+"mas": 1.6,
+"menos": 2.4
 },
 {
 "mercado": "goles",
 "ambito": "total",
 "linea": 2.25,
-"mas": 1.88,
+"mas": 1.87,
 "menos": 1.98
 },
 {
@@ -94,14 +94,14 @@
 "ambito": "total",
 "linea": 4.5,
 "mas": 1.04,
-"menos": 9.0
+"menos": 9.25
 },
 {
 "mercado": "corners",
 "ambito": "total",
 "linea": 5.0,
 "mas": 1.1,
-"menos": 9.0
+"menos": 9.25
 },
 {
 "mercado": "corners",
@@ -276,7 +276,7 @@
 "ambito": "local",
 "linea": 5.5,
 "mas": 3.75,
-"menos": 1.25
+"menos": 1.24
 },
 {
 "mercado": "corners",
@@ -311,7 +311,7 @@
 "ambito": "visitante",
 "linea": 3.5,
 "mas": 1.34,
-"menos": 3.05
+"menos": 3.1
 },
 {
 "mercado": "corners",
@@ -331,7 +331,7 @@
 "mercado": "corners",
 "ambito": "visitante",
 "linea": 6.5,
-"mas": 3.65,
+"mas": 3.7,
 "menos": 1.25
 },
 {
@@ -353,42 +353,42 @@
 "ambito": "total",
 "linea": 1.5,
 "mas": 1.09,
-"menos": 6.5
+"menos": 6.7
 },
 {
 "mercado": "tarjetas",
 "ambito": "total",
 "linea": 2.5,
-"mas": 1.26,
-"menos": 3.6
+"mas": 1.25,
+"menos": 3.7
 },
 {
 "mercado": "tarjetas",
 "ambito": "total",
 "linea": 3.5,
 "mas": 1.57,
-"menos": 2.3
+"menos": 2.32
 },
 {
 "mercado": "tarjetas",
 "ambito": "total",
 "linea": 4.5,
-"mas": 2.12,
-"menos": 1.67
+"mas": 2.07,
+"menos": 1.7
 },
 {
 "mercado": "tarjetas",
 "ambito": "total",
 "linea": 5.5,
-"mas": 3.05,
-"menos": 1.35
+"mas": 3.0,
+"menos": 1.36
 },
 {
 "mercado": "tarjetas",
 "ambito": "total",
 "linea": 6.5,
-"mas": 4.45,
-"menos": 1.18
+"mas": 4.4,
+"menos": 1.19
 },
 {
 "mercado": "tarjetas",
@@ -422,8 +422,8 @@
 "mercado": "goles",
 "ambito": "1T",
 "linea": 1.0,
-"mas": 2.12,
-"menos": 1.72
+"mas": 2.1,
+"menos": 1.75
 },
 {
 "mercado": "goles",
@@ -555,8 +555,8 @@
 "mercado": "tarjetas",
 "ambito": "1T",
 "linea": 0.5,
-"mas": 1.31,
-"menos": 3.3
+"mas": 1.3,
+"menos": 3.35
 },
 {
 "mercado": "tarjetas",
@@ -590,7 +590,7 @@
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 0.5,
-"mas": 1.26,
+"mas": 1.25,
 "menos": 3.65
 },
 {
@@ -611,8 +611,8 @@
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 3.5,
-"mas": 9.0,
-"menos": 1.04
+"mas": 8.75,
+"menos": 1.05
 },
 {
 "mercado": "goles",
@@ -912,43 +912,43 @@
 "mercado": "tarjetas",
 "ambito": "local",
 "linea": 1.5,
-"mas": 1.5,
-"menos": 2.5
+"mas": 1.42,
+"menos": 2.72
 },
 {
 "mercado": "tarjetas",
 "ambito": "local",
 "linea": 2.5,
-"mas": 2.45,
-"menos": 1.52
+"mas": 2.25,
+"menos": 1.6
 },
 {
 "mercado": "tarjetas",
 "ambito": "local",
 "linea": 3.5,
-"mas": 4.5,
-"menos": 1.18
+"mas": 4.0,
+"menos": 1.22
 },
 {
 "mercado": "tarjetas",
 "ambito": "visitante",
 "linea": 1.5,
-"mas": 1.5,
-"menos": 2.5
+"mas": 1.55,
+"menos": 2.35
 },
 {
 "mercado": "tarjetas",
 "ambito": "visitante",
 "linea": 2.5,
-"mas": 2.45,
-"menos": 1.52
+"mas": 2.62,
+"menos": 1.45
 },
 {
 "mercado": "tarjetas",
 "ambito": "visitante",
 "linea": 3.5,
-"mas": 4.5,
-"menos": 1.18
+"mas": 4.9,
+"menos": 1.16
 },
 {
 "mercado": "remates",
@@ -1177,7 +1177,7 @@
 "mercado": "resultado_1t",
 "opciones": {
 "1": 4.25,
-"X": 2.02,
+"X": 2.05,
 "2": 2.75
 }
 },
@@ -1186,7 +1186,7 @@
 "opciones": {
 "1": 3.75,
 "X": 2.42,
-"2": 2.4
+"2": 2.37
 }
 },
 {
@@ -1210,9 +1210,9 @@
 "mercado": "mas_que",
 "stat": "tarjetas",
 "opciones": {
-"local": 2.4,
-"empate": 3.8,
-"visitante": 2.4
+"local": 2.12,
+"empate": 3.9,
+"visitante": 2.7
 }
 },
 {
@@ -1227,7 +1227,7 @@
 "n": 1,
 "opciones": {
 "si": 1.22,
-"no": 4.0
+"no": 4.05
 }
 },
 {
@@ -1276,7 +1276,7 @@
 "opciones": {
 "local": 1.78,
 "empate": 3.7,
-"visitante": 4.05
+"visitante": 4.0
 }
 },
 {
@@ -1317,7 +1317,7 @@
 "mercado": "handicap",
 "h": 0.25,
 "opciones": {
-"local": 2.07,
+"local": 2.1,
 "visitante": 1.78
 }
 },
@@ -1326,7 +1326,7 @@
 "h": 0.5,
 "opciones": {
 "local": 1.8,
-"visitante": 2.07
+"visitante": 2.05
 }
 },
 {
@@ -1341,7 +1341,7 @@
 "mercado": "handicap",
 "h": 1.0,
 "opciones": {
-"local": 1.38,
+"local": 1.39,
 "visitante": 3.15
 }
 }
@@ -1351,7 +1351,7 @@
 "jugador": "Adnane Kharroubi",
 "lado": "local",
 "stat": "anota",
-"cuota": 5.5
+"cuota": 5.4
 },
 {
 "jugador": "Adnane Kharroubi",
@@ -1363,7 +1363,7 @@
 "jugador": "Adnane Kharroubi",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 16.5
+"cuota": 15.5
 },
 {
 "jugador": "Adnane Kharroubi",
@@ -1438,7 +1438,7 @@
 "jugador": "Ayase Ueda",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 19.0
+"cuota": 19.5
 },
 {
 "jugador": "Ayase Ueda",
@@ -1516,7 +1516,7 @@
 "jugador": "Olivier Giroud",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 16.5
+"cuota": 17.0
 },
 {
 "jugador": "Olivier Giroud",
@@ -1593,7 +1593,7 @@
 "jugador": "Hakon Arnar Haraldsson",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 15.0
+"cuota": 15.5
 },
 {
 "jugador": "Hakon Arnar Haraldsson",
@@ -1653,98 +1653,22 @@
 }
 },
 {
-"jugador": "Gaetan Perrin",
-"lado": "visitante",
+"jugador": "Louis Mafouta",
+"lado": "local",
 "stat": "anota",
 "cuota": 3.2
 },
 {
-"jugador": "Gaetan Perrin",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 2.32
-},
-{
-"jugador": "Gaetan Perrin",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 20.0
-},
-{
-"jugador": "Gaetan Perrin",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 4.6,
-"2": 18.5
-}
-},
-{
-"jugador": "Gaetan Perrin",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"1": 1.16,
-"2": 1.8,
-"3": 3.4,
-"4": 7.2,
-"5": 14.0,
-"6": 20.0
-}
-},
-{
-"jugador": "Gaetan Perrin",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 1.91,
-"2": 5.5,
-"3": 14.5,
-"4": 22.0
-}
-},
-{
-"jugador": "Gaetan Perrin",
-"lado": "visitante",
-"stat": "entradas",
-"escalera": {
-"1": 1.18,
-"2": 1.85,
-"3": 3.55,
-"4": 7.4,
-"5": 14.0
-}
-},
-{
-"jugador": "Gaetan Perrin",
-"lado": "visitante",
-"stat": "faltas",
-"escalera": {
-"1": 1.25,
-"2": 2.18,
-"3": 4.75,
-"4": 10.5,
-"5": 18.0,
-"6": 23.0
-}
-},
-{
-"jugador": "Louis Mafouta",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.25
-},
-{
 "jugador": "Louis Mafouta",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.72
+"cuota": 2.7
 },
 {
 "jugador": "Louis Mafouta",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 15.0
+"cuota": 14.0
 },
 {
 "jugador": "Louis Mafouta",
@@ -1806,6 +1730,82 @@
 }
 },
 {
+"jugador": "Gaetan Perrin",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 3.2
+},
+{
+"jugador": "Gaetan Perrin",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 2.32
+},
+{
+"jugador": "Gaetan Perrin",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 21.0
+},
+{
+"jugador": "Gaetan Perrin",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 4.6,
+"2": 18.5
+}
+},
+{
+"jugador": "Gaetan Perrin",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.16,
+"2": 1.8,
+"3": 3.4,
+"4": 7.2,
+"5": 14.0,
+"6": 20.0
+}
+},
+{
+"jugador": "Gaetan Perrin",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.91,
+"2": 5.5,
+"3": 14.5,
+"4": 22.0
+}
+},
+{
+"jugador": "Gaetan Perrin",
+"lado": "visitante",
+"stat": "entradas",
+"escalera": {
+"1": 1.18,
+"2": 1.85,
+"3": 3.55,
+"4": 7.4,
+"5": 14.0
+}
+},
+{
+"jugador": "Gaetan Perrin",
+"lado": "visitante",
+"stat": "faltas",
+"escalera": {
+"1": 1.25,
+"2": 2.18,
+"3": 4.75,
+"4": 10.5,
+"5": 18.0,
+"6": 23.0
+}
+},
+{
 "jugador": "Soriba Diaoune",
 "lado": "visitante",
 "stat": "anota",
@@ -1821,7 +1821,7 @@
 "jugador": "Soriba Diaoune",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 20.0
+"cuota": 21.0
 },
 {
 "jugador": "Soriba Diaoune",
@@ -1888,7 +1888,7 @@
 "jugador": "Dame Gueye",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.7
+"cuota": 3.65
 },
 {
 "jugador": "Dame Gueye",
@@ -1900,7 +1900,7 @@
 "jugador": "Dame Gueye",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 16.5
+"cuota": 15.5
 },
 {
 "jugador": "Dame Gueye",
@@ -1977,7 +1977,7 @@
 "jugador": "Ethan Mbappé",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 13.5
+"cuota": 14.0
 },
 {
 "jugador": "Ethan Mbappé",
@@ -2040,87 +2040,10 @@
 }
 },
 {
-"jugador": "Dilane Bakwa",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 3.9
-},
-{
-"jugador": "Dilane Bakwa",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 2.55
-},
-{
-"jugador": "Dilane Bakwa",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 19.0
-},
-{
-"jugador": "Dilane Bakwa",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 4.45,
-"2": 18.0
-}
-},
-{
-"jugador": "Dilane Bakwa",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"1": 1.09,
-"2": 1.52,
-"3": 2.55,
-"4": 4.9,
-"5": 9.75,
-"6": 16.5,
-"7": 22.0
-}
-},
-{
-"jugador": "Dilane Bakwa",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 1.85,
-"2": 5.2,
-"3": 13.5,
-"4": 22.0
-}
-},
-{
-"jugador": "Dilane Bakwa",
-"lado": "visitante",
-"stat": "entradas",
-"escalera": {
-"1": 1.25,
-"2": 2.12,
-"3": 4.5,
-"4": 9.75,
-"5": 17.0
-}
-},
-{
-"jugador": "Dilane Bakwa",
-"lado": "visitante",
-"stat": "faltas",
-"escalera": {
-"1": 1.17,
-"2": 1.85,
-"3": 3.6,
-"4": 7.6,
-"5": 14.5,
-"6": 21.0
-}
-},
-{
 "jugador": "Erwan Colas",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.95
+"cuota": 3.9
 },
 {
 "jugador": "Erwan Colas",
@@ -2132,7 +2055,7 @@
 "jugador": "Erwan Colas",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 17.5
+"cuota": 16.5
 },
 {
 "jugador": "Erwan Colas",
@@ -2195,7 +2118,7 @@
 "jugador": "William Harhouz",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.95
+"cuota": 3.9
 },
 {
 "jugador": "William Harhouz",
@@ -2207,7 +2130,7 @@
 "jugador": "William Harhouz",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 19.0
+"cuota": 18.0
 },
 {
 "jugador": "William Harhouz",
@@ -2267,6 +2190,83 @@
 }
 },
 {
+"jugador": "Dilane Bakwa",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 3.9
+},
+{
+"jugador": "Dilane Bakwa",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 2.55
+},
+{
+"jugador": "Dilane Bakwa",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 19.5
+},
+{
+"jugador": "Dilane Bakwa",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 4.45,
+"2": 18.0
+}
+},
+{
+"jugador": "Dilane Bakwa",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.09,
+"2": 1.52,
+"3": 2.55,
+"4": 4.9,
+"5": 9.75,
+"6": 16.5,
+"7": 22.0
+}
+},
+{
+"jugador": "Dilane Bakwa",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.85,
+"2": 5.2,
+"3": 13.5,
+"4": 22.0
+}
+},
+{
+"jugador": "Dilane Bakwa",
+"lado": "visitante",
+"stat": "entradas",
+"escalera": {
+"1": 1.25,
+"2": 2.12,
+"3": 4.5,
+"4": 9.75,
+"5": 17.0
+}
+},
+{
+"jugador": "Dilane Bakwa",
+"lado": "visitante",
+"stat": "faltas",
+"escalera": {
+"1": 1.17,
+"2": 1.85,
+"3": 3.6,
+"4": 7.6,
+"5": 14.5,
+"6": 21.0
+}
+},
+{
 "jugador": "Basar Onal",
 "lado": "visitante",
 "stat": "anota",
@@ -2282,7 +2282,7 @@
 "jugador": "Basar Onal",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 20.0
+"cuota": 21.0
 },
 {
 "jugador": "Basar Onal",
@@ -2358,7 +2358,7 @@
 "jugador": "Yeli Traore",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 19.0
+"cuota": 19.5
 },
 {
 "jugador": "Yeli Traore",
@@ -2434,7 +2434,7 @@
 "jugador": "Ngal'ayel Mukau",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 16.5
+"cuota": 17.0
 },
 {
 "jugador": "Ngal'ayel Mukau",
@@ -2496,19 +2496,19 @@
 "jugador": "Antoine Rabillard",
 "lado": "local",
 "stat": "anota",
-"cuota": 4.35
+"cuota": 4.3
 },
 {
 "jugador": "Antoine Rabillard",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 3.4
+"cuota": 3.35
 },
 {
 "jugador": "Antoine Rabillard",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 13.5
+"cuota": 13.0
 },
 {
 "jugador": "Antoine Rabillard",
@@ -2572,7 +2572,7 @@
 "jugador": "Tiago Morais",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 5.1
+"cuota": 5.0
 },
 {
 "jugador": "Tiago Morais",
@@ -2584,7 +2584,7 @@
 "jugador": "Tiago Morais",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 21.0
+"cuota": 22.0
 },
 {
 "jugador": "Tiago Morais",
@@ -2660,7 +2660,7 @@
 "jugador": "Maurits Kjaergaard",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 19.0
+"cuota": 19.5
 },
 {
 "jugador": "Maurits Kjaergaard",
@@ -2734,7 +2734,7 @@
 "jugador": "Nabil Bentaleb",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 13.5
+"cuota": 14.0
 },
 {
 "jugador": "Nabil Bentaleb",
@@ -2809,7 +2809,7 @@
 "jugador": "Titouan Caro",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 15.0
+"cuota": 14.0
 },
 {
 "jugador": "Titouan Caro",
@@ -2885,7 +2885,7 @@
 "jugador": "Benjamín André",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 13.0
+"cuota": 13.5
 },
 {
 "jugador": "Benjamín André",
@@ -2948,7 +2948,7 @@
 "jugador": "Rayan Bamba",
 "lado": "local",
 "stat": "anota",
-"cuota": 6.6
+"cuota": 6.5
 },
 {
 "jugador": "Rayan Bamba",
@@ -2960,7 +2960,7 @@
 "jugador": "Rayan Bamba",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 13.0
+"cuota": 12.5
 },
 {
 "jugador": "Rayan Bamba",
@@ -3021,19 +3021,19 @@
 "jugador": "Daouda Traore",
 "lado": "local",
 "stat": "anota",
-"cuota": 6.9
+"cuota": 6.8
 },
 {
 "jugador": "Daouda Traore",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 4.9
+"cuota": 4.85
 },
 {
 "jugador": "Daouda Traore",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 15.0
+"cuota": 14.0
 },
 {
 "jugador": "Daouda Traore",
@@ -3095,7 +3095,7 @@
 "jugador": "Lucas Calodat",
 "lado": "local",
 "stat": "anota",
-"cuota": 6.9
+"cuota": 6.8
 },
 {
 "jugador": "Lucas Calodat",
@@ -3107,7 +3107,7 @@
 "jugador": "Lucas Calodat",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 19.0
+"cuota": 18.0
 },
 {
 "jugador": "Lucas Calodat",
@@ -3169,19 +3169,19 @@
 "jugador": "Lucas Buades",
 "lado": "local",
 "stat": "anota",
-"cuota": 7.6
+"cuota": 7.5
 },
 {
 "jugador": "Lucas Buades",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 5.3
+"cuota": 5.2
 },
 {
 "jugador": "Lucas Buades",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 17.5
+"cuota": 16.5
 },
 {
 "jugador": "Lucas Buades",
@@ -3243,19 +3243,19 @@
 "jugador": "Jean Vercruysse",
 "lado": "local",
 "stat": "anota",
-"cuota": 7.6
+"cuota": 7.5
 },
 {
 "jugador": "Jean Vercruysse",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 4.35
+"cuota": 4.3
 },
 {
 "jugador": "Jean Vercruysse",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 13.5
+"cuota": 13.0
 },
 {
 "jugador": "Jean Vercruysse",
@@ -3329,7 +3329,7 @@
 "jugador": "Romain Perraud",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 13.5
+"cuota": 14.0
 },
 {
 "jugador": "Romain Perraud",
@@ -3402,7 +3402,7 @@
 "jugador": "Calvin Verdonk",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 17.5
+"cuota": 18.5
 },
 {
 "jugador": "Calvin Verdonk",
@@ -3469,13 +3469,13 @@
 "jugador": "Lucas Bretelle",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 5.0
+"cuota": 4.9
 },
 {
 "jugador": "Lucas Bretelle",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 13.5
+"cuota": 13.0
 },
 {
 "jugador": "Lucas Bretelle",
@@ -3542,13 +3542,13 @@
 "jugador": "Noa Boisse",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 8.0
+"cuota": 7.9
 },
 {
 "jugador": "Noa Boisse",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 9.75
+"cuota": 9.25
 },
 {
 "jugador": "Noa Boisse",
@@ -3602,6 +3602,223 @@
 }
 },
 {
+"jugador": "Yasser Larouci",
+"lado": "local",
+"stat": "anota",
+"cuota": 9.75
+},
+{
+"jugador": "Yasser Larouci",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 6.2
+},
+{
+"jugador": "Yasser Larouci",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 15.5
+},
+{
+"jugador": "Yasser Larouci",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 8.0,
+"2": 24.0
+}
+},
+{
+"jugador": "Yasser Larouci",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.65,
+"2": 4.05,
+"3": 10.75,
+"4": 19.5,
+"5": 24.0
+}
+},
+{
+"jugador": "Yasser Larouci",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 3.2,
+"2": 13.0,
+"3": 23.0
+}
+},
+{
+"jugador": "Yasser Larouci",
+"lado": "local",
+"stat": "entradas",
+"escalera": {
+"1": 1.2,
+"2": 1.91,
+"3": 3.8,
+"4": 8.0,
+"5": 15.0
+}
+},
+{
+"jugador": "Yasser Larouci",
+"lado": "local",
+"stat": "faltas",
+"escalera": {
+"1": 1.44,
+"2": 3.0,
+"3": 7.4,
+"4": 15.5,
+"5": 22.0
+}
+},
+{
+"jugador": "Raul Torrente",
+"lado": "local",
+"stat": "anota",
+"cuota": 9.75
+},
+{
+"jugador": "Raul Torrente",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 8.25
+},
+{
+"jugador": "Raul Torrente",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 10.5
+},
+{
+"jugador": "Raul Torrente",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 11.0
+}
+},
+{
+"jugador": "Raul Torrente",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 2.12,
+"2": 6.8,
+"3": 17.0,
+"4": 24.0
+}
+},
+{
+"jugador": "Raul Torrente",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 6.0,
+"2": 22.0
+}
+},
+{
+"jugador": "Raul Torrente",
+"lado": "local",
+"stat": "entradas",
+"escalera": {
+"2": 1.4,
+"3": 2.18,
+"4": 4.0,
+"5": 7.6,
+"6": 13.5
+}
+},
+{
+"jugador": "Raul Torrente",
+"lado": "local",
+"stat": "faltas",
+"escalera": {
+"1": 1.5,
+"2": 3.3,
+"3": 8.25,
+"4": 17.0,
+"5": 23.0
+}
+},
+{
+"jugador": "Alexandre Lauray",
+"lado": "local",
+"stat": "anota",
+"cuota": 9.75
+},
+{
+"jugador": "Alexandre Lauray",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 7.0
+},
+{
+"jugador": "Alexandre Lauray",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 8.25
+},
+{
+"jugador": "Alexandre Lauray",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 9.25
+}
+},
+{
+"jugador": "Alexandre Lauray",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.53,
+"2": 3.45,
+"3": 9.0,
+"4": 17.5,
+"5": 23.0
+}
+},
+{
+"jugador": "Alexandre Lauray",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 3.35,
+"2": 13.5,
+"3": 23.0
+}
+},
+{
+"jugador": "Alexandre Lauray",
+"lado": "local",
+"stat": "entradas",
+"escalera": {
+"2": 1.33,
+"3": 1.98,
+"4": 3.45,
+"5": 6.4,
+"6": 11.5
+}
+},
+{
+"jugador": "Alexandre Lauray",
+"lado": "local",
+"stat": "faltas",
+"escalera": {
+"1": 1.11,
+"2": 1.62,
+"3": 2.87,
+"4": 5.8,
+"5": 11.25,
+"6": 18.0,
+"7": 23.0
+}
+},
+{
 "jugador": "Alexsandro",
 "lado": "visitante",
 "stat": "anota",
@@ -3617,7 +3834,7 @@
 "jugador": "Alexsandro",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 15.0
+"cuota": 15.5
 },
 {
 "jugador": "Alexsandro",
@@ -3688,7 +3905,7 @@
 "jugador": "Isaac Cossier",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 19.0
+"cuota": 19.5
 },
 {
 "jugador": "Isaac Cossier",
@@ -3743,98 +3960,25 @@
 }
 },
 {
-"jugador": "Yasser Larouci",
+"jugador": "Samuel Yohou",
 "lado": "local",
 "stat": "anota",
+"cuota": 12.0
+},
+{
+"jugador": "Samuel Yohou",
+"lado": "local",
+"stat": "anota_o_asiste",
 "cuota": 10.0
 },
 {
-"jugador": "Yasser Larouci",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 6.3
-},
-{
-"jugador": "Yasser Larouci",
+"jugador": "Samuel Yohou",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 16.5
+"cuota": 9.5
 },
 {
-"jugador": "Yasser Larouci",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 8.0,
-"2": 24.0
-}
-},
-{
-"jugador": "Yasser Larouci",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"1": 1.65,
-"2": 4.05,
-"3": 10.75,
-"4": 19.5,
-"5": 24.0
-}
-},
-{
-"jugador": "Yasser Larouci",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 3.2,
-"2": 13.0,
-"3": 23.0
-}
-},
-{
-"jugador": "Yasser Larouci",
-"lado": "local",
-"stat": "entradas",
-"escalera": {
-"1": 1.2,
-"2": 1.91,
-"3": 3.8,
-"4": 8.0,
-"5": 15.0
-}
-},
-{
-"jugador": "Yasser Larouci",
-"lado": "local",
-"stat": "faltas",
-"escalera": {
-"1": 1.44,
-"2": 3.0,
-"3": 7.4,
-"4": 15.5,
-"5": 22.0
-}
-},
-{
-"jugador": "Raul Torrente",
-"lado": "local",
-"stat": "anota",
-"cuota": 10.0
-},
-{
-"jugador": "Raul Torrente",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 8.5
-},
-{
-"jugador": "Raul Torrente",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 11.0
-},
-{
-"jugador": "Raul Torrente",
+"jugador": "Samuel Yohou",
 "lado": "local",
 "stat": "asiste",
 "escalera": {
@@ -3842,121 +3986,48 @@
 }
 },
 {
-"jugador": "Raul Torrente",
+"jugador": "Samuel Yohou",
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"1": 2.12,
-"2": 6.8,
-"3": 17.0,
+"1": 2.42,
+"2": 8.5,
+"3": 19.5,
 "4": 24.0
 }
 },
 {
-"jugador": "Raul Torrente",
+"jugador": "Samuel Yohou",
 "lado": "local",
 "stat": "al_arco",
 "escalera": {
-"1": 6.0,
-"2": 22.0
+"1": 4.2,
+"2": 17.0,
+"3": 24.0
 }
 },
 {
-"jugador": "Raul Torrente",
+"jugador": "Samuel Yohou",
 "lado": "local",
 "stat": "entradas",
 "escalera": {
-"2": 1.4,
-"3": 2.18,
-"4": 4.0,
-"5": 7.6,
-"6": 13.5
+"1": 1.18,
+"2": 1.83,
+"3": 3.5,
+"4": 7.3,
+"5": 14.0
 }
 },
 {
-"jugador": "Raul Torrente",
+"jugador": "Samuel Yohou",
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.5,
-"2": 3.3,
-"3": 8.25,
-"4": 17.0,
-"5": 23.0
-}
-},
-{
-"jugador": "Alexandre Lauray",
-"lado": "local",
-"stat": "anota",
-"cuota": 10.0
-},
-{
-"jugador": "Alexandre Lauray",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 7.1
-},
-{
-"jugador": "Alexandre Lauray",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 8.75
-},
-{
-"jugador": "Alexandre Lauray",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 9.25
-}
-},
-{
-"jugador": "Alexandre Lauray",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"1": 1.53,
-"2": 3.45,
-"3": 9.0,
-"4": 17.5,
-"5": 23.0
-}
-},
-{
-"jugador": "Alexandre Lauray",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 3.35,
-"2": 13.5,
-"3": 23.0
-}
-},
-{
-"jugador": "Alexandre Lauray",
-"lado": "local",
-"stat": "entradas",
-"escalera": {
-"2": 1.33,
-"3": 1.98,
-"4": 3.45,
-"5": 6.4,
-"6": 11.5
-}
-},
-{
-"jugador": "Alexandre Lauray",
-"lado": "local",
-"stat": "faltas",
-"escalera": {
-"1": 1.11,
-"2": 1.62,
-"3": 2.87,
-"4": 5.8,
-"5": 11.25,
-"6": 18.0,
-"7": 23.0
+"1": 1.33,
+"2": 2.52,
+"3": 5.9,
+"4": 13.0,
+"5": 20.0
 }
 },
 {
@@ -3975,7 +4046,7 @@
 "jugador": "Maxima Goffi",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 13.0
+"cuota": 13.5
 },
 {
 "jugador": "Maxima Goffi",
@@ -4046,7 +4117,7 @@
 "jugador": "Nathan Ngoy",
 "lado": "visitante",
 "stat": "tarjeta",
-"cuota": 12.0
+"cuota": 12.5
 },
 {
 "jugador": "Nathan Ngoy",
@@ -4102,81 +4173,10 @@
 }
 },
 {
-"jugador": "Samuel Yohou",
-"lado": "local",
-"stat": "anota",
-"cuota": 12.5
-},
-{
-"jugador": "Samuel Yohou",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 10.25
-},
-{
-"jugador": "Samuel Yohou",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 10.0
-},
-{
-"jugador": "Samuel Yohou",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 11.0
-}
-},
-{
-"jugador": "Samuel Yohou",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"1": 2.42,
-"2": 8.5,
-"3": 19.5,
-"4": 24.0
-}
-},
-{
-"jugador": "Samuel Yohou",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 4.2,
-"2": 17.0,
-"3": 24.0
-}
-},
-{
-"jugador": "Samuel Yohou",
-"lado": "local",
-"stat": "entradas",
-"escalera": {
-"1": 1.18,
-"2": 1.83,
-"3": 3.5,
-"4": 7.3,
-"5": 14.0
-}
-},
-{
-"jugador": "Samuel Yohou",
-"lado": "local",
-"stat": "faltas",
-"escalera": {
-"1": 1.33,
-"2": 2.52,
-"3": 5.9,
-"4": 13.0,
-"5": 20.0
-}
-},
-{
 "jugador": "Harold Voyer",
 "lado": "local",
 "stat": "anota",
-"cuota": 16.0
+"cuota": 15.5
 },
 {
 "jugador": "Harold Voyer",
@@ -4188,7 +4188,7 @@
 "jugador": "Harold Voyer",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 11.0
+"cuota": 10.5
 },
 {
 "jugador": "Harold Voyer",
@@ -4245,7 +4245,7 @@
 "jugador": "Nicolas Kocik",
 "lado": "local",
 "stat": "tarjeta",
-"cuota": 22.0
+"cuota": 20.0
 },
 {
 "jugador": "Nicolas Kocik",
@@ -4278,14 +4278,14 @@
 }
 },
 {
-"jugador": "Orlando Gill",
-"lado": "visitante",
+"jugador": "Ewan Hatfout",
+"lado": "local",
 "stat": "tarjeta",
 "cuota": 23.0
 },
 {
-"jugador": "Ewan Hatfout",
-"lado": "local",
+"jugador": "Orlando Gill",
+"lado": "visitante",
 "stat": "tarjeta",
 "cuota": 24.0
 }
@@ -12798,5 +12798,5 @@
 "faltan": []
 },
 "estadio": "Stade Marie-Marvingt",
-"cuotas_leidas": "Cuotas de Betano leídas 2026-11-27T23:47:16.402Z · 610 mercados"
+"cuotas_leidas": "Cuotas de Betano leídas 2026-11-28T06:16:51.926Z · 609 mercados"
 }

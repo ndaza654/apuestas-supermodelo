@@ -72,7 +72,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Tarjetas | Tarjetas Más 3.5 | 1.45 | 71 % | 67 % | Expulsión antes del 70′ (96 %) | Favorito golpea temprano y gana (62 %) | Alta probabilidad · Contexto a favor (+4 pts) · ★ enfoque a favor |
 | Remates | Remates Más 24.5 | 1.29 | 74 % | 69 % | Partido abierto (ambos marcan y 3+ goles) (84 %) | Favorito gana en partido trabado (65 %) | Alta probabilidad |
 | Tiros al arco | Tiros al arco Dundee FC Más 2.5 | 1.27 | 75 % | 71 % | Sorpresa: gana el no favorito (91 %) | Favorito gana en partido trabado (50 %) | Alta probabilidad |
-| Jugadores | Ethan Hamilton anota o asiste | 3.35 | 29 % | 21 % | Sorpresa: gana el no favorito (48 %) | Favorito golpea temprano y gana (0 %) | Justa |
+| Jugadores | Brad Lyons anota o asiste | 2.90 | 33 % | 17 % | Partido abierto (ambos marcan y 3+ goles) (47 %) | Sorpresa: gana el no favorito (17 %) | Justa |
 | Quién saca más | Más tarjetas: Dundee FC | 1.98 | 48 % | 47 % | Expulsión antes del 70′ (53 %) | Favorito golpea temprano y gana (46 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
@@ -119,16 +119,16 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Córners Dundee FC Más 7.5 | 8.00 | 16 % | 12 % | 16 % | +0 pts | +32 % | 13 % | -0.8 | 6.90 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
-| Matai Akinmboni anota o asiste | 12.50 | 11 % | 7 % | 11 % | -0 pts | +32 % | 7 % | — | 11.73 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
+| Matai Akinmboni anota o asiste | 12.50 | 10 % | 7 % | 11 % | -0 pts | +31 % | 7 % | — | 11.78 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
 | Córners Dundee FC Más 6.5 | 5.30 | 24 % | 18 % | 24 % | -0 pts | +30 % | 20 % | -0.4 | 4.46 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
 | Más corners: Dundee FC | 3.75 | 34 % | 21 % | 34 % | -0 pts | +27 % | 28 % | — | 3.13 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 26 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
 | Córners 1.er tiempo Menos 4.0 | 3.55 | 34 % | 31 % | 33 % | +1 pts | +22 % | 28 % | -0.3 | 3.08 | Partido abierto (ambos marcan y 3+ goles) | Valor frágil (depende de un guion) · asiática: devuelve 18 % |
-| Brad Halliday anota o asiste | 7.80 | 16 % | 11 % | 16 % | -0 pts | +22 % | 10 % | — | 7.35 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
 | Córners Dundee FC Más 5.5 | 3.35 | 36 % | 28 % | 36 % | +0 pts | +21 % | 31 % | -0.0 | 2.92 | Sorpresa: gana el no favorito | Valor · ⚠ Revisar: la simulación sin contexto se aleja 16 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Brad Halliday anota o asiste | 7.80 | 15 % | 11 % | 16 % | -0 pts | +20 % | 10 % | — | 7.44 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
 | Córners 1.er tiempo Menos 5.0 | 2.20 | 55 % | 50 % | 53 % | +2 pts | +20 % | 46 % | +0.1 | 1.90 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 17 % |
+| Imari Samuels anota o asiste | 6.70 | 18 % | 13 % | 18 % | +0 pts | +18 % | 13 % | — | 6.38 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
+| Joe Wright anota o asiste | 7.30 | 16 % | 12 % | 16 % | +0 pts | +17 % | 11 % | — | 7.16 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
 | Córners 1.er tiempo Menos 6.0 | 1.60 | 72 % | 67 % | 70 % | +2 pts | +15 % | 62 % | +0.6 | 1.43 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 13 % |
-| Dylan Lobban anota o asiste | 6.90 | 17 % | 13 % | 17 % | -0 pts | +15 % | 8 % | — | 6.84 | Empate | Valor frágil (depende de un guion) |
-| Imari Samuels anota o asiste | 6.70 | 17 % | 13 % | 18 % | -1 pts | +14 % | 11 % | — | 6.64 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
 | Córners Dundee FC Más 4.5 | 2.22 | 51 % | 42 % | 51 % | -0 pts | +12 % | 45 % | +0.3 | 2.06 | Sorpresa: gana el no favorito | Valor · ⚠ Revisar: la simulación sin contexto se aleja 17 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
 | Córners 1.er tiempo Menos 7.0 | 1.30 | 84 % | 80 % | 83 % | +1 pts | +9 % | 76 % | +1.0 | 1.23 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 9 % |
 | Córners Menos 10.0 | 2.42 | 44 % | 43 % | 43 % | +0 pts | +6 % | 36 % | -0.2 | 2.39 | Empate | Valor · asiática: devuelve 11 % |
@@ -140,7 +140,7 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Córners Menos 12.0 | 1.53 | 67 % | 67 % | 68 % | -0 pts | +3 % | 58 % | +0.4 | 1.53 | Empate | Alta probabilidad · Valor · asiática: devuelve 10 % |
 | Córners Más 9.0 | 1.52 | 68 % | 68 % | 68 % | -1 pts | +3 % | 59 % | +0.5 | 1.52 | Expulsión antes del 70′ | Alta probabilidad · Valor · asiática: devuelve 11 % |
 
-Kelly ¼ (dato informativo, no una orden de stake): Córners Dundee FC Más 7.5 1.1 % de la banca; Matai Akinmboni anota o asiste 0.7 % de la banca; Córners Dundee FC Más 6.5 1.7 % de la banca; Más corners: Dundee FC 2.5 % de la banca; Córners 1.er tiempo Menos 4.0 2.2 % de la banca; Brad Halliday anota o asiste 0.8 % de la banca; Córners Dundee FC Más 5.5 2.3 % de la banca; Córners 1.er tiempo Menos 5.0 4.2 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+Kelly ¼ (dato informativo, no una orden de stake): Córners Dundee FC Más 7.5 1.1 % de la banca; Matai Akinmboni anota o asiste 0.7 % de la banca; Córners Dundee FC Más 6.5 1.7 % de la banca; Más corners: Dundee FC 2.5 % de la banca; Córners 1.er tiempo Menos 4.0 2.2 % de la banca; Córners Dundee FC Más 5.5 2.3 % de la banca; Brad Halliday anota o asiste 0.8 % de la banca; Córners 1.er tiempo Menos 5.0 4.2 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
 
 ## Sistemas de tipsters que este partido cumple (solo para medir, no para decidir)
 | Sistema | Regla | Selección que propone | Historial con cuotas reales |

@@ -65,7 +65,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Tarjetas | Ambos 1+ tarjetas: Sí | 1.27 | 79 % | 76 % | Expulsión antes del 70′ (89 %) | Favorito golpea temprano y gana (72 %) | Alta probabilidad |
 | Remates | Remates Motherwell FC Menos 16.5 | 1.25 | 76 % | 70 % | Empate (82 %) | Partido abierto (ambos marcan y 3+ goles) (70 %) | Alta probabilidad · cuota por debajo de la justa |
 | Tiros al arco | Tiros al arco Menos 11.5 | 1.25 | 77 % | 63 % | Empate (92 %) | Partido abierto (ambos marcan y 3+ goles) (63 %) | Alta probabilidad |
-| Jugadores | Tom Sparrow anota o asiste | 2.45 | 40 % | 25 % | Partido abierto (ambos marcan y 3+ goles) (60 %) | Sorpresa: gana el no favorito (25 %) | Justa |
+| Jugadores | Tom Sparrow anota o asiste | 2.45 | 39 % | 23 % | Partido abierto (ambos marcan y 3+ goles) (60 %) | Sorpresa: gana el no favorito (23 %) | Justa |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 
@@ -88,30 +88,28 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Goles 1.er tiempo Más 0.5 | 1.36 | 73 % | 71 % | 72 % | +0 pts | -1 % | 72 % | +0.7 | 1.42 | Favorito gana en partido trabado | Alta probabilidad · ★ enfoque a favor |
 | Córners Menos 12.0 | 1.44 | 72 % | 71 % | 72 % | -0 pts | +3 % | 63 % | +0.5 | 1.44 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 9 % |
 | Tiros al arco Más 7.5 | 1.36 | 71 % | 71 % | 71 % | +0 pts | -3 % | 53 % | +0.6 | 1.45 | Favorito gana en partido trabado | Alta probabilidad |
-| Joe Newell remates 1+ | 1.26 | 71 % | 71 % | 71 % | +0 pts | -10 % | 68 % | — | 1.45 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Hándicap Motherwell FC +0.75 | 1.40 | 71 % | 70 % | 70 % | +1 pts | -1 % | 71 % | — | 1.45 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 10 % · ★ enfoque a favor |
 | Córners Motherwell FC Más 3.5 | 1.29 | 71 % | 72 % | 72 % | -1 pts | -9 % | 69 % | +0.6 | 1.46 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
+| Joe Newell remates 1+ | 1.26 | 71 % | 71 % | 71 % | -0 pts | -11 % | 69 % | — | 1.46 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Goles Menos 3.75 | 1.38 | 71 % | 71 % | 71 % | -0 pts | -3 % | 70 % | +0.4 | 1.46 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 8 % |
+| Alasana Manneh remates 1+ | 1.26 | 71 % | 71 % | 70 % | +1 pts | -11 % | 69 % | — | 1.46 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Remates Motherwell FC Más 11.5 | 1.33 | 70 % | 72 % | 70 % | +0 pts | -6 % | 64 % | +0.5 | 1.46 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | Remates Menos 31.5 | 1.33 | 70 % | 73 % | 71 % | -1 pts | -6 % | 61 % | +0.5 | 1.46 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · cuota por debajo de la justa |
 | Córners 1.er tiempo Más 3.5 | 1.32 | 70 % | 73 % | 70 % | +0 pts | -7 % | 69 % | +0.5 | 1.47 | Empate | Alta probabilidad · cuota por debajo de la justa |
 | Hándicap Hibernian FC +0.75 | 1.39 | 70 % | 71 % | 71 % | -1 pts | -2 % | 70 % | — | 1.47 | Favorito golpea temprano y gana | Alta probabilidad · asiática: devuelve 10 % · ★ enfoque a favor |
-| Jacob MacIntyre remates 1+ | 1.26 | 70 % | 71 % | 70 % | +0 pts | -12 % | 69 % | — | 1.47 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Marko Ivezic anota o asiste | 8.50 | 14 % | 10 % | 14 % | +0 pts | +22 % | 8 % | — | 8.11 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
-| Jamie Knight-Lebel anota o asiste | 8.50 | 14 % | 10 % | 14 % | +1 pts | +21 % | 7 % | — | 8.15 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
-| Paul McGinn anota o asiste | 6.80 | 18 % | 13 % | 17 % | +1 pts | +21 % | 10 % | — | 6.35 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
-| Martin Moormann anota o asiste | 8.50 | 14 % | 10 % | 14 % | +0 pts | +20 % | 8 % | — | 8.21 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
-| Stephen ODonnell anota o asiste | 6.40 | 19 % | 14 % | 18 % | +1 pts | +19 % | 10 % | — | 6.01 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
-| Alex Williams anota o asiste | 6.80 | 18 % | 13 % | 17 % | +0 pts | +19 % | 10 % | — | 6.45 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
+| Martin Moormann anota o asiste | 8.50 | 15 % | 10 % | 14 % | +1 pts | +26 % | 8 % | — | 7.83 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
+| Paul McGinn anota o asiste | 6.80 | 18 % | 13 % | 17 % | +0 pts | +20 % | 10 % | — | 6.41 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
+| Jamie Knight-Lebel anota o asiste | 8.50 | 14 % | 10 % | 14 % | +0 pts | +18 % | 7 % | — | 8.39 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
+| Alex Williams anota o asiste | 6.80 | 17 % | 13 % | 18 % | -0 pts | +17 % | 10 % | — | 6.58 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
 | Córners 1.er tiempo Menos 4.0 | 3.20 | 36 % | 34 % | 36 % | -0 pts | +16 % | 30 % | -0.3 | 2.92 | Partido abierto (ambos marcan y 3+ goles) | Valor frágil (depende de un guion) · asiática: devuelve 18 % |
 | Córners 1.er tiempo Menos 5.0 | 2.05 | 56 % | 53 % | 56 % | -0 pts | +15 % | 46 % | +0.2 | 1.85 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 17 % |
-| John Koutroumbis anota o asiste | 6.00 | 19 % | 14 % | 19 % | +0 pts | +13 % | 10 % | — | 5.93 | Empate | Valor frágil (depende de un guion) |
-| Grant Hanley anota o asiste | 6.30 | 18 % | 14 % | 18 % | -0 pts | +13 % | 10 % | — | 6.29 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
+| Grant Hanley anota o asiste | 6.30 | 18 % | 14 % | 18 % | +0 pts | +15 % | 11 % | — | 6.16 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
 | Córners 1.er tiempo Menos 6.0 | 1.52 | 73 % | 70 % | 74 % | -0 pts | +12 % | 64 % | +0.6 | 1.40 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 13 % |
+| Oscar Priestman anota o asiste | 4.90 | 22 % | 18 % | 22 % | +1 pts | +10 % | 12 % | — | 4.90 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) |
 | Córners Menos 10.0 | 2.25 | 47 % | 47 % | 47 % | -0 pts | +7 % | 39 % | -0.1 | 2.20 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 12 % |
 | Córners 1.er tiempo Más 4.0 | 1.72 | 62 % | 64 % | 62 % | +0 pts | +6 % | 50 % | +0.3 | 1.67 | Expulsión antes del 70′ | Valor · asiática: devuelve 18 % |
 | Córners 1.er tiempo Menos 7.0 | 1.24 | 85 % | 82 % | 85 % | -0 pts | +6 % | 78 % | +1.1 | 1.21 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 8 % |
@@ -122,7 +120,7 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Córners Más 8.0 | 1.36 | 76 % | 76 % | 76 % | +0 pts | +3 % | 67 % | +0.7 | 1.35 | Expulsión antes del 70′ | Alta probabilidad · Valor · asiática: devuelve 10 % |
 | Córners Menos 12.0 | 1.44 | 72 % | 71 % | 72 % | -0 pts | +3 % | 63 % | +0.5 | 1.44 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 9 % |
 
-Kelly ¼ (dato informativo, no una orden de stake): Marko Ivezic anota o asiste 0.7 % de la banca; Jamie Knight-Lebel anota o asiste 0.7 % de la banca; Paul McGinn anota o asiste 0.9 % de la banca; Martin Moormann anota o asiste 0.7 % de la banca; Stephen ODonnell anota o asiste 0.9 % de la banca; Alex Williams anota o asiste 0.8 % de la banca; Córners 1.er tiempo Menos 4.0 1.8 % de la banca; Córners 1.er tiempo Menos 5.0 3.6 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+Kelly ¼ (dato informativo, no una orden de stake): Martin Moormann anota o asiste 0.9 % de la banca; Paul McGinn anota o asiste 0.9 % de la banca; Jamie Knight-Lebel anota o asiste 0.6 % de la banca; Alex Williams anota o asiste 0.7 % de la banca; Córners 1.er tiempo Menos 4.0 1.8 % de la banca; Córners 1.er tiempo Menos 5.0 3.6 % de la banca; Grant Hanley anota o asiste 0.7 % de la banca; Córners 1.er tiempo Menos 6.0 5.6 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
 
 ## Builders del mismo guion
 | Patas | Prob. ajustada | Prob. simulación | Si una pata está 5 pts peor | Cuota justa | Cuota mínima en Betano | Correlación | Margen acumulado | Guion común | Robustez |

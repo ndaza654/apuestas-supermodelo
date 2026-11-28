@@ -67,7 +67,7 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 | Tarjetas | Tarjetas Más 3.5 | 1.47 | 67 % | 63 % | Expulsión antes del 70′ (95 %) | Favorito golpea temprano y gana (60 %) | Alta probabilidad · ★ enfoque a favor |
 | Remates | Remates Charlotte FC Más 10.5 | 1.27 | 74 % | 78 % | Sorpresa: gana el no favorito (78 %) | Favorito gana en partido trabado (61 %) | Alta probabilidad · cuota por debajo de la justa |
 | Tiros al arco | Tiros al arco Charlotte FC Más 3.5 | 1.33 | 72 % | 75 % | Sorpresa: gana el no favorito (87 %) | Favorito gana en partido trabado (37 %) | Alta probabilidad |
-| Jugadores | Brandt Bronico anota o asiste | 3.70 | 26 % | 28 % | Sorpresa: gana el no favorito (38 %) | Favorito golpea temprano y gana (0 %) | Justa |
+| Jugadores | Luca de la Torre anota o asiste | 3.85 | 25 % | 27 % | Sorpresa: gana el no favorito (36 %) | Favorito golpea temprano y gana (0 %) | Justa |
 | Quién saca más | Más corners: Charlotte FC | 2.10 | 45 % | 38 % | Favorito golpea temprano y gana (59 %) | Sorpresa: gana el no favorito (38 %) | Cara |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
@@ -104,9 +104,10 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Mbekezeli Mbokazi anota o asiste | 8.50 | 14 % | 10 % | 14 % | -0 pts | +19 % | 8 % | — | 8.30 | Empate | Valor frágil (depende de un guion) |
+| Mbekezeli Mbokazi anota o asiste | 8.50 | 14 % | 10 % | 14 % | -0 pts | +18 % | 8 % | — | 8.43 | Empate | Valor frágil (depende de un guion) |
 | Córners 1.er tiempo Menos 5.0 | 2.05 | 56 % | 54 % | 56 % | -0 pts | +15 % | 46 % | +0.2 | 1.84 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 17 % |
 | Córners 1.er tiempo Menos 4.0 | 3.20 | 36 % | 34 % | 37 % | -1 pts | +15 % | 29 % | -0.3 | 2.94 | Partido abierto (ambos marcan y 3+ goles) | Valor frágil (depende de un guion) · asiática: devuelve 18 % |
+| Sam Williams anota o asiste | 7.00 | 16 % | 12 % | 17 % | -0 pts | +14 % | 10 % | — | 6.98 | Empate | Valor frágil (depende de un guion) |
 | Córners 1.er tiempo Menos 6.0 | 1.52 | 73 % | 70 % | 73 % | -0 pts | +11 % | 63 % | +0.6 | 1.40 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 13 % |
 | Córners 1.er tiempo Más 4.0 | 1.72 | 62 % | 64 % | 62 % | +0 pts | +7 % | 51 % | +0.3 | 1.67 | Favorito gana en partido trabado | Valor · asiática: devuelve 18 % |
 | Córners Más 10.0 | 2.02 | 53 % | 52 % | 52 % | +1 pts | +7 % | 46 % | +0.1 | 1.97 | Expulsión antes del 70′ | Valor · asiática: devuelve 12 % |
@@ -118,7 +119,7 @@ Si el guion que la mata es justo el que tu lectura del partido ve probable, esa 
 | Córners Más 8.0 | 1.36 | 77 % | 76 % | 76 % | +1 pts | +4 % | 69 % | +0.7 | 1.34 | Expulsión antes del 70′ | Alta probabilidad · Valor · asiática: devuelve 10 % |
 | Córners Menos 11.0 | 1.75 | 59 % | 60 % | 60 % | -1 pts | +4 % | 50 % | +0.2 | 1.75 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 11 % |
 
-Kelly ¼ (dato informativo, no una orden de stake): Mbekezeli Mbokazi anota o asiste 0.7 % de la banca; Córners 1.er tiempo Menos 5.0 3.6 % de la banca; Córners 1.er tiempo Menos 4.0 1.7 % de la banca; Córners 1.er tiempo Menos 6.0 5.5 % de la banca; Córners 1.er tiempo Más 4.0 2.3 % de la banca; Córners Más 10.0 1.6 % de la banca; Córners Más 11.0 1.0 % de la banca; Córners 1.er tiempo Más 3.0 4.7 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+Kelly ¼ (dato informativo, no una orden de stake): Mbekezeli Mbokazi anota o asiste 0.6 % de la banca; Córners 1.er tiempo Menos 5.0 3.6 % de la banca; Córners 1.er tiempo Menos 4.0 1.7 % de la banca; Sam Williams anota o asiste 0.6 % de la banca; Córners 1.er tiempo Menos 6.0 5.5 % de la banca; Córners 1.er tiempo Más 4.0 2.3 % de la banca; Córners Más 10.0 1.6 % de la banca; Córners Más 11.0 1.0 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
 
 ## Sistemas de tipsters que este partido cumple (solo para medir, no para decidir)
 | Sistema | Regla | Selección que propone | Historial con cuotas reales |

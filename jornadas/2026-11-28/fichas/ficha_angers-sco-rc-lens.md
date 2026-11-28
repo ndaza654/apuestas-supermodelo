@@ -1,5 +1,5 @@
 # Ficha — Angers SCO - RC Lens
-Francia Ligue 1 · 2026-11-28 11:15 · cuotas leídas: Cuotas de Betano leídas 2026-11-27T23:47:02.124Z · 564 mercados
+Francia Ligue 1 · 2026-11-28 11:15 · cuotas leídas: Cuotas de Betano leídas 2026-11-28T06:16:21.774Z · 564 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -25,10 +25,10 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Remates | total | Más 24.5 | 1.47 | +3.2 | 8 de 10 | 8 de 10 |
 | Remates | total | Más 25.5 | 1.65 | +2.2 | 8 de 10 | 7 de 10 |
 | Remates | total | Más 26.5 | 1.88 | +1.2 | 8 de 10 | 7 de 10 |
-| Tarjetas | local | Menos 2.5 | 1.45 | +0.9 | 7 de 10 | 9 de 10 |
-| Tarjetas | total | Menos 5.5 | 1.3 | +2.2 | 10 de 10 | 8 de 10 |
-| Tarjetas | total | Menos 4.5 | 1.57 | +1.2 | 9 de 10 | 8 de 10 |
-| Tarjetas | visitante | Menos 2.5 | 1.45 | +0.8 | 9 de 10 | 7 de 10 |
+| Tarjetas | local | Menos 2.5 | 1.39 | +0.9 | 7 de 10 | 9 de 10 |
+| Tarjetas | total | Menos 5.5 | 1.25 | +2.2 | 10 de 10 | 8 de 10 |
+| Tarjetas | total | Menos 4.5 | 1.5 | +1.2 | 9 de 10 | 8 de 10 |
+| Tarjetas | visitante | Menos 2.5 | 1.42 | +0.8 | 9 de 10 | 7 de 10 |
 | Tiros al arco | local | Más 2.5 | 1.33 | +1.9 | 7 de 10 | 9 de 10 |
 
 ## Córners
@@ -277,30 +277,29 @@ Muestra: local 10, visitante 10, directos 4. Esperado: local 1.6, visitante 1.65
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.11 · col +1.8 · L 10 de 10 · V 9 de 10 · D 3 de 4 ✓ | @6.0 · col -1.8 · L 0 de 10 · V 1 de 10 · D 1 de 4 |
-| 2.5 | @1.3 · col +0.8 · L 4 de 10 · V 7 de 10 · D 1 de 4 | @3.3 · col -0.8 · L 6 de 10 · V 3 de 10 · D 3 de 4 |
-| 3.5 | @1.65 · col -0.2 · L 4 de 10 · V 6 de 10 · D 0 de 4 | @2.15 · col +0.2 · L 6 de 10 · V 4 de 10 · D 4 de 4 |
-| 4.5 | @2.3 · col -1.2 · L 1 de 10 · V 2 de 10 · D 0 de 4 | @1.57 · col +1.2 · L 9 de 10 · V 8 de 10 · D 4 de 4 ✓ |
-| 5.5 | @3.3 · col -2.2 · L 0 de 10 · V 2 de 10 · D 0 de 4 | @1.3 · col +2.2 · L 10 de 10 · V 8 de 10 · D 4 de 4 ✓ |
-| 6.5 | @4.9 · col -3.2 · L 0 de 10 · V 0 de 10 · D 0 de 4 | @1.15 · col +3.2 · L 10 de 10 · V 10 de 10 · D 4 de 4 ✓ |
-| 7.5 | @7.2 · col -4.2 · L 0 de 10 · V 0 de 10 · D 0 de 4 | @1.07 · col +4.2 · L 10 de 10 · V 10 de 10 · D 4 de 4 ✓ |
-| 8.5 | @9.75 · col -5.2 · L 0 de 10 · V 0 de 10 · D 0 de 4 | @1.03 · col +5.2 · L 10 de 10 · V 10 de 10 · D 4 de 4 ✓ |
+| 1.5 | @1.13 · col +1.8 · L 10 de 10 · V 9 de 10 · D 3 de 4 ✓ | @5.5 · col -1.8 · L 0 de 10 · V 1 de 10 · D 1 de 4 |
+| 2.5 | @1.35 · col +0.8 · L 4 de 10 · V 7 de 10 · D 1 de 4 | @3.05 · col -0.8 · L 6 de 10 · V 3 de 10 · D 3 de 4 |
+| 3.5 | @1.78 · col -0.2 · L 4 de 10 · V 6 de 10 · D 0 de 4 | @1.98 · col +0.2 · L 6 de 10 · V 4 de 10 · D 4 de 4 |
+| 4.5 | @2.5 · col -1.2 · L 1 de 10 · V 2 de 10 · D 0 de 4 | @1.5 · col +1.2 · L 9 de 10 · V 8 de 10 · D 4 de 4 ✓ |
+| 5.5 | @3.7 · col -2.2 · L 0 de 10 · V 2 de 10 · D 0 de 4 | @1.25 · col +2.2 · L 10 de 10 · V 8 de 10 · D 4 de 4 ✓ |
+| 6.5 | @5.5 · col -3.2 · L 0 de 10 · V 0 de 10 · D 0 de 4 | @1.12 · col +3.2 · L 10 de 10 · V 10 de 10 · D 4 de 4 ✓ |
+| 7.5 | @8.0 · col -4.2 · L 0 de 10 · V 0 de 10 · D 0 de 4 | @1.06 · col +4.2 · L 10 de 10 · V 10 de 10 · D 4 de 4 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.55 · col +0.1 · L 5 de 10 · V 6 de 10 · D 0 de 4 | @2.35 · col -0.1 · L 5 de 10 · V 4 de 10 · D 4 de 4 |
-| 2.5 | @2.6 · col -0.9 · L 3 de 10 · V 1 de 10 · D 0 de 4 | @1.45 · col +0.9 · L 7 de 10 · V 9 de 10 · D 4 de 4 ✓ |
-| 3.5 | @4.85 · col -1.9 · L 0 de 10 · V 0 de 10 · D 0 de 4 | @1.16 · col +1.9 · L 10 de 10 · V 10 de 10 · D 4 de 4 ✓ |
+| 0.5 | @1.14 · col +1.1 · L 10 de 10 · V 7 de 10 · D 4 de 4 ✓ | @5.2 · col -1.1 · L 0 de 10 · V 3 de 10 · D 0 de 4 |
+| 1.5 | @1.65 · col +0.1 · L 5 de 10 · V 6 de 10 · D 0 de 4 | @2.15 · col -0.1 · L 5 de 10 · V 4 de 10 · D 4 de 4 |
+| 2.5 | @2.87 · col -0.9 · L 3 de 10 · V 1 de 10 · D 0 de 4 | @1.39 · col +0.9 · L 7 de 10 · V 9 de 10 · D 4 de 4 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.55 · col +0.1 · L 1 de 10 · V 8 de 10 · D 1 de 4 | @2.35 · col -0.1 · L 9 de 10 · V 2 de 10 · D 3 de 4 |
-| 2.5 | @2.6 · col -0.8 · L 1 de 10 · V 3 de 10 · D 0 de 4 | @1.45 · col +0.8 · L 9 de 10 · V 7 de 10 · D 4 de 4 ✓ |
-| 3.5 | @4.85 · col -1.9 · L 0 de 10 · V 1 de 10 · D 0 de 4 | @1.16 · col +1.9 · L 10 de 10 · V 9 de 10 · D 4 de 4 ✓ |
+| 1.5 | @1.6 · col +0.1 · L 1 de 10 · V 8 de 10 · D 1 de 4 | @2.25 · col -0.1 · L 9 de 10 · V 2 de 10 · D 3 de 4 |
+| 2.5 | @2.75 · col -0.8 · L 1 de 10 · V 3 de 10 · D 0 de 4 | @1.42 · col +0.8 · L 9 de 10 · V 7 de 10 · D 4 de 4 ✓ |
+| 3.5 | @5.2 · col -1.9 · L 0 de 10 · V 1 de 10 · D 0 de 4 | @1.14 · col +1.9 · L 10 de 10 · V 9 de 10 · D 4 de 4 ✓ |
 
 ## Ambos marcan y resultado (1X2 / doble oportunidad)
 

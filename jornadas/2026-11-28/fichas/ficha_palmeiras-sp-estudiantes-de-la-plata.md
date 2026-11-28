@@ -1,5 +1,5 @@
 # Ficha — Palmeiras SP - Estudiantes de La Plata
-Copa Libertadores Copa Libertadores · 2026-11-28 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-27T23:46:29.684Z · 725 mercados
+Copa Libertadores Copa Libertadores · 2026-11-28 15:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-28T06:18:10.253Z · 725 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -12,9 +12,9 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Córners | total | Más 6.5 | 1.2 | +4.0 | 8 de 10 | 10 de 10 |
 | Córners | total | Más 7.0 | 1.38 | +3.5 | 8 de 10 | 9 de 10 |
 | Córners | total | Más 7.5 | 1.38 | +3.0 | 8 de 10 | 9 de 10 |
-| Córners | visitante | Más 2.5 | 1.3 | +3.1 | 8 de 10 | 9 de 10 |
-| Faltas | total | Menos 30.5 | 1.93 | +3.8 | 8 de 10 | 7 de 10 |
-| Faltas | visitante | Menos 17.5 | 1.82 | +5.5 | 9 de 10 | 10 de 10 |
+| Córners | visitante | Más 2.5 | 1.31 | +3.1 | 8 de 10 | 9 de 10 |
+| Faltas | total | Menos 30.5 | 1.82 | +3.8 | 8 de 10 | 7 de 10 |
+| Faltas | visitante | Menos 17.5 | 1.75 | +5.5 | 9 de 10 | 10 de 10 |
 | Fueras de juego | local | Menos 3.5 | 1.25 | +1.8 | 8 de 9 | 7 de 8 |
 | Fueras de juego | local | Menos 2.5 | 1.67 | +0.8 | 8 de 9 | 7 de 8 |
 | Goles | local | Más 0.5 | 1.31 | +1.5 | 8 de 10 | 8 de 10 |
@@ -26,7 +26,7 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Remates | visitante | Más 8.5 | 1.24 | +4.7 | 8 de 10 | 8 de 10 |
 | Remates | visitante | Más 9.5 | 1.42 | +3.6 | 8 de 10 | 8 de 10 |
 | Remates | visitante | Más 10.5 | 1.7 | +2.6 | 7 de 10 | 8 de 10 |
-| Saques de banda | local | Menos 22.5 | 1.82 | +2.1 | 7 de 10 | 7 de 10 |
+| Saques de banda | local | Menos 22.5 | 1.91 | +2.1 | 7 de 10 | 7 de 10 |
 | Saques de meta | local | Más 5.5 | 1.32 | +2.6 | 8 de 10 | 9 de 10 |
 | Saques de meta | total | Menos 20.5 | 1.21 | +3.5 | 7 de 10 | 7 de 10 |
 | Saques de meta | total | Menos 19.5 | 1.31 | +2.5 | 7 de 10 | 7 de 10 |
@@ -45,7 +45,7 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 4.85, visitante 5.6
 
 | Línea | Más | Menos |
 |---|---|---|
-| 4.0 | @1.04 · col +6.5 · L 9 de 10 · V 10 de 10 ✓ | @12.0 · col -6.5 · L 0 de 10 · V 0 de 10 |
+| 4.0 | @1.04 · col +6.5 · L 9 de 10 · V 10 de 10 ✓ | @12.5 · col -6.5 · L 0 de 10 · V 0 de 10 |
 | 4.5 | @1.04 · col +6.0 · L 9 de 10 · V 10 de 10 ✓ | @9.5 · col -6.0 · L 1 de 10 · V 0 de 10 |
 | 5.0 | @1.09 · col +5.5 · L 9 de 10 · V 10 de 10 ✓ | @9.5 · col -5.5 · L 1 de 10 · V 0 de 10 |
 | 5.5 | @1.09 · col +5.0 · L 9 de 10 · V 10 de 10 ✓ | @6.5 · col -5.0 · L 1 de 10 · V 0 de 10 |
@@ -87,7 +87,7 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 4.85, visitante 5.6
 | Línea | Más | Menos |
 |---|---|---|
 | 1.5 | @1.09 · col +4.1 · L 9 de 10 · V 10 de 10 ✓ | — |
-| 2.5 | @1.3 · col +3.1 · L 8 de 10 · V 9 de 10 ✓ | — |
+| 2.5 | @1.31 · col +3.1 · L 8 de 10 · V 9 de 10 ✓ | — |
 | 3.5 | @1.75 · col +2.1 · L 6 de 10 · V 9 de 10 | — |
 | 4.5 | @2.6 · col +1.1 · L 5 de 10 · V 8 de 10 | — |
 | 5.5 | @4.05 · col +0.1 · L 4 de 10 · V 5 de 10 | — |
@@ -104,19 +104,19 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 14.7, visitante 12.
 
 | Línea | Más | Menos |
 |---|---|---|
-| 30.5 | @1.8 · col -3.8 · L 2 de 10 · V 3 de 10 | @1.93 · col +3.8 · L 8 de 10 · V 7 de 10 ✓ |
+| 30.5 | @1.91 · col -3.8 · L 2 de 10 · V 3 de 10 | @1.82 · col +3.8 · L 8 de 10 · V 7 de 10 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 13.5 | @1.93 · col +1.2 · L 3 de 10 · V 8 de 10 | @1.8 · col -1.2 · L 7 de 10 · V 2 de 10 |
+| 13.5 | @2.05 · col +1.2 · L 3 de 10 · V 8 de 10 | @1.72 · col -1.2 · L 7 de 10 · V 2 de 10 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 17.5 | @1.93 · col -5.5 · L 1 de 10 · V 0 de 10 | @1.82 · col +5.5 · L 9 de 10 · V 10 de 10 ✓ |
+| 17.5 | @2.02 · col -5.5 · L 1 de 10 · V 0 de 10 | @1.75 · col +5.5 · L 9 de 10 · V 10 de 10 ✓ |
 
 ### Fueras de juego
 Muestra: local 9, visitante 8, directos 0. Esperado: local 1.67, visitante 1.44, **total 3.1** (local 1.33 a favor / 1.0 en contra; visitante 1.88 / 2.0).
@@ -154,19 +154,19 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 20.35, visitante 18
 
 | Línea | Más | Menos |
 |---|---|---|
-| 42.5 | @1.9 · col -3.8 · L 3 de 10 · V 4 de 10 | @1.83 · col +3.8 · L 7 de 10 · V 6 de 10 |
+| 42.5 | @1.78 · col -3.8 · L 3 de 10 · V 4 de 10 | @1.95 · col +3.8 · L 7 de 10 · V 6 de 10 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 22.5 | @1.91 · col -2.1 · L 3 de 10 · V 3 de 10 | @1.82 · col +2.1 · L 7 de 10 · V 7 de 10 ✓ |
+| 22.5 | @1.83 · col -2.1 · L 3 de 10 · V 3 de 10 | @1.91 · col +2.1 · L 7 de 10 · V 7 de 10 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 19.5 | @1.78 · col -1.1 · L 4 de 10 · V 4 de 10 | @1.98 · col +1.1 · L 6 de 10 · V 6 de 10 |
+| 20.5 | @1.98 · col -2.1 · L 4 de 10 · V 4 de 10 | @1.78 · col +2.1 · L 6 de 10 · V 6 de 10 |
 
 ### Saques de meta
 Muestra: local 10, visitante 10, directos 0. Esperado: local 8.15, visitante 8.9, **total 17.05** (local 8.3 a favor / 10.6 en contra; visitante 7.2 / 8.0).
@@ -301,10 +301,10 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 2.0, visitante 1.7,
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.13 · col +3.2 · L 9 de 10 · V 9 de 10 ✓ | @6.0 · col -3.2 · L 1 de 10 · V 1 de 10 |
+| 0.5 | @1.13 · col +3.2 · L 9 de 10 · V 9 de 10 ✓ | @5.9 · col -3.2 · L 1 de 10 · V 1 de 10 |
 | 1.25 | @1.38 · col +2.5 · L 8 de 10 · V 8 de 10 ✓ | @3.15 · col -2.5 · L 1 de 10 · V 1 de 10 |
 | 1.5 | @1.57 · col +2.2 · L 8 de 10 · V 8 de 10 ✓ | @2.45 · col -2.2 · L 2 de 10 · V 2 de 10 |
-| 1.75 | @1.75 · col +1.9 · L 5 de 10 · V 7 de 10 | @2.15 · col -1.9 · L 2 de 10 · V 2 de 10 |
+| 1.75 | @1.72 · col +1.9 · L 5 de 10 · V 7 de 10 | @2.18 · col -1.9 · L 2 de 10 · V 2 de 10 |
 | 2.0 | @2.02 · col +1.7 · L 5 de 10 · V 7 de 10 | @1.83 · col -1.7 · L 2 de 10 · V 2 de 10 |
 | 2.25 | @2.37 · col +1.4 · L 5 de 10 · V 7 de 10 | @1.62 · col -1.4 · L 2 de 10 · V 2 de 10 |
 | 2.5 | @2.67 · col +1.2 · L 5 de 10 · V 7 de 10 | @1.47 · col -1.2 · L 5 de 10 · V 3 de 10 |
@@ -316,10 +316,9 @@ Muestra: local 10, visitante 10, directos 0. Esperado: local 2.0, visitante 1.7,
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.31 · col +1.5 · L 8 de 10 · V 8 de 10 ✓ | @3.25 · col -1.5 · L 2 de 10 · V 2 de 10 |
+| 0.5 | @1.31 · col +1.5 · L 8 de 10 · V 8 de 10 ✓ | @3.3 · col -1.5 · L 2 de 10 · V 2 de 10 |
 | 1.5 | @2.45 · col +0.5 · L 5 de 10 · V 6 de 10 | @1.5 · col -0.5 · L 5 de 10 · V 4 de 10 |
 | 2.5 | @5.5 · col -0.5 · L 3 de 10 · V 2 de 10 | @1.13 · col +0.5 · L 7 de 10 · V 8 de 10 ✓ |
-| 3.5 | @10.25 · col -1.5 · L 3 de 10 · V 0 de 10 | @1.03 · col +1.5 · L 7 de 10 · V 10 de 10 ✓ |
 
 **visitante**
 
@@ -377,8 +376,8 @@ Muestra: local 10, visitante 10, directos 0.
 |---|---|---|---|---|---|
 | 1 | 2.05 | 5 de 10 | 3 de 10 | — |  |
 | X | 3.0 | 3 de 10 | 4 de 10 | — |  |
-| 2 | 4.35 | 2 de 10 | 3 de 10 | — |  |
-| 1X | 1.24 | 8 de 10 | 7 de 10 | — | ✓ |
+| 2 | 4.45 | 2 de 10 | 3 de 10 | — |  |
+| 1X | 1.23 | 8 de 10 | 7 de 10 | — | ✓ |
 | X2 | 1.8 | 5 de 10 | 7 de 10 | — |  |
 | 12 | 1.36 | 7 de 10 | 6 de 10 | — |  |
 
@@ -386,9 +385,9 @@ Muestra: local 10, visitante 10, directos 0.
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
-- Alexander Barboza — faltas: 1+ @1.07 · col +0.9 · 7 de 8 (titular 0.90)
+- Alexander Barboza — faltas: 1+ @1.08 · col +0.9 · 7 de 8 (titular 0.90)
 - Jhon Arias — entradas: 1+ @1.12 · col +1.7 · 7 de 9 (titular 0.90)
-- L. Evangelista — faltas: 1+ @1.23 · col +1.1 · 7 de 9 (titular 0.90)
+- L. Evangelista — faltas: 1+ @1.24 · col +1.1 · 7 de 9 (titular 0.90)
 - Eros Mancuso — remates: 1+ @1.8 · col +0.5 · 7 de 10 (titular 0.90)
 
 ## Estilo de juego (media de los últimos partidos; «fav» = lo que hace el equipo, «con» = lo que concede)
@@ -427,4 +426,4 @@ Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 - Local: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': True, 'perfil_corners': {}}
 - Visitante: {'estilo': [], 'motivacion': 'normal', 'rotacion': False, 'necesita_ganar': True, 'perfil_corners': {}}
 - Bajas: ninguna anotada
-- Dudas: ['Sofascore: árbitro no anunciado en Sofascore', 'Historial: sin casar con Betano → Martínez E., Koné Z., Khellven, Pereira F., Bilong M., Soares G., Coutinho R., Gabriel V., Lucas A., Gabriel A., López J., Mauricio, Murilo, Paulinho, Rodriguez B., Palacios T., Palacios T. #2, Barreiro B.', 'Alineación probable: sin casar con Betano → Murilo, López J., Palacios T. (ambiguo: Tiago Tomas Palacios / Tiago Asael Palacios)']
+- Dudas: ['Sofascore: árbitro no anunciado en Sofascore', 'Historial: sin casar con Betano → Martínez E., Koné Z., Khellven, Pereira F., Bilong M., Soares G., Coutinho R., Gabriel V., Lucas A., Gabriel A., López J., Mauricio, Murilo, Paulinho, Rodriguez B., Palacios T., Palacios T. #2, Barreiro B.', 'Alineación probable: sin casar con Betano → Murilo, López J., Palacios T. (ambiguo: Tiago Asael Palacios / Tiago Tomas Palacios)']

@@ -1,5 +1,5 @@
 # Ficha — VfB Stuttgart - Eintracht Frankfurt
-Alemania Bundesliga · 2026-11-28 12:30 · cuotas leídas: Cuotas de Betano leídas 2026-11-27T23:46:22.035Z · 586 mercados
+Alemania Bundesliga · 2026-11-28 12:30 · cuotas leídas: Cuotas de Betano leídas 2026-11-28T06:15:44.992Z · 586 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -18,10 +18,9 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Fueras de juego | total | Menos 4.5 | 1.24 | +1.4 | 7 de 8 | 7 de 10 |
 | Goles | local | Menos 3.5 | 1.22 | +2.0 | 9 de 10 | 8 de 10 |
 | Goles | local | Menos 2.5 | 1.62 | +1.0 | 8 de 10 | 8 de 10 |
-| Goles | total | Menos 5.5 | 1.24 | +2.6 | 9 de 10 | 9 de 10 |
-| Goles | total | Menos 4.75 | 1.42 | +1.9 | 8 de 10 | 8 de 10 |
+| Goles | total | Menos 5.5 | 1.23 | +2.6 | 9 de 10 | 9 de 10 |
 | Goles | total | Menos 4.5 | 1.52 | +1.6 | 8 de 10 | 8 de 10 |
-| Goles | visitante | Menos 2.5 | 1.25 | +1.1 | 9 de 10 | 7 de 10 |
+| Goles | visitante | Menos 2.5 | 1.23 | +1.1 | 9 de 10 | 7 de 10 |
 | Remates | local | Menos 21.5 | 1.25 | +5.5 | 9 de 10 | 9 de 10 |
 | Remates | local | Menos 20.5 | 1.36 | +4.5 | 9 de 10 | 9 de 10 |
 | Remates | local | Menos 19.5 | 1.53 | +3.5 | 9 de 10 | 8 de 10 |
@@ -52,8 +51,8 @@ Muestra: local 10, visitante 10, directos 6. Esperado: local 5.5, visitante 5.55
 | Línea | Más | Menos |
 |---|---|---|
 | 5.0 | @1.04 · col +6.0 · L 10 de 10 · V 10 de 10 · D 6 de 6 ✓ | @12.0 · col -6.0 · L 0 de 10 · V 0 de 10 · D 0 de 6 |
-| 5.5 | @1.04 · col +5.5 · L 10 de 10 · V 10 de 10 · D 6 de 6 ✓ | @9.5 · col -5.5 · L 0 de 10 · V 0 de 10 · D 0 de 6 |
-| 6.0 | @1.09 · col +5.0 · L 10 de 10 · V 10 de 10 · D 5 de 6 ✓ | @9.5 · col -5.0 · L 0 de 10 · V 0 de 10 · D 0 de 6 |
+| 5.5 | @1.04 · col +5.5 · L 10 de 10 · V 10 de 10 · D 6 de 6 ✓ | @9.25 · col -5.5 · L 0 de 10 · V 0 de 10 · D 0 de 6 |
+| 6.0 | @1.09 · col +5.0 · L 10 de 10 · V 10 de 10 · D 5 de 6 ✓ | @9.25 · col -5.0 · L 0 de 10 · V 0 de 10 · D 0 de 6 |
 | 6.5 | @1.09 · col +4.5 · L 10 de 10 · V 10 de 10 · D 5 de 6 ✓ | @6.7 · col -4.5 · L 0 de 10 · V 0 de 10 · D 1 de 6 |
 | 7.0 | @1.18 · col +4.0 · L 10 de 10 · V 10 de 10 · D 5 de 6 ✓ | @6.7 · col -4.0 · L 0 de 10 · V 0 de 10 · D 1 de 6 |
 | 7.5 | @1.18 · col +3.5 · L 10 de 10 · V 10 de 10 · D 5 de 6 ✓ | @4.55 · col -3.5 · L 0 de 10 · V 0 de 10 · D 1 de 6 |
@@ -86,7 +85,7 @@ Muestra: local 10, visitante 10, directos 6. Esperado: local 5.5, visitante 5.55
 | 4.5 | @1.24 · col +1.0 · L 7 de 10 · V 5 de 10 · D 4 de 6 | @3.8 · col -1.0 · L 3 de 10 · V 5 de 10 · D 2 de 6 |
 | 5.5 | @1.5 · col +0.0 · L 6 de 10 · V 2 de 10 · D 4 de 6 | @2.5 · col +0.0 · L 4 de 10 · V 8 de 10 · D 2 de 6 |
 | 6.5 | @1.93 · col -1.0 · L 3 de 10 · V 1 de 10 · D 3 de 6 | @1.82 · col +1.0 · L 7 de 10 · V 9 de 10 · D 3 de 6 ✓ |
-| 7.5 | @2.62 · col -2.0 · L 3 de 10 · V 1 de 10 · D 3 de 6 | @1.45 · col +2.0 · L 7 de 10 · V 9 de 10 · D 3 de 6 ✓ |
+| 7.5 | @2.65 · col -2.0 · L 3 de 10 · V 1 de 10 · D 3 de 6 | @1.45 · col +2.0 · L 7 de 10 · V 9 de 10 · D 3 de 6 ✓ |
 | 8.5 | @3.8 · col -3.0 · L 2 de 10 · V 1 de 10 · D 2 de 6 | @1.24 · col +3.0 · L 8 de 10 · V 9 de 10 · D 4 de 6 ✓ |
 | 9.5 | @5.5 · col -4.0 · L 0 de 10 · V 1 de 10 · D 2 de 6 | @1.13 · col +4.0 · L 10 de 10 · V 9 de 10 · D 4 de 6 ✓ |
 | 10.5 | @7.6 · col -5.0 · L 0 de 10 · V 1 de 10 · D 0 de 6 | @1.07 · col +5.0 · L 10 de 10 · V 9 de 10 · D 6 de 6 ✓ |
@@ -99,7 +98,7 @@ Muestra: local 10, visitante 10, directos 6. Esperado: local 5.5, visitante 5.55
 | 2.5 | @1.28 · col +3.0 · L 9 de 10 · V 9 de 10 · D 5 de 6 ✓ | @3.45 · col -3.0 · L 1 de 10 · V 1 de 10 · D 1 de 6 |
 | 3.5 | @1.7 · col +2.0 · L 9 de 10 · V 7 de 10 · D 4 de 6 ✓ | @2.07 · col -2.0 · L 1 de 10 · V 3 de 10 · D 2 de 6 |
 | 4.5 | @2.5 · col +1.1 · L 5 de 10 · V 7 de 10 · D 3 de 6 | @1.5 · col -1.1 · L 5 de 10 · V 3 de 10 · D 3 de 6 |
-| 5.5 | @3.95 · col +0.1 · L 3 de 10 · V 6 de 10 · D 2 de 6 | @1.22 · col -0.1 · L 7 de 10 · V 4 de 10 · D 4 de 6 |
+| 5.5 | @3.95 · col +0.1 · L 3 de 10 · V 6 de 10 · D 2 de 6 | @1.23 · col -0.1 · L 7 de 10 · V 4 de 10 · D 4 de 6 |
 | 6.5 | @6.3 · col -0.9 · L 2 de 10 · V 3 de 10 · D 0 de 6 | @1.1 · col +0.9 · L 8 de 10 · V 7 de 10 · D 6 de 6 ✓ |
 | 7.5 | @9.25 · col -1.9 · L 2 de 10 · V 2 de 10 · D 0 de 6 | @1.04 · col +1.9 · L 8 de 10 · V 8 de 10 · D 6 de 6 ✓ |
 
@@ -118,13 +117,13 @@ Muestra: local 10, visitante 10, directos 6. Esperado: local 11.85, visitante 10
 
 | Línea | Más | Menos |
 |---|---|---|
-| 11.5 | @2.05 · col +0.3 · L 5 de 10 · V 5 de 10 · D 1 de 6 | @1.72 · col -0.3 · L 5 de 10 · V 5 de 10 · D 5 de 6 |
+| 10.5 | @1.7 · col +1.4 · L 6 de 10 · V 7 de 10 · D 1 de 6 | @2.07 · col -1.4 · L 4 de 10 · V 3 de 10 · D 5 de 6 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 10.5 | @1.75 · col +0.2 · L 4 de 10 · V 6 de 10 · D 5 de 6 | @2.02 · col -0.2 · L 6 de 10 · V 4 de 10 · D 1 de 6 |
+| 10.5 | @1.7 · col +0.2 · L 4 de 10 · V 6 de 10 · D 5 de 6 | @2.07 · col -0.2 · L 6 de 10 · V 4 de 10 · D 1 de 6 |
 
 ### Fueras de juego
 Muestra: local 8, visitante 10, directos 6. Esperado: local 1.4, visitante 1.73, **total 3.12** (local 1.5 a favor / 1.25 en contra; visitante 2.2 / 1.3).
@@ -253,37 +252,37 @@ Muestra: local 10, visitante 10, directos 6. Esperado: local 1.5, visitante 1.35
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.09 · col +1.4 · L 6 de 10 · V 7 de 10 · D 5 de 6 | @7.6 · col -1.4 · L 4 de 10 · V 3 de 10 · D 1 de 6 |
-| 2.5 | @1.29 · col +0.3 · L 3 de 10 · V 7 de 10 · D 5 de 6 | @3.65 · col -0.3 · L 7 de 10 · V 3 de 10 · D 1 de 6 |
-| 3.25 | @1.57 · col -0.4 · L 2 de 10 · V 7 de 10 · D 3 de 6 | @2.5 · col +0.4 · L 7 de 10 · V 3 de 10 · D 1 de 6 |
-| 3.5 | @1.72 · col -0.7 · L 2 de 10 · V 7 de 10 · D 3 de 6 | @2.15 · col +0.7 · L 8 de 10 · V 3 de 10 · D 3 de 6 |
-| 3.75 | @1.88 · col -0.9 · L 2 de 10 · V 2 de 10 · D 2 de 6 | @1.98 · col +0.9 · L 8 de 10 · V 3 de 10 · D 3 de 6 |
+| 1.5 | @1.09 · col +1.4 · L 6 de 10 · V 7 de 10 · D 5 de 6 | @7.5 · col -1.4 · L 4 de 10 · V 3 de 10 · D 1 de 6 |
+| 2.5 | @1.3 · col +0.3 · L 3 de 10 · V 7 de 10 · D 5 de 6 | @3.6 · col -0.3 · L 7 de 10 · V 3 de 10 · D 1 de 6 |
+| 3.0 | @1.42 · col -0.1 · L 2 de 10 · V 7 de 10 · D 3 de 6 | @3.0 · col +0.1 · L 7 de 10 · V 3 de 10 · D 1 de 6 |
+| 3.25 | @1.57 · col -0.4 · L 2 de 10 · V 7 de 10 · D 3 de 6 | @2.47 · col +0.4 · L 7 de 10 · V 3 de 10 · D 1 de 6 |
+| 3.5 | @1.72 · col -0.7 · L 2 de 10 · V 7 de 10 · D 3 de 6 | @2.12 · col +0.7 · L 8 de 10 · V 3 de 10 · D 3 de 6 |
+| 3.75 | @1.9 · col -0.9 · L 2 de 10 · V 2 de 10 · D 2 de 6 | @1.95 · col +0.9 · L 8 de 10 · V 3 de 10 · D 3 de 6 |
 | 4.0 | @2.12 · col -1.1 · L 2 de 10 · V 2 de 10 · D 2 de 6 | @1.75 · col +1.1 · L 8 de 10 · V 3 de 10 · D 3 de 6 |
-| 4.25 | @2.35 · col -1.4 · L 2 de 10 · V 2 de 10 · D 2 de 6 | @1.62 · col +1.4 · L 8 de 10 · V 3 de 10 · D 3 de 6 |
-| 4.5 | @2.55 · col -1.6 · L 2 de 10 · V 2 de 10 · D 2 de 6 | @1.52 · col +1.6 · L 8 de 10 · V 8 de 10 · D 4 de 6 ✓ |
-| 4.75 | @3.0 · col -1.9 · L 1 de 10 · V 1 de 10 · D 0 de 6 | @1.42 · col +1.9 · L 8 de 10 · V 8 de 10 · D 4 de 6 ✓ |
-| 5.5 | @4.15 · col -2.6 · L 1 de 10 · V 1 de 10 · D 0 de 6 | @1.24 · col +2.6 · L 9 de 10 · V 9 de 10 · D 6 de 6 ✓ |
-| 6.5 | @7.0 · col -3.6 · L 0 de 10 · V 0 de 10 · D 0 de 6 | @1.1 · col +3.6 · L 10 de 10 · V 10 de 10 · D 6 de 6 ✓ |
+| 4.25 | @2.37 · col -1.4 · L 2 de 10 · V 2 de 10 · D 2 de 6 | @1.62 · col +1.4 · L 8 de 10 · V 3 de 10 · D 3 de 6 |
+| 4.5 | @2.57 · col -1.6 · L 2 de 10 · V 2 de 10 · D 2 de 6 | @1.52 · col +1.6 · L 8 de 10 · V 8 de 10 · D 4 de 6 ✓ |
+| 5.5 | @4.15 · col -2.6 · L 1 de 10 · V 1 de 10 · D 0 de 6 | @1.23 · col +2.6 · L 9 de 10 · V 9 de 10 · D 6 de 6 ✓ |
+| 6.5 | @7.1 · col -3.6 · L 0 de 10 · V 0 de 10 · D 0 de 6 | @1.1 · col +3.6 · L 10 de 10 · V 10 de 10 · D 6 de 6 ✓ |
 | 7.5 | @11.25 · col -4.7 · L 0 de 10 · V 0 de 10 · D 0 de 6 | @1.04 · col +4.7 · L 10 de 10 · V 10 de 10 · D 6 de 6 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.08 · col +1.0 · L 6 de 10 · V 8 de 10 · D 5 de 6 | @6.8 · col -1.0 · L 4 de 10 · V 2 de 10 · D 1 de 6 |
-| 1.5 | @1.42 · col +0.0 · L 3 de 10 · V 4 de 10 · D 5 de 6 | @2.77 · col +0.0 · L 7 de 10 · V 6 de 10 · D 1 de 6 |
-| 2.5 | @2.22 · col -1.0 · L 2 de 10 · V 2 de 10 · D 2 de 6 | @1.62 · col +1.0 · L 8 de 10 · V 8 de 10 · D 4 de 6 ✓ |
+| 0.5 | @1.08 · col +1.0 · L 6 de 10 · V 8 de 10 · D 5 de 6 | @6.9 · col -1.0 · L 4 de 10 · V 2 de 10 · D 1 de 6 |
+| 1.5 | @1.4 · col +0.0 · L 3 de 10 · V 4 de 10 · D 5 de 6 | @2.8 · col +0.0 · L 7 de 10 · V 6 de 10 · D 1 de 6 |
+| 2.5 | @2.2 · col -1.0 · L 2 de 10 · V 2 de 10 · D 2 de 6 | @1.62 · col +1.0 · L 8 de 10 · V 8 de 10 · D 4 de 6 ✓ |
 | 3.5 | @3.95 · col -2.0 · L 1 de 10 · V 2 de 10 · D 0 de 6 | @1.22 · col +2.0 · L 9 de 10 · V 8 de 10 · D 6 de 6 ✓ |
-| 4.5 | @7.2 · col -3.0 · L 0 de 10 · V 1 de 10 · D 0 de 6 | @1.07 · col +3.0 · L 10 de 10 · V 9 de 10 · D 6 de 6 ✓ |
+| 4.5 | @7.1 · col -3.0 · L 0 de 10 · V 1 de 10 · D 0 de 6 | @1.08 · col +3.0 · L 10 de 10 · V 9 de 10 · D 6 de 6 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.2 · col +0.8 · L 6 de 10 · V 8 de 10 · D 5 de 6 | @4.15 · col -0.8 · L 4 de 10 · V 2 de 10 · D 1 de 6 |
-| 1.5 | @1.91 · col -0.1 · L 4 de 10 · V 5 de 10 · D 3 de 6 | @1.82 · col +0.1 · L 6 de 10 · V 5 de 10 · D 3 de 6 |
-| 2.5 | @3.75 · col -1.1 · L 1 de 10 · V 3 de 10 · D 1 de 6 | @1.25 · col +1.1 · L 9 de 10 · V 7 de 10 · D 5 de 6 ✓ |
-| 3.5 | @7.4 · col -2.1 · L 0 de 10 · V 0 de 10 · D 0 de 6 | @1.07 · col +2.1 · L 10 de 10 · V 10 de 10 · D 6 de 6 ✓ |
+| 0.5 | @1.21 · col +0.8 · L 6 de 10 · V 8 de 10 · D 5 de 6 | @4.15 · col -0.8 · L 4 de 10 · V 2 de 10 · D 1 de 6 |
+| 1.5 | @1.95 · col -0.1 · L 4 de 10 · V 5 de 10 · D 3 de 6 | @1.8 · col +0.1 · L 6 de 10 · V 5 de 10 · D 3 de 6 |
+| 2.5 | @3.85 · col -1.1 · L 1 de 10 · V 3 de 10 · D 1 de 6 | @1.23 · col +1.1 · L 9 de 10 · V 7 de 10 · D 5 de 6 ✓ |
+| 3.5 | @7.7 · col -2.1 · L 0 de 10 · V 0 de 10 · D 0 de 6 | @1.06 · col +2.1 · L 10 de 10 · V 10 de 10 · D 6 de 6 ✓ |
 
 ### Tarjetas (solo amarillas)
 _Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._
@@ -334,23 +333,23 @@ Muestra: local 10, visitante 10, directos 6.
 
 | Selección | Cuota | Local | Visitante | Directos | Cumple |
 |---|---|---|---|---|---|
-| 1 | 1.82 | 4 de 10 | 3 de 10 | 3 de 6 |  |
-| X | 4.55 | 2 de 10 | 2 de 10 | 1 de 6 |  |
-| 2 | 3.6 | 4 de 10 | 5 de 10 | 2 de 6 |  |
-| 1X | 1.32 | 6 de 10 | 5 de 10 | 4 de 6 |  |
-| X2 | 2.02 | 6 de 10 | 7 de 10 | 3 de 6 |  |
-| 12 | 1.2 | 8 de 10 | 8 de 10 | 5 de 6 | ✓ |
+| 1 | 1.8 | 4 de 10 | 3 de 10 | 3 de 6 |  |
+| X | 4.45 | 2 de 10 | 2 de 10 | 1 de 6 |  |
+| 2 | 3.75 | 4 de 10 | 5 de 10 | 2 de 6 |  |
+| 1X | 1.29 | 6 de 10 | 5 de 10 | 4 de 6 |  |
+| X2 | 2.05 | 6 de 10 | 7 de 10 | 3 de 6 |  |
+| 12 | 1.21 | 8 de 10 | 8 de 10 | 5 de 6 | ✓ |
 
 ## Jugadores (solo líneas que cumplen la regularidad; el JSON trae todas)
 
 Formato: jugador — stat: mínimo @cuota · colchón · X de n (titular p)
 
 - Ermedin Demirovic — faltas: 1+ @1.1 · col +1.3 · 9 de 10 (titular 0.90)
-- Grischa Prömel — faltas: 1+ @1.26 · col +0.8 · 7 de 9 (titular 0.90)
+- Grischa Prömel — faltas: 1+ @1.27 · col +0.8 · 7 de 9 (titular 0.90)
 - Ramon Hendriks — entradas: 1+ @1.08 · col +1.1 · 8 de 10 (titular 0.90)
 - Jonathan Burkardt — remates: 2+ @1.22 · col +1.4 · 8 de 10 (titular 0.90)
 - Jonathan Burkardt — al_arco: 1+ @1.37 · col +0.7 · 7 de 10 (titular 0.90)
-- Noah Atubolu — atajadas: 3+ @1.24 · col +0.9 · 9 de 10 (titular 0.90)
+- Noah Atubolu — atajadas: 3+ @1.25 · col +0.9 · 9 de 10 (titular 0.90)
 - Noah Atubolu — atajadas: 4+ @1.65 · col -0.1 · 7 de 10 (titular 0.90)
 - Raphael Onyedika — entradas: 2+ @1.4 · col +0.6 · 8 de 10 (titular 0.90)
 - Raphael Onyedika — faltas: 1+ @1.21 · col +0.8 · 8 de 10 (titular 0.90)

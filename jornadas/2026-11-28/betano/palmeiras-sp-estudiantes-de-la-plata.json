@@ -7,7 +7,7 @@
 "region": "Copa Libertadores",
 "liga": "Copa Libertadores",
 "n_mercados": 725,
-"cuotas_leidas": "2026-11-27T23:46:29.684Z"
+"cuotas_leidas": "2026-11-28T06:18:10.253Z"
 },
 "betano": {
 "lineas": [
@@ -16,7 +16,7 @@
 "ambito": "total",
 "linea": 0.5,
 "mas": 1.13,
-"menos": 6.0
+"menos": 5.9
 },
 {
 "mercado": "goles",
@@ -36,8 +36,8 @@
 "mercado": "goles",
 "ambito": "total",
 "linea": 1.75,
-"mas": 1.75,
-"menos": 2.15
+"mas": 1.72,
+"menos": 2.18
 },
 {
 "mercado": "goles",
@@ -86,7 +86,7 @@
 "ambito": "total",
 "linea": 4.0,
 "mas": 1.04,
-"menos": 12.0
+"menos": 12.5
 },
 {
 "mercado": "corners",
@@ -309,7 +309,7 @@
 "mercado": "corners",
 "ambito": "visitante",
 "linea": 2.5,
-"mas": 1.3,
+"mas": 1.31,
 "menos": null
 },
 {
@@ -422,7 +422,7 @@
 "ambito": "1T",
 "linea": 0.5,
 "mas": 1.57,
-"menos": 2.37
+"menos": 2.35
 },
 {
 "mercado": "goles",
@@ -576,7 +576,7 @@
 "ambito": "local",
 "linea": 0.5,
 "mas": 1.31,
-"menos": 3.25
+"menos": 3.3
 },
 {
 "mercado": "goles",
@@ -591,13 +591,6 @@
 "linea": 2.5,
 "mas": 5.5,
 "menos": 1.13
-},
-{
-"mercado": "goles",
-"ambito": "local",
-"linea": 3.5,
-"mas": 10.25,
-"menos": 1.03
 },
 {
 "mercado": "goles",
@@ -638,7 +631,7 @@
 "mercado": "goles",
 "ambito": "2T",
 "linea": 2.5,
-"mas": 6.7,
+"mas": 6.6,
 "menos": 1.1
 },
 {
@@ -1037,22 +1030,22 @@
 "mercado": "faltas",
 "ambito": "total",
 "linea": 30.5,
-"mas": 1.8,
-"menos": 1.93
+"mas": 1.91,
+"menos": 1.82
 },
 {
 "mercado": "faltas",
 "ambito": "local",
 "linea": 13.5,
-"mas": 1.93,
-"menos": 1.8
+"mas": 2.05,
+"menos": 1.72
 },
 {
 "mercado": "faltas",
 "ambito": "visitante",
 "linea": 17.5,
-"mas": 1.93,
-"menos": 1.82
+"mas": 2.02,
+"menos": 1.75
 },
 {
 "mercado": "fueras",
@@ -1296,22 +1289,22 @@
 "mercado": "saques_banda",
 "ambito": "total",
 "linea": 42.5,
-"mas": 1.9,
-"menos": 1.83
+"mas": 1.78,
+"menos": 1.95
 },
 {
 "mercado": "saques_banda",
 "ambito": "local",
 "linea": 22.5,
-"mas": 1.91,
-"menos": 1.82
+"mas": 1.83,
+"menos": 1.91
 },
 {
 "mercado": "saques_banda",
 "ambito": "visitante",
-"linea": 19.5,
-"mas": 1.78,
-"menos": 1.98
+"linea": 20.5,
+"mas": 1.98,
+"menos": 1.78
 }
 ],
 "unicos": [
@@ -1320,8 +1313,8 @@
 "opciones": {
 "1": 2.05,
 "X": 3.0,
-"2": 4.35,
-"1X": 1.24,
+"2": 4.45,
+"1X": 1.23,
 "X2": 1.8,
 "12": 1.36
 }
@@ -1331,7 +1324,7 @@
 "opciones": {
 "1": 2.75,
 "X": 1.93,
-"2": 4.8
+"2": 4.85
 }
 },
 {
@@ -1339,14 +1332,14 @@
 "opciones": {
 "1": 2.45,
 "X": 2.12,
-"2": 4.45
+"2": 4.5
 }
 },
 {
 "mercado": "htft_o",
 "opciones": {
 "1": 1.72,
-"X": 1.6,
+"X": 1.57,
 "2": 2.95
 }
 },
@@ -1355,7 +1348,7 @@
 "stat": "corners",
 "opciones": {
 "local": 1.53,
-"empate": 6.6,
+"empate": 6.5,
 "visitante": 3.1
 }
 },
@@ -1398,11 +1391,11 @@
 "1/X": 16.5,
 "1/2": 65.0,
 "X/1": 4.8,
-"X/X": 3.95,
+"X/X": 3.9,
 "X/2": 8.5,
 "2/1": 35.0,
 "2/X": 15.0,
-"2/2": 7.3
+"2/2": 7.5
 }
 },
 {
@@ -1418,7 +1411,7 @@
 "mercado": "handicap",
 "h": -2.0,
 "opciones": {
-"local": 10.25,
+"local": 10.5,
 "empate": 5.8,
 "visitante": 1.23
 }
@@ -1427,7 +1420,7 @@
 "mercado": "handicap",
 "h": -1.0,
 "opciones": {
-"local": 4.2,
+"local": 4.25,
 "empate": 3.45,
 "visitante": 1.8
 }
@@ -1436,9 +1429,9 @@
 "mercado": "handicap",
 "h": 1.0,
 "opciones": {
-"local": 1.24,
+"local": 1.23,
 "empate": 5.4,
-"visitante": 11.75
+"visitante": 12.0
 }
 },
 {
@@ -1447,14 +1440,14 @@
 "opciones": {
 "local": 1.05,
 "empate": 10.75,
-"visitante": 28.0
+"visitante": 29.0
 }
 },
 {
 "mercado": "handicap",
 "h": -1.0,
 "opciones": {
-"local": 3.2,
+"local": 3.25,
 "visitante": 1.37
 }
 },
@@ -1462,7 +1455,7 @@
 "mercado": "handicap",
 "h": -0.75,
 "opciones": {
-"local": 2.4,
+"local": 2.42,
 "visitante": 1.6
 }
 },
@@ -1486,8 +1479,8 @@
 "mercado": "handicap",
 "h": 0.0,
 "opciones": {
-"local": 1.42,
-"visitante": 3.0
+"local": 1.4,
+"visitante": 3.05
 }
 }
 ],
@@ -1561,24 +1554,24 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.3,
-"2": 2.25,
-"3": 5.0,
-"4": 10.75,
-"5": 18.0
+"1": 1.32,
+"2": 2.3,
+"3": 5.2,
+"4": 11.0,
+"5": 18.5
 }
 },
 {
 "jugador": "Vitor Roque",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.77
+"cuota": 2.87
 },
 {
 "jugador": "Vitor Roque",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.27
+"cuota": 2.32
 },
 {
 "jugador": "Vitor Roque",
@@ -1638,25 +1631,25 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.13,
-"2": 1.65,
-"3": 2.92,
-"4": 5.7,
-"5": 11.0,
-"6": 17.5
+"1": 1.14,
+"2": 1.67,
+"3": 3.0,
+"4": 5.9,
+"5": 11.25,
+"6": 18.0
 }
 },
 {
 "jugador": "Flaco Lopez",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.95
+"cuota": 3.05
 },
 {
 "jugador": "Flaco Lopez",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.05
+"cuota": 2.07
 },
 {
 "jugador": "Flaco Lopez",
@@ -1717,169 +1710,13 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.08,
-"2": 1.47,
-"3": 2.35,
-"4": 4.3,
-"5": 8.25,
-"6": 14.0,
+"1": 1.09,
+"2": 1.5,
+"3": 2.42,
+"4": 4.45,
+"5": 8.5,
+"6": 14.5,
 "7": 20.0
-}
-},
-{
-"jugador": "Erick Bele",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.5
-},
-{
-"jugador": "Erick Bele",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 2.72
-},
-{
-"jugador": "Erick Bele",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 18.0
-},
-{
-"jugador": "Erick Bele",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 3.8,
-"2": 18.5
-}
-},
-{
-"jugador": "Erick Bele",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"2": 1.2,
-"3": 1.65,
-"4": 2.52,
-"5": 4.25,
-"6": 7.5,
-"7": 12.5,
-"8": 18.0
-}
-},
-{
-"jugador": "Erick Bele",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 1.33,
-"2": 2.32,
-"3": 5.3,
-"4": 11.25,
-"5": 19.0
-}
-},
-{
-"jugador": "Erick Bele",
-"lado": "local",
-"stat": "entradas",
-"escalera": {
-"1": 1.38,
-"2": 2.65,
-"3": 6.0,
-"4": 13.0,
-"5": 20.0
-}
-},
-{
-"jugador": "Erick Bele",
-"lado": "local",
-"stat": "faltas",
-"escalera": {
-"1": 1.13,
-"2": 1.65,
-"3": 2.85,
-"4": 5.5,
-"5": 10.5,
-"6": 17.0
-}
-},
-{
-"jugador": "Ramón Sosa",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.5
-},
-{
-"jugador": "Ramón Sosa",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 2.52
-},
-{
-"jugador": "Ramón Sosa",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 19.5
-},
-{
-"jugador": "Ramón Sosa",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 3.4,
-"2": 16.0
-}
-},
-{
-"jugador": "Ramón Sosa",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"2": 1.26,
-"3": 1.78,
-"4": 2.87,
-"5": 5.0,
-"6": 9.0,
-"7": 14.5,
-"8": 20.0
-}
-},
-{
-"jugador": "Ramón Sosa",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 1.42,
-"2": 2.87,
-"3": 6.7,
-"4": 14.0,
-"5": 21.0
-}
-},
-{
-"jugador": "Ramón Sosa",
-"lado": "local",
-"stat": "entradas",
-"escalera": {
-"1": 1.21,
-"2": 1.95,
-"3": 3.85,
-"4": 8.0,
-"5": 15.0
-}
-},
-{
-"jugador": "Ramón Sosa",
-"lado": "local",
-"stat": "faltas",
-"escalera": {
-"1": 1.15,
-"2": 1.75,
-"3": 3.15,
-"4": 6.3,
-"5": 12.0,
-"6": 18.5
 }
 },
 {
@@ -1951,25 +1788,181 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.15,
-"2": 1.72,
-"3": 3.15,
-"4": 6.2,
-"5": 12.0,
-"6": 18.5
+"1": 1.16,
+"2": 1.75,
+"3": 3.2,
+"4": 6.4,
+"5": 12.5,
+"6": 19.0
+}
+},
+{
+"jugador": "Erick Bele",
+"lado": "local",
+"stat": "anota",
+"cuota": 3.65
+},
+{
+"jugador": "Erick Bele",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 2.8
+},
+{
+"jugador": "Erick Bele",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 18.0
+},
+{
+"jugador": "Erick Bele",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 3.8,
+"2": 18.5
+}
+},
+{
+"jugador": "Erick Bele",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"2": 1.2,
+"3": 1.65,
+"4": 2.52,
+"5": 4.25,
+"6": 7.5,
+"7": 12.5,
+"8": 18.0
+}
+},
+{
+"jugador": "Erick Bele",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.33,
+"2": 2.32,
+"3": 5.3,
+"4": 11.25,
+"5": 19.0
+}
+},
+{
+"jugador": "Erick Bele",
+"lado": "local",
+"stat": "entradas",
+"escalera": {
+"1": 1.38,
+"2": 2.65,
+"3": 6.0,
+"4": 13.0,
+"5": 20.0
+}
+},
+{
+"jugador": "Erick Bele",
+"lado": "local",
+"stat": "faltas",
+"escalera": {
+"1": 1.13,
+"2": 1.67,
+"3": 2.92,
+"4": 5.7,
+"5": 11.0,
+"6": 17.5
+}
+},
+{
+"jugador": "Ramón Sosa",
+"lado": "local",
+"stat": "anota",
+"cuota": 3.65
+},
+{
+"jugador": "Ramón Sosa",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 2.6
+},
+{
+"jugador": "Ramón Sosa",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 19.5
+},
+{
+"jugador": "Ramón Sosa",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 3.4,
+"2": 16.0
+}
+},
+{
+"jugador": "Ramón Sosa",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"2": 1.26,
+"3": 1.78,
+"4": 2.87,
+"5": 5.0,
+"6": 9.0,
+"7": 14.5,
+"8": 20.0
+}
+},
+{
+"jugador": "Ramón Sosa",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.42,
+"2": 2.87,
+"3": 6.7,
+"4": 14.0,
+"5": 21.0
+}
+},
+{
+"jugador": "Ramón Sosa",
+"lado": "local",
+"stat": "entradas",
+"escalera": {
+"1": 1.21,
+"2": 1.95,
+"3": 3.85,
+"4": 8.0,
+"5": 15.0
+}
+},
+{
+"jugador": "Ramón Sosa",
+"lado": "local",
+"stat": "faltas",
+"escalera": {
+"1": 1.16,
+"2": 1.75,
+"3": 3.25,
+"4": 6.5,
+"5": 12.5,
+"6": 19.0
 }
 },
 {
 "jugador": "Mauricio Prado",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.75
+"cuota": 3.9
 },
 {
 "jugador": "Mauricio Prado",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.8
+"cuota": 2.85
 },
 {
 "jugador": "Mauricio Prado",
@@ -2029,24 +2022,24 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.33,
-"2": 2.4,
-"3": 5.2,
-"4": 11.25,
-"5": 18.5
+"1": 1.34,
+"2": 2.45,
+"3": 5.4,
+"4": 11.5,
+"5": 19.0
 }
 },
 {
 "jugador": "Heittor",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.75
+"cuota": 3.9
 },
 {
 "jugador": "Heittor",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.82
+"cuota": 2.87
 },
 {
 "jugador": "Heittor",
@@ -2108,11 +2101,11 @@
 "stat": "faltas",
 "escalera": {
 "1": 1.13,
-"2": 1.65,
-"3": 2.85,
-"4": 5.5,
-"5": 10.5,
-"6": 17.0
+"2": 1.67,
+"3": 2.92,
+"4": 5.7,
+"5": 11.0,
+"6": 17.5
 }
 },
 {
@@ -2183,13 +2176,13 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"2": 1.22,
-"3": 1.67,
-"4": 2.62,
-"5": 4.5,
-"6": 7.9,
-"7": 13.0,
-"8": 18.5
+"2": 1.23,
+"3": 1.72,
+"4": 2.7,
+"5": 4.65,
+"6": 8.25,
+"7": 13.5,
+"8": 19.0
 }
 },
 {
@@ -2262,12 +2255,12 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"1": 1.13,
-"2": 1.65,
-"3": 2.92,
-"4": 5.7,
-"5": 11.0,
-"6": 17.5
+"1": 1.14,
+"2": 1.67,
+"3": 3.0,
+"4": 5.9,
+"5": 11.25,
+"6": 18.0
 }
 },
 {
@@ -2338,169 +2331,13 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"2": 1.23,
-"3": 1.72,
-"4": 2.7,
-"5": 4.65,
-"6": 8.25,
-"7": 13.5,
-"8": 19.0
-}
-},
-{
-"jugador": "Tiago Asael Palacios",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 4.65
-},
-{
-"jugador": "Tiago Asael Palacios",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 3.7
-},
-{
-"jugador": "Tiago Asael Palacios",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 10.5
-},
-{
-"jugador": "Tiago Asael Palacios",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 4.25,
-"2": 22.0
-}
-},
-{
-"jugador": "Tiago Asael Palacios",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"2": 1.29,
-"3": 1.87,
-"4": 3.1,
-"5": 5.6,
-"6": 10.0,
-"7": 15.5,
-"8": 21.0
-}
-},
-{
-"jugador": "Tiago Asael Palacios",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 1.53,
-"2": 3.4,
-"3": 8.25,
-"4": 16.5
-}
-},
-{
-"jugador": "Tiago Asael Palacios",
-"lado": "visitante",
-"stat": "entradas",
-"escalera": {
-"1": 1.06,
-"2": 1.4,
-"3": 2.15,
-"4": 3.75,
-"5": 6.9
-}
-},
-{
-"jugador": "Tiago Asael Palacios",
-"lado": "visitante",
-"stat": "faltas",
-"escalera": {
-"2": 1.31,
-"3": 1.91,
-"4": 3.2,
-"5": 5.8,
-"6": 10.25,
-"7": 16.0,
-"8": 21.0
-}
-},
-{
-"jugador": "Fabricio Perez",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 4.65
-},
-{
-"jugador": "Fabricio Perez",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 3.4
-},
-{
-"jugador": "Fabricio Perez",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 15.0
-},
-{
-"jugador": "Fabricio Perez",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 3.95,
-"2": 20.0
-}
-},
-{
-"jugador": "Fabricio Perez",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"1": 1.07,
-"2": 1.42,
-"3": 2.22,
-"4": 3.95,
-"5": 7.4,
-"6": 13.0,
-"7": 19.0
-}
-},
-{
-"jugador": "Fabricio Perez",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 1.45,
-"2": 3.0,
-"3": 7.1,
-"4": 14.5,
-"5": 22.0
-}
-},
-{
-"jugador": "Fabricio Perez",
-"lado": "visitante",
-"stat": "entradas",
-"escalera": {
-"2": 1.22,
-"3": 1.67,
-"4": 2.62,
-"5": 4.5,
-"6": 8.0
-}
-},
-{
-"jugador": "Fabricio Perez",
-"lado": "visitante",
-"stat": "faltas",
-"escalera": {
-"1": 1.16,
-"2": 1.78,
-"3": 3.25,
-"4": 6.6,
-"5": 12.5,
-"6": 19.0
+"2": 1.24,
+"3": 1.75,
+"4": 2.77,
+"5": 4.8,
+"6": 8.5,
+"7": 14.0,
+"8": 19.5
 }
 },
 {
@@ -2571,11 +2408,166 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.33,
-"2": 2.42,
-"3": 5.3,
-"4": 11.25,
-"5": 18.5
+"1": 1.34,
+"2": 2.47,
+"3": 5.4,
+"4": 11.5,
+"5": 19.0
+}
+},
+{
+"jugador": "Tiago Asael Palacios",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 5.0
+},
+{
+"jugador": "Tiago Asael Palacios",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 3.9
+},
+{
+"jugador": "Tiago Asael Palacios",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 10.5
+},
+{
+"jugador": "Tiago Asael Palacios",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 4.25,
+"2": 22.0
+}
+},
+{
+"jugador": "Tiago Asael Palacios",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"2": 1.29,
+"3": 1.87,
+"4": 3.1,
+"5": 5.6,
+"6": 10.0,
+"7": 15.5,
+"8": 21.0
+}
+},
+{
+"jugador": "Tiago Asael Palacios",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.53,
+"2": 3.4,
+"3": 8.25,
+"4": 16.5
+}
+},
+{
+"jugador": "Tiago Asael Palacios",
+"lado": "visitante",
+"stat": "entradas",
+"escalera": {
+"1": 1.06,
+"2": 1.4,
+"3": 2.15,
+"4": 3.75,
+"5": 6.9
+}
+},
+{
+"jugador": "Tiago Asael Palacios",
+"lado": "visitante",
+"stat": "faltas",
+"escalera": {
+"2": 1.32,
+"3": 1.93,
+"4": 3.3,
+"5": 6.0,
+"6": 10.75,
+"7": 16.5
+}
+},
+{
+"jugador": "Fabricio Perez",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 5.0
+},
+{
+"jugador": "Fabricio Perez",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 3.6
+},
+{
+"jugador": "Fabricio Perez",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 15.0
+},
+{
+"jugador": "Fabricio Perez",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 3.95,
+"2": 20.0
+}
+},
+{
+"jugador": "Fabricio Perez",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.07,
+"2": 1.42,
+"3": 2.22,
+"4": 3.95,
+"5": 7.4,
+"6": 13.0,
+"7": 19.0
+}
+},
+{
+"jugador": "Fabricio Perez",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.45,
+"2": 3.0,
+"3": 7.1,
+"4": 14.5,
+"5": 22.0
+}
+},
+{
+"jugador": "Fabricio Perez",
+"lado": "visitante",
+"stat": "entradas",
+"escalera": {
+"2": 1.22,
+"3": 1.67,
+"4": 2.62,
+"5": 4.5,
+"6": 8.0
+}
+},
+{
+"jugador": "Fabricio Perez",
+"lado": "visitante",
+"stat": "faltas",
+"escalera": {
+"1": 1.17,
+"2": 1.78,
+"3": 3.3,
+"4": 6.7,
+"5": 12.5,
+"6": 19.5
 }
 },
 {
@@ -2651,10 +2643,10 @@
 "escalera": {
 "1": 1.14,
 "2": 1.67,
-"3": 2.95,
-"4": 5.8,
-"5": 11.25,
-"6": 17.5
+"3": 3.05,
+"4": 6.0,
+"5": 11.5,
+"6": 18.0
 }
 },
 {
@@ -2721,11 +2713,11 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.34,
-"2": 2.5,
-"3": 5.5,
-"4": 11.75,
-"5": 19.0
+"1": 1.35,
+"2": 2.52,
+"3": 5.6,
+"4": 12.0,
+"5": 19.5
 }
 },
 {
@@ -2800,11 +2792,11 @@
 "stat": "faltas",
 "escalera": {
 "1": 1.18,
-"2": 1.82,
-"3": 3.45,
-"4": 7.0,
-"5": 13.0,
-"6": 19.5
+"2": 1.85,
+"3": 3.5,
+"4": 7.2,
+"5": 13.5,
+"6": 20.0
 }
 },
 {
@@ -2873,11 +2865,11 @@
 "stat": "faltas",
 "escalera": {
 "1": 1.08,
-"2": 1.45,
-"3": 2.3,
-"4": 4.15,
-"5": 7.9,
-"6": 13.5,
+"2": 1.47,
+"3": 2.35,
+"4": 4.25,
+"5": 8.0,
+"6": 14.0,
 "7": 19.5
 }
 },
@@ -2952,13 +2944,13 @@
 "stat": "faltas",
 "escalera": {
 "2": 1.14,
-"3": 1.47,
-"4": 2.12,
-"5": 3.35,
-"6": 5.7,
-"7": 9.75,
-"8": 15.0,
-"9": 19.5
+"3": 1.5,
+"4": 2.15,
+"5": 3.45,
+"6": 5.9,
+"7": 10.0,
+"8": 15.5,
+"9": 20.0
 }
 },
 {
@@ -3029,12 +3021,12 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"1": 1.13,
-"2": 1.65,
-"3": 2.92,
-"4": 5.7,
-"5": 11.0,
-"6": 17.5
+"1": 1.14,
+"2": 1.67,
+"3": 3.0,
+"4": 5.9,
+"5": 11.25,
+"6": 18.0
 }
 },
 {
@@ -3105,10 +3097,10 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"1": 1.19,
-"2": 1.87,
-"3": 3.6,
-"4": 7.4,
+"1": 1.2,
+"2": 1.88,
+"3": 3.7,
+"4": 7.6,
 "5": 14.0,
 "6": 20.0
 }
@@ -3182,11 +3174,11 @@
 "stat": "faltas",
 "escalera": {
 "1": 1.18,
-"2": 1.82,
-"3": 3.45,
-"4": 7.0,
-"5": 13.0,
-"6": 19.5
+"2": 1.85,
+"3": 3.5,
+"4": 7.2,
+"5": 13.5,
+"6": 20.0
 }
 },
 {
@@ -3257,12 +3249,12 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"2": 1.35,
-"3": 2.0,
-"4": 3.5,
-"5": 6.4,
-"6": 11.25,
-"7": 17.5
+"2": 1.38,
+"3": 2.05,
+"4": 3.6,
+"5": 6.7,
+"6": 11.75,
+"7": 18.0
 }
 },
 {
@@ -3331,10 +3323,10 @@
 "stat": "faltas",
 "escalera": {
 "1": 1.14,
-"2": 1.67,
-"3": 3.0,
-"4": 5.9,
-"5": 11.25,
+"2": 1.72,
+"3": 3.05,
+"4": 6.0,
+"5": 11.5,
 "6": 18.0
 }
 },
@@ -3404,10 +3396,10 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.32,
-"2": 2.37,
-"3": 5.1,
-"4": 11.0,
+"1": 1.33,
+"2": 2.42,
+"3": 5.3,
+"4": 11.25,
 "5": 18.5
 }
 },
@@ -3477,13 +3469,13 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.07,
-"2": 1.44,
-"3": 2.25,
-"4": 4.0,
-"5": 7.5,
-"6": 13.0,
-"7": 19.0
+"1": 1.08,
+"2": 1.45,
+"3": 2.3,
+"4": 4.15,
+"5": 7.8,
+"6": 13.5,
+"7": 19.5
 }
 },
 {
@@ -3550,11 +3542,11 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.22,
-"2": 1.98,
-"3": 3.95,
-"4": 8.25,
-"5": 15.0,
+"1": 1.23,
+"2": 2.0,
+"3": 4.05,
+"4": 8.5,
+"5": 15.5,
 "6": 21.0
 }
 },
@@ -3626,10 +3618,10 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.21,
-"2": 1.95,
-"3": 3.85,
-"4": 8.0,
+"1": 1.22,
+"2": 1.98,
+"3": 4.0,
+"4": 8.25,
 "5": 15.0,
 "6": 21.0
 }
@@ -3700,10 +3692,10 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.23,
-"2": 2.02,
-"3": 4.15,
-"4": 8.75,
+"1": 1.24,
+"2": 2.05,
+"3": 4.25,
+"4": 9.0,
 "5": 16.0,
 "6": 22.0
 }
@@ -3774,13 +3766,12 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.11,
+"1": 1.12,
 "2": 1.6,
-"3": 2.7,
-"4": 5.1,
-"5": 9.75,
-"6": 16.5,
-"7": 21.0
+"3": 2.77,
+"4": 5.3,
+"5": 10.25,
+"6": 16.5
 }
 },
 {
@@ -3847,13 +3838,12 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"1": 1.11,
+"1": 1.12,
 "2": 1.6,
-"3": 2.7,
-"4": 5.1,
-"5": 9.75,
-"6": 16.5,
-"7": 21.0
+"3": 2.75,
+"4": 5.3,
+"5": 10.0,
+"6": 16.5
 }
 },
 {
@@ -3924,13 +3914,13 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"3": 1.37,
-"4": 1.88,
-"5": 2.95,
-"6": 4.85,
-"7": 8.25,
-"8": 13.0,
-"9": 18.0
+"3": 1.39,
+"4": 1.93,
+"5": 3.0,
+"6": 5.0,
+"7": 8.5,
+"8": 13.5,
+"9": 18.5
 }
 },
 {
@@ -3999,13 +3989,13 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.07,
-"2": 1.42,
-"3": 2.22,
-"4": 4.0,
-"5": 7.5,
-"6": 13.0,
-"7": 19.0
+"1": 1.08,
+"2": 1.45,
+"3": 2.27,
+"4": 4.1,
+"5": 7.7,
+"6": 13.5,
+"7": 19.5
 }
 },
 {
@@ -4075,11 +4065,11 @@
 "stat": "faltas",
 "escalera": {
 "1": 1.15,
-"2": 1.72,
-"3": 3.05,
-"4": 6.1,
-"5": 11.75,
-"6": 18.0
+"2": 1.75,
+"3": 3.15,
+"4": 6.3,
+"5": 12.0,
+"6": 18.5
 }
 },
 {
@@ -4148,12 +4138,12 @@
 "stat": "faltas",
 "escalera": {
 "2": 1.21,
-"3": 1.65,
-"4": 2.55,
-"5": 4.3,
-"6": 7.6,
-"7": 12.5,
-"8": 18.0
+"3": 1.67,
+"4": 2.6,
+"5": 4.45,
+"6": 7.8,
+"7": 13.0,
+"8": 18.5
 }
 },
 {
@@ -4221,25 +4211,25 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"2": 1.34,
-"3": 1.95,
-"4": 3.4,
-"5": 6.2,
-"6": 11.0,
-"7": 17.0
+"2": 1.35,
+"3": 2.0,
+"4": 3.5,
+"5": 6.4,
+"6": 11.25,
+"7": 17.5
 }
 },
 {
 "jugador": "Luis Benedetti",
 "lado": "local",
 "stat": "anota",
-"cuota": 9.75
+"cuota": 11.0
 },
 {
 "jugador": "Luis Benedetti",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 8.0
+"cuota": 9.0
 },
 {
 "jugador": "Luis Benedetti",
@@ -4295,11 +4285,11 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.25,
-"2": 2.1,
-"3": 4.35,
-"4": 9.25,
-"5": 16.5
+"1": 1.26,
+"2": 2.12,
+"3": 4.5,
+"4": 9.5,
+"5": 17.0
 }
 },
 {
@@ -4369,10 +4359,10 @@
 "stat": "faltas",
 "escalera": {
 "1": 1.1,
-"2": 1.53,
-"3": 2.55,
-"4": 4.75,
-"5": 9.0,
+"2": 1.55,
+"3": 2.6,
+"4": 4.85,
+"5": 9.25,
 "6": 15.5,
 "7": 21.0
 }
@@ -4442,10 +4432,10 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"1": 1.18,
-"2": 1.83,
-"3": 3.5,
-"4": 7.1,
+"1": 1.19,
+"2": 1.85,
+"3": 3.55,
+"4": 7.3,
 "5": 13.5,
 "6": 20.0
 }
@@ -4517,11 +4507,11 @@
 "stat": "faltas",
 "escalera": {
 "1": 1.17,
-"2": 1.78,
-"3": 3.3,
-"4": 6.7,
-"5": 12.5,
-"6": 19.0
+"2": 1.8,
+"3": 3.4,
+"4": 6.9,
+"5": 13.0,
+"6": 19.5
 }
 },
 {
@@ -4588,10 +4578,10 @@
 "lado": "local",
 "stat": "faltas",
 "escalera": {
-"1": 1.42,
-"2": 2.85,
-"3": 6.7,
-"4": 14.0,
+"1": 1.44,
+"2": 2.92,
+"3": 6.8,
+"4": 14.5,
 "5": 21.0
 }
 },
@@ -4599,13 +4589,13 @@
 "jugador": "Gaston Benedetti",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 13.5
+"cuota": 14.5
 },
 {
 "jugador": "Gaston Benedetti",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 5.8
+"cuota": 6.0
 },
 {
 "jugador": "Gaston Benedetti",
@@ -4660,25 +4650,25 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"1": 1.13,
+"1": 1.14,
 "2": 1.67,
-"3": 2.92,
-"4": 5.7,
-"5": 11.0,
-"6": 17.5
+"3": 3.0,
+"4": 5.9,
+"5": 11.25,
+"6": 18.0
 }
 },
 {
 "jugador": "Leandro González Pírez",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 13.5
+"cuota": 14.5
 },
 {
 "jugador": "Leandro González Pírez",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 11.75
+"cuota": 12.5
 },
 {
 "jugador": "Leandro González Pírez",
@@ -4725,24 +4715,24 @@
 "escalera": {
 "1": 1.08,
 "2": 1.47,
-"3": 2.32,
-"4": 4.2,
-"5": 7.9,
+"3": 2.37,
+"4": 4.3,
+"5": 8.25,
 "6": 14.0,
-"7": 19.5
+"7": 20.0
 }
 },
 {
 "jugador": "Eric Meza",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 13.5
+"cuota": 14.5
 },
 {
 "jugador": "Eric Meza",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 8.5
+"cuota": 9.0
 },
 {
 "jugador": "Eric Meza",
@@ -4797,10 +4787,10 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"1": 1.17,
-"2": 1.8,
-"3": 3.35,
-"4": 6.8,
+"1": 1.18,
+"2": 1.82,
+"3": 3.45,
+"4": 7.0,
 "5": 13.0,
 "6": 19.5
 }
@@ -4809,13 +4799,13 @@
 "jugador": "Marcos Rojo",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 13.5
+"cuota": 14.5
 },
 {
 "jugador": "Marcos Rojo",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 8.25
+"cuota": 8.75
 },
 {
 "jugador": "Marcos Rojo",
@@ -4870,10 +4860,10 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"1": 1.25,
-"2": 2.07,
-"3": 4.35,
-"4": 9.25,
+"1": 1.26,
+"2": 2.1,
+"3": 4.45,
+"4": 9.5,
 "5": 16.5
 }
 },
@@ -4881,13 +4871,13 @@
 "jugador": "Tiago Tomas Palacios",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 13.5
+"cuota": 14.5
 },
 {
 "jugador": "Tiago Tomas Palacios",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 8.0
+"cuota": 8.5
 },
 {
 "jugador": "Tiago Tomas Palacios",
@@ -4942,10 +4932,10 @@
 "stat": "faltas",
 "escalera": {
 "1": 1.27,
-"2": 2.15,
-"3": 4.55,
-"4": 9.75,
-"5": 17.0
+"2": 2.18,
+"3": 4.65,
+"4": 10.0,
+"5": 17.5
 }
 },
 {
@@ -5004,10 +4994,10 @@
 "stat": "faltas",
 "escalera": {
 "1": 1.27,
-"2": 2.15,
-"3": 4.55,
-"4": 9.75,
-"5": 17.0
+"2": 2.18,
+"3": 4.65,
+"4": 10.0,
+"5": 17.5
 }
 },
 {
@@ -5067,13 +5057,12 @@
 "lado": "visitante",
 "stat": "faltas",
 "escalera": {
-"1": 1.11,
-"2": 1.57,
-"3": 2.67,
-"4": 5.1,
-"5": 9.75,
-"6": 16.0,
-"7": 21.0
+"1": 1.12,
+"2": 1.6,
+"3": 2.72,
+"4": 5.2,
+"5": 10.0,
+"6": 16.5
 }
 },
 {
@@ -5144,7 +5133,7 @@
 "Flaco Lopez"
 ],
 "stat": "anota",
-"cuota": 1.78
+"cuota": 1.82
 },
 {
 "jugadores": [
@@ -5152,7 +5141,7 @@
 "Jhon Arias"
 ],
 "stat": "anota",
-"cuota": 1.93
+"cuota": 1.95
 },
 {
 "jugadores": [
@@ -5160,7 +5149,7 @@
 "Vitor Roque"
 ],
 "stat": "anota",
-"cuota": 1.95
+"cuota": 2.0
 },
 {
 "jugadores": [
@@ -5168,7 +5157,7 @@
 "Jhon Arias"
 ],
 "stat": "anota",
-"cuota": 1.98
+"cuota": 2.0
 },
 {
 "jugadores": [
@@ -5176,7 +5165,7 @@
 "Flaco Lopez"
 ],
 "stat": "anota",
-"cuota": 2.02
+"cuota": 2.05
 },
 {
 "jugadores": [
@@ -5184,7 +5173,7 @@
 "Alexis Castro"
 ],
 "stat": "anota",
-"cuota": 2.2
+"cuota": 2.22
 },
 {
 "jugadores": [
@@ -5200,7 +5189,7 @@
 "Alexis Castro"
 ],
 "stat": "anota",
-"cuota": 2.27
+"cuota": 2.32
 },
 {
 "jugadores": [
@@ -5292,22 +5281,6 @@
 },
 {
 "jugadores": [
-"Joaquin Tobio Burgos",
-"Tiago Tomas Palacios"
-],
-"stat": "anota",
-"cuota": 4.7
-},
-{
-"jugadores": [
-"Joaquin Tobio Burgos",
-"Gaston Benedetti"
-],
-"stat": "anota",
-"cuota": 4.7
-},
-{
-"jugadores": [
 "Ezequiel Piovi",
 "Marlon Freitas"
 ],
@@ -5316,11 +5289,27 @@
 },
 {
 "jugadores": [
+"Joaquin Tobio Burgos",
+"Tiago Tomas Palacios"
+],
+"stat": "anota",
+"cuota": 4.85
+},
+{
+"jugadores": [
+"Joaquin Tobio Burgos",
+"Gaston Benedetti"
+],
+"stat": "anota",
+"cuota": 4.85
+},
+{
+"jugadores": [
 "Joaquin Piquerez",
 "Tiago Tomas Palacios"
 ],
 "stat": "anota",
-"cuota": 5.1
+"cuota": 5.2
 },
 {
 "jugadores": [
@@ -5328,7 +5317,7 @@
 "Gaston Benedetti"
 ],
 "stat": "anota",
-"cuota": 5.1
+"cuota": 5.2
 },
 {
 "jugadores": [
@@ -5336,7 +5325,7 @@
 "Tiago Tomas Palacios"
 ],
 "stat": "anota",
-"cuota": 5.1
+"cuota": 5.2
 },
 {
 "jugadores": [
@@ -5344,7 +5333,7 @@
 "Gaston Benedetti"
 ],
 "stat": "anota",
-"cuota": 5.1
+"cuota": 5.2
 },
 {
 "jugadores": [
@@ -5352,7 +5341,7 @@
 "Gaston Benedetti"
 ],
 "stat": "anota",
-"cuota": 7.8
+"cuota": 8.5
 },
 {
 "jugadores": [
@@ -5376,7 +5365,7 @@
 "Jhon Arias"
 ],
 "stat": "anota_o_asiste",
-"cuota": 1.65
+"cuota": 1.67
 },
 {
 "jugadores": [
@@ -5392,7 +5381,7 @@
 "Jhon Arias"
 ],
 "stat": "anota_o_asiste",
-"cuota": 1.7
+"cuota": 1.72
 },
 {
 "jugadores": [
@@ -5432,7 +5421,7 @@
 "Gaston Benedetti"
 ],
 "stat": "anota_o_asiste",
-"cuota": 2.6
+"cuota": 2.62
 },
 {
 "jugadores": [
@@ -5440,7 +5429,7 @@
 "Alexis Castro"
 ],
 "stat": "anota_o_asiste",
-"cuota": 2.85
+"cuota": 2.82
 },
 {
 "jugadores": [
@@ -5448,7 +5437,7 @@
 "Ezequiel Piovi"
 ],
 "stat": "anota_o_asiste",
-"cuota": 3.0
+"cuota": 3.05
 },
 {
 "jugadores": [
@@ -5472,7 +5461,7 @@
 "Gaston Benedetti"
 ],
 "stat": "anota_o_asiste",
-"cuota": 3.3
+"cuota": 3.25
 },
 {
 "jugadores": [

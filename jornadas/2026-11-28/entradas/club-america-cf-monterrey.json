@@ -10,7 +10,7 @@
 "ambito": "total",
 "linea": 0.5,
 "mas": 1.07,
-"menos": 8.75
+"menos": 9.0
 },
 {
 "mercado": "goles",
@@ -30,8 +30,8 @@
 "mercado": "goles",
 "ambito": "total",
 "linea": 2.25,
-"mas": 1.65,
-"menos": 2.32
+"mas": 1.62,
+"menos": 2.35
 },
 {
 "mercado": "goles",
@@ -79,7 +79,7 @@
 "mercado": "goles",
 "ambito": "total",
 "linea": 5.5,
-"mas": 9.25,
+"mas": 9.5,
 "menos": 1.06
 },
 {
@@ -275,7 +275,7 @@
 "mercado": "corners",
 "ambito": "local",
 "linea": 6.5,
-"mas": 2.67,
+"mas": 2.7,
 "menos": null
 },
 {
@@ -303,7 +303,7 @@
 "mercado": "corners",
 "ambito": "visitante",
 "linea": 2.5,
-"mas": 1.18,
+"mas": 1.17,
 "menos": null
 },
 {
@@ -344,43 +344,71 @@
 {
 "mercado": "tarjetas",
 "ambito": "total",
+"linea": 3.5,
+"mas": 1.19,
+"menos": 4.3
+},
+{
+"mercado": "tarjetas",
+"ambito": "total",
+"linea": 4.5,
+"mas": 1.4,
+"menos": 2.8
+},
+{
+"mercado": "tarjetas",
+"ambito": "total",
 "linea": 5.5,
 "mas": 1.75,
 "menos": 2.0
+},
+{
+"mercado": "tarjetas",
+"ambito": "total",
+"linea": 6.5,
+"mas": 2.3,
+"menos": 1.57
+},
+{
+"mercado": "tarjetas",
+"ambito": "total",
+"linea": 7.5,
+"mas": 3.15,
+"menos": 1.33
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 0.5,
 "mas": 1.44,
-"menos": 2.75
+"menos": 2.77
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 0.75,
 "mas": 1.6,
-"menos": 2.35
+"menos": 2.37
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 1.0,
-"mas": 1.9,
-"menos": 1.91
+"mas": 1.88,
+"menos": 1.93
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 1.25,
-"mas": 2.35,
-"menos": 1.6
+"mas": 2.32,
+"menos": 1.62
 },
 {
 "mercado": "goles",
 "ambito": "1T",
 "linea": 1.5,
-"mas": 2.72,
+"mas": 2.7,
 "menos": 1.45
 },
 {
@@ -506,36 +534,36 @@
 "mercado": "goles",
 "ambito": "local",
 "linea": 1.5,
-"mas": 1.98,
+"mas": 1.95,
 "menos": 1.78
 },
 {
 "mercado": "goles",
 "ambito": "local",
 "linea": 2.5,
-"mas": 4.0,
+"mas": 3.95,
 "menos": 1.22
 },
 {
 "mercado": "goles",
 "ambito": "local",
 "linea": 3.5,
-"mas": 8.0,
+"mas": 7.9,
 "menos": 1.06
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 0.5,
-"mas": 1.34,
-"menos": 3.1
+"mas": 1.35,
+"menos": 3.05
 },
 {
 "mercado": "goles",
 "ambito": "visitante",
 "linea": 1.5,
 "mas": 2.65,
-"menos": 1.45
+"menos": 1.44
 },
 {
 "mercado": "goles",
@@ -562,8 +590,29 @@
 "mercado": "goles",
 "ambito": "2T",
 "linea": 2.5,
-"mas": 3.8,
+"mas": 3.85,
 "menos": 1.25
+},
+{
+"mercado": "al_arco",
+"ambito": "total",
+"linea": 5.5,
+"mas": 1.09,
+"menos": 6.6
+},
+{
+"mercado": "al_arco",
+"ambito": "total",
+"linea": 6.5,
+"mas": 1.19,
+"menos": 4.4
+},
+{
+"mercado": "al_arco",
+"ambito": "total",
+"linea": 7.5,
+"mas": 1.36,
+"menos": 3.0
 },
 {
 "mercado": "al_arco",
@@ -588,6 +637,41 @@
 },
 {
 "mercado": "al_arco",
+"ambito": "total",
+"linea": 11.5,
+"mas": 3.65,
+"menos": 1.25
+},
+{
+"mercado": "al_arco",
+"ambito": "total",
+"linea": 12.5,
+"mas": 5.1,
+"menos": 1.14
+},
+{
+"mercado": "al_arco",
+"ambito": "total",
+"linea": 13.5,
+"mas": 7.0,
+"menos": 1.08
+},
+{
+"mercado": "al_arco",
+"ambito": "local",
+"linea": 2.5,
+"mas": 1.1,
+"menos": 6.2
+},
+{
+"mercado": "al_arco",
+"ambito": "local",
+"linea": 3.5,
+"mas": 1.27,
+"menos": 3.55
+},
+{
+"mercado": "al_arco",
 "ambito": "local",
 "linea": 4.5,
 "mas": 1.6,
@@ -606,6 +690,34 @@
 "linea": 6.5,
 "mas": 3.2,
 "menos": 1.32
+},
+{
+"mercado": "al_arco",
+"ambito": "local",
+"linea": 7.5,
+"mas": 4.9,
+"menos": 1.15
+},
+{
+"mercado": "al_arco",
+"ambito": "local",
+"linea": 8.5,
+"mas": 7.4,
+"menos": 1.07
+},
+{
+"mercado": "al_arco",
+"ambito": "visitante",
+"linea": 1.5,
+"mas": 1.07,
+"menos": 7.2
+},
+{
+"mercado": "al_arco",
+"ambito": "visitante",
+"linea": 2.5,
+"mas": 1.25,
+"menos": 3.7
 },
 {
 "mercado": "al_arco",
@@ -629,6 +741,41 @@
 "menos": 1.26
 },
 {
+"mercado": "al_arco",
+"ambito": "visitante",
+"linea": 6.5,
+"mas": 5.8,
+"menos": 1.11
+},
+{
+"mercado": "al_arco",
+"ambito": "visitante",
+"linea": 7.5,
+"mas": 8.75,
+"menos": 1.05
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 22.5,
+"mas": 1.25,
+"menos": 3.65
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 23.5,
+"mas": 1.36,
+"menos": 2.95
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 24.5,
+"mas": 1.5,
+"menos": 2.47
+},
+{
 "mercado": "remates",
 "ambito": "total",
 "linea": 25.5,
@@ -648,6 +795,27 @@
 "linea": 27.5,
 "mas": 2.27,
 "menos": 1.6
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 28.5,
+"mas": 2.67,
+"menos": 1.44
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 29.5,
+"mas": 3.25,
+"menos": 1.32
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 30.5,
+"mas": 3.9,
+"menos": 1.23
 },
 {
 "mercado": "corners",
@@ -715,6 +883,20 @@
 {
 "mercado": "remates",
 "ambito": "local",
+"linea": 11.5,
+"mas": 1.25,
+"menos": 3.65
+},
+{
+"mercado": "remates",
+"ambito": "local",
+"linea": 12.5,
+"mas": 1.42,
+"menos": 2.77
+},
+{
+"mercado": "remates",
+"ambito": "local",
 "linea": 13.5,
 "mas": 1.65,
 "menos": 2.15
@@ -732,6 +914,27 @@
 "linea": 15.5,
 "mas": 2.45,
 "menos": 1.52
+},
+{
+"mercado": "remates",
+"ambito": "local",
+"linea": 16.5,
+"mas": 3.1,
+"menos": 1.34
+},
+{
+"mercado": "remates",
+"ambito": "local",
+"linea": 17.5,
+"mas": 4.0,
+"menos": 1.22
+},
+{
+"mercado": "remates",
+"ambito": "visitante",
+"linea": 9.5,
+"mas": 1.28,
+"menos": 3.5
 },
 {
 "mercado": "remates",
@@ -753,41 +956,62 @@
 "linea": 12.5,
 "mas": 2.15,
 "menos": 1.65
+},
+{
+"mercado": "remates",
+"ambito": "visitante",
+"linea": 13.5,
+"mas": 2.8,
+"menos": 1.4
+},
+{
+"mercado": "remates",
+"ambito": "visitante",
+"linea": 14.5,
+"mas": 3.65,
+"menos": 1.25
+},
+{
+"mercado": "remates",
+"ambito": "visitante",
+"linea": 15.5,
+"mas": 4.9,
+"menos": 1.16
 }
 ],
 "unicos": [
 {
 "mercado": "resultado",
 "opciones": {
-"1": 2.2,
-"X": 3.0,
+"1": 2.15,
+"X": 3.1,
 "2": 3.65,
 "1X": 1.3,
-"X2": 1.7,
-"12": 1.36
+"X2": 1.72,
+"12": 1.34
 }
 },
 {
 "mercado": "resultado_1t",
 "opciones": {
-"1": 2.82,
-"X": 2.02,
+"1": 2.77,
+"X": 2.05,
 "2": 4.15
 }
 },
 {
 "mercado": "resultado_2t",
 "opciones": {
-"1": 2.45,
-"X": 2.47,
-"2": 3.45
+"1": 2.42,
+"X": 2.5,
+"2": 3.5
 }
 },
 {
 "mercado": "htft_o",
 "opciones": {
-"1": 1.75,
-"X": 1.57,
+"1": 1.72,
+"X": 1.6,
 "2": 2.52
 }
 },
@@ -797,7 +1021,7 @@
 "opciones": {
 "local": 1.65,
 "empate": 6.6,
-"visitante": 2.72
+"visitante": 2.7
 }
 },
 {
@@ -812,8 +1036,8 @@
 {
 "mercado": "ambos",
 "opciones": {
-"si": 1.57,
-"no": 2.3
+"si": 1.6,
+"no": 2.25
 }
 },
 {
@@ -835,23 +1059,23 @@
 {
 "mercado": "htft",
 "opciones": {
-"1/1": 3.7,
-"1/X": 12.0,
+"1/1": 3.55,
+"1/X": 12.5,
 "1/2": 35.0,
 "X/1": 5.0,
-"X/X": 4.55,
+"X/X": 4.7,
 "X/2": 7.6,
 "2/1": 26.0,
 "2/X": 13.5,
-"2/2": 6.6
+"2/2": 6.5
 }
 },
 {
 "mercado": "handicap",
 "h": -3.0,
 "opciones": {
-"local": 20.0,
-"empate": 10.75,
+"local": 19.5,
+"empate": 10.5,
 "visitante": 1.07
 }
 },
@@ -859,18 +1083,18 @@
 "mercado": "handicap",
 "h": -2.0,
 "opciones": {
-"local": 9.75,
-"empate": 6.2,
-"visitante": 1.22
+"local": 9.5,
+"empate": 6.1,
+"visitante": 1.23
 }
 },
 {
 "mercado": "handicap",
 "h": -1.0,
 "opciones": {
-"local": 4.35,
+"local": 4.2,
 "empate": 3.85,
-"visitante": 1.7
+"visitante": 1.72
 }
 },
 {
@@ -888,31 +1112,31 @@
 "opciones": {
 "local": 1.08,
 "empate": 9.5,
-"visitante": 21.0
+"visitante": 20.0
 }
 },
 {
 "mercado": "handicap",
 "h": -0.75,
 "opciones": {
-"local": 2.6,
-"visitante": 1.53
+"local": 2.55,
+"visitante": 1.55
 }
 },
 {
 "mercado": "handicap",
 "h": -0.5,
 "opciones": {
-"local": 2.18,
-"visitante": 1.72
+"local": 2.15,
+"visitante": 1.75
 }
 },
 {
 "mercado": "handicap",
 "h": -0.25,
 "opciones": {
-"local": 1.87,
-"visitante": 1.98
+"local": 1.85,
+"visitante": 2.02
 }
 },
 {
@@ -920,7 +1144,7 @@
 "h": 0.0,
 "opciones": {
 "local": 1.53,
-"visitante": 2.57
+"visitante": 2.6
 }
 },
 {
@@ -937,7 +1161,7 @@
 "jugador": "Oscar Perea",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.15
+"cuota": 3.2
 },
 {
 "jugador": "Oscar Perea",
@@ -992,13 +1216,13 @@
 "jugador": "Henry Martin",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.27
+"cuota": 2.37
 },
 {
 "jugador": "Henry Martin",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 1.88
+"cuota": 1.95
 },
 {
 "jugador": "Henry Martin",
@@ -1044,7 +1268,7 @@
 "jugador": "Miguel Borja",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.37
+"cuota": 2.4
 },
 {
 "jugador": "Miguel Borja",
@@ -1098,13 +1322,13 @@
 "jugador": "Brian Rodríguez",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.57
+"cuota": 2.6
 },
 {
 "jugador": "Brian Rodríguez",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 1.87
+"cuota": 1.88
 },
 {
 "jugador": "Brian Rodríguez",
@@ -1153,13 +1377,13 @@
 "jugador": "Hugo Cuypers",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 2.62
+"cuota": 2.6
 },
 {
 "jugador": "Hugo Cuypers",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.32
+"cuota": 2.3
 },
 {
 "jugador": "Hugo Cuypers",
@@ -1206,13 +1430,13 @@
 "jugador": "Alex Zendejas",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.92
+"cuota": 3.05
 },
 {
 "jugador": "Alex Zendejas",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.12
+"cuota": 2.15
 },
 {
 "jugador": "Alex Zendejas",
@@ -1259,13 +1483,13 @@
 "jugador": "Alejandro Cardenas",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.15
+"cuota": 3.2
 },
 {
 "jugador": "Alejandro Cardenas",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.55
+"cuota": 2.57
 },
 {
 "jugador": "Alejandro Cardenas",
@@ -1312,7 +1536,7 @@
 "jugador": "Raphael Veiga",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.3
+"cuota": 3.35
 },
 {
 "jugador": "Raphael Veiga",
@@ -1366,13 +1590,13 @@
 "jugador": "Lucas Ocampos",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.4
+"cuota": 3.35
 },
 {
 "jugador": "Lucas Ocampos",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.3
+"cuota": 2.27
 },
 {
 "jugador": "Lucas Ocampos",
@@ -1420,13 +1644,13 @@
 "jugador": "Diego Rossi",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.4
+"cuota": 3.35
 },
 {
 "jugador": "Diego Rossi",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.72
+"cuota": 2.7
 },
 {
 "jugador": "Diego Rossi",
@@ -1470,10 +1694,218 @@
 }
 },
 {
-"jugador": "Isaias Violante",
+"jugador": "Roberto de la Rosa",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 3.75
+},
+{
+"jugador": "Roberto de la Rosa",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 3.05
+},
+{
+"jugador": "Roberto de la Rosa",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 19.5
+},
+{
+"jugador": "Roberto de la Rosa",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 4.15,
+"2": 21.0
+}
+},
+{
+"jugador": "Roberto de la Rosa",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"2": 1.31,
+"3": 1.91,
+"4": 3.25,
+"5": 5.9,
+"6": 10.5,
+"7": 16.5,
+"8": 21.0
+}
+},
+{
+"jugador": "Roberto de la Rosa",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.55,
+"2": 3.4,
+"3": 8.25,
+"4": 16.5
+}
+},
+{
+"jugador": "Aldo de Nigris",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 3.75
+},
+{
+"jugador": "Aldo de Nigris",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 3.05
+},
+{
+"jugador": "Aldo de Nigris",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 19.5
+},
+{
+"jugador": "Aldo de Nigris",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 4.15,
+"2": 21.0
+}
+},
+{
+"jugador": "Aldo de Nigris",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.1,
+"2": 1.55,
+"3": 2.55,
+"4": 4.8,
+"5": 9.25,
+"6": 15.5,
+"7": 21.0
+}
+},
+{
+"jugador": "Aldo de Nigris",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 1.6,
+"2": 3.75,
+"3": 9.25,
+"4": 18.0
+}
+},
+{
+"jugador": "Víctor Davila",
 "lado": "local",
 "stat": "anota",
 "cuota": 3.85
+},
+{
+"jugador": "Víctor Davila",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 2.92
+},
+{
+"jugador": "Víctor Davila",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 23.0
+},
+{
+"jugador": "Víctor Davila",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 3.85,
+"2": 19.0
+}
+},
+{
+"jugador": "Víctor Davila",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"2": 1.35,
+"3": 2.0,
+"4": 3.5,
+"5": 6.4,
+"6": 11.25,
+"7": 17.5
+}
+},
+{
+"jugador": "Víctor Davila",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.44,
+"2": 2.9,
+"3": 6.8,
+"4": 14.0,
+"5": 21.0
+}
+},
+{
+"jugador": "Jose Zuniga",
+"lado": "local",
+"stat": "anota",
+"cuota": 3.85
+},
+{
+"jugador": "Jose Zuniga",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 2.92
+},
+{
+"jugador": "Jose Zuniga",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 23.0
+},
+{
+"jugador": "Jose Zuniga",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 3.85,
+"2": 19.0
+}
+},
+{
+"jugador": "Jose Zuniga",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"2": 1.35,
+"3": 2.0,
+"4": 3.5,
+"5": 6.4,
+"6": 11.25,
+"7": 17.5
+}
+},
+{
+"jugador": "Jose Zuniga",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.44,
+"2": 2.9,
+"3": 6.8,
+"4": 14.0,
+"5": 21.0
+}
+},
+{
+"jugador": "Isaias Violante",
+"lado": "local",
+"stat": "anota",
+"cuota": 3.9
 },
 {
 "jugador": "Isaias Violante",
@@ -1527,13 +1959,13 @@
 "jugador": "Carlos Alvarez",
 "lado": "local",
 "stat": "anota",
-"cuota": 3.85
+"cuota": 3.9
 },
 {
 "jugador": "Carlos Alvarez",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.3
+"cuota": 2.32
 },
 {
 "jugador": "Carlos Alvarez",
@@ -1578,218 +2010,10 @@
 }
 },
 {
-"jugador": "Víctor Davila",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.85
-},
-{
-"jugador": "Víctor Davila",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 2.95
-},
-{
-"jugador": "Víctor Davila",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 23.0
-},
-{
-"jugador": "Víctor Davila",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 3.85,
-"2": 19.0
-}
-},
-{
-"jugador": "Víctor Davila",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"2": 1.35,
-"3": 2.0,
-"4": 3.5,
-"5": 6.4,
-"6": 11.25,
-"7": 17.5
-}
-},
-{
-"jugador": "Víctor Davila",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 1.44,
-"2": 2.9,
-"3": 6.8,
-"4": 14.0,
-"5": 21.0
-}
-},
-{
-"jugador": "Jose Zuniga",
-"lado": "local",
-"stat": "anota",
-"cuota": 3.85
-},
-{
-"jugador": "Jose Zuniga",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 2.95
-},
-{
-"jugador": "Jose Zuniga",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 23.0
-},
-{
-"jugador": "Jose Zuniga",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 3.85,
-"2": 19.0
-}
-},
-{
-"jugador": "Jose Zuniga",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"2": 1.35,
-"3": 2.0,
-"4": 3.5,
-"5": 6.4,
-"6": 11.25,
-"7": 17.5
-}
-},
-{
-"jugador": "Jose Zuniga",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 1.44,
-"2": 2.9,
-"3": 6.8,
-"4": 14.0,
-"5": 21.0
-}
-},
-{
-"jugador": "Roberto de la Rosa",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 3.95
-},
-{
-"jugador": "Roberto de la Rosa",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 3.2
-},
-{
-"jugador": "Roberto de la Rosa",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 19.5
-},
-{
-"jugador": "Roberto de la Rosa",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 4.15,
-"2": 21.0
-}
-},
-{
-"jugador": "Roberto de la Rosa",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"2": 1.31,
-"3": 1.91,
-"4": 3.25,
-"5": 5.9,
-"6": 10.5,
-"7": 16.5,
-"8": 21.0
-}
-},
-{
-"jugador": "Roberto de la Rosa",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 1.55,
-"2": 3.4,
-"3": 8.25,
-"4": 16.5
-}
-},
-{
-"jugador": "Aldo de Nigris",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 3.95
-},
-{
-"jugador": "Aldo de Nigris",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 3.2
-},
-{
-"jugador": "Aldo de Nigris",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 19.5
-},
-{
-"jugador": "Aldo de Nigris",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 4.15,
-"2": 21.0
-}
-},
-{
-"jugador": "Aldo de Nigris",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"1": 1.1,
-"2": 1.55,
-"3": 2.55,
-"4": 4.8,
-"5": 9.25,
-"6": 15.5,
-"7": 21.0
-}
-},
-{
-"jugador": "Aldo de Nigris",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 1.6,
-"2": 3.75,
-"3": 9.25,
-"4": 18.0
-}
-},
-{
 "jugador": "Uros Djurdjevic",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.95
+"cuota": 4.0
 },
 {
 "jugador": "Uros Djurdjevic",
@@ -1841,7 +2065,7 @@
 "jugador": "Luca Orellano",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 4.35
+"cuota": 4.25
 },
 {
 "jugador": "Luca Orellano",
@@ -1893,7 +2117,7 @@
 "jugador": "Diego Arriaga",
 "lado": "local",
 "stat": "anota",
-"cuota": 4.6
+"cuota": 4.65
 },
 {
 "jugador": "Diego Arriaga",
@@ -1950,7 +2174,7 @@
 "jugador": "Érick Sánchez",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 3.45
+"cuota": 3.5
 },
 {
 "jugador": "Érick Sánchez",
@@ -1996,7 +2220,7 @@
 "jugador": "Derek Jimenez",
 "lado": "local",
 "stat": "anota",
-"cuota": 5.3
+"cuota": 5.4
 },
 {
 "jugador": "Derek Jimenez",
@@ -2048,13 +2272,13 @@
 "jugador": "Icaro Geovane da Conceicao Nascimento",
 "lado": "local",
 "stat": "anota",
-"cuota": 5.3
+"cuota": 5.4
 },
 {
 "jugador": "Icaro Geovane da Conceicao Nascimento",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 4.45
+"cuota": 4.5
 },
 {
 "jugador": "Icaro Geovane da Conceicao Nascimento",
@@ -2066,7 +2290,7 @@
 "jugador": "Dagoberto Espinoza",
 "lado": "local",
 "stat": "anota",
-"cuota": 5.3
+"cuota": 5.4
 },
 {
 "jugador": "Dagoberto Espinoza",
@@ -2114,13 +2338,13 @@
 "jugador": "Iker Fimbres",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 5.5
+"cuota": 5.4
 },
 {
 "jugador": "Iker Fimbres",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 3.75
+"cuota": 3.7
 },
 {
 "jugador": "Iker Fimbres",
@@ -2165,13 +2389,13 @@
 "jugador": "Omar Galvez",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 5.5
+"cuota": 5.4
 },
 {
 "jugador": "Omar Galvez",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 4.0
+"cuota": 3.95
 },
 {
 "jugador": "Omar Galvez",
@@ -2214,7 +2438,7 @@
 "jugador": "Adrian Fernandez",
 "lado": "local",
 "stat": "anota",
-"cuota": 5.6
+"cuota": 5.5
 },
 {
 "jugador": "Adrian Fernandez",
@@ -2321,7 +2545,7 @@
 "jugador": "Cristian Reyes",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 3.8
+"cuota": 3.75
 },
 {
 "jugador": "Cristian Reyes",
@@ -2366,7 +2590,7 @@
 "jugador": "Luis Rojas",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 5.8
+"cuota": 5.9
 },
 {
 "jugador": "Luis Rojas",
@@ -2417,13 +2641,13 @@
 "jugador": "Jesús Corona",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 6.2
+"cuota": 6.1
 },
 {
 "jugador": "Jesús Corona",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 3.95
+"cuota": 3.9
 },
 {
 "jugador": "Jesús Corona",
@@ -2468,7 +2692,7 @@
 "jugador": "Ruffin Paxon",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 6.2
+"cuota": 6.1
 },
 {
 "jugador": "Ruffin Paxon",
@@ -2577,7 +2801,7 @@
 "jugador": "Cristian Borja",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 4.8
+"cuota": 4.85
 },
 {
 "jugador": "Cristian Borja",
@@ -2625,13 +2849,13 @@
 "jugador": "Michell Rodríguez",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 6.9
+"cuota": 7.0
 },
 {
 "jugador": "Michell Rodríguez",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 4.15
+"cuota": 4.2
 },
 {
 "jugador": "Michell Rodríguez",
@@ -2676,13 +2900,13 @@
 "jugador": "Cesar Garza",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 7.3
+"cuota": 7.2
 },
 {
 "jugador": "Cesar Garza",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 6.0
+"cuota": 5.9
 },
 {
 "jugador": "Cesar Garza",
@@ -2723,13 +2947,13 @@
 "jugador": "Oliver Torres",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 7.3
+"cuota": 7.2
 },
 {
 "jugador": "Oliver Torres",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.6
+"cuota": 2.57
 },
 {
 "jugador": "Oliver Torres",
@@ -2915,7 +3139,7 @@
 "jugador": "Santiago Bueno",
 "lado": "local",
 "stat": "anota",
-"cuota": 9.0
+"cuota": 9.25
 },
 {
 "jugador": "Santiago Bueno",
@@ -2963,7 +3187,7 @@
 "jugador": "Kevin Álvarez",
 "lado": "local",
 "stat": "anota",
-"cuota": 9.0
+"cuota": 9.25
 },
 {
 "jugador": "Kevin Álvarez",
@@ -3057,153 +3281,6 @@
 }
 },
 {
-"jugador": "Jaziel Martinez",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 9.5
-},
-{
-"jugador": "Jaziel Martinez",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 5.6
-},
-{
-"jugador": "Jaziel Martinez",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 16.5
-},
-{
-"jugador": "Jaziel Martinez",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 4.15,
-"2": 21.0
-}
-},
-{
-"jugador": "Jaziel Martinez",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"1": 1.34,
-"2": 2.5,
-"3": 5.5,
-"4": 11.75,
-"5": 19.0
-}
-},
-{
-"jugador": "Jaziel Martinez",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 2.42,
-"2": 8.5,
-"3": 19.0
-}
-},
-{
-"jugador": "Allen Rojas",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 9.5
-},
-{
-"jugador": "Allen Rojas",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 5.6
-},
-{
-"jugador": "Allen Rojas",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 16.5
-},
-{
-"jugador": "Allen Rojas",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 4.15,
-"2": 21.0
-}
-},
-{
-"jugador": "Allen Rojas",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"1": 1.34,
-"2": 2.5,
-"3": 5.5,
-"4": 11.75,
-"5": 19.0
-}
-},
-{
-"jugador": "Allen Rojas",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 2.42,
-"2": 8.5,
-"3": 19.0
-}
-},
-{
-"jugador": "Sebastian Rodriguez Medina",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 9.5
-},
-{
-"jugador": "Sebastian Rodriguez Medina",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 5.6
-},
-{
-"jugador": "Sebastian Rodriguez Medina",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 16.5
-},
-{
-"jugador": "Sebastian Rodriguez Medina",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 4.15,
-"2": 21.0
-}
-},
-{
-"jugador": "Sebastian Rodriguez Medina",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"1": 1.34,
-"2": 2.5,
-"3": 5.5,
-"4": 11.75,
-"5": 19.0
-}
-},
-{
-"jugador": "Sebastian Rodriguez Medina",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 2.42,
-"2": 8.5,
-"3": 19.0
-}
-},
-{
 "jugador": "Santiago Ramos Mingo",
 "lado": "local",
 "stat": "anota",
@@ -3213,7 +3290,7 @@
 "jugador": "Santiago Ramos Mingo",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 7.8
+"cuota": 7.9
 },
 {
 "jugador": "Santiago Ramos Mingo",
@@ -3254,7 +3331,7 @@
 "jugador": "Fidel Ambriz",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 10.0
+"cuota": 9.75
 },
 {
 "jugador": "Fidel Ambriz",
@@ -3300,16 +3377,163 @@
 }
 },
 {
+"jugador": "Jaziel Martinez",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 9.75
+},
+{
+"jugador": "Jaziel Martinez",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 5.6
+},
+{
+"jugador": "Jaziel Martinez",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 16.5
+},
+{
+"jugador": "Jaziel Martinez",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 4.15,
+"2": 21.0
+}
+},
+{
+"jugador": "Jaziel Martinez",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.34,
+"2": 2.5,
+"3": 5.5,
+"4": 11.75,
+"5": 19.0
+}
+},
+{
+"jugador": "Jaziel Martinez",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.42,
+"2": 8.5,
+"3": 19.0
+}
+},
+{
+"jugador": "Allen Rojas",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 9.75
+},
+{
+"jugador": "Allen Rojas",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 5.6
+},
+{
+"jugador": "Allen Rojas",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 16.5
+},
+{
+"jugador": "Allen Rojas",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 4.15,
+"2": 21.0
+}
+},
+{
+"jugador": "Allen Rojas",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.34,
+"2": 2.5,
+"3": 5.5,
+"4": 11.75,
+"5": 19.0
+}
+},
+{
+"jugador": "Allen Rojas",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.42,
+"2": 8.5,
+"3": 19.0
+}
+},
+{
+"jugador": "Sebastian Rodriguez Medina",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 9.75
+},
+{
+"jugador": "Sebastian Rodriguez Medina",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 5.6
+},
+{
+"jugador": "Sebastian Rodriguez Medina",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 16.5
+},
+{
+"jugador": "Sebastian Rodriguez Medina",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 4.15,
+"2": 21.0
+}
+},
+{
+"jugador": "Sebastian Rodriguez Medina",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.34,
+"2": 2.5,
+"3": 5.5,
+"4": 11.75,
+"5": 19.0
+}
+},
+{
+"jugador": "Sebastian Rodriguez Medina",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 2.42,
+"2": 8.5,
+"3": 19.0
+}
+},
+{
 "jugador": "Emilio Lara",
 "lado": "local",
 "stat": "anota",
-"cuota": 11.0
+"cuota": 12.0
 },
 {
 "jugador": "Emilio Lara",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 5.9
+"cuota": 6.2
 },
 {
 "jugador": "Emilio Lara",
@@ -3351,13 +3575,13 @@
 "jugador": "Franco Rossano",
 "lado": "local",
 "stat": "anota",
-"cuota": 11.0
+"cuota": 12.0
 },
 {
 "jugador": "Franco Rossano",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 5.4
+"cuota": 5.7
 },
 {
 "jugador": "Franco Rossano",
@@ -3396,16 +3620,110 @@
 }
 },
 {
+"jugador": "Santiago Camarena",
+"lado": "local",
+"stat": "anota",
+"cuota": 12.0
+},
+{
+"jugador": "Santiago Camarena",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 8.0
+},
+{
+"jugador": "Santiago Camarena",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 19.0
+},
+{
+"jugador": "Santiago Camarena",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 4.85
+}
+},
+{
+"jugador": "Santiago Camarena",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.55,
+"2": 3.45,
+"3": 8.5,
+"4": 17.0
+}
+},
+{
+"jugador": "Santiago Camarena",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.85,
+"2": 11.75,
+"3": 22.0
+}
+},
+{
+"jugador": "Santiago Naveda",
+"lado": "local",
+"stat": "anota",
+"cuota": 12.0
+},
+{
+"jugador": "Santiago Naveda",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 8.0
+},
+{
+"jugador": "Santiago Naveda",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 19.0
+},
+{
+"jugador": "Santiago Naveda",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 4.85
+}
+},
+{
+"jugador": "Santiago Naveda",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"1": 1.55,
+"2": 3.45,
+"3": 8.5,
+"4": 17.0
+}
+},
+{
+"jugador": "Santiago Naveda",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 2.85,
+"2": 11.75,
+"3": 22.0
+}
+},
+{
 "jugador": "Ricardo Gonzalez",
 "lado": "local",
 "stat": "anota",
-"cuota": 11.0
+"cuota": 12.0
 },
 {
 "jugador": "Ricardo Gonzalez",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 5.2
+"cuota": 5.4
 },
 {
 "jugador": "Ricardo Gonzalez",
@@ -3446,110 +3764,16 @@
 }
 },
 {
-"jugador": "Santiago Camarena",
-"lado": "local",
-"stat": "anota",
-"cuota": 12.0
-},
-{
-"jugador": "Santiago Camarena",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 8.0
-},
-{
-"jugador": "Santiago Camarena",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 19.0
-},
-{
-"jugador": "Santiago Camarena",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 4.85
-}
-},
-{
-"jugador": "Santiago Camarena",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"1": 1.55,
-"2": 3.45,
-"3": 8.5,
-"4": 17.0
-}
-},
-{
-"jugador": "Santiago Camarena",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 2.85,
-"2": 11.75,
-"3": 22.0
-}
-},
-{
-"jugador": "Santiago Naveda",
-"lado": "local",
-"stat": "anota",
-"cuota": 12.0
-},
-{
-"jugador": "Santiago Naveda",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 8.0
-},
-{
-"jugador": "Santiago Naveda",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 19.0
-},
-{
-"jugador": "Santiago Naveda",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 4.85
-}
-},
-{
-"jugador": "Santiago Naveda",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"1": 1.55,
-"2": 3.45,
-"3": 8.5,
-"4": 17.0
-}
-},
-{
-"jugador": "Santiago Naveda",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 2.85,
-"2": 11.75,
-"3": 22.0
-}
-},
-{
 "jugador": "Erick Aguirre",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 12.5
+"cuota": 12.0
 },
 {
 "jugador": "Erick Aguirre",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 6.7
+"cuota": 6.6
 },
 {
 "jugador": "Erick Aguirre",
@@ -3597,7 +3821,7 @@
 "jugador": "Jorge Rodríguez",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 9.75
+"cuota": 9.5
 },
 {
 "jugador": "Jorge Rodríguez",
@@ -3644,7 +3868,7 @@
 "jugador": "Carlos Salcedo",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 7.9
+"cuota": 7.8
 },
 {
 "jugador": "Carlos Salcedo",
@@ -3691,7 +3915,7 @@
 "jugador": "Stefan Medina",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 7.5
+"cuota": 7.4
 },
 {
 "jugador": "Stefan Medina",
@@ -3779,7 +4003,7 @@
 "jugador": "Alonso Aceves",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 17.5
+"cuota": 17.0
 },
 {
 "jugador": "Alonso Aceves",
@@ -3827,13 +4051,13 @@
 "jugador": "Victor Guzman",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 17.5
+"cuota": 17.0
 },
 {
 "jugador": "Victor Guzman",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 13.5
+"cuota": 13.0
 },
 {
 "jugador": "Victor Guzman",
@@ -4063,7 +4287,7 @@
 "jugador": "Thiago Espinosa",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 4.8
+"cuota": 4.85
 },
 {
 "jugador": "Thiago Espinosa",
@@ -4391,7 +4615,7 @@
 "dudas": [
 "Sofascore: árbitro no anunciado en Sofascore",
 "Historial: sin casar con Betano → da Conceição Í., Chávez R., Medina S., Ruffin P., Đurđević U.",
-"Alineación probable: sin casar con Betano → Medina S. (ambiguo: Sebastian Rodriguez Medina / Stefan Medina)"
+"Alineación probable: sin casar con Betano → Medina S. (ambiguo: Stefan Medina / Sebastian Rodriguez Medina)"
 ],
 "fuentes": [
 "Betano 18:48-18:51 Bogotá del 27-nov (mercados)",
@@ -13977,5 +14201,5 @@
 "faltan": []
 },
 "estadio": "Estadio Azteca",
-"cuotas_leidas": "Cuotas de Betano leídas 2026-11-27T23:47:41.017Z · 530 mercados"
+"cuotas_leidas": "Cuotas de Betano leídas 2026-11-28T06:14:53.150Z · 530 mercados"
 }

@@ -6,7 +6,6 @@ Países Bajos Eredivisie · 2026-11-28 12:45
 **Base de la liga:** Países Bajos Eredivisie · 3.14 goles/partido, Más 2.5 61 %, ambos marcan 57 % · córners 10.4 · tarjetas (amarilla 1, roja 2) 3.3 (1257 partidos ago-2022/nov-2026)
 
 ## ⚠ Alertas (revisar antes de usar las líneas marcadas)
-- Revisar: la simulación sin contexto se aleja 15 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
 - Revisar: la simulación sin contexto se aleja 18 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
 - Revisar: la simulación sin contexto se aleja 21 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
 - Revisar: la simulación sin contexto se aleja 22 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
@@ -15,8 +14,8 @@ Países Bajos Eredivisie · 2026-11-28 12:45
 - Revisar: la simulación sin contexto se aleja 28 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
 - Revisar: la simulación sin contexto se aleja 29 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
 - Revisar: la simulación sin contexto se aleja 31 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
-- Revisar: la simulación sin contexto se aleja 37 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
-- Revisar: la simulación sin contexto se aleja 41 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
+- Revisar: la simulación sin contexto se aleja 36 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
+- Revisar: la simulación sin contexto se aleja 40 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?)
 
 ## Enfoque de mercados (qué mercados le quedan bien al contexto)
 Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de PSV Eindhoven, Goles de PSV Eindhoven (Más), Remates / tiros al arco de PSV Eindhoven.
@@ -53,89 +52,92 @@ Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades
 ## Medias esperadas (con contexto)
 | | Goles | Remates | Al arco | Córners | Faltas | Tarjetas |
 |---|---|---|---|---|---|---|
-| local | 3.16 | 21.7 | 7.9 | 5.7 | 10.1 | 1.3 |
-| visitante | 1.04 | 9.6 | 3.9 | 5.7 | 10.7 | 1.9 |
+| local | 3.09 | 21.7 | 7.9 | 5.7 | 10.1 | 1.3 |
+| visitante | 0.98 | 9.6 | 3.9 | 5.7 | 10.7 | 1.9 |
 
 ## Media esperada por mercado (modelo con contexto; entre paréntesis lo que espera Betano; rango del 80 % de los partidos simulados)
 | Mercado | Total | Local | Visitante | 1.er tiempo | 2.º tiempo |
 |---|---|---|---|---|---|
-| Goles | 4.2 (4.3) · 2–7 | 3.2 (3.2) · 1–5 | 1.0 (1.1) · 0–2 | 1.9 (1.9) · 0–4 | 2.3 (2.4) · 0–4 |
-| Córners | 11.2 (11.3) · 7–16 | 5.6 · 2–9 | 5.6 · 2–9 | 5.1 (5.6) · 2–8 | 6.2 (5.9) · 3–10 |
-| Tarjetas (amarilla 1, roja 2) | 3.1 (3.0) · 1–6 | 1.2 (1.2) · 0–3 | 1.9 (1.8) · 0–4 | 1.1 (1.0) · 0–3 | 2.0 · 0–4 |
-| Remates | 31.3 (31.1) · 23–40 | 21.7 (21.7) · 14–30 | 9.6 (9.6) · 5–14 | 14.4 · 9–20 | 16.9 · 11–23 |
-| Tiros al arco | 11.8 (11.8) · 7–17 | 8.0 (7.9) · 4–12 | 3.9 (3.9) · 1–7 | 5.4 · 3–9 | 6.4 · 3–10 |
-| Faltas | 20.8 · 15–27 | 10.1 · 6–14 | 10.8 · 7–15 | 9.3 · 6–13 | 11.5 · 7–16 |
+| Goles | 4.1 (4.2) · 2–7 | 3.1 (3.1) · 1–5 | 1.0 (1.0) · 0–2 | 1.9 (1.9) · 0–4 | 2.2 (2.3) · 0–4 |
+| Córners | 11.3 (11.3) · 7–16 | 5.7 · 2–9 | 5.6 · 2–9 | 5.1 (5.6) · 2–8 | 6.2 (5.9) · 3–10 |
+| Tarjetas (amarilla 1, roja 2) | 3.2 (3.0) · 1–6 | 1.3 (1.2) · 0–3 | 1.9 (1.8) · 0–4 | 1.1 (1.0) · 0–3 | 2.0 · 0–4 |
+| Remates | 31.4 (31.1) · 23–40 | 21.8 (21.7) · 14–30 | 9.6 (9.6) · 5–14 | 14.4 · 9–20 | 17.0 · 11–23 |
+| Tiros al arco | 12.0 (11.8) · 7–17 | 8.0 (7.9) · 4–12 | 3.9 (3.9) · 1–7 | 5.5 · 3–9 | 6.5 · 3–10 |
+| Faltas | 20.8 · 15–27 | 10.0 · 6–14 | 10.8 · 7–15 | 9.3 · 6–13 | 11.5 · 7–16 |
 | Fueras de lugar | 3.6 · 1–6 | 1.8 · 0–4 | 1.8 · 0–4 | 1.6 · 0–3 | 2.0 · 0–4 |
-| Saques de meta | 16.2 · 10–23 | 8.1 · 4–13 | 8.1 · 4–13 | 7.2 · 3–11 | 9.0 · 5–14 |
-| Saques de banda | 39.8 · 29–52 | 19.9 · 12–28 | 19.9 · 12–28 | 17.8 · 11–24 | 22.0 · 15–30 |
-| Atajadas del portero | — | 2.9 · 1–5 | 4.8 · 2–8 | — | — |
+| Saques de meta | 16.2 · 10–23 | 8.1 · 4–13 | 8.1 · 4–13 | 7.2 · 4–11 | 8.9 · 5–14 |
+| Saques de banda | 39.9 · 29–52 | 20.0 · 12–28 | 19.8 · 12–28 | 17.8 · 12–25 | 22.0 · 15–30 |
+| Atajadas del portero | — | 2.9 · 1–5 | 4.9 · 2–8 | — | — |
 
 ## Lectura por mercado (la línea que mejor encaja con este partido en cada mercado)
 | Mercado | Línea | Cuota | Prob. | Robustez | Brilla si… | La mata si… | Etiqueta |
 |---|---|---|---|---|---|---|---|
-| Goles | Goles PSV Eindhoven Menos 4.5 | 1.25 | 80 % | (lo define el marcador) | Empate (100 %) | Favorito golpea temprano y gana (76 %) | Alta probabilidad |
-| Ambos marcan | Ambos marcan: No | 2.55 | 37 % | (lo define el marcador) | Favorito golpea temprano y gana (100 %) | Partido abierto (ambos marcan y 3+ goles) (0 %) | Justa |
-| Resultado y hándicap | Hándicap Go Ahead Eagles +4 | 1.28 | 78 % | (lo define el marcador) | Sorpresa: gana el no favorito (100 %) | Favorito golpea temprano y gana (55 %) | Alta probabilidad · ★ enfoque a favor |
-| Córners | Córners Go Ahead Eagles Más 2.5 | 1.40 | 77 % | 77 % | Partido abierto (ambos marcan y 3+ goles) (78 %) | Sorpresa: gana el no favorito (73 %) | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 21 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
-| Tarjetas | Tarjetas Más 1.5 | 1.26 | 78 % | 72 % | Expulsión antes del 70′ (100 %) | Favorito golpea temprano y gana (72 %) | Alta probabilidad |
-| Remates | Remates Go Ahead Eagles Menos 11.5 | 1.29 | 74 % | 67 % | Favorito gana en partido trabado (85 %) | Partido abierto (ambos marcan y 3+ goles) (67 %) | Alta probabilidad |
-| Tiros al arco | Tiros al arco PSV Eindhoven Menos 9.5 | 1.32 | 72 % | 67 % | Empate (94 %) | Partido abierto (ambos marcan y 3+ goles) (67 %) | Alta probabilidad |
-| Jugadores | Kodai Sano anota o asiste | 2.77 | 34 % | 38 % | Favorito golpea temprano y gana (38 %) | Empate (11 %) | Cara |
-| Quién saca más | Más corners: Go Ahead Eagles | 7.10 | 26 % | 26 % | Favorito golpea temprano y gana (28 %) | Sorpresa: gana el no favorito (20 %) | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 37 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
+| Goles | Goles Más 2.5 | 1.25 | 78 % | (lo define el marcador) | Partido abierto (ambos marcan y 3+ goles) (100 %) | Empate (0 %) | Alta probabilidad · ★ enfoque a favor |
+| Ambos marcan | Ambos marcan: Sí | 1.53 | 62 % | (lo define el marcador) | Partido abierto (ambos marcan y 3+ goles) (100 %) | Favorito golpea temprano y gana (0 %) | Cara |
+| Resultado y hándicap | Hándicap Go Ahead Eagles +4 | 1.27 | 79 % | (lo define el marcador) | Sorpresa: gana el no favorito (100 %) | Favorito golpea temprano y gana (56 %) | Alta probabilidad · ★ enfoque a favor |
+| Córners | Córners Go Ahead Eagles Más 2.5 | 1.40 | 77 % | 77 % | Partido abierto (ambos marcan y 3+ goles) (78 %) | Expulsión antes del 70′ (74 %) | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 21 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Tarjetas | Tarjetas Más 1.5 | 1.26 | 79 % | 73 % | Expulsión antes del 70′ (100 %) | Favorito golpea temprano y gana (73 %) | Alta probabilidad |
+| Remates | Remates Go Ahead Eagles Menos 11.5 | 1.29 | 74 % | 68 % | Favorito gana en partido trabado (84 %) | Sorpresa: gana el no favorito (66 %) | Alta probabilidad |
+| Tiros al arco | Tiros al arco Más 9.5 | 1.31 | 75 % | 67 % | Partido abierto (ambos marcan y 3+ goles) (86 %) | Empate (50 %) | Alta probabilidad |
+| Jugadores | Sergiño Dest anota o asiste | 3.25 | 29 % | 32 % | Partido abierto (ambos marcan y 3+ goles) (34 %) | Empate (8 %) | Justa |
+| Quién saca más | Más corners: Go Ahead Eagles | 7.10 | 26 % | 27 % | Favorito golpea temprano y gana (29 %) | Empate (20 %) | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 36 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
 
 Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
 
 ## Alta probabilidad y robustas (aguantan en los guiones principales)
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Goles PSV Eindhoven Menos 4.5 | 1.25 | 80 % | 78 % | 78 % | +2 pts | +0 % | 80 % | +0.8 | 1.29 | Favorito golpea temprano y gana | Alta probabilidad |
-| Córners Menos 14.0 | 1.28 | 80 % | 78 % | 79 % | +1 pts | +2 % | 71 % | +0.8 | 1.29 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 7 % |
-| Córners 1.er tiempo Menos 7.0 | 1.40 | 79 % | 75 % | 78 % | +1 pts | +11 % | 71 % | +0.8 | 1.30 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 11 % |
-| Tarjetas Más 1.5 | 1.26 | 78 % | 77 % | 77 % | +1 pts | -1 % | 72 % | +0.8 | 1.31 | Favorito golpea temprano y gana | Alta probabilidad |
-| Hándicap Go Ahead Eagles +4 | 1.28 | 78 % | 76 % | 77 % | +1 pts | +0 % | 78 % | — | 1.32 | Favorito golpea temprano y gana | Alta probabilidad · ★ enfoque a favor |
-| Córners Go Ahead Eagles Más 2.5 | 1.40 | 77 % | 67 % | 77 % | -0 pts | +8 % | 77 % | +1.1 | 1.34 | Sorpresa: gana el no favorito | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 21 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
-| Goles Menos 5.5 | 1.33 | 76 % | 73 % | 74 % | +2 pts | +1 % | 76 % | +0.7 | 1.36 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Córners Menos 13.5 | 1.28 | 75 % | 76 % | 75 % | +1 pts | -3 % | 73 % | +0.6 | 1.37 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Córners 2.º tiempo Menos 7.5 | 1.25 | 74 % | 78 % | 75 % | -0 pts | -7 % | 72 % | +0.5 | 1.38 | Empate | Alta probabilidad · cuota por debajo de la justa |
-| Remates Go Ahead Eagles Menos 11.5 | 1.29 | 74 % | 75 % | 74 % | +0 pts | -5 % | 67 % | +0.5 | 1.40 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Córners Más 9.0 | 1.38 | 74 % | 74 % | 75 % | -1 pts | +1 % | 62 % | +0.6 | 1.40 | Favorito golpea temprano y gana | Alta probabilidad · asiática: devuelve 10 % |
-| Tiros al arco Más 9.5 | 1.31 | 73 % | 74 % | 73 % | +0 pts | -4 % | 66 % | +0.7 | 1.40 | Empate | Alta probabilidad |
-| Tiros al arco Go Ahead Eagles Más 2.5 | 1.29 | 73 % | 75 % | 73 % | -0 pts | -5 % | 53 % | +0.6 | 1.41 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
-| Córners 1.er tiempo Menos 6.5 | 1.40 | 72 % | 69 % | 71 % | +2 pts | +1 % | 71 % | +0.6 | 1.42 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Goles Go Ahead Eagles Menos 1.5 | 1.36 | 72 % | 71 % | 70 % | +2 pts | -2 % | 72 % | +0.5 | 1.42 | Sorpresa: gana el no favorito | Alta probabilidad |
-| Remates PSV Eindhoven Menos 24.5 | 1.29 | 72 % | 75 % | 73 % | -0 pts | -7 % | 69 % | +0.5 | 1.42 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · cuota por debajo de la justa |
-| Remates Menos 34.5 | 1.30 | 72 % | 74 % | 72 % | -0 pts | -6 % | 65 % | +0.5 | 1.43 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · cuota por debajo de la justa |
-| Tiros al arco PSV Eindhoven Menos 9.5 | 1.32 | 72 % | 73 % | 72 % | -0 pts | -5 % | 67 % | +0.5 | 1.43 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
-| Remates Más 27.5 | 1.32 | 72 % | 73 % | 72 % | +0 pts | -5 % | 62 % | +0.6 | 1.43 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
+| Córners Menos 14.0 | 1.28 | 80 % | 78 % | 79 % | +1 pts | +2 % | 72 % | +0.8 | 1.29 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 7 % |
+| Tarjetas Más 1.5 | 1.26 | 79 % | 77 % | 77 % | +3 pts | +0 % | 73 % | +0.8 | 1.30 | Favorito golpea temprano y gana | Alta probabilidad |
+| Hándicap Go Ahead Eagles +4 | 1.27 | 79 % | 77 % | 77 % | +2 pts | +0 % | 79 % | — | 1.30 | Favorito golpea temprano y gana | Alta probabilidad · ★ enfoque a favor |
+| Córners 1.er tiempo Menos 7.0 | 1.42 | 79 % | 74 % | 78 % | +1 pts | +12 % | 70 % | +0.8 | 1.31 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 10 % |
+| Goles Más 2.5 | 1.25 | 78 % | 78 % | 79 % | -1 pts | -2 % | 78 % | +0.8 | 1.32 | Empate | Alta probabilidad · ★ enfoque a favor |
+| Goles Menos 5.5 | 1.29 | 77 % | 76 % | 76 % | +2 pts | -0 % | 77 % | +0.7 | 1.33 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Córners Go Ahead Eagles Más 2.5 | 1.40 | 77 % | 67 % | 77 % | -0 pts | +8 % | 77 % | +1.1 | 1.34 | Expulsión antes del 70′ | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 21 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Córners Menos 13.5 | 1.28 | 76 % | 76 % | 75 % | +1 pts | -3 % | 74 % | +0.6 | 1.36 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Tiros al arco Más 9.5 | 1.31 | 75 % | 74 % | 73 % | +1 pts | -2 % | 67 % | +0.7 | 1.38 | Empate | Alta probabilidad |
+| Córners 2.º tiempo Menos 7.5 | 1.25 | 74 % | 78 % | 75 % | -0 pts | -7 % | 73 % | +0.5 | 1.38 | Empate | Alta probabilidad · cuota por debajo de la justa |
+| Córners Más 9.0 | 1.38 | 74 % | 74 % | 75 % | -0 pts | +2 % | 64 % | +0.6 | 1.39 | Favorito golpea temprano y gana | Alta probabilidad · asiática: devuelve 10 % |
+| Remates Go Ahead Eagles Menos 11.5 | 1.29 | 74 % | 75 % | 74 % | -0 pts | -5 % | 68 % | +0.5 | 1.40 | Sorpresa: gana el no favorito | Alta probabilidad |
+| Tiros al arco Go Ahead Eagles Más 2.5 | 1.29 | 73 % | 75 % | 74 % | -0 pts | -6 % | 52 % | +0.7 | 1.41 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa |
+| Goles Go Ahead Eagles Menos 1.5 | 1.32 | 73 % | 73 % | 73 % | -0 pts | -4 % | 73 % | +0.5 | 1.41 | Sorpresa: gana el no favorito | Alta probabilidad |
+| Remates Más 27.5 | 1.32 | 72 % | 73 % | 72 % | +1 pts | -4 % | 62 % | +0.6 | 1.42 | Favorito golpea temprano y gana | Alta probabilidad |
+| Córners 1.er tiempo Menos 6.5 | 1.42 | 72 % | 68 % | 71 % | +1 pts | +2 % | 71 % | +0.6 | 1.43 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
 | Remates Go Ahead Eagles Más 7.5 | 1.32 | 72 % | 73 % | 71 % | +0 pts | -5 % | 63 % | +0.6 | 1.44 | Favorito gana en partido trabado | Alta probabilidad · cuota por debajo de la justa |
 | Córners Menos 13.0 | 1.45 | 72 % | 71 % | 71 % | +1 pts | +4 % | 63 % | +0.5 | 1.44 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 9 % |
-| Remates PSV Eindhoven Más 18.5 | 1.31 | 71 % | 74 % | 71 % | +0 pts | -6 % | 66 % | +0.5 | 1.44 | Favorito golpea temprano y gana | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
-| Sam Lammers tiros al arco 1+ | 1.25 | 71 % | 71 % | 70 % | +1 pts | -12 % | 71 % | — | 1.46 | Empate | Alta probabilidad · cuota por debajo de la justa |
-| Goles Menos 5.0 | 1.44 | 70 % | 68 % | 68 % | +2 pts | +1 % | 70 % | +0.4 | 1.46 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · asiática: devuelve 17 % |
-| Goles 1.er tiempo Menos 2.5 | 1.40 | 70 % | 69 % | 68 % | +2 pts | -2 % | 70 % | +0.4 | 1.46 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Remates PSV Eindhoven Menos 24.5 | 1.29 | 72 % | 75 % | 73 % | -1 pts | -8 % | 68 % | +0.4 | 1.44 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · cuota por debajo de la justa |
+| Remates PSV Eindhoven Más 18.5 | 1.31 | 71 % | 74 % | 71 % | +1 pts | -6 % | 66 % | +0.6 | 1.44 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
+| Goles 1.er tiempo Menos 2.5 | 1.37 | 71 % | 70 % | 70 % | +2 pts | -2 % | 71 % | +0.5 | 1.44 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Tiros al arco PSV Eindhoven Menos 9.5 | 1.32 | 71 % | 73 % | 72 % | -2 pts | -6 % | 66 % | +0.5 | 1.45 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · cuota por debajo de la justa |
+| Remates Menos 34.5 | 1.30 | 71 % | 74 % | 73 % | -2 pts | -8 % | 64 % | +0.5 | 1.45 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · cuota por debajo de la justa |
+| Córners 1.er tiempo Más 4.0 | 1.47 | 71 % | 73 % | 72 % | -1 pts | +4 % | 57 % | +0.5 | 1.46 | Favorito gana en partido trabado | Alta probabilidad · Valor · asiática: devuelve 17 % |
+| Sam Lammers tiros al arco 1+ | 1.25 | 70 % | 71 % | 70 % | +0 pts | -12 % | 72 % | — | 1.46 | Empate | Alta probabilidad · cuota por debajo de la justa |
 
 ## Con valor según el modelo
 | Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Más corners: Go Ahead Eagles | 7.10 | 26 % | 8 % | 27 % | -1 pts | +83 % | 26 % | — | 4.20 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 37 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
-| Córners Go Ahead Eagles Más 6.5 | 7.90 | 22 % | 12 % | 23 % | -1 pts | +74 % | 22 % | -0.3 | 5.01 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 23 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
-| Córners Go Ahead Eagles Más 7.5 | 11.00 | 15 % | 8 % | 16 % | -1 pts | +67 % | 16 % | -0.7 | 7.58 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 15 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
-| Córners Go Ahead Eagles Más 5.5 | 5.10 | 32 % | 18 % | 33 % | -1 pts | +62 % | 32 % | +0.0 | 3.36 | Sorpresa: gana el no favorito | Valor · ⚠ Revisar: la simulación sin contexto se aleja 29 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
-| Córners Go Ahead Eagles Más 4.5 | 3.05 | 45 % | 31 % | 46 % | -1 pts | +38 % | 46 % | +0.4 | 2.31 | Expulsión antes del 70′ | Valor · ⚠ Revisar: la simulación sin contexto se aleja 31 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
-| Córners 1.er tiempo Menos 5.0 | 2.57 | 47 % | 42 % | 45 % | +2 pts | +21 % | 39 % | -0.0 | 2.22 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 17 % |
-| Córners Go Ahead Eagles Más 3.5 | 1.98 | 61 % | 47 % | 62 % | -0 pts | +21 % | 62 % | +0.7 | 1.69 | Expulsión antes del 70′ | Valor · ⚠ Revisar: la simulación sin contexto se aleja 29 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
-| Córners 1.er tiempo Menos 4.0 | 4.25 | 28 % | 25 % | 27 % | +1 pts | +20 % | 23 % | -0.5 | 3.81 | Partido abierto (ambos marcan y 3+ goles) | Valor frágil (depende de un guion) · asiática: devuelve 17 % |
-| Córners 1.er tiempo Menos 6.0 | 1.80 | 65 % | 60 % | 63 % | +2 pts | +17 % | 56 % | +0.4 | 1.59 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 14 % |
-| Córners 1.er tiempo Menos 7.0 | 1.40 | 79 % | 75 % | 78 % | +1 pts | +11 % | 71 % | +0.8 | 1.30 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 11 % |
-| Córners Go Ahead Eagles Más 2.5 | 1.40 | 77 % | 67 % | 77 % | -0 pts | +8 % | 77 % | +1.1 | 1.34 | Sorpresa: gana el no favorito | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 21 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
-| Córners Menos 10.0 | 2.90 | 37 % | 36 % | 36 % | +1 pts | +8 % | 31 % | -0.3 | 2.85 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 10 % |
-| Córners Menos 12.0 | 1.75 | 61 % | 60 % | 60 % | +1 pts | +7 % | 52 % | +0.2 | 1.70 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 10 % |
-| Córners 1.er tiempo Menos 8.0 | 1.20 | 88 % | 84 % | 87 % | +1 pts | +6 % | 82 % | +1.3 | 1.17 | Sorpresa: gana el no favorito | Alta probabilidad · Valor · asiática: devuelve 7 % |
-| Córners Menos 11.0 | 2.15 | 49 % | 48 % | 48 % | +1 pts | +6 % | 41 % | -0.1 | 2.12 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 11 % |
+| Más corners: Go Ahead Eagles | 7.10 | 26 % | 9 % | 26 % | -0 pts | +87 % | 27 % | — | 4.11 | Empate | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 36 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |
+| Córners Go Ahead Eagles Más 6.5 | 8.00 | 22 % | 12 % | 23 % | -1 pts | +77 % | 23 % | -0.3 | 4.97 | Sorpresa: gana el no favorito | Valor frágil (depende de un guion) · ⚠ Revisar: la simulación sin contexto se aleja 22 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Córners Go Ahead Eagles Más 7.5 | 11.00 | 16 % | 8 % | 16 % | -0 pts | +71 % | 16 % | -0.7 | 7.36 | Empate | Valor frágil (depende de un guion) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Córners Go Ahead Eagles Más 5.5 | 5.00 | 32 % | 19 % | 33 % | -1 pts | +60 % | 34 % | +0.0 | 3.33 | Empate | Valor · ⚠ Revisar: la simulación sin contexto se aleja 28 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Córners Go Ahead Eagles Más 4.5 | 3.05 | 46 % | 31 % | 46 % | -1 pts | +39 % | 47 % | +0.4 | 2.30 | Sorpresa: gana el no favorito | Valor · ⚠ Revisar: la simulación sin contexto se aleja 31 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Alfons Sampsted anota o asiste | 7.50 | 16 % | 12 % | 16 % | +0 pts | +22 % | 0 % | — | 7.02 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
+| Córners Go Ahead Eagles Más 3.5 | 1.98 | 61 % | 47 % | 62 % | -1 pts | +21 % | 62 % | +0.7 | 1.69 | Sorpresa: gana el no favorito | Valor · ⚠ Revisar: la simulación sin contexto se aleja 29 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Córners 1.er tiempo Menos 5.0 | 2.57 | 47 % | 42 % | 45 % | +2 pts | +20 % | 39 % | -0.0 | 2.23 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 17 % |
+| Córners 1.er tiempo Menos 4.0 | 4.25 | 28 % | 25 % | 27 % | +1 pts | +19 % | 23 % | -0.5 | 3.84 | Partido abierto (ambos marcan y 3+ goles) | Valor frágil (depende de un guion) · asiática: devuelve 17 % |
+| Eus Waayers anota o asiste | 7.50 | 16 % | 12 % | 16 % | +0 pts | +18 % | 0 % | — | 7.30 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
+| Córners 1.er tiempo Menos 6.0 | 1.80 | 65 % | 60 % | 63 % | +1 pts | +16 % | 56 % | +0.4 | 1.60 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 14 % |
+| Tomas Galvez anota o asiste | 6.60 | 17 % | 13 % | 17 % | +0 pts | +15 % | 0 % | — | 6.50 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) |
+| Córners 1.er tiempo Menos 7.0 | 1.42 | 79 % | 74 % | 78 % | +1 pts | +12 % | 70 % | +0.8 | 1.31 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 10 % |
+| Córners Go Ahead Eagles Más 2.5 | 1.40 | 77 % | 67 % | 77 % | -0 pts | +8 % | 77 % | +1.1 | 1.34 | Expulsión antes del 70′ | Alta probabilidad · Valor · ⚠ Revisar: la simulación sin contexto se aleja 21 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) · Línea contra el guion (Más de un equipo que perdió: 2/11) |
+| Córners Menos 12.0 | 1.75 | 61 % | 60 % | 60 % | +1 pts | +6 % | 53 % | +0.2 | 1.70 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 10 % |
+| Córners 1.er tiempo Menos 8.0 | 1.20 | 88 % | 84 % | 87 % | +1 pts | +5 % | 81 % | +1.2 | 1.17 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 7 % |
+| Córners Menos 11.0 | 2.15 | 49 % | 48 % | 49 % | +0 pts | +5 % | 42 % | -0.1 | 2.13 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 11 % |
+| Córners Más 10.0 | 1.65 | 63 % | 63 % | 63 % | -0 pts | +4 % | 53 % | +0.3 | 1.64 | Favorito golpea temprano y gana | Valor · asiática: devuelve 11 % |
 | Córners Menos 13.0 | 1.45 | 72 % | 71 % | 71 % | +1 pts | +4 % | 63 % | +0.5 | 1.44 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 9 % |
-| Córners 1.er tiempo Más 4.0 | 1.47 | 70 % | 73 % | 71 % | -1 pts | +3 % | 57 % | +0.5 | 1.47 | Empate | Alta probabilidad · Valor · asiática: devuelve 17 % |
+| Córners 1.er tiempo Más 4.0 | 1.47 | 71 % | 73 % | 72 % | -1 pts | +4 % | 57 % | +0.5 | 1.46 | Favorito gana en partido trabado | Alta probabilidad · Valor · asiática: devuelve 17 % |
 
-Kelly ¼ (dato informativo, no una orden de stake): Más corners: Go Ahead Eagles 3.4 % de la banca; Córners Go Ahead Eagles Más 6.5 2.7 % de la banca; Córners Go Ahead Eagles Más 7.5 1.7 % de la banca; Córners Go Ahead Eagles Más 5.5 3.8 % de la banca; Córners Go Ahead Eagles Más 4.5 4.6 % de la banca; Córners 1.er tiempo Menos 5.0 3.3 % de la banca; Córners Go Ahead Eagles Más 3.5 5.3 % de la banca; Córners 1.er tiempo Menos 4.0 1.6 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+Kelly ¼ (dato informativo, no una orden de stake): Más corners: Go Ahead Eagles 3.6 % de la banca; Córners Go Ahead Eagles Más 6.5 2.8 % de la banca; Córners Go Ahead Eagles Más 7.5 1.8 % de la banca; Córners Go Ahead Eagles Más 5.5 3.8 % de la banca; Córners Go Ahead Eagles Más 4.5 4.7 % de la banca; Alfons Sampsted anota o asiste 0.8 % de la banca; Córners Go Ahead Eagles Más 3.5 5.3 % de la banca; Córners 1.er tiempo Menos 5.0 3.2 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
 
 ## Sistemas de tipsters que este partido cumple (solo para medir, no para decidir)
 | Sistema | Regla | Selección que propone | Historial con cuotas reales |
@@ -149,14 +151,15 @@ Kelly ¼ (dato informativo, no una orden de stake): Más corners: Go Ahead Eagle
 ## Builders del mismo guion
 | Patas | Prob. ajustada | Prob. simulación | Si una pata está 5 pts peor | Cuota justa | Cuota mínima en Betano | Correlación | Margen acumulado | Guion común | Robustez |
 |---|---|---|---|---|---|---|---|---|---|
-| Tarjetas Más 1.5 + Ambos 1+ tarjetas: Sí | 62 % | 63 % | 57 % | 1.62 | 1.67 | 1.27 | 8 % | Expulsión antes del 70′ | 55 % |
-| Goles 1.er tiempo Menos 4.5 + Tarjetas Más 1.5 + Ambos 1+ tarjetas: Sí | 60 % | 61 % | 55 % | 1.68 | 1.73 | 1.28 | 9 % | Expulsión antes del 70′ | 54 % |
-| Gana PSV Eindhoven + Goles Menos 5.5 + Descanso o final: PSV Eindhoven | 58 % | 61 % | 54 % | 1.73 | 1.78 | 1.13 | 10 % | Favorito gana en partido trabado | 52 % |
-| Hándicap Go Ahead Eagles +4 + Goles PSV Eindhoven Menos 5.5 + Descanso o final: PSV Eindhoven | 61 % | 65 % | 57 % | 1.63 | 1.68 | 1.03 | 11 % | Favorito gana en partido trabado | 52 % |
-| Goles Go Ahead Eagles Menos 2.5 + Córners 2.º tiempo Más 4.5 + Tiros al arco Go Ahead Eagles Menos 7.5 | 62 % | 62 % | 57 % | 1.62 | 1.67 | 1.01 | 7 % | Empate | 61 % |
-| Tarjetas 1.er tiempo Más 0.5 + Goles 1.er tiempo Menos 4.5 | 62 % | 63 % | 57 % | 1.62 | 1.67 | 1.0 | 6 % | Expulsión antes del 70′ | 58 % |
-| Tarjetas 1.er tiempo Más 0.5 + Córners Menos 17.5 | 62 % | 63 % | 57 % | 1.62 | 1.67 | 1.0 | 6 % | Expulsión antes del 70′ | 59 % |
-| Goles Menos 5.5 + Córners Menos 17.5 + Tiros al arco Más 7.5 | 62 % | 62 % | 58 % | 1.60 | 1.65 | 0.96 | 5 % | Favorito gana en partido trabado | 55 % |
+| Tarjetas Más 2.5 + Ambos 1+ tarjetas: Sí | 52 % | 52 % | 48 % | 1.92 | 1.98 | 1.38 | 10 % | Expulsión antes del 70′ | 43 % |
+| Gana PSV Eindhoven + Goles Menos 5.5 + Descanso o final: PSV Eindhoven | 59 % | 62 % | 55 % | 1.70 | 1.75 | 1.12 | 10 % | Favorito gana en partido trabado | 54 % |
+| Tarjetas Más 2.5 + Ambos 1+ tarjetas: Sí + Goles 1.er tiempo Menos 4.5 | 50 % | 51 % | 46 % | 1.98 | 2.04 | 1.39 | 11 % | Expulsión antes del 70′ | 42 % |
+| Gana PSV Eindhoven + Hándicap Go Ahead Eagles +4 + Descanso o final: PSV Eindhoven | 58 % | 62 % | 55 % | 1.72 | 1.77 | 1.09 | 10 % | Favorito gana en partido trabado | 53 % |
+| Tarjetas 1.er tiempo Más 0.5 + Goles 1.er tiempo Menos 4.5 | 62 % | 64 % | 58 % | 1.60 | 1.65 | 1.0 | 6 % | Expulsión antes del 70′ | 59 % |
+| Tarjetas 1.er tiempo Más 0.5 + Córners Menos 17.5 | 62 % | 63 % | 57 % | 1.62 | 1.67 | 1.0 | 6 % | Expulsión antes del 70′ | 60 % |
+| Hándicap Go Ahead Eagles +4 + Goles Menos 5.5 + Tiros al arco Más 7.5 | 58 % | 58 % | 54 % | 1.72 | 1.77 | 1.05 | 7 % | Sorpresa: gana el no favorito | 44 % |
+| Córners Go Ahead Eagles Más 3.5 + Goles Go Ahead Eagles Menos 2.5 | 56 % | 70 % | 52 % | 1.78 | 1.83 | 1.0 | 8 % | Favorito golpea temprano y gana | 56 % |
+| ↳ Línea contra el guion (Más de un equipo que perdió: 2/11) · Revisar: la simulación sin contexto se aleja 29 pts del mercado (¿línea mal copiada, equipo cambiado o dato viejo?) |  |  |  |  |  |  |  |  |  |
 
 Prob. ajustada: la conjunta de la simulación llevando cada pata a su probabilidad de decisión y corrigiendo la dependencia entre patas que se midió con 62 000 partidos (p. ej. «gana el favorito + sus córners Más» se estorban más de lo que creía el simulador). Margen acumulado: lo que la casa cobra por pata, multiplicado.
 

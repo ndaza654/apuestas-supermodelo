@@ -1,5 +1,5 @@
 # Ficha — Aberdeen FC - Dundee FC
-Escocia Premiership · 2026-11-28 10:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-27T23:49:01.805Z · 365 mercados
+Escocia Premiership · 2026-11-28 10:00 · cuotas leídas: Cuotas de Betano leídas 2026-11-28T06:16:59.169Z · 365 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.

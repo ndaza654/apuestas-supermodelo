@@ -1,5 +1,5 @@
 # Ficha — Charlotte FC - Chicago Fire FC
-EE. UU. MLS · 2026-11-28 12:30 · cuotas leídas: Cuotas de Betano leídas 2026-11-27T23:49:12.565Z · 404 mercados
+EE. UU. MLS · 2026-11-28 12:30 · cuotas leídas: Cuotas de Betano leídas 2026-11-28T06:17:12.620Z · 404 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.

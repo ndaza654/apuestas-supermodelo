@@ -358,9 +358,23 @@
 {
 "mercado": "tarjetas",
 "ambito": "total",
+"linea": 3.5,
+"mas": 1.57,
+"menos": 2.32
+},
+{
+"mercado": "tarjetas",
+"ambito": "total",
 "linea": 4.5,
 "mas": 2.12,
 "menos": 1.67
+},
+{
+"mercado": "tarjetas",
+"ambito": "total",
+"linea": 5.5,
+"mas": 3.05,
+"menos": 1.35
 },
 {
 "mercado": "goles",
@@ -603,6 +617,27 @@
 {
 "mercado": "al_arco",
 "ambito": "total",
+"linea": 5.5,
+"mas": 1.09,
+"menos": 6.7
+},
+{
+"mercado": "al_arco",
+"ambito": "total",
+"linea": 6.5,
+"mas": 1.18,
+"menos": 4.45
+},
+{
+"mercado": "al_arco",
+"ambito": "total",
+"linea": 7.5,
+"mas": 1.35,
+"menos": 3.05
+},
+{
+"mercado": "al_arco",
+"ambito": "total",
 "linea": 8.5,
 "mas": 1.6,
 "menos": 2.25
@@ -620,6 +655,41 @@
 "linea": 10.5,
 "mas": 2.65,
 "menos": 1.44
+},
+{
+"mercado": "al_arco",
+"ambito": "total",
+"linea": 11.5,
+"mas": 3.6,
+"menos": 1.26
+},
+{
+"mercado": "al_arco",
+"ambito": "total",
+"linea": 12.5,
+"mas": 5.0,
+"menos": 1.15
+},
+{
+"mercado": "al_arco",
+"ambito": "total",
+"linea": 13.5,
+"mas": 6.9,
+"menos": 1.08
+},
+{
+"mercado": "al_arco",
+"ambito": "local",
+"linea": 2.5,
+"mas": 1.07,
+"menos": 7.5
+},
+{
+"mercado": "al_arco",
+"ambito": "local",
+"linea": 3.5,
+"mas": 1.19,
+"menos": 4.35
 },
 {
 "mercado": "al_arco",
@@ -644,6 +714,27 @@
 },
 {
 "mercado": "al_arco",
+"ambito": "local",
+"linea": 7.5,
+"mas": 3.85,
+"menos": 1.23
+},
+{
+"mercado": "al_arco",
+"ambito": "local",
+"linea": 8.5,
+"mas": 5.8,
+"menos": 1.11
+},
+{
+"mercado": "al_arco",
+"ambito": "visitante",
+"linea": 1.5,
+"mas": 1.11,
+"menos": 5.9
+},
+{
+"mercado": "al_arco",
 "ambito": "visitante",
 "linea": 2.5,
 "mas": 1.36,
@@ -664,25 +755,81 @@
 "menos": 1.39
 },
 {
+"mercado": "al_arco",
+"ambito": "visitante",
+"linea": 5.5,
+"mas": 4.65,
+"menos": 1.17
+},
+{
+"mercado": "al_arco",
+"ambito": "visitante",
+"linea": 6.5,
+"mas": 7.5,
+"menos": 1.07
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 23.5,
+"mas": 1.27,
+"menos": 3.55
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 24.5,
+"mas": 1.38,
+"menos": 2.92
+},
+{
 "mercado": "remates",
 "ambito": "total",
 "linea": 25.5,
-"mas": 1.55,
-"menos": 2.35
+"mas": 1.52,
+"menos": 2.42
 },
 {
 "mercado": "remates",
 "ambito": "total",
 "linea": 26.5,
-"mas": 1.75,
-"menos": 2.0
+"mas": 1.7,
+"menos": 2.07
 },
 {
 "mercado": "remates",
 "ambito": "total",
 "linea": 27.5,
-"mas": 2.02,
-"menos": 1.75
+"mas": 1.95,
+"menos": 1.8
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 28.5,
+"mas": 2.27,
+"menos": 1.6
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 29.5,
+"mas": 2.67,
+"menos": 1.44
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 30.5,
+"mas": 3.2,
+"menos": 1.32
+},
+{
+"mercado": "remates",
+"ambito": "total",
+"linea": 31.5,
+"mas": 3.9,
+"menos": 1.23
 },
 {
 "mercado": "corners",
@@ -750,44 +897,100 @@
 {
 "mercado": "remates",
 "ambito": "local",
+"linea": 13.5,
+"mas": 1.25,
+"menos": 3.7
+},
+{
+"mercado": "remates",
+"ambito": "local",
+"linea": 14.5,
+"mas": 1.39,
+"menos": 2.87
+},
+{
+"mercado": "remates",
+"ambito": "local",
 "linea": 15.5,
-"mas": 1.62,
-"menos": 2.22
+"mas": 1.6,
+"menos": 2.27
 },
 {
 "mercado": "remates",
 "ambito": "local",
 "linea": 16.5,
-"mas": 1.9,
-"menos": 1.83
+"mas": 1.87,
+"menos": 1.87
 },
 {
 "mercado": "remates",
 "ambito": "local",
 "linea": 17.5,
-"mas": 2.3,
-"menos": 1.57
+"mas": 2.25,
+"menos": 1.6
+},
+{
+"mercado": "remates",
+"ambito": "local",
+"linea": 18.5,
+"mas": 2.8,
+"menos": 1.4
+},
+{
+"mercado": "remates",
+"ambito": "local",
+"linea": 19.5,
+"mas": 3.55,
+"menos": 1.27
+},
+{
+"mercado": "remates",
+"ambito": "visitante",
+"linea": 7.5,
+"mas": 1.17,
+"menos": 4.7
+},
+{
+"mercado": "remates",
+"ambito": "visitante",
+"linea": 8.5,
+"mas": 1.31,
+"menos": 3.25
 },
 {
 "mercado": "remates",
 "ambito": "visitante",
 "linea": 9.5,
-"mas": 1.55,
-"menos": 2.35
+"mas": 1.53,
+"menos": 2.4
 },
 {
 "mercado": "remates",
 "ambito": "visitante",
 "linea": 10.5,
-"mas": 1.91,
-"menos": 1.83
+"mas": 1.87,
+"menos": 1.87
 },
 {
 "mercado": "remates",
 "ambito": "visitante",
 "linea": 11.5,
-"mas": 2.45,
-"menos": 1.52
+"mas": 2.37,
+"menos": 1.55
+},
+{
+"mercado": "remates",
+"ambito": "visitante",
+"linea": 12.5,
+"mas": 3.15,
+"menos": 1.33
+},
+{
+"mercado": "remates",
+"ambito": "visitante",
+"linea": 13.5,
+"mas": 4.25,
+"menos": 1.2
 }
 ],
 "unicos": [
@@ -994,7 +1197,7 @@
 "jugador": "Denis Bouanga",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 1.47
+"cuota": 1.5
 },
 {
 "jugador": "Denis Bouanga",
@@ -1017,13 +1220,13 @@
 "stat": "remates",
 "escalera": {
 "3": 1.21,
-"4": 1.55,
+"4": 1.53,
 "5": 2.15,
-"6": 3.3,
-"7": 5.3,
+"6": 3.25,
+"7": 5.2,
 "8": 8.5,
 "9": 13.0,
-"10": 18.0
+"10": 17.5
 }
 },
 {
@@ -1036,59 +1239,6 @@
 "3": 2.9,
 "4": 5.7,
 "5": 10.75
-}
-},
-{
-"jugador": "Jeremy Ebobisse",
-"lado": "local",
-"stat": "anota",
-"cuota": 2.2
-},
-{
-"jugador": "Jeremy Ebobisse",
-"lado": "local",
-"stat": "anota_o_asiste",
-"cuota": 1.85
-},
-{
-"jugador": "Jeremy Ebobisse",
-"lado": "local",
-"stat": "tarjeta",
-"cuota": 37.0
-},
-{
-"jugador": "Jeremy Ebobisse",
-"lado": "local",
-"stat": "asiste",
-"escalera": {
-"1": 3.35,
-"2": 15.5
-}
-},
-{
-"jugador": "Jeremy Ebobisse",
-"lado": "local",
-"stat": "remates",
-"escalera": {
-"2": 1.24,
-"3": 1.75,
-"4": 2.77,
-"5": 4.8,
-"6": 8.5,
-"7": 14.0,
-"8": 19.5
-}
-},
-{
-"jugador": "Jeremy Ebobisse",
-"lado": "local",
-"stat": "al_arco",
-"escalera": {
-"1": 1.37,
-"2": 2.6,
-"3": 5.8,
-"4": 12.5,
-"5": 19.5
 }
 },
 {
@@ -1124,13 +1274,14 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"3": 1.31,
-"4": 1.78,
-"5": 2.62,
-"6": 4.25,
-"7": 7.0,
+"3": 1.3,
+"4": 1.75,
+"5": 2.6,
+"6": 4.2,
+"7": 6.9,
 "8": 11.25,
-"9": 16.5
+"9": 16.0,
+"10": 21.0
 }
 },
 {
@@ -1146,16 +1297,69 @@
 }
 },
 {
+"jugador": "Jeremy Ebobisse",
+"lado": "local",
+"stat": "anota",
+"cuota": 2.3
+},
+{
+"jugador": "Jeremy Ebobisse",
+"lado": "local",
+"stat": "anota_o_asiste",
+"cuota": 1.91
+},
+{
+"jugador": "Jeremy Ebobisse",
+"lado": "local",
+"stat": "tarjeta",
+"cuota": 37.0
+},
+{
+"jugador": "Jeremy Ebobisse",
+"lado": "local",
+"stat": "asiste",
+"escalera": {
+"1": 3.35,
+"2": 15.5
+}
+},
+{
+"jugador": "Jeremy Ebobisse",
+"lado": "local",
+"stat": "remates",
+"escalera": {
+"2": 1.24,
+"3": 1.72,
+"4": 2.75,
+"5": 4.75,
+"6": 8.5,
+"7": 14.0,
+"8": 19.0
+}
+},
+{
+"jugador": "Jeremy Ebobisse",
+"lado": "local",
+"stat": "al_arco",
+"escalera": {
+"1": 1.37,
+"2": 2.6,
+"3": 5.8,
+"4": 12.5,
+"5": 19.5
+}
+},
+{
 "jugador": "Armindo Sieb",
 "lado": "local",
 "stat": "anota",
-"cuota": 2.6
+"cuota": 2.7
 },
 {
 "jugador": "Armindo Sieb",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 2.07
+"cuota": 2.12
 },
 {
 "jugador": "Armindo Sieb",
@@ -1179,11 +1383,11 @@
 "escalera": {
 "3": 1.23,
 "4": 1.6,
-"5": 2.27,
-"6": 3.5,
-"7": 5.7,
-"8": 9.25,
-"9": 14.0,
+"5": 2.25,
+"6": 3.45,
+"7": 5.6,
+"8": 9.0,
+"9": 13.5,
 "10": 18.5
 }
 },
@@ -1203,13 +1407,13 @@
 "jugador": "Rafael Navarro",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 2.6
+"cuota": 2.7
 },
 {
 "jugador": "Rafael Navarro",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.02
+"cuota": 2.07
 },
 {
 "jugador": "Rafael Navarro",
@@ -1233,10 +1437,10 @@
 "escalera": {
 "2": 1.33,
 "3": 1.95,
-"4": 3.4,
-"5": 6.2,
-"6": 11.0,
-"7": 17.0
+"4": 3.35,
+"5": 6.1,
+"6": 10.75,
+"7": 16.5
 }
 },
 {
@@ -1282,12 +1486,12 @@
 "lado": "visitante",
 "stat": "remates",
 "escalera": {
-"2": 1.35,
-"3": 2.0,
-"4": 3.5,
-"5": 6.4,
+"2": 1.34,
+"3": 1.98,
+"4": 3.45,
+"5": 6.3,
 "6": 11.25,
-"7": 17.5
+"7": 17.0
 }
 },
 {
@@ -1335,12 +1539,12 @@
 "stat": "remates",
 "escalera": {
 "2": 1.24,
-"3": 1.75,
-"4": 2.77,
-"5": 4.8,
+"3": 1.72,
+"4": 2.75,
+"5": 4.75,
 "6": 8.5,
 "7": 14.0,
-"8": 19.5
+"8": 19.0
 }
 },
 {
@@ -1389,11 +1593,11 @@
 "stat": "remates",
 "escalera": {
 "2": 1.28,
-"3": 1.83,
+"3": 1.82,
 "4": 3.0,
-"5": 5.4,
+"5": 5.3,
 "6": 9.5,
-"7": 15.5,
+"7": 15.0,
 "8": 20.0
 }
 },
@@ -1413,13 +1617,13 @@
 "jugador": "Damion Downs",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 3.65
+"cuota": 3.75
 },
 {
 "jugador": "Damion Downs",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 2.95
+"cuota": 3.0
 },
 {
 "jugador": "Damion Downs",
@@ -1442,9 +1646,9 @@
 "stat": "remates",
 "escalera": {
 "1": 1.11,
-"2": 1.57,
-"3": 2.65,
-"4": 5.0,
+"2": 1.55,
+"3": 2.62,
+"4": 4.9,
 "5": 9.5,
 "6": 16.0,
 "7": 21.0
@@ -1495,9 +1699,9 @@
 "escalera": {
 "1": 1.14,
 "2": 1.67,
-"3": 3.05,
-"4": 6.0,
-"5": 11.5,
+"3": 3.0,
+"4": 5.9,
+"5": 11.25,
 "6": 18.0
 }
 },
@@ -1544,10 +1748,10 @@
 "lado": "visitante",
 "stat": "remates",
 "escalera": {
-"1": 1.17,
+"1": 1.16,
 "2": 1.78,
-"3": 3.3,
-"4": 6.7,
+"3": 3.25,
+"4": 6.6,
 "5": 12.5,
 "6": 19.0
 }
@@ -1596,11 +1800,11 @@
 "stat": "remates",
 "escalera": {
 "1": 1.18,
-"2": 1.85,
-"3": 3.5,
-"4": 7.2,
+"2": 1.83,
+"3": 3.45,
+"4": 7.1,
 "5": 13.5,
-"6": 20.0
+"6": 19.5
 }
 },
 {
@@ -1618,13 +1822,13 @@
 "jugador": "Mathieu Choinière",
 "lado": "local",
 "stat": "anota",
-"cuota": 5.4
+"cuota": 5.8
 },
 {
 "jugador": "Mathieu Choinière",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 3.4
+"cuota": 3.5
 },
 {
 "jugador": "Mathieu Choinière",
@@ -1646,10 +1850,10 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"1": 1.26,
+"1": 1.25,
 "2": 2.1,
-"3": 4.45,
-"4": 9.5,
+"3": 4.4,
+"4": 9.25,
 "5": 16.5
 }
 },
@@ -1667,13 +1871,13 @@
 "jugador": "Marky Delgado",
 "lado": "local",
 "stat": "anota",
-"cuota": 5.4
+"cuota": 5.8
 },
 {
 "jugador": "Marky Delgado",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 3.0
+"cuota": 3.1
 },
 {
 "jugador": "Marky Delgado",
@@ -1695,10 +1899,10 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"1": 1.26,
+"1": 1.25,
 "2": 2.1,
-"3": 4.45,
-"4": 9.5,
+"3": 4.4,
+"4": 9.25,
 "5": 16.5
 }
 },
@@ -1716,13 +1920,13 @@
 "jugador": "Sergio Vasquez",
 "lado": "local",
 "stat": "anota",
-"cuota": 5.4
+"cuota": 5.8
 },
 {
 "jugador": "Sergio Vasquez",
 "lado": "local",
 "stat": "anota_o_asiste",
-"cuota": 4.1
+"cuota": 4.3
 },
 {
 "jugador": "Sergio Vasquez",
@@ -1745,8 +1949,8 @@
 "stat": "remates",
 "escalera": {
 "1": 1.38,
-"2": 2.65,
-"3": 6.0,
+"2": 2.62,
+"3": 5.9,
 "4": 12.5,
 "5": 20.0
 }
@@ -1765,13 +1969,13 @@
 "jugador": "Daniel Edelman",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 6.5
+"cuota": 6.8
 },
 {
 "jugador": "Daniel Edelman",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 5.3
+"cuota": 5.5
 },
 {
 "jugador": "Daniel Edelman",
@@ -1792,9 +1996,9 @@
 "lado": "visitante",
 "stat": "remates",
 "escalera": {
-"1": 1.85,
+"1": 1.83,
 "2": 5.0,
-"3": 13.0,
+"3": 12.5,
 "4": 21.0
 }
 },
@@ -1806,53 +2010,6 @@
 "1": 3.15,
 "2": 14.0,
 "3": 23.0
-}
-},
-{
-"jugador": "Charles-Emile Brunet",
-"lado": "visitante",
-"stat": "anota",
-"cuota": 7.2
-},
-{
-"jugador": "Charles-Emile Brunet",
-"lado": "visitante",
-"stat": "anota_o_asiste",
-"cuota": 5.7
-},
-{
-"jugador": "Charles-Emile Brunet",
-"lado": "visitante",
-"stat": "tarjeta",
-"cuota": 21.0
-},
-{
-"jugador": "Charles-Emile Brunet",
-"lado": "visitante",
-"stat": "asiste",
-"escalera": {
-"1": 5.1
-}
-},
-{
-"jugador": "Charles-Emile Brunet",
-"lado": "visitante",
-"stat": "remates",
-"escalera": {
-"1": 1.85,
-"2": 5.0,
-"3": 13.0,
-"4": 21.0
-}
-},
-{
-"jugador": "Charles-Emile Brunet",
-"lado": "visitante",
-"stat": "al_arco",
-"escalera": {
-"1": 3.45,
-"2": 16.5,
-"3": 24.0
 }
 },
 {
@@ -1879,8 +2036,8 @@
 "stat": "remates",
 "escalera": {
 "1": 2.3,
-"2": 7.9,
-"3": 18.5
+"2": 7.8,
+"3": 18.0
 }
 },
 {
@@ -1890,6 +2047,53 @@
 "escalera": {
 "1": 4.0,
 "2": 20.0
+}
+},
+{
+"jugador": "Charles-Emile Brunet",
+"lado": "visitante",
+"stat": "anota",
+"cuota": 7.5
+},
+{
+"jugador": "Charles-Emile Brunet",
+"lado": "visitante",
+"stat": "anota_o_asiste",
+"cuota": 6.0
+},
+{
+"jugador": "Charles-Emile Brunet",
+"lado": "visitante",
+"stat": "tarjeta",
+"cuota": 21.0
+},
+{
+"jugador": "Charles-Emile Brunet",
+"lado": "visitante",
+"stat": "asiste",
+"escalera": {
+"1": 5.1
+}
+},
+{
+"jugador": "Charles-Emile Brunet",
+"lado": "visitante",
+"stat": "remates",
+"escalera": {
+"1": 1.83,
+"2": 5.0,
+"3": 12.5,
+"4": 21.0
+}
+},
+{
+"jugador": "Charles-Emile Brunet",
+"lado": "visitante",
+"stat": "al_arco",
+"escalera": {
+"1": 3.45,
+"2": 16.5,
+"3": 24.0
 }
 },
 {
@@ -1925,7 +2129,7 @@
 "stat": "remates",
 "escalera": {
 "1": 1.25,
-"2": 2.1,
+"2": 2.07,
 "3": 4.35,
 "4": 9.25,
 "5": 16.5
@@ -2023,9 +2227,10 @@
 "stat": "remates",
 "escalera": {
 "1": 1.53,
-"2": 3.35,
-"3": 8.25,
-"4": 16.5
+"2": 3.3,
+"3": 8.0,
+"4": 16.5,
+"5": 22.0
 }
 },
 {
@@ -2071,7 +2276,7 @@
 "stat": "remates",
 "escalera": {
 "1": 1.47,
-"2": 3.05,
+"2": 3.0,
 "3": 7.2,
 "4": 15.0,
 "5": 22.0
@@ -2120,8 +2325,8 @@
 "stat": "remates",
 "escalera": {
 "1": 1.55,
-"2": 3.45,
-"3": 8.5,
+"2": 3.4,
+"3": 8.25,
 "4": 16.5
 }
 },
@@ -2167,9 +2372,9 @@
 "lado": "visitante",
 "stat": "remates",
 "escalera": {
-"1": 1.85,
+"1": 1.83,
 "2": 5.0,
-"3": 13.0,
+"3": 12.5,
 "4": 21.0
 }
 },
@@ -2206,7 +2411,7 @@
 "lado": "visitante",
 "stat": "remates",
 "escalera": {
-"1": 2.2,
+"1": 2.18,
 "2": 7.1,
 "3": 17.0
 }
@@ -2251,8 +2456,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"1": 1.83,
-"2": 4.9,
+"1": 1.82,
+"2": 4.85,
 "3": 12.5,
 "4": 21.0
 }
@@ -2297,8 +2502,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"1": 1.83,
-"2": 4.9,
+"1": 1.82,
+"2": 4.85,
 "3": 12.5,
 "4": 21.0
 }
@@ -2346,8 +2551,8 @@
 "escalera": {
 "1": 1.47,
 "2": 3.1,
-"3": 7.5,
-"4": 15.5,
+"3": 7.4,
+"4": 15.0,
 "5": 22.0
 }
 },
@@ -2394,8 +2599,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"1": 1.83,
-"2": 4.9,
+"1": 1.82,
+"2": 4.85,
 "3": 12.5,
 "4": 21.0
 }
@@ -2441,9 +2646,9 @@
 "stat": "remates",
 "escalera": {
 "1": 1.5,
-"2": 3.25,
+"2": 3.2,
 "3": 7.8,
-"4": 16.0,
+"4": 15.5,
 "5": 22.0
 }
 },
@@ -2487,7 +2692,7 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"1": 1.38,
+"1": 1.37,
 "2": 2.62,
 "3": 5.9,
 "4": 12.5,
@@ -2537,7 +2742,7 @@
 "escalera": {
 "1": 1.95,
 "2": 5.6,
-"3": 14.5,
+"3": 14.0,
 "4": 22.0
 }
 },
@@ -2555,13 +2760,13 @@
 "jugador": "Dante Polvara",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 12.0
+"cuota": 13.5
 },
 {
 "jugador": "Dante Polvara",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 8.5
+"cuota": 9.0
 },
 {
 "jugador": "Dante Polvara",
@@ -2584,7 +2789,7 @@
 "escalera": {
 "1": 1.72,
 "2": 4.25,
-"3": 11.0,
+"3": 10.75,
 "4": 19.5
 }
 },
@@ -2602,13 +2807,13 @@
 "jugador": "Jaziel Orozco",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 12.0
+"cuota": 13.5
 },
 {
 "jugador": "Jaziel Orozco",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 10.5
+"cuota": 11.25
 },
 {
 "jugador": "Jaziel Orozco",
@@ -2622,8 +2827,8 @@
 "stat": "remates",
 "escalera": {
 "1": 2.3,
-"2": 7.9,
-"3": 18.5
+"2": 7.8,
+"3": 18.0
 }
 },
 {
@@ -2666,8 +2871,8 @@
 "lado": "local",
 "stat": "remates",
 "escalera": {
-"1": 1.83,
-"2": 4.9,
+"1": 1.82,
+"2": 4.85,
 "3": 12.5,
 "4": 21.0
 }
@@ -2685,13 +2890,13 @@
 "jugador": "Timo Baumgartl",
 "lado": "visitante",
 "stat": "anota",
-"cuota": 17.0
+"cuota": 18.5
 },
 {
 "jugador": "Timo Baumgartl",
 "lado": "visitante",
 "stat": "anota_o_asiste",
-"cuota": 14.0
+"cuota": 14.5
 },
 {
 "jugador": "Timo Baumgartl",
@@ -2705,8 +2910,8 @@
 "stat": "remates",
 "escalera": {
 "1": 2.3,
-"2": 7.9,
-"3": 18.5
+"2": 7.8,
+"3": 18.0
 }
 },
 {
@@ -11518,5 +11723,5 @@
 "faltan": []
 },
 "estadio": "BMO Stadium",
-"cuotas_leidas": "Cuotas de Betano leídas 2026-11-27T23:49:34.711Z · 385 mercados"
+"cuotas_leidas": "Cuotas de Betano leídas 2026-11-28T06:17:49.308Z · 385 mercados"
 }

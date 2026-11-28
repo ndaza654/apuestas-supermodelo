@@ -1,5 +1,5 @@
 # Ficha — Cercle Brugge KSV - KV Mechelen
-Bélgica 1A Pro League · 2026-11-28 12:15 · cuotas leídas: Cuotas de Betano leídas 2026-11-27T23:51:06.162Z · 365 mercados
+Bélgica 1A Pro League · 2026-11-28 12:15 · cuotas leídas: Cuotas de Betano leídas 2026-11-28T06:15:59.230Z · 365 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -45,16 +45,16 @@ Muestra: local 10, visitante 10, directos 6. Esperado: local 5.1, visitante 5.45
 | 8.5 | @1.36 · col +2.0 · L 5 de 10 · V 8 de 10 · D 5 de 6 | @3.0 · col -2.0 · L 5 de 10 · V 2 de 10 · D 1 de 6 |
 | 9.0 | @1.6 · col +1.6 · L 5 de 10 · V 8 de 10 · D 5 de 6 | @3.0 · col -1.6 · L 5 de 10 · V 2 de 10 · D 1 de 6 |
 | 9.5 | @1.6 · col +1.1 · L 5 de 10 · V 8 de 10 · D 5 de 6 | @2.25 · col -1.1 · L 5 de 10 · V 2 de 10 · D 1 de 6 |
-| 10.0 | @2.0 · col +0.6 · L 4 de 10 · V 6 de 10 · D 5 de 6 | @2.25 · col -0.6 · L 5 de 10 · V 2 de 10 · D 1 de 6 |
-| 10.5 | @2.0 · col +0.1 · L 4 de 10 · V 6 de 10 · D 5 de 6 | @1.75 · col -0.1 · L 6 de 10 · V 4 de 10 · D 1 de 6 |
+| 10.0 | @2.02 · col +0.6 · L 4 de 10 · V 6 de 10 · D 5 de 6 | @2.25 · col -0.6 · L 5 de 10 · V 2 de 10 · D 1 de 6 |
+| 10.5 | @2.02 · col +0.1 · L 4 de 10 · V 6 de 10 · D 5 de 6 | @1.75 · col -0.1 · L 6 de 10 · V 4 de 10 · D 1 de 6 |
 | 11.0 | @2.65 · col -0.5 · L 3 de 10 · V 3 de 10 · D 3 de 6 | @1.75 · col +0.5 · L 6 de 10 · V 4 de 10 · D 1 de 6 |
 | 11.5 | @2.65 · col -0.9 · L 3 de 10 · V 3 de 10 · D 3 de 6 | @1.45 · col +0.9 · L 7 de 10 · V 7 de 10 · D 3 de 6 ✓ |
 | 12.0 | @3.55 · col -1.4 · L 3 de 10 · V 2 de 10 · D 3 de 6 | @1.45 · col +1.4 · L 7 de 10 · V 7 de 10 · D 3 de 6 ✓ |
 | 12.5 | @3.55 · col -1.9 · L 3 de 10 · V 2 de 10 · D 3 de 6 | @1.27 · col +1.9 · L 7 de 10 · V 8 de 10 · D 3 de 6 ✓ |
 | 13.0 | @4.85 · col -2.5 · L 1 de 10 · V 2 de 10 · D 2 de 6 | @1.27 · col +2.5 · L 7 de 10 · V 8 de 10 · D 3 de 6 ✓ |
 | 13.5 | @4.85 · col -3.0 · L 1 de 10 · V 2 de 10 · D 2 de 6 | @1.16 · col +3.0 · L 9 de 10 · V 8 de 10 · D 4 de 6 ✓ |
-| 14.0 | @6.5 · col -3.5 · L 0 de 10 · V 2 de 10 · D 1 de 6 | @1.16 · col +3.5 · L 9 de 10 · V 8 de 10 · D 4 de 6 ✓ |
-| 14.5 | @6.5 · col -4.0 · L 0 de 10 · V 2 de 10 · D 1 de 6 | @1.09 · col +4.0 · L 10 de 10 · V 8 de 10 · D 5 de 6 ✓ |
+| 14.0 | @6.6 · col -3.5 · L 0 de 10 · V 2 de 10 · D 1 de 6 | @1.16 · col +3.5 · L 9 de 10 · V 8 de 10 · D 4 de 6 ✓ |
+| 14.5 | @6.6 · col -4.0 · L 0 de 10 · V 2 de 10 · D 1 de 6 | @1.09 · col +4.0 · L 10 de 10 · V 8 de 10 · D 5 de 6 ✓ |
 | 15.0 | @8.5 · col -4.5 · L 0 de 10 · V 1 de 10 · D 0 de 6 | @1.09 · col +4.5 · L 10 de 10 · V 8 de 10 · D 5 de 6 ✓ |
 | 15.5 | @8.5 · col -5.0 · L 0 de 10 · V 1 de 10 · D 0 de 6 | @1.05 · col +5.0 · L 10 de 10 · V 9 de 10 · D 6 de 6 ✓ |
 | 16.0 | @10.75 · col -5.5 · L 0 de 10 · V 1 de 10 · D 0 de 6 | @1.05 · col +5.5 · L 10 de 10 · V 9 de 10 · D 6 de 6 ✓ |
@@ -64,10 +64,10 @@ Muestra: local 10, visitante 10, directos 6. Esperado: local 5.1, visitante 5.45
 | Línea | Más | Menos |
 |---|---|---|
 | 2.5 | @1.07 · col +2.6 · L 6 de 10 · V 8 de 10 · D 6 de 6 | — |
-| 3.5 | @1.19 · col +1.6 · L 6 de 10 · V 7 de 10 · D 5 de 6 | — |
+| 3.5 | @1.2 · col +1.6 · L 6 de 10 · V 7 de 10 · D 5 de 6 | — |
 | 4.5 | @1.44 · col +0.6 · L 5 de 10 · V 7 de 10 · D 4 de 6 | — |
-| 5.5 | @1.85 · col -0.4 · L 4 de 10 · V 5 de 10 · D 4 de 6 | — |
-| 6.5 | @2.6 · col -1.4 · L 4 de 10 · V 3 de 10 · D 3 de 6 | — |
+| 5.5 | @1.87 · col -0.4 · L 4 de 10 · V 5 de 10 · D 4 de 6 | — |
+| 6.5 | @2.62 · col -1.4 · L 4 de 10 · V 3 de 10 · D 3 de 6 | — |
 | 7.5 | @3.85 · col -2.4 · L 3 de 10 · V 2 de 10 · D 0 de 6 | — |
 | 8.5 | @5.6 · col -3.4 · L 2 de 10 · V 0 de 10 · D 0 de 6 | — |
 
@@ -79,7 +79,7 @@ Muestra: local 10, visitante 10, directos 6. Esperado: local 5.1, visitante 5.45
 | 2.5 | @1.16 · col +3.0 · L 8 de 10 · V 9 de 10 · D 5 de 6 ✓ | — |
 | 3.5 | @1.4 · col +1.9 · L 7 de 10 · V 8 de 10 · D 5 de 6 ✓ | — |
 | 4.5 | @1.88 · col +0.9 · L 3 de 10 · V 7 de 10 · D 4 de 6 | — |
-| 5.5 | @2.7 · col -0.1 · L 2 de 10 · V 5 de 10 · D 4 de 6 | — |
+| 5.5 | @2.72 · col -0.1 · L 2 de 10 · V 5 de 10 · D 4 de 6 | — |
 | 6.5 | @4.15 · col -1.1 · L 1 de 10 · V 3 de 10 · D 3 de 6 | — |
 | 7.5 | @6.5 · col -2.0 · L 1 de 10 · V 2 de 10 · D 2 de 6 | — |
 
@@ -191,32 +191,32 @@ Muestra: local 10, visitante 10, directos 6. Esperado: local 1.55, visitante 1.6
 |---|---|---|
 | 0.5 | @1.05 · col +2.7 · L 10 de 10 · V 9 de 10 · D 5 de 6 ✓ | @10.5 · col -2.7 · L 0 de 10 · V 1 de 10 · D 1 de 6 |
 | 1.5 | @1.23 · col +1.7 · L 7 de 10 · V 7 de 10 · D 4 de 6 ✓ | @4.2 · col -1.7 · L 3 de 10 · V 3 de 10 · D 2 de 6 |
-| 2.25 | @1.53 · col +0.9 · L 6 de 10 · V 6 de 10 · D 2 de 6 | @2.6 · col -0.9 · L 3 de 10 · V 3 de 10 · D 2 de 6 |
+| 2.25 | @1.52 · col +0.9 · L 6 de 10 · V 6 de 10 · D 2 de 6 | @2.6 · col -0.9 · L 3 de 10 · V 3 de 10 · D 2 de 6 |
 | 2.5 | @1.7 · col +0.7 · L 6 de 10 · V 6 de 10 · D 2 de 6 | @2.18 · col -0.7 · L 4 de 10 · V 4 de 10 · D 4 de 6 |
-| 2.75 | @1.88 · col +0.5 · L 2 de 10 · V 6 de 10 · D 2 de 6 | @1.95 · col -0.5 · L 4 de 10 · V 4 de 10 · D 4 de 6 |
-| 3.0 | @2.18 · col +0.2 · L 2 de 10 · V 6 de 10 · D 2 de 6 | @1.72 · col -0.2 · L 4 de 10 · V 4 de 10 · D 4 de 6 |
-| 3.25 | @2.47 · col -0.1 · L 2 de 10 · V 6 de 10 · D 2 de 6 | @1.57 · col +0.1 · L 4 de 10 · V 4 de 10 · D 4 de 6 |
+| 2.75 | @1.88 · col +0.5 · L 2 de 10 · V 6 de 10 · D 2 de 6 | @1.98 · col -0.5 · L 4 de 10 · V 4 de 10 · D 4 de 6 |
+| 3.0 | @2.15 · col +0.2 · L 2 de 10 · V 6 de 10 · D 2 de 6 | @1.75 · col -0.2 · L 4 de 10 · V 4 de 10 · D 4 de 6 |
+| 3.25 | @2.42 · col -0.1 · L 2 de 10 · V 6 de 10 · D 2 de 6 | @1.6 · col +0.1 · L 4 de 10 · V 4 de 10 · D 4 de 6 |
 | 3.5 | @2.67 · col -0.3 · L 2 de 10 · V 6 de 10 · D 2 de 6 | @1.47 · col +0.3 · L 8 de 10 · V 4 de 10 · D 4 de 6 |
 | 3.75 | @3.25 · col -0.6 · L 2 de 10 · V 3 de 10 · D 2 de 6 | @1.37 · col +0.6 · L 8 de 10 · V 4 de 10 · D 4 de 6 |
-| 4.5 | @4.75 · col -1.3 · L 2 de 10 · V 3 de 10 · D 2 de 6 | @1.19 · col +1.3 · L 8 de 10 · V 7 de 10 · D 4 de 6 ✓ |
+| 4.5 | @4.7 · col -1.3 · L 2 de 10 · V 3 de 10 · D 2 de 6 | @1.19 · col +1.3 · L 8 de 10 · V 7 de 10 · D 4 de 6 ✓ |
 | 5.5 | @8.5 · col -2.3 · L 1 de 10 · V 3 de 10 · D 0 de 6 | @1.07 · col +2.3 · L 9 de 10 · V 7 de 10 · D 6 de 6 ✓ |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.17 · col +1.1 · L 8 de 10 · V 8 de 10 · D 4 de 6 ✓ | @4.65 · col -1.1 · L 2 de 10 · V 2 de 10 · D 2 de 6 |
+| 0.5 | @1.17 · col +1.1 · L 8 de 10 · V 8 de 10 · D 4 de 6 ✓ | @4.55 · col -1.1 · L 2 de 10 · V 2 de 10 · D 2 de 6 |
 | 1.5 | @1.8 · col +0.1 · L 4 de 10 · V 5 de 10 · D 3 de 6 | @1.95 · col -0.1 · L 6 de 10 · V 5 de 10 · D 3 de 6 |
-| 2.5 | @3.4 · col -0.9 · L 0 de 10 · V 3 de 10 · D 0 de 6 | @1.29 · col +0.9 · L 10 de 10 · V 7 de 10 · D 6 de 6 ✓ |
-| 3.5 | @6.8 · col -1.9 · L 0 de 10 · V 2 de 10 · D 0 de 6 | @1.08 · col +1.9 · L 10 de 10 · V 8 de 10 · D 6 de 6 ✓ |
+| 2.5 | @3.35 · col -0.9 · L 0 de 10 · V 3 de 10 · D 0 de 6 | @1.29 · col +0.9 · L 10 de 10 · V 7 de 10 · D 6 de 6 ✓ |
+| 3.5 | @6.7 · col -1.9 · L 0 de 10 · V 2 de 10 · D 0 de 6 | @1.09 · col +1.9 · L 10 de 10 · V 8 de 10 · D 6 de 6 ✓ |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 0.5 | @1.36 · col +1.1 · L 8 de 10 · V 6 de 10 · D 3 de 6 | @3.0 · col -1.1 · L 2 de 10 · V 4 de 10 · D 3 de 6 |
+| 0.5 | @1.35 · col +1.1 · L 8 de 10 · V 6 de 10 · D 3 de 6 | @3.0 · col -1.1 · L 2 de 10 · V 4 de 10 · D 3 de 6 |
 | 1.5 | @2.6 · col +0.1 · L 4 de 10 · V 4 de 10 · D 3 de 6 | @1.45 · col -0.1 · L 6 de 10 · V 6 de 10 · D 3 de 6 |
-| 2.5 | @5.8 · col -0.8 · L 3 de 10 · V 3 de 10 · D 2 de 6 | @1.11 · col +0.8 · L 7 de 10 · V 7 de 10 · D 4 de 6 ✓ |
+| 2.5 | @5.9 · col -0.8 · L 3 de 10 · V 3 de 10 · D 2 de 6 | @1.11 · col +0.8 · L 7 de 10 · V 7 de 10 · D 4 de 6 ✓ |
 
 ### Tarjetas (solo amarillas)
 _Betano cuenta en puntos (amarilla 1, roja 2); Flashscore solo trae amarillas, así que la serie queda POR DEBAJO si hubo rojas. Tómalo con cuidado en líneas ajustadas._

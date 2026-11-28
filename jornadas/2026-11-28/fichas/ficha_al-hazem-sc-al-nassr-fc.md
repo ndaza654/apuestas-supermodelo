@@ -1,5 +1,5 @@
 # Ficha — Al-Hazem SC - Al-Nassr FC
-Arabia Saudita Professional League · 2026-11-28 07:15 · cuotas leídas: Cuotas de Betano leídas 2026-11-27T23:49:46.579Z · 376 mercados
+Arabia Saudita Professional League · 2026-11-28 07:15 · cuotas leídas: Cuotas de Betano leídas 2026-11-28T06:14:44.684Z · 376 mercados
 
 Reglas: muestra = últimos 10 de cada equipo (cualquier sede) + hasta 6 directos; cumple = 7 de 10 (n mínimo 7); colchón = informativo: esperado − línea.
 Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en los últimos partidos del local/visitante; «D» = directos; ✓ = cumple en ambos.
@@ -34,7 +34,6 @@ Lectura: «col» = colchón; «L»/«V» = veces que se cumplió la línea en lo
 | Remates | visitante | Menos 18.5 | 2.35 | +3.5 | 7 de 10 | 9 de 10 |
 | Remates | visitante | Menos 17.5 | 2.9 | +2.5 | 7 de 10 | 9 de 10 |
 | Remates | visitante | Menos 16.5 | 3.7 | +1.5 | 7 de 10 | 7 de 10 |
-| Tarjetas | total | Más 2.5 | 1.32 | +2.0 | 9 de 10 | 7 de 10 |
 | Tiros al arco | local | Más 1.5 | 1.24 | +2.2 | 10 de 10 | 8 de 10 |
 | Tiros al arco | total | Menos 12.5 | 1.26 | +3.6 | 10 de 10 | 8 de 10 |
 | Tiros al arco | total | Menos 11.5 | 1.44 | +2.6 | 9 de 10 | 8 de 10 |
@@ -231,7 +230,7 @@ Muestra: local 10, visitante 10, directos 6. Esperado: local 1.4, visitante 2.15
 | Línea | Más | Menos |
 |---|---|---|
 | 0.5 | @1.04 · col +1.6 · L 8 de 10 · V 9 de 10 · D 6 de 6 ✓ | @9.0 · col -1.6 · L 2 de 10 · V 1 de 10 · D 0 de 6 |
-| 1.5 | @1.24 · col +0.7 · L 5 de 10 · V 6 de 10 · D 6 de 6 | @3.8 · col -0.7 · L 5 de 10 · V 4 de 10 · D 0 de 6 |
+| 1.5 | @1.24 · col +0.7 · L 5 de 10 · V 6 de 10 · D 6 de 6 | @3.85 · col -0.7 · L 5 de 10 · V 4 de 10 · D 0 de 6 |
 | 2.5 | @1.72 · col -0.3 · L 4 de 10 · V 5 de 10 · D 4 de 6 | @2.05 · col +0.3 · L 6 de 10 · V 5 de 10 · D 2 de 6 |
 | 3.5 | @2.72 · col -1.4 · L 1 de 10 · V 2 de 10 · D 4 de 6 | @1.42 · col +1.4 · L 9 de 10 · V 8 de 10 · D 2 de 6 ✓ |
 | 4.5 | @4.7 · col -2.4 · L 0 de 10 · V 2 de 10 · D 1 de 6 | @1.17 · col +2.4 · L 10 de 10 · V 8 de 10 · D 5 de 6 ✓ |
@@ -245,21 +244,21 @@ Muestra: local 10, visitante 10, directos 6. Esperado: local 2.75, visitante 1.8
 
 | Línea | Más | Menos |
 |---|---|---|
-| 2.5 | @1.32 · col +2.0 · L 9 de 10 · V 7 de 10 · D 5 de 6 ✓ | @3.2 · col -2.0 · L 1 de 10 · V 3 de 10 · D 1 de 6 |
-| 3.5 | @1.7 · col +1.1 · L 4 de 10 · V 6 de 10 · D 5 de 6 | @2.07 · col -1.1 · L 6 de 10 · V 4 de 10 · D 1 de 6 |
-| 4.5 | @2.37 · col +0.1 · L 4 de 10 · V 6 de 10 · D 4 de 6 | @1.55 · col -0.1 · L 6 de 10 · V 4 de 10 · D 2 de 6 |
+| 3.5 | @1.62 · col +1.1 · L 4 de 10 · V 6 de 10 · D 5 de 6 | @2.2 · col -1.1 · L 6 de 10 · V 4 de 10 · D 1 de 6 |
+| 4.5 | @2.25 · col +0.1 · L 4 de 10 · V 6 de 10 · D 4 de 6 | @1.6 · col -0.1 · L 6 de 10 · V 4 de 10 · D 2 de 6 |
+| 5.5 | @3.25 · col -0.9 · L 3 de 10 · V 5 de 10 · D 1 de 6 | @1.31 · col +0.9 · L 7 de 10 · V 5 de 10 · D 5 de 6 |
 
 **local**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.52 · col +1.2 · L 6 de 10 · V 8 de 10 · D 5 de 6 | @2.45 · col -1.2 · L 4 de 10 · V 2 de 10 · D 1 de 6 |
+| 2.5 | @2.2 · col +0.2 · L 4 de 10 · V 6 de 10 · D 4 de 6 | @1.62 · col -0.2 · L 6 de 10 · V 4 de 10 · D 2 de 6 |
 
 **visitante**
 
 | Línea | Más | Menos |
 |---|---|---|
-| 1.5 | @1.65 · col +0.3 · L 5 de 10 · V 6 de 10 · D 2 de 6 | @2.15 · col -0.3 · L 5 de 10 · V 4 de 10 · D 4 de 6 |
+| 1.5 | @1.7 · col +0.3 · L 5 de 10 · V 6 de 10 · D 2 de 6 | @2.07 · col -0.3 · L 5 de 10 · V 4 de 10 · D 4 de 6 |
 
 ## Ambos marcan y resultado (1X2 / doble oportunidad)
 
