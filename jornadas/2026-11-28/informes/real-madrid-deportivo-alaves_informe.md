@@ -1,0 +1,151 @@
+# Real Madrid - Deportivo Alavés
+España LaLiga · 2026-11-28 15:00
+
+**Tipo de partido:** Favorito claro · abierto · normal · **Favorito:** Real Madrid · primer gol: local 84 %, visitante 13 %, nadie 2 % · gol del favorito antes del 35′: 64 %
+
+**Base de la liga:** España LaLiga · 2.62 goles/partido, Más 2.5 48 %, ambos marcan 53 % · córners 9.5 · tarjetas (amarilla 1, roja 2) 5.2 (1551 partidos ago-2022/nov-2026)
+
+## Enfoque de mercados (qué mercados le quedan bien al contexto)
+Enfoque: mirar primero Goles del partido (Más), Hándicap y victoria de Real Madrid, Goles de Real Madrid (Más), Remates / tiros al arco de Real Madrid, Córners de Real Madrid (Más) / Más córners: Real Madrid. Poco favorecidos: Ambos marcan.
+
+| Mercado | Encaje | Por qué |
+|---|---|---|
+| Goles del partido (Más) | ✅ favorece | el modelo espera un partido de muchos goles |
+| Hándicap y victoria de Real Madrid | ✅ favorece | favorito claro: manda en el marcador y en el territorio |
+| Goles de Real Madrid (Más) | ✅ favorece | favorito claro contra rival que sufre |
+| Remates / tiros al arco de Real Madrid | ✅ favorece | el que domina remata más |
+| Córners de Real Madrid (Más) / Más córners: Real Madrid | ✅ favorece | Real Madrid empuja más y el rival se encierra o cede territorio |
+| Córners totales | ➖ neutro | si el favorito marca pronto, sus córners se apagan; si el rival forzara, suben |
+| Tarjetas y faltas | ➖ neutro | los dos se juegan algo importante; favorito claro: poca fricción y, si hay goleada, menos tarjetas |
+| Líneas de jugador | ➖ neutro | se pueden mirar con la alineación de la ficha |
+| Ambos marcan | ⛔ en contra | Deportivo Alavés marca poco en este partido |
+
+Es una hipótesis para decidir dónde analizar a fondo; no cambia probabilidades. Si el número dice otra cosa, manda el número.
+
+## Guiones del partido (solo para medir qué línea aguanta; el enfoque de arriba es lo que orienta)
+| Guion | Probabilidad |
+|---|---|
+| Partido abierto (ambos marcan y 3+ goles) | 34 % |
+| Favorito golpea temprano y gana | 33 % |
+| Favorito gana en partido trabado | 14 % |
+| Expulsión antes del 70′ | 11 % |
+| Empate | 6 % |
+| Sorpresa: gana el no favorito | 3 % |
+
+## Lo que cambió el contexto
+- Importancia alta: más tensión (tarjetas ×1,10) y algo menos de gol (×0,95).
+- Árbitro Soto Grado C.: 4.6 tarjetas/partido contra 5.18 de la liga (prior de la liga (España LaLiga)) en 115 partidos → tarjetas ×0.95 (encogido por muestra).
+- Cada efecto se aplica solo en la parte que se supone que Betano todavía no puso en el precio (config.FUERZA_CONTEXTO). Hechos frescos que van completos: ninguno.
+
+## Medias esperadas (con contexto)
+| | Goles | Remates | Al arco | Córners | Faltas | Tarjetas |
+|---|---|---|---|---|---|---|
+| local | 3.11 | 20.8 | 7.9 | 6.9 | 10.0 | 1.7 |
+| visitante | 0.60 | 9.4 | 2.9 | 3.3 | 13.1 | 2.7 |
+
+## Media esperada por mercado (modelo con contexto; entre paréntesis lo que espera Betano; rango del 80 % de los partidos simulados)
+| Mercado | Total | Local | Visitante | 1.er tiempo | 2.º tiempo |
+|---|---|---|---|---|---|
+| Goles | 3.7 (3.8) · 1–6 | 3.1 (3.2) · 1–5 | 0.6 (0.6) · 0–2 | 1.7 (1.7) · 0–3 | 1.9 (2.2) · 0–4 |
+| Córners | 10.3 (10.2) · 6–15 | 7.0 (6.9) · 3–11 | 3.4 (3.3) · 1–6 | 4.8 (5.1) · 2–8 | 5.5 (5.2) · 3–9 |
+| Tarjetas (amarilla 1, roja 2) | 4.5 (4.4) · 2–8 | 1.7 (1.7) · 0–4 | 2.7 (2.7) · 1–5 | 1.6 (1.5) · 0–3 | 2.8 · 1–5 |
+| Remates | 30.2 (30.1) · 22–39 | 20.8 (20.8) · 14–29 | 9.5 (9.4) · 5–14 | 14.1 · 9–19 | 16.2 · 11–22 |
+| Tiros al arco | 10.8 (10.8) · 7–15 | 7.9 (7.9) · 4–12 | 2.9 (2.9) · 1–5 | 5.0 (5.0) · 2–8 | 5.8 · 3–9 |
+| Faltas | 23.1 (22.5) · 17–29 | 10.0 (9.8) · 6–14 | 13.1 (12.8) · 8–18 | 10.4 · 6–15 | 12.7 · 8–17 |
+| Fueras de lugar | 3.9 (3.9) · 1–7 | 1.9 (1.9) · 0–4 | 1.9 (1.9) · 0–4 | 1.7 (2.0) · 0–4 | 2.1 · 0–4 |
+| Saques de meta | 16.0 · 10–23 | 8.0 · 4–13 | 8.0 · 4–13 | 7.2 · 3–11 | 8.8 · 5–13 |
+| Saques de banda | 39.9 · 29–52 | 19.8 · 12–28 | 20.1 · 13–28 | 17.8 · 11–25 | 22.1 · 15–30 |
+| Atajadas del portero | — | 2.3 · 0–5 | 4.8 · 2–8 | — | — |
+
+## Lectura por mercado (la línea que mejor encaja con este partido en cada mercado)
+| Mercado | Línea | Cuota | Prob. | Robustez | Brilla si… | La mata si… | Etiqueta |
+|---|---|---|---|---|---|---|---|
+| Goles | Goles 1.er tiempo Menos 2.5 | 1.27 | 77 % | (lo define el marcador) | Empate (100 %) | Partido abierto (ambos marcan y 3+ goles) (61 %) | Alta probabilidad |
+| Ambos marcan | Ambos marcan: No | 1.70 | 56 % | (lo define el marcador) | Favorito golpea temprano y gana (100 %) | Partido abierto (ambos marcan y 3+ goles) (0 %) | Cara |
+| Resultado y hándicap | Hándicap Deportivo Alavés +4 | 1.37 | 74 % | (lo define el marcador) | Sorpresa: gana el no favorito (100 %) | Favorito golpea temprano y gana (56 %) | Alta probabilidad · ★ enfoque a favor |
+| Córners | Córners 1.er tiempo Menos 7.0 | 1.27 | 83 % | 74 % | Favorito golpea temprano y gana (78 %) | Favorito gana en partido trabado (74 %) | Alta probabilidad · Valor · asiática: devuelve 9 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Tarjetas | Tarjetas 1.er tiempo Más 0.5 | 1.28 | 77 % | 75 % | Expulsión antes del 70′ (92 %) | Sorpresa: gana el no favorito (74 %) | Alta probabilidad |
+| Faltas | Faltas Real Madrid Más 9.5 | 1.83 | 54 % | 54 % | Empate (57 %) | Sorpresa: gana el no favorito (50 %) | Justa |
+| Remates | Remates Deportivo Alavés Menos 11.5 | 1.27 | 75 % | 67 % | Favorito gana en partido trabado (83 %) | Partido abierto (ambos marcan y 3+ goles) (67 %) | Alta probabilidad |
+| Tiros al arco | Tiros al arco Real Madrid Menos 9.5 | 1.32 | 72 % | 68 % | Empate (94 %) | Favorito golpea temprano y gana (68 %) | Alta probabilidad |
+| Fueras de lugar | Fueras de lugar Más 2.5 | 1.33 | 72 % | 71 % | Sorpresa: gana el no favorito (74 %) | Partido abierto (ambos marcan y 3+ goles) (71 %) | Alta probabilidad |
+| Jugadores | Antonio Sivera atajadas 6+ | 2.85 | 34 % | 34 % | Favorito gana en partido trabado (36 %) | Empate (32 %) | Justa |
+
+Si el guion que la mata es justo el que tu lectura del partido ve probable, esa línea no va, aunque el número sea alto.
+
+## Alta probabilidad y robustas (aguantan en los guiones principales)
+| Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Córners 1.er tiempo Menos 7.0 | 1.27 | 83 % | 81 % | 83 % | -0 pts | +6 % | 74 % | +0.9 | 1.24 | Favorito gana en partido trabado | Alta probabilidad · Valor · asiática: devuelve 9 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners 1.er tiempo Más 3.0 | 1.30 | 81 % | 81 % | 81 % | +1 pts | +6 % | 68 % | +0.8 | 1.27 | Empate | Alta probabilidad · Valor · asiática: devuelve 15 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Tarjetas Más 2.5 | 1.25 | 79 % | 78 % | 78 % | +1 pts | -2 % | 70 % | +0.8 | 1.31 | Favorito golpea temprano y gana | Alta probabilidad |
+| Córners 2.º tiempo Más 3.5 | 1.27 | 78 % | 76 % | 77 % | +1 pts | -1 % | 75 % | +0.8 | 1.32 | Favorito golpea temprano y gana | Alta probabilidad |
+| Ambos 1+ tarjetas: Sí | 1.27 | 78 % | 76 % | 77 % | +1 pts | -1 % | 73 % | — | 1.32 | Favorito golpea temprano y gana | Alta probabilidad |
+| Tarjetas 1.er tiempo Más 0.5 | 1.28 | 77 % | 76 % | 77 % | -0 pts | -1 % | 75 % | +0.8 | 1.33 | Sorpresa: gana el no favorito | Alta probabilidad |
+| Córners 1.er tiempo Menos 6.5 | 1.27 | 77 % | 76 % | 77 % | -0 pts | -2 % | 75 % | +0.7 | 1.34 | Favorito gana en partido trabado | Alta probabilidad |
+| Goles 1.er tiempo Menos 2.5 | 1.27 | 77 % | 77 % | 75 % | +2 pts | -2 % | 77 % | +0.6 | 1.34 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Tarjetas Deportivo Alavés Más 1.5 | 1.29 | 76 % | 75 % | 75 % | +0 pts | -2 % | 68 % | +0.8 | 1.36 | Favorito golpea temprano y gana | Alta probabilidad |
+| Córners Más 8.0 | 1.39 | 75 % | 74 % | 74 % | +1 pts | +5 % | 64 % | +0.7 | 1.37 | Favorito golpea temprano y gana | Alta probabilidad · Valor · asiática: devuelve 10 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners Deportivo Alavés Menos 4.5 | 1.27 | 75 % | 76 % | 75 % | -0 pts | -5 % | 73 % | +0.6 | 1.37 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Remates Deportivo Alavés Menos 11.5 | 1.27 | 75 % | 76 % | 75 % | -0 pts | -5 % | 67 % | +0.6 | 1.38 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+| Tarjetas Real Madrid Menos 2.5 | 1.27 | 75 % | 76 % | 77 % | -2 pts | -5 % | 76 % | +0.6 | 1.38 | Expulsión antes del 70′ | Alta probabilidad · cuota por debajo de la justa |
+| Tiros al arco Más 8.5 | 1.30 | 75 % | 74 % | 74 % | +1 pts | -3 % | 61 % | +0.7 | 1.38 | Empate | Alta probabilidad |
+| Hándicap Deportivo Alavés +4 | 1.37 | 74 % | 71 % | 71 % | +2 pts | +1 % | 74 % | — | 1.40 | Favorito golpea temprano y gana | Alta probabilidad · ★ enfoque a favor |
+| Goles 1.er tiempo Más 1.0 | 1.34 | 73 % | 73 % | 75 % | -2 pts | -2 % | 73 % | +0.6 | 1.41 | Favorito gana en partido trabado | Alta probabilidad · asiática: devuelve 31 % · ★ enfoque a favor |
+| Córners Real Madrid Menos 8.5 | 1.29 | 72 % | 75 % | 74 % | -2 pts | -7 % | 68 % | +0.5 | 1.42 | Sorpresa: gana el no favorito | Alta probabilidad · cuota por debajo de la justa |
+| Remates Menos 33.5 | 1.30 | 72 % | 74 % | 73 % | -0 pts | -6 % | 63 % | +0.5 | 1.42 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · cuota por debajo de la justa |
+| Córners 1.er tiempo Más 3.5 | 1.30 | 72 % | 74 % | 71 % | +1 pts | -6 % | 71 % | +0.6 | 1.42 | Empate | Alta probabilidad · cuota por debajo de la justa |
+| Tiros al arco Real Madrid Menos 9.5 | 1.32 | 72 % | 73 % | 73 % | -0 pts | -5 % | 68 % | +0.5 | 1.43 | Favorito golpea temprano y gana | Alta probabilidad |
+| Córners Menos 12.0 | 1.42 | 72 % | 73 % | 73 % | -1 pts | +3 % | 63 % | +0.5 | 1.43 | Sorpresa: gana el no favorito | Alta probabilidad · asiática: devuelve 10 % |
+| Remates Real Madrid Menos 23.5 | 1.30 | 72 % | 74 % | 72 % | -0 pts | -6 % | 68 % | +0.5 | 1.43 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · cuota por debajo de la justa |
+| Remates Real Madrid Más 17.5 | 1.29 | 72 % | 75 % | 72 % | -0 pts | -7 % | 70 % | +0.6 | 1.43 | Empate | Alta probabilidad · cuota por debajo de la justa · ★ enfoque a favor |
+| Remates Más 26.5 | 1.32 | 72 % | 73 % | 72 % | -0 pts | -5 % | 67 % | +0.6 | 1.43 | Empate | Alta probabilidad |
+| Fueras de lugar Más 2.5 | 1.33 | 72 % | 72 % | 72 % | +0 pts | -4 % | 71 % | +0.6 | 1.43 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad |
+
+## Donde el contexto mueve la línea a tu favor
+| Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Faltas Más 22.5 | 1.93 | 53 % | 48 % | 49 % | +5 pts | +3 % | 51 % | +0.1 | 1.95 | Favorito golpea temprano y gana | Contexto a favor (+5 pts) |
+
+## Con valor según el modelo
+| Selección | Cuota | Prob. | Mercado | Sin contexto | Movimiento | EV | Robustez | Colchón | Cuota mínima | Peor guion | Etiqueta |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Córners 1.er tiempo Menos 5.0 | 2.10 | 54 % | 52 % | 54 % | -1 pts | +13 % | 44 % | +0.1 | 1.93 | Partido abierto (ambos marcan y 3+ goles) | Valor · asiática: devuelve 16 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners 1.er tiempo Menos 4.0 | 3.30 | 34 % | 33 % | 35 % | -1 pts | +12 % | 27 % | -0.3 | 3.12 | Partido abierto (ambos marcan y 3+ goles) | Valor frágil (depende de un guion) · asiática: devuelve 18 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners 1.er tiempo Menos 6.0 | 1.55 | 71 % | 69 % | 71 % | -0 pts | +10 % | 61 % | +0.5 | 1.45 | Partido abierto (ambos marcan y 3+ goles) | Alta probabilidad · Valor · asiática: devuelve 13 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners 1.er tiempo Más 4.0 | 1.67 | 64 % | 65 % | 63 % | +1 pts | +7 % | 51 % | +0.3 | 1.61 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 18 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners Más 10.0 | 2.10 | 51 % | 50 % | 50 % | +1 pts | +7 % | 40 % | +0.1 | 2.05 | Favorito golpea temprano y gana | Valor · asiática: devuelve 11 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners Más 11.0 | 2.77 | 38 % | 37 % | 37 % | +1 pts | +6 % | 30 % | -0.2 | 2.75 | Favorito golpea temprano y gana | Valor frágil (depende de un guion) · asiática: devuelve 11 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners Más 9.0 | 1.67 | 64 % | 63 % | 62 % | +1 pts | +6 % | 52 % | +0.4 | 1.63 | Favorito golpea temprano y gana | Valor · asiática: devuelve 12 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners 1.er tiempo Menos 7.0 | 1.27 | 83 % | 81 % | 83 % | -0 pts | +6 % | 74 % | +0.9 | 1.24 | Favorito gana en partido trabado | Alta probabilidad · Valor · asiática: devuelve 9 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners 1.er tiempo Más 3.0 | 1.30 | 81 % | 81 % | 81 % | +1 pts | +6 % | 68 % | +0.8 | 1.27 | Empate | Alta probabilidad · Valor · asiática: devuelve 15 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners 1.er tiempo Más 5.0 | 2.35 | 45 % | 46 % | 44 % | +1 pts | +5 % | 35 % | -0.1 | 2.35 | Sorpresa: gana el no favorito | Valor · asiática: devuelve 16 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+| Córners Más 8.0 | 1.39 | 75 % | 74 % | 74 % | +1 pts | +5 % | 64 % | +0.7 | 1.37 | Favorito golpea temprano y gana | Alta probabilidad · Valor · asiática: devuelve 10 % · Liga con historial propio atípico (ESPAÑA: 9/12 contra 53 % del precio) |
+
+Kelly ¼ (dato informativo, no una orden de stake): Córners 1.er tiempo Menos 5.0 2.9 % de la banca; Córners 1.er tiempo Menos 4.0 1.4 % de la banca; Córners 1.er tiempo Menos 6.0 4.6 % de la banca; Córners 1.er tiempo Más 4.0 2.7 % de la banca; Córners Más 10.0 1.5 % de la banca; Córners Más 11.0 0.9 % de la banca; Córners Más 9.0 2.3 % de la banca; Córners 1.er tiempo Menos 7.0 5.5 % de la banca. Con muestra chica y sin hecho fresco, el EV del modelo suele ser optimista: Sharpods e Ingeniero Analista usan 0,5–3 %.
+
+## Sistemas de tipsters que este partido cumple (solo para medir, no para decidir)
+| Sistema | Regla | Selección que propone | Historial con cuotas reales |
+|---|---|---|---|
+| Ingeniero Analista #400 | local ≤1,50 y 1T Más 1.5 ≤2,15 | Goles Más 2.5 | 11239 partidos: acierto 61.3 % contra 60.7 % del precio; ROI -3.4 % ± 1.5 (con la mejor cuota -0.0 %) |
+| Ingeniero Analista #453 | local ≤1,50 y empate ≥4,10 | Goles Más 2.5 | 10604 partidos: acierto 61.9 % contra 61.4 % del precio; ROI -3.5 % ± 1.5 (con la mejor cuota -0.1 %) |
+| Ingeniero Analista #5/#14 | empate ≥3,60 (señal de goles) | Goles Más 2.5 | 42643 partidos: acierto 56.8 % contra 56.3 % del precio; ROI -4.0 % ± 0.8 (con la mejor cuota -0.4 %) |
+| Ingeniero Analista #313 | Más 2.5 ≤1,45 → gol en el 1.er tiempo | Goles 1.er tiempo Más 0.5 | sin historial con cuotas (medir en el registro) |
+
+## Builders del mismo guion
+| Patas | Prob. ajustada | Prob. simulación | Si una pata está 5 pts peor | Cuota justa | Cuota mínima en Betano | Correlación | Margen acumulado | Guion común | Robustez |
+|---|---|---|---|---|---|---|---|---|---|
+| Hándicap Deportivo Alavés +4 + Ambos 1+ tarjetas: Sí + Tarjetas Real Madrid Más 0.5 | 59 % | 61 % | 55 % | 1.69 | 1.74 | 1.26 | 9 % | Empate | 42 % |
+| Córners 2.º tiempo Más 3.5 + Ambos 1+ tarjetas: Sí + Tarjetas Real Madrid Más 0.5 | 61 % | 62 % | 57 % | 1.65 | 1.70 | 1.22 | 9 % | Empate | 54 % |
+| Goles Menos 4.5 + Hándicap Deportivo Alavés +4 | 60 % | 61 % | 56 % | 1.67 | 1.72 | 1.17 | 6 % | Empate | 46 % |
+| Goles 2.º tiempo Menos 2.5 + Córners Deportivo Alavés Menos 6.5 | 62 % | 64 % | 58 % | 1.61 | 1.66 | 1.0 | 5 % | Empate | 44 % |
+| Goles Menos 4.5 + Real Madrid o empate + Córners 1.er tiempo Menos 8.5 | 62 % | 63 % | 58 % | 1.61 | 1.66 | 1.0 | 6 % | Empate | 43 % |
+| Goles 2.º tiempo Menos 2.5 + Córners 1.er tiempo Menos 8.5 | 62 % | 65 % | 57 % | 1.61 | 1.66 | 1.0 | 5 % | Empate | 44 % |
+| Goles Deportivo Alavés Menos 1.5 + Córners Deportivo Alavés Menos 6.5 + Tarjetas Deportivo Alavés Más 1.5 | 62 % | 62 % | 58 % | 1.61 | 1.66 | 0.99 | 7 % | Empate | 50 % |
+| Córners 2.º tiempo Más 3.5 + Tarjetas Más 1.5 + Goles Deportivo Alavés Menos 1.5 | 62 % | 62 % | 58 % | 1.61 | 1.66 | 0.99 | 7 % | Empate | 52 % |
+
+Prob. ajustada: la conjunta de la simulación llevando cada pata a su probabilidad de decisión y corrigiendo la dependencia entre patas que se midió con 62 000 partidos (p. ej. «gana el favorito + sus córners Más» se estorban más de lo que creía el simulador). Margen acumulado: lo que la casa cobra por pata, multiplicado.
+
+Colchón: cuántas desviaciones típicas separan la media esperada de la línea, a favor (+) o en contra (−). Cuanto más alto, menos depende la línea de un córner o un remate de diferencia.
+
+Arma el builder en Betano: si la cuota que muestra es igual o mayor a la "cuota mínima", el precio es bueno. Correlación > 1 = las patas se ayudan (mismo guion); < 1 = se estorban.

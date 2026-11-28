@@ -495,3 +495,6 @@ Principal Faltas Menos 24.5 + Fueras Más 2.5 + Goles Más 2.5 (producto 5,43, p
 
 ## 27-nov 14:15 · Combinadas de la tarde
 V1: Leganés tarjetas Más 5.5 + Werder goles Más 2.5 + Forest fueras Más 2.5 (≈4,15, p ≈22 %); V1b cambia Forest por Southampton tiros al arco Menos 10.5. Guardadas en `combinadas_enviadas_1415.json`.
+
+## 27-nov 19:45 · Recolección completa del 28-nov (35 de 969)
+Selección por puntos (filtros duros + regularidad, contexto, liga) de 59 preseleccionados leídos en Betano y Sofascore; 5 descartados por filtro duro (Santa Fe–Nacional, Vélez, Instituto sin tarjetas/tiros al arco en Betano; Málaga sin estadísticas; Al-Ettifaq con 6 de 10). Betano una lectura 18:48–18:51; Sofascore 10+10 en los 35, ≈45–52 jugadores por partido; árbitro ValueStats en 31 (4 sin anunciar); tabla y previa de Flashscore en 35 (30 con Preview: 18 humanas, 12 IA); 6 eliminatorias de vuelta/final con su serie. Notas con guion en los 35, fichas, informe e `seleccion.md`. Reserva: Le Mans–Lille, Motherwell–Hibernian, West Ham–Stoke.

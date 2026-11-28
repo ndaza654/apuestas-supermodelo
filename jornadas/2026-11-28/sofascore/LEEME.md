@@ -67,3 +67,5 @@ Fuente: Sofascore `/api/v1` desde una pestaña de www.sofascore.com · generado 
 **Límites que se declaran:** API no oficial de Sofascore (puede cambiar o bloquear); el marcador y los datos de jugadores de Betano se liquidan con Opta, que no es esta fuente;
 el árbitro viene de Sofascore (ficha corta: partidos, amarillas, rojas): las faltas por partido del árbitro siguen en ValueStats; «entradas» = entradas totales y ganadas de Sofascore (Betano cuenta totales);
 las tarjetas por jugador salen de los incidentes del partido; una fila de jugador solo existe si jugó minutos. Diferencias > 1 con Flashscore se listan en `contraste.json`.
+
+Nota (28-nov): esta tabla cubre los 59 candidatos leídos; 24 se descartaron por la selección (ver `seleccion.md`) y sus datos están en `descartados/`.

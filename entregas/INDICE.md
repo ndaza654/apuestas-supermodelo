@@ -5,6 +5,7 @@ Regla completa en `CLAUDE.md` → «Entregas».
 
 | Fecha | Hora | Tema | Partido(s) | Archivo |
 |---|---|---|---|---|
+| 2026-11-27 | 19:45 | Recolección completa del 28-nov: 35 partidos elegidos de 969 (selección por puntos, Betano + Sofascore + Flashscore + ValueStats, notas con guion, previas, informe) | 35 partidos del sábado 28-nov | entregas/2026-11-27/1945_recoleccion_28nov_35_partidos.md |
 | 2026-11-27 | 14:15 | Combinadas de la tarde (V1 3 patas ≈4,15 + alternativa) | Leganés–Sabadell, Werder–Gladbach, Forest–Chelsea, Southampton–Boro | entregas/2026-11-27/1415_combinadas_tarde.md |
 | 2026-11-27 | 14:00 | BB Boost Forest–Chelsea sin navegador (Faltas Menos 24.5 + Fueras Más 2.5 + Goles Más 2.5, producto 5,43) | Nottingham Forest - Chelsea FC | entregas/2026-11-27/1400_bb_boost_forest_chelsea.md |
 | 2026-11-27 | 03:45 | Lectura de la combinada de 3 BB del usuario (5,30) | Macarthur–City, Kholood–Khaleej, Qadsiah–Fayha | entregas/2026-11-27/0345_lectura_combinada_3_bb.md |
