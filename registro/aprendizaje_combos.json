@@ -1,13 +1,13 @@
 {
  "generado": "recoleccion/aprender_combos.py",
- "n_combinadas": 481,
- "se_dieron": 155,
- "perdidas": 326,
- "perdidas_por_una_pata": 172,
+ "n_combinadas": 488,
+ "se_dieron": 157,
+ "perdidas": 331,
+ "perdidas_por_una_pata": 173,
  "patas": {
-  "n": 1530,
+  "n": 1558,
   "hit": 0.635,
-  "con_dato_previo": 1062
+  "con_dato_previo": 1074
  },
  "pata_mas_floja": {
   "combinadas_perdidas_por_una_pata_con_dato": 97,
@@ -16,72 +16,72 @@
  },
  "por_banda_colchon": {
   "10–20 %": {
-   "n": 186,
-   "hit": 0.409
+   "n": 188,
+   "hit": 0.415
   },
   "5–10 %": {
    "n": 70,
    "hit": 0.729
   },
   "< 5 %": {
-   "n": 106,
-   "hit": 0.679
+   "n": 108,
+   "hit": 0.685
   },
   "sin dato": {
-   "n": 468,
-   "hit": 0.639
+   "n": 484,
+   "hit": 0.634
   },
   "≥ 20 %": {
-   "n": 700,
-   "hit": 0.676
+   "n": 708,
+   "hit": 0.678
   }
  },
  "por_cumple": {
   "no": {
-   "n": 323,
-   "hit": 0.489
+   "n": 325,
+   "hit": 0.492
   },
   "sí": {
-   "n": 677,
-   "hit": 0.696
+   "n": 686,
+   "hit": 0.698
   }
  },
  "por_mercado_lado": {
   "corners Más": {
-   "n": 171,
-   "hit": 0.708
+   "n": 172,
+   "hit": 0.709
   },
   "goles Más": {
-   "n": 128,
-   "hit": 0.734
+   "n": 131,
+   "hit": 0.74
   },
   "goles Menos": {
    "n": 109,
    "hit": 0.624
   },
   "remates Menos": {
-   "n": 97,
-   "hit": 0.546
+   "n": 100,
+   "hit": 0.55
   },
   "corners Menos": {
    "n": 96,
    "hit": 0.406
   },
   "tarjetas Más": {
-   "n": 84,
-   "hit": 0.655
+   "n": 87,
+   "hit": 0.667
   },
   "al_arco Más": {
-   "n": 81,
-   "hit": 0.667
+   "n": 82,
+   "hit": 0.671
   },
   "remates Más": {
    "n": 76,
    "hit": 0.513
   },
   "al_arco Menos": {
-   "n": 60,
-   "hit": 0.583
+   "n": 61,
+   "hit": 0.59
   },
   "tarjetas Menos": {
    "n": 49,
@@ -121,18 +121,18 @@
    "si_independientes": 0.537
   },
   "3": {
-   "combinadas": 194,
+   "combinadas": 198,
    "se_dieron": 58,
-   "hit": 0.299,
-   "hit_pata": 0.634,
-   "si_independientes": 0.255
+   "hit": 0.293,
+   "hit_pata": 0.63,
+   "si_independientes": 0.25
   },
   "4+": {
-   "combinadas": 130,
-   "se_dieron": 13,
-   "hit": 0.1,
-   "hit_pata": 0.586,
-   "si_independientes": 0.079
+   "combinadas": 133,
+   "se_dieron": 15,
+   "hit": 0.113,
+   "hit_pata": 0.593,
+   "si_independientes": 0.083
   }
  },
  "por_fuente": {
@@ -155,10 +155,10 @@
    "hit_pata": 0.713
   },
   "tu boleto": {
-   "combinadas": 117,
-   "se_dieron": 21,
+   "combinadas": 124,
+   "se_dieron": 23,
    "patas_prom": 4.2,
-   "hit_pata": 0.639
+   "hit_pata": 0.641
   }
  },
  "por_cuota_pata": {
@@ -181,8 +181,8 @@
  },
  "causas": {
   "sin_cumplir": 160,
-  "atipico": 219,
-  "sin_datos": 164,
+  "atipico": 220,
+  "sin_datos": 172,
   "ambos": 4,
   "mediana": 6
  },
@@ -16442,6 +16442,249 @@
      "tipo": "atipico"
     }
    ]
+  },
+  {
+   "id": "boleto 194",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-26",
+   "tipo": "Bet Builder 3,55 (Sao Paulo–Remo, noche 26-nov)",
+   "nombre": "Sao Paulo–Remo (3-1)",
+   "cuota": 3.55,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Tarjetas total Más 3.5",
+     "ok": true,
+     "real": "4",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tiros al arco total Más 8.5",
+     "ok": false,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners total Más 9.5",
+     "ok": false,
+     "real": "7",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tiros al arco total Más 8.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Córners total Más 9.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 195",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-26",
+   "tipo": "Bet Builder 2,92 (León–Cruz Azul, noche 26-nov)",
+   "nombre": "León–Cruz Azul (0-4)",
+   "cuota": 2.92,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Tarjetas total Más 3.5",
+     "ok": false,
+     "real": "3",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Córners total Menos 11.5",
+     "ok": true,
+     "real": "9",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "León tiros al arco Más 3.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Tarjetas total Más 3.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "León tiros al arco Más 3.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 196",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-26",
+   "tipo": "Bet Builder 3,05 (León–Cruz Azul, noche 26-nov)",
+   "nombre": "León–Cruz Azul (0-4)",
+   "cuota": 3.05,
+   "n_patas": 3,
+   "patas_falladas": 1,
+   "detalle": [
+    {
+     "pata": "Córners total Más 6.5",
+     "ok": true,
+     "real": "9",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Ambos marcan Sí",
+     "ok": true,
+     "real": "0-4",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "León +2 hándicap",
+     "ok": false,
+     "real": "0-4",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "León +2 hándicap",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 198",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-27",
+   "tipo": "Bet Builder 5,40 (Forest–Chelsea)",
+   "nombre": "Forest–Chelsea (3-2)",
+   "cuota": 5.4,
+   "n_patas": 3,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Fueras de juego total Más 2.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles total Más 2.5",
+     "ok": true,
+     "real": "5",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Faltas total Menos 24.5",
+     "ok": false,
+     "real": "26",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Fueras de juego total Más 2.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Faltas total Menos 24.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    }
+   ]
+  },
+  {
+   "id": "boleto 200",
+   "fuente": "tu boleto",
+   "jornada": "2026-11-27",
+   "tipo": "Bet Builder 2,57 (Fluminense–Cruzeiro)",
+   "nombre": "Fluminense–Cruzeiro (0-1)",
+   "cuota": 2.57,
+   "n_patas": 4,
+   "patas_falladas": 2,
+   "detalle": [
+    {
+     "pata": "Kaio Jorge tiros al arco 1+",
+     "ok": true,
+     "real": "2",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Goles total Más 1.5",
+     "ok": false,
+     "real": "1",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Tarjetas total Más 2.5",
+     "ok": true,
+     "real": "8",
+     "colchon_rel": "",
+     "x10": "",
+     "cumple": ""
+    },
+    {
+     "pata": "Fluminense remates Menos 19.5",
+     "ok": false,
+     "real": "23",
+     "colchon_rel": 0.236,
+     "x10": 0.7,
+     "cumple": "sí"
+    }
+   ],
+   "causas": [
+    {
+     "pata": "Goles total Más 1.5",
+     "causa": "sin datos previos de la pata (no casó con lineas.csv)",
+     "tipo": "sin_datos"
+    },
+    {
+     "pata": "Fluminense remates Menos 19.5",
+     "causa": "cumplía y tenía colchón (24 %) pero el partido salió atípico: real 23 frente a esperado 14.9",
+     "tipo": "atipico"
+    }
+   ]
   }
  ],
  "reglas": [
@@ -16449,19 +16692,19 @@
    "id": "pata_mediana",
    "texto": "En una combinada, evitar la pata con colchón < 10 % de la línea (la «pata en la mediana»): es la que más se cae.",
    "umbral_colchon_rel": 0.1,
-   "n_baja": 176,
-   "hit_baja": 0.699,
-   "n_alta": 886,
-   "hit_alta": 0.62,
+   "n_baja": 178,
+   "hit_baja": 0.702,
+   "n_alta": 896,
+   "hit_alta": 0.623,
    "estado": "en observación"
   },
   {
    "id": "pata_sin_cumplir",
    "texto": "En una combinada, todas las patas deben cumplir el 7 de 10 en ambos equipos.",
-   "n_no": 323,
-   "hit_no": 0.489,
-   "n_si": 677,
-   "hit_si": 0.696,
+   "n_no": 325,
+   "hit_no": 0.492,
+   "n_si": 686,
+   "hit_si": 0.698,
    "estado": "activa"
   },
   {
@@ -16474,18 +16717,18 @@
   {
    "id": "patas_max",
    "texto": "Máximo 2 patas por combinada (3 solo como lotería de stake mínimo); 4 o más patas casi nunca se dan.",
-   "n_4mas": 130,
-   "hit_4mas": 0.1,
+   "n_4mas": 133,
+   "hit_4mas": 0.113,
    "hit_2": 0.535,
-   "hit_3": 0.299,
+   "hit_3": 0.293,
    "estado": "activa"
   }
  ],
  "lecciones": [
-  "481 combinadas calificadas (las que te envié y las que jugaste): 155 se dieron (32 %). 172 de 326 perdidas (52 %) cayeron por una sola pata.",
-  "Tamaño: 2 patas se dieron 84 de 157, 3 patas 58 de 194, 4 o más 13 de 130. Cada pata extra pesa más de lo que parece.",
+  "488 combinadas calificadas (las que te envié y las que jugaste): 157 se dieron (32 %). 173 de 331 perdidas (52 %) cayeron por una sola pata.",
+  "Tamaño: 2 patas se dieron 84 de 157, 3 patas 58 de 198, 4 o más 15 de 133. Cada pata extra pesa más de lo que parece.",
   "La pata de menor colchón cayó 39 veces de 97 (por azar se esperarían ≈ 38.4): el colchón no predice cuál pata se cae.",
-  "Patas que cumplían el 7 de 10 se dieron 70 % (n 677) frente a 49 % de las que no (n 323): esta sí separa.",
-  "De las patas caídas con dato previo, 219 de 389 cumplían y tenían colchón: el partido salió fuera de lo normal (varianza), no fue una mala elección; 160 no cumplían el 7 de 10 y 6 estaban en la mediana."
+  "Patas que cumplían el 7 de 10 se dieron 70 % (n 686) frente a 49 % de las que no (n 325): esta sí separa.",
+  "De las patas caídas con dato previo, 220 de 390 cumplían y tenían colchón: el partido salió fuera de lo normal (varianza), no fue una mala elección; 160 no cumplían el 7 de 10 y 6 estaban en la mediana."
  ]
 }

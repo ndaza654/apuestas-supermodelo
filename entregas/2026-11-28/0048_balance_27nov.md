@@ -1,6 +1,6 @@
 # Balance del viernes 27-nov (más la noche del 26-nov)
 
-Fecha y hora: 2026-11-28 00:48 Bogotá. Resultados: Sofascore /api/v1 (partido, estadísticas, onces, incidentes), leídos 28-nov ~00:45 en el navegador integrado. Cuotas: las leídas en Betano el 26-nov 22:20 (una sola lectura). **Límites:** boletos del usuario SIN LEER (Betano «Mis apuestas» sin sesión y Chrome desconectado), por eso no hay plata ni líneas «apostadas»; Fluminense–Cruzeiro tarjetas 8,5 dudosa; Montevideo City Torque–Nacional sin estadística por jugador (18 líneas). Control de remates y tiros al arco: jugadores = equipo en los 19 partidos (0 diferencias).
+Fecha y hora: 2026-11-28 01:20 Bogotá. Resultados: Sofascore /api/v1 (partido, estadísticas, onces, incidentes), leídos 28-nov ~00:45. Boletos: Betano «Mis apuestas» (Resueltas 23, Abiertas 0), leídos ~01:10 con tu sesión. Cuotas de las líneas: Betano 26-nov 22:20 (una sola lectura). **Límites:** Fluminense–Cruzeiro tarjetas 8,5 dudosa; Montevideo City Torque–Nacional sin estadística por jugador (18 líneas); boletos 194–200 numerados por el orden de la lista. Control de remates y tiros al arco: jugadores = equipo en los 19 partidos.
 
 Informe interactivo: `entregas/2026-11-28/0048_balance_27nov.html`. Datos: `jornadas/2026-11-27/resultados/` y `jornadas/2026-11-27/balance/`.
 
@@ -12,15 +12,24 @@ Balance del **viernes 27-nov** (cerrado 28-nov ~00:48 Bogotá): **19 de 19 parti
 ## En plata
 
 
-- **No puedo darte la plata del día:** Betano «Mis apuestas» no abrió (el navegador integrado perdió la sesión y Chrome no estaba conectado). Tus boletos del 27-nov quedan **sin leer** y no marqué ninguna línea como «apostada». En cuanto pegues las capturas o me conectes, los califico pata por pata.
-- **Tu combinada de 3 BB (cuota 5,30) se dio en sus 7 patas** (Macarthur–Melbourne: tarjetas 4 puntos y 2 goles locales; Kholood–Khaleej: 3 goles y 26 remates; Qadsiah–Fayha: Sakala 6 remates, 5 córners de Fayha y 17 remates de Qadsiah). Si la jugaste, es ganada; confírmalo.
-- **Lo que te envié:** sencillas 143 de 195 (73 %); combinadas del mismo partido 5 de 8; combinadas entre partidos 4 de 5 (V1b, V2, V3 y la lotería de 3 protecciones se dieron; V1 falló por 1 fuera de juego con línea de 2,5); **BB Boost de Forest–Chelsea 0 de 2** (faltas 26 con línea Menos 24,5 y 1 solo fuera de juego).
+- **7 boletos liquidados: 2 ganados y 5 perdidos. Apostado $139.369, cobrado $206.226, neto +$66.857 (ROI +48 %).** Betano no muestra apuestas abiertas: nada pendiente.
+- **Del viernes 27-nov (4 boletos): apostado $71.227, cobrado $206.226, neto +$134.999.**
+  
+  - **Combinada de 5 patas, cuota 8,44: ganada.** $15.000 → $126.686. Leganés tarjetas Más 5,5 (6), Werder goles Más 2,5 (6), Forest–Chelsea tarjetas Más 3,5 (5), Racing tiros al arco Más 3,5 (8) y Southampton tiros al arco Menos 10,5 (9).
+  - **Combinada de 3 BB, cuota 5,30: ganada** en las 7 patas. $15.000 → $79.540.
+  - BB de Forest–Chelsea (5,40), $29.540: perdido; cayeron fueras de juego (1) y faltas (26); los goles se dieron (5).
+  - BB de Fluminense–Cruzeiro (2,57), $11.687: perdido; cayeron goles Más 1,5 (0-1) y los remates Menos 19,5 (23).
+  
+- **De la noche del 26-nov (3 BB liquidados el 27): apostado $68.142, cobrado $0, neto −$68.142.** Sao Paulo–Remo 3,55 (cayeron tiros al arco y córners), León–Cruz Azul 2,92 (cayeron tarjetas y tiros al arco de León) y León–Cruz Azul 3,05 (cayó el hándicap León +2: perdió 0-4).
+- **Acumulado desde el 4-nov: 200 boletos, apostado $3.277.992, cobrado $3.370.601, neto +$92.609 (ROI +2,8 %).** Sube desde +$25.752 de ayer.
+- Los 5 BB sueltos de un solo partido perdieron (0 de 5) y las 2 combinadas entre partidos se dieron (2 de 2): lo ganado salió de patas de partidos distintos con cuota por pata de 1,25–1,75.
 
 
 
 ## Estadísticamente
 
 
+- **Lo que te envié:** sencillas 143 de 195 (73 %); combinadas del mismo partido 5 de 8; combinadas entre partidos 4 de 5 (V1b, V2, V3 y la lotería de 3 protecciones se dieron; V1 falló por 1 fuera de juego con línea de 2,5); **BB Boost de Forest–Chelsea 0 de 2** (faltas 26 con línea Menos 24,5 y 1 solo fuera de juego).
 - **Líneas de equipo del día: 5.002 calificadas, 2.498 cumplidas.** Las que cumplían el 7 de 10 en ambos equipos se dieron **85 % (n 820)**; las que no, 40 % (n 3.006). El «cumple» separa muy bien en las líneas, aunque eso ya lo paga el precio.
 - **El modelo de equipo sigue calibrado:** cuando decía 25 %, se dio 26 %; 45 %, 47 %; 65 %, 64 %; 85 %, 85 %; 93 %, 94 %.
 - **Dónde se equivocó el día (equipo):**
@@ -57,7 +66,8 @@ Balance del **viernes 27-nov** (cerrado 28-nov ~00:48 Bogotá): **19 de 19 parti
 ## Qué mejorar
 
 
-- Leer los boletos de Betano el mismo día (necesito el navegador conectado y la sesión abierta) para poder dar plata y calificar tus patas.
+- Tus patas del 27-nov: 15 de 19 se dieron (79 %); 14 de las 18 que cumplían el 7 de 10 (78 %). Las 4 caídas: Fluminense goles Más 1,5 y remates Menos 19,5, Forest faltas Menos 24,5 y fueras Más 2,5. Ninguna se podía distinguir de las que se dieron antes del partido.
+- BB sueltos de un solo partido: 0 de 5 (León ×2, Sao Paulo, Forest, Fluminense). Con 3–4 patas del mismo partido cae alguna casi siempre; las que rindieron fueron las de partidos distintos.
 - El modelo de jugadores sigue inflado: usar la tasa real del día (arriba) para filtrar y exigir once oficial.
 - Tarjetas de jugador: la p del modelo (≈ 4 %) está por debajo de lo observado (19 %); no hay base para recomendar el lado «No».
 
@@ -66,7 +76,7 @@ Balance del **viernes 27-nov** (cerrado 28-nov ~00:48 Bogotá): **19 de 19 parti
 ## Límites
 
 
-- Boletos propios no leídos; plata y «apostada» sin completar.
+- Boletos leídos de Betano (28-nov ~01:10): sin fecha ni número en la pantalla; 194–200 se asignan por el orden de la lista. La cuota de cada pata de un BB no es individual.
 - Tarjetas: Sofascore (puntos por incidentes: amarilla 1, roja directa 2, doble amarilla 3); Fluminense–Cruzeiro con una tarjeta después del pitazo (dudosa para el total 8,5).
 - Montevideo City Torque–Nacional: sin estadística por jugador (18 líneas sin calificar). Los jugadores que no figuran en la lista de Sofascore (no convocados o sin minutos) se anularon como «nula»; el criterio de Betano puede variar si entraron en el banco sin jugar.
 - «Entradas» son tackles totales de Sofascore; Betano usa Opta y puede diferir.
