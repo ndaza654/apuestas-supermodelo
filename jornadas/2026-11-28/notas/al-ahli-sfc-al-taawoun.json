@@ -1,0 +1,52 @@
+{
+ "se_juega": "Liga saudí J13: Al-Ahli 5.º (24 pts) frente al 17.º Al-Taawoun (5 pts, sin victorias).",
+ "tabla": "5.º Al Ahli SC 24 pts (8G 0E 4P, goles 31:20); 17.º Al Taawon 5 pts (0G 5E 7P, goles 6:20).",
+ "importancia": "media",
+ "decisivo": false,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": false,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Cuatro victorias en los últimos cinco; 31 goles a favor."
+ },
+ "visitante": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Sin victorias en 12 partidos y solo 6 goles a favor (previa generada por IA)."
+ },
+ "arbitro": "Árbitro no anunciado todavía; sin historial: no se estima.",
+ "onces": "Probables de Sofascore/Flashscore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 18:48-18:51 Bogotá del 27-nov (mercados)",
+  "Sofascore 27-nov 18:55-19:20 Bogotá (forma, jugadores, once probable)",
+  "Flashscore tabla y previa 27-nov 19:05-19:25 Bogotá",
+  "ValueStats / Flashscore (árbitro)"
+ ],
+ "guion": {
+  "resumen": "Local muy superior y visitante sin gol: victoria local con pocos goles del visitante.",
+  "domina": "local",
+  "ritmo": "cerrado",
+  "predicciones": [
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   },
+   {
+    "tipo": "corners_menos",
+    "linea": 10.5
+   },
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 3.5
+   },
+   {
+    "tipo": "gana",
+    "equipo": "local"
+   }
+  ],
+  "escrito": "2026-11-27 ~19:40 Bogotá, antes del partido; solo con datos leídos (fichas de 10 partidos de Sofascore, tabla y previa de Flashscore, cuotas de Betano de las 18:50 del 27-nov) y sin onces oficiales"
+ }
+}

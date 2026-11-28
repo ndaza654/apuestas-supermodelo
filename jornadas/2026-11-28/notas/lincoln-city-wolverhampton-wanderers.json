@@ -1,0 +1,48 @@
+{
+ "se_juega": "Championship J18: el 21.º Lincoln (15 pts, cinco derrotas seguidas) recibe al 3.º Wolves (34 pts).",
+ "tabla": "21.º Lincoln 15 pts (4G 3E 10P, goles 15:31); 3.º Wolves 34 pts (10G 4E 3P, goles 31:19).",
+ "importancia": "media",
+ "decisivo": false,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Darikwa fuera por una rodilla; solo 15 goles a favor."
+ },
+ "visitante": {
+  "necesita_ganar": false,
+  "le_sirve_empate": true,
+  "rotacion": false,
+  "animo": "Armstrong lleva 5 goles en 5 partidos; Wolves con cinco partidos sin perder (previa generada por IA)."
+ },
+ "arbitro": "Árbitro anunciado: Hallam F. ValueStats: 96 partidos, 3,64 amarillas y 0,02 rojas por partido (todas las competiciones).",
+ "onces": "Probables de Sofascore/Flashscore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 18:48-18:51 Bogotá del 27-nov (mercados)",
+  "Sofascore 27-nov 18:55-19:20 Bogotá (forma, jugadores, once probable)",
+  "Flashscore tabla y previa 27-nov 19:05-19:25 Bogotá",
+  "ValueStats / Flashscore (árbitro)"
+ ],
+ "guion": {
+  "resumen": "Wolves muy superior en la tabla (3.º contra 21.º): victoria visitante y goles del visitante.",
+  "domina": "visitante",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   },
+   {
+    "tipo": "tarjetas_mas_que",
+    "linea": 3.5
+   },
+   {
+    "tipo": "gana",
+    "equipo": "visitante"
+   }
+  ],
+  "escrito": "2026-11-27 ~19:40 Bogotá, antes del partido; solo con datos leídos (fichas de 10 partidos de Sofascore, tabla y previa de Flashscore, cuotas de Betano de las 18:50 del 27-nov) y sin onces oficiales"
+ }
+}

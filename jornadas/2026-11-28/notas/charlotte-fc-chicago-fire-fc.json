@@ -1,0 +1,44 @@
+{
+ "se_juega": "Playoffs MLS, octavos de final, partido de vuelta: Charlotte gana la serie 1-0.",
+ "tabla": "Serie de octavos a dos partidos: Charlotte gana 1-0 (partido de vuelta; Flashscore).",
+ "importancia": "alta",
+ "decisivo": true,
+ "derbi": false,
+ "nada_en_juego": false,
+ "local": {
+  "necesita_ganar": false,
+  "le_sirve_empate": true,
+  "rotacion": false,
+  "animo": "Byrne en duda y Goodwin fuera; Pep Biel (14 goles) y Abada (6 goles en 4 partidos) en racha."
+ },
+ "visitante": {
+  "necesita_ganar": true,
+  "le_sirve_empate": false,
+  "rotacion": false,
+  "animo": "Pierde la serie 1-0: necesita ganar; Lewandowski lleva 4 goles en 3 partidos (previa generada por IA)."
+ },
+ "arbitro": "Árbitro anunciado: Dickerson J. ValueStats: 112 partidos, 4,55 amarillas y 0,17 rojas por partido (todas las competiciones).",
+ "onces": "Probables de Sofascore/Flashscore, sin once oficial: se actualizan con los onces del día del partido.",
+ "fuentes": [
+  "Betano 18:48-18:51 Bogotá del 27-nov (mercados)",
+  "Sofascore 27-nov 18:55-19:20 Bogotá (forma, jugadores, once probable)",
+  "Flashscore tabla y previa 27-nov 19:05-19:25 Bogotá",
+  "ValueStats / Flashscore (árbitro)"
+ ],
+ "guion": {
+  "resumen": "Eliminatoria de vuelta: Chicago debe arriesgar y Charlotte puede esperar; más ritmo del visitante si se adelanta Charlotte.",
+  "domina": "local",
+  "ritmo": "abierto",
+  "predicciones": [
+   {
+    "tipo": "goles_mas",
+    "linea": 2.5
+   },
+   {
+    "tipo": "corners_mas",
+    "linea": 9.5
+   }
+  ],
+  "escrito": "2026-11-27 ~19:40 Bogotá, antes del partido; solo con datos leídos (fichas de 10 partidos de Sofascore, tabla y previa de Flashscore, cuotas de Betano de las 18:50 del 27-nov) y sin onces oficiales"
+ }
+}
