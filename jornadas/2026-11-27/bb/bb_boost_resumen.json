@@ -40,7 +40,24 @@
     "p_equilibrio_boost": 0.153,
     "cumple": null,
     "conjunto": "Forest 2 de 10 · Chelsea 4 de 10",
-    "tipo": "principal"
+    "tipo": "principal",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "26 faltas"
+     ],
+     [
+      false,
+      "1 fueras de juego"
+     ],
+     [
+      true,
+      "5 goles"
+     ]
+    ],
+    "jugada": false,
+    "tag": "principal A"
    },
    {
     "patas": [
@@ -62,7 +79,24 @@
     "pago_boost": 6.54,
     "cumple": null,
     "conjunto": "Forest 2 de 10 · Chelsea 5 de 10",
-    "tipo": "alternativa"
+    "tipo": "alternativa",
+    "resultado": "falló",
+    "patas_real": [
+     [
+      false,
+      "26 faltas"
+     ],
+     [
+      true,
+      "8 saques de meta (local)"
+     ],
+     [
+      true,
+      "5 goles"
+     ]
+    ],
+    "jugada": false,
+    "tag": "alternativa B"
    }
   ]
  }

@@ -178,7 +178,7 @@
      "2 de 10",
      "5 de 10"
     ],
-    "resultado": "pendiente",
+    "resultado": "falló",
     "jugada": false,
     "evidencia": [
      "Córners Menos 10.5: 8 y 8 de 10 (cumple), esperado 10,1; directos 8,3 de promedio",
@@ -187,16 +187,16 @@
     ],
     "patas_real": [
      [
-      null,
-      "sin resultado"
+      false,
+      "3 puntos de tarjetas"
      ],
      [
-      null,
-      "sin resultado"
+      true,
+      "4 goles"
      ],
      [
-      null,
-      "sin resultado"
+      true,
+      "9 córners"
      ]
     ]
    },
@@ -236,7 +236,7 @@
      "4 de 10",
      "5 de 10"
     ],
-    "resultado": "pendiente",
+    "resultado": "falló",
     "jugada": false,
     "evidencia": [
      "Tiros al arco Más 9.5: 6 y 7 de 10 (no cumple); esperado 10,6, colchón 1,1",
@@ -245,16 +245,16 @@
     ],
     "patas_real": [
      [
-      null,
-      "sin resultado"
+      false,
+      "3 puntos de tarjetas"
      ],
      [
-      null,
-      "sin resultado"
+      true,
+      "9 córners"
      ],
      [
-      null,
-      "sin resultado"
+      false,
+      "9 tiros al arco"
      ]
     ]
    }

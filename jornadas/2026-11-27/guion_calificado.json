@@ -1,0 +1,672 @@
+{
+ "jornada": "2026-11-27",
+ "partidos": {
+  "al-ittihad-club-neom-sc": {
+   "resumen": "Dos defensas sólidas pero el modelo ve 3,2 goles y córners 9,3: partido parejo de tabla.",
+   "predicciones": [
+    {
+     "tipo": "goles_mas",
+     "linea": 2.5,
+     "resultado": "falló",
+     "valor_real": "1"
+    },
+    {
+     "tipo": "corners_mas",
+     "linea": 8.5,
+     "resultado": "cumplió",
+     "valor_real": "10"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "local",
+    "remates": "17-9",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "cerrado",
+    "goles": 1,
+    "resultado": "falló"
+   }
+  },
+  "al-kholood-club-al-khaleej-fc": {
+   "resumen": "Kholood (5 derrotas, 26 goles en contra) recibe a un Khaleej de muchos empates: se espera partido abierto (3,7 goles) y tarjetas medias.",
+   "predicciones": [
+    {
+     "tipo": "goles_mas",
+     "linea": 2.5,
+     "resultado": "cumplió",
+     "valor_real": "3"
+    },
+    {
+     "tipo": "corners_mas",
+     "linea": 8.5,
+     "resultado": "cumplió",
+     "valor_real": "9"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "local",
+    "remates": "17-9",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "abierto",
+    "goles": 3,
+    "resultado": "cumplió"
+   }
+  },
+  "al-qadsiah-fc-al-fayha-fc": {
+   "resumen": "Qadsiah (2.º, 32 goles) domina la posesión y los remates (16,2 contra 12,1): goles 3,4 esperados y córners del local 6,0.",
+   "predicciones": [
+    {
+     "tipo": "mas_remates",
+     "equipo": "local",
+     "resultado": "cumplió",
+     "valor_real": "17-12"
+    },
+    {
+     "tipo": "gana",
+     "equipo": "local",
+     "resultado": "cumplió",
+     "valor_real": "2-0"
+    },
+    {
+     "tipo": "goles_mas",
+     "linea": 2.5,
+     "resultado": "falló",
+     "valor_real": "2"
+    }
+   ],
+   "domina": {
+    "pedido": "local",
+    "real": "local",
+    "remates": "17-12",
+    "resultado": "cumplió"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "cerrado",
+    "goles": 2,
+    "resultado": "falló"
+   }
+  },
+  "alanyaspor-konyaspor": {
+   "resumen": "Duelo de equipos que no marcan (10 y 8 goles): pocos goles (2,4) y muchas tarjetas esperadas (4,5) por la urgencia.",
+   "predicciones": [
+    {
+     "tipo": "goles_menos",
+     "linea": 3.5,
+     "resultado": "cumplió",
+     "valor_real": "3"
+    },
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 3.5,
+     "resultado": "cumplió",
+     "valor_real": "8"
+    },
+    {
+     "tipo": "corners_menos",
+     "linea": 10.5,
+     "resultado": "cumplió",
+     "valor_real": "6"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "parejo",
+    "remates": "12-12",
+    "resultado": "cumplió"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "abierto",
+    "goles": 3,
+    "resultado": "falló"
+   }
+  },
+  "caykur-rizespor-kasimpasa-sk": {
+   "resumen": "Kasımpaşa llega mejor (5.º) pero el partido se ve parejo: remates 14,0 contra 14,7, córners 10,1 y tarjetas altas (4,9).",
+   "predicciones": [
+    {
+     "tipo": "goles_mas",
+     "linea": 1.5,
+     "resultado": "cumplió",
+     "valor_real": "5"
+    },
+    {
+     "tipo": "corners_mas",
+     "linea": 9.5,
+     "resultado": "falló",
+     "valor_real": "7"
+    },
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 3.5,
+     "resultado": "falló",
+     "valor_real": "3"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "local",
+    "remates": "17-13",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "abierto",
+    "goles": 5,
+    "resultado": "cumplió"
+   }
+  },
+  "cd-leganes-ce-sabadell-fc": {
+   "resumen": "Pocos goles (13 y 17 en 15 partidos) y árbitro de muchas tarjetas (5,9 amarillas por partido): tarjetas altas (7,0 esperadas) y Sabadell con más remates.",
+   "predicciones": [
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 4.5,
+     "resultado": "cumplió",
+     "valor_real": "6"
+    },
+    {
+     "tipo": "goles_menos",
+     "linea": 3.5,
+     "resultado": "cumplió",
+     "valor_real": "0"
+    },
+    {
+     "tipo": "mas_remates",
+     "equipo": "visitante",
+     "resultado": "cumplió",
+     "valor_real": "9-12"
+    }
+   ],
+   "domina": {
+    "pedido": "visitante",
+    "real": "visitante",
+    "remates": "9-12",
+    "resultado": "cumplió"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "cerrado",
+    "goles": 0,
+    "resultado": "cumplió"
+   }
+  },
+  "columbus-crew-sc-inter-miami-cf": {
+   "resumen": "Columbus domina la serie y los remates (14,2 contra 12,6); Inter Miami debe arriesgar: partido abierto (3,9 goles esperados) y tarjetas altas (5,4).",
+   "predicciones": [
+    {
+     "tipo": "mas_remates",
+     "equipo": "local",
+     "resultado": "cumplió",
+     "valor_real": "18-9"
+    },
+    {
+     "tipo": "goles_mas",
+     "linea": 2.5,
+     "resultado": "falló",
+     "valor_real": "1"
+    },
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 3.5,
+     "resultado": "cumplió",
+     "valor_real": "5"
+    }
+   ],
+   "domina": {
+    "pedido": "local",
+    "real": "local",
+    "remates": "18-9",
+    "resultado": "cumplió"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "cerrado",
+    "goles": 1,
+    "resultado": "falló"
+   }
+  },
+  "deportivo-cali-atletico-bucaramanga": {
+   "resumen": "Dos equipos de 1 punto que no pueden perder: tarjetas altas (7,0 esperadas), pocos goles (2,25) y córners bajos (7,95).",
+   "predicciones": [
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 4.5,
+     "resultado": "cumplió",
+     "valor_real": "8"
+    },
+    {
+     "tipo": "goles_menos",
+     "linea": 2.5,
+     "resultado": "cumplió",
+     "valor_real": "2"
+    },
+    {
+     "tipo": "corners_menos",
+     "linea": 9.5,
+     "resultado": "falló",
+     "valor_real": "12"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "visitante",
+    "remates": "12-18",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "cerrado",
+    "goles": 2,
+    "resultado": "cumplió"
+   }
+  },
+  "fc-groningen-willem-ii-tilburg": {
+   "resumen": "Groningen domina contra el último (remates 18,4 contra 12,1) y Willem II recibe muchos goles (42): partido de muchos goles (4,4).",
+   "predicciones": [
+    {
+     "tipo": "mas_remates",
+     "equipo": "local",
+     "resultado": "cumplió",
+     "valor_real": "31-8"
+    },
+    {
+     "tipo": "gana",
+     "equipo": "local",
+     "resultado": "falló",
+     "valor_real": "1-1"
+    },
+    {
+     "tipo": "goles_mas",
+     "linea": 3.5,
+     "resultado": "falló",
+     "valor_real": "2"
+    }
+   ],
+   "domina": {
+    "pedido": "local",
+    "real": "local",
+    "remates": "31-8",
+    "resultado": "cumplió"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "cerrado",
+    "goles": 2,
+    "resultado": "falló"
+   }
+  },
+  "fluminense-rj-cruzeiro": {
+   "resumen": "Duelo directo por Libertadores entre dos equipos en racha: remates parejos (14,9 contra 13,8 esperados), goles por encima de 3 (3,25) y córners altos (10,8).",
+   "predicciones": [
+    {
+     "tipo": "goles_mas",
+     "linea": 2.5,
+     "resultado": "falló",
+     "valor_real": "1"
+    },
+    {
+     "tipo": "corners_mas",
+     "linea": 9.5,
+     "resultado": "falló",
+     "valor_real": "9"
+    },
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 3.5,
+     "resultado": "cumplió",
+     "valor_real": "8"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "local",
+    "remates": "23-8",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "cerrado",
+    "goles": 1,
+    "resultado": "falló"
+   }
+  },
+  "levante-ud-racing-santander": {
+   "resumen": "Dos equipos que reciben muchos goles (22 y 32): partido abierto (3,55 esperados); previa de Flashscore: empate y más de 2,5 goles.",
+   "predicciones": [
+    {
+     "tipo": "goles_mas",
+     "linea": 2.5,
+     "resultado": "cumplió",
+     "valor_real": "4"
+    },
+    {
+     "tipo": "corners_mas",
+     "linea": 9.5,
+     "resultado": "cumplió",
+     "valor_real": "14"
+    },
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 3.5,
+     "resultado": "cumplió",
+     "valor_real": "4"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "local",
+    "remates": "23-15",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "abierto",
+    "goles": 4,
+    "resultado": "cumplió"
+   }
+  },
+  "macarthur-fc-melbourne-city": {
+   "resumen": "Partido parejo de tabla apretada: goles altos para su liga (3,9 esperados), córners 10,45 y árbitro de tarjetas medias.",
+   "predicciones": [
+    {
+     "tipo": "goles_mas",
+     "linea": 2.5,
+     "resultado": "falló",
+     "valor_real": "2"
+    },
+    {
+     "tipo": "corners_mas",
+     "linea": 9.5,
+     "resultado": "cumplió",
+     "valor_real": "14"
+    },
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 3.5,
+     "resultado": "cumplió",
+     "valor_real": "4"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "visitante",
+    "remates": "10-12",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "cerrado",
+    "goles": 2,
+    "resultado": "falló"
+   }
+  },
+  "millonarios-fc-america-de-cali": {
+   "resumen": "Duelo por el liderato del grupo de clubes que se conocen: tarjetas altas (6,5 esperadas, América con 24 amarillas en 3 visitas) y córners bajos (8,3).",
+   "predicciones": [
+    {
+     "tipo": "ambos_si",
+     "resultado": "falló",
+     "valor_real": "0-0"
+    },
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 4.5,
+     "resultado": "cumplió",
+     "valor_real": "18"
+    },
+    {
+     "tipo": "corners_menos",
+     "linea": 9.5,
+     "resultado": "cumplió",
+     "valor_real": "4"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "local",
+    "remates": "13-6",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "cerrado",
+    "goles": 0,
+    "resultado": "cumplió"
+   }
+  },
+  "nottingham-forest-chelsea-fc": {
+   "resumen": "Forest con el peor ataque (9 goles) pero muchos remates (14,8); Chelsea (20 a favor y 20 en contra): 3,5 goles esperados. La previa pide ambos No y la noticia Más 2,5: se contradicen.",
+   "predicciones": [
+    {
+     "tipo": "goles_mas",
+     "linea": 2.5,
+     "resultado": "cumplió",
+     "valor_real": "5"
+    },
+    {
+     "tipo": "corners_mas",
+     "linea": 9.5,
+     "resultado": "falló",
+     "valor_real": "3"
+    },
+    {
+     "tipo": "mas_remates",
+     "equipo": "local",
+     "resultado": "cumplió",
+     "valor_real": "10-9"
+    },
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 3.5,
+     "resultado": "cumplió",
+     "valor_real": "5"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "local",
+    "remates": "10-9",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "abierto",
+    "goles": 5,
+    "resultado": "cumplió"
+   }
+  },
+  "real-salt-lake-vancouver-whitecaps-fc": {
+   "resumen": "Partido de serie con el local obligado: córners altos (10,95 esperados), árbitro de muchas amarillas (4,8) y goles 3,25.",
+   "predicciones": [
+    {
+     "tipo": "corners_mas",
+     "linea": 9.5,
+     "resultado": "cumplió",
+     "valor_real": "10"
+    },
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 3.5,
+     "resultado": "cumplió",
+     "valor_real": "6"
+    },
+    {
+     "tipo": "goles_mas",
+     "linea": 2.5,
+     "resultado": "falló",
+     "valor_real": "1"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "visitante",
+    "remates": "9-13",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "cerrado",
+    "goles": 1,
+    "resultado": "falló"
+   }
+  },
+  "southampton-fc-middlesbrough-fc": {
+   "resumen": "El líder (Middlesbrough) genera más remates (17,1 contra 12,8) y los dos defienden bien (16 y 20 goles en contra): 2,6 goles esperados.",
+   "predicciones": [
+    {
+     "tipo": "mas_remates",
+     "equipo": "visitante",
+     "resultado": "cumplió",
+     "valor_real": "12-19"
+    },
+    {
+     "tipo": "goles_mas",
+     "linea": 1.5,
+     "resultado": "cumplió",
+     "valor_real": "2"
+    },
+    {
+     "tipo": "corners_mas",
+     "linea": 9.5,
+     "resultado": "cumplió",
+     "valor_real": "12"
+    },
+    {
+     "tipo": "tarjetas_mas_que",
+     "linea": 3.5,
+     "resultado": "cumplió",
+     "valor_real": "10"
+    }
+   ],
+   "domina": {
+    "pedido": "visitante",
+    "real": "visitante",
+    "remates": "12-19",
+    "resultado": "cumplió"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "cerrado",
+    "goles": 2,
+    "resultado": "cumplió"
+   }
+  },
+  "stade-brestois-29-paris-fc": {
+   "resumen": "Partido parejo y táctico: pocos córners (8,2) y faltas altas (28); previa de Flashscore: empate y ambos marcan.",
+   "predicciones": [
+    {
+     "tipo": "ambos_si",
+     "resultado": "falló",
+     "valor_real": "1-0"
+    },
+    {
+     "tipo": "goles_mas",
+     "linea": 1.5,
+     "resultado": "falló",
+     "valor_real": "1"
+    },
+    {
+     "tipo": "corners_menos",
+     "linea": 9.5,
+     "resultado": "cumplió",
+     "valor_real": "8"
+    }
+   ],
+   "domina": {
+    "pedido": "parejo",
+    "real": "visitante",
+    "remates": "17-18",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "cerrado",
+    "goles": 1,
+    "resultado": "cumplió"
+   }
+  },
+  "venezia-fc-bologna-fc": {
+   "resumen": "Venezia casi no marca; Bologna domina fuera (remates 14,9 contra 12,8) y el gol del local es lo difícil: ambos no.",
+   "predicciones": [
+    {
+     "tipo": "mas_remates",
+     "equipo": "visitante",
+     "resultado": "falló",
+     "valor_real": "14-13"
+    },
+    {
+     "tipo": "no_pierde",
+     "equipo": "visitante",
+     "resultado": "cumplió",
+     "valor_real": "0-0"
+    },
+    {
+     "tipo": "ambos_no",
+     "resultado": "cumplió",
+     "valor_real": "0-0"
+    }
+   ],
+   "domina": {
+    "pedido": "visitante",
+    "real": "local",
+    "remates": "14-13",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "cerrado",
+    "real": "cerrado",
+    "goles": 0,
+    "resultado": "cumplió"
+   }
+  },
+  "werder-bremen-borussia-monchengladbach": {
+   "resumen": "Werder (21 goles) contra el penúltimo con 10 bajas: el local domina remates (16,1 contra 14,3) y goles 3,65 esperados; previa: Werder y ambos marcan.",
+   "predicciones": [
+    {
+     "tipo": "gana",
+     "equipo": "local",
+     "resultado": "falló",
+     "valor_real": "3-3"
+    },
+    {
+     "tipo": "goles_mas",
+     "linea": 2.5,
+     "resultado": "cumplió",
+     "valor_real": "6"
+    },
+    {
+     "tipo": "corners_mas",
+     "linea": 9.5,
+     "resultado": "cumplió",
+     "valor_real": "11"
+    }
+   ],
+   "domina": {
+    "pedido": "local",
+    "real": "parejo",
+    "remates": "20-20",
+    "resultado": "falló"
+   },
+   "ritmo": {
+    "pedido": "abierto",
+    "real": "abierto",
+    "goles": 6,
+    "resultado": "cumplió"
+   }
+  }
+ },
+ "resumen": {
+  "cumplió": 56,
+  "falló": 39,
+  "sin resultado": 0
+ }
+}

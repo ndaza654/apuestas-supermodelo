@@ -498,3 +498,10 @@ V1: Leganés tarjetas Más 5.5 + Werder goles Más 2.5 + Forest fueras Más 2.5 
 
 ## 27-nov 19:45 · Recolección completa del 28-nov (35 de 969)
 Selección por puntos (filtros duros + regularidad, contexto, liga) de 59 preseleccionados leídos en Betano y Sofascore; 5 descartados por filtro duro (Santa Fe–Nacional, Vélez, Instituto sin tarjetas/tiros al arco en Betano; Málaga sin estadísticas; Al-Ettifaq con 6 de 10). Betano una lectura 18:48–18:51; Sofascore 10+10 en los 35, ≈45–52 jugadores por partido; árbitro ValueStats en 31 (4 sin anunciar); tabla y previa de Flashscore en 35 (30 con Preview: 18 humanas, 12 IA); 6 eliminatorias de vuelta/final con su serie. Notas con guion en los 35, fichas, informe e `seleccion.md`. Reserva: Le Mans–Lille, Motherwell–Hibernian, West Ham–Stoke.
+
+## 28-nov 00:48 · Balance del 27-nov (+ noche del 26-nov)
+- 19 partidos del 27-nov + Pachuca–Chivas y León–Cruz Azul (26-nov noche) terminados y calificados con Sofascore (nuevo `recoleccion/sofascore_resultados.js` + `sofascore_resultados_a_repo.py`; tarjetas por incidentes: amarilla 1, roja directa 2, doble amarilla 3; las posteriores al pitazo no cuentan). Control remates y tiros al arco jugadores = equipo: 0 diferencias.
+- Equipo 5.002 líneas (2.498 cumplieron; «cumple» 85 % contra 40 % sin él; modelo calibrado). Jugador 7.418 (966). 0 líneas sin calificar salvo 18 de jugador de Montevideo City Torque–Nacional (sin tabla por jugador en Sofascore).
+- Combos: V1b, V2, V3 y lotería de 3 protecciones se dieron, V1 falló (fueras 1); BB Boost Forest–Chelsea 0/2 y León–Cruz Azul 0/2; combinada de 3 BB del usuario (5,30) se dio en 7 patas. Pronósticos Flashscore: 6 previas 0/6; noticia: Forest–Chelsea goles Más 2,5 ✓.
+- Boletos del usuario SIN LEER (Betano sin sesión): sin plata del día; pendiente.
+- `calificar_jugadores.py`: apodos de una sola palabra («Nacho», «Zabi») casan si son ficha de un único jugador del plantel. Libro: hojas «Líneas/Sugeridas/Boletos 27-nov» + 2 lecciones.

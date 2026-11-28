@@ -64,6 +64,11 @@ def casar(nombre, plantel):
     m = casar_flashscore(nombre, plantel)
     if m:
         return m
+    # apodo de una sola palabra (Betano «Nacho», «Zabi»): si esa palabra es una ficha de UN solo jugador del plantel (28-nov)
+    if len(n) == 1 and len(n[0]) > 3:
+        un = [cand for cand in plantel if n[0] in norm(cand)]
+        if len(un) == 1:
+            return un[0]
     # variantes de escritura del apellido (Abdullazade/Abdullazada, Khaybulayev/Khaybulaev): apellido largo casi igual + la inicial coincide
     for cand in plantel:
         c = norm(cand)

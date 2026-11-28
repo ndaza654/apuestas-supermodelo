@@ -29,7 +29,21 @@
   "p": 0.22,
   "ev": -0.09,
   "nota": "cuotas Betano 26-nov 22:20 (una sola lectura, sin navegador hoy); p = modelo recortado multiplicado (patas de partidos distintos); verificar cuotas en el cupón",
-  "resultado": "pendiente"
+  "resultado": "falló",
+  "patas_real": [
+   [
+    true,
+    "6 puntos de tarjetas"
+   ],
+   [
+    true,
+    "6 goles"
+   ],
+   [
+    false,
+    "1 fueras de juego"
+   ]
+  ]
  },
  {
   "id": "V1b",
@@ -61,7 +75,21 @@
   "p": 0.21,
   "ev": -0.12,
   "nota": "misma lectura de cuotas",
-  "resultado": "pendiente"
+  "resultado": "cumplió",
+  "patas_real": [
+   [
+    true,
+    "6 puntos de tarjetas"
+   ],
+   [
+    true,
+    "6 goles"
+   ],
+   [
+    true,
+    "9 tiros al arco"
+   ]
+  ]
  },
  {
   "id": "V2",
@@ -93,7 +121,21 @@
   "p": 0.22,
   "ev": -0.09,
   "nota": "cuotas 26-nov 22:20",
-  "resultado": "pendiente"
+  "resultado": "cumplió",
+  "patas_real": [
+   [
+    true,
+    "4 puntos de tarjetas (local)"
+   ],
+   [
+    true,
+    "3 córners (local)"
+   ],
+   [
+    true,
+    "5 puntos de tarjetas"
+   ]
+  ]
  },
  {
   "id": "V3",
@@ -125,6 +167,20 @@
   "p": 0.24,
   "ev": -0.18,
   "nota": "cuotas 26-nov 22:20",
-  "resultado": "pendiente"
+  "resultado": "cumplió",
+  "patas_real": [
+   [
+    true,
+    "3 goles (local)"
+   ],
+   [
+    true,
+    "9 tiros al arco"
+   ],
+   [
+    true,
+    "8 tiros al arco (visitante)"
+   ]
+  ]
  }
 ]
